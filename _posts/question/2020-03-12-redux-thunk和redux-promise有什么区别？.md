@@ -19,7 +19,7 @@ topic: React.js
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这两个软件包之间的主要区别是什么？</font><font style="vertical-align: inherit;">在单个页面react应用程序中使用这两个软件包是否有任何好处，或者坚持redux-thunk就足够了？  </font></font></p></div>
     {% endraw %}
   </div>
-
+  <p style="height: 0;width:0;overflow: hidden;"> 第1259篇《redux-thunk和redux-promise有什么区别？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}

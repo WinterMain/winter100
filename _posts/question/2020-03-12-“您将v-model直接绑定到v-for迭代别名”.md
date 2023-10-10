@@ -32,7 +32,7 @@ topic: Vue.js
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">错误消息似乎表明我实际上需要使事情稍微复杂一些，并使用对象而不是简单的字符串，这在我看来不对。</font><font style="vertical-align: inherit;">我想念什么吗？</font></font></p></div>
     {% endraw %}
   </div>
-
+  <p style="height: 0;width:0;overflow: hidden;"> 第928篇《“您将v-model直接绑定到v-for迭代别名”》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}

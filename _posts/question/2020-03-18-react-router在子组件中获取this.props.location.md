@@ -25,7 +25,7 @@ topic: React.js
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我以为</font></font><code>this.context.router</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">会有一些与路线有关的信息，但</font></font><code>this.context.router</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">似乎只有一些功能可以操纵路线。</font></font></p></div>
     {% endraw %}
   </div>
-
+  <p style="height: 0;width:0;overflow: hidden;"> 第2161篇《react-router在子组件中获取this.props.location》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}

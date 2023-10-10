@@ -21,7 +21,7 @@ topic: JavaScript
 <pre class="lang-js prettyprint prettyprinted" style=""><code><span class="kwd">this</span><span class="pun">.</span><span class="pln">vertical </span><span class="pun">=</span><span class="pln"> vertical </span><span class="pun">!==</span><span class="pln"> </span><span class="kwd">undefined</span><span class="pln"> </span><span class="pun">?</span><span class="pln"> </span><span class="pun">!!</span><span class="pln">vertical </span><span class="pun">:</span><span class="pln"> </span><span class="kwd">this</span><span class="pun">.</span><span class="pln">vertical</span><span class="pun">;</span></code></pre></div>
     {% endraw %}
   </div>
-
+  <p style="height: 0;width:0;overflow: hidden;"> 第158篇《是什么 ！！（不是）JavaScript中的运算符？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}

@@ -17,7 +17,7 @@ topic: Bootstrap
     <div class="article-content"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我已经使用Vuejs开发前端，现在必须对其进行样式设置。</font><font style="vertical-align: inherit;">我遇到了   </font></font><a href="https://bootstrap-vue.js.org/docs/" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Bootstrap-vue</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font><font style="vertical-align: inherit;">最好使用Bootstrap 4或Bootstrap-vue。</font><font style="vertical-align: inherit;">它们是相同的还是使用Bootstap-vue有优势。</font></font></p></div>
     {% endraw %}
   </div>
-
+  <p style="height: 0;width:0;overflow: hidden;"> 第1018篇《Bootstrap-Vue和Bootstrap 4之间的比较》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}

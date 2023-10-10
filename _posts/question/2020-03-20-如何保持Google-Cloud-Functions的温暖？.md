@@ -25,7 +25,7 @@ topic: React.js
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">另一种方法是一起避免冷启动。</font><font style="vertical-align: inherit;">从本质上讲，我可以（仅一个）保持云功能的温暖，这是什么好方法呢？</font></font></p></div>
     {% endraw %}
   </div>
-
+  <p style="height: 0;width:0;overflow: hidden;"> 第2537篇《如何保持Google Cloud Functions的温暖？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}

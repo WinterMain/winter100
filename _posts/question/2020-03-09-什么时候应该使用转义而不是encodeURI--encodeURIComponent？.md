@@ -31,7 +31,7 @@ encodeURIComponent("var1=value1&amp;var2=value2");<font></font>
 </code></pre></div>
     {% endraw %}
   </div>
-
+  <p style="height: 0;width:0;overflow: hidden;"> 第267篇《什么时候应该使用转义而不是encodeURI / encodeURIComponent？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}

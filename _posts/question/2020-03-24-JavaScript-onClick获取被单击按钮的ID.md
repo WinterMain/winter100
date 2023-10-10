@@ -26,7 +26,7 @@ function reply_click()<font></font>
 </code></pre></div>
     {% endraw %}
   </div>
-
+  <p style="height: 0;width:0;overflow: hidden;"> 第3602篇《JavaScript-onClick获取被单击按钮的ID》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}

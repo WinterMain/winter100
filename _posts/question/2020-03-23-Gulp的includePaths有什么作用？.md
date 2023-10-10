@@ -49,7 +49,7 @@ gulp.task('default', function () {<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">令我困惑的是究竟是什么</font></font><code>includePaths</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">？</font><font style="vertical-align: inherit;">根据上面的示例，有人可以向我解释什么</font></font><code>includePath</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">是角色？</font></font></p></div>
     {% endraw %}
   </div>
-
+  <p style="height: 0;width:0;overflow: hidden;"> 第2925篇《Gulp的includePaths有什么作用？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}

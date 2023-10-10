@@ -91,7 +91,7 @@ export default AddTodo<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">所以我的问题是，有没有mapStateToProps可以做mapDispatchToProps吗？</font><font style="vertical-align: inherit;">我想做的是一种可接受的做法吗？如果没有，为什么呢？</font></font></p></div>
     {% endraw %}
   </div>
-
+  <p style="height: 0;width:0;overflow: hidden;"> 第1459篇《我可以在Redux中使用没有mapStateToProps的mapDispatchToProps吗？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}

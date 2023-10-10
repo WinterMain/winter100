@@ -27,7 +27,7 @@ browserHistory.push('/some/path');<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我正在寻找</font><font style="vertical-align: inherit;">v4中</font><font style="vertical-align: inherit;">的</font></font><a href="https://github.com/ReactTraining/react-router/blob/ab4552d2ea0ec5c0cf3c534bca654a1af3ea0dec/docs/guides/NavigatingOutsideOfComponents.md" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">NavigatingOutsideOfComponents</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">的等效项</font></font></p></div>
     {% endraw %}
   </div>
-
+  <p style="height: 0;width:0;overflow: hidden;"> 第1175篇《如何获取react-router v4的历史记录？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}

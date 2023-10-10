@@ -28,7 +28,7 @@ npm install --save react react-dom<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">但是它引发了上述错误，在我将其推送到github的其他系统上也可以正常工作。</font><font style="vertical-align: inherit;">但是克隆Windows或Mac后，它在任何其他系统上均不起作用。</font></font></p></div>
     {% endraw %}
   </div>
-
+  <p style="height: 0;width:0;overflow: hidden;"> 第903篇《sh：react-scripts：运行npm start后找不到命令》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}

@@ -24,7 +24,7 @@ topic: JavaScript
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">）与将其放入</font></font><code>onclick</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">属性（</font><font style="vertical-align: inherit;">将其</font><font style="vertical-align: inherit;">绑定到</font></font><code>onclick</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">事件）？</font></font></p></div>
     {% endraw %}
   </div>
-
+  <p style="height: 0;width:0;overflow: hidden;"> 第1436篇《href与onclick中的JavaScript函数》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}

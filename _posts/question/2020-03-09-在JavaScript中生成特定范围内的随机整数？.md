@@ -17,7 +17,7 @@ topic: JavaScript
     <div class="article-content"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如何在JavaScript中的两个指定变量之间生成随机整数，例如</font></font><code>x = 4</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，</font></font><code>y = 8</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">并输出以下任何内容</font></font><code>4, 5, 6, 7, 8</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">？</font></font></p></div>
     {% endraw %}
   </div>
-
+  <p style="height: 0;width:0;overflow: hidden;"> 第218篇《在JavaScript中生成特定范围内的随机整数？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}

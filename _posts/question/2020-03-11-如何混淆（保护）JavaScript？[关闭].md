@@ -41,7 +41,7 @@ topic: JavaScript
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我想制作一个不是开源的JavaScript应用程序，因此我想学习如何混淆我的JS代码？</font><font style="vertical-align: inherit;">这可能吗？</font></font></p></div>
     {% endraw %}
   </div>
-
+  <p style="height: 0;width:0;overflow: hidden;"> 第648篇《如何混淆（保护）JavaScript？[关闭]》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}

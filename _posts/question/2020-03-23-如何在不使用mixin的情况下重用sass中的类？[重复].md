@@ -45,7 +45,7 @@ topic: CSS
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">但它不起作用，因为btn应该是一个mixin，并且它是Twitter Bootstrap类。</font></font></p></div>
     {% endraw %}
   </div>
-
+  <p style="height: 0;width:0;overflow: hidden;"> 第2598篇《如何在不使用mixin的情况下重用sass中的类？[重复]》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}

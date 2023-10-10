@@ -17,7 +17,7 @@ topic: HTML
     <div class="article-content"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">有没有一种方法可以在Markdown中创建在新窗口中打开的链接？</font><font style="vertical-align: inherit;">如果没有，建议您使用哪种语法。</font><font style="vertical-align: inherit;">我将其添加到我使用的markdown编译器中。</font><font style="vertical-align: inherit;">我认为这应该是一个选择。</font></font></p></div>
     {% endraw %}
   </div>
-
+  <p style="height: 0;width:0;overflow: hidden;"> 第2481篇《我可以在Markdown中使用“ target =“ _ blank””创建链接吗？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}

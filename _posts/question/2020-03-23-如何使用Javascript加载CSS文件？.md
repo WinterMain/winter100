@@ -19,7 +19,7 @@ topic: CSS
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">附言：JavaScript将托管在我的网站上，但我希望用户能够放入</font></font><code>&lt;head&gt;</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">其网站</font><font style="vertical-align: inherit;">的</font><font style="vertical-align: inherit;">标签，并且它应该能够将托管在我的服务器上的CSS文件导入当前网页。</font><font style="vertical-align: inherit;">（css文件和javascript文件都将托管在我的服务器上）。</font></font></p></div>
     {% endraw %}
   </div>
-
+  <p style="height: 0;width:0;overflow: hidden;"> 第2879篇《如何使用Javascript加载CSS文件？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}

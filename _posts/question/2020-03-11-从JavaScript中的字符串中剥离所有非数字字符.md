@@ -24,7 +24,7 @@ topic: JavaScript
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">您将如何用纯JavaScript实现此目标？</font><font style="vertical-align: inherit;">请记住，这是一个非DOM方案，因此jQuery和其他涉及浏览器和按键事件的解决方案都不适合。</font></font></p></div>
     {% endraw %}
   </div>
-
+  <p style="height: 0;width:0;overflow: hidden;"> 第724篇《从JavaScript中的字符串中剥离所有非数字字符》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}

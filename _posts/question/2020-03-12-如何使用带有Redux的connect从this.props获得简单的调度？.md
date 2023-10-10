@@ -87,7 +87,7 @@ var Route = (<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">[mapDispatchToProps]</font></font></p></div>
     {% endraw %}
   </div>
-
+  <p style="height: 0;width:0;overflow: hidden;"> 第1046篇《如何使用带有Redux的connect从this.props获得简单的调度？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}

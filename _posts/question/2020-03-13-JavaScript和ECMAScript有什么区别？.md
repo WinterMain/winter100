@@ -17,7 +17,7 @@ topic: JavaScript
     <div class="article-content"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">ECMAScript和JavaScript有什么区别？</font><font style="vertical-align: inherit;">根据我的推论，ECMAScript是标准，JavaScript是实现。</font><font style="vertical-align: inherit;">它是否正确？</font></font></p></div>
     {% endraw %}
   </div>
-
+  <p style="height: 0;width:0;overflow: hidden;"> 第1439篇《JavaScript和ECMAScript有什么区别？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}

@@ -17,7 +17,7 @@ topic: CSS
     <div class="article-content"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">使用Chrome的devtools检查元素时，在“元素”标签中，右侧的“样式”栏显示了相应的CSS属性。</font><font style="vertical-align: inherit;">有时，其中某些属性会被删除。</font><font style="vertical-align: inherit;">这些属性是什么意思？</font></font></p></div>
     {% endraw %}
   </div>
-
+  <p style="height: 0;width:0;overflow: hidden;"> 第3320篇《Google Chrome devtools中的交叉样式属性是什么意思？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}

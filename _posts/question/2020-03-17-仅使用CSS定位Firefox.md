@@ -26,7 +26,7 @@ topic: CSS
 <p><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">注意：</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我正在寻找一种“干净”的解决方案。</font><font style="vertical-align: inherit;">在我看来，使用JavaScript浏览器嗅探器向HTML添加“ firefox”类并不符合要求。</font><font style="vertical-align: inherit;">我希望看到一些依赖于浏览器功能的内容，就像条件注释只是IE的“特殊”……</font></font></p></div>
     {% endraw %}
   </div>
-
+  <p style="height: 0;width:0;overflow: hidden;"> 第1897篇《仅使用CSS定位Firefox》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}

@@ -20,7 +20,7 @@ topic: JavaScript
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我已经看过</font></font><code>href</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">很多次了，但是我不知道那是什么意思。</font></font></p></div>
     {% endraw %}
   </div>
-
+  <p style="height: 0;width:0;overflow: hidden;"> 第275篇《“ javascript：void（0）”是什么意思？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}

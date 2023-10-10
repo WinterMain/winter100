@@ -52,7 +52,7 @@ topic: JavaScript
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果我要添加另一个控制器，</font></font><code>DateCtrl</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">它将特定格式的日期返回给</font></font><code>MessageCtrl</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，那么该怎么做呢？</font><font style="vertical-align: inherit;">DI框架似乎与</font></font><code>XmlHttpRequests</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">服务有关。</font></font></p></div>
     {% endraw %}
   </div>
-
+  <p style="height: 0;width:0;overflow: hidden;"> 第937篇《一个AngularJS控制器可以调用另一个吗？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}

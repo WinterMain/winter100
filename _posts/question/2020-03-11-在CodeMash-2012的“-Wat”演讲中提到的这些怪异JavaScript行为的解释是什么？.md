@@ -64,7 +64,7 @@ NaNNaNNaNNaNNaNNaNNaNNaNNaNNaNNaNNaNNaNNaNNaNNaN<font></font>
 <p>I suspect this is just straightforward behaviour that trying to subtract a number from a string results in NaN.</p></div>
     {% endraw %}
   </div>
-
+  <p style="height: 0;width:0;overflow: hidden;"> 第597篇《在CodeMash 2012的“ Wat”演讲中提到的这些怪异JavaScript行为的解释是什么？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}

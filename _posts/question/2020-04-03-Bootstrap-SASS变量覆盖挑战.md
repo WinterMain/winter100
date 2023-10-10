@@ -68,7 +68,7 @@ $text: $brand !default; // $text = red (desired behavior)<font></font>
 <p>So that solution is <strong><em>almost</em></strong> perfect. <strong><em>However</em></strong>, now in my override files, I don't have access to variables defined in Bootstrap's _variables.scss, which I would need if I wanted to define my variable overrides (or my own additional custom variables) using other Bootstrap variables. For example, I might want to do: <code>$custom-var: $grid-gutter-width / 2;</code></p></div>
     {% endraw %}
   </div>
-
+  <p style="height: 0;width:0;overflow: hidden;"> 第3914篇《Bootstrap SASS变量覆盖挑战》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}

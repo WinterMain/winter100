@@ -30,7 +30,7 @@ topic: JavaScript
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">有没有更简单或更优雅的方法？</font><font style="vertical-align: inherit;">如果它也可以与浮点数一起使用，那就太好了，但这不是必需的。</font><font style="vertical-align: inherit;">在句点和逗号之间进行决策不需要特定于区域设置。</font></font></p></div>
     {% endraw %}
   </div>
-
+  <p style="height: 0;width:0;overflow: hidden;"> 第231篇《如何在JavaScript中以逗号将数字打印为千位分隔符》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}

@@ -43,7 +43,7 @@ topic: CSS
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">所以这是我的问题：您可以禁用HTML上的文本选择吗？</font><font style="vertical-align: inherit;">如果没有，我将非常想念flash及其在文本字段上的高级配置...</font></font></p></div>
     {% endraw %}
   </div>
-
+  <p style="height: 0;width:0;overflow: hidden;"> 第3503篇《如何使用CSS或JavaScript禁用文本选择？[重复]》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}

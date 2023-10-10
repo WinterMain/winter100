@@ -32,7 +32,7 @@ topic: JavaScript
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我研究并考虑了许多JavaScript单元测试和测试工具，但一直无法找到合适的选项来保持与TDD的完全兼容。</font><font style="vertical-align: inherit;">那么，是否有一个完全符合TDD的JavaScript单元测试工具？</font></font></p></div>
     {% endraw %}
   </div>
-
+  <p style="height: 0;width:0;overflow: hidden;"> 第642篇《TDD的JavaScript单元测试工具》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}

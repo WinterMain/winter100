@@ -17,7 +17,7 @@ topic: CSS
     <div class="article-content"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如何配置罗盘以输出较小或压缩的CSS文件？</font><font style="vertical-align: inherit;">我尝试过，</font></font><code>compass -s compressed</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">但是没有用。</font></font></p></div>
     {% endraw %}
   </div>
-
+  <p style="height: 0;width:0;overflow: hidden;"> 第2506篇《如何从Compass输出压缩的CSS？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}

@@ -49,7 +49,7 @@ export class MyComponent extends Component {<font></font>
 <p>I’m guessing if I use any life cycle methods, it might be best to go with a class based component.</p></div>
     {% endraw %}
   </div>
-
+  <p style="height: 0;width:0;overflow: hidden;"> 第561篇《何时使用基于ES6类的React组件和功能性ES6 React组件？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}

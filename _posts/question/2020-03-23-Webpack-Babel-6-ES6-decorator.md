@@ -40,7 +40,7 @@ topic: Webpack
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我知道我总是可以降级到前一段时间使用过的babel 5.8，但是如果有任何方法可以使它在当前版本（v6.2.0）中运行，它将有所帮助。</font></font></p></div>
     {% endraw %}
   </div>
-
+  <p style="height: 0;width:0;overflow: hidden;"> 第2683篇《Webpack Babel 6 ES6 decorator》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}

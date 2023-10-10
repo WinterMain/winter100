@@ -42,7 +42,7 @@ topic: CSS
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">但是似乎</font></font><code>@extend</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">不喜欢这种方法，还有别的方法可以编写这种方法</font></font><code>h1</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">吗？</font></font></p></div>
     {% endraw %}
   </div>
-
+  <p style="height: 0;width:0;overflow: hidden;"> 第3632篇《SASS / SCSS @extend规则选择器》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}

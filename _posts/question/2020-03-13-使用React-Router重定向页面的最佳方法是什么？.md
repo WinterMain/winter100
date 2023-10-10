@@ -45,7 +45,7 @@ Foo.contextTypes = {<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我对所有这些选项感到困惑，是否有最佳的方法来重定向页面？</font></font></p></div>
     {% endraw %}
   </div>
-
+  <p style="height: 0;width:0;overflow: hidden;"> 第1394篇《使用React Router重定向页面的最佳方法是什么？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}

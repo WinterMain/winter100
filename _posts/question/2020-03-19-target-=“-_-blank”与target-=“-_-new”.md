@@ -17,7 +17,7 @@ topic: HTML
     <div class="article-content"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">什么之间的区别</font></font><code>&lt;a target="_new"&gt;</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，并</font></font><code>&lt;a target="_blank"&gt;</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">和我应该使用如果我只是想打开一个新标签/窗口的链接？</font></font></p></div>
     {% endraw %}
   </div>
-
+  <p style="height: 0;width:0;overflow: hidden;"> 第2281篇《target =“ _ blank”与target =“ _ new”》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}

@@ -53,7 +53,7 @@ E</span><span class="pun">:</span><span class="pln">\FinReporter\FM_EXT</span><s
   quote_df</span><span class="pun">[</span><span class="str">'TDate'</span><span class="pun">]</span><span class="pln">  </span><span class="pun">=</span><span class="pln"> quote_df</span><span class="pun">.</span><span class="typ">TDate</span><span class="pun">.</span><span class="pln">map</span><span class="pun">(</span><span class="kwd">lambda</span><span class="pln"> x</span><span class="pun">:</span><span class="pln"> x</span><span class="pun">[</span><span class="lit">0</span><span class="pun">:</span><span class="lit">4</span><span class="pun">]+</span><span class="pln">x</span><span class="pun">[</span><span class="lit">5</span><span class="pun">:</span><span class="lit">7</span><span class="pun">]+</span><span class="pln">x</span><span class="pun">[</span><span class="lit">8</span><span class="pun">:</span><span class="lit">10</span><span class="pun">])</span></code></pre></div>
     {% endraw %}
   </div>
-
+  <p style="height: 0;width:0;overflow: hidden;"> 第4266篇《如何处理Pandas中的SettingWithCopyWarning？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}

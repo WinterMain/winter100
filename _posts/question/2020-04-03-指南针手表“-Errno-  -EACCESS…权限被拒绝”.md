@@ -60,7 +60,7 @@ C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/compass-0.12.4/lib/compass/actions.rb:58
 <p>From doing some reading (<a href="https://github.com/chriseppstein/compass/issues/1406" rel="nofollow noreferrer">https://github.com/chriseppstein/compass/issues/1406</a>) I believe it's something to do with <strong>the permissions or PATH for 'Ruby' &amp; 'Ruby Gems'</strong> but I don't know what to do to resolve this.</p></div>
     {% endraw %}
   </div>
-
+  <p style="height: 0;width:0;overflow: hidden;"> 第4032篇《指南针手表“ Errno :: EACCESS…权限被拒绝”》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}

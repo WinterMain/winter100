@@ -57,7 +57,7 @@ But, it confuses me, since the results on google for this search show different 
 It's a pitty to see that people do not want to learn what is the better approach from the three different methods. This question is not actually on "How to check if a div exists" but it's about which method is better, and, if someone could explain, why it it better?</p></div>
     {% endraw %}
   </div>
-
+  <p style="height: 0;width:0;overflow: hidden;"> 第3418篇《用jQuery检查div是否存在[重复]》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}

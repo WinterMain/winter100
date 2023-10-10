@@ -29,7 +29,7 @@ topic: HTML
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我确定当您使用特殊的JavaScript库时，它会执行某些操作，但是除此之外，它是否可以验证HTML或出于其他原因而需要？</font></font></p></div>
     {% endraw %}
   </div>
-
+  <p style="height: 0;width:0;overflow: hidden;"> 第2811篇《HTML <label>标记中的“ for”属性有什么作用？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}

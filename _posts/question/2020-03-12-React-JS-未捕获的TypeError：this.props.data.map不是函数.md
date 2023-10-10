@@ -131,7 +131,7 @@ $(document).on("page:change", function() {<font></font>
 </code></pre></div>
     {% endraw %}
   </div>
-
+  <p style="height: 0;width:0;overflow: hidden;"> 第1121篇《React JS-未捕获的TypeError：this.props.data.map不是函数》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}

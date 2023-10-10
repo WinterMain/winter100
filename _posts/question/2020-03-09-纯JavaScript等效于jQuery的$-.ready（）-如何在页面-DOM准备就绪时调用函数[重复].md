@@ -60,7 +60,7 @@ topic: JavaScript
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">什么是跨浏览器（旧/新）兼容方法以jQuery的方式发布一个或多个函数</font></font><code>$.ready()</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">？</font></font></p></div>
     {% endraw %}
   </div>
-
+  <p style="height: 0;width:0;overflow: hidden;"> 第284篇《纯JavaScript等效于jQuery的$ .ready（）-如何在页面/ DOM准备就绪时调用函数[重复]》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}

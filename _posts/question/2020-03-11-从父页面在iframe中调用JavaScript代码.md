@@ -21,7 +21,7 @@ topic: JavaScript
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">请注意，我的问题是不会改变的源</font></font><a href="http://en.wikipedia.org/wiki/Uniform_Resource_Locator" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">URL</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">的</font></font><code>iframe</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，但是调用在定义的函数</font></font><code>iframe</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p></div>
     {% endraw %}
   </div>
-
+  <p style="height: 0;width:0;overflow: hidden;"> 第855篇《从父页面在iframe中调用JavaScript代码》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}

@@ -37,7 +37,7 @@ topic: Node.js
 <p><a href="https://www.samyoc.com//uploads/users/24357/images/thumbnails/1584926551689.png" data-src="https://www.samyoc.com//uploads/users/24357/images/1584926551689.png" rel="noreferrer"><img src="https://i.stack.imgur.com/doHqt.png" alt="错误2"></a></p></div>
     {% endraw %}
   </div>
-
+  <p style="height: 0;width:0;overflow: hidden;"> 第2583篇《npm安装错误-MSB3428：无法加载Visual C ++组件“ VCBuild.exe”》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}

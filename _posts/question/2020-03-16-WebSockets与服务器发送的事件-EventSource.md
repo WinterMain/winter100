@@ -17,7 +17,7 @@ topic: HTML
     <div class="article-content"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">双方</font></font><a href="http://dev.w3.org/html5/websockets/" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">的WebSockets</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">和</font></font><a href="https://html.spec.whatwg.org/multipage/server-sent-events.html#server-sent-events" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">服务器发送的事件</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">能够将数据推送到浏览器。</font><font style="vertical-align: inherit;">在我看来，它们似乎是竞争技术。</font><font style="vertical-align: inherit;">它们之间有什么区别？</font><font style="vertical-align: inherit;">您何时会选择一个？</font></font></p></div>
     {% endraw %}
   </div>
-
+  <p style="height: 0;width:0;overflow: hidden;"> 第1834篇《WebSockets与服务器发送的事件/ EventSource》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}

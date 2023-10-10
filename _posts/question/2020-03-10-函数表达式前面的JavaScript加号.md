@@ -22,7 +22,7 @@ topic: JavaScript
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">有人可以向我解释</font></font><code>+</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">该功能前面</font><font style="vertical-align: inherit;">的</font><font style="vertical-align: inherit;">符号的含义/含义吗？</font></font></p></div>
     {% endraw %}
   </div>
-
+  <p style="height: 0;width:0;overflow: hidden;"> 第434篇《函数表达式前面的JavaScript加号》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}

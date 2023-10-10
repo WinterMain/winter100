@@ -41,7 +41,7 @@ topic: React.js
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在Next.js存储库中，有一个关于firbease auth的示例，该示例现在已注释掉了服务器端数据的获取。</font><font style="vertical-align: inherit;">即使未注释掉它也不检查用户权限，如果找到用户，它也会直接获取数据</font></font><a href="https://github.com/zeit/next.js/tree/canary/examples/with-firebase-authentication" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">https://github.com/zeit/next.js/tree/canary/examples/with-firebase认证</font></font></a></p></div>
     {% endraw %}
   </div>
-
+  <p style="height: 0;width:0;overflow: hidden;"> 第3040篇《Firebase + Nextjs-用户会话共享》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}

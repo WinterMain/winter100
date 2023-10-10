@@ -19,7 +19,7 @@ topic: Webpack
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">有人可以解释一下所有这些之间的区别以及为什么我的项目需要所有这些吗？</font><font style="vertical-align: inherit;">难道没有任何一个依赖可以取代它们吗？</font><font style="vertical-align: inherit;">如果它们是如此重要，为什么将它们包含为   </font></font><code>devDependencies</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">？</font></font></p></div>
     {% endraw %}
   </div>
-
+  <p style="height: 0;width:0;overflow: hidden;"> 第3644篇《babel vs babel-core vs babel-loader vs babel-preset-2015 vs babel-preset-react vs babel-polyfill》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}

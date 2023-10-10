@@ -47,7 +47,7 @@ topic: Node.js
 <p><code>npm</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">依然屹立遥远，但</font></font><code>bower</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">并</font></font><code>volo</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">似乎正好解决同样的问题，虽然我不是能画之间的线路</font></font><code>npm</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">和</font></font><code>bower-volo</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p></div>
     {% endraw %}
   </div>
-
+  <p style="height: 0;width:0;overflow: hidden;"> 第3531篇《JavaScript依赖性管理：npm vs. bower vs. volo [关闭]》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}

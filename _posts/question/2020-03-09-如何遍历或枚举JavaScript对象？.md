@@ -27,7 +27,7 @@ topic: JavaScript
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我可以根据需要修改JavaScript对象。</font><font style="vertical-align: inherit;">我的最终目标是遍历一些键值对，如果可能的话，我想避免使用</font></font><code>eval</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p></div>
     {% endraw %}
   </div>
-
+  <p style="height: 0;width:0;overflow: hidden;"> 第168篇《如何遍历或枚举JavaScript对象？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}

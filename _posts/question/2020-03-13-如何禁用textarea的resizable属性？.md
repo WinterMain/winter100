@@ -21,7 +21,7 @@ topic: HTML
 <p><a href="https://www.samyoc.com//uploads/users/555/images/thumbnails/1584085818315.png" data-src="https://www.samyoc.com//uploads/users/555/images/1584085818315.png" rel="noreferrer"><img src="https://i.stack.imgur.com/xrfWQ.png" alt="在此处输入图片说明"></a></p></div>
     {% endraw %}
   </div>
-
+  <p style="height: 0;width:0;overflow: hidden;"> 第1416篇《如何禁用textarea的resizable属性？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}

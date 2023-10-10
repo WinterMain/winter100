@@ -17,7 +17,7 @@ topic: HTML
     <div class="article-content"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我有一些格式很差的HTML代码，我想重新格式化。</font><font style="vertical-align: inherit;">是否有一个命令可以自动在Sublime Text 2中重新格式化HTML代码，使其看起来更好并且更易于阅读？</font></font></p></div>
     {% endraw %}
   </div>
-
+  <p style="height: 0;width:0;overflow: hidden;"> 第1570篇《如何使用Sublime Text 2重新格式化HTML代码？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}

@@ -23,7 +23,7 @@ topic: React.js
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">似乎React取决于浏览器有很多事件处理策略。</font><font style="vertical-align: inherit;">有什么通用的方法可以触发特定DOM元素的更改事件，以便React可以听到吗？</font></font></p></div>
     {% endraw %}
   </div>
-
+  <p style="height: 0;width:0;overflow: hidden;"> 第1134篇《在React JS中触发onchange事件的最佳方法是什么》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}

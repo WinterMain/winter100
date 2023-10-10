@@ -53,7 +53,7 @@ $<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这似乎是基于curl的输出发送JSON对象，类似于上面的第一个示例。</font><font style="vertical-align: inherit;">但是，当在终端上再次使用curl时，在主体的末端没有换行符。</font><font style="vertical-align: inherit;">那么，如何使用node或node / express实际写下这样的内容并在末尾添加换行符呢？</font></font></p></div>
     {% endraw %}
   </div>
-
+  <p style="height: 0;width:0;overflow: hidden;"> 第1920篇《使用节点或Express返回JSON的正确方法》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}

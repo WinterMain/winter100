@@ -45,7 +45,7 @@ topic: CSS
 <p>Is there a way to display the image the same way that <code>background-size: cover</code> does?</p></div>
     {% endraw %}
   </div>
-
+  <p style="height: 0;width:0;overflow: hidden;"> 第3994篇《是否有等效于background-size的图像元素：Cover和Contain？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}

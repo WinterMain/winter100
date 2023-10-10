@@ -23,7 +23,7 @@ Class.prototype.method = function () { /* code using this.values */ }<font></fon
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">是否可以将第一条语句视为静态方法的声明，而将第二条语句视为实例方法的声明，可以吗？</font></font></p></div>
     {% endraw %}
   </div>
-
+  <p style="height: 0;width:0;overflow: hidden;"> 第1248篇《JavaScript：Class.method与Class.prototype.method》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}

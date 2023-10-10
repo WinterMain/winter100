@@ -17,7 +17,7 @@ topic: JavaScript
     <div class="article-content"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">有谁知道一种简单的方法来从</font></font><a href="http://jquery.com/" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">jQuery的</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">字符串中转义HTML </font><font style="vertical-align: inherit;">？</font><font style="vertical-align: inherit;">我需要能够传递任意字符串并正确地对其进行转义以显示在HTML页面中（防止JavaScript / HTML注入攻击）。</font><font style="vertical-align: inherit;">我敢肯定可以扩展jQuery来做到这一点，但是目前我对框架还不了解。</font></font></p></div>
     {% endraw %}
   </div>
-
+  <p style="height: 0;width:0;overflow: hidden;"> 第857篇《使用jQuery转义HTML字符串》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}

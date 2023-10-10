@@ -22,7 +22,7 @@ topic: TypeScript
 alert</span><span class="pun">(</span><span class="kwd">new</span><span class="pln"> </span><span class="typ">Test</span><span class="pun">().</span><span class="pln">member</span><span class="pun">);</span></code></pre></div>
     {% endraw %}
   </div>
-
+  <p style="height: 0;width:0;overflow: hidden;"> 第4203篇《为什么我不能访问TypeScript私有成员？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}

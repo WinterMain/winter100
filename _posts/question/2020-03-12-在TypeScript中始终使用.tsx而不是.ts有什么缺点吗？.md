@@ -17,7 +17,7 @@ topic: JavaScript
     <div class="article-content"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我只是开始使用Typescript进行react项目，并问自己应该如何处理常规类文件？</font><font style="vertical-align: inherit;">我应该使用.ts还是.tsx文件，然后我找不到任何理由始终不使用.tsx文件，即使它不是React项目！</font><font style="vertical-align: inherit;">有什么原因或特定情况我们不应该使用.tsx文件？</font><font style="vertical-align: inherit;">如果没有，为什么TypeScript团队要添加全新的扩展名？</font></font></p></div>
     {% endraw %}
   </div>
-
+  <p style="height: 0;width:0;overflow: hidden;"> 第1178篇《在TypeScript中始终使用.tsx而不是.ts有什么缺点吗？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}

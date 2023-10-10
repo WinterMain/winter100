@@ -24,7 +24,7 @@ topic: HTML
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">看</font></font><a href="http://code.google.com/apis/maps/documentation/v3/reference.html" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Reference API</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，对我来说还不清楚。</font></font></p></div>
     {% endraw %}
   </div>
-
+  <p style="height: 0;width:0;overflow: hidden;"> 第2486篇《Google Maps API v3：如何删除所有标记？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}

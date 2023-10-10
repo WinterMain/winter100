@@ -93,7 +93,7 @@ index.ios.js:57 Object {name: 'FeedView', component: function}<font></font>
 <p>What I want to achieve is something similar to <a href="http://facebook.github.io/react-native/docs/navigatorios.html#content" rel="noreferrer"><code>NavigatorIOS</code></a> but without the navigation bar (however some views will have their own custom navigation bar).</p></div>
     {% endraw %}
   </div>
-
+  <p style="height: 0;width:0;overflow: hidden;"> 第658篇《使用React-Native中的Navigator组件进行自定义导航》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}

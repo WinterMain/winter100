@@ -21,7 +21,7 @@ topic: HTML
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我知道这基本上会将GitHub置于静态内容托管业务中，但是话又说回来，他们只需要将其mime类型从更改为</font></font><a href="https://raw.github.com/jquery/jquery/master/test/index.html" rel="noreferrer"><code>text/plain</code></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">即可</font></font><code>text/html</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p></div>
     {% endraw %}
   </div>
-
+  <p style="height: 0;width:0;overflow: hidden;"> 第3422篇《我可以直接从GitHub运行HTML文件，而不仅仅是查看其源代码吗？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}

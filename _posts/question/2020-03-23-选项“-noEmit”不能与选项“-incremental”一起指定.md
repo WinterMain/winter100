@@ -71,7 +71,7 @@ topic: React.js
 <p><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Next.js</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">自动</font><font style="vertical-align: inherit;">在</font><font style="vertical-align: inherit;">文件中</font><font style="vertical-align: inherit;">注入</font></font><em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">“ noEmit：true”</font></font></em><font style="vertical-align: inherit;"></font><code>tsconfig.json</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font><font style="vertical-align: inherit;">虽然我确实需要增量模式才能更快地构建。</font><font style="vertical-align: inherit;">有什么解决方案？</font></font></p></div>
     {% endraw %}
   </div>
-
+  <p style="height: 0;width:0;overflow: hidden;"> 第3038篇《选项“ noEmit”不能与选项“ incremental”一起指定》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}

@@ -17,7 +17,7 @@ topic: JavaScript
     <div class="article-content"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">众所周知，JavaScript在所有现代浏览器实现中都是单线程的，但是它是在任何标准中指定的，还是仅根据传统？</font><font style="vertical-align: inherit;">假设JavaScript始终是单线程的，是否完全安全？</font></font></p></div>
     {% endraw %}
   </div>
-
+  <p style="height: 0;width:0;overflow: hidden;"> 第862篇《是否保证JavaScript是单线程的？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}

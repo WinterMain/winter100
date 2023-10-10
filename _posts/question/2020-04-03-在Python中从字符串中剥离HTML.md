@@ -25,7 +25,7 @@ for line in html:<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">当在HTML文件中打印一行时，我试图找到一种仅显示每个HTML元素的内容而不显示格式本身的方法。</font><font style="vertical-align: inherit;">如果找到</font></font><code>'&lt;a href="whatever.com"&gt;some text&lt;/a&gt;'</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，它将仅打印“某些文本”，</font></font><code>'&lt;b&gt;hello&lt;/b&gt;'</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">打印“ hello”，等等。如何去做呢？</font></font></p></div>
     {% endraw %}
   </div>
-
+  <p style="height: 0;width:0;overflow: hidden;"> 第3884篇《在Python中从字符串中剥离HTML》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}

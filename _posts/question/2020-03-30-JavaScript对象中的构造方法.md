@@ -17,7 +17,7 @@ topic: KoaJS
     <div class="article-content"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">JavaScript类/对象可以具有构造函数吗？</font><font style="vertical-align: inherit;">它们是如何创建的？</font></font></p></div>
     {% endraw %}
   </div>
-
+  <p style="height: 0;width:0;overflow: hidden;"> 第3833篇《JavaScript对象中的构造方法》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}

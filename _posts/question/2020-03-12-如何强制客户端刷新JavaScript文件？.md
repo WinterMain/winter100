@@ -21,7 +21,7 @@ topic: JavaScript
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">因为我确定我们不是第一个处理此问题的人，所以我认为我会将它扔给社区。</font><font style="vertical-align: inherit;">更新代码时，如何确保客户端更新其缓存？</font><font style="vertical-align: inherit;">如果您使用上述方法，是否正在使用简化更改的过程？</font></font></p></div>
     {% endraw %}
   </div>
-
+  <p style="height: 0;width:0;overflow: hidden;"> 第934篇《如何强制客户端刷新JavaScript文件？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}

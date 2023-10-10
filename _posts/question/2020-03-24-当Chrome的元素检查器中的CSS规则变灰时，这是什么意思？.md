@@ -17,7 +17,7 @@ topic: CSS
     <div class="article-content"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我正在</font></font><code>h2</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">使用Google Chrome浏览器的元素检查器检查网页上的元素，并且某些CSS规则（似乎已应用）显示为灰色。</font><font style="vertical-align: inherit;">删除线似乎表明一条规则已被覆盖，但是样式变灰是什么意思？</font></font></p></div>
     {% endraw %}
   </div>
-
+  <p style="height: 0;width:0;overflow: hidden;"> 第3677篇《当Chrome的元素检查器中的CSS规则变灰时，这是什么意思？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}

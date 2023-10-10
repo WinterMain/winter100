@@ -71,7 +71,7 @@ React.render(&lt;Todos /&gt;, document.body)<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我有一个待办事项数组，保持在父母的状态。</font><font style="vertical-align: inherit;">我想访问父项的状态，并从</font></font><code>TodoForm</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">的</font></font><code>handleClick</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">组件中</font><font style="vertical-align: inherit;">添加新的待办事项</font><font style="vertical-align: inherit;">。</font><font style="vertical-align: inherit;">我的想法是在父对象上执行setState，这将呈现新添加的待办事项。</font></font></p></div>
     {% endraw %}
   </div>
-
+  <p style="height: 0;width:0;overflow: hidden;"> 第1454篇《ReactJS：子组件内部父级上的setState》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}

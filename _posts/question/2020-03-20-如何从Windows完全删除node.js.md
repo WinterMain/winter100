@@ -17,7 +17,7 @@ topic: Node.js
     <div class="article-content"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我卸载了先前版本的node.js（0.8.11），并从node.js网站下载了最新版本0.10.24并进行了安装。</font><font style="vertical-align: inherit;">但是，在运行之后</font></font><code>node --version</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，它仍然表明我正在运行v0.8.11。</font><font style="vertical-align: inherit;">显然，在卸载过程中遗留了一些东西，这导致我尝试通过npm添加模块时遇到各种错误。</font><font style="vertical-align: inherit;">我已经看到了针对OSX和Linux的解决方案，但找不到Windows的任何东西。</font><font style="vertical-align: inherit;">我正在运行Windows 7 64位。</font></font></p></div>
     {% endraw %}
   </div>
-
+  <p style="height: 0;width:0;overflow: hidden;"> 第2493篇《如何从Windows完全删除node.js》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}

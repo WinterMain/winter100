@@ -54,7 +54,7 @@ r.private_stuff();<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我已经读过</font></font><a href="http://javascript.crockford.com/private.html" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Doug Crockford的文章</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">几次，但似乎公共方法不能调用“私有”方法，而外部可以调用“特权”方法。</font></font></p></div>
     {% endraw %}
   </div>
-
+  <p style="height: 0;width:0;overflow: hidden;"> 第1338篇《JavaScript私有方法》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}

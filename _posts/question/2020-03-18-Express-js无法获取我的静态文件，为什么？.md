@@ -38,7 +38,7 @@ default.css<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我正在使用</font></font><code>express 2.3.3</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">和</font></font><code>node 0.4.7</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font><font style="vertical-align: inherit;">我究竟做错了什么？</font></font></p></div>
     {% endraw %}
   </div>
-
+  <p style="height: 0;width:0;overflow: hidden;"> 第2140篇《Express-js无法获取我的静态文件，为什么？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}

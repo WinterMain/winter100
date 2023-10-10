@@ -36,7 +36,7 @@ topic: HTML
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我将Twitter Bootstrap模态用作向导窗口，并希望防止用户在模态之外单击或按Escape键时将其关闭。</font><font style="vertical-align: inherit;">相反，我希望在用户按下“完成”按钮时将其关闭。</font><font style="vertical-align: inherit;">我如何实现这种情况？</font></font></p></div>
     {% endraw %}
   </div>
-
+  <p style="height: 0;width:0;overflow: hidden;"> 第2439篇《防止在单击外部或按Escape键时Bootstrap Modal消失？[重复]》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}

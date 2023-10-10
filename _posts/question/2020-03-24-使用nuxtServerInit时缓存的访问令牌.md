@@ -59,7 +59,7 @@ export default function ({ app, store }) {<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">是否有更好的方法来处理此问题并防止访问令牌被缓存？</font><font style="vertical-align: inherit;">或者换句话说，如何防止将</font></font><code>accessToken</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">状态写入全局</font></font><code>__NUXT__</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">变量？</font></font></p></div>
     {% endraw %}
   </div>
-
+  <p style="height: 0;width:0;overflow: hidden;"> 第3485篇《使用nuxtServerInit时缓存的访问令牌》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}

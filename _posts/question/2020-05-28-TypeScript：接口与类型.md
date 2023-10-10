@@ -28,7 +28,7 @@ type X </span><span class="pun">=</span><span class="pln"> </span><span class="p
 </code></pre></div>
     {% endraw %}
   </div>
-
+  <p style="height: 0;width:0;overflow: hidden;"> 第4236篇《TypeScript：接口与类型》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}

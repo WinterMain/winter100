@@ -141,7 +141,7 @@ $.post( 'http://example.com/script.php', fd, handler );<font></font>
 <p>As you can see, the content type is wrong...</p></div>
     {% endraw %}
   </div>
-
+  <p style="height: 0;width:0;overflow: hidden;"> 第1330篇《如何在jQuery中发送带有Ajax请求的FormData对象？[重复]》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}

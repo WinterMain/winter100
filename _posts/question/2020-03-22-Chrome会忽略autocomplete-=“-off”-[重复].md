@@ -38,7 +38,7 @@ topic: HTML
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">尽管</font></font><code>input</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">字段和</font></font><code>form</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">具有</font></font><code>autocomplete="off"</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">属性</font><font style="vertical-align: inherit;">的</font><font style="vertical-align: inherit;">字段都存在</font><font style="vertical-align: inherit;">，但Chrome仍坚持显示该字段先前条目的下拉历史记录，这使标记框列表消失了。</font></font></p></div>
     {% endraw %}
   </div>
-
+  <p style="height: 0;width:0;overflow: hidden;"> 第2569篇《Chrome会忽略autocomplete =“ off” [重复]》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}

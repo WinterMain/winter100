@@ -54,7 +54,7 @@ var foo = function foo() { return 5; }<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">对类似问题（</font></font><a href="https://stackoverflow.com/questions/336859/javascript-var-functionname-function-vs-function-functionname"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">var functionName = function（）{}与function functionName（）{}</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">）</font><font style="vertical-align: inherit;">的回答有什么不</font><font style="vertical-align: inherit;">完全正确？</font></font></p></div>
     {% endraw %}
   </div>
-
+  <p style="height: 0;width:0;overflow: hidden;"> 第1328篇《函数表达式与JavaScript中的声明之间有什么区别？[重复]》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}

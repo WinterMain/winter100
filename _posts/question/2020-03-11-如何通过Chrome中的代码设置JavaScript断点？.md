@@ -17,7 +17,7 @@ topic: JavaScript
     <div class="article-content"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我想强制Chrome调试器</font></font><em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">通过代码</font></font></em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">或使用某种注释标签（例如）</font><font style="vertical-align: inherit;">来中断一行</font><em><font style="vertical-align: inherit;">代码</font></em></font><code>console.break()</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p></div>
     {% endraw %}
   </div>
-
+  <p style="height: 0;width:0;overflow: hidden;"> 第726篇《如何通过Chrome中的代码设置JavaScript断点？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}

@@ -30,7 +30,7 @@ topic: React.js
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">问题是：</font></font><strong><em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">return（）; </font><font style="vertical-align: inherit;">//这里有一些语法错误</font></font></em></strong></p></div>
     {% endraw %}
   </div>
-
+  <p style="height: 0;width:0;overflow: hidden;"> 第873篇《在react render函数中可以返回空吗？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}

@@ -47,7 +47,7 @@ ReactDOM.render(<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我的主要目标是每3秒更改一次状态（使用</font></font><code>setInterval()</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">），但由于它不起作用，因此我尝试了</font></font><code>setTimeout()</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，该方法也不起作用。</font><font style="vertical-align: inherit;">上面有灯吗？</font><font style="vertical-align: inherit;">谢谢！</font></font></p></div>
     {% endraw %}
   </div>
-
+  <p style="height: 0;width:0;overflow: hidden;"> 第1217篇《ReactJS：setTimeout（）不起作用？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}

@@ -30,7 +30,7 @@ topic: JavaScript
 URI：http：//test.localhost/test.js</font></font></pre></div>
     {% endraw %}
   </div>
-
+  <p style="height: 0;width:0;overflow: hidden;"> 第1438篇《JavaScript中的.trim（）在IE中不起作用》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}

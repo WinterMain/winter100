@@ -17,7 +17,7 @@ topic: React.js
     <div class="article-content"><p><font style="vertical-align: inherit;"></font><code>this.setState()</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">使用redux时</font><font style="vertical-align: inherit;">应该</font><font style="vertical-align: inherit;">使用吗？</font><font style="vertical-align: inherit;">还是应该一直在派遣行动并依靠道具？</font></font></p></div>
     {% endraw %}
   </div>
-
+  <p style="height: 0;width:0;overflow: hidden;"> 第996篇《使用redux时应该使用this.setState（）吗？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}

@@ -31,7 +31,7 @@ export default SafeString;<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我从未见过</font></font><code>export default</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font><font style="vertical-align: inherit;">是否有任何等效的东西</font></font><code>export default</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">更容易理解？</font></font></p></div>
     {% endraw %}
   </div>
-
+  <p style="height: 0;width:0;overflow: hidden;"> 第1074篇《什么是javascript中的“导出默认值”？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}

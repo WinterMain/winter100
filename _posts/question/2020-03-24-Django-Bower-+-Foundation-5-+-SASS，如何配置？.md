@@ -155,7 +155,7 @@ BOWER_INSTALLED_APPS = (<font></font>
 </code></pre></div>
     {% endraw %}
   </div>
-
+  <p style="height: 0;width:0;overflow: hidden;"> 第3269篇《Django-Bower + Foundation 5 + SASS，如何配置？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}

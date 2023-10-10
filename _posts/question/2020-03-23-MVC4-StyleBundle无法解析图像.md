@@ -52,7 +52,7 @@ topic: CSS
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">所以我的问题是</font><font style="vertical-align: inherit;">处理这种情况</font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">的正确方法</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">是</font><strong><font style="vertical-align: inherit;">什么</font></strong><font style="vertical-align: inherit;">？</font></font></p></div>
     {% endraw %}
   </div>
-
+  <p style="height: 0;width:0;overflow: hidden;"> 第3063篇《MVC4 StyleBundle无法解析图像》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}

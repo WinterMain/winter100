@@ -17,7 +17,7 @@ topic: JavaScript
     <div class="article-content"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">还有</font></font><code>insertBefore()</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在JavaScript，但我怎么能插入一个元素</font></font><em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">后，</font></font></em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">另一种元素，而不使用jQuery或其他库？</font></font></p></div>
     {% endraw %}
   </div>
-
+  <p style="height: 0;width:0;overflow: hidden;"> 第638篇《如何在不使用库的情况下在JavaScript中的另一个元素之后插入一个元素？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}

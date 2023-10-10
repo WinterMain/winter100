@@ -63,7 +63,7 @@ topic: Vue.js
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">当我执行以上代码时，我可以发现show属性已更改。</font><font style="vertical-align: inherit;">但是，v-if不会更新。</font><font style="vertical-align: inherit;">我们不能对v-if使用array [index]还是有其他原因？</font></font></p></div>
     {% endraw %}
   </div>
-
+  <p style="height: 0;width:0;overflow: hidden;"> 第2416篇《VueJS v-if = array [index]无法正常工作》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}

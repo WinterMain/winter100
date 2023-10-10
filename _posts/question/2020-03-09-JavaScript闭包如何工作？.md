@@ -34,7 +34,7 @@ topic: JavaScript
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我已经</font><font style="vertical-align: inherit;">在Wikipedia上</font><font style="vertical-align: inherit;">看到</font></font><a href="http://en.wikipedia.org/wiki/Scheme_%28programming_language%29" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">了Scheme示例</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，但是不幸的是它没有帮助。</font></font></p></div>
     {% endraw %}
   </div>
-
+  <p style="height: 0;width:0;overflow: hidden;"> 第132篇《JavaScript闭包如何工作？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}

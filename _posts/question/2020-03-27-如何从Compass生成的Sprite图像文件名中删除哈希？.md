@@ -17,7 +17,7 @@ topic: CSS
     <div class="article-content"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">指南针使用chunky_png渲染精灵。</font><font style="vertical-align: inherit;">它将哈希添加到文件的末尾以强制缓存下载新的图像精灵。</font><font style="vertical-align: inherit;">有没有办法关闭此缓存关闭？</font></font></p></div>
     {% endraw %}
   </div>
-
+  <p style="height: 0;width:0;overflow: hidden;"> 第3797篇《如何从Compass生成的Sprite图像文件名中删除哈希？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}

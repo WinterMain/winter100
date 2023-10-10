@@ -23,7 +23,7 @@ topic: JavaScript
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">有什么建议或想法吗？</font><font style="vertical-align: inherit;">理想情况下，我只想查看和编辑绑定到元素的事件，就像今天编辑DOM一样。</font></font></p></div>
     {% endraw %}
   </div>
-
+  <p style="height: 0;width:0;overflow: hidden;"> 第853篇《如何使用Firebug或类似工具调试JavaScript / jQuery事件绑定？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}

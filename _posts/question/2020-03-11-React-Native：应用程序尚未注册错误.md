@@ -21,7 +21,7 @@ topic: JavaScript
 <p><img src="https://www.samyoc.com//uploads/users/2143/images/thumbnails/1583900456568.png" data-src="https://www.samyoc.com//uploads/users/2143/images/1583900456568.png" alt=""></p></div>
     {% endraw %}
   </div>
-
+  <p style="height: 0;width:0;overflow: hidden;"> 第661篇《React-Native：应用程序尚未注册错误》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}

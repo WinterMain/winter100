@@ -27,7 +27,7 @@ obj1.merge(obj2);<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">有没有人为此提供脚本或知道内置的方式来执行此操作？</font><font style="vertical-align: inherit;">我不需要递归，也不需要合并函数，只需合并平面对象上的方法即可。</font></font></p></div>
     {% endraw %}
   </div>
-
+  <p style="height: 0;width:0;overflow: hidden;"> 第185篇《如何动态合并两个JavaScript对象的属性？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}

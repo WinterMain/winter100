@@ -28,7 +28,7 @@ topic: Webpack
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我不确定webpack配置的哪个部分正在转换或语法的目的是什么。</font><font style="vertical-align: inherit;">这是和谐的事情吗？</font><font style="vertical-align: inherit;">有人可以启发我吗？</font></font></p></div>
     {% endraw %}
   </div>
-
+  <p style="height: 0;width:0;overflow: hidden;"> 第2682篇《分配左侧的Javascript对象括号表示法（{Navigation} =）》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}

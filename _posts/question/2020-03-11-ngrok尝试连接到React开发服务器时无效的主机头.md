@@ -22,7 +22,7 @@ topic: React.js
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我相信默认情况下，React会阻止来自另一个来源的所有请求。</font><font style="vertical-align: inherit;">有什么想法吗？</font></font></p></div>
     {% endraw %}
   </div>
-
+  <p style="height: 0;width:0;overflow: hidden;"> 第652篇《ngrok尝试连接到React开发服务器时无效的主机头》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}

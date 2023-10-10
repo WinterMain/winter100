@@ -30,7 +30,7 @@ topic: HTML
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">用例示例：在</font></font><a href="http://twitter.com/signup" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Twitter Signup</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">页面上，</font></font><em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">用户名字</font></font></em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">段的值显示在其</font><font style="vertical-align: inherit;">下方</font><font style="vertical-align: inherit;">的URL“ </font></font><a href="http://twitter/" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">http：// twitter / </font></font></a><em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">username</font></font></em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> ”中。</font></font></p></div>
     {% endraw %}
   </div>
-
+  <p style="height: 0;width:0;overflow: hidden;"> 第2724篇《使用JQuery（立即）检测对<input type =“ text”>的所有更改》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}

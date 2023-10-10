@@ -44,7 +44,7 @@ TheArray.push(TheNewObject);<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">它在末尾添加TheNewObject。</font><font style="vertical-align: inherit;">我是否需要创建一个新数组，将TheNewObject添加到其中，然后遍历TheArray并将每个元素添加到该数组中？</font></font></p></div>
     {% endraw %}
   </div>
-
+  <p style="height: 0;width:0;overflow: hidden;"> 第1249篇《数组开头的javascript push元素[重复]》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}

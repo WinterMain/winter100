@@ -113,7 +113,7 @@ render() {<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">问题是，当应该已经安装了组件时（为什么从componentDidMount调用了它），为什么我会收到此错误？我认为一旦安装了组件，就可以安全地设置状态了？</font></font></p></div>
     {% endraw %}
   </div>
-
+  <p style="height: 0;width:0;overflow: hidden;"> 第1263篇《React-未安装组件上的setState（）》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}

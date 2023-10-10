@@ -112,7 +112,7 @@ I could send my JSON directly to a global Javascript variable:</p>
 <p>Are these my only options? Are one of these options better than the others? I know this is a pretty long question, but I wanted to show that I have tried to explore all my options. Any guidance would greatly be appreciated. </p></div>
     {% endraw %}
   </div>
-
+  <p style="height: 0;width:0;overflow: hidden;"> 第1332篇《AngularJS：使用异步数据初始化服务》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}

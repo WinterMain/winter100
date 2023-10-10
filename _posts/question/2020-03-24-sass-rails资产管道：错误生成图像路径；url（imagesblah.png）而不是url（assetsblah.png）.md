@@ -54,7 +54,7 @@ topic: CSS
 <p>This would probably work in production, but in development the /assets folder doesn't exist, so the <code>url(/images/delete.png)</code> directives result in unfound images.</p></div>
     {% endraw %}
   </div>
-
+  <p style="height: 0;width:0;overflow: hidden;"> 第3443篇《sass-rails资产管道：错误生成图像路径；url（/images/blah.png）而不是url（/assets/blah.png）》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}

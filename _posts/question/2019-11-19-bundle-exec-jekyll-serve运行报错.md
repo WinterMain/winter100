@@ -15,7 +15,7 @@ answer: 1
     <div class="article-content"><p>-bash: /usr/local/bin/bundle: /System/Library/Frameworks/Ruby.framework/Versions/2.3/usr/bin/ruby: bad interpreter: No such file or directory<br>&nbsp;</p><figure class="image"><img src="https://www.samyoc.com/uploads/users/1/images/1574134025421.png"></figure></div>
     {% endraw %}
   </div>
-
+  <p style="height: 0;width:0;overflow: hidden;"> 第127篇《bundle exec jekyll serve运行报错》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}

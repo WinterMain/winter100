@@ -17,7 +17,7 @@ topic: CSS
     <div class="article-content"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">为什么没有用于Twitter引导程序的精美文件元素上载按钮？</font><font style="vertical-align: inherit;">如果为上传按钮实现了蓝色主按钮，那就太好了。</font><font style="vertical-align: inherit;">甚至可以使用CSS精细化上传按钮吗？</font><font style="vertical-align: inherit;">（似乎是无法操纵的本机浏览器元素）</font></font></p></div>
     {% endraw %}
   </div>
-
+  <p style="height: 0;width:0;overflow: hidden;"> 第1902篇《Twitter Bootstrap表单文件元素上传按钮》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}

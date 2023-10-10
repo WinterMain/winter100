@@ -17,7 +17,7 @@ topic: CSS
     <div class="article-content"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">任何人都对如何计算CSS px或rem中的Photoshop字母间距有任何想法。</font><font style="vertical-align: inherit;">示例：我在Photoshop中有140个字母间距。</font><font style="vertical-align: inherit;">现在，在CSS上应该是什么？</font><font style="vertical-align: inherit;">还是有什么办法可以用sass做到这一点？</font></font></p></div>
     {% endraw %}
   </div>
-
+  <p style="height: 0;width:0;overflow: hidden;"> 第3630篇《如何计算css px或rem中的Photoshop字母间距？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}

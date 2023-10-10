@@ -36,7 +36,7 @@ topic: JavaScript
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">谁能让我知道如何仅使用JavaScript删除元素上的类？</font><font style="vertical-align: inherit;">请不要给我jQuery的答案，因为我无法使用它，对此我一无所知。</font></font></p></div>
     {% endraw %}
   </div>
-
+  <p style="height: 0;width:0;overflow: hidden;"> 第902篇《使用JavaScript从CSS元素中删除CSS类（不使用jQuery）》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}

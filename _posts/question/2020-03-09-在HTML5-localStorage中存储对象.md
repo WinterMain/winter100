@@ -61,7 +61,7 @@ Value of retrievedObject: [object Object]<font></font>
 <p>Update: The W3C eventually changed their minds about the structured-clone specification, and decided to change the spec to match the implementations.  See <a href="https://www.w3.org/Bugs/Public/show_bug.cgi?id=12111" rel="noreferrer">https://www.w3.org/Bugs/Public/show_bug.cgi?id=12111</a>. So this question is no longer 100% valid, but the answers still may be of interest.</p></div>
     {% endraw %}
   </div>
-
+  <p style="height: 0;width:0;overflow: hidden;"> 第182篇《在HTML5 localStorage中存储对象》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}

@@ -39,7 +39,7 @@ topic: HTML
 <p>it turns out that the problem was the non-standard quotes because I had copied the meta tag from a website that was using them, whoops</p></div>
     {% endraw %}
   </div>
-
+  <p style="height: 0;width:0;overflow: hidden;"> 第2805篇《如何在Mobile Safari上禁用视口缩放？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}

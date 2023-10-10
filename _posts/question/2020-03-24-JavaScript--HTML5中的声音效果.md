@@ -57,7 +57,7 @@ topic: HTML
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我还应该提到，我的测试环境是Ubuntu 9.10上的Firefox 3.5。</font><font style="vertical-align: inherit;">我尝试过的其他浏览器-Opera，Midori，Chromium和Epiphany-产生了不同的结果。</font><font style="vertical-align: inherit;">有些不玩任何东西，有些则抛出异常。</font></font></p></div>
     {% endraw %}
   </div>
-
+  <p style="height: 0;width:0;overflow: hidden;"> 第3248篇《JavaScript / HTML5中的声音效果》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}

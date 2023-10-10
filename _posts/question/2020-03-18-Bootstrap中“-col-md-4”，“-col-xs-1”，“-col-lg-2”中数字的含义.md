@@ -32,7 +32,7 @@ col-xs-*<font></font>
 </ol></div>
     {% endraw %}
   </div>
-
+  <p style="height: 0;width:0;overflow: hidden;"> 第2199篇《Bootstrap中“ col-md-4”，“ col-xs-1”，“ col-lg-2”中数字的含义》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}

@@ -35,7 +35,7 @@ topic: React.js
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这种思路是正确的吗？</font><font style="vertical-align: inherit;">现有应用程序已经有几十个页面（按照Next.js的建议通过文件夹“静态”设置，并根据需要在server.js中重新路由以进行动态路由）。</font><font style="vertical-align: inherit;">有没有更好的方法来迁移此设置？</font><font style="vertical-align: inherit;">或者也许我一开始不需要Nextjs？</font></font></p></div>
     {% endraw %}
   </div>
-
+  <p style="height: 0;width:0;overflow: hidden;"> 第3743篇《如何在NextJS + React中使用api生成的内容创建用户可定制的动态url？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}

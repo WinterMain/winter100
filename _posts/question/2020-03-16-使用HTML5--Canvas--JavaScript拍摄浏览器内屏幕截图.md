@@ -22,7 +22,7 @@ topic: HTML
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">他们是如何做到的？</font><font style="vertical-align: inherit;">Google的JavaScript反馈API已从</font></font><a href="https://ssl.gstatic.com/feedback/api.js" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">此处</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">加载</font><font style="vertical-align: inherit;">，</font></font><a href="http://www.google.com/tools/feedback/intl/en/learnmore.html" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">它们对反馈模块的概述</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">将演示屏幕截图功能。</font></font></p></div>
     {% endraw %}
   </div>
-
+  <p style="height: 0;width:0;overflow: hidden;"> 第1758篇《使用HTML5 / Canvas / JavaScript拍摄浏览器内屏幕截图》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}

@@ -53,7 +53,7 @@ import Avatar from '@components/common/Avatar.jsx';<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我尝试使用</font></font><a href="https://github.com/mwolson/jest-webpack-alias" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">jest-webpack-alias</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，</font></font><a href="https://github.com/tleunen/babel-plugin-module-resolver" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">babel-plugin-module-resolver</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">和</font></font><a href="https://facebook.github.io/jest/docs/webpack.html" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Jest / Webpack docs</font></font></a></p></div>
     {% endraw %}
   </div>
-
+  <p style="height: 0;width:0;overflow: hidden;"> 第3554篇《使用Jest和Webpack别名进行测试》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}

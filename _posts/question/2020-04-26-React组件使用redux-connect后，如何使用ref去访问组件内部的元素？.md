@@ -40,7 +40,7 @@ class Home extends Component {
 }</code></pre><p>例如这里我们在<code>home.jsx</code>，直接去访问this.refs.customControl.say();是无法访问的。</p></div>
     {% endraw %}
   </div>
-
+  <p style="height: 0;width:0;overflow: hidden;"> 第4158篇《React组件使用redux connect后，如何使用ref去访问组件内部的元素？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}

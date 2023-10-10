@@ -61,7 +61,7 @@ Undefined mixin 'rounded_corners'.<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">不幸的是，</font></font><a href="https://stackoverflow.com/questions/8887824/persisting-scss-variables-in-rails-asset-pipeline"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这个家伙</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">似乎并不认为有可能，但我希望他错了。</font><font style="vertical-align: inherit;">任何想法都将不胜感激。</font></font></p></div>
     {% endraw %}
   </div>
-
+  <p style="height: 0;width:0;overflow: hidden;"> 第2025篇《Rails中正确的SCSS资产结构》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}

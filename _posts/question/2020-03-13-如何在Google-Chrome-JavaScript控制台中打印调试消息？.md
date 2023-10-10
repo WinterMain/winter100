@@ -19,7 +19,7 @@ topic: JavaScript
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">请注意，JavaScript控制台与JavaScript调试器不同；</font><font style="vertical-align: inherit;">它们具有不同的语法AFAIK，因此</font><font style="vertical-align: inherit;">JavaScript Debugger中</font><font style="vertical-align: inherit;">的</font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">print</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">命令将在此处不起作用。</font><font style="vertical-align: inherit;">在JavaScript控制台中，</font></font><code>print()</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">会将参数发送到打印机。</font></font></p></div>
     {% endraw %}
   </div>
-
+  <p style="height: 0;width:0;overflow: hidden;"> 第1435篇《如何在Google Chrome JavaScript控制台中打印调试消息？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}

@@ -39,7 +39,7 @@ const Component = props =&gt; (<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">有人看过吗？</font><font style="vertical-align: inherit;">DOM怎么可能说一件事，而浏览器却渲染另一件事？</font></font></p></div>
     {% endraw %}
   </div>
-
+  <p style="height: 0;width:0;overflow: hidden;"> 第2624篇《React渲染SVG会覆盖页面上的其他SVG》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}

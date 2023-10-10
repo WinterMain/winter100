@@ -17,7 +17,7 @@ topic: React.js
     <div class="article-content"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">创建React应用时，默认情况下会调用Service Worker。</font><font style="vertical-align: inherit;">为什么要使用服务人员？</font><font style="vertical-align: inherit;">默认调用的原因是什么？</font></font></p></div>
     {% endraw %}
   </div>
-
+  <p style="height: 0;width:0;overflow: hidden;"> 第1659篇《什么是React JS中的Service Worker》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}

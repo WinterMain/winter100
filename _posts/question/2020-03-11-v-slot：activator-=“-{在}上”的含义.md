@@ -37,7 +37,7 @@ topic: Vue.js
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">据我所知，</font></font><code>on</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">它在任何地方都不是已定义的变量，因此我看不到它是如何工作的。</font><font style="vertical-align: inherit;">当我在项目中尝试使用Internet Explorer时，Internet Explorer会引发错误</font></font><code>&lt;template v-slot:activator="{ on }"&gt;</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，但是如果将其删除，则会呈现页面。</font></font></p></div>
     {% endraw %}
   </div>
-
+  <p style="height: 0;width:0;overflow: hidden;"> 第710篇《v-slot：activator =“ {在}上”的含义》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}

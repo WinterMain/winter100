@@ -21,7 +21,7 @@ topic: TypeScript
 <p><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">更新：</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">但是，您可以</font></font><a href="https://stackoverflow.com/questions/13320568/can-i-create-a-typescript-type-and-use-that-when-ajax-returns-json-data/13320802#13320802"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">将其转换为TypeScript界面！</font></font></a></p></div>
     {% endraw %}
   </div>
-
+  <p style="height: 0;width:0;overflow: hidden;"> 第4172篇《如何将JSON对象转换为Typescript类》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}

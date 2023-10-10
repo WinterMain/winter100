@@ -17,7 +17,7 @@ topic: JavaScript
     <div class="article-content"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">有人可以用尽可能简单的方式解释我吗，经典DOM </font></font><a href="https://developer.mozilla.org/en-US/docs/Web/API/Node/parentNode" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">parentNode</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">和Firefox 9 </font><a href="https://developer.mozilla.org/en-US/docs/Web/API/Node/parentElement" rel="noreferrer"><font style="vertical-align: inherit;">parentElement中</font></a><font style="vertical-align: inherit;">新引入的有</font><font style="vertical-align: inherit;">什么区别？</font></font><a href="https://developer.mozilla.org/en-US/docs/Web/API/Node/parentElement" rel="noreferrer"><font style="vertical-align: inherit;"></font></a></p></div>
     {% endraw %}
   </div>
-
+  <p style="height: 0;width:0;overflow: hidden;"> 第1374篇《DOM parentNode和parentElement之间的区别》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}

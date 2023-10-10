@@ -24,7 +24,7 @@ var matches = "Hello".match(expression);<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">有内置的方法吗？</font><font style="vertical-align: inherit;">如果没有，人们会使用什么？</font><font style="vertical-align: inherit;">红宝石有</font></font><a href="http://ruby-doc.org/core/classes/Regexp.html#M001195" rel="noreferrer"><code>RegExp.escape</code></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font><font style="vertical-align: inherit;">我觉得我不需要自己写东西，那里肯定有一些标准。</font><font style="vertical-align: inherit;">谢谢！</font></font></p></div>
     {% endraw %}
   </div>
-
+  <p style="height: 0;width:0;overflow: hidden;"> 第1701篇《Javascript中是否存在RegExp.escape函数？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}

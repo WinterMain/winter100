@@ -87,7 +87,7 @@ export default {<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我也尝试过用axios来做，但是它给了我完全一样的东西。</font><font style="vertical-align: inherit;">当我从方法中进行控制台操作时，它提供了我的数据，但在外部它什么也没有提供。</font></font></p></div>
     {% endraw %}
   </div>
-
+  <p style="height: 0;width:0;overflow: hidden;"> 第757篇《Vue JS返回[__ob__：Observer]数据而不是我的对象数组》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}

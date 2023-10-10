@@ -100,7 +100,7 @@ Use --update-env to update environment variables<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">感谢您的阅读，也感谢您的宝贵时间。</font></font></p></div>
     {% endraw %}
   </div>
-
+  <p style="height: 0;width:0;overflow: hidden;"> 第4116篇《Gitlab CI部署失败：gitlab-ci.yml运行期间“ bash：pm2：命令未找到”》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}

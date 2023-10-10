@@ -17,7 +17,7 @@ topic: Webpack
     <div class="article-content"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">知道如何处理吗？</font><font style="vertical-align: inherit;">我的意思是jquery-ui似乎不是amd，而且我不知道该如何管理，知道吗？</font></font></p></div>
     {% endraw %}
   </div>
-
+  <p style="height: 0;width:0;overflow: hidden;"> 第2940篇《jquery-ui和webpack，如何将其管理到模块中？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}

@@ -17,7 +17,7 @@ topic: Webpack
     <div class="article-content"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我正在使用react / es6 / webpack。</font><font style="vertical-align: inherit;">我想在我的应用程序中的某处显示构建和git哈希的日期。</font><font style="vertical-align: inherit;">最好的方法是什么？</font></font></p></div>
     {% endraw %}
   </div>
-
+  <p style="height: 0;width:0;overflow: hidden;"> 第3920篇《在Webpack构建中包括git commit哈希和日期》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}

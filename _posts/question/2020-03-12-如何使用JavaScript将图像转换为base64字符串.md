@@ -17,7 +17,7 @@ topic: JavaScript
     <div class="article-content"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我需要将图像转换为base64字符串，以便可以将图像发送到服务器。</font><font style="vertical-align: inherit;">是否有任何js文件用于此...？</font><font style="vertical-align: inherit;">其他如何转换</font></font></p></div>
     {% endraw %}
   </div>
-
+  <p style="height: 0;width:0;overflow: hidden;"> 第1326篇《如何使用JavaScript将图像转换为base64字符串》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}

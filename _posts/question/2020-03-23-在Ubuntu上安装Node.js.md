@@ -45,7 +45,7 @@ sudo apt-get install nodejs npm<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">终端机说，同样的错误，</font></font><code>npm is the latest version</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">但也向我显示了我在顶部显示的文本。</font><font style="vertical-align: inherit;">我认为是问题所在，</font></font><code>ppa:chris-lea/node.js</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">但我不知道如何解决。</font></font></p></div>
     {% endraw %}
   </div>
-
+  <p style="height: 0;width:0;overflow: hidden;"> 第2915篇《在Ubuntu上安装Node.js》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}

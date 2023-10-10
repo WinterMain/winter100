@@ -17,7 +17,7 @@ topic: HTML
     <div class="article-content"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">当用户单击</font></font><code>&lt;input type="file"&gt;</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">HTML元素中</font><font style="vertical-align: inherit;">的“浏览”按钮时，我想限制可以从本机OS文件选择器选择的文件类型</font><font style="vertical-align: inherit;">。</font><font style="vertical-align: inherit;">我有一种感觉，这是不可能的，但我想知道是否有</font></font><em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">是</font></font></em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">一个解决方案。</font><font style="vertical-align: inherit;">我只想保留HTML和JavaScript；</font><font style="vertical-align: inherit;">请不要使用Flash。</font></font></p></div>
     {% endraw %}
   </div>
-
+  <p style="height: 0;width:0;overflow: hidden;"> 第1993篇《使用<input type =“ file”>时限制文件格式？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}

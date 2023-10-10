@@ -17,7 +17,7 @@ topic: React.js
     <div class="article-content"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">除了可以在NavLink上设置“ activeClassName”和“ activeStyle”之外，</font><font style="vertical-align: inherit;">在网站上创建指向非导航元素（例如，页眉或页脚中的非主导航）的其他路线的</font><strong><font style="vertical-align: inherit;">链接</font></strong><font style="vertical-align: inherit;">时</font><font style="vertical-align: inherit;">，是否有任何理由</font><font style="vertical-align: inherit;">在</font><strong><font style="vertical-align: inherit;">链接</font></strong><font style="vertical-align: inherit;">上使用</font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">NavLink</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">不需要活动状态/类？</font></font><strong><font style="vertical-align: inherit;"></font></strong><font style="vertical-align: inherit;"></font></p></div>
     {% endraw %}
   </div>
-
+  <p style="height: 0;width:0;overflow: hidden;"> 第1598篇《React Router v4 <NavLink>与<Link>的优势》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}

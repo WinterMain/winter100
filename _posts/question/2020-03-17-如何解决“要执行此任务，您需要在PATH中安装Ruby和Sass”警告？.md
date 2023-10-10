@@ -29,7 +29,7 @@ to continue.<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这是否意味着我可以简单地通过a </font></font><code>sudo grunt install contrib-sass -g</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">来解决此问题？</font><font style="vertical-align: inherit;">那么Ruby –我一直以为它已经安装在OS X上了？</font></font></p></div>
     {% endraw %}
   </div>
-
+  <p style="height: 0;width:0;overflow: hidden;"> 第1972篇《如何解决“要执行此任务，您需要在PATH中安装Ruby和Sass”警告？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}

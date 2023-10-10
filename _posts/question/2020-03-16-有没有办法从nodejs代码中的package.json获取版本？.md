@@ -22,7 +22,7 @@ console.log "Express server listening on port %d in %s mode %s", app.address().p
 </code></pre></div>
     {% endraw %}
   </div>
-
+  <p style="height: 0;width:0;overflow: hidden;"> 第1764篇《有没有办法从nodejs代码中的package.json获取版本？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}

@@ -33,7 +33,7 @@ topic: JavaScript
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">使用这两种不同方法的原因是什么，每种方法的利弊是什么？</font><font style="vertical-align: inherit;">有什么方法可以用一种方法不能完成的吗？</font></font></p></div>
     {% endraw %}
   </div>
-
+  <p style="height: 0;width:0;overflow: hidden;"> 第136篇《var functionName = function（）{}与function functionName（）{}》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}

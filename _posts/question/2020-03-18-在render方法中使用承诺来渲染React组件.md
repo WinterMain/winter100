@@ -40,7 +40,7 @@ topic: React.js
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这是行不通的，但是我不知道需要进行哪些修改才能使其正常工作。</font><font style="vertical-align: inherit;">我尝试向链中添加另一个Promise，但是由于我的render函数返回一个Promise而不是合法的JSX，因此出现错误。</font><font style="vertical-align: inherit;">我当时在想，也许我需要利用一种</font></font><code>React</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">生命周期方法来获取数据，但是由于我需要</font></font><code>props</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">已经存在该方法，所以我不知道该在哪里进行操作。</font></font></p></div>
     {% endraw %}
   </div>
-
+  <p style="height: 0;width:0;overflow: hidden;"> 第2028篇《在render方法中使用承诺来渲染React组件》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}

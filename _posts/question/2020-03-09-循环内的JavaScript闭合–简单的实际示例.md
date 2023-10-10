@@ -91,7 +91,7 @@ for (var i = 0; i &lt; 3; i++) {<font></font>
 <p>What’s the solution to this basic problem?</p></div>
     {% endraw %}
   </div>
-
+  <p style="height: 0;width:0;overflow: hidden;"> 第170篇《循环内的JavaScript闭合–简单的实际示例》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}

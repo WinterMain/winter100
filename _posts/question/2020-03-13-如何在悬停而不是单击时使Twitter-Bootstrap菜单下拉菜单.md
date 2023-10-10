@@ -17,7 +17,7 @@ topic: CSS
     <div class="article-content"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我想让我的Bootstrap菜单在悬停时自动下拉，而不是必须单击菜单标题。</font><font style="vertical-align: inherit;">我也想丢掉菜单标题旁边的小箭头。</font></font></p></div>
     {% endraw %}
   </div>
-
+  <p style="height: 0;width:0;overflow: hidden;"> 第1558篇《如何在悬停而不是单击时使Twitter Bootstrap菜单下拉菜单》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}

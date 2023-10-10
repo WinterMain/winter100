@@ -40,7 +40,7 @@ topic: JavaScript
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">对不起，我不清楚。</font><font style="vertical-align: inherit;">我需要一个更改浏览器位置的解决方案，就像提交表单一样。</font><font style="vertical-align: inherit;">如果</font></font><a href="http://en.wikipedia.org/wiki/XMLHttpRequest" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">XMLHttpRequest</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">可以做到这一点</font><font style="vertical-align: inherit;">，那不是很明显。</font><font style="vertical-align: inherit;">而且这不应该是异步的，也不应该使用XML，因此Ajax并不是答案。</font></font></p></div>
     {% endraw %}
   </div>
-
+  <p style="height: 0;width:0;overflow: hidden;"> 第258篇《JavaScript发布请求，例如表单提交》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}

@@ -48,7 +48,7 @@ background-color: rgba(100,100,100,.40);<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我是否错过了一种更简单的方法？</font><font style="vertical-align: inherit;">可以使用Sass字符串操作或Sass中任何稍微聪明的颜色转换功能（已经为我完成此操作）完成此操作吗？</font></font></p></div>
     {% endraw %}
   </div>
-
+  <p style="height: 0;width:0;overflow: hidden;"> 第3101篇《Sass mixin使背景透明回到IE8》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}

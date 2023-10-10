@@ -40,7 +40,7 @@ topic: TypeScript
 <p><a href="https://www.samyoc.com//uploads/users/24088/images/thumbnails/1590648707370.png" data-src="https://www.samyoc.com//uploads/users/24088/images/1590648707370.png" rel="noreferrer"><img src="https://i.stack.imgur.com/HCwZ8.png" alt="在此处输入图片说明"></a></p></div>
     {% endraw %}
   </div>
-
+  <p style="height: 0;width:0;overflow: hidden;"> 第4200篇《从API响应中读取响应标头-Angular 5 + TypeScript》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}

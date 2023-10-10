@@ -52,7 +52,7 @@ console.log(include([1, 2, 3, 4], 6)); // undefined</code></pre>
 <p></p></div>
     {% endraw %}
   </div>
-
+  <p style="height: 0;width:0;overflow: hidden;"> 第547篇《查找项目是否在JavaScript数组中的最佳方法？[重复]》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}

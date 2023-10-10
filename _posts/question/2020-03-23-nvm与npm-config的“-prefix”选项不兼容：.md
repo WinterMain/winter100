@@ -28,7 +28,7 @@ Run `npm config delete prefix` or `nvm use --delete-prefix v4.2.4` to unset it.<
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">有什么方法可以使用</font></font><code>nvm</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">而不会丢失全局安装软件包的前缀？</font></font></p></div>
     {% endraw %}
   </div>
-
+  <p style="height: 0;width:0;overflow: hidden;"> 第2997篇《nvm与npm config的“ prefix”选项不兼容：》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}

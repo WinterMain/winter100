@@ -33,7 +33,7 @@ topic: JavaScript
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">基本上，如果用户转到主页，我想将其发送给搜索仪表板。</font><font style="vertical-align: inherit;">所以我想我正在寻找一个等效于React Router的功能</font></font><code>window.location.replace("mygreathostname.com/#/dashboards/searchDashboard");</code></p></div>
     {% endraw %}
   </div>
-
+  <p style="height: 0;width:0;overflow: hidden;"> 第1295篇《如何在React Router中将DefaultRoute设置为另一个路由》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}

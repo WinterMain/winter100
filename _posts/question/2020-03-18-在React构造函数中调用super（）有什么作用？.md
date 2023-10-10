@@ -30,7 +30,7 @@ topic: React.js
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">根据</font></font><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/super" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Mozilla的</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">说法</font><font style="vertical-align: inherit;">，super允许您</font></font><code>this</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在构造函数中</font><font style="vertical-align: inherit;">使用</font><font style="vertical-align: inherit;">。</font><font style="vertical-align: inherit;">是否有其他原因可以单独使用</font></font><code>super</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">（我知道</font></font><code>super</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">您也可以访问父类的方法），但是使用React时，是否还有其他</font><font style="vertical-align: inherit;">单独</font><font style="vertical-align: inherit;">使用的用例</font></font><code>super()</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">？</font></font></p></div>
     {% endraw %}
   </div>
-
+  <p style="height: 0;width:0;overflow: hidden;"> 第2096篇《在React构造函数中调用super（）有什么作用？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}

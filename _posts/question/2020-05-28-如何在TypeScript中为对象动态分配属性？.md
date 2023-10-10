@@ -28,7 +28,7 @@ obj</span><span class="pun">.</span><span class="pln">prop </span><span class="p
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我应该如何在TypeScript中为对象分配任何新属性？</font></font></p></div>
     {% endraw %}
   </div>
-
+  <p style="height: 0;width:0;overflow: hidden;"> 第4204篇《如何在TypeScript中为对象动态分配属性？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}

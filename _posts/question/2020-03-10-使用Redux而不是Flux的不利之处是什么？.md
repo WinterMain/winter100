@@ -41,7 +41,7 @@ topic: React.js
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我最近才发现</font></font><a href="https://github.com/reactjs/redux" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Redux</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font><font style="vertical-align: inherit;">一切看起来不错。</font><font style="vertical-align: inherit;">在Redux上使用Redux是否有缺点，陷阱或妥协？</font><font style="vertical-align: inherit;">谢谢</font></font></p></div>
     {% endraw %}
   </div>
-
+  <p style="height: 0;width:0;overflow: hidden;"> 第477篇《使用Redux而不是Flux的不利之处是什么？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}

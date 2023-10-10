@@ -23,7 +23,7 @@ element</span><span class="pun">.</span><span class="pln">append</span><span cla
 $compile</span><span class="pun">(</span><span class="pln">e</span><span class="pun">)(</span><span class="pln">$scope</span><span class="pun">);</span></code></pre></div>
     {% endraw %}
   </div>
-
+  <p style="height: 0;width:0;overflow: hidden;"> 第4169篇《等效于Angular 2中的$ compile》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}

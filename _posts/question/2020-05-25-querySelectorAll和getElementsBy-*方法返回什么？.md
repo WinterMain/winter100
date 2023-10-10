@@ -25,7 +25,7 @@ document</span><span class="pun">.</span><span class="pln">getElementsByClassNam
 document</span><span class="pun">.</span><span class="pln">getElementById</span><span class="pun">(</span><span class="str">'myIdElement'</span><span class="pun">).</span><span class="pln">style</span><span class="pun">.</span><span class="pln">size </span><span class="pun">=</span><span class="pln"> </span><span class="str">'100px'</span><span class="pun">;</span></code></pre></div>
     {% endraw %}
   </div>
-
+  <p style="height: 0;width:0;overflow: hidden;"> 第4161篇《querySelectorAll和getElementsBy *方法返回什么？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}

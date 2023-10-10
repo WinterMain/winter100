@@ -90,7 +90,7 @@ Add @babel/plugin-proposal-class-properties (https://git.io/vb4SL) to the <font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">但是错误仍然存​​在，这是什么问题？？</font></font></p></div>
     {% endraw %}
   </div>
-
+  <p style="height: 0;width:0;overflow: hidden;"> 第1301篇《目前未启用对实验语法“ classProperties”的支持》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}

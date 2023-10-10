@@ -17,7 +17,7 @@ topic: JavaScript
     <div class="article-content"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">导航到另一个页面时出现问题，它的位置将像以前的页面一样。</font><font style="vertical-align: inherit;">所以它不会自动滚动到顶部。</font><font style="vertical-align: inherit;">我也尝试</font></font><code>window.scrollTo(0, 0)</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在onChange路由器</font><font style="vertical-align: inherit;">上使用</font><font style="vertical-align: inherit;">。</font><font style="vertical-align: inherit;">我还使用了scrollBehavior来解决此问题，但没有成功。</font><font style="vertical-align: inherit;">有什么建议吗？</font></font></p></div>
     {% endraw %}
   </div>
-
+  <p style="height: 0;width:0;overflow: hidden;"> 第1524篇《在每次转换时，将react-router滚动到顶部》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}

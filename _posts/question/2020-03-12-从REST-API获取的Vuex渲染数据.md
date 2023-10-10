@@ -55,7 +55,7 @@ topic: Vue.js
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在这里添加不是问题</font></font><code>v-if="firstSectionId"</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font><font style="vertical-align: inherit;">但是通常，从服务器获取要显示的数据的方法是什么？</font><font style="vertical-align: inherit;">目前，我所有的组件都在检查渲染之前存储中是否存在数据，这是正常现象还是有更好的方法等待渲染之前加载数据？</font></font></p></div>
     {% endraw %}
   </div>
-
+  <p style="height: 0;width:0;overflow: hidden;"> 第1140篇《从REST API获取的Vuex渲染数据》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}

@@ -30,7 +30,7 @@ firebase.firestore().settings(firestoreSettings)<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">此错误来自何处以及如何解决？</font></font></p></div>
     {% endraw %}
   </div>
-
+  <p style="height: 0;width:0;overflow: hidden;"> 第4125篇《Firestore.settings（）要求其第一个参数为对象类型，但这是一个自定义对象》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}

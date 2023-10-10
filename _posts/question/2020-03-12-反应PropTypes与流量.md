@@ -36,7 +36,7 @@ export type Playlist = {<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我发现这个</font></font><a href="https://github.com/brigand/babel-plugin-flow-react-proptypes"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">babel插件</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">可以将类型声明转换为PropTypes，这可能是一个解决方案。</font></font></p></div>
     {% endraw %}
   </div>
-
+  <p style="height: 0;width:0;overflow: hidden;"> 第1091篇《反应PropTypes与流量》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}

@@ -39,7 +39,7 @@ a.lighter {<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">有没有一种方法可以减少一定百分比的颜色？</font></font></p></div>
     {% endraw %}
   </div>
-
+  <p style="height: 0;width:0;overflow: hidden;"> 第2974篇《通过百分比动态地将颜色更改为较亮或较深的CSS（JavaScript）》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}

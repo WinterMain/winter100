@@ -69,7 +69,7 @@ topic: Vue.js
 <p>Does anyone have an example of how they've managed to break the store down like this in Nuxt?</p></div>
     {% endraw %}
   </div>
-
+  <p style="height: 0;width:0;overflow: hidden;"> 第2464篇《Nuxt + Vuex-如何将Vuex模块分解为单独的文件？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}

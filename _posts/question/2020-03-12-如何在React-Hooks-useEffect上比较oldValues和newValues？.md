@@ -36,7 +36,7 @@ topic: React.js
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在这种情况下，我不能使用多个，</font></font><code>useEffect</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">因为每次更改都会导致相同的网络呼叫。</font><font style="vertical-align: inherit;">这就是为什么我也使用</font></font><code>changeCount</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">跟踪更改</font><font style="vertical-align: inherit;">的原因</font><font style="vertical-align: inherit;">。</font><font style="vertical-align: inherit;">这</font></font><code>changeCount</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">也有助于跟踪仅来自本地的更改，因此我可以防止由于服务器的更改而导致不必要的网络呼叫。</font></font></p></div>
     {% endraw %}
   </div>
-
+  <p style="height: 0;width:0;overflow: hidden;"> 第952篇《如何在React Hooks useEffect上比较oldValues和newValues？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}

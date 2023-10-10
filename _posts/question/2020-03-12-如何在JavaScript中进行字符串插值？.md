@@ -24,7 +24,7 @@ console.log("I'm " + age + " years old!");<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">除了字符串连接之外，还有其他方法可以将变量的值插入到字符串中吗？</font></font></p></div>
     {% endraw %}
   </div>
-
+  <p style="height: 0;width:0;overflow: hidden;"> 第1198篇《如何在JavaScript中进行字符串插值？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}

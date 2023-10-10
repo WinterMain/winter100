@@ -50,7 +50,7 @@ React.renderComponent(&lt;App /&gt;, document.body);<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这是什么意思？</font></font></p></div>
     {% endraw %}
   </div>
-
+  <p style="height: 0;width:0;overflow: hidden;"> 第392篇《不变违规：_registerComponent（…）：目标容器不是DOM元素》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}

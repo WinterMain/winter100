@@ -19,7 +19,7 @@ topic: Vue.js
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">现在，看来路由器视图可以包裹在keep-alive中，这可以解决一个问题，但会引入很多其他问题，因为我只希望该路由保持活动状态，而不是所有路由都保持活动状态（目前，我只是在使用一个单个顶级路由器视图）。</font><font style="vertical-align: inherit;">Vue 2.1通过为路由器视图引入include和exclude参数，显然已经为解决此问题做了一些事情。</font><font style="vertical-align: inherit;">但是我也不想要这样做，因为不得不在我的主页中预先声明所有应该或不应该使用keep-alive的路由都是很笨拙的。</font><font style="vertical-align: inherit;">在配置路由的那一点（即，在routes数组中）声明是否要保持活动状态会变得更加整洁。</font><font style="vertical-align: inherit;">那我最好的选择是什么？</font></font></p></div>
     {% endraw %}
   </div>
-
+  <p style="height: 0;width:0;overflow: hidden;"> 第1368篇《用vue-router保留组件状态？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}

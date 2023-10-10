@@ -48,7 +48,7 @@ React.render(<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">当我</font></font><code>&lt;input/&gt;</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在浏览器中</font><font style="vertical-align: inherit;">更新</font><font style="vertical-align: inherit;">值时，</font><font style="vertical-align: inherit;">回调</font></font><code>console.log</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">内</font><font style="vertical-align: inherit;">的第二个</font><font style="vertical-align: inherit;">与第一个</font></font><code>handleChange</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">相同</font><font style="vertical-align: inherit;">，为什么</font><font style="vertical-align: inherit;">在</font><font style="vertical-align: inherit;">回调</font><font style="vertical-align: inherit;">范围内</font><font style="vertical-align: inherit;">看不到结果</font><font style="vertical-align: inherit;">？</font></font><code>value</code><font style="vertical-align: inherit;"></font><code>console.log</code><font style="vertical-align: inherit;"></font><code>this.setState({value: event.target.value})</code><font style="vertical-align: inherit;"></font><code>handleChange</code><font style="vertical-align: inherit;"></font></p></div>
     {% endraw %}
   </div>
-
+  <p style="height: 0;width:0;overflow: hidden;"> 第438篇《为什么调用react setState方法不会立即改变状态？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}

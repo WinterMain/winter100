@@ -25,7 +25,7 @@ topic: Webpack
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">但是，这对我来说还不清楚。</font><font style="vertical-align: inherit;">是否</font></font><code>libraryTarget: "commonjs2"</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">与</font></font><code>__esModule</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">定义</font><font style="vertical-align: inherit;">的唯一区别</font><font style="vertical-align: inherit;">相同</font><font style="vertical-align: inherit;">？</font><font style="vertical-align: inherit;">什么是“互操作模式”？</font></font></p></div>
     {% endraw %}
   </div>
-
+  <p style="height: 0;width:0;overflow: hidden;"> 第3458篇《使用webpack输出ES模块》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}

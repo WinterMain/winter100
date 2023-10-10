@@ -35,7 +35,7 @@ topic: CSS
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我也不确定上述方法是否足够好，因为其目的不是要抵消</font></font><code>div</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">一半。</font><font style="vertical-align: inherit;">我不需要外部的自由空间，</font></font><code>div</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">并且内容的内容</font></font><code>div</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">按比例缩小。</font><font style="vertical-align: inherit;">我想</font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在div之外的空白处均匀分布</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">（缩小直到容器宽度等于一列）。</font></font></p></div>
     {% endraw %}
   </div>
-
+  <p style="height: 0;width:0;overflow: hidden;"> 第1563篇《使用Twitter Bootstrap 3将列居中》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}

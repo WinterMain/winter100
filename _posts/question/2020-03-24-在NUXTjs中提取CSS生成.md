@@ -17,7 +17,7 @@ topic: Vue.js
     <div class="article-content"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">使用时，</font></font><code>nuxt generate</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我会生成各种HTML页面，这些页面的大小约为300 kB。</font><font style="vertical-align: inherit;">该文件的大多数是内联放置在其中的CSS样式。</font><font style="vertical-align: inherit;">是否可以将其放入外部文件并减小HTML的大小？</font></font></p></div>
     {% endraw %}
   </div>
-
+  <p style="height: 0;width:0;overflow: hidden;"> 第3227篇《在NUXTjs中提取CSS生成》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}

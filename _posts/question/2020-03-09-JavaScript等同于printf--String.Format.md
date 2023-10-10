@@ -21,7 +21,7 @@ topic: JavaScript
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我意识到Microsoft的</font></font><a href="http://en.wikipedia.org/wiki/Ajax_%28programming%29" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Ajax</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">库提供了的版本</font></font><code>String.Format()</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，但我们不希望该框架的全部开销。</font></font></p></div>
     {% endraw %}
   </div>
-
+  <p style="height: 0;width:0;overflow: hidden;"> 第216篇《JavaScript等同于printf / String.Format》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}

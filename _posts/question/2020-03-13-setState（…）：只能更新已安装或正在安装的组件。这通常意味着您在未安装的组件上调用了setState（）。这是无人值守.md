@@ -57,7 +57,7 @@ componentWillUnmount () {<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我在中删除了EventListener'ended' </font></font><code>componentWillUnmount</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，但是它不起作用。</font><font style="vertical-align: inherit;">因为我添加</font></font><code>this.setState({'time': remainTimeInfo});</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">了</font></font><code>componentDidMount</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p></div>
     {% endraw %}
   </div>
-
+  <p style="height: 0;width:0;overflow: hidden;"> 第1531篇《setState（…）：只能更新已安装或正在安装的组件。这通常意味着您在未安装的组件上调用了setState（）。这是无人值守》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}

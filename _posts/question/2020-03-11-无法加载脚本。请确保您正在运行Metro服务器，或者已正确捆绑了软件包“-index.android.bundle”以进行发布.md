@@ -27,7 +27,7 @@ topic: React.js
 <p><a href="https://www.samyoc.com//uploads/users/9694/images/thumbnails/1583920697379.png" data-src="https://www.samyoc.com//uploads/users/9694/images/1583920697379.png" rel="noreferrer"><img src="https://i.stack.imgur.com/vCZZs.png" alt="在此处输入图片说明"></a></p></div>
     {% endraw %}
   </div>
-
+  <p style="height: 0;width:0;overflow: hidden;"> 第789篇《无法加载脚本。请确保您正在运行Metro服务器，或者已正确捆绑了软件包“ index.android.bundle”以进行发布》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}

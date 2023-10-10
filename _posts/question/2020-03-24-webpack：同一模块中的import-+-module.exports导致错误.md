@@ -28,7 +28,7 @@ module.exports = foo;<font></font>
 <p><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">为什么使用module.exports导入会导致此错误？</font><font style="vertical-align: inherit;">使用require代替有什么问题吗？</font></font></strong></p></div>
     {% endraw %}
   </div>
-
+  <p style="height: 0;width:0;overflow: hidden;"> 第3453篇《webpack：同一模块中的import + module.exports导致错误》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}

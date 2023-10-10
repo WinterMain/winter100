@@ -17,7 +17,7 @@ topic: React.js
     <div class="article-content"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我才刚刚开始学习</font></font><code>Reactjs</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，我</font></font><code>Reactjs</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">和</font><font style="vertical-align: inherit;">之间有些困惑</font></font><code>next.js</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font><font style="vertical-align: inherit;">它们之间有什么区别？</font><font style="vertical-align: inherit;">两者都是面向组件的过程。</font></font></p></div>
     {% endraw %}
   </div>
-
+  <p style="height: 0;width:0;overflow: hidden;"> 第2695篇《reactjs和nextjs有什么区别》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}

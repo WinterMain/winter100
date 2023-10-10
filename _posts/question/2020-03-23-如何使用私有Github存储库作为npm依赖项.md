@@ -17,7 +17,7 @@ topic: Node.js
     <div class="article-content"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我如何列出一个私有的Github仓库作为</font></font><code>"dependency"</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">in </font></font><code>package.json</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">？</font><font style="vertical-align: inherit;">我尝试了</font></font><a href="https://docs.npmjs.com/files/package.json#github-urls"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">npm的Github URL</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">语法，例如</font></font><code>ryanve/example</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，但是</font></font><code>npm install</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在package文件夹中</font><font style="vertical-align: inherit;">这样做</font><font style="vertical-align: inherit;">会导致私有依赖项出现“无法安装”错误。</font><font style="vertical-align: inherit;">是否有特殊的语法（或其他机制）用于依赖私有存储库？</font></font></p></div>
     {% endraw %}
   </div>
-
+  <p style="height: 0;width:0;overflow: hidden;"> 第3005篇《如何使用私有Github存储库作为npm依赖项》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}

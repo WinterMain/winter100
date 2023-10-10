@@ -28,7 +28,7 @@ myArray["age"] = 25;<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">（我需要删除元素，因为元素的数量很重要，并且我想保持干净。）</font></font></p></div>
     {% endraw %}
   </div>
-
+  <p style="height: 0;width:0;overflow: hidden;"> 第859篇《如何从javascript关联数组中删除对象？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}

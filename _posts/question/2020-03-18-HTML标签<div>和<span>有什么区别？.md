@@ -17,7 +17,7 @@ topic: HTML
     <div class="article-content"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我想问一些简单的例子，说明</font></font><code>&lt;div&gt;</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">and </font><font style="vertical-align: inherit;">的用法</font></font><code>&lt;span&gt;</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font><font style="vertical-align: inherit;">我看过他们都用来标记网页的有一个部分</font></font><code>id</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">或</font></font><code>class</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，但我想知道是否有当一个优于其他倍。</font></font></p></div>
     {% endraw %}
   </div>
-
+  <p style="height: 0;width:0;overflow: hidden;"> 第2200篇《HTML标签<div>和<span>有什么区别？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}

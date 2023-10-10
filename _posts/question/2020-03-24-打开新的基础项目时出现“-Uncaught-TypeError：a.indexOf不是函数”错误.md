@@ -23,7 +23,7 @@ topic: CSS
 <p><a href="https://www.samyoc.com//uploads/users/24058/images/thumbnails/1585046996396.png" data-src="https://www.samyoc.com//uploads/users/24058/images/1585046996396.png"><img src="https://i.stack.imgur.com/wJqcE.png" alt="控制台错误消息截图"></a></p></div>
     {% endraw %}
   </div>
-
+  <p style="height: 0;width:0;overflow: hidden;"> 第3688篇《打开新的基础项目时出现“ Uncaught TypeError：a.indexOf不是函数”错误》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}

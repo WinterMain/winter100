@@ -33,7 +33,7 @@ border-bottom: 1pt solid black;<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我更喜欢使用CSS，因为这样我就不必</font></font><code>style</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在每一行中</font><font style="vertical-align: inherit;">添加一个</font><font style="vertical-align: inherit;">属性。</font><font style="vertical-align: inherit;">我尚未向中添加</font></font><code>border</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">属性</font></font><code>&lt;table&gt;</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font><font style="vertical-align: inherit;">我希望那不会影响我的CSS。</font></font></p></div>
     {% endraw %}
   </div>
-
+  <p style="height: 0;width:0;overflow: hidden;"> 第2431篇《将border-bottom添加到表行<tr>》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}

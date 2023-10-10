@@ -43,7 +43,7 @@ topic: Webpack
 <p><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">注意</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">：在旧问题中，我没有意识到将React构建到Webpack捆绑包中</font></font><code>NODE_ENV=production</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">会消除</font></font><code>propTypes</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">检查。</font><font style="vertical-align: inherit;">答案之一集中于此。</font></font></p></div>
     {% endraw %}
   </div>
-
+  <p style="height: 0;width:0;overflow: hidden;"> 第3641篇《如何在生产中的Webpack项目中使用CDN中的库》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}

@@ -19,7 +19,7 @@ topic: Vue.js
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">问题：我正在尝试将全局SCSS变量引入Storybook Stories中，以便它们以与Nuxt中相同的方式运行组件，我尝试使用sass-resources-loader进行自定义webpack配置，但没有运气，只是想要检查是否有人已经解决了这个问题</font></font></p></div>
     {% endraw %}
   </div>
-
+  <p style="height: 0;width:0;overflow: hidden;"> 第3136篇《具有全局Scss变量的Storybook Vue》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}

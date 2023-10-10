@@ -61,7 +61,7 @@ module.exports = MyComponent;<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我想知道是否需要使用诸如</font></font><a href="https://www.npmjs.com/package/jest-webpack"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">jest-webpack之</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">类</font><a href="https://www.npmjs.com/package/jest-webpack"><font style="vertical-align: inherit;">的东西</font></a><font style="vertical-align: inherit;">。</font><font style="vertical-align: inherit;">如果是，是否可以指定多个</font></font><code>scriptPreprocessor</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">s？</font><font style="vertical-align: inherit;">（请注意，我已经使用了</font></font><code>babel-jest</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">）</font></font></p></div>
     {% endraw %}
   </div>
-
+  <p style="height: 0;width:0;overflow: hidden;"> 第3204篇《如何在Webpack中使用Jest？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}

@@ -43,7 +43,7 @@ gyp ERR! stack     at /usr/local/lib/node_modules/npm/node_modules/node-gyp/lib/
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我应该如何</font></font><em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">“通过--python开关以指向Python&gt; = v2.5.0”</font></font></em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">？</font></font></p></div>
     {% endraw %}
   </div>
-
+  <p style="height: 0;width:0;overflow: hidden;"> 第2816篇《在NPM安装期间如何使用其他版本的python？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}

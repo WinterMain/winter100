@@ -17,7 +17,7 @@ topic: Webpack
     <div class="article-content"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我如何require（）/从控制台导入模块？</font><font style="vertical-align: inherit;">例如，假设我已经安装了ImmutableJS npm，那么我希望能够在控制台中使用模块中的功能。</font></font></p></div>
     {% endraw %}
   </div>
-
+  <p style="height: 0;width:0;overflow: hidden;"> 第3556篇《我如何使用webpack从控制台上require（）？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}

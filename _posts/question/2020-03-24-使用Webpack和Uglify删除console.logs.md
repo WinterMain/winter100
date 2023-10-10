@@ -23,7 +23,7 @@ topic: Webpack
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">问题是那</font></font><code>drop_console</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">不起作用。</font></font></p></div>
     {% endraw %}
   </div>
-
+  <p style="height: 0;width:0;overflow: hidden;"> 第3282篇《使用Webpack和Uglify删除console.logs》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}

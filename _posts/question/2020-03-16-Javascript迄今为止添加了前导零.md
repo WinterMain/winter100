@@ -35,7 +35,7 @@ MyDateString = MyDate.getDate() + '/' + (MyDate.getMonth()+1) + '/' + MyDate.get
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果有人可以告诉我将这些内容插入脚本的位置，我将非常感激。</font></font></p></div>
     {% endraw %}
   </div>
-
+  <p style="height: 0;width:0;overflow: hidden;"> 第1776篇《Javascript迄今为止添加了前导零》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}

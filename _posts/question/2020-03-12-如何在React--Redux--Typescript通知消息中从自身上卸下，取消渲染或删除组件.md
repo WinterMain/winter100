@@ -57,7 +57,7 @@ Which throws a nice error in the console :</p>
 <p>Should I copy the incoming props in the ErrorBox state, and manipulate it only internally ?</p></div>
     {% endraw %}
   </div>
-
+  <p style="height: 0;width:0;overflow: hidden;"> 第1085篇《如何在React / Redux / Typescript通知消息中从自身上卸下，取消渲染或删除组件》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}

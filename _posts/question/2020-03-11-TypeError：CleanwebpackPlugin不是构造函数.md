@@ -178,7 +178,7 @@ Error: clean-webpack-plugin only accepts an options object. See:<font></font>
 <p>if i delete line 56 in webpack.config.js i can run the web application without problems, but i want to understand the source of this issue</p></div>
     {% endraw %}
   </div>
-
+  <p style="height: 0;width:0;overflow: hidden;"> 第801篇《TypeError：CleanwebpackPlugin不是构造函数》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}

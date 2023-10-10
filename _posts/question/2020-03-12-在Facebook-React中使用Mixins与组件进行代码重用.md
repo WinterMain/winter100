@@ -33,7 +33,7 @@ However, I noticed some duplication creeping into my React code.</p>
 <p><a href="https://gist.github.com/gaearon/9070604" rel="noreferrer">Here's a gist with <code>FeedbackWidget</code> and <code>JoinWidget</code> in their current state</a>. They have a similar structure, similar <code>beginSend</code> method and will both need to have some validation support (not there yet).</p></div>
     {% endraw %}
   </div>
-
+  <p style="height: 0;width:0;overflow: hidden;"> 第905篇《在Facebook React中使用Mixins与组件进行代码重用》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}

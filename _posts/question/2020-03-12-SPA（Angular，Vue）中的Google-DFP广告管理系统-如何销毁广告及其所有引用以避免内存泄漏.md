@@ -378,7 +378,7 @@ export default {<font></font>
 <p><a href="https://www.samyoc.com//uploads/users/13392/images/thumbnails/1584008227856.png" data-src="https://www.samyoc.com//uploads/users/13392/images/1584008227856.png" rel="noreferrer"><img src="https://i.stack.imgur.com/Kkvbs.png" alt="在此处输入图片说明"></a></p></div>
     {% endraw %}
   </div>
-
+  <p style="height: 0;width:0;overflow: hidden;"> 第1267篇《SPA（Angular，Vue）中的Google DFP广告管理系统-如何销毁广告及其所有引用以避免内存泄漏》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}

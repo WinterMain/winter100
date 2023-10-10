@@ -45,7 +45,7 @@ topic: JavaScript
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我发现</font><font style="vertical-align: inherit;">建议使用Router.ActiveState mixin和路由处理程序来解决</font></font><a href="https://github.com/rackt/react-router/issues/119"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">此已关闭的问题</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，但是现在似乎已弃用了这两个解决方案。</font></font></p></div>
     {% endraw %}
   </div>
-
+  <p style="height: 0;width:0;overflow: hidden;"> 第1384篇《如何在react-router 2.0.0-rc5中获取当前路由》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}

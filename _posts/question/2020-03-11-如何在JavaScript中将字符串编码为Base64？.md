@@ -19,7 +19,7 @@ topic: JavaScript
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我想使用JavaScript做同样的事情。</font><font style="vertical-align: inherit;">我知道如何打开文件，但不确定如何进行编码。</font><font style="vertical-align: inherit;">我不习惯使用二进制数据。</font></font></p></div>
     {% endraw %}
   </div>
-
+  <p style="height: 0;width:0;overflow: hidden;"> 第549篇《如何在JavaScript中将字符串编码为Base64？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}

@@ -19,7 +19,7 @@ topic: Node.js
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如何在Python包管理器中实现同一目的</font></font><code>pip</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">？</font><font style="vertical-align: inherit;">我想将软件包名称及其版本保存到，例如，</font></font><code>requirements.pip</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">使用来安装软件包之后</font></font><code>pip install package --save-dev requirements.pip</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p></div>
     {% endraw %}
   </div>
-
+  <p style="height: 0;width:0;overflow: hidden;"> 第3178篇《pip等同于`npm install package --save-dev`吗？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}

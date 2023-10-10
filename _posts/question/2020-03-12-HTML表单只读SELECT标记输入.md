@@ -21,7 +21,7 @@ topic: JavaScript
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">模拟</font><font style="vertical-align: inherit;">标签</font></font><code>readonly</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">属性</font></font><code>select</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">并仍然获取POST数据</font><font style="vertical-align: inherit;">的最佳方法是什么</font><font style="vertical-align: inherit;">？</font></font></p></div>
     {% endraw %}
   </div>
-
+  <p style="height: 0;width:0;overflow: hidden;"> 第944篇《HTML表单只读SELECT标记/输入》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}

@@ -19,7 +19,7 @@ topic: JavaScript
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我已经看过了</font></font><code>trim</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，但是看起来它只是在修剪空白，</font></font><code>slice</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">而我看不出</font><font style="vertical-align: inherit;">它是</font><font style="vertical-align: inherit;">如何工作的。</font><font style="vertical-align: inherit;">有什么建议么？</font></font></p></div>
     {% endraw %}
   </div>
-
+  <p style="height: 0;width:0;overflow: hidden;"> 第217篇《JavaScript截断/切片/修剪掉字符串中的最后一个字符》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}

@@ -33,7 +33,7 @@ html {
 .p-page { background-color: var(--bg-color); padding: 20px; }
 .text-theme { color: var(--themeColor) !important; }
 .stage { 
-  width: 1200px; margin: auto; 
+  width: 1200px; margin-left: auto; margin-right: auto;
   @extend .flex;
   .s-left {
     @extend .flex-1;

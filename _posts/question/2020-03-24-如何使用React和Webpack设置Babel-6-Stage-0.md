@@ -131,7 +131,7 @@ When I put <code>stage-0</code> second or third I get the message about syntax e
 <p><strong>All the bugs mentioned in this article are completely fixed as of Babel 6.3.x. Please update your dependencies if you're still having issues.</strong></p></div>
     {% endraw %}
   </div>
-
+  <p style="height: 0;width:0;overflow: hidden;"> 第3205篇《如何使用React和Webpack设置Babel 6 Stage 0》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}

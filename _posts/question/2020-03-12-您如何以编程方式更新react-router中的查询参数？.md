@@ -21,7 +21,7 @@ topic: React.js
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">而且是一个</font></font><code>onChange</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">真正的函数来监听查询变化的唯一途径？</font><font style="vertical-align: inherit;">为什么没有自动检测到查询更改并对参数更改做出反应？</font></font></p></div>
     {% endraw %}
   </div>
-
+  <p style="height: 0;width:0;overflow: hidden;"> 第1082篇《您如何以编程方式更新react-router中的查询参数？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}

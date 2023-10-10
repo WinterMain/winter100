@@ -26,7 +26,7 @@ localhost:3000 - Node.js server<font></font>
 <p><font style="vertical-align: inherit;"></font><code>localhost:8080 - GAE server</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">从节点服务器加载页面时，我</font><font style="vertical-align: inherit;">向发出了一个ajax请求</font><font style="vertical-align: inherit;">。</font><font style="vertical-align: inherit;">什么是最简单，最安全的方法（不想使用</font></font><code>disable-web-security</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">选项</font><font style="vertical-align: inherit;">启动chrome </font><font style="vertical-align: inherit;">）。</font><font style="vertical-align: inherit;">如果必须更改</font></font><code>'Content-Type'</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，是否应该在节点服务器上</font><font style="vertical-align: inherit;">进行更改</font><font style="vertical-align: inherit;">？</font><font style="vertical-align: inherit;">怎么样？</font></font></p></div>
     {% endraw %}
   </div>
-
+  <p style="height: 0;width:0;overflow: hidden;"> 第3429篇《Access-Control-Allow-Origin不允许使用Origin <origin>》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}

@@ -63,7 +63,7 @@ export default connect(mapStateToProps)(Create);<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">然后它会按预期工作。</font><font style="vertical-align: inherit;">为什么会这样？</font></font></p></div>
     {% endraw %}
   </div>
-
+  <p style="height: 0;width:0;overflow: hidden;"> 第1304篇《为什么在渲染时调用我的onClick？-React.js》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}

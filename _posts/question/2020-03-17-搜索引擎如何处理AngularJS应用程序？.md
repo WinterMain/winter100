@@ -40,7 +40,7 @@ topic: HTML
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">但是，如果我想让搜寻器“看到”标题怎么办？</font><font style="vertical-align: inherit;">服务器端渲染是唯一的解决方案吗？</font></font></p></div>
     {% endraw %}
   </div>
-
+  <p style="height: 0;width:0;overflow: hidden;"> 第1947篇《搜索引擎如何处理AngularJS应用程序？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}

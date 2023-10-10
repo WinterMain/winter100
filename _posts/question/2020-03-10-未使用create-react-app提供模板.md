@@ -48,7 +48,7 @@ Please note that global installs of create-react-app are no longer supported.<fo
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">知道这里发生了什么吗？</font></font></p></div>
     {% endraw %}
   </div>
-
+  <p style="height: 0;width:0;overflow: hidden;"> 第445篇《未使用create-react-app提供模板》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}

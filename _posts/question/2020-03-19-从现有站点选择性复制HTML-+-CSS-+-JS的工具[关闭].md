@@ -43,7 +43,7 @@ topic: CSS
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果可以在Firebug中右键单击一个节点并具有“为此节点保存HTML + CSS”选项，那就太好了。</font><font style="vertical-align: inherit;">是否存在这样的工具？</font><font style="vertical-align: inherit;">可以扩展Firebug或Chrome开发者工具来添加此功能吗？</font></font></p></div>
     {% endraw %}
   </div>
-
+  <p style="height: 0;width:0;overflow: hidden;"> 第2349篇《从现有站点选择性复制HTML + CSS + JS的工具[关闭]》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}

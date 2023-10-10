@@ -87,7 +87,7 @@ export default {<font></font>
 我发现我应该在要使用的组件中定义该组件，或者在全局范围内定义它。</font><font style="vertical-align: inherit;">但是，我无法找到如何通过路由全局定义它。</font></font></p></div>
     {% endraw %}
   </div>
-
+  <p style="height: 0;width:0;overflow: hidden;"> 第1471篇《如何在vue-router中注册全局组件》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}

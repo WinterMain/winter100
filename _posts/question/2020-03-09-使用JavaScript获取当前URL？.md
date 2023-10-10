@@ -17,7 +17,7 @@ topic: JavaScript
     <div class="article-content"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我想要的只是获取网站URL。</font><font style="vertical-align: inherit;">不是从链接获取的URL。</font><font style="vertical-align: inherit;">在页面加载过程中，我需要能够获取网站的完整，当前URL，并将其设置为一个变量，以便我随意使用。</font></font></p></div>
     {% endraw %}
   </div>
-
+  <p style="height: 0;width:0;overflow: hidden;"> 第160篇《使用JavaScript获取当前URL？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}

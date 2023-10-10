@@ -67,7 +67,7 @@ export default new Router({<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">最好是，我希望有一个自动系统，而不是在每个组件的已创建功能上更改页面标题。</font><font style="vertical-align: inherit;">谢谢。</font></font></p></div>
     {% endraw %}
   </div>
-
+  <p style="height: 0;width:0;overflow: hidden;"> 第2248篇《使用vue-router时如何更改页面标题？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}

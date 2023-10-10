@@ -19,7 +19,7 @@ topic: JavaScript
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果不是内置的，我唯一的想法就是为每个字符创建一个宽度表，但这是非常不合理的，特别是支持</font></font><a href="http://en.wikipedia.org/wiki/Unicode" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Unicode</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">和不同类型的大小（以及与此相关的所有浏览器）。</font></font></p></div>
     {% endraw %}
   </div>
-
+  <p style="height: 0;width:0;overflow: hidden;"> 第1509篇《使用JavaScript计算文字宽度》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}

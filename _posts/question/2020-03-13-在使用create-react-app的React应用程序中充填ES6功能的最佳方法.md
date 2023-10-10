@@ -25,7 +25,7 @@ topic: React.js
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">那么...“手动”包括它们的最佳方法是什么？</font><font style="vertical-align: inherit;">我以为那是通天塔的一部分？</font><font style="vertical-align: inherit;">我应该部分导入</font></font><a href="https://babeljs.io/docs/usage/polyfill/" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">babel-polyfill的</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">元素</font><font style="vertical-align: inherit;">吗？</font></font></p></div>
     {% endraw %}
   </div>
-
+  <p style="height: 0;width:0;overflow: hidden;"> 第1448篇《在使用create-react-app的React应用程序中充填ES6功能的最佳方法》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}

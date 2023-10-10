@@ -117,7 +117,7 @@ export default class Users extends React.Component {<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">但是，当然上面的示例不起作用，因为</font></font><code>getUsers</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">不存在于我的用户视图中的道具。</font><font style="vertical-align: inherit;">如果有可能的话，正确的做法是什么？</font></font></p></div>
     {% endraw %}
   </div>
-
+  <p style="height: 0;width:0;overflow: hidden;"> 第1647篇《在渲染功能之外访问React Context》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}

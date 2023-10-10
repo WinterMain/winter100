@@ -32,7 +32,7 @@ topic: Vue.js
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">目前，我正在使用</font></font><code>$store</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">来处理</font></font><code>moreData</code></p></div>
     {% endraw %}
   </div>
-
+  <p style="height: 0;width:0;overflow: hidden;"> 第3220篇《将自定义数据传递到vue-router中的$ router.push（）》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}

@@ -21,7 +21,7 @@ topic: JavaScript
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">CommonJS，异步模块定义（AMD）和RequireJS之间有什么关系？</font><font style="vertical-align: inherit;">RequireJS是CommonJS模块定义的实现吗？</font><font style="vertical-align: inherit;">如果是，那么AMD是什么？</font></font></p></div>
     {% endraw %}
   </div>
-
+  <p style="height: 0;width:0;overflow: hidden;"> 第467篇《CommonJS，AMD和RequireJS之间的关系？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}

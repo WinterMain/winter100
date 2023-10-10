@@ -46,7 +46,7 @@ topic: CSS
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我可以使用蛮力，</font></font><code>%style(type="text/css")</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">但是HAML的</font></font><code>:css</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">过滤器似乎</font></font><em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">应该</font></font></em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">更“优雅”？！？</font><font style="vertical-align: inherit;">或者，我是否错过了某些东西（我很少处理内联CSS）并且</font></font><code>type</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">不再需要？！？</font></font></p></div>
     {% endraw %}
   </div>
-
+  <p style="height: 0;width:0;overflow: hidden;"> 第3009篇《HAML-使用：css过滤器将type = text / css添加到<style>标签》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}

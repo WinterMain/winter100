@@ -47,7 +47,7 @@ npm ERR! npm -v 1.0.104<font></font>
 </code></pre></div>
     {% endraw %}
   </div>
-
+  <p style="height: 0;width:0;overflow: hidden;"> 第2286篇《使用npm时收到错误：“错误：SSL错误：SELF_SIGNED_CERT_IN_CHAIN”》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}

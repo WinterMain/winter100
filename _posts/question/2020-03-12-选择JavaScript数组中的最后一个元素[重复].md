@@ -54,7 +54,7 @@ topic: JavaScript
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">每当位置更新时，我都会使用“ for（x in loc）”语句，以从列表中获取最后一个位置，并使用该语句来更新标记。</font><font style="vertical-align: inherit;">如何从哈希中的数组中选择最后一个元素？</font></font></p></div>
     {% endraw %}
   </div>
-
+  <p style="height: 0;width:0;overflow: hidden;"> 第1073篇《选择JavaScript数组中的最后一个元素[重复]》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}

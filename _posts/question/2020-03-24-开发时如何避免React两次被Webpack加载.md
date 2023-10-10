@@ -37,7 +37,7 @@ topic: Webpack
 <p><a href="https://github.com/webpack/webpack/issues/105" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">听起来很像我所面临的相同挑战，但似乎不是这样，</font></font><code>npm dedupe</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">或者Webpack的重复数据删除选项可以工作。</font><font style="vertical-align: inherit;">我可能不了解一些重要的细节。</font></font></p></div>
     {% endraw %}
   </div>
-
+  <p style="height: 0;width:0;overflow: hidden;"> 第3466篇《开发时如何避免React两次被Webpack加载》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}

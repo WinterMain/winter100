@@ -21,7 +21,7 @@ topic: JavaScript
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">现在，我正在尝试使用JS </font></font><code>slice()</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">函数，但是非常尴尬。</font></font></p></div>
     {% endraw %}
   </div>
-
+  <p style="height: 0;width:0;overflow: hidden;"> 第1371篇《删除Javascript中字符串的第一个字符》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}

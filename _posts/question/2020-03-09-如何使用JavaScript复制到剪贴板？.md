@@ -34,7 +34,7 @@ topic: JavaScript
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">一个没有Flash的好窍门：</font></font><a href="https://stackoverflow.com/questions/17527870/how-does-trello-access-the-users-clipboard"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Trello如何访问用户的剪贴板？</font></font></a></p></div>
     {% endraw %}
   </div>
-
+  <p style="height: 0;width:0;overflow: hidden;"> 第155篇《如何使用JavaScript复制到剪贴板？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}

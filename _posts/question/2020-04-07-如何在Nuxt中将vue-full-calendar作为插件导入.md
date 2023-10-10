@@ -119,7 +119,7 @@ if (process.browser) {<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">但是，由于我将完整的日历组件注册为插件，因此应该在全球范围内进行注册。</font></font></p></div>
     {% endraw %}
   </div>
-
+  <p style="height: 0;width:0;overflow: hidden;"> 第4133篇《如何在Nuxt中将vue-full-calendar作为插件导入》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}

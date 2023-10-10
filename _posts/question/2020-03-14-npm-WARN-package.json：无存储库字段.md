@@ -37,7 +37,7 @@ npm WARN package.json ctype@0.5.2 No repository field.<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我是Node.js和Express.js的新手。</font><font style="vertical-align: inherit;">为什么会有以上警告？</font><font style="vertical-align: inherit;">我应该担心吗？</font></font></p></div>
     {% endraw %}
   </div>
-
+  <p style="height: 0;width:0;overflow: hidden;"> 第1576篇《npm WARN package.json：无存储库字段》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}

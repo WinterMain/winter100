@@ -37,7 +37,7 @@ setTimeout(wrapFn, 0);<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我已经为我的问题找到了解决方案，但是我不知道自己到底为什么能解决我的问题，对此我感到不安。</font><font style="vertical-align: inherit;">有人有官方解释吗？</font><font style="vertical-align: inherit;">通过使用调用函数“稍后”可以避免出现什么浏览器问题</font></font><code>setTimeout()</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">？</font></font></p></div>
     {% endraw %}
   </div>
-
+  <p style="height: 0;width:0;overflow: hidden;"> 第429篇《为什么setTimeout（fn，0）有时有用？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}

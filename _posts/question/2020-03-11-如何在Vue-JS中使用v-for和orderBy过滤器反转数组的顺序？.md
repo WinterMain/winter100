@@ -39,7 +39,7 @@ topic: JavaScript
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">有什么方法可以</font></font><code>v-for</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">使用</font></font><code>orderBy</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">过滤器</font><font style="vertical-align: inherit;">的</font><font style="vertical-align: inherit;">语法</font><font style="vertical-align: inherit;">在模板中完成此操作</font><font style="vertical-align: inherit;">？</font><font style="vertical-align: inherit;">还是我必须创建一个自定义</font></font><code>reverse</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">过滤器？</font></font></p></div>
     {% endraw %}
   </div>
-
+  <p style="height: 0;width:0;overflow: hidden;"> 第759篇《如何在Vue JS中使用v-for和orderBy过滤器反转数组的顺序？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}

@@ -33,7 +33,7 @@ exports = function () {<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">您能否解释其背后的原因？</font><font style="vertical-align: inherit;">我在这里阅读了</font></font><a href="https://stackoverflow.com/questions/7137397/module-exports-vs-exports-in-nodejs"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这篇</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">文章：</font><a href="https://stackoverflow.com/questions/7137397/module-exports-vs-exports-in-nodejs"><font style="vertical-align: inherit;">Node.js中的module.exports与export</font></a><font style="vertical-align: inherit;">。</font><font style="vertical-align: inherit;">它很有帮助，但没有解释以这种方式设计它的原因。</font><font style="vertical-align: inherit;">如果直接返回出口参考书会不会有问题？</font></font></p></div>
     {% endraw %}
   </div>
-
+  <p style="height: 0;width:0;overflow: hidden;"> 第2372篇《CommonJs模块系统中“ module.exports”和“ exports”之间的区别》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}

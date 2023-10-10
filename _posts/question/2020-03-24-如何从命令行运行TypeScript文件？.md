@@ -19,7 +19,7 @@ topic: Node.js
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我的项目有一个</font></font><code>tsconfig.json</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">供Webpack / ts-loader使用的工具，用于为浏览器构建一个不错的小捆绑包。</font><font style="vertical-align: inherit;">不过，在此之前，我需要从控制台运行一个构建步骤，该步骤将使用</font></font><code>.ts</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">项目中</font><font style="vertical-align: inherit;">使用的一些</font><font style="vertical-align: inherit;">文件来生成模式，但是我似乎无法在不编译的情况下运行单个Typescript文件整个项目。</font></font></p></div>
     {% endraw %}
   </div>
-
+  <p style="height: 0;width:0;overflow: hidden;"> 第3252篇《如何从命令行运行TypeScript文件？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}

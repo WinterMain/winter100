@@ -52,7 +52,7 @@ topic: Vue.js
 <p>So how do I do this in Nuxt? I want to take a string of HTML from the server, and render it on the page, and turn any registered Vue components into proper full-blown Vue components. Basically a little "VueifyThis(html)" factory.</p></div>
     {% endraw %}
   </div>
-
+  <p style="height: 0;width:0;overflow: hidden;"> 第2701篇《Nuxt渲染函数，用于包含Vue组件的HTML字符串》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}

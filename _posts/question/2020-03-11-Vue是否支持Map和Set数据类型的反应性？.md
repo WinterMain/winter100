@@ -23,7 +23,7 @@ topic: Vue.js
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">由于Javascript </font></font><code>Map</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">和</font></font><code>Set</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">数据类型被设计为与它们的内置</font></font><code>get</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">/ </font></font><code>set</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">方法一起使用，因此如何获取Vue来跟踪对</font></font><code>Map</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">s和</font></font><code>Set</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">s </font><font style="vertical-align: inherit;">内部状态的调用（以及更改）</font><font style="vertical-align: inherit;">？</font></font></p></div>
     {% endraw %}
   </div>
-
+  <p style="height: 0;width:0;overflow: hidden;"> 第669篇《Vue是否支持Map和Set数据类型的反应性？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}

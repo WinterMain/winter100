@@ -23,7 +23,7 @@ npm config set registry https://registry.npmjs.org/<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">然后运行a.bat，但不起作用，我发现“ set”一词是npm和bat的特殊关键字，是否有任何方法可以解决此问题？</font></font></p></div>
     {% endraw %}
   </div>
-
+  <p style="height: 0;width:0;overflow: hidden;"> 第3261篇《“ npm配置设置注册表https://registry.npmjs.org/”在Windows bat文件中不起作用》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}

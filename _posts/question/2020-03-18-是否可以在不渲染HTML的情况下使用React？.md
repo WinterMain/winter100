@@ -17,7 +17,7 @@ topic: React.js
     <div class="article-content"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我想知道是否有可能使用React进行逻辑并将数据发送回javascript函数，而无需呈现任何html。</font><font style="vertical-align: inherit;">我正在考虑的组件是将一些数据传递到的组件，它将把数据发送回React之外的javascript函数。</font><font style="vertical-align: inherit;">我知道这是可以做到的，而我本人已经完成了这一部分，但是我不确定如果不呈现所需的HTML，您将如何做到这一点。</font><font style="vertical-align: inherit;">这甚至是反应的实际用例吗？</font></font></p></div>
     {% endraw %}
   </div>
-
+  <p style="height: 0;width:0;overflow: hidden;"> 第2104篇《是否可以在不渲染HTML的情况下使用React？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}

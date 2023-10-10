@@ -66,7 +66,7 @@ received<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">有没有办法同步或延迟调用服务器</font></font><code>render()</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">？</font></font></p></div>
     {% endraw %}
   </div>
-
+  <p style="height: 0;width:0;overflow: hidden;"> 第3742篇《如何在React Universal中呈现从REST服务接收的数据？（Next.js）》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}

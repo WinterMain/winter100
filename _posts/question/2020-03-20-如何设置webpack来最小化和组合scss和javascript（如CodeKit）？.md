@@ -153,7 +153,7 @@ npm ERR!     /Users/cwd/webpack-test/npm-debug.log<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我应该安装哪些节点模块才能执行此操作？</font><font style="vertical-align: inherit;">我应该</font></font><code>webpack.config.js</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">长什么样？</font></font></p></div>
     {% endraw %}
   </div>
-
+  <p style="height: 0;width:0;overflow: hidden;"> 第2509篇《如何设置webpack来最小化和组合scss和javascript（如CodeKit）？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}

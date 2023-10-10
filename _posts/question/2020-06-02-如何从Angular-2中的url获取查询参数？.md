@@ -42,7 +42,7 @@ topic: TypeScript
 <pre class="lang-js prettyprint prettyprinted" style=""><code><span class="pln">query params</span><span class="pun">(</span><span class="str">"/my/path?param1=value1&amp;param2=value2"</span><span class="pun">)</span></code></pre></div>
     {% endraw %}
   </div>
-
+  <p style="height: 0;width:0;overflow: hidden;"> 第4243篇《如何从Angular 2中的url获取查询参数？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}

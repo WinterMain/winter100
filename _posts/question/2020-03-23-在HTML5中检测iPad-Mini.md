@@ -44,7 +44,7 @@ topic: HTML
 <p>So IMHO this goes beyond the thick fingers / guidelines discussions and is just something Apple and all other vendors ought to do: allow us to uniquely identify your device and <strong>think different</strong> instead of <strong>following</strong> guidelines.</p></div>
     {% endraw %}
   </div>
-
+  <p style="height: 0;width:0;overflow: hidden;"> 第2807篇《在HTML5中检测iPad Mini》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}

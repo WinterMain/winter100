@@ -42,7 +42,7 @@ topic: Webpack
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">但是，此解决方案不起作用，因为在Javascript Infovis Toolkit中，节点是在完成DOM渲染之后以及</font></font><code>window.onload</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">事件</font><font style="vertical-align: inherit;">之后绘制的</font><font style="vertical-align: inherit;">。</font><font style="vertical-align: inherit;">该库具有一些生命周期方法，例如onAfterCompute（），在绘制树完成后会调用该方法。</font><font style="vertical-align: inherit;">如何触发全局事件以通知Angular服务树的绘制已完成并且它可以查询所有节点？</font></font></p></div>
     {% endraw %}
   </div>
-
+  <p style="height: 0;width:0;overflow: hidden;"> 第4249篇《Angular 2-Typescript函数与外部js库的通信》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}

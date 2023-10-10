@@ -23,7 +23,7 @@ topic: HTML
 <p><b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">[编辑]：</font></font></b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我没有提前提到它，所以回答“ Flash”的海报是足够有效的，但是我正在做的部分工作是试图强调使用纯HTML5可以完成的工作...因此Flash是就我而言 </font><font style="vertical-align: inherit;">（尽管对于使用“真实” Web应用程序的任何人来说，这都是一个完全正确的答案。）在这种情况下，除非我不想让服务器参与其中，否则看起来我很不走运。</font><font style="vertical-align: inherit;">不管怎么说，还是要谢谢你！</font></font></p></div>
     {% endraw %}
   </div>
-
+  <p style="height: 0;width:0;overflow: hidden;"> 第3250篇《使用HTML5 / JavaScript生成并保存文件》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}

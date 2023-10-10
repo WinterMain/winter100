@@ -47,7 +47,7 @@ topic: JavaScript
 <p>What's the <code>~~</code> operator do?</p></div>
     {% endraw %}
   </div>
-
+  <p style="height: 0;width:0;overflow: hidden;"> 第1076篇《什么是JavaScript中的“双波浪号”（~~）运算符？[重复]》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}

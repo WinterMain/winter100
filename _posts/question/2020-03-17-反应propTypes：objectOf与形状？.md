@@ -32,7 +32,7 @@ optionalObjectWithShape: PropTypes.shape({<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">什么</font></font><code>objectOf</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">时候应该使用</font></font><code>shape</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">？什么</font><font style="vertical-align: inherit;">时候应该使用</font><font style="vertical-align: inherit;">？</font></font></p></div>
     {% endraw %}
   </div>
-
+  <p style="height: 0;width:0;overflow: hidden;"> 第1874篇《反应propTypes：objectOf与形状？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}

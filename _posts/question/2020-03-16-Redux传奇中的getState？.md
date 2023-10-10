@@ -36,7 +36,7 @@ function* mySaga() {<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在我的反序列化传奇中，我要处理创建商品的内存版本的副作用，我需要从商店中读取现有数据。</font><font style="vertical-align: inherit;">我不确定在这里怎么做，或者这是否是我甚至应该尝试使用redux-saga的模式。</font></font></p></div>
     {% endraw %}
   </div>
-
+  <p style="height: 0;width:0;overflow: hidden;"> 第1786篇《Redux传奇中的getState？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}

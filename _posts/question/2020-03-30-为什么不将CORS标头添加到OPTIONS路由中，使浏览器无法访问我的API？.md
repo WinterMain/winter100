@@ -48,7 +48,7 @@ topic: ExpressJS
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">所以我的主要问题是，在我看来，这种情况怎么似乎没有发生？</font><font style="vertical-align: inherit;">为什么没有调用我的app.options块？</font><font style="vertical-align: inherit;">为什么需要在主app.get块中设置标题？</font></font></p></div>
     {% endraw %}
   </div>
-
+  <p style="height: 0;width:0;overflow: hidden;"> 第3849篇《为什么不将CORS标头添加到OPTIONS路由中，使浏览器无法访问我的API？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}

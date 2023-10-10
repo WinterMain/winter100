@@ -18,7 +18,7 @@ topic: React.js
 我也使用public目录作为我的函数目录，</font></font><a href="https://github.com/subhendukundu/template-react-ssr/blob/feature/react-router/firebase.json" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">https://github.com/subhendukundu/template-react-ssr/blob/feature/react-router/firebase.json</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font><font style="vertical-align: inherit;">但是，即使我为云函数使用了不同的函数目录，我也会看到相同的错误。</font><font style="vertical-align: inherit;">反正有我可以解决吗？</font></font></p></div>
     {% endraw %}
   </div>
-
+  <p style="height: 0;width:0;overflow: hidden;"> 第2614篇《使用Firebase函数部署基于React的SSR应用时出错》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}

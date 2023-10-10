@@ -54,7 +54,7 @@ class ChildComponent {<font></font>
 <p><code>this.context</code> is <code>undefined</code> in the constructor of <code>Child</code>, if I move it to <code>componentDidMount</code> (currently set up this way in the repo), it works, but I'd like this to be resolved server-side. I'm not dead-set on <code>context</code>, if there's another way to do this, I'm all ears.</p></div>
     {% endraw %}
   </div>
-
+  <p style="height: 0;width:0;overflow: hidden;"> 第2688篇《SSR中的NextJS轨道安装组件》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}

@@ -31,7 +31,7 @@ topic: JavaScript
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我怎样才能做到这一点？</font><font style="vertical-align: inherit;">如果没有办法在JavaScript中执行类似的操作，我想知道一个也遵循</font></font><a href="http://c2.com/cgi/wiki?DontRepeatYourself" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">DRY概念</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">的替代解决方案</font><font style="vertical-align: inherit;">。</font></font></p></div>
     {% endraw %}
   </div>
-
+  <p style="height: 0;width:0;overflow: hidden;"> 第637篇《在JavaScript中切换语句多个案例》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}

@@ -23,7 +23,7 @@ topic: HTML
 <p><font style="vertical-align: inherit;"><strong><font style="vertical-align: inherit;">单击外部页面上的链接时，</font></strong><font style="vertical-align: inherit;">应分别转到“主页”选项卡和“注释”选项卡</font></font><strong><font style="vertical-align: inherit;"></font></strong></p></div>
     {% endraw %}
   </div>
-
+  <p style="height: 0;width:0;overflow: hidden;"> 第2900篇《Twitter Bootstrap选项卡：转到页面重新加载或超链接上的“特定”选项卡》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}

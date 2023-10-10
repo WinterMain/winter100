@@ -59,7 +59,7 @@ $(function() {<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我知道有人可以像这样将对象传递给函数，</font></font><code>$.when(deferred1, deferred2, ..., deferredX)</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">但是未知我要解决的实际问题中执行多少个Deferred对象。</font></font></p></div>
     {% endraw %}
   </div>
-
+  <p style="height: 0;width:0;overflow: hidden;"> 第1583篇《将一个Deferreds数组传递给$ .when（）》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}

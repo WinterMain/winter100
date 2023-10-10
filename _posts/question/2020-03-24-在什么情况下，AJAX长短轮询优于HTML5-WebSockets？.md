@@ -23,7 +23,7 @@ topic: HTML
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">既然两种技术似乎都做同样的事情，那么在哪种情况下，一个人会优先使用一个？</font><font style="vertical-align: inherit;">更具体地说，HTML5 WebSockets是否已使AJAX长/短轮询无效，还是有充分的理由偏爱AJAX而不是WebSockets？</font></font></p></div>
     {% endraw %}
   </div>
-
+  <p style="height: 0;width:0;overflow: hidden;"> 第3416篇《在什么情况下，AJAX长/短轮询优于HTML5 WebSockets？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}

@@ -56,7 +56,7 @@ var returnVal = await myAsyncFunction(obj);<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我已经在我的React项目和Node.js模块中广泛使用异步，唤醒和承诺。</font><font style="vertical-align: inherit;">React特别是早起的鸟儿，并采用了许多ECMAScript 6和ECMAScript 7功能。</font></font></p></div>
     {% endraw %}
   </div>
-
+  <p style="height: 0;width:0;overflow: hidden;"> 第1261篇《JavaScript promises和async await有什么区别？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}

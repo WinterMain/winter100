@@ -23,7 +23,7 @@ topic: Webpack
 <p><a href="https://www.samyoc.com//uploads/users/24006/images/thumbnails/1584931418202.png" data-src="https://www.samyoc.com//uploads/users/24006/images/1584931418202.png" rel="noreferrer"><img src="https://i.stack.imgur.com/HJqqQ.png" alt="在此处输入图片说明"></a></p></div>
     {% endraw %}
   </div>
-
+  <p style="height: 0;width:0;overflow: hidden;"> 第2678篇《React-Native：模块AppRegistry不是注册的可调用模块》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}

@@ -32,7 +32,7 @@ topic: JavaScript
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这与Stack Overflow问题密切相关。</font></font><em><a href="https://stackoverflow.com/questions/143847/best-way-to-find-an-item-in-a-javascript-array"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在JavaScript数组中查找项目的最佳方法？</font></font></a></em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">解决使用数组查找对象的问题</font></font><code>indexOf</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p></div>
     {% endraw %}
   </div>
-
+  <p style="height: 0;width:0;overflow: hidden;"> 第153篇《如何检查数组是否在JavaScript中包含值？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}

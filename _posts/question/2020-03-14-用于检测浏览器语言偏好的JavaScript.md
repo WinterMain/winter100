@@ -53,7 +53,7 @@ topic: JavaScript
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我找到了一个</font><font style="vertical-align: inherit;">详细讨论此问题</font><font style="vertical-align: inherit;">的</font></font><a href="http://www.velocityreviews.com/forums/t99655-save-way-to-detect-browser-language.html" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">链接</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，但问题仍未得到解决:(</font></font></p></div>
     {% endraw %}
   </div>
-
+  <p style="height: 0;width:0;overflow: hidden;"> 第1594篇《用于检测浏览器语言偏好的JavaScript》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}

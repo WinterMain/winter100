@@ -50,7 +50,7 @@ function Test2Ctrl($scope, $http) { $scope.header = "Test 2"; }<font></font>
 </code></pre></div>
     {% endraw %}
   </div>
-
+  <p style="height: 0;width:0;overflow: hidden;"> 第1856篇《如何基于AngularJS部分视图动态更改标头？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}

@@ -73,7 +73,7 @@ console.log(publicRuntimeConfig.isProd); //publicRuntimeConfig is undefined here
 <p><code>publicRuntimeConfig</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> 在更高环境中未定义，因为它不是要部署的软件包的一部分。</font></font></p></div>
     {% endraw %}
   </div>
-
+  <p style="height: 0;width:0;overflow: hidden;"> 第3128篇《prod / staging中始终未定义next.config.js中的publicRuntimeConfig》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}

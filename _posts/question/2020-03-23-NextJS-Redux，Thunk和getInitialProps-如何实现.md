@@ -53,7 +53,7 @@ export default connect(mapStateToProps, mapDispatchToProps)(Page);<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">请帮助我正确</font></font><code>redux</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">实施</font></font><code>nextjs</code></p></div>
     {% endraw %}
   </div>
-
+  <p style="height: 0;width:0;overflow: hidden;"> 第2700篇《NextJS Redux，Thunk和getInitialProps-如何实现》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}

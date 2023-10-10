@@ -79,7 +79,7 @@ const routes = [<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我知道我可以在组件内部使用路由器保护逻辑</font></font><code>BeforeRouteEnter</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，但这会使每个组件混乱。</font><font style="vertical-align: inherit;">我想在路由器级别集中定义它。</font></font></p></div>
     {% endraw %}
   </div>
-
+  <p style="height: 0;width:0;overflow: hidden;"> 第1016篇《定义Vue-Router路由时访问Vuex状态》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}

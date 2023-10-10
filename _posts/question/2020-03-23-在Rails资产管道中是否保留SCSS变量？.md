@@ -29,7 +29,7 @@ topic: CSS
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">当然这是行不通的，因为变量不会在文件中持久保存。</font><font style="vertical-align: inherit;">有人知道如何实现这一目标吗？</font></font></p></div>
     {% endraw %}
   </div>
-
+  <p style="height: 0;width:0;overflow: hidden;"> 第3104篇《在Rails资产管道中是否保留SCSS变量？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}

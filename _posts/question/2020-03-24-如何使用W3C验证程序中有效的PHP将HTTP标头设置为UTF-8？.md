@@ -28,7 +28,7 @@ topic: HTML
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我对PHP相当陌生，我想知道是否可以并且应该更改PHP文件的标头以匹配HTML文件。</font></font></p></div>
     {% endraw %}
   </div>
-
+  <p style="height: 0;width:0;overflow: hidden;"> 第3247篇《如何使用W3C验证程序中有效的PHP将HTTP标头设置为UTF-8？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}

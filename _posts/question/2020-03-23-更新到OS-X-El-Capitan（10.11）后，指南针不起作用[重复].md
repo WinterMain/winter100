@@ -43,7 +43,7 @@ topic: CSS
 <p>How this can be fixed?</p></div>
     {% endraw %}
   </div>
-
+  <p style="height: 0;width:0;overflow: hidden;"> 第2843篇《更新到OS X El Capitan（10.11）后，指南针不起作用[重复]》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}

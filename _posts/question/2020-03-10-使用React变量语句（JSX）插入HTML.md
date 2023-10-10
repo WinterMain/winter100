@@ -31,7 +31,7 @@ topic: JavaScript
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">并按预期插入HTML吗？</font><font style="vertical-align: inherit;">我还没有看到或听到任何有关可以内联执行此操作的react函数的信息，也没有听说过任何可以使之起作用的解析方法。</font></font></p></div>
     {% endraw %}
   </div>
-
+  <p style="height: 0;width:0;overflow: hidden;"> 第528篇《使用React变量语句（JSX）插入HTML》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}

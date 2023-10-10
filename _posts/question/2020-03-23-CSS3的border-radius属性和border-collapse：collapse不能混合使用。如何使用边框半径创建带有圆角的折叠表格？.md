@@ -59,7 +59,7 @@ topic: CSS
 <p>I know that trying to do this with CSS3 today may seem needless, but I have my reasons. I would also like to point out that this problem is a result of the w3c specification, not poor CSS3 support, so any solution will still be relevant and useful when CSS3 has more widespread support.</p></div>
     {% endraw %}
   </div>
-
+  <p style="height: 0;width:0;overflow: hidden;"> 第2799篇《CSS3的border-radius属性和border-collapse：collapse不能混合使用。如何使用边框半径创建带有圆角的折叠表格？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}

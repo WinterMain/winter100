@@ -51,7 +51,7 @@ topic: CSS
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我希望这项工作能够正常进行，因为这会让我感到不</font></font><code>span</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">舒服，但更重要的是，我有大约100个我想修改的博客文章，如果可以修改样式表，我可以一口气做到这一点，但是如果我必须返回并</font></font><code>span</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在</font></font><code>a</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">和</font></font><code>img</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">元素</font><font style="vertical-align: inherit;">之间</font><font style="vertical-align: inherit;">添加一个额外</font><font style="vertical-align: inherit;">的</font><font style="vertical-align: inherit;">元素，这将需要做更多的工作。  </font></font></p></div>
     {% endraw %}
   </div>
-
+  <p style="height: 0;width:0;overflow: hidden;"> 第3415篇《：before是否不适用于img元素？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}

@@ -21,7 +21,7 @@ topic: HTML
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">假设我正在用</font></font><a href="http://www.modernizr.com/"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Modernizr</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">检查SVG支持，</font><font style="vertical-align: inherit;">然后退回（可能是用一个普通</font></font><code>&lt;img&gt;</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">标签进行</font><font style="vertical-align: inherit;">替换</font><font style="vertical-align: inherit;">）不支持SVG的浏览器。</font></font></p></div>
     {% endraw %}
   </div>
-
+  <p style="height: 0;width:0;overflow: hidden;"> 第2062篇《我是否对SVG文件使用<img>，<object>或<embed>？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}

@@ -36,7 +36,7 @@ $('.form_wrapper').click(function(event){<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">问题是我在DIV中有链接，当单击它们时它们不再起作用。</font></font></p></div>
     {% endraw %}
   </div>
-
+  <p style="height: 0;width:0;overflow: hidden;"> 第1754篇《当用户在DIV之外单击时，使用jQuery隐藏DIV》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}

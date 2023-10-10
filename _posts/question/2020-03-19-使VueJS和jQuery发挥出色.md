@@ -34,7 +34,7 @@ topic: Vue.js
  </font></font><a href="https://codepen.io/AngelinCalu/pen/LWvwNq" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">//codepen.io/AngelinCalu/pen/LWvwNq</font></font></a></p></div>
     {% endraw %}
   </div>
-
+  <p style="height: 0;width:0;overflow: hidden;"> 第2260篇《使VueJS和jQuery发挥出色》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}

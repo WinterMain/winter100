@@ -30,7 +30,7 @@ alert(ктоείναι草泥马 + happy☺n☺mat☺p☺eia + ಠ_ಠ);<font></f
 <p>EDIT: Test it out in your browser on <a href="http://jsfiddle.net/h5Gsf/1/" rel="noreferrer">JSFiddle</a>. I've tested it in Internet&nbsp;Explorer&nbsp;9, Chrome, Firefox, and Opera. So far, it seems to only work in Internet&nbsp;Explorer&nbsp;9. (I don't know about Internet&nbsp;Explorer&nbsp;8 and below.) Let me know if it works in another browser.</p></div>
     {% endraw %}
   </div>
-
+  <p style="height: 0;width:0;overflow: hidden;"> 第636篇《◎ܫ◎和☺为什么不是有效的JavaScript变量名称？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}

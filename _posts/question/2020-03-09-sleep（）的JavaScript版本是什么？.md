@@ -28,7 +28,7 @@ topic: JavaScript
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这不是</font></font><a href="https://stackoverflow.com/questions/758688/sleep-in-javascript-delay-between-actions"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">JavaScript</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">中</font><a href="https://stackoverflow.com/questions/758688/sleep-in-javascript-delay-between-actions"><font style="vertical-align: inherit;">Sleep</font></a><font style="vertical-align: inherit;">的重复</font><a href="https://stackoverflow.com/questions/758688/sleep-in-javascript-delay-between-actions"><font style="vertical-align: inherit;">-动作之间的延迟</font></a><font style="vertical-align: inherit;"> ; </font><font style="vertical-align: inherit;">我希望</font><font style="vertical-align: inherit;">在函数中间</font></font><em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">真正入睡</font></font></em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，而不是在执行一段代码之前没有延迟。</font></font></p></div>
     {% endraw %}
   </div>
-
+  <p style="height: 0;width:0;overflow: hidden;"> 第200篇《sleep（）的JavaScript版本是什么？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}

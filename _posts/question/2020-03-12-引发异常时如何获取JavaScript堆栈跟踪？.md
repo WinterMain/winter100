@@ -31,7 +31,7 @@ function bar(n) {<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">当</font></font><code>foo</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">被调用时，我希望得到一个堆栈跟踪，其中包括在两个电话</font></font><code>foo</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，</font></font><code>bar</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，</font></font><code>bar</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p></div>
     {% endraw %}
   </div>
-
+  <p style="height: 0;width:0;overflow: hidden;"> 第1207篇《引发异常时如何获取JavaScript堆栈跟踪？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}

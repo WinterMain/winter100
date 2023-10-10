@@ -21,7 +21,7 @@ topic: React.js
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我们大多数人已经在使用其他工具，例如browserify或webpack。</font><font style="vertical-align: inherit;">我不容易看到AMP如何</font><font style="vertical-align: inherit;">与其他产品相</font></font><em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">适应</font></font></em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font><font style="vertical-align: inherit;">其中一些工具已经使我们能够以优化的方式为我们的网站提供服务。</font><font style="vertical-align: inherit;">AMP HTML将在多大程度上改变所有这些？</font></font></p></div>
     {% endraw %}
   </div>
-
+  <p style="height: 0;width:0;overflow: hidden;"> 第4050篇《什么是AMP HTML，它如何与Framework / tool X配合？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}

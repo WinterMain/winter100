@@ -19,7 +19,7 @@ topic: JavaScript
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我希望有一些方法可以自动从表单中构建JavaScript对象，而不必遍历每个元素。</font><font style="vertical-align: inherit;">我不想要由返回的字符串，</font></font><code>$('#formid').serialize();</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">也不希望由返回的映射</font></font><code>$('#formid').serializeArray();</code></p></div>
     {% endraw %}
   </div>
-
+  <p style="height: 0;width:0;overflow: hidden;"> 第244篇《使用jQuery将表单数据转换为JavaScript对象》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}

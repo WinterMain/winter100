@@ -60,7 +60,7 @@ body {<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">但是得到相同的结果……有人知道为什么这些助手不起作用吗？</font></font></p></div>
     {% endraw %}
   </div>
-
+  <p style="height: 0;width:0;overflow: hidden;"> 第2302篇《sass-rails帮助器“ image-url”，“ asset-url”在rails 3.2.1中不起作用》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}

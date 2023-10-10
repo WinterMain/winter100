@@ -86,7 +86,7 @@ topic: JavaScript
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我应该如何</font></font><code>this.setState</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">进行更新</font></font><code>items[1].name</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">？</font></font></p></div>
     {% endraw %}
   </div>
-
+  <p style="height: 0;width:0;overflow: hidden;"> 第481篇《反应：如何使用setState更新state.item [1]状态？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}

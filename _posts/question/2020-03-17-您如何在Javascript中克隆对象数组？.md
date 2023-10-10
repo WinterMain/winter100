@@ -42,7 +42,7 @@ clonedNodesArray[0].value = "green"<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">你会怎么做？</font><font style="vertical-align: inherit;">这是什至不应该做的事情吗？</font><font style="vertical-align: inherit;">有没有一种可重用的方式来做到这一点在Javascript中？</font></font></p></div>
     {% endraw %}
   </div>
-
+  <p style="height: 0;width:0;overflow: hidden;"> 第1859篇《您如何在Javascript中克隆对象数组？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}

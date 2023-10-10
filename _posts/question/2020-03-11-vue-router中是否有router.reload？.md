@@ -46,7 +46,7 @@ topic: Vue.js
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">PS。</font><font style="vertical-align: inherit;">我知道这</font></font><code>location.reload()</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">是替代方法之一，但我正在寻找本机Vue选项。</font></font></p></div>
     {% endraw %}
   </div>
-
+  <p style="height: 0;width:0;overflow: hidden;"> 第579篇《vue-router中是否有router.reload？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}

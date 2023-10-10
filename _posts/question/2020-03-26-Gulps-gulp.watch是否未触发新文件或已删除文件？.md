@@ -59,7 +59,7 @@ gulp.task('watch', ['build'], function () {<font></font>
 <p><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">编辑</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">：解决了，就是</font></font><a href="https://github.com/floatdrop/gulp-watch/issues/1" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这个问题</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font><font style="vertical-align: inherit;">以</font></font><code>./</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">（的值为</font></font><code>src</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">）</font><font style="vertical-align: inherit;">开头的电子邮件</font><font style="vertical-align: inherit;">似乎无法在ATM上正常工作。</font></font></p></div>
     {% endraw %}
   </div>
-
+  <p style="height: 0;width:0;overflow: hidden;"> 第3781篇《Gulps gulp.watch是否未触发新文件或已删除文件？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}

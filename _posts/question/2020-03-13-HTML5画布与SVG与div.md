@@ -21,7 +21,7 @@ topic: JavaScript
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">为了比较这些方法，我正在考虑创建三个视觉上相同的网页，每个网页中都有页眉，页脚，小部件和文本内容。</font><font style="vertical-align: inherit;">第一页中的小部件将完全使用</font></font><code>canvas</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">元素</font><font style="vertical-align: inherit;">创建</font><font style="vertical-align: inherit;">，第二页中的完全使用</font></font><code>svg</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">元素创建，而第三页中的使用简单</font></font><code>div</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">元素HTML和CSS创建。</font></font></p></div>
     {% endraw %}
   </div>
-
+  <p style="height: 0;width:0;overflow: hidden;"> 第1377篇《HTML5画布与SVG与div》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}

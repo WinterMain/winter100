@@ -17,7 +17,7 @@ topic: JavaScript
     <div class="article-content"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">你如何扭转地方（或就地）在JavaScript字符串时，它被传递给用一个return语句的功能，而无需使用内置函数（</font></font><code>.reverse()</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，</font></font><code>.charAt()</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">等等）？</font></font></p></div>
     {% endraw %}
   </div>
-
+  <p style="height: 0;width:0;overflow: hidden;"> 第1771篇《如何在JavaScript中反转字符串？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}

@@ -17,7 +17,7 @@ topic: JavaScript
     <div class="article-content"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">有一种简单的方法可以将字符串转换为标题大小写吗？</font><font style="vertical-align: inherit;">例如</font></font><code>john smith</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">变为</font></font><code>John Smith</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font><font style="vertical-align: inherit;">我不是在寻找像</font></font><a href="http://ejohn.org/blog/title-capitalization-in-javascript/"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">John Resig的解决方案</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">那样复杂的东西</font><font style="vertical-align: inherit;">，只是（希望）某种一线或两线。</font></font></p></div>
     {% endraw %}
   </div>
-
+  <p style="height: 0;width:0;overflow: hidden;"> 第1114篇《使用JavaScript将字符串转换为标题大小写》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}

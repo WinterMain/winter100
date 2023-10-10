@@ -17,7 +17,7 @@ topic: React.js
     <div class="article-content"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我目前正在使用reactjs构建一个单页面应用程序。</font><font style="vertical-align: inherit;">我读到许多不使用localStorage的原因是由于XSS漏洞。</font><font style="vertical-align: inherit;">由于React避开了所有用户输入，现在使用localStorage是否安全？</font></font></p></div>
     {% endraw %}
   </div>
-
+  <p style="height: 0;width:0;overflow: hidden;"> 第824篇《使用reactjs将jwt存储在localStorage中是否安全？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}

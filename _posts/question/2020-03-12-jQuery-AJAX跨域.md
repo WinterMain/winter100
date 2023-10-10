@@ -47,7 +47,7 @@ echo json_encode($arr);<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">现在我的问题是：当这两个文件都在同一服务器上（本地主机或Web服务器）时，它可以工作并被</font></font><code>alert("Success")</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">调用；</font><font style="vertical-align: inherit;">如果它在不同的服务器上，则意味着Web服务器上的testserver.php和localhost上的test.php，它不起作用，并且</font></font><code>alert("Error")</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">正在执行。</font><font style="vertical-align: inherit;">即使ajax内的URL更改为</font></font><a href="http://domain.com/path/to/file/testserver.php" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">http://domain.com/path/to/file/testserver.php</font></font></a></p></div>
     {% endraw %}
   </div>
-
+  <p style="height: 0;width:0;overflow: hidden;"> 第1336篇《jQuery AJAX跨域》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}

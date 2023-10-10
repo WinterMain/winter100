@@ -38,7 +38,7 @@ function doSomething() {<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">还有其他方法可以克服吗？</font><font style="vertical-align: inherit;">处理程序</font></font><code>created</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">和</font></font><code>$route</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">更改</font><font style="vertical-align: inherit;">的处理程序</font><font style="vertical-align: inherit;">可以合并吗？</font><font style="vertical-align: inherit;">是否可以禁用组件的重用，以便根本不需要观察者？</font><font style="vertical-align: inherit;">我正在使用Vue 2，但这对于Vue 1也可能很有趣。</font></font></p></div>
     {% endraw %}
   </div>
-
+  <p style="height: 0;width:0;overflow: hidden;"> 第1803篇《使用Vue Router应对参数更改的最佳实践》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}

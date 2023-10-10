@@ -131,7 +131,7 @@ topic: React.js
 <p><code>Uncaught TypeError: Cannot read property 'props' of undefined</code></p></div>
     {% endraw %}
   </div>
-
+  <p style="height: 0;width:0;overflow: hidden;"> 第906篇《React，ES6-getInitialState在普通的JavaScript类上定义》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}

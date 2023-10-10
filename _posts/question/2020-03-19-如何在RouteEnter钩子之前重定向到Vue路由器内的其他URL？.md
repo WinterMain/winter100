@@ -27,7 +27,7 @@ beforeRouteEnter(to, from, next) {<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这里的问题是</font><font style="vertical-align: inherit;">挂钩中</font></font><code>this</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">未定义</font></font><code>beforeRouteEnter</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font><font style="vertical-align: inherit;">那么</font></font><code>$router</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在这种情况下</font><font style="vertical-align: inherit;">，访问</font><font style="vertical-align: inherit;">和重定向到其他URL </font><font style="vertical-align: inherit;">的正确方法是</font><font style="vertical-align: inherit;">什么？</font></font></p></div>
     {% endraw %}
   </div>
-
+  <p style="height: 0;width:0;overflow: hidden;"> 第2257篇《如何在RouteEnter钩子之前重定向到Vue路由器内的其他URL？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}

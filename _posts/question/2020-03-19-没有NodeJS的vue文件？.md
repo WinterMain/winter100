@@ -23,7 +23,7 @@ topic: Vue.js
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我试图构建一些webpack模板，但是它仅在NodeJS内部起作用。</font><font style="vertical-align: inherit;">在其他服务器上，访问</font></font><code>.vue</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">文件中的</font><font style="vertical-align: inherit;">URL时得到404 </font><font style="vertical-align: inherit;">。</font><font style="vertical-align: inherit;">看来其他服务器无法处理它们。</font></font></p></div>
     {% endraw %}
   </div>
-
+  <p style="height: 0;width:0;overflow: hidden;"> 第2249篇《没有NodeJS的vue文件？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}

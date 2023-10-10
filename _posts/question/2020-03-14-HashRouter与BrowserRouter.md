@@ -31,7 +31,7 @@ topic: React.js
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">尽管对BrowserRouter的第一种解释对我来说完全是模糊的，但对HashRouter的第二种解释也没有意义，例如为什么有人在URL中使用Hash（＃）来呈现组件？ </font></font></p></div>
     {% endraw %}
   </div>
-
+  <p style="height: 0;width:0;overflow: hidden;"> 第1605篇《HashRouter与BrowserRouter》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}

@@ -49,7 +49,7 @@ topic: CSS
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">（我知道我可以使用</font></font><code>$("object param").closest("object")</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">jQuery-和VanillaJS- </font><font style="vertical-align: inherit;">做到这一点，</font></font><code>document.querySelector("object param").closest("object")</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">但是我正在尝试在页面上创建CSS规则。）</font></font></p></div>
     {% endraw %}
   </div>
-
+  <p style="height: 0;width:0;overflow: hidden;"> 第2353篇《CSS选择器用于“包含bar的foo”？[重复]》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}

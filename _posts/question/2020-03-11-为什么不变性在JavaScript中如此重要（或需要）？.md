@@ -23,7 +23,7 @@ topic: JavaScript
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果我设置说</font><strong><font style="vertical-align: inherit;">最初</font></strong><font style="vertical-align: inherit;">具有值</font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">的对象数组，</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我将无法对其进行操作。</font><font style="vertical-align: inherit;">这就是不变性原则的意思，对吗？</font><font style="vertical-align: inherit;">（如果我错了，请纠正我。）但是，如果我有一个新的News对象必须更新怎么办？</font><font style="vertical-align: inherit;">在通常情况下，我可以将对象添加到数组中。</font><font style="vertical-align: inherit;">在这种情况下我该如何实现？</font><font style="vertical-align: inherit;">删除商店并重新创建？</font><font style="vertical-align: inherit;">是不是将对象添加到数组中的开销较小？</font></font><strong><font style="vertical-align: inherit;"></font></strong><font style="vertical-align: inherit;"></font></p></div>
     {% endraw %}
   </div>
-
+  <p style="height: 0;width:0;overflow: hidden;"> 第569篇《为什么不变性在JavaScript中如此重要（或需要）？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}

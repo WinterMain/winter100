@@ -27,7 +27,7 @@ topic: JavaScript
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">当前的浏览器是否响应该</font></font><code>"use strict";</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">字符串，或者</font><font style="vertical-align: inherit;">该</font><font style="vertical-align: inherit;">字符串可供将来使用？</font></font></p></div>
     {% endraw %}
   </div>
-
+  <p style="height: 0;width:0;overflow: hidden;"> 第134篇《“严格使用”在JavaScript中有什么作用，其背后的原因是什么？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}

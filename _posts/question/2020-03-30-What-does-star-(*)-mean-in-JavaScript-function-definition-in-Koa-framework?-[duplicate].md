@@ -48,7 +48,7 @@ app.listen(3000);
 <p>What does this star mean?</p></div>
     {% endraw %}
   </div>
-
+  <p style="height: 0;width:0;overflow: hidden;"> 第3843篇《What does star (*) mean in JavaScript function definition in Koa framework? [duplicate]》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}

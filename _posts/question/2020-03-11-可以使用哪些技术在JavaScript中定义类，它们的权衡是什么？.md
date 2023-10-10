@@ -20,7 +20,7 @@ topic: JavaScript
 在寻找其他答案时，我找到了文章“ </font></font><em><a href="http://www.webreference.com/js/column79/" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">使用JavaScript进行面向对象的编程”，第I部分：继承-文档JavaScript</font></font></a></em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，该文章讨论了</font><em><a href="http://www.webreference.com/js/column79/" rel="noreferrer"><font style="vertical-align: inherit;">JavaScript</font></a></em><font style="vertical-align: inherit;">中的面向对象的编程。</font><font style="vertical-align: inherit;">有更好的继承方法吗？</font></font></p></div>
     {% endraw %}
   </div>
-
+  <p style="height: 0;width:0;overflow: hidden;"> 第691篇《可以使用哪些技术在JavaScript中定义类，它们的权衡是什么？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}

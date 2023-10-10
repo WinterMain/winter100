@@ -17,7 +17,7 @@ topic: HTML
     <div class="article-content"><p><font style="vertical-align: inherit;"></font><code>&lt;img&gt;</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">万一</font></font><code>src</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">属性无效（仅使用HTML）</font><font style="vertical-align: inherit;">，</font><font style="vertical-align: inherit;">有什么方法可以在HTML </font><font style="vertical-align: inherit;">标签中</font><font style="vertical-align: inherit;">呈现默认图像</font><font style="vertical-align: inherit;">？</font><font style="vertical-align: inherit;">如果没有，那么解决该问题的轻巧方式是什么？</font></font></p></div>
     {% endraw %}
   </div>
-
+  <p style="height: 0;width:0;overflow: hidden;"> 第3887篇《如果html <img>的src属性无效，是否输入默认图像？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}

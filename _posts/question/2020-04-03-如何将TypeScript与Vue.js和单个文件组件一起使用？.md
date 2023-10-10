@@ -41,7 +41,7 @@ topic: Vue.js
 <p>I have already successfully completed several client projects that run in production in Vue.js with vanilla JavaScript but this TypeScript tooling in combination with Vue.js just confuses the hell out of me.</p></div>
     {% endraw %}
   </div>
-
+  <p style="height: 0;width:0;overflow: hidden;"> 第3989篇《如何将TypeScript与Vue.js和单个文件组件一起使用？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}

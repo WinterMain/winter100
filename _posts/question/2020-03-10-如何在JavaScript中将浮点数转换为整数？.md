@@ -17,7 +17,7 @@ topic: JavaScript
     <div class="article-content"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我想将浮点数转换为JavaScript中的整数。</font><font style="vertical-align: inherit;">实际上，我想知道如何同时进行标准转换：截断和舍入。</font><font style="vertical-align: inherit;">而且有效，而不是通过转换为字符串和解析。</font></font></p></div>
     {% endraw %}
   </div>
-
+  <p style="height: 0;width:0;overflow: hidden;"> 第385篇《如何在JavaScript中将浮点数转换为整数？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}

@@ -38,7 +38,7 @@ v6.2.0<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">即使使用此命令</font></font><code>npm rebuild node-sass</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">也不会更改任何内容。</font></font></p></div>
     {% endraw %}
   </div>
-
+  <p style="height: 0;width:0;overflow: hidden;"> 第1976篇《Node Sass尚不支持您当前的环境：Linux 64-bit with false》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}

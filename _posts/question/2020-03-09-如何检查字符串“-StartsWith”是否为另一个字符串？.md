@@ -25,7 +25,7 @@ haystack.startsWith(needle) == true<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">注意：这是一个古老的问题，正如评论中指出的ECMAScript 2015（ES6）引入了该</font></font><a href="https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Global_Objects/String/startsWith" rel="noreferrer"><code>.startsWith</code></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">方法。</font><font style="vertical-align: inherit;">但是，在撰写此更新（2015）时，</font></font><a href="http://kangax.github.io/compat-table/es6/#test-String.prototype_methods_String.prototype.startsWith" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">浏览器支持还远远没有完成</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p></div>
     {% endraw %}
   </div>
-
+  <p style="height: 0;width:0;overflow: hidden;"> 第233篇《如何检查字符串“ StartsWith”是否为另一个字符串？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}

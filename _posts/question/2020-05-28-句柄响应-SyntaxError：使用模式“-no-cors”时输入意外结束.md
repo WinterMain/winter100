@@ -92,7 +92,7 @@ fetch</span><span class="pun">(</span><span class="str">'http://localhost:8080/c
 </span><span class="pun">]</span></code></pre></div>
     {% endraw %}
   </div>
-
+  <p style="height: 0;width:0;overflow: hidden;"> 第4228篇《句柄响应-SyntaxError：使用模式“ no-cors”时输入意外结束》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}

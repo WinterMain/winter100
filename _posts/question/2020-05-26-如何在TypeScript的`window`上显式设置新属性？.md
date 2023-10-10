@@ -35,7 +35,7 @@ topic: TypeScript
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">作为旁注，我发现TypeScript抱怨特别有趣，因为它告诉我</font></font><code>window</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">类型</font></font><code>any</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">肯定可以包含任何内容。</font></font></p></div>
     {% endraw %}
   </div>
-
+  <p style="height: 0;width:0;overflow: hidden;"> 第4179篇《如何在TypeScript的`window`上显式设置新属性？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}

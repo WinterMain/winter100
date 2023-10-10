@@ -17,7 +17,7 @@ topic: CSS
     <div class="article-content"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">每个响应式网站开发教程都建议使用</font></font><code>display:none</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">CSS属性来隐藏内容，以防止内容在移动浏览器中加载，从而使网站加载速度更快。</font><font style="vertical-align: inherit;">是真的吗 </font><font style="vertical-align: inherit;">难道</font></font><code>display:none</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">不加载图像或它仍然加载在手机浏览器的内容？</font><font style="vertical-align: inherit;">有什么方法可以防止在移动浏览器上加载不必要的内容？</font></font></p></div>
     {% endraw %}
   </div>
-
+  <p style="height: 0;width:0;overflow: hidden;"> 第2634篇《“ display：none”会阻止图像加载吗？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}

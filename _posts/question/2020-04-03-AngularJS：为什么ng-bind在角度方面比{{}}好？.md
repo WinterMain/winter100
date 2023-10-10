@@ -21,7 +21,7 @@ topic: JavaScript
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">也有人说，如果屏幕上没有太多数据，则可以使用</font></font><code>{{}}</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，并且性能问题将不可见。</font><font style="vertical-align: inherit;">有人可以帮我阐明一下这个问题吗？</font></font></p></div>
     {% endraw %}
   </div>
-
+  <p style="height: 0;width:0;overflow: hidden;"> 第3958篇《AngularJS：为什么ng-bind在角度方面比{{}}好？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}

@@ -64,7 +64,7 @@ The field getInitialProps does not belong to type ReasonReact.componentSpec<font
 </code></pre></div>
     {% endraw %}
   </div>
-
+  <p style="height: 0;width:0;overflow: hidden;"> 第2949篇《如何将自定义方法添加到ReasonReact组件？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}

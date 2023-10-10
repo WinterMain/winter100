@@ -19,7 +19,7 @@ topic: HTML
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这里有</font></font><a href="https://stackoverflow.com/questions/641292/html-forms-without-actions"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">一篇帖子问空白的HTML表单动作是做什么的，</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">并且像</font></font><a href="http://www.thefutureoftheweb.com/blog/use-empty-form-action-submit-to-current" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这样的</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">一些页面</font><font style="vertical-align: inherit;">表明它很好，但是我想知道人们的想法。</font></font></p></div>
     {% endraw %}
   </div>
-
+  <p style="height: 0;width:0;overflow: hidden;"> 第3697篇《将空的URL用作HTML表单的action属性是否是一种好习惯？（操作=“”）》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}

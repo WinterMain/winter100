@@ -19,7 +19,7 @@ topic: JavaScript
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">堆栈溢出问题</font></font><em><a href="https://stackoverflow.com/questions/194846"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">JavaScript中是否存在某种hashCode函数？</font></font></a></em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">与这个问题相似，但需要更多的学术答案。</font><font style="vertical-align: inherit;">上面的场景演示了为什么必须要有一个，而我想知道是否有任何</font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">等效的解决方案</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p></div>
     {% endraw %}
   </div>
-
+  <p style="height: 0;width:0;overflow: hidden;"> 第776篇《如何确定两个JavaScript对象的相等性？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}

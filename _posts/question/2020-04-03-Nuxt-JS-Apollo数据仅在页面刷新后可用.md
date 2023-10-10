@@ -91,7 +91,7 @@ export default {<font></font>
 所以以某种方式，如果我将Nuxt降级到1.0.0版，一切正常</font></font></p></div>
     {% endraw %}
   </div>
-
+  <p style="height: 0;width:0;overflow: hidden;"> 第3932篇《Nuxt JS Apollo数据仅在页面刷新后可用》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}

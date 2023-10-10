@@ -35,7 +35,7 @@ topic: JavaScript
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">不幸的是，</font><font style="vertical-align: inherit;">当</font><font style="vertical-align: inherit;">未定义</font><font style="vertical-align: inherit;">时</font><font style="vertical-align: inherit;">，</font></font><a href="http://en.wikipedia.org/wiki/Firebug_%28software%29" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Firebug会将</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这样的语句评估为运行时错误</font></font><code>some_variable</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，而第一个</font><font style="vertical-align: inherit;">语句</font><font style="vertical-align: inherit;">就可以了。</font><font style="vertical-align: inherit;">这仅仅是Firebug的一种（有害的）行为，还是这两种方式之间确实存在某些区别？</font></font></p></div>
     {% endraw %}
   </div>
-
+  <p style="height: 0;width:0;overflow: hidden;"> 第1252篇《如何在JavaScript中检查未定义或null变量？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}

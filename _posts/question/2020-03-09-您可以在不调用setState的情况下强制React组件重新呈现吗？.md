@@ -44,7 +44,7 @@ topic: React.js
 <p><strong>So I guess my question is:</strong> do React components <em>need</em> to have state in order to rerender? Is there a way to force the component to update on demand without changing the state?</p></div>
     {% endraw %}
   </div>
-
+  <p style="height: 0;width:0;overflow: hidden;"> 第313篇《您可以在不调用setState的情况下强制React组件重新呈现吗？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}

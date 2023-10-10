@@ -36,7 +36,7 @@ topic: React.js
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">现在的要点是，我有两个固定的</font></font><code>div</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">元素，一个在顶部，一个在底部。</font><font style="vertical-align: inherit;">在中间，我想有一个switch语句，根据状态下的值，我想渲染一个不同的组件。</font><font style="vertical-align: inherit;">因此，基本上，我希望两个</font></font><code>div</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">元素始终固定，并且每次都在中间以呈现不同的组件。</font><font style="vertical-align: inherit;">我正在使用它来实现多步付款程序）。</font><font style="vertical-align: inherit;">不过，正如目前的代码一样，它不起作用，因为它给了我一个错误，说这</font></font><code>switch</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">是意外的。</font><font style="vertical-align: inherit;">有什么想法可以实现我想要的吗？</font></font></p></div>
     {% endraw %}
   </div>
-
+  <p style="height: 0;width:0;overflow: hidden;"> 第2158篇《如何在React组件中使用switch语句？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}

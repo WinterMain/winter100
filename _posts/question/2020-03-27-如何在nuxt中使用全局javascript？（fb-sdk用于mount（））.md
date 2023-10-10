@@ -51,7 +51,7 @@ mounted () {<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">请回答。</font><font style="vertical-align: inherit;">谢谢。</font></font></p></div>
     {% endraw %}
   </div>
-
+  <p style="height: 0;width:0;overflow: hidden;"> 第3821篇《如何在nuxt中使用全局javascript？（fb sdk用于mount（））》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}

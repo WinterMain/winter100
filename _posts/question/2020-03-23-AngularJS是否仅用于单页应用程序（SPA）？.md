@@ -32,7 +32,7 @@ topic: Node.js
 <p><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">2016年6月18日更新</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">项目跌入悬崖，所以我们从来没有回避太多的事情。</font><font style="vertical-align: inherit;">我们最近再次选择了它，但是不再使用angular而是使用React。</font><font style="vertical-align: inherit;">我们仍在使用上一个更新中概述的架构，其中我们使用Express和自包含应用程序，因此，例如，我们</font></font><code>/chat</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在Express中</font><font style="vertical-align: inherit;">有一条</font><font style="vertical-align: inherit;">路线可以服务我们的React聊天应用程序，而在另一条路线中</font></font><code>/projects</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">可以服务项目应用程序，以此类推。</font><font style="vertical-align: inherit;">我们从某种角度看待它的方式是，每个应用程序在其功能集方面都是一个聚合根，它需要能够独立运行，才能将其本身视为一个应用程序。</font><font style="vertical-align: inherit;">从技术上讲，所有信息都在那里，它只是基本表达，以及您想要使用的客户端应用程序构建优势的任何形式。</font></font></p></div>
     {% endraw %}
   </div>
-
+  <p style="height: 0;width:0;overflow: hidden;"> 第2911篇《AngularJS是否仅用于单页应用程序（SPA）？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}

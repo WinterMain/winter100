@@ -19,7 +19,7 @@ topic: JavaScript
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我看到越来越多的JavaScript库在处理字符串时使用单引号。</font><font style="vertical-align: inherit;">为何一个使用另一个原因？</font><font style="vertical-align: inherit;">我认为它们几乎可以互换。</font></font></p></div>
     {% endraw %}
   </div>
-
+  <p style="height: 0;width:0;overflow: hidden;"> 第215篇《什么时候在JavaScript中使用双引号或单引号？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}

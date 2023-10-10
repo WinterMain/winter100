@@ -17,7 +17,7 @@ topic: Node.js
     <div class="article-content"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">了解</font></font><code>.npmrc</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">文件中</font><font style="vertical-align: inherit;">的代理变量，</font><font style="vertical-align: inherit;">但是它不起作用。</font><font style="vertical-align: inherit;">尝试避免手动下载所有必需的软件包并进行安装。</font></font></p></div>
     {% endraw %}
   </div>
-
+  <p style="height: 0;width:0;overflow: hidden;"> 第2444篇《有没有一种方法可以使npm install（命令）在代理后面工作？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}

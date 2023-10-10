@@ -49,7 +49,7 @@ topic: HTML
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果有人可以在Windows上的FF下查看，我将不胜感激。</font><font style="vertical-align: inherit;">我很确定它不能在非Windows盒子上工作。</font></font></p></div>
     {% endraw %}
   </div>
-
+  <p style="height: 0;width:0;overflow: hidden;"> 第3776篇《HTML / XHTML中的刻度符号》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}

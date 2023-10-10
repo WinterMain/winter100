@@ -22,7 +22,7 @@ topic: React.js
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我如何在我的nextjs应用程序中支持从外部包进行的css导入。</font><font style="vertical-align: inherit;">我已经通过在next.config.js中进行更改来检查某个地方，它可以工作。</font><font style="vertical-align: inherit;">但是我找不到合适的人，如果有人可以帮助我解决这个问题，那就太好了。</font></font></p></div>
     {% endraw %}
   </div>
-
+  <p style="height: 0;width:0;overflow: hidden;"> 第3043篇《如何在nextjs应用程序中导入外部CSS文件》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}

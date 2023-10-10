@@ -49,7 +49,7 @@ render(<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">该方法在我调用时执行</font></font><code>onEnter={requireAuth()}</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，但显然这不是目的，而且我也不会获得所需的参数。</font></font></p></div>
     {% endraw %}
   </div>
-
+  <p style="height: 0;width:0;overflow: hidden;"> 第2319篇《在React-Router中未调用onEnter》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}

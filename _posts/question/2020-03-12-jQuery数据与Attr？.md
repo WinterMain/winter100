@@ -19,7 +19,7 @@ topic: JavaScript
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我的理解是，</font></font><code>$.data</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">它存储在jQuery的内部</font></font><code>$.cache</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，而不是DOM。</font><font style="vertical-align: inherit;">因此，如果要</font></font><code>$.cache</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">用于数据存储，则应使用</font></font><code>$.data</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font><font style="vertical-align: inherit;">如果要添加HTML5数据属性，则应使用</font></font><code>$.attr("data-attribute", "myCoolValue")</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p></div>
     {% endraw %}
   </div>
-
+  <p style="height: 0;width:0;overflow: hidden;"> 第1196篇《jQuery数据与Attr？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}

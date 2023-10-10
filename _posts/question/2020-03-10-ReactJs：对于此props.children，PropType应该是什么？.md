@@ -62,7 +62,7 @@ export default ContainerComponent;<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">请告知，我是否应该不麻烦对子元素进行propTypes检查？</font></font></p></div>
     {% endraw %}
   </div>
-
+  <p style="height: 0;width:0;overflow: hidden;"> 第478篇《ReactJs：对于此props.children，PropType应该是什么？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}

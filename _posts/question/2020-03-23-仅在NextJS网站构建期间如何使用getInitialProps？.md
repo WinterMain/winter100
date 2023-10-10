@@ -41,7 +41,7 @@ export default Page<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这是好习惯吗？</font></font></p></div>
     {% endraw %}
   </div>
-
+  <p style="height: 0;width:0;overflow: hidden;"> 第2696篇《仅在NextJS网站构建期间如何使用getInitialProps？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}

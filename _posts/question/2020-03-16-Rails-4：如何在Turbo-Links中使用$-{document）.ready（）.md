@@ -19,7 +19,7 @@ topic: JavaScript
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">所以我的问题是：在涡轮链接打开时，确保jQuery事件正常工作的正确方法是什么？</font><font style="vertical-align: inherit;">您是否将脚本包装在特定于Rails的侦听器中？</font><font style="vertical-align: inherit;">或者，也许rails具有某种使它不必要的魔力？</font><font style="vertical-align: inherit;">该文档对如何工作有点含糊不清，尤其是在通过清单（如application.js）加载多个文件方面。</font></font></p></div>
     {% endraw %}
   </div>
-
+  <p style="height: 0;width:0;overflow: hidden;"> 第1775篇《Rails 4：如何在Turbo-Links中使用$ {document）.ready（）》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}

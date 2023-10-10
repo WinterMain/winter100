@@ -17,7 +17,7 @@ topic: CSS
     <div class="article-content"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我想看看</font></font><code>:hover</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我在Chrome中徘徊的锚</font><font style="vertical-align: inherit;">的</font><font style="vertical-align: inherit;">样式。</font><font style="vertical-align: inherit;">在Firebug中，有一个样式下拉列表，允许我为元素选择不同的状态。</font><font style="vertical-align: inherit;">我似乎在Chrome中找不到任何类似的东西。</font><font style="vertical-align: inherit;">我想念什么吗？</font></font></p></div>
     {% endraw %}
   </div>
-
+  <p style="height: 0;width:0;overflow: hidden;"> 第1675篇《请参阅Chrome开发者工具中的：hover状态》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}

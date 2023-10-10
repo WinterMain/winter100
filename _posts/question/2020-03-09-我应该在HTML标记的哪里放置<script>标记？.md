@@ -21,7 +21,7 @@ topic: JavaScript
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">（此问题引用了</font></font><a href="https://stackoverflow.com/questions/436154/why-does-the-call-to-this-jquery-function-fail-in-firefox"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这个问题</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，在</font><a href="https://stackoverflow.com/questions/436154/why-does-the-call-to-this-jquery-function-fail-in-firefox"><font style="vertical-align: inherit;">该问题</font></a><font style="vertical-align: inherit;">中建议将JavaScript函数调用从</font></font><code>&lt;a&gt;</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">标签</font><font style="vertical-align: inherit;">移动</font><font style="vertical-align: inherit;">到</font></font><code>&lt;script&gt;</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">标签。我专门使用jQuery，但更通用的答案也是合适的。）</font></font></p></div>
     {% endraw %}
   </div>
-
+  <p style="height: 0;width:0;overflow: hidden;"> 第262篇《我应该在HTML标记的哪里放置<script>标记？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}

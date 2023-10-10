@@ -34,7 +34,7 @@ topic: TypeScript
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">typeof </font></font><code>objKey</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">是一个泛型，</font></font><code>string</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">但我希望它是一个</font></font><code>string literal</code> <code>"admin/home"</code></p></div>
     {% endraw %}
   </div>
-
+  <p style="height: 0;width:0;overflow: hidden;"> 第4201篇《无论如何，目前在TypeScript中现在是否可以将两个或多个字符串文字类型连接为单个字符串文字类型？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}

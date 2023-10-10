@@ -71,7 +71,7 @@ export default rootReducer;<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如何访问此字段？</font></font></p></div>
     {% endraw %}
   </div>
-
+  <p style="height: 0;width:0;overflow: hidden;"> 第1607篇《如何访问Redux Reducer内部的状态？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}

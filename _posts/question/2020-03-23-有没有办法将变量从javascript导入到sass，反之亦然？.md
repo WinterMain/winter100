@@ -36,7 +36,7 @@ $block-margin: 10px;<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">但我也希望javascript能够访问基本文件中的变量。</font><font style="vertical-align: inherit;">我当时想我可以创建一个不可见的div，并为其赋予$ block-width，$ block-height和$ block-margin属性并从中获取值。</font><font style="vertical-align: inherit;">但是max-columns不能直接映射到任何东西，因此我不得不想出一种hacky的方法来将它渲染到div中。</font><font style="vertical-align: inherit;">有没有一种更干净的方法可以将值从sass / css共享到javascript，反之亦然？</font></font></p></div>
     {% endraw %}
   </div>
-
+  <p style="height: 0;width:0;overflow: hidden;"> 第2923篇《有没有办法将变量从javascript导入到sass，反之亦然？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}

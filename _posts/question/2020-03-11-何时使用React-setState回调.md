@@ -17,7 +17,7 @@ topic: React.js
     <div class="article-content"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">当反应组件状态改变时，将调用render方法。</font><font style="vertical-align: inherit;">因此，对于任何状态更改，都可以在渲染方法主体中执行操作。</font><font style="vertical-align: inherit;">那么setState回调是否有特定的用例？</font></font></p></div>
     {% endraw %}
   </div>
-
+  <p style="height: 0;width:0;overflow: hidden;"> 第607篇《何时使用React setState回调》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}

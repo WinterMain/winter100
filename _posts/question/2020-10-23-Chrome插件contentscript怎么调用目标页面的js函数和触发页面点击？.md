@@ -15,7 +15,7 @@ answer: 1
     <div class="article-content"><p>如题，在开发Chrome插件的时候，怎么让contentscript去调用根页面的js函数，触发页面的点击事件等方法呢？</p></div>
     {% endraw %}
   </div>
-
+  <p style="height: 0;width:0;overflow: hidden;"> 第4268篇《Chrome插件contentscript怎么调用目标页面的js函数和触发页面点击？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}

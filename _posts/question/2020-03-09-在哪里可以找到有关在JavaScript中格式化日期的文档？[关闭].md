@@ -65,7 +65,7 @@ d1.toString('dddd, MMMM ,yyyy')  //Returns "Monday, June 29,2009" in Internet Ex
 <p>Where is the documentation which lists the format specifiers supported by the <code>Date()</code> object?</p></div>
     {% endraw %}
   </div>
-
+  <p style="height: 0;width:0;overflow: hidden;"> 第266篇《在哪里可以找到有关在JavaScript中格式化日期的文档？[关闭]》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}

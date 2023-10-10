@@ -70,7 +70,7 @@ var Lander = React.createClass({<font></font>
 <p>EDIT: OOOOH do I need to host it using MAMP or something?</p></div>
     {% endraw %}
   </div>
-
+  <p style="height: 0;width:0;overflow: hidden;"> 第1040篇《ReactJS：“未捕获到的SyntaxError：意外令牌<”》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}

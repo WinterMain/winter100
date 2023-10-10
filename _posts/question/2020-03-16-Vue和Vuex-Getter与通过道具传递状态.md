@@ -29,7 +29,7 @@ topic: Vue.js
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如何加载用户信用卡的数据？</font><font style="vertical-align: inherit;">在资讯主页中将其一直传递到树下吗？</font></font></p></div>
     {% endraw %}
   </div>
-
+  <p style="height: 0;width:0;overflow: hidden;"> 第1809篇《Vue和Vuex Getter与通过道具传递状态》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}

@@ -37,7 +37,7 @@ new Vue({<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我知道</font><font style="vertical-align: inherit;">当我覆盖列表属性时</font><font style="vertical-align: inherit;">问题出在</font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">created（）中</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，但是我是Vue的新手，所以我完全不知道如何解决它。</font><font style="vertical-align: inherit;">任何人都知道如何（并请解释为什么）修复它？</font></font></p></div>
     {% endraw %}
   </div>
-
+  <p style="height: 0;width:0;overflow: hidden;"> 第331篇《Vue 2-变异道具vue-warn》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}

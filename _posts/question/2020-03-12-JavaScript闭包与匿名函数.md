@@ -63,7 +63,7 @@ topic: JavaScript
 <p>Note that both solutions print 0 to 9 on the console delayed, so they solve the original problem, but we want to understand which of those two solutions <strong>uses closures</strong> to accomplish this.</p></div>
     {% endraw %}
   </div>
-
+  <p style="height: 0;width:0;overflow: hidden;"> 第1022篇《JavaScript闭包与匿名函数》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}

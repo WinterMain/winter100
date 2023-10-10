@@ -57,7 +57,7 @@ var popsicle = require('popsicle');<font></font>
 <p><a href="https://github.com/Wilfred/webpack_promise_demo" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">完整的回购演示在这里</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p></div>
     {% endraw %}
   </div>
-
+  <p style="height: 0;width:0;overflow: hidden;"> 第3557篇《如何用webpack填充Promise？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}

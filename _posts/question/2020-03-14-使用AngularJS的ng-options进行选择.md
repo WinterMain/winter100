@@ -39,7 +39,7 @@ topic: JavaScript
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我已经阅读了</font></font><em><a href="http://docs.angularjs.org/api/ng.directive:select" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">select</font></font></a></em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">并尝试过，但是我无法弄清楚。</font></font></p></div>
     {% endraw %}
   </div>
-
+  <p style="height: 0;width:0;overflow: hidden;"> 第1587篇《使用AngularJS的ng-options进行选择》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}

@@ -81,7 +81,7 @@ export class AppShell {<font></font>
 </font></font><code>Error: [object Object]</code></p></div>
     {% endraw %}
   </div>
-
+  <p style="height: 0;width:0;overflow: hidden;"> 第3287篇《Angular 2应用程序中没有“ Access-Control-Allow-Origin”标头》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}

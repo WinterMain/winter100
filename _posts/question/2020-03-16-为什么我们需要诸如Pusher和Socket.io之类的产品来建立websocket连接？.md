@@ -17,7 +17,7 @@ topic: Vue.js
     <div class="article-content"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我最近在研究Laravel聊天练习应用程序时，一直在阅读有关Websocket和SaaS的信息，例如Pusher和Socket.io。</font><font style="vertical-align: inherit;">我不明白的是，为什么我们需要外部软件来建立websocket连接？</font><font style="vertical-align: inherit;">像Laravel这样的服务器代码不能直接与Vue.js这样的前端建立连接吗？</font><font style="vertical-align: inherit;">为什么它必须经过像Pusher和Socket.io这样的中间人？</font><font style="vertical-align: inherit;">对不起，菜鸟问题。</font></font></p></div>
     {% endraw %}
   </div>
-
+  <p style="height: 0;width:0;overflow: hidden;"> 第1723篇《为什么我们需要诸如Pusher和Socket.io之类的产品来建立websocket连接？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}

@@ -129,7 +129,7 @@ EventMachine::run {<font></font>
 <p><sub>It is clear that we could add async or use setTimeout to free up the render thread or put the JavaScript code in the footer, or use a JavaScript loader. The point here is about ordering of essential JavaScript bits and CSS bits in the head.</sub></p></div>
     {% endraw %}
   </div>
-
+  <p style="height: 0;width:0;overflow: hidden;"> 第1637篇《CSS是否应始终优先于Javascript？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}

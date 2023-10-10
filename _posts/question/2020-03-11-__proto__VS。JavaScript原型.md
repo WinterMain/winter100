@@ -29,7 +29,7 @@ var c = new Foo(30);<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">该图取自</font></font><a href="http://dmitrysoshnikov.com/ecmascript/javascript-the-core/" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">dmitrysoshnikov.com</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p></div>
     {% endraw %}
   </div>
-
+  <p style="height: 0;width:0;overflow: hidden;"> 第556篇《__proto__VS。JavaScript原型》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}

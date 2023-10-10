@@ -50,7 +50,7 @@ topic: JavaScript
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如何</font></font><code>onClick</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在React js中将</font><font style="vertical-align: inherit;">值传递给</font><font style="vertical-align: inherit;">事件？</font></font></p></div>
     {% endraw %}
   </div>
-
+  <p style="height: 0;width:0;overflow: hidden;"> 第317篇《React js onClick无法将值传递给方法》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}

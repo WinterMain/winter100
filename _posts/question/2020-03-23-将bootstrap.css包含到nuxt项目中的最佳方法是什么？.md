@@ -38,7 +38,7 @@ topic: Vue.js
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如何在构建时将bootstrap.css从“ node_modules / bootstrap / dist / ...”复制到“〜/ assets”，然后从此处加载它？</font></font></p></div>
     {% endraw %}
   </div>
-
+  <p style="height: 0;width:0;overflow: hidden;"> 第2784篇《将bootstrap.css包含到nuxt项目中的最佳方法是什么？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}

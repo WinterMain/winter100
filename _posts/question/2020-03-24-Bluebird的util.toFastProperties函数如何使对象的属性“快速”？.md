@@ -39,7 +39,7 @@ topic: Node.js
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我已经在Bluebird的GitHub存储库中搜索了源代码中的任何注释或问题列表中的解释，但找不到任何注释。</font></font></p></div>
     {% endraw %}
   </div>
-
+  <p style="height: 0;width:0;overflow: hidden;"> 第3435篇《Bluebird的util.toFastProperties函数如何使对象的属性“快速”？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}

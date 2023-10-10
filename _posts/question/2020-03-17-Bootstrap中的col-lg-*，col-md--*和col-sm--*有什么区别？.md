@@ -17,7 +17,7 @@ topic: CSS
     <div class="article-content"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">是什么之间的差异</font></font><code>col-lg-*</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，</font></font><code>col-md-*</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">并</font></font><code>col-sm-*</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在Twitter的引导？</font></font></p></div>
     {% endraw %}
   </div>
-
+  <p style="height: 0;width:0;overflow: hidden;"> 第1978篇《Bootstrap中的col-lg-*，col-md- *和col-sm- *有什么区别？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}

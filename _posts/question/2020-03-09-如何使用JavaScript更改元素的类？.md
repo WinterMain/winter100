@@ -17,7 +17,7 @@ topic: JavaScript
     <div class="article-content"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如何</font></font><code>onclick</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">使用JavaScript </font><font style="vertical-align: inherit;">响应</font><font style="vertical-align: inherit;">事件来</font><font style="vertical-align: inherit;">更改HTML元素的类</font><font style="vertical-align: inherit;">？</font></font></p></div>
     {% endraw %}
   </div>
-
+  <p style="height: 0;width:0;overflow: hidden;"> 第173篇《如何使用JavaScript更改元素的类？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}

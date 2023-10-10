@@ -41,7 +41,7 @@ console.log(arr[0]);  // Prints: format_undefined (!!!)<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">问题在于</font></font><code>console.log</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">它的参数就像一条</font></font><code>printf</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">语句一样，并且由于我正在记录的字符串（</font></font><code>"%A"</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">）具有特殊值，因此它试图查找下一个参数的值。</font></font></p></div>
     {% endraw %}
   </div>
-
+  <p style="height: 0;width:0;overflow: hidden;"> 第277篇《如何在JavaScript正则表达式中访问匹配的组？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}

@@ -25,7 +25,7 @@ range("A", "C"); // Array("A", "B", "C")<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">为此，JavaScript是否内置任何内置功能？</font><font style="vertical-align: inherit;">如果没有，我将如何实施？</font></font></p></div>
     {% endraw %}
   </div>
-
+  <p style="height: 0;width:0;overflow: hidden;"> 第504篇《JavaScript是否具有类似“ range（）”的方法来在提供的范围内生成范围？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}

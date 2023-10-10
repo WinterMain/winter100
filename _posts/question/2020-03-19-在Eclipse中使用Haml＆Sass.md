@@ -29,7 +29,7 @@ topic: CSS
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">对于编译与Ecplise集成的Sass的任何方式，</font><font style="vertical-align: inherit;">我也都</font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">非常</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">感兴趣，这样我就不必与它分开运行。</font><font style="vertical-align: inherit;">（或将Sass / Compass放入Ecplise构建过程中的方法。）</font></font></p></div>
     {% endraw %}
   </div>
-
+  <p style="height: 0;width:0;overflow: hidden;"> 第2376篇《在Eclipse中使用Haml＆Sass》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}

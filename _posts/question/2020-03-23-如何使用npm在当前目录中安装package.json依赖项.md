@@ -52,7 +52,7 @@ fooapp/<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我了解这对于安装软件包很有意义。</font><font style="vertical-align: inherit;">但是我不在</font></font><code>require()</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">其他地方使用Web应用程序，而是直接运行它。</font><font style="vertical-align: inherit;">我正在寻找一种将依赖项安装到特定node_modules目录的简单方法。</font></font></p></div>
     {% endraw %}
   </div>
-
+  <p style="height: 0;width:0;overflow: hidden;"> 第3000篇《如何使用npm在当前目录中安装package.json依赖项》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}

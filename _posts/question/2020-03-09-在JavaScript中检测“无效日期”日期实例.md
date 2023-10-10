@@ -32,7 +32,7 @@ console.log(d instanceof Date); // shows 'true'<font></font>
 </ul></div>
     {% endraw %}
   </div>
-
+  <p style="height: 0;width:0;overflow: hidden;"> 第263篇《在JavaScript中检测“无效日期”日期实例》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}

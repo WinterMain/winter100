@@ -30,7 +30,7 @@ topic: JavaScript
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我试过将图像放在资产文件夹和静态文件夹中没有任何运气。</font><font style="vertical-align: inherit;">我是否必须告诉Vue以某种方式加载这些图像？</font></font></p></div>
     {% endraw %}
   </div>
-
+  <p style="height: 0;width:0;overflow: hidden;"> 第574篇《如何在Vue JavaScript中引用静态资产》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}

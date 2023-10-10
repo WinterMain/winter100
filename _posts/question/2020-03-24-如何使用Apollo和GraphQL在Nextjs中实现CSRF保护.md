@@ -72,7 +72,7 @@ next();<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">使用此配置，可以保护每条路由免受csrf的侵害，但是服务器上创建的令牌通常会更改，并且Apollo无法在需要时立即检索更新的令牌，因此第一次加载成功，但是随后的页面更改（链接）或任何发布请求失败，因为令牌已更改。</font></font></p></div>
     {% endraw %}
   </div>
-
+  <p style="height: 0;width:0;overflow: hidden;"> 第3293篇《如何使用Apollo和GraphQL在Nextjs中实现CSRF保护》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}

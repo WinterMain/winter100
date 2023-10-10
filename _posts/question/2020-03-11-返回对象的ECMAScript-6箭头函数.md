@@ -27,7 +27,7 @@ topic: JavaScript
 <p>Is there something obvious I am missing?</p></div>
     {% endraw %}
   </div>
-
+  <p style="height: 0;width:0;overflow: hidden;"> 第861篇《返回对象的ECMAScript 6箭头函数》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}

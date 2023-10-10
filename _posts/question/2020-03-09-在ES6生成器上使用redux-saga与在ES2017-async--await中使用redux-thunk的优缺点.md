@@ -91,7 +91,7 @@ export const loadUserData = (uid) =&gt; async (dispatch) =&gt; {<font></font>
 </code></pre></div>
     {% endraw %}
   </div>
-
+  <p style="height: 0;width:0;overflow: hidden;"> 第355篇《在ES6生成器上使用redux-saga与在ES2017 async / await中使用redux-thunk的优缺点》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}

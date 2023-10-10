@@ -25,7 +25,7 @@ topic: JavaScript
 <p>My question is - how can we use the <code>componentWillMount()</code> lifecyle method in a hook?</p></div>
     {% endraw %}
   </div>
-
+  <p style="height: 0;width:0;overflow: hidden;"> 第954篇《如何在React Hooks中使用componentWillMount（）？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}

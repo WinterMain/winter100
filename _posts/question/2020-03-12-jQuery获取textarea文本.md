@@ -21,7 +21,7 @@ topic: JavaScript
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我找不到有关从文本区域获取文本的任何信息，我所得到的只是键盘信息。</font><font style="vertical-align: inherit;">另外，如何将返回的键码转换为ASCII字符？</font></font></p></div>
     {% endraw %}
   </div>
-
+  <p style="height: 0;width:0;overflow: hidden;"> 第1290篇《jQuery获取textarea文本》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
