@@ -1,0 +1,29 @@
+---
+layout: default
+title: 咖啡
+sitemap: true
+permalink: /reward/
+---
+
+<div class="p-reward">
+  <div class="stage">
+    <div class="buycoffee flex flex-wrap">
+      {% for reward in site.rewards %}
+      <div class="coffee-outter">
+        <div class="coffee-box flex align-items">
+          <div class="coffee-addr">
+            <h4 class="for-name flex">
+              <img class="coffee-logo" alt="{{reward[1].name}}" src="/{{ reward[1].logo }}" height="40" width="40">
+              <span style="line-height: 40px;">{{reward[1].name}}</span>
+            </h4>
+            <div class="excerpt" style="word-break: break-all;">{{reward[1].addr}}</div>
+          </div>
+          <div class="coffee-qr">
+            <img alt="{{reward[1].name}} QR" src="/{{ reward[1].qr }}" height="86" width="86">
+          </div>
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</div>

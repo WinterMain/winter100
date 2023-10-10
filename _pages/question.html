@@ -1,0 +1,41 @@
+---
+title: 问答
+sitemap: true
+permalink: /question/
+layout: default
+---
+
+{% assign all_topic = site.categories.question | map: "topic" | uniq %}
+<style>{% include quesion-style.html list=all_topic %}</style>
+
+<div class="p-page p-question">
+  <div class="stage">
+    <div class="s-left question-list-wrapper" topic="">
+      <div class="c-nav flex">
+        <span item="" class="nav-item active">全部</span>
+        {% for item in all_topic %}
+          {% if item %}
+          <span item="{{item}}" class="nav-item">{{ item }}</span>
+          {% endif %}
+        {% endfor %}
+      </div>
+      <div class="question-list">
+      {% for post in site.categories.question %}
+        {% include questionLi.html info=post %}
+      {% endfor %}
+      </div>
+    </div>
+    <div class="s-right">
+      <div class="fixed-area">
+        <div class="box">
+          <p class="title">热门标签</p>
+          <div class="body flex tags flex-wrap">
+            {% for tag in site.tags %}
+            <span class="tag">{{tag[0]}}</span>
+            {% endfor %}
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

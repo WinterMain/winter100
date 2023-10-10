@@ -1,0 +1,39 @@
+---
+layout: default
+---
+{% capture post_url %}{{ relativebase }}{{ page.url }}{% endcapture %}
+{% assign post_url = post_url | replace: "//", "/" %}
+{% assign all_topic = site.categories.question | map: "topic" | uniq %}
+
+<div class="p-page p-post">
+  <div class="stage">
+    <div class="s-left code-content">
+      {{page.content}}
+    </div>
+    <div class="s-right">
+      <div class="fixed-area">
+        <div class="box">
+          <p class="title">相似问题</p>
+          <div class="body">
+            {% for post in site.related_posts | limit:6 %}
+            <div class="question-relative-item">
+              <div><a class="item-title link" href="{{post.url}}">{{post.title}}</a></div>
+              <p class="item-answer">{{post.answer}} 回答</p>
+            </div>
+            {% endfor %}
+          </div>
+        </div>
+        <div class="box mt-20">
+          <p class="title">问题类别</p>
+          <div class="body flex tags flex-wrap">
+            {% for tag in all_topic %}
+            {% if tag %}
+            <span class="tag">{{tag}}</span>
+            {% endif %}
+            {% endfor %}
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

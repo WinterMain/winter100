@@ -1,0 +1,50 @@
+{% assign pagecategory = page.url | replace: '/', '' %}
+{% if pagecategory == '' %}{% assign pagecategory = site.defaultCategory%}{% endif %}
+{% assign pagecategory = '/' | append: pagecategory | append: '/' %}
+
+{% for collection in site.collections %}
+  {% assign sorted_groups = collection.docs | group_by: "category" | sort_natural: "name" %}
+
+  {% if sorted_groups[0].name == '' %}
+    {% for curgroup in sorted_groups offset:1 %}
+      {% assign sorted_docs = curgroup.items %}
+      {% assign sumindex = 0 %}
+
+      {% for doc in sorted_docs %}
+        {% if doc.path contains pagecategory %}
+          {% if sumindex == 0 %}
+            {% assign groupname = curgroup.name | strip | split: "-" %}
+            {% if groupname.size > 1 %}<h1>{{ groupname[1] }}</h1>{% else %}<h1>{{ curgroup.name | strip }}</h1>{% endif %}
+          {% endif %}
+
+          {% assign sumindex = 1 %}
+          {% include doc.html %}
+        {% endif %}
+      {% endfor %}
+    {% endfor %}
+    {% assign curgroup = sorted_groups[0] %}
+    {% assign sorted_docs = curgroup.items %}
+    {% for doc in sorted_docs %}
+      {% if doc.path contains pagecategory %}
+        {% include doc.html %}
+      {% endif %}
+    {% endfor %}
+  {% else %}
+    {% for curgroup in sorted_groups %}
+      {% assign sorted_docs = curgroup.items %}
+      {% assign sumindex = 0 %}
+
+      {% for doc in sorted_docs %}
+        {% if doc.path contains pagecategory %}
+          {% if sumindex == 0 %}
+            {% assign groupname = curgroup.name | strip | split: "-" %}
+            {% if groupname.size > 1 %}<h1>{{ groupname[1] }}</h1>{% else %}<h1>{{ curgroup.name | strip }}</h1>{% endif %}
+          {% endif %}
+
+          {% assign sumindex = 1 %}
+          {% include doc.html %}
+        {% endif %}
+      {% endfor %}
+    {% endfor %}
+  {% endif %}
+{% endfor %}

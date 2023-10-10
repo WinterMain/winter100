@@ -1,0 +1,56 @@
+---
+layout: question
+title:  如何在不使用require语句的情况下使用webpack加载目录中的所有文件
+date:   2020-05-28T06:59:22.000Z
+description: 我的应用程序中有大量的javascript文件分成4个子目录。不好意思，我抓住了所有这些文件，并将它们编译成一个文件。这些文件没有module.expor...
+img: 
+author: 蛋蛋猿
+category: question
+answer: 1
+tags: JavaScript Webpack
+topic: Webpack
+---
+<div class="article-root">
+  <div class="article">
+    {% include articleTitle.html info=page %}
+    {% raw %}
+    <div class="article-content"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我的应用程序中有大量的javascript文件分成4个子目录。</font><font style="vertical-align: inherit;">不好意思，我抓住了所有这些文件，并将它们编译成一个文件。</font><font style="vertical-align: inherit;">这些文件没有module.exports函数。</font></font></p>
+
+<p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我想使用webpack并将其分为4部分。</font><font style="vertical-align: inherit;">我不想手动输入所有文件。</font></font></p>
+
+<p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我想创建一个插件，该插件在编译时会遍历目录树，然后获取所有.js文件名和路径，然后要求子目录中的所有文件并将其添加到输出中。 </font></font></p>
+
+<p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我希望将每个目录中的所有文件编译成一个模块，然后可以从我的入口点文件中将其要求，或者包含在</font></font><a href="http://webpack.github.io/docs/plugins.html" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">http://webpack.github.io/docs/plugins.html</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">提及</font><font style="vertical-align: inherit;">的资产</font><font style="vertical-align: inherit;">中。</font></font></p>
+
+<p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">添加新文件时，我只想将其放置在正确的目录中，并且知道它会包含在内。</font></font></p>
+
+<p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">有没有办法使用webpack或有人编写的插件来做到这一点？</font></font></p></div>
+    {% endraw %}
+  </div>
+
+  <div class="discuss-wrapper">
+    {% include discussTitle.html info=page %}
+    {% raw %}
+    <div class="discuss-item">
+        <div class="discuss-parent">
+          <div class="discuss-meta">
+            <span class="discuss-user">蓝染大人飞云</span>
+            <span class="discuss-time">2020.05.28</span>
+          </div>
+          <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在我的应用程序文件中，我最后放了要求 </font></font></p>
+
+<pre class="lang-js prettyprint prettyprinted" style=""><code><span class="pln">require</span><span class="pun">.</span><span class="pln">context</span><span class="pun">(</span><span class="pln">
+  </span><span class="str">"./common"</span><span class="pun">,</span><span class="pln"> </span><span class="com">// context folder</span><span class="pln">
+  </span><span class="kwd">true</span><span class="pun">,</span><span class="pln"> </span><span class="com">// include subdirectories</span><span class="pln">
+  </span><span class="pun">/.*</span><span class="str">/ /</span><span class="pun">/</span><span class="pln"> </span><span class="typ">RegExp</span><span class="pln">
+</span><span class="pun">)(</span><span class="str">"./"</span><span class="pln"> </span><span class="pun">+</span><span class="pln"> expr </span><span class="pun">+</span><span class="pln"> </span><span class="str">""</span><span class="pun">)</span></code></pre>
+
+<p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">由这篇文章提供：</font><a href="https://github.com/webpack/webpack/issues/118"><font style="vertical-align: inherit;">https</font></a><font style="vertical-align: inherit;"> : </font></font><a href="https://github.com/webpack/webpack/issues/118"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">//github.com/webpack/webpack/issues/118</font></font></a></p>
+
+<p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">现在正在添加我的所有文件。</font><font style="vertical-align: inherit;">我有一个用于html和css的加载器，它似乎工作得很好。</font></font></p></div>
+        </div>
+        
+      </div>
+    {% endraw %}
+  </div>
+<div>

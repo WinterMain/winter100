@@ -1,0 +1,86 @@
+# Site settings
+title: 学废了
+description: '学习让你忘记焦虑，学习让你忘记恐惧，学习让你更加强大，学习让你解决一切问题.' # this means to ignore newlines until "baseurl:"
+permalink: '/:categories/:title:output_ext'
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://aiyld.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+logo: "/assets/img/branding/MVM-logo-full.svg"
+logo-icon: "/assets/img/branding/MVM-symbol.svg"
+logo-icon-SEO: "/assets/img/branding/MVM-symbol-black.png" # must be a non SVG file
+nav-left:
+  question:
+    title: "问答"
+  blog:
+    title: "博客"
+nav-right:
+  about:
+    title: "关于"
+  reward:
+    title: "咖啡"
+
+night_mode: "auto"
+
+logo-dark: "/assets/img/branding/MVM-logo-full-dark.svg"
+highlight_theme: syntax-base16.monokai.dark # select a dark theme for the code highlighter if needed
+
+# Author settings
+author: Winter # add your name
+
+# Contact links
+email: aiyld@hotmail.com # Add your Email address
+
+# Tracker
+analytics: G-R8SZS2YBZK
+fbadmin: ar.maybach
+
+# Paginate
+# paginate: 6
+# paginate_path: 'page:num'
+# words_per_minute: 200
+
+extensions:
+  mermaid_enable: true
+
+# Build settings
+markdown: kramdown
+mathjax: true
+highlighter: rouge
+compress_html:
+  clippings: all
+  comments: all
+  startings: [html, head, body]
+
+# Outputting
+timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+
+category_archive:
+  type: liquid
+  path: /categories/
+
+plugins:
+  - jekyll-paginate
+  - jekyll-feed
+  - jekyll-sitemap
+
+include: [_pages]
+exclude: ["node_modules", "gulpfile.js", "package.json", "yarn.lock", "package-lock.json", "assets/css/sass/"]
+
+sass:
+  sourcemap: never
+
+rewards:
+  btc:
+    name: BTC
+    addr: "1Q6ZDFC3FueXY3JocmeMqgiSsGGtppbvz2"
+    logo: 'assets/img/btc.png'
+    qr: 'assets/img/btc-qr.png'
+  ETH:
+    name: ETH
+    addr: "0xff6FC30033269845d196cB48F6a0660598D218D8"
+    logo: 'assets/img/eth.png'
+    qr: 'assets/img/eth-qr.png'
+  bch:
+    name: BCH
+    addr: "qpa3lmppzg2zz3n53s9x7yeanparkeplwudhqa89g8"
+    logo: 'assets/img/bch.jpg'
+    qr: 'assets/img/bch-qr.png'

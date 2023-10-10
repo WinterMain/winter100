@@ -1,0 +1,81 @@
+---
+layout: question
+title:  更新到OS X El Capitan（10.11）后，指南针不起作用\[重复\]
+date:   2020-03-23T06:33:16.000Z
+description:                                                                          ...
+img: 
+author: 西里神奇
+category: question
+answer: 2
+tags: ruby CSS
+topic: CSS
+---
+<div class="article-root">
+  <div class="article">
+    {% include articleTitle.html info=page %}
+    {% raw %}
+    <div class="article-content"><aside class="s-notice s-notice__info js-post-notice mb16" aria-hidden="false" role="status">
+            <div class="grid fd-column fw-nowrap"> 
+                <div class="grid fw-nowrap">
+                    <div class="grid--cell fl1 lh-lg">
+                        <div class="grid--cell fl1 lh-lg">
+                            <b>This question already has answers here</b>:
+                            
+                        </div>
+                    </div>
+                </div>
+                        <div class="grid--cell mb0 mt4">
+                            <a href="/questions/31972968/cant-install-gems-on-os-x-el-capitan" dir="ltr">Can't install gems on OS X “El Capitan”</a>
+                                <span class="question-originals-answer-count">
+                                    (14 answers)
+                                </span>
+                        </div>
+                                <div class="grid--cell mb0 mt8">Closed <span title="2015-10-05 14：29：08Z" class="relativetime">4 years ago</span>.</div>
+            </div>
+                    </aside>
+<p>After installing <strong>OS X El Capitan</strong> (10.11) my ruby <em>compass</em> is no longer working. After trying to install <em>compass</em> I recieve error message like this:</p>
+
+<pre><code>$ sudo gem install compass<font></font>
+  ERROR:  While executing gem ... (Errno::EPERM)<font></font>
+      Operation not permitted - /usr/bin/compass<font></font>
+</code></pre>
+
+<p>How this can be fixed?</p></div>
+    {% endraw %}
+  </div>
+
+  <div class="discuss-wrapper">
+    {% include discussTitle.html info=page %}
+    {% raw %}
+    <div class="discuss-item">
+        <div class="discuss-parent">
+          <div class="discuss-meta">
+            <span class="discuss-user">凯阳光</span>
+            <span class="discuss-time">2020.03.23</span>
+          </div>
+          <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">升级到OS X El Capitan（10.11）后，我遇到了相同的问题，但是尝试升级</font></font><code>sudo gem install sass</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font><font style="vertical-align: inherit;">张贴者将路径放入install命令的解决方案对我来说很有效，而安装指南针也可以安装sass，因此：</font></font><code>sudo gem install -n /usr/local/bin compass</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">做到了。</font><font style="vertical-align: inherit;">谢谢狮子座！</font></font></p></div>
+        </div>
+        
+      </div><div class="discuss-item">
+        <div class="discuss-parent">
+          <div class="discuss-meta">
+            <span class="discuss-user">GOGil老丝</span>
+            <span class="discuss-time">2020.03.23</span>
+          </div>
+          <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我发现的解决方法只是将PATH放入任何ruby gem软件包的install命令中：</font></font></p>
+
+<pre><code>$  sudo gem install -n /usr/local/bin GEM_PACKAGE_NAME
+</code></pre>
+
+<p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">所以用</font></font><em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">指南</font></font></em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">针对我来说是这样的：</font></font></p>
+
+<pre><code>$ sudo gem install -n /usr/local/bin compass
+</code></pre>
+
+<p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">祝好运！</font></font></p></div>
+        </div>
+        
+      </div>
+    {% endraw %}
+  </div>
+<div>

@@ -1,0 +1,12 @@
+<div class="article-title">
+  <p class="article-title-text">{{ include.info.title }}</p>
+  <div class="flex at-meta">
+    <div class="flex tags">
+      {% for tag in include.info.tags %}
+      <span class="tag mr-10">{{tag}}</span>
+      {% endfor %}
+    </div>
+    <p class="text-theme">{{ include.info.author }}</p>
+    <p class="ml-10">{{ include.info.date | date:"%Y-%m-%d" }}</p>
+  </div>
+</div>

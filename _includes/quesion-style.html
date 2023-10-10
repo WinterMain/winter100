@@ -1,0 +1,12 @@
+{% for item in all_topic %}
+{% if item %}
+.question-list-wrapper[topic="{{item}}"] {
+  .question-item {
+    display: none;
+  }
+  .question-item[topic="{{item}}"] {
+    display: block;
+  }
+}
+{% endif %}
+{% endfor %}

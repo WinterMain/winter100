@@ -1,0 +1,16 @@
+---
+title: 博客
+sitemap: true
+permalink: /blog/
+layout: default
+---
+
+<div class="p-page p-blog">
+  <div class="blog-list-wrapper stage">
+    <div class="blog-list flex-1">
+    {% for post in site.categories.blog %}
+      {% include articleLi.html info=post %}
+    {% endfor %}
+    </div>
+  </div>
+</div>

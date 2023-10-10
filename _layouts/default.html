@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+	<title>{% if page.title %}{{page.title}} - {{site.title}}{% else %}{{site.title}}{% endif %}</title>
+	<meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
+	{% include SEO.html %}
+	<link rel="stylesheet" href="{{ site.baseurl }}/assets/css/index.css">
+	<link rel="icon" type="image/x-icon" href="{{ site.baseurl }}/favicon.ico">
+</head>
+
+<body>
+	{% include header.html %}
+
+	<div class="main">
+		<div class="main-wrapper">
+			<div class="dark-box"></div>
+			<div class="content" id="content">
+				{{ content }}
+			</div>
+		</div>
+	</div>
+
+	<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="{{ site.baseurl }}/assets/js/masonry.js"></script>
+	<script src="{{ site.baseurl }}/assets/js/main.js"></script>
+</body>
+</html>

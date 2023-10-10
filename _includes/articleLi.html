@@ -1,0 +1,11 @@
+<div class="article-item">
+  <div>
+    {% if include.info.img %}
+    <img src="{{include.info.img}}">
+    {% endif %}
+    <a target="_blank" href="{{include.info.url}}" class="title link">{{include.info.title}}</a>
+    {% if include.info.description %}
+    <p class="description">{{include.info.description}}</p>
+    {% endif %}
+  </div>
+</div>

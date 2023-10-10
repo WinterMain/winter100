@@ -1,0 +1,40 @@
+
+.p-blog {
+  .blog-list {
+    .article-item {
+      float: left;
+      z-index: 0;
+      img {
+        width: 100%;
+        margin-bottom: 10px;
+      }
+      width: 200px;
+      margin-bottom: 20px;
+      background-color: var(--bg-element);
+      border-radius: var(--radius);
+      padding: 10px;
+      border: var(--line);
+
+      .title {
+        word-break: break-all;
+        font-weight: 500;
+        font-size: 14px;
+        color: var(--text-title);
+      }
+
+      .description {
+        word-break: break-all;
+        font-weight: 400;
+        font-size: 12px;
+        color: var(--text-level1);
+        margin-top: 10px;
+      }
+    }
+
+    &:after {
+      content: '';
+      display: block;
+      clear: both;
+    }
+  }
+}

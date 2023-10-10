@@ -1,0 +1,120 @@
+:root {
+  --line-color: #e9e9e9;
+  --line: 1px solid var(--line-color);
+  --bg-color: #f2f2f2;
+  --bg-element: #fff;
+  --text-title: #333;
+  --text-level1: #636363;
+  --themeColor: #ed3da1;
+  --themeColorLevel1: #ffe9f6;
+  --radius: 8px;
+}
+
+html {
+  body {
+    margin: 0;
+    background-color: var(--bg-color);
+    font-family: system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue","Noto Sans","Liberation Sans",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+  }
+  p { margin: 0;}
+}
+.flex { display: flex; }
+.flex-1 { flex: 1;}
+.flex-wrap { flex-wrap: wrap; }
+.items-center { align-items: center; }
+.justify-center { justify-content: center; }
+.m-auto {margin: auto;}
+.ml-5 {margin-left: 5px;}
+.mr-5 {margin-right: 5px;}
+.ml-10 {margin-left: 10px;}
+.mr-10 {margin-right: 10px;}
+.mt-20 {margin-top: 20px;}
+.mb-20 {margin-bottom: 20px;}
+.p-page { background-color: var(--bg-color); padding: 20px; }
+.text-theme { color: var(--themeColor) !important; }
+.stage { 
+  width: 1200px; margin: auto; 
+  @extend .flex;
+  .s-left {
+    @extend .flex-1;
+    overflow-x: hidden;
+  }
+  .s-right {
+    width: 300px;
+    margin-left: 20px;
+  }
+  .fixed-this {
+    position: fixed;
+  }
+}
+.box {
+  background-color: var(--bg-element);
+  border-radius: var(--radius);
+  border: var(--line);
+  .title {
+    color: var(--text-title);
+    font-size: 16px;
+    font-weight: 500;
+    border-bottom: var(--line);
+    padding: 10px 16px;
+  }
+  .body {
+    padding: 10px 16px;
+  }
+  .tag {
+    margin: 5px;
+  }
+}
+.c-nav {
+  @extend .flex;
+  @extend .items-center;
+  overflow-x: auto;
+  width: 100%;
+  white-space: nowrap;
+  padding-bottom: 10px;
+  .nav-item {
+    margin-right: 20px;
+    cursor: pointer;
+    padding-bottom: 5px;
+    color: var(--text-level1);
+    padding-bottom: 2px solid transparent;
+    transition: all 0.2s;
+    padding: 0 5px 5px 5px;
+    &.active {
+      font-weight: 500;
+      color: var(--text-title);
+      border-bottom: 2px solid var(--themeColor);
+    }
+  }
+}
+
+.main {
+  padding-top: 60px;
+}
+.link { 
+  text-decoration: none;
+  &:hover {
+    color: var(--themeColor);
+  }
+}
+.tag {
+  color: var(--themeColor);
+  font-size: 12px;
+  background-color: var(--themeColorLevel1);
+  display: inline-block;
+  padding: 3px 10px;
+  border-radius: 5px;
+}
+
+.index-wrapper {
+  position: relative;
+  #canvas {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+  }
+  .p-index {
+    position: relative;
+  }
+}

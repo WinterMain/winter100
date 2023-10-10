@@ -1,0 +1,11 @@
+<ul class="nav-ul">
+  {% assign pagecategory = page.url | replace: '/', '' %}
+  {% if pagecategory == '' %}{% assign pagecategory = site.defaultCategory%}{% endif %}
+  {% for navitem in include.nav %}
+    {% if navitem[0] == pagecategory %}
+    <li class="active"><a href="{{ site.baseurl }}/{{navitem[0]}}">{{ navitem[1].title }}</a></li>
+    {% else %}
+    <li><a href="{{ site.baseurl }}/{{navitem[0]}}">{{ navitem[1].title }}</a></li>
+    {% endif %}
+  {% endfor %}
+</ul>
