@@ -1,5 +1,5 @@
 # Site settings
-title: 学废了
+title: 100分
 description: '学习让你忘记焦虑，学习让你忘记恐惧，学习让你更加强大，学习让你解决一切问题.' # this means to ignore newlines until "baseurl:"
 permalink: '/:categories/:title:output_ext'
 baseurl: "" # the subpath of your site, e.g. /blog
