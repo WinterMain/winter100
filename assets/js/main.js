@@ -1,29 +1,34 @@
 (function ($) {
   "use strict";
 
-  $('.blog-list').masonry({
-    itemSelector: '.article-item',
-    // percentPosition: true,
-    gutter: 20,
-    resize: true,
-  });
-
-  var layoutTimer;
-  function updateLayout() {
-    clearTimeout(layoutTimer);
-    layoutTimer = setTimeout(function () {
-      $('.blog-list').masonry('layout');
-    }, 500)
-  }
-  $('.blog-list .article-item img').on({
-    load: function () {
-      updateLayout();
-    },
-    error: function () {
-      $(this).hide();
-      updateLayout();
+  function masonryList(wrapper, item) {
+    $(wrapper).masonry({
+      itemSelector: item,
+      // percentPosition: true,
+      gutter: 20,
+      resize: true,
+      horizontalOrder: true
+    });
+  
+    var layoutTimer;
+    function updateLayout() {
+      clearTimeout(layoutTimer);
+      layoutTimer = setTimeout(function () {
+        $(wrapper).masonry('layout');
+      }, 500)
     }
-  })
+    $(`${wrapper} ${item} img`).on({
+      load: function () {
+        updateLayout();
+      },
+      error: function () {
+        $(this).hide();
+        updateLayout();
+      }
+    })  
+  }
+  masonryList('.blog-list', '.article-item');
+  masonryList('.list-wrapper', '.list-item');
 
   // QUESTION
   $('.question-list-wrapper .c-nav .nav-item').click(function (e) {

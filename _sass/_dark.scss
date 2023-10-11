@@ -3,10 +3,10 @@
   --line: 1px solid var(--line-color);
   --bg-color: #292929;
   --bg-element: black;
-  --text-title: #ffffff;
+  --text-title: #e7e7e7;
   --text-level1: #b9b9b9;
   --themeColor: #ed3da1;
-  --themeColorLevel1: #ffe9f6;
+  --themeColorLevel1: #241b20;
 
   .page-header {
     background-color: black;
@@ -22,6 +22,7 @@
     }
   }
   footer {
+    color: var(--text-level1);
     &.bg-white {
       background-color: black!important;
       background-image: url(/assets/img/star.png);

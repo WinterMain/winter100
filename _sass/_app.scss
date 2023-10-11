@@ -137,16 +137,3 @@ html {
   padding: 3px 10px;
   border-radius: 5px;
 }
-
-.index-wrapper {
-  position: relative;
-  #canvas {
-    position: fixed;
-    top: 0;
-    bottom: 0;
-    z-index: -1;
-  }
-  .p-index {
-    position: relative;
-  }
-}

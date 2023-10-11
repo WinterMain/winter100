@@ -1,0 +1,19 @@
+<div class="experience">
+</div>
+<script src="{{ site.baseurl }}/assets/js/blackhole.js"></script>
+<script>
+  (function () {
+    var count = 0;
+    function resizeSmall() {
+      const wheelEvt = document.createEvent('MouseEvents');
+      wheelEvt.initEvent('wheel', true, true);
+      wheelEvt.deltaY = +10;
+      document.getElementsByClassName('experience')[0].dispatchEvent(wheelEvt);
+      if (count < 20) {
+        setTimeout(resizeSmall, 100);
+        count++;
+      }
+    }
+    resizeSmall();
+  })();
+</script>

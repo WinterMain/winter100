@@ -1,7 +1,13 @@
 .p-reward {
+  background-image: url(/assets/img/star.png);
+  background-repeat: repeat;
+  background-color: black;
   .reward-main {
     min-height: calc(100vh - 190px - 300px);
     color: var(--themeColor);
+  }
+  .divider-custom-line {
+    background-color: var(--themeColor);
   }
   .tip {
     font-size: 20px;
@@ -10,7 +16,7 @@
     margin-top: 80px;
   }
   .buycoffee {
-    margin-top: 20px;
+    margin-top: 60px;
     max-width: 1200px;
     margin-left: auto;
     margin-right: auto;

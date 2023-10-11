@@ -3,29 +3,74 @@ layout: default
 ---
 
 <div class="index-wrapper">
-  <canvas id="canvas"></canvas>
-  <div class="p-index">
-    <ol class="post-card-box clearfix">
-      {% for post in paginator.posts %}
-      <li>
-        {{post.title}}
-        <div class="post-card">
-          <a href="{{ post.url }}" title="{{ post.title }}" class="post-card-image"
-            style="background: url('{{ relativebase }}assets/img/{{ post.img }}') center no-repeat; background-size: cover;">
-          </a>
-          <div class="post-card-body">
-            <p class="post-card-title-and-meta">
+  <div class="flex flex-column items-center index-tip">
+    {% include star.html %}
+    <p class="tip">{{site.description}}</p>
+  </div>
 
-              <a href="{{ post.url }}" class="post-card-link">
-                {{ post.title }}
-              </a>
-            </p>
+  <div class="p-index p-20 stage block">
+    <div class="list-wrapper flex-1">
+      <div class="list-item box article-for">
+        <p class="title">最新博客</p>
+        <div class="body">
+          {% for post in site.categories.blog  limit:6 %}
+          {% if post.title%}
+          <div class="question-relative-item flex">
+            {% if post.img %}
+            <div class="mr-10"><img src="{{post.img}}"></div>
+            {% endif %}
+            <div class="flex-1"><a class="item-title link" href="{{post.url}}">{{post.title}}</a></div>
           </div>
+          {% endif %}
+          {% endfor %}
         </div>
-      </li>
-      {% endfor %}
-    </ol>
+      </div>
+      <div class="list-item box">
+        <p class="title">最新问答</p>
+        <div class="body">
+          {% for post in site.categories.question limit:6 %}
+          {% if post.title%}
+          <div class="question-relative-item">
+            <div><a class="item-title link" href="{{post.url}}">{{post.title}}</a></div>
+            <p class="item-answer">{{post.answer}} 回答</p>
+          </div>
+          {% endif %}
+          {% endfor %}
+        </div>
+      </div>
+
+      <div class="list-item intro box">
+        <div class="intro-container flex items-center flex-column">
+          <img class="avatars" src="assets/img/avatars.svg" alt="">
+          <h1 class="title">Winter</h1>
+          {% include star.html %}
+          <p class="sub-title mt-20">Web Developer - Block Chain Lover</p>
+        </div>
+      </div>
+
+      <div class="list-item box coffee">
+        <p class="title">想刷个咖啡？</p>
+        <div class="body">
+          {% for reward in site.rewards %}
+          <div class="coffee-outter">
+            <div class="coffee-box flex align-items">
+              <div class="coffee-addr">
+                <h4 class="for-name flex items-center">
+                  <img class="coffee-logo" alt="{{reward[1].name}}" src="/{{ reward[1].logo }}" height="40" width="40">
+                  <span style="line-height: 40px;">{{reward[1].name}}</span>
+                </h4>
+                <div class="excerpt" style="word-break: break-all;">{{reward[1].addr}}</div>
+              </div>
+              <div class="coffee-qr">
+                <img alt="{{reward[1].name}} QR" src="/{{ reward[1].qr }}" height="86" width="86">
+              </div>
+            </div>
+          </div>
+          {% endfor %}
+        </div>
+      </div>
+    </div>
   </div>
 </div>
 
-<script src="/assets/js/spheres.js"></script>
+{% include blackhole.html %}

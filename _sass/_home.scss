@@ -1,0 +1,107 @@
+.index-wrapper {
+  position: relative;
+  min-height: calc(100vh - 190px - 300px);
+  background-color: black;
+  background-image: url(/assets/img/star.png);
+  background-repeat: repeat;
+  #canvas {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+  }
+  .index-tip {
+    color: var(--themeColor);
+    padding: 60px 0;
+    .divider-custom-line {
+      background-color: var(--themeColor);
+    }
+    .tip {
+      font-size: 18px;
+      padding-top: 20px;
+    }
+  }
+  .p-index {
+    position: relative;
+    .list-wrapper {
+      position: relative;
+      width: 100%;
+      .list-item {
+        width: 280px;
+        float: left;
+        z-index: 0;
+        margin-bottom: 20px;
+        &.article-for {
+          img {
+            width: 60px;
+          }
+        }
+        &.coffee {
+          width: 280px;
+          color: var(--text-title);
+          font-size: 12px;
+
+          .coffee-outter {
+            margin-top: 10px;
+            &:first-child {
+              margin-top: 0;
+            }
+            .coffee-addr {
+              margin-right: 10px;
+              .excerpt {
+                margin-top: 5px;
+              }
+              img {
+                width: 30px;
+                height: 30px;
+                margin-right: 5px;
+              }
+            }
+            .coffee-qr {
+              background-color: var(--text-title);
+              border-radius: 3px;
+              height: 78px;
+              img {
+                width: 70px;
+                height: 70px;
+                padding: 4px;
+              }
+            }
+          }
+        }
+      }
+
+      .question-relative-item {
+        border-bottom: var(--line);
+        padding-bottom: 10px;
+        margin-bottom: 10px;
+        .item-title {
+          font-size: 14px;
+          color: var(--text-title);
+        }
+        .item-answer {
+          margin-top: 5px;
+          font-size: 12px;
+          color: var(--themeColor);
+        }
+        &:last-child {
+          border-bottom: 0;
+          padding-bottom: 0px;
+          margin-bottom: 0px;
+        }
+      }
+
+      .intro {
+        padding: 60px 0px;
+
+        .avatars {
+          width: 100px;
+        }
+
+        .divider-custom-line {
+          width: 60px;
+        }
+      }
+    }
+  }
+}

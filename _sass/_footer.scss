@@ -10,7 +10,11 @@
     width: 50px;
   }
 
-  li { list-style: none; margin-left: 10px;}
+  li { list-style: none; margin-left: 20px; &.active { 
+    a { 
+      color: var(--themeColor)!important;
+    } 
+  }}
   ul { margin: 0; padding: 0; display: flex;}
   a { text-decoration: none; color: var(--text-level1); font-size: 14px;}
 }
