@@ -36,7 +36,7 @@ topic: React.js
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">现在的要点是，我有两个固定的</font></font><code>div</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">元素，一个在顶部，一个在底部。</font><font style="vertical-align: inherit;">在中间，我想有一个switch语句，根据状态下的值，我想渲染一个不同的组件。</font><font style="vertical-align: inherit;">因此，基本上，我希望两个</font></font><code>div</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">元素始终固定，并且每次都在中间以呈现不同的组件。</font><font style="vertical-align: inherit;">我正在使用它来实现多步付款程序）。</font><font style="vertical-align: inherit;">不过，正如目前的代码一样，它不起作用，因为它给了我一个错误，说这</font></font><code>switch</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">是意外的。</font><font style="vertical-align: inherit;">有什么想法可以实现我想要的吗？</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第2158篇《如何在React组件中使用switch语句？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第2158篇《如何在React组件中使用switch语句？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -63,9 +63,7 @@ topic: React.js
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果视图状态的条件不仅仅基于简单的属性（例如每行多个条件），则枚举和</font></font><code>getViewState</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">封装条件</font><font style="vertical-align: inherit;">的</font><font style="vertical-align: inherit;">函数是分离此条件逻辑并清理渲染的好方法。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">樱凯Mandy</span>
@@ -120,9 +118,7 @@ topic: React.js
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">}</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如您所见，我正在使用按钮在状态之间进行切换。 </font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">猪猪Stafan</span>
@@ -161,9 +157,7 @@ ReactDOM.render(<font></font>
 <p></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">您可以根据需要使开关简单或复杂。</font><font style="vertical-align: inherit;">不要忘记对孩子及其价值道具进行更强大的检查。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">StafanItachi</span>
@@ -183,9 +177,7 @@ ReactDOM.render(<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我建议添加一些括号以确保预期结果，除非掌握运算符的优先级...</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">LEY老丝樱</span>
@@ -232,9 +224,7 @@ ReactDOM.render(<font></font>
   }<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

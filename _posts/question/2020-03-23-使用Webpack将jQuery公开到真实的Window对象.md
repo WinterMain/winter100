@@ -35,7 +35,7 @@ window.jQuery;<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">有没有办法来解决这个问题？</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第2677篇《使用Webpack将jQuery公开到真实的Window对象》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第2677篇《使用Webpack将jQuery公开到真实的Window对象》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -70,18 +70,14 @@ window.jQuery;<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">（来自</font></font><a href="https://www.npmjs.com/package/expose-loader#readme" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">暴露加载程序文档</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">）</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小宇宙</span>
             <span class="discuss-time">2020.03.23</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这一直对我有用。</font><font style="vertical-align: inherit;">包括用于</font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">webpack 3</font></font></strong> <code>window.$ = window.jQuery = require("jquery");</code></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">逆天蛋蛋</span>
@@ -95,9 +91,7 @@ window.jQuery;<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">您需要确保在要求/导入需求</font></font><code>window.JQuery</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">模块中或正在使用该模块的</font><font style="vertical-align: inherit;">任何模块之前/发生这种情况</font><font style="vertical-align: inherit;">。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">飞云Pro</span>
@@ -107,9 +101,7 @@ window.jQuery;<font></font>
 
 <pre><code>{ test: require.resolve("jquery"), loader: "expose?$!expose?jQuery" } 
 </code></pre></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

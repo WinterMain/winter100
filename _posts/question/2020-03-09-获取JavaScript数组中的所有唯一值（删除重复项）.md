@@ -39,7 +39,7 @@ topic: JavaScript
 </ul></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第268篇《获取JavaScript数组中的所有唯一值（删除重复项）》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第268篇《获取JavaScript数组中的所有唯一值（删除重复项）》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -59,9 +59,7 @@ console.log(result);</code></pre>
 </div>
 </div>
 <p></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">村村AL</span>
@@ -78,9 +76,7 @@ console.log(result);</code></pre>
 }<font></font>
 arrUnique([1,4,2,7,1,5,9,2,4,7,2]) // [1, 4, 2, 7, 5, 9]<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">卡卡西逆天十三</span>
@@ -93,9 +89,7 @@ arrUnique([1,4,2,7,1,5,9,2,4,7,2]) // [1, 4, 2, 7, 5, 9]<font></font>
     return a<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Jim小卤蛋</span>
@@ -111,9 +105,7 @@ arrUnique([1,4,2,7,1,5,9,2,4,7,2]) // [1, 4, 2, 7, 5, 9]<font></font>
 <pre><code>const numbers = [2,3,4,4,2,3,3,4,4,5,5,6,6,7,5,32,3,4,5]<font></font>
 console.log([...new Set(numbers)]) // [2, 3, 4, 5, 6, 7, 32]<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">老丝乐</span>
@@ -141,9 +133,7 @@ console.log(result);</code></pre>
 </div>
 </div>
 <p></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">LItachi</span>
@@ -166,9 +156,7 @@ foo.unique();<font></font>
 </code></pre>
 
 <p>The above will produce <code>["1",2,3,4,1,"foo"]</code>.</p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Itachi小宇宙</span>
@@ -190,9 +178,7 @@ console.log(uniqueArray);</code></pre>
 
 <pre><code>uniqueArray = [1,2,3,4,5];
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">宝儿小小</span>
@@ -206,9 +192,7 @@ console.log(uniqueArray);</code></pre>
   return (prev.indexOf(cur) &lt; 0) ? prev.concat([cur]) : prev;<font></font>
  }, []);<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">阿飞小小</span>
@@ -267,9 +251,7 @@ console.log(uniqueArray);</code></pre>
 </code></pre>
 
 <p>This is also <a href="http://jsperf.com/unique-in-array">faster than the above method</a> in most non-chrome browsers.</p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">宝儿小胖</span>
@@ -294,9 +276,7 @@ console.log(Array.from(new Set(arr)));</code></pre>
 </div>
 </div>
 <p></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">西门十三LEY</span>
@@ -323,9 +303,7 @@ a --&gt; array reference, (in this case "list")<font></font>
 </code></pre>
 
 <p><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">浏览器兼容性</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">：IE9 +</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">乐小小</span>
@@ -345,9 +323,7 @@ a --&gt; array reference, (in this case "list")<font></font>
 
 <pre><code>[1, 2, 3, 4]
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">GO番长</span>
@@ -368,9 +344,7 @@ var uniqueItems = Array.from(new Set(items))<font></font>
 
 <pre><code>var uniqueItems = [...new Set(items)]
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">古一十三</span>
@@ -384,9 +358,7 @@ var uniqueItems = Array.from(new Set(items))<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">注意：此代码是从</font></font><a href="http://paulirish.com/2010/duck-punching-with-jquery/" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Paul Irish的鸭打孔帖子中</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">提取</font><a href="http://paulirish.com/2010/duck-punching-with-jquery/" rel="noreferrer"><font style="vertical-align: inherit;">的</font></a><font style="vertical-align: inherit;"> -我忘了给您以谢意了：P</font></font></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

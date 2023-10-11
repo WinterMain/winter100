@@ -45,7 +45,7 @@ Module build failed: Error: No parser and no file path given, couldn't infer a p
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我究竟做错了什么？</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第718篇《Vue Webpack模板缺少解析器》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第718篇《Vue Webpack模板缺少解析器》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -80,9 +80,7 @@ EXPOSE 3000<font></font>
 <font></font>
 CMD ["npm", "run", "express"]<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">JinJin小胖</span>
@@ -93,18 +91,14 @@ CMD ["npm", "run", "express"]<font></font>
 <p><code>yarn v v1.5.1</code>
 <code>npm -v 5.6.0</code>
 <code>node -v v10.0.0</code></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Stafan小小</span>
             <span class="discuss-time">2020.03.11</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">它已在vue-loader@13.7.2和vue-loader@14.2.3中修复。</font><font style="vertical-align: inherit;">因此，只需升级即可。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">SamEva</span>
@@ -115,9 +109,7 @@ CMD ["npm", "run", "express"]<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">您可以尝试</font></font><code>npm i prettier@~1.12.0</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在此处强制使用更漂亮的版本。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">顺便说一句有人</font></font><a href="https://github.com/vuejs/component-compiler-utils/pull/15" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">提出</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">了修复</font><a href="https://github.com/vuejs/component-compiler-utils/pull/15" rel="nofollow noreferrer"><font style="vertical-align: inherit;">请求</font></a></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">十三西里GO</span>
@@ -140,9 +132,7 @@ CMD ["npm", "run", "express"]<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">运行纱线，一切都应该正常工作。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">JinJin达蒙</span>
@@ -158,9 +148,7 @@ CMD ["npm", "run", "express"]<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">然后重新安装。</font></font></p>
 
 <p><a href="https://yarnpkg.com/lang/en/docs/selective-version-resolutions/" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">参考</font></font></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Tony老丝</span>
@@ -175,9 +163,7 @@ CMD ["npm", "run", "express"]<font></font>
 </blockquote>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这应该够了吧。</font></font></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

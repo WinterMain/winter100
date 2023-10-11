@@ -30,7 +30,7 @@ var array2 = ["Singh", "Shakya"];<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如何在JavaScript中合并两个数组，以使每个数组中的唯一项按插入原始数组中的相同顺序获得？</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第282篇《如何在JavaScript中合并两个数组并删除重复项》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第282篇《如何在JavaScript中合并两个数组并删除重复项》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -74,9 +74,7 @@ const merged = [...new Set(combined)];<font></font>
 
 <pre><code>const merged = array1.concat(array2.filter(secItem =&gt; !array1.includes(secItem)));
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">null</span>
@@ -101,9 +99,7 @@ document.body.querySelector("div").innerHTML = JSON.stringify(array3);</code></p
 </div>
 </div>
 <p></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">樱泡芙</span>
@@ -142,9 +138,7 @@ for(i = 0; i &lt; merged.length; i++)<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"></font><code>indexOf</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">其他浏览器方法的</font><font style="vertical-align: inherit;">实现</font><font style="vertical-align: inherit;">来自</font></font><a href="https://developer.mozilla.org/en/Core_JavaScript_1.5_Reference/Global_Objects/Array/indexOf" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">MDC</font></font></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">路在何方</span>
@@ -170,9 +164,7 @@ var result = array1.concat_n_dedupe(array2);<font></font>
 <font></font>
 console.log(result);<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">樱猪猪</span>
@@ -186,9 +178,7 @@ console.log(array3)<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">它将打印</font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">[“ Vijendra”，“ Singh”，“ Shakya”]</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">乐米亚</span>
@@ -200,9 +190,7 @@ console.log(array3)<font></font>
 b = [4, 5]<font></font>
 [...new Set(a.concat(b))]  // [1, 2, 3, 4, 5]<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">伽罗卡卡西</span>
@@ -216,9 +204,7 @@ b = [4, 5]<font></font>
     }));<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">村村路易</span>
@@ -261,9 +247,7 @@ a.concat(b.filter(function(el) {<font></font>
 <font></font>
 [1, 2, 3, "prince"]<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小哥GO</span>
@@ -288,9 +272,7 @@ console.log(resArr);</code></pre>
 </div>
 </div>
 <p></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">null</span>
@@ -322,9 +304,7 @@ function setify(array){<font></font>
   return result<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">逆天古一Mandy</span>
@@ -343,9 +323,7 @@ function setify(array){<font></font>
     return Object.keys(hash);<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">樱古一</span>
@@ -360,9 +338,7 @@ let unique = [...new Set([...arr1,...arr2])];<font></font>
 console.log(unique);<font></font>
 // [ 3, 5, 2, 1, 66 ]<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">逆天猿理查德</span>
@@ -382,9 +358,7 @@ console.log(unique);<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">更好的数组合并功能。 </font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">泡芙Green</span>
@@ -417,9 +391,7 @@ console.log(unique);<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这是我经常使用的一种方法，它使用一个对象作为hashlookup表来进行重复检查。</font><font style="vertical-align: inherit;">假设哈希为O（1），则在O（n）中运行，其中n为a.length + b.length。</font><font style="vertical-align: inherit;">老实说，我不知道浏览器如何进行哈希处理，但是它在成千上万的数据点上表现良好。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">GO前端</span>
@@ -438,9 +410,7 @@ console.log(array3); // ["Vijendra", "Singh", "Shakya"];<font></font>
 <li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">使用</font></font><a href="https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Global_Objects/Set" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Set</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">创建一组独特的元素。</font></font></li>
 <li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">再次使用散布运算符将Set转换为数组。</font></font></li>
 </ul></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小小Near阳光</span>
@@ -456,9 +426,7 @@ console.log(Array.from(new Set(array1.concat(array2))));</code></pre>
 </div>
 </div>
 <p></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">JimAJim</span>
@@ -477,9 +445,7 @@ console.log(Array.from(new Set(array1.concat(array2))));</code></pre>
 <p><a href="http://underscorejs.org/#union" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">http://underscorejs.org/#union</font></font></a></p>
 
 <p><a href="http://lodash.com/docs#union" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">http://lodash.com/docs#union</font></font></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">ItachiHarry</span>
@@ -511,9 +477,7 @@ console.log(c) // c is [1, 2, 3, 101, 10]</code></pre>
 </div>
 </div>
 <p></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

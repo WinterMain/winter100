@@ -19,7 +19,7 @@ topic: JavaScript
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">堆栈溢出问题</font></font><em><a href="https://stackoverflow.com/questions/194846"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">JavaScript中是否存在某种hashCode函数？</font></font></a></em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">与这个问题相似，但需要更多的学术答案。</font><font style="vertical-align: inherit;">上面的场景演示了为什么必须要有一个，而我想知道是否有任何</font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">等效的解决方案</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第776篇《如何确定两个JavaScript对象的相等性？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第776篇《如何确定两个JavaScript对象的相等性？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -49,9 +49,7 @@ topic: JavaScript
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在这里可以复制它，并创建另一组数组以比较值和键。</font><font style="vertical-align: inherit;">这非常简单，因为它们现在是数组，如果对象的大小不同，则将返回false。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">StafanNearPro</span>
@@ -77,9 +75,7 @@ topic: JavaScript
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">复杂度为O（N * N），其中N为键的数量。 </font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我希望/猜测我​​定义的对象不会包含超过1000个属性... </font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">神无LEYTony</span>
@@ -110,9 +106,7 @@ topic: JavaScript
     return b &amp;&amp; n1 == n2;<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">理查德理查德</span>
@@ -123,9 +117,7 @@ topic: JavaScript
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">最近，我开发了一个对象，该对象的构造函数在每次创建实例时都会创建一个新的id（从1开始并以1递增）。</font><font style="vertical-align: inherit;">该对象具有isEqual函数，该函数将该id值与另一个对象的id值进行比较，如果匹配则返回true。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在那种情况下，我将“等于”定义为id值匹配。</font><font style="vertical-align: inherit;">假设每个实例都有一个唯一的ID，则可以用来执行这样的想法，即匹配对象也占据相同的内存位置。</font><font style="vertical-align: inherit;">虽然这不是必需的。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">卡卡西猿</span>
@@ -151,9 +143,7 @@ let objectTwo = sortObjectByKeyname(objectTwo)<font></font>
 
 <pre><code>JSON.stringify(objectOne) === JSON.stringify(objectTwo)
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">LGO西里</span>
@@ -218,9 +208,7 @@ Array.prototype.find = Object.prototype.find = function(v) {<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">上面的示例将返回true，即使属性具有不同的顺序。</font><font style="vertical-align: inherit;">需要注意的一个小细节：此代码还检查两个变量的相同类型，因此“ 3”与3不同。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">米亚十三Harry</span>
@@ -242,9 +230,7 @@ console.log(compareObjects({b:4,a:{b:1}}, {a:{b:1},b:4}));</code></pre>
 </div>
 </div>
 <p></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">猿小小</span>
@@ -260,9 +246,7 @@ console.log(compareObjects({b:4,a:{b:1}}, {a:{b:1},b:4}));</code></pre>
 <li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">您需要替换</font></font><code>val1</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">并</font></font><code>val2</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">用您的对象</font></font></li>
 <li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">对于对象，您必须对两个侧面对象进行递归排序（按键）</font></font></li>
 </ul></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">蛋蛋飞云</span>
@@ -293,9 +277,7 @@ function deepEqual(a, b) {<font></font>
     return true;<font></font>
 };<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">LEY古一逆天</span>
@@ -317,9 +299,7 @@ function deepEqual(a, b) {<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">理由：</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">由于的属性</font></font><code>obj1</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">会一一复制到克隆中，因此将保留其在克隆中的顺序。</font><font style="vertical-align: inherit;">而且，当将的属性</font></font><code>obj2</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">复制到克隆中时，由于已经存在的属性</font></font><code>obj1</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">将被简单地覆盖，因此它们在克隆中的顺序将被保留。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">蛋蛋LEY</span>
@@ -334,9 +314,7 @@ alert(JSON.encode(obj1)===JSON.encode(obj2));<font></font>
 </code></pre>
 
 <p><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">注意：尽管此答案在许多情况下都有效，但正如一些人在评论中指出的那样，由于多种原因，这是有问题的。</font><font style="vertical-align: inherit;">在几乎所有情况下，您都想找到一个更强大的解决方案。</font></font></strong></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">伽罗Mandy</span>
@@ -374,9 +352,7 @@ alert (a == b ? "Equal" : "Not equal");<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">显然，该功能可以进行很多优化，并具有进行深度检查（处理嵌套对象：）的能力，</font></font><code>var a = { foo : { fu : "bar" } }</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">但是您明白了。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">正如FOR指出的那样，您可能必须出于自己的目的对此进行调整，例如：不同的类可能具有不同的“等于”定义。</font><font style="vertical-align: inherit;">如果仅使用普通对象，则上面的内容就足够了，否则，自定义</font></font><code>MyClass.equals()</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">函数可能是解决方法。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Harry凯</span>
@@ -390,9 +366,7 @@ alert (a == b ? "Equal" : "Not equal");<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">就像本页中的其他示例一样，它将使用</font></font><a href="http://en.wikipedia.org/wiki/ECMAScript#Versions" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">ECMAScript 5</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">和本机优化（如果浏览器中可用）</font><font style="vertical-align: inherit;">蛮力检查每个键值</font><font style="vertical-align: inherit;">。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">注：以前这个答案推荐</font></font><a href="http://underscorejs.org/" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Underscore.js</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，但</font></font><a href="http://lodash.com" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">lodash</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">做得越来越修复的错误，并与一致性解决问题的一个更好的工作。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">蛋蛋GO</span>
@@ -426,9 +400,7 @@ var kingOfSpades = new Card(13, "S");<font></font>
 queenOfClubs.equals(kingOfSpades); // =&gt; false<font></font>
 kingOfSpades.equals(new Card(13, "S")); // =&gt; true<font></font>
 </code></pre></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

@@ -28,7 +28,7 @@ topic: React.js
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这有什么问题吗，还有其他解决方案吗？</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第877篇《使用异步componentDidMount（）好吗？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第877篇《使用异步componentDidMount（）好吗？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -43,9 +43,7 @@ topic: React.js
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这篇博客文章对解释为什么这样做安全并且在ComponentDidMount中提供异步加载示例非常有帮助： </font></font></p>
 
 <p><a href="https://reactjs.org/blog/2018/03/27/update-on-async-rendering.html" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">https://reactjs.org/blog/2018/03/27/update-on-async-rendering.html</font></font></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">泡芙阿飞斯丁</span>
@@ -62,9 +60,7 @@ async makeRequest(){<font></font>
    return data<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">SamStafan十三</span>
@@ -85,9 +81,7 @@ async makeRequest(){<font></font>
       })<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">西门西里</span>
@@ -131,9 +125,7 @@ async makeRequest(){<font></font>
     .catch(err =&gt; console.error(err));<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">十三老丝</span>
@@ -144,9 +136,7 @@ async makeRequest(){<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">您可能还想在内部启动同步和异步任务</font></font><code>componentDidMount</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font><font style="vertical-align: inherit;">如果</font></font><code>componentDidMount</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">是异步的，则必须将所有同步代码放在first之前</font></font><code>await</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font><font style="vertical-align: inherit;">对于某人来说，在第一个代码之前</font></font><code>await</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">同步运行</font><font style="vertical-align: inherit;">的代码可能并不明显</font><font style="vertical-align: inherit;">。</font><font style="vertical-align: inherit;">在这种情况下，我可能会保持</font></font><code>componentDidMount</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">同步，但是让它调用sync和async方法。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">无论选择</font></font><code>async componentDidMount()</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">vs同步</font></font><code>componentDidMount()</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">调用</font></font><code>async</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">方法，都必须确保清除在卸载组件时可能仍在运行的所有侦听器或异步方法。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小哥Eva</span>
@@ -159,9 +149,7 @@ async makeRequest(){<font></font>
 </blockquote>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果使用</font></font><code>async componentDidMount</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，则将失去此功能：浏览器更新屏幕后，将进行另一个渲染。</font><font style="vertical-align: inherit;">但是imo，如果您正在考虑使用异步操作（例如获取数据），则无法避免浏览器将屏幕更新两次。</font><font style="vertical-align: inherit;">在另一个世界中，无法在浏览器更新屏幕之前暂停componentDidMount</font></font></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

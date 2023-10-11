@@ -40,7 +40,7 @@ document.body.appendChild(divNode);<font></font>
 </ol></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第2638篇《如何使用Javascript创建<style>标签？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第2638篇《如何使用Javascript创建<style>标签？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -53,9 +53,7 @@ document.body.appendChild(divNode);<font></font>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">一切都很好，但是要使styleNode.cssText在由Javascipt创建的节点的IE6中工作，需要在设置cssText之前将节点附加到文档中；</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">进一步的信息@ </font></font><a href="http://msdn.microsoft.com/en-us/library/ms533698%28VS.85%29.aspx" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">http://msdn.microsoft.com/en-us/library/ms533698%28VS.85%29.aspx</font></font></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">卡卡西Near</span>
@@ -89,9 +87,7 @@ styleNode.sheet.insertRule("h2 { background: green; }");<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我希望这可以在除旧版浏览器之外的所有地方使用。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">绝对可以在</font><strong><font style="vertical-align: inherit;">2019年</font></strong><font style="vertical-align: inherit;">在Chrome </font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">中使用。</font></font></strong></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">DavaidStafan</span>
@@ -105,9 +101,7 @@ ss.rel = "stylesheet";<font></font>
 ss.href = "style.css";<font></font>
 document.getElementsByTagName("head")[0].appendChild(ss);<font></font>
 </code></pre></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

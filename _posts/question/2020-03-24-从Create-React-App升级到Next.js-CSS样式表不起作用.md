@@ -146,7 +146,7 @@ module.exports = withCSS( withSass(<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">问题在于，所有内容均可正确呈现，但其中没有样式表，并且不包含任何样式。</font><font style="vertical-align: inherit;">有谁可以帮助我解决这个问题？</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第3467篇《从Create-React-App升级到Next.js-CSS样式表不起作用》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第3467篇《从Create-React-App升级到Next.js-CSS样式表不起作用》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -166,9 +166,7 @@ module.exports = withCSS( withSass(<font></font>
   &lt;link rel="stylesheet" href="/_next/static/style.css" /&gt;<font></font>
 &lt;/Head&gt;<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">GreenMandy</span>
@@ -195,9 +193,7 @@ export default App;<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这样，您可以像在常规HTML中一样拥有CSS，而无需任何外部导入</font></font></p>
 
 <p><a href="https://nextjs.org/learn/basics/styling-components" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">资源</font></font></a></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

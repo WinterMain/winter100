@@ -28,7 +28,7 @@ myArray["age"] = 25;<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">（我需要删除元素，因为元素的数量很重要，并且我想保持干净。）</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第859篇《如何从javascript关联数组中删除对象？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第859篇《如何从javascript关联数组中删除对象？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -58,9 +58,7 @@ myArray["age"] = 25;<font></font>
 <pre><code>var new = removeItem( ["apple","banana", "orange"],  "apple");<font></font>
 // ---&gt; ["banana", "orange"]<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">乐ASam</span>
@@ -87,9 +85,7 @@ myArray["age"] = 25;<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">对于</font></font><code>delete</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">对象而言，</font><font style="vertical-align: inherit;">最受支持的答案</font><font style="vertical-align: inherit;">很好，但对于实际数组却不能。</font><font style="vertical-align: inherit;">如果我使用</font></font><code>delete</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">它从循环中删除元素，但保持元素为</font></font><code>empty</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">和数组的长度不变。</font><font style="vertical-align: inherit;">在某些情况下，这可能是个问题。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">例如，如果我在通过myArray删除myArray.toString（）之后</font></font><code>delete</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">创建了空条目，即，</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Itachi猪猪</span>
@@ -111,9 +107,7 @@ delete arrayElementToDelete["status"];<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">代码的最后一行将从数组中删除键为“状态”的数组元素。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">猿蛋蛋凯</span>
@@ -131,9 +125,7 @@ newmyArray = JSON.parse(p);<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">没有循环/迭代，我们得到相同的结果</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">神乐</span>
@@ -160,9 +152,7 @@ var collection = [<font></font>
 <font></font>
 removeItem(collection, "id", "87353080-8f49-46b9-9281-162a41ddb8df");<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">古一斯丁猴子</span>
@@ -172,9 +162,7 @@ removeItem(collection, "id", "87353080-8f49-46b9-9281-162a41ddb8df");<font></fon
 
 <pre><code>_.omit(myArray, "lastname")
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">乐古一</span>
@@ -190,9 +178,7 @@ array.filter(function(n){return n});<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">不要尝试将它们链接起来，因为拼接会返回已删除的元素；</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">阿飞猿</span>
@@ -203,9 +189,7 @@ array.filter(function(n){return n});<font></font>
 <blockquote>
   <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">myArray [“ lastname”] =未定义；</font></font></p>
 </blockquote></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">宝儿卡卡西理查德</span>
@@ -223,9 +207,7 @@ console.log(noA); // =&gt; { b: 2, c: 3 }<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">版权：</font><a href="https://codeburst.io/use-es2015-object-rest-operator-to-omit-properties-38a3ecffe90" rel="noreferrer"><font style="vertical-align: inherit;">https</font></a><font style="vertical-align: inherit;"> : </font></font><a href="https://codeburst.io/use-es2015-object-rest-operator-to-omit-properties-38a3ecffe90" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">//codeburst.io/use-es2015-object-rest-operator-to-omit-properties-38a3ecffe90</font></font></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">猴子小哥</span>
@@ -252,9 +234,7 @@ var collection = [<font></font>
 <font></font>
 collection.removeItem("id", "87353080-8f49-46b9-9281-162a41ddb8df");<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Pro西门</span>
@@ -278,9 +258,7 @@ myObject["age"] = 25;<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">您应该决定要采用的路线-使用对象（关联数组/字典）还是使用数组（地图）。</font><font style="vertical-align: inherit;">切勿将两者混在一起。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">番长GO</span>
@@ -292,9 +270,7 @@ myObject["age"] = 25;<font></font>
 
 <pre><code>array.splice(index, 1);
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">神无JimEva</span>
@@ -352,9 +328,7 @@ elements.removeItem(0)<font></font>
 console.log(elements.hasOwnProperty("prop"))        // returns false as it should<font></font>
 console.log(elements.length)                        // returns 1 as it should<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小卤蛋前端</span>
@@ -373,9 +347,7 @@ delete myObj.SomeProperty;<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">希望额外的信息有所帮助...</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">达蒙猪猪</span>
@@ -394,9 +366,7 @@ delete myObj.SomeProperty;<font></font>
 
 <p><a href="http://www.html5rocks.com/en/tutorials/speed/v8/" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">http://www.html5rocks.com/zh-CN/tutorials/speed/v8/ </font></font></a>
 <a href="http://www.smashingmagazine.com/2012/11/writing-fast-memory-efficient-javascript/" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">http://www.smashingmagazine.com/2012/11/writing-fast-memory-ficient-javascript/</font></font></a></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

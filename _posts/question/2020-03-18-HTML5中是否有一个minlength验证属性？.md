@@ -19,7 +19,7 @@ topic: HTML
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">HTML5中是否还有其他属性可以设置字段值的最小长度？</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第2059篇《HTML5中是否有一个minlength验证属性？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第2059篇《HTML5中是否有一个minlength验证属性？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -34,9 +34,7 @@ topic: HTML
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">由于只需要存储最小长度即可继续，因此一种简便的方法是将此值分配给输入标签的另一个有效属性。</font><font style="vertical-align: inherit;">在这种情况下，然后，可以使用</font></font><code>min</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，</font></font><code>max</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">和</font></font><code>step</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">从[类型=“号码”]的输入特性。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">与其将这些限制存储在数组中，不如将其存储在同一输入中，而不是获取元素ID以匹配数组索引，则更加容易。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">猿伽罗</span>
@@ -46,9 +44,7 @@ topic: HTML
 
 <pre><code>&lt;input type="number" min="1" max="999" /&gt;
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Mandy路易</span>
@@ -58,9 +54,7 @@ topic: HTML
 
 <pre><code>&lt;input type="text" maxlength="13" name ="idnumber" class="form-control"  minlength="13" required&gt;
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">猿Mandy</span>
@@ -92,9 +86,7 @@ topic: HTML
 
 <pre><code>&lt;input type="number" min="100" max="999" placeholder="input a three-digit number"&gt;
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">有壳网</span>
@@ -106,9 +98,7 @@ topic: HTML
 
 <pre><code>&lt;input autocomplete="new-password" name="password" id="password" type="password" placeholder="Password" maxlength="12" minlength="6" required /&gt;
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">JinJinStafanL</span>
@@ -156,9 +146,7 @@ topic: HTML
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">通过使用</font></font><code>pattern</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Harry神乐</span>
@@ -174,18 +162,14 @@ topic: HTML
 <p></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">`</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Jim猴子Eva</span>
             <span class="discuss-time">2020.03.18</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">不是HTML5，而是实用的：如果碰巧使用</font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">AngularJS</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，则可以同时使用</font></font><a href="https://docs.angularjs.org/api/ng/directive/input" rel="noreferrer"><code>ng-minlength</code></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">输入和文本区域。</font><font style="vertical-align: inherit;">另请参阅</font></font><a href="http://plnkr.co/edit/GotWYIwosmrokXCul249" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">此Plunk</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">前端梅</span>
@@ -231,9 +215,7 @@ jQuery.validator.setDefaults({<font></font>
 &lt;/body&gt;<font></font>
 &lt;/html&gt;<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">猴子猪猪</span>
@@ -248,9 +230,7 @@ jQuery.validator.setDefaults({<font></font>
 用于设置max；</font><font style="vertical-align: inherit;">使用</font></font><code>maxlength</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">和分钟转到</font></font><a href="https://stackoverflow.com/questions/18184791/how-to-apply-min-and-max-on-textarea/24640346#24640346"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">此链接</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">您将在此处找到最大和最小。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">JimItachi</span>
@@ -267,9 +247,7 @@ jQuery.validator.setDefaults({<font></font>
 <pre><code>&lt;input pattern=".{0}|.{5,10}" required title="Either 0 OR (5 to 10 chars)"&gt;<font></font>
 &lt;input pattern=".{0}|.{8,}"   required title="Either 0 OR (8 chars minimum)"&gt;<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">米亚宝儿</span>
@@ -284,9 +262,7 @@ jQuery.validator.setDefaults({<font></font>
   &lt;input type="submit" value="Check"&gt;&lt;/input&gt;<font></font>
 &lt;/form&gt;<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">ASamGreen</span>
@@ -295,9 +271,7 @@ jQuery.validator.setDefaults({<font></font>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">目前</font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">是</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">一个</font></font><code>minlength</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">房地产</font></font><a href="http://www.w3.org/TR/html5/forms.html#the-maxlength-and-minlength-attributes" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">HTML5规范</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">现在，还有</font></font><code>validity.tooShort</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">接口。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">现在，所有现代浏览器的最新版本均启用了这两种功能。</font><font style="vertical-align: inherit;">有关详细信息，请参见</font></font><a href="https://caniuse.com/#search=minlength" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">https://caniuse.com/#search=minlength</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

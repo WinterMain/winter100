@@ -56,7 +56,7 @@ componentDidMount: function() {<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">对于我来说，最后一个似乎有些极端和不可思议，但如果成立的话，它会产生一些重大影响。</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第2312篇《React：我可以处理多少React渲染的DOM？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第2312篇《React：我可以处理多少React渲染的DOM？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -99,9 +99,7 @@ componentDidMount: function() {<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">广义上讲，您不应该手动操作React创建的DOM。</font></font><code>&lt;div&gt;</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在React中</font><font style="vertical-align: inherit;">创建一个空白</font><font style="vertical-align: inherit;">并手动填充</font><font style="vertical-align: inherit;">是100％的粗略操作</font><font style="vertical-align: inherit;">；</font><font style="vertical-align: inherit;">只要您以后不尝试在React中更改其属性（使React进行DOM更新），甚至可以修改React呈现的元素的属性，但是如果您移动一个元素，React可能会寻找并找不到时会感到困惑。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">希望能有所帮助。</font></font></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

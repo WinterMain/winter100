@@ -47,7 +47,7 @@ export default MyClass;<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">只是想知道要完成这项工作我需要做什么神奇的组合。</font><font style="vertical-align: inherit;">也许我只是错过了重点。</font><font style="vertical-align: inherit;">该示例给出错误“ TypeError：_blah.blah未定义”。</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第1799篇《使用webpack，ES6，ReactJS导入JavaScript文件和调用函数》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第1799篇《使用webpack，ES6，ReactJS导入JavaScript文件和调用函数》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}

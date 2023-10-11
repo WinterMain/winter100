@@ -126,7 +126,7 @@ module.exports = {<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">现在我使用</font></font><a href="http://andrejgajdos.com/setting-up-webpack-for-es6-react-sass-and-bootstrap/"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这个webpack配置</font></font></a> </p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第3288篇《Webpack-dev-server不会生成源映射》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第3288篇《Webpack-dev-server不会生成源映射》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -151,9 +151,7 @@ module.exports = {<font></font>
 <li><code>--content-base</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">-默认情况下，开发服务器将在运行命令的目录中提供文件。如果构建文件位于中</font></font><code>build/</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，则需要指定，</font></font><code>--content-base build/</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">以便开发服务器将在</font></font><code>build</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">目录中</font><font style="vertical-align: inherit;">提供文件</font></font></li>
 <li><code>--inline</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> -只要您保存文件并进行一些更改，就会自动重新加载！</font></font></li>
 </ul></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">JinJin小卤蛋</span>
@@ -170,9 +168,7 @@ module.exports = {<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">另外，请从webpack网站上找到Sourcemap部分的随附屏幕截图。</font></font></p>
 
 <p><img src="https://i.stack.imgur.com/rJo6d.png" alt="在此处输入图片说明"></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">飞云泡芙</span>
@@ -181,9 +177,7 @@ module.exports = {<font></font>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">添加</font></font><code>{devtool:"source-map"}</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">到您的</font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">webpack.config.js</font></font></strong></p>
 
 <p><font style="vertical-align: inherit;"><a href="https://webpack.js.org/configuration/devtool/" rel="nofollow noreferrer"><font style="vertical-align: inherit;">在这里</font></a><font style="vertical-align: inherit;">查看更多</font></font><a href="https://webpack.js.org/configuration/devtool/" rel="nofollow noreferrer"><font style="vertical-align: inherit;"></font></a> </p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">蛋蛋猴子</span>
@@ -210,9 +204,7 @@ module.exports = {<font></font>
 webpack-dev-server 2.9.7<font></font>
 webpack 3.10.0<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Mandy</span>
@@ -221,9 +213,7 @@ webpack 3.10.0<font></font>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">采用 </font></font><code>webpack -d</code></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">该</font></font><code>d</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">标志代表开发快捷方式，它启用了所有开发人员工具，例如源映射。</font></font></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

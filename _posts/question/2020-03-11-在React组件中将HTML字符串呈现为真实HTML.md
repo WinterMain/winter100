@@ -35,7 +35,7 @@ topic: JavaScript
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">有什么建议么？</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第823篇《在React组件中将HTML字符串呈现为真实HTML》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第823篇《在React组件中将HTML字符串呈现为真实HTML》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -55,9 +55,7 @@ return (<font></font>
     {description}<font></font>
 );<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">GreenGil</span>
@@ -83,9 +81,7 @@ render() <font></font>
                &lt;/div&gt;);<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">猿阿飞Tom</span>
@@ -96,9 +92,7 @@ render() <font></font>
 <p><code>&lt;div dangerouslySetInnerHTML={{ __html: htmlString }} /&gt;</code></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">或者，您可以通过这种简单的方法实现更多功能：</font></font><a href="https://www.4codev.com/react/render-the-html-raw-in-react-app-idpx6182013449177354385.html" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在React应用程序中呈现HTML原始文件</font></font></a></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

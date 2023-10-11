@@ -19,7 +19,7 @@ topic: JavaScript
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如何通过Javascript播放游戏音频？</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第765篇《使用Javascript播放音频？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第765篇《使用Javascript播放音频？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -61,9 +61,7 @@ document.getElementById("welcome").pause();<font></font>
 </code></pre>
 
 <p>repeat as needed except do not pause the audio you want to hear when the game starts</p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Pro阿飞Davaid</span>
@@ -96,9 +94,7 @@ document.getElementById("welcome").pause();<font></font>
 <blockquote>
   <p><strong>Have NO IDEA if this works on other browsers other than Chrome 73!!</strong></p>
 </blockquote></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Sam逆天</span>
@@ -152,9 +148,7 @@ document.getElementById("welcome").pause();<font></font>
 <font></font>
 &lt;/html&gt;<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Near西里泡芙</span>
@@ -179,9 +173,7 @@ document.getElementById("welcome").pause();<font></font>
 <p></p>
 
 <p>and call this playMusic() whenever you need in your game code.</p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">老丝Stafan</span>
@@ -192,9 +184,7 @@ document.getElementById("welcome").pause();<font></font>
 <blockquote>
   <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">尽管网络音频不再需要插件，但音频标签为实现复杂的游戏和交互式应用程序带来了明显的限制。</font><font style="vertical-align: inherit;">Web Audio API是用于处理和合成Web应用程序中音频的高级JavaScript API。</font><font style="vertical-align: inherit;">该API的目标是包括现代游戏音频引擎中的功能以及现代桌面音频制作应用程序中的某些混合，处理和过滤任务。</font></font></p>
 </blockquote></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

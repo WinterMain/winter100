@@ -76,7 +76,7 @@ topic: Vue.js
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">感谢您的帮助。</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第3224篇《Nuxtjs组件中的asyncData无法正常工作》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第3224篇《Nuxtjs组件中的asyncData无法正常工作》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -87,9 +87,7 @@ topic: Vue.js
             <span class="discuss-time">2021.02.26</span>
           </div>
           <div class="discuss-comment"><p>请问楼主解决了吗？我也遇到了这个问题</p></div>
-        </div>
-        
-        <div class="discuss-children">
+        </div><div class="discuss-children">
           <div class="discuss-child">
             <div class="discuss-comment"><p><a href='/home/27029'>@静</a>是的</p></div>
             <div class="discuss-meta">
@@ -108,10 +106,8 @@ topic: Vue.js
               <span class="discuss-user">Winter</span>
               <span class="discuss-time">2021.02.26</span>
             </div>
-          </div>
+          </div></div>
         </div>
-        
-      </div>
     {% endraw %}
   </div>
 <div>

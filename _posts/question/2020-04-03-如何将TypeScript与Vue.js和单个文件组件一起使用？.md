@@ -41,7 +41,7 @@ topic: Vue.js
 <p>I have already successfully completed several client projects that run in production in Vue.js with vanilla JavaScript but this TypeScript tooling in combination with Vue.js just confuses the hell out of me.</p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第3989篇《如何将TypeScript与Vue.js和单个文件组件一起使用？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第3989篇《如何将TypeScript与Vue.js和单个文件组件一起使用？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -58,18 +58,14 @@ topic: Vue.js
 <p><code>vue init ducksoupdev/vue-webpack-typescript my-project</code></p>
 
 <p><a href="https://github.com/ducksoupdev/vue-webpack-typescript" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">https://github.com/ducksoupdev/vue-webpack-typescript</font></font></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">蛋蛋猿</span>
             <span class="discuss-time">2020.04.03</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">使用最新版本的VueJS，可以使用Vue，Typescript和JSX创建可靠且可维护的项目。</font><font style="vertical-align: inherit;">我已经在</font><a href="https://github.com/tejzpr/Vue.TSX" rel="nofollow noreferrer"><font style="vertical-align: inherit;">Vue.TSX上</font></a><font style="vertical-align: inherit;">为初学者创建了样板</font></font><a href="https://github.com/tejzpr/Vue.TSX" rel="nofollow noreferrer"><font style="vertical-align: inherit;"></font></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小小</span>
@@ -98,9 +94,7 @@ topic: Vue.js
 </ol>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">因此，如果您有时间等待，可以暂时观察一下。</font><font style="vertical-align: inherit;">或者，您可以参考以下项目：</font></font><a href="https://github.com/Microsoft/TypeScript-Vue-Starter" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">TypeScript-Vue-Starter</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">和</font></font><a href="https://github.com/Toilal/vue-webpack-template" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">具有Typescript支持的Webpack模板叉</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

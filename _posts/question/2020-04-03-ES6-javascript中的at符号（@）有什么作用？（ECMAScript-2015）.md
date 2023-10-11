@@ -43,7 +43,7 @@ export default class CounterApp extends Component {<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在这篇博客文章中，所有示例都在类的上下文中-当在模块中使用符号时，这意味着什么？</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第3981篇《ES6 javascript中的at符号（@）有什么作用？（ECMAScript 2015）》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第3981篇《ES6 javascript中的at符号（\`）有什么作用？（ECMAScript 2015）》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -60,9 +60,7 @@ export default class CounterApp extends Component {<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在这种情况下该怎么办？</font><font style="vertical-align: inherit;">它</font></font><em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">连接</font></font></em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">的</font></font><code>state.counter</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">价值类的道具。</font><font style="vertical-align: inherit;">请记住，在redux中，该</font></font><code>connect</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">函数接受两个参数：</font></font><code>mapStateToProps</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">和</font></font><code>mapDispatchToProps</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font><font style="vertical-align: inherit;">在此示例中，仅采用一个参数- </font></font><code>mapStateToProps</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我还没有对此进行过多研究，但这似乎是封装状态到属性映射和调度到属性映射的一种方法，这样它们就可以随组件一起使用，而不必位于其他文件中。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">梅</span>
@@ -75,9 +73,7 @@ export default class CounterApp extends Component {<font></font>
 </blockquote>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">它们通常用于控制访问，注册，注释。</font></font></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

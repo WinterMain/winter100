@@ -17,7 +17,7 @@ topic: CSS
     <div class="article-content"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我正在</font></font><code>h2</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">使用Google Chrome浏览器的元素检查器检查网页上的元素，并且某些CSS规则（似乎已应用）显示为灰色。</font><font style="vertical-align: inherit;">删除线似乎表明一条规则已被覆盖，但是样式变灰是什么意思？</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第3677篇《当Chrome的元素检查器中的CSS规则变灰时，这是什么意思？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第3677篇《当Chrome的元素检查器中的CSS规则变灰时，这是什么意思？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -28,9 +28,7 @@ topic: CSS
             <span class="discuss-time">2020.03.24</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在该问题已经有许多正确答案之后，我要回答很久，因为我遇到了另一种情况，即Chome DevTools中的CSS代码块显示为灰色且不可编辑：有问题的块包含</font></font><a href="https://en.wikipedia.org/wiki/Zero-width_space" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">U + 200B ZERO WIDTH SPACE字符</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font><font style="vertical-align: inherit;">找到并删除它们后，我可以再次在Chrome DevTools中编辑该块。</font><font style="vertical-align: inherit;">大概这也可能与其他非ascii字符一起发生，我没有尝试弄清楚。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Tony凯</span>
@@ -39,18 +37,14 @@ topic: CSS
           <div class="discuss-comment"><p><a href="https://i.stack.imgur.com/f9Ybm.jpg" rel="nofollow noreferrer"><img src="https://i.stack.imgur.com/f9Ybm.jpg" alt="在此处输入图片说明"></a></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">chrome开发人员的新版本显示了它的继承来源。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">宝儿Eva</span>
             <span class="discuss-time">2020.03.24</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">使用webpack时，在重建后重新加载页面时，在源代码中已更改的所有css规则或属性都将显示为灰色。</font><font style="vertical-align: inherit;">这真的很烦人，迫使我每次都重新加载页面。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">GO</span>
@@ -69,9 +63,7 @@ topic: CSS
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如您所见，p元素继承自其祖先（div）。</font><font style="vertical-align: inherit;">那么为什么风格会</font></font><code>background-color: blue</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">变灰呢？</font><font style="vertical-align: inherit;">因为它是规则集的一部分，该规则集至少具有一种可继承的样式。</font><font style="vertical-align: inherit;">那可继承的风格是</font></font><code>text-indent: 1em</code></p>
 
 <p><code>background-color:blue</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">不是可继承的，而是包含在</font></font><code>text-indent: 1em</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">其中</font><font style="vertical-align: inherit;">的规则集的一部分，</font><font style="vertical-align: inherit;">它是可继承的，并且Chrome开发人员希望在显示规则集时保持完整。</font><font style="vertical-align: inherit;">但是，为了在规则集中可以从不能继承的样式中区分出样式，将无法继承的样式显示为灰色。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">宝儿</span>
@@ -94,9 +86,7 @@ h2 {<font></font>
 <p><strong>EDIT:</strong></p>
 
 <p>Mixup: the grayed out rules are the unset rules, which use a special default stylesheet that is applied to <em>all</em> elements(the rules that make the element renderable, because all styles have to have a value).</p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">乐神奇</span>
@@ -127,18 +117,14 @@ div#foo { <font></font>
 </div>
 </div>
 <p></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">伽罗理查德</span>
             <span class="discuss-time">2020.03.24</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果通过检查器添加样式，但是这种新样式不适用于所选元素，也会发生这种情况。</font><font style="vertical-align: inherit;">通常显示的样式仅是所选元素的样式，因此灰色表示您刚刚添加的样式不会选择在DOM导航器中具有焦点的元素。</font></font></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

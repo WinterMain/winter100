@@ -86,7 +86,7 @@ export default speakerdetail;<font></font>
 </code></pre></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第3037篇《使用NextJS和next-routes，如何从server.js和客户端处理404》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第3037篇《使用NextJS和next-routes，如何从server.js和客户端处理404》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}

@@ -31,7 +31,7 @@ topic: JavaScript
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">但这最终将所有字符串替换为空格。</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第1705篇《如何使用JavaScript替换字符串中的所有点》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第1705篇《如何使用JavaScript替换字符串中的所有点》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -50,9 +50,7 @@ topic: JavaScript
     return word;<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Mandy樱</span>
@@ -60,9 +58,7 @@ topic: JavaScript
           </div>
           <div class="discuss-comment"><pre><code>str.replace(new RegExp(".","gm")," ")
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Near村村</span>
@@ -75,9 +71,7 @@ var Re = new RegExp("\\.","g");<font></font>
 st = st.replace(Re," ");<font></font>
 alert(st);<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">路易斯丁神奇</span>
@@ -91,9 +85,7 @@ alert(st);<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">问候</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Davaid阳光伽罗</span>
@@ -103,9 +95,7 @@ alert(st);<font></font>
 
 <pre><code>mystring = mystring.replace(/\./g,' ')
 </code></pre></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

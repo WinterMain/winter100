@@ -76,7 +76,7 @@ font-files(<font></font>
 因此，如果有人读过这里（我已经很感激），请问有什么想法吗？</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第2599篇《在Sass中使用FontAwesome》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第2599篇《在Sass中使用FontAwesome》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -99,9 +99,7 @@ font-files(<font></font>
 @import "~font-awesome/scss/font-awesome";<font></font>
 </code></pre></li>
 </ol></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小胖</span>
@@ -130,9 +128,7 @@ font-files(<font></font>
 
 <p><code>$fa-font-path: "../bower_components/font-awesome/fonts/";
 @import "../bower_components/font-awesome/scss/font-awesome";</code></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">番长</span>
@@ -173,9 +169,7 @@ font-files(<font></font>
 
 <p><br>
 <strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">因此，您可以从中学到什么</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">：两次检查您的路径，同时考虑到Sass中的@import仅在当前sass目录中看起来（默认）。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小卤蛋</span>
@@ -199,9 +193,7 @@ font-files(<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">现在，您已经准备就绪</font></font></p>
 
 <p><a href="https://fortawesome.github.io/Font-Awesome/get-started/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">https://fortawesome.github.io/Font-Awesome/get-started/</font></font></a></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

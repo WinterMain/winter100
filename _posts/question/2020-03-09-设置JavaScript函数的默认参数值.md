@@ -29,7 +29,7 @@ end<font></font>
 </code></pre></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第192篇《设置JavaScript函数的默认参数值》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第192篇《设置JavaScript函数的默认参数值》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -52,9 +52,7 @@ func(12); // Result: 12 and 20<font></font>
 <font></font>
 func(22,25); // Result: 22 and 25<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小小乐</span>
@@ -90,9 +88,7 @@ test(5); // foo gets overwritten, bar remains default parameter</code></pre>
 <p></p>
 
 <p>In the above syntax the <code>OR</code> operator is used. The <code>OR</code> operator always returns the first value if this can be converted to <code>true</code> if not it returns the righthandside value. When the function is called with no corresponding argument the parameter variable (<code>bar</code> in  our example) is set to <code>undefined</code> by the JS engine. <code>undefined</code> Is then converted to false and thus does the <code>OR</code> operator return the value 0.</p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">GilJinJin</span>
@@ -131,9 +127,7 @@ myFunction()  // calling the function with default value</code></pre>
 <p></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这两个函数的行为完全相同，因为每个示例都依赖于这样一个事实，即</font></font><code>undefined</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在调用该函数时如果未传递任何参数值</font><font style="vertical-align: inherit;">，则参数变量将为</font><font style="vertical-align: inherit;">。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Green老丝Itachi</span>
@@ -147,9 +141,7 @@ myFunction()  // calling the function with default value</code></pre>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">您可以定义形式参数的默认值。</font><font style="vertical-align: inherit;">并使用</font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">typeof</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">函数</font><font style="vertical-align: inherit;">检查未定义的值</font><font style="vertical-align: inherit;">。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">斯丁Tony泡芙</span>
@@ -165,9 +157,7 @@ f(1) === 50<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如参考</font></font><a href="http://es6-features.org/#DefaultParameterValues" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">-http://es6-features.org/#DefaultParameterValues</font></font></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Stafan路易</span>
@@ -254,9 +244,7 @@ foo( undefined, 10 ); // 9 10<font></font>
 }<font></font>
 foo(); // 42<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小宇宙LEY</span>
@@ -269,9 +257,7 @@ foo(); // 42<font></font>
     if(delete_after === undefined) { delete_after = false; }<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">村村AL</span>
@@ -284,9 +270,7 @@ foo(); // 42<font></font>
     // Code<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小哥Stafan</span>
@@ -302,9 +286,7 @@ foo(); // 42<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果不存在或，</font><font style="vertical-align: inherit;">它将设置</font></font><code>delete_after</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">为</font><font style="vertical-align: inherit;">。</font><font style="vertical-align: inherit;">您现在可以将诸如</font><a href="http://babeljs.io/" rel="noreferrer"><font style="vertical-align: inherit;">Babel</font></a><font style="vertical-align: inherit;">这样的编译器与ES6功能一起使用</font><font style="vertical-align: inherit;">。</font></font><code>false</code><font style="vertical-align: inherit;"></font><code>undefined</code><font style="vertical-align: inherit;"></font><a href="http://babeljs.io/" rel="noreferrer"><font style="vertical-align: inherit;"></font></a><font style="vertical-align: inherit;"></font></p>
 
 <p><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Default_parameters" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">有关更多信息，请参见MDN文章</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">SamTony</span>
@@ -364,9 +346,7 @@ read_file({ file: "my file" }); <font></font>
 // will override default delete_after value<font></font>
 read_file({ file: "my file", delete_after: "my value" }); <font></font>
 </code></pre></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

@@ -19,7 +19,7 @@ topic: JavaScript
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">尽管最后并没有什么大不了，但我想知道呈现通过惯例的参数的正确方法是什么。</font><font style="vertical-align: inherit;">是否有JavaScript规范的摘录，其中定义了与此相关的语义？</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第271篇《JavaScript是按引用传递还是按值传递语言？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第271篇《JavaScript是按引用传递还是按值传递语言？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -34,9 +34,7 @@ topic: JavaScript
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">从版本5开始，PHP进行了类似的操作：所有对象都通过引用传递，但是所有原语</font></font><em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">都</font></font></em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">可以通过引用传递（如果前面带有＆符号，则可以通过引用传递）。</font><font style="vertical-align: inherit;">否则，基元将按值传递。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">因此，在JavaScript中，如果我通过参数将对象X传递给函数，则它仍然是X。如果要更改</font><font style="vertical-align: inherit;">函数</font></font><em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">内部</font></font></em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">的</font><font style="vertical-align: inherit;">数据</font><font style="vertical-align: inherit;">（或其他任何对象，但这并不重要），则在功能。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">斯丁蛋蛋宝儿</span>
@@ -50,9 +48,7 @@ topic: JavaScript
 </ul></li>
 <li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">对象通过引用传递（引用通过值传递）。</font></font></li>
 </ol></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">古一Green</span>
@@ -70,9 +66,7 @@ topic: JavaScript
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果您无法在JavaScript中完成等效操作，则它不是“通过引用传递”。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">逆天泡芙神无</span>
@@ -85,9 +79,7 @@ topic: JavaScript
 </blockquote>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">（摘自上述文章。）</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">JinJin小卤蛋</span>
@@ -98,9 +90,7 @@ topic: JavaScript
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">考虑参数和变量对象是在函数调用开始时创建的执行上下文中创建的对象-传递给函数的实际值/引用仅存储在此参数+变量对象中。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">简而言之，对于基本类型，值在函数调用的开始被复制，对于对象类型，引用被复制。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">老丝十三</span>
@@ -158,9 +148,7 @@ Output: -<font></font>
     bike<font></font>
     10<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">LEY番长</span>
@@ -173,9 +161,7 @@ Output: -<font></font>
 </blockquote>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">来源：</font><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions#Description" rel="nofollow noreferrer"><font style="vertical-align: inherit;">https</font></a><font style="vertical-align: inherit;"> : </font></font><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions#Description" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">//developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions#Description</font></font></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">飞云小哥</span>
@@ -188,9 +174,7 @@ Output: -<font></font>
 </blockquote>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">也就是说，如果您访问并访问参数值本身，则参数引用是可变的。</font><font style="vertical-align: inherit;">另一方面，对参数的赋值将在评估后消失，并且函数调用者将无法访问。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">泡芙Pro</span>
@@ -241,9 +225,7 @@ console.log(foo[0], bar[0]); // =&gt; 9, 9<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">也就是说，有效的原始类型是通过值传递的，而复杂类型是通过引用传递的。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">猴子樱</span>
@@ -299,9 +281,7 @@ console.log(foo[0], bar[0]); // =&gt; 9, 9<font></font>
 <h1><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">“对象”的定义</font></font></h1>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在5.1版中定义“对象是属性的集合”。</font><font style="vertical-align: inherit;">因此，我们可以推断出，对象的值就是集合，但是关于什么是集合的值在规范中定义得很差，需要一些</font></font><a href="https://stackoverflow.com/questions/45388408/where-is-the-mutability-of-objects-defined-in-ecmascript/45407589#45407589"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">努力</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">才能理解。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">GilPro</span>
@@ -323,9 +303,7 @@ function increaseAgeByRef(int &amp;age) {<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这就是为什么当您尝试通过替换函数的值（即</font></font><code>age = {value:5}</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">）</font><font style="vertical-align: inherit;">来更改对象时</font><font style="vertical-align: inherit;">，更改不会持续存在，但是如果您更改其属性（即</font></font><code>age.value = 5</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">），则</font><font style="vertical-align: inherit;">更改仍然存在</font><font style="vertical-align: inherit;">。</font></font></p>
 
 <p><a href="https://blog.penjee.com/passing-by-value-vs-by-reference-java-graphical/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">学到更多</font></font></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">宝儿LEY理查德</span>
@@ -406,9 +384,7 @@ int main()<font></font>
     return 0;<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">null</span>
@@ -470,9 +446,7 @@ console.log(d); // { "name" : "doe" }<font></font>
 <ul>
 <li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">equal（=）运算符设置新的内存空间或地址</font></font></li>
 </ul></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Eva斯丁</span>
@@ -502,9 +476,7 @@ console.log(a.c) // Output: 4</code></pre>
 </div>
 </div>
 <p></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">西里西门</span>
@@ -523,9 +495,7 @@ alert(x.foo);<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在这两个警报中，您都将找到未定义的值。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小卤蛋小卤蛋小哥</span>
@@ -542,9 +512,7 @@ alert(x.foo);<font></font>
   
   <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">熟悉该术语其他含义的读者可能更喜欢说对象和数组是通过值传递的，但是传递的值实际上是引用，而不是对象本身。</font></font></p>
 </blockquote></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">null</span>
@@ -553,9 +521,7 @@ alert(x.foo);<font></font>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">通过引用外部对象将函数外部的对象传递到函数中。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">当您使用该引用操纵其对象时，外部对象因此受到影响。</font><font style="vertical-align: inherit;">但是，如果在函数内部您决定将引用指向其他对象，那么您根本不会影响外部对象，因为您所做的只是将引用重定向到其他对象。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">卡卡西Harry</span>
@@ -600,9 +566,7 @@ before changeMember: foo<font></font>
 in changeMember: bar<font></font>
 after changeMember: bar<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">神无前端Jim</span>
@@ -611,9 +575,7 @@ after changeMember: bar<font></font>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">变量不会“保留”对象；</font><font style="vertical-align: inherit;">它具有参考。</font><font style="vertical-align: inherit;">您可以将该引用分配给另一个变量，现在两者都引用同一个对象。</font><font style="vertical-align: inherit;">它总是按值传递（即使该值是引用...）。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">无法更改作为参数传递的变量所持有的值，如果JavaScript支持通过引用传递，则可以实现。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">神奇Mandy</span>
@@ -658,9 +620,7 @@ unchanged<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">相反，情况是传入的项目是按值传递的。</font><font style="vertical-align: inherit;">但是，按值传递的项目</font></font><em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">本身</font></font></em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">就是参考。</font><font style="vertical-align: inherit;">从技术上讲，这称为</font></font><a href="http://en.wikipedia.org/wiki/Evaluation_strategy#Call_by_sharing" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">共享呼叫</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">实际上，这意味着如果您更改参数本身（如</font></font><code>num</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">和一样</font></font><code>obj2</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">），则不会影响输入该参数的项目。</font><font style="vertical-align: inherit;">但是，如果您更改</font><font style="vertical-align: inherit;">参数</font><font style="vertical-align: inherit;">的</font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">INTERNALS</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，则会传播回来（与一样</font></font><code>obj1</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">）。</font></font></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

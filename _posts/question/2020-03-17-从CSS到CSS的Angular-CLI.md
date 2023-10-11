@@ -26,7 +26,7 @@ topic: CSS
 </blockquote></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第1969篇《从CSS到CSS的Angular CLI》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第1969篇《从CSS到CSS的Angular CLI》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -64,9 +64,7 @@ topic: CSS
 <p><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">对于全局配置</font></font></strong></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">新版本似乎没有全局命令</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Jim猪猪伽罗</span>
@@ -85,9 +83,7 @@ topic: CSS
 </code></pre>
 
 <p><a href="https://github.com/angular/angular-cli/wiki/stories-css-preprocessors" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">所有主要CSS预处理器的Angular CLI文档</font></font></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">凯Near</span>
@@ -97,9 +93,7 @@ topic: CSS
 
 <pre><code>ng config schematics.@schematics/angular:component.styleext scss
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">猴子樱</span>
@@ -110,9 +104,7 @@ topic: CSS
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">使SCSS在Nx工作空间中工作的命令：</font></font></p>
 
 <p><code>ng config schematics.@nrwl/schematics:component.styleext scss</code> </p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">飞云西门Tony</span>
@@ -173,9 +165,7 @@ topic: CSS
 
 <pre><code>ng config --global defaults.styleExt=scss
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小卤蛋Near小卤蛋</span>
@@ -187,9 +177,7 @@ topic: CSS
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">注意：@ schematics / angular是Angular CLI的默认原理图</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Pro小哥GO</span>
@@ -221,9 +209,7 @@ topic: CSS
 <p><code>"src/styles.scss"</code></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">然后检查并重命名所有</font></font><code>.css</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">文件并从以下位置更新component.ts文件的styleUrls</font></font><code>.css to .scss</code></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">乐神奇</span>
@@ -239,9 +225,7 @@ topic: CSS
   }<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

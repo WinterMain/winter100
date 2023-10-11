@@ -29,7 +29,7 @@ topic: HTML
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">它在我测试过的所有地方似乎都可以使用，但是在任何情况下都无法使用？</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第2436篇《在<script src =“ http：//…”>中用//替换http：//是否有效？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第2436篇《在<script src =“ http：//…”>中用//替换http：//是否有效？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -172,9 +172,7 @@ phantomjs process exited with code 2<font></font>
 </ol>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">但是您不需要这些其他问题。</font><font style="vertical-align: inherit;">通过以下</font></font><code>Anti-pattern</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">项中</font><font style="vertical-align: inherit;">的链接读取信息</font><font style="vertical-align: inherit;">：相对于协议的URL已过时。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">乐米亚</span>
@@ -183,9 +181,7 @@ phantomjs process exited with code 2<font></font>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">由于您的示例链接到外部域，因此，如果您使用的是HTTPS，则应验证是否也为SSL设置了外部域。</font><font style="vertical-align: inherit;">否则，您的用户可能会看到SSL错误和/或404错误（例如，旧版本的Plesk将HTTP和HTTPS存储在单独的文件夹中）。</font><font style="vertical-align: inherit;">对于CDN，这不应该是一个问题，但是对于任何其他网站而言，则可能是一个问题。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">附带说明一下，在更新旧网站时进行了测试，并且还可以在META REFRESH的url =部分中使用。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">乐千羽</span>
@@ -198,9 +194,7 @@ phantomjs process exited with code 2<font></font>
 </blockquote>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">所以</font></font><code>//</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">是正确的:-)</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小小</span>
@@ -209,9 +203,7 @@ phantomjs process exited with code 2<font></font>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">是的，这在</font></font><a href="http://www.ietf.org/rfc/rfc2396.txt" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">RFC 3986</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">第5.2节中有记录：</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">（编辑：糟糕，我的RFC参考已过时）。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">阿飞泡芙</span>
@@ -230,9 +222,7 @@ phantomjs process exited with code 2<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">随着这些定期显示在我们的Web服务器日志中，可以肯定地说：所有浏览器和Bot </font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">都不</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">遵守RFC 3986第4.2节。</font><font style="vertical-align: inherit;">最安全的选择是在可能的情况下包括该协议。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">神乐阿飞Itachi</span>
@@ -252,9 +242,7 @@ phantomjs process exited with code 2<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">不过请注意，如果您在URI中使用句点，则需要提高特异性，否则最终会将这些页面重定向到不存在的域。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">而且，这是为每个查询运行的一个相当大的正则表达式-我认为，值得对404兼容的不兼容浏览器进行惩罚，而不是对大多数兼容浏览器造成（轻微）性能下降。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">猴子樱</span>
@@ -265,9 +253,7 @@ phantomjs process exited with code 2<font></font>
 </blockquote>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果父页面是从加载的</font></font><code>file://</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，则它可能无法正常工作（它将尝试获取</font></font><code>file://cdn.example.com/js_file.js</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，当然您也可以在本地提供）。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">樱Harry</span>
@@ -288,9 +274,7 @@ phantomjs process exited with code 2<font></font>
   <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">注意：在</font></font><code>&lt;link&gt;</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">样式表的@import上使用IE7和IE8
    </font></font><a href="http://www.stevesouders.com/blog/2010/02/10/5a-missing-schema-double-download/" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">两次下载文件</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font><font style="vertical-align: inherit;">但是，所有其他用途都很好。</font></font></p>
 </blockquote></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">逆天古一</span>
@@ -299,9 +283,7 @@ phantomjs process exited with code 2<font></font>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">许多人将此称为协议相对URL。</font></font></p>
 
 <p><a href="http://www.stevesouders.com/blog/2010/02/10/5a-missing-schema-double-download/" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这会导致在IE 7和8中双重下载CSS文件</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">GOGil老丝</span>
@@ -310,18 +292,14 @@ phantomjs process exited with code 2<font></font>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">根据</font></font><a href="http://www.ietf.org/rfc/rfc3986.txt" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">RFC 3986：“统一资源标识符（URI）：通用语法”，第4.2节，</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">不带方案的相对URL（http：或https ：）有效</font><font style="vertical-align: inherit;">。</font><font style="vertical-align: inherit;">如果客户端对此感到窒息，那是客户端的错，因为它们不符合RFC中指定的URI语法。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">您的示例有效，应该可以工作。</font><font style="vertical-align: inherit;">我本人在人流量大的网站上使用了这种相对URL方法，并且零投诉。</font><font style="vertical-align: inherit;">另外，我们在Firefox，Safari，IE6，IE7和Opera中测试我们的网站。</font><font style="vertical-align: inherit;">这些浏览器都了解该URL格式。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">番长村村</span>
             <span class="discuss-time">2020.03.20</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">放弃该协议是完全有效的。</font><font style="vertical-align: inherit;">多年来，URL规范对此非常清楚，但是我还没有找到一个不了解它的浏览器。</font><font style="vertical-align: inherit;">我不知道为什么这种技术不为人所知。</font><font style="vertical-align: inherit;">它是解决HTTP / HTTPS边界棘手问题的完美解决方案。</font><font style="vertical-align: inherit;">更多信息：</font></font><a href="http://nedbatchelder.com/blog/200710/httphttps_transitions_and_relative_urls.html" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Http-https转换和相对URL</font></font></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">理查德Tom</span>
@@ -367,9 +345,7 @@ phantomjs process exited with code 2<font></font>
 </code></pre>
 
 <p>The URI you are describing is a scheme-less relative URI.</p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

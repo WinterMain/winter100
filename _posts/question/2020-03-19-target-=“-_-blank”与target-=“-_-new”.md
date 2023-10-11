@@ -17,7 +17,7 @@ topic: HTML
     <div class="article-content"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">什么之间的区别</font></font><code>&lt;a target="_new"&gt;</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，并</font></font><code>&lt;a target="_blank"&gt;</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">和我应该使用如果我只是想打开一个新标签/窗口的链接？</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第2281篇《target =“ _ blank”与target =“ _ new”》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第2281篇《target =“ _ blank”与target =“ _ new”》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -28,9 +28,7 @@ topic: HTML
             <span class="discuss-time">2020.03.19</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在iframe页面上使用_New很有用。</font><font style="vertical-align: inherit;">由于target =“ _ blank”不能解决问题，而是在同一iframe上打开页面，因此target new是iframe页面的最佳解决方案。</font><font style="vertical-align: inherit;">只是我的五分钱。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">达蒙西门十三</span>
@@ -43,18 +41,14 @@ topic: HTML
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">值</font></font><code>_new</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">=无效；</font><font style="vertical-align: inherit;">HTML5中元素上的target属性没有这样的值</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">目标属性及其在元素上的所有值：</font></font><a href="http://w3-video.com/Web_Technologies/HTML5/html5_attributes/a/html5_a_target_attribute.php" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">视频演示</font></font></a> </p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Eva</span>
             <span class="discuss-time">2020.03.19</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">链接的target属性强制浏览器在新的浏览器窗口中打开目标页面。</font><font style="vertical-align: inherit;">使用</font></font><code>_blank</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">作为目标值，将同时使用，每次产生一个新的窗口</font></font><code>_new</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">将只产卵一个新窗口，用的目标值，点击每一个环节</font></font><code>_new</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">将取代以前催生窗口中加载该页面</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Mandy逆天</span>
@@ -68,9 +62,7 @@ topic: HTML
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">同样，单击目标值为_new的每个链接都将替换先前生成的窗口中加载的页面。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">您可以单击此处</font></font><a href="http://www.searchenginejournal.com/when-not-to-use-target_blank-link-attribute/19924/" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">何时使用_blank或_new</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">自己尝试一下。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">A凯</span>
@@ -79,9 +71,7 @@ topic: HTML
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">注意-切记始终包含“引号”-至少在Chrome上</font></font><code>target=_blank</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">（不</font></font><code>target="_blank"</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">带引号）</font><font style="vertical-align: inherit;">与</font><font style="vertical-align: inherit;">（带引号）不一样。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">后者在新的标签/窗口中打开每个链接。</font><font style="vertical-align: inherit;">前一个（缺少引号）在一个新的选项卡/窗口中打开您单击的第一个链接，然后用您单击的每个后续链接（也用缺失的引号命名）覆盖相同的选项卡/窗口。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">MandyJinJin</span>
@@ -92,18 +82,14 @@ topic: HTML
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">使用保留的目标名称之一将绕过“查找”阶段。</font><font style="vertical-align: inherit;">因此，</font></font><code>target = "_blank"</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在十二个链接上将打开十二个空白窗口，但是</font></font><code>target = whatever</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在十二个链接上将仅打开一个</font><font style="vertical-align: inherit;">空白</font><font style="vertical-align: inherit;">窗口。</font></font><code>target = "_new"</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">十几个链接上的链接可能会显示不稳定的行为。</font><font style="vertical-align: inherit;">我没有在几种浏览器上尝试过，但只能打开一个窗口。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">至少这就是我解释规则的方式。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">蓝染大人飞云</span>
             <span class="discuss-time">2020.03.19</span>
           </div>
           <div class="discuss-comment"><p><code>target="_blank"</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> 在大多数浏览器中打开一个新标签。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Davaid前端LEY</span>
@@ -116,9 +102,7 @@ topic: HTML
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果您使用target =“ _ blank”，则每次都会在当前窗口的顶部创建一个全新的窗口。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">从这里：</font><a href="http://thedesignspace.net/MT2archives/000316.html" rel="noreferrer"><font style="vertical-align: inherit;">http</font></a><font style="vertical-align: inherit;"> : </font></font><a href="http://thedesignspace.net/MT2archives/000316.html" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">//thedesignspace.net/MT2archives/000316.html</font></font></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">理查德Stafan</span>
@@ -130,9 +114,7 @@ topic: HTML
 
 <pre><code>&lt;a href="somesite.com" target="_blank" rel="noopener noreferrer"&gt;Link&lt;/a&gt;
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">MandyItachi</span>
@@ -151,9 +133,7 @@ topic: HTML
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">注意的</font></font><code>target="_new"</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">行为与完全相同</font></font><code>target="new"</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，后者是有效的HTML，而前者是无效的HTML。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">更令人困惑的是，在HTML4中，该</font></font><code>target</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">属性已被弃用。</font><font style="vertical-align: inherit;">在HTML5中，此决定被撤销，并且再次成为规范的正式组成部分。</font></font><code>target</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">无论您使用什么版本的HTML，</font><font style="vertical-align: inherit;">所有浏览器都支持</font><font style="vertical-align: inherit;">，但是如果您的文档类型是HTML4，则某些验证程序会将使用情况标记为已弃用。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">飞云Stafan</span>
@@ -174,9 +154,7 @@ topic: HTML
 <h3>Security recommendation</h3>
 
 <p>As Daniel and Michael have pointed out in the comments, when using target <code>_blank</code> pointing to an untrusted website, you should, in addition, set <code>rel="noopener"</code>. This prevents the opening site to mess with the opener via JavaScript. See <a href="https://mathiasbynens.github.io/rel-noopener/" rel="noreferrer">this post</a> for more information.</p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

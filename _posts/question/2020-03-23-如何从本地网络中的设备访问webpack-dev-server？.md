@@ -52,7 +52,7 @@ function rewriteUrl(replacePath) {<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如何启用它？</font><font style="vertical-align: inherit;">谢谢！</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第2681篇《如何从本地网络中的设备访问webpack-dev-server？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第2681篇《如何从本地网络中的设备访问webpack-dev-server？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -77,9 +77,7 @@ function rewriteUrl(replacePath) {<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">它还在命令中提供了许多自定义功能，例如设置用户友好的</font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">主机名，</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">而不是在公开的url中</font><font style="vertical-align: inherit;">设置</font><font style="vertical-align: inherit;">随机字符串以及其他很多东西。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果您只想打开网站来检查移动设备的响应能力，则应该使用</font></font><a href="https://www.browsersync.io/" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">browersync</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">飞云</span>
@@ -108,9 +106,7 @@ function rewriteUrl(replacePath) {<font></font>
   },<font></font>
 <font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小卤蛋</span>
@@ -123,9 +119,7 @@ function rewriteUrl(replacePath) {<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在网络上找到您的计算机的地址。</font><font style="vertical-align: inherit;">在终端中，键入</font></font><code>ifconfig</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">并查找该</font></font><code>en1</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">部分或带有类似内容的部分</font></font><code>inet 192.168.1.111</code></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在同一网络上的移动设备中，访问</font></font><code>http://192.168.1.111:8080</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">并享受热重装开发的幸福。</font></font></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

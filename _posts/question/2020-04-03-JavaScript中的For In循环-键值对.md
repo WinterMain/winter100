@@ -22,7 +22,7 @@ topic: JavaScript
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我当时在看JS </font></font><code>for..in</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">循环，但是似乎没有办法指定</font></font><code>as</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font><font style="vertical-align: inherit;">如果我使用“普通” for循环（</font></font><code>for(var i = 0; i &lt; data.length; i++</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">）</font><font style="vertical-align: inherit;">执行此操作</font><font style="vertical-align: inherit;">，是否有办法获取键=&gt;值对？</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第3966篇《JavaScript中的For..In循环-键值对》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第3966篇《JavaScript中的For..In循环-键值对》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -41,9 +41,7 @@ topic: JavaScript
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果您使用的是jQuery，请参见：</font><a href="http://api.jquery.com/jQuery.each/" rel="nofollow"><font style="vertical-align: inherit;">http</font></a><font style="vertical-align: inherit;"> : </font></font><a href="http://api.jquery.com/jQuery.each/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">//api.jquery.com/jQuery.each/</font></font></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">飞云小哥</span>
@@ -56,9 +54,7 @@ topic: JavaScript
     var value = data[key];<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">蛋蛋</span>
@@ -70,9 +66,7 @@ topic: JavaScript
      var value = bar[key];<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">猴子村村</span>
@@ -84,9 +78,7 @@ topic: JavaScript
                         // Do something<font></font>
                     });<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">西里飞云</span>
@@ -98,9 +90,7 @@ topic: JavaScript
    // do something with obj[key]<font></font>
 });<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">神无</span>
@@ -115,9 +105,7 @@ topic: JavaScript
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在javascript中，每个对象都有一堆内置的具有元信息的键值对。</font><font style="vertical-align: inherit;">当您遍历对象的所有键值对时，您也在遍历它们。</font><font style="vertical-align: inherit;">使用hasOwnProperty（）可以将其过滤掉。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">番长樱梅</span>
@@ -131,9 +119,7 @@ for (var key in obj) {<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">php语法只是糖。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Mandy</span>
@@ -162,9 +148,7 @@ for (var key in obj) {<font></font>
 </code></pre>
 
 <p>Since you tagged the question with <a href="/questions/tagged/jquery" class="post-tag" title="显示标记为“ jquery”的问题" rel="tag">jquery</a>, jQuery provides <a href="http://api.jquery.com/jQuery.each/" rel="noreferrer"><code>$.each</code> <em><sup>[docs]</sup></em></a> which loops over both, array and object structures.</p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">番长</span>
@@ -183,9 +167,7 @@ for (var key in obj) {<font></font>
 <font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

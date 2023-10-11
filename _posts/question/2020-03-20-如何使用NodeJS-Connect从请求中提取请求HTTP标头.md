@@ -32,7 +32,7 @@ topic: Node.js
 <p><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">编辑</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">：注意，成功的答案必须指向文档（我需要此文件来验证哪个版本提供了我要查找的API）。</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第2450篇《如何使用NodeJS Connect从请求中提取请求HTTP标头》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第2450篇《如何使用NodeJS Connect从请求中提取请求HTTP标头》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -60,27 +60,21 @@ topic: Node.js
 "accept-language":"en-US,en;q=0.8,et;q=0.6"<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Stafan西门</span>
             <span class="discuss-time">2020.03.20</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">检查</font></font><code>console.log(req)</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">或的</font><font style="vertical-align: inherit;">输出</font></font><code>console.log(req.headers);</code></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">NearMandy</span>
             <span class="discuss-time">2020.03.20</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果使用Express 4.x，则可以使用</font><a href="http://expressjs.com/en/api.html#req.get" rel="noreferrer"><font style="vertical-align: inherit;">Express 4.x API参考中</font></a></font><code>req.get(headerName)</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">所述</font><font style="vertical-align: inherit;">的</font><font style="vertical-align: inherit;">方法。</font></font><a href="http://expressjs.com/en/api.html#req.get" rel="noreferrer"><font style="vertical-align: inherit;"></font></a></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

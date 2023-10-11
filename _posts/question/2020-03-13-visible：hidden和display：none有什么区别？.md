@@ -17,7 +17,7 @@ topic: CSS
     <div class="article-content"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">CSS规则</font></font><code>visibility:hidden</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">以及</font></font><code>display:none</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">两者均导致该元素不可见。</font><font style="vertical-align: inherit;">这些是同义词吗？</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第1559篇《visible：hidden和display：none有什么区别？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第1559篇《visible：hidden和display：none有什么区别？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -55,9 +55,7 @@ topic: CSS
 <li><a href="https://webaim.org/techniques/css/invisiblecontent/" rel="nofollow noreferrer">https://webaim.org/techniques/css/invisiblecontent/</a></li>
 <li><a href="https://webaim.org/techniques/skipnav/" rel="nofollow noreferrer">https://webaim.org/techniques/skipnav/</a></li>
 </ul></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Jim小胖米亚</span>
@@ -66,9 +64,7 @@ topic: CSS
           <div class="discuss-comment"><p><code>visibility:hidden</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> 将元素保留在页面中并占用该空间，但不会显示给用户。</font></font></p>
 
 <p><code>display:none</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> 在页面中将不可用，并且不占用任何空间。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">斯丁JinJin</span>
@@ -89,9 +85,7 @@ Content not display on screen but it will take space on screen.<font></font>
 </code></pre>
 
 <p><a href="http://www.shubelal.com/devquery.html"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">查看详情</font></font></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">十三西里古一</span>
@@ -99,9 +93,7 @@ Content not display on screen but it will take space on screen.<font></font>
           </div>
           <div class="discuss-comment"><p><code>display:none;</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">既不会显示元素，也不会在页面上为元素分配空间，而</font></font><code>visibility:hidden;</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">不会在页面上显示元素，但会在页面上分配空间。</font><font style="vertical-align: inherit;">在两种情况下，我们都可以访问DOM中的元素。</font><font style="vertical-align: inherit;">为了更好地理解它，请查看以下代码：
  </font></font><a href="https://jsfiddle.net/pritam1605/vp7uuukt/2/" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">display：none vs visible：hidden</font></font></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">古一凯Gil</span>
@@ -112,9 +104,7 @@ Content not display on screen but it will take space on screen.<font></font>
 <p><a href="https://www.w3schools.com/cssref/pr_class_visibility.asp" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">https://www.w3schools.com/cssref/pr_class_visibility.asp</font></font></a></p>
 
 <p><a href="https://www.w3schools.com/cssref/pr_class_display.asp" rel="nofollow noreferrer">https://www.w3schools.com/cssref/pr_class_display.asp</a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">泡芙古一神无</span>
@@ -135,45 +125,35 @@ Content not display on screen but it will take space on screen.<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">不显示任何示例：</font><a href="https://www.w3schools.com/css/tryit.asp?filename=trycss_display_none" rel="nofollow noreferrer"><font style="vertical-align: inherit;">https</font></a><font style="vertical-align: inherit;"> : </font></font><a href="https://www.w3schools.com/css/tryit.asp?filename=trycss_display_none" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">//www.w3schools.com/css/tryit.asp?filename=trycss_display_none</font></font></a></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">隐藏的可见性示例：</font><a href="https://www.w3schools.com/cssref/tryit.asp?filename=trycss_visibility" rel="nofollow noreferrer"><font style="vertical-align: inherit;">https</font></a><font style="vertical-align: inherit;">：</font></font><a href="https://www.w3schools.com/cssref/tryit.asp?filename=trycss_visibility" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">//www.w3schools.com/cssref/tryit.asp？filename = trycss_visibility</font></font></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小宇宙卡卡西</span>
             <span class="discuss-time">2020.03.13</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">除了所有其他答案之外，IE8还有一个重要区别：如果使用</font></font><code>display:none</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">并尝试获取元素的宽度或高度，则IE8返回0（而其他浏览器将返回实际大小）。</font><font style="vertical-align: inherit;">IE8仅针对会返回正确的宽度或高度</font></font><code>visibility:hidden</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">十三Tony伽罗</span>
             <span class="discuss-time">2020.03.13</span>
           </div>
           <div class="discuss-comment"><p><code>visibility:hidden</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">保留空间；</font></font><code>display:none</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">没有。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">飞云神无</span>
             <span class="discuss-time">2020.03.13</span>
           </div>
           <div class="discuss-comment"><p><code>display:none</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">将隐藏元素并折叠占用的空间，而</font></font><code>visibility:hidden</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">将隐藏元素并保留元素的空间。</font><font style="vertical-align: inherit;">display：none也不会影响IE和Safari较旧版本中javascript的某些属性。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">米亚番长</span>
             <span class="discuss-time">2020.03.13</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">随着</font></font><code>visibility:hidden</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">对象仍占用垂直高度在页面上。</font><font style="vertical-align: inherit;">随着</font></font><code>display:none</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">它被完全删除。</font><font style="vertical-align: inherit;">如果您在图片下方有文字，并且这样做了</font></font><code>display:none</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，该文字将向上移动以填充图片所在的空间。</font><font style="vertical-align: inherit;">如果您进行可见性：隐藏，则文本将保留在同一位置。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">飞云神无</span>
@@ -184,9 +164,7 @@ Content not display on screen but it will take space on screen.<font></font>
 <p><code>Visibility: hidden</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> 即使您无法再看到它，也会在文档流中留下空间。 </font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这可能会或可能不会有很大的不同，具体取决于您在做什么。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">飞云小哥</span>
@@ -207,9 +185,7 @@ Content not display on screen but it will take space on screen.<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">然后，子div将可见，而父div将不显示。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">猪猪理查德</span>
@@ -224,9 +200,7 @@ Content not display on screen but it will take space on screen.<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">想象一下，您在游乐园中排队，而排队中的某人变得粗暴到安全都将他们从排队中拔出。</font><font style="vertical-align: inherit;">然后，排队的每个人都会向前移动一个位置，以填补现在空的位置。</font><font style="vertical-align: inherit;">这就像</font></font><code>display:none</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">与之类似的情况则与此相反，但是您前面的某人戴上了隐形斗篷。</font><font style="vertical-align: inherit;">在查看线条时，看起来好像有一个空白空间，但是由于有人仍在，所以人们无法真正填充该空白空间。</font><font style="vertical-align: inherit;">这就像</font></font><code>visibility:hidden</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">JinJin米亚</span>
@@ -251,9 +225,7 @@ Content not display on screen but it will take space on screen.<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">已经指出1和2之间的差异（即2仍然占用空间）。</font><font style="vertical-align: inherit;">但是，2和3之间是有区别的。在第3种情况下，当鼠标悬停在链接上时，鼠标仍然会切换到手形，并且用户仍然可以单击该链接，并且Javascript事件仍会在该链接上触发。</font><font style="vertical-align: inherit;">这通常</font></font><em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">不是</font></font></em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">您想要的行为。</font><font style="vertical-align: inherit;">选择文本时的行为也可能因浏览器而异。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">猴子逆天</span>
@@ -277,9 +249,7 @@ Content not display on screen but it will take space on screen.<font></font>
 
 <pre><code>test | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | test
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">ItachiGreen</span>
@@ -288,9 +258,7 @@ Content not display on screen but it will take space on screen.<font></font>
           <div class="discuss-comment"><p><code>display:none</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> 从布局流程中删除元素。</font></font></p>
 
 <p><code>visibility:hidden</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> 隐藏它，但留下空间。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">GilL</span>
@@ -299,9 +267,7 @@ Content not display on screen but it will take space on screen.<font></font>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">它们不是同义词- </font></font><code>display: none</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">从页面流中删除元素，而页面的其余部分就好像不在那里一样。</font></font></p>
 
 <p><code>visibility: hidden</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> 从视图中隐藏元素，但不隐藏页面流，从而在页面上留出空间。</font></font></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

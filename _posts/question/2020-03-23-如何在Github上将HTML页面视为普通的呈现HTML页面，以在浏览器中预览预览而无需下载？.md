@@ -23,7 +23,7 @@ topic: CSS
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">是否可以直接将其视为呈现的HTML？</font><font style="vertical-align: inherit;">否则，我总是需要下载整个ZIP文件才能查看结果。</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第2625篇《如何在Github上将HTML页面视为普通的呈现HTML页面，以在浏览器中预览预览而无需下载？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第2625篇《如何在Github上将HTML页面视为普通的呈现HTML页面，以在浏览器中预览预览而无需下载？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -49,9 +49,7 @@ topic: CSS
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">运行结果：
 </font></font><a href="https://i.stack.imgur.com/0EQEE.png" rel="nofollow noreferrer"><img src="https://i.stack.imgur.com/0EQEE.png" alt="在此处输入图片说明"></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Harry逆天Eva</span>
@@ -60,9 +58,7 @@ topic: CSS
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">您可以仅打开Github Pages。</font><font style="vertical-align: inherit;">^ _ ^</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">单击“设置”，然后转到“ GitHub页面”，然后单击“源”下的下拉列表，然后选择要公开的分支（位于主要html文件所在的位置）aaa和vualaa。</font><font style="vertical-align: inherit;">^ _ ^</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">猪猪Pro</span>
@@ -85,9 +81,7 @@ topic: CSS
 </ul></li>
 <li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">打开在规则中添加了URL的文件浏览器（在步骤3中）。</font></font></li>
 </ol></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">DavaidTony宝儿</span>
@@ -97,9 +91,7 @@ topic: CSS
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">像这样的脚本：</font><a href="https://gist.github.com/vanyakosmos/83ba165b288af32cf85e2cac8f02ce6d" rel="nofollow noreferrer"><font style="vertical-align: inherit;">https</font></a><font style="vertical-align: inherit;"> :
  </font></font><a href="https://gist.github.com/vanyakosmos/83ba165b288af32cf85e2cac8f02ce6d" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">//gist.github.com/vanyakosmos/83ba165b288af32cf85e2cac8f02ce6d</font></font></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">西里神奇</span>
@@ -136,9 +128,7 @@ topic: CSS
 <p><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">github.com列出的步骤</font></font></strong></p>
 
 <p><a href="https://help.github.com/articles/creating-project-pages-manually" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">https://help.github.com/articles/creating-project-pages-manually</font></font></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">达蒙</span>
@@ -147,9 +137,7 @@ topic: CSS
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我阅读了所有评论，并认为GitHub使得普通用户很难创建GitHub页面，直到我访问</font></font><a href="https://help.github.com/articles/adding-a-jekyll-theme-to-your-github-pages-site-with-the-jekyll-theme-chooser/" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">GitHub主题</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">页面为止</font><font style="vertical-align: inherit;">，其中明确提到在相关仓库的设置页面下有一个“ GitHub页面”部分，您可以在其中选择选项“对GitHub Pages使用master分支”。</font><font style="vertical-align: inherit;">和voilà!! ...在</font><a href="https://username.github.io/reponame" rel="noreferrer"><font style="vertical-align: inherit;">https://username.github.io/reponame</font></a><font style="vertical-align: inherit;">上签出特定的回购协议</font></font><a href="https://username.github.io/reponame" rel="noreferrer"><font style="vertical-align: inherit;"></font></a></p>
 
 <p><img src="https://i.stack.imgur.com/YClog.png" alt="屏幕截图以支持我的答案"></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Gil</span>
@@ -174,9 +162,7 @@ git branch gh-pages<font></font>
 git push -u origin gh-pages # Push the new branch back to github<font></font>
 Go to http://username.github.io/repo<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Tony凯</span>
@@ -187,9 +173,7 @@ Go to http://username.github.io/repo<font></font>
 <p><a href="http://www.s3auth.com/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">http://www.s3auth.com/</font></font></a></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">它允许您将页面托管在基本身份验证之后。</font><font style="vertical-align: inherit;">非常适合私有github存储库中的api docs之类的东西。</font><font style="vertical-align: inherit;">只是将s3放到您的api构建中即可。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">神奇宝儿</span>
@@ -199,18 +183,14 @@ Go to http://username.github.io/repo<font></font>
 <a href="https://rawgit.com/necolas/css3-social-signin-buttons/master/index.html" rel="nofollow noreferrer"><font style="vertical-align: inherit;"></font></a></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">（在撰写本文时）</font><font style="vertical-align: inherit;">，</font><font style="vertical-align: inherit;">它的效果比</font></font><a href="http://htmlpreview.github.com/" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">http://htmlpreview.github.com/</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">更好</font><font style="vertical-align: inherit;">，可以提供带有适当Content-Type标头的文件。</font><font style="vertical-align: inherit;">此外，它还提供CDN URL供生产使用。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">西门路易</span>
             <span class="discuss-time">2020.03.23</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在GitHub上预览HTML文件最舒适的方法是转到</font></font><a href="https://htmlpreview.github.io/" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">https://htmlpreview.github.io/</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">或仅将其添加到原始URL，即：</font><a href="https://htmlpreview.github.io/?https://github.com/bartaz/impress.js/blob/master/index.html" rel="noreferrer"><font style="vertical-align: inherit;">https</font></a><font style="vertical-align: inherit;"> : </font><a href="https://htmlpreview.github.io/?https://github.com/bartaz/impress.js/blob/master/index.html" rel="noreferrer"><font style="vertical-align: inherit;">//htmlpreview.github.io/?https</font></a><font style="vertical-align: inherit;"> : </font></font><a href="https://htmlpreview.github.io/?https://github.com/bartaz/impress.js/blob/master/index.html" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">// github.com/bartaz/impress.js/blob/master/index.html</font></font></a></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

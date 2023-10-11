@@ -43,7 +43,7 @@ topic: CSS
 <p>How this can be fixed?</p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第2843篇《更新到OS X El Capitan（10.11）后，指南针不起作用[重复]》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第2843篇《更新到OS X El Capitan（10.11）后，指南针不起作用\[重复\]》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -54,9 +54,7 @@ topic: CSS
             <span class="discuss-time">2020.03.23</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">升级到OS X El Capitan（10.11）后，我遇到了相同的问题，但是尝试升级</font></font><code>sudo gem install sass</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font><font style="vertical-align: inherit;">张贴者将路径放入install命令的解决方案对我来说很有效，而安装指南针也可以安装sass，因此：</font></font><code>sudo gem install -n /usr/local/bin compass</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">做到了。</font><font style="vertical-align: inherit;">谢谢狮子座！</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">GOGil老丝</span>
@@ -73,9 +71,7 @@ topic: CSS
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">祝好运！</font></font></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

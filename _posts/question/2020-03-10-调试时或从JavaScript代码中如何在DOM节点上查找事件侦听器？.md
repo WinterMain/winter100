@@ -25,7 +25,7 @@ topic: JavaScript
 </ol></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第473篇《调试时或从JavaScript代码中如何在DOM节点上查找事件侦听器？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第473篇《调试时或从JavaScript代码中如何在DOM节点上查找事件侦听器？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -48,9 +48,7 @@ EventTarget.prototype.detachEvent<font></font>
 <pre><code>console.log(someElement.onclick);<font></font>
 console.log(someElement.getAttribute("onclick"));<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">LEYTom西门</span>
@@ -60,9 +58,7 @@ console.log(someElement.getAttribute("onclick"));<font></font>
 
 <p><a href="https://i.stack.imgur.com/HITS4.png" rel="nofollow noreferrer"><img src="https://i.stack.imgur.com/HITS4.png" alt="在此处输入图片说明"></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
 （主题</font></font><a href="https://stackoverflow.com/questions/11065358/find-attached-bound-events-of-an-element-using-chrome-development-tools-fire"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">来源</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">）</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">HarryGil</span>
@@ -71,9 +67,7 @@ console.log(someElement.getAttribute("onclick"));<font></font>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Opera 12（不是基于最新的Chrome Webkit引擎的）</font></font><a href="http://www.opera.com/dragonfly/" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Dragonfly</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">已经有一段时间了，并且显然显示在DOM结构中。</font><font style="vertical-align: inherit;">在我看来，它是出色的调试器，也是我仍然使用基于Opera 12的版本的唯一原因（不存在基于v13，v14的版本，基于v15 Webkit的版本仍然缺少Dragonfly）</font></font></p>
 
 <p><img src="https://i.stack.imgur.com/Lwfo6.png" alt="在此处输入图片说明"></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">斯丁Jim</span>
@@ -90,9 +84,7 @@ console.log(someElement.getAttribute("onclick"));<font></font>
 
 <pre><code>console.dir(window);
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">西门小卤蛋</span>
@@ -167,9 +159,7 @@ console.log(someElement.getAttribute("onclick"));<font></font>
 <p><code>someElement.getEventListeners([name])</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> -返回事件侦听器的列表，如果设置了名称，则返回该事件的侦听器数组</font></font></p>
 
 <p><code>someElement.clearEventListeners([name])</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> -删除所有事件侦听器，如果设置了名称，则仅删除该事件的侦听器</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">TomMandy</span>
@@ -178,9 +168,7 @@ console.log(someElement.getAttribute("onclick"));<font></font>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Firefox开发人员工具现在可以执行此操作。</font><font style="vertical-align: inherit;">通过单击每个元素显示右侧的“ ev”按钮来显示</font><font style="vertical-align: inherit;">事件</font><font style="vertical-align: inherit;">，包括</font></font><a href="http://en.wikipedia.org/wiki/JQuery" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">jQuery</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">和</font></font><a href="http://en.wikipedia.org/wiki/Document_Object_Model" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">DOM</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">事件。</font></font></p>
 
 <p><img src="https://i.stack.imgur.com/E1AXv.png" alt="检查器选项卡中Firefox开发人员工具的事件侦听器按钮的屏幕截图"></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">别坑我路易</span>
@@ -206,18 +194,14 @@ console.log(someElement.getAttribute("onclick"));<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">H / T @ les2</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">伽罗路易</span>
             <span class="discuss-time">2020.03.10</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Chrome或Safari浏览器中的WebKit Inspector现在可以执行此操作。</font><font style="vertical-align: inherit;">在“元素”窗格中选择它时，它将显示DOM元素的事件侦听器。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">凯LEY</span>
@@ -284,9 +268,7 @@ if(click) alert("I even listen to this: "+click);<font></font>
 </blockquote>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">元素覆盖可能存在问题（即，由于存在一些特定于DOM的特定功能，例如实时集合，无法在JS中进行编码），但是它原生提供了eventListenerList支持，并且可以在Chrome，Firefox和Opera中使用（不适用于IE7） ）。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Near小哥神奇</span>
@@ -311,9 +293,7 @@ HTMLAnchorElement.prototype.addEventListener = function(a,b,c){<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">现在，每个锚元素（</font></font><code>a</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">）将具有一个</font></font><code>lastListenerInfo</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">属性，该属性包含其所有侦听器。</font><font style="vertical-align: inherit;">它甚至可以删除带有匿名功能的侦听器。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小胖路易神无</span>
@@ -325,9 +305,7 @@ HTMLAnchorElement.prototype.addEventListener = function(a,b,c){<font></font>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">以下是使用它的很好参考：</font><a href="https://developers.google.com/web/tools/chrome-devtools/console/utilities#geteventlisteners" rel="noreferrer"><font style="vertical-align: inherit;">https</font></a><font style="vertical-align: inherit;"> :
  </font></font><a href="https://developers.google.com/web/tools/chrome-devtools/console/utilities#geteventlisteners" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">//developers.google.com/web/tools/chrome-devtools/console/utilities#geteventlisteners</font></font></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">斯丁村村GO</span>
@@ -336,9 +314,7 @@ HTMLAnchorElement.prototype.addEventListener = function(a,b,c){<font></font>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果只需要检查页面上发生的情况，则可以尝试使用</font></font><a href="http://www.sprymedia.co.uk/article/Visual+Event" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Visual Event</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">书签。</font></font></p>
 
 <p><strong>Update</strong>: <a href="http://www.sprymedia.co.uk/article/Visual+Event+2" rel="nofollow noreferrer">Visual Event 2</a> available.</p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

@@ -21,7 +21,7 @@ topic: React.js
 <p><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">未处理的拒绝TypeError：child.send不是函数</font></font></strong></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第3214篇《如何在cpanel托管上部署Next js应用》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第3214篇《如何在cpanel托管上部署Next js应用》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -42,9 +42,7 @@ topic: React.js
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这些在package.json中</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小小Davaid</span>
@@ -56,9 +54,7 @@ topic: React.js
 cd /path/to/appdirectory<font></font>
 npm run start<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">蛋蛋猿</span>
@@ -71,9 +67,7 @@ npm run start<font></font>
 <li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">新版本的CPanel已经为您的nodejs应用程序提供了入口点：
  </font></font><a href="https://i.stack.imgur.com/sADgj.png" rel="nofollow noreferrer"><img src="https://i.stack.imgur.com/sADgj.png" alt="CPanel中NodeJS应用的入口点"></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在该字段上指定服务器文件。</font></font></li>
 </ol></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

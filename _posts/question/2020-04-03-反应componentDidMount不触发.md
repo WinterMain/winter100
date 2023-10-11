@@ -43,7 +43,7 @@ module.exports = RecipePage;<font></font>
 </code></pre></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第3974篇《反应componentDidMount不触发》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第3974篇《反应componentDidMount不触发》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -54,9 +54,7 @@ module.exports = RecipePage;<font></font>
             <span class="discuss-time">2020.04.03</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">对我而言</font><font style="vertical-align: inherit;">，在该</font><strong><font style="vertical-align: inherit;">componentDidMount</font></strong><font style="vertical-align: inherit;">开始按预期启动</font><font style="vertical-align: inherit;">后，</font><font style="vertical-align: inherit;">我还在</font><font style="vertical-align: inherit;">类中</font><font style="vertical-align: inherit;">声明了</font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">componentDidUpdate</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font><strong><font style="vertical-align: inherit;"></font></strong><font style="vertical-align: inherit;"></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">老丝</span>
@@ -65,18 +63,14 @@ module.exports = RecipePage;<font></font>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">对我来说，原因是</font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">ComponentDidMount中的</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">大写字母“ C” </font><font style="vertical-align: inherit;">。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">将其更改为</font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">componentDidMount</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">并有效</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">老丝</span>
             <span class="discuss-time">2020.04.03</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">当我</font></font><code>componentWillMount()</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在同一个类中定义2x </font><font style="vertical-align: inherit;">时，这发生在我身上</font><font style="vertical-align: inherit;">。</font><font style="vertical-align: inherit;">这不会产生运行时错误。</font><font style="vertical-align: inherit;">我只是删除了第二个定义，事情就开始起作用了。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">A小哥</span>
@@ -87,18 +81,14 @@ module.exports = RecipePage;<font></font>
 <p><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">解决方法：</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">找到一种通过服务器交付生成的“已编译” html的方法，此外，还</font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">可以在客户端再次访问和“启动” react自己的事件</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font><font style="vertical-align: inherit;">当编译我的“ view”文件（index.js或index.html）时，我包含了一个“ Application.start（）”脚本，该脚本将我的bundle.js代码再次注入模板中。</font><font style="vertical-align: inherit;">然后在我的gulpfile中，导出“ Application”变量，以便“ view”文件可以访问它。  </font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Gahh ...为此拉了我的头发。</font><font style="vertical-align: inherit;">是时候阅读</font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">服务器端和客户端渲染了</font></font></strong></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">阿飞</span>
             <span class="discuss-time">2020.04.03</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">就我而言，我</font></font><code>export default</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在导入的文件中</font><font style="vertical-align: inherit;">导入了没有</font><font style="vertical-align: inherit;">命令</font><font style="vertical-align: inherit;">的组件</font><font style="vertical-align: inherit;">。</font><font style="vertical-align: inherit;">当我解决此问题后，</font></font><code>componentDidMount</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">开始射击...</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">村村</span>
@@ -108,18 +98,14 @@ module.exports = RecipePage;<font></font>
 
 <pre><code>module.exports = RecipePage;
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Stafan路易</span>
             <span class="discuss-time">2020.04.03</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">就我而言，</font></font><code>componentDidMount</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">代码中</font><font style="vertical-align: inherit;">还有另一个</font></font></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

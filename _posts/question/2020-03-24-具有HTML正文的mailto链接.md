@@ -27,7 +27,7 @@ topic: HTML
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">请注意，在iOS中（2016），添加</font></font><code>&lt;i&gt;</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">和</font></font><code>&lt;b&gt;</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">标记以简单的斜体，粗体格式非常好。</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第3327篇《具有HTML正文的mailto链接》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第3327篇《具有HTML正文的mailto链接》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -48,9 +48,7 @@ var body = "Hello" + newLine +"World";<font></font>
 <pre><code>Hello<font></font>
 World  <font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">梅Harry</span>
@@ -79,27 +77,21 @@ mail.click();<font></font>
 <font></font>
 // Notice how I use ${titleLinkElement} that is an anchor element, so mailto uses its href and renders the url I needed<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小宇宙</span>
             <span class="discuss-time">2020.03.24</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">可以输入unicode值以插入换行符（即：），</font></font><code>\u0009</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">但是HTML标签具有不同程度的支持，应避免使用。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">乐米亚</span>
             <span class="discuss-time">2020.03.24</span>
           </div>
           <div class="discuss-comment"><p><a href="https://dxr.mozilla.org/comm-central/rev/2a29ee0adb310b54a6a2df72034953fed8f2b043/comm/mailnews/compose/src/nsSmtpUrl.cpp#151" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">雷鸟支持</font></font></a> <code>html-body</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">：</font></font><code>mailto:me@me.com?subject=Me&amp;html-body=&lt;b&gt;ME&lt;/b&gt;</code></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">泡芙</span>
@@ -108,9 +100,7 @@ mail.click();<font></font>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">值得指出的是，至少在iPhone上的Safari上，</font><font style="vertical-align: inherit;">似乎确实</font><font style="vertical-align: inherit;">在body参数中</font><font style="vertical-align: inherit;">插入了基本的HTML标签，如</font></font><code>&lt;b&gt;</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，</font></font><code>&lt;i&gt;</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">和</font></font><code>&lt;img&gt;</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">（理想情况下，无论如何在其他情况下都不应使用CSS，更喜欢使用CSS）。</font></font><code>mailto:</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">工作-他们在电子邮件客户端中很荣幸。</font><font style="vertical-align: inherit;">我尚未进行详尽的测试，以查看其他移动或桌面浏览器/电子邮件客户端组合是否支持此功能。</font><font style="vertical-align: inherit;">这是否真的符合标准也值得怀疑。</font><font style="vertical-align: inherit;">但是，如果要为该平台构建，可能会很有用。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">正如其他响应所指出的那样，在将其嵌入</font></font><code>mailto:</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">链接</font><font style="vertical-align: inherit;">之前，还应该在整个主体上使用encodeURIComponent </font><font style="vertical-align: inherit;">。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">阳光小胖</span>
@@ -124,9 +114,7 @@ mail.click();<font></font>
 var mailToLink = "mailto:x@y.com?body=" + encodeURIComponent(formattedBody);<font></font>
 window.location.href = mailToLink;<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">凯西里</span>
@@ -140,18 +128,14 @@ window.location.href = mailToLink;<font></font>
 
 <pre><code>&lt;a href="mailto:?subject=&amp;body=Hello,%0D%0A%0D%0AHere is the link to the PDF Brochure.%0D%0A%0D%0ATo view the brochure please click the following link: http://www.uyslist.com/yachts/brochure.pdf"&gt;&lt;img src="images/email.png" alt="EMail PDF Brochure" /&gt;&lt;/a&gt;                        
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小宇宙</span>
             <span class="discuss-time">2020.03.24</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">不。这根本不可能。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">蛋蛋</span>
@@ -161,9 +145,7 @@ window.location.href = mailToLink;<font></font>
 
 <pre><code>&lt;a href="mailto:email@address.com?subject=Hello world&amp;body=Line one%0DLine two"&gt;Email me&lt;/a&gt;
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">西门GO村村</span>
@@ -175,9 +157,7 @@ window.location.href = mailToLink;<font></font>
   <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">特殊的</font></font><code>&lt;hfname&gt;</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">“正文”表示关联的</font></font><code>&lt;hfvalue&gt;</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
   是邮件的正文。</font><font style="vertical-align: inherit;">“正文”字段值旨在包含消息的第一个文本/纯文本正文部分的内容。</font><font style="vertical-align: inherit;">“正文”伪头字段主要用于生成用于自动处理的短消息（例如，用于邮件列表的“订阅”消息），而不是用于一般的MIME正文。</font></font></p>
 </blockquote></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

@@ -48,7 +48,7 @@ topic: JavaScript
 </code></pre></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第303篇《如何从JavaScript对象中删除键？[重复]》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第303篇《如何从JavaScript对象中删除键？\[重复\]》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -67,9 +67,7 @@ topic: JavaScript
 
 <pre class="lang-js prettyprint-override"><code>delete object["keyname"];
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小小</span>
@@ -91,9 +89,7 @@ delete thisIsObject.Cow;<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果您有兴趣，请阅读《</font></font><a href="http://perfectionkills.com/understanding-delete/" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">了解删除》</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">以获取详细说明。</font></font></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

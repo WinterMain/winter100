@@ -27,7 +27,7 @@ topic: React.js
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">最后一个似乎很远，但是除非</font></font><em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">真正</font></font></em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">需要，</font><font style="vertical-align: inherit;">否则我不想涉足javascript </font><font style="vertical-align: inherit;">。</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第3472篇《在ReasonReact中继承Nextjs App组件（pages / _app.js）》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第3472篇《在ReasonReact中继承Nextjs App组件（pages / _app.js）》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}

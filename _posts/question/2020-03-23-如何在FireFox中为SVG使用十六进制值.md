@@ -31,7 +31,7 @@ topic: CSS
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">有什么办法可以在此处使用十六进制值作为颜色？</font><font style="vertical-align: inherit;">这确实有助于使我的Sass尽可能干燥。</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第2675篇《如何在FireFox中为SVG使用十六进制值》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第2675篇《如何在FireFox中为SVG使用十六进制值》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -44,9 +44,7 @@ topic: CSS
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">字符＃</font></font><a href="http://tools.ietf.org/html/rfc3986#section-2.3"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在URL中保留，</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">作为片段标识符的开头。</font><font style="vertical-align: inherit;">您必须将其编码为％23，URL才有效。</font><font style="vertical-align: inherit;">这不是Firefox错误。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">或者，您可以使用base64对整个字符串进行编码。</font></font></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

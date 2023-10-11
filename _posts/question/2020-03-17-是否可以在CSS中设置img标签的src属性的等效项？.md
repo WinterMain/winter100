@@ -31,7 +31,7 @@ topic: CSS
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我想</font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">不</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">使用</font><font style="vertical-align: inherit;">CSS中</font><font style="vertical-align: inherit;">的</font></font><code>background</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">或</font></font><code>background-image:</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">属性</font><font style="vertical-align: inherit;">来执行此</font><font style="vertical-align: inherit;">操作</font><font style="vertical-align: inherit;">。</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第1981篇《是否可以在CSS中设置img标签的src属性的等效项？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第1981篇《是否可以在CSS中设置img标签的src属性的等效项？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -49,9 +49,7 @@ topic: CSS
     &lt;img srcset="default.jpg" alt="My default image"&gt;<font></font>
 &lt;/picture&gt;<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">古一LEY</span>
@@ -60,9 +58,7 @@ topic: CSS
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">当用户在</font><font style="vertical-align: inherit;">禁用</font><i><font style="vertical-align: inherit;">“打印</font></i><i><b><font style="vertical-align: inherit;">背景</font></b></i><i><font style="vertical-align: inherit;">色和</font></i><i><b><font style="vertical-align: inherit;">图像</font></b></i><i><font style="vertical-align: inherit;"> ”的情况</font></i><i><b><font style="vertical-align: inherit;">下</font></b></i><font style="vertical-align: inherit;">打印文档时，</font><font style="vertical-align: inherit;">任何基于</font></font><code>background</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">或</font></font><code>background-image</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">可能失败的</font><font style="vertical-align: inherit;">方法</font><font style="vertical-align: inherit;">。</font><font style="vertical-align: inherit;">不幸的是，这是典型浏览器的默认设置。</font></font><i><font style="vertical-align: inherit;"></font><b><font style="vertical-align: inherit;"></font></b><font style="vertical-align: inherit;"></font><b><font style="vertical-align: inherit;"></font></b><font style="vertical-align: inherit;"></font></i><font style="vertical-align: inherit;"></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这里唯一的打印友好和跨浏览器兼容的方法是Bronx提出的方法。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小小老丝</span>
@@ -79,9 +75,7 @@ topic: CSS
 </code></pre>
 
 <p></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小胖路易</span>
@@ -100,9 +94,7 @@ topic: CSS
 } <font></font>
 (...)<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">前端猿</span>
@@ -111,9 +103,7 @@ topic: CSS
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果您不想设置背景属性，则不能仅使用CSS设置图像的src属性。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">或者，您可以使用JavaScript来执行此操作。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">逆天泡芙</span>
@@ -123,9 +113,7 @@ topic: CSS
 
 <pre><code>$("img.myClass").attr("src", "http://somwhere");
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">阳光Tom逆天</span>
@@ -156,9 +144,7 @@ topic: CSS
        alt="{{ altText }}" style="background-image: url({{ bgImageSrc }});"&gt;<font></font>
 &lt;/div&gt;<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">DavaidJinJin</span>
@@ -171,18 +157,14 @@ topic: CSS
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">简而言之：您要查找的内容无法在语法结构内合法完成。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">资料来源：W3验证器</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">阳光猿</span>
             <span class="discuss-time">2020.03.17</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">据我所知，您不能。</font><font style="vertical-align: inherit;">CSS是关于样式的，图像的src是内容。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">TonyEva</span>
@@ -202,9 +184,7 @@ topic: CSS
      background-image:url(http://sthstest/Style%20Library/StThomas/images/rhn_nav_logo2.gif);<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">西门路易</span>
@@ -213,9 +193,7 @@ topic: CSS
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">不，您不能通过CSS设置image src属性。</font><font style="vertical-align: inherit;">如您所说，最接近的是</font></font><code>background</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">或</font></font><code>background-image</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font><font style="vertical-align: inherit;">我不建议这样做，因为这样做有点不合逻辑。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">但是，如果您要定位的浏览器可以使用CSS3解决方案，则可以使用它。</font></font><code>content:url</code> <a href="https://stackoverflow.com/questions/2182716/how-can-we-specify-src-attribute-of-img-tag-in-css/11484688#11484688"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">按照Pacerier的回答中所述</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">使用</font><font style="vertical-align: inherit;">。</font><font style="vertical-align: inherit;">您可以在下面的其他答案中找到其他跨浏览器的解决方案。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">HarryHarry</span>
@@ -242,18 +220,14 @@ topic: CSS
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">请注意，它将像CSS一样预加载所有图像</font></font><code>backround-image</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，但与</font></font><code>img src</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">通过JS进行</font><font style="vertical-align: inherit;">更改不同</font><font style="vertical-align: inherit;">。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">神乐猪猪</span>
             <span class="discuss-time">2020.03.17</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">您可以在HTML代码中定义2张图片，并用于</font></font><code>display: none;</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">确定哪一张图片可见。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">神乐猴子</span>
@@ -266,9 +240,7 @@ Pro和Con：</font></font><br><font style="vertical-align: inherit;"><font style
 （+）的图像是跨浏览器（对于IE8 +也适用）</font></font><br><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
 （+），它仅使用CSS。</font><font style="vertical-align: inherit;">因此，无需修改img src（或者如果您没有访问权限/不想更改已经存在的img src属性）。</font></font><br><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
 （-）抱歉，它</font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">确实使用</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">了背景CSS属性：)</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">西里小胖小卤蛋</span>
@@ -285,9 +257,7 @@ Pro和Con：</font></font><br><font style="vertical-align: inherit;"><font style
 </ol>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">它就像一个魅力:)</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">GO小胖</span>
@@ -309,9 +279,7 @@ Pro和Con：</font></font><br><font style="vertical-align: inherit;"><font style
 
 <pre><code>&lt;div id="throbber"&gt;&lt;/div&gt;
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">路易GO</span>
@@ -350,9 +318,7 @@ Pro和Con：</font></font><br><font style="vertical-align: inherit;"><font style
 <li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">FireFox 40.0.2（观察开发人员网络工具，您可以看到已加载URL，但未显示图像）</font></font></li>
 <li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Internet Explorer 11.0.9600.17905（URL永远不会加载）</font></font></li>
 </ul></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

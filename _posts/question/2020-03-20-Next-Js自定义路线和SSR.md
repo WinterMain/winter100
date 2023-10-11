@@ -86,7 +86,7 @@ topic: React.js
 </code></pre></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第2456篇《Next Js自定义路线和SSR》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第2456篇《Next Js自定义路线和SSR》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -112,9 +112,7 @@ topic: React.js
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在接下来的9年之前，这些问题非常令人沮丧，但已大大简化了工作，并帮助我彻底删除了这些问题</font></font><code>server.js</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

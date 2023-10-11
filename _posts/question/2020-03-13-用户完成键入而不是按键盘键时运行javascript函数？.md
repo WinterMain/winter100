@@ -21,7 +21,7 @@ topic: JavaScript
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在这里使用jQuery！</font><font style="vertical-align: inherit;">戴夫</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第1515篇《用户完成键入而不是按键盘键时运行javascript函数？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第1515篇《用户完成键入而不是按键盘键时运行javascript函数？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -34,9 +34,7 @@ topic: JavaScript
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">一旦检测到对文本框的关注，请在按键上进行超时检查，并在每次触发时将其重置。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">超时完成后，请执行ajax请求。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小宇宙路易</span>
@@ -47,9 +45,7 @@ topic: JavaScript
 <p><a href="https://www.w3schools.com/jsreF/event_onfocusout.asp" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">https://www.w3schools.com/jsreF/event_onfocusout.asp</font></font></a> </p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果是表单，他们将始终留下每个输入字段的焦点，以便单击“提交”按钮，因此您知道没有任何输入会错过调用其onfocusout事件处理程序的机会。 </font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">樱小小小小</span>
@@ -61,9 +57,7 @@ topic: JavaScript
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果没有必要，设置计时器将是一个不错的选择。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">LEY逆天</span>
@@ -75,9 +69,7 @@ topic: JavaScript
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这与“停止键入”不同，如果您担心用户键入一堆东西然后坐在那里而文本框仍处于焦点的情况。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">为此，我建议将setTimeout绑定到onclick事件，并假设经过x次没有按键输入的时间之后，用户已停止键入。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">梅老丝</span>
@@ -97,9 +89,7 @@ function doneTyping () {<font></font>
     // code here<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Tony樱番长</span>
@@ -125,9 +115,7 @@ function _onKeyUp(e) {<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这是我对Stack Overflow的第一个答复，所以我希望有一天能对某人有所帮助：）</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Near小哥西门</span>
@@ -138,9 +126,7 @@ function _onKeyUp(e) {<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果您希望用户在输入时会暂停，则无法知道何时完成操作。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">（除非您当然不能从数据中分辨出何时完成） </font></font></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

@@ -75,7 +75,7 @@ module.exports = {<font></font>
 </code></pre></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第2542篇《我们如何在Nuxt？Vuejs项目中仅包含lodash中所需的模块？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第2542篇《我们如何在Nuxt？Vuejs项目中仅包含lodash中所需的模块？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}

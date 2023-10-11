@@ -37,7 +37,7 @@ topic: CSS
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我只是很好奇我无法在网上找到有关此内容的信息，所以我想问这个原因。</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第2670篇《为什么Bootstrap 4选择rem和em而不是px？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第2670篇《为什么Bootstrap 4选择rem和em而不是px？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -52,9 +52,7 @@ topic: CSS
 <blockquote>
   <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Bootstrap使用ems或rems定义大多数大小，而pxs用于网格断点和容器宽度。</font><font style="vertical-align: inherit;">这是因为视口宽度以像素为单位，并且不会随字体大小而变化。</font></font></p>
 </blockquote></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">西门达蒙</span>
@@ -98,9 +96,7 @@ topic: CSS
 <p>You can use % too, but with WP Gutenberg out and their full width sections using vw I can get everything to line up to a perfect grid.</p>
 
 <p>Hope this helps. </p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小宇宙</span>
@@ -117,9 +113,7 @@ topic: CSS
 </blockquote>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">资料来源：</font></font><a href="https://scotch.io/bar-talk/whats-new-in-bootstrap-4#toc-new-unit-rems-for-typography" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Scotch.io</font></font></a></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

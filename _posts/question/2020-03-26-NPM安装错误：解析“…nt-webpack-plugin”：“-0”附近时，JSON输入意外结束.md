@@ -34,7 +34,7 @@ topic: Node.js
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">错误日志为</font></font><a href="http://www.aashitechno.in/2017-12-06T13_10_10_729Z-debug.log" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">http://www.aashitechno.in/2017-12-06T13_10_10_729Z-debug.log</font></font></a></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第3790篇《NPM安装错误：解析“…nt-webpack-plugin”：“ 0”附近时，JSON输入意外结束》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第3790篇《NPM安装错误：解析“…nt-webpack-plugin”：“ 0”附近时，JSON输入意外结束》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -56,9 +56,7 @@ npm install -g @angular/cli<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">确保运行第一个命令来刷新npm的缓存。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">神无</span>
@@ -82,9 +80,7 @@ npm install -g @angular/cli<font></font>
 
 <pre><code>npm install 
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">逆天Eva</span>
@@ -103,9 +99,7 @@ npm install -g @angular/cli<font></font>
 <blockquote>
   <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">npm install --cache / tmp /空缓存</font></font></p>
 </blockquote></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Gil伽罗小宇宙</span>
@@ -124,9 +118,7 @@ npm install -g @angular/cli<font></font>
 <blockquote>
   <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">从npm @ 5开始，npm缓存会因损坏问题而自我修复，并且保证从缓存中提取的数据是有效的。</font><font style="vertical-align: inherit;">如果要确保所有内容都一致，请</font></font><code>npm cache verify</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">改用。</font><font style="vertical-align: inherit;">另一方面，如果您要调试安装程序中的问题，则可以使用</font></font><code>npm install --cache /tmp/empty-cache</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">临时缓存来代替实际的缓存。</font></font></p>
 </blockquote></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">古一</span>
@@ -138,9 +130,7 @@ npm install -g @angular/cli<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">它始终像魅力一样运作。</font><font style="vertical-align: inherit;">我爱一个班轮。</font><font style="vertical-align: inherit;">注意：由于它是全新安装，因此我不担心清空npm缓存。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">蛋蛋猿</span>
@@ -156,9 +146,7 @@ npm install -g @angular/cli<font></font>
 
 <pre><code>npm install &amp;&amp; npm start
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Harry小胖</span>
@@ -178,9 +166,7 @@ npm install -g @angular/cli<font></font>
 
 <pre class="lang-sh prettyprint-override"><code>npm install 
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">伽罗理查德</span>
@@ -196,9 +182,7 @@ npm install -g @angular/cli<font></font>
 
 <pre><code>npm install -g @angular/cli@latest
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小宇宙</span>
@@ -217,9 +201,7 @@ npm install -g @angular/cli<font></font>
 nvm install 10.10.0; # install a new remote version;<font></font>
 nvm alias default 10.10.0; # set the 10.10.0 as the default node version, but you have to restart the terminal to make it take effect;<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Green理查德</span>
@@ -230,27 +212,21 @@ nvm alias default 10.10.0; # set the 10.10.0 as the default node version, but yo
 <pre><code>npm cache clean --force<font></font>
 npm install <font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">A宝儿小小</span>
             <span class="discuss-time">2020.03.26</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这解决了 </font></font><code>npm cache clean --force</code></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Itachi</span>
             <span class="discuss-time">2020.03.26</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我使用Windows并删除了下面列出的所有文件，问题得到解决C：\ Users {{您的用户名}} \ AppData \ Roaming \ npm-cache</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">神无JinJin</span>
@@ -266,9 +242,7 @@ npm install <font></font>
 <pre><code>npm cache clean --force<font></font>
 npm update<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">乐</span>
@@ -283,9 +257,7 @@ npm install -g @angular/cli<font></font>
 </code></pre>
 
 <p><a href="https://devblogs.microsoft.com/premier-developer/getting-started-with-node-js-angular-and-visual-studio-code/" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">https://devblogs.microsoft.com/premier-developer/getting-started-with-node-js-angular-and-visual-studio-code/</font></font></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Tony凯</span>
@@ -300,9 +272,7 @@ npm install -g @angular/cli<font></font>
 
 <pre><code>npm install -g @angular/cli
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">番长猴子</span>
@@ -337,9 +307,7 @@ npm install -g @angular/cli<font></font>
   
   <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">create-react-app react-app</font></font></p>
 </blockquote></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

@@ -27,7 +27,7 @@ topic: IOS
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">但是这种解决方案没有运气，仍然会出现相同的错误</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第993篇《找不到React / RCTBridgeModule.h文件》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第993篇《找不到React / RCTBridgeModule.h文件》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -44,9 +44,7 @@ topic: IOS
 <pre><code>$(SRCROOT)/../../../ios/Pods/Headers/Public/React-Core<font></font>
 $(SRCROOT)/../../../ios/Pods/Headers/Public<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">DavaidPro</span>
@@ -59,9 +57,7 @@ $(SRCROOT)/../../../ios/Pods/Headers/Public<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">2）</font></font><code>npm unlink react-native-fs</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">取消链接库</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">现在，该库已成功删除，现在在您的项目中再次安装该库，这次手动链接所有内容。</font><font style="vertical-align: inherit;">有时自动链接会导致此错误。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小胖Stafan</span>
@@ -72,9 +68,7 @@ $(SRCROOT)/../../../ios/Pods/Headers/Public<font></font>
 <pre><code>1. Open XCode --&gt; To Libraries add `$LibraryWhichDoesNotWork.xcodeproj$`<font></font>
 2. Then for your app in the `Build Phases` add to the `Link Binary with Libraries` the file `lib$LibraryWhichDoesNotWork$.a`<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">村村樱</span>
@@ -95,9 +89,7 @@ $(SRCROOT)/../../../ios/Pods/Headers/Public<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果路径不正确，请在Xcode中打开您的iOS项目，然后转到：Xcode-&gt; preferences-&gt;命令行工具-&gt;选择Xcode</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">再次安装吊舱，您的问题将得到解决。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">神奇Davaid</span>
@@ -106,9 +98,7 @@ $(SRCROOT)/../../../ios/Pods/Headers/Public<font></font>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果要通过编辑器创建它，请打开</font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">SMobile.xcscheme</font></font></strong></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">并改变 </font></font><code>parallelizeBuildables = "NO"</code></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">西门达蒙</span>
@@ -117,9 +107,7 @@ $(SRCROOT)/../../../ios/Pods/Headers/Public<font></font>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我在使用</font></font><a href="https://github.com/brodybits/create-react-native-module/" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">create-react-native-module创建的</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">任何新模块中都收到此错误</font><font style="vertical-align: inherit;">。</font><font style="vertical-align: inherit;">没有发布的解决方案对我有用。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">对我有用的是首先确保</font></font><code>yarn</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在新创建的module文件夹中运行以便创建</font></font><code>node_modules/</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">（这一步可能很明显）。</font><font style="vertical-align: inherit;">然后，在XCode中，选择产品-&gt;方案-&gt;反应，而不是默认选择MyModuleName。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小宇宙西里路易</span>
@@ -129,9 +117,7 @@ $(SRCROOT)/../../../ios/Pods/Headers/Public<font></font>
 
 <pre><code>npm install --save -E react-native-fs@1.5.1
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">番长GO</span>
@@ -150,9 +136,7 @@ $(SRCROOT)/../../../ios/Pods/Headers/Public<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">现在重新加载您的工作区并进行干净的构建。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">神无Harry</span>
@@ -164,18 +148,14 @@ $(SRCROOT)/../../../ios/Pods/Headers/Public<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我从react-native 0.46.3新建的项目是红色的：当我做了react-native init时，SI的npm为5.3.0，纱线为0.24.5。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小小前端</span>
             <span class="discuss-time">2020.03.12</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">对于将React Native升级到0.40+后出现此错误的查看器，您可能需要</font></font><code>react-native upgrade</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在命令行上</font><font style="vertical-align: inherit;">运行</font><font style="vertical-align: inherit;">。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">凯泡芙JinJin</span>
@@ -184,9 +164,7 @@ $(SRCROOT)/../../../ios/Pods/Headers/Public<font></font>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我能够构建调试，但是无法构建档案。 </font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我通过将</font></font><code>React.xcodeproj</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">/ node_modules / react-native / React中找到</font><font style="vertical-align: inherit;">的内容拖到</font><font style="vertical-align: inherit;">Xcode的根目录中来</font><font style="vertical-align: inherit;">解决此问题</font><font style="vertical-align: inherit;">，然后在构建阶段&gt;目标依赖项中将React添加为目标依赖项。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Eva乐</span>
@@ -207,9 +185,7 @@ $(SRCROOT)/../../../ios/Pods/Headers/Public<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这是我要尝试使用的库所做的更改的示例：</font></font><a href="https://github.com/johanneslumpe/react-native-fs/pull/238/files" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">关闭＃46-未找到“ RCTBridgeModule.h”文件</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">十三蛋蛋</span>
@@ -224,9 +200,7 @@ $(SRCROOT)/../../../ios/Pods/Headers/Public<font></font>
 
 <pre><code> #import "React/RCTBridgeModule.h"
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小卤蛋Stafan</span>
@@ -253,9 +227,7 @@ $(SRCROOT)/../../../ios/Pods/Headers/Public<font></font>
 <li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">构建阶段选项卡-&gt;目标依赖关系-&gt; +-&gt;添加</font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">React</font></font></strong></li>
 </ul></li>
 </ol></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">神奇古一</span>
@@ -264,9 +236,7 @@ $(SRCROOT)/../../../ios/Pods/Headers/Public<font></font>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">确保禁用</font></font><code>Parallelise Build</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">并在</font></font><code>React</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">目标上方</font><font style="vertical-align: inherit;">添加</font><font style="vertical-align: inherit;">目标</font></font></p>
 
 <p><a href="https://i.stack.imgur.com/ifLJT.png" rel="noreferrer"><img src="https://i.stack.imgur.com/ifLJT.png" alt="在此处输入图片说明"></a></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

@@ -37,7 +37,7 @@ topic: React.js
 </code></pre></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第1712篇《如何为React-Router设置Google Analytics（分析）？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第1712篇《如何为React-Router设置Google Analytics（分析）？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -58,9 +58,7 @@ topic: React.js
  ReactGA.initialize("&lt;Your-UA-ID-HERE&gt;");<font></font>
  ReactGA.pageview(history.location.pathname);<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">逆天米亚</span>
@@ -118,9 +116,7 @@ export default Route<font></font>
   
   <p><a href="https://github.com/ReactTraining/history" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">历史| </font><font style="vertical-align: inherit;">的GitHub</font></font></a></p>
 </blockquote></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

@@ -21,7 +21,7 @@ topic: React.js
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我们大多数人已经在使用其他工具，例如browserify或webpack。</font><font style="vertical-align: inherit;">我不容易看到AMP如何</font><font style="vertical-align: inherit;">与其他产品相</font></font><em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">适应</font></font></em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font><font style="vertical-align: inherit;">其中一些工具已经使我们能够以优化的方式为我们的网站提供服务。</font><font style="vertical-align: inherit;">AMP HTML将在多大程度上改变所有这些？</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第4050篇《什么是AMP HTML，它如何与Framework / tool X配合？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第4050篇《什么是AMP HTML，它如何与Framework / tool X配合？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -44,9 +44,7 @@ topic: React.js
 </blockquote>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">希望此新链接对您有所帮助。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">斯丁</span>
@@ -70,18 +68,14 @@ topic: React.js
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">像</font></font><a href="https://github.com/Automattic/amp-wp/" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Wordpress</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">和其他发行商</font><font style="vertical-align: inherit;">那样的最初采用</font><font style="vertical-align: inherit;">可能是一组单独的移动友好AMP页面。</font><font style="vertical-align: inherit;">这是来自Google的，他希望您使所有普通网页都适合移动设备浏览，或者面对SEO热门。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果您从长远考虑，它是针对性能的移动网络规范。</font><font style="vertical-align: inherit;">如果采用，则在5年内，任何网页都可以在几秒钟内在移动连接上加载，无论该连接的质量如何。</font><font style="vertical-align: inherit;">如果我们迫不及待地希望技术和电信公司提高速度，那么我们可以至少减小页面的大小。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">GO</span>
             <span class="discuss-time">2020.04.07</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">AMP专为静态页面而设计。</font><font style="vertical-align: inherit;">开发人员必须制作两个不同的页面：普通版和AMP版。</font><font style="vertical-align: inherit;">AMP页面将具有指向正常页面的链接，反之亦然。</font><font style="vertical-align: inherit;">每当来自移动设备的请求到达正常页面时，它将加载AMP页面，反之亦然。</font><font style="vertical-align: inherit;">Google拥有自己的AMP缓存，可以更快地加载它。</font><font style="vertical-align: inherit;">在开发AMP页面时，我们只需要考虑AMP规则。</font></font></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

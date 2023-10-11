@@ -17,7 +17,7 @@ topic: Webpack
     <div class="article-content"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我正在使用node.js和webpack创建一个包。</font><font style="vertical-align: inherit;">根据我的阅读，node.js应该包含</font></font><code>fs</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">用于管理文件的模块。</font><font style="vertical-align: inherit;">但是，当我打电话给</font></font><code>require("fs")</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我时出现</font></font><code>Cannot find module "fs"</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">错误。</font><font style="vertical-align: inherit;">我该怎么办？</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第3456篇《使用Webpack时，节点找不到模块“ fs”》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第3456篇《使用Webpack时，节点找不到模块“ fs”》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -40,9 +40,7 @@ import fs from "fs"<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这将生成webpack无法解析的require函数。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">理查德伽罗</span>
@@ -52,9 +50,7 @@ import fs from "fs"<font></font>
 
 <pre><code>npm install --save --force webpack@webpack-3
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">神无</span>
@@ -79,9 +75,7 @@ import fs from "fs"<font></font>
     "fs": false<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

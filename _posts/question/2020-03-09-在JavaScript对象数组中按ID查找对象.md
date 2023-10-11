@@ -24,7 +24,7 @@ topic: JavaScript
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如何在JavaScript或jQuery中做到这一点？</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第260篇《在JavaScript对象数组中按ID查找对象》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第260篇《在JavaScript对象数组中按ID查找对象》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -49,9 +49,7 @@ var bar = myArray.grep("id","45");<font></font>
 </code></pre>
 
 <p>I made it just like <code>$.grep</code> and if one object is find out, <em>function</em> will return the object, rather than an array.</p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Mandy逆天路易</span>
@@ -61,9 +59,7 @@ var bar = myArray.grep("id","45");<font></font>
 
 <pre><code>var theAnswerObj = _.findWhere(array, {id : 42});
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">达蒙西里</span>
@@ -81,9 +77,7 @@ var bar = myArray.grep("id","45");<font></font>
   return fields;<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">路易Stafan</span>
@@ -108,9 +102,7 @@ $.each(array,function(i){if(n !== 5 &amp;&amp; i &gt; 4){data.push(item)}}<font>
 </code></pre>
 
 <p>Or use Lodash <a href="https://lodash.com/docs/4.17.10#filter" rel="nofollow noreferrer">https://lodash.com/docs/4.17.10#filter</a>, Underscore <a href="https://underscorejs.org/#filter" rel="nofollow noreferrer">https://underscorejs.org/#filter</a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">猿前端前端</span>
@@ -130,9 +122,7 @@ $.each(array,function(i){if(n !== 5 &amp;&amp; i &gt; 4){data.push(item)}}<font>
 </div>
 </div>
 <p></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">阿飞十三</span>
@@ -180,9 +170,7 @@ $.each(array,function(i){if(n !== 5 &amp;&amp; i &gt; 4){data.push(item)}}<font>
     });<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Stafan阳光</span>
@@ -199,9 +187,7 @@ $.each(array,function(i){if(n !== 5 &amp;&amp; i &gt; 4){data.push(item)}}<font>
 
 <pre><code>myArr.filterObjects("id", "45");
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">SamEva</span>
@@ -213,9 +199,7 @@ $.each(array,function(i){if(n !== 5 &amp;&amp; i &gt; 4){data.push(item)}}<font>
     return obj.id === 45;<font></font>
 });<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">番长前端</span>
@@ -234,9 +218,7 @@ myArray.pop(foo)<font></font>
 <pre><code>foo = $.grep myArray, (e) -&gt; e.id == foo_id<font></font>
 myArray.pop foo<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">LEY西门</span>
@@ -251,9 +233,7 @@ myArray.pop foo<font></font>
 
 <pre><code>map.get(27).foo
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">NearItachi</span>
@@ -269,9 +249,7 @@ myArray.pop foo<font></font>
 <p>You may also pass an object with more properties to it to add another "where-clause".</p>
 
 <p><em>Note that Sugarjs extends native objects, and some people consider this very evil...</em></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">逆天西门</span>
@@ -289,9 +267,7 @@ myArray.pop foo<font></font>
 <font></font>
 get_my_obj = getById(73, myArray);<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">用户7049302300</span>
@@ -299,9 +275,7 @@ get_my_obj = getById(73, myArray);<font></font>
           </div>
           <div class="discuss-comment"><pre><code>myArray.filter(function(a){ return a.id == some_id_you_want })[0]
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">JinJinGreen伽罗</span>
@@ -327,9 +301,7 @@ console.log(item.name);</code></pre>
 <p></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">它无需外部库即可工作。</font><font style="vertical-align: inherit;">但是，如果您希望使用</font></font><a href="http://kangax.github.io/compat-table/es6/#Array.prototype_methods" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">较旧的浏览器支持</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，则可能需要包含</font></font><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/find#Polyfill" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">此polyfill</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">猪猪阳光</span>
@@ -350,9 +322,7 @@ console.log(item.name);</code></pre>
   // multiple items found<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

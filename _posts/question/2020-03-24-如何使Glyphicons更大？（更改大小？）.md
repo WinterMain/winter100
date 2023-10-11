@@ -22,7 +22,7 @@ topic: CSS
 </code></pre></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第3685篇《如何使Glyphicons更大？（更改大小？）》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第3685篇《如何使Glyphicons更大？（更改大小？）》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -35,9 +35,7 @@ topic: CSS
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我为此使用了引导程序头类（“ h1”，“ h2”等）。</font><font style="vertical-align: inherit;">这样，您无需使用实际标签即可获得所有样式上的好处。</font><font style="vertical-align: inherit;">这是一个例子：</font></font></p>
 
 <p><code>&lt;div class="h3"&gt;&lt;span class="glyphicon glyphicon-tags" aria-hidden="true"&gt;&lt;/span&gt;&lt;/div&gt;</code></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Tom凯</span>
@@ -59,9 +57,7 @@ topic: CSS
     &lt;span class="glyphicon glyphicon-globe gi-5x"&gt;&lt;/span&gt;<font></font>
 &lt;/div&gt;  <font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">阿飞</span>
@@ -93,9 +89,7 @@ topic: CSS
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">参考链接Bootstrap：</font></font><a href="http://getbootstrap.com/components/#labels" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Glyphicons Bootstrap</font></font></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Tony凯</span>
@@ -105,9 +99,7 @@ topic: CSS
 
 <pre><code>&lt;span style="font-size: 15px" class="glyphicon glyphicon-cog"&gt;&lt;/span&gt;
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">神乐</span>
@@ -117,9 +109,7 @@ topic: CSS
 
 <pre><code>&lt;h1 class="glyphicon glyphicon-plus"&gt;&lt;/h1&gt;
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Itachi</span>
@@ -134,9 +124,7 @@ topic: CSS
 &lt;span class="glyphicon glyphicon-globe fa-4x"&gt;&lt;/span&gt;<font></font>
 &lt;span class="glyphicon glyphicon-globe fa-5x"&gt;&lt;/span&gt;<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">樱小胖Mandy</span>
@@ -155,9 +143,7 @@ topic: CSS
     font-size: 75px;<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

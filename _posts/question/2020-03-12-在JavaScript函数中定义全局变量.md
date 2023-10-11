@@ -81,7 +81,7 @@ topic: JavaScript
 </code></pre></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第1242篇《在JavaScript函数中定义全局变量》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第1242篇《在JavaScript函数中定义全局变量》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -103,9 +103,7 @@ topic: JavaScript
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">因为该函数是使用此参数全局调用的，所以这里是全局范围。</font><font style="vertical-align: inherit;">因此，事物应该是全球事物。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">米亚伽罗L</span>
@@ -127,9 +125,7 @@ topic: JavaScript
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在这里，我找到了一个不错的答案：</font></font><a href="http://www.quora.com/How-can-one-declare-a-global-variable-in-JavaScript" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如何在JavaScript中声明一个全局变量</font></font></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">LEva卡卡西</span>
@@ -150,9 +146,7 @@ topic: JavaScript
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">希望这可以帮助。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">阿飞A飞云</span>
@@ -169,9 +163,7 @@ function makeObj(address) {<font></font>
       ....<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">西里JinJin</span>
@@ -223,9 +215,7 @@ function testTwo()<font></font>
 <font></font>
 alert("outside globalTwo is :" + globalTwo);<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Sam梅小胖</span>
@@ -238,9 +228,7 @@ alert("outside globalTwo is :" + globalTwo);<font></font>
 function makeObj(address) {<font></font>
   trailimage = [address, 50, 50];<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">老丝猿Near</span>
@@ -253,9 +241,7 @@ function makeObj(address) {<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">UPDATE3：以下是支持我的观点的其他Wikipedia帖子：</font><a href="http://en.wikipedia.org/wiki/Declaration_(computer_programming)#Declarations_and_Definitions" rel="nofollow noreferrer"><font style="vertical-align: inherit;">http</font></a><font style="vertical-align: inherit;"> : </font><a href="http://en.wikipedia.org/wiki/Declaration_(computer_programming)#Declarations_and_Definitions" rel="nofollow noreferrer"><font style="vertical-align: inherit;">//en.wikipedia.org/wiki/Declaration_(</font></a><font style="vertical-align: inherit;"> computer_programming)#Declarations_and_Definitions</font></font><a href="http://en.wikipedia.org/wiki/Declaration_(computer_programming)#Declarations_and_Definitions" rel="nofollow noreferrer"><font style="vertical-align: inherit;"></font></a></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">...并回答主要问题。</font><font style="vertical-align: inherit;">函数前的DECLARE变量。</font><font style="vertical-align: inherit;">这将起作用，并且符合在范围顶部声明变量的良好做法：)</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Eva阿飞</span>
@@ -297,9 +283,7 @@ function foo() {<font></font>
 })();         // End scoping function<font></font>
 &lt;/script&gt;<font></font>
 </code></pre></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

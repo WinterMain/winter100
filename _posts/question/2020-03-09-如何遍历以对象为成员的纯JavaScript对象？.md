@@ -31,7 +31,7 @@ topic: JavaScript
 </code></pre></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第248篇《如何遍历以对象为成员的纯JavaScript对象？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第248篇《如何遍历以对象为成员的纯JavaScript对象？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -51,9 +51,7 @@ topic: JavaScript
     return params;<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小卤蛋前端</span>
@@ -71,9 +69,7 @@ Object.keys(obj).forEach((key)=&gt;console.log(key,obj[key]));</code></pre>
 <p></p>
 
 <p>To loop through JavaScript Object we can use forEach and to optimize code we can use arrow function </p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">达蒙小胖</span>
@@ -86,9 +82,7 @@ for(let x of Object.keys(testObj)){<font></font>
     console.log(x);<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">米亚西里</span>
@@ -100,9 +94,7 @@ for(let x of Object.keys(testObj)){<font></font>
 for (v of Object.values(validation_messages))<font></font>
    console.log(v.your_name);   // jimmy billy<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Itachi阳光</span>
@@ -114,9 +106,7 @@ for (v of Object.values(validation_messages))<font></font>
   //<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">樱凯</span>
@@ -128,9 +118,7 @@ for (v of Object.values(validation_messages))<font></font>
     do_something_else_with(o.your_msg);<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">AMandy</span>
@@ -144,9 +132,7 @@ for (v of Object.values(validation_messages))<font></font>
     });<font></font>
 });<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">神乐路易</span>
@@ -172,9 +158,7 @@ Object.keys(obj).forEach(function(key) {<font></font>
 </div>
 </div>
 <p></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">L十三</span>
@@ -237,9 +221,7 @@ Object.keys(obj).forEach(function(key) {<font></font>
     })<font></font>
   );<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">JinJinPro</span>
@@ -259,9 +241,7 @@ Object.keys(obj).forEach(function(key) {<font></font>
     }<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

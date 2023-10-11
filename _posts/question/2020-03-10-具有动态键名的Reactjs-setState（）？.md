@@ -26,7 +26,7 @@ topic: JavaScript
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">其中event.target.id用作要更新的状态键。</font><font style="vertical-align: inherit;">在React中这不可能吗？  </font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第480篇《具有动态键名的Reactjs setState（）？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第480篇《具有动态键名的Reactjs setState（）？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -45,9 +45,7 @@ topic: JavaScript
     } );<font></font>
 },<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小小Itachi</span>
@@ -59,9 +57,7 @@ topic: JavaScript
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">请介意引号字符。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">伽罗Tom猪猪</span>
@@ -73,18 +69,14 @@ topic: JavaScript
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">希望这可以帮助</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">神乐飞云逆天</span>
             <span class="discuss-time">2020.03.10</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">使用ES6 +，您可以执行[ </font></font><code>${variable}</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">]</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">木心</span>
@@ -107,9 +99,7 @@ topic: JavaScript
   }<font></font>
 });<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Davaid古一</span>
@@ -136,9 +126,7 @@ topic: JavaScript
     // this.setState({ [`key${event.target.id}`]: event.target.value });<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Green老丝Itachi</span>
@@ -150,9 +138,7 @@ topic: JavaScript
     this.setState({ [id]: value });<font></font>
 },<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小小Jim</span>
@@ -172,9 +158,7 @@ topic: JavaScript
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">注意</font></font><code>[]</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">in </font></font><code>type</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">参数。</font><font style="vertical-align: inherit;">希望这可以帮助 ：）</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">做个有心人</span>
@@ -190,9 +174,7 @@ topic: JavaScript
   this.setState(obj)<font></font>
 },<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">西门Jim</span>
@@ -210,9 +192,7 @@ topic: JavaScript
 </div>
 </div>
 <p></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

@@ -113,7 +113,7 @@ render() {<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">问题是，当应该已经安装了组件时（为什么从componentDidMount调用了它），为什么我会收到此错误？我认为一旦安装了组件，就可以安全地设置状态了？</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第1263篇《React-未安装组件上的setState（）》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第1263篇《React-未安装组件上的setState（）》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -140,9 +140,7 @@ render(){<font></font>
  )<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Pro老丝</span>
@@ -161,9 +159,7 @@ render(){<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这将摆脱您在任何情况下报告但它确实感觉像地毯下扫的东西，特别是如果你的API提供了一个取消能力的错误信息（如</font></font><code>setInterval</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">用干</font></font><code>clearInterval</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">）。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">null</span>
@@ -191,9 +187,7 @@ componentWillUnmount () {<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">希望这会有所帮助，如果这样做不起作用，请提供渲染功能。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">干杯</font></font></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

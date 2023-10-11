@@ -24,7 +24,7 @@ topic: Node.js
 </ul></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第1500篇《如何在Node JS中卸载NPM模块？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第1500篇《如何在Node JS中卸载NPM模块？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -42,18 +42,14 @@ npm uninstall </p>
 
 <p>To uninstall global package simply run this command:
 npm unistall -g </p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">凯Gil</span>
             <span class="discuss-time">2020.03.13</span>
           </div>
           <div class="discuss-comment"><p>If to want to uninstall a number of module the just run the <code>npm uninstall</code>. Then go to <code>package.json</code> and delete the unwanted module from there, and then just run the command <code>npm install</code> . It should fix your problem.</p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">西门达蒙</span>
@@ -72,9 +68,7 @@ npm unistall -g </p></div>
 </code></pre>
 
 <p>This also delete from package.json.</p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">十三西里古一</span>
@@ -98,9 +92,7 @@ npm unistall -g </p></div>
 <p><code>npm uninstall &lt;module_name&gt; -g --save</code> to remove module globally.</p>
 
 <p>Full documentation with all option, refer <a href="https://docs.npmjs.com/cli/uninstall" rel="nofollow noreferrer">npm uninstall</a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">神乐泡芙</span>
@@ -122,18 +114,14 @@ npm uninstall -S<font></font>
 
 <pre><code>npm uninstall moduleName -D
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">米亚神无</span>
             <span class="discuss-time">2020.03.13</span>
           </div>
           <div class="discuss-comment"><p>In case you are windows run CMD as administrator and type <code>npm -g uninstall &lt;package name&gt;</code> . </p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">番长神乐小小</span>
@@ -148,9 +136,7 @@ npm uninstall -S<font></font>
 
 <pre><code>npm uninstall express
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Mandy逆天</span>
@@ -172,9 +158,7 @@ npm uninstall -S<font></font>
 
 <p><code>npm uninstall -g &lt;Package Name&gt;</code></p></li>
 </ol></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">卡卡西逆天</span>
@@ -201,9 +185,7 @@ npm uninstall -S<font></font>
 
 <pre><code>npm uninstall express --save-dev
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Near逆天</span>
@@ -214,9 +196,7 @@ npm uninstall -S<font></font>
 <p><code>npm un packageName</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> 要么 </font></font><code>npm rm packageName</code> </p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">注意：</font></font><code>-g</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在命令末尾</font><font style="vertical-align: inherit;">添加</font><font style="vertical-align: inherit;">以卸载全局软件包。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">YOC41811590</span>
@@ -227,9 +207,7 @@ npm uninstall -S<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在这种情况下，您可以手动删除软件包。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在Mac上，转到文件夹</font></font><code>/usr/local/lib/node_modules</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">并删除包含所需软件包的文件夹。</font><font style="vertical-align: inherit;">而已。</font><font style="vertical-align: inherit;">使用此命令检查全局安装的软件包列表</font></font><code>npm list -g --depth=0</code></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">阿飞泡芙</span>
@@ -253,9 +231,7 @@ npm uninstall -S<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我希望这有帮助</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">樱十三</span>
@@ -276,9 +252,7 @@ npm uninstall -S<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">它将从node_modules文件夹和package.json文件中删除该模块</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Harry乐Gil</span>
@@ -293,9 +267,7 @@ npm uninstall -S<font></font>
 </ul>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">它将卸载所有模块。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">A神无</span>
@@ -314,18 +286,14 @@ npm uninstall -S<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">没有工作。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">阳光西里小哥</span>
             <span class="discuss-time">2020.03.13</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我只是</font><font style="vertical-align: inherit;">默认在我的主目录下</font><font style="vertical-align: inherit;">安装</font></font><em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">手写笔</font></font></em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，所以我只是</font></font><code>npm uninstall stylus</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">用来分离它，或者您可以尝试</font></font><code>npm rm &lt;package_name&gt;</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">一下。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">神乐Near</span>
@@ -336,9 +304,7 @@ npm uninstall -S<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这将删除文件系统中存在但未使用/未声明的那些软件包</font></font><code>package.json</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">PS&gt;这在Windows上特别有用，因为由于“超出路径长度限制”，您可能经常遇到无法删除某些文件的问题。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">神无猪猪</span>
@@ -347,9 +313,7 @@ npm uninstall -S<font></font>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果无法使用</font></font><code>npm uninstall &lt;module_name&gt;</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，请通过键入全局尝试</font></font><code>-g</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">也许您只需要以超级用户/管理员的身份进行操作即可</font></font><code>sudo npm uninstall &lt;module_name&gt;</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">蛋蛋Itachi</span>
@@ -367,9 +331,7 @@ npm uninstall -S<font></font>
 </ol>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">注意：为简化上述命令，您可以使用</font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">-S</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">代替</font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">--save</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，并且可以使用</font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">remove</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，</font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">rm</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，</font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">r</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，</font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">un</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，</font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">unlink</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">而不是</font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">uninstall</font></font></strong></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">null</span>
@@ -395,9 +357,7 @@ npm uninstall -S<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这将全局删除依赖项。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Pro路易</span>
@@ -420,9 +380,7 @@ npm uninstall -S<font></font>
 <p><code>npm uninstall &lt;name&gt; --save-dev</code> also removes it from <code>devDependencies</code> in <code>package.json</code></p>
 
 <p><code>npm -g uninstall &lt;name&gt; --save</code> also removes it globally</p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

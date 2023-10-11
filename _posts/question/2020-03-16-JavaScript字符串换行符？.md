@@ -19,7 +19,7 @@ topic: JavaScript
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我不是在问HTML换行符（</font></font><code>&lt;BR/&gt;</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">）。</font><font style="vertical-align: inherit;">我在问JavaScript字符串中使用的换行符序列。</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第1781篇《JavaScript字符串换行符？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第1781篇《JavaScript字符串换行符？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -30,9 +30,7 @@ topic: JavaScript
             <span class="discuss-time">2020.03.16</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">您可以使用</font></font><code>&lt;br/&gt;</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">和</font></font><code>document.write/</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，</font></font><code>document.writeln</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">一个。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">逆天十三蛋蛋</span>
@@ -49,18 +47,14 @@ console.log(savingsAccount.printAccountSummary()); // method<font></font>
 <pre><code>Welcome!<font></font>
 Your balance is currently $1000 and your interest rate is 1%.<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">村村LEY</span>
             <span class="discuss-time">2020.03.16</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">该</font></font><code>\n</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">是我遇到的所有情况就好了。</font><font style="vertical-align: inherit;">如果您正在使用Web，请使用它</font></font><code>\n</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，不用担心（除非您有与换行有关的问题）。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">GONear</span>
@@ -69,9 +63,7 @@ Your balance is currently $1000 and your interest rate is 1%.<font></font>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我相信是-当您使用JS字符串时。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">但是，如果要生成HTML，则必须使用</font></font><code>&lt;br /&gt;</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">标签（不是</font></font><code>\n</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，因为您不再使用JS了）</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">神无Pro</span>
@@ -80,9 +72,7 @@ Your balance is currently $1000 and your interest rate is 1%.<font></font>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我有用</font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">\ n</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">或</font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">\ r \ n</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">表示换行的问题</font><font style="vertical-align: inherit;">。</font></font><br><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
 神奇的</font><font style="vertical-align: inherit;">是，用于回车</font><font style="vertical-align: inherit;">的字符</font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">\ r</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">像换行符一样为我工作。</font></font><br><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
 因此，在某些情况下，考虑\ r也很有用。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">GO老丝LEY</span>
@@ -96,9 +86,7 @@ Your balance is currently $1000 and your interest rate is 1%.<font></font>
   return textarea.value;<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">前端梅</span>
@@ -110,9 +98,7 @@ Your balance is currently $1000 and your interest rate is 1%.<font></font>
 skfjslfkjsldfjslfjs<font></font>
 jfsfkjslfsljs`;<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">EvaEva斯丁</span>
@@ -136,9 +122,7 @@ window.location.href = MailMSG; <font></font>
 
 <pre><code>&lt;a href="#" onClick="sendMail()"&gt;Contact Us&lt;/a&gt;
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">伽罗达蒙</span>
@@ -148,9 +132,7 @@ window.location.href = MailMSG; <font></font>
 
 <pre><code>htmlstring = stringContainingNewLines.replace(/(\r\n|\n|\r)/gm, "&lt;br&gt;");
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">古一斯丁</span>
@@ -165,18 +147,14 @@ string";<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">只需输入反斜杠并继续进行即可！</font><font style="vertical-align: inherit;">奇迹般有效。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">番长神奇</span>
             <span class="discuss-time">2020.03.16</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">是的，请使用\ n，除非要生成要在其中使用的html代码 </font></font><code>&lt;br /&gt;</code></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

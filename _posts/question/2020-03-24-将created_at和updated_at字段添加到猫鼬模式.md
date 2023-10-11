@@ -27,7 +27,7 @@ topic: Node.js
 </code></pre></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第3615篇《将created_at和updated_at字段添加到猫鼬模式》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第3615篇《将created_at和updated_at字段添加到猫鼬模式》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -38,9 +38,7 @@ topic: Node.js
             <span class="discuss-time">2020.03.24</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">您可以使用的</font></font><a href="https://github.com/tblobaum/mongoose-troop#timestamp" rel="nofollow"><code>timestamp</code></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">插件</font></font><code>mongoose-troop</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">将此行为添加到任何架构。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Mandy</span>
@@ -104,9 +102,7 @@ topic: Node.js
 </pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">粗体部分是您感兴趣的部分。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">飞云</span>
@@ -119,9 +115,7 @@ topic: Node.js
 },{timestamps : true}<font></font>
 );<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">GO</span>
@@ -140,9 +134,7 @@ topic: Node.js
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这将自动将</font></font><code>createdAt</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">和</font></font><code>updatedAt</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">字段</font><font style="vertical-align: inherit;">添加</font><font style="vertical-align: inherit;">到您的架构。</font></font></p>
 
 <p><a href="http://mongoosejs.com/docs/guide.html#timestamps"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">http://mongoosejs.com/docs/guide.html#timestamps</font></font></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">猪猪</span>
@@ -161,9 +153,7 @@ topic: Node.js
   }<font></font>
 };<font></font>
 </code></pre></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

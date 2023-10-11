@@ -30,7 +30,7 @@ topic: Node.js
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">req.path是/何时应该是/ account？</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第3903篇《如何使用Express Req对象获取请求路径》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第3903篇《如何使用Express Req对象获取请求路径》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -43,9 +43,7 @@ topic: Node.js
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">自己玩了一些游戏之后，应该使用：</font></font></p>
 
 <p><code>console.log(req.originalUrl)</code></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">JinJin</span>
@@ -56,9 +54,7 @@ topic: Node.js
 <p><code>req.url</code></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">快递3.1.x</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">斯丁</span>
@@ -78,9 +74,7 @@ topic: Node.js
 
 <pre><code>/myurl.html
 </code></pre></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

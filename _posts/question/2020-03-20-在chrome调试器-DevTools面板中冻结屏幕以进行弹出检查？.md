@@ -21,7 +21,7 @@ topic: CSS
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在关联的链接上放置固定的“悬停”不会导致弹出窗口的出现。 </font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第2469篇《在chrome调试器/ DevTools面板中冻结屏幕以进行弹出检查？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第2469篇《在chrome调试器/ DevTools面板中冻结屏幕以进行弹出检查？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -42,9 +42,7 @@ topic: CSS
 </ol>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">右键单击它，因为弹出了上下文菜单，因此不再注册鼠标事件，因此您可以安全地将鼠标移开</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">NearL</span>
@@ -54,9 +52,7 @@ topic: CSS
 
 <pre><code>setTimeout(function(){ debugger; }, 3000);
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Pro神奇</span>
@@ -67,9 +63,7 @@ topic: CSS
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">右键单击要检查的元素，然后单击“强制元素状态”&gt;“悬停”。</font><font style="vertical-align: inherit;">屏幕截图已附上。</font></font></p>
 
 <p><img src="https://i.stack.imgur.com/1xqc4.png" alt="力元素状态"></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">老丝阿飞</span>
@@ -81,9 +75,7 @@ topic: CSS
 <li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">触发您要查看的弹出窗口，如果看到DOM中的更改，它将冻结</font></font></li>
 <li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果仍然看不到弹出窗口，请</font><font style="vertical-align: inherit;">在Chrome的顶部顶部中心</font><font style="vertical-align: inherit;">单击</font></font><code>Step over the next function(F10)</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">旁边</font></font><code>Resume(F8)</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">的</font><font style="vertical-align: inherit;">按钮</font><font style="vertical-align: inherit;">，直到冻结要查看的弹出窗口。</font></font></li>
 </ol></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">凯卡卡西凯</span>
@@ -114,9 +106,7 @@ Hope it helps someone!</p>
 </ol>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">当然，您可以根据需要修改javascript和时间。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">TomLEY</span>
@@ -134,9 +124,7 @@ Hope it helps someone!</p>
 </ul>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">请注意，此方法</font><font style="vertical-align: inherit;">与此页面上的</font><font style="vertical-align: inherit;">其他</font></font><a href="https://stackoverflow.com/a/23096743/26510"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">出色答案</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">略有不同</font><font style="vertical-align: inherit;">。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">GoldenGG</span>
@@ -154,9 +142,7 @@ Hope it helps someone!</p>
 <li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">查找您的弹出窗口（它将嵌套在触发元素的HTML中）</font></font></li>
 <li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">玩修改CSS很开心</font></font></li>
 </ol></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

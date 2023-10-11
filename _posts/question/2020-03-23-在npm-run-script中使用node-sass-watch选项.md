@@ -43,7 +43,7 @@ topic: CSS
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">顺便说一句，我在Windows 10中，使用命令提示符/ git bash。</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第2842篇《在npm run-script中使用node-sass watch选项》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第2842篇《在npm run-script中使用node-sass watch选项》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -57,9 +57,7 @@ topic: CSS
 
 <pre><code>node-sass src/ -wo dist
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">老丝阿飞</span>
@@ -72,9 +70,7 @@ topic: CSS
   // example  :  node-sass -w public/styles/scss/bootstrap.scss public/styles/style.css --output-style compressed<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">猴子</span>
@@ -87,9 +83,7 @@ topic: CSS
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">编辑：更改为异步脚本运行，进行初始编译，然后带有watch标志。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">乐小宇宙</span>
@@ -120,9 +114,7 @@ topic: CSS
 
 <pre><code>"css:watch": "node-sass src/style.scss -wo dist"
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">卡卡西</span>
@@ -148,9 +140,7 @@ topic: CSS
 <blockquote>
   <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">从npm@2.0.0开始，您可以在执行脚本时使用自定义参数。</font><font style="vertical-align: inherit;">特殊选项-由getopt用来分隔选项的结尾。</font><font style="vertical-align: inherit;">npm会将-之后的所有参数直接传递给脚本。</font></font></p>
 </blockquote></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

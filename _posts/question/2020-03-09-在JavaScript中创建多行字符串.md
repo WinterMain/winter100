@@ -26,7 +26,7 @@ HERE<font></font>
 </code></pre></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第179篇《在JavaScript中创建多行字符串》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第179篇《在JavaScript中创建多行字符串》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -72,9 +72,7 @@ HERE<font></font>
 多行</font></font><font></font><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
 串。</font></font><font></font>
 </pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">宝儿猪猪</span>
@@ -86,9 +84,7 @@ HERE<font></font>
 
 <p><code>var str = "This world is neither flat nor round. "+
            "Once was lost will be found";</code></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">猿路易</span>
@@ -99,9 +95,7 @@ HERE<font></font>
 <pre><code>var string = "line1\  // comment, space or tabs here raise error<font></font>
 line2";<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">A猪猪</span>
@@ -118,9 +112,7 @@ line2";<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">使用反引号可在NodeJS中使用，Chrome，Firefox，Edge，Safari和Opera支持该反引号。</font></font></p>
 
 <p><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_literals" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Template_literals</font></font></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">老丝村村</span>
@@ -140,9 +132,7 @@ console.log(str);<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_literals" rel="noreferrer"><font style="vertical-align: inherit;">在这里</font></a><font style="vertical-align: inherit;">更多参考</font></font><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_literals" rel="noreferrer"><font style="vertical-align: inherit;"></font></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">达蒙西里</span>
@@ -160,9 +150,7 @@ String<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这是</font></font><a href="http://www.ecma-international.org/ecma-262/6.0/#sec-template-literal-lexical-components"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">规格</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font><font style="vertical-align: inherit;">请参阅此</font></font><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/template_strings"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">页面</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">底部的浏览器支持</font><font style="vertical-align: inherit;">。</font><font style="vertical-align: inherit;">这里也有一些</font></font><a href="https://developers.google.com/web/updates/2015/01/ES6-Template-Strings?hl=en#multiline-strings"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">例子</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">飞云乐</span>
@@ -171,9 +159,7 @@ String<font></font>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果您愿意使用转义的换行符，可以</font></font><em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">很好地</font></font></em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">使用它们</font><font style="vertical-align: inherit;">。  </font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">它看起来像带有页面边框的文档</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p>
 
 <p><img src="https://i.stack.imgur.com/e51kg.png" alt="在此处输入图片说明"></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">神乐蛋蛋</span>
@@ -202,9 +188,7 @@ String<font></font>
  &lt;/div&gt;<font></font>
 */}.extractComment();<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">TomGreen</span>
@@ -224,9 +208,7 @@ String<font></font>
 </blockquote>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">它确实在Opera 11中起作用。至少在用户JS脚本中。</font><font style="vertical-align: inherit;">太糟糕了，我无法对单个答案发表评论或对答案进行投票，我会立即这样做。</font><font style="vertical-align: inherit;">如果可能的话，请具有较高特权的人替我做。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">十三西里GO</span>
@@ -245,9 +227,7 @@ String<font></font>
 <font></font>
 alert(myString)<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">达蒙阿飞斯丁</span>
@@ -301,9 +281,7 @@ alert(myString)<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">那会很酷。</font><font style="vertical-align: inherit;">有人应该写这个.removeIndentation字符串方法...;）</font></font></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

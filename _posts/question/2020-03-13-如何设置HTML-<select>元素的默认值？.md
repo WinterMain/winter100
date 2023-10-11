@@ -32,7 +32,7 @@ topic: HTML
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">但是，这没有按我预期的那样工作。</font><font style="vertical-align: inherit;">如何设置</font></font><code>&lt;option&gt;</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">默认选择的元素？</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第1569篇《如何设置HTML <select>元素的默认值？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第1569篇《如何设置HTML <select>元素的默认值？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -48,9 +48,7 @@ topic: HTML
 
 <pre><code>&lt;option selected="selected" value="3" &gt;3&lt;/option&gt;
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">梅番长</span>
@@ -66,9 +64,7 @@ topic: HTML
       &lt;option&gt;5&lt;/option&gt;<font></font>
     &lt;/select&gt;<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Itachi小宇宙</span>
@@ -89,9 +85,7 @@ topic: HTML
 
 <pre><code>sselectedVal:any="test1";
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">GO西门</span>
@@ -138,9 +132,7 @@ topic: HTML
 </div>
 </div>
 <p></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Davaid飞羽</span>
@@ -156,9 +148,7 @@ topic: HTML
      &lt;option value="4"&gt;Four&lt;/option&gt;<font></font>
    &lt;/select&gt;<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">米亚猴子</span>
@@ -182,18 +172,14 @@ topic: HTML
 ?&gt;<font></font>
 &lt;/select&gt;<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">卡卡西神奇</span>
             <span class="discuss-time">2020.03.13</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">标签的value属性缺失，因此不会如您所希望的那样显示。</font><font style="vertical-align: inherit;">默认情况下，如果在标签上设置了value属性，则第一个选项在下拉页面加载时显示...。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">米亚凯</span>
@@ -210,9 +196,7 @@ topic: HTML
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">两者都是正确的。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">老丝村村</span>
@@ -236,9 +220,7 @@ el.selected = true;<font></font>
 // Add the new option element to the select element<font></font>
 select.appendChild(el);<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">SamEva</span>
@@ -257,9 +239,7 @@ select.appendChild(el);<font></font>
  &lt;option value="audi" selected&gt;Audi&lt;/option&gt; <font></font>
 &lt;/select&gt; <font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">飞云神无</span>
@@ -280,9 +260,7 @@ select.appendChild(el);<font></font>
 </div>
 </div>
 <p></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">古一村村</span>
@@ -311,18 +289,14 @@ select.appendChild(el);<font></font>
 <p><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">XHTML语法属性</font></font></strong></p>
 
 <p><code>selected="selected"</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">语法是与XHTML和HTML 5兼容的唯一方法。这是正确的XML语法，一些编辑者对此可能感到满意。</font><font style="vertical-align: inherit;">它向后兼容。</font><font style="vertical-align: inherit;">我对此没有强烈的感觉，但是如果您需要提及以上参数，则应遵循完整的语法。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">老丝番长</span>
             <span class="discuss-time">2020.03.13</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果您有反应，则可以将其</font></font><code>defaultValue</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">用作属性，而不是</font></font><code>value</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在select标签中。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">十三米亚阳光</span>
@@ -341,9 +315,7 @@ select.appendChild(el);<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">选择一个选项后，“选择此处”消失。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Green老丝Itachi</span>
@@ -373,9 +345,7 @@ select.appendChild(el);<font></font>
 </div>
 </div>
 <p></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">JinJin小小</span>
@@ -398,9 +368,7 @@ select.appendChild(el);<font></font>
 
 <pre><code>&lt;option selected="selected"&gt;3&lt;/option&gt;
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Eva蛋蛋番长</span>
@@ -412,9 +380,7 @@ select.appendChild(el);<font></font>
 3<font></font>
 &lt;/option&gt;<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Green理查德</span>
@@ -435,9 +401,7 @@ select.appendChild(el);<font></font>
 </div>
 </div>
 <p></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">路易GO</span>
@@ -455,9 +419,7 @@ select.appendChild(el);<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"></font><a href="http://facebook.github.io/react/docs/forms.html"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在React页面上</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">阅读有关为什么的更多信息</font><font style="vertical-align: inherit;">。</font></font></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

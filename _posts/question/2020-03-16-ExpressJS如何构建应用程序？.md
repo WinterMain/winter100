@@ -76,7 +76,7 @@ app.listen(3000);<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">感谢您的建议！</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第1770篇《ExpressJS如何构建应用程序？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第1770篇《ExpressJS如何构建应用程序？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -108,9 +108,7 @@ app.listen(3000);<font></font>
     -package.json<font></font>
     -package-lock.json<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小哥猴子</span>
@@ -160,9 +158,7 @@ Eslint + Husky<font></font>
 |-- app.js<font></font>
 |-- README.md<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Gil伽罗</span>
@@ -191,9 +187,7 @@ Eslint + Husky<font></font>
   <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">app.post（“ /登出”，护照。登出）</font></font></p>
 </blockquote></li>
 </ul></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">神奇蛋蛋Sam</span>
@@ -206,9 +200,7 @@ Eslint + Husky<font></font>
 <blockquote>
   <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">带有文件，环境变量，命令行参数和原子对象合并的分层node.js配置。</font></font></p>
 </blockquote></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">梅Sam路易</span>
@@ -221,9 +213,7 @@ Eslint + Husky<font></font>
 <blockquote>
   <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">“ Locomotive是用于Node.js的Web框架。机车支持MVC模式，RESTful路由和配置约定，同时与任何数据库和模板引擎无缝集成。机车基于Express构建，保留了您所期望的功能和简单性来自Node。”</font></font></p>
 </blockquote></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">JimAGil</span>
@@ -245,9 +235,7 @@ fs.readdirSync(controllersFolderPath).forEach(function(controllerName){<font></f
 <font></font>
 app.listen(3000);<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小小米亚</span>
@@ -331,9 +319,7 @@ app.listen(3000);<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">vi）运行应用程序</font></font><code>node app</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">或</font></font><code>nodemon app</code> </p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">vii）检查URL </font></font><a href="http://localhost:8042/signup" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">http：// localhost：8042 / signup</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">或</font></font><a href="http://yourip:8042/signup" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">http：// yourip：8042 / signup</font></font></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">宝儿阿飞</span>
@@ -341,9 +327,7 @@ app.listen(3000);<font></font>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">好吧，我将路由作为开头阅读的json文件放置，并在app.js的for循环中设置路由。</font><font style="vertical-align: inherit;">route.json包括应调用的视图以及将发送到路由的值的键。</font></font><br><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
 这适用于许多简单情况，但是我必须手动为特殊情况创建一些路由。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">宝儿理查德村村</span>
@@ -356,9 +340,7 @@ app.listen(3000);<font></font>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">还有一个GitHub存储库，其中应用了本文中的建议。</font><font style="vertical-align: inherit;">最新的Express版本始终是最新的。</font></font><br>
 <a href="https://github.com/terlici/base-express" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">https://github.com/terlici/base-express</font></font></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Harry卡卡西</span>
@@ -397,9 +379,7 @@ app.listen(3000);<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Folderoverview（有关模块，请参见lib文件夹）：</font></font></p>
 
 <p><a href="https://i.stack.imgur.com/On4s9.png" rel="noreferrer"><img src="https://i.stack.imgur.com/On4s9.png" alt="nodebootstrap结构"></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">古一小宇宙</span>
@@ -419,9 +399,7 @@ app.listen(3000);<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">因此，products.js和users.js将包含您的所有路由，并且其中包含所有逻辑。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Vicky</span>
@@ -430,18 +408,14 @@ app.listen(3000);<font></font>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我认为这是一种很棒的方法。</font><font style="vertical-align: inherit;">不限于表达，但我已经在github上看到了很多node.js项目在做同样的事情。</font><font style="vertical-align: inherit;">他们取出配置参数+较小的模块（在某些情况下，每个URI）都放在单独的文件中。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我建议您在github上进行特定于快递的项目，以获得一个想法。</font><font style="vertical-align: inherit;">海事组织的做法是正确的。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">米亚Harry</span>
             <span class="discuss-time">2020.03.16</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我喜欢使用全局“应用程序”，而不是导出函数等</font></font></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

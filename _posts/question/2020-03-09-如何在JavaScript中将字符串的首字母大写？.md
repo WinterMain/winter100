@@ -25,7 +25,7 @@ topic: JavaScript
 </ul></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第154篇《如何在JavaScript中将字符串的首字母大写？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第154篇《如何在JavaScript中将字符串的首字母大写？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -38,9 +38,7 @@ topic: JavaScript
           <div class="discuss-comment"><p>You can do it in one line like this</p>
 
 <pre class="lang-js prettyprint prettyprinted" style=""><code><span class="pln">string</span><span class="pun">[</span><span class="lit">0</span><span class="pun">].</span><span class="pln">toUpperCase</span><span class="pun">()</span><span class="pln"> </span><span class="pun">+</span><span class="pln"> string</span><span class="pun">.</span><span class="pln">substring</span><span class="pun">(</span><span class="lit">1</span><span class="pun">)</span></code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">猪猪GO</span>
@@ -49,9 +47,7 @@ topic: JavaScript
           <div class="discuss-comment"><pre class="lang-js prettyprint prettyprinted" style=""><code><span class="pln">yourString</span><span class="pun">.</span><span class="pln">replace</span><span class="pun">(</span><span class="str">/\w/</span><span class="pun">,</span><span class="pln"> c </span><span class="pun">=&gt;</span><span class="pln"> c</span><span class="pun">.</span><span class="pln">toUpperCase</span><span class="pun">())</span></code></pre>
 
 <p>I found this arrow function easiest. <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/replace" rel="noreferrer">Replace</a> matches the first letter character (<code>\w</code>) of your string and converts it to uppercase. Nothing fancier necessary.</p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小胖十三</span>
@@ -66,9 +62,7 @@ topic: JavaScript
 </code></pre>
 
 <p>Thanks J-P for the aclaration.</p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">番长神奇</span>
@@ -77,9 +71,7 @@ topic: JavaScript
           <div class="discuss-comment"><pre class="lang-js prettyprint prettyprinted" style=""><code><span class="pln">yourString</span><span class="pun">.</span><span class="pln">replace</span><span class="pun">(</span><span class="str">/^[a-z]/</span><span class="pun">,</span><span class="pln"> </span><span class="kwd">function</span><span class="pun">(</span><span class="pln">m</span><span class="pun">){</span><span class="pln"> </span><span class="kwd">return</span><span class="pln"> m</span><span class="pun">.</span><span class="pln">toUpperCase</span><span class="pun">()</span><span class="pln"> </span><span class="pun">});</span></code></pre>
 
 <p>(You may encapsulate it in a function or even add it to the String prototype if you use it frequently.)</p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小小小胖</span>
@@ -88,9 +80,7 @@ topic: JavaScript
           <div class="discuss-comment"><pre class="lang-js prettyprint prettyprinted" style=""><code><span class="kwd">var</span><span class="pln"> str </span><span class="pun">=</span><span class="pln"> </span><span class="str">"test string"</span><span class="pun">;</span><font></font><span class="pln">
 str </span><span class="pun">=</span><span class="pln"> str</span><span class="pun">.</span><span class="pln">substring</span><span class="pun">(</span><span class="lit">0</span><span class="pun">,</span><span class="lit">1</span><span class="pun">).</span><span class="pln">toUpperCase</span><span class="pun">()</span><span class="pln"> </span><span class="pun">+</span><span class="pln"> str</span><span class="pun">.</span><span class="pln">substring</span><span class="pun">(</span><span class="lit">1</span><span class="pun">);</span><font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">神无宝儿达蒙</span>
@@ -107,9 +97,7 @@ str </span><span class="pun">=</span><span class="pln"> str</span><span class="p
 <pre class="lang-js prettyprint prettyprinted" style=""><code><span class="pln">capitalizedString </span><span class="pun">=</span><span class="pln"> someString</span><span class="pun">.</span><span class="pln">capitalize</span><span class="pun">();</span></code></pre>
 
 <p>This is a text string =&gt; This Is A Text String</p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">猴子Near</span>
@@ -130,9 +118,7 @@ str </span><span class="pun">=</span><span class="pln"> str</span><span class="p
 <p>It works by splitting the string into two pieces.  On the first line it pulls out <strong>firstLetter</strong> and then on the second line it capitalises <strong>firstLetter</strong> by calling <strong>firstLetter.toUpperCase()</strong> and joins it with the rest of the string, which is found by calling <strong>str.substr(1)</strong>.</p>
 
 <p>You might think this would fail for an empty string, and indeed in a language like C you would have to cater for this. However in JavaScript, when you take a substring of an empty string, you just get an empty string back.</p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Tom老丝Pro</span>
@@ -150,18 +136,14 @@ str </span><span class="pun">=</span><span class="pln"> str</span><span class="p
 <pre class="lang-js prettyprint prettyprinted" style=""><code><span class="pln">TEST </span><span class="pun">=&gt;</span><span class="pln"> </span><span class="typ">Test</span><font></font><span class="pln">
 </span><span class="typ">This</span><span class="pln"> </span><span class="typ">Is</span><span class="pln"> A </span><span class="typ">TeST</span><span class="pln"> </span><span class="pun">=&gt;</span><span class="pln"> </span><span class="typ">This</span><span class="pln"> is a test</span><font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">十万个冷笑话</span>
             <span class="discuss-time">2020.03.09</span>
           </div>
           <div class="discuss-comment"><pre class="lang-js prettyprint prettyprinted" style=""><code><span class="kwd">var</span><span class="pln"> capitalized </span><span class="pun">=</span><span class="pln"> yourstring</span><span class="pun">[</span><span class="lit">0</span><span class="pun">].</span><span class="pln">toUpperCase</span><span class="pun">()</span><span class="pln"> </span><span class="pun">+</span><span class="pln"> yourstring</span><span class="pun">.</span><span class="pln">substr</span><span class="pun">(</span><span class="lit">1</span><span class="pun">);</span></code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">LEY蛋蛋Near</span>
@@ -176,9 +158,7 @@ str </span><span class="pun">=</span><span class="pln"> str</span><span class="p
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这是来自</font></font><em><a href="http://www.w3schools.com/cssref/pr_text_text-transform.asp" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">CSS文本转换属性</font></font></a></em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">（位于</font></font><a href="http://en.wikipedia.org/wiki/W3Schools" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">W3Schools</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">）。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">凯樱</span>
@@ -196,9 +176,7 @@ console</span><span class="pun">.</span><span class="pln">log</span><span class=
 <p></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">它将输出</font></font><code>"Ruby java"</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">到控制台。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">十三LEY</span>
@@ -225,9 +203,7 @@ console</span><span class="pun">.</span><span class="pln">log</span><span class=
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">然后 </font></font><code>capitalize("hello") // Hello</code></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">JinJin宝儿</span>
@@ -257,9 +233,7 @@ console</span><span class="pun">.</span><span class="pln">log</span><span class=
   </span><span class="pun">});</span><font></font><span class="pln">
 </span><span class="pun">};</span><font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">LJinJin</span>
@@ -274,9 +248,7 @@ console</span><span class="pun">.</span><span class="pln">log</span><span class=
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">例：</font></font></p>
 
 <pre class="lang-js prettyprint prettyprinted" style=""><code><span class="pln">_</span><span class="pun">.</span><span class="pln">capitalize</span><span class="pun">(</span><span class="str">"foo bar"</span><span class="pun">)</span><span class="pln"> </span><span class="pun">==</span><span class="pln"> </span><span class="str">"Foo bar"</span></code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">前端Stafan</span>
@@ -295,9 +267,7 @@ console</span><span class="pun">.</span><span class="pln">log</span><span class=
     </span><span class="kwd">return</span><span class="pln"> pieces</span><span class="pun">.</span><span class="pln">join</span><span class="pun">(</span><span class="str">" "</span><span class="pun">);</span><font></font><span class="pln">
 </span><span class="pun">}</span><font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">YOC71588217</span>
@@ -309,9 +279,7 @@ console</span><span class="pun">.</span><span class="pln">log</span><span class=
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">修改了其他一些答案</font></font><code>String.prototype</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">（这个答案也曾经使用过），但是由于可维护性，我现在建议这样做（很难找出将函数添加到的位置</font></font><code>prototype</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，如果其他代码使用相同的名称/浏览器，则可能导致冲突将来添加具有相同名称的本机函数）。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">StafanTony</span>
@@ -338,9 +306,7 @@ console</span><span class="pun">.</span><span class="pln">log</span><span class=
     </span><span class="kwd">return</span><span class="pln"> s </span><span class="pun">&amp;&amp;</span><span class="pln"> s</span><span class="pun">[</span><span class="lit">0</span><span class="pun">].</span><span class="pln">toUpperCase</span><span class="pun">()</span><span class="pln"> </span><span class="pun">+</span><span class="pln"> s</span><span class="pun">.</span><span class="pln">slice</span><span class="pun">(</span><span class="lit">1</span><span class="pun">);</span><font></font><span class="pln">
 </span><span class="pun">}</span><font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">JinJinPro</span>
@@ -360,9 +326,7 @@ capitalize</span><span class="pun">(</span><span class="str">"ArMaNdO"</span><sp
 </span><span class="com">// es6 using destructuring </span><font></font><span class="pln">
 </span><span class="kwd">const</span><span class="pln"> capitalize </span><span class="pun">=</span><span class="pln"> </span><span class="pun">([</span><span class="pln">first</span><span class="pun">,...</span><span class="pln">rest</span><span class="pun">])</span><span class="pln"> </span><span class="pun">=&gt;</span><span class="pln"> first</span><span class="pun">.</span><span class="pln">toUpperCase</span><span class="pun">()</span><span class="pln"> </span><span class="pun">+</span><span class="pln"> rest</span><span class="pun">.</span><span class="pln">join</span><span class="pun">(</span><span class="str">''</span><span class="pun">).</span><span class="pln">toLowerCase</span><span class="pun">();</span><font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">蛋蛋神乐</span>
@@ -382,9 +346,7 @@ capitalize</span><span class="pun">(</span><span class="str">"ArMaNdO"</span><sp
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">预期输出为：</font></font></p>
 
 <pre class="lang-js prettyprint prettyprinted" style=""><code><span class="str">"Hello world"</span><span class="pln"> </span></code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">樱Davaid</span>
@@ -418,9 +380,7 @@ capitalize</span><span class="pun">(</span><span class="str">"ArMaNdO"</span><sp
 </code></pre>
 
 <p><a href="https://i.stack.imgur.com/tNwKk.png" rel="noreferrer"><img src="https://i.stack.imgur.com/tNwKk.png" alt="在此处输入图片说明"></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">JinJin达蒙</span>
@@ -432,9 +392,7 @@ capitalize</span><span class="pun">(</span><span class="str">"ArMaNdO"</span><sp
     text</span><span class="pun">-</span><span class="pln">transform</span><span class="pun">:</span><span class="pln">capitalize</span><span class="pun">;</span><font></font><span class="pln">
 </span><span class="pun">}</span><font></font>
 </code></pre></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

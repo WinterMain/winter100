@@ -29,7 +29,7 @@ topic: JavaScript
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">使用JavaScript Date对象，您如何将第一个“本地化”日期范围转换为服务器可以理解的范围？</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第982篇《如何将JavaScript日期转换为UTC？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第982篇《如何将JavaScript日期转换为UTC？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -42,9 +42,7 @@ topic: JavaScript
           <div class="discuss-comment"><p>const event = new Date();</p>
 
 <p>console.log(event.toUTCString());</p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">梅猪猪</span>
@@ -54,9 +52,7 @@ topic: JavaScript
 
 <pre><code>myvar.setTime(myvar.getTime() + myvar.getTimezoneOffset() * 60000);
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">西门小小</span>
@@ -74,9 +70,7 @@ var correctDate = new Date(newDate.setUTCHours(0))<font></font>
 <font></font>
 //This will output 2019-01-07T00:00:00.000Z on everything which allows scalability <font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">猿十三</span>
@@ -85,9 +79,7 @@ var correctDate = new Date(newDate.setUTCHours(0))<font></font>
           <div class="discuss-comment"><p>I know this question is old, but was looking at this same issue, and one option would be to send date.valueOf() to the server instead. the valueOf() function of the javascript Date sends the number of milliseconds since midnight January 1, 1970 UTC.</p>
 
 <p><a href="http://www.w3schools.com/jsref/jsref_valueof_date.asp" rel="nofollow">valueOf()</a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">樱阿飞</span>
@@ -120,9 +112,7 @@ my browser automatically subtracts the timezone offset(5hrs) to get my local tim
 <p>For more info please have a look at: <a href="http://praveenlobo.com/blog/how-to-convert-javascript-local-date-to-utc-and-utc-to-local-date/" rel="nofollow">http://praveenlobo.com/blog/how-to-convert-javascript-local-date-to-utc-and-utc-to-local-date/</a> where in I got my inspiration.</p>
 
 <p>Hope this helps!</p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">乐乐</span>
@@ -132,9 +122,7 @@ my browser automatically subtracts the timezone offset(5hrs) to get my local tim
 
 <pre><code>var utcDateString = new Date(new Date().toUTCString()).toISOString();
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Sam梅小胖</span>
@@ -150,9 +138,7 @@ my browser automatically subtracts the timezone offset(5hrs) to get my local tim
     return newDate.toISOString();<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">宝儿猴子</span>
@@ -161,9 +147,7 @@ my browser automatically subtracts the timezone offset(5hrs) to get my local tim
           <div class="discuss-comment"><pre><code>var myDate = new Date(); // Set this to your date in whichever timezone.<font></font>
 var utcDate = myDate.toUTCString();<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">理查德小哥</span>
@@ -177,9 +161,7 @@ var now_utc =  Date.UTC(date.getUTCFullYear(), date.getUTCMonth(), date.getUTCDa
 <font></font>
  return new Date(now_utc);<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">十三泡芙</span>
@@ -192,9 +174,7 @@ var utc = new Date(now.getTime() + now.getTimezoneOffset() * 60000);<font></font
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">生成的</font></font><code>utc</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">对象实际上并不是UTC日期，而是将本地日期更改为与UTC时间匹配（请参见注释）。</font><font style="vertical-align: inherit;">但是，在实践中它确实可以做到。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">卡卡西理查德</span>
@@ -214,9 +194,7 @@ var isoDate = new Date(now.getTime() - now.getTimezoneOffset() * 60000).toISOStr
 </code></pre>
 
 <p><a href="http://jsfiddle.net/t7v660ea/2/" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">小提琴链接</font></font></a></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

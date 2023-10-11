@@ -15,7 +15,7 @@ answer: 1
     <div class="article-content"><p>如题，在开发Chrome插件的时候，怎么让contentscript去调用根页面的js函数，触发页面的点击事件等方法呢？</p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第4268篇《Chrome插件contentscript怎么调用目标页面的js函数和触发页面点击？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第4268篇《Chrome插件contentscript怎么调用目标页面的js函数和触发页面点击？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -56,9 +56,7 @@ answer: 1
   ele.dispatchEvent(event);
 }</code></pre><p>比如你要触发以下这个按钮</p><pre><code class="language-xml">&lt;button id="btn"&gt;Hello&lt;/button&gt;</code></pre><pre><code class="language-javascript">const btn = document.getElementById("btn");
 invokeEle(btn);</code></pre></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

@@ -47,7 +47,7 @@ echo json_encode($arr);<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">现在我的问题是：当这两个文件都在同一服务器上（本地主机或Web服务器）时，它可以工作并被</font></font><code>alert("Success")</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">调用；</font><font style="vertical-align: inherit;">如果它在不同的服务器上，则意味着Web服务器上的testserver.php和localhost上的test.php，它不起作用，并且</font></font><code>alert("Error")</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">正在执行。</font><font style="vertical-align: inherit;">即使ajax内的URL更改为</font></font><a href="http://domain.com/path/to/file/testserver.php" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">http://domain.com/path/to/file/testserver.php</font></font></a></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第1336篇《jQuery AJAX跨域》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第1336篇《jQuery AJAX跨域》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -64,9 +64,7 @@ echo json_encode($arr);<font></font>
 <p><a href="https://docs.microsoft.com/en-us/azure/app-service-api/app-service-api-cors-consume-javascript" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">https://docs.microsoft.com/zh-CN/azure/app-service-api/app-service-api-cors-consume-javascript</font></font></a></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我花了几个小时弄弄这个，然后才意识到我的托管平台具有这种特殊的设置。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Mandy番长</span>
@@ -90,9 +88,7 @@ echo json_encode($arr);<font></font>
 <li><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">您可以向服务器中的php文件提出ajax请求，并使用此php文件处理对另一个域的请求。</font></font></p></li>
 <li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">您可以使用jsonp，因为它不需要许可。</font><font style="vertical-align: inherit;">为此，您可以阅读我们的朋友@BGerrissen的答案。</font></font></li>
 </ol></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">JinJin乐</span>
@@ -101,9 +97,7 @@ echo json_encode($arr);<font></font>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">几乎没有使用JSONP的示例，其中包括错误处理。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">但是，请注意，使用JSONP时不会触发错误事件！</font><font style="vertical-align: inherit;">请参阅：</font></font><a href="http://api.jquery.com/jQuery.ajax/" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">http</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> : </font><a href="http://api.jquery.com/jQuery.ajax/" rel="nofollow noreferrer"><font style="vertical-align: inherit;">//api.jquery.com/jQuery.ajax/</font></a><font style="vertical-align: inherit;">或</font></font><a href="https://stackoverflow.com/questions/5247295/jquery-ajax-request-using-jsonp-error"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">使用jsonp错误的jQuery ajax请求</font></font></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Harry伽罗</span>
@@ -117,9 +111,7 @@ echo json_encode($arr);<font></font>
 </ul>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">因此，我认为您需要对请求使用jsonp。</font><font style="vertical-align: inherit;">但是我自己还没有尝试过。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小哥前端</span>
@@ -128,18 +120,14 @@ echo json_encode($arr);<font></font>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这是可能的，但是您需要使用JSONP，而不是JSON。</font><font style="vertical-align: inherit;">Stefan的链接为您指明了正确的方向。</font><font style="vertical-align: inherit;">在</font></font><a href="http://api.jquery.com/jQuery.ajax/" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">jQuery的AJAX页面</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">对JSONP的更多信息。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Remy Sharp有一个</font></font><a href="http://remysharp.com/2007/10/08/what-is-jsonp/" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">使用PHP</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">的</font><a href="http://remysharp.com/2007/10/08/what-is-jsonp/" rel="noreferrer"><font style="vertical-align: inherit;">详细示例</font></a><font style="vertical-align: inherit;">。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">达蒙樱</span>
             <span class="discuss-time">2020.03.12</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">浏览器安全性阻止了从一个域上托管的页面到另一域上托管的页面进行ajax调用；</font><font style="vertical-align: inherit;">这就是所谓的“ </font></font><a href="http://en.wikipedia.org/wiki/Same_origin_policy" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">同源政策</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> ”。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">番长神乐小小</span>
@@ -157,9 +145,7 @@ LoadModule proxy_http_module modules/mod_proxy_http.so<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">最后，将proxy-url传递给脚本。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">米亚逆天</span>
@@ -203,9 +189,7 @@ $.ajax({<font></font>
     }<font></font>
 });<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">达蒙理查德</span>
@@ -222,9 +206,7 @@ $.ajax({<font></font>
 <p><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">相同的协议和主机</font></font></strong></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">您需要实现</font></font><a href="http://remysharp.com/2007/10/08/what-is-jsonp" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">JSONP</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">来解决它。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">null</span>
@@ -238,9 +220,7 @@ $.ajax({<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">不要忘记在httpd.conf中启用mod_headers模块。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">西里米亚</span>
@@ -253,9 +233,7 @@ $.ajax({<font></font>
 <p><a href="http://enable-cors.org/" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">http://enable-cors.org/</font></font></a></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">“跨源资源共享（CORS）是一种允许跨域边界真正开放访问的规范。如果您提供公共内容，请考虑使用CORS对其进行开放以实现通用JavaScript /浏览器访问。”</font></font></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

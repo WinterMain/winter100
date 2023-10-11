@@ -44,7 +44,7 @@ topic: Webpack
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">任何想法如何解决？</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第2686篇《Bootstrap4依赖项PopperJs在Angular上引发错误》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第2686篇《Bootstrap4依赖项PopperJs在Angular上引发错误》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -55,9 +55,7 @@ topic: Webpack
             <span class="discuss-time">2020.03.23</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我有同样的问题。</font><font style="vertical-align: inherit;">我的解决方案</font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">不是</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">导入dist文件夹（./node_modules/popper.js/dist/popper.js），而是导入umd文件夹（./node_modules/popper.js/dist/ </font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">umd</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> /popper.js）。</font><font style="vertical-align: inherit;">获取js文件的迷你版还是普通版都没关系。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">猪猪A</span>
@@ -85,9 +83,7 @@ topic: Webpack
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">之后，它现在似乎可以工作了。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">老丝阳光</span>
@@ -102,9 +98,7 @@ topic: Webpack
             "node_modules/bootstrap/dist/js/bootstrap.min.js"] <font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">番长</span>
@@ -115,9 +109,7 @@ topic: Webpack
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">ng-bootstrap提供</font><font style="vertical-align: inherit;">了从头开始编写的</font></font><em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">本地</font></font></em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> Angular指令。</font><font style="vertical-align: inherit;">积极的结果是：*您不需要包括和担心jQuery，popper.js等。*指令提供了在Angular世界中“有意义”的API。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">对于任何试图将Bootstrap 4.beta与Angular结合使用的人-ng-bootstrap刚刚发布了它的第一个Beta，它与Bootstrap 4.beta CSS完全兼容</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">蛋蛋猿</span>
@@ -134,9 +126,7 @@ topic: Webpack
 
 <pre><code>bundles.Add(new ScriptBundle("~/bundles/popper").Include("~/Scripts/popper.js"));
 </code></pre></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

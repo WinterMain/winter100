@@ -35,7 +35,7 @@ topic: React.js
 </code></pre></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第1714篇《与React-Router的活动链接？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第1714篇《与React-Router的活动链接？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -61,9 +61,7 @@ topic: React.js
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">由于种种原因（大部分是嵌入式软件），我无法使用CSS样式表。</font><font style="vertical-align: inherit;">因此，我已经开始喜欢内联样式（与观点相反，内联样式在包含8000行代码，跨越37个文件的项目中效果很好，而对性能没有影响）。</font><font style="vertical-align: inherit;">但是不幸的</font></font><code>:active</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">是，当像这样内联使用选择器时，它会出错，因此我使用了上面的方法。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这样做的另一种方法是，因为我知道内联样式有点被忽略了，是</font></font><code>active</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">使用所需的nav-element样式</font><font style="vertical-align: inherit;">创建一个CSS </font><font style="vertical-align: inherit;">类，并保留一个状态变量来跟踪当前页面的高度。范围（最好是根组件），并在用户导航到另一个页面时进行更新。</font><font style="vertical-align: inherit;">这可以通过包装</font></font><code>&lt;Redirect/&gt;</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">或</font></font><code>&lt;Link to={}/&gt;</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">使用处理更新状态和导航的功能组件</font><font style="vertical-align: inherit;">来完成</font><font style="vertical-align: inherit;">，然后在导航组件中检查渲染的导航元素是否与当前页面匹配，如果是，则将</font></font><code>active</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">CSS类</font><font style="vertical-align: inherit;">附加到当前页面</font><font style="vertical-align: inherit;">。</font></font></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

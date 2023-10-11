@@ -121,7 +121,7 @@ $container-max-widths: (xxxs: 0, xxs: 320px, xs: 568px, sm: 667px, md: 768px, lg
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">但这不能解决我的问题。</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第3719篇《如何使用CDN在bootstrap 4中创建新的断点？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第3719篇《如何使用CDN在bootstrap 4中创建新的断点？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -172,9 +172,7 @@ $container-max-widths: (<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">另请参阅：</font></font><br>
 <a href="https://stackoverflow.com/questions/45776055/how-to-extend-modify-customize-bootstrap-4-with-sass"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如何使用SASS </font></font></a><font style="vertical-align: inherit;"><a href="https://stackoverflow.com/questions/37490537/twitter-bootstrap-add-media-queries-for-xxs-breakpoint/37543791#37543791"><font style="vertical-align: inherit;">Twitter Bootstrap </font></a><a href="https://stackoverflow.com/questions/45776055/how-to-extend-modify-customize-bootstrap-4-with-sass"><font style="vertical-align: inherit;">扩展/修改（自定义）Bootstrap 4 </font></a></font><br>
 <a href="https://stackoverflow.com/questions/37490537/twitter-bootstrap-add-media-queries-for-xxs-breakpoint/37543791#37543791"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">：添加针对xxs断点的媒体查询</font></font></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">null</span>
@@ -186,9 +184,7 @@ $container-max-widths: (<font></font>
 
 <pre><code>$grid-breakpoints: (xxxs: 0, xxs: 320px, xs: 568px, sm: 667px, md: 768px, lg: 992px, xl: 1200px, xxl: 1440px, xxxl: 1600px) !default
 </code></pre></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

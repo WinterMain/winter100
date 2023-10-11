@@ -27,7 +27,7 @@ statistics.Add("Zoo", 1);<font></font>
 如何以这种方式存储值？</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第986篇《如何在JavaScript中进行关联数组/哈希》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第986篇《如何在JavaScript中进行关联数组/哈希》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -53,9 +53,7 @@ console.log("Her Name is: " + dictionary.Name)</code></pre>
 </div>
 </div>
 <p></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小卤蛋猿阿飞</span>
@@ -65,18 +63,14 @@ console.log("Her Name is: " + dictionary.Name)</code></pre>
 
 <pre><code>var hashSweetHashTable = {};
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">神无老丝Davaid</span>
             <span class="discuss-time">2020.03.12</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果您要求键必须是任何对象，而不仅仅是字符串，那么可以使用我的</font></font><a href="http://code.google.com/p/jshashtable/" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">jshashtable</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">MandyJinJin路易</span>
@@ -89,9 +83,7 @@ associativeArray["three"] = "Third";<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果您来自面向对象的语言，则应查阅</font></font><a href="http://javascript.info/tutorial/objects" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">本文</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Mandy古一</span>
@@ -126,9 +118,7 @@ dictionary.add("sample2", 2);<font></font>
 <pre><code>if (dictionary.hasOwnProperty("sample1"))<font></font>
     console.log("sample1 key found and its value is"+ dictionary["sample1"]);<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">ItachiJim</span>
@@ -174,9 +164,7 @@ point.y // returns 2<font></font>
   /* use key/value for intended purpose */<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

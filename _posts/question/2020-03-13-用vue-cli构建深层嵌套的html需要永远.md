@@ -186,7 +186,7 @@ is the original issue that addressed this problem and the dev team thought that 
 <p>thus the problem is solved. Thank you frontend, thank you.</p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第1472篇《用vue-cli构建深层嵌套的html需要永远》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第1472篇《用vue-cli构建深层嵌套的html需要永远》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -207,9 +207,7 @@ is the original issue that addressed this problem and the dev team thought that 
 <blockquote>
   <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">注意：请确保您拥有最新的vue-loader版本</font></font></p>
 </blockquote></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">ㄏ囧囧ㄟ</span>
@@ -270,9 +268,7 @@ is the original issue that addressed this problem and the dev team thought that 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">它需要大约700毫秒的时间进行编译（一个主要组件和两个附加子组件，每个文件的代码少于100行，而Helper.ts文件恰好有97行代码）。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">所以，如果你患有不佳</font></font><code>npm run serve</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">表现，尝试子组件首先，在调用我没有注意到，在编译时太大的区别</font></font><code>npm run build</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，所以我认为（也许不正确地），这个问题也引起这是启用的码prettifier </font></font><code>serve</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">但禁用</font></font><code>build</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">（ TSLint不会在保存操作中调用，因此</font></font><code>npm run serve</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在我的情况下</font><font style="vertical-align: inherit;">不受影响</font><font style="vertical-align: inherit;">）。</font></font></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

@@ -15,7 +15,7 @@ answer: 1
     <div class="article-content"><p>cors就是跨域请求，我们在开发和nginx配置经常会遇到这个。</p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第3736篇《在nginx配置cors请求的headers头部信息》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第3736篇《在nginx配置cors请求的headers头部信息》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -33,9 +33,7 @@ add_header 'Access-Control-Allow-Credentials' 'true';
 
 允许请求的method
 add_header 'Access-Control-Allow-Methods' 'GET, POST, OPTIONS';</code></pre><p>&nbsp;</p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

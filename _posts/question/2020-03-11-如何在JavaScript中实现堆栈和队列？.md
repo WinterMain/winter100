@@ -19,7 +19,7 @@ topic: JavaScript
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我正在寻找shunting-yard算法，并且我将需要这些数据结构。</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第641篇《如何在JavaScript中实现堆栈和队列？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第641篇《如何在JavaScript中实现堆栈和队列？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -60,9 +60,7 @@ topic: JavaScript
   }<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">null</span>
@@ -102,9 +100,7 @@ s.push("Bryan");<font></font>
 console.log("length: " + s.length());<font></font>
 console.log(s.peek());<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">猴子西门</span>
@@ -123,9 +119,7 @@ console.log(s.peek());<font></font>
   console.log(Queue)<font></font>
   // Output [11]<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">樱泡芙</span>
@@ -136,9 +130,7 @@ console.log(s.peek());<font></font>
 <p>Check this link to see how to make an Array act like a Queue:</p>
 
 <p><a href="https://web.archive.org/web/20120411144152/http://javascript.about.com/library/blqueue.htm" rel="nofollow noreferrer">Queues</a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">L西门</span>
@@ -199,9 +191,7 @@ function queue() {<font></font>
 <font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Tony飞云</span>
@@ -231,9 +221,7 @@ queue.push("second");<font></font>
 queue.push("last");<font></font>
 queue.shift(); //but shift takes the "first" element<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">逆天猿理查德</span>
@@ -282,9 +270,7 @@ Queue.prototype.dequeue = function() {<font></font>
   return temp;<font></font>
 };<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">null</span>
@@ -348,9 +334,7 @@ Stack.prototype.pop = function() {<font></font>
 };<font></font>
 Stack.prototype.peek = function() { return this.size &gt; 0 ? this.s[this.size-1] : undefined; };<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">JinJinEva</span>
@@ -376,9 +360,7 @@ stack.pop(); //Pop out 1<font></font>
 stack.pop(); //Pop out 2<font></font>
 stack.pop(); //Pop out 3<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">番长十三小宇宙</span>
@@ -484,9 +466,7 @@ console.log(queue.insert(5))<font></font>
 console.log(queue.insert(3))<font></font>
 console.log(queue.delete(3))<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Tony达蒙Mandy</span>
@@ -587,9 +567,7 @@ function Stack() {<font></font>
 <font></font>
 &gt;&gt; st.peek();<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">路易Itachi</span>
@@ -657,9 +635,7 @@ return that;}<font></font>
 <p><a href="http://jsperf.com/rapidqueue-shift-vs-array-shift" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">http://jsperf.com/rapidqueue-shift-vs-array-shift</font></font></a></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如您所见，使用大型数据集，速度明显加快</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">LEY米亚</span>
@@ -756,9 +732,7 @@ queue.print();</code></pre>
 </div>
 </div>
 <p></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">乐米亚</span>
@@ -829,9 +803,7 @@ Queue.prototype.dequeue = function() {<font></font>
   return temp;<font></font>
 };<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">MandyItachi</span>
@@ -860,9 +832,7 @@ queue.push(1);<font></font>
 //Take first value from queue<font></font>
 var value = queue.shift();<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">神乐古一</span>
@@ -879,9 +849,7 @@ var value = queue.shift();<font></font>
   
   <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Queue.js是JavaScript的一种简单高效的队列实现，其出队功能以固定的固定时间运行。</font><font style="vertical-align: inherit;">结果，对于更大的队列，它可能比使用数组快得多。</font></font></p>
 </blockquote></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">LEY老丝</span>
@@ -901,9 +869,7 @@ alert(i);              // displays 2<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">摘自“ </font></font><a href="http://codetunnel.com/9-javascript-tips-you-may-not-know" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">您可能不知道的9条JavaScript技巧</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> ”</font></font></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

@@ -31,7 +31,7 @@ function setFocusToTextBox(){<font></font>
 </code></pre></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第3246篇《JavaScript将焦点设置为HTML表单元素》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第3246篇《JavaScript将焦点设置为HTML表单元素》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -60,9 +60,7 @@ mytextarea.focus();<font></font>
 }<font></font>
     &lt;/script&gt;<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">宝儿猪猪</span>
@@ -83,9 +81,7 @@ function setFocusToTextBox(){<font></font>
 }<font></font>
 &lt;/script&gt;<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小宇宙</span>
@@ -97,9 +93,7 @@ function setFocusToTextBox(){<font></font>
   document.getElementById("TextBoxName").focus();<font></font>
 };<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">老丝阿飞</span>
@@ -127,9 +121,7 @@ function setFocusToTextBox(){<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">也就是说，您可以只在HTML 5中使用autofocus属性。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">请注意：我想更新这个旧线程，以显示所询问的示例以及那些仍在阅读本文的人的新的，更容易的更新。</font><font style="vertical-align: inherit;">;）</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">泡芙</span>
@@ -145,9 +137,7 @@ function setFocusToTextBox(){<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">检查是否有帮助。 </font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">达蒙</span>
@@ -157,9 +147,7 @@ function setFocusToTextBox(){<font></font>
 
 <pre><code>&lt;input name="myinput" value="whatever" autofocus /&gt;
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">古一</span>
@@ -180,9 +168,7 @@ function setFocusToTextBox(){<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">请记住，您必须先绘制输入 </font></font><code>$(document).ready()</code></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

@@ -80,7 +80,7 @@ module</span><span class="pun">.</span><span class="pln">exports </span><span cl
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我真的是Webpack的新手，尽管我不确定这个问题是针对什么的，但是文档并没有真正帮助。</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第4208篇《使用babel和webpack时如何生成源地图？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第4208篇《使用babel和webpack时如何生成源地图？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -109,9 +109,7 @@ cheap</span><span class="pun">-</span><span class="pln">module</span><span class
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">复习此</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在一个大项目中，我发现... eval-source-map的重建时间为〜3.5s ... inline-source-map的重建时间为〜7s</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">杜大爷</span>
@@ -120,9 +118,7 @@ cheap</span><span class="pun">-</span><span class="pln">module</span><span class
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">也许其他人在某一时刻有这个问题。</font><font style="vertical-align: inherit;">如果使用</font></font><code>UglifyJsPlugin</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">in </font></font><code>webpack 2</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，则需要显式指定</font></font><code>sourceMap</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">标志。</font><font style="vertical-align: inherit;">例如：</font></font></p>
 
 <pre class="lang-js prettyprint prettyprinted" style=""><code><span class="kwd">new</span><span class="pln"> webpack</span><span class="pun">.</span><span class="pln">optimize</span><span class="pun">.</span><span class="typ">UglifyJsPlugin</span><span class="pun">({</span><span class="pln"> sourceMap</span><span class="pun">:</span><span class="pln"> </span><span class="kwd">true</span><span class="pln"> </span><span class="pun">})</span></code></pre></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

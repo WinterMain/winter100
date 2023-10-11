@@ -16,20 +16,14 @@ html {
     background-color: var(--bg-color);
     font-family: system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue","Noto Sans","Liberation Sans",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
   }
-  p { margin: 0;}
+  h1,p, h4 { margin: 0;}
 }
+.winter_mark { width: 0; height: 0; overflow: hidden; }
 .flex { display: flex; }
 .flex-1 { flex: 1;}
 .flex-wrap { flex-wrap: wrap; }
 .items-center { align-items: center; }
-.justify-center { justify-content: center; }
-.m-auto {margin: auto;}
-.ml-5 {margin-left: 5px;}
-.mr-5 {margin-right: 5px;}
-.ml-10 {margin-left: 10px;}
-.mr-10 {margin-right: 10px;}
-.mt-20 {margin-top: 20px;}
-.mb-20 {margin-bottom: 20px;}
+
 .p-page { background-color: var(--bg-color); padding: 20px; }
 .text-theme { color: var(--themeColor) !important; }
 .stage { 
@@ -87,9 +81,47 @@ html {
     }
   }
 }
-
+.divider-custom {
+  margin: auto;
+  display: flex;
+  align-items: center;
+  .divider-custom-line {
+    width: 120px;
+    height: 5px;
+    background-color: var(--bg-element);
+    border-radius: 5px;
+  }
+  .divider-custom-icon {
+    .star {
+      height: 30px;
+      width: 30px;
+      margin: 0 20px;
+    }
+  }
+}
+.experience {
+  height: 300px;
+  position: relative;
+  background-image: url(/assets/img/star.png);
+  background-repeat: repeat;
+  .words {
+    padding-top: 20px;
+    position: absolute;
+    z-index: 1;
+    color: var(--themeColor);
+    margin: auto;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    .divider-custom-line {
+      background-color: var(--themeColor);
+    }
+  }
+}
 .main {
   padding-top: 60px;
+  min-height: calc(100vh - 190px);
 }
 .link { 
   text-decoration: none;

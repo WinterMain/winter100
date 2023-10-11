@@ -53,7 +53,7 @@ countries[1] = 'cd';<font></font>
 </code></pre></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第336篇《在jQuery中序列化为JSON [重复]》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第336篇《在jQuery中序列化为JSON \[重复\]》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -79,9 +79,7 @@ countries[1] = 'cd';<font></font>
         } <font></font>
 });<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">路易卡卡西</span>
@@ -136,9 +134,7 @@ $.each(a, function() {<font></font>
 return o;<font></font>
 };<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">宝儿Harry</span>
@@ -155,18 +151,14 @@ return o;<font></font>
 
 <pre><code>var obj = JSON.parse(JSON_VAR);
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">GreenGil</span>
             <span class="discuss-time">2020.03.09</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果您不想使用外部库，则可以使用</font></font><code>.toSource()</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">本机JavaScript方法，但是它并不是跨浏览器的完美选择。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">达蒙阳光乐</span>
@@ -179,9 +171,7 @@ $.toJSON(myObj);<font></font>
 <font></font>
 // Result: {"foo":"bar","baz":"wockaflockafliz"}<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Green神乐</span>
@@ -190,9 +180,7 @@ $.toJSON(myObj);<font></font>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我没有用过，但您可能想尝试</font><strong><a href="http://jollytoad.googlepages.com/json.js" rel="noreferrer"><font style="vertical-align: inherit;">Mark Gibson编写</font></a></strong><font style="vertical-align: inherit;">的</font></font><strong><a href="http://jollytoad.googlepages.com/json.js" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">jQuery插件</font></font></a></strong> </p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">它添加了两个功能：</font></font><code>$.toJSON(value)</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，</font></font><code>$.parseJSON(json_str, [safe])</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">null</span>
@@ -216,9 +204,7 @@ $.toJSON(myObj);<font></font>
     return o;<font></font>
 };<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">宝儿DavaidL</span>
@@ -247,9 +233,7 @@ $.toJSON(myObj);<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我倾向于相信他在JavaScript问题上所说的话：）</font></font></p>
 
 <p><a href="http://caniuse.com/json" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">所有现代浏览器</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">（以及许多较旧的较旧的</font><a href="http://caniuse.com/json" rel="noreferrer"><font style="vertical-align: inherit;">浏览器</font></a><font style="vertical-align: inherit;">）都原生支持</font></font><a href="http://ecma262-5.com/ELS5_Section_15.htm#Section_15.12" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">JSON对象</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font><font style="vertical-align: inherit;">Crockford的JSON库的当前版本仅会定义</font></font><code>JSON.stringify</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，</font></font><code>JSON.parse</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果尚未定义，则任何浏览器本机实现都将保持不变。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Davaid阳光小卤蛋</span>
@@ -260,9 +244,7 @@ $.toJSON(myObj);<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果您需要有关如何执行此操作的指南，建议您检查一些可用库的源代码。</font></font></p>
 
 <p><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">编辑：</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我不会出来说编写自己的序列化方法是不好的，但是您必须考虑到，如果使用格式正确的JSON对您的应用程序很重要，那么您就必须权衡“另外一个”的开销。依赖性”，以防止您的自定义方法有一天可能遇到您未曾预料到的失败案例。</font><font style="vertical-align: inherit;">您可以致电该风险是否可以接受。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小宇宙西里</span>
@@ -274,9 +256,7 @@ $.toJSON(myObj);<font></font>
 
 <pre><code>JSON.stringify(countries); 
 </code></pre></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

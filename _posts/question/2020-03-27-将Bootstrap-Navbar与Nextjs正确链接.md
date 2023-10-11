@@ -136,7 +136,7 @@ export default Layout<font></font>
 </blockquote></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第3806篇《将Bootstrap Navbar与Nextjs正确链接》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第3806篇《将Bootstrap Navbar与Nextjs正确链接》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -152,9 +152,7 @@ export default Layout<font></font>
           &lt;Nav.Link&gt;Home&lt;/Nav.Link&gt;<font></font>
         &lt;/Link&gt;<font></font>
 </code></pre></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

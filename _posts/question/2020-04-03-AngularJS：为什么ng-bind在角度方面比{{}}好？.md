@@ -21,7 +21,7 @@ topic: JavaScript
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">也有人说，如果屏幕上没有太多数据，则可以使用</font></font><code>{{}}</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，并且性能问题将不可见。</font><font style="vertical-align: inherit;">有人可以帮我阐明一下这个问题吗？</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第3958篇《AngularJS：为什么ng-bind在角度方面比{{}}好？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第3958篇《AngularJS：为什么ng-bind在角度方面比{{}}好？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -35,27 +35,21 @@ topic: JavaScript
 
 <p><a href="http://corpus.hubwiz.com/2/angularjs/16125872.html" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">http://corpus.hubwiz.com/2/angularjs/16125872.html</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> 
 引用此站点。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">番长樱梅</span>
             <span class="discuss-time">2020.04.03</span>
           </div>
           <div class="discuss-comment"><p><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">ng-bind</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">也有问题。当您尝试使用角度</font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">滤镜</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，</font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">限制</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">或其他功能时，如果使用</font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">ng-bind</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">可能会遇到问题</font><font style="vertical-align: inherit;">。</font><font style="vertical-align: inherit;">但是在其他情况下，</font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">ng-bind</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在</font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">UX</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">方面</font><font style="vertical-align: inherit;">更好。</font><font style="vertical-align: inherit;">当用户打开页面时，他/她将看到（10ms-100ms）打印符号（</font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">{{...}}</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">），这就是ng-bind更好的原因。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">猪猪</span>
             <span class="discuss-time">2020.04.03</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">{{}}中存在一些闪烁的问题，例如刷新页面后会看到一小段时间的垃圾邮件，因此我们应该使用ng-bind而不是表达式进行数据描述。 </font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">猪猪</span>
@@ -66,18 +60,14 @@ topic: JavaScript
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Ng-Bind之所以更好的原因是， </font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">当您的页面未加载或互联网速度缓慢或网站加载了一半时，您会看到这些类型的问题</font></font><i><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">（检查带有已读标记的屏幕快照）</font></font></i><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">将在完全奇怪的屏幕上触发。</font><font style="vertical-align: inherit;">为了避免这种情况，我们应该使用Ng-bind</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">斯丁前端</span>
             <span class="discuss-time">2020.04.03</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这是因为使用</font></font><code>{{}}</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">角度编译器会同时考虑文本节点及其父节点，因为可能会合并两个</font></font><code>{{}}</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">节点。</font><font style="vertical-align: inherit;">因此，还有其他链接程序会增加加载时间。</font><font style="vertical-align: inherit;">当然，对于少数这种情况，差异并不重要，但是在大量项目的中继器中使用它时，会在较慢的运行时环境中产生影响。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">番长梅</span>
@@ -102,9 +92,7 @@ topic: JavaScript
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">仅该值的值将存储在内存中，而angular将注册仅包含变量的监视程序（监视表达式）。 </font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">西门Gil</span>
@@ -115,9 +103,7 @@ topic: JavaScript
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">两种情况都产生相同的输出，但是..如果选择继续使用</font></font><code>{{}}</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，则用户有可能会看到几毫秒的时间，</font></font><code>{{}}</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">然后才能通过角度渲染模板。</font><font style="vertical-align: inherit;">因此，如果您发现有任何</font></font><code>{{}}</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">更好的用法</font></font><code>ng-bind</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">同样非常重要的是，只有在角度应用程序的index.html中，您才能取消渲染</font></font><code>{{}}</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font><font style="vertical-align: inherit;">如果使用指令，则使用模板，那么就没有机会看到它，因为angular首先渲染模板，然后将其附加到DOM。     </font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">村村</span>
@@ -142,9 +128,7 @@ topic: JavaScript
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果这对您来说是个问题。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">另一个解决方案是使用</font></font><a href="https://docs.angularjs.org/api/ng/directive/ngCloak" rel="nofollow noreferrer"><code>ng-cloak</code></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">梅</span>
@@ -158,9 +142,7 @@ topic: JavaScript
   Hello, &lt;span ng-bind="variable"&gt;&lt;/span&gt;<font></font>
 &lt;/div&gt;<font></font>
 </code></pre></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

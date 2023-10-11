@@ -21,7 +21,7 @@ topic: JavaScript
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我意识到Microsoft的</font></font><a href="http://en.wikipedia.org/wiki/Ajax_%28programming%29" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Ajax</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">库提供了的版本</font></font><code>String.Format()</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，但我们不希望该框架的全部开销。</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第216篇《JavaScript等同于printf / String.Format》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第216篇《JavaScript等同于printf / String.Format》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -40,9 +40,7 @@ topic: JavaScript
     });<font></font>
 };<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Eva伽罗</span>
@@ -86,9 +84,7 @@ fruit.amount = 10000;<font></font>
 String.Format("the {type:U} is {color:L} shipped on {shippingDate:s} with an amount of {amount:n}", fruit);<font></font>
 // output: the APPLE is red shipped on 2018-01-01 with an amount of 10.000<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">蛋蛋L</span>
@@ -99,27 +95,21 @@ String.Format("the {type:U} is {color:L} shipped on {shippingDate:s} with an amo
 <pre><code>var template = jQuery.validator.format("{0} is not a valid value");<font></font>
 var result = template("abc");<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Jnck</span>
             <span class="discuss-time">2020.03.09</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">您可以在</font></font><a href="http://www.webtoolkit.info/javascript-sprintf.html" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">http://www.webtoolkit.info/javascript-sprintf.html上</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">找到JavaScript的“ sprintf” </font><font style="vertical-align: inherit;">。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">樱A</span>
             <span class="discuss-time">2020.03.09</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">该</font></font><a href="http://phpjs.org/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">PHPJS项目</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">写JavaScript实现的许多PHP的功能。</font><font style="vertical-align: inherit;">由于PHP的</font></font><code>sprintf()</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">功能与C基本相同</font></font><code>printf()</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，因此</font></font><a href="http://phpjs.org/functions/sprintf" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">他们的JavaScript实现</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">应能满足您的需求。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小小</span>
@@ -142,9 +132,7 @@ var result = template("abc");<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">首先调用l（）本地化函数。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Itachi伽罗</span>
@@ -165,9 +153,7 @@ var result = template("abc");<font></font>
 
 <pre><code>"&lt;h1&gt;%s&lt;/h1&gt;&lt;p&gt;%s&lt;/p&gt;".format("Header", "Just a test!");
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">梅小哥</span>
@@ -187,9 +173,7 @@ var result = template("abc");<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">功劳归于 </font></font><del><a href="http://technoblogia.net/2011/11/08/%D7%98%D7%99%D7%A4-%D7%A4%D7%95%D7%A0%D7%A7%D7%A6%D7%99%D7%99%D7%AA-%D7%A2%D7%96%D7%A8-%D7%91-javascript-%D7%9C%D7%A2%D7%99%D7%A6%D7%95%D7%91-%D7%9E%D7%97%D7%A8%D7%95%D7%96%D7%95%D7%AA/"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">（链接断开）</font></font></a></del> <a href="https://gist.github.com/0i0/1519811"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">https://gist.github.com/0i0/1519811</font></font></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Sam飞云</span>
@@ -198,9 +182,7 @@ var result = template("abc");<font></font>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果要处理千位分隔符，则应真正使用JavaScript </font></font><a href="http://www.hunlock.com/blogs/The_Complete_Javascript_Number_Reference" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Number</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">类中的</font><font style="vertical-align: inherit;">toLocaleString（），</font><font style="vertical-align: inherit;">因为它将格式化用户区域的字符串。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">JavaScript </font></font><a href="http://www.hunlock.com/blogs/Javascript_Dates-The_Complete_Reference" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Date</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">类可以格式化本地化的日期和时间。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">斯丁Jim</span>
@@ -214,18 +196,14 @@ var result = template("abc");<font></font>
 </ul>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">可悲的是，似乎sprintf无法处理.NET的字符串格式之类的千位分隔符格式。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">猪猪小小小哥</span>
             <span class="discuss-time">2020.03.09</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我</font></font><a href="http://www.masterdata.se/r/string_format_for_javascript/" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">为JavaScript</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">使用了一个名为</font><a href="http://www.masterdata.se/r/string_format_for_javascript/" rel="noreferrer"><font style="vertical-align: inherit;">String.format</font></a><font style="vertical-align: inherit;">的小型库</font><a href="http://www.masterdata.se/r/string_format_for_javascript/" rel="noreferrer"><font style="vertical-align: inherit;">，</font></a><font style="vertical-align: inherit;">该</font><font style="vertical-align: inherit;">库</font><font style="vertical-align: inherit;">支持大多数格式字符串功能（包括数字和日期的格式），并使用.NET语法。</font><font style="vertical-align: inherit;">该脚本本身小于4 kB，因此不会产生太多开销。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">梅蛋蛋</span>
@@ -241,9 +219,7 @@ var result = template("abc");<font></font>
     return formatted;<font></font>
 };<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">西门小小</span>
@@ -253,9 +229,7 @@ var result = template("abc");<font></font>
 
 <pre><code>util.format("%s world", "Hello")
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">猪猪西门</span>
@@ -276,9 +250,7 @@ var result = template("abc");<font></font>
 
 <pre><code>"{0} is dead, but {1} is alive!".format("ASP", "ASP.NET")
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Itachi猪猪</span>
@@ -316,9 +288,7 @@ parseInt("deadbeef", 16); // from base 16: 3735928559<font></font>
 <p><a href="http://www.mredkj.com/javascript/numberFormat.html" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">JS数字格式快速教程</font></font></a></p>
 
 <p><a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number/toFixed" rel="noreferrer"><font style="vertical-align: inherit;"></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">MoFi的</font><a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number/toFixed" rel="noreferrer"><font style="vertical-align: inherit;">toFixed（）参考页</font></a><font style="vertical-align: inherit;">（带有toPrecision（），toExponential（），toLocaleString（）等的链接）</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Itachi阳光</span>
@@ -340,9 +310,7 @@ console.log(`This is ${soMany} times easier!`);<font></font>
 <p><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/template_strings"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/template_strings</font></font></a></p>
 
 <p><em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">注意：检查mozilla站点以找到支持的浏览器列表。</font></font></em></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">路易卡卡西</span>
@@ -373,9 +341,7 @@ console.log(`This is ${soMany} times easier!`);<font></font>
 </code></pre>
 
 <p>Normally you would expect the output to be <code>{1}{0}</code> but the actual output is <code>{1}{1}</code>. So do a simultaneously replacement instead like in <a href="https://stackoverflow.com/questions/610406/javascript-printf-string-format/4673436#4673436">fearphage’s suggestion</a>.</p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

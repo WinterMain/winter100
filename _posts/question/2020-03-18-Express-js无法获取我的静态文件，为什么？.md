@@ -38,7 +38,7 @@ default.css<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我正在使用</font></font><code>express 2.3.3</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">和</font></font><code>node 0.4.7</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font><font style="vertical-align: inherit;">我究竟做错了什么？</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第2140篇《Express-js无法获取我的静态文件，为什么？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第2140篇《Express-js无法获取我的静态文件，为什么？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -49,9 +49,7 @@ default.css<font></font>
             <span class="discuss-time">2020.03.18</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">除上述内容外，请确保静态文件路径以/（例如/ assets / css）开头，以便在主目录（/ main）上方的任何目录中提供静态文件</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Sam凯小卤蛋</span>
@@ -68,9 +66,7 @@ default.css<font></font>
 
 <pre><code>&lt;link href="/asset/css/bootstrap.min.css" rel="stylesheet"&gt;
 </code></pre></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

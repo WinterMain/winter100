@@ -35,7 +35,7 @@ topic: HTML
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我绝对</font></font><em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">不是</font></font></em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在寻找一种创建类似于按钮的锚，使用任何后端脚本或与服务器标头或mime类型混淆的方法。</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第2574篇《单击HTML按钮或JavaScript时如何触发文件下载》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第2574篇《单击HTML按钮或JavaScript时如何触发文件下载》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -51,9 +51,7 @@ topic: HTML
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">按照大多数规则，这可能不可行，但看起来还不错。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小宇宙古一</span>
@@ -63,18 +61,14 @@ topic: HTML
 
 <pre><code>&lt;a href="http://www.example.com/folder1/file.doc"&gt;Download&lt;/a&gt;
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小卤蛋</span>
             <span class="discuss-time">2020.03.23</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">您可以添加标签，但不添加任何文本，但带有链接。</font><font style="vertical-align: inherit;">当您像在代码中一样单击按钮时，只需运行$（“ yourlinkclass”）。click（）函数。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">LEYStafan</span>
@@ -90,9 +84,7 @@ topic: HTML
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">灵感来自@Cfreak答案，该答案不完整</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">番长猴子</span>
@@ -104,9 +96,7 @@ topic: HTML
      &lt;span&gt;download &lt;/span&gt;&amp;nbsp;&lt;i class="fa fa-download"&gt;&lt;/i&gt;<font></font>
  &lt;/a&gt;<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">西门</span>
@@ -120,9 +110,7 @@ topic: HTML
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这肯定可以工作！</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">斯丁飞云阳光</span>
@@ -133,9 +121,7 @@ topic: HTML
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">{downloadjs（URL，文件名）}）/&gt;</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">*这是jsx / react语法，但可以在纯HTML中使用</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">飞云</span>
@@ -167,9 +153,7 @@ topic: HTML
 
 <pre><code>&lt;form method="get" id="myDownloadButtonForm" action="javascript:someFunctionToReturnFileName();"&gt;
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">DavaidJinJin</span>
@@ -184,9 +168,7 @@ topic: HTML
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">记录</font></font><a href="https://getbootstrap.com/docs/4.0/components/buttons/" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在Bootstrap 4文档中</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，也可以在Bootstrap 3中使用。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Tony凯</span>
@@ -205,9 +187,7 @@ topic: HTML
 </ul>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">文档：</font></font><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/a#attr-download" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">MDN</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，</font></font><a href="https://html.spec.whatwg.org/multipage/links.html#downloading-resources" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">HTML标准上下载</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，</font></font><a href="https://html.spec.whatwg.org/multipage/links.html#attr-hyperlink-download" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">HTML标准上</font></font><code>download</code></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，</font></font><a href="https://caniuse.com/#feat=download" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">CanIUse</font></font></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Stafan路易</span>
@@ -219,9 +199,7 @@ topic: HTML
    &lt;button type="submit"&gt;Download!&lt;/button&gt;<font></font>
 &lt;/form&gt;<font></font>
 </code></pre></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

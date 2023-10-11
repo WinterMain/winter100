@@ -37,7 +37,7 @@ topic: CSS
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">有什么办法可以区分默认值</font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">（A）</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">和覆盖默认值</font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">（B）</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">的区别</font><font style="vertical-align: inherit;">吗？</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第2386篇《Sass检查是否将变量传递给mixin》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第2386篇《Sass检查是否将变量传递给mixin》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -99,9 +99,7 @@ topic: CSS
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">瞧瞧，这应该可以解决问题-除非您出于某种原因想要通过</font></font><code>null</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">作为论点。</font><font style="vertical-align: inherit;">然后，您需要使用其他默认值，例如极不可能作为参数传递的字符串，例如</font></font><code>"no arguments have been passed"</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">=）</font></font></p>
 
 <p><a href="http://sassmeister.com/gist/9806598"><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">演示</font></font></strong></a></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

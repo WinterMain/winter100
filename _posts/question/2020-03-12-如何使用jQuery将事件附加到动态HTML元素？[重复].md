@@ -72,7 +72,7 @@ $(function(){<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">基本上，我想编写</font></font><code>click()</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">一次处理程序，并将其应用于页面加载时出现的内容以及以后通过</font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">AJAX / DHTML</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">引入的内容</font><font style="vertical-align: inherit;">。</font><font style="vertical-align: inherit;">知道我该如何解决吗？</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第1075篇《如何使用jQuery将事件附加到动态HTML元素？[重复]》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第1075篇《如何使用jQuery将事件附加到动态HTML元素？\[重复\]》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -87,9 +87,7 @@ $(function(){<font></font>
 <blockquote>
   <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">将所有当前-和将来-匹配元素的处理程序绑定到事件（例如click）。</font><font style="vertical-align: inherit;">也可以绑定自定义事件。</font></font></p>
 </blockquote></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">老丝村村</span>
@@ -105,9 +103,7 @@ $(function(){<font></font>
     });<font></font>
 });<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">猴子小小Tony</span>
@@ -135,9 +131,7 @@ $(function(){<font></font>
   
   <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">另外，</font></font><a href="http://docs.jquery.com/Plugins/livequery/livequery" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">livequery</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">插件可以做到这一点，并支持更多事件。</font></font></p>
 </blockquote></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

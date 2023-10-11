@@ -17,7 +17,7 @@ topic: KoaJS
     <div class="article-content"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">JavaScript类/对象可以具有构造函数吗？</font><font style="vertical-align: inherit;">它们是如何创建的？</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第3833篇《JavaScript对象中的构造方法》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第3833篇《JavaScript对象中的构造方法》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -38,9 +38,7 @@ topic: KoaJS
 }<font></font>
 var newObject = new objectA(); <font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">阳光GO</span>
@@ -75,9 +73,7 @@ var objCal=new calculator();// This is a constructor in java script<font></font>
 alert(objCal.mulFunc(10,10));// method call<font></font>
 alert(objCal.name); // property call<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Gil伽罗小宇宙</span>
@@ -96,9 +92,7 @@ alert(objCal.name); // property call<font></font>
   return sup;<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">蛋蛋</span>
@@ -141,9 +135,7 @@ console.log(typeof (newA.className));       // undefined<font></font>
 console.log(typeof (newA.pro));             // undefined<font></font>
 console.log(typeof (newA.getClassName));    // undefined<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Near猪猪</span>
@@ -180,9 +172,7 @@ console.log(typeof (newA.getClassName));    // undefined<font></font>
     return BankAccount;<font></font>
 })();<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">村村</span>
@@ -211,9 +201,7 @@ console.log(typeof (newA.getClassName));    // undefined<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">欢迎对此解决方案提出意见和建议。</font><font style="vertical-align: inherit;">:)</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">西里Near</span>
@@ -228,9 +216,7 @@ console.log(typeof (newA.getClassName));    // undefined<font></font>
   }<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Tony凯</span>
@@ -243,9 +229,7 @@ console.log(typeof (newA.getClassName));    // undefined<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">构造器属性的要点是提供某种方式来假装JavaScript具有类。</font><font style="vertical-align: inherit;">您</font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">无法</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">做的一件事是在创建对象后更改对象的构造函数。</font><font style="vertical-align: inherit;">情况很复杂。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">几年前，我在上面写了一篇相当全面的文章：</font><a href="http://joost.zeekat.nl/constructors-considered-mildly-confusing.html" rel="noreferrer"><font style="vertical-align: inherit;">http</font></a><font style="vertical-align: inherit;"> : </font></font><a href="http://joost.zeekat.nl/constructors-considered-mildly-confusing.html" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">//joost.zeekat.nl/constructors-considered-mildly-confusing.html</font></font></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">古一</span>
@@ -262,9 +246,7 @@ console.log(typeof (newA.getClassName));    // undefined<font></font>
 </code></pre>
 
 <p><code>MyClass</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> 执行，并返回该类的新对象。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">宝儿</span>
@@ -304,9 +286,7 @@ alert(blueBox.getColor()); // will alert blue<font></font>
 var greenBox = new Box("green");<font></font>
 alert(greenBox.getColor()); // will alert green<font></font>
 </code></pre></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

@@ -72,7 +72,7 @@ module.exports = CreateIdeaView;<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如何使用“链接”传递数据？</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第791篇《在Link react-router中传递道具》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第791篇《在Link react-router中传递道具》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -96,9 +96,7 @@ module.exports = CreateIdeaView;<font></font>
 
 <pre><code>this.props.location.state
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">路易Itachi小小</span>
@@ -114,9 +112,7 @@ this.props.match.params.fooId //newb<font></font>
 this.props.location.sampleParam //"Hello"<font></font>
 this.props.location.sampleParam2 //"World!"<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">十三西里GO</span>
@@ -136,9 +132,7 @@ this.props.location.sampleParam2 //"World!"<font></font>
 
 <pre><code>props.match.params.value
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">神乐蛋蛋</span>
@@ -161,9 +155,7 @@ this.props.location.sampleParam2 //"World!"<font></font>
             console.log("product props is", this.props.location.productdetailProps);<font></font>
           }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">LEY米亚</span>
@@ -187,9 +179,7 @@ const newTo = { <font></font>
 this.props.match.params.catId // this is 595212758daa6810cbba4104 <font></font>
 this.props.location.param1 // this is Par1<font></font>
 </code></pre></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

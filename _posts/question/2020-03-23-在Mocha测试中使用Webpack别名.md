@@ -99,7 +99,7 @@ describe('Actions', () =&gt; {<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">所以这就是我卡住的地方。</font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我需要在运行时将webpack的别名包含到mocha中。</font></font></strong> </p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第3116篇《在Mocha测试中使用Webpack别名》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第3116篇《在Mocha测试中使用Webpack别名》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -122,9 +122,7 @@ describe('Actions', () =&gt; {<font></font>
   ]<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">老丝阿飞</span>
@@ -148,9 +146,7 @@ describe('Actions', () =&gt; {<font></font>
     ]<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小宇宙</span>
@@ -166,9 +162,7 @@ describe('Actions', () =&gt; {<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">可能对每个人都行不通，但这解决了我的问题。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">樱小胖Mandy</span>
@@ -177,9 +171,7 @@ describe('Actions', () =&gt; {<font></font>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">您还可以使用我编写的babel插件：</font></font><a href="https://github.com/trayio/babel-plugin-webpack-alias"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">https</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> :
  </font><a href="https://github.com/trayio/babel-plugin-webpack-alias"><font style="vertical-align: inherit;">//github.com/trayio/babel-plugin-webpack-alias</font></a><font style="vertical-align: inherit;"> 
 只需将babel插件包含到，它就可以将别名路径转换为相对路径</font></font><code>.babelrc</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

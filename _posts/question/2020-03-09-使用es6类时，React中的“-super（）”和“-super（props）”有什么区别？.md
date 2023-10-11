@@ -24,7 +24,7 @@ topic: React.js
 </code></pre></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第349篇《使用es6类时，React中的“ super（）”和“ super（props）”有什么区别？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第349篇《使用es6类时，React中的“ super（）”和“ super（props）”有什么区别？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -70,9 +70,7 @@ topic: React.js
 <blockquote>
   <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果要在构造函数中使用this.props，则需要将props传递给super。</font><font style="vertical-align: inherit;">否则没关系，因为React在调用构造函数后立即从外部在实例上设置.props。</font></font></p>
 </blockquote></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Itachi小宇宙</span>
@@ -88,18 +86,14 @@ state = {<font></font>
     //otherwise not defined<font></font>
 };<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Harry前端Itachi</span>
             <span class="discuss-time">2020.03.09</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这是我制作的小提琴：</font></font><a href="https://jsfiddle.net/beshanoe/zpxbLw4j/1/." rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">jsfiddle.net</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font><font style="vertical-align: inherit;">它显示默认情况下，道具未分配在构造函数中。</font><font style="vertical-align: inherit;">据我了解，它们是在方法中使用的</font></font><code>React.createElement</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font><font style="vertical-align: inherit;">因此，</font></font><code>super(props)</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">仅当超类的构造函数手动分配</font></font><code>props</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">给</font><font style="vertical-align: inherit;">时才应调用</font></font><code>this.props</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font><font style="vertical-align: inherit;">如果您只是扩展</font></font><code>React.Component</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">通话，</font></font><code>super(props)</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">则对道具不会有任何作用。</font><font style="vertical-align: inherit;">也许它将在React的下一版本中进行更改。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">达蒙Stafan</span>
@@ -113,9 +107,7 @@ state = {<font></font>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">有关更多信息</font></font><code>super</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">：</font><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/super" rel="noreferrer"><font style="vertical-align: inherit;">https</font></a><font style="vertical-align: inherit;"> :
  </font></font><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/super" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">//developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/super</font></font></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">达蒙Eva</span>
@@ -145,9 +137,7 @@ class Button extends React.Component {<font></font>
   // ...<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">番长LA</span>
@@ -162,9 +152,7 @@ class Button extends React.Component {<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">您</font></font><code>props</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">每次有道具时都</font><font style="vertical-align: inherit;">必须通过，</font><font style="vertical-align: inherit;">并且不要</font></font><code>this.props</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">手动</font><font style="vertical-align: inherit;">将其放入</font><font style="vertical-align: inherit;">。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">西门泡芙Jim</span>
@@ -201,9 +189,7 @@ class Button extends React.Component {<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">因此，我们定义了</font></font><code>constructor()</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">方法，通过创建JavaScript对象，将属性或键/值对分配给它，将结果分配给来初始化状态对象</font></font><code>this.state</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font><font style="vertical-align: inherit;">当然，现在这只是这里的一个示例，因此我并没有真正为状态对象分配键/值对，它只是一个空对象。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">GOItachi老丝</span>
@@ -248,9 +234,7 @@ class Button extends React.Component {<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">从与我交谈过的一些开发人员那里我看到的一个混乱点是，没有任何组件，</font></font><code>constructor</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">因此无法</font></font><code>super()</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在任何地方</font><font style="vertical-align: inherit;">调用</font><font style="vertical-align: inherit;">的组件</font><font style="vertical-align: inherit;">，仍然</font></font><code>this.props</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在该</font></font><code>render()</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">方法中</font><font style="vertical-align: inherit;">可用</font><font style="vertical-align: inherit;">。</font><font style="vertical-align: inherit;">请记住，此规则以及为此创建</font></font><code>this</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">绑定的需求</font></font><code>constructor</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">仅适用于</font></font><code>constructor</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Tony宝儿</span>
@@ -271,9 +255,7 @@ class Button extends React.Component {<font></font>
     console.log(this.props) //props will get logged.<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

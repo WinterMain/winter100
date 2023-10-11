@@ -33,7 +33,7 @@ topic: HTML
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果没有区别，我想我可以忽略</font></font><code>X-UA-Compatible</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">元标头，因为我只想在所有IE版本中以最标准的方式呈现它。</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第1568篇《<meta http-equiv =“ X-UA-Compatible” content =“ IE = edge”>有什么作用？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第1568篇《<meta http-equiv =“ X-UA-Compatible” content =“ IE = edge”>有什么作用？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -45,9 +45,7 @@ topic: HTML
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果您在与服务器相同的网络中使用网站，则</font><font style="vertical-align: inherit;">尽管DOCTYPE，</font><font style="vertical-align: inherit;">IE仍希望切换到</font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">兼容模式</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font><br><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
 添加</font></font><code>meta http-equiv="X-UA-Compatible" content="IE=Edge"</code> <strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">会禁用</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">此不必要的行为。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">阿飞GO</span>
@@ -61,9 +59,7 @@ topic: HTML
 <font></font>
 add_header X-UA-Compatible "IE=Edge,chrome=1";<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">DavaidAPro</span>
@@ -73,9 +69,7 @@ add_header X-UA-Compatible "IE=Edge,chrome=1";<font></font>
 
 <pre><code>&lt;meta http-equiv="x-ua-compatible" content="ie=edge"&gt;
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Monkey洋</span>
@@ -107,9 +101,7 @@ add_header X-UA-Compatible "IE=Edge,chrome=1";<font></font>
 <ul>
 <li><a href="https://stackoverflow.com/questions/6771258/whats-the-difference-if-meta-http-equiv-x-ua-compatible-content-ie-edge-e"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">&lt;meta http-equiv =“ X-UA-Compatible” content =“ IE = edge”&gt;有什么作用？</font></font></a></li>
 </ul></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">米亚Stafan</span>
@@ -142,9 +134,7 @@ add_header X-UA-Compatible "IE=Edge,chrome=1";<font></font>
 <blockquote>
   <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">的</font></font><code>X-UA-Compatible</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">[...]必须出现在标题以外的元件和其他元元素的所有其他元件之前的网页（HEAD部分）的报头。</font></font></p>
 </blockquote></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小胖逆天</span>
@@ -168,9 +158,7 @@ add_header X-UA-Compatible "IE=Edge,chrome=1";<font></font>
 <p>If both the <code>meta</code> tag and the HTTP header are specified, the <code>meta</code> tag takes precedence. </p>
 
 <p>This answer is based on examining the complete rules for deciding document mode in <a href="http://ie.microsoft.com/testdrive/ieblog/2010/Mar/02_HowIE8DeterminesDocumentMode_3.png" rel="noreferrer">IE8</a>, <a href="http://ie.microsoft.com/testdrive/ieblog/2010/Jun/16_IEsCompatibilityFeaturesforSiteDevelopers_1.svg" rel="noreferrer">IE9</a>, and <a href="http://msdn.microsoft.com/en-us/library/ff405803(v=vs.85).aspx" rel="noreferrer">IE10</a>. Note that looking at the <code>DOCTYPE</code> is the very last fallback for deciding the document mode.</p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小宇宙猴子</span>
@@ -186,9 +174,7 @@ add_header X-UA-Compatible "IE=Edge,chrome=1";<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这样做就像添加任何其他IE条件语句一样，并且仅适用于IE，并且不会影响其他浏览器。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">蛋蛋L</span>
@@ -199,9 +185,7 @@ add_header X-UA-Compatible "IE=Edge,chrome=1";<font></font>
 <p><a href="https://i.stack.imgur.com/teQdv.png" rel="noreferrer"><img src="https://i.stack.imgur.com/teQdv.png" alt="在此处输入图片说明"></a></p>
 
 <p><a href="http://ie.microsoft.com/testdrive/ieblog/2010/Mar/02_HowIE8DeterminesDocumentMode_3.png" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">http://ie.microsoft.com/testdrive/ieblog/2010/Mar/02_HowIE8DeterminesDocumentMode_3.png</font></font></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">老丝Gil樱</span>
@@ -211,9 +195,7 @@ add_header X-UA-Compatible "IE=Edge,chrome=1";<font></font>
 
 <pre><code>&lt;meta http-equiv="X-UA-Compatible" content="IE=edge" /&gt;
 </code></pre></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

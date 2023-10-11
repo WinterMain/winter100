@@ -17,7 +17,7 @@ topic: JavaScript
     <div class="article-content"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我只是开始使用Typescript进行react项目，并问自己应该如何处理常规类文件？</font><font style="vertical-align: inherit;">我应该使用.ts还是.tsx文件，然后我找不到任何理由始终不使用.tsx文件，即使它不是React项目！</font><font style="vertical-align: inherit;">有什么原因或特定情况我们不应该使用.tsx文件？</font><font style="vertical-align: inherit;">如果没有，为什么TypeScript团队要添加全新的扩展名？</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第1178篇《在TypeScript中始终使用.tsx而不是.ts有什么缺点吗？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第1178篇《在TypeScript中始终使用.tsx而不是.ts有什么缺点吗？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -40,9 +40,7 @@ let strLength: number = (someValue as string).length;<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我们可以使用.ts </font></font><code>as-syntax</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">但</font></font><code>&lt;string&gt;someValue</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">很酷！</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Eva梅</span>
@@ -57,18 +55,14 @@ let strLength: number = (someValue as string).length;<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">另一方面，如果文件与React相关并且在某个时候很有可能包含JSX，则可以从一开始就将其命名为.tsx，以避免以后重命名。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">例如，与React组件一起使用的实用程序函数在任何时候都可能涉及JSX，因此可以安全地使用.tsx名称，而</font></font><a href="https://redux.js.org/faq/code-structure" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Redux代码结构</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">不应直接使用React组件，可以与React分开使用和测试并可以使用.ts名称。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">西门逆天</span>
             <span class="discuss-time">2020.03.12</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我相信使用.tsx文件，您可以使用所有JSX（JavaScript XML）代码。</font><font style="vertical-align: inherit;">而在.ts文件中，您只能使用 TypeScript。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">米亚逆天</span>
@@ -84,9 +78,7 @@ let strLength: number = (someValue as string).length;<font></font>
 <p><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">编辑</font></font></strong></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">现在，我强烈建议您将JavaScript的JSX用于React语法，将TSX的TypeScript与React一起使用，因为大多数编辑器/ IDE都会使用扩展名来启用或不启用React语法。</font><font style="vertical-align: inherit;">它也被认为更具表现力。</font></font></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

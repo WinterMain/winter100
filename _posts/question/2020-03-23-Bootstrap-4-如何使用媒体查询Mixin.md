@@ -19,7 +19,7 @@ topic: CSS
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我需要的输出是这样的：@media（min-width：480px）and（max-width：767px）using breakpoint mixin。</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第3015篇《Bootstrap 4-如何使用媒体查询Mixin》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第3015篇《Bootstrap 4-如何使用媒体查询Mixin》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -80,9 +80,7 @@ Upper value of md is equal to 991 ( value of next breakpoint (lg) minus 1px (992
 <p><code>@include media-breakpoint-up(sm) {}</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">创建一个最小宽度为的断点</font></font><code>$sm</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p>
 
 <p><code>@include media-breakpoint-down(md) {}</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">创建最大宽度为的断点</font></font><code>$md</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">老丝</span>
@@ -96,9 +94,7 @@ Upper value of md is equal to 991 ( value of next breakpoint (lg) minus 1px (992
   // this applies only between the sm and ms breakpoints <font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

@@ -93,7 +93,7 @@ topic: Vue.js
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">注意：我正在使用jQuery 3.1.1，Vue.js 2.0.1</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第2336篇《Vue js Ready函数未触发》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第2336篇《Vue js Ready函数未触发》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -116,18 +116,14 @@ topic: Vue.js
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">正如@EmileBergeron在评论中指出的那样，vue-resource早在2016年11月就已经退休（在我的最后一段提供这个答案后的几周之内</font></font><code>vue-resource</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">）。</font><font style="vertical-align: inherit;">这是有关同一内容的更多信息：</font></font></p>
 
 <p><a href="https://medium.com/the-vue-point/retiring-vue-resource-871a82880af4" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">https://medium.com/the-vue-point/retiring-vue-resource-871a82880af4</font></font></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">十三古一</span>
             <span class="discuss-time">2020.03.19</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">@Mani建议使用</font></font><code>mounted(){}</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">未隐藏的组件。</font><font style="vertical-align: inherit;">如果您希望在组件可见时运行该功能，而使用诸如</font></font><code>v-if=""</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">或的</font><font style="vertical-align: inherit;">条件将其隐藏</font><font style="vertical-align: inherit;">，</font></font><code>v-show=""</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">则使用</font></font><code>updated(){}</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

@@ -44,7 +44,7 @@ topic: React.js
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">是否有基于路线转换触发动作的标准方法，还是可以将商店的状态直接连接到组件的状态，而不是通过prop传递它？</font><font style="vertical-align: inherit;">我尝试使用willTransitionTo静态方法，但无法访问this.props.dispatch。</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第4049篇《在React Router中触发Redux操作以响应路由转换》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第4049篇《在React Router中触发Redux操作以响应路由转换》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}

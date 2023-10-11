@@ -21,7 +21,7 @@ topic: HTML
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">假设我正在用</font></font><a href="http://www.modernizr.com/"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Modernizr</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">检查SVG支持，</font><font style="vertical-align: inherit;">然后退回（可能是用一个普通</font></font><code>&lt;img&gt;</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">标签进行</font><font style="vertical-align: inherit;">替换</font><font style="vertical-align: inherit;">）不支持SVG的浏览器。</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第2062篇《我是否对SVG文件使用<img>，<object>或<embed>？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第2062篇《我是否对SVG文件使用<img>，<object>或<embed>？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -37,9 +37,7 @@ topic: HTML
 &lt;path fill="#xxxxxx" d="M203.3,71.6c-.........."&gt;&lt;/path&gt;<font></font>
 &lt;/svg&gt;<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">西门Pro</span>
@@ -69,9 +67,7 @@ topic: HTML
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">一些资源：</font></font><a href="https://css-tricks.com/using-svg/" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">SVG技巧</font></font></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">泡芙达蒙</span>
@@ -94,9 +90,7 @@ topic: HTML
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">加载图像后，</font></font><code>onload="SVGInject(this)</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">将触发注入，并且该</font></font><code>&lt;img&gt;</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">元素将被</font></font><code>src</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">属性中</font><font style="vertical-align: inherit;">提供的文件内容替换</font><font style="vertical-align: inherit;">。</font><font style="vertical-align: inherit;">这适用于所有支持SVG的浏览器。</font></font></p>
 
 <p><em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">免责声明：我是SVGInject的合著者</font></font></em></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">卡卡西Itachi</span>
@@ -119,9 +113,7 @@ topic: HTML
 <li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">您仍然可以包含替代文字</font></font></li>
 <li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">支持的浏览器</font></font><code>srcset</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">应该知道如何处理它，以便它仅下载所需的文件。</font></font></li>
 </ol></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">TonyItachi</span>
@@ -142,9 +134,7 @@ topic: HTML
     rect.setAttribute("fill", "green");<font></font>
 });<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">宝儿</span>
@@ -156,9 +146,7 @@ topic: HTML
 
 <pre><code>&lt;img src="/static/image.svg"&gt;
 </code></pre></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

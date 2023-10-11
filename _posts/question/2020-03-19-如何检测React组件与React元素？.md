@@ -17,7 +17,7 @@ topic: React.js
     <div class="article-content"><p><code>React.isValidElement</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">对React组件和React元素均测试为true。</font><font style="vertical-align: inherit;">我将如何具体测试对象是React组件？</font><font style="vertical-align: inherit;">目前，我正在通过测试进行操作</font></font><code>typeof obj.type === 'function'</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，但我希望有更好的方法。</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第2394篇《如何检测React组件与React元素？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第2394篇《如何检测React组件与React元素？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -37,9 +37,7 @@ console.log(!!Test.prototype.isReactComponent);</code></pre>
 </div>
 </div>
 <p></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">蛋蛋前端</span>
@@ -88,9 +86,7 @@ console.log(<font></font>
 </code></pre>
 
 <p>No problem (tested Chrome and FF).  Just use <code>instanceof</code>.</p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">卡卡西逆天</span>
@@ -100,9 +96,7 @@ console.log(<font></font>
 
 <pre><code>React.isValidElement(element)
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Davaid飞羽</span>
@@ -114,9 +108,7 @@ console.log(<font></font>
 <h1><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">/node_modules/react/lib/ReactComponent.js中的33</font></font></h1>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">使用npm安装。</font><font style="vertical-align: inherit;">在这一点上，没有直接的方法可用来检查其有效性。</font><font style="vertical-align: inherit;">你在做什么是正确的。</font></font></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

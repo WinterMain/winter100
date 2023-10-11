@@ -31,7 +31,7 @@ topic: JavaScript
 </code></pre></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第640篇《是否可以将动态命名的属性添加到JavaScript对象？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第640篇《是否可以将动态命名的属性添加到JavaScript对象？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -42,9 +42,7 @@ topic: JavaScript
             <span class="discuss-time">2020.03.11</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">绝对是 </font><font style="vertical-align: inherit;">将其视为字典或关联数组。</font><font style="vertical-align: inherit;">您可以随时添加它。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">JinJin乐</span>
@@ -56,9 +54,7 @@ topic: JavaScript
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">但是，散布运算符使用浅表复制，但此处我们将数据分配给自身，因此应该不会丢失</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">逆天GO</span>
@@ -142,9 +138,7 @@ WriteValue("object.subobject.property",5,o);<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这与o.object.subobject.property相同</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">GOItachi</span>
@@ -158,9 +152,7 @@ Object.defineProperty(ob, varFieldName , { value: "Fresh Value" });<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">根据#abeing答案！</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">古一老丝宝儿</span>
@@ -185,9 +177,7 @@ defineProp( data, "PropertyC",  3 );<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">参考：</font><a href="http://addyosmani.com/resources/essentialjsdesignpatterns/book/#constructorpatternjavascript"><font style="vertical-align: inherit;">http</font></a><font style="vertical-align: inherit;"> : </font></font><a href="http://addyosmani.com/resources/essentialjsdesignpatterns/book/#constructorpatternjavascript"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">//addyosmani.com/resources/essentialjsdesignpatterns/book/#constructorpatternjavascript</font></font></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">老丝镜风</span>
@@ -208,9 +198,7 @@ personIndex[ personId ]; // "John Doe"<font></font>
 <hr>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">参考：</font></font><a href="https://github.com/nzakas/understandinges6/blob/master/manuscript/03-Objects.md#computed-property-names"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">了解ECMAScript 6-Nickolas Zakas</font></font></a></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

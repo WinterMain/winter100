@@ -68,7 +68,7 @@ $text: $brand !default; // $text = red (desired behavior)<font></font>
 <p>So that solution is <strong><em>almost</em></strong> perfect. <strong><em>However</em></strong>, now in my override files, I don't have access to variables defined in Bootstrap's _variables.scss, which I would need if I wanted to define my variable overrides (or my own additional custom variables) using other Bootstrap variables. For example, I might want to do: <code>$custom-var: $grid-gutter-width / 2;</code></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第3914篇《Bootstrap SASS变量覆盖挑战》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第3914篇《Bootstrap SASS变量覆盖挑战》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -93,9 +93,7 @@ $text: $brand !default; // $text = red (desired behavior)<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">它按预期工作。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">凯西里</span>
@@ -127,9 +125,7 @@ $text: $brand !default; // $text = red (desired behavior)<font></font>
 <li>You need to copy all the variable declarations from bootstrap <code>_variables</code> into <code>app-variables</code> and <code>client-variables</code> so you can have a custom variable as you wanted. (Disadvantage is that it is harder to maintain on every bootstrap update)</li>
 <li>All variables are now available in your <code>app-mixins</code> and <code>client-mixins</code></li>
 </ul></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">LGil</span>
@@ -146,9 +142,7 @@ $text: $brand !default; // $text = red (desired behavior)<font></font>
     @import "bootstrap/scss/bootstrap-flex";
     @import "mixins/module";
 </code></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">蛋蛋</span>
@@ -280,9 +274,7 @@ a {<font></font>
 </code></pre>
 
 <p>The second <code>@debug</code> will indeed correctly print <code>black</code>.</p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

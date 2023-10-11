@@ -22,7 +22,7 @@ topic: Node.js
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我想知道是否有任何方法可以摆脱此标头，还是我必须忍受它？</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第3432篇《无法摆脱标头X-Powered-By：Express》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第3432篇《无法摆脱标头X-Powered-By：Express》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -35,9 +35,7 @@ topic: Node.js
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">阅读代码</font></font><a href="https://github.com/visionmedia/express/blob/master/lib/http.js#L72" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">https://github.com/visionmedia/express/blob/master/lib/http.js#L72</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">使我认为您将不得不使用它，因为它似乎不是有条件的。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果您有nginx / apache前端，您仍然可以删除标头（对于Apache和modsheaders，标头-对于nginx，更多）</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">理查德小小</span>
@@ -52,9 +50,7 @@ topic: Node.js
     });<font></font>
 });<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">达蒙</span>
@@ -67,9 +63,7 @@ topic: Node.js
   next()<font></font>
 })<font></font>
 </code></pre></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

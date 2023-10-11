@@ -27,7 +27,7 @@ topic: Webpack
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">有没有办法使用webpack或有人编写的插件来做到这一点？</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第4207篇《如何在不使用require语句的情况下使用webpack加载目录中的所有文件》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第4207篇《如何在不使用require语句的情况下使用webpack加载目录中的所有文件》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -48,9 +48,7 @@ topic: Webpack
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">由这篇文章提供：</font><a href="https://github.com/webpack/webpack/issues/118"><font style="vertical-align: inherit;">https</font></a><font style="vertical-align: inherit;"> : </font></font><a href="https://github.com/webpack/webpack/issues/118"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">//github.com/webpack/webpack/issues/118</font></font></a></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">现在正在添加我的所有文件。</font><font style="vertical-align: inherit;">我有一个用于html和css的加载器，它似乎工作得很好。</font></font></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

@@ -17,7 +17,7 @@ topic: CSS
     <div class="article-content"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我正在使用CMS，但我只能访问CSS文件。</font><font style="vertical-align: inherit;">因此，我不能在文档的标题中包含任何内容。</font><font style="vertical-align: inherit;">我想知道是否可以从CSS文件中导入Web字体？</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第3499篇《如何在CSS文件中导入Google Web字体？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第3499篇《如何在CSS文件中导入Google Web字体？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -30,9 +30,7 @@ topic: CSS
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我们可以在css3中轻松地做到这一点。</font><font style="vertical-align: inherit;">我们必须简单地使用@import语句。</font><font style="vertical-align: inherit;">以下视频轻松地描述了如何做到这一点。</font><font style="vertical-align: inherit;">所以请继续注意。</font></font></p>
 
 <p><a href="https://www.youtube.com/watch?v=wlPr6EF6GAo" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">https://www.youtube.com/watch?v=wlPr6EF6GAo</font></font></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">宝儿</span>
@@ -42,9 +40,7 @@ topic: CSS
 </font></font><a href="http://www.css3.info/preview/web-fonts-with-font-face/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">http://www.css3.info/preview/web-fonts-with-font-face/</font></font></a></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">CMS是否支持iframe？</font><font style="vertical-align: inherit;">您也可以将iframe放入内容的顶部。</font><font style="vertical-align: inherit;">这可能会比较慢-最好将其包含在CSS中。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">猪猪小小</span>
@@ -70,9 +66,7 @@ type="text/css"&gt;<font></font>
 
 <pre><code>&lt;h2 style="Lobster"&gt;Please Like This Answer&lt;/h2&gt;
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">番长樱梅</span>
@@ -82,9 +76,7 @@ type="text/css"&gt;<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">最好不要使用@import。</font><font style="vertical-align: inherit;">只需在布局的头部使用link元素（如上所示）即可。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">老丝</span>
@@ -96,9 +88,7 @@ type="text/css"&gt;<font></font>
 <li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">转到选定的字体&gt;嵌入&gt; @IMPORT&gt;复制URL，然后将其粘贴到body标签上方的.css文件中。</font></font></li>
 <li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">完成。</font></font></li>
 </ol></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

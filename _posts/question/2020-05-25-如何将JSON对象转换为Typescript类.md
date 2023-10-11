@@ -21,7 +21,7 @@ topic: TypeScript
 <p><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">更新：</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">但是，您可以</font></font><a href="https://stackoverflow.com/questions/13320568/can-i-create-a-typescript-type-and-use-that-when-ajax-returns-json-data/13320802#13320802"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">将其转换为TypeScript界面！</font></font></a></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第4172篇《如何将JSON对象转换为Typescript类》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第4172篇《如何将JSON对象转换为Typescript类》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -39,9 +39,7 @@ topic: TypeScript
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">ILocationMap在哪里描述数据的形状。</font><font style="vertical-align: inherit;">此方法的优点是您的JSON可以包含更多属性，但形状可以满足接口的条件。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">希望对您有所帮助！</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">仲羽蛋蛋</span>
@@ -65,9 +63,7 @@ topic: TypeScript
               </span><span class="pun">};</span><span class="pln">
 
 </span><span class="typ">MapUtils</span><span class="pun">.</span><span class="pln">deserialize</span><span class="pun">(</span><span class="typ">Person</span><span class="pun">,</span><span class="pln"> example</span><span class="pun">);</span><span class="pln">  </span><span class="com">// custom class</span></code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">JinJin</span>
@@ -93,9 +89,7 @@ service</span><span class="pun">.</span><span class="pln">getClientFromAPI</span
 </span><span class="pun">})</span></code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">但是</font><font style="vertical-align: inherit;">，遗憾的是，</font><font style="vertical-align: inherit;">这种方式</font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">对嵌套对象无效</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">GO</span>
@@ -110,9 +104,7 @@ service</span><span class="pun">.</span><span class="pln">getClientFromAPI</span
 </span><span class="kwd">return</span><span class="pln"> fooInstance</span><span class="pun">;</span></code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">它支持嵌套的子级，但是您必须装饰类的成员。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Mandy</span>
@@ -133,9 +125,7 @@ service</span><span class="pun">.</span><span class="pln">getClientFromAPI</span
 
 <pre class="lang-js prettyprint prettyprinted" style=""><code><span class="kwd">var</span><span class="pln"> d </span><span class="pun">=</span><span class="pln"> </span><span class="kwd">new</span><span class="pln"> </span><span class="typ">MyRichObject</span><span class="pun">();</span><span class="pln">
 d</span><span class="pun">.</span><span class="pln">copyInto</span><span class="pun">(</span><span class="pln">jsonResult</span><span class="pun">);</span></code></pre></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

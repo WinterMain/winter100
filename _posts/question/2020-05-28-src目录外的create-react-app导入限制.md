@@ -26,7 +26,7 @@ topic: Webpack
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我读过很多东西，说您可以导入路径，但对我来说仍然行不通。</font><font style="vertical-align: inherit;">任何帮助将不胜感激。</font><font style="vertical-align: inherit;">我知道有很多这样的问题，但是它们都告诉我要导入徽标或图像，因此很明显我在全局图中缺少某些内容。</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第4185篇《src目录外的create-react-app导入限制》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第4185篇《src目录外的create-react-app导入限制》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -58,18 +58,14 @@ module</span><span class="pun">.</span><span class="pln">exports </span><span cl
 <div class="snippet-result"><div class="snippet-ctas"><button type="button" class="s-btn s-btn__primary"><span class="icon-play-white _hover"></span><span><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> 运行代码段</font></font></span></button><input class="copySnippet s-btn s-btn__filled" type="button" value="Copy snippet to answer" style="display: none;"><button type="button" class="s-btn hideResults" style="display: none;">Hide results</button><div class="popout-code"><a class="snippet-expand-link"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">展开摘要</font></font></a></div></div><div class="snippet-result-code" style="display: none;"><iframe name="sif1" sandbox="allow-forms allow-modals allow-scripts" class="snippet-box-edit snippet-box-result" frameborder="0"></iframe></div></div></div>
 </div>
 <p></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">启人</span>
             <span class="discuss-time">2020.05.28</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">最好的解决方案是fork </font></font><code>react-scripts</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，实际上在官方文档中提到过，请参阅：</font></font><a href="https://facebook.github.io/create-react-app/docs/alternatives-to-ejecting" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">弹出的替代方法</font></font></a> </p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Vicky</span>
@@ -91,9 +87,7 @@ module</span><span class="pun">.</span><span class="pln">exports </span><span cl
 
   </span><span class="kwd">return</span><span class="pln"> config</span><span class="pun">;</span><span class="pln">
 </span><span class="pun">};</span></code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">武藏</span>
@@ -112,18 +106,14 @@ module</span><span class="pun">.</span><span class="pln">exports </span><span cl
 
   </span><span class="kwd">return</span><span class="pln"> config</span><span class="pun">;</span><span class="pln">
 </span><span class="pun">};</span></code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">猪猪</span>
             <span class="discuss-time">2020.05.28</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">您需要</font></font><code>WC-BlackonWhite.jpg</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">进入</font></font><code>src</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">目录。</font><font style="vertical-align: inherit;">该</font></font><code>public</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">目录用于将直接在HTML中链接的静态文件（例如favicon），而不是要直接导入捆绑包中的内容。</font></font></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

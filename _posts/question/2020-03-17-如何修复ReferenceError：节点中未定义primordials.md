@@ -30,7 +30,7 @@ ReferenceError: primordials is not defined<font></font>
 </code></pre></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第1927篇《如何修复ReferenceError：节点中未定义primordials》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第1927篇《如何修复ReferenceError：节点中未定义primordials》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -41,9 +41,7 @@ ReferenceError: primordials is not defined<font></font>
             <span class="discuss-time">2020.03.17</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我使用的是节点v12.13.1，因此我已降级到v10.19.0，之后工作正常。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">路易逆天</span>
@@ -51,9 +49,7 @@ ReferenceError: primordials is not defined<font></font>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">卸载节点并使用给定的链接重新安装它。
 </font></font><a href="https://nodejs.org/en/download/" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">https://nodejs.org/en/download/</font></font></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">ProL</span>
@@ -63,36 +59,28 @@ ReferenceError: primordials is not defined<font></font>
 
 <pre><code>npm install gulp@^3.9.1
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Itachi神无</span>
             <span class="discuss-time">2020.03.17</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我遇到了同样的问题。</font><font style="vertical-align: inherit;">我为我努力的工作：-1）。</font><font style="vertical-align: inherit;">检查NODE和GULP的版本（节点v12和gulp小于v4的组合不起作用）2）。</font><font style="vertical-align: inherit;">我通过以下命令降级npm版本：#sudo npm install -gn #sudo n 10.16.0正常，然后按照您的consol的说明进行操作</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">村村老丝</span>
             <span class="discuss-time">2020.03.17</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果您尝试安装</font></font><code>semantic-ui</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">并且发生以下错误，请尝试</font></font><code>js(13.5.0)</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">从nodejs.org </font><font style="vertical-align: inherit;">下载</font><font style="vertical-align: inherit;">具有最新功能</font><font style="vertical-align: inherit;">的最新版本的node </font><font style="vertical-align: inherit;">。此外，除了尝试使用npm install语义外，您还应该添加链接（可以从</font></font><a href="https://cdnjs.com/libraries/semantic-ui" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">cdnjs中</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">找到）</font><a href="https://cdnjs.com/libraries/semantic-ui" rel="nofollow noreferrer"><font style="vertical-align: inherit;">链接</font></a><font style="vertical-align: inherit;">到</font></font><code>index.html</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">文件</font><font style="vertical-align: inherit;">的标题</font><font style="vertical-align: inherit;">。祝</font><font style="vertical-align: inherit;">您</font><font style="vertical-align: inherit;">好运！</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">村村小小十三</span>
             <span class="discuss-time">2020.03.17</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">通过降级解决从Node.js的版本</font></font><code>12.14.0</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">到</font></font><code>10.18.0</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">并重新安装node_modules</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">神奇斯丁</span>
@@ -104,9 +92,7 @@ ReferenceError: primordials is not defined<font></font>
 <li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">升级到gulp 4或其他 </font></font></li>
 <li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">降级到较早的节点版本。</font></font></li>
 </ol></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">JinJinGil</span>
@@ -125,18 +111,14 @@ ReferenceError: primordials is not defined<font></font>
 </ol>
 
 <p><a href="https://blog.icetutor.com/how-to-fix-referenceerror-primordials-is-not-defined-error/" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">是选项3的示例</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">凯理查德番长</span>
             <span class="discuss-time">2020.03.17</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">将节点升级到版本12后，我遇到此错误，该版本不适用于Gulp 3.9.1。</font><font style="vertical-align: inherit;">关于我的gulpfile.js并不那么复杂的事实，我决定使用</font></font><a href="https://www.sitepoint.com/how-to-migrate-to-gulp-4/" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">本文</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">升级到Gulp 4 </font><font style="vertical-align: inherit;">，它进行得很好，并且比我想象的要容易得多。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">泡芙路易</span>
@@ -145,9 +127,7 @@ ReferenceError: primordials is not defined<font></font>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">因为使用s3 npm包时也会出现此错误。</font><font style="vertical-align: inherit;">所以问题出在graceful-fs软件包上，我们需要对其进行更新。</font><font style="vertical-align: inherit;">它在4.2.3上工作正常。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">因此，只需查看它在日志跟踪中显示的npm软件包，并相应地将graceful-fs更新为4.2.3。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">逆天理查德</span>
@@ -158,27 +138,21 @@ ReferenceError: primordials is not defined<font></font>
 <blockquote>
   <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">npm install --python =〜/ venv / bin / python</font></font></p>
 </blockquote></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">乐米亚</span>
             <span class="discuss-time">2020.03.17</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我在Gulp 3的Node 12/13上也遇到错误，移至Node 11正常</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">GO小胖GO</span>
             <span class="discuss-time">2020.03.17</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">升级到4.0.1，并确保迁移</font></font><a href="https://fettblog.eu/gulp-4-parallel-and-series/#migration" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">https://fettblog.eu/gulp-4-parallel-and-series/#migration</font></font></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">SamStafan十三</span>
@@ -187,9 +161,7 @@ ReferenceError: primordials is not defined<font></font>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Gulp在Nodejs 11及更高版本中出现了问题。</font><font style="vertical-align: inherit;">卸载当前节点版本，然后重新安装v10.15.1，此处是该版本的链接。</font><font style="vertical-align: inherit;">这对我有帮助，也可以解决您的问题。</font></font></p>
 
 <p><a href="https://nodejs.org/download/release/v10.15.1/" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">https://nodejs.org/download/release/v10.15.1/</font></font></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">蛋蛋GO</span>
@@ -201,9 +173,7 @@ ReferenceError: primordials is not defined<font></font>
 n 11.15.0<font></font>
 yarn install # have to install again<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">米亚小小神乐</span>
@@ -214,9 +184,7 @@ yarn install # have to install again<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">然后我从</font><a href="https://nodejs.org/download/release/v11.15.0/" rel="nofollow noreferrer"><font style="vertical-align: inherit;">https://nodejs.org/download/release/v11.15.0/</font></a><font style="vertical-align: inherit;">安装了11.15.0版</font></font><a href="https://nodejs.org/download/release/v11.15.0/" rel="nofollow noreferrer"><font style="vertical-align: inherit;"></font></a></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果您正在运行Windows 64位，请选择node-v11.15.0-x64.msi。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">西里老丝</span>
@@ -236,9 +204,7 @@ npm ERR! Please include the following file with any support request:<font></font
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">删除</font></font><code>C:\Users\{user}\AppData\Roaming\npm</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">文件夹解决了我的问题。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小胖GO</span>
@@ -247,9 +213,7 @@ npm ERR! Please include the following file with any support request:<font></font
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">降级为节点稳定版为我解决了此问题，因为在升级到节点12之后发生了此问题</font></font></p>
 
 <p><code>sudo n 10.16.0</code></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">十三GreenTony</span>
@@ -283,9 +247,7 @@ npm ERR! Please include the following file with any support request:<font></font
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">要了解有关应用这些新功能的更多信息，此</font></font><a href="https://www.sitepoint.com/how-to-migrate-to-gulp-4/" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">站点</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">确实做到了合理：</font><a href="https://www.sitepoint.com/how-to-migrate-to-gulp-4/" rel="nofollow noreferrer"><font style="vertical-align: inherit;">https</font></a><font style="vertical-align: inherit;"> : </font></font><a href="https://www.sitepoint.com/how-to-migrate-to-gulp-4/" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">//www.sitepoint.com/how-to-migrate-to-gulp-4/</font></font></a> </p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">（</font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果有帮助，请留下重击</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">）</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">MandyEva</span>
@@ -302,9 +264,7 @@ npm ERR! Please include the following file with any support request:<font></font
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在heroku上部署时出现此错误。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">以获得更多结帐</font></font><a href="https://devcenter.heroku.com/articles/nodejs-support#specifying-a-node-js-version" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Heroku支持</font></font></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">达蒙阳光</span>
@@ -315,9 +275,7 @@ npm ERR! Please include the following file with any support request:<font></font
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">从1月开始的以前的解决方法也不起作用：</font><a href="https://github.com/gulpjs/gulp/issues/2246" rel="noreferrer"><font style="vertical-align: inherit;">https</font></a><font style="vertical-align: inherit;"> : </font></font><a href="https://github.com/gulpjs/gulp/issues/2246" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">//github.com/gulpjs/gulp/issues/2246</font></font></a></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">解决方案：升级到gulp 4或降级到较早的节点。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">斯丁阳光</span>
@@ -337,9 +295,7 @@ sudo n 11.15.0<font></font>
 </blockquote>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">来自@Terje Norderhaug @Tom Corelis的引用。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">十三Itachi</span>
@@ -360,9 +316,7 @@ npm rebuild node-sass<font></font>
 
 <pre><code>ReferenceError: primordials is not defined in node
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">凯老丝</span>
@@ -375,9 +329,7 @@ $ nvm install lts/dubnium<font></font>
 $ nvm use lts/dubnium<font></font>
 $ yarn upgrade # or `npm install`<font></font>
 </code></pre></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

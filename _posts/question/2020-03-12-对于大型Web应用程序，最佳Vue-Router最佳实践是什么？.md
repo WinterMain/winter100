@@ -27,7 +27,7 @@ topic: Vue.js
 </ol></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第1139篇《对于大型Web应用程序，最佳Vue-Router最佳实践是什么？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第1139篇《对于大型Web应用程序，最佳Vue-Router最佳实践是什么？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -40,9 +40,7 @@ topic: Vue.js
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Nuxt可以帮助您。</font><font style="vertical-align: inherit;">它会动态将您的文件夹Structur生成为路由器配置文件。</font><font style="vertical-align: inherit;">看看</font></font><a href="https://nuxtjs.org/guide/routing" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">https://nuxtjs.org/guide/routing</font></font></a></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">它具有比路由更多的帮助功能。</font><font style="vertical-align: inherit;">但特别是对于大型应用程序，通常在nuxt上设置一个想法</font></font></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

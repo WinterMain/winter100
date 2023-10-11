@@ -17,7 +17,7 @@ topic: JavaScript
     <div class="article-content"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如何</font></font><code>onclick</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">使用JavaScript </font><font style="vertical-align: inherit;">响应</font><font style="vertical-align: inherit;">事件来</font><font style="vertical-align: inherit;">更改HTML元素的类</font><font style="vertical-align: inherit;">？</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第173篇《如何使用JavaScript更改元素的类？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第173篇《如何使用JavaScript更改元素的类？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -48,9 +48,7 @@ topic: JavaScript
 </ul>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">祝好运。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">古一古一</span>
@@ -69,9 +67,7 @@ topic: JavaScript
     elm.style.color = "#fff";<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">梅古一</span>
@@ -102,9 +98,7 @@ topic: JavaScript
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">您可以从此</font></font><a href="http://ownanswers.com/question/add-remove-and-replace-class-in-javascript/" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">链接</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">下载工作代码</font><font style="vertical-align: inherit;">。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">老丝Eva</span>
@@ -128,9 +122,7 @@ topic: JavaScript
 
 <pre><code>classed(document.getElementById("denis"), "active", false)
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">猴子Davaid</span>
@@ -168,9 +160,7 @@ goButton.addEventListener("click", function() {<font></font>
 </div>
 </div>
 <p></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Itachi米亚斯丁</span>
@@ -198,9 +188,7 @@ function addClassName(classNameS, toElement){<font></font>
   s.push(c); toElement.className = s.join(' ');<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">布雷西</span>
@@ -226,9 +214,7 @@ function delClass(el, cn) {<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">您也可以</font><font style="vertical-align: inherit;">在现代浏览器中</font><font style="vertical-align: inherit;">使用</font></font><a href="https://developer.mozilla.org/en-US/docs/Web/API/Element.classList" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">element.classList</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">斯丁理查德</span>
@@ -248,9 +234,7 @@ function delClass(el, cn) {<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">是的，您确实需要在页面中添加对jQuery库的引用才能使用此代码，但是至少您可以确信该库中的大多数功能将在几乎所有现代浏览器上都可以使用，并且可以节省实施时间您自己的代码也可以这样做。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">谢谢</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">神乐Near</span>
@@ -269,9 +253,7 @@ goog.dom.classes.remove(element, var_args)<font></font>
 
 <pre><code>var myElement = goog.dom.query("#MyElement")[0];
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">番长村村</span>
@@ -286,9 +268,7 @@ goog.dom.classes.remove(element, var_args)<font></font>
     currTabElem.setAttribute("className", "some_class_name");<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

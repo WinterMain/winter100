@@ -19,7 +19,7 @@ topic: JavaScript
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果不是内置的，我唯一的想法就是为每个字符创建一个宽度表，但这是非常不合理的，特别是支持</font></font><a href="http://en.wikipedia.org/wiki/Unicode" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Unicode</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">和不同类型的大小（以及与此相关的所有浏览器）。</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第1509篇《使用JavaScript计算文字宽度》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第1509篇《使用JavaScript计算文字宽度》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -79,9 +79,7 @@ $("#result3")<font></font>
              $("#test3").text(),<font></font>
              $("#test3").css("font")) + " px");<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">路易达蒙</span>
@@ -98,9 +96,7 @@ $("#result3")<font></font>
     return range.getBoundingClientRect().width;<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">LEY老丝</span>
@@ -148,9 +144,7 @@ function GetTextSizeForWidth( text, font, width, minFontPx, maxFontPx )<font></f
     }<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小小神奇</span>
@@ -169,9 +163,7 @@ obj.style.height = (tmpRect.bottom - tmpRect.top).toString() + "px"; <font></fon
 return Ret;<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">古一GO</span>
@@ -191,9 +183,7 @@ var height = element.clientHeight;<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">不需要位于a之内</font></font><code>div</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，可以位于a </font></font><code>p</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">或a之内</font></font><code>span</code></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">达蒙老丝</span>
@@ -214,9 +204,7 @@ var height = element.clientHeight;<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">那个丑陋的巨大数组是由字符代码索引的ASCII字符宽度。</font><font style="vertical-align: inherit;">因此，这仅支持ASCII（否则假定平均字符宽度）。</font><font style="vertical-align: inherit;">幸运的是，宽度基本上与字体大小成线性比例，因此在任何字体大小下都可以很好地工作。</font><font style="vertical-align: inherit;">显然，它对字距调整或连字等均缺乏任何了解。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">为了“校准”，我只是在svg上将每个字符渲染到charCode 126（强大的波浪号），并得到了边界框并将其保存到此数组中；</font></font><a href="https://bl.ocks.org/tophtucker/62f93a4658387bb61e4510c37e2e97cf" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">更多代码，解释和演示在这里</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">神乐Tony</span>
@@ -266,9 +254,7 @@ $(".places").each(function (index, item) {<font></font>
     }<font></font>
 });<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">古一村村</span>
@@ -282,9 +268,7 @@ var textWidth = document.getElementById("text").offsetWidth;<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">只要&lt;span&gt;标记没有应用其他样式，它就应该起作用。</font><font style="vertical-align: inherit;">offsetWidth将包括任何边框的宽度，水平填充，垂直滚动条的宽度等。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">凯斯丁</span>
@@ -316,9 +300,7 @@ var textWidth = document.getElementById("text").offsetWidth;<font></font>
     ...<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小哥猴子</span>
@@ -327,9 +309,7 @@ var textWidth = document.getElementById("text").offsetWidth;<font></font>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">该</font></font><a href="https://www.sencha.com/products/extjs/" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">ExtJS的JavaScript库</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">有一个名为Ext.util.TextMetrics说，“为文本块精确测量像素，让您可以准确确定的高和宽，以像素为单位，文本的给定块将是”一个伟大的阶级。</font><font style="vertical-align: inherit;">您可以直接使用它，也可以查看其源代码以查看其完成方式。</font></font></p>
 
 <p><a href="http://docs.sencha.com/extjs/6.5.3/modern/Ext.util.TextMetrics.html" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">http://docs.sencha.com/extjs/6.5.3/modern/Ext.util.TextMetrics.html</font></font></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">猴子神乐</span>
@@ -366,9 +346,7 @@ function measureText(pText, pFontSize, pStyle) {<font></font>
     return lResult;<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">十三Mandy</span>
@@ -412,9 +390,7 @@ console.log(getTextWidth("hello there!", "bold 12pt arial"));  // close to 86<fo
 <p>NOTE 2: On some browsers, this method yields sub-pixel accuracy (result is a floating point number), on others it does not (result is only an int). You might want to run <code>Math.floor</code> (or <code>Math.ceil</code>) on the result, to avoid inconsistencies. Since the DOM-based method is never sub-pixel accurate, this method has even higher precision than the other methods here.</p>
 
 <p>According to <a href="http://jsperf.com/measure-text-width/4" rel="noreferrer">this jsperf</a> (thanks to the contributors in comments), the <em>Canvas method</em> and the <em>DOM-based method</em> are about equally fast, if caching is added to the <em>DOM-based method</em> and you are not using Firefox. In Firefox, for some reason, this <em>Canvas method</em> is much much faster than the <em>DOM-based method</em> (as of September 2014).</p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">老丝村村Stafan</span>
@@ -445,9 +421,7 @@ console.log(height, width);</code></pre>
 </div>
 </div>
 <p></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

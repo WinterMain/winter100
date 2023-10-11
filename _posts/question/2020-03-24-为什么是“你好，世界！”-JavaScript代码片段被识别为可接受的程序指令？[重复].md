@@ -49,7 +49,7 @@ hello, world!<font></font>
 <p>How does this work? Why is this behaviour possible in a browser and why does Node.js automatically format it?</p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第3701篇《为什么是“你好，世界！” JavaScript代码片段被识别为可接受的程序指令？[重复]》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第3701篇《为什么是“你好，世界！” JavaScript代码片段被识别为可接受的程序指令？\[重复\]》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -67,9 +67,7 @@ hello, world!<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">凡</font></font><code>...</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在字符串字面量是字节</font></font><code>E2 80 AE</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，这是自右至左的优先Unicode字符，这会导致其后的所有反向显示。</font><font style="vertical-align: inherit;">它用于编写从右到左的语言，例如阿拉伯语或希伯来语。</font></font></p>
 
 <p><a href="https://i.stack.imgur.com/m9zTd.png" rel="noreferrer"><img src="https://i.stack.imgur.com/m9zTd.png" alt="十六进制编辑器是您的朋友"></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">老丝阿飞</span>
@@ -78,9 +76,7 @@ hello, world!<font></font>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">您有隐藏的字符使文本反转。</font><font style="vertical-align: inherit;">在这里您可以看到原始字符：</font><a href="https://www.soscisurvey.de/tools/view-chars.php" rel="noreferrer"><font style="vertical-align: inherit;">https</font></a><font style="vertical-align: inherit;"> : </font></font><a href="https://www.soscisurvey.de/tools/view-chars.php" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">//www.soscisurvey.de/tools/view-chars.php</font></font></a></p>
 
 <p><a href="https://i.stack.imgur.com/bj9N3.png" rel="noreferrer"><img src="https://i.stack.imgur.com/bj9N3.png" alt="在此处输入图片说明"></a></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

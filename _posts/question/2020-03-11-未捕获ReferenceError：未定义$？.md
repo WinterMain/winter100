@@ -38,7 +38,7 @@ topic: JavaScript
 </code></pre></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第777篇《未捕获ReferenceError：未定义$？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第777篇《未捕获ReferenceError：未定义$？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -51,9 +51,7 @@ topic: JavaScript
           <div class="discuss-comment"><pre><code>var $ = jQuery;<font></font>
 jQuery(document).ready(function($){<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Stafan古一</span>
@@ -64,9 +62,7 @@ jQuery(document).ready(function($){<font></font>
 <p><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">测试/调试目的::</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">您可以尝试在浏览器上访问“ jquery-script” URL。</font><font style="vertical-align: inherit;">如果可访问，则您的页面应正确加载，否则将显示上述错误（或其他与脚本相关的错误）。</font><font style="vertical-align: inherit;">示例- </font><font style="vertical-align: inherit;">在浏览器上（或浏览器上下文姿态），应该可以访问</font></font><a href="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我有类似的问题，其中我可以在Windows主机浏览器中加载html页（使用脚本），但无法加载vm-ubuntu。</font><font style="vertical-align: inherit;">解决网络问题，问题得到解决。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">gia</span>
@@ -80,9 +76,7 @@ bmi_SafeAddOnload(bmi_load,"bmi_orig_img");//--&gt;<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">当我连接到正确的wifi连接时，一切似乎都能为我找到。</font><font style="vertical-align: inherit;">希望这可以帮助某人。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">路易理查德</span>
@@ -93,9 +87,7 @@ bmi_SafeAddOnload(bmi_load,"bmi_orig_img");//--&gt;<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我有类似的问题，你知道吗，这是因为</font><font style="vertical-align: inherit;">当我在android设备webview中测试时</font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">网络断开了</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，我没有意识到，并且本地js加载没有问题，因为它不需要网络。</font><font style="vertical-align: inherit;">看起来很荒谬，但是却花了我大约1个小时来弄清楚它。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">逆天乐樱</span>
@@ -106,18 +98,14 @@ bmi_SafeAddOnload(bmi_load,"bmi_orig_img");//--&gt;<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">REST API调用失败，并且此后中断了库的加载。</font><font style="vertical-align: inherit;">由于失败是来自REST调用的，因此没有给我php编译错误。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果可以加载jquery，也可以选择保留此选项。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">西里米亚</span>
             <span class="discuss-time">2020.03.11</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我有一个类似的问题，这是因为我在样式表链接上缺少结束符&gt;。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">前端猴子</span>
@@ -129,27 +117,21 @@ bmi_SafeAddOnload(bmi_load,"bmi_orig_img");//--&gt;<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">早些时候，我只包含了导致此错误的jquery-mobile。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Jim老丝猪猪</span>
             <span class="discuss-time">2020.03.11</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">h！</font><font style="vertical-align: inherit;">我在标签中混用了引号，导致jquery引用中断。</font><font style="vertical-align: inherit;">在Chrome浏览器中进行了检查，使我看到文件未正确链接。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">现，在</span>
             <span class="discuss-time">2020.03.11</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我修改了脚本标记以指向正确的内容，并在编辑器中将脚本顺序更改为正确的顺序。</font><font style="vertical-align: inherit;">但是完全忘记保存更改。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">米亚JinJin樱</span>
@@ -163,9 +145,7 @@ bmi_SafeAddOnload(bmi_load,"bmi_orig_img");//--&gt;<font></font>
 </ol>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">所以要遵循的三件事-检查是否添加了必需的脚本，检查是否以必需的顺序添加了它，并且在Java脚本中出现了第三种语法错误。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">逆天泡芙</span>
@@ -181,9 +161,7 @@ bmi_SafeAddOnload(bmi_load,"bmi_orig_img");//--&gt;<font></font>
 
 <pre><code>&lt;script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"&gt;&lt;/script&gt;
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">卡卡西梅Harry</span>
@@ -194,9 +172,7 @@ bmi_SafeAddOnload(bmi_load,"bmi_orig_img");//--&gt;<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">之前 </font></font><code>src="/scripts/jquery.js"</code></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">后 &nbsp;&nbsp; </font></font><code>src="scripts/jquery.js"</code></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">斯丁泡芙</span>
@@ -216,9 +192,7 @@ bmi_SafeAddOnload(bmi_load,"bmi_orig_img");//--&gt;<font></font>
 </code></pre>
 
 <p><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">2，</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在</font></font><code>_Layout.cshtml</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">页面add中</font></font><code>@RenderSection("Scripts", required: false)</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，确保在引用Jquery源代码后将其放入，这将使您的JS代码晚于Jquery呈现。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Green蛋蛋</span>
@@ -234,9 +208,7 @@ bmi_SafeAddOnload(bmi_load,"bmi_orig_img");//--&gt;<font></font>
     &lt;/system.web&gt;<font></font>
   &lt;/location&gt;<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">EvaGO樱</span>
@@ -255,9 +227,7 @@ bmi_SafeAddOnload(bmi_load,"bmi_orig_img");//--&gt;<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">希望将来能对您有所帮助。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Mandy神乐</span>
@@ -274,9 +244,7 @@ bmi_SafeAddOnload(bmi_load,"bmi_orig_img");//--&gt;<font></font>
 
 <pre><code>&lt;script src="js/script.js"&gt;&lt;/script&gt;
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">猴子Near</span>
@@ -320,18 +288,14 @@ jQuery(document).ready(function($){<font></font>
 });<font></font>
 &lt;/script&gt;<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">凯泡芙Davaid</span>
             <span class="discuss-time">2020.03.11</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我遇到了完全相同的问题，上述所有解决方案均无济于事。</font><font style="vertical-align: inherit;">但是，我只是在</font></font><code>.css</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">文件</font><font style="vertical-align: inherit;">链接</font><font style="vertical-align: inherit;">后</font><font style="vertical-align: inherit;">链接</font></font><code>.js</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">文件，问题奇迹般地消失了。</font><font style="vertical-align: inherit;">希望这可以帮助。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">GO前端</span>
@@ -348,9 +312,7 @@ jQuery(document).ready(function($){<font></font>
 <pre><code>&lt;script src="js/jquery-1.10.2.js"&gt;&lt;/script&gt;<font></font>
 &lt;script src="js/index.js"&gt;&lt;/script&gt;<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">泡芙Pro</span>
@@ -363,9 +325,7 @@ jQuery(document).ready(function($){<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">就我而言，这是因为我正在通过安全的HTTPS连接访问内容，而该页面试图从google等下载CDN托管数据。解决方案是将它们存储在本地，然后直接包含而不是从每次CDN。</font></font></p>
 
 <p><em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">编辑</font></font></em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">：执行此操作的另一种方法是以https：//而不是http：//的形式链接到所有CDN托管的内容-然后该模型不会抱怨。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">前端L小小</span>
@@ -378,9 +338,7 @@ jQuery(document).ready(function($){<font></font>
 &lt;script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"&gt;&lt;/script&gt;<font></font>
 &lt;script src="exponential.js"&gt;&lt;/script&gt;<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Near神奇</span>
@@ -397,9 +355,7 @@ jQuery(document).ready(function($){<font></font>
 </code></pre>
 
 <p><em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">然后</font></font></em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">它起作用了。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">十三理查德</span>
@@ -416,18 +372,14 @@ jQuery(document).ready(function($){<font></font>
 
 <pre><code>&lt;script src="js/custom.js" type="text/javascript"&gt;&lt;/script&gt;
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">NearPro</span>
             <span class="discuss-time">2020.03.11</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在包含jQuery JavaScript之前，您正在调用ready函数。</font><font style="vertical-align: inherit;">首先参考jQuery。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Itachi猪猪Green</span>
@@ -439,9 +391,7 @@ jQuery(document).ready(function($){<font></font>
 &lt;script language="JavaScript" type="text/javascript" src="/js/jquery-ui-personalized-1.5.2.packed.js"&gt;&lt;/script&gt;<font></font>
 &lt;script language="JavaScript" type="text/javascript" src="/js/sprinkle.js"&gt;&lt;/script&gt;<font></font>
 </code></pre></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

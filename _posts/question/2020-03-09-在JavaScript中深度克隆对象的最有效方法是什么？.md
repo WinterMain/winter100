@@ -34,10 +34,10 @@ topic: JavaScript
 我很惊讶没有规范的解决方案存在。</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第140篇《在JavaScript中深度克隆对象的最有效方法是什么？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第140篇《在JavaScript中深度克隆对象的最有效方法是什么？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
-    {% raw %}
+    
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -61,9 +61,7 @@ console</span><span class="pun">.</span><span class="pln">log</span><span class=
 console</span><span class="pun">.</span><span class="pln">log</span><span class="pun">(</span><span class="pln">origin</span><span class="pun">,</span><span class="pln"> copy</span><span class="pun">);</span><span class="pln">
 console</span><span class="pun">.</span><span class="pln">log</span><span class="pun">(</span><span class="pln">origin </span><span class="pun">==</span><span class="pln"> copy</span><span class="pun">);</span><span class="pln"> </span><span class="com">// false</span><span class="pln">
 console</span><span class="pun">.</span><span class="pln">log</span><span class="pun">(</span><span class="pln">origin</span><span class="pun">.</span><span class="pln">foo </span><span class="pun">==</span><span class="pln"> copy</span><span class="pun">.</span><span class="pln">foo</span><span class="pun">);</span><span class="pln"> </span><span class="com">// true</span></code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">逆天</span>
@@ -75,9 +73,7 @@ console</span><span class="pun">.</span><span class="pln">log</span><span class=
    </span><span class="kwd">for</span><span class="pln"> </span><span class="pun">(</span><span class="pln">property in obj</span><span class="pun">)</span><span class="pln"> clone</span><span class="pun">[</span><span class="pln">property</span><span class="pun">]</span><span class="pln"> </span><span class="pun">=</span><span class="pln"> obj</span><span class="pun">[</span><span class="pln">property</span><span class="pun">];</span><span class="pln">
    </span><span class="kwd">return</span><span class="pln"> clone</span><span class="pun">;</span><span class="pln">
  </span><span class="pun">}</span></code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">樱小小Tom</span>
@@ -132,9 +128,7 @@ console</span><span class="pun">.</span><span class="pln">log</span><span class=
 <pre class="lang-js prettyprint prettyprinted" style=""><code><span class="kwd">var</span><span class="pln"> deepCopyObj </span><span class="pun">=</span><span class="pln"> _</span><span class="pun">.</span><span class="pln">cloneDeep</span><span class="pun">(</span><span class="pln">obj</span><span class="pun">);</span><span class="pln"> </span><span class="com">//latest version UndescoreJs makes shallow copy</span></code></pre>
 
 <p>Hope these help... </p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">GIZO-俊宏</span>
@@ -155,9 +149,7 @@ console</span><span class="pun">.</span><span class="pln">log</span><span class=
 </span><span class="pun">};</span><span class="pln"> 
 
 </span><span class="typ">Object</span><span class="pun">.</span><span class="pln">defineProperty</span><span class="pun">(</span><span class="pln"> </span><span class="typ">Object</span><span class="pun">.</span><span class="pln">prototype</span><span class="pun">,</span><span class="pln"> </span><span class="str">"clone"</span><span class="pun">,</span><span class="pln"> </span><span class="pun">{</span><span class="pln">value</span><span class="pun">:</span><span class="pln"> clone</span><span class="pun">,</span><span class="pln"> enumerable</span><span class="pun">:</span><span class="pln"> </span><span class="kwd">false</span><span class="pun">});</span></code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">西里宝儿Harry</span>
@@ -175,9 +167,7 @@ console</span><span class="pun">.</span><span class="pln">log</span><span class=
     </span><span class="pun">}</span><span class="pln">
     </span><span class="kwd">return</span><span class="pln"> clone</span><span class="pun">;</span><span class="pln">
 </span><span class="pun">}</span></code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">gia</span>
@@ -213,9 +203,7 @@ console</span><span class="pun">.</span><span class="pln">log</span><span class=
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果您使用的是Javascript ES6，请尝试使用本机方法进行克隆或浅拷贝。</font></font></p>
 
 <pre class="lang-js prettyprint prettyprinted" style=""><code><span class="typ">Object</span><span class="pun">.</span><span class="pln">assign</span><span class="pun">({},</span><span class="pln"> obj</span><span class="pun">);</span></code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">阿飞神乐</span>
@@ -224,9 +212,7 @@ console</span><span class="pun">.</span><span class="pln">log</span><span class=
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">假设您的对象中只有变量，而没有任何函数，则可以使用：</font></font></p>
 
 <pre class="lang-js prettyprint prettyprinted" style=""><code><span class="kwd">var</span><span class="pln"> newObject </span><span class="pun">=</span><span class="pln"> JSON</span><span class="pun">.</span><span class="pln">parse</span><span class="pun">(</span><span class="pln">JSON</span><span class="pun">.</span><span class="pln">stringify</span><span class="pun">(</span><span class="pln">oldObject</span><span class="pun">));</span></code></pre></div>
-        </div>
-        
-      </div>
-    {% endraw %}
+        </div></div>
+    
   </div>
 <div>

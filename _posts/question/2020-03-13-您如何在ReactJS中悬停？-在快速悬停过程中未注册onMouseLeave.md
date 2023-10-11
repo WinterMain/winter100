@@ -98,7 +98,7 @@ React.render(<font></font>
 </code></pre></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第1348篇《您如何在ReactJS中悬停？-在快速悬停过程中未注册onMouseLeave》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第1348篇《您如何在ReactJS中悬停？-在快速悬停过程中未注册onMouseLeave》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -126,9 +126,7 @@ function myComponent() {<font></font>
   )<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">樱Itachi</span>
@@ -157,9 +155,7 @@ render{<font></font>
   )<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">逆天理查德</span>
@@ -172,18 +168,14 @@ render{<font></font>
 </blockquote>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这是在React </font></font><a href="https://reactjs.org/docs/events.html#mouse-events" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">文档</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">中的鼠标事件。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">启人Green</span>
             <span class="discuss-time">2020.03.13</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">您可以使用</font></font><code>onMouseOver={this.onToggleOpen}</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">和    </font></font><code>onMouseOut={this.onToggleOpen}</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在组件上反复思考  </font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">JimHarry</span>
@@ -196,9 +188,7 @@ render{<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">但是，：hover和：active状态不能以内联样式指定。</font><font style="vertical-align: inherit;">您可以做的是为您的元素分配一个ID或一个类名，然后在样式表（如果它们在您的应用程序中有些恒定）或动态生成的</font></font><code>&lt;style&gt;</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">标签中</font><font style="vertical-align: inherit;">编写样式</font><font style="vertical-align: inherit;">。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这是后一种技术的示例：</font><a href="https://jsfiddle.net/ors1vos9/"><font style="vertical-align: inherit;">https</font></a><font style="vertical-align: inherit;"> : </font></font><a href="https://jsfiddle.net/ors1vos9/"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">//jsfiddle.net/ors1vos9/</font></font></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">猿Green</span>
@@ -216,9 +206,7 @@ onMouseMove onMouseOut onMouseOver onMouseUp</code></p>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">反应规格化的事件，让他们有不同的浏览器一致的性质。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">下面的事件处理程序由冒泡阶段中的事件触发。</font><font style="vertical-align: inherit;">要为捕获阶段注册事件处理程序，请将Capture附加到事件名称；</font><font style="vertical-align: inherit;">例如，您可以使用onClickCapture来处理捕获阶段中的click事件，而不是使用onClick。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">NearL</span>
@@ -271,9 +259,7 @@ onMouseMove onMouseOut onMouseOver onMouseUp</code></p>
         &lt;div&gt; Show on no hover &lt;/div&gt;<font></font>
     &lt;/Hover&gt;<font></font>
 </code></pre></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

@@ -24,7 +24,7 @@ console.log("I'm " + age + " years old!");<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">除了字符串连接之外，还有其他方法可以将变量的值插入到字符串中吗？</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第1198篇《如何在JavaScript中进行字符串插值？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第1198篇《如何在JavaScript中进行字符串插值？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -47,9 +47,7 @@ console.log("I'm " + age + " years old!");<font></font>
 <pre><code>console.log("This really bad error happened: %s", "ReferenceError");<font></font>
 &gt; This really bad error happened: ReferenceError<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小小村村</span>
@@ -77,9 +75,7 @@ document.getElementById("resultB").innerText = "Eruption 2: {eruption2}".interpo
 </div>
 </div>
 <p></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">斯丁前端</span>
@@ -92,9 +88,7 @@ document.getElementById("resultB").innerText = "Eruption 2: {eruption2}".interpo
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在这里，</font></font><code>%s</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">就是所谓的“格式说明符”。</font></font><code>console.log</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">具有内置的这种插值支持。</font></font></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

@@ -67,7 +67,7 @@ topic: CSS
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">2）由于我使用的是webpack，这是否也意味着我只能使用</font></font><code>require</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">自己的样式？</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第2306篇《Sass与CSS模块和Webpack》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第2306篇《Sass与CSS模块和Webpack》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}

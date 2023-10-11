@@ -98,7 +98,7 @@ module.exports = config;<font></font>
 <p>But this is not what I want to do, as this would mean that jquery.elastic.source.js is bundled along with my JavaScript code in bundle.js, and I want all my jQuery plugins to be in the vendors.js bundle. So how do I go about achieving this?</p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第1586篇《在Webpack中管理jQuery插件依赖性》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第1586篇《在Webpack中管理jQuery插件依赖性》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -122,9 +122,7 @@ module.exports = config;<font></font>
 
 <pre><code>const { jQuery: $, Underscore: _, etc } = window;
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Jim理查德猿</span>
@@ -148,9 +146,7 @@ module.exports = config;<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">有关此方法的</font><a href="https://github.com/arcseldon/react-babel-webpack-starter-app" rel="noreferrer"><font style="vertical-align: inherit;">可行</font></a><font style="vertical-align: inherit;">示例，请随时将我的应用程序分叉到</font></font><a href="https://github.com/arcseldon/react-babel-webpack-starter-app" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">github上</font></font></a></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

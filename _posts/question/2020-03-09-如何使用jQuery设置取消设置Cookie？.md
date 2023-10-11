@@ -17,7 +17,7 @@ topic: JavaScript
     <div class="article-content"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如何使用jQuery设置和取消设置Cookie，例如创建一个名为的Cookie </font></font><code>test</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">并将其值设置为</font></font><code>1</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">？</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第304篇《如何使用jQuery设置/取消设置Cookie？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第304篇《如何使用jQuery设置/取消设置Cookie？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -34,9 +34,7 @@ topic: JavaScript
 <pre><code>docCookies.setItem(name, value);<font></font>
 docCookies.getItem(name);<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Eva理查德</span>
@@ -51,9 +49,7 @@ docCookies.getItem(name);<font></font>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">访问设置的cookie做
 </font></font><code>$.cookie("test");</code></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">GilA</span>
@@ -97,9 +93,7 @@ docCookies.getItem(name);<font></font>
 <font></font>
 };<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">null</span>
@@ -118,9 +112,7 @@ docCookies.getItem(name);<font></font>
 if (a != null) {<font></font>
     var aa = a.split(",");<font></font>
 </code></pre></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

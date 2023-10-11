@@ -26,7 +26,7 @@ topic: CSS
 <p><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">注意：</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我正在寻找一种“干净”的解决方案。</font><font style="vertical-align: inherit;">在我看来，使用JavaScript浏览器嗅探器向HTML添加“ firefox”类并不符合要求。</font><font style="vertical-align: inherit;">我希望看到一些依赖于浏览器功能的内容，就像条件注释只是IE的“特殊”……</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第1897篇《仅使用CSS定位Firefox》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第1897篇《仅使用CSS定位Firefox》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -48,9 +48,7 @@ topic: CSS
 <p></p>
 
 <p><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Mozilla_Extensions" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">https://developer.mozilla.org/zh-CN/docs/Web/CSS/Mozilla_Extensions</font></font></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小宇宙Sam</span>
@@ -75,18 +73,14 @@ topic: CSS
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">帮助了我！</font><font style="vertical-align: inherit;">从</font><a href="https://stylelint.io/user-guide/rules/function-url-quotes/" rel="nofollow noreferrer"><font style="vertical-align: inherit;">这里</font></a><font style="vertical-align: inherit;">获得了样式棉绒警告的解决方案</font></font><a href="https://stylelint.io/user-guide/rules/function-url-quotes/" rel="nofollow noreferrer"><font style="vertical-align: inherit;"></font></a> </p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">老丝Stafan</span>
             <span class="discuss-time">2020.03.17</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">唯一的方法是通过各种CSS hack，这将使您的页面在下次浏览器更新时更可能失败。</font><font style="vertical-align: inherit;">如果有的话，它比使用js浏览器嗅探器安全性低。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">AItachi</span>
@@ -97,9 +91,7 @@ topic: CSS
 <p><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">您可以在Javascript本身中完成类似的操作，尽管您可能不认为它是干净的。</font></font></strong></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我通过</font><font style="vertical-align: inherit;">添加</font><font style="vertical-align: inherit;">一个</font></font><code>default.css</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">包含</font></font><code>all common styles and then specific style sheets</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">来覆盖或增强默认值的方法</font><font style="vertical-align: inherit;">也做了类似的事情</font><font style="vertical-align: inherit;">。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">猴子Sam</span>
@@ -176,9 +168,7 @@ body {<font></font>
 </code></pre>
 
 <p><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">该解决方案的灵感来自</font></font><a href="http://dean.edwards.name/moz-behaviors/" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Dean Edwards的莫兹行为</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></strong></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">理查德十三Davaid</span>
@@ -199,9 +189,7 @@ body {<font></font>
 <p></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在</font><strong><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/@supports" rel="noreferrer"><font style="vertical-align: inherit;">这里</font></a></strong><font style="vertical-align: inherit;">更多</font></font><code>@supports</code> <strong><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/@supports" rel="noreferrer"><font style="vertical-align: inherit;"></font></a></strong></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">TonyEvaL</span>
@@ -222,9 +210,7 @@ body {<font></font>
 <p></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">它基于Mozilla的另一个CSS扩展。</font><font style="vertical-align: inherit;">这里有这些CSS扩展的完整列表：</font></font><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Mozilla_Extensions" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Mozilla CSS扩展</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

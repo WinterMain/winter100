@@ -56,7 +56,7 @@ topic: React.js
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">谢谢！</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第1715篇《反应onClick和preventDefault（）链接刷新/重定向？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第1715篇《反应onClick和preventDefault（）链接刷新/重定向？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -78,9 +78,7 @@ topic: React.js
    top: 0;<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">古一番长小小</span>
@@ -90,9 +88,7 @@ topic: React.js
 
 <pre><code>&lt;a href="javascript: false" onClick={this.handlerName}&gt;Click Me&lt;/a&gt;
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">神奇西里</span>
@@ -108,9 +104,7 @@ render() {<font></font>
   return (&lt;a href="test.com" onClick={this.dontGoToLink} /&gt;});<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">TomEva</span>
@@ -129,9 +123,7 @@ render() {<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">感谢srph </font></font><a href="https://gist.github.com/srph/020b5c02dd489f30bfc59138b7c39b53" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">https://gist.github.com/srph/020b5c02dd489f30bfc59138b7c39b53</font></font></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">满天星</span>
@@ -140,9 +132,7 @@ render() {<font></font>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这是因为这些处理程序不保留范围。</font><font style="vertical-align: inherit;">从反应文档：</font></font><a href="https://facebook.github.io/react/docs/reusable-components.html" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">反应文档</font></font></a></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">检查“无自动绑定”部分。</font><font style="vertical-align: inherit;">您应该像这样编写处理程序：onClick =（）=&gt; {}</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">乐神乐前端</span>
@@ -150,9 +140,7 @@ render() {<font></font>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">渲染：-&gt;
   </font></font><code>&lt;a className="upvotes" onClick={(e) =&gt; {this.upvote(e); }}&gt;upvote&lt;/a&gt;</code></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Gil番长Stafan</span>
@@ -176,9 +164,7 @@ upvote(e){   // function upvote<font></font>
 <font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">猿村村</span>
@@ -197,9 +183,7 @@ render(){<font></font>
     &lt;/a&gt;);<font></font>
 {<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">村村LEY宝儿</span>
@@ -217,9 +201,7 @@ render(){<font></font>
   e.stopPropagation();<font></font>
   e.nativeEvent.stopImmediatePropagation();<font></font>
 </code></pre></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

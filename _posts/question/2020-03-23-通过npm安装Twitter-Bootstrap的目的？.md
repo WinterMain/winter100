@@ -23,7 +23,7 @@ topic: Node.js
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果我要npm安装Bootstrap，我将如何指向bootstrap.js和bootstrap.css文件？</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第2649篇《通过npm安装Twitter Bootstrap的目的？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第2649篇《通过npm安装Twitter Bootstrap的目的？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -43,9 +43,7 @@ topic: Node.js
 <p><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">答案2：</font></font></strong></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果您npm安装bootstrap（如果您不使用特定的grunt或gulp文件移动到dist文件夹），那么如果我没有记错的话，您的bootstrap将位于“ ./node_modules/bootstrap/bootstrap.min.css”中。</font></font></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

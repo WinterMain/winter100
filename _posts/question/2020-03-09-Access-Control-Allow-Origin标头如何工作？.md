@@ -33,7 +33,7 @@ topic: JavaScript
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我不想利用JSONP。</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第380篇《Access-Control-Allow-Origin标头如何工作？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第380篇《Access-Control-Allow-Origin标头如何工作？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -61,9 +61,7 @@ Forbidden header name      no<font></font>
 </code></pre>
 
 <p>For more info, visit <a href="https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Access-Control-Allow-Origin" rel="nofollow noreferrer">here</a>....</p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Itachi伽罗</span>
@@ -81,9 +79,7 @@ Forbidden header name      no<font></font>
     &lt;/customHeaders&gt;  <font></font>
   &lt;/httpProtocol&gt;  <font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">前端Eva</span>
@@ -100,9 +96,7 @@ Forbidden header name      no<font></font>
 
 <pre><code>header("Access-Control-Allow-Origin: http://www.website.com");
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Sam阳光</span>
@@ -113,9 +107,7 @@ From MAC OS you can do this from the terminal line:</p>
 
 <pre><code>open -a Google\ Chrome --args --disable-web-security --user-data-dir
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Tony斯丁</span>
@@ -180,9 +172,7 @@ Content-Type: application/json<font></font>
 <p>Only if the response contains "Access-Control-Allow-Origin" AND its value is "*" or contain the domain who submitted the CORS request, by satisfying this mandtory condition browser will submit the actual Cross-Domain request, and cache the result in "<strong>Preflight-Result-Cache</strong>".</p>
 
 <p>I blogged about CORS three years ago: <a href="http://wayneye.com/Blog/Ajax-Cross-Origin-HTTP-request" rel="nofollow noreferrer">AJAX Cross-Origin HTTP request</a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">番长神奇</span>
@@ -249,9 +239,7 @@ Content-Type: application/json<font></font>
 </code></pre>
 
 <p>See <a href="https://stackoverflow.com/a/13400954/710446">Understanding XMLHttpRequest over CORS</a> for a little more information about non-simple requests.</p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

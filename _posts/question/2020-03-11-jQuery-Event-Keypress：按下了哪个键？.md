@@ -30,7 +30,7 @@ topic: JavaScript
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">有些浏览器提供一种属性，而其他浏览器提供另一种属性吗？ </font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第680篇《jQuery Event Keypress：按下了哪个键？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第680篇《jQuery Event Keypress：按下了哪个键？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -46,9 +46,7 @@ topic: JavaScript
 
 <p><code>keypress</code> event is depracated as well:
 <a href="https://developer.mozilla.org/en-US/docs/Web/API/Document/keypress_event" rel="nofollow noreferrer">https://developer.mozilla.org/en-US/docs/Web/API/Document/keypress_event</a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">樱樱</span>
@@ -62,9 +60,7 @@ topic: JavaScript
     }<font></font>
 });<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小宇宙</span>
@@ -88,9 +84,7 @@ input.addEventListener("keypress", function onEvent(event) {<font></font>
 <p><a href="https://developer.mozilla.org/en-US/docs/Web/API/KeyboardEvent/key" rel="nofollow noreferrer">Mozilla Docs</a></p>
 
 <p><a href="http://caniuse.com/#feat=keyboardevent-key" rel="nofollow noreferrer">Supported Browsers</a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">古一达蒙</span>
@@ -105,9 +99,7 @@ input.addEventListener("keypress", function onEvent(event) {<font></font>
 </code></pre>
 
 <p>it will accept enter key natively, no need for JavaScript, works in every browser.</p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">飞云泡芙</span>
@@ -121,18 +113,14 @@ input.addEventListener("keypress", function onEvent(event) {<font></font>
 <p>will contain the ASCII code of the key.</p>
 
 <p>See <a href="https://developer.mozilla.org/En/DOM/Event.which" rel="noreferrer">https://developer.mozilla.org/En/DOM/Event.which</a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小宇宙LEY</span>
             <span class="discuss-time">2020.03.11</span>
           </div>
           <div class="discuss-comment"><p>Here is an at-length description of the behaviour of various browsers <a href="http://unixpapa.com/js/key.html" rel="noreferrer">http://unixpapa.com/js/key.html</a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Tony神乐</span>
@@ -145,9 +133,7 @@ input.addEventListener("keypress", function onEvent(event) {<font></font>
     <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">为了确定按下了哪个键，我们可以检查传递给处理函数的事件对象。</font><font style="vertical-align: inherit;">虽然浏览器使用不同的属性来存储此信息，但jQuery规范化了.which属性，因此我们可以可靠地使用它来检索键码。</font></font></p>
   </blockquote>
 </blockquote></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">米亚伽罗L</span>
@@ -160,9 +146,7 @@ input.addEventListener("keypress", function onEvent(event) {<font></font>
    //Do something<font></font>
  }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

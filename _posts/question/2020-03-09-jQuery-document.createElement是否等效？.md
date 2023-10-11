@@ -37,7 +37,7 @@ $.append(odv);<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">但是我不确定这是否更好。</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第301篇《jQuery document.createElement是否等效？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第301篇《jQuery document.createElement是否等效？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -69,9 +69,7 @@ $.append(odv);<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">而且，这是一个简单的jQuery插件（第100个）的一个很好的例子。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">十三猴子</span>
@@ -83,9 +81,7 @@ $.append(odv);<font></font>
 <li><a href="http://api.jquery.com/jQuery/#creating-new-elements" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">http://api.jquery.com/jQuery/#creating-new-elements</font></font></a></li>
 <li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">特别是</font></font><a href="http://api.jquery.com/jQuery/#example-1-1" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">http://api.jquery.com/jQuery/#example-1-1</font></font></a></li>
 </ul></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

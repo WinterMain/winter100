@@ -117,7 +117,7 @@ webpack.config.js<font></font>
 <p><font style="vertical-align: inherit;"></font><code>assets</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">目录中的</font><font style="vertical-align: inherit;">每个文件</font><font style="vertical-align: inherit;">都是由webpack生成的</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第3201篇《webpack-dev-server不监视我的文件更改》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第3201篇《webpack-dev-server不监视我的文件更改》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -139,18 +139,14 @@ webpack.config.js<font></font>
 </font></font><code>webpack-dev-server --content-base ./ --port 9966 --hot --inline</code></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">引用官方文档：“将热模块替换与webpack-dev-server一起使用的最简单方法是使用内联模式。” </font><font style="vertical-align: inherit;">来源：</font><a href="https://webpack.github.io/docs/webpack-dev-server.html#hot-module-replacement" rel="noreferrer"><font style="vertical-align: inherit;">https</font></a><font style="vertical-align: inherit;"> : </font></font><a href="https://webpack.github.io/docs/webpack-dev-server.html#hot-module-replacement" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">//webpack.github.io/docs/webpack-dev-server.html#hot-module-replacement</font></font></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">村村</span>
             <span class="discuss-time">2020.03.24</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在我的情况下，错误是由目录名中的空白引起的，通过将“ RepositoryName”更改为“ RepositoryName”，一切正常！</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">老丝</span>
@@ -159,9 +155,7 @@ webpack.config.js<font></font>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我将其放在此处以防万一。</font><font style="vertical-align: inherit;">我的问题是相同的，但是是由目录名和webpack别名声明的大小写不一致引起的。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我有一个</font></font><code>WebGL</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在别名中引用</font><font style="vertical-align: inherit;">为的</font><font style="vertical-align: inherit;">目录</font></font><code>webgl</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，不幸的</font><font style="vertical-align: inherit;">是</font><font style="vertical-align: inherit;">，</font><font style="vertical-align: inherit;">该</font><font style="vertical-align: inherit;">目录</font><font style="vertical-align: inherit;">适用于构建，但不适用于代码查看。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">神无</span>
@@ -177,9 +171,7 @@ webpack.config.js<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">当然，您合法地可以有成千上万个可能需要监视的文件，在这种情况下，可以提高该限制，但是最好忽略不大可能更改的供应商库。</font></font></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

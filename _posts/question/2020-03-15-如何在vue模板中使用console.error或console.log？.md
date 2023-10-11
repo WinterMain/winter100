@@ -30,7 +30,7 @@ topic: Vue.js
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在模板中使用控制台和窗口进行调试的正确方法是什么？</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第1621篇《如何在vue模板中使用console.error或console.log？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第1621篇《如何在vue模板中使用console.error或console.log？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -51,9 +51,7 @@ topic: Vue.js
 </code></pre>
 
 <p><font style="vertical-align: inherit;"></font><a href="https://codesandbox.io/s/rough-resonance-z19kd" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在这里</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">看到它</font><font style="vertical-align: inherit;">。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">西里小哥</span>
@@ -63,9 +61,7 @@ topic: Vue.js
 
 <pre><code>    get console() { return window.console; }
 </code></pre></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

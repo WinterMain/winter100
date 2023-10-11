@@ -29,7 +29,7 @@ console.log(instance.property); //=&gt; "test"<font></font>
 </code></pre></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第1697篇《JavaScript ES6类中的私有属性》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第1697篇《JavaScript ES6类中的私有属性》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -79,9 +79,7 @@ console.log(clazz.private(0)); //error</code></pre>
 </div>
 </div>
 <p></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">泡芙阿飞</span>
@@ -128,9 +126,7 @@ console.log(clazz.private(0)); //error</code></pre>
     console.log(s.getProperty());//get encapsulated `property` value<font></font>
     console.log(s.getProperty2());//get encapsulated immutable `property2` value<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小胖Green</span>
@@ -141,9 +137,7 @@ console.log(clazz.private(0)); //error</code></pre>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">似乎已纳入</font><a href="http://people.mozilla.org/~jorendorff/es6-draft.html#sec-class-definitions" rel="noreferrer"><font style="vertical-align: inherit;">当前草案</font></a></font><code>private</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">的</font></font><a href="http://wiki.ecmascript.org/doku.php?id=strawman:maximally_minimal_classes" rel="noreferrer"><em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">最大最小类</font></font></em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">提议中</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">未包含</font><font style="vertical-align: inherit;">任何</font><font style="vertical-align: inherit;">属性修饰符</font><font style="vertical-align: inherit;">。</font></font><a href="http://people.mozilla.org/~jorendorff/es6-draft.html#sec-class-definitions" rel="noreferrer"><font style="vertical-align: inherit;"></font></a><font style="vertical-align: inherit;"></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">但是，可能会</font></font><a href="http://wiki.ecmascript.org/doku.php?id=strawman:syntactic_support_for_private_names" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">支持</font></font></a> <font style="vertical-align: inherit;"><font style="vertical-align: inherit;">确实允许私有属性的</font></font><a href="http://wiki.ecmascript.org/doku.php?id=strawman:private_names" rel="noreferrer"><em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">私有名称</font></font></em></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> -并且它们可能也可以在类定义中使用。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Tom卡卡西</span>
@@ -185,9 +179,7 @@ console.log(clazz.private(0)); //error</code></pre>
   }<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">三千曜米亚</span>
@@ -212,9 +204,7 @@ var instance = new Something();<font></font>
 <font></font>
 console.log(instance.property); //=&gt; undefined, can only access with access to the Symbol<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">村村Mandy</span>
@@ -228,9 +218,7 @@ console.log(instance.property); //=&gt; undefined, can only access with access t
 </ul>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">（关于可以在早期版本的ES6规范中使用Symbols来确保隐私的建议，但现在不再适用：</font></font><a href="https://mail.mozilla.org/pipermail/es-discuss/2014-January/035604.html" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">https</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">：</font><a href="https://mail.mozilla.org/pipermail/es-discuss/2014-January/035604.html" rel="noreferrer"><font style="vertical-align: inherit;">//mail.mozilla.org/pipermail/es-discuss/2014-January/035604。 html</font></a><font style="vertical-align: inherit;">和</font></font><a href="https://stackoverflow.com/a/22280202/1282216"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">https://stackoverflow.com/a/22280202/1282216</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。有关符号和隐私的详细讨论，请参见：</font></font><a href="https://curiosity-driven.org/private-properties-in-javascript" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">https</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> : </font><a href="https://curiosity-driven.org/private-properties-in-javascript" rel="noreferrer"><font style="vertical-align: inherit;">//curiosity-driven.org/private-properties-in-javascript</font></a><font style="vertical-align: inherit;">）</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Harry</span>
@@ -259,9 +247,7 @@ console.log(instance.property); //=&gt; undefined, can only access with access t
     this.getName = function() { return _name; }<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

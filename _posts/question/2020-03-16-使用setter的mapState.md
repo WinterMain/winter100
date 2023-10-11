@@ -49,7 +49,7 @@ computed: {<font></font>
 </code></pre></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第1807篇《使用setter的mapState》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第1807篇《使用setter的mapState》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -72,9 +72,7 @@ computed: {<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这是一个相关但不相同的</font></font><a href="https://jsfiddle.net/61eyztca/" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">JsFiddle示例</font></font></a></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

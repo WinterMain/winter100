@@ -135,7 +135,7 @@ module.exports = {<font></font>
 </code></pre></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第974篇《vue v2，vue-router和cordova》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第974篇《vue v2，vue-router和cordova》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -146,9 +146,7 @@ module.exports = {<font></font>
             <span class="discuss-time">2020.03.12</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">您可能是从磁盘（“ file：//”）加载文件，而从“ file：//”加载文件时，浏览器历史记录API pushstate不起作用。</font><font style="vertical-align: inherit;">当您从路由器中删除“模式：历史记录”时，它可以工作，因为它默认使用散列。</font></font></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

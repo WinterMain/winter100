@@ -17,7 +17,7 @@ topic: JavaScript
     <div class="article-content"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我正在使用AJAX将数据附加到div元素，从JavaScript填充div，如何在不丢失div中找到的先前数据的情况下将新数据附加到div？</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第3968篇《如何使用JavaScript将数据附加到div？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第3968篇《如何使用JavaScript将数据附加到div？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -39,9 +39,7 @@ topic: JavaScript
 
 <pre><code> $("#divID").append(data);
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">伽罗达蒙小胖</span>
@@ -68,9 +66,7 @@ ul.appendChild(li);<font></font>
   
   <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">innerHTML返回其名称所指示的HTML。</font><font style="vertical-align: inherit;">通常，为了检索或写入元素内的文本，人们使用innerHTML。</font><font style="vertical-align: inherit;">应该使用textContent代替。</font><font style="vertical-align: inherit;">因为文本没有被解析为HTML，所以它可能具有更好的性能。</font><font style="vertical-align: inherit;">此外，这避免了XSS攻击媒介。</font></font></p>
 </blockquote></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">泡芙</span>
@@ -87,9 +83,7 @@ ul.appendChild(li);<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">使用时</font></font><code>.html()</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">不带任何参数即可查看是否已输入。</font><font style="vertical-align: inherit;">您可以使用浏览器控制台快速测试这些功能，然后再在代码中使用它们。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Mandy村村</span>
@@ -108,9 +102,7 @@ theDiv.appendChild(content);<font></font>
 <pre><code>var theDiv = document.getElementById("&lt;ID_OF_THE_DIV&gt;");<font></font>
 theDiv.innerHTML += "&lt;YOUR_CONTENT&gt;"; <font></font>
 </code></pre></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

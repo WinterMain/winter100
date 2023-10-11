@@ -42,7 +42,7 @@ topic: Vue.js
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我不确定这两种方式之间有什么区别，哪个更好。</font><font style="vertical-align: inherit;">有人知道吗？</font><font style="vertical-align: inherit;">我在任何地方的文档中都找不到解释。</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第2552篇《在Nuxt中，应该使用asyncData还是默认的Apollo查询？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第2552篇《在Nuxt中，应该使用asyncData还是默认的Apollo查询？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -65,9 +65,7 @@ topic: Vue.js
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">那么为什么选择一个？</font><font style="vertical-align: inherit;">这可能取决于首选项，但是有了智能查询允许的所有选项，您可以做更多的事情，并且可以包括asyncData中可能无法实现的订阅。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">更多有关智能查询</font></font><a href="https://github.com/Akryum/vue-apollo/blob/master/docs/api/smart-query.md" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这里</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

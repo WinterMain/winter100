@@ -25,7 +25,7 @@ topic: Vue.js
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">但实际上两者之间有什么区别（如果存在）</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第369篇《@click和v-on：click Vuejs之间的区别》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第369篇《\`click和v-on：click Vuejs之间的区别》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -48,9 +48,7 @@ topic: Vue.js
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">资料来源：</font></font><a href="https://vuejs.org/v2/guide/syntax.html#v-on-Shorthand" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">官方文档</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Itachi小宇宙</span>
@@ -59,9 +57,7 @@ topic: Vue.js
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">它们看起来可能与普通的HTML有所不同，但是：和@是属性名称的有效字符，所有受Vue.js支持的浏览器都可以正确解析它。</font><font style="vertical-align: inherit;">此外，它们不会出现在最终的渲染标记中。</font><font style="vertical-align: inherit;">速记语法完全是可选的，但是稍后您将进一步了解其用法时，可能会喜欢它。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">资料来源：</font></font><a href="https://vuejs.org/v2/guide/syntax.html#v-on-Shorthand" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">官方文档</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

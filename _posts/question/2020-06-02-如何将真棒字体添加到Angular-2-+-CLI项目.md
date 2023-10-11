@@ -19,7 +19,7 @@ topic: Webpack
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如何在我的项目中添加超棒的字体？</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第4246篇《如何将真棒字体添加到Angular 2 + CLI项目》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第4246篇《如何将真棒字体添加到Angular 2 + CLI项目》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -30,9 +30,7 @@ topic: Webpack
             <span class="discuss-time">2020.06.02</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果由于某种原因您无法安装软件包，请抛出npm。</font><font style="vertical-align: inherit;">您始终可以编辑index.html并在标题中添加超赞的CSS字体。</font><font style="vertical-align: inherit;">然后在项目中使用它。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">阿良</span>
@@ -47,9 +45,7 @@ topic: Webpack
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">代替 </font></font><code>file-loader?name=/assets/fonts/[name].[ext]</code></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">千羽</span>
@@ -73,9 +69,7 @@ npm install @fortawesome/angular-fontawesome<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">参考在这里：</font><a href="https://github.com/FortAwesome/angular-fontawesome" rel="nofollow noreferrer"><font style="vertical-align: inherit;">https</font></a><font style="vertical-align: inherit;"> : </font></font><a href="https://github.com/FortAwesome/angular-fontawesome" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">//github.com/FortAwesome/angular-fontawesome</font></font></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">别坑我</span>
@@ -87,9 +81,7 @@ npm install @fortawesome/angular-fontawesome<font></font>
 </code></pre>
 
 <p><a href="https://github.com/FortAwesome/angular-fontawesome/blob/master/README.md" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在这里查看更多信息</font></font></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">番长猴子</span>
@@ -105,9 +97,7 @@ npm install @fortawesome/angular-fontawesome<font></font>
 
 <pre><code>@import "https://use.fontawesome.com/releases/v5.0.7/css/all.css";
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">伽罗</span>
@@ -116,9 +106,7 @@ npm install @fortawesome/angular-fontawesome<font></font>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">将其作为“ devDependencies”字体添加到您的package.json中：awesome：“版本号”</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">转到您配置的命令提示符键入npm命令。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">蓝染大人</span>
@@ -130,9 +118,7 @@ npm install @fortawesome/angular-fontawesome<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">祝好运！</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">猴子</span>
@@ -156,9 +142,7 @@ npm install @fortawesome/angular-fontawesome<font></font>
 @import "~font-awesome/scss/font-awesome.scss";<font></font>
 &lt;mat-icon fontSet="fontawesome" fontIcon="fa-android"&gt;&lt;/mat-icon&gt;<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">番长猴子</span>
@@ -179,9 +163,7 @@ npm install @fortawesome/angular-fontawesome<font></font>
 
 <p></p></li>
 </ol></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">神离</span>
@@ -192,9 +174,7 @@ npm install @fortawesome/angular-fontawesome<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">安装后，在我的项目（仅一个星期的新练习项目）中，</font><font style="vertical-align: inherit;">Using </font></font><code>&lt;i class="fas fa-coffee"&gt;&lt;/i&gt;</code> <em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">无效</font></font></em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，并且过去的一周内，此处的示例图标也从Font Awesome复制到了剪贴板。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这</font></font><code>&lt;i class="fa fa-coffee"&gt;&lt;/i&gt;</code> <strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">确实有效</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font><font style="vertical-align: inherit;">如果在您的项目上安装了Font Awesome之后仍无法正常工作，建议您检查图标上的类以删除“ s”以查看其是否正常工作。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">神乐</span>
@@ -218,9 +198,7 @@ npm install @fortawesome/angular-fontawesome<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">希望这可以帮助</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">蛋蛋猿</span>
@@ -266,9 +244,7 @@ npm install @fortawesome/angular-fontawesome<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">只需按照他们的文档添加图标即可。</font><font style="vertical-align: inherit;">他们使用svg-icons，因此您只需要添加真正使用的svgs /图标即可。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">斯丁前端</span>
@@ -281,9 +257,7 @@ npm install @fortawesome/angular-fontawesome<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">添加   </font></font><code>node_modules/font-awesome/css/font-awesome.css</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">到</font></font><strong><em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">angular.json</font></font></em></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">请记住</font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">不要</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在前面添加任何点</font></font><code>node_modules/</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">神离伊芙妮</span>
@@ -301,9 +275,7 @@ npm install @fortawesome/angular-fontawesome<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">提示：尽可能避免</font></font><code>angular-cli</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">破坏基础架构。</font><font style="vertical-align: inherit;">;）</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">鱼二水</span>
@@ -340,9 +312,7 @@ npm install @fortawesome/angular-fontawesome<font></font>
 <li><p>Stop the application <kbd>Ctrl</kbd> + <kbd>c</kbd> then re-run the  app using <code>ng serve</code> because the watchers are only for the src folder and angular-cli.json is not observed for changes.</p></li>
 <li>Enjoy your awesome icons!</li>
 </ol></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

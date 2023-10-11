@@ -41,7 +41,7 @@ topic: React.js
 </code></pre></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第2322篇《如何使用类别道具在Material UI中添加多个类别》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第2322篇《如何使用类别道具在Material UI中添加多个类别》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -58,9 +58,7 @@ topic: React.js
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">您可以尝试使用</font></font><code>classnames</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">库 
  </font></font><a href="https://www.npmjs.com/package/classnames" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">https://www.npmjs.com/package/classnames</font></font></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">王者一打九达蒙</span>
@@ -70,9 +68,7 @@ topic: React.js
 
 <pre><code>&lt;div className={`${this.props.classes.container} ${this.props.classes.spacious}`}&gt;
 </code></pre></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

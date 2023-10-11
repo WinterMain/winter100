@@ -30,7 +30,7 @@ topic: React.js
 </code></pre></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第3295篇《如何在没有Now的情况下在本地构建NextJS项目》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第3295篇《如何在没有Now的情况下在本地构建NextJS项目》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -52,9 +52,7 @@ topic: React.js
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">基本上，我的情况</font></font><code>npm run build &amp;&amp; next export</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">是完成NextJS项目所需的完整命令。</font><font style="vertical-align: inherit;">因此，将其添加到package.json后，您只需要在terminal：中运行 
  </font></font><code>npm export</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
  ，它将为nextjs项目生成完整的构建。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小小</span>
@@ -73,9 +71,7 @@ topic: React.js
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果愿意，</font><font style="vertical-align: inherit;">可以</font><font style="vertical-align: inherit;">直接</font><font style="vertical-align: inherit;">替换</font></font><code>npm run build</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">为</font></font><code>next build</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

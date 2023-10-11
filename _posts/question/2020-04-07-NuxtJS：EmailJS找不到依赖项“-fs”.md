@@ -88,7 +88,7 @@ does not match the API schema.<font></font>
 </code></pre></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第4132篇《NuxtJS：EmailJS找不到依赖项“ fs”》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第4132篇《NuxtJS：EmailJS找不到依赖项“ fs”》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -99,9 +99,7 @@ does not match the API schema.<font></font>
             <span class="discuss-time">2020.04.07</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Nuxt代码分为客户端部分和服务器部分。</font><font style="vertical-align: inherit;">您尝试</font></font><code>emailjs</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在组件中</font><font style="vertical-align: inherit;">使用该库</font><font style="vertical-align: inherit;">，这是客户端部分。</font><font style="vertical-align: inherit;">它无法访问</font></font><code>fs</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">库（在Web中）。</font><font style="vertical-align: inherit;">您需要在服务器部分（例如在</font></font><code>express</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">为您的页面提供服务</font><font style="vertical-align: inherit;">的服务器中）上编写它</font><font style="vertical-align: inherit;">。</font></font></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

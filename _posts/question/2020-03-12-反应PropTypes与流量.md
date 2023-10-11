@@ -36,7 +36,7 @@ export type Playlist = {<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我发现这个</font></font><a href="https://github.com/brigand/babel-plugin-flow-react-proptypes"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">babel插件</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">可以将类型声明转换为PropTypes，这可能是一个解决方案。</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第1091篇《反应PropTypes与流量》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第1091篇《反应PropTypes与流量》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -51,9 +51,7 @@ export type Playlist = {<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">现在添加使用带有错误类型的React PropTypes。</font><font style="vertical-align: inherit;">运行该应用程序时，这将导致测试失败并在浏览器控制台中被标记。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">基于此，似乎即使正在使用Flow，也应该指定PropTypes。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">猪猪十三</span>
@@ -65,9 +63,7 @@ export type Playlist = {<font></font>
 <li><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">流</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">可以在编码时在上游拦截错误：理论上它可以遗漏一些您不会知道的错误（例如，如果您在项目中实现的流不够，或者对象嵌套很深）</font></font></li>
 <li><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">PropTypes</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在测试时会在下游捕获它们，因此永远不会错过</font></font></li>
 </ul></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">逆天米亚</span>
@@ -78,9 +74,7 @@ export type Playlist = {<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">随着Flow的发展，我开始用它输入代码库，并且没有添加任何新的PropType定义。</font><font style="vertical-align: inherit;">到目前为止，我认为这是个好方法，因为如上所述，它不仅使您可以键入prop，而且还可以键入代码的其他部分。</font><font style="vertical-align: inherit;">例如，当您拥有状态中的道具副本时，这非常方便，可由用户修改。</font><font style="vertical-align: inherit;">而且，IDE中的自动完成功能是一项了不起的成就。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">一个方向或另一个方向的自动转换器并没有真正起飞。</font><font style="vertical-align: inherit;">因此，对于新项目，我现在真的建议使用Flow over PropTypes（以防您不想重复输入两次）。</font></font></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

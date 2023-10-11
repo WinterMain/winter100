@@ -17,7 +17,7 @@ topic: JavaScript
     <div class="article-content"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我希望与旧的VB6 </font></font><code>IsNumeric()</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">函数</font><font style="vertical-align: inherit;">在同一概念空间中存在某些东西</font><font style="vertical-align: inherit;">吗？</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第344篇《JavaScript中的（内置）方式来检查字符串是否为有效数字》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第344篇《JavaScript中的（内置）方式来检查字符串是否为有效数字》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -41,9 +41,7 @@ acceptsNumber(NaN);      // Works!<font></font>
 acceptsNumber(Infinity); // Works!<font></font>
 acceptsNumber("foo");    // Error!<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Gil小哥伽罗</span>
@@ -54,9 +52,7 @@ acceptsNumber("foo");    // Error!<font></font>
 <pre><code>isNaN("Alireza"); //return true<font></font>
 isNaN("123"); //return false<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Near逆天</span>
@@ -85,9 +81,7 @@ var isPositiveInt = function(str) { <font></font>
 </code></pre>
 
 <p>You can add additional conditions inside the loop, to fit you particular needs.</p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">梅路易</span>
@@ -101,9 +95,7 @@ var isPositiveInt = function(str) { <font></font>
     return isNumber;<font></font>
     }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">斯丁JinJinHarry</span>
@@ -116,9 +108,7 @@ var isPositiveInt = function(str) { <font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">对于TypeScript，您可以使用：</font></font></p>
 
 <p><code>/^\d+$/.test(key)</code></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Green小卤蛋</span>
@@ -137,9 +127,7 @@ var isPositiveInt = function(str) { <font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果您发现任何问题，请告诉我。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Tony达蒙Mandy</span>
@@ -185,9 +173,7 @@ var isPositiveInt = function(str) { <font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">除了手动测试我当前困境中遇到的几个用例之外，我还没有通过其他方法对其中的任何一个进行过测试，而这些都是非常标准的东西。</font><font style="vertical-align: inherit;">这是“站在巨人的肩膀上”的情况。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">神奇古一</span>
@@ -205,18 +191,14 @@ var isPositiveInt = function(str) { <font></font>
 
 <pre><code>var num = /^\d+$/.test(num)
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">阿飞GilGreen</span>
             <span class="discuss-time">2020.03.09</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">parseInt（），但是请注意，此函数在某种意义上有所不同，例如对于parseInt（“ 100px”）返回100。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">LEY神无</span>
@@ -244,9 +226,7 @@ var isPositiveInt = function(str) { <font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">对/ \ s /，null，“”，true，false，[]（还有其他？）进行特殊处理</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">泡芙Sam</span>
@@ -265,9 +245,7 @@ var isPositiveInt = function(str) { <font></font>
   
   <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Number.isNan（）不会将值转换为Number，并且对于任何非Number类型的值也不会返回true。</font></font></p>
 </blockquote></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小卤蛋村村</span>
@@ -299,9 +277,7 @@ Number(" \u00A0   \t\n\r") // returns 0<font></font>
   return !isNaN(str) &amp;&amp; !isNaN(parseFloat(str))<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Ss Yy</span>
@@ -319,9 +295,7 @@ if(num.match(/^-{0,1}\d+$/)){<font></font>
   //not valid number<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

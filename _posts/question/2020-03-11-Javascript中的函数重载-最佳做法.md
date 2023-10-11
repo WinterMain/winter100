@@ -27,7 +27,7 @@ topic: JavaScript
 </ol></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第553篇《Javascript中的函数重载-最佳做法》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第553篇《Javascript中的函数重载-最佳做法》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -58,9 +58,7 @@ topic: JavaScript
 <font></font>
 };<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Green老丝Itachi</span>
@@ -79,9 +77,7 @@ topic: JavaScript
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">显然，您可以对此进行修改以使其与任何数量的参数一起使用，并且只需相应地更改条件语句即可。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">猴子猪猪</span>
@@ -96,9 +92,7 @@ topic: JavaScript
 </blockquote>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">有一点但必不可少的提示，对于计算机，名称应该看起来有所不同，但对于您而言，名称应该没有变化。</font><font style="vertical-align: inherit;">重载函数的名称，例如：func，func1，func2。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">十三米亚阳光</span>
@@ -112,9 +106,7 @@ topic: JavaScript
 }<font></font>
 f(1,2,3);  // 3 1 2 3<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">梅老丝</span>
@@ -131,9 +123,7 @@ f(1,2,3);  // 3 1 2 3<font></font>
      }<font></font>
 };<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">蛋蛋十三</span>
@@ -153,9 +143,7 @@ f(1,2,3);  // 3 1 2 3<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">用法：Clear（）; </font><font style="vertical-align: inherit;">//清除所有文件</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">清除（myDiv）; </font><font style="vertical-align: inherit;">//清除myDiv引用的面板</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">null</span>
@@ -206,9 +194,7 @@ foo(var1, var2, {a: [1,2], d: "differentString"});<font></font>
 </blockquote>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">注意：对象文字中的传播语法在Edge和IE中不起作用，这是一项实验性功能。</font></font><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Spread_syntax#Browser_compatibility" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">查看浏览器的兼容性</font></font></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Davaid番长</span>
@@ -241,9 +227,7 @@ addCSS(el, {<font></font>
 </code></pre>
 
 <p><a href="https://developer.hyvor.com/tricks/js-function-overloading" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">资源</font></font></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">GoldenGG</span>
@@ -292,9 +276,7 @@ console.log(createVector(7.07));<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这个解决方案不是完美的，但我只想演示如何完成。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">蛋蛋L西里</span>
@@ -309,9 +291,7 @@ users.find(); // Finds all<font></font>
 users.find("John"); // Finds users by name<font></font>
 users.find("John", "Resig"); // Finds users by first and last name<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">MandyMandyJim</span>
@@ -339,9 +319,7 @@ users.find("John", "Resig"); // Finds users by first and last name<font></font>
     return s;<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">斯丁小胖Jim</span>
@@ -399,9 +377,7 @@ TEST.multiFn = function(){<font></font>
     .multiFn()<font></font>
     .multiFn("0","1","2");<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Eva理查德阳光</span>
@@ -422,9 +398,7 @@ TEST.multiFn = function(){<font></font>
 </code></pre>
 
 <p><a href="http://jsfiddle.net/vlad_bezden/4ZqH7/" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">是有关如何使用选项对象的示例</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">TomTony</span>
@@ -468,9 +442,7 @@ TEST.multiFn = function(){<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">（</font></font><a href="http://opensourceforgeeks.blogspot.in/2014/09/method-overloading-in-javascript.html" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">更多详细信息</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">）</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">PS：上面的链接转到我的个人博客，其中包含其他详细信息。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">SamJim</span>
@@ -482,18 +454,14 @@ TEST.multiFn = function(){<font></font>
 <li><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果您想保留很大的灵活性，请传递字典（关联数组） </font></font></p></li>
 <li><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">以对象作为参数，并使用基于原型的继承来增加灵活性。</font></font></p></li>
 </ol></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">L西门</span>
             <span class="discuss-time">2020.03.11</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">JavaScript中没有实际的函数重载，因为它允许传递任意数量的任何类型的参数。</font><font style="vertical-align: inherit;">您必须在函数内部检查</font><font style="vertical-align: inherit;">已传递</font><font style="vertical-align: inherit;">了多少个</font></font><a href="https://developer.mozilla.org/En/Core_JavaScript_1.5_Reference/Functions_and_function_scope/arguments" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">参数</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">以及它们是什么类型。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">凯Sam</span>
@@ -510,9 +478,7 @@ TEST.multiFn = function(){<font></font>
 <p><a href="https://en.wikipedia.org/wiki/Function_overloading" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">https://zh.wikipedia.org/wiki/Function_overloading</font></font></a></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">建议的所有实现都是不错的选择，但实际上，JavaScript没有本地实现。</font></font></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

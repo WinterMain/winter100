@@ -17,7 +17,7 @@ topic: React.js
     <div class="article-content"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我目前正在学习React，并且试图找出如何将其与Redux一起用于构建移动应用程序。</font><font style="vertical-align: inherit;">我对两者如何关联/一起使用感到困惑。</font><font style="vertical-align: inherit;">例如，我在React </font></font><a href="https://www.raywenderlich.com/99473/introducing-react-native-building-apps-javascript" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">https://www.raywenderlich.com/99473/introducing-react-native-building-apps-javascript中</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">完成了本教程</font><font style="vertical-align: inherit;">，但现在我想尝试在该应用中添加一些reducers / action，我不确定这些内容将与我已经完成的工作联系在一起。</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第1788篇《什么时候应该将Redux添加到React应用程序？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第1788篇《什么时候应该将Redux添加到React应用程序？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -40,9 +40,7 @@ topic: React.js
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">当用户与组件进行交互时用户触发一个动作，并调度一个动作来存储时，存储中的化简器将接受该动作并更新应用程序的状态，并在存储中进行更新时将其存储在应用程序范围的不可变全局变量中订阅该状态的相应视图组件将得到更新。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">由于状态是全局管理的，因此可以更轻松地进行维护。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">神无西里</span>
@@ -53,9 +51,7 @@ topic: React.js
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这就是redux的工作方式。</font><font style="vertical-align: inherit;">从任何组件或视图调度动作。</font><font style="vertical-align: inherit;">动作必须具有“类型”属性，并且可以是保存发生的动作信息的任何属性。</font><font style="vertical-align: inherit;">实际传递的数据可能与不同的reducer有关，因此同一对象将传递给不同的reducer。</font><font style="vertical-align: inherit;">每个reducer提取/贡献其状态部分/贡献。</font><font style="vertical-align: inherit;">然后合并输出并形成新状态，并通知必须为状态更改事件订阅的组件。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在上面的示例中，棕色具有所有3个分量RGB。</font><font style="vertical-align: inherit;">每个还原剂都接收相同的棕色，并且将其对颜色的贡献分开。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">梅Eva</span>
@@ -68,18 +64,14 @@ topic: React.js
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果您还没有看过它，Dan（上面回答）会提供一个很棒的短片系列，从根本上讲解Redux。</font><font style="vertical-align: inherit;">我强烈建议您花一些时间吸收其中的一些内容：</font><a href="https://egghead.io/series/getting-started-with-redux"><font style="vertical-align: inherit;">https</font></a><font style="vertical-align: inherit;"> : </font></font><a href="https://egghead.io/series/getting-started-with-redux"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">//egghead.io/series/getting-started-with-redux</font></font></a></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Redux也有一些很棒的文档。</font><font style="vertical-align: inherit;">尤其要解释很多“为什么”，例如</font></font><a href="http://redux.js.org/docs/introduction/ThreePrinciples.html"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">http://redux.js.org/docs/introduction/ThreePrinciples.html</font></font></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小卤蛋村村</span>
             <span class="discuss-time">2020.03.16</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">使用过Redux并亲自发现它很麻烦之后，我发现将对象作为道具传递给我的组件是一种更容易维护状态的方法。</font><font style="vertical-align: inherit;">更不用说这是对函数的引用以调用其他组件的简单方法。</font><font style="vertical-align: inherit;">它可以解决在React中组件之间传递消息的许多麻烦问题，因此这是一对二的。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小小</span>
@@ -96,9 +88,7 @@ topic: React.js
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">最后，请注意，Redux并不是解决此问题的最终解决方案。</font><font style="vertical-align: inherit;">还有许多其他方法可以在React组件之外管理您的本地状态-例如，一些不喜欢Redux的人对</font></font><a href="https://github.com/mobxjs/mobx" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">MobX</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">感到</font><a href="https://github.com/mobxjs/mobx" rel="noreferrer"><font style="vertical-align: inherit;">满意</font></a><font style="vertical-align: inherit;">。</font><font style="vertical-align: inherit;">我建议您首先对React状态模型有一个深刻的了解，然后独立评估不同的解决方案，并与它们一起构建小型应用程序，以了解它们的优缺点。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">（此答案的灵感来自于Pete Hunt的</font></font><a href="https://github.com/petehunt/react-howto#learning-flux" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">反应方法</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">指南，我建议您也阅读它。）</font></font></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

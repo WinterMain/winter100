@@ -17,7 +17,7 @@ topic: JavaScript
     <div class="article-content"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">你如何扭转地方（或就地）在JavaScript字符串时，它被传递给用一个return语句的功能，而无需使用内置函数（</font></font><code>.reverse()</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，</font></font><code>.charAt()</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">等等）？</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第1771篇《如何在JavaScript中反转字符串？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第1771篇《如何在JavaScript中反转字符串？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -40,9 +40,7 @@ for (var i=str.length;i&gt;0;i--){<font></font>
 return reverse;<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Tony宝儿</span>
@@ -68,9 +66,7 @@ console.log(strReverse);<font></font>
 </code></pre>
 
 <p><a href="http://jsbin.com/bujiwo/19/edit?js,console,output" rel="nofollow">http://jsbin.com/bujiwo/19/edit?js,console,output</a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Itachi小宇宙</span>
@@ -98,9 +94,7 @@ var i,j=0,n=str.length;<font></font>
 }<font></font>
 reverse(str);<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">L猿</span>
@@ -112,9 +106,7 @@ reverse(str);<font></font>
     return [].reduceRight.call(this, function(last, secLast){return last + secLast});<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">樱小胖Mandy</span>
@@ -129,9 +121,7 @@ reverse(str);<font></font>
     return reversedString;<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">JinJinPro</span>
@@ -147,9 +137,7 @@ const reverseString = (string) =&gt; string.split('').reduce((a, e) =&gt; e + a)
 "𠜎𠺢".split('')[0] === Array.from("𠜎𠺢")[0] // "�" === "𠜎" =&gt; false<font></font>
 "😂😹🤗".split('')[0] === Array.from("😂😹🤗")[0] // "�" === "😂" =&gt; false<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">神乐神乐</span>
@@ -169,9 +157,7 @@ const reverseString = (string) =&gt; string.split('').reduce((a, e) =&gt; e + a)
 <font></font>
 reverseString("hello");<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">用户7049302300</span>
@@ -207,9 +193,7 @@ console.log(s.reverse());<font></font>
 
 <pre><code>RangeError: Maximum call stack size exceeded
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">A小卤蛋Pro</span>
@@ -228,9 +212,7 @@ console.log(r);</code></pre>
 </div>
 </div>
 <p></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">JinJinStafan</span>
@@ -266,9 +248,7 @@ console.log(r);</code></pre>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Mathias，Punycode和所有其他参考的所有道具，使我了解了JavaScript字符编码的复杂性。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">JinJin飞云</span>
@@ -388,9 +368,7 @@ alert(reverseString("Learning JavaScript"));</code></pre>
 </div>
 </div>
 <p></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">乐飞云</span>
@@ -402,9 +380,7 @@ alert(reverseString("Learning JavaScript"));</code></pre>
     return str === '' ? '' : reverseString(str.slice(1)) + str[0];<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">神乐阳光</span>
@@ -440,9 +416,7 @@ alert(reverseString("Learning JavaScript"));</code></pre>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我希望这有帮助 ：）</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Tony西门古一</span>
@@ -452,9 +426,7 @@ alert(reverseString("Learning JavaScript"));</code></pre>
 
 <pre><code>const reverse = str =&gt; Array.from(str).reverse().join('');
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">老丝米亚</span>
@@ -465,9 +437,7 @@ alert(reverseString("Learning JavaScript"));</code></pre>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">尽管上面的解决方案确实确实反转了字符串，但是他们没有分配更多的内存就不会这样做，因此不满足条件。</font><font style="vertical-align: inherit;">您需要直接访问分配的字符串，并且能够操纵其原始存储位置，以便能够将其原地反转。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">就个人而言，我真的很讨厌这些面试问题，但可悲的是，我相信我们会在未来几年内继续看到它们。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">路易LEY</span>
@@ -593,9 +563,7 @@ alert(reverseString("Learning JavaScript"));</code></pre>
          reverse(s.substr(0, halfIndex));<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">梅乐</span>
@@ -616,9 +584,7 @@ alert(reverseString("Learning JavaScript"));</code></pre>
     return s;<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">逆天Jim</span>
@@ -632,9 +598,7 @@ alert(reverseString("Learning JavaScript"));</code></pre>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果您需要支持UTF-16或其他多字节字符的解决方案，请注意此函数将提供无效的unicode字符串或看起来很有趣的有效字符串。</font><font style="vertical-align: inherit;">您可能需要考虑</font></font><a href="https://stackoverflow.com/a/16776621/1636522"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">此答案</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

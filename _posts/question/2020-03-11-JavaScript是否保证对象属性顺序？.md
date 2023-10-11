@@ -29,7 +29,7 @@ obj.prop2 = "Bar";<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">也就是说，属性的顺序是否与我添加它们的顺序相同？</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第819篇《JavaScript是否保证对象属性顺序？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第819篇《JavaScript是否保证对象属性顺序？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -84,9 +84,7 @@ obj.prop2 = "Bar";<font></font>
   
   <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">没有任何不可枚举的属性会掩盖不可枚举的属性。</font></font></p>
 </blockquote></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">蛋蛋L</span>
@@ -97,9 +95,7 @@ obj.prop2 = "Bar";<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">使用React with Redux，每次更改存储时都会刷新我想遍历的状态容器的键以生成子代（根据Redux的不变性概念）。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">因此，为了使用</font></font><code>Object.keys(valueFromStore)</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">I </font></font><code>Object.keys(valueFromStore).sort()</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，我至少现在对这些键具有字母顺序。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">伽罗前端</span>
@@ -114,9 +110,7 @@ obj.prop2 = "Bar";<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">（强调我的）。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">因此，不，您不能保证订单。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Near神奇</span>
@@ -139,9 +133,7 @@ obj.prop2 = "Bar";<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">说这个命令不可靠是很愚蠢的-它是可靠的，可能不是您想要的，现代浏览器正确地实现了这个命令。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">一些例外情况包括枚举继承的键的方法，例如</font></font><code>for .. in</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">循环。</font><font style="vertical-align: inherit;">将</font></font><code>for .. in</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">根据规范循环不保证秩序。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">LEY老丝</span>
@@ -154,9 +146,7 @@ obj.prop2 = "Bar";<font></font>
 <blockquote>
   <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Map对象可以按插入顺序迭代其元素。</font></font></p>
 </blockquote></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">逆天理查德</span>
@@ -183,9 +173,7 @@ obj.prop2 = "Bar";<font></font>
 <blockquote>
   <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">标准始终遵循实现，这就是XHR的来历，而Google则通过实现Gears然后采用等效的HTML5功能来做同样的事情。</font><font style="vertical-align: inherit;">正确的解决方法是让ECMA将事实上的标准行为正式纳入规范的下一个修订版。</font></font></p>
 </blockquote></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Stafan卡卡西</span>
@@ -200,9 +188,7 @@ obj.prop2 = "Bar";<font></font>
 </blockquote>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">但是，在ES2015及更高版本中，非整数密钥将按插入顺序返回。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Eva理查德阳光</span>
@@ -227,9 +213,7 @@ const obj = { "foo": "foo", "1": "1", "bar": "bar" }<font></font>
   
   <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">对象是对象类型的成员。</font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">它是属性的无序集合，</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">每个</font><strong><font style="vertical-align: inherit;">属性</font></strong><font style="vertical-align: inherit;">都包含原始值，对象或函数。</font><font style="vertical-align: inherit;">存储在对象属性中的函数称为方法。</font></font></p>
 </blockquote></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

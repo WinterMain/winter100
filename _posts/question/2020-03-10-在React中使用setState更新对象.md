@@ -36,7 +36,7 @@ topic: React.js
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">第一个导致语法错误，第二个则什么都不做。</font><font style="vertical-align: inherit;">有任何想法吗？</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第482篇《在React中使用setState更新对象》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第482篇《在React中使用setState更新对象》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -52,9 +52,7 @@ topic: React.js
 
 <pre><code>handleChangeObj = ({target: { id , name , value}}) =&gt; this.setState({ [id]: { ...this.state[id] , [name]: value } });
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">樱小胖</span>
@@ -72,9 +70,7 @@ topic: React.js
     this.setState({jasper: jasperCopy});<font></font>
   }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">理查德村村小宇宙</span>
@@ -96,9 +92,7 @@ handleChangeInpForm = (e) =&gt; {<font></font>
    })<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Gil伽罗小宇宙</span>
@@ -141,9 +135,7 @@ handleChangeInpForm = (e) =&gt; {<font></font>
 
 <pre><code>&lt;input type="text" onChange={this.handleChange} " name="friendName" /&gt;
 </code></pre></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

@@ -19,7 +19,7 @@ topic: JavaScript
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我要显示对象的格式相同。</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第247篇《如何显示JavaScript对象？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第247篇《如何显示JavaScript对象？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -41,9 +41,7 @@ topic: JavaScript
 <p>or you can use this in chrome dev tools, "console" tab:</p>
 
 <p><code>console.log(object);</code></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Mandy伽罗</span>
@@ -79,9 +77,7 @@ print_r(JAVACRIPT_ARRAY_OR_OBJECT);<font></font>
 </code></pre>
 
 <p>via <a href="http://blog.chapagain.com.np/print_r-in-javascript/" rel="noreferrer">print_r in Javascript</a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">村村路易</span>
@@ -111,9 +107,7 @@ console.log(JSON.stringify(gandalf));<font></font>
 //this will show object gandalf IN ALL BROWSERS! with beautiful indent<font></font>
 console.log(JSON.stringify(gandalf, null, 4));<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">LEYStafan</span>
@@ -126,9 +120,7 @@ console.log(JSON.stringify(gandalf, null, 4));<font></font>
     return JSON.stringify(object);<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">前端逆天</span>
@@ -160,9 +152,7 @@ console.log(args_string);<font></font>
 console.log(foo.moo);<font></font>
 alert(foo.moo);<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">猴子Harry</span>
@@ -174,9 +164,7 @@ alert(foo.moo);<font></font>
 </code></pre>
 
 <p>This will print the stringify version of object. So instead of <code>[object]</code> as an output you will get the content of object.</p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">老丝猪猪小卤蛋</span>
@@ -187,9 +175,7 @@ alert(foo.moo);<font></font>
 <p><code>alert("myObject is " + myObject.toSource());</code></p>
 
 <p>It should print each property and its corresponding value in string format.</p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">逆天GO</span>
@@ -202,9 +188,7 @@ alert(foo.moo);<font></font>
 </blockquote>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">请注意，该</font></font><code>console.dir()</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">功能是非标准的。</font><font style="vertical-align: inherit;">查看</font></font><a href="https://developer.mozilla.org/en-US/docs/Web/API/Console/dir" rel="noreferrer" title="标题"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">MDN网络文档</font></font></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Harry乐Harry</span>
@@ -229,9 +213,7 @@ alert(str); // Displays output using window.alert()<font></font>
 
 <pre><code>"Uncaught TypeError: Converting circular structure to JSON"
 </code></pre></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

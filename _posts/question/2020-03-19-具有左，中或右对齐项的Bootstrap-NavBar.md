@@ -44,7 +44,7 @@ topic: CSS
 </code></pre></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第2346篇《具有左，中或右对齐项的Bootstrap NavBar》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第2346篇《具有左，中或右对齐项的Bootstrap NavBar》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -76,9 +76,7 @@ topic: CSS
     &lt;/div&gt;<font></font>
 &lt;/nav&gt;<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">路易LEY</span>
@@ -92,9 +90,7 @@ topic: CSS
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">根据上述划分，将要居中的字段放在右侧，右侧或左侧。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">乐泡芙A</span>
@@ -146,9 +142,7 @@ topic: CSS
  </font></font><a href="https://github.com/twbs/bootstrap/issues/18362" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">//github.com/twbs/bootstrap/issues/18362</font></font></a></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">并且在V3中被列为“无法修复”。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">A达蒙</span>
@@ -165,9 +159,7 @@ topic: CSS
     margin-left: 48%;<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小哥宝儿</span>
@@ -263,9 +255,7 @@ topic: CSS
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">您可以在这里检查我的旧引导程序：www.bootply.com/n3PXXropP3</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我想拥有3个品牌可能和“ z”一样麻烦，但是我觉得在自适应设计的世界中，这种解决方案更适合我的风格。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">米亚卡卡西</span>
@@ -289,9 +279,7 @@ topic: CSS
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">完整示例在这里：</font><a href="https://jsbin.com/kemawa/edit?output" rel="noreferrer"><font style="vertical-align: inherit;">https</font></a><font style="vertical-align: inherit;"> : </font></font><a href="https://jsbin.com/kemawa/edit?output" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">//jsbin.com/kemawa/edit?output</font></font></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">老丝镜风</span>
@@ -339,9 +327,7 @@ topic: CSS
   }<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">神无梅Eva</span>
@@ -387,9 +373,7 @@ topic: CSS
 &lt;/ul&gt;<font></font>
 &lt;/nav&gt;<font></font>
 </code></pre></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

@@ -24,7 +24,7 @@ var strUser = e.options[e.selectedIndex].value;<font></font>
 </code></pre></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第226篇《使用JavaScript在下拉列表中获取选定的值》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第226篇《使用JavaScript在下拉列表中获取选定的值》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -52,9 +52,7 @@ console.log( ddlViewBy.selectedOptions[0].text );</code></pre>
 </div>
 </div>
 <p></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">A十三</span>
@@ -66,9 +64,7 @@ console.log( ddlViewBy.selectedOptions[0].text );</code></pre>
 </code></pre>
 
 <p>Assuming that the dropdown menu named list <code>name="list"</code> and included in a form with name attribute <code>name="form1"</code>.</p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">神离伊芙妮</span>
@@ -79,9 +75,7 @@ console.log( ddlViewBy.selectedOptions[0].text );</code></pre>
 <blockquote>
   <p>e.<strong>options</strong>.selectedIndex</p>
 </blockquote></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">TomTony</span>
@@ -96,9 +90,7 @@ console.log( ddlViewBy.selectedOptions[0].text );</code></pre>
 </code></pre>
 
 <p>Any input/form field can use a “this” keyword when you are  accessing it from inside the element. This eliminates the need for locating a form in the dom tree and then locating this element inside the form.</p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">阿飞小哥</span>
@@ -106,9 +98,7 @@ console.log( ddlViewBy.selectedOptions[0].text );</code></pre>
           </div>
           <div class="discuss-comment"><pre><code>var selectedValue = document.getElementById("ddlViewBy").value;
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">ProTony</span>
@@ -127,9 +117,7 @@ var strUser = e.options[e.selectedIndex].value;<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">正确的方法是使用方括号。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">SamStafan十三</span>
@@ -191,9 +179,7 @@ TextBox2&lt;br&gt;<font></font>
     }?<font></font>
 &lt;/script&gt;<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">null</span>
@@ -221,9 +207,7 @@ TextBox2&lt;br&gt;<font></font>
 <li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">值=你好</font></font></li>
 <li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">文字= Hello World</font></font></li>
 </ul></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小宇宙LEY</span>
@@ -251,9 +235,7 @@ var strUser = e.options[e.selectedIndex].text;<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这将</font></font><code>strUser</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">成为</font></font><code>test2</code></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

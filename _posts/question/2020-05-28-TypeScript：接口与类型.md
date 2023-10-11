@@ -28,7 +28,7 @@ type X </span><span class="pun">=</span><span class="pln"> </span><span class="p
 </code></pre></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第4236篇《TypeScript：接口与类型》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第4236篇《TypeScript：接口与类型》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -48,9 +48,7 @@ type X </span><span class="pun">=</span><span class="pln"> </span><span class="p
 </blockquote>
 
 <p><a href="https://www.typescriptlang.org/docs/handbook/advanced-types.html#interfaces-vs-type-aliases" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">接口与类型别名</font></font></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Mandy</span>
@@ -98,9 +96,7 @@ type X </span><span class="pun">=</span><span class="pln"> </span><span class="p
     </span><span class="kwd">interface</span><span class="pln"> </span><span class="typ">IMyObjectWithSize</span><span class="pln"> extends </span><span class="typ">IMyObject</span><span class="pun">{</span><span class="pln">
         size</span><span class="pun">?:</span><span class="pln"> number
     </span><span class="pun">}</span></code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小小</span>
@@ -111,9 +107,7 @@ type X </span><span class="pun">=</span><span class="pln"> </span><span class="p
 <blockquote>
   <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">一个区别是接口创建了一个新名称，该名称在任何地方都可以使用。</font><font style="vertical-align: inherit;">类型别名不会创建新名称-例如，错误消息不会使用别名。</font></font></p>
 </blockquote></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">留姬</span>
@@ -122,9 +116,7 @@ type X </span><span class="pun">=</span><span class="pln"> </span><span class="p
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">从TypeScript 3.2（2018年11月）开始，以下内容适用：</font></font></p>
 
 <p><a href="https://i.stack.imgur.com/6Tjyp.png" rel="noreferrer"><img src="https://i.stack.imgur.com/6Tjyp.png" alt="在此处输入图片说明"></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">番长</span>
@@ -136,9 +128,7 @@ type X </span><span class="pun">=</span><span class="pln"> </span><span class="p
 <li><a href="https://stackoverflow.com/questions/56085306/error-message-an-interface-can-only-extend-an-object-type-or-intersection-of-o"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">无法使用接口扩展联合类型</font></font></a></li>
 <li><a href="https://stackoverflow.com/questions/59370163/extending-generic-typescript-interface"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">无法扩展通用接口</font></font></a></li>
 </ol></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Vicky</span>
@@ -176,9 +166,7 @@ type X </span><span class="pun">=</span><span class="pln"> </span><span class="p
   <li>An interface can have multiple <a href="https://www.typescriptlang.org/docs/handbook/declaration-merging.html" rel="noreferrer">merged declarations</a>, but a type alias for an object type literal cannot.</li>
   </ul>
 </blockquote></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

@@ -183,7 +183,7 @@ module.exports = ThreadsBox<font></font>
 <p>I am running a webpack hot-reload server on port 3000 with the express app running on port 3001 to return the backend data. What's frustrating here is that this was working correctly the last time I worked on it and can't find what I could have possibly changed to break it. </p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第605篇《“ SyntaxError：JSON中位置0处的意外令牌<”》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第605篇《“ SyntaxError：JSON中位置0处的意外令牌<”》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -198,9 +198,7 @@ module.exports = ThreadsBox<font></font>
 </blockquote>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">解决此错误的简单方法是在</font></font><code>styles.less</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">文件中</font><font style="vertical-align: inherit;">写入注释</font><font style="vertical-align: inherit;">。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Harry逆天Eva</span>
@@ -211,9 +209,7 @@ module.exports = ThreadsBox<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">当我更改为res.send（data）时，一切都固定了；</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果一切正常，并按预期进行发布，则可能需要检查一下，但是错误始终在您的前端弹出。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Pro逆天猿</span>
@@ -230,18 +226,14 @@ module.exports = ThreadsBox<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">要解决此问题，您需要弹出应用程序并修改</font></font><code>webpack-dev-server</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">配置文件。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">您可以从</font></font><a href="https://stackoverflow.com/questions/47368716/fetching-json-returns-error-uncaught-in-promise-syntaxerror-unexpected-token/55628120#55628120"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这里开始</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">理查德Green</span>
             <span class="discuss-time">2020.03.11</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这可能是由于您的JavaScript代码正在查看某些json响应而导致您收到了其他类似文本的信息。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">猪猪阿飞</span>
@@ -260,9 +252,7 @@ module.exports = ThreadsBox<font></font>
 
 <pre><code>hompage: ""   
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">TonySamGreen</span>
@@ -275,18 +265,14 @@ module.exports = ThreadsBox<font></font>
 <p><a href="https://www.screencast.com/t/phTJbOqFo" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">错误原因</font></font></a> </p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">因此，基本上，这意味着我打印的值不是与导致AJAX错误的脚本混合的JSON-“ SyntaxError：JSON位置0处的意外令牌r”</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">宝儿Pro</span>
             <span class="discuss-time">2020.03.11</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在python中，您可以在将结果发送到html模板之前使用json.Dump（str）。</font><font style="vertical-align: inherit;">使用此命令字符串转换为正确的json格式并发送到html模板。</font><font style="vertical-align: inherit;">将结果发送到JSON.parse（result）之后，这是正确的响应，您可以使用它。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">神无Davaid</span>
@@ -326,9 +312,7 @@ public int CRCount<font></font>
     }<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">神奇Davaid</span>
@@ -338,36 +322,28 @@ public int CRCount<font></font>
 
 <pre><code>//comments here will not be parsed and throw error
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">TonyPro</span>
             <span class="discuss-time">2020.03.11</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">花了很多时间后，我发现我的问题是在package.json文件上定义了“主页”，这导致我的应用无法在Firebase上运行（相同的“令牌”错误）。</font><font style="vertical-align: inherit;">我使用create-react-app创建了我的react应用，然后使用READ.me文件上的firebase指南部署到github页面，意识到我必须做额外的工作才能使路由器正常工作，然后切换到firebase。</font><font style="vertical-align: inherit;">github指南已在package.json上添加了主页密钥，并导致了部署问题。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">GOL蛋蛋</span>
             <span class="discuss-time">2020.03.11</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">确保响应为JSON格式，否则会引发此错误。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">蛋蛋伽罗猿</span>
             <span class="discuss-time">2020.03.11</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">当您将响应定义为</font></font><code>application/json</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">并且正在获取HTML作为响应</font><font style="vertical-align: inherit;">时，会发生此错误</font><font style="vertical-align: inherit;">。</font><font style="vertical-align: inherit;">基本上，当您使用JSON响应为特定URL编写服务器端脚本但错误格式为HTML时，就会发生这种情况。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">满天星</span>
@@ -378,9 +354,7 @@ public int CRCount<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">原来，当我使用RESTconsole进行数据库测试时，我错过了JSON对象中的双引号之一，例如{“ name：” math“}，正确的应该是{” name“：” math“}</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我花了很多精力来找出这个笨拙的错误。</font><font style="vertical-align: inherit;">恐怕其他人会遇到类似的麻烦。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">SamItachi阿飞</span>
@@ -393,27 +367,21 @@ npm install<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">...足以使其再次正常工作。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">蛋蛋神乐</span>
             <span class="discuss-time">2020.03.11</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这最终成为我的权限问题。</font><font style="vertical-align: inherit;">我试图通过Cancan访问未经授权的网址，因此该网址已切换为</font></font><code>users/sign_in</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font><font style="vertical-align: inherit;">重定向的网址会响应html，而不是json。</font><font style="vertical-align: inherit;">html响应中的第一个字符是</font></font><code>&lt;</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Tony达蒙Mandy</span>
             <span class="discuss-time">2020.03.11</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">您正在从服务器返回HTML（或XML），但是</font></font><code>dataType: json</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">告诉jQuery解析为JSON。</font><font style="vertical-align: inherit;">在Chrome开发者工具中检查“网络”标签，以查看服务器响应的内容。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Near神乐路易</span>
@@ -431,9 +399,7 @@ return new JavaScriptSerializer().Serialize(H);<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">没有变量，JSON无法正确格式化数据。</font></font></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

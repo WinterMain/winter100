@@ -17,7 +17,7 @@ topic: JavaScript
     <div class="article-content"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">是否可以使用Node.js在服务器端使用jQuery选择器/ DOM操作？</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第988篇《我可以将jQuery与Node.js一起使用吗？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第988篇《我可以将jQuery与Node.js一起使用吗？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -28,9 +28,7 @@ topic: JavaScript
             <span class="discuss-time">2020.03.12</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">另一种方法是使用</font></font><a href="http://underscorejs.org/" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Underscore.js</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font><font style="vertical-align: inherit;">它应该提供您可能希望从JQuery的服务器端获得的东西。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">米亚番长</span>
@@ -43,9 +41,7 @@ topic: JavaScript
 <p><a href="https://github.com/ry/node/wiki" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">https://github.com/ry/node/wiki</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">（</font></font><a href="https://github.com/nodejs/node" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">https://github.com/nodejs/node</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">）</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">而且SimonW的</font></font><a href="http://github.com/simonw/djangode" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">djangode</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">非常酷...</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Near逆天</span>
@@ -54,9 +50,7 @@ topic: JavaScript
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">您可以使用</font></font><a href="https://electron.atom.io/" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Electron</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，它允许混合使用browserjs和nodejs。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">以前，我尝试在nodejs中使用canvas2d，但最终我放弃了。</font><font style="vertical-align: inherit;">默认情况下，nodejs不支持它，并且安装起来太困难了（很多... dependeces）。</font><font style="vertical-align: inherit;">在使用Electron之前，我可以轻松地使用所有以前的browserjs代码，甚至是WebGL，并将结果值（例如，结果base64图像数据）传递给nodejs代码。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">L番长</span>
@@ -69,9 +63,7 @@ topic: JavaScript
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这样，您就可以在没有DOM的情况下对jQuery插件进行单元测试。</font><font style="vertical-align: inherit;">您仍然必须在真实的​​浏览器中进行测试，以查看您的代码是否可以正常运行，但是，如果您发现浏览器特定的问题，则也可以轻松地“模拟”单元测试中的问题。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">准备好显示后，我将其推送到github.com/felixge。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">伽罗理查德</span>
@@ -85,9 +77,7 @@ topic: JavaScript
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">因此，诸如</font></font><code>require</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">/ </font></font><code>CommonJS</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">现场之</font><font style="vertical-align: inherit;">类的事情</font><font style="vertical-align: inherit;">不会破坏Node进程本身。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">您可以在</font></font><a href="http://nodejs.org/api/vm.html" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">此处</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">找到文档</font><font style="vertical-align: inherit;">。</font><font style="vertical-align: inherit;">干杯!</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">十三小哥Jim</span>
@@ -99,9 +89,7 @@ topic: JavaScript
 const { window } = new jsdom.JSDOM(`...`);<font></font>
 var $ = require("jquery")(window);<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">L猴子</span>
@@ -113,18 +101,14 @@ var $ = require("jquery")(window);<font></font>
 <pre><code>var navigator = { userAgent: "node-js" };  <font></font>
 var jQuery = require("./node-jquery").jQueryInit(window, navigator);<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">阳光村村</span>
             <span class="discuss-time">2020.03.12</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">现在，您可以</font><font style="vertical-align: inherit;">使用</font></font><a href="http://github.com/tmpvar/jsdom" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">jsdom</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font><font style="vertical-align: inherit;">只需在示例目录中查看其jquery示例即可。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">GreenSamA</span>
@@ -135,9 +119,7 @@ var jQuery = require("./node-jquery").jQueryInit(window, navigator);<font></font
 <blockquote>
   <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">专为服务器设计的核心jQuery的快速，灵活和精益实现。</font></font></p>
 </blockquote></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

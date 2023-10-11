@@ -19,7 +19,7 @@ topic: CSS
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">它在2.x中存在，类名称为dropdown-submenu</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第2718篇《Bootstrap下拉子菜单丢失》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第2718篇《Bootstrap下拉子菜单丢失》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -35,9 +35,7 @@ topic: CSS
     float:none !important;<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Mandy村村</span>
@@ -48,9 +46,7 @@ topic: CSS
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我认为这是一个很好的解决方案，因为它不会影响bootstrap js的核心类。 </font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">您可以在gihub上查看它：</font><a href="https://github.com/djokodonev/bootstrap-multilevel-dropdown" rel="nofollow"><font style="vertical-align: inherit;">https</font></a><font style="vertical-align: inherit;"> : </font></font><a href="https://github.com/djokodonev/bootstrap-multilevel-dropdown" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">//github.com/djokodonev/bootstrap-multilevel-dropdown</font></font></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小宇宙番长</span>
@@ -65,9 +61,7 @@ topic: CSS
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我希望这是任何想要导航菜单和多级子菜单的人的出路。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">更新2015-02-17智能菜单现已完全支持子菜单的Bootstrap元素样式。</font><font style="vertical-align: inherit;">有关更多信息，请访问Smart menus网站。</font></font></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

@@ -23,7 +23,7 @@ topic: JavaScript
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">一个人如何实现它以使其协同工作？</font><font style="vertical-align: inherit;">您能以这种方式在webpack-dev-server前面运行一个Express服务器吗？</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第947篇《如何允许webpack-dev-server允许来自react-router的入口点》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第947篇《如何允许webpack-dev-server允许来自react-router的入口点》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -34,9 +34,7 @@ topic: JavaScript
             <span class="discuss-time">2020.03.12</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">可能并非在所有情况下都如此，但是</font></font><code>publicPath: '/'</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">devServer中</font><font style="vertical-align: inherit;">的</font><font style="vertical-align: inherit;">选项</font><font style="vertical-align: inherit;">似乎</font><font style="vertical-align: inherit;">是解决深层路由问题的最简单解决方案，请参阅：</font><a href="https://github.com/ReactTraining/react-router/issues/676" rel="nofollow noreferrer"><font style="vertical-align: inherit;">https</font></a><font style="vertical-align: inherit;"> : </font></font><a href="https://github.com/ReactTraining/react-router/issues/676" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">//github.com/ReactTraining/react-router/issues/676</font></font></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">泡芙卡卡西</span>
@@ -84,9 +82,7 @@ topic: JavaScript
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">您可以通过查看输出的前几行来验证所有设置是否正确（带有“ 404s的部分将回退到：</font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">path</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> ”）。</font></font></p>
 
 <p><a href="https://i.stack.imgur.com/ZiK6T.png" rel="noreferrer"><img src="https://i.stack.imgur.com/ZiK6T.png" alt="在此处输入图片说明"></a></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

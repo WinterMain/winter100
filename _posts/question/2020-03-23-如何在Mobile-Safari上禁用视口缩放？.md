@@ -39,7 +39,7 @@ topic: HTML
 <p>it turns out that the problem was the non-standard quotes because I had copied the meta tag from a website that was using them, whoops</p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第2805篇《如何在Mobile Safari上禁用视口缩放？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第2805篇《如何在Mobile Safari上禁用视口缩放？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -53,18 +53,14 @@ topic: HTML
 
 <pre><code>&lt;meta name="viewport" content="width=device-width, initial-scale=1 initial-scale=1.0, maximum-scale=1.0, user-scalable=no"&gt;
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">蛋蛋</span>
             <span class="discuss-time">2020.03.23</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">为了符合WAI WCAG 2.0 AA的可访问性要求，您绝</font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">不能禁用</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">收缩缩放。</font><font style="vertical-align: inherit;">（WCAG 2.0：SC 1.4.4调整AA级文本的大小）。</font><font style="vertical-align: inherit;">您可以在此处阅读有关此内容的更多信息：   </font></font><a href="http://www.w3.org/TR/mobile-accessibility-mapping/#zoom-magnification" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">移动辅助功能：WCAG 2.0和其他W3C / WAI准则如何应用于移动，2.2缩放/放大</font></font></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">村村</span>
@@ -90,9 +86,7 @@ topic: HTML
 </div>
 </div>
 <p></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">神无</span>
@@ -110,9 +104,7 @@ topic: HTML
 &lt;div id="divPage" class="page"&gt;<font></font>
 &lt;/div&gt;<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">达蒙</span>
@@ -122,9 +114,7 @@ topic: HTML
 
 <pre><code>&lt;meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no"&gt;
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Gil伽罗小宇宙</span>
@@ -134,9 +124,7 @@ topic: HTML
 
 <pre><code>&lt;meta name="viewport" content="user-scalable=no" /&gt;
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">宝儿伽罗</span>
@@ -159,9 +147,7 @@ minimum-scale=1.0, maximum-scale=1.0, user-scalable=no"&gt;<font></font>
     -webkit-text-size-adjust: none<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">宝儿理查德</span>
@@ -173,9 +159,7 @@ minimum-scale=1.0, maximum-scale=1.0, user-scalable=no"&gt;<font></font>
 
 <pre><code>&lt;meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" /&gt;
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">伽罗</span>
@@ -187,9 +171,7 @@ minimum-scale=1.0, maximum-scale=1.0, user-scalable=no"&gt;<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">此功能不再适用于iOS10。Apple删除了该功能。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">除非您制作总平台应用，否则您无法立即在iOS上禁用缩放网站。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">LGil</span>
@@ -204,9 +186,7 @@ minimum-scale=1.0, maximum-scale=1.0, user-scalable=no"&gt;<font></font>
 </blockquote>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">据我了解，我们很不走运。</font></font></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

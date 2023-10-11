@@ -32,7 +32,7 @@ topic: JavaScript
 </code></pre></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第1389篇《React-Router外部链接》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第1389篇《React-Router外部链接》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -52,9 +52,7 @@ topic: JavaScript
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">您还可以在其他地方使用</font></font><code>window.location.assign()</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，</font></font><code>window.location.replace()</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">等等</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">猴子凯</span>
@@ -67,9 +65,7 @@ topic: JavaScript
 </blockquote>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">你可以尝试使用类似</font></font><a href="https://www.npmjs.com/package/react-redirect" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">阵营重定向</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">代替</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">达蒙Gil</span>
@@ -81,9 +77,7 @@ topic: JavaScript
 
 <pre><code>&lt;a target="_blank" href="https://meetflo.zendesk.com/hc/en-us/articles/230425728-Privacy-Policies"&gt;Policies&lt;/a&gt;
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">逆天Green古一</span>
@@ -120,9 +114,7 @@ export default Redirect;<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">编辑-注意：这与一起使用</font></font><code>react-router: 3.0.5</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，在4.x中不是那么简单</font></font></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

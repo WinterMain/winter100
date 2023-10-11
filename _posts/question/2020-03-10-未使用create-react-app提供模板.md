@@ -48,7 +48,7 @@ Please note that global installs of create-react-app are no longer supported.<fo
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">知道这里发生了什么吗？</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第445篇《未使用create-react-app提供模板》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第445篇《未使用create-react-app提供模板》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -59,9 +59,7 @@ Please note that global installs of create-react-app are no longer supported.<fo
             <span class="discuss-time">2020.03.10</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">尝试以管理员身份运行终端。</font><font style="vertical-align: inherit;">我遇到了同样的问题，除了以管理员身份打开终端，然后执行npx create-react-app yourAppName之外，没有任何帮助</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">朔风</span>
@@ -84,18 +82,14 @@ Please note that global installs of create-react-app are no longer supported.<fo
 <blockquote>
   <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">npx create-react-app新应用</font></font></p>
 </blockquote></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">YOC60211911</span>
             <span class="discuss-time">2020.03.10</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">对于Windows 10，我必须手动删除yarn缓存中的某些文件夹，我的路径类似于</font></font><code>C:\Users\username\AppData\Local\Yarn\Cache\v1</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，而必须除去的折叠类似于</font></font><code>npm-create-react-app-1.0.0-1234567890abcdef</code></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">米亚Near</span>
@@ -110,9 +104,7 @@ Please note that global installs of create-react-app are no longer supported.<fo
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">接着：</font></font></p>
 
 <p><code>npx create-react-app my-app</code></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Pro梅</span>
@@ -134,9 +126,7 @@ Please note that global installs of create-react-app are no longer supported.<fo
 
 <pre><code>npx create-react-app my-app
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">伽罗卡卡西</span>
@@ -147,9 +137,7 @@ Please note that global installs of create-react-app are no longer supported.<fo
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">您应该手动删除位于</font></font><code>~/.node/bin/</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">或的</font><font style="vertical-align: inherit;">create-react-app </font></font><code>/usr/bin/</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">（只需输入</font></font><code>which create-react-app</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">并从使用的位置将其删除</font></font><code>rm -rf</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">），然后直接运行即可</font></font><code>npm i -g create-react-app</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在那之后</font></font><code>create-react-app</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">将正常工作。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">null</span>
@@ -167,9 +155,7 @@ Please note that global installs of create-react-app are no longer supported.<fo
 </ol>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果可行，您将看到多个安装：一个安装用于react-scripts，一个安装用于template。</font><font style="vertical-align: inherit;">错误消息也将不再出现。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">米亚乐</span>
@@ -196,9 +182,7 @@ Please note that global installs of create-react-app are no longer supported.<fo
 
 <pre><code>npx create-react-app my-app --template typescript
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">LEYJim</span>
@@ -217,9 +201,7 @@ Please note that global installs of create-react-app are no longer supported.<fo
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">现在应该一切正常，并获得如下所示的文件夹结构：</font></font></p>
 
 <p><a href="https://i.stack.imgur.com/qdhOb.png" rel="nofollow noreferrer"><img src="https://i.stack.imgur.com/qdhOb.png" alt="使用create react应用未提供模板"></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">凯番长蛋蛋</span>
@@ -253,9 +235,7 @@ Please note that global installs of create-react-app are no longer supported.<fo
 <p><code>yarn create react-app my-app</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> 要么 </font></font><code>npx create-react-app my-app</code></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">现在您将得到您所期望的！</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">GilGreen</span>
@@ -276,9 +256,7 @@ Please note that global installs of create-react-app are no longer supported.<fo
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这将自动为u创建模板。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">古一达蒙</span>
@@ -295,18 +273,14 @@ Please note that global installs of create-react-app are no longer supported.<fo
 <blockquote>
   <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果您以前</font></font><code>create-react-app</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">通过进行</font><font style="vertical-align: inherit;">了</font><font style="vertical-align: inherit;">全局</font><font style="vertical-align: inherit;">安装</font></font><code>npm install -g create-react-app</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，最好使用进行卸载</font></font><code>npm uninstall -g create-react-app</code></p>
 </blockquote></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">LEY小卤蛋</span>
             <span class="discuss-time">2020.03.10</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">不能像这样解决此问题，问题出在节点的不同实例中，请尝试删除全局create-react-app，然后从根用户中删除node_modules和package-lock.json</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">L西里</span>
@@ -321,9 +295,7 @@ Please note that global installs of create-react-app are no longer supported.<fo
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">未在全球范围内安装CRA-在一个</font></font><code>/usr/local/lib/node_modules</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">或</font></font><code>/usr/local/bin</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">两个位置</font><font style="vertical-align: inherit;">均未找到它</font><font style="vertical-align: inherit;">。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">然后我遇到了</font><font style="vertical-align: inherit;">关于CRA的github问题的</font></font><a href="https://github.com/facebook/create-react-app/issues/8085#issuecomment-563200289" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">评论</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font><font style="vertical-align: inherit;">使用</font></font><code>--ignore-existing</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">标志</font><font style="vertical-align: inherit;">运行命令</font><font style="vertical-align: inherit;">很有帮助。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">凯达蒙</span>
@@ -334,9 +306,7 @@ Please note that global installs of create-react-app are no longer supported.<fo
 <pre><code>sudo npm uninstall -g create-react-app<font></font>
 npx create-react-app my-test-app<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">十三村村蛋蛋</span>
@@ -345,9 +315,7 @@ npx create-react-app my-test-app<font></font>
           <div class="discuss-comment"><p><code>npx create-react-app@latest your-project-name</code></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在尝试了所有答案后为我工作，希望可以对以后的人有所帮助。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">TomGil村村</span>
@@ -362,9 +330,7 @@ npx create-react-app my-test-app<font></font>
 </ul>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我希望这有帮助。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">卡卡西Near</span>
@@ -381,9 +347,7 @@ npx create-react-app my-test-app<font></font>
 <li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">npm install -g create-react-app</font></font></li>
 <li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">npx create-react-app我的应用</font></font></li>
 </ol></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">null</span>
@@ -400,9 +364,7 @@ npx create-react-app my-test-app<font></font>
 
 <pre><code>npx create-react-app project-name
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">番长前端</span>
@@ -414,9 +376,7 @@ npx create-react-app my-test-app<font></font>
 <li><code>npm uninstall -g create-react-app</code></li>
 <li><code>npx create-react-app my-app</code></li>
 </ol></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小卤蛋JinJin</span>
@@ -426,9 +386,7 @@ npx create-react-app my-test-app<font></font>
 <li><code>npm install -g create-react-app</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> 在您的电脑中 </font></font></li>
 <li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">再次创建react项目 </font></font><code>npx create-react-app my-app</code></li>
 </ol></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">蛋蛋樱</span>
@@ -443,9 +401,7 @@ npx create-react-app my-test-app<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">但 </font></font></p>
 
 <p><code>yarn create react-app my-app</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> 命令工作正常。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">村村LEY</span>
@@ -468,9 +424,7 @@ npx create-react-app my-test-app<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">最新变化的更多详细信息</font></font><code>create-react-app</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">：</font></font></p>
 
 <p><a href="https://github.com/facebook/create-react-app/releases/tag/v3.3.0" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">https://github.com/facebook/create-react-app/releases/tag/v3.3.0</font></font></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">凯神乐</span>
@@ -490,9 +444,7 @@ npx create-react-app my-test-app<font></font>
 
 <pre><code>npx create-react-app my-app
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Eva斯丁</span>
@@ -536,9 +488,7 @@ npx create-react-app my-test-app<font></font>
 <p><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">第三步：（</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果这2个都不起作用）首先通过卸载</font></font><strong><code>npm uninstall -g create-react-app</code></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，然后</font></font><strong><code>which create-react-app</code></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在命令行中</font><font style="vertical-align: inherit;">通过</font><font style="vertical-align: inherit;">命令</font><font style="vertical-align: inherit;">检查是否仍然“安装”了它</font><font style="vertical-align: inherit;">。</font><font style="vertical-align: inherit;">如果您得到类似（</font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">/ usr / local / bin / create-react-app</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">）的信息，请运行此命令</font></font><strong><code>rm -rf /usr/local/bin/create-react-app</code></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">（文件夹可能有所不同）以手动删除。</font><font style="vertical-align: inherit;">然后再次通过npx / npm / yarn安装它。</font></font></p>
 
 <p><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">注意</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">：我在最后一步取得了成功。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">凯斯丁</span>
@@ -572,9 +522,7 @@ npx create-react-app my-test-app<font></font>
 npm init react-app my-app<font></font>
 yarn create react-app my-app<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">古一Green</span>
@@ -593,9 +541,7 @@ yarn create react-app my-app<font></font>
 <li><code>npm init react-app my-app</code></li>
 <li><code>yarn create react-app my-app</code></li>
 </ul></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

@@ -50,7 +50,7 @@ export default class App extends Component {<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">有任何见解或工作流程模式吗？</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第573篇《在react组件之外访问redux存储的最佳方法是什么？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第573篇《在react组件之外访问redux存储的最佳方法是什么？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -71,9 +71,7 @@ export default class App extends Component {<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">放入名为的模块</font></font><code>store.js</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，</font></font><code>export</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">然后</font></font><code>const</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在store.js中添加常规的react-redux导入，然后添加。</font><font style="vertical-align: inherit;">文件。</font><font style="vertical-align: inherit;">然后，我</font></font><code>index.js</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在应用程序级别导入，然后使用通常</font></font><code>import {store} from "./store.js"</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">的子组件</font><font style="vertical-align: inherit;">导入index.js。</font><font style="vertical-align: inherit;">然后，子组件使用</font></font><code>useSelector()</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">和</font></font><code>useDispatch()</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">钩子</font><font style="vertical-align: inherit;">访问商店</font><font style="vertical-align: inherit;">。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">为了使用非组件前端代码访问商店，我使用了类似的导入（即</font></font><code>import {store} from "../../store.js"</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">），然后使用</font></font><code>store.getState()</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">并</font></font><code>store.dispatch({*action goes here*})</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">处理了商店的检索和更新（或向商店发送操作）。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">飞云前端西门</span>
@@ -81,9 +79,7 @@ export default class App extends Component {<font></font>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">好像</font></font><code>Middleware</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">是要走的路。</font></font><br><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
 请参阅</font></font><a href="http://redux.js.org/docs/advanced/Middleware.html" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">官方文档</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">以及</font></font><a href="https://github.com/reactjs/react-redux/issues/361" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">其发行版</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">上的</font><a href="https://github.com/reactjs/react-redux/issues/361" rel="noreferrer"><font style="vertical-align: inherit;">此问题</font></a></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Jim理查德泡芙</span>
@@ -94,9 +90,7 @@ export default class App extends Component {<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">您甚至可以将该对象保存到</font></font><code>window</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">属性，以在需要时从应用程序的任何部分访问它（</font></font><code>window.store = store</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">）</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">可以在</font></font><a href="http://redux.js.org/docs/api/Store.html#getState" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Redux文档中</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">找到更多信息</font><font style="vertical-align: inherit;">。</font></font></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

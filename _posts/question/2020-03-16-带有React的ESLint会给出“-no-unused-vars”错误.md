@@ -87,7 +87,7 @@ export default class App extends Component {<font></font>
 </code></pre></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第1797篇《带有React的ESLint会给出“ no-unused-vars”错误》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第1797篇《带有React的ESLint会给出“ no-unused-vars”错误》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -103,9 +103,7 @@ export default class App extends Component {<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">该</font></font><code>react/recommended</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">组规则增加了</font></font><a href="https://github.com/yannickcr/eslint-plugin-react#recommended" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">许多其他的规则</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，你可能不希望。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">梅小哥</span>
@@ -128,9 +126,7 @@ export default class App extends Component {<font></font>
      "react/jsx-uses-vars": "error" <font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

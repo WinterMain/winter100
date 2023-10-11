@@ -60,7 +60,7 @@ query: {}<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">为什么即使查询清楚地识别了asPath，查询还是为空？</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第3565篇《为什么在NextJS中第一次渲染时withRouter router.query为空？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第3565篇《为什么在NextJS中第一次渲染时withRouter router.query为空？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -73,9 +73,7 @@ query: {}<font></font>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">那是来自React Router的withRouter吗？</font></font></p>
 
 <p>If it is it will not add a query prop - it will add props called: location, history and match</p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

@@ -32,7 +32,7 @@ topic: Node.js
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">只有JSHint每次都警告我，代码才能正常工作。</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第2209篇《如果我使用const，为什么JSHint会发出警告？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第2209篇《如果我使用const，为什么JSHint会发出警告？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -47,9 +47,7 @@ topic: Node.js
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">然后使用以下命令行调用jshint：</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">jshint --config jshint_opts lib / *。js</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Green老丝Itachi</span>
@@ -61,9 +59,7 @@ topic: Node.js
 <li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">转到</font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">首选项</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> -&gt; </font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">设置</font></font></strong></li>
 <li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在</font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Preferences.sublime-settings下-用户</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">添加</font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">“ esversion”：6</font></font></strong></li>
 </ul></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">AMandy前端</span>
@@ -95,9 +91,7 @@ topic: Node.js
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">配置完成后，再次运行它将跳过警告，</font></font></p>
 
 <p><a href="https://i.stack.imgur.com/Gifh9.png" rel="nofollow noreferrer"><img src="https://i.stack.imgur.com/Gifh9.png" alt="在此处输入图片说明"></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">达蒙Green逆天</span>
@@ -109,9 +103,7 @@ topic: Node.js
     "esversion": 6 <font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Gil米亚</span>
@@ -124,9 +116,7 @@ topic: Node.js
 </blockquote>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">看到这个问题</font><a href="https://intellij-support.jetbrains.com/hc/en-us/community/posts/360000112510-How-do-I-resolve-these-JSHint-ES6-errors-?flash_digest=7f9a0f5de48b847a37ee71c787c0d42fa63f2234" rel="nofollow noreferrer"><font style="vertical-align: inherit;">我</font></a><font style="vertical-align: inherit;">该</font></font><a href="https://intellij-support.jetbrains.com/hc/en-us/community/posts/360000112510-How-do-I-resolve-these-JSHint-ES6-errors-?flash_digest=7f9a0f5de48b847a37ee71c787c0d42fa63f2234" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如何解决这些JSHint-ES6错误</font></font></a> </p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">神无Tom</span>
@@ -149,9 +139,7 @@ topic: Node.js
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果要对每个项目使用es6版本以上，则可以配置IDE。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">猪猪路易</span>
@@ -174,9 +162,7 @@ topic: Node.js
 </ol>
 
 <p><font style="vertical-align: inherit;"></font><code>.jshintrc</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果要为编辑器配置全局jshint设置，则无需</font><font style="vertical-align: inherit;">创建</font><font style="vertical-align: inherit;">文件</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">前端A宝儿</span>
@@ -185,9 +171,7 @@ topic: Node.js
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">您可以</font><font style="vertical-align: inherit;">在jshint选项对象内</font><font style="vertical-align: inherit;">指定</font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">esversion：6</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font><font style="vertical-align: inherit;">请看图片。</font><font style="vertical-align: inherit;">我正在使用grunt-contrib-jshint插件。</font></font></p>
 
 <p><a href="https://i.stack.imgur.com/Uvday.jpg" rel="noreferrer"><img src="https://i.stack.imgur.com/Uvday.jpg" alt="在此处输入图片说明"></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小哥Harry泡芙</span>
@@ -201,9 +185,7 @@ topic: Node.js
 </code></pre>
 
 <p><a href="https://stackoverflow.com/a/27442276/1476885"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">James的回答</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">建议您可以</font></font><code>/*jshint esversion: 6 */</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">为</font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">每个</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">文件</font><font style="vertical-align: inherit;">添加一个注释</font><font style="vertical-align: inherit;">，但是如果需要控制多个文件，这比必要的工作更多。</font></font></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

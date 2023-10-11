@@ -60,7 +60,7 @@ export const state = {<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在时，PS Running会</font></font><code>npm run build|generate</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">产生与普通vue相同的文件（不包含内容，只是结构，直到重新读取目标元素为止）</font></font><code>mode: spa</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第2875篇《Nuxt Vuex商店Cookie发行》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第2875篇《Nuxt Vuex商店Cookie发行》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}

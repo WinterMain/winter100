@@ -19,7 +19,7 @@ topic: React.js
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在这种情况下，如何指定自己选择的端口？</font><font style="vertical-align: inherit;">我想同时运行此项目的两个（用于测试），一个在端口</font></font><code>3005</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，另一个在</font></font><code>3006</code></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第617篇《如何指定运行基于create-react-app的项目的端口？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第617篇《如何指定运行基于create-react-app的项目的端口？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -44,9 +44,7 @@ topic: React.js
     "start": "export PORT=4000 &amp;&amp; react-scripts start"<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Gil米亚卡卡西</span>
@@ -59,9 +57,7 @@ topic: React.js
 <p><code>$ export PORT=4000 &amp;&amp; npm start</code></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">您可以将所需的端口号替换为</font></font><code>4000</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">上面</font><font style="vertical-align: inherit;">的示例值</font><font style="vertical-align: inherit;">。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">TonyPro</span>
@@ -78,9 +74,7 @@ topic: React.js
 <li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">编辑</font></font><code>config/webpack.config.dev.js</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">并执行相同的操作</font></font></li>
 <li><code>npm start</code></li>
 </ol></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">罗静云</span>
@@ -95,9 +89,7 @@ topic: React.js
 <pre><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">const DEFAULT_PORT = parseInt（process.env.PORT，10）|| </font><font style="vertical-align: inherit;">4000;</font></font></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">希望这可以对您有所帮助;）</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Sam梅</span>
@@ -111,9 +103,7 @@ topic: React.js
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">例如：const DEFAULT_PORT = parseInt（process.env.PORT，10）|| </font><font style="vertical-align: inherit;">9999;</font></font></p></li>
 <li><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在package.json中，执行以下行。</font><font style="vertical-align: inherit;">“ start”：“ set PORT = 9999 &amp;&amp; react-scripts start”然后使用NPM start启动应用程序。</font><font style="vertical-align: inherit;">它将在9999端口启动应用程序。</font></font></p></li>
 </ol></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">米亚小小神乐</span>
@@ -130,18 +120,14 @@ topic: React.js
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">最可移植的将是最后一种方法。</font><font style="vertical-align: inherit;">但是，正如其他发布者所述，请将.env添加到.gitignore中，以免将配置上传到公共源存储库。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">更多详细信息：</font></font><a href="https://tech.amikelive.com/node-830/reactjs-changing-default-port-3000-in-create-react-app/" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">本文</font></font></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">西门逆天</span>
             <span class="discuss-time">2020.03.11</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在我的package.json文件中</font></font><code>"start": "export PORT=3001 &amp;&amp; react-scripts start"</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">进行</font><font style="vertical-align: inherit;">更改</font><font style="vertical-align: inherit;">也对我有用，并且我在macOS 10.13.4上</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Near逆天</span>
@@ -158,9 +144,7 @@ topic: React.js
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">但是您可能更喜欢使用在其中写入PORT = 3006的方式来创建.env</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小小猿</span>
@@ -172,9 +156,7 @@ topic: React.js
 
 <pre><code>PORT=3005
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">JimLEYHarry</span>
@@ -191,9 +173,7 @@ topic: React.js
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">而且你很好。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">西门村村古一</span>
@@ -208,9 +188,7 @@ topic: React.js
 
 <pre><code>"start": "cross-env PORT=3006 react-scripts start",
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">猴子小小Tony</span>
@@ -221,9 +199,7 @@ topic: React.js
 <pre><code>$ export PORT=3005 #Linux<font></font>
 $ $env:PORT=3005 # Windows - Powershell<font></font>
 </code></pre></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

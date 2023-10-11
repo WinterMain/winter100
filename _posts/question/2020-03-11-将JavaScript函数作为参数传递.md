@@ -26,7 +26,7 @@ topic: JavaScript
 <p><font style="vertical-align: inherit;"></font><code>eval()</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">根据我所读的内容，</font><font style="vertical-align: inherit;">我可以使用来解决它</font><font style="vertical-align: inherit;">，但这不是最佳实践。</font><font style="vertical-align: inherit;">如何在JavaScript中将函数作为参数传递？</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第773篇《将JavaScript函数作为参数传递》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第773篇《将JavaScript函数作为参数传递》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -55,9 +55,7 @@ upload(event,fn){<font></font>
   fn(event);<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Tony村村</span>
@@ -81,9 +79,7 @@ upload(event,fn){<font></font>
            alert(d)<font></font>
     });<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">APro</span>
@@ -109,9 +105,7 @@ callAnotherFunction("needToBeCalled", "10,20");<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">而已。</font><font style="vertical-align: inherit;">我也在寻找此解决方案，并尝试了其他答案中提供的解决方案，但最终从上述示例中获得了解决方案。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">前端MandyJinJin</span>
@@ -130,9 +124,7 @@ function refreshContactList(int, int, string) {<font></font>
 <font></font>
 addContact([1,2,"str"], refreshContactList); //parameters should be putted in an array<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">米亚逆天</span>
@@ -150,9 +142,7 @@ function callAddContact() {<font></font>
     addContact("entity", function() { DoThis(); });<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">逆天小宇宙</span>
@@ -190,9 +180,7 @@ iNeedParameter(ToBeCalled); <font></font>
 
 <pre><code>anotherFunction(ToBeCalledVariable);
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">猿飞云斯丁</span>
@@ -241,9 +229,7 @@ function myFunc(callback, args)<font></font>
 //alerts "I like to eat pickles and peanut butter"<font></font>
 myFunc(eat, ["pickles", "peanut butter"]); <font></font>
 </code></pre></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

@@ -25,7 +25,7 @@ topic: Django
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">提前致谢！</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第1603篇《带有Django的ReactJS-实际用法》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第1603篇《带有Django的ReactJS-实际用法》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -46,9 +46,7 @@ topic: Django
 </ol>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">因此，django-webpack的工作原理非常好，并且可以帮助您在django之外隔离编译，以使想法以一种可扩展的好方式工作。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">樱猪猪</span>
@@ -65,9 +63,7 @@ topic: Django
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我认为这种体系结构使您可以将事物分开，而不处理它们的集成。</font><font style="vertical-align: inherit;">在前端/ React生态系统上事情已经太复杂了，因此我认为必须考虑配置的简单性。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我也很想知道部署过程将如何寻找该体系结构（使用什么工具？），因此，如果您有建议，请添加注释，我将相应地更新响应以为将来的读者提供有用的信息。</font></font></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

@@ -131,7 +131,7 @@ C:\Users\Matt Cashatt&gt;<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">关于我所缺少的任何线索吗？</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第2661篇《在Windows上运行Python以获取Node.js依赖项》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第2661篇《在Windows上运行Python以获取Node.js依赖项》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -148,9 +148,7 @@ C:\Users\Matt Cashatt&gt;<font></font>
 <p><code>npm install --global --production windows-build-tools</code></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">2-然后</font></font><code>npm rebuild</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在第一步完成后</font><font style="vertical-align: inherit;">运行</font></font><strong><em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">（尤其是完成python 2.7安装，这是问题的主要原因）</font></font></em></strong></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小卤蛋Green小哥</span>
@@ -163,9 +161,7 @@ C:\Users\Matt Cashatt&gt;<font></font>
 <p><a href="https://nodejs.org/en/download/" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">LTS版本</font></font></a></p>
 
 <p><a href="https://nodejs.org/en/download/current/" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">当前最新版本</font></font></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Gil</span>
@@ -176,18 +172,14 @@ C:\Users\Matt Cashatt&gt;<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">解决方案：在Windows上，只需尝试添加PATH Env-&gt; C：\ Program Files \ PostgreSQL \ 12 \ bin</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">为我工作，现在我可以使用pg-promise例如npm或其他依赖项。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">泡芙</span>
             <span class="discuss-time">2020.03.23</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果您尝试在Cygwin上使用此功能，则需要按照</font></font><a href="https://stackoverflow.com/a/39128152/6704455"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">此</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">答案中</font><font style="vertical-align: inherit;">的说明进行操作</font><font style="vertical-align: inherit;">。</font><font style="vertical-align: inherit;">（这是Cygwin如何对待Windows符号链接的问题。）</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">路易番长</span>
@@ -200,9 +192,7 @@ C:\Users\Matt Cashatt&gt;<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">正如其他人指出的那样，这是易失性配置，仅适用于当前的cmd会话，并且（显然）您必须在运行npm install之前设置路径。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我希望这有帮助。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">神无</span>
@@ -216,9 +206,7 @@ C:\Users\Matt Cashatt&gt;<font></font>
 
 <pre><code>SET PYTHON=C:\work\_env\Python27\python.exe
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Eva十三</span>
@@ -229,18 +217,14 @@ C:\Users\Matt Cashatt&gt;<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">完成了！</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">注意：请相应地设置环境变量。</font><font style="vertical-align: inherit;">我在这里为窗户回答。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">老丝阿飞</span>
             <span class="discuss-time">2020.03.23</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">为什么不在</font></font><a href="https://www.python.org/downloads/release/python-2714/" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这里</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">下载python安装程序</font><font style="vertical-align: inherit;">？</font><font style="vertical-align: inherit;">当您检查路径安装时，它将为您工作</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">伽罗理查德</span>
@@ -256,9 +240,7 @@ C:\Users\Matt Cashatt&gt;<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我已经在Windows-7上安装了python3.6.3。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">GO猿</span>
@@ -269,9 +251,7 @@ C:\Users\Matt Cashatt&gt;<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这是给您的链接：</font></font><a href="https://github.com/nodejs/node-gyp/issues/1268" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">https</font></font></a>
 <font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> : 
  </font><a href="https://github.com/nodejs/node-gyp/issues/1268" rel="nofollow noreferrer"><font style="vertical-align: inherit;">//github.com/nodejs/node-gyp/issues/1268 </font></a></font><a href="https://github.com/nodejs/node-gyp/issues/193" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">https://github.com/nodejs/node-gyp/issues/193</font></font></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">null</span>
@@ -285,9 +265,7 @@ C:\Users\Matt Cashatt&gt;<font></font>
 
 <pre><code>npm install --global --production windows-build-tools
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小胖Gil</span>
@@ -304,9 +282,7 @@ C:\Users\Matt Cashatt&gt;<font></font>
 
 <pre><code>npm install --global --production windows-build-tools
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">斯丁</span>
@@ -337,9 +313,7 @@ C:\Users\Matt Cashatt&gt;<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">重新启动cmd，并验证变量是否存在</font></font><code>set PYTHON</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，应</font><font style="vertical-align: inherit;">通过</font><font style="vertical-align: inherit;">该变量返回变量</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">最后重新申请 </font></font><code>npm install &lt;module&gt;</code></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Stafan村村</span>
@@ -353,9 +327,7 @@ C:\Users\Matt Cashatt&gt;<font></font>
 </ol>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">就是这样！</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">逆天神乐</span>
@@ -366,9 +338,7 @@ C:\Users\Matt Cashatt&gt;<font></font>
 <p><a href="http://www.steveworkman.com/node-js/2012/installing-jsdom-on-windows/" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">http://www.steveworkman.com/node-js/2012/installing-jsdom-on-windows/</font></font></a></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我特别记得python版本很重要。</font><font style="vertical-align: inherit;">确保安装2.7.3而不是3。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">樱小胖Mandy</span>
@@ -403,9 +373,7 @@ A proper C/C++ compiler toolchain, like GCC<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">本文可能也有帮助：</font><a href="https://github.com/nodejs/node-gyp#installation" rel="noreferrer"><font style="vertical-align: inherit;">https</font></a><font style="vertical-align: inherit;"> : </font></font><a href="https://github.com/nodejs/node-gyp#installation" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">//github.com/nodejs/node-gyp#installation</font></font></a></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

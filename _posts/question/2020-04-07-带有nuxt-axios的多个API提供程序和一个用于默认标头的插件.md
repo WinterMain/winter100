@@ -53,7 +53,7 @@ topic: Vue.js
 <p>How can i do that, i read about the proxy option of the <code>nuxt-axios</code> package but what i understand is this only changes the request base URL, i cant find how to set different headers to a specific request.</p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第4127篇《带有nuxt-axios的多个API提供程序和一个用于默认标头的插件》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第4127篇《带有nuxt-axios的多个API提供程序和一个用于默认标头的插件》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}

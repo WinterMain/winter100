@@ -31,7 +31,7 @@ encodeURIComponent("var1=value1&amp;var2=value2");<font></font>
 </code></pre></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第267篇《什么时候应该使用转义而不是encodeURI / encodeURIComponent？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第267篇《什么时候应该使用转义而不是encodeURI / encodeURIComponent？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -65,9 +65,7 @@ encodeURIComponent("var1=value1&amp;var2=value2");<font></font>
 <p></p>
 
 <p>Or if you can use a table, replace <code>console.log</code> with <code>console.table</code> (for the prettier output).</p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">逆天路易</span>
@@ -78,27 +76,21 @@ encodeURIComponent("var1=value1&amp;var2=value2");<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">为此，我发现</font></font><a href="http://www.the-art-of-web.com/javascript/escape/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">该网站</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">对于证实我怀疑自己在做适当的事情非常有用。</font><font style="vertical-align: inherit;">事实证明，它对于解码encodeURIComponent的字符串很有用，这可能很难解释。</font><font style="vertical-align: inherit;">一个很棒的书签：</font></font></p>
 
 <p><a href="http://www.the-art-of-web.com/javascript/escape/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">http://www.the-art-of-web.com/javascript/escape/</font></font></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">番长斯丁</span>
             <span class="discuss-time">2020.03.09</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">还要记住，它们都编码不同的字符集，并适当选择所需的字符集。</font><font style="vertical-align: inherit;">encodeURI（）编码的字符要少于encodeURIComponent（）的编码，而encodeURIComponent（）所编码的字符要比escape（）少（而且与丹尼普相同）。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">GilA</span>
             <span class="discuss-time">2020.03.09</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">encodeURI（）-escape（）函数用于javascript转义，而不是HTTP。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">nick</span>
@@ -127,9 +119,7 @@ console.table(arr);</code></pre>
 </div>
 </div>
 <p></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">伽罗L</span>
@@ -152,9 +142,7 @@ unescape("A+%2B+B") =           "A+++B"       Wrong!<font></font>
 decodeURI("A+%2B+B") =          "A+++B"       Wrong!<font></font>
 decodeURIComponent("A+%2B+B") = "A+++B"       Wrong!<font></font>
 </code></pre></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

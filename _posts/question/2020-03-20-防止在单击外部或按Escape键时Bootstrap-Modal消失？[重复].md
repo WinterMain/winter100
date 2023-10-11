@@ -36,7 +36,7 @@ topic: HTML
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我将Twitter Bootstrap模态用作向导窗口，并希望防止用户在模态之外单击或按Escape键时将其关闭。</font><font style="vertical-align: inherit;">相反，我希望在用户按下“完成”按钮时将其关闭。</font><font style="vertical-align: inherit;">我如何实现这种情况？</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第2439篇《防止在单击外部或按Escape键时Bootstrap Modal消失？[重复]》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第2439篇《防止在单击外部或按Escape键时Bootstrap Modal消失？\[重复\]》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -63,9 +63,7 @@ topic: HTML
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我认为此Codepen可以帮助您
  </font></font><a href="http://codepen.io/shubhangisingh/pen/RKbeqV" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">防止模式关闭CSS和自举</font></font></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">西门米亚</span>
@@ -73,9 +71,7 @@ topic: HTML
           </div>
           <div class="discuss-comment"><p>Your code is working when i click out side the modal, but if i use html <strong><code>input</code></strong> field inside modal-body then focus your cursor on that input then press <strong><code>esc</code></strong> key the modal has closed.
 Click <a href="http://jsfiddle.net/4EUS6/185/" rel="nofollow">here</a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">斯丁小胖Jim</span>
@@ -83,18 +79,14 @@ Click <a href="http://jsfiddle.net/4EUS6/185/" rel="nofollow">here</a></p></div>
           </div>
           <div class="discuss-comment"><pre><code>&lt;button class="btn btn-primary btn-lg" data-backdrop="static" data-keyboard="false" data-target="#myModal" data-toggle="modal"&gt;
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Tom蛋蛋</span>
             <span class="discuss-time">2020.03.20</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我使用这些属性，并且有效， </font></font><code>data-keyboard="false" data-backdrop="static"</code></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">西里小胖小卤蛋</span>
@@ -108,9 +100,7 @@ Click <a href="http://jsfiddle.net/4EUS6/185/" rel="nofollow">here</a></p></div>
 
 <pre><code>&lt;a data-controls-modal="your_div_id" data-backdrop="static" data-keyboard="false" href="#"&gt;
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">樱泡芙</span>
@@ -120,9 +110,7 @@ Click <a href="http://jsfiddle.net/4EUS6/185/" rel="nofollow">here</a></p></div>
 
 <pre><code>&lt;div class="modal fade" id="myModal" data-keyboard="false" data-backdrop="static"&gt;
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">老丝小卤蛋梅</span>
@@ -132,9 +120,7 @@ Click <a href="http://jsfiddle.net/4EUS6/185/" rel="nofollow">here</a></p></div>
 
 <pre><code>&lt;div id="idModal" class="modal hide" data-backdrop="static" data-keyboard="false"&gt;
 </code></pre></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

@@ -60,7 +60,7 @@ export default class UserList extends React.Component {    <font></font>
 </code></pre></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第825篇《在React js中进行API调用的正确方法是什么？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第825篇《在React js中进行API调用的正确方法是什么？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -147,9 +147,7 @@ export default class UserList extends React.Component {    <font></font>
 
 <pre><code>   {this.state.isLoading &amp;&amp; &lt;LinearProgress /&gt;}
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">斯丁</span>
@@ -162,9 +160,7 @@ export default class UserList extends React.Component {    <font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">不应</font><font style="vertical-align: inherit;">将方法</font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">componentWillMount（）</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">和</font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">UNSAFE_componentWillMount（）</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">用于外部API调用，因为它们已被弃用。</font></font><a href="https://blog.northcoders.com/react-componentwillmount-to-be-deprecated" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在这里</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">您会看到常见原因，为什么不赞成使用此方法。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">无论如何，您绝</font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">不能使用render（）方法或直接从render（）调用的方法</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">作为外部API调用的点。</font><font style="vertical-align: inherit;">如果这样做，您的</font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">应用程序将被阻止</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小哥老丝</span>
@@ -199,18 +195,14 @@ export default class UserList extends React.Component {    <font></font>
 <font></font>
 ReactDOM.render(&lt;Repos user="bradcypert" /&gt;, document.querySelector("#app"))<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">逆天AGreen</span>
             <span class="discuss-time">2020.03.11</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">仅在此处添加当前</font></font><code>useEffect</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">可能是现在放置api调用的地方。</font><font style="vertical-align: inherit;">参见</font></font><a href="https://btholt.github.io/complete-intro-to-react-v5/effects" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">https://btholt.github.io/complete-intro-to-react-v5/effects</font></font></a> </p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">ItachiGreen</span>
@@ -271,9 +263,7 @@ export default class UserList extends Component {<font></font>
       )<font></font>
 }}<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">米亚伽罗L</span>
@@ -285,9 +275,7 @@ export default class UserList extends Component {<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">它们具有处理异步调用（即API调用）的定义非常明确的方式，并且我建议使用</font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">fetch</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">或</font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">请求</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> npm包，</font><font style="vertical-align: inherit;">而不是使用jQuery进行API调用，</font><font style="vertical-align: inherit;">现代浏览器目前支持</font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">fetch</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，但也可以使用shim服务器端。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">还有另一个令人惊奇的软件包</font></font><strong><a href="https://github.com/visionmedia/superagent" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">superagent</font></font></a></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，在发出API请求时它有很多选择，而且非常易于使用。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">LEYJim</span>
@@ -302,18 +290,14 @@ export default class UserList extends Component {<font></font>
 </blockquote>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如您所见，</font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">componentDidMount</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">被认为是进行</font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">api调用</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，访问节点</font><font style="vertical-align: inherit;">的最佳位置和周期，这</font><font style="vertical-align: inherit;">意味着此时可以安全地进行调用，更新视图或在文档准备就绪时执行任何操作（如果您愿意）使用jQuery，它应该以某种方式提醒您document.ready（）函数，在这里您可以确保一切准备就绪，可以在代码中进行任何操作...</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">凯Gil</span>
             <span class="discuss-time">2020.03.11</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">渲染函数应该是纯函数，这意味着它仅使用状态和道具进行渲染，从不尝试在渲染中修改状态，这通常会导致难看的错误并显着降低性能。</font><font style="vertical-align: inherit;">如果您分开数据获取并在React App中提出问题，这也是一个好点。</font><font style="vertical-align: inherit;">我建议您阅读这篇文章，它很好地解释了这个想法。</font></font><a href="https://medium.com/@learnreact/container-components-c0e67432e005#.sfydn87nm" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">https://medium.com/@learnreact/container-components-c0e67432e005#.sfydn87nm</font></font></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">阳光村村</span>
@@ -322,9 +306,7 @@ export default class UserList extends Component {<font></font>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">您可能需要查看</font></font><a href="https://facebook.github.io/flux/docs/overview.html" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Flux体系结构</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font><font style="vertical-align: inherit;">我也建议您检查</font></font><a href="http://redux.js.org/docs/basics/UsageWithReact.html" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">React-Redux的实现</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font><font style="vertical-align: inherit;">将您的api调用放入您的操作中。</font><font style="vertical-align: inherit;">这比将它们全部放入组件中要干净得多。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">操作是一种帮助程序方法，您可以调用这些方法来更改应用程序状态或进行api调用。</font></font></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

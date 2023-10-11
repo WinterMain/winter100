@@ -79,7 +79,7 @@ module.exports = Search;<font></font>
 </code></pre></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第567篇《ReactJS：警告：setState（…）：在现有状态转换期间无法更新》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第567篇《ReactJS：警告：setState（…）：在现有状态转换期间无法更新》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -128,9 +128,7 @@ module.exports = Search;<font></font>
         }<font></font>
     }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">不知</span>
@@ -146,9 +144,7 @@ module.exports = Search;<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">（我已经删除了它，并且不小心将“ this”绑定语句留在了我的构造函数中）。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">解决方案=删除“ this”绑定语句。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">西里泡芙</span>
@@ -156,9 +152,7 @@ module.exports = Search;<font></font>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">问题当然是在绑定带有onClick处理程序的按钮时的绑定。</font><font style="vertical-align: inherit;">解决方案是在渲染时调用动作处理程序时使用箭头功能。</font><font style="vertical-align: inherit;">像这样： 
     </font></font><code>onClick={ () =&gt; this.handleButtonChange(false) }</code></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">蛋蛋西门</span>
@@ -169,9 +163,7 @@ module.exports = Search;<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">一个棘手的例子：在基于状态数据呈现多选GUI组件时，如果state没有要显示的内容，</font></font><code>resetOptions()</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">则对该组件</font><font style="vertical-align: inherit;">的调用</font><font style="vertical-align: inherit;">被视为状态更改。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">明显的解决方法是用</font></font><code>resetOptions()</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">in </font></font><code>componentDidUpdate()</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">代替</font></font><code>render()</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">ProSam</span>
@@ -182,9 +174,7 @@ module.exports = Search;<font></font>
 <pre><code>&lt;button onClick={(e) =&gt; this.deleteRow(id, e)}&gt;Delete Row&lt;/button&gt;<font></font>
 &lt;button onClick={this.deleteRow.bind(this, id)}&gt;Delete Row&lt;/button&gt;<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">LEY逆天</span>
@@ -195,9 +185,7 @@ module.exports = Search;<font></font>
 <p><strong><code>onClick={this.handleButton</code></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">（）</font></font><strong><code>}</code></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">-注意</font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">（），</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">而不是：</font></font></p>
 
 <p><strong><code>onClick={this.handleButton</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">}</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> -请注意，我们在初始化函数时并未调用该函数</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">村村达蒙LEY</span>
@@ -238,9 +226,7 @@ module.exports = Search;<font></font>
     )<font></font>
   }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">理查德Near</span>
@@ -261,9 +247,7 @@ this.handleButtonChangeSingle = this.handleButtonChange.bind(this, false);<font>
 <pre><code>&lt;Button href="#" active={!this.state.singleJourney} onClick={this.handleButtonChangeSingle} &gt;Retour&lt;/Button&gt;<font></font>
 &lt;Button href="#" active={this.state.singleJourney} onClick={this.handleButtonChangeRetour}&gt;Single Journey&lt;/Button&gt;<font></font>
 </code></pre></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

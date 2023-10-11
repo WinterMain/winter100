@@ -32,7 +32,7 @@ topic: Node.js
 </ol></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第2744篇《Haskell对Node.js的响应是什么？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第2744篇《Haskell对Node.js的响应是什么？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -44,9 +44,7 @@ topic: Node.js
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">就像</font></font><a href="http://nikhilm.github.io/uvbook/introduction.html#background" rel="nofollow" title="nodejs删除了libev"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">nodejs删除了libev一样</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> 
 ，</font></font><a href="http://snapframework.com/faq#where-did-the-libev-backend-go" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Snap Haskell Web框架也删除了libev</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">西门Pro</span>
@@ -67,9 +65,7 @@ topic: Node.js
 </blockquote>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Mio已将其纳入GHC 7.8.1版本。</font><font style="vertical-align: inherit;">我个人认为这是Haskell性能上的重要一步。</font><font style="vertical-align: inherit;">比较以前的GHC版本和7.8.1编译的现有Web应用程序性能将非常有趣。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">神无斯丁</span>
@@ -114,9 +110,7 @@ topic: Node.js
 </blockquote>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">下载ghc，启动cabal。</font><font style="vertical-align: inherit;">有一个程序包可以满足您的所有需求。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">阳光Eva</span>
@@ -129,9 +123,7 @@ topic: Node.js
 <li><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">单个OS线程上的回调是协作式多任务处理，与抢先式多任务处理相反，后者是线程获得的。</font><font style="vertical-align: inherit;">协作式多任务处理的主要缺点在于，程序员负责确保没有饥饿。</font><font style="vertical-align: inherit;">它失去了模块性：在一个地方犯错误，并且会破坏整个系统。</font><font style="vertical-align: inherit;">这确实是您不需要担心的事情，而抢占是简单的解决方案。</font><font style="vertical-align: inherit;">而且，回调之间的通信是不可能的（这将导致死锁）。</font></font></p></li>
 <li><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在Haskell中并发并不困难，因为大多数代码是纯净的，因此在构造上也是线程安全的。</font><font style="vertical-align: inherit;">有简单的通信原语。</font><font style="vertical-align: inherit;">与使用无限制副作用的语言相比，在Haskell中并发地射击自己要困难得多。</font></font></p></li>
 </ul></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">达蒙村村</span>
@@ -140,9 +132,7 @@ topic: Node.js
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这个问题非常荒谬，因为1）Haskell已经以更好的方式解决了这个问题，并且2）Erlang的方式大致相同。</font><font style="vertical-align: inherit;">这是针对节点的基准测试：</font><a href="http://www.yesodweb.com/blog/2011/03/preliminary-warp-cross-language-benchmarks" rel="noreferrer"><font style="vertical-align: inherit;">http</font></a><font style="vertical-align: inherit;"> : </font></font><a href="http://www.yesodweb.com/blog/2011/03/preliminary-warp-cross-language-benchmarks" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">//www.yesodweb.com/blog/2011/03/preliminary-warp-cross-language-benchmarks</font></font></a></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">为Haskell提供4个内核，它可以在一个应用程序中每秒执行10万个（简单）请求。</font><font style="vertical-align: inherit;">Node不能做那么多，也不能跨内核扩展单个应用程序。</font><font style="vertical-align: inherit;">而且您无需采取任何措施来获得此收益，因为Haskell运行时是非阻塞的。</font><font style="vertical-align: inherit;">Erlang是运行时内置的非阻塞IO的唯一其他（相对通用）语言。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">飞云</span>
@@ -155,9 +145,7 @@ topic: Node.js
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">可以说问题类似于事件模型可以正常工作的GUI编程，但是GUI没有导航和后退按钮。</font><font style="vertical-align: inherit;">这增加了Web应用程序中可能的状态转换。</font><font style="vertical-align: inherit;">尝试解决这些问题的结果是，结构复杂的重型框架具有大量无处不在的魔术标识符，而没有质疑问题的根源：回调模型及其固有的缺乏可变范围共享的特性，并且没有排序，因此序列必须通过链接标识符来构造。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">存在基于顺序的框架，例如ocsigen（ocaml）海边（smalltalk）WASH（已停产，Haskell）和mflow（Haskell），这些框架在维持可导航性和REST功能的同时解决了状态管理问题。</font><font style="vertical-align: inherit;">在这些框架中，程序员可以将导航表示为命令式命令，其中程序在单个线程中发送页面并等待响应，变量在范围内，后退按钮自动工作。</font><font style="vertical-align: inherit;">这样就固有地产生了更短，更安全，更具可读性的代码，其中程序员清楚地看到了导航。</font><font style="vertical-align: inherit;">（警告：我是mflow的开发人员）</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小哥猿</span>
@@ -193,9 +181,7 @@ topic: Node.js
 <p>In Haskell you have both events and threads, and as it is all events under the hood.</p>
 
 <p><a href="http://research.google.com/pubs/archive/36841.pdf" rel="noreferrer">Read the paper</a> describing the implementation.</p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

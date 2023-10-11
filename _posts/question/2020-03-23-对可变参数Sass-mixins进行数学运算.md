@@ -56,7 +56,7 @@ topic: CSS
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">另外，在进一步测试之后，我意识到串联仅发生在最后一个变量上。</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第2931篇《对可变参数Sass mixins进行数学运算》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第2931篇《对可变参数Sass mixins进行数学运算》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -99,9 +99,7 @@ topic: CSS
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我在这里收集了rem mixins的集合，包括这个作为Gist的一个</font><a href="https://gist.github.com/doughamlin/7103259"><font style="vertical-align: inherit;">。https</font></a><font style="vertical-align: inherit;">：//gist.github.com/doughamlin/7103259</font></font><a href="https://gist.github.com/doughamlin/7103259"><font style="vertical-align: inherit;"></font></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">樱</span>
@@ -115,9 +113,7 @@ topic: CSS
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在SASS / SCSS中进行级联使用ruby语法，并且您在混合一个数学方程式，然后进行级联，这是一个变量类型的混合，所以我不感到惊讶它无效。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">对{{here}中包含的表达式和变量进行了评估，就好像它们与该行的其余部分是分开的一样，因此，请不要键入其余部分。</font><font style="vertical-align: inherit;">如果在您不期望的时候输出被引用，这也会派上用场（unquote（）函数也是如此）</font></font></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

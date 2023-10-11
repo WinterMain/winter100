@@ -49,7 +49,7 @@ p2.toString();                          //[object HTMLCollection]<font></font>
 </code></pre></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第3518篇《Node对象和Element对象之间的区别？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第3518篇《Node对象和Element对象之间的区别？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -118,9 +118,7 @@ p2.toString();                          //[object HTMLCollection]<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">以下是有关Node和Element类的一些文档：</font></font><br>
 <a href="https://developer.mozilla.org/en-US/docs/DOM/Node" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">https</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> : </font><a href="https://developer.mozilla.org/en-US/docs/DOM/Node" rel="noreferrer"><font style="vertical-align: inherit;">//developer.mozilla.org/zh-CN/docs/DOM/Node </font></a></font><br>
 <a href="https://developer.mozilla.org/en-US/docs/DOM/Element" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">https://developer.mozilla.org/zh-CN/docs/DOM/Element</font></font></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">GO</span>
@@ -151,9 +149,7 @@ p2.toString();                          //[object HTMLCollection]<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">a </font></font><code>nodeList</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">和an </font><font style="vertical-align: inherit;">之间的区别</font></font><code>HTMLCollection</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">对使用方式的影响很小（据我所知），但是HTML5的设计者已经做出了区分。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">例如，该</font></font><code>element.children</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">属性返回实时HTMLCollection。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">乐米亚</span>
@@ -173,9 +169,7 @@ Exp: <code>&lt;p&gt;&lt;b&gt;&lt;/b&gt;&lt;/p&gt;</code></p>
 <p>Each node may be types simultaneously, not necessarily only of a single type.</p>
 
 <p>Element is simply a element node.</p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">樱神无</span>
@@ -190,9 +184,7 @@ Exp: <code>&lt;p&gt;&lt;b&gt;&lt;/b&gt;&lt;/p&gt;</code></p>
 <p><a href="http://www.w3.org/TR/dom/#element" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">http://www.w3.org/TR/dom/#element</font></font></a></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">“元素节点简称为元素。”</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">卡卡西</span>
@@ -212,9 +204,7 @@ Exp: <code>&lt;p&gt;&lt;b&gt;&lt;/b&gt;&lt;/p&gt;</code></p>
 <li><a href="https://stackoverflow.com/questions/132564/whats-the-difference-between-an-element-and-a-node-in-xml"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">XML中的元素和节点之间有什么区别？</font></font></a></li>
 <li><a href="https://stackoverflow.com/questions/2190863/what-is-the-difference-between-a-node-and-an-element-in-xml"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">为什么节点和元素在XML中不同？</font><font style="vertical-align: inherit;">有什么根据？</font></font></a></li>
 </ul></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

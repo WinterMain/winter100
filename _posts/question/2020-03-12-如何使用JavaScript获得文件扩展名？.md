@@ -27,7 +27,7 @@ function getFileExtension(filename) {<font></font>
 </code></pre></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第1289篇《如何使用JavaScript获得文件扩展名？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第1289篇《如何使用JavaScript获得文件扩展名？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -41,9 +41,7 @@ function getFileExtension(filename) {<font></font>
     return fileName.slice((fileName.lastIndexOf(".") - 1 &gt;&gt;&gt; 0) + 2);<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">卡卡西Mandy</span>
@@ -59,9 +57,7 @@ var ext = (function(file, lio) { <font></font>
 // hello -&gt; undefined<font></font>
 // .hello -&gt; hello<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Sam小哥逆天</span>
@@ -80,9 +76,7 @@ var ext = (function(file, lio) { <font></font>
   }<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">樱小胖</span>
@@ -104,9 +98,7 @@ var ext = (function(file, lio) { <font></font>
   return extension;<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">达蒙Davaid斯丁</span>
@@ -128,9 +120,7 @@ console.log(getFileExtension("https://www.example.com:8080/path/name/.quz.bar?ke
 </div>
 </div>
 <p></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小胖Itachi</span>
@@ -141,9 +131,7 @@ console.log(getFileExtension("https://www.example.com:8080/path/name/.quz.bar?ke
     return typeof filename != "undefined" ? filename.substring(filename.lastIndexOf(".")+1, filename.length).toLowerCase() : false;<font></font>
     }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">GO阿飞</span>
@@ -201,9 +189,7 @@ null                                                                        --&g
 <p><strong>JSLint</strong></p>
 
 <p>0 Warnings.</p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">理查德Mandy</span>
@@ -231,9 +217,7 @@ null      (=&gt; "")  <font></font>
 ".a.b"    (=&gt; "b")<font></font>
 "a..b"    (=&gt; "b")<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Sam猪猪</span>
@@ -291,9 +275,7 @@ console.log( getExtension("/path/to/file.ext") );<font></font>
 </code></pre>
 
 <p>All three variants should work in any web browser on the client side and can be used in the server side NodeJS code as well.</p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

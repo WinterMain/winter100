@@ -23,7 +23,7 @@ topic: JavaScript
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我想知道是否有人知道该命令是否存在浏览器问题-就像我应该知道的浏览器兼容性问题一样？</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第646篇《如何使用jQuery检测键盘上的Enter键？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第646篇《如何使用jQuery检测键盘上的Enter键？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -41,9 +41,7 @@ topic: JavaScript
    }<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小胖神奇</span>
@@ -62,18 +60,14 @@ topic: JavaScript
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我希望它会有用！</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">前端MandyJinJin</span>
             <span class="discuss-time">2020.03.11</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">有一个</font></font><a href="http://docs.jquery.com/Events/keypress" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">keypress（）</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">事件方法。</font><font style="vertical-align: inherit;">Enter键的ascii编号为13，与所使用的浏览器无关。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">LEY猿</span>
@@ -100,9 +94,7 @@ topic: JavaScript
 <p><a href="https://developer.mozilla.org/en-US/docs/Web/API/KeyboardEvent/key" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Mozilla文件</font></font></a></p>
 
 <p><a href="http://caniuse.com/#feat=keyboardevent-key" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">支持的浏览器</font></font></a></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

@@ -36,7 +36,7 @@ $block-margin: 10px;<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">但我也希望javascript能够访问基本文件中的变量。</font><font style="vertical-align: inherit;">我当时想我可以创建一个不可见的div，并为其赋予$ block-width，$ block-height和$ block-margin属性并从中获取值。</font><font style="vertical-align: inherit;">但是max-columns不能直接映射到任何东西，因此我不得不想出一种hacky的方法来将它渲染到div中。</font><font style="vertical-align: inherit;">有没有一种更干净的方法可以将值从sass / css共享到javascript，反之亦然？</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第2923篇《有没有办法将变量从javascript导入到sass，反之亦然？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第2923篇《有没有办法将变量从javascript导入到sass，反之亦然？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -47,9 +47,7 @@ $block-margin: 10px;<font></font>
             <span class="discuss-time">2020.03.23</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这可以使用</font></font><a href="https://www.npmjs.com/package/gulp-sass-vars-to-js" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">gulp-sass-vars-to-js完成</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font><font style="vertical-align: inherit;">它从您的.scss文件生成一个.js文件。</font><font style="vertical-align: inherit;">.js文件包含在.scss文件中声明的所有变量。</font><font style="vertical-align: inherit;">然后，您可以将“生成的js”“要求”到您的.js中</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">老丝阿飞</span>
@@ -64,18 +62,14 @@ $block-margin: 10px;<font></font>
 </ul>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在Sass中本地支持JSON导入可能只是时间问题。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">西门乐</span>
             <span class="discuss-time">2020.03.23</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">您可以使用服务器端脚本读取sass文件，对其进行“解析”，然后将需要的值回显为javascript。</font></font></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

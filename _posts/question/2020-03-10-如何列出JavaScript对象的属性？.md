@@ -26,7 +26,7 @@ topic: JavaScript
 </code></pre></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第468篇《如何列出JavaScript对象的属性？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第468篇《如何列出JavaScript对象的属性？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -46,9 +46,7 @@ for (var j=0; j &lt; keys.length; j++) {<font></font>
   Object[keys[j]].properties();<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Eva凯</span>
@@ -66,9 +64,7 @@ Reflect.ownKeys(obj) // ["a", "b", "c"]<font></font>
 obj[Symbol()] = 4;<font></font>
 Reflect.ownKeys(obj) // ["a", "b", "c", Symbol()]<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">逆天小卤蛋Green</span>
@@ -78,9 +74,7 @@ Reflect.ownKeys(obj) // ["a", "b", "c", Symbol()]<font></font>
 
 <pre><code>[i for(i in obj)]
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Sam小哥逆天</span>
@@ -92,9 +86,7 @@ Reflect.ownKeys(obj) // ["a", "b", "c", Symbol()]<font></font>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">该列表位于此Google组帖子的底部：-https:
  </font></font><a href="https://groups.google.com/group/hackvertor/browse_thread/thread/a9ba81ca642a63e0" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">//groups.google.com/group/hackvertor/browse_thread/thread/a9ba81ca642a63e0</font></font></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">飞云逆天</span>
@@ -106,9 +98,7 @@ Reflect.ownKeys(obj) // ["a", "b", "c", Symbol()]<font></font>
   return key;<font></font>
 });<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">JinJin理查德</span>
@@ -121,9 +111,7 @@ var keys=[];<font></font>
 for (var i in myJSONObject ) { keys.push(i); }<font></font>
 alert(keys);<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Davaid梅</span>
@@ -140,9 +128,7 @@ alert(Object.keys(o));<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">ECMAScript 5兼容性表：</font><a href="http://kangax.github.com/es5-compat-table/" rel="noreferrer"><font style="vertical-align: inherit;">http</font></a><font style="vertical-align: inherit;"> : </font></font><a href="http://kangax.github.com/es5-compat-table/" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">//kangax.github.com/es5-compat-table/</font></font></a></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">新方法的说明：</font><a href="http://markcaudill.com/index.php/2009/04/javascript-new-features-ecma5/" rel="noreferrer"><font style="vertical-align: inherit;">http</font></a><font style="vertical-align: inherit;"> : </font></font><a href="http://markcaudill.com/index.php/2009/04/javascript-new-features-ecma5/" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">//markcaudill.com/index.php/2009/04/javascript-new-features-ecma5/</font></font></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">猿小小</span>
@@ -152,9 +138,7 @@ alert(Object.keys(o));<font></font>
 
 <p><a href="http://ajaxian.com/archives/javascript-variable-dump-in-coldfusion" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">http://ajaxian.com/archives/javascript-variable-dump-in-coldfusion</font></font></a>
 <img src="https://www.petefreitag.com/images/blog/jsdump.gif" alt="替代文字"></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">StafanMandy</span>
@@ -168,9 +152,7 @@ alert(Object.keys(o));<font></font>
     }<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">伽罗Mandy</span>
@@ -193,9 +175,7 @@ alert(Object.keys(o));<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">或者替换为</font></font><code>var getKeys</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，</font></font><code>Object.prototype.keys</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">以允许您调用</font></font><code>.keys()</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">任何对象。</font><font style="vertical-align: inherit;">扩展原型会产生一些副作用，我不建议您这样做。</font></font></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

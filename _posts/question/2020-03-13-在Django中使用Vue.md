@@ -31,7 +31,7 @@ topic: JavaScript
 </ul></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第1546篇《在Django中使用Vue》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第1546篇《在Django中使用Vue》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -58,9 +58,7 @@ topic: JavaScript
 <p>All the jsFiddle examples for Vue.js run in <strong>standalone mode</strong>. That is precisely what you need at this moment. You may look at some of the recent questions with <strong><code>vue.js</code></strong> tag, find a sample jsFiddle and see how it is done.</p>
 
 <p>For complex SPA apps, you need to build your Vue code separately from server side, test it thoroughly with dummy AJAX calls, build it for production and then drop the final production build into your server for end-to-end testing. This is something you can do in future.</p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

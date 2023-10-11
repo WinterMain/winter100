@@ -1,35 +1,44 @@
 .p-reward {
+  .reward-main {
+    min-height: calc(100vh - 190px - 300px);
+    color: var(--themeColor);
+  }
+  .tip {
+    font-size: 20px;
+    color: var(--themeColor);
+    padding-bottom: 20px;
+    margin-top: 80px;
+  }
   .buycoffee {
     margin-top: 20px;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
   }
   .coffee-outter {
     padding: 10px;
     width: 580px;
+    color: var(--text-title);
   }
   .coffee-box {
-    border: 1px solid #e8f3ec !important;
-    border: 1px solid #e8f3ec !important;
+    border: var(--line);
     padding: 20px;
-    background-color: #fff;
+    background-color: var(--bg-element);
     border-radius: 13px;
-    box-shadow: 1px 1px 7px 0px #efefef;
+    .coffee-addr {
+      flex: 1;
+    }
+    .coffee-logo {
+      margin: 0;
+      margin-right: 10px;
+      height: 40px;
+      border-radius: 100%;
+    }
+    .coffee-qr {
+      margin-left: 10px;
+    }
+    .excerpt {
+      margin-top: 20px;
+    }
   }
-  .coffee-box .coffee-addr {
-  
-  }
-  .coffee-box .coffee-addr .for-name {
-    margin: 0;
-  }
-  .coffee-box .coffee-addr .excerpt {
-    margin-top: 10px;
-  }
-  .coffee-box .coffee-logo {
-    margin: 0;
-    margin-right: 10px;
-    height: 40px;
-  }
-  .coffee-box .coffee-qr {
-    margin-left: 10px;
-  }
-  
 }

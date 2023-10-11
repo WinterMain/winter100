@@ -37,7 +37,7 @@ new Vue({<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我知道</font><font style="vertical-align: inherit;">当我覆盖列表属性时</font><font style="vertical-align: inherit;">问题出在</font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">created（）中</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，但是我是Vue的新手，所以我完全不知道如何解决它。</font><font style="vertical-align: inherit;">任何人都知道如何（并请解释为什么）修复它？</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第331篇《Vue 2-变异道具vue-warn》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第331篇《Vue 2-变异道具vue-warn》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -51,18 +51,14 @@ new Vue({<font></font>
 </font></font><code>&lt;your-awesome-components :custom-attribute-as-prob.sync="value" /&gt;</code></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">we很简单，我们杀死蝙蝠侠😁</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">梅Near米亚</span>
             <span class="discuss-time">2020.03.09</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我个人总是建议您是否需要对道具进行突变，首先将其传递给计算属性，然后从那里返回，然后一个人就可以轻松地对道具进行突变，即使您可以追踪道具突变（如果这些道具正在从另一个突变）组件还是我们也可以观看。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小胖Eva</span>
@@ -78,27 +74,21 @@ new Vue({<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">并更改listClone的值。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">斯丁斯丁</span>
             <span class="discuss-time">2020.03.09</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我也面临这个问题。</font><font style="vertical-align: inherit;">我使用</font></font><code>$on</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">和</font><font style="vertical-align: inherit;">后警告消失了</font></font><code>$emit</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font><font style="vertical-align: inherit;">这就像用法</font></font><code>$on</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，</font></font><code>$emit</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">建议将数据从子组件发送到父组件。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">GOLEY前端</span>
             <span class="discuss-time">2020.03.09</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">支撑下来，事件向上。</font><font style="vertical-align: inherit;">这就是Vue的模式。</font><font style="vertical-align: inherit;">关键是，如果您尝试变异从父代传来的道具。</font><font style="vertical-align: inherit;">它将无法工作，只会被父组件重复覆盖。</font><font style="vertical-align: inherit;">子组件只能发出一个事件以通知父组件执行某项操作。</font><font style="vertical-align: inherit;">如果您不喜欢这些限制，则可以使用VUEX（实际上，这种模式会吸收复杂的组件结构，您应该使用VUEX！）</font></font></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

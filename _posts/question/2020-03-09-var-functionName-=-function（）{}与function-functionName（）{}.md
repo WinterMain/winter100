@@ -33,7 +33,7 @@ topic: JavaScript
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">使用这两种不同方法的原因是什么，每种方法的利弊是什么？</font><font style="vertical-align: inherit;">有什么方法可以用一种方法不能完成的吗？</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第136篇《var functionName = function（）{}与function functionName（）{}》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第136篇《var functionName = function（）{}与function functionName（）{}》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -53,18 +53,14 @@ topic: JavaScript
 </span><span class="pun">}</span><span class="pln">
 
 secondFunction</span><span class="pun">()</span></code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">--神经Xiao--</span>
             <span class="discuss-time">2020.03.09</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这只是声明函数的两种可能方法，第二种方法是可以在声明之前使用该函数。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Tony飞云</span>
@@ -100,9 +96,7 @@ secondFunction</span><span class="pun">()</span></code></pre></div>
 <a href="https://i.stack.imgur.com/6YkeY.png" rel="noreferrer" data-bitapp="processed"><img src="https://i.stack.imgur.com/6YkeY.png" alt="Chrome金丝雀named_anonymous"></a>
 <strong><em>Chrome</em></strong>
 <a href="https://i.stack.imgur.com/x9H8J.png" rel="noreferrer" data-bitapp="processed"><img src="https://i.stack.imgur.com/x9H8J.png" alt="Chrome named_anonymous"></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">eva</span>
@@ -127,9 +121,7 @@ secondFunction</span><span class="pun">()</span></code></pre></div>
 </span><span class="kwd">function</span><span class="pln"> functionOne</span><span class="pun">()</span><span class="pln"> </span><span class="pun">{</span><span class="pln">
    </span><span class="com">// Some code</span><span class="pln">
 </span><span class="pun">}</span></code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">SamStafan十三</span>
@@ -159,9 +151,7 @@ fn</span><span class="pun">();</span></code></pre>
 </ol>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">参考：</font></font><em><a href="http://jkoder.com/javascript-function-declaration-syntax-var-fn-function-vs-function-fn/" rel="noreferrer" data-bitapp="processed"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">JavaScript函数声明语法：var fn = function（）{} vs function fn（）{}</font></font></a></em></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">蛋蛋LEY</span>
@@ -209,9 +199,7 @@ fn</span><span class="pun">();</span></code></pre>
   <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">ECMA 5（13.0）将语法定义为</font></font><br><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
   函数标识符</font></font><sub><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">opt</font></font></sub><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">（FormalParameterList </font></font><sub><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">opt</font></font></sub><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">）{FunctionBody}</font></font></p>
 </blockquote></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">凯小胖</span>
@@ -224,9 +212,7 @@ console</span><span class="pun">.</span><span class="pln">log</span><span class=
 
 </span><span class="kwd">var</span><span class="pln"> objectTwo </span><span class="pun">=</span><span class="pln"> </span><span class="kwd">new</span><span class="pln"> functionTwo</span><span class="pun">();</span><span class="pln">
 console</span><span class="pun">.</span><span class="pln">log</span><span class="pun">(</span><span class="pln">objectTwo</span><span class="pun">.</span><span class="pln">__proto__</span><span class="pun">);</span><span class="pln"> </span><span class="com">// prints "functionTwo {}" because constructor is a named function</span></code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Itachi伽罗</span>
@@ -252,9 +238,7 @@ console</span><span class="pun">.</span><span class="pln">log</span><span class=
 two </span><span class="pun">=</span><span class="pln"> </span><span class="kwd">new</span><span class="pln"> functionTwo</span><span class="pun">();</span></code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">可以使用来检索构造函数的名称作为字符串</font></font><code>two.constructor.name</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">神乐阿飞</span>
@@ -271,9 +255,7 @@ two </span><span class="pun">=</span><span class="pln"> </span><span class="kwd"
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">然后，需要该功能的特定实现的一个或两个品牌可以定义其功能版本，然后根据需要将其分配给变量，其余的则不执行任何操作。</font><font style="vertical-align: inherit;">我可以在共享代码中执行null函数之前对其进行测试。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">从上面的评论中，我认为也许也可以重新定义静态函数，但是我认为变量解决方案很好而且很明确。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">古一L</span>
@@ -282,9 +264,7 @@ two </span><span class="pun">=</span><span class="pln"> </span><span class="kwd"
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">用计算机科学术语，我们谈论匿名函数和命名函数。</font><font style="vertical-align: inherit;">我认为最重要的区别是匿名函数未绑定到名称，因此名称匿名函数。</font><font style="vertical-align: inherit;">在JavaScript中，它是在运行时动态声明的一流对象。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">有关匿名函数和lambda演算的更多信息，Wikipedia是一个好的开始（</font></font><a href="http://en.wikipedia.org/wiki/Anonymous_function" rel="noreferrer" data-bitapp="processed"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">http://en.wikipedia.org/wiki/Anonymous_function</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">）。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">路易飞云</span>
@@ -307,9 +287,7 @@ two </span><span class="pun">=</span><span class="pln"> </span><span class="kwd"
     member</span><span class="pun">:</span><span class="kwd">function</span><span class="pun">()</span><span class="pln"> </span><span class="pun">{</span><span class="pln"> </span><span class="com">/* How do I make "this.member" a named function? */</span><span class="pln">
     </span><span class="pun">}</span><span class="pln">
 </span><span class="pun">}</span></code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Jim理查德</span>
@@ -376,9 +354,7 @@ b</span><span class="pun">();</span><span class="pln">
 a </span><span class="com">// 1</span></code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这里首先悬挂函数声明，然后声明和初始化变量</font></font><code>a</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font><font style="vertical-align: inherit;">接下来，分配此变量</font></font><code>10</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font><font style="vertical-align: inherit;">换句话说：分配没有分配给外部变量</font></font><code>a</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小宇宙Near</span>
@@ -402,9 +378,7 @@ a </span><span class="com">// 1</span></code></pre>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">有很多命名空间的技术。</font><font style="vertical-align: inherit;">随着大量可用JavaScript模块的出现，这一点变得越来越重要。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">另请参阅</font></font><em><a href="https://stackoverflow.com/questions/881515/" data-bitapp="processed"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如何在JavaScript中声明名称空间？</font></font></a></em></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Davaid阳光</span>
@@ -431,9 +405,7 @@ a </span><span class="com">// 1</span></code></pre>
 </span><span class="pun">}</span></code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">做正确的工作，</font></font><code>myfunction</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">只</font><font style="vertical-align: inherit;">定义</font><font style="vertical-align: inherit;">何时</font></font><code>condition</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">满足。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">JinJin宝儿</span>
@@ -460,9 +432,7 @@ a </span><span class="com">// 1</span></code></pre>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">使用这种模式，您的公共函数将全部使用赋值，而您的私有函数将使用声明。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">（还请注意，在声明之后，赋值应使用分号，而在声明中则禁止使用分号。）</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">LEvaGreen</span>
@@ -499,9 +469,7 @@ a </span><span class="com">// 1</span></code></pre>
 </span><span class="kwd">function</span><span class="pln"> functionTwo</span><span class="pun">()</span><span class="pln"> </span><span class="pun">{</span><span class="pln">    </span><span class="pun">|</span><span class="pln"> interpreted </span><span class="pun">|--&gt;</span><span class="pln">
 </span><span class="pun">}</span><span class="pln">                           </span><span class="pun">|</span><span class="pln">    like     </span><span class="pun">|</span><span class="pln">      functionTwo</span><span class="pun">();</span><span class="pln">
                             </span><span class="pun">---------------</span></code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">TomMandy</span>
@@ -545,9 +513,7 @@ functionTwo</span><span class="pun">();</span><span class="pln">
 </span><span class="pun">}</span></code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">上面的定义实际上</font></font><code>functionThree</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">与</font></font><code>test</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">的值</font><font style="vertical-align: inherit;">无关，</font><font style="vertical-align: inherit;">除非</font></font><code>use strict</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">有效</font><font style="vertical-align: inherit;">-除非</font><font style="vertical-align: inherit;">有效，在这种情况下，它只会引发错误。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">LEY逆天Near</span>
@@ -570,9 +536,7 @@ functionTwo</span><span class="pun">();</span><span class="pln">
 <li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">您的第二个示例是</font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">函数声明</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font><font style="vertical-align: inherit;">这使用</font></font><em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">“功能”语句</font></font></em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">创建功能。</font><font style="vertical-align: inherit;">该函数在解析时可用，并且可以在该范围内的任何位置调用。</font><font style="vertical-align: inherit;">您以后仍然可以将其存储在变量或对象属性中。</font></font></li>
 <li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">定义函数的第三种方法是</font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">“ Function（）”构造函数</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，该函数未在原始文章中显示。</font><font style="vertical-align: inherit;">不建议使用此功能，因为它的工作方式与相同</font></font><code>eval()</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，但存在问题。</font></font></li>
 </ol></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

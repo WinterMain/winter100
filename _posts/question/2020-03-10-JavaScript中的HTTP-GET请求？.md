@@ -19,7 +19,7 @@ topic: JavaScript
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我需要在Mac OS X破折号小部件中执行此操作。</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第514篇《JavaScript中的HTTP GET请求？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第514篇《JavaScript中的HTTP GET请求？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -45,9 +45,7 @@ topic: JavaScript
         }<font></font>
     &lt;/script&gt;<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">老丝Gil樱</span>
@@ -56,9 +54,7 @@ topic: JavaScript
           <div class="discuss-comment"><p><a href="http://en.wikipedia.org/wiki/Ajax_%28programming%29" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">阿贾克斯</font></font></a></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">最好使用</font></font><a href="http://en.wikipedia.org/wiki/Prototype_JavaScript_Framework" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Prototype</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">或</font></font><a href="http://en.wikipedia.org/wiki/JQuery" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">jQuery之</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">类的库</font><font style="vertical-align: inherit;">。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Mandy逆天</span>
@@ -82,9 +78,7 @@ topic: JavaScript
     });<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">飞云卡卡西神乐</span>
@@ -93,9 +87,7 @@ topic: JavaScript
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果要为Dashboard小部件使用代码，并且不想在创建的每个小部件中都包含JavaScript库，则可以使用Safari原生支持的XMLHttpRequest对象。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">根据Andrew Hedges的报告，默认情况下，小部件无法访问网络。</font><font style="vertical-align: inherit;">您需要在与小部件关联的info.plist中更改该设置。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小宇宙猴子</span>
@@ -117,9 +109,7 @@ topic: JavaScript
   getRequest.send();<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">凯JinJin</span>
@@ -142,18 +132,14 @@ xmlhttp.send();<font></font>
 }); <font></font>
 </code></pre></li>
 </ol></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">宝儿Davaid</span>
             <span class="discuss-time">2020.03.10</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">最好的方法是使用AJAX（您可以在本页</font></font><a href="http://www.tizag.com/&quot;Tizag&quot;" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Tizag</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">上找到一个简单的教程</font><font style="vertical-align: inherit;">）。</font><font style="vertical-align: inherit;">原因是您可能使用的任何其他技术都需要更多代码，不能保证无需重做就可以跨浏览器工作，并且需要通过在传递URL解析其数据的URL的框架内打开隐藏页面并关闭它们来使用更多客户端内存。</font><font style="vertical-align: inherit;">在这种情况下，AJAX是解决之道。</font><font style="vertical-align: inherit;">那是我这两年对javascript重度开发的讲。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">逆天理查德</span>
@@ -166,9 +152,7 @@ $.get( "somepage.php", function(data){<font></font>
     page_content = data;<font></font>
 });<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">猪猪卡卡西</span>
@@ -248,18 +232,14 @@ request.fail = function(error) {<font></font>
 //and finally send it away<font></font>
 request.send();<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">十三村村蛋蛋</span>
             <span class="discuss-time">2020.03.10</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在小部件的Info.plist文件中，不要忘记将</font></font><code>AllowNetworkAccess</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">密钥</font><font style="vertical-align: inherit;">设置</font><font style="vertical-align: inherit;">为true。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Stafan逆天</span>
@@ -302,9 +282,7 @@ function ProcessRequest() <font></font>
     }<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">宝儿小哥小卤蛋</span>
@@ -323,9 +301,7 @@ http.onload = () =&gt; console.log(http.responseText)</code></pre>
 </div>
 </div>
 <p></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">凯老丝</span>
@@ -336,9 +312,7 @@ http.onload = () =&gt; console.log(http.responseText)</code></pre>
 <pre><code>var i = document.createElement("img");<font></font>
 i.src = "/your/GET/url?params=here";<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">null</span>
@@ -371,9 +345,7 @@ i.src = "/your/GET/url?params=here";<font></font>
   return data;<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">JinJinPro</span>
@@ -409,9 +381,7 @@ i.src = "/your/GET/url?params=here";<font></font>
     xmlHttp.send(null);<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

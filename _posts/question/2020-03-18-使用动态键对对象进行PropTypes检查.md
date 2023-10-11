@@ -27,7 +27,7 @@ someArray: React.PropTypes.arrayOf(React.PropTypes.shape({<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">再说一遍：我至少要检查每个键的值是一个数字。</font><font style="vertical-align: inherit;">理想情况下，我还希望能够检查密钥本身是否为格式正确的字符串。</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第2036篇《使用动态键对对象进行PropTypes检查》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第2036篇《使用动态键对对象进行PropTypes检查》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -45,9 +45,7 @@ someArray: React.PropTypes.arrayOf(<font></font>
 )<font></font>
 ...<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小哥GO</span>
@@ -71,9 +69,7 @@ optionalObject: PropTypes.objectOf(<font></font>
 </ul>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">因此，对于我的问题，缺少的部分是</font></font><code>PropTypes.objectOf</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">从那里您可以使用动态键创建任何类型的结构。</font><font style="vertical-align: inherit;">结合起来</font></font><code>PropTypes.oneOfType</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">也变得非常灵活。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">猿小胖</span>
@@ -86,9 +82,7 @@ optionalObject: PropTypes.objectOf(<font></font>
   React.PropTypes.string, // validates keys<font></font>
 }))<font></font>
 </code></pre></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

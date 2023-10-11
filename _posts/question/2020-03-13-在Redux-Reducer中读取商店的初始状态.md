@@ -24,7 +24,7 @@ topic: JavaScript
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果将初始状态传递给商店，您如何从商店中读取该状态并将其作为化简器中的第一个参数？</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第1354篇《在Redux Reducer中读取商店的初始状态》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第1354篇《在Redux Reducer中读取商店的初始状态》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -50,9 +50,7 @@ topic: JavaScript
    users: users(state.users, action)<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">卡卡西Tom</span>
@@ -67,9 +65,7 @@ topic: JavaScript
 <p><code>function todoApp(state = initialState, action)</code></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">仅当Redux没有传递状态时，状态才会被初始化</font></font></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

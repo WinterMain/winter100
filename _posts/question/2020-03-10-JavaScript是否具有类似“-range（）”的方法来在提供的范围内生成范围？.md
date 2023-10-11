@@ -25,7 +25,7 @@ range("A", "C"); // Array("A", "B", "C")<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">为此，JavaScript是否内置任何内置功能？</font><font style="vertical-align: inherit;">如果没有，我将如何实施？</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第504篇《JavaScript是否具有类似“ range（）”的方法来在提供的范围内生成范围？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第504篇《JavaScript是否具有类似“ range（）”的方法来在提供的范围内生成范围？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -42,9 +42,7 @@ range("A", "C"); // Array("A", "B", "C")<font></font>
 range( -3, 2 ); // [ -3, -2, -1, 0, 1 ]<font></font>
 range( 1, -4 ); // [ 1, 0, -1, -2, -3 ]<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">JinJin</span>
@@ -63,9 +61,7 @@ range( 1, -4 ); // [ 1, 0, -1, -2, -3 ]<font></font>
 <pre><code>d3.range(10)<font></font>
 // returns [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">伽罗猪猪理查德</span>
@@ -81,18 +77,14 @@ inclusive: </p>
 
 <pre><code>(s,f)=&gt;[...Array(f-s)].map((e,i)=&gt;i+s)
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小哥TonyEva</span>
             <span class="discuss-time">2020.03.10</span>
           </div>
           <div class="discuss-comment"><p>you can use <code>lodash</code> function <code>_.range(10)</code> <a href="https://lodash.com/docs#range" rel="nofollow noreferrer">https://lodash.com/docs#range</a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">老丝阿飞</span>
@@ -119,9 +111,7 @@ console.log(range(10)); // [0, 1, 2, 3, 4, 5, 6, 7, 8, 9] <font></font>
 console.log(range(0, 10)); // [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]<font></font>
 console.log(range(5, 10)); // [5, 6, 7, 8, 9] <font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">JinJin宝儿</span>
@@ -134,9 +124,7 @@ console.log(range(5, 10)); // [5, 6, 7, 8, 9] <font></font>
   (_, i) =&gt; i + start<font></font>
 );<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">米亚逆天</span>
@@ -160,9 +148,7 @@ range(3,9);<font></font>
 <pre><code>&gt;&gt;&gt; range(-4,2)<font></font>
 [-4, -3, -2, -1, 0, 1]<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Near理查德路易</span>
@@ -187,9 +173,7 @@ range(0,31);<font></font>
 <p>Technically its not the fastest on firefox, but crazy speed difference (imho) on chrome makes up for it.</p>
 
 <p>Also interesting observation is how much faster chrome is with these array functions than firefox. <strong>Chrome is at least 4 or 5 times faster</strong>.</p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">蛋蛋蛋蛋</span>
@@ -220,9 +204,7 @@ for (let n of RANGE_ITER(3,7)){<font></font>
 // 6<font></font>
 // 7<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">神乐卡卡西</span>
@@ -238,9 +220,7 @@ for (let n of RANGE_ITER(3,7)){<font></font>
 <pre><code>range(10, 15);<font></font>
 [ 10, 11, 12, 13, 14, 15 ]<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">米亚小胖</span>
@@ -248,9 +228,7 @@ for (let n of RANGE_ITER(3,7)){<font></font>
           </div>
           <div class="discuss-comment"><pre><code>var range = (l,r) =&gt; new Array(r - l).fill().map((_,k) =&gt; k + l);
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Pro逆天</span>
@@ -263,9 +241,7 @@ for (let n of RANGE_ITER(3,7)){<font></font>
     .map((element, index) =&gt; index + start);<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">阿飞路易</span>
@@ -392,9 +368,7 @@ console.log(range(20, 5, 5));</code></pre>
 </div>
 </div>
 <p></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">阳光阿飞</span>
@@ -410,9 +384,7 @@ console.log(range(20, 5, 5));</code></pre>
 <pre><code>const range = (start, stop, step = 1) =&gt;<font></font>
   Array(Math.ceil((stop - start) / step)).fill(start).map((x, y) =&gt; x + y * step)<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">LEY宝儿</span>
@@ -443,9 +415,7 @@ console.log(range(20, 5, 5));</code></pre>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">一篇文章对此进行了更详细的描述：</font><a href="http://www.2ality.com/2014/05/es6-array-methods.html" rel="noreferrer"><font style="vertical-align: inherit;">http</font></a><font style="vertical-align: inherit;"> : </font></font><a href="http://www.2ality.com/2014/05/es6-array-methods.html" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">//www.2ality.com/2014/05/es6-array-methods.html</font></font></a></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

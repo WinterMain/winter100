@@ -34,7 +34,7 @@ topic: Vue.js
  </font></font><a href="https://codepen.io/AngelinCalu/pen/LWvwNq" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">//codepen.io/AngelinCalu/pen/LWvwNq</font></font></a></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第2260篇《使VueJS和jQuery发挥出色》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第2260篇《使VueJS和jQuery发挥出色》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -49,9 +49,7 @@ topic: Vue.js
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">甲</font></font><a href="https://vuejs.org/v2/examples/select2.html" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">包装部件</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">充当桥，其中的Vue可以与组件进行交互和组分可以操纵使用jQuery（或其他）其内部的DOM元素。</font></font></p>
 
 <p><font style="vertical-align: inherit;"></font><a href="https://vuejs.org/v2/api/#Options-Lifecycle-Hooks" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">生命周期挂钩</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">之外的jQuery选择器</font><font style="vertical-align: inherit;">是一种不好的代码味道。</font><font style="vertical-align: inherit;">您</font></font><code>validatePhoneNumber</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">使用选择器和DOM操作调用，但是您使用Vue处理</font></font><code>keydown</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">事件。</font><font style="vertical-align: inherit;">您需要使用jQuery处理此小部件上的所有内容。</font><font style="vertical-align: inherit;">不要使用Vue设置其类或phone_number或处理其事件。</font><font style="vertical-align: inherit;">这些都是DOM操作。</font><font style="vertical-align: inherit;">如前所述，如果将其包装在组件中，则可以将props传递给该组件，并且可以使用jQuery从这些props中设置class和phone_number。</font></font></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

@@ -47,7 +47,7 @@ topic: Node.js
 <p><code>npm</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">依然屹立遥远，但</font></font><code>bower</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">并</font></font><code>volo</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">似乎正好解决同样的问题，虽然我不是能画之间的线路</font></font><code>npm</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">和</font></font><code>bower-volo</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第3531篇《JavaScript依赖性管理：npm vs. bower vs. volo [关闭]》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第3531篇《JavaScript依赖性管理：npm vs. bower vs. volo \[关闭\]》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -63,9 +63,7 @@ topic: Node.js
 </code></pre>
 
 <p>Someone should make yet another package manager and name it: yapm :)</p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">古一</span>
@@ -74,18 +72,14 @@ topic: Node.js
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Bower与NPM相比，最大的优势是其依赖关系管理使用组件的单个版本来实施（而NPM通过将不同的副本/版本作为不同模块的子依赖项来工作）。</font><font style="vertical-align: inherit;">这是</font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">一件非常好的</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">事情，因为它可以防止需要包含多个不同版本组件的副本的客户端javascript变得肿。</font><font style="vertical-align: inherit;">包含模块的多个副本是NPM依赖性管理工作方式的核心，因此NPM完全不适合客户端软件包管理。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">上面的结果是，bower软件包的维护者和消费者必须更加谨慎地维护其依赖版本号以避免冲突，但这是值得付出的代价。</font><font style="vertical-align: inherit;">而且我发现NPM模块在发行主要版本，次要版本和修补程序版本时通常都很草率，因此NPM依赖性管理也不是一件容易的事。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">GOSam</span>
             <span class="discuss-time">2020.03.24</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">最能描述npm和bower区别的描述是：npm管理称为包的JavaScript模块，而Bower管理称为组件的前端组件（即css，html和JavaScript）。</font><font style="vertical-align: inherit;">npm也用于安装凉亭。</font><font style="vertical-align: inherit;">这是</font></font><a href="http://codylindley.com/techpro/2013_04_12__package-managers-an-introducto/" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">有关npm和bower</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">（不涵盖volo）</font><font style="vertical-align: inherit;">的</font><a href="http://codylindley.com/techpro/2013_04_12__package-managers-an-introducto/" rel="noreferrer"><font style="vertical-align: inherit;">广泛文章，其中</font></a><font style="vertical-align: inherit;">涉及很多细节。       </font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">宝儿</span>
@@ -102,9 +96,7 @@ topic: Node.js
 <p><font style="vertical-align: inherit;"></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Volo</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">和</font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Bower</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">两者</font><font style="vertical-align: inherit;">也</font><font style="vertical-align: inherit;">都很好，但是从我的角度来看，如果您已经在使用NPM，则最好坚持使用它。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">请注意，</font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">即使不使用browserify或webmake</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，</font><strong><font style="vertical-align: inherit;">也可以使用NPM来管理客户端依赖性</font></strong><font style="vertical-align: inherit;">。</font><font style="vertical-align: inherit;">在我正在从事的大多数项目中，安装npm模块后，我会运行脚本将其部署到客户端应用程序使用它们的位置。</font><font style="vertical-align: inherit;">有时我会用grunt将该文件与其他js文件连接起来，有时我会直接从Web应用程序的模板文件中引用它。</font><font style="vertical-align: inherit;">无论如何，这是个人喜好。</font><font style="vertical-align: inherit;">其他人可能会发现Bower或Volo更易于使用，因为它们更自然地适合其工作流程。</font></font></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

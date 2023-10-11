@@ -22,7 +22,7 @@ topic: JavaScript
 </ol></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第377篇《如何在JavaScript中创建二维数组？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第377篇《如何在JavaScript中创建二维数组？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -55,9 +55,7 @@ fillEmptyMap(map, mapWidth, mapHeight);<font></font>
     }<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">老丝Jim猴子</span>
@@ -66,9 +64,7 @@ fillEmptyMap(map, mapWidth, mapHeight);<font></font>
           <div class="discuss-comment"><p>You could allocate an array of rows, where each row is an array of the same length. Or you could allocate a one-dimensional array with rows*columns elements and define methods to map row/column coordinates to element indices.</p>
 
 <p>Whichever implementation you pick, if you wrap it in an object you can define the accessor methods in a prototype to make the API easy to use. </p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">NearItachi</span>
@@ -86,9 +82,7 @@ console.log(table[[1,2]]) // -&gt; 3</code></pre>
 <p></p>
 
 <p>This works because, <code>[1,2]</code> is transformed into a string, that is used as a <strong>string key</strong> for the <code>table</code> object.</p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">斯丁Sam斯丁</span>
@@ -102,9 +96,7 @@ console.log(table[[1,2]]) // -&gt; 3</code></pre>
 
 <pre class="lang-js prettyprint-override"><code>[...Array(3)].map(item =&gt; Array(2).fill(true))
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">阳光猿</span>
@@ -123,9 +115,7 @@ console.log(md);</code></pre>
 </div>
 </div>
 <p></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Green达蒙</span>
@@ -140,9 +130,7 @@ alert(array1[0][100]);<font></font>
 alert(array1.length);<font></font>
 alert(array1[0].length);<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Gil伽罗</span>
@@ -165,9 +153,7 @@ const arr2d = Array(8).fill(0).map(() =&gt; Array(8).fill("0"))<font></font>
 <pre><code>// same as above just a little shorter<font></font>
 const arr2d = [...Array(8)].map(() =&gt; Array(8).fill("0"))<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">古一NearEva</span>
@@ -186,9 +172,7 @@ const arr2d = [...Array(8)].map(() =&gt; Array(8).fill("0"))<font></font>
 <p>Variations and corrections on this have been mentioned in comments and at various points in response to this question but not as an actual answer so I am adding it here.</p>
 
 <p>It should be noted that (similar to most other answers) this has O(x*y) time complexity so it probably not suitable for very large arrays.</p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小哥Jim</span>
@@ -208,9 +192,7 @@ console.log(appVar);</code></pre>
 <p></p>
 
 <p>This spelled me bineeshkumar </p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Green小胖</span>
@@ -224,9 +206,7 @@ while(a.push([]) &lt; 10);<font></font>
 
 <p>It will generate an array a of the length 10, filled with arrays.
 (Push adds an element to an array and returns the new length)</p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">达蒙小哥</span>
@@ -238,9 +218,7 @@ while(a.push([]) &lt; 10);<font></font>
 <font></font>
 alert (arr[2][1]); //alerts "4"<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Harry乐Gil</span>
@@ -278,9 +256,7 @@ return arr;<font></font>
 <pre><code>x = matrix( 2 , 3,''); // 2 lines, 3 cols filled with empty string<font></font>
 y = matrix( 10, 5, 0);// 10 lines, 5 cols filled with 0<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">米亚神无</span>
@@ -290,9 +266,7 @@ y = matrix( 10, 5, 0);// 10 lines, 5 cols filled with 0<font></font>
 
 <pre><code>var myArray = [[]];
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">阿飞西里</span>
@@ -312,9 +286,7 @@ console.log(x);</code></pre>
 </div>
 </div>
 <p></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">古一L</span>
@@ -345,9 +317,7 @@ arr[50][2] = 5;<font></font>
 arr[70][5] = 7454;<font></font>
 // ...<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">老丝猿路易</span>
@@ -368,9 +338,7 @@ console.log(items);</code></pre>
 </div>
 </div>
 <p></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

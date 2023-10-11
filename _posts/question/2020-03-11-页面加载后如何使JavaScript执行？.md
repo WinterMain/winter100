@@ -19,7 +19,7 @@ topic: JavaScript
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">现在，由于脚本是</font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">页面加载</font><strong><font style="vertical-align: inherit;">之前</font></strong><font style="vertical-align: inherit;">执行</font><font style="vertical-align: inherit;">的，因此我无法访问</font></font><code>&lt;body&gt;</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font><font style="vertical-align: inherit;">在文档“加载”后（HTML已完全下载并在RAM中），我想执行一些JavaScript。</font><font style="vertical-align: inherit;">执行脚本时，是否有任何我可以挂上的事件，这些事件将在页面加载时触发？</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第682篇《页面加载后如何使JavaScript执行？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第682篇《页面加载后如何使JavaScript执行？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -35,9 +35,7 @@ topic: JavaScript
     /* statements */<font></font>
 }();   <font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">老丝飞云</span>
@@ -48,9 +46,7 @@ topic: JavaScript
 <pre><code>&lt;script type="text/javascript" src="a.js" async&gt;&lt;/script&gt;<font></font>
 &lt;script type="text/javascript" src="b.js" async&gt;&lt;/script&gt;<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">LJinJin</span>
@@ -68,9 +64,7 @@ $(window).bind("load", function() { <font></font>
 </div>
 </div>
 <p></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Stafan小小斯丁</span>
@@ -84,18 +78,14 @@ $(window).bind("load", function() { <font></font>
 <font></font>
 });<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小胖十三Stafan</span>
             <span class="discuss-time">2020.03.11</span>
           </div>
           <div class="discuss-comment"><p>Just define <code>&lt;body onload="aFunction()"&gt;</code> that will be called after the page has been loaded. Your code in the script is than enclosed by <code>aFunction() { }</code>.</p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">LEvaGreen</span>
@@ -107,9 +97,7 @@ $(window).bind("load", function() { <font></font>
 <p>This code works well.</p>
 
 <p>But <code>window.onload</code> method has various dependencies. So it may not work all the time.</p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Eva小胖</span>
@@ -128,9 +116,7 @@ $(window).bind("load", function() { <font></font>
 <p><code>$().ready(function () { })</code></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">请参阅</font></font><a href="https://stackoverflow.com/questions/3908724/what-event-does-jquery-function-fire-on"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">JQuery $ function（）触发什么事件？</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">和</font></font><a href="https://api.jquery.com/ready/" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">https://api.jquery.com/ready/</font></font></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">LLSam</span>
@@ -151,18 +137,14 @@ $(window).bind("load", function() { <font></font>
 </code></pre>
 
 <p><a href="http://www.feedthebot.com/pagespeed/defer-loading-javascript.html" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">http://www.feedthebot.com/pagespeed/defer-loading-javascript.html</font></font></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小胖Itachi西里</span>
             <span class="discuss-time">2020.03.11</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">看钩子</font></font><code>document.onload</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">或jQuery </font></font><code>$(document).load(...)</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">仲羽蛋蛋</span>
@@ -186,9 +168,7 @@ function myFunction()<font></font>
 &lt;/body&gt;    <font></font>
 &lt;/html&gt;<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">老丝小卤蛋梅</span>
@@ -211,9 +191,7 @@ $(window).load(function(){ /*code here*/ })<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">希望它能回答您的问题。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">请注意，$（window）.load将在页面上呈现文档后执行。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">猿蛋蛋凯</span>
@@ -258,9 +236,7 @@ $(window).load(function(){ /*code here*/ })<font></font>
 <p><em>MDN list of all events:</em></p>
 
 <p><a href="https://developer.mozilla.org/en-US/docs/Web/Events" rel="noreferrer">https://developer.mozilla.org/en-US/docs/Web/Events</a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Pro小卤蛋</span>
@@ -298,9 +274,7 @@ $(window).load(function(){ /*code here*/ })<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这是上述代码的示例</font></font><a href="https://varvy.com/pagespeed/defer/defer-example-solved.html" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">-JS的延迟渲染</font></font></a></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我是根据</font></font><a href="https://developers.google.com/speed/docs/insights/BlockingJS#deferJS" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">javascript</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> pagespeed google概念的</font><a href="https://varvy.com/pagespeed/defer-loading-javascript.html" rel="noreferrer"><font style="vertical-align: inherit;">延迟加载</font></a><font style="vertical-align: inherit;">编写的，也是从这篇文章中获得参考的。</font></font><a href="https://varvy.com/pagespeed/defer-loading-javascript.html" rel="noreferrer"><font style="vertical-align: inherit;"></font></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">神奇Mandy</span>
@@ -324,9 +298,7 @@ $(window).load(function(){ /*code here*/ })<font></font>
   
   <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">要对动态插入的脚本实现类似的效果，请改用async = false。</font><font style="vertical-align: inherit;">具有defer属性的脚本将按照它们在文档中出现的顺序执行。</font></font></p>
 </blockquote></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">凯达蒙</span>
@@ -348,9 +320,7 @@ $(window).load(function(){ /*code here*/ })<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">请注意，</font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">最后一个选项是更好的选择，</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">因为它不</font></font><a href="http://en.wikipedia.org/wiki/Unobtrusive_JavaScript" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">引人注目</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">并且被</font></font><a href="https://stackoverflow.com/questions/807878/javascript-that-executes-after-page-load#comment617710_807891"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">认为是更标准的</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

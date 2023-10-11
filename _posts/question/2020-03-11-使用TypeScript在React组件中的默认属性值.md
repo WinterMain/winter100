@@ -51,7 +51,7 @@ export class PageComponent extends React.Component&lt;PageProps, PageState&gt;<f
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如何使用默认属性值？</font><font style="vertical-align: inherit;">我公司使用的许多JS组件都依赖于它们，不使用它们不是一种选择。</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第740篇《使用TypeScript在React组件中的默认属性值》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第740篇《使用TypeScript在React组件中的默认属性值》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -73,9 +73,7 @@ public static defaultProps: Partial&lt;Props&gt; = {<font></font>
     a: true<font></font>
 };<font></font>
 </code></pre></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

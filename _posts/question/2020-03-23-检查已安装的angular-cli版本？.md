@@ -20,7 +20,7 @@ topic: Node.js
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我正在尝试运行一个正在处理的项目，并且该项目在使用npm的较旧版本的angular-cli上运行。</font><font style="vertical-align: inherit;">但是，在安装其他演示项目之后，如果不卸载并重新安装特定版本的angular-cli，我的主项目将无法工作。</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第3091篇《检查已安装的angular-cli版本？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第3091篇《检查已安装的angular-cli版本？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -33,9 +33,7 @@ topic: Node.js
           <div class="discuss-comment"><p><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">只需运行以下命令：</font></font></strong></p>
 
 <p><code>ng v</code></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Stafan路易</span>
@@ -47,9 +45,7 @@ topic: Node.js
 <p><a href="https://i.stack.imgur.com/zcCTi.png" rel="nofollow noreferrer"><img src="https://i.stack.imgur.com/zcCTi.png" alt="ng--版本输出"></a></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">请看上面的图片。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">番长</span>
@@ -58,9 +54,7 @@ topic: Node.js
           <div class="discuss-comment"><p><code>ng version</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">或</font></font><code>ng --version</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">或   </font></font><code>ng v</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">或  </font></font><code>ng -v</code></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">您可以使用这4个命令来检查机器中安装的angular-cli版本。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小卤蛋</span>
@@ -77,9 +71,7 @@ topic: Node.js
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">操作系统：</font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">darwin x64</font></font></strong></p>
 
 <p><a href="https://i.stack.imgur.com/euVhR.png" rel="nofollow noreferrer"><img src="https://i.stack.imgur.com/euVhR.png" alt="在此处输入图片说明"></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">卡卡西Near</span>
@@ -87,9 +79,7 @@ topic: Node.js
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">转到安装了您的Angular的cmd中的文件夹路径，然后键入 
  </font></font><code>ng --version</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">它将显示您的Angular版本。</font><font style="vertical-align: inherit;">谢谢。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">DavaidTony宝儿</span>
@@ -103,9 +93,7 @@ topic: Node.js
   <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果您</font></font><code>ng v</code> <strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> angular cli </font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">项目文件夹</font></font></strong><font style="vertical-align: inherit;"><strong><font style="vertical-align: inherit;">之外</font></strong><font style="vertical-align: inherit;">运行</font><font style="vertical-align: inherit;">
   ，它将始终显示全局cli版本</font></font></p>
 </blockquote></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Near猴子</span>
@@ -122,9 +110,7 @@ topic: Node.js
 <p><a href="https://i.stack.imgur.com/Hq55x.png" rel="noreferrer"><img src="https://i.stack.imgur.com/Hq55x.png" alt="屏幕截图"></a></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">那里不仅提到了Angular版本，还提到了Node版本。</font><font style="vertical-align: inherit;">我使用Angular 6。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小宇宙</span>
@@ -137,9 +123,7 @@ topic: Node.js
 
 <pre><code>npm list -global --depth 0
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">飞云</span>
@@ -149,9 +133,7 @@ topic: Node.js
 
 <pre><code>ng --version
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">卡卡西Near</span>
@@ -170,9 +152,7 @@ topic: Node.js
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">告诉你当前的角度cli版本号 </font></font></p>
 
 <p><a href="https://i.stack.imgur.com/odLyn.png" rel="nofollow noreferrer"><img src="https://i.stack.imgur.com/odLyn.png" alt="在此处输入图片说明"></a></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

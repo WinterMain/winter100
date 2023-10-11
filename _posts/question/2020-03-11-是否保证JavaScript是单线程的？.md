@@ -17,7 +17,7 @@ topic: JavaScript
     <div class="article-content"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">众所周知，JavaScript在所有现代浏览器实现中都是单线程的，但是它是在任何标准中指定的，还是仅根据传统？</font><font style="vertical-align: inherit;">假设JavaScript始终是单线程的，是否完全安全？</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第862篇《是否保证JavaScript是单线程的？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第862篇《是否保证JavaScript是单线程的？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -28,9 +28,7 @@ topic: JavaScript
             <span class="discuss-time">2020.03.11</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">尝试将两个setTimeout函数相互嵌套，它们将表现为多线程（即，外部计时器在执行其功能之前不会等待内部的计时器完成）。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">ItachiGreen</span>
@@ -39,9 +37,7 @@ topic: JavaScript
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">嗯，Chrome是多进程的，我认为每个进程都处理自己的Javascript代码，但据代码所知，它是“单线程”。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Javascript不支持多线程，至少没有明确支持，因此没有任何区别。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">阳光达蒙达蒙</span>
@@ -52,9 +48,7 @@ topic: JavaScript
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">摆脱了MárÖrlygsson的回答，由于以下简单事实，Javascript始终是单线程的：Javascript中的所有内容都在单个时间轴上执行。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">那是单线程编程语言的严格定义。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">ProHarry逆天</span>
@@ -108,9 +102,7 @@ for (var i = 0; i &lt; 10000; i++) {<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">由于Web Workers正在使用Javascript，因此这种不太丑的系统不太可能出现，但是我认为可以肯定地说Javascript是单线程的。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">乐Eva</span>
@@ -141,27 +133,21 @@ for (var i = 0; i &lt; 10000; i++) {<font></font>
 </ul>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">因此，在使用浏览器和Node.js（可能还有许多其他引擎）的情况下，JavaScript不是多线程的，但引擎本身是多线程的。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">null</span>
             <span class="discuss-time">2020.03.11</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">是的，尽管Internet Explorer 9会在单独的线程上编译Javascript以准备在主线程上执行。</font><font style="vertical-align: inherit;">但是，这对于您作为程序员来说并没有任何改变。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">猴子JinJin</span>
             <span class="discuss-time">2020.03.11</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">是的，尽管在使用任何异步API（例如setInterval和xmlhttp回调）时仍然会遇到一些并发编程问题（主要是竞争条件）。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">null</span>
@@ -170,9 +156,7 @@ for (var i = 0; i &lt; 10000; i++) {<font></font>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">JavaScript / ECMAScript旨在驻留在主机环境中。</font><font style="vertical-align: inherit;">也就是说，</font><font style="vertical-align: inherit;">除非宿主环境决定解析并执行给定脚本，并提供使JavaScript实际上有用的环境对象（例如浏览器中的DOM），否则</font><font style="vertical-align: inherit;">JavaScript实际上不会</font></font><em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">做任何事情</font></font></em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我认为给定的功能或脚本块将逐行执行，这对于JavaScript是有保证的。</font><font style="vertical-align: inherit;">但是，主机环境可能可以同时执行多个脚本。</font><font style="vertical-align: inherit;">或者，主机环境可以始终提供提供多线程的对象。</font></font><code>setTimeout</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">和</font></font><code>setInterval</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">是一个例子，或主机环境的至少伪例子，提供一种方式做一些并发性（即使它不完全并发）。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">GreenSamA</span>
@@ -183,18 +167,14 @@ for (var i = 0; i &lt; 10000; i++) {<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">此外，</font></font><a href="http://www.whatwg.org/specs/web-workers/current-work/" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">HTML5已经指定了将Web</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">多线程引入基本Javascript中的</font><a href="http://www.whatwg.org/specs/web-workers/current-work/" rel="noreferrer"><font style="vertical-align: inherit;">Web Workers</font></a><font style="vertical-align: inherit;">（用于多线程javascript代码的显式，标准化API）</font><font style="vertical-align: inherit;">这一事实</font><font style="vertical-align: inherit;">几乎没有意义。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">（</font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">请注意其他评论者：</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">尽管如此</font></font><code>setTimeout/setInterval</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，HTTP请求的onload事件（XHR）和UI事件（单击，焦点等）提供了多线程性的粗略印象-它们仍然都是沿着单个时间轴执行的-时间-因此，即使我们事先不知道它们的执行顺序，也不必担心事件处理程序，定时函数或XHR回调的执行期间外部条件会发生变化。）</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">老丝Gil樱</span>
             <span class="discuss-time">2020.03.11</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">实际上，父窗口可以与运行自己的执行线程的子窗口或同级窗口或框架进行通信。</font></font></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

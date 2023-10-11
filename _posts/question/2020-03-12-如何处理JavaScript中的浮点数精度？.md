@@ -34,7 +34,7 @@ test();</code></pre>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">当然，否则我将四舍五入到大约10位数字。</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第933篇《如何处理JavaScript中的浮点数精度？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第933篇《如何处理JavaScript中的浮点数精度？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -50,9 +50,7 @@ test();</code></pre>
 console.log（（parseFloat（0.1）+ parseFloat（0.2））。toFixed（1）== parseFloat（0.3）.toFixed（1））;
 
     </font></font></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">米亚小小神乐</span>
@@ -67,9 +65,7 @@ console.log（（parseFloat（0.1）+ parseFloat（0.2））。toFixed（1）== 
 <font></font>
 round_up(341.536, 2); // 341.54<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">番长前端</span>
@@ -80,9 +76,7 @@ round_up(341.536, 2); // 341.54<font></font>
 <pre><code>var x = 0.1*0.2;<font></font>
  x =Math.round(x*Math.pow(10,2))/Math.pow(10,2);<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">null</span>
@@ -93,9 +87,7 @@ round_up(341.536, 2); // 341.54<font></font>
 <pre><code>var num = 0.1*0.2;<font></font>
 alert(parseFloat(num.toFixed(10))); // shows 0.02<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">阿飞神无</span>
@@ -109,9 +101,7 @@ alert(parseFloat(num.toFixed(10))); // shows 0.02<font></font>
 }<font></font>
 test();<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">伽罗西门小胖</span>
@@ -128,18 +118,14 @@ test();<font></font>
 x = x / 100;<font></font>
 xB = new BigNumber(x);<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">斯丁理查德</span>
             <span class="discuss-time">2020.03.12</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">您不能完全使用二进制浮点类型（这是ECMAScript用来表示浮点值）来精确表示大多数小数部分。</font><font style="vertical-align: inherit;">因此，除非您使用任意精度的算术类型或基于十进制的浮点类型，否则没有一个好的解决方案。</font><font style="vertical-align: inherit;">例如，</font></font><a href="http://blogs.msdn.com/b/oldnewthing/archive/2004/05/25/141253.aspx" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Windows附带的Calculator应用程序现在使用任意精度算法来解决此问题</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">蛋蛋L</span>
@@ -162,27 +148,21 @@ xB = new BigNumber(x);<font></font>
     alert(output.valueOf());<font></font>
     console.log(output.valueOf())== 686117.1985<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小哥达蒙卡卡西</span>
             <span class="discuss-time">2020.03.12</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">尝试一下我的Chiliadic算术库，您可以</font></font><a href="http://www.daniweb.com/forums/thread222006.html" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在这里</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">看到</font><font style="vertical-align: inherit;">。</font><font style="vertical-align: inherit;">如果您想要更高的版本，我可以帮助您。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Itachi小宇宙</span>
             <span class="discuss-time">2020.03.12</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">看一下</font></font><a href="http://en.wikipedia.org/wiki/Fixed-point_arithmetic" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">定点算法</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font><font style="vertical-align: inherit;">如果您要操作的数字范围较小（例如，货币），则可能会解决您的问题。</font><font style="vertical-align: inherit;">我会将其四舍五入为几个十进制值，这是最简单的解决方案。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">乐猪猪</span>
@@ -191,9 +171,7 @@ xB = new BigNumber(x);<font></font>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">没错，原因是浮点数的精度有限。</font><font style="vertical-align: inherit;">将有理数存储为两个整数的除法，在大多数情况下，您将能够存储数字而不会造成任何精度损失。</font><font style="vertical-align: inherit;">在打印时，您可能希望将结果显示为分数。</font><font style="vertical-align: inherit;">通过我提出的代表性，它变得微不足道。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">当然，这对于无理数不会有太大帮助。</font><font style="vertical-align: inherit;">但是，您可能希望以它们引起最少问题的方式优化计算（例如，检测诸如的情况）</font></font><code>sqrt(3)^2)</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">村村L</span>
@@ -202,9 +180,7 @@ xB = new BigNumber(x);<font></font>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">为了避免这种情况，您应该使用整数值而不是浮点数。</font><font style="vertical-align: inherit;">因此，当您要使用2个位置精度* 100时，请为3个位置使用1000。在显示时，请使用格式化程序放置分隔符。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">许多系统都忽略了以这种方式使用小数的方法。</font><font style="vertical-align: inherit;">这就是为什么许多系统使用美分（作为整数）而不是美元/欧元（作为浮点数）的原因。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">老丝</span>
@@ -230,9 +206,7 @@ c = parseFloat((a-b).toFixed(2));<font></font>
 <font></font>
 c = 0.1;<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Jim老丝梅</span>
@@ -247,9 +221,7 @@ c = 0.1;<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">大多数情况下，解决方案不是切换到定点算法，主要是因为它要慢得多，而且99％的时间中您根本不需要精度。</font><font style="vertical-align: inherit;">如果您要处理的是确实需要这种准确性的东西（例如金融交易），那么Javascript可能不是最佳的使用工具（因为您要强制使用定点类型，因此使用静态语言可能会更好） ）。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">您正在寻找一种优雅的解决方案，然后恐怕就是这样：浮点数很快，但是舍入误差很小-在显示结果时总是舍入到合理的值。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">西里神奇泡芙</span>
@@ -265,9 +237,7 @@ c = 0.1;<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">非常非常简单））</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">村村AL</span>
@@ -278,9 +248,7 @@ c = 0.1;<font></font>
 <pre><code>num = .01 + .06;  // yields 0.0699999999999<font></font>
 rnum = round(num,12); // yields 0.07<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">乐米亚</span>
@@ -303,9 +271,7 @@ console.log(epsEqu(0.1+0.2, 0.3)); // true<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">资料来源：</font><a href="http://2ality.com/2015/04/numbers-math-es6.html#numberepsilon" rel="noreferrer"><font style="vertical-align: inherit;">http</font></a><font style="vertical-align: inherit;"> : </font></font><a href="http://2ality.com/2015/04/numbers-math-es6.html#numberepsilon" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">//2ality.com/2015/04/numbers-math-es6.html#numberepsilon</font></font></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Near小哥Green</span>
@@ -323,9 +289,7 @@ console.log(epsEqu(0.1+0.2, 0.3)); // true<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">您还可以继续进行数学运算，并且仅在最后进行截止-假设您仅显示结果而不对if-s进行运算。</font><font style="vertical-align: inherit;">如果可以这样做，那么.toFixed（...）可能会更有效。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果您要进行if-s /比较，并且不希望减少，则还需要一个小的常数，通常称为eps，该常数比最大期望误差高一个小数位。</font><font style="vertical-align: inherit;">假设您的截止数是最后两位小数-那么您的eps在最后一位的第三位（最低有效位第三），您可以使用它来比较结果是否在预期的eps范围内（0.02 -eps &lt;0.1 * 0.2 &lt;0.02 + eps）。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">镜风Davaid</span>
@@ -373,9 +337,7 @@ fpArithmetic('-', 0.1, 0.2);<font></font>
 fpArithmetic('/', 0.2, 0.1);<font></font>
 // 2<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">西门路易</span>
@@ -391,9 +353,7 @@ fpArithmetic('/', 0.2, 0.1);<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">以小数点后两位小数的形式打印您的数字。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">  如果您不想仅出于浮点舍入到给定精度的目的而添加更多文件，</font><font style="vertical-align: inherit;">也可以将   </font></font><a href="http://www.w3schools.com/jsref/jsref_tofixed.asp" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Number.toFixed（）</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">用于显示目的。  </font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">西门JinJin</span>
@@ -409,18 +369,14 @@ fpArithmetic('/', 0.2, 0.1);<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">与Pedros解决方案不同，此函数将舍入为0.999 ...重复，并且精确到最低有效数字的正负一一。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">注意：处理32或64位浮点数时，应使用toPrecision（7）和toPrecision（15）以获得最佳结果。</font><font style="vertical-align: inherit;">有关</font></font><a href="https://stackoverflow.com/questions/28045787/how-many-decimal-places-does-the-primitive-float-and-double-support"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">此问题</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">的信息，</font><font style="vertical-align: inherit;">请参</font><a href="https://stackoverflow.com/questions/28045787/how-many-decimal-places-does-the-primitive-float-and-double-support"><font style="vertical-align: inherit;">见此问题</font></a><font style="vertical-align: inherit;">。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">YOC64419478</span>
             <span class="discuss-time">2020.03.12</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">您只执行乘法吗？</font><font style="vertical-align: inherit;">如果是这样，那么您可以利用有关十进制算术的巧妙秘密。</font><font style="vertical-align: inherit;">就是那个</font></font><code>NumberOfDecimals(X) + NumberOfDecimals(Y) = ExpectedNumberOfDecimals</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font><font style="vertical-align: inherit;">就是说，如果有的</font></font><code>0.123 * 0.12</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">话，我们知道会有5个小数位，因为</font></font><code>0.123</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">有3个小数位和</font></font><code>0.12</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">2 </font><font style="vertical-align: inherit;">个小数位</font><font style="vertical-align: inherit;">。</font><font style="vertical-align: inherit;">因此，如果JavaScript为我们提供了一个数字，例如</font></font><code>0.014760000002</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我们可以安全地舍入到小数点后第五位，而不必担心失去精度。</font></font></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

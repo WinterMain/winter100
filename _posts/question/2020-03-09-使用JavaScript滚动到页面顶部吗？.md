@@ -17,7 +17,7 @@ topic: JavaScript
     <div class="article-content"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如何使用JavaScript滚动到页面顶部？</font><font style="vertical-align: inherit;">即使滚动条立即跳到顶部也是可取的。</font><font style="vertical-align: inherit;">我不是在寻找平滑的滚动。</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第250篇《使用JavaScript滚动到页面顶部吗？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第250篇《使用JavaScript滚动到页面顶部吗？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -51,9 +51,7 @@ topic: JavaScript
             }, delay);<font></font>
         }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">JinJin村村</span>
@@ -70,9 +68,7 @@ topic: JavaScript
     &lt;a href="#" class="go-top"&gt;Go Top&lt;/a&gt;<font></font>
 &lt;/footer&gt;<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">凯飞云</span>
@@ -85,9 +81,7 @@ topic: JavaScript
 <pre><code>var w = document.getElementById("s4-workspace");<font></font>
 w.scrollTop = 0;<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">米亚Stafan</span>
@@ -97,9 +91,7 @@ w.scrollTop = 0;<font></font>
 
 <pre><code>document.body.scrollTop = document.documentElement.scrollTop = 0;
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">飞羽宝儿</span>
@@ -108,18 +100,14 @@ w.scrollTop = 0;<font></font>
           <div class="discuss-comment"><p><strong>This will work:</strong></p>
 
 <p><strong><code>window.scrollTo(0, 0);</code></strong></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Itachi理查德</span>
             <span class="discuss-time">2020.03.09</span>
           </div>
           <div class="discuss-comment"><p><code>$(document).scrollTop(0);</code> also works.</p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">泡芙Sam</span>
@@ -131,9 +119,7 @@ w.scrollTop = 0;<font></font>
     $(window).scrollTop(100);<font></font>
 &lt;/script&gt;<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">米亚小哥</span>
@@ -185,9 +171,7 @@ w.scrollTop = 0;<font></font>
 </div>
 </div>
 <p></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">宝儿前端</span>
@@ -199,9 +183,7 @@ w.scrollTop = 0;<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在FF，IE和Chrome中正常运行</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">达蒙Itachi理查德</span>
@@ -222,9 +204,7 @@ w.scrollTop = 0;<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果愿意，可以将其包装在函数中，然后通过</font></font><code>onclick</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">属性进行</font><font style="vertical-align: inherit;">调用</font><font style="vertical-align: inherit;">。</font><font style="vertical-align: inherit;">检查这个</font></font><a href="http://jsfiddle.net/osoh6o5a/" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">jsfiddle</font></font></a></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">注意：这是一个非常基本的解决方案，可能不是性能最高的解决方案。</font><font style="vertical-align: inherit;">可以在这里找到一个非常详细的示例：</font><a href="https://github.com/cferdinandi/smooth-scroll" rel="noreferrer"><font style="vertical-align: inherit;">https</font></a><font style="vertical-align: inherit;"> : </font></font><a href="https://github.com/cferdinandi/smooth-scroll" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">//github.com/cferdinandi/smooth-scroll</font></font></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">乐十三</span>
@@ -249,9 +229,7 @@ w.scrollTop = 0;<font></font>
 <li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">x值是沿水平轴的像素。</font></font></li>
 <li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">y值是沿垂直轴的像素。</font></font></li>
 </ul></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">乐十三</span>
@@ -267,9 +245,7 @@ w.scrollTop = 0;<font></font>
     }<font></font>
 })();<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">GreenStafan</span>
@@ -283,9 +259,7 @@ w.scrollTop = 0;<font></font>
 });<font></font>
 &lt;/script&gt;<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">卡卡西达蒙西里</span>
@@ -299,9 +273,7 @@ w.scrollTop = 0;<font></font>
 <font></font>
 &lt;a target="#jump_to_me"&gt;Click Here To Destroy The World!&lt;/a&gt;<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">斯丁阳光</span>
@@ -318,9 +290,7 @@ w.scrollTop = 0;<font></font>
 <li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">x坐标是沿水平轴的像素。  </font></font></li>
 <li>y-coord is the pixel along the vertical axis. </li>
 </ul></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

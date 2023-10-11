@@ -47,7 +47,7 @@ topic: JavaScript
 <p>What's the <code>~~</code> operator do?</p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第1076篇《什么是JavaScript中的“双波浪号”（~~）运算符？[重复]》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第1076篇《什么是JavaScript中的“双波浪号”（~~）运算符？\[重复\]》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -68,9 +68,7 @@ topic: JavaScript
 <ul>
 <li><a href="http://dreaminginjavascript.wordpress.com/2008/07/04/28/" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">http://dreaminginjavascript.wordpress.com/2008/07/04/28/</font></font></a></li>
 </ul></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">逆天西里</span>
@@ -87,9 +85,7 @@ topic: JavaScript
 <p><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">精简版</font></font></strong></p>
 
 <p><code>~~</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">较短/占用较少的空间。</font></font><code>Math.floor</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">提高了可读性。</font><font style="vertical-align: inherit;">有时波浪号会更快，有时</font></font><code>Math.floor</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">会更快，但并不引人注意。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">蛋蛋Itachi</span>
@@ -106,9 +102,7 @@ topic: JavaScript
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">通过优化浏览器中的JavaScript引擎，操作员和函数的性能会发生变化。</font><font style="vertical-align: inherit;">在当前的浏览器中，使用</font></font><code>~~</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">代替</font></font><code>Math.floor</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在某些浏览器</font><font style="vertical-align: inherit;">中</font><font style="vertical-align: inherit;">会更快，而在某些浏览器中根本不会更快。</font><font style="vertical-align: inherit;">如果您确实需要额外的性能，则需要为每个浏览器编写不同的优化代码。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">另请：</font></font><a href="http://jsperf.com/tilde-vs-floor" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">波浪线与地板</font></font></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">阿飞神无</span>
@@ -117,9 +111,7 @@ topic: JavaScript
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">那</font></font><code>~~</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">是一个双重的非按位运算符。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">用作的</font></font><a href="http://rocha.la/JavaScript-bitwise-operators-in-practice" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">更快替代品</font></font><code>Math.floor()</code></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

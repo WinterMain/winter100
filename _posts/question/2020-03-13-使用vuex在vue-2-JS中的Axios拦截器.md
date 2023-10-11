@@ -118,7 +118,7 @@ export default function execute() {<font></font>
 <p><a href="https://www.samyoc.com//uploads/users/14077/images/thumbnails/1584030941887.png" data-src="https://www.samyoc.com//uploads/users/14077/images/1584030941887.png" rel="noreferrer"><img src="https://i.stack.imgur.com/QuTEB.png" alt="路径"></a></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第1365篇《使用vuex在vue 2 JS中的Axios拦截器》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第1365篇《使用vuex在vue 2 JS中的Axios拦截器》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}

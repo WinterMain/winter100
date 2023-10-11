@@ -22,7 +22,7 @@ topic: JavaScript
 </code></pre></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第203篇《是否有标准函数检查JavaScript中的null，undefined或空白变量？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第203篇《是否有标准函数检查JavaScript中的null，undefined或空白变量？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -50,9 +50,7 @@ topic: JavaScript
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">因此，您真的不必事先检查潜在的问题，只需抓住它，然后按需要进行处理即可。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Tony阳光</span>
@@ -62,9 +60,7 @@ topic: JavaScript
 
 <pre><code>var ? function_if_exists() : function_if_doesnt_exist();
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">西里阳光</span>
@@ -74,9 +70,7 @@ topic: JavaScript
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这将永远不会引发错误。</font><font style="vertical-align: inherit;">如果</font></font><em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">myObject</font></font></em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，</font></font><em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">child</font></font></em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">或</font></font><em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">myValue</font></font></em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">为null，则</font></font><em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">myNewValue</font></font></em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">将为null。</font><font style="vertical-align: inherit;">没有错误将被抛出</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">LEYPro达蒙</span>
@@ -91,9 +85,7 @@ topic: JavaScript
 
 <pre><code>if(!val)...
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">凯斯丁</span>
@@ -114,9 +106,7 @@ topic: JavaScript
     }<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">米亚宝儿</span>
@@ -129,9 +119,7 @@ topic: JavaScript
 <pre><code>var variablesWhatILookFor = [null, undefined, ''];<font></font>
 variablesWhatILookFor.indexOf(document.DocumentNumberLabel) &gt; -1<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">蛋蛋LEY</span>
@@ -156,9 +144,7 @@ function (bar) {}(foo)<font></font>
     //code here<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">GreenMandy</span>
@@ -172,9 +158,7 @@ function (bar) {}(foo)<font></font>
 <font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">用户7049302300</span>
@@ -188,9 +172,7 @@ function (bar) {}(foo)<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">假设</font></font><code>0</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，</font></font><code>""</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">和对象（甚至是空对象和数组）都是有效的“值”。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小卤蛋卡卡西</span>
@@ -208,9 +190,7 @@ function (bar) {}(foo)<font></font>
 <p><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">要么</font></font></strong></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">根据您的问题域，您可以只使用like </font></font><code>!val</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">或</font></font><code>!!val</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Gil番长</span>
@@ -224,9 +204,7 @@ function (bar) {}(foo)<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">是你所需要的全部。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">null</span>
@@ -279,9 +257,7 @@ function isEmpty(value) {<font></font>
 
 <pre><code>_.isEmpty(value)
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小小小胖</span>
@@ -311,9 +287,7 @@ null<font></font>
   return (value == null || value === '');<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">十三西里GO</span>
@@ -328,9 +302,7 @@ null<font></font>
 
 <pre><code>if (typeof value  !== "undefined" &amp;&amp; value)
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">飞云Mandy飞云</span>
@@ -371,9 +343,7 @@ typeOf(new Map()) //map<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">“请注意，绑定操作符（：:)根本不是ES2016（ES7）的一部分，也不是ECMAScript标准的任何更高版本。它目前是该语言引入的阶段0（strawman）建议。” </font><font style="vertical-align: inherit;">–西蒙·凯贝格（Simon Kjellberg）。</font><font style="vertical-align: inherit;">作者希望对这个美丽的接受皇家提升的提议表示支持。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">布雷西</span>
@@ -388,9 +358,7 @@ typeOf(new Map()) //map<font></font>
 
 <pre><code>return value == null; // also returns true if value is undefined
 </code></pre></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

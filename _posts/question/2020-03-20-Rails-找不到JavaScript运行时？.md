@@ -19,7 +19,7 @@ topic: Node.js
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">注意：这与Heroku无关。</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第2501篇《Rails-找不到JavaScript运行时？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第2501篇《Rails-找不到JavaScript运行时？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -44,9 +44,7 @@ topic: Node.js
 </ol>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">作为一项好处，您的所有环境变量现在都可用于RubyMine。</font><font style="vertical-align: inherit;">因此，添加它们不会感到痛苦。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">宝儿小胖猿</span>
@@ -56,18 +54,14 @@ topic: Node.js
 
 <pre><code>sudo yum install -y nodejs
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Gil</span>
             <span class="discuss-time">2020.03.20</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我在Windows机器上遇到了这个问题，安装node.js是最终对我有用的解决方案。</font><font style="vertical-align: inherit;">这是在尝试了</font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">多种</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">其他途径</font><font style="vertical-align: inherit;">之后</font><font style="vertical-align: inherit;">做出的，包括尝试使“ therubyracer”发挥作用。</font><font style="vertical-align: inherit;">尽管node.js的github建议在Windows上进行安装仍然不稳定，但</font></font><a href="http://nodejs.org/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">http://nodejs.org/上</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">的网站</font><font style="vertical-align: inherit;">具有Windows安装程序，可以很好地运行。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Stafan路易</span>
@@ -76,9 +70,7 @@ topic: Node.js
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我在Redhat服务器上使用Phusion Passenger（作为Nginx模块运行）遇到了这个问题。</font><font style="vertical-align: inherit;">我们已经安装了Javascript运行时。</font><font style="vertical-align: inherit;">同一父目录中的其他Rails应用程序运行良好。  </font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">原来，我们遇到了权限问题。</font><font style="vertical-align: inherit;">运行“ ls -l”，查看文件夹是否与系统上其他正在运行的应用程序具有相同的所有者和组。</font><font style="vertical-align: inherit;">我必须在文件夹上运行chown和chgrp（使用递归开关）来修复它。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">前端小胖</span>
@@ -101,9 +93,7 @@ topic: Node.js
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这将安装</font></font><code>5.9.1</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Node </font><font style="vertical-align: inherit;">版本</font><font style="vertical-align: inherit;">。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Tom斯丁</span>
@@ -118,9 +108,7 @@ sudo apt-get install nodejs<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">希望这可以帮助与我有相同问题的人。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">老丝</span>
@@ -137,9 +125,7 @@ sudo apt-get install nodejs<font></font>
 
 <pre><code>yum -y install nodejs
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">蛋蛋猿</span>
@@ -153,9 +139,7 @@ sudo apt-get install nodejs<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">到</font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">路径</font></font></strong> </p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">并重新启动计算机。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">老丝阿飞</span>
@@ -170,18 +154,14 @@ sudo apt-get install nodejs<font></font>
 <p><em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">＃节点-v</font></font></em></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果要安装NPM，请参阅以下</font></font><a href="http://antler.co.za/2014/04/install-node-js-npm-on-debian-stable-wheezy-7/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">链接</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font><font style="vertical-align: inherit;">希望能帮助到你。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">斯丁</span>
             <span class="discuss-time">2020.03.20</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">例如，如果您已经从源代码安装了nodejs，而execjs无法识别它，那么您可能需要尝试以下技巧：</font><a href="https://coderwall.com/p/hyjdlw" rel="nofollow"><font style="vertical-align: inherit;">https</font></a><font style="vertical-align: inherit;"> ://coderwall.com/p/hyjdlw</font></font><a href="https://coderwall.com/p/hyjdlw" rel="nofollow"><font style="vertical-align: inherit;"></font></a></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

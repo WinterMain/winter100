@@ -27,7 +27,7 @@ topic: HTML
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">使用以</font></font><code>leaveCode</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">数字作为参数</font><font style="vertical-align: inherit;">的JavaScript函数</font><font style="vertical-align: inherit;">，如何在列表中选择适当的选项？</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第2641篇《如何使用JavaScript以编程方式设置选择框元素的值？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第2641篇《如何使用JavaScript以编程方式设置选择框元素的值？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}

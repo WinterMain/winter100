@@ -19,7 +19,7 @@ topic: JavaScript
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">所以我的问题是：在涡轮链接打开时，确保jQuery事件正常工作的正确方法是什么？</font><font style="vertical-align: inherit;">您是否将脚本包装在特定于Rails的侦听器中？</font><font style="vertical-align: inherit;">或者，也许rails具有某种使它不必要的魔力？</font><font style="vertical-align: inherit;">该文档对如何工作有点含糊不清，尤其是在通过清单（如application.js）加载多个文件方面。</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第1775篇《Rails 4：如何在Turbo-Links中使用$ {document）.ready（）》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第1775篇《Rails 4：如何在Turbo-Links中使用$ {document）.ready（）》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -35,9 +35,7 @@ topic: JavaScript
   // do something<font></font>
 });<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">神无蛋蛋</span>
@@ -51,18 +49,14 @@ topic: JavaScript
 </code></pre>
 
 <p><a href="https://github.com/turbolinks/turbolinks#running-javascript-when-a-page-loads" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">来自turbolinks doc</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">ADavaid</span>
             <span class="discuss-time">2020.03.16</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我刚刚了解了解决此问题的另一种选择。</font><font style="vertical-align: inherit;">如果加载</font></font><a href="https://github.com/kossnocorp/jquery.turbolinks"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">的</font></font><code>jquery-turbolinks</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">宝石</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">它将绑定Rails的Turbolinks事件的</font></font><code>document.ready</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">事件，这样你就可以用通常的方式写你的jQuery。</font><font style="vertical-align: inherit;">您只需</font><font style="vertical-align: inherit;">在js清单文件（默认为：）</font></font><code>jquery.turbolinks</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">之后</font><font style="vertical-align: inherit;">添加即可</font><font style="vertical-align: inherit;">。</font></font><code>jquery</code><font style="vertical-align: inherit;"></font><code>application.js</code><font style="vertical-align: inherit;"></font></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

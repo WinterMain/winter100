@@ -27,7 +27,7 @@ topic: Vue.js
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如何解决？</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第839篇《v-cloak在vue.js中不起作用？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第839篇《v-cloak在vue.js中不起作用？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -56,9 +56,7 @@ topic: Vue.js
 </blockquote>
 
 <p><a href="http://vuejs.org/api/#v-cloak" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">http://vuejs.org/api/#v-cloak</font></font></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">泡芙村村Pro</span>
@@ -94,9 +92,7 @@ topic: Vue.js
   display: none!important;<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Green卡卡西</span>
@@ -114,9 +110,7 @@ topic: Vue.js
     display: table-cell;<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小小</span>
@@ -143,9 +137,7 @@ topic: Vue.js
 <ul>
 <li><a href="https://codepen.io/Frontend/pen/RjoKQm" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">https://codepen.io/Frontend/pen/RjoKQm</font></font></a></li>
 </ul></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">GilGilPro</span>
@@ -167,9 +159,7 @@ topic: Vue.js
   &lt;p v-text="errorMsg"&gt;&lt;/p&gt;<font></font>
 &lt;/div&gt;<font></font>
 </code></pre></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

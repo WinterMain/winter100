@@ -79,7 +79,7 @@ topic: JavaScript
 </code></pre></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第874篇《在componentDidUpdate（）内部的setState（）》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第874篇《在componentDidUpdate（）内部的setState（）》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -99,9 +99,7 @@ topic: JavaScript
     }<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">A小宇宙</span>
@@ -119,9 +117,7 @@ topic: JavaScript
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果您仅通过向其发送道具来更新组件（除了componentDidUpdate内部的情况，setState不会更新它），则可以调用</font></font><code>setState</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">内部</font></font><code>componentWillReceiveProps</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">而不是</font></font><code>componentDidUpdate</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Stafan小小斯丁</span>
@@ -136,18 +132,14 @@ if(top !== this.state.top){<font></font>
     this.setState({top});<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">超威蓝喵</span>
             <span class="discuss-time">2020.03.12</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我有一个类似的问题，我必须居中工具提示。</font><font style="vertical-align: inherit;">在componentDidUpdate中的React setState确实使我陷入了无限循环，我尝试了条件工作的条件。</font><font style="vertical-align: inherit;">但是我发现在ref回调中使用给我提供了更简单干净的解决方案，如果将内联函数用于ref回调，则每次组件更新都将面临null问题。</font><font style="vertical-align: inherit;">因此，请在ref回调中使用函数引用并在其中设置状态，这将启动重新渲染</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">伽罗L</span>
@@ -156,9 +148,7 @@ if(top !== this.state.top){<font></font>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">你可以</font></font><code>setState</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在里面</font><font style="vertical-align: inherit;">使用</font></font><code>componentDidUpdate</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font><font style="vertical-align: inherit;">问题在于，由于没有中断条件，因此您正在以某种方式创建无限循环。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">基于您需要呈现组件后浏览器提供的值的事实，我认为您的使用方法</font></font><code>componentDidUpdate</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">是正确的，它只需要更好地处理触发的条件即可</font></font><code>setState</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

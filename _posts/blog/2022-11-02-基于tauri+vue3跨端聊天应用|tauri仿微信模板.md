@@ -62,7 +62,7 @@ const openQzoneWin = () =&gt; {
 &lt;/template&gt;</code></pre><p>&nbsp;</p><figure class="image"><img src="https://www.samyoc.com/uploads/users/26987/images/1667399804737.png"></figure><figure class="image"><img src="https://www.samyoc.com/uploads/users/26987/images/1667399819977.png"></figure><p>&nbsp;</p><figure class="image"><img src="https://www.samyoc.com/uploads/users/26987/images/1667399829057.png"></figure><figure class="image"><img src="https://www.samyoc.com/uploads/users/26987/images/1667399843134.png"></figure><p>Okr，基于tauri+vue3开发跨端聊天程序就分享到这里吧。</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第4291篇《基于tauri+vue3跨端聊天应用|tauri仿微信模板》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第4291篇《基于tauri+vue3跨端聊天应用|tauri仿微信模板》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}

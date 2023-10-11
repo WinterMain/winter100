@@ -67,7 +67,7 @@ declare module 'next-routes' {<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这使我的代码对findAndGetUrls的使用感到满意，但是现在它抱怨没有其他方法存在，因此无法正确扩展类型。</font><font style="vertical-align: inherit;">例如</font></font><code>Property 'add' does not exist on type 'Routes'.</code> </p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第3658篇《扩展错误的Typescript类定义》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第3658篇《扩展错误的Typescript类定义》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -93,9 +93,7 @@ declare module "next-routes" {<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">你仍然需要它命名</font></font><code>Routes</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，这样 TypeScript知道与合并它</font></font><code>export default class Routes implements Registry</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">从</font></font><code>next-routes</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">包装。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我仅在最新的Typescript版本（当前为3.5.2）上尝试过此操作，因此，如果您使用的是旧版本，请使用YMMV。</font></font></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

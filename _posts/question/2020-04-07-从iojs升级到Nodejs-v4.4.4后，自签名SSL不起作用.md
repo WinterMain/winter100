@@ -49,7 +49,7 @@ let server = require('https').createServer(sslOptions, app.callback())<font></fo
 <p>Am I doing something wrong? Why does it work with iojs and does not work with nodejs?</p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第4142篇《从iojs升级到Nodejs v4.4.4后，自签名SSL不起作用》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第4142篇《从iojs升级到Nodejs v4.4.4后，自签名SSL不起作用》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -70,18 +70,14 @@ let server = require('https').createServer(sslOptions, app.callback())<font></fo
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我使用的是</font></font><code>lodash</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">模块</font><font style="vertical-align: inherit;">的旧版本，</font><font style="vertical-align: inherit;">看来它使用</font></font><code>Buffer</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">来合并文件。</font><font style="vertical-align: inherit;">该</font></font><code>Buffer</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">版本中的</font></font><code>Buffer</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">实现与新</font></font><code>Node.js</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">版本</font><font style="vertical-align: inherit;">中的</font><font style="vertical-align: inherit;">实现</font><font style="vertical-align: inherit;">不匹配</font><font style="vertical-align: inherit;">。</font><font style="vertical-align: inherit;">这导致证书文件的错误合并，并导致</font></font><code>ERR_SSL_VERSION_OR_CIPHER_MISMATCH</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">错误消息。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">长话短说，将</font></font><code>lodash</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">模块</font><font style="vertical-align: inherit;">更新</font><font style="vertical-align: inherit;">到最新版本后，证书开始按预期工作。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">村村</span>
             <span class="discuss-time">2020.04.07</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我不是NodeJS专家。</font><font style="vertical-align: inherit;">但是似乎您需要在节点服务器上禁用RC4。</font><font style="vertical-align: inherit;">我认为这就是问题所在。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">泡芙</span>
@@ -94,9 +90,7 @@ let server = require('https').createServer(sslOptions, app.callback())<font></fo
 <p><a href="http://blogs.techcushions.com/2016/12/creating-self-signed-certificates.html" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">创建自签名证书（openssl和keytool）</font></font></a></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">希望对您有所帮助。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">猪猪</span>
@@ -124,9 +118,7 @@ sslscan localhost:443 | grep Accepted<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">最后，您将需要通过提供更多ssloptions配置您的https服务器提供的密码套件。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">看到这里</font></font><a href="https://certsimple.com/blog/a-plus-node-js-ssl" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">https://certsimple.com/blog/a-plus-node-js-ssl</font></font></a></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

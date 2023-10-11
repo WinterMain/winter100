@@ -19,7 +19,7 @@ topic: HTML
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我想知道（特别是关于HTML表单）出于某种原因是否有必要或同时使用两者。</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第1948篇《HTML中id和name属性之间的区别》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第1948篇《HTML中id和name属性之间的区别》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -34,9 +34,7 @@ topic: HTML
 <p>Name is used in forms.Although you  submit a form,  if you dont give any name, nothing will will be submitted. Hence form elements need a name to get identified by form methods like "get or push".</p>
 
 <p>And the ones only with name attribute will go out. </p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">神无樱</span>
@@ -61,9 +59,7 @@ document.getElementById("demo").innerHTML = "Hello World!";<font></font>
 </code></pre>
 
 <p>Same can be achieved by name attribute,but its preffered to use id in form and name for small form elements like the input tag or select tag.</p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小小阿飞小胖</span>
@@ -76,9 +72,7 @@ document.getElementById("demo").innerHTML = "Hello World!";<font></font>
 <p>name is an attribute that is useful to specific elements (such as form elements, etc) in HTML. Its value is mostly sent to the backend for processing. </p>
 
 <p><a href="https://www.w3schools.com/tags/ref_attributes.asp" rel="nofollow noreferrer">https://www.w3schools.com/tags/ref_attributes.asp</a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">TomLEY</span>
@@ -94,9 +88,7 @@ document.getElementById("demo").innerHTML = "Hello World!";<font></font>
  &lt;p&gt;The "Last name" field below is outside the form element, but still part of the form.&lt;/p&gt;<font></font>
  Last name: &lt;input type="text" name="lname" form="form1"&gt;<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Harry乐Gil</span>
@@ -117,9 +109,7 @@ Example : </p>
  &lt;p&gt;The "Last name" field below is outside the form element, but still part of the form.&lt;/p&gt;<font></font>
  Last name: &lt;input type="text" name="LastName" form="Myform"&gt;<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小小Eva斯丁</span>
@@ -128,9 +118,7 @@ Example : </p>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">该链接具有相同基本问题的答案，但基本上，id用于脚本标识，名称用于服务器端。</font></font></p>
 
 <p><a href="http://www.velocityreviews.com/forums/t115115-id-vs-name-attribute-for-html-controls.html" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">http://www.velocityreviews.com/forums/t115115-id-vs-name-attribute-for-html-controls.html</font></font></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Pro逆天猿</span>
@@ -149,9 +137,7 @@ Example : </p>
 <p>When the form is submitted, the form data will be included in the HTTP header like this:</p>
 
 <p><strong>If you add an ID attribute, it will not change anything in the HTTP header. It will just make it easier to hook it with CSS and JavaScript.</strong></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Tom神奇</span>
@@ -162,9 +148,7 @@ Example : </p>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">目标不需要是</font></font><code>&lt;a&gt;</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">标签，可以是</font></font><code>&lt;p id="hello"</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">&gt;或</font></font><code>&lt;h2 id="hello"&gt;</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">等等，这通常是更干净的代码。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">正如其他帖子所明确指出的那样，</font></font><code>name</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">表格仍在使用（需要）。</font><font style="vertical-align: inherit;">它也仍在META标签中使用。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Tom理查德逆天</span>
@@ -178,9 +162,7 @@ Example : </p>
 &lt;input type="submit" value="Submit"&gt;<font></font>
 &lt;/form&gt;<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">米亚十三Harry</span>
@@ -200,9 +182,7 @@ Example : </p>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">id和name之间有明显的区别。</font><font style="vertical-align: inherit;">通常，当名称继续出现时，我们可以将值设置为相同。</font><font style="vertical-align: inherit;">但是，id必须是唯一的，在某些情况下，名称应该不是唯一的-想想单选按钮。</font><font style="vertical-align: inherit;">令人遗憾的是，虽然id值的唯一性虽然受到标记验证的约束，但并没有达到应有的一致性。</font><font style="vertical-align: inherit;">浏览器中的CSS实现将为共享ID值的对象设置样式；</font><font style="vertical-align: inherit;">因此，直到运行时，我们才可能捕获可能影响JavaScript的标记或样式错误。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">摘自JavaScript- </font></font><code>The Complete Reference by Thomas-Powell</code> </p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">NearAStafan</span>
@@ -213,9 +193,7 @@ Example : </p>
 <p><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">id</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">用于CSS和JavaScript / jQuery（在页面中必须是唯一的）</font></font></p>
 
 <p><strong><font style="vertical-align: inherit;"></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">通过HTML提交表单时，</font><strong><font style="vertical-align: inherit;">名称</font></strong><font style="vertical-align: inherit;">用于PHP中的表单处理（在表单中必须唯一-在某种程度上，请参见</font><font style="vertical-align: inherit;">下面的</font></font><a href="https://stackoverflow.com/users/3748030"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Paul</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">的评论）</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">老丝路易神乐</span>
@@ -224,9 +202,7 @@ Example : </p>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">ID标签-CSS使用的ID标签，定义</font><font style="vertical-align: inherit;">div，span或其他元素</font><font style="vertical-align: inherit;">的</font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">唯一</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">实例。</font><font style="vertical-align: inherit;">出现在Javascript DOM模型中，使您可以通过各种函数调用来访问它们。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">字段的名称标签-每个</font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">表单的</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">名称标签都是唯一的</font><font style="vertical-align: inherit;">-除非您要传递给PHP /服务器端处理的数组。</font><font style="vertical-align: inherit;">您可以按名称通过Javascript访问它，但我认为它不会作为DOM中的节点出现，或者可能会受到一些限制（例如，如果我没记错的话，则不能使用.innerHTML）。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">古一Green</span>
@@ -250,9 +226,7 @@ Example : </p>
 </blockquote>
 
 <p>NOTE: attribute "name" for some tags like <code>&lt;a&gt;</code> is not supported in HTML5.</p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">GreenStafan</span>
@@ -264,9 +238,7 @@ Example : </p>
 <li><p><code>id</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">用于</font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">通过</font></font><em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">文档对象模型</font></font></em></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">（通过JavaScript或CSS样式）</font><strong><font style="vertical-align: inherit;">识别HTML元素</font></strong><font style="vertical-align: inherit;">。</font></font><code>id</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在页面内应该是唯一的。</font></font></p></li>
 <li><p><code>name</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">对应于</font></font><em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">form</font></font></em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">元素，并</font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">标识发布回服务器的内容</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p></li>
 </ul></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">GOJinJin</span>
@@ -275,9 +247,7 @@ Example : </p>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">将</font></font><code>name</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">属性用于表单控件（例如</font></font><code>&lt;input&gt;</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">和</font></font><code>&lt;select&gt;</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">），因为这是</font><font style="vertical-align: inherit;">表单提交时在</font></font><code>POST</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">或</font></font><code>GET</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">调用中</font><font style="vertical-align: inherit;">使用的标识符</font><font style="vertical-align: inherit;">。</font></font></p>
 
 <p><font style="vertical-align: inherit;"></font><code>id</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">每当您需要使用CSS，JavaScript或</font></font><a href="http://en.wikipedia.org/wiki/Fragment_identifier" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">片段标识符</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">来寻址特定的HTML元素时，请</font><font style="vertical-align: inherit;">使用</font><font style="vertical-align: inherit;">属性</font><font style="vertical-align: inherit;">。</font><font style="vertical-align: inherit;">也可以通过名称查找元素，但是</font><font style="vertical-align: inherit;">通过ID </font><font style="vertical-align: inherit;">查找元素</font></font><a href="https://stackoverflow.com/questions/6351570/what-is-the-difference-between-javascripts-getelementbyid-and-getelementsbyna"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">更简单，更可靠</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小宇宙Itachi</span>
@@ -286,9 +256,7 @@ Example : </p>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"></font><code>name</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在表单提交中发送数据时使用</font><font style="vertical-align: inherit;">该</font><font style="vertical-align: inherit;">属性。</font><font style="vertical-align: inherit;">不同的控件反应不同。</font><font style="vertical-align: inherit;">例如，您可能有几个单选按钮，它们具有不同的</font></font><code>id</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">属性，但属性相同</font></font><code>name</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font><font style="vertical-align: inherit;">提交后，响应中只有一个值-您选择的单选按钮。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">当然，这还不止于此，但是它一定会让您思考正确的方向。</font></font></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

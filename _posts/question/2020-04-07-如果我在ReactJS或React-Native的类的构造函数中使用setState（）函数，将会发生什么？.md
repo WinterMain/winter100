@@ -31,7 +31,7 @@ topic: React.js
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我还没有阅读React中的代码。</font><font style="vertical-align: inherit;">那样写恐怕会造成一些损害。</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第4042篇《如果我在ReactJS或React Native的类的构造函数中使用setState（）函数，将会发生什么？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第4042篇《如果我在ReactJS或React Native的类的构造函数中使用setState（）函数，将会发生什么？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -46,9 +46,7 @@ topic: React.js
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">当您执行操作时</font></font><code>state = {foo : "bar"}</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，只需将任何东西分配给javascript对象</font></font><code>state</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，就像</font><font style="vertical-align: inherit;">对待</font><font style="vertical-align: inherit;">其他任何对象一样。</font><font style="vertical-align: inherit;">（</font></font><code>state</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">仅此而已，只是每个组件局部的常规对象）。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">使用时</font></font><code>setState()</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，除了分配给对象外，</font></font><code>state</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">React还重新释放组件及其所有子元素。</font><font style="vertical-align: inherit;">您不需要在构造函数中使用它，因为无论如何该组件都没有被渲染。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小卤蛋阳光</span>
@@ -59,9 +57,7 @@ topic: React.js
 <p><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">状态</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">：包含本地状态的组件具有称为“ this.state”的属性。</font></font></p>
 
 <p><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">SetState</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">：React组件有一个可用的方法setState调用“ this.setState”使React重新渲染您的应用程序并更新DOM。您还可以在setState中跟踪prevstate如果在构造函数中使用setState，则会得到类似这：只能更新已安装或正在安装的组件。</font><font style="vertical-align: inherit;">这通常意味着您在未安装的组件上调用了setState（）。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小宇宙</span>
@@ -89,9 +85,7 @@ topic: React.js
 </blockquote>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如此得出的结论是：如果您尝试这样做，可能不会导致错误，但是您将不得不承担不良行为，因为即使触发这些更新也不会反映任何错误。</font></font></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

@@ -52,7 +52,7 @@ topic: CSS
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">所以我的问题是</font><font style="vertical-align: inherit;">处理这种情况</font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">的正确方法</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">是</font><strong><font style="vertical-align: inherit;">什么</font></strong><font style="vertical-align: inherit;">？</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第3063篇《MVC4 StyleBundle无法解析图像》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第3063篇《MVC4 StyleBundle无法解析图像》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -74,9 +74,7 @@ topic: CSS
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">某种程度上，。（点）无法在url中识别。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">斯丁前端</span>
@@ -89,9 +87,7 @@ topic: CSS
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这是一种技术含量极低的答案，有点像骇客，但它可以正常工作，不需要任何预处理。</font><font style="vertical-align: inherit;">考虑到其中一些答案的篇幅和复杂性，我更喜欢这样做。  </font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">斯丁</span>
@@ -115,9 +111,7 @@ bundles.Add(standardCssBundle);<font></font>
 <ol start="2">
 <li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">使用相同的相对根作为捆绑包的名称，例如css文件所在的位置。</font><font style="vertical-align: inherit;">优点：无需改造。</font><font style="vertical-align: inherit;">缺点：在将来自不同目录的css工作表组合到一个包中时，存在局限性。</font></font></li>
 </ol></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">神乐飞云</span>
@@ -136,9 +130,7 @@ bundles.Add(standardCssBundle);<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这种方法会产生一些额外的开销，但可以让您更好地控制捆绑软件名称，还可以减少一页上可能需要引用的捆绑软件数量。</font><font style="vertical-align: inherit;">当然，如果必须引用多个包含相对图像路径引用的第三方css文件，则仍然无法创建多个捆绑包。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">古一Eva</span>
@@ -153,9 +145,7 @@ bundles.Add(standardCssBundle);<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">之后，您的URL将正确转换并且图像应正确解析。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Itachi</span>
@@ -181,9 +171,7 @@ bundles.Add(standardCssBundle);<font></font>
                    .Include("~/Content/css/jquery-ui/*.css",<font></font>
                     new CssRewriteUrlTransform()));<font></font>
 </code></pre></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

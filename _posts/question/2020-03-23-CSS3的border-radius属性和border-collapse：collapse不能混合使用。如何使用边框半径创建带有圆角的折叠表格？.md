@@ -59,7 +59,7 @@ topic: CSS
 <p>I know that trying to do this with CSS3 today may seem needless, but I have my reasons. I would also like to point out that this problem is a result of the w3c specification, not poor CSS3 support, so any solution will still be relevant and useful when CSS3 has more widespread support.</p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第2799篇《CSS3的border-radius属性和border-collapse：collapse不能混合使用。如何使用边框半径创建带有圆角的折叠表格？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第2799篇《CSS3的border-radius属性和border-collapse：collapse不能混合使用。如何使用边框半径创建带有圆角的折叠表格？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -117,9 +117,7 @@ table tr:first-child th:last-child, tr:first-child, table {<font></font>
 </div>
 </div>
 <p></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小卤蛋梅蛋蛋</span>
@@ -157,9 +155,7 @@ table {<font></font>
 <font></font>
 <font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Mandy</span>
@@ -168,9 +164,7 @@ table {<font></font>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">边界半径现已得到正式支持。</font><font style="vertical-align: inherit;">因此，在以上所有示例中，您都可以删除“ -moz-”前缀。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">另一个技巧是对顶部和底部行使用与边框相同的颜色。</font><font style="vertical-align: inherit;">所有三种颜色都相同，即使不是物理颜色，它也可以融合并看起来像是完美的圆桌。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">番长小哥</span>
@@ -198,9 +192,7 @@ table {<font></font>
   }<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">泡芙</span>
@@ -231,9 +223,7 @@ tr td.second-column {<font></font>
   width: 860px;<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Harry理查德</span>
@@ -242,9 +232,7 @@ tr td.second-column {<font></font>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">遇到相同的问题后找到了这个答案，但是发现很简单：只需给表溢出即可：隐藏</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">不需要包装元素。</font><font style="vertical-align: inherit;">当然，我不知道这在7年前最初提出该问题时是否会奏效，但现在已经奏效。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">神乐蛋蛋</span>
@@ -273,9 +261,7 @@ table {<font></font>
   }<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小小</span>
@@ -310,9 +296,7 @@ tr:last-child td:last-child {<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我尝试一下，猜猜它起作用了:)</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">泡芙前端</span>
@@ -380,9 +364,7 @@ table thead:last-child tr:last-child td:last-child {<font></font>
 <font></font>
 /* end complicated rounded table corners !*/<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">樱小胖Mandy</span>
@@ -416,9 +398,7 @@ table tbody {<font></font>
   border-top: none;        <font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">番长樱梅</span>
@@ -462,9 +442,7 @@ table tr:last-child td:last-child { border-bottom-right-radius: $border-radius; 
   &lt;/table&gt;<font></font>
 &lt;/div&gt;<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">JinJin</span>
@@ -501,9 +479,7 @@ table thead th:last-child:after{ <font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">见</font></font><a href="http://jsfiddle.net/adardesign/PhaaP/" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">jsFiddle</font></font></a></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在Chrome浏览器中对我有效（13.0.782.215）让我知道在其他浏览器中是否对您有效。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">村村</span>
@@ -521,9 +497,7 @@ table {<font></font>
   border-collapse: collapse;<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">伽罗</span>
@@ -535,9 +509,7 @@ table {<font></font>
 
 <pre><code>&lt;table class="top_container" align="center" cellspacing="0" cellpadding="0"&gt;
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">伽罗飞云</span>
@@ -641,9 +613,7 @@ table {<font></font>
 </div>
 </div>
 <p></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">西门达蒙Davaid</span>
@@ -662,9 +632,7 @@ td {<font></font>
     border: 1px solid #ccc;<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Mandy村村</span>
@@ -673,9 +641,7 @@ td {<font></font>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">您可能必须在表格周围放置另一个元素，并用圆角边框设置样式。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">该</font></font><a href="http://www.w3.org/TR/css3-background/" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">工作草案</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">指定是</font></font><code>border-radius</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">不适用于表格元素时的值</font></font><code>border-collapse</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">是</font></font><code>collapse</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">阿飞</span>
@@ -710,9 +676,7 @@ table tr:last-child td {<font></font>
 <p><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">编辑2：</font></font></strong></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我找不到仅使用一张桌子的方法。</font><font style="vertical-align: inherit;">如果您将标题行更改为嵌套表，则可能能够获得所需的效果，但是它将需要更多的工作，而且不是动态的。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Tom凯</span>
@@ -727,18 +691,14 @@ table tr:last-child td {<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">使用时</font></font><code>overflow:hidden</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，方形角不会在div中流血。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">卡卡西Near</span>
             <span class="discuss-time">2020.03.23</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">您是否尝试过使用</font></font><code>table{border-spacing: 0}</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">而不是</font></font><code>table{border-collapse: collapse}</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">???</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小卤蛋</span>
@@ -760,9 +720,7 @@ table tr:last-child td:last-child {<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">现在一切正常，除了仍然存在</font></font><code>border-collapse: collapse</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">破坏所有内容</font><font style="vertical-align: inherit;">的问题</font><font style="vertical-align: inherit;">。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">一种解决方法是</font><font style="vertical-align: inherit;">在表上</font></font><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/border-spacing" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">添加</font></font><code>border-spacing: 0</code></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">默认值并保留默认值</font></font><code>border-collapse: separate</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

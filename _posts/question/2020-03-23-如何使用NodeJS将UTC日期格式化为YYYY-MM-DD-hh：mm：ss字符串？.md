@@ -23,7 +23,7 @@ ts_hms.format("%Y-%m-%d %H:%M:%S");<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我怎么做？</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第2587篇《如何使用NodeJS将UTC日期格式化为YYYY-MM-DD hh：mm：ss字符串？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第2587篇《如何使用NodeJS将UTC日期格式化为YYYY-MM-DD hh：mm：ss字符串？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -60,9 +60,7 @@ ts_hms.format("%Y-%m-%d %H:%M:%S");<font></font>
 <ul>
 <li><a href="http://www.datejs.com/" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Datejs</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> [感谢Peter Olson]-未打包在npm或GitHub中，因此不太容易与Node一起使用-不太推荐使用，因为自2007年以来就未更新！</font></font></li>
 </ul></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">樱小胖Mandy</span>
@@ -85,9 +83,7 @@ ts_hms.format("%Y-%m-%d %H:%M:%S");<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">（如果您需要UTC格式的时间，则只需更改函数调用即可。例如，“ getMonth”变为“ getUTCMonth”）</font></font></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

@@ -26,7 +26,7 @@ function reply_click()<font></font>
 </code></pre></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第3602篇《JavaScript-onClick获取被单击按钮的ID》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第3602篇《JavaScript-onClick获取被单击按钮的ID》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -54,9 +54,7 @@ function reply_click()<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这样，我们在调用javascript函数时不必绑定Element的“ id”。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">凯西里</span>
@@ -74,9 +72,7 @@ function addFields(){ <font></font>
 <font></font>
 &lt;/script&gt;<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">凯西里</span>
@@ -101,9 +97,7 @@ function addFields(){ <font></font>
 <p></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这将发送ID </font></font><code>this.id</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">作为</font></font><code>clicked_id</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">您可以在您的函数中使用。</font></font><a href="http://jsfiddle.net/R77EB/" rel="noreferrer"><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在这里查看实际操作。</font></font></strong></a></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

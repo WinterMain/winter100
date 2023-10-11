@@ -26,7 +26,7 @@ topic: CSS
 </ul></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第2150篇《如何在Angular中将Bootstrap 4与SASS一起使用》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第2150篇《如何在Angular中将Bootstrap 4与SASS一起使用》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -52,9 +52,7 @@ topic: CSS
 <pre><code>@import "./assets/scss/mytheme";<font></font>
 @import "~bootstrap/scss/bootstrap";<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">番长Davaid</span>
@@ -118,9 +116,7 @@ topic: CSS
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">6-运行任务以生成CSS：Ctrl + Shift + B&gt;“ Sass编译”或 </font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">7-遵循引导主题过程中的步骤：（</font></font><a href="https://getbootstrap.com/docs/4.1/getting-started/theming/" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">https://getbootstrap.com/docs/4.1/getting-started/theming/</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">）</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Eva小哥理查德</span>
@@ -139,9 +135,7 @@ topic: CSS
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我猜想您已经使用</font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">npm install --save jquery popper.js</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">安装了jquery和popper，</font><font style="vertical-align: inherit;">因此这些包在node_modules文件夹中可用。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">古一泡芙猴子</span>
@@ -177,9 +171,7 @@ topic: CSS
 @import "variables";<font></font>
 @import "global";<font></font>
 </code></pre></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

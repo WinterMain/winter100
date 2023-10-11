@@ -47,7 +47,7 @@ topic: React.js
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我该如何使用ReactJS？</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第2403篇《如何在ReactJS中使用JQuery》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第2403篇《如何在ReactJS中使用JQuery》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -122,9 +122,7 @@ topic: React.js
 
 <p>Codepen link here: <a href="https://codepen.io/***mm/pen/JKLwEA?editors=0110" rel="noreferrer">https://codepen.io/***mm/pen/JKLwEA?editors=0110</a>
 (I changed this link to https ^)</p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">十三米亚阳光</span>
@@ -138,9 +136,7 @@ topic: React.js
 
 <p><a href="https://i.stack.imgur.com/SBcH3.png" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">看这里</font></font></a> </p></li>
 </ol></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

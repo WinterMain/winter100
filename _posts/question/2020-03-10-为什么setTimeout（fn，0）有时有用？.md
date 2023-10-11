@@ -37,7 +37,7 @@ setTimeout(wrapFn, 0);<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我已经为我的问题找到了解决方案，但是我不知道自己到底为什么能解决我的问题，对此我感到不安。</font><font style="vertical-align: inherit;">有人有官方解释吗？</font><font style="vertical-align: inherit;">通过使用调用函数“稍后”可以避免出现什么浏览器问题</font></font><code>setTimeout()</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">？</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第429篇《为什么setTimeout（fn，0）有时有用？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第429篇《为什么setTimeout（fn，0）有时有用？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -48,9 +48,7 @@ setTimeout(wrapFn, 0);<font></font>
             <span class="discuss-time">2020.03.10</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Javascript是单线程应用程序，因此不允许同时运行功能，因此要使用此事件循环。</font><font style="vertical-align: inherit;">因此，正是setTimeout（fn，0）所做的事情使它被塞入任务请求中，该任务在您的调用堆栈为空时执行。</font><font style="vertical-align: inherit;">我知道这个解释很无聊，所以我建议您看这段视频，这将帮助您在浏览器中进行工作。</font><font style="vertical-align: inherit;">观看以下视频：</font><a href="https://www.youtube.com/watch?time_continue=392&amp;v=8aGhZQkoFbQ" rel="nofollow noreferrer"><font style="vertical-align: inherit;">-https</font></a><font style="vertical-align: inherit;"> : </font></font><a href="https://www.youtube.com/watch?time_continue=392&amp;v=8aGhZQkoFbQ" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">//www.youtube.com/watch?time_continue=392&amp;v=8aGhZQkoFbQ</font></font></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Mandy小卤蛋凯</span>
@@ -61,9 +59,7 @@ setTimeout(wrapFn, 0);<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我想补充一点，JavaScript中跨浏览器/跨平台零秒超时的BEST值实际上是20毫秒而不是0（零），因为由于时钟限制，许多移动浏览器无法注册小于20毫秒的超时在AMD芯片上。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">此外，不涉及DOM操作的长期运行的进程应立即发送给Web Worker，因为它们提供了真正的JavaScript多线程执行。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">L前端</span>
@@ -75,18 +71,14 @@ setTimeout(wrapFn, 0);<font></font>
 <li><code>setTimeout()</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">导致事件是</font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">异步的，</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">因此在所有同步代码之后执行</font><font style="vertical-align: inherit;">该事件</font><font style="vertical-align: inherit;">，从而使您的元素有更多的加载时间。</font><font style="vertical-align: inherit;">异步回调（如in </font></font><code>setTimeout()</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">内</font><font style="vertical-align: inherit;">的回调）</font><font style="vertical-align: inherit;">放置在</font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">事件队列中</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，并在</font><font style="vertical-align: inherit;">同步代码堆栈为空之后</font><font style="vertical-align: inherit;">由</font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">事件循环</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">放入</font><font style="vertical-align: inherit;">堆栈中。</font></font></li>
 <li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">ms的值0作为函数中的第二个参数</font></font><code>setTimeout()</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">通常会稍高一些（4-10ms，具体取决于浏览器）。</font><font style="vertical-align: inherit;">执行</font></font><code>setTimeout()</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">回调</font><font style="vertical-align: inherit;">所需的时间稍长，这</font><font style="vertical-align: inherit;">是由事件循环的“滴答声”量引起的（滴答声将堆栈中的回调推入堆栈，如果堆栈为空）。</font><font style="vertical-align: inherit;">由于性能和电池寿命原因，事件循环中的滴答声数量限制为</font><font style="vertical-align: inherit;">每秒</font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">少于</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> 1000次</font><font style="vertical-align: inherit;">的特定数量</font><font style="vertical-align: inherit;">。</font></font></li>
 </ol></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">泡芙达蒙</span>
             <span class="discuss-time">2020.03.10</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这样做的另一件事是将函数调用推到堆栈的底部，以防递归调用函数时防止堆栈溢出。</font><font style="vertical-align: inherit;">这具有</font></font><code>while</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">循环</font><font style="vertical-align: inherit;">的效果，</font><font style="vertical-align: inherit;">但可以让JavaScript引擎触发其他异步计时器。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">JinJin卡卡西小胖</span>
@@ -97,27 +89,21 @@ setTimeout(wrapFn, 0);<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">您希望将长时间运行的循环或计算分解为较小的组件，以使浏览器看起来不会“冻结”或说“页面上的脚本忙”。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">您希望在单击时禁用表单提交按钮，但是如果在onClick处理程序中禁用该按钮，则不会提交表单。</font><font style="vertical-align: inherit;">时间为零的setTimeout可以解决问题，它可以使事件结束，可以开始提交表单，然后可以禁用按钮。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Itachi猪猪Green</span>
             <span class="discuss-time">2020.03.10</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">通过调用setTimeout，您可以给页面时间以响应用户所做的任何事情。</font><font style="vertical-align: inherit;">这对于页面加载期间运行的功能特别有用。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">乐米亚</span>
             <span class="discuss-time">2020.03.10</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">由于要传递的持续时间为</font></font><code>0</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，所以我想是为了</font></font><code>setTimeout</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">从执行流程中</font><font style="vertical-align: inherit;">删除传递给的代码</font><font style="vertical-align: inherit;">。</font><font style="vertical-align: inherit;">因此，如果该函数可能需要一段时间，则不会阻止后续代码的执行。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">番长GO</span>
@@ -155,9 +141,7 @@ var f2 = function () {<font></font>
 </blockquote>
 
 <p>P.S. information is taken after reading the following <a href="http://geekabyte.blogspot.com/2014/01/javascript-effect-of-setting-settimeout.html">article</a>.</p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">JimAJim</span>
@@ -166,9 +150,7 @@ var f2 = function () {<font></font>
           <div class="discuss-comment"><p><code>setTimeout()</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> 即使将DOM元素设置为0，也会让您花一些时间直到DOM元素被加载。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">检查一下：</font></font><a href="http://snook.ca/archives/javascript/settimeout_solve_domcontentloaded" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">setTimeout</font></font></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">十三泡芙猿</span>
@@ -181,18 +163,14 @@ var f2 = function () {<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">当在主线程繁忙时生成UI更新时，任务将添加到消息队列中。</font></font></p>
 
 <p><code>setTimeout(fn, 0);</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">将其添加</font></font><code>fn</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">到要执行的队列的末尾。</font><font style="vertical-align: inherit;">它计划在给定时间后将任务添加到消息队列中。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">乐小小猪猪</span>
             <span class="discuss-time">2020.03.10</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">看看John Resig的有关</font></font><a href="http://ejohn.org/blog/how-javascript-timers-work/"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">JavaScript计时器如何工作</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">的文章</font><font style="vertical-align: inherit;">。</font><font style="vertical-align: inherit;">设置超时时，它实际上将异步代码排队，直到引擎执行当前的调用堆栈。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">前端Tom</span>
@@ -201,9 +179,7 @@ var f2 = function () {<font></font>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这样做的一个原因是将代码的执行推迟到一个单独的后续事件循环中。</font><font style="vertical-align: inherit;">响应某种浏览器事件（例如，鼠标单击）时，有时仅</font></font><em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在</font></font></em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">处理当前事件</font><em><font style="vertical-align: inherit;">之后</font></em><font style="vertical-align: inherit;">才需要执行操作</font><font style="vertical-align: inherit;">。</font><font style="vertical-align: inherit;">该</font></font><code>setTimeout()</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">设施是最简单的方法。</font></font></p>
 
 <p><em><font style="vertical-align: inherit;"></font></em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">现在</font><em><font style="vertical-align: inherit;">编辑</font></em><font style="vertical-align: inherit;">到2015年，我应该注意，还有</font></font><code>requestAnimationFrame()</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，它并不完全相同，但它非常接近</font></font><code>setTimeout(fn, 0)</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，值得一提。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">阳光伽罗</span>
@@ -234,9 +210,7 @@ var f2 = function () {<font></font>
 <hr>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">参见Philip Roberts的演讲</font></font><a href="https://www.youtube.com/watch?v=8aGhZQkoFbQ" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">“事件循环到底是什么？” </font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">以获得更详尽的解释。</font></font></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

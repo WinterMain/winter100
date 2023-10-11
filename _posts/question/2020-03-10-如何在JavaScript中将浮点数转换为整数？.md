@@ -17,7 +17,7 @@ topic: JavaScript
     <div class="article-content"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我想将浮点数转换为JavaScript中的整数。</font><font style="vertical-align: inherit;">实际上，我想知道如何同时进行标准转换：截断和舍入。</font><font style="vertical-align: inherit;">而且有效，而不是通过转换为字符串和解析。</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第385篇《如何在JavaScript中将浮点数转换为整数？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第385篇《如何在JavaScript中将浮点数转换为整数？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -35,9 +35,7 @@ topic: JavaScript
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">它将val转换为整数</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">使用此链接</font></font><a href="http://docs.angularjs.org/api/ng/filter/number" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">docs.angularjs.org/api/ng/filter/number</font></font></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">TomNear前端</span>
@@ -48,18 +46,14 @@ topic: JavaScript
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">最重要的是，不要忘了</font></font><a href="https://en.wikipedia.org/wiki/Rounding#Round_half_to_even" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">银行家的舍入</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，这是一种对付舍入产生的轻微积极偏差的方法-您的财务申请可能会要求这样做。</font></font></p>
 
 <p><em><a href="https://stackoverflow.com/questions/3108986/gaussian-bankers-rounding-in-javascript"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">高斯/银行家的JavaScript四舍五入</font></font></a></em></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">樱Itachi</span>
             <span class="discuss-time">2020.03.10</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在您的情况下，当您想在字符串的末尾（以插入逗号）时，也可以只使用该</font></font><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number/toFixed" rel="nofollow noreferrer"><code>Number.toFixed()</code></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">函数，但是，它将执行舍入。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">StafanItachi</span>
@@ -80,9 +74,7 @@ Math.round( 1.49 ); // 1<font></font>
 Math.round( -1.6 ); // -2<font></font>
 Math.round( -1.3 ); // -1<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">飞云卡卡西</span>
@@ -100,9 +92,7 @@ console.log(-1.2 - 1.3 ^ 0); // -2<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">按位运算的优先级小于数学运算的优先级，这很有用。</font><font style="vertical-align: inherit;">尝试</font></font><a href="https://jsfiddle.net/au51uj3r/" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">https://jsfiddle.net/au51uj3r/</font></font></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">LEYJim</span>
@@ -142,9 +132,7 @@ console.log(-1.2 - 1.3 ^ 0); // -2<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">您也可以</font></font><code>~~</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在浮点数后面</font><font style="vertical-align: inherit;">使用，</font><font style="vertical-align: inherit;">将浮点数转换为整数。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">您可以像</font></font><code>~~myValue</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">... </font><font style="vertical-align: inherit;">一样使用它</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">卡卡西乐逆天</span>
@@ -156,9 +144,7 @@ console.log(-1.2 - 1.3 ^ 0); // -2<font></font>
 2.0 &gt;&gt; 0; // 2<font></font>
 2.0 &gt;&gt;&gt; 0; // 2<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小小Near阳光</span>
@@ -168,9 +154,7 @@ console.log(-1.2 - 1.3 ^ 0); // -2<font></font>
 
 <pre><code>var intValue = parseInt(floatValue, 10);
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Tom凯</span>
@@ -215,9 +199,7 @@ float2int(-3.9) == -3<font></font>
 <pre><code>1234567890  | 0 =&gt; 1234567890<font></font>
 12345678901 | 0 =&gt; -539222987<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">伽罗理查德</span>
@@ -232,9 +214,7 @@ float2int(-3.9) == -3<font></font>
 
 <pre><code>var intvalue = Math.round(value);
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">飞云前端西门</span>
@@ -321,9 +301,7 @@ value &gt;&gt; 0        // -858993459           -858993459           -858993459<
 value &gt;&gt;&gt; 0       //  3435973837           3435973837           3435973837<font></font>
 value - value % 1 // -900719925474099     -900719925474099     -900719925474099<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小小神无</span>
@@ -342,9 +320,7 @@ value - value % 1 // -900719925474099     -900719925474099     -900719925474099<
     return Math.floor(value);<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">蛋蛋樱</span>
@@ -359,9 +335,7 @@ value - value % 1 // -900719925474099     -900719925474099     -900719925474099<
 </code></pre>
 
 <p><a href="http://james.padolsey.com/javascript/double-bitwise-not/"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">更多细节由James Padolsey提供。</font></font></a></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

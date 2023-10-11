@@ -38,7 +38,7 @@ MyObject.prototype.test = function() { alert('OK'); } // OK<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这些</font></font><a href="http://ejohn.org/apps/learn/#64" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">幻灯片也</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">确实起到了很大作用。</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第209篇《JavaScript .prototype如何工作？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第209篇《JavaScript .prototype如何工作？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -49,9 +49,7 @@ MyObject.prototype.test = function() { alert('OK'); } // OK<font></font>
             <span class="discuss-time">2020.03.09</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">只是您已经有一个对象，</font></font><code>Object.new</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">但使用构造函数语法时仍然没有对象。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">猪猪十三</span>
@@ -62,9 +60,7 @@ MyObject.prototype.test = function() { alert('OK'); } // OK<font></font>
 </blockquote>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">参考：</font><a href="https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Object_prototypes" rel="nofollow noreferrer"><font style="vertical-align: inherit;">https</font></a><font style="vertical-align: inherit;"> : </font></font><a href="https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Object_prototypes" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">//developer.mozilla.org/zh-CN/docs/Learn/JavaScript/Objects/Object_prototypes</font></font></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">米亚Stafan</span>
@@ -72,18 +68,14 @@ MyObject.prototype.test = function() { alert('OK'); } // OK<font></font>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">另一个显示</font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">__proto__</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，</font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">原型</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">和</font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">构造函数</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">关系的方案：
 </font></font><a href="https://i.stack.imgur.com/uy5ce.png" rel="nofollow noreferrer"><img src="https://i.stack.imgur.com/uy5ce.png" alt="在此处输入图片说明"></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小卤蛋卡卡西</span>
             <span class="discuss-time">2020.03.09</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">该</font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">原型</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">创建</font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">新的对象</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">通过克隆现有</font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">对象</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font><font style="vertical-align: inherit;">因此，实际上，当我们考虑原型时，可以真正地考虑</font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">克隆或</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">复制某些内容而不是进行组合。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小哥Stafan</span>
@@ -100,9 +92,7 @@ MyObject.prototype.test = function() { alert('OK'); } // OK<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这里重要的是，Derp不会把笔给您，因为您</font><font style="vertical-align: inherit;">与他</font><font style="vertical-align: inherit;">没有直接</font></font><em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">关系</font></font></em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这是原型工作方式的简化示例，其中在数据树中搜索您要寻找的东西。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">蛋蛋飞云</span>
@@ -111,9 +101,7 @@ MyObject.prototype.test = function() { alert('OK'); } // OK<font></font>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">用更好的图片</font><font style="vertical-align: inherit;">解释</font></font><a href="https://github.com/rus0000/jsinheritance" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">基于JavaScript原型的继承的</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">另一种尝试</font></font></p>
 
 <p><a href="https://github.com/rus0000/jsinheritance" rel="noreferrer"><img src="https://i.stack.imgur.com/6gEKe.png" alt="简单对象继承"></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Jim小小</span>
@@ -140,9 +128,7 @@ product.y<font></font>
 </ul>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">使用原型属性进行的对象链接称为原型继承。</font><font style="vertical-align: inherit;">那里很简单，同意吗？</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小小阿飞</span>
@@ -161,18 +147,14 @@ product.y<font></font>
 <p> <img src="https://i.stack.imgur.com/2tGyY.jpg" alt="js对象图"> </p>
 
 <p><a href="http://jsobjects.org" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">http://jsobjects.org</font></font></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">村村AL</span>
             <span class="discuss-time">2020.03.09</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">当构造函数创建对象时，该对象隐式引用构造函数的“ prototype”属性，以解决属性引用的问题。</font><font style="vertical-align: inherit;">构造表达式的“ prototype”属性可以由程序表达式的builder.prototype引用，添加到对象原型的属性可以通过继承由共享原型的所有对象共享。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">伽罗神奇</span>
@@ -180,9 +162,7 @@ product.y<font></font>
           </div>
           <div class="discuss-comment"><p><a href="https://www.youtube.com/watch?v=PMfcsYzj-9M"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">《面向对象的JavaScript权威指南》</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> -简短而清晰的约30分钟的视频解释所提出的问题（原型继承主题从</font></font><a href="https://youtu.be/PMfcsYzj-9M?t=344"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">5:45</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">开始</font><font style="vertical-align: inherit;">，尽管我更喜欢听整个视频）。</font><font style="vertical-align: inherit;">该视频的作者还创建了JavaScript对象可视化器网站</font></font><a href="http://www.objectplayground.com/"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">http://www.objectplayground.com/</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font><a href="https://i.stack.imgur.com/Vf4qR.jpg"><img src="https://i.stack.imgur.com/Vf4qR.jpg" alt="在此处输入图片说明"></a>
 <a href="https://i.stack.imgur.com/xcRpT.jpg"><img src="https://i.stack.imgur.com/xcRpT.jpg" alt="在此处输入图片说明"></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">TonyEvaL</span>
@@ -195,9 +175,7 @@ product.y<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">标准类的接口变得可扩展。</font><font style="vertical-align: inherit;">例如，您使用的是</font></font><code>Array</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">类，还需要为所有数组对象添加一个自定义序列化程序。</font><font style="vertical-align: inherit;">您会花时间编码一个子类，还是使用合成或...原型属性通过让用户控制可用于类的成员/方法的确切集合来解决此问题。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">将原型视为额外的vtable指针。</font><font style="vertical-align: inherit;">当原始类中缺少某些成员时，将在运行时查找原型。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">null</span>
@@ -212,9 +190,7 @@ product.y<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">向原型添加功能/变量的优点是，它只能在内存中一次，而不是每个实例一次。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这对于继承也很有用，因为原型链可以包含许多其他对象。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小小JinJin蛋蛋</span>
@@ -240,9 +216,7 @@ product.y<font></font>
 </blockquote>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">希望对理解JavaScript原型链也有帮助。</font></font></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

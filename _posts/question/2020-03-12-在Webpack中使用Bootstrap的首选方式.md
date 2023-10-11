@@ -89,7 +89,7 @@ module.exports = {<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">提前致谢 ：）</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第1056篇《在Webpack中使用Bootstrap的首选方式》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第1056篇《在Webpack中使用Bootstrap的首选方式》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -100,9 +100,7 @@ module.exports = {<font></font>
             <span class="discuss-time">2020.03.12</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我强烈建议使用</font></font><a href="https://github.com/shakacode/bootstrap-loader" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">bootstrap-loader</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font><font style="vertical-align: inherit;">您</font></font><code>.bootstraprc</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在根文件夹中</font><font style="vertical-align: inherit;">添加了一个配置文件</font><font style="vertical-align: inherit;">，可以在其中排除不需要的引导元素，并告诉您</font></font><code>variables.scss</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">和</font></font><code>bootstrap.overrides.scss</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在</font><font style="vertical-align: inherit;">哪里</font><font style="vertical-align: inherit;">。</font><font style="vertical-align: inherit;">定义您的SCSS变量，进行覆盖，添加Webpack条目并继续生活。</font></font></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

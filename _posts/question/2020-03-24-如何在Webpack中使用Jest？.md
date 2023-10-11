@@ -61,7 +61,7 @@ module.exports = MyComponent;<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我想知道是否需要使用诸如</font></font><a href="https://www.npmjs.com/package/jest-webpack"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">jest-webpack之</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">类</font><a href="https://www.npmjs.com/package/jest-webpack"><font style="vertical-align: inherit;">的东西</font></a><font style="vertical-align: inherit;">。</font><font style="vertical-align: inherit;">如果是，是否可以指定多个</font></font><code>scriptPreprocessor</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">s？</font><font style="vertical-align: inherit;">（请注意，我已经使用了</font></font><code>babel-jest</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">）</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第3204篇《如何在Webpack中使用Jest？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第3204篇《如何在Webpack中使用Jest？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -72,9 +72,7 @@ module.exports = MyComponent;<font></font>
             <span class="discuss-time">2020.03.24</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">CSS文件也有类似的问题。</font><font style="vertical-align: inherit;">正如您之前提到的</font></font><a href="https://www.npmjs.com/package/jest-webpack" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">jest-webpack</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">可以很好地解决此问题。</font><font style="vertical-align: inherit;">您也不必模拟或使用任何模块映射器。</font><font style="vertical-align: inherit;">对我们来说，我们从我们的替代NPM测试命令</font></font><code>jest</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">到</font></font><code>jest-webpack</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，它只是工作。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小胖Davaid</span>
@@ -102,9 +100,7 @@ module.exports = {<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">但是，我仍然想知道该问题的正确解决方案是什么。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">古一番长小小</span>
@@ -128,9 +124,7 @@ module.exports = {<font></font>
   }<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">梅</span>
@@ -146,9 +140,7 @@ module.exports = {<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">即使您没有在require行中显式设置扩展名，也不需要源代码上的正则表达式替换，此方法仍然有效。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">村村</span>
@@ -157,9 +149,7 @@ module.exports = {<font></font>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Webpack是一个很棒的工具，但是我不需要使用Jest单元测试来测试它的行为，在运行单元测试之前添加Webpack构建只会减慢该过程。</font></font><em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">教科书的答案</font></font></em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">是使用</font></font><code>"moduleNameMapper"</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">选项</font><font style="vertical-align: inherit;">模拟非代码依赖</font><font style="vertical-align: inherit;">项</font></font></p>
 
 <p><a href="https://facebook.github.io/jest/docs/webpack.html#handling-static-assets" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">https://facebook.github.io/jest/docs/webpack.html#handling-static-assets</font></font></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">JinJin</span>
@@ -170,18 +160,14 @@ module.exports = {<font></font>
 <p><a href="https://github.com/atecarlos/webpack-babel-jest" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">webpack-babel-jest</font></font></a></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">希望这可以节省下一个人几个小时。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">宝儿</span>
             <span class="discuss-time">2020.03.24</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我最近发布了</font></font><a href="https://www.npmjs.com/package/jestpack" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Jestpack</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，这可能会有所帮助。</font><font style="vertical-align: inherit;">它首先使用Webpack构建您的测试文件，因此任何自定义模块解析度/加载器/插件等都可以正常工作，并且最终使用JavaScript。</font><font style="vertical-align: inherit;">然后，它为Jest提供了一个定制的模块加载器，它了解Webpack模块的运行时。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">null</span>
@@ -207,9 +193,7 @@ module.exports = {};</code></pre>
 <p></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在Jest的</font></font><a href="https://facebook.github.io/jest/docs/en/webpack.html" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">教程页面上有</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">更多详细信息</font><font style="vertical-align: inherit;">。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小胖</span>
@@ -255,9 +239,7 @@ module.exports = '';<font></font>
   ]<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

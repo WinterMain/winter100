@@ -19,7 +19,7 @@ topic: CSS
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">另外，如果我使用Google加载，应该如何加载其他插件？</font><font style="vertical-align: inherit;">我可以将所有插件压缩在一起吗，还是应该将其单独压缩？</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第2121篇《从Google的CDN下载jQuery UI CSS》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第2121篇《从Google的CDN下载jQuery UI CSS》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -41,9 +41,7 @@ topic: CSS
 <li><p>Themes Compressed:
 <a href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/themes/black-tie/jquery-ui.min.css" rel="noreferrer">black-tie</a>, <a href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/themes/blitzer/jquery-ui.min.css" rel="noreferrer">blitzer</a>, <a href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/themes/cupertino/jquery-ui.min.css" rel="noreferrer">cupertino</a>, <a href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/themes/dark-hive/jquery-ui.min.css" rel="noreferrer">dark-hive</a>, <a href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/themes/dot-luv/jquery-ui.min.css" rel="noreferrer">dot-luv</a>, <a href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/themes/eggplant/jquery-ui.min.css" rel="noreferrer">eggplant</a>, <a href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/themes/excite-bike/jquery-ui.min.css" rel="noreferrer">excite-bike</a>, <a href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/themes/flick/jquery-ui.min.css" rel="noreferrer">flick</a>, <a href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/themes/hot-sneaks/jquery-ui.min.css" rel="noreferrer">hot-sneaks</a>, <a href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/themes/humanity/jquery-ui.min.css" rel="noreferrer">humanity</a>, <a href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/themes/le-frog/jquery-ui.min.css" rel="noreferrer">le-frog</a>, <a href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/themes/mint-choc/jquery-ui.min.css" rel="noreferrer">mint-choc</a>, <a href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/themes/overcast/jquery-ui.min.css" rel="noreferrer">overcast</a>,<a href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/themes/pepper-grinder/jquery-ui.min.css" rel="noreferrer">pepper-grinder</a>, <a href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/themes/redmond/jquery-ui.min.css" rel="noreferrer">redmond</a>, <a href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/themes/smoothness/jquery-ui.min.css" rel="noreferrer">smoothness</a>, <a href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/themes/south-street/jquery-ui.min.css" rel="noreferrer">south-street</a>, <a href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/themes/start/jquery-ui.min.css" rel="noreferrer">start</a>, <a href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/themes/sunny/jquery-ui.min.css" rel="noreferrer">sunny</a>, <a href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/themes/swanky-purse/jquery-ui.min.css" rel="noreferrer">swanky-purse</a>, <a href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/themes/trontastic/jquery-ui.min.css" rel="noreferrer">trontastic</a>, <a href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/themes/ui-darkness/jquery-ui.min.css" rel="noreferrer">ui-darkness</a>, <a href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/themes/ui-lightness/jquery-ui.min.css" rel="noreferrer">ui-lightness</a>, and <a href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/themes/vader/jquery-ui.min.css" rel="noreferrer">vader</a>.</p></li>
 </ul></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">逆天樱</span>
@@ -53,9 +51,7 @@ topic: CSS
 
 <pre><code>&lt;link rel="stylesheet" type="text/css" href="http://code.jquery.com/ui/1.10.3/themes/smoothness/jquery-ui.css" /&gt;
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">TomL</span>
@@ -96,9 +92,7 @@ topic: CSS
 <li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">ui-lightness：</font><a href="http://code.jquery.com/ui/1.9.1/themes/ui-lightness/jquery-ui.css"><font style="vertical-align: inherit;">http</font></a><font style="vertical-align: inherit;"> : </font></font><a href="http://code.jquery.com/ui/1.9.1/themes/ui-lightness/jquery-ui.css"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">//code.jquery.com/ui/1.9.1/themes/ui-lightness/jquery-ui.css</font></font></a></li>
 <li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">vader：</font><a href="http://code.jquery.com/ui/1.9.1/themes/vader/jquery-ui.css"><font style="vertical-align: inherit;">http</font></a><font style="vertical-align: inherit;"> : </font></font><a href="http://code.jquery.com/ui/1.9.1/themes/vader/jquery-ui.css"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">//code.jquery.com/ui/1.9.1/themes/vader/jquery-ui.css</font></font></a></li>
 </ul></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Tom卡卡西</span>
@@ -110,9 +104,7 @@ topic: CSS
 
 <p><a href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.8/themes/base/jquery.ui.base.css" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">https://ajax.googleapis.com/ajax/libs/jqueryui/1.8/themes/base/jquery.ui.base.css </font></font></a>
 <a href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.8/themes/base/jquery.ui.theme.css" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">https://ajax.googleapis.com/ajax/libs/jqueryui/1.8/themes/base /jquery.ui.theme.css</font></font></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Davaid十三樱</span>
@@ -125,9 +117,7 @@ topic: CSS
 <blockquote>
   <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我们感到特别令人兴奋的是，jQuery UI CSS主题现在托管在Google的Ajax Libraries CDN中。</font></font></p>
 </blockquote></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

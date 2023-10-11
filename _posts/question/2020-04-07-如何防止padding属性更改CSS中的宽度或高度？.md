@@ -31,7 +31,7 @@ topic: CSS
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我该如何解决这个问题？</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第4068篇《如何防止padding属性更改CSS中的宽度或高度？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第4068篇《如何防止padding属性更改CSS中的宽度或高度？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -42,18 +42,14 @@ topic: CSS
             <span class="discuss-time">2020.04.07</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">只需将div的宽度更改为160px（如果您的填充为20px，则会为div的宽度增加40px），因此您需要从其宽度中减去40px，以使div看起来正常且不会因其上的额外宽度而失真您的文字全弄乱了。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小宇宙</span>
             <span class="discuss-time">2020.04.07</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">只需添加  </font></font><code>box-sizing: border-box;</code></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">蛋蛋神奇</span>
@@ -67,9 +63,7 @@ box-sizing: border-box;         /* Opera/IE 8+ */<font></font>
 </code></pre>
 
 <p><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">注意：</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">此功能</font><font style="vertical-align: inherit;">在版本8以下的Internet Explorer中</font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">无法使用</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Gil</span>
@@ -97,9 +91,7 @@ box-sizing: border-box;         /* Opera/IE 8+ */<font></font>
 </div>
 </div>
 <p></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">宝儿理查德</span>
@@ -110,9 +102,7 @@ box-sizing: border-box;         /* Opera/IE 8+ */<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">从newdiv删除填充。</font></font></p>
 
 <p><a href="http://www.w3.org/TR/CSS2/box.html" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">W3 Box模型页面上有很好的信息。</font></font></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Tony凯</span>
@@ -122,9 +112,7 @@ box-sizing: border-box;         /* Opera/IE 8+ */<font></font>
 
 <pre><code>box-sizing: border-box;
 </code></pre></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

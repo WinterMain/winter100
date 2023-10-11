@@ -2,11 +2,15 @@
 layout: default
 title: 咖啡
 sitemap: true
-permalink: /reward/
+permalink: /reward
 ---
 
 <div class="p-reward">
-  <div class="stage">
+  <div class="reward-main">
+    <div class="flex flex-column items-center">
+      <p class="tip">如果你喜欢本站的内容，可以刷一杯咖啡呀☕️</p>
+      {% include star.html %}
+    </div>
     <div class="buycoffee flex flex-wrap">
       {% for reward in site.rewards %}
       <div class="coffee-outter">
@@ -26,4 +30,9 @@ permalink: /reward/
       {% endfor %}
     </div>
   </div>
+  <div class="experience">
+    <div>美丽总会伴随危险，但我们应该勇敢追寻星辰大海</div>
+  </div>
 </div>
+
+<script src="{{ site.baseurl }}/assets/js/blockhole.js"></script>

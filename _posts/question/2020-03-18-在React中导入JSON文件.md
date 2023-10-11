@@ -97,7 +97,7 @@ export default DATA<font></font>
 </code></pre></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第2037篇《在React中导入JSON文件》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第2037篇《在React中导入JSON文件》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -108,18 +108,14 @@ export default DATA<font></font>
             <span class="discuss-time">2020.03.18</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">尝试</font></font><code>export default DATA</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">或  </font></font><code>module.exports = DATA</code></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">GilTony泡芙</span>
             <span class="discuss-time">2020.03.18</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">请存储扩展名为.js的JSON文件，并确保JSON应位于同一目录中。</font></font></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

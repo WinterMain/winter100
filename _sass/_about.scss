@@ -1,0 +1,59 @@
+.root-about {
+  background-color: black;
+  .page-header {
+    background-color: black;
+    background-image: url(/assets/img/star.png);
+    background-repeat: repeat;
+    padding: 5px 0;
+    .nav-ul li a {
+      color: var(--bg-element);
+    }
+  }
+  footer {
+    &.bg-white {
+      background-color: black!important;
+      background-image: url(/assets/img/star.png);
+      background-repeat: repeat;
+      a {
+        color: var(--bg-element);
+      }
+    }
+    .friend {
+      span {color: var(--bg-element)!important;}
+      background-color: #1e1e1e !important;
+    }
+  }
+  .intro {
+    background-color: #60a5fa;
+    color: var(--bg-element);
+    padding: 90px 20px;
+    .title {
+      font-size: 64px;
+    }
+    .sub-title {
+      font-size: 24px;
+    }
+    .avatars {
+      height: 200px;
+      margin-bottom: 50px;
+    }
+  }
+}
+
+.p-about {
+  .events-area {
+    background-color: black;
+    background-image: url(/assets/img/star.png);
+    background-repeat: repeat;
+    position: relative;
+    z-index: 1;
+    color: var(--themeColor);
+    .divider-custom-line {
+      background-color: var(--themeColor);
+    }
+    padding: 90px 20px;
+    .events {
+      margin-top: 20px;
+    }
+  }
+}

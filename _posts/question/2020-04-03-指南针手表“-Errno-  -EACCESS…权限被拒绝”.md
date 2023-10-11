@@ -60,7 +60,7 @@ C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/compass-0.12.4/lib/compass/actions.rb:58
 <p>From doing some reading (<a href="https://github.com/chriseppstein/compass/issues/1406" rel="nofollow noreferrer">https://github.com/chriseppstein/compass/issues/1406</a>) I believe it's something to do with <strong>the permissions or PATH for 'Ruby' &amp; 'Ruby Gems'</strong> but I don't know what to do to resolve this.</p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第4032篇《指南针手表“ Errno :: EACCESS…权限被拒绝”》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第4032篇《指南针手表“ Errno    EACCESS…权限被拒绝”》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -71,9 +71,7 @@ C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/compass-0.12.4/lib/compass/actions.rb:58
             <span class="discuss-time">2020.04.03</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">当我以管理员身份运行cygwin命令提示符窗口时，问题已为我解决。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">西里Near</span>
@@ -91,9 +89,7 @@ gem uninstall sass<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">指南针安装过程中需要使用sass，因此不需要单独安装它。</font><font style="vertical-align: inherit;">看来我面临的问题是作为指南针安装的一部分安装的版本与我手动安装的版本之间存在冲突。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">达蒙</span>
@@ -106,9 +102,7 @@ gem uninstall sass<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">安装--pre COMPASS版本： </font></font><code>gem install compass --pre</code></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">安装--pre SASS版本： </font></font><code>gem install sass --pre</code></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">卡卡西Davaid</span>
@@ -117,9 +111,7 @@ gem uninstall sass<font></font>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">看起来问题已在SASS 3.2.19中解决</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">所以你只需要  </font></font><code>gem update compass</code></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">伽罗理查德</span>
@@ -128,9 +120,7 @@ gem uninstall sass<font></font>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我遇到了类似的错误，但是解决方案却完全不同，所以我认为值得分享，以防其他人遇到我的情况。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">实际上，我被拒绝权限是因为我的源代码控制使我的.css文件变为只读文件。</font><font style="vertical-align: inherit;">解决方案非常简单，只需签出css文件，一切便恢复正常。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">SamJinJin</span>
@@ -148,18 +138,14 @@ gem uninstall sass<font></font>
 gem install compass -v "0.12.2"<font></font>
 gem install sass -v "3.2.13"<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Mandy村村</span>
             <span class="discuss-time">2020.04.03</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我有同样的问题。</font><font style="vertical-align: inherit;">我做了建议-用--pre卸载并安装，但是并不能解决我的问题。</font><font style="vertical-align: inherit;">之后，我遇到了另一个问题。</font><font style="vertical-align: inherit;">好吧，我当时要做的是：我再次卸载了指南针和无礼的宝石。</font><font style="vertical-align: inherit;">我删除了ruby / gems / ruby​​1.9.1 / gems文件夹中的所有与罗盘相关的宝石（可能没有必要，不确定），然后我安装了：gem install guide --version“ 0.12.2”和gem install sass-版本“ 3.2.10”。</font><font style="vertical-align: inherit;">我认为这里的版本不是太重要，只要它不是这两个的最新版本即可。</font><font style="vertical-align: inherit;">现在，这里重要的一点是：gem uninstall sass。</font><font style="vertical-align: inherit;">它将询问您要擦除哪个版本，或者是否全部删除。</font><font style="vertical-align: inherit;">删除较新的。</font><font style="vertical-align: inherit;">这里的技巧是指南针会自动安装最新版本的sass。</font><font style="vertical-align: inherit;">因此，如果您安装的是较旧的指南针，则没关系，因为已经有使用指南针的较新的指南针了。</font><font style="vertical-align: inherit;">尝试一下。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Gil</span>
@@ -176,9 +162,7 @@ gem uninstall sass<font></font>
 <pre><code>gem install sass --version "3.2.10"<font></font>
 gem install compass --version "0.12.2" <font></font>
 </code></pre></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

@@ -19,7 +19,7 @@ topic: JavaScript
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">谁可以给我解释一下这个？</font><font style="vertical-align: inherit;">这是合法的吗？</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第1512篇《<script type =“ text / template”>…</ script>的说明》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第1512篇《<script type =“ text / template”>…</ script>的说明》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -31,18 +31,14 @@ topic: JavaScript
           </div>
           <div class="discuss-comment"><p>jQuery Templates is an example of something that uses this method to store HTML that will not be rendered directly (that’s the whole point) inside other HTML:
 <a href="http://api.jquery.com/jQuery.template/" rel="nofollow">http://api.jquery.com/jQuery.template/</a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">An</span>
             <span class="discuss-time">2020.03.13</span>
           </div>
           <div class="discuss-comment"><p><code>&lt;script type = “text/template”&gt; … &lt;/script&gt;</code> is obsolete. Use <code>&lt;template&gt;</code> tag instead. </p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">GO</span>
@@ -54,9 +50,7 @@ topic: JavaScript
 
 <pre><code> &lt;textarea style="display:none"&gt;&lt;span&gt;{{name}}&lt;/span&gt;&lt;/textarea&gt;
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">猿Near</span>
@@ -70,9 +64,7 @@ topic: JavaScript
 </font></font><a href="http://documentcloud.github.com/jammit/#jst" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">http://documentcloud.github.com/jammit/#jst</font></font></a></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">默认情况下，Jammit还使用JResig的微模板，但是它也允许您替换模板引擎。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">宝儿猿</span>
@@ -85,9 +77,7 @@ topic: JavaScript
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">对于微型模板，脚本标签的类型为</font></font><code>text/template</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font><font style="vertical-align: inherit;">jQuery创建者John Resig对此进行了很好的解释，网址为</font></font><a href="http://ejohn.org/blog/javascript-micro-templating/"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">http://ejohn.org/blog/javascript-micro-templating/</font></font></a></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

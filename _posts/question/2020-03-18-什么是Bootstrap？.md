@@ -25,7 +25,7 @@ topic: CSS
 </ul></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第1984篇《什么是Bootstrap？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第1984篇《什么是Bootstrap？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -48,9 +48,7 @@ topic: CSS
 </ul>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">资料来源：</font><a href="https://vmokshagroup.com/blog/bootstrap-advantages/" rel="nofollow noreferrer"><font style="vertical-align: inherit;">https</font></a><font style="vertical-align: inherit;"> : </font></font><a href="https://vmokshagroup.com/blog/bootstrap-advantages/" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">//vmokshagroup.com/blog/bootstrap-advantages/</font></font></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">阳光Tom逆天</span>
@@ -93,9 +91,7 @@ topic: CSS
 <p>Another advantage of developing with Bootstrap is its vibrant community, translated into an abundance of themes, templates and plugins available for it, most of which are open-source (i.e: calendars, date/time-pickers, plugins for tabular content management, as well as libraries/component collections built on top of Bootstrap, such as MDB, portfolio templates, admin templates, etc...)</p>
 
 <p>Last, but not least, Bootstrap has been well maintained over the years, which makes it a solid choice for production-ready applications/websites.</p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">神乐西里</span>
@@ -110,18 +106,14 @@ topic: CSS
 <p><a href="https://startbootstrap.com/snippets/" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">startbootstrap.com</font></font></a></p>
 
 <p><a href="https://www.bootdey.com/" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">bootdey.com</font></font></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">飞云西门Tony</span>
             <span class="discuss-time">2020.03.18</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Bootstrap是一个开源CSS，JavaScript框架，最初是由twitter的设计师和开发人员团队为twitter应用程序开发的。</font><font style="vertical-align: inherit;">然后他们将其发布为开源。</font><font style="vertical-align: inherit;">作为Twitter Bootstrap的长期用户，我发现它是设计可移动响应式网站的最佳平台之一。</font><font style="vertical-align: inherit;">许多CSS和Javascript插件可用于立即设计您的网站。</font><font style="vertical-align: inherit;">这是一种快速的模板设计框架。</font><font style="vertical-align: inherit;">有人抱怨引导CSS文件很重，需要花费一些时间来加载，但是这些声明是由懒惰的人提出的。</font><font style="vertical-align: inherit;">您不必将完整的bootstrap.css保留在您的网站中。</font><font style="vertical-align: inherit;">您始终可以选择删除网站不需要的组件样式。</font><font style="vertical-align: inherit;">例如，</font><font style="vertical-align: inherit;">如果您仅使用表单和按钮之类的基本组件，则可以从主CSS文件中删除其他组件，例如手风琴等。</font><font style="vertical-align: inherit;">要开始尝试启动引导程序，您可以从以下位置下载基本模板和组件</font></font><a href="http://getbootstrap.com/getting-started/" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">getbootstrap</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">网站，让魔术发生。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">十三西里GO</span>
@@ -132,18 +124,14 @@ topic: CSS
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">您可能知道我们使用CSS来设置网页元素的样式，并创建类并将类分配给网页元素以将样式应用于它们。</font><font style="vertical-align: inherit;">Bootstrap在这里使设计更加简单，因为我们只需要包括Bootstrap文件，并为我们的网页元素提及Bootstrap的预定义类名，它们将通过Bootstrap自动设置样式。</font><font style="vertical-align: inherit;">通过这种方式，我们无需编写自己的CSS类来设置网页元素的样式。</font><font style="vertical-align: inherit;">最重要的是，Bootstrap的设计方式使您的网站设备具有响应能力，这是其主要目的。</font><font style="vertical-align: inherit;">Bootstrap的其他替代方案可能是</font></font><a href="https://foundation.zurb.com/" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">-Foundation</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，</font></font><a href="http://materializecss.com/" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Materialize</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">等框架。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Bootstrap使您无需编写大量CSS代码，还节省了您在设计网页上花费的时间。 </font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">猿A</span>
             <span class="discuss-time">2020.03.18</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">据我所知，Bootstrap是定义良好的CSS。</font><font style="vertical-align: inherit;">尽管使用Bootstrap也可以使用JavaScript，jQuery等。但是主要区别在于，使用Bootstrap可以仅调用类名，然后在HTML表单上获取输出。</font><font style="vertical-align: inherit;">例如 </font><font style="vertical-align: inherit;">使用布局使文本的按钮着色。</font><font style="vertical-align: inherit;">对于所有这些，您不必编写CSS文件，而只需使用正确的类名来成形HTML表单即可。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">猪猪路易</span>
@@ -170,9 +158,7 @@ topic: CSS
 </blockquote>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">取自</font></font><a href="http://www.queryhome.com/51419/about-bootstrap-framework" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">关于Bootstrap框架</font></font></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">理查德Stafan达蒙</span>
@@ -195,9 +181,7 @@ topic: CSS
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">“ Bootstrap是最流行的HTML，CSS和JS框架，用于在网络上开发响应式，移动优先项目。”</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">“由</font></font><a href="https://twitter.com/mdo" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">@mdo</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">和</font></font><a href="https://twitter.com/fat" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">@fat结合</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">世界上所有的爱进行设计和建造</font><font style="vertical-align: inherit;">。”</font></font></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

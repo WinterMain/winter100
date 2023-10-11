@@ -79,7 +79,7 @@ const routes = [<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我知道我可以在组件内部使用路由器保护逻辑</font></font><code>BeforeRouteEnter</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，但这会使每个组件混乱。</font><font style="vertical-align: inherit;">我想在路由器级别集中定义它。</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第1016篇《定义Vue-Router路由时访问Vuex状态》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第1016篇《定义Vue-Router路由时访问Vuex状态》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -94,9 +94,7 @@ const routes = [<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在App.vue中，我将对存储身份验证详细信息的cookie保持监视。</font><font style="vertical-align: inherit;">（显然，在身份验证之后，我会将包含身份验证详细信息的令牌存储为cookie）</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">现在，只要此Cookie变空，我都会将用户路由到/ login页面。</font><font style="vertical-align: inherit;">注销将删除cookie。</font><font style="vertical-align: inherit;">现在，如果用户注销后回击，则由于cookie不存在（这要求用户登录），因此该用户将被路由到登录页面。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">十万个冷笑话</span>
@@ -112,9 +110,7 @@ const routes = [<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">将位置状态作为Vuex模块进行管理比您想象的要容易。</font><font style="vertical-align: inherit;">如果您想尝试一下，可以使用我的作为起点：</font></font></p>
 
 <p><a href="https://github.com/geekytime/vuex-router" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">https://github.com/geekytime/vuex-router</font></font></a></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

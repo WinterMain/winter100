@@ -61,7 +61,7 @@ topic: JavaScript
 </code></pre></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第779篇《如何使用生命周期方法getDerivedStateFromProps而不是componentWillReceiveProps》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第779篇《如何使用生命周期方法getDerivedStateFromProps而不是componentWillReceiveProps》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -92,9 +92,7 @@ static getDerivedStateFromProps(nextProps, prevState) {<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">任何不影响状态的东西都可以放入</font></font><code>componentDidUpdate</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，甚至还有一个</font></font><code>getSnapshotBeforeUpdate</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">用于底层的东西。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">更新：要了解新的（和旧的）生命周期方法，</font></font><a href="https://github.com/Oblosys/react-lifecycle-visualizer#readme" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">react-lifecycle-visualizer</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">软件包可能会有所帮助。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小小</span>
@@ -124,9 +122,7 @@ class ExampleComponent extends React.Component {<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">查看</font></font><strong><a href="https://reactjs.org/blog/2018/06/07/you-probably-dont-need-derived-state.html#what-about-memoization" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">博客文章的此部分</font></font></a></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">以了解更多信息。</font></font></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

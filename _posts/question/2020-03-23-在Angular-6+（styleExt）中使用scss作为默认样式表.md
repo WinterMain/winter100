@@ -23,7 +23,7 @@ topic: CSS
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这个问题与Angular版本5到6的重大更改密切相关。</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第3013篇《在Angular 6+（styleExt）中使用scss作为默认样式表》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第3013篇《在Angular 6+（styleExt）中使用scss作为默认样式表》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -48,9 +48,7 @@ topic: CSS
     }<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">梅</span>
@@ -75,9 +73,7 @@ topic: CSS
 </blockquote>
 
 <p><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在您的项目中，</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">将</font></font><code>.css</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">文件</font><font style="vertical-align: inherit;">重命名</font><font style="vertical-align: inherit;">为</font></font><code>.scss</code> </p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

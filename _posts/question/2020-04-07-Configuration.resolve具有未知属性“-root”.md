@@ -55,7 +55,7 @@ topic: Webpack
 </code></pre></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第4106篇《Configuration.resolve具有未知属性“ root”》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第4106篇《Configuration.resolve具有未知属性“ root”》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -72,9 +72,7 @@ topic: Webpack
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">配置webpack时，您可能已经遵循了说明。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">不用LINE 8试一试，让我知道问题是否仍然存在，我们可以一起解决。</font></font></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

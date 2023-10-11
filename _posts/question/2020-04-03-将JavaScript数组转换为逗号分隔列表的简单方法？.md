@@ -17,7 +17,7 @@ topic: JavaScript
     <div class="article-content"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我有一个一维的JavaScript字符串数组，我想将其转换为以逗号分隔的列表。</font><font style="vertical-align: inherit;">是否可以使用多种花园的JavaScript（或jQuery）将其转换为以逗号分隔的列表的简单方法？</font><font style="vertical-align: inherit;">（如果这是唯一的方法，我知道如何遍历数组并自己通过串联构建字符串。）</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第3967篇《将JavaScript数组转换为逗号分隔列表的简单方法？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第3967篇《将JavaScript数组转换为逗号分隔列表的简单方法？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -126,9 +126,7 @@ console.log(arr);</code></pre>
 </div>
 </div>
 <p></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">古一</span>
@@ -142,9 +140,7 @@ var str2 = String(arr); // Ditto<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我不知道这是否由JS规范强制执行，但这是什么 </font></font><del><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">最</font></font></del><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> 几乎所有浏览器似乎都在这样做。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">阿飞</span>
@@ -161,9 +157,7 @@ document.write（arr）; </font><font style="vertical-align: inherit;">//在这�
 </pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">调用时，数组的toString方法将完全返回所需的内容-逗号分隔的列表。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">神无前端</span>
@@ -179,9 +173,7 @@ document.write(arr.join(", "));</code></pre>
 </div>
 </div>
 <p></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

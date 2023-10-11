@@ -17,7 +17,7 @@ topic: JavaScript
     <div class="article-content"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我看到了</font></font><a href="https://stackoverflow.com/questions/10230/checking-for-string-contents-string-length-vs-empty-string"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这个问题</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，但是没有看到JavaScript特定的示例。</font></font><code>string.Empty</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">JavaScript中</font><font style="vertical-align: inherit;">是否有一个简单的</font><font style="vertical-align: inherit;">可用工具，还是仅用于检查的情况</font></font><code>""</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">？</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第171篇《如何在JavaScript中检查空/未定义/空字符串？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第171篇《如何在JavaScript中检查空/未定义/空字符串？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -44,9 +44,7 @@ topic: JavaScript
 }</code></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">PS .：</font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">您不需要检查typeof</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，因为它甚至在进入方法之前都会爆炸并抛出。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小宇宙神无</span>
@@ -65,9 +63,7 @@ topic: JavaScript
     return !/[^\s]+/.test(pString);<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小哥Pro梅</span>
@@ -86,9 +82,7 @@ obj.str = null;<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">简洁明了，它适用于未定义的属性，尽管它不是最易读的。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">西门逆天</span>
@@ -103,9 +97,7 @@ obj.str = null;<font></font>
 
 <pre><code>if(!val)...
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">古一L</span>
@@ -115,9 +107,7 @@ obj.str = null;<font></font>
 
 <pre><code>export const isEmpty = string =&gt; (!string || !string.length);
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">十三西里GO</span>
@@ -127,9 +117,7 @@ obj.str = null;<font></font>
 
 <pre><code>str.value.length == 0
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Gil伽罗小宇宙</span>
@@ -145,9 +133,7 @@ function isBlank(s){<font></font>
     return isEmpty(s.trim());    <font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Tony阳光</span>
@@ -165,9 +151,7 @@ if (str &amp;&amp; str.length&gt;0) { <font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">使用此方法，您还可以确保字符串也未定义或为null。</font><font style="vertical-align: inherit;">请记住，未定义，null和empty是三件事。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">阳光神乐</span>
@@ -192,9 +176,7 @@ empty("  "); // true<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"></font><a href="http://jsfiddle.net/YZfGs/" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">jsfiddle</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">示例</font><font style="vertical-align: inherit;">。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">逆天猿理查德</span>
@@ -219,9 +201,7 @@ empty("  "); // true<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">它适用于空字符串和空字符串，并且所有字符串均可访问。</font><font style="vertical-align: inherit;">另外，它可以扩展为包含其他JavaScript空字符或空格字符（即，不间断空格，字节顺序标记，行/段落分隔符等）。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">EvaPro</span>
@@ -233,9 +213,7 @@ empty("  "); // true<font></font>
 
 <pre><code>!/\S/.test(string); // Returns true if blank.
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">null</span>
@@ -247,9 +225,7 @@ empty("  "); // true<font></font>
     // Do something<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Davaid古一</span>
@@ -258,9 +234,7 @@ empty("  "); // true<font></font>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我不会太担心最</font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">有效的</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">方法。</font><font style="vertical-align: inherit;">使用最清楚您意图的内容。</font><font style="vertical-align: inherit;">对我来说通常是</font></font><code>strVar == ""</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">根据</font></font><a href="https://stackoverflow.com/users/20310/constantin"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">康斯坦丁（Constantin）</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">的评论</font><font style="vertical-align: inherit;">，如果strVar最终可以包含一个整数0值，那么这确实是意图明确的情况之一。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">米亚神无</span>
@@ -272,9 +246,7 @@ empty("  "); // true<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">检查是否为空或用空格填充的字符串。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">YOC40565407</span>
@@ -290,9 +262,7 @@ empty("  "); // true<font></font>
 }<font></font>
 </code></pre></li>
 </ol></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Davaid飞羽</span>
@@ -304,9 +274,7 @@ empty("  "); // true<font></font>
     //...<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Tony西门古一</span>
@@ -318,9 +286,7 @@ s.length // 0<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">JavaScript中没有任何内容代表空字符串。</font><font style="vertical-align: inherit;">对照</font></font><code>length</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">（如果您知道var永远是字串）或对照</font></font><code>""</code></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">仲羽蛋蛋</span>
@@ -331,9 +297,7 @@ s.length // 0<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">它涵盖了很多类似的情况下</font></font><code>{}</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，</font></font><code>''</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，</font></font><code>null</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，</font></font><code>undefined</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，等。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">但它总是返回</font></font><code>true</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">的</font></font><code>Number</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">类型的</font></font><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Data_structures" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">JavaScript的基本数据类型</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">一样</font></font><code>_.isEmpty(10)</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">或者</font></font><code>_.isEmpty(Number.MAX_VALUE)</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">两者的回报</font></font><code>true</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">十三SamJim</span>
@@ -363,9 +327,7 @@ empty((function() {<font></font>
     return ""<font></font>
 })) // false<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">蛋蛋LEY</span>
@@ -376,9 +338,7 @@ empty((function() {<font></font>
 <pre><code>if(str.replace(/\s/g,"") == ""){<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Stafan卡卡西</span>
@@ -388,9 +348,7 @@ empty((function() {<font></font>
 
 <pre><code>if (!str.length) { ...
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">JinJin理查德</span>
@@ -413,9 +371,7 @@ empty((function() {<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">两者执行相同的功能。</font><font style="vertical-align: inherit;">将变量类型转换为布尔值，其中</font></font><code>str</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">是变量。</font></font><br><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
 它返回</font></font><code>false</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">了</font></font><code>null,undefined,0,000,"",false</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font><br><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
 返回</font></font><code>true</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">字符串“ 0”和空格“”。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">JinJin伽罗小胖</span>
@@ -441,9 +397,7 @@ empty((function() {<font></font>
     return (this.length === 0 || !this.trim());<font></font>
 };<font></font>
 </code></pre></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

@@ -22,7 +22,7 @@ topic: HTML
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如何使用JavaScript将“ hereismytext”更改为“ newtext”？</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第2810篇《如何在JavaScript中更改span元素的文本》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第2810篇《如何在JavaScript中更改span元素的文本》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -36,9 +36,7 @@ topic: HTML
 
 <pre><code> $("#span_id").text("new_value");
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">猪猪</span>
@@ -64,9 +62,7 @@ span.appendChild(txt);<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">根据</font></font><a href="https://stackoverflow.com/users/2460883/mumush"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">@mumush</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">建议</font><font style="vertical-align: inherit;">修改的第三行代码</font><font style="vertical-align: inherit;">：“改为使用appendChild（）;”。
 </font></font><br><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
 顺便说一句，根据</font></font><a href="https://stackoverflow.com/users/1293622/jimbo-jonny"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">@Jimbo Jonny所说，</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我认为应该通过应用“分层安全性”原则将所有内容都视为用户输入。</font><font style="vertical-align: inherit;">这样，您就不会遇到任何惊喜。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">乐米亚</span>
@@ -82,9 +78,7 @@ span.appendChild(txt);<font></font>
 <pre><code>//POSSIBLY INSECURE IF NEWTEXT BECOMES A VARIABLE!!<font></font>
 document.getElementById("myspan").innerHTML="newtext";<font></font>
 </code></pre></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

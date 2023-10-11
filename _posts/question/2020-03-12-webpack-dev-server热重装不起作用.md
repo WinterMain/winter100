@@ -68,7 +68,7 @@ package.json<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">它可以构建，并且看起来正在运行。</font><font style="vertical-align: inherit;">localhost：8080显示了预期的结果，但是热重载只是不起作用。</font><font style="vertical-align: inherit;">当我更改文件时，我可以在终端中看到正在重建，但是浏览器中什么也没有发生。</font><font style="vertical-align: inherit;">我在配置中缺少什么吗？</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第1323篇《webpack-dev-server热重装不起作用》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第1323篇《webpack-dev-server热重装不起作用》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -84,9 +84,7 @@ package.json<font></font>
 </code></pre>
 
 <p><a href="https://unix.stackexchange.com/questions/444998/how-to-set-and-understand-fs-notify-max-user-watches"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">资源</font></font></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">泡芙达蒙</span>
@@ -118,9 +116,7 @@ package.json<font></font>
   hot: true<font></font>
 },<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">番长GreenL</span>
@@ -134,9 +130,7 @@ package.json<font></font>
 
 <pre><code>webpack-dev-server --content-base src --hot --inline
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">猴子Davaid神乐</span>
@@ -153,18 +147,14 @@ package.json<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">另外，必须阅读：</font><a href="https://medium.com/@rajaraodv/webpacks-hmr-react-hot-loader-the-missing-manual-232336dc0d96#.ejpsmve8f" rel="nofollow noreferrer"><font style="vertical-align: inherit;">https</font></a><font style="vertical-align: inherit;"> : </font></font><a href="https://medium.com/@rajaraodv/webpacks-hmr-react-hot-loader-the-missing-manual-232336dc0d96#.ejpsmve8f" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">//medium.com/@rajaraodv/webpacks-hmr-react-hot-loader-the-missing-manual-232336dc0d96#.ejpsmve8f</font></font></a></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">或尝试热重装3：示例：</font><a href="https://github.com/gaearon/redux-devtools/commit/64f58b7010a1b2a71ad16716eb37ac1031f93915" rel="nofollow noreferrer"><font style="vertical-align: inherit;">https</font></a><font style="vertical-align: inherit;">：</font></font><a href="https://github.com/gaearon/redux-devtools/commit/64f58b7010a1b2a71ad16716eb37ac1031f93915" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">//github.com/gaearon/redux-devtools/commit/64f58b7010a1b2a71ad16716eb37ac1031f93915</font></font></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">村村AL</span>
             <span class="discuss-time">2020.03.12</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Webpack热重装对我也停止了工作。</font><font style="vertical-align: inherit;">对我来说，解决方案是删除</font></font><code>node_modules</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">文件夹并重新安装所有依赖项。</font><font style="vertical-align: inherit;">只需</font></font><code>node_modules</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在终端中</font><font style="vertical-align: inherit;">打开的父文件夹</font><font style="vertical-align: inherit;">并运行</font></font><code>npm install</code></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

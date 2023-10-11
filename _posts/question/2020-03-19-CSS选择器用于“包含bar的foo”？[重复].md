@@ -49,7 +49,7 @@ topic: CSS
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">（我知道我可以使用</font></font><code>$("object param").closest("object")</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">jQuery-和VanillaJS- </font><font style="vertical-align: inherit;">做到这一点，</font></font><code>document.querySelector("object param").closest("object")</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">但是我正在尝试在页面上创建CSS规则。）</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第2353篇《CSS选择器用于“包含bar的foo”？[重复]》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第2353篇《CSS选择器用于“包含bar的foo”？\[重复\]》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -68,9 +68,7 @@ topic: CSS
 <li><a href="https://stackoverflow.com/questions/1251768/css-parent-ancestor-selector"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">CSS父/祖先选择器</font></font></a></li>
 <li><a href="https://stackoverflow.com/questions/45004/complex-css-selector-for-parent-of-active-child"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">活动孩子的父母的复杂CSS选择器</font></font></a></li>
 </ul></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">老丝Jim猴子</span>
@@ -85,9 +83,7 @@ topic: CSS
 
 <pre><code>object.hasparams
 </code></pre></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

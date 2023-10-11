@@ -25,7 +25,7 @@ topic: Node.js
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">哪个是最有利的情况，我该如何实施？</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第2064篇《同一服务器上的Apache和Node.js》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第2064篇《同一服务器上的Apache和Node.js》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -54,9 +54,7 @@ topic: Node.js
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这篇文章大约有一年的历史了，很可能您已经决定了，但是我希望我的助手能帮助下一个正在做出类似决定的人。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">谢谢阅读。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">西门Eva小胖</span>
@@ -91,9 +89,7 @@ topic: Node.js
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">现在，您可以执行节点服务器。</font><font style="vertical-align: inherit;">对的所有请求</font></font><code>URL/node</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">将由节点服务器处理。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">村村LEY</span>
@@ -104,9 +100,7 @@ topic: Node.js
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我通过将端口（正在运行的节点应用）添加到</font></font><code>Allow incoming TCP ports</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">＆</font></font><code>Allow outgoing TCP ports</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">列表中</font><font style="vertical-align: inherit;">解决了此问题</font><font style="vertical-align: inherit;">。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">您可以</font></font><code>Firewall Configurations</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在服务器的WHM面板中</font><font style="vertical-align: inherit;">找到这些配置</font><font style="vertical-align: inherit;">。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">凯斯丁达蒙</span>
@@ -120,9 +114,7 @@ topic: Node.js
 </ol>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我也开始怀疑这可能不是您真正想要的。</font><font style="vertical-align: inherit;">如果您的最终目标是用Node.js编写应用程序逻辑，然后将某些“文件处理”部分卸载给承包商，那么这实际上是一种语言选择，而不是Web服务器。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">蛋蛋飞云</span>
@@ -135,9 +127,7 @@ topic: Node.js
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果要利用性能和扩展性，可以从使用Node.js中获得收益-特别是如果您要使用涉及维护持久性连接（如Web套接字）的东西-最好同时运行Apache和Node。 js在其他端口上（例如localhost：8080上的Apache，localhost：3000上的Node.js），然后在前面运行类似nginx，Varnish或HA代理的内容-并以此方式路由流量。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">使用诸如varnish或nginx之类的东西，您可以基于路径和/或主机来路由流量。</font><font style="vertical-align: inherit;">与使用Apache进行相同的操作相比，它们都使用更少的系统资源，并且具有更大的可伸缩性。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">达蒙神乐</span>
@@ -150,9 +140,7 @@ topic: Node.js
 <li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">当我在httpd-vhosts.conf而不是httpd.conf中进行以上输入时，这对我有用</font></font></li>
 <li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我在我的环境中安装了XAMPP，并希望通过8080端口（即</font><a href="http://localhost/[name_of_the_node_application]" rel="nofollow noreferrer"><font style="vertical-align: inherit;">http：// localhost / [name_of_the_node_application]）</font></a><font style="vertical-align: inherit;">上运行的NodeJS applicatin击打80端口上的Apache上的所有流量。</font></font><a href="http://localhost/[name_of_the_node_application]" rel="nofollow noreferrer"><font style="vertical-align: inherit;"></font></a></li>
 </ul></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

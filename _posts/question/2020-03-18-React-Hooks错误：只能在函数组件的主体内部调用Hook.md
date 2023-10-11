@@ -23,7 +23,7 @@ topic: React.js
 </code></pre></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第2162篇《React Hooks错误：只能在函数组件的主体内部调用Hook》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第2162篇《React Hooks错误：只能在函数组件的主体内部调用Hook》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -57,18 +57,14 @@ topic: React.js
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在上面的示例中，您必须将react的版本从“ foo”提高到16.10.1，以便它与“ bar”中的react版本匹配。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">奖励：</font></font><a href="https://github.com/facebook/react/issues/13991" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">请在GitHub上查看此讨论，</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">以获取在互联网上分载的美丽情感包。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">LEY逆天</span>
             <span class="discuss-time">2020.03.18</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">将package.json react-dom版本更新为react</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">前端Stafan</span>
@@ -82,9 +78,7 @@ topic: React.js
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这种组合效果很好。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">十三西里古一</span>
@@ -95,9 +89,7 @@ topic: React.js
 <p><a href="https://reactjs.org/warnings/invalid-hook-call-warning.html#mismatching-versions-of-react-and-react-dom" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">https://reactjs.org/warnings/invalid-hook-call-warning.html#mismatching-versions-of-react-and-react-dom</font></font></a></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">都升级到@latest（16.8.6）修复了该错误。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Pro阿飞Davaid</span>
@@ -109,9 +101,7 @@ topic: React.js
  </font></font><a href="https://reactjs.org/warnings/invalid-hook-call-warning.html#duplicate-react" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">//reactjs.org/warnings/invalid-hook-call-warning.html#duplicate-react</font></font></a></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">或在您的库中将react设置为peerDependency，然后使用 </font></font><code>npm link --only=production</code></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">EvaMandy</span>
@@ -124,9 +114,7 @@ topic: React.js
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">而我应该一直在做：
 </font></font><code>ReactDOM.render(&lt;Example /&gt;, app);</code></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">逆天小哥蛋蛋</span>
@@ -137,9 +125,7 @@ topic: React.js
 <p><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">5月29日更新</font></font></strong></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">从</font><a href="https://github.com/mobxjs/mobx-react/blob/master/CHANGELOG.md#600" rel="nofollow noreferrer"><font style="vertical-align: inherit;">现在</font></a></font><code>mobx-react</code> <code>6.0.0</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">开始，</font></font><a href="https://github.com/mobxjs/mobx-react/blob/master/CHANGELOG.md#600" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">mobx-react现在支持基于钩子的组件</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，因此不再需要</font></font><code>mobx-react-lite</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">使用（如果那是您的问题）。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">TomGreen</span>
@@ -154,9 +140,7 @@ topic: React.js
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">解决方案功劳：</font><a href="https://github.com/gatsbyjs/gatsby/issues/9489" rel="nofollow noreferrer"><font style="vertical-align: inherit;">https</font></a><font style="vertical-align: inherit;"> : 
  </font></font><a href="https://github.com/gatsbyjs/gatsby/issues/9489" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">//github.com/gatsbyjs/gatsby/issues/9489</font></font></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">村村卡卡西</span>
@@ -167,9 +151,7 @@ topic: React.js
 <p><a href="https://github.com/facebook/react/issues/14262" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在Github上发行</font></font></a></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">通过移除包装进行固定it</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">猿村村</span>
@@ -181,9 +163,7 @@ topic: React.js
 </code></pre>
 
 <p><a href="https://github.com/facebook/react/issues/13972#issuecomment-433178133" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">看到这个问题。</font></font></a> </p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小哥十三</span>
@@ -198,18 +178,14 @@ topic: React.js
 
 <pre><code>&lt;Route component={ComponentUsingHooks} /&gt;
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">GreenJinJin</span>
             <span class="discuss-time">2020.03.18</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我的问题是忘记更新</font></font><code>react-dom</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">模块。</font></font><a href="https://github.com/facebook/react/issues/13972#issuecomment-433178133" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">见问题</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

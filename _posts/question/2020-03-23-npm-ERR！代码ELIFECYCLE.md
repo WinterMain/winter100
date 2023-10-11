@@ -160,7 +160,7 @@ middleware=./disable-browser-cache.js"<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">谢谢你们所有优秀的程序员。</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第2909篇《npm ERR！代码ELIFECYCLE》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第2909篇《npm ERR！代码ELIFECYCLE》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -171,9 +171,7 @@ middleware=./disable-browser-cache.js"<font></font>
             <span class="discuss-time">2020.03.23</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">对我而言，这与NPM软件包无关。</font><font style="vertical-align: inherit;">我的Vuepress项目正在使用</font></font><a href="https://vuepress.vuejs.org/config/#host" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">自定义主机</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">名。</font><font style="vertical-align: inherit;">忽略这个使事情再次起作用。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Near猴子</span>
@@ -182,9 +180,7 @@ middleware=./disable-browser-cache.js"<font></font>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这在ubuntu 16上解决了我</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">1）将npm和node更新到最新版本。</font><font style="vertical-align: inherit;">2）重新启动系统3）删除node_modules，然后再次启动npm i和npm start</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">老丝</span>
@@ -205,18 +201,14 @@ middleware=./disable-browser-cache.js"<font></font>
 <li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果在“ NPM启动”时收到ELIFECYCLE错误，通常是在我已经成功执行“ NPM启动”但又停止了它之后，才再次启动“ NPM启动”。</font></font></li>
 <li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我注意到general.dll.js出现在一些难以理解的日志中</font></font></li>
 </ul></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Davaid樱GO</span>
             <span class="discuss-time">2020.03.23</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我的情况要求全局删除webpack文件夹，然后删除项目node_modules文件夹，package-lock.json并运行npm install，npm start</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">斯丁小宇宙</span>
@@ -235,9 +227,7 @@ middleware=./disable-browser-cache.js"<font></font>
 <p><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">不是但并非最不重要的是重新启动计算机。</font></font></strong></p>
 
 <p><a href="https://i.stack.imgur.com/0SqzV.png" rel="nofollow noreferrer"><img src="https://i.stack.imgur.com/0SqzV.png" alt="在此处输入图片说明"></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Mandy村村</span>
@@ -250,9 +240,7 @@ middleware=./disable-browser-cache.js"<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">您可以终止该端口的进程：</font></font></p>
 
 <p><code>lsof -ti:8080 | xargs kill</code></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Pro小哥</span>
@@ -265,9 +253,7 @@ middleware=./disable-browser-cache.js"<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">2）。</font><font style="vertical-align: inherit;">运行</font></font><code>npm install</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">命令。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">3）。</font><font style="vertical-align: inherit;">运行</font></font><code>npm audit fix</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">命令。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小哥梅</span>
@@ -280,18 +266,14 @@ middleware=./disable-browser-cache.js"<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">然后</font></font><code>npm i</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，它会在</font><font style="vertical-align: inherit;">任何时候开始安装GCX东西</font><font style="vertical-align: inherit;">，而以前这是不必要的。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我将我的等级降为</font></font><code>node</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">8，而且效果很好！</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">A番长</span>
             <span class="discuss-time">2020.03.23</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">就我而言，我签出了另一个分支，上面有一个新的库。</font><font style="vertical-align: inherit;">我仅通过运行</font></font><code>npm install</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">而不执行其他任何操作来</font><font style="vertical-align: inherit;">解决我的问题</font><font style="vertical-align: inherit;">。</font><font style="vertical-align: inherit;">我很困惑，为什么</font></font><code>ELIFECYCLE</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在不使用端口时出现错误，但这一定是因为我没有安装库。</font><font style="vertical-align: inherit;">因此，您可能不必删除</font></font><code>node_modules</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">即可解决此问题。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小胖Gil</span>
@@ -301,9 +283,7 @@ middleware=./disable-browser-cache.js"<font></font>
 
 <pre><code># chown -R &lt;user&gt;: node_modules
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">飞云乐</span>
@@ -321,18 +301,14 @@ npm start<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">可以，不要将项目文件夹放在</font></font><code>C:\</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">（或包含Windows操作系统的其他驱动程序）的目录中。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Near小哥西门</span>
             <span class="discuss-time">2020.03.23</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我正在发出npm start命令，并在Sublime Text中打开了项目的文件夹。</font><font style="vertical-align: inherit;">关闭ST并重新启动服务器为我完成了工作。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">番长猴子</span>
@@ -353,9 +329,7 @@ npm ERR! errno 1<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">参见</font></font><a href="https://github.com/facebook/create-react-app/issues/3657" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">CRA问题＃3657</font></font></a></p>
 
 <p><sup><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">（羞愧地承认这只是我的事；直到同事指出这一点才看到。感谢Pascal！）</font></font></sup></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">飞云JinJin</span>
@@ -369,9 +343,7 @@ npm ERR! errno 1<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这将下载并安装提到的NodeJS版本。</font><font style="vertical-align: inherit;">这对我有用。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Stafan路易</span>
@@ -388,9 +360,7 @@ npm ERR! errno 1<font></font>
 <li><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">删除&nbsp; </font></font><code>package-lock.json</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">&nbsp;文件</font></font></p></li>
 <li><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">重新启动我的WebStorm</font></font></p></li>
 </ol></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">LGil</span>
@@ -400,9 +370,7 @@ npm ERR! errno 1<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">为我工作。</font><font style="vertical-align: inherit;">请参阅</font></font><a href="https://docs.npmjs.com/misc/config#unsafe-perm" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">https://docs.npmjs.com/</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font><font style="vertical-align: inherit;">该</font></font><code>--unsafe-perm</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">参数允许您以root身份从软件包安装中运行脚本。</font><font style="vertical-align: inherit;">在我的情况下，问题是某些副机无法安装。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">蛋蛋</span>
@@ -416,9 +384,7 @@ npm ERR! errno 1<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">但是对我来说，它不起作用。</font><font style="vertical-align: inherit;">我只是重新启动机器，并且它运行正常。
 </font></font><br><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
 是Linux用户，机器HP。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">十三</span>
@@ -437,9 +403,7 @@ at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:102:10)<font></font>
 npm ERR! code ELIFECYCLE<font></font>
 npm ERR! errno 1<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">乐米亚</span>
@@ -460,18 +424,14 @@ npm ERR! errno 1<font></font>
 <li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">npm安装</font></font></li>
 <li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">npm开始</font></font></li>
 </ol></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小胖Gil</span>
             <span class="discuss-time">2020.03.23</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">尝试全局重新安装cli软件包。</font><font style="vertical-align: inherit;">就我而言，当我收到相同的错误消息时，我正在尝试测试Vue.js教程。</font><font style="vertical-align: inherit;">我做的另一件事是再次运行vue命令，但是这次使用webpack-simple，这就是为什么我不确定哪一个可以解决问题，但是现在它可以工作了。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">阿飞</span>
@@ -480,9 +440,7 @@ npm ERR! errno 1<font></font>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">此解决方案修复了Win10中的错误。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">请在全球安装  </font></font><code>npm install -g node-pre-gyp</code></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Tony凯</span>
@@ -501,9 +459,7 @@ npm ERR! errno 1<font></font>
 </ul>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">希望这对某人有帮助。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">宝儿理查德</span>
@@ -515,9 +471,7 @@ npm ERR! errno 1<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">来源：</font></font><a href="https://github.com/mapbox/node-pre-gyp/issues/298" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">https</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> : </font><a href="https://github.com/mapbox/node-pre-gyp/issues/298" rel="noreferrer"><font style="vertical-align: inherit;">//github.com/mapbox/node-pre-gyp/issues/298</font></a><font style="vertical-align: inherit;">（floriantraber）</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">梅</span>
@@ -527,9 +481,7 @@ npm ERR! errno 1<font></font>
 
 <pre><code>rm -rf node_modules &amp;&amp; rm ./package-lock.json &amp;&amp; npm install
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">樱伽罗</span>
@@ -547,9 +499,7 @@ npm ERR! errno 1<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这对我有用。</font><font style="vertical-align: inherit;">希望它也对您有用。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">PS：如果仍然存在，请检查以红色显示的错误并采取相应措施。</font><font style="vertical-align: inherit;">此错误特定于node.js环境。</font><font style="vertical-align: inherit;">快乐编码！</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">十三</span>
@@ -569,9 +519,7 @@ npm ERR! errno 1<font></font>
 
 <pre><code>npm install
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">DavaidTony宝儿</span>
@@ -581,9 +529,7 @@ npm ERR! errno 1<font></font>
 
 <pre><code>chmod -R a+rwx ./node_modules 
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">GilStafan</span>
@@ -599,9 +545,7 @@ npm ERR! errno 1<font></font>
 </ul>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这样对我有用。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小卤蛋</span>
@@ -610,9 +554,7 @@ npm ERR! errno 1<font></font>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"></font><code>npm run build</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在使用</font></font><code>create-react-app</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">（</font></font><a href="https://github.com/facebookincubator/create-react-app" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">link</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">）</font><font style="vertical-align: inherit;">制作的应用程序上</font><font style="vertical-align: inherit;">运行时，</font><font style="vertical-align: inherit;">在</font><font style="vertical-align: inherit;">带有DigitalOcean的16.04 Ubuntu实例上，我得到了类似的错误消息</font><font style="vertical-align: inherit;">。</font><font style="vertical-align: inherit;">我将实例从512MB RAM升级到1GB（从$ 5 / mo到$ 10 / mo），然后脚本可以运行。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我在此处发布此消息是为了指出由于资源限制，您可能会收到此错误，我在问题页面和SO答案的其他地方并没有真正看到它的解释。</font><font style="vertical-align: inherit;">而且我在错误日志中没有看到任何指向我的方向。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">西里神奇</span>
@@ -631,9 +573,7 @@ npm ERR! errno 1<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这似乎已经解决了问题。 </font></font></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

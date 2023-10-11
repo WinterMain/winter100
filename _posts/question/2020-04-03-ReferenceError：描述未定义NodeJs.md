@@ -83,7 +83,7 @@ ReferenceError：描述未定义</font></font><font></font><font style="vertical
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我该如何解决该问题？</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第3893篇《ReferenceError：描述未定义NodeJs》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第3893篇《ReferenceError：描述未定义NodeJs》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -96,9 +96,7 @@ ReferenceError：描述未定义</font></font><font></font><font style="vertical
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">假设您通过进行测试</font></font><a href="http://mochajs.org/"><code>mocha</code></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，则必须使用</font></font><code>mocha</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">命令而不是</font></font><code>node</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">可执行文件</font><font style="vertical-align: inherit;">运行测试</font><font style="vertical-align: inherit;">。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">因此，如果您还没有这样做，请确保您已这样做</font></font><code>npm install mocha -g</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font><font style="vertical-align: inherit;">然后，只需</font></font><code>mocha</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在项目的根目录中运行即可。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">老丝阿飞</span>
@@ -128,18 +126,14 @@ ReferenceError：描述未定义</font></font><font></font><font style="vertical
       "internalConsoleOptions": "openOnSessionStart"<font></font>
 },<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">LGil</span>
             <span class="discuss-time">2020.04.03</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">使用“ --ui tdd”时出现此错误。</font><font style="vertical-align: inherit;">删除此问题或使用“ --ui bdd”修复问题。</font></font></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

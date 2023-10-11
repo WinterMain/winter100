@@ -48,7 +48,7 @@ topic: CSS
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这是实现的jsfiddle，表明它不起作用：</font><a href="http://jsfiddle.net/gZXWC/" rel="noreferrer"><font style="vertical-align: inherit;">http</font></a><font style="vertical-align: inherit;"> : </font></font><a href="http://jsfiddle.net/gZXWC/" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">//jsfiddle.net/gZXWC/</font></font></a></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第3687篇《为什么vertical-align：middle在我的span或div上不起作用？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第3687篇《为什么vertical-align：middle在我的span或div上不起作用？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -79,9 +79,7 @@ topic: CSS
     margin: auto;<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">番长樱梅</span>
@@ -97,9 +95,7 @@ topic: CSS
 &lt;/table&gt;<font></font>
 &lt;/div&gt;<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">樱小胖Mandy</span>
@@ -115,9 +111,7 @@ topic: CSS
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">笨拙，但据我所知可以正常工作。</font><font style="vertical-align: inherit;">它可能没有其他解决方法的缺点。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">神奇Mandy</span>
@@ -142,9 +136,7 @@ topic: CSS
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我们将父div设置为显示为表格，将子div设置为显示为表格单元格。</font><font style="vertical-align: inherit;">然后，我们可以在子div上使用vertical-align并将其值设置为middle。</font><font style="vertical-align: inherit;">此子div内的所有内容都将垂直居中。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">西门</span>
@@ -180,9 +172,7 @@ topic: CSS
    height: 100px;<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小哥小卤蛋Tony</span>
@@ -234,9 +224,7 @@ topic: CSS
 <li><p><code>space-between</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，这将从流的开始到流的结束散布所有子级。</font><font style="vertical-align: inherit;">如果是演示，我添加了另一个子div，以表明它们已分散。</font></font></p></li>
 <li><p><code>space-around</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，类似于</font></font><code>space-between</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，但</font><font style="vertical-align: inherit;">在流程的开始和结束处</font><font style="vertical-align: inherit;">只有</font></font><em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">一半</font></font></em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">的空间。</font></font></p></li>
 </ul></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Green小哥番长</span>
@@ -253,9 +241,7 @@ topic: CSS
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">看看这个</font></font><a href="http://jsfiddle.net/gZXWC/484/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">jsfiddle</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">！</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">乐</span>
@@ -278,9 +264,7 @@ topic: CSS
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">因此，您需要纠正此问题，将内容的大小向左和向左平移一半。</font></font></p>
 
 <p><a href="https://i.stack.imgur.com/p63HE.png" rel="noreferrer"><img src="https://i.stack.imgur.com/p63HE.png" alt="绝对居中"></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Stafan</span>
@@ -314,9 +298,7 @@ div.inner {<font></font>
 </div>
 </div>
 <p></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">老丝Stafan</span>
@@ -341,9 +323,7 @@ div.inner {<font></font>
 </div>
 </div>
 <p></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">乐伽罗</span>
@@ -371,9 +351,7 @@ display:box;<font></font>
 box-pack:center;<font></font>
 box-align:center;<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">猪猪</span>
@@ -402,9 +380,7 @@ box-align:center;<font></font>
 </code></pre>
 
 <p><a href="http://jsfiddle.net/br090prs/" rel="noreferrer" title="小提琴">Fiddle</a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">StafanMandy</span>
@@ -427,9 +403,7 @@ box-align:center;<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">注意：这可能不适用于旧版IE</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">猴子路易Davaid</span>
@@ -444,9 +418,7 @@ box-align:center;<font></font>
     border: 1px solid #000000;<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">老丝</span>
@@ -486,9 +458,7 @@ box-align:center;<font></font>
     &lt;div class="inner"&gt; This &lt;/div&gt;<font></font>
 &lt;/div&gt;<font></font>
 </code></pre></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

@@ -25,7 +25,7 @@ topic: JavaScript
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">您可以在JavaScript中做同样的事情吗？</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第157篇《遍历JavaScript中的数组》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第157篇《遍历JavaScript中的数组》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -50,9 +50,7 @@ arr</span><span class="pun">.</span><span class="pln">map</span><span class="pun
 </span><span class="pun">});</span></code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">或前面提到的jquery或for循环方式。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">猪猪JinJin西里</span>
@@ -67,9 +65,7 @@ arr</span><span class="pun">.</span><span class="pln">map</span><span class="pun
 </span><span class="pun">}</span></code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在浏览器控制台中，您可以看到类似“ element1”，“ element2”等的内容。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Itachi伽罗</span>
@@ -81,9 +77,7 @@ arr</span><span class="pun">.</span><span class="pln">map</span><span class="pun
 </span><span class="pun">}</span></code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">干净很多...</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">阿飞Pro</span>
@@ -94,9 +88,7 @@ arr</span><span class="pun">.</span><span class="pln">map</span><span class="pun
 <pre class="lang-js prettyprint prettyprinted" style=""><code><span class="pln"> $</span><span class="pun">.</span><span class="pln">each</span><span class="pun">([</span><span class="pln"> </span><span class="lit">52</span><span class="pun">,</span><span class="pln"> </span><span class="lit">97</span><span class="pln"> </span><span class="pun">],</span><span class="pln"> </span><span class="kwd">function</span><span class="pun">(</span><span class="pln"> index</span><span class="pun">,</span><span class="pln"> value </span><span class="pun">)</span><span class="pln"> </span><span class="pun">{</span><span class="pln">
       alert</span><span class="pun">(</span><span class="pln"> index </span><span class="pun">+</span><span class="pln"> </span><span class="str">": "</span><span class="pln"> </span><span class="pun">+</span><span class="pln"> value </span><span class="pun">);</span><span class="pln">
  </span><span class="pun">});</span></code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Tony伽罗米亚</span>
@@ -123,9 +115,7 @@ arr</span><span class="pun">.</span><span class="pln">map</span><span class="pun
 </span><span class="kwd">while</span><span class="pun">(</span><span class="pln">i</span><span class="pun">--)</span><span class="pln"> </span><span class="pun">{</span><span class="pln">
    </span><span class="com">// do something with fruits[i]</span><span class="pln">
 </span><span class="pun">}</span></code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Tom老丝Pro</span>
@@ -162,9 +152,7 @@ alert</span><span class="pun">(</span><span class="pln">i</span><span class="pun
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">一个有效的jsFiddle示例：</font><a href="https://jsfiddle.net/workingClassHacker/pxpv2dh5/7/" rel="nofollow noreferrer" data-bitapp="processed"><font style="vertical-align: inherit;">https</font></a><font style="vertical-align: inherit;"> ://jsfiddle.net/workingClassHacker/pxpv2dh5/7/
 </font></font><a href="https://jsfiddle.net/workingClassHacker/pxpv2dh5/7/" rel="nofollow noreferrer" data-bitapp="processed"><font style="vertical-align: inherit;"></font></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Itachi凯</span>
@@ -215,9 +203,7 @@ alert</span><span class="pun">(</span><span class="pln">i</span><span class="pun
 <pre class="lang-js prettyprint prettyprinted" style=""><code><span class="pun">&lt;</span><span class="pln">a href</span><span class="pun">=</span><span class="str">"http://jsperf.com/native-loop-performance/16"</span><span class="pln"> 
    title</span><span class="pun">=</span><span class="str">"http://jsperf.com/native-loop-performance/16"</span><span class="pln">
 </span><span class="pun">&gt;&lt;</span><span class="pln">img src</span><span class="pun">=</span><span class="str">"http://i.imgur.com/YTrO68E.png"</span><span class="pln"> title</span><span class="pun">=</span><span class="str">"Hosted by imgur.com"</span><span class="pln"> </span><span class="pun">/&gt;&lt;/</span><span class="pln">a</span><span class="pun">&gt;</span></code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">樱猪猪</span>
@@ -255,9 +241,7 @@ $</span><span class="pun">.</span><span class="pln">each</span><span class="pun"
 <div class="snippet-result"><div class="snippet-ctas"><button type="button" class="s-btn s-btn__primary"><span class="icon-play-white _hover"></span><span><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> 运行代码段</font></font></span></button><input class="copySnippet s-btn s-btn__filled" type="button" value="Copy snippet to answer" style="display: none;"><button type="button" class="s-btn hideResults" style="display: none;">Hide results</button><div class="popout-code"><a class="snippet-expand-link" data-bitapp="processed"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">展开摘要</font></font></a></div></div><div class="snippet-result-code" style="display: none;"><iframe name="sif9" sandbox="allow-forms allow-modals allow-scripts" class="snippet-box-edit" frameborder="0"></iframe></div></div></div>
 </div>
 <p></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小宇宙Near</span>
@@ -274,9 +258,7 @@ $</span><span class="pun">.</span><span class="pln">each</span><span class="pun"
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在JavaScript中，可以将任何自定义属性分配给任何对象，包括数组。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果想遍历数组疏林，</font></font><code>for (var i = 0; i &lt; array.length; i++) if (i in array)</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">或</font></font><code>array.forEach</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">与</font></font><code>es5shim</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">要使用。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">猿伽罗</span>
@@ -297,9 +279,7 @@ $</span><span class="pun">.</span><span class="pln">each</span><span class="pun"
   <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">该</font></font><code>$.each()</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">函数与</font></font><code>$(selector).each()</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，专门用于在jQuery对象上进行迭代的函数不同。</font><font style="vertical-align: inherit;">该</font></font><code>$.each()</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
   函数可用于遍历任何集合，无论它是映射（JavaScript对象）还是数组。</font><font style="vertical-align: inherit;">对于数组，每次回调都会传递一个数组索引和一个对应的数组值。</font><font style="vertical-align: inherit;">（也可以通过</font></font><code>this</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">关键字</font><font style="vertical-align: inherit;">访问该值</font><font style="vertical-align: inherit;">，但是</font><font style="vertical-align: inherit;">即使它是简单的字符串或数字值</font><font style="vertical-align: inherit;">，Javascript也会始终将其包装</font></font><code>this</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">为一个</font></font><code>Object</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">整数。）该方法返回其第一个参数，即被迭代的对象。</font></font></p>
 </blockquote></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">木心</span>
@@ -311,9 +291,7 @@ $</span><span class="pun">.</span><span class="pln">each</span><span class="pun"
 
 <pre class="lang-js prettyprint prettyprinted" style=""><code><span class="pln">_</span><span class="pun">.</span><span class="pln">each</span><span class="pun">([</span><span class="lit">1</span><span class="pun">,</span><span class="pln"> </span><span class="lit">2</span><span class="pun">,</span><span class="pln"> </span><span class="lit">3</span><span class="pun">],</span><span class="pln"> </span><span class="kwd">function</span><span class="pun">(</span><span class="pln">num</span><span class="pun">){</span><span class="pln"> alert</span><span class="pun">(</span><span class="pln">num</span><span class="pun">);</span><span class="pln"> </span><span class="pun">});</span><span class="pln">
 </span><span class="pun">=&gt;</span><span class="pln"> alerts each number in turn</span><span class="pun">...</span></code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">宝儿猪猪西门</span>
@@ -332,9 +310,7 @@ $</span><span class="pun">.</span><span class="pln">each</span><span class="pun"
     </span><span class="kwd">var</span><span class="pln"> propValue </span><span class="pun">=</span><span class="pln"> obj</span><span class="pun">[</span><span class="pln">prop</span><span class="pun">];</span><span class="pln">
     console</span><span class="pun">.</span><span class="pln">log</span><span class="pun">(</span><span class="pln">propValue</span><span class="pun">);</span><span class="pln">
 </span><span class="pun">}</span></code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Harry小宇宙</span>
@@ -362,9 +338,7 @@ $</span><span class="pun">.</span><span class="pln">each</span><span class="pun"
 </span><span class="pun">});</span></code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">请查看</font></font><a href="https://stackoverflow.com/questions/3943494/how-to-loop-through-array-in-jquery" data-bitapp="processed"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">此</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">以获取详细信息，或者您也可以检查</font></font><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/for...in" rel="nofollow noreferrer" data-bitapp="processed"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">MDN</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">以遍历JavaScript中的数组，并使用jQuery检查</font></font><a href="http://api.jquery.com/jquery.each/" rel="nofollow noreferrer" data-bitapp="processed"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">每个的jQuery</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">null</span>
@@ -379,9 +353,7 @@ $</span><span class="pun">.</span><span class="pln">each</span><span class="pun"
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这具有缓存的长度（类似于的利益</font></font><code>for (var i=0, len=myArray.length; i&lt;len; ++i)</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">而不像</font></font><code>for (var i=0; i&lt;myArray.length; ++i)</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">），同时更少的字符键入。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">有时甚至需要反向迭代，例如在</font></font><a href="https://developer.mozilla.org/En/DOM/NodeList#A_.22live.22_collection" data-bitapp="processed"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">活动的NodeList</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">上</font><font style="vertical-align: inherit;">迭代时</font><font style="vertical-align: inherit;">，您计划在迭代过程中从DOM中删除项目。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">不知</span>
@@ -392,9 +364,7 @@ $</span><span class="pun">.</span><span class="pln">each</span><span class="pun"
 <pre class="lang-js prettyprint prettyprinted" style=""><code><span class="kwd">for</span><span class="pun">(</span><span class="kwd">var</span><span class="pln"> i</span><span class="pun">=</span><span class="lit">0</span><span class="pun">,</span><span class="pln"> len</span><span class="pun">=</span><span class="pln">myArray</span><span class="pun">.</span><span class="pln">length</span><span class="pun">;</span><span class="pln"> i </span><span class="pun">&lt;</span><span class="pln"> len</span><span class="pun">;</span><span class="pln"> i</span><span class="pun">++){}</span></code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">它还进行了优化（“缓存”阵列长度）。</font><font style="vertical-align: inherit;">如果您想了解更多信息，请</font></font><a href="http://blog.sebarmeli.com/2010/12/06/best-way-to-loop-through-an-array-in-javascript/" rel="noreferrer" data-bitapp="processed"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">阅读我关于该主题的文章</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Eva阿飞</span>
@@ -431,9 +401,7 @@ new_list </span><span class="pun">=</span><span class="pln"> my_list</span><span
 <pre class="lang-js prettyprint prettyprinted" style=""><code><span class="pln"> </span><span class="kwd">for</span><span class="pln"> </span><span class="pun">(</span><span class="pln">item in my_list</span><span class="pun">)</span><span class="pln"> </span><span class="pun">{</span><span class="pln">item_processor</span><span class="pun">(</span><span class="pln">item</span><span class="pun">);}</span></code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">除非你不明白</font></font><code>new_list</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

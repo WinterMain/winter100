@@ -48,7 +48,7 @@ Router.run(routes, Router.HistoryLocation, function (Handler) {<font></font>
 </code></pre></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第319篇《手动刷新或编写时，React-router网址不起作用》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第319篇《手动刷新或编写时，React-router网址不起作用》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -99,9 +99,7 @@ Router.run(routes, Router.HistoryLocation, function (Handler) {<font></font>
   }<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">达蒙小胖</span>
@@ -120,9 +118,7 @@ Router.run(routes, Router.HistoryLocation, function (Handler) {<font></font>
 经过测试，只想分享。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">希望能帮助到你。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Tony达蒙</span>
@@ -169,9 +165,7 @@ render (&lt;App /&gt;, window.document.getElementById("app"));<font></font>
 <a href="https://i.stack.imgur.com/12o6e.png" rel="nofollow noreferrer"><img src="https://i.stack.imgur.com/12o6e.png" alt="在此处输入图片说明"></a></p>
 
 <p>I hope it helps. :-)</p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">SamJim</span>
@@ -212,9 +206,7 @@ render (&lt;App /&gt;, window.document.getElementById("app"));<font></font>
                 defaults: new { controller = "Home", action = "Index" });<font></font>
         });<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">乐米亚</span>
@@ -245,9 +237,7 @@ else{<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">现在，您可以请求/？joblist，而不是在url上调用/ joblist，组件将自动将请求重定向到/ joblist（请注意路径中的额外问号）</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小哥达蒙</span>
@@ -290,9 +280,7 @@ else{<font></font>
 </ul>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">就是这样，不再需要魔术：)</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">村村番长前端</span>
@@ -311,9 +299,7 @@ else{<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">您可以对其他任何服务器进行类似的配置</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">A十三</span>
@@ -342,9 +328,7 @@ else{<font></font>
 <p><a href="https://firebase.google.com/docs/hosting/full-config#rewrites" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">https://firebase.google.com/docs/hosting/full-config#rewrites</font></font></a></p>
 
 <p><a href="https://stackoverflow.com/questions/37667626/firebase-cli-configure-as-a-single-page-app-rewrite-all-urls-to-index-html"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Firebase CLI：“配置为单页应用程序（将所有URL重写为/index.html）”</font></font></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">A小卤蛋Pro</span>
@@ -362,9 +346,7 @@ else{<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">麻烦的是我曾经用来</font></font><code>props.params.id</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">设置模型</font></font><code>componentDidMount</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font><font style="vertical-align: inherit;">该组件仅安装一次，因此这意味着第一个模型是粘贴在页面上的模型，随后的链接会更改道具，但页面看起来没有变化。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">将模型同时设置为组件状态</font></font><code>componentDidMount</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">和</font></font><code>componentWillReceiveProps</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">基于</font><font style="vertical-align: inherit;">组件的状态</font><font style="vertical-align: inherit;">（此处基于下一个道具）将解决该问题，并且页面内容会更改以反映所需的模型。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">猪猪路易</span>
@@ -386,9 +368,7 @@ else{<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">来源：</font><a href="https://gist.github.com/alexsasharegan/173878f9d67055bfef63449fa7136042" rel="nofollow noreferrer"><font style="vertical-align: inherit;">https</font></a><font style="vertical-align: inherit;"> : </font></font><a href="https://gist.github.com/alexsasharegan/173878f9d67055bfef63449fa7136042" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">//gist.github.com/alexsasharegan/173878f9d67055bfef63449fa7136042</font></font></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小欧学姐</span>
@@ -402,9 +382,7 @@ else{<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这可能因项目而异。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">达蒙阿飞斯丁</span>
@@ -424,9 +402,7 @@ else{<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这将告诉IIS服务器将主页返回到客户端，而不是404错误，并且不需要使用哈希历史记录。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Jim小哥GO</span>
@@ -441,9 +417,7 @@ RewriteRule ^ - [L]<font></font>
 <font></font>
 RewriteRule ^ /index.html [L]  <font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">米亚JinJin樱</span>
@@ -457,9 +431,7 @@ RewriteRule ^ /index.html [L]  <font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">现在，当输入浏览器或有人刷新时，我的网站可以正确呈现诸如mysite.com/pricing之类的路径。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Tony阳光</span>
@@ -471,9 +443,7 @@ RewriteRule ^ /index.html [L]  <font></font>
     historyApiFallback: true<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Mandy逆天</span>
@@ -486,9 +456,7 @@ RewriteRule ^ /index.html [L]  <font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">解决方案是设置分发错误页面规则。</font><font style="vertical-align: inherit;">转到CloudFront设置，然后选择您的分配。</font><font style="vertical-align: inherit;">接下来转到“错误页面”标签。</font><font style="vertical-align: inherit;">单击“创建自定义错误响应”并添加403的条目，因为这是我们得到的错误状态代码。</font><font style="vertical-align: inherit;">将“响应页面路径”设置为/index.html并将状态码设置为200。最终结果以其简单性令我惊讶。</font><font style="vertical-align: inherit;">提供了索引页，但URL保留在浏览器中，因此，一旦React应用加载，它将检测URL路径并导航到所需的路由。</font></font></p>
 
 <p><a href="https://i.stack.imgur.com/Pafj4.png" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">错误页面403规则</font></font></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">ProTom</span>
@@ -497,9 +465,7 @@ RewriteRule ^ /index.html [L]  <font></font>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Webpack Dev Server具有启用此功能的选项。</font><font style="vertical-align: inherit;">打开</font></font><code>package.json</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">并添加</font></font><code>--history-api-fallback</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font><font style="vertical-align: inherit;">该解决方案为我工作。</font></font></p>
 
 <p><a href="https://github.com/reactjs/react-router-tutorial/tree/master/lessons/10-clean-urls#configuring-your-server" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">反应路由器教程</font></font></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">十三蛋蛋</span>
@@ -577,9 +543,7 @@ sudo a2ensite sample.conf<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果对此有任何疑问，请随时提出评论。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">希望对其他人有帮助。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">TonyPro</span>
@@ -603,9 +567,7 @@ RewriteRule ^ index.html [QSA,L]<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这似乎也是Facebook自己建议的解决方案，可以在</font><a href="https://facebook.github.io/create-react-app/docs/deployment#serving-apps-with-client-side-routing" rel="noreferrer"><font style="vertical-align: inherit;">这里</font></a><font style="vertical-align: inherit;">找到</font></font><a href="https://facebook.github.io/create-react-app/docs/deployment#serving-apps-with-client-side-routing" rel="noreferrer"><font style="vertical-align: inherit;"></font></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">理查德理查德</span>
@@ -623,9 +585,7 @@ RewriteRule ^ index.html [QSA,L]<font></font>
 </code></pre>
 
 <p><code>--history-api-fallback</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> 是重要的部分</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Itachi小哥</span>
@@ -646,9 +606,7 @@ RewriteRule ^ index.html [QSA,L]<font></font>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我正在使用</font></font><code>react: "^16.12.0"</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">并且</font></font><code>react-router: "^5.1.2"</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
 此方法是万能的，并且可能是入门的最简单方法。</font></font></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

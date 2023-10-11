@@ -31,7 +31,7 @@ topic: Webpack
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">提前致谢  </font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第3373篇《使VS代码读取webpack.config并使用别名识别路径？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第3373篇《使VS代码读取webpack.config并使用别名识别路径？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -65,9 +65,7 @@ topic: Webpack
 <p>Configure this <a href="https://github.com/ChristianKohler/PathIntellisense#mappings" rel="nofollow noreferrer">setting</a> in my VSCode setting file.</p>
 
 <p>Now VSCode could recognize the path with the alias.</p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">十三Sam</span>
@@ -92,9 +90,7 @@ topic: Webpack
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">请参阅</font></font><a href="https://github.com/Microsoft/TypeScript-Handbook/blob/master/pages/Module%20Resolution.md#path-mapping" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">路径映射文档</font></font></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">null</span>
@@ -109,9 +105,7 @@ topic: Webpack
     }<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

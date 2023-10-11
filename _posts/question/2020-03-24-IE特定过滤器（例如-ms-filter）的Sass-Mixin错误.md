@@ -46,7 +46,7 @@ topic: CSS
 </code></pre></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第3535篇《IE特定过滤器（例如-ms-filter）的Sass Mixin错误》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第3535篇《IE特定过滤器（例如-ms-filter）的Sass Mixin错误》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -64,9 +64,7 @@ topic: CSS
 </code></pre>
 
 <p>Check out the <a href="http://sass-lang.com/docs/yardoc/file.SASS_REFERENCE.html#mixins" rel="nofollow noreferrer">SASS Reference</a>, though the examples are in SCSS rather than <a href="http://sass-lang.com/docs/yardoc/file.INDENTED_SYNTAX.html" rel="nofollow noreferrer">SASS indented style</a>. Full <a href="http://sass-lang.com/docs/yardoc/_index.html" rel="nofollow noreferrer">index of the SASS documentation</a>.</p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">达蒙</span>
@@ -89,9 +87,7 @@ topic: CSS
 <li><a href="http://sass-lang.com/docs/yardoc/file.SASS_CHANGELOG.html"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">SASS变更日志</font></font></a></li>
 <li><a href="http://sass-lang.com/docs/yardoc/Sass/Script/Functions.html"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">SASS功能</font></font></a></li>
 </ul></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

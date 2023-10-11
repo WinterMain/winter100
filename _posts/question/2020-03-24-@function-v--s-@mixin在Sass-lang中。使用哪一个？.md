@@ -19,7 +19,7 @@ topic: CSS
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">与@funcion相比，使用@mixin有什么优势吗？反之亦然。</font><font style="vertical-align: inherit;">在什么情况下它们会有所不同，如何互换使用它们，请提供示例。</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第3438篇《@function v / s @mixin在Sass-lang中。使用哪一个？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第3438篇《\`function v / s \`mixin在Sass-lang中。使用哪一个？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -59,9 +59,7 @@ topic: CSS
     @include longshadow(darken($color, 5% ));<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

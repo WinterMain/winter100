@@ -42,7 +42,7 @@ clonedNodesArray[0].value = "green"<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">你会怎么做？</font><font style="vertical-align: inherit;">这是什至不应该做的事情吗？</font><font style="vertical-align: inherit;">有没有一种可重用的方式来做到这一点在Javascript中？</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第1859篇《您如何在Javascript中克隆对象数组？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第1859篇《您如何在Javascript中克隆对象数组？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -71,9 +71,7 @@ console.log("withOutDeepClone----"+myObj.a);</code></pre>
 </div>
 </div>
 <p></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">乐卡卡西卡卡西</span>
@@ -87,9 +85,7 @@ console.log("withOutDeepClone----"+myObj.a);</code></pre>
 
 <pre><code>var x = babel({}, obj)
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Pro小宇宙</span>
@@ -100,9 +96,7 @@ console.log("withOutDeepClone----"+myObj.a);</code></pre>
 <pre><code>var target= [];<font></font>
 $.each(source, function() {target.push( $.extend({},this));});<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">乐</span>
@@ -121,9 +115,7 @@ $.each(source, function() {target.push( $.extend({},this));});<font></font>
 <p>3) Using jQuery’s $.extend() function</p>
 
 <p>4) Using Mootools’ clone() function to clone objects</p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Stafan猿</span>
@@ -142,9 +134,7 @@ we pass an empty object because we want to have a new object.</p>
 
 <pre><code>let newObject = [...oldObject];
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Harry</span>
@@ -167,9 +157,7 @@ console.log(JSON.stringify(b)); // [{"x":{"z":0},"y":2}]<font></font>
 </code></pre>
 
 <p>For more details: <a href="https://medium.com/@gamshan001/javascript-deep-copy-for-array-and-object-97e3d4bc401a" rel="nofollow noreferrer">Read Here</a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小宇宙Green</span>
@@ -195,9 +183,7 @@ console.log(JSON.stringify(b)); // [{"x":{"z":0},"y":2}]<font></font>
 // Or more simply/commonly<font></font>
 var arrNewArrayClone = $.deepclone(arrOriginalArray);<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">伽罗小哥</span>
@@ -208,9 +194,7 @@ var arrNewArrayClone = $.deepclone(arrOriginalArray);<font></font>
 This would work with strings and numbers .. - changing a string in one array would not affect the other - but objects are still just copied by reference so changes to referenced objects in one array would have an affect on the other array.</p>
 
 <p>Here is an example of a JavaScript undo manager that could be useful for this :<a href="http://www.ridgway.co.za/archive/2007/11/07/simple-javascript-undo-manager-for-dtos.aspx" rel="nofollow noreferrer">http://www.ridgway.co.za/archive/2007/11/07/simple-javascript-undo-manager-for-dtos.aspx</a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">逆天村村</span>
@@ -224,9 +208,7 @@ return obj.arr;<font></font>
 </code></pre>
 
 <p>gives me a nice, clean, deep clone of the original array - with none of the objects referenced back to the original :-)</p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">启人Green</span>
@@ -236,9 +218,7 @@ return obj.arr;<font></font>
 
 <pre><code>var clonedNodesArray = jQuery.extend([], nodesArray);
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">达蒙小小</span>
@@ -256,9 +236,7 @@ return obj.arr;<font></font>
                return newObject ;<font></font>
 });<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小胖番长</span>
@@ -266,9 +244,7 @@ return obj.arr;<font></font>
           </div>
           <div class="discuss-comment"><pre><code>$.evalJSON($.toJSON(origArray));
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Eva伽罗</span>
@@ -287,9 +263,7 @@ return obj.arr;<font></font>
                       return $.extend(true, {}, obj);<font></font>
                   });<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">阿飞小胖</span>
@@ -304,9 +278,7 @@ return obj.arr;<font></font>
 
 <pre><code>const newArray = myArray.map(a =&gt; ({...a}));
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Davaid神无</span>
@@ -316,9 +288,7 @@ return obj.arr;<font></font>
 
 <pre><code>new_array = old_array.slice(0);
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Tony伽罗</span>
@@ -358,9 +328,7 @@ console.log( "cloned array" , clonedArray ); // [ {a:1} , {b:2} ]</code></pre>
 </div>
 </div>
 <p></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Harry古一</span>
@@ -372,9 +340,7 @@ console.log( "cloned array" , clonedArray ); // [ {a:1} , {b:2} ]</code></pre>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">总结下面的评论，这种方法的主要优点是它还可以克隆数组的内容，而不仅仅是数组本身。</font><font style="vertical-align: inherit;">主要缺点是只能处理JSON可序列化内容的局限性以及它的性能（这比</font></font><code>slice</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">基于方法</font><font style="vertical-align: inherit;">的性能差很多</font><font style="vertical-align: inherit;">）。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">梅前端斯丁</span>
@@ -392,9 +358,7 @@ console.log( "cloned array" , clonedArray ); // [ {a:1} , {b:2} ]</code></pre>
 <li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在第一轮中，克隆所有不引用数组中其他对象的对象。</font><font style="vertical-align: inherit;">跟踪每个对象的起源。</font></font></li>
 <li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在第二轮中，将对象链接在一起。  </font></font></li>
 </ol></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

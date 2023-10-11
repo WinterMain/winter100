@@ -51,7 +51,7 @@ topic: React.js
 </code></pre></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第2395篇《我可以在useEffect挂钩中设置状态》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第2395篇《我可以在useEffect挂钩中设置状态》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -64,9 +64,7 @@ topic: React.js
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">效果始终在渲染阶段完成后执行，即使您将setState放在一个效果中，另一个效果也将读取更新的状态并仅在渲染阶段之后对其执行操作。 </font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">话虽如此，最好以相同的效果采取两种行动，除非有可能</font></font><code>b</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">由于其他原因而改变</font><font style="vertical-align: inherit;">的可能性，</font><font style="vertical-align: inherit;">而不是</font></font><code>changing a</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在这种情况下，您也希望执行相同的逻辑</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小卤蛋卡卡西</span>
@@ -77,9 +75,7 @@ topic: React.js
 <p><code>useEffect</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在每次渲染之后调用，并在其中</font></font><code>setState</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">进行使用时，它将导致组件重新渲染，从而进行调用</font></font><code>useEffect</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，依此类推。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">使用</font></font><code>useState</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">inside </font></font><code>useEffect</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">不会导致无限循环的</font><font style="vertical-align: inherit;">一种常见情况</font><font style="vertical-align: inherit;">是，当您将一个空数组作为第二个参数传递给</font></font><code>useEffect</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">like时</font></font><code>useEffect(() =&gt; {....}, [])</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，这意味着效果函数应该被调用一次：仅在第一次安装/渲染之后。</font><font style="vertical-align: inherit;">当您在组件中进行数据获取并且想要以组件的状态保存请求数据时，此方法被广泛使用。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">LEY古一逆天</span>
@@ -104,9 +100,7 @@ useEffect(() =&gt; {<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">上面的效果只会触发我的状态已更改，这类似于componentDidUpdate，除了不是每个更改的状态都会触发其</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">您可以通过此</font><a href="https://reactjs.org/docs/hooks-reference.html#useeffect" rel="noreferrer"><font style="vertical-align: inherit;">链接</font></a><font style="vertical-align: inherit;">阅读更多详细信息</font></font><a href="https://reactjs.org/docs/hooks-reference.html#useeffect" rel="noreferrer"><font style="vertical-align: inherit;"></font></a></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

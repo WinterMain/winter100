@@ -23,7 +23,7 @@ topic: Node.js
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我</font><font style="vertical-align: inherit;">在本</font><font style="vertical-align: inherit;">节中</font><font style="vertical-align: inherit;">遵循了</font></font><a href="https://github.com/nodejs/node/wiki/Installation" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">此</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">步骤</font></font><code>npm</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第1433篇《如何将NodeJS和NPM更新到下一版本？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第1433篇《如何将NodeJS和NPM更新到下一版本？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -41,9 +41,7 @@ sudo npm update -g npm<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这仅适用于Linux和MAC</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">A十三</span>
@@ -64,9 +62,7 @@ npm -v<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">删除</font></font><code>node_modules</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">项目中的文件夹，</font></font><code>npm install</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">以确保您的应用程序将在新井运行</font></font><code>node</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">和</font></font><code>npm</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">版本。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">卡卡西理查德</span>
@@ -101,9 +97,7 @@ sudo npm uninstall -g n<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果有错。</font><font style="vertical-align: inherit;">因此，请确保检查以上路径中是否已安装更新nodejs以及输入的版本是否正确。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我</font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">强烈</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">建议</font><strong><font style="vertical-align: inherit;">不要</font></strong><font style="vertical-align: inherit;">在</font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">生产实例</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">上执行此操作</font><font style="vertical-align: inherit;">。</font><font style="vertical-align: inherit;">它会严重破坏您的全局npm软件包和您安装新软件包的能力。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小胖蛋蛋</span>
@@ -115,9 +109,7 @@ sudo npm uninstall -g n<font></font>
 sudo npm install -g n<font></font>
 sudo n &lt;specific version&gt;<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">otaku若</span>
@@ -127,9 +119,7 @@ sudo n &lt;specific version&gt;<font></font>
 
 <pre><code>npm i npm
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">阳光Tom逆天</span>
@@ -175,9 +165,7 @@ sudo n stable<font></font>
 <p><strong><em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">MINOR</font></font></em></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">版本，用于以向后兼容的方式添加功能时。</font><font style="vertical-align: inherit;">-&gt;</font></font><strong><code>^</code></strong>  </p>
 
 <p><strong><em><font style="vertical-align: inherit;"></font></em></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">完成向后兼容错误修复时的</font><strong><em><font style="vertical-align: inherit;"> PATCH</font></em></strong><font style="vertical-align: inherit;">版本。</font><font style="vertical-align: inherit;">-&gt;</font></font><strong><code>*</code></strong>  </p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">路易卡卡西</span>
@@ -209,9 +197,7 @@ sudo n stable<font></font>
 
 <pre><code>node -v
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Sam飞云</span>
@@ -221,9 +207,7 @@ sudo n stable<font></font>
 
 <pre><code>npm install update
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">乐十三</span>
@@ -232,9 +216,7 @@ sudo n stable<font></font>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">只是听与NPM队的最新一集的采访</font></font><a href="http://nodeup.com/seventyfour"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">nodeup</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，和他们建议</font></font><em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">不</font></font></em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">使用</font></font><code>update</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">从更新</font></font><code>1.x</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">到</font></font><code>2.x</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font><font style="vertical-align: inherit;">而是使用：</font></font><code>
 npm install npm -g
 </code></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">逆天米亚</span>
@@ -247,9 +229,7 @@ npm install npm -g
 <p><b><a href="http://nodejs.org/"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">http://nodejs.org/-</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> &gt;单击安装-&gt;您将拥有最新的节点和npm</font></font></b></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">简单！</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Sam神奇A</span>
@@ -258,9 +238,7 @@ npm install npm -g
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我最近偶然发现了这篇文章：</font></font><a href="http://martineau.tv/blog/2013/12/more-efficient-grunt-workflows/" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">http</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> : </font><a href="http://martineau.tv/blog/2013/12/more-efficient-grunt-workflows/" rel="noreferrer"><font style="vertical-align: inherit;">//martineau.tv/blog/2013/12/more-ficient-grunt-workflows/</font></a><font style="vertical-align: inherit;">，作者提到</font></font><code>$ npm-check-updates -u &amp;&amp; npm install</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">要更新所有依赖项。</font></font></p>
 
 <p><em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这与主题略有出入，但我在这里进行了类似的搜索，因此值得分享。</font></font></em></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Tony老丝</span>
@@ -274,9 +252,7 @@ npm update -g npm<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">它在Linux上对我有用</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">梅乐</span>
@@ -297,9 +273,7 @@ npm update -g npm<font></font>
 <p><code>npm -v</code></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果您使用Windows机器，建议您</font><font style="vertical-align: inherit;">访问</font></font><a href="https://docs.npmjs.com/troubleshooting/try-the-latest-stable-version-of-npm" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">npm</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">网站</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">番长斯丁</span>
@@ -364,9 +338,7 @@ npm update -g npm<font></font>
 <li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">它还可以帮助您将所有全局</font></font><code>npm</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">软件包从一个版本安装到另一个版本，而不是手动安装每个版本！</font></font></li>
 <li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">nvm还有许多其他用途，其详细信息和命令可在此处找到。</font></font><a href="https://github.com/creationix/nvm" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">节点版本管理器</font></font></a></li>
 </ul></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">乐理查德</span>
@@ -383,9 +355,7 @@ npm update -g npm<font></font>
 <p><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">列出可用的节点版本</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> =&gt;</font></font><code>n ls</code></p>
 
 <p><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">安装特定版本</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> =&gt;</font></font><code>sudo n 4.5.0</code></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小胖Green</span>
@@ -419,9 +389,7 @@ v0.12.0<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">请享用。</font><font style="vertical-align: inherit;">:-)</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Near飞云</span>
@@ -431,9 +399,7 @@ v0.12.0<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">为我工作从1.4.28更新到2.1.5</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">老丝飞云</span>
@@ -444,9 +410,7 @@ v0.12.0<font></font>
 <li><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">要</font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">更新npm</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，该</font></font><code>npm update npm -g</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">命令对我不起作用（在Windows上）。</font><font style="vertical-align: inherit;">根据</font></font><a href="https://github.com/isaacs/npm" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">文档</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，重新安装npm的工作是</font><font style="vertical-align: inherit;">：“ </font></font><em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">您可以从</font></font><a href="https://npmjs.org/dist/" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">https://npmjs.org/dist/</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">下载zip文件</font><font style="vertical-align: inherit;">，然后将其解压缩到node.exe所在的文件夹中。</font></font></em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> ”确保是否执行此操作您首先要摆脱先前的安装（尽管覆盖它可能会正常工作...）。</font></font></p></li>
 <li><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">要</font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">更新模块</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，请使用</font></font><a href="https://npmjs.org/doc/cli/npm-update.html" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">npm update命令</font></font></a></p></li>
 </ul></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">GOLEY前端</span>
@@ -460,9 +424,7 @@ v0.12.0<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">当发布新的更新/错误修复时，这是我从npm提示在控制台上的内容：</font></font></p>
 
 <p><a href="https://i.stack.imgur.com/CdKR2.png" rel="noreferrer"><img src="https://i.stack.imgur.com/CdKR2.png" alt="在此处输入图片说明"></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小宇宙猪猪</span>
@@ -482,9 +444,7 @@ v0.12.0<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">安装版本后检查 </font></font></p>
 
 <p><code>node --version</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">要么 </font></font><code>node -v</code></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">米亚Sam</span>
@@ -512,9 +472,7 @@ v0.12.0<font></font>
 <pre><code>npm install --global --production npm-windows-upgrade<font></font>
 npm-windows-upgrade<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">乐ASam</span>
@@ -555,9 +513,7 @@ npm-windows-upgrade<font></font>
 <li><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">安装一个版本将自动删除当前安装的版本。</font></font></p></li>
 <li><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">对于Linux和iOS，使用</font><strong><font style="vertical-align: inherit;">sudo</font></strong><font style="vertical-align: inherit;">前缀命令</font></font><strong><font style="vertical-align: inherit;"></font></strong></p></li>
 </ul></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">米亚西里</span>
@@ -566,9 +522,7 @@ npm-windows-upgrade<font></font>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我知道这个问题是针对Linux机器的，但是以防万一有人在寻找Windows解决方案，只需转到</font></font><a href="http://nodejs.org/" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Node.js站点</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，单击</font><font style="vertical-align: inherit;">主页上的</font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">下载</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">按钮并执行安装程序即可。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">幸运的是，它可以处理所有事情，单击“下一步”按钮，我在Windows 7计算机上运行了最新的0.8.15 Node.js版本。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">斯丁Jim</span>
@@ -578,9 +532,7 @@ npm-windows-upgrade<font></font>
 
 <pre><code>npm install npm@latest -g
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">达蒙JinJin</span>
@@ -603,9 +555,7 @@ sudo n stable<font></font>
 nvm install &lt;version&gt; <font></font>
 nvm use &lt;version&gt;<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Harry逆天Eva</span>
@@ -641,9 +591,7 @@ nvm use &lt;version&gt;<font></font>
 </blockquote>
 
 <p>To update Node.js itself, I recommend you use <a href="https://github.com/creationix/nvm" rel="noreferrer">nvm, the Node Version Manager</a>.</p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

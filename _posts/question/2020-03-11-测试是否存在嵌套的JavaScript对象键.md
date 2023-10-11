@@ -38,7 +38,7 @@ topic: JavaScript
 <p>but I was wondering if there’s a better way.</p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第733篇《测试是否存在嵌套的JavaScript对象键》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第733篇《测试是否存在嵌套的JavaScript对象键》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -88,9 +88,7 @@ checkForPathInObject(testObject, "level1.level2.level3", function(){alert("good!
 <font></font>
 checkForPathInObject(testObject, "level1.level2.level3.levelNotThere", function(){alert("good!")}, function(){alert("bad!")}); //bad<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Sam小哥理查德</span>
@@ -122,9 +120,7 @@ else {<font></font>
     //Key Not Found logic;<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Davaid阳光小卤蛋</span>
@@ -136,9 +132,7 @@ else {<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">之所以起作用，是因为&amp;&amp;运算符返回它求值的最终操作数（并使其短路）。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小宇宙路易</span>
@@ -165,9 +159,7 @@ else {<font></font>
 </code></pre>
 
 <p><a href="http://jsfiddle.net/4302m6e1/4/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这是一个jsfiddle</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">进行测试，特别是它包含一些jQuery，如果您直接修改Object.prototype会由于该属性变得可枚举而中断。</font><font style="vertical-align: inherit;">这应该与第三方库一起正常工作。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">神乐Gil</span>
@@ -191,9 +183,7 @@ else {<font></font>
             return true;<font></font>
     }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">猿路易</span>
@@ -227,9 +217,7 @@ o.x ? o.x.y ? o.x.y.z : u : u // undefined<font></font>
 $($(o.a).b).c // 1<font></font>
 $($(o.x).y).z // undefined<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">→笑里藏刀↓</span>
@@ -264,9 +252,7 @@ console.log(isExist(()=&gt;obj.test.foo))</code></pre>
    ....<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">阳光Itachi村村</span>
@@ -290,9 +276,7 @@ if ( validChain( test, "first", "second", "third" ) ) {<font></font>
     console.log( test.first.second.third );<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">神乐神乐</span>
@@ -308,9 +292,7 @@ if ( validChain( test, "first", "second", "third" ) ) {<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"></font><code>try/catch</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">当未定义任何更高级别的对象（例如test，test.level1，test.level1.level2）时，</font><font style="vertical-align: inherit;">将</font><font style="vertical-align: inherit;">捕获情况。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">null</span>
@@ -323,9 +305,7 @@ if ( validChain( test, "first", "second", "third" ) ) {<font></font>
 <pre><code>  const test = test?.level1?.level2?.level3;<font></font>
   if (test) alert(test);<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">TonyPro</span>
@@ -338,9 +318,7 @@ alert( level3 );<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">实际上，整篇文章都是关于如何在javascript中执行此操作的讨论。</font><font style="vertical-align: inherit;">他决定使用上面的语法（一旦习惯了，就不难阅读）。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">乐米亚</span>
@@ -355,9 +333,7 @@ alert( level3 );<font></font>
 <font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

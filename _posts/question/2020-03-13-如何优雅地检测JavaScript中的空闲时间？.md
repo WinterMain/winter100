@@ -20,7 +20,7 @@ topic: JavaScript
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">空闲时间：</font></font><em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">用户不活动或没有使用CPU的时间</font></font></em></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第1372篇《如何优雅地检测JavaScript中的空闲时间？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第1372篇《如何优雅地检测JavaScript中的空闲时间？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -31,9 +31,7 @@ topic: JavaScript
             <span class="discuss-time">2020.03.13</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">好吧，您可以将click或mousemove事件附加到文档主体，以重置计时器。</font><font style="vertical-align: inherit;">有一个您可以按时间间隔调用的函数，该函数可以检查计时器是否超过指定的时间（例如1000毫秒），然后开始预加载。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">GONear</span>
@@ -64,18 +62,14 @@ topic: JavaScript
             }, 1000*60);    <font></font>
         },<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Itachi</span>
             <span class="discuss-time">2020.03.13</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">您可能会使用列出的mousemove技巧检测到网页上的不活动状态，但这并不能告诉您该用户不在另一个窗口或选项卡的另一个页面上，或者该用户不在Word或Photoshop中，或者在WOW和只是目前不在看您的页面。</font><font style="vertical-align: inherit;">通常，我只是做预取并依靠客户端的多任务处理。</font><font style="vertical-align: inherit;">如果您</font></font><em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">确实</font></font></em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">需要此功能，则可以在Windows中使用Activex控件来做一些事情，但这充其量是丑陋的。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">西里泡芙</span>
@@ -98,9 +92,7 @@ topic: JavaScript
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">该脚本将侦听鼠标，键盘，触摸和其他自定义事件的不活动（空闲），并触发全局“活动”和“不活动”事件。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">希望这可以帮助 ：）</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Jnck</span>
@@ -111,18 +103,14 @@ topic: JavaScript
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">是否可以使函数每10秒运行一次，并检查“计数器”变量？</font><font style="vertical-align: inherit;">如果可以的话，您可以将鼠标悬停在页面上，可以吗？</font><font style="vertical-align: inherit;">如果是这样，请使用mouseover事件重置“计数器”变量。</font><font style="vertical-align: inherit;">如果调用了函数，并且计数器在您预定的范围之上，请执行操作。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">再说一遍，只是一些想法...希望能有所帮助。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">逆天卡卡西</span>
             <span class="discuss-time">2020.03.13</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">所有这些解决方案的问题，尽管是正确的，但考虑到会话超时有价值的设置（使用PHP，.NET或Coldfusion开发人员的Application.cfc文件）时，都是不切实际的。</font><font style="vertical-align: inherit;">上述解决方案设置的时间需要与服务器端会话超时同步。</font><font style="vertical-align: inherit;">如果两者不同步，您可能会遇到问题，这些问题只会使您的用户感到沮丧和困惑。</font><font style="vertical-align: inherit;">例如，服务器端会话超时可能设置为60分钟，但用户可能认为他/她是安全的，因为JavaScript空闲时间捕获增加了用户可以花在单个页面上的总时间。</font><font style="vertical-align: inherit;">用户可能已经花了很长时间填写较长的表格，然后去提交。</font><font style="vertical-align: inherit;">会话超时可能在处理表单提交之前开始。</font><font style="vertical-align: inherit;">我倾向于给用户180分钟，</font><font style="vertical-align: inherit;">然后使用JavaScript自动将用户注销。</font><font style="vertical-align: inherit;">本质上，使用上面的一些代码来创建一个简单的计时器，但是没有捕获鼠标事件部分。</font><font style="vertical-align: inherit;">这样，我的客户端和服务器端时间可以完美同步。</font><font style="vertical-align: inherit;">如果您在用户界面中向用户显示时间，则不会造成混乱，因为这会减少时间。</font><font style="vertical-align: inherit;">每次在CMS中访问新页面时，服务器端会话和JavaScript计时器都会重置。</font><font style="vertical-align: inherit;">简单而优雅。</font><font style="vertical-align: inherit;">如果用户在一个页面上停留了180分钟以上，那么我认为该页面首先存在问题。</font><font style="vertical-align: inherit;">随着它减少。</font><font style="vertical-align: inherit;">每次在CMS中访问新页面时，服务器端会话和JavaScript计时器都会重置。</font><font style="vertical-align: inherit;">简单而优雅。</font><font style="vertical-align: inherit;">如果用户在一个页面上停留了180分钟以上，那么我认为该页面首先存在问题。</font><font style="vertical-align: inherit;">随着它减少。</font><font style="vertical-align: inherit;">每次在CMS中访问新页面时，服务器端会话和JavaScript计时器都会重置。</font><font style="vertical-align: inherit;">简单而优雅。</font><font style="vertical-align: inherit;">如果用户在一个页面上停留了180分钟以上，那么我认为该页面首先存在问题。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">宝儿神无</span>
@@ -156,9 +144,7 @@ topic: JavaScript
 <font></font>
 }());<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小小神奇</span>
@@ -191,9 +177,7 @@ topic: JavaScript
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果您不更改CSS，这就是实际操作的示例。</font></font></p>
 
 <p><a href="https://i.stack.imgur.com/z0d2n.png" rel="nofollow noreferrer"><img src="https://i.stack.imgur.com/z0d2n.png" alt="demo_image"></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">飞云前端西门</span>
@@ -229,27 +213,21 @@ function CheckIdleTime() {<font></font>
     }<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">null</span>
             <span class="discuss-time">2020.03.13</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果您要定位</font></font><a href="https://caniuse.com/#feat=requestidlecallback" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">受支持的浏览器</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">（截至2018年12月为Chrome或Firefox），则可以尝试使用</font></font><a href="https://developers.google.com/web/updates/2015/08/using-requestidlecallback?hl=en" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">requestIdleCallback，</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">并</font><font style="vertical-align: inherit;">为不受支持的浏览器</font><font style="vertical-align: inherit;">添加</font></font><a href="https://gist.github.com/paullewis/55efe5d6f05434a96c36" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">requestIdleCallback填充</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">程序。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Stafan西门</span>
             <span class="discuss-time">2020.03.13</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">通过检测鼠标在表单主体上的移动并在最后一次移动时间更新全局变量，您可能会一起破解某些东西。</font><font style="vertical-align: inherit;">然后，您需要运行一个间隔计时器，该计时器会定期检查上一次移动时间，并且如果自检测到上一次鼠标移动以来时间足够长，则应执行一些操作。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">理查德凯</span>
@@ -286,9 +264,7 @@ function CheckIdleTime() {<font></font>
 </code></pre>
 
 <p><a href="http://jsfiddle.net/jndxq51o/" rel="noreferrer">http://jsfiddle.net/jndxq51o/</a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">猪猪十三</span>
@@ -324,9 +300,7 @@ function CheckIdleTime() {<font></font>
 <font></font>
 })<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">米亚小小神乐</span>
@@ -343,9 +317,7 @@ function CheckIdleTime() {<font></font>
 </blockquote>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Visual Studio用户可以通过以下方式从NuGet中获取它： </font></font><code>PM&gt; Install-Package Idle.js</code></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">GIZO-俊宏</span>
@@ -376,9 +348,7 @@ function timerIncrement() {<font></font>
 }<font></font>
 &lt;/script&gt;   <font></font>
 </code></pre></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

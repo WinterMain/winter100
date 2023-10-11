@@ -79,7 +79,7 @@ topic: JavaScript
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">那我在这里想念什么？</font><font style="vertical-align: inherit;">Vue为什么不将值转换为数字？</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第1010篇《Vue将input [type = number]转换为字符串值》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第1010篇《Vue将input \[type = number\]转换为字符串值》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -101,9 +101,7 @@ topic: JavaScript
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这将自动将字符串解析为数字。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">通常，来自HTML输入的数据是字符串。</font><font style="vertical-align: inherit;">输入类型仅检查字段中是否提供了有效的字符串。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">斯丁Jim</span>
@@ -113,9 +111,7 @@ topic: JavaScript
 
 <pre><code>&lt;input v-model.number="quantity" type="number"&gt;
 </code></pre></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

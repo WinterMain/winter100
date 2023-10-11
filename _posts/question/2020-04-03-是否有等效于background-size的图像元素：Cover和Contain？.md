@@ -45,7 +45,7 @@ topic: CSS
 <p>Is there a way to display the image the same way that <code>background-size: cover</code> does?</p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第3994篇《是否有等效于background-size的图像元素：Cover和Contain？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第3994篇《是否有等效于background-size的图像元素：Cover和Contain？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -73,9 +73,7 @@ topic: CSS
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这将调整具有不同宽度或高度的图像。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">逆天樱</span>
@@ -112,9 +110,7 @@ topic: CSS
 </div>
 </div>
 <p></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">老丝阿飞</span>
@@ -127,9 +123,7 @@ topic: CSS
     width: 100%;<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">卡卡西</span>
@@ -194,9 +188,7 @@ topic: CSS
 </div>
 </div>
 <p></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">米亚</span>
@@ -216,9 +208,7 @@ topic: CSS
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">假设图像的包含元素为</font></font><code>position:relative</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">或</font></font><code>position:absolute</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，则图像将覆盖容器。</font><font style="vertical-align: inherit;">但是，它不会居中。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果您知道图像是水平（set </font></font><code>margin-left:-50%</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">）还是垂直（set </font></font><code>margin-top:-50%</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">）</font><font style="vertical-align: inherit;">溢出，则可以轻松居中</font><font style="vertical-align: inherit;">。</font><font style="vertical-align: inherit;">可以使用CSS媒体查询（和一些数学方法）来解决这一问题。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">老丝猿阿飞</span>
@@ -272,9 +262,7 @@ topic: CSS
 </div>
 </div>
 <p></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">LGil</span>
@@ -314,9 +302,7 @@ topic: CSS
 </div>
 </div>
 <p></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">猪猪</span>
@@ -389,9 +375,7 @@ topic: CSS
 </div>
 </div>
 <p></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Gil</span>
@@ -431,9 +415,7 @@ img {<font></font>
 </div>
 </div>
 <p></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

@@ -101,7 +101,7 @@ topic: Vue.js
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">那么，使用Nuxtjs的SPA模式的Vuejs项目和根本不使用Nuxtjs的Vuejs项目之间有什么区别？</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第3139篇《“ Nuxtjs SPA模式”和“不带Nuxtjs的Vuejs”的区别》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第3139篇《“ Nuxtjs SPA模式”和“不带Nuxtjs的Vuejs”的区别》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -122,9 +122,7 @@ topic: Vue.js
 </ul>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">通常，它提供了一种结构化的方式来开发Vue.js应用程序。</font></font></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

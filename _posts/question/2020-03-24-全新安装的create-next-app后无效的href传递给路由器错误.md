@@ -21,7 +21,7 @@ topic: React.js
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我尝试使用</font></font><code>to</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">属性而不是</font><font style="vertical-align: inherit;">组件的</font></font><code>href</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">属性，</font></font><code>Link</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">但这无济于事。</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第3377篇《全新安装的create-next-app后无效的href传递给路由器错误》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第3377篇《全新安装的create-next-app后无效的href传递给路由器错误》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -34,9 +34,7 @@ topic: React.js
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">问题是</font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">nextjs</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">无法与外部链接一起使用，这就是为什么控制台抛出错误的原因。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">当我删除所有外部链接，而添加内部链接时，一切正常。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">凯西里</span>
@@ -46,9 +44,7 @@ topic: React.js
 
 <p><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">例子</font></font></strong>
 <code>https://stackoverflow.com/</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">应该是</font></font><code>//stackoverflow.com/</code></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Itachi</span>
@@ -62,9 +58,7 @@ topic: React.js
                 &lt;/a&gt;<font></font>
             &lt;/Link&gt;<font></font>
 </code></pre></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

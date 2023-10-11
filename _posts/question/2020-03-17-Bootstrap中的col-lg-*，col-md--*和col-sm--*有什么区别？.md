@@ -17,7 +17,7 @@ topic: CSS
     <div class="article-content"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">是什么之间的差异</font></font><code>col-lg-*</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，</font></font><code>col-md-*</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">并</font></font><code>col-sm-*</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在Twitter的引导？</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第1978篇《Bootstrap中的col-lg-*，col-md- *和col-sm- *有什么区别？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第1978篇《Bootstrap中的col-lg-\*，col-md- \*和col-sm- \*有什么区别？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -34,9 +34,7 @@ topic: CSS
 <p><em>for more detail understanding please go though below link:</em></p>
 
 <p><a href="https://getbootstrap.com/docs/3.4/css/" rel="nofollow noreferrer">https://getbootstrap.com/docs/3.4/css/</a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">ANear</span>
@@ -58,9 +56,7 @@ topic: CSS
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">含义：台式机为50％宽度，移动设备，平板电脑和笔记本电脑为100％宽度。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Tony伽罗Sam</span>
@@ -85,9 +81,7 @@ topic: CSS
 <p><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">镀铬变焦175％</font></font></strong></p>
 
 <p><a href="https://i.stack.imgur.com/rN3FR.png" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">浏览器175％-堆叠式元素</font></font></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Tom伽罗</span>
@@ -100,9 +94,7 @@ topic: CSS
 <li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">中格（≥992px）= </font></font><code>.col-md-*</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，</font></font></li>
 <li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">大网格（≥1200px）= </font></font><code>.col-lg-*</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></li>
 </ul></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">逆天十三</span>
@@ -119,9 +111,7 @@ topic: CSS
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果数据的水平位置很重要，则应尝试选择较低的粒度值以保持外观。</font><font style="vertical-align: inherit;">如果位置不太重要，但是页面在所有设备上都必须可见，则应使用更高的值。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果选择col-lg-n，则各列将正确显示，直到屏幕宽度降至1200像素的xs阈值以下。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">阳光小哥小小</span>
@@ -141,9 +131,7 @@ topic: CSS
 <p><a href="https://i.stack.imgur.com/nyqbS.png" rel="noreferrer"><img src="https://i.stack.imgur.com/nyqbS.png" alt="Bootstarp网格系统"></a></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">参考：</font></font><a href="http://getbootstrap.com/css/#grid" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">网格系统</font></font></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">神奇</span>
@@ -154,9 +142,7 @@ topic: CSS
 .col-md-$&nbsp;  Medium Devices&nbsp; Desktops 992px and Up&nbsp;<font></font>
 .col-lg-$&nbsp;  Large Devices&nbsp;  Large Desktops 1200px and Up&nbsp;<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">十三小宇宙</span>
@@ -191,9 +177,7 @@ topic: CSS
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果选择col-md，则宽度&gt; = 992px时，列将变为水平。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果选择col-lg，则当宽度&gt; = 1200px时，列将变为水平。</font></font></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

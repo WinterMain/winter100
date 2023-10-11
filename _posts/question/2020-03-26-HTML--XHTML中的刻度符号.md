@@ -49,7 +49,7 @@ topic: HTML
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果有人可以在Windows上的FF下查看，我将不胜感激。</font><font style="vertical-align: inherit;">我很确定它不能在非Windows盒子上工作。</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第3776篇《HTML / XHTML中的刻度符号》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第3776篇《HTML / XHTML中的刻度符号》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -60,18 +60,14 @@ topic: HTML
             <span class="discuss-time">2020.03.26</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">你可以用⊕或⊗</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小哥路易Gil</span>
             <span class="discuss-time">2020.03.26</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">参加聚会很晚，我发现</font></font><code>&amp;check;</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">（✓）在Opera中工作。</font><font style="vertical-align: inherit;">我尚未在其他任何浏览器上对其进行过测试，但是它对某些人可能有用。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">斯丁前端</span>
@@ -110,9 +106,7 @@ background:#409fd6 url("data:image/gif;base64,R0lGODlhCwAKAIABAP////3cnSH5BAEKAA
 
 <pre><code>&lt;img alt="" src="data:image/gif;base64,R0lGODlhCwAKAIABAP////3cnSH5BAEKAAEALAAAAAALAAoAAAIUjH+AC73WHIsw0UCjglraO20PNhYAOw==" width="11" height="10"&gt;
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">LGil</span>
@@ -121,9 +115,7 @@ background:#409fd6 url("data:image/gif;base64,R0lGODlhCwAKAIABAP////3cnSH5BAEKAA
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">√（平方根符号，＆＃8730;）就足够了吗？</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">另外，请确保</font><strong><font style="vertical-align: inherit;">在</font></strong><font style="vertical-align: inherit;">将数据发送到浏览器</font><strong><font style="vertical-align: inherit;">之前</font></strong><font style="vertical-align: inherit;">设置</font></font><code>Content-Type:</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">标题</font><font style="vertical-align: inherit;">。</font><font style="vertical-align: inherit;">仅指定</font><font style="vertical-align: inherit;">content-type标签可能不足以鼓励浏览器使用正确的字符集。</font></font><strong><font style="vertical-align: inherit;"></font></strong><font style="vertical-align: inherit;"></font><code>&lt;meta&gt;</code><font style="vertical-align: inherit;"></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">神乐</span>
@@ -143,9 +135,7 @@ Cross<font></font>
 Check<font></font>
 &lt;div style="font-family: Wingdings;"&gt;þ&lt;/div&gt; ✓<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">神无达蒙Pro</span>
@@ -161,9 +151,7 @@ Check<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">当然，您可以创建自己的选中标记图像，并使用转换器将其添加为data：image / gif。</font><font style="vertical-align: inherit;">希望这可以帮助。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">LGil</span>
@@ -177,9 +165,7 @@ Check<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这适用于Windows XP的IE 5.5，IE 6.0，FF 3.0.6。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Near米亚</span>
@@ -195,9 +181,7 @@ Check<font></font>
 <pre><code>content: "\f00c";<font></font>
 font-family: FontAwesome;<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Mandy</span>
@@ -226,9 +210,7 @@ font-family: FontAwesome;<font></font>
 </ul>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">是否检出网络字体中的刻度符号？</font><font style="vertical-align: inherit;">这是可以用于更常见示例的示例：</font></font><code>A☐B☑C☒D✓E✔F✗G✘H</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">-只需将其复制/粘贴到webfont提供者的示例文本框中，然后查看哪些字体支持哪些刻度符号。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">AL村村</span>
@@ -241,9 +223,7 @@ font-family: FontAwesome;<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我认为这将适用于所有浏览器。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">猴子A</span>
@@ -260,9 +240,7 @@ font-family: FontAwesome;<font></font>
 </ul>
 
 <p><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">编辑：</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这里的第一个符号似乎有些混乱，☐/ 0x2610。</font><font style="vertical-align: inherit;">这是一个空（未选中）复选框，因此，如果您看到一个框，则应该是它的外观。</font><font style="vertical-align: inherit;">它与☑/ 0x2611（已检查的版本）相对应。</font></font></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

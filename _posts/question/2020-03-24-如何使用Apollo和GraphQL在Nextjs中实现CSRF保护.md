@@ -72,7 +72,7 @@ next();<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">使用此配置，可以保护每条路由免受csrf的侵害，但是服务器上创建的令牌通常会更改，并且Apollo无法在需要时立即检索更新的令牌，因此第一次加载成功，但是随后的页面更改（链接）或任何发布请求失败，因为令牌已更改。</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第3293篇《如何使用Apollo和GraphQL在Nextjs中实现CSRF保护》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第3293篇《如何使用Apollo和GraphQL在Nextjs中实现CSRF保护》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -110,9 +110,7 @@ next();<font></font>
 </pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">e！</font><font style="vertical-align: inherit;">但是，SSR没有cookie。</font><font style="vertical-align: inherit;">我认为我们应该有两个来自客户端的端点，另一个应该是SSR。</font><font style="vertical-align: inherit;">SSR网址可以被csrf豁免。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">宝儿Near</span>
@@ -139,9 +137,7 @@ next();<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">还有很多页面，如果您不使用Cookie进行身份验证，则表明您不需要任何CSRF保护。</font><font style="vertical-align: inherit;">当然，您仍然可以将Cookie用于其他所有内容，但要避免在其中存储诸如session_id之类的内容。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">全文在这里：</font></font><a href="https://stackoverflow.com/questions/21357182/csrf-token-necessary-when-using-stateless-sessionless-authentication"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">使用Stateless（= Sessionless）身份验证时需要CSRF令牌吗？</font></font></a></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

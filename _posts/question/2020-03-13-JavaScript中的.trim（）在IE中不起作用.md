@@ -30,7 +30,7 @@ topic: JavaScript
 URI：http：//test.localhost/test.js</font></font></pre></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第1438篇《JavaScript中的.trim（）在IE中不起作用》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第1438篇《JavaScript中的.trim（）在IE中不起作用》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -41,9 +41,7 @@ URI：http：//test.localhost/test.js</font></font></pre></div>
             <span class="discuss-time">2020.03.13</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">刚刚发现IE不再支持</font></font><code>trim()</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，可能是在最近的Windows更新之后。</font><font style="vertical-align: inherit;">如果您使用dojo，则可以使用</font></font><code>dojo.string.trim()</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，它可以跨平台工作。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">猴子蛋蛋</span>
@@ -61,18 +59,14 @@ URI：http：//test.localhost/test.js</font></font></pre></div>
 </code></pre>
 
 <p>What does this mean? It is telling IE to use the latest compatibility mode. More information is available in <a href="https://msdn.microsoft.com/en-us/library/jj676915(v=vs.85).aspx" rel="nofollow">MSDN: Specifying legacy document modes</a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">泡芙达蒙</span>
             <span class="discuss-time">2020.03.13</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这是由于拼写错误getElementBy </font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">ID引起的</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font><font style="vertical-align: inherit;">将其更改为getElementById</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">YOC67350214</span>
@@ -87,18 +81,14 @@ URI：http：//test.localhost/test.js</font></font></pre></div>
     return str.substring(ob,oe+1);<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">乐ASam</span>
             <span class="discuss-time">2020.03.13</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我认为</font></font><code>trim()</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">JavaScript标准中</font><font style="vertical-align: inherit;">没有本地</font><font style="vertical-align: inherit;">方法。</font><font style="vertical-align: inherit;">也许Mozilla提供了一种，但是如果您想在IE中使用一种，则需要自己编写。</font></font><a href="http://blog.stevenlevithan.com/archives/faster-trim-javascript" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">此页面</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">上有几个版本</font><font style="vertical-align: inherit;">。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">十三西里GO</span>
@@ -114,9 +104,7 @@ URI：http：//test.localhost/test.js</font></font></pre></div>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">问题已解决。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">蛋蛋飞云</span>
@@ -136,9 +124,7 @@ String.prototype.rtrim = function() {<font></font>
     return this.replace(/\s+$/,"");<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">泡芙Green</span>
@@ -159,9 +145,7 @@ String.prototype.rtrim = function() {<font></font>
 <pre><code>var originalValueTrimmed = $.trim($(this).val());              <font></font>
             if (originalValueTrimmed  == "") { ... }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小宇宙飞云</span>
@@ -173,9 +157,7 @@ String.prototype.rtrim = function() {<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">有人使用，</font></font><code>$("#mycomment").val().trim();</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">但这在IE上不起作用。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">蛋蛋L</span>
@@ -223,9 +205,7 @@ String.prototype.rtrim = function() {<font></font>
 </code></pre>
 
 <p><a href="https://stackoverflow.com/a/3387111/168175"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">有用的解释</font></font></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小哥猴子</span>
@@ -234,18 +214,14 @@ String.prototype.rtrim = function() {<font></font>
           <div class="discuss-comment"><p><a href="https://developer.mozilla.org/En/Core_JavaScript_1.5_Reference/Global_Objects/String/Trim" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">https://developer.mozilla.org/En/Core_JavaScript_1.5_Reference/Global_Objects/String/Trim</font></font></a></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这是javascript的新增功能，IE不支持。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">猿米亚</span>
             <span class="discuss-time">2020.03.13</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">看来该功能未在IE中实现。</font><font style="vertical-align: inherit;">如果您使用的是jQuery，则可以</font></font><code>$.trim()</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">改用（</font></font><a href="http://api.jquery.com/jQuery.trim/" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">http://api.jquery.com/jQuery.trim/</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">）。</font></font></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

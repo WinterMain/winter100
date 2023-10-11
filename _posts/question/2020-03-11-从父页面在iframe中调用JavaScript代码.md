@@ -21,7 +21,7 @@ topic: JavaScript
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">请注意，我的问题是不会改变的源</font></font><a href="http://en.wikipedia.org/wiki/Uniform_Resource_Locator" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">URL</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">的</font></font><code>iframe</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，但是调用在定义的函数</font></font><code>iframe</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第855篇《从父页面在iframe中调用JavaScript代码》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第855篇《从父页面在iframe中调用JavaScript代码》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -32,9 +32,7 @@ topic: JavaScript
             <span class="discuss-time">2020.03.11</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">尝试一下 </font></font><code>parent.myfunction()</code></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">前端逆天</span>
@@ -46,9 +44,7 @@ topic: JavaScript
 
 <pre><code>window.parent.targetFunction();
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">JinJin神奇宝儿</span>
@@ -65,9 +61,7 @@ topic: JavaScript
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">两者都可以。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">米亚猴子</span>
@@ -100,9 +94,7 @@ parent.tunnel(myFunction);<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">加载iframe时，它将调用parent.tunnel（YourFunctionReference），它将执行参数中接收的功能。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如此简单，而不必处理各种浏览器中的所有非标准方法。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">伽罗小哥</span>
@@ -112,9 +104,7 @@ parent.tunnel(myFunction);<font></font>
             alert("loaded");<font></font>
         });<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小哥卡卡西</span>
@@ -132,9 +122,7 @@ parent.tunnel(myFunction);<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">对此限制的任何解决方法都是极其不安全的。 </font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">例如，假设我注册了域名superwinningcontest.com，并发送了指向人们电子邮件的链接。</font><font style="vertical-align: inherit;">当他们加载主页时，我可以</font></font><code>iframe</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在其中</font><font style="vertical-align: inherit;">隐藏几</font><font style="vertical-align: inherit;">秒钟并阅读他们的Facebook提要，查看最近的Amazon或PayPal交易，或者-如果他们使用的服务没有实现足够的安全性，则可以从他们的账户中转出资金帐户。</font><font style="vertical-align: inherit;">这就是JavaScript仅限于相同域和相同协议的原因。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">神奇启人</span>
@@ -152,9 +140,7 @@ parent.tunnel(myFunction);<font></font>
 <pre><code>var iframe = document.getElementById("iframeId");<font></font>
 iframe.contentWindow.myFunction(args);<font></font>
 </code></pre></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

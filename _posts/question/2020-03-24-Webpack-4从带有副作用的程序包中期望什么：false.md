@@ -42,7 +42,7 @@ topic: Webpack
 </ol></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第3643篇《Webpack 4从带有副作用的程序包中期望什么：false》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第3643篇《Webpack 4从带有副作用的程序包中期望什么：false》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -107,9 +107,7 @@ topic: Webpack
 </blockquote>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果该属性不在中</font><font style="vertical-align: inherit;">，或者</font><font style="vertical-align: inherit;">未在中</font></font><code>package.json</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">定义</font></font><code>module.rules</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，或者</font></font><code>mode: production</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">未设置（利用优化）。</font></font></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

@@ -26,7 +26,7 @@ topic: Node.js
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">还有其他选择吗？</font><font style="vertical-align: inherit;">使用JWT是否不适合这种情况？</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第1842篇《JWT（JSON Web令牌）自动延长有效期》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第1842篇《JWT（JSON Web令牌）自动延长有效期》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -58,9 +58,7 @@ topic: Node.js
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果上述方法失败，服务器将拒绝续订令牌。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">JimEvaDavaid</span>
@@ -76,9 +74,7 @@ topic: Node.js
 6）一旦刷新令牌过期，用户将被注销。  </font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果您需要更多详细信息，请让我知道，我也可以共享代码（Java + Spring引导）。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">启人</span>
@@ -101,9 +97,7 @@ topic: Node.js
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我写了一篇</font></font><a href="https://www.securitydrops.com/session-management/" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">文章</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，详细</font><a href="https://www.securitydrops.com/session-management/" rel="nofollow noreferrer"><font style="vertical-align: inherit;">解释了这些缺点</font></a><font style="vertical-align: inherit;">。</font><font style="vertical-align: inherit;">明确地说，您可以通过增加更多的复杂性（滑动会话，刷新令牌等）来解决这些问题。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">至于其他选项，如果您的客户仅通过浏览器与您的服务进行交互，我强烈建议您使用基于cookie的会话管理解决方案。</font><font style="vertical-align: inherit;">我还</font></font><a href="https://www.securitydrops.com/the-web-api-authentication-guide/" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">汇编了</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">当前在网络上广泛使用</font><a href="https://www.securitydrops.com/the-web-api-authentication-guide/" rel="nofollow noreferrer"><font style="vertical-align: inherit;">的列表身份验证方法</font></a><font style="vertical-align: inherit;">。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">樱A</span>
@@ -118,9 +112,7 @@ topic: Node.js
 </ul>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在这种情况下，我们不需要其他端点来刷新令牌。</font><font style="vertical-align: inherit;">将不胜感激。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">逆天小宇宙</span>
@@ -140,9 +132,7 @@ topic: Node.js
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">还看看</font></font><a href="https://github.com/auth0/angular-jwt" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">auth0 / angular-jwt</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> angularjs</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">对于Web API。</font><a href="http://bitoftech.net/2014/07/16/enable-oauth-refresh-tokens-angularjs-app-using-asp-net-web-api-2-owin/" rel="noreferrer"><font style="vertical-align: inherit;">使用ASP .NET Web API 2和Owin</font></a><font style="vertical-align: inherit;">阅读</font></font><a href="http://bitoftech.net/2014/07/16/enable-oauth-refresh-tokens-angularjs-app-using-asp-net-web-api-2-owin/" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在AngularJS App中启用OAuth刷新令牌</font></font></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">古一十三</span>
@@ -160,9 +150,7 @@ topic: Node.js
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">可以实施更复杂的策略来满足用户的不活动（例如忽略打开的浏览器选项卡）。</font><font style="vertical-align: inherit;">在这种情况下，续签令牌调用应包括预期的到期时间，该时间不应超过定义的会话时间。</font><font style="vertical-align: inherit;">应用程序将必须相应地跟踪上一次用户交互。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我不喜欢设置长时间有效的想法，因此这种方法可能不适用于需要较少身份验证的本机应用程序。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Eva西里蛋蛋</span>
@@ -180,9 +168,7 @@ topic: Node.js
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">例如，当用户重置密码时，将在数据库后端设置“ reauth”标志。</font><font style="vertical-align: inherit;">当用户下次登录时，该标志将被删除。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">另外，假设您有一项政策，即用户必须每72小时至少登录一次。</font><font style="vertical-align: inherit;">在这种情况下，您的API令牌刷新逻辑还将从用户数据库检查用户的上次登录日期，并在此基础上拒绝/允许令牌刷新。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">猿Gil</span>
@@ -211,9 +197,7 @@ topic: Node.js
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">另一种方法是在特定事件上撤销刷新令牌。</font><font style="vertical-align: inherit;">一个有趣的事件是更改密码。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我们认为JWT在这些用例中没有用，因此我们使用随机生成的字符串并将其存储在自己的一边。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">十三小哥</span>
@@ -224,9 +208,7 @@ topic: Node.js
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">生成新的JWT时，请将编码</font></font><code>jwt_version</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">为JWT有效负载，如果新的JWT应该替换所有其他JWT，则可以选择预先增加该值。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">验证JWT时，该</font></font><code>jwt_version</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">字段会与和进行比较，</font></font><code>user_id</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">并且仅当匹配时才授予授权。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">泡芙小宇宙十三</span>
@@ -241,9 +223,7 @@ topic: Node.js
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这种方法还允许我们在最多5分钟内撤消访问权限，这对于我们的使用是可以接受的，而不必存储令牌的黑名单。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">后期编辑：在重新读了几个月之后，我需要重新阅读，我应该指出，您可以在刷新短令牌时撤消访问权限，因为它提供了进行更昂贵调用的机会（例如，调用数据库以查看用户是否已被禁止），而无需在每次致电您的服务时付费。</font></font></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

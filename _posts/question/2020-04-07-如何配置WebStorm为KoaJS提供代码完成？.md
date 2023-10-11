@@ -21,7 +21,7 @@ topic: KoaJS
 <p><a href="https://www.samyoc.com//uploads/users/26840/images/thumbnails/1586256690838.png" data-src="https://www.samyoc.com//uploads/users/26840/images/1586256690838.png" rel="noreferrer"><img src="https://i.stack.imgur.com/7vkI7.png" alt="在此处输入图片说明"></a></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第4154篇《如何配置WebStorm为KoaJS提供代码完成？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第4154篇《如何配置WebStorm为KoaJS提供代码完成？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}

@@ -28,7 +28,7 @@ topic: CSS
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果这是一个实际的表，则可以使用轻松地完成此操作</font></font><code>&lt;td colspan="3"&gt;</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，但是由于我只是在创建类似表的</font></font><em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">布局</font></font></em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，因此无法使用</font></font><code>&lt;table&gt;</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">标签。</font><font style="vertical-align: inherit;">使用CSS可以吗？</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第3510篇《CSS中的HTML colspan》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第3510篇《CSS中的HTML colspan》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -78,9 +78,7 @@ topic: CSS
 </div>
 </div>
 <p></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Gil</span>
@@ -96,18 +94,14 @@ topic: CSS
 &lt;div class="grid_12"&gt;123&lt;/div&gt;<font></font>
 &lt;/div&gt;<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">蛋蛋</span>
             <span class="discuss-time">2020.03.24</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这不是CSS范围的一部分。  </font></font><code>colspan</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">描述页面内容的结构，或为表中的数据赋予一些含义，这就是HTML的工作。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">null</span>
@@ -141,9 +135,7 @@ topic: CSS
 </div>
 </div>
 <p></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">阳光村村</span>
@@ -152,9 +144,7 @@ topic: CSS
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">没有简单，优雅的CSS类似物</font></font><code>colspan</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">搜索此问题将返回各种解决方案，其中包括多种选择，包括绝对定位，调整大小以及类似的针对浏览器和具体情况的警告。</font><font style="vertical-align: inherit;">阅读并根据发现的内容做出最明智的决定。</font></font></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

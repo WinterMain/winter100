@@ -62,7 +62,7 @@ export default ContainerComponent;<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">请告知，我是否应该不麻烦对子元素进行propTypes检查？</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第478篇《ReactJs：对于此props.children，PropType应该是什么？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第478篇《ReactJs：对于此props.children，PropType应该是什么？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -96,9 +96,7 @@ Header.propTypes = {<font></font>
   ])<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">阿飞小卤蛋</span>
@@ -117,9 +115,7 @@ optionalNode: PropTypes.node,<font></font>
    children: PropTypes.node.isRequired,<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Tony小卤蛋</span>
@@ -146,9 +142,7 @@ optionalNode: PropTypes.node,<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">描述可以渲染的任何东西-字符串，数字，元素或这些东西的数组。</font><font style="vertical-align: inherit;">如果这适合您，那么这就是方法。</font></font></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

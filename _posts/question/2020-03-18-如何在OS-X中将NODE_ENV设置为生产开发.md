@@ -17,7 +17,7 @@ topic: Node.js
     <div class="article-content"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">用于express.js环境。</font><font style="vertical-align: inherit;">有什么建议么？</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第2139篇《如何在OS X中将NODE_ENV设置为生产/开发》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第2139篇《如何在OS X中将NODE_ENV设置为生产/开发》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -42,9 +42,7 @@ topic: Node.js
 <p>In the code you can access the current environment with <code>process.env.NODE_ENV</code>.</p>
 
 <p>Voila.</p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">神奇前端</span>
@@ -55,9 +53,7 @@ topic: Node.js
 <p>Windows Powershell -&gt; <code>$env:NODE_ENV="production"</code></p>
 
 <p>MAC -&gt; <code>export NODE_ENV=production</code></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">A西里</span>
@@ -74,9 +70,7 @@ topic: Node.js
 </code></pre>
 
 <p>it will start with your env setting</p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Stafan村村达蒙</span>
@@ -87,9 +81,7 @@ topic: Node.js
 <p>For those using express. 
 You can use grunt-express-server which is fantastic as well.
 <a href="https://www.npmjs.org/package/grunt-express-server" rel="nofollow">https://www.npmjs.org/package/grunt-express-server</a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">蛋蛋L卡卡西</span>
@@ -99,9 +91,7 @@ You can use grunt-express-server which is fantastic as well.
 
 <pre><code>$env:NODE_ENV="production" ; node app.js
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">达蒙A宝儿</span>
@@ -116,9 +106,7 @@ You can use grunt-express-server which is fantastic as well.
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">给该软件包开发人员的大量道具。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">卡卡西卡卡西</span>
@@ -144,9 +132,7 @@ You can use grunt-express-server which is fantastic as well.
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这实际上是默认设置。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">前端神无</span>
@@ -154,9 +140,7 @@ You can use grunt-express-server which is fantastic as well.
           </div>
           <div class="discuss-comment"><pre><code>heroku config:set NODE_ENV="production"
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">米亚村村</span>
@@ -177,9 +161,7 @@ You can use grunt-express-server which is fantastic as well.
 
 <pre><code>npm start
 </code></pre></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

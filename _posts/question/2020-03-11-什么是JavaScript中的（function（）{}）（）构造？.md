@@ -24,7 +24,7 @@ topic: JavaScript
 </code></pre></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第555篇《什么是JavaScript中的（function（）{}）（）构造？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第555篇《什么是JavaScript中的（function（）{}）（）构造？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -53,9 +53,7 @@ topic: JavaScript
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在上面的代码片段中，“ </font></font><em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">var app</font></font></em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> ”现在是一个局部变量。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">理查德神乐老丝</span>
@@ -73,18 +71,14 @@ console.log(window.app);<font></font>
 <pre><code>Object {}<font></font>
 Object {}<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">泡芙卡卡西</span>
             <span class="discuss-time">2020.03.11</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">通常，在程序中编写函数后，我们不会立即调用该函数。</font><font style="vertical-align: inherit;">用非常简单的术语来说，当您在函数创建后立即调用它时，它被称为IIFE-一个花哨的名字。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">樱小胖</span>
@@ -95,9 +89,7 @@ Object {}<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">换句话说，它们就像在程序开始时“创建类”的程序。（自动）实例化它们之后，唯一可用的函数是匿名函数返回的函数。但是，其他所有“隐藏”功能以及任何状态（在作用域创建期间设置的变量）仍然存在。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">很酷。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">L前端</span>
@@ -147,9 +139,7 @@ console.log(foo);  // referenceError foo is scoped to the IIFE</code></pre>
 <h2><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">为什么这有用？</font></font></h2>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">当我们处理大型代码库和/或导入各种库时，命名冲突的机会就会增加。</font><font style="vertical-align: inherit;">当我们在IIFE内编写代码的某些相关部分（并因此使用相同的变量）时，所有</font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">变量和函数名的作用域都在IIFE的函数括号内</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font><font style="vertical-align: inherit;">这减少了命名冲突的机会，并使您更不小心地命名它们（例如，您不必给它们加上前缀）。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Gil伽罗小宇宙</span>
@@ -170,9 +160,7 @@ console.log(foo);  // referenceError foo is scoped to the IIFE</code></pre>
 </blockquote>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">An </font></font><code>IIFE</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">也可以描述为自调用匿名函数。</font><font style="vertical-align: inherit;">它最常见的用法是限制通过var生成的变量的范围，或封装上下文以避免名称冲突。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Ss Yy</span>
@@ -194,9 +182,7 @@ console.log(foo);  // referenceError foo is scoped to the IIFE</code></pre>
   }<font></font>
 })();<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">猿米亚</span>
@@ -214,9 +200,7 @@ console.log(foo);  // referenceError foo is scoped to the IIFE</code></pre>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">上面的代码将在您加载iife.js后立即执行，并显示“ </font></font><em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Hello Stackoverflow！</font></font></em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在开发人员工具的控制台上。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">有关详细说明，请参见</font></font><a href="http://benalman.com/news/2010/11/immediately-invoked-function-expression/" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">立即调用函数表达式（IIFE）</font></font></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小胖GO</span>
@@ -249,9 +233,7 @@ search(3);<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">因此，您不必一次创建列表，而只需创建一次（减少开销）。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Tom伽罗</span>
@@ -278,9 +260,7 @@ console.log(same_name);<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">通过使用此语法，可以避免与JavaScript代码中其他地方声明的全局变量冲突。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">你的名字</span>
@@ -299,9 +279,7 @@ console.log(same_name);<font></font>
   
   <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">您不能自行调用函数声明。</font></font></p>
 </blockquote></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Sam小哥逆天</span>
@@ -317,9 +295,7 @@ console.log(same_name);<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在这里，您正在传递的“对象”将在函数中通过“ obj”访问，就像您在函数签名中抓住它一样。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">ItachiDavaid</span>
@@ -336,9 +312,7 @@ console.log(same_name);<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">那是一个匿名函数。</font><font style="vertical-align: inherit;">在构造内部</font><font style="vertical-align: inherit;">使用</font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">var</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">声明的所有内容</font><font style="vertical-align: inherit;">仅在同一构造内部可见，并且不会污染全局名称空间。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Jim理查德泡芙</span>
@@ -361,9 +335,7 @@ console.log(same_name);<font></font>
 //Access the globalObj<font></font>
 })(window);<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">BB</span>
@@ -391,9 +363,7 @@ f();<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">但是以上两个构造不是</font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">IIFE</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">古一小胖</span>
@@ -428,9 +398,7 @@ console.log(count);  // Reference Error: count is not defined<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在此示例中，我们用来</font></font><code>let</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">定义一个</font></font><code>count</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">变量，</font><font style="vertical-align: inherit;">该</font><font style="vertical-align: inherit;">变量</font></font><code>count</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">只限于用大括号创建的代码块</font></font><code>{...}</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我称它为</font></font><code>Curly Jail</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小哥Stafan</span>
@@ -443,9 +411,7 @@ console.log(count);  // Reference Error: count is not defined<font></font>
    console.log(local_arg);<font></font>
 })(arg);<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">逆天L</span>
@@ -479,9 +445,7 @@ alert(val(11)); //21<font></font>
 <font></font>
 alert(val); //18<font></font>
 </code></pre></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

@@ -37,7 +37,7 @@ function postinsql(topicId)<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我希望</font></font><code>postinsql(topicId)</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">一段时间后调用</font><font style="vertical-align: inherit;">我的</font><font style="vertical-align: inherit;">函数。</font><font style="vertical-align: inherit;">我该怎么办？</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第501篇《如何将参数传递给setTimeout（）回调？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第501篇《如何将参数传递给setTimeout（）回调？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -65,9 +65,7 @@ function postinsql(topicId)<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">显然，IE10支持额外的参数。</font><font style="vertical-align: inherit;">另外，您可以使用</font></font><code>setTimeout(postinsql.bind(null, topicId), 4000);</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，但是传递额外的参数会更简单，这是可取的。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">历史事实：在VBScript时代，在JScript中，setTimeout的第三个参数是语言，为字符串，默认为“ JScript”，但可以选择使用“ VBScript”。</font></font><a href="https://docs.microsoft.com/en-us/previous-versions/windows/internet-explorer/ie-developer/platform-apis/aa741500(v%3Dvs.85)" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">https://docs.microsoft.com/zh-cn/previous-versions/windows/internet-explorer/ie-developer/platform-apis/aa741500(v%3Dvs.85）</font></font></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">乐米亚</span>
@@ -77,9 +75,7 @@ function postinsql(topicId)<font></font>
 
 <pre><code>setTimeout("postinsql(" + topicId + ")", 4000);
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">null</span>
@@ -97,9 +93,7 @@ function delayedSum(param1, param2) {<font></font>
      alert(param1 + param2); // 7<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">乐米亚</span>
@@ -113,9 +107,7 @@ return function() {<font></font>
     };<font></font>
 })(topicId) , 4000);<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小宇宙Pro</span>
@@ -126,9 +118,7 @@ return function() {<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">听说您可以将topicId作为第三个参数传递给setTimeout函数。</font><font style="vertical-align: inherit;">没有给出太多细节，但是我获得了足够的信息来使它起作用，并且在Safari中很成功。</font><font style="vertical-align: inherit;">我不知道它们对“毫秒错误”的含义。</font><font style="vertical-align: inherit;">在这里查看：</font></font></p>
 
 <p><a href="http://www.howtocreate.co.uk/tutorials/javascript/timers" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">http://www.howtocreate.co.uk/tutorials/javascript/timers</font></font></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">逆天乐</span>
@@ -147,9 +137,7 @@ setTimeout(someFunction(params), 1000);<font></font>
 
 <pre><code>setTimeout(() =&gt; someFunction(params), 1000); 
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">谷若汐</span>
@@ -184,9 +172,7 @@ setTimeout(someFunction(params), 1000);<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">请注意，我与其他人保持一致，您应该避免将字符串传递给它，</font></font><code>setTimeout</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">因为这将调用</font></font><code>eval()</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">字符串，而是传递一个函数。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">神乐Jim</span>
@@ -206,9 +192,7 @@ function alertMsg(message) {<font></font>
     alert(message)<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">老丝镜风</span>
@@ -239,9 +223,7 @@ function alertMsg(message) {<font></font>
 </code></pre>
 
 <p><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">编辑：我看到了相同的答案，所以看看他。</font><font style="vertical-align: inherit;">但是我没有偷他的答案！</font><font style="vertical-align: inherit;">我忘了看。</font><font style="vertical-align: inherit;">阅读说明，看看是否有助于理解代码。</font></font></strong></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">泡芙飞云</span>
@@ -264,9 +246,7 @@ function alertMsg(message) {<font></font>
 <p><img src="https://i.stack.imgur.com/VL5gE.png" alt="setTimeout移动浏览器兼容性"></p>
 
 <p><a href="https://developer.mozilla.org/en-US/docs/Web/API/WindowTimers/setTimeout" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">https://developer.mozilla.org/zh-CN/docs/Web/API/WindowTimers/setTimeout</font></font></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">ㄏ囧囧ㄟ</span>
@@ -292,9 +272,7 @@ setTimeout(function(tid) {<font></font>
   return function() { postinsql(tid); };<font></font>
 }(topicId), 4000);<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">神奇阿良Jim</span>
@@ -331,9 +309,7 @@ if (xhr.readyState==4){<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">语法可行。</font><font style="vertical-align: inherit;">但是，在调用settopic的时间（即4秒钟后）时，XHR对象可能不相同。</font><font style="vertical-align: inherit;">因此，</font></font><a href="https://stackoverflow.com/questions/21212928/use-ajax-request-json-output-in-settimeout-function/21213598#21213598"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">预先绑定变量</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">很重要</font><font style="vertical-align: inherit;">。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Davaid小卤蛋</span>
@@ -349,9 +325,7 @@ if (xhr.readyState==4){<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">有关更多信息，请参见以下MDN链接：</font></font><br>
 <a href="https://developer.mozilla.org/en/docs/DOM/window.setTimeout#highlighter_547041"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">https</font></font></a>
 <font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> : </font><a href="https://developer.mozilla.org/en/docs/DOM/window.setTimeout#highlighter_547041"><font style="vertical-align: inherit;">//developer.mozilla.org/en/docs/DOM/window.setTimeout#highlighter_547041 </font></a></font><a href="https://developer.mozilla.org/en/docs/JavaScript/Reference/Global_Objects/Function/bind#With_setTimeout"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">https://developer.mozilla.org/en/docs/JavaScript/Reference/Global_Objects/Function / bind＃With_setTimeout</font></font></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">前端L</span>
@@ -368,9 +342,7 @@ if (xhr.readyState==4){<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">您可以将</font><font style="vertical-align: inherit;">任意数量的参数传递给</font><font style="vertical-align: inherit;">setTimeout调用的函数，</font></font><em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">并且</font></font></em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">作为附加的奖励（通常是奖励），调用setTimeout时，传递给函数的参数的值将被冻结，因此，如果它们改变了值在setTimeout（）被调用和它超时之间的某个时间点，好吧...这不再那么令人沮丧了：)</font></font></p>
 
 <p><a href="http://jsfiddle.net/thedavidmeister/7t2bV/" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这是一个小提琴</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，在这里您可以了解我的意思。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">梅乐</span>
@@ -384,9 +356,7 @@ if (xhr.readyState==4){<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">setTimeout会将所有其他参数传递给您的函数，以便可以在此处进行处理。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">匿名函数可以用于非常基本的东西，但是在必须使用“ this”的对象实例中，没有办法使其起作用。</font><font style="vertical-align: inherit;">任何匿名函数都会将“ this”更改为指向窗口，因此您将丢失对象引用。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小宇宙</span>
@@ -410,9 +380,7 @@ setTimeout(alert, 1000, hello);</code></pre>
 <li><a href="https://developer.mozilla.org/en-US/docs/Web/API/WindowTimers.setTimeout"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">https://developer.mozilla.org/zh-CN/docs/Web/API/WindowTimers.setTimeout</font></font></a></li>
 <li><a href="http://arguments.callee.info/2008/11/10/passing-arguments-to-settimeout-and-setinterval/"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">http://arguments.callee.info/2008/11/10/passing-arguments-to-settimeout-and-setinterval/</font></font></a></li>
 </ul></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Mandy古一</span>
@@ -433,9 +401,7 @@ setTimeout(alert, 1000, hello);</code></pre>
 
 <pre><code>setTimeout(postinsql.bind(null, topicId), 4000);
 </code></pre></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

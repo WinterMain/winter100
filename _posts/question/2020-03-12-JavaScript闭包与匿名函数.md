@@ -63,7 +63,7 @@ topic: JavaScript
 <p>Note that both solutions print 0 to 9 on the console delayed, so they solve the original problem, but we want to understand which of those two solutions <strong>uses closures</strong> to accomplish this.</p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第1022篇《JavaScript闭包与匿名函数》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第1022篇《JavaScript闭包与匿名函数》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -103,9 +103,7 @@ topic: JavaScript
 <p><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">结论</font></font></strong></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">两种方法都使用闭包，所以这取决于个人喜好。</font><font style="vertical-align: inherit;">第二种方法更容易“移动”或概括。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小哥Tony</span>
@@ -136,9 +134,7 @@ for(var i = 0; i &lt; 10; i++) {<font></font>
     setTimeout(fGenerator(i), 1000);<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Green老丝Itachi</span>
@@ -149,9 +145,7 @@ for(var i = 0; i &lt; 10; i++) {<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在您的朋友的情况下，</font></font><code>i</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">可在匿名函数1内部</font></font><code>i2</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">进行访问，</font><font style="vertical-align: inherit;">并</font><font style="vertical-align: inherit;">在存在的匿名函数2中进行访问</font></font><code>console.log</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在您的情况下，您要访问存在</font></font><code>i2</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">于其中的匿名函数</font></font><code>console.log</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font><font style="vertical-align: inherit;">在chrome开发人员工具的“作用域变量”下和</font></font><code>debugger;</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">之前</font><font style="vertical-align: inherit;">添加一条</font><font style="vertical-align: inherit;">语句</font></font><code>console.log</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，它将告诉变量该变量在什么作用域下。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">SamItachi阿飞</span>
@@ -165,9 +159,7 @@ for(var i = 0; i &lt; 10; i++) {<font></font>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">您正在使用</font></font><code>closure</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">是否定义了一个函数，该函数使用在函数外部定义的变量。</font><font style="vertical-align: inherit;">（我们将该变量称为</font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">自由变量</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">）。</font></font><br><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
 它们都使用</font></font><code>closure</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">（即使在第一个示例中也是如此）。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">别坑我路易</span>
@@ -184,9 +176,7 @@ for(var i = 0; i &lt; 10; i++) {<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">您朋友的尝试</font></font><code>i</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">通过获取值并将其副本存储到local中，</font><font style="vertical-align: inherit;">显然使用了</font><font style="vertical-align: inherit;">非local </font><font style="vertical-align: inherit;">变量</font></font><code>i2</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">您自己的尝试</font></font><code>i</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">（在调用站点的范围内）作为参数传递给匿名函数。</font><font style="vertical-align: inherit;">到目前为止，这不是一个闭包，但是该函数返回另一个引用了same的函数</font></font><code>i2</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font><font style="vertical-align: inherit;">由于内部匿名函数内部</font></font><code>i2</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">不是本地</font><font style="vertical-align: inherit;">函数</font><font style="vertical-align: inherit;">，因此将创建一个闭包。</font></font></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

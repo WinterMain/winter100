@@ -93,7 +93,7 @@ index.ios.js:57 Object {name: 'FeedView', component: function}<font></font>
 <p>What I want to achieve is something similar to <a href="http://facebook.github.io/react-native/docs/navigatorios.html#content" rel="noreferrer"><code>NavigatorIOS</code></a> but without the navigation bar (however some views will have their own custom navigation bar).</p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第658篇《使用React-Native中的Navigator组件进行自定义导航》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第658篇《使用React-Native中的Navigator组件进行自定义导航》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -104,18 +104,14 @@ index.ios.js:57 Object {name: 'FeedView', component: function}<font></font>
             <span class="discuss-time">2020.03.11</span>
           </div>
           <div class="discuss-comment"><p><code>Navigator</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">现在已弃用，</font></font><code>RN 0.44.0</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">您可以</font></font><code>react-native-deprecated-custom-components</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">改用来支持</font><font style="vertical-align: inherit;">使用</font><font style="vertical-align: inherit;">的现有应用程序</font></font><code>Navigator</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">猴子十三</span>
             <span class="discuss-time">2020.03.11</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">现在不推荐使用Navigator组件。</font><font style="vertical-align: inherit;">您可以使用askonov的react-native-router-flux，它种类繁多，支持许多不同的动画，并且效率很高</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Stafan猿</span>
@@ -126,9 +122,7 @@ index.ios.js:57 Object {name: 'FeedView', component: function}<font></font>
 <p><font style="vertical-align: inherit;"></font><code>renderScene</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">首次将场景推送到导航器时，应调用</font><font style="vertical-align: inherit;">该</font><font style="vertical-align: inherit;">函数。</font><font style="vertical-align: inherit;">当导航器重新渲染时，也将为活动场景调用该视图。</font><font style="vertical-align: inherit;">如果您</font></font><code>renderScene</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在之后</font><font style="vertical-align: inherit;">看到</font><font style="vertical-align: inherit;">多次被调用</font></font><code>push</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，则可能是一个错误。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">导航器仍在开发中，但是如果发现任何问题，请在github上归档并标记我！</font><font style="vertical-align: inherit;">（@ericvicenti）</font></font></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

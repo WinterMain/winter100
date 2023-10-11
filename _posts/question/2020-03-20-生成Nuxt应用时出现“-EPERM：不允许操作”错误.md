@@ -27,7 +27,7 @@ topic: Vue.js
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">任何想法？</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第2546篇《生成Nuxt应用时出现“ EPERM：不允许操作”错误》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第2546篇《生成Nuxt应用时出现“ EPERM：不允许操作”错误》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -42,9 +42,7 @@ topic: Vue.js
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我关闭了VS Code并停止了控制台。</font></font><br><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
 我用“ npm run dev”重建Nuxt并重新打开VS Code。</font></font><br><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
 现在正在工作。</font></font></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

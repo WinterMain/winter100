@@ -33,7 +33,7 @@ exports = function () {<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">您能否解释其背后的原因？</font><font style="vertical-align: inherit;">我在这里阅读了</font></font><a href="https://stackoverflow.com/questions/7137397/module-exports-vs-exports-in-nodejs"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这篇</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">文章：</font><a href="https://stackoverflow.com/questions/7137397/module-exports-vs-exports-in-nodejs"><font style="vertical-align: inherit;">Node.js中的module.exports与export</font></a><font style="vertical-align: inherit;">。</font><font style="vertical-align: inherit;">它很有帮助，但没有解释以这种方式设计它的原因。</font><font style="vertical-align: inherit;">如果直接返回出口参考书会不会有问题？</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第2372篇《CommonJs模块系统中“ module.exports”和“ exports”之间的区别》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第2372篇《CommonJs模块系统中“ module.exports”和“ exports”之间的区别》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -54,9 +54,7 @@ console.log(module.exports)<font></font>
 </code></pre>
 
 <p><code>exports</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">并且</font></font><code>module.exports</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">是相同的，并且是对同一对象的引用。</font><font style="vertical-align: inherit;">您可以根据需要通过两种方式添加属性。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">泡芙卡卡西神乐</span>
@@ -74,9 +72,7 @@ return module.exports;<font></font>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果在上设置</font></font><code>exports</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，如</font></font><code>exports.a = 9;</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，该</font><font style="vertical-align: inherit;">属性</font><font style="vertical-align: inherit;">也会设置</font></font><code>module.exports.a</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，因为对象是作为JavaScript中的引用传递的，这意味着如果将多个变量设置为同一对象，则它们</font></font><em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">都是</font></font></em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">同一对象；</font><font style="vertical-align: inherit;">因此，</font></font><code>exports</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">和</font></font><code>module.exports</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">是相同的对象。</font></font><br><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
 但是，如果你设置</font></font><code>exports</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">新的东西，这将不再被设定为</font></font><code>module.exports</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，所以</font></font><code>exports</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">并</font></font><code>module.exports</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">不再是同一个对象。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Davaid樱</span>
@@ -89,9 +85,7 @@ return module.exports;<font></font>
 <p><code>var app = exports = module.exports = {};</code>  </p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这将确保即使我们更改了module.exports，我们仍然可以通过使这两个变量指向同一对象来使用export。</font></font></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

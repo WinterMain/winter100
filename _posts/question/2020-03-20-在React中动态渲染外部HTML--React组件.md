@@ -36,7 +36,7 @@ topic: React.js
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">任何帮助将不胜感激。</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第2530篇《在React中动态渲染外部HTML / React组件》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第2530篇《在React中动态渲染外部HTML / React组件》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -55,9 +55,7 @@ topic: React.js
 <p><a href="https://reactjs.org/docs/react-dom-server.html#rendertostaticmarkup" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">https://reactjs.org/docs/react-dom-server.html#rendertostaticmarkup</font></font></a></p>
 
 <p>But be sure that the html you get is from an authentic source and will not contain any malicious scripts</p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">null</span>
@@ -67,9 +65,7 @@ topic: React.js
 content: `&lt;div&gt;${&lt;Slider imageCount="5" galleryID="1"&gt;&lt;/Slider&gt;}&lt;span&gt;This is an image gallery&lt;/span&gt;&lt;/div&gt;</code></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">以这些符号结尾。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小卤蛋</span>
@@ -92,9 +88,7 @@ content: `&lt;div&gt;${&lt;Slider imageCount="5" galleryID="1"&gt;&lt;/Slider&gt
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我更改了在中导入A，B和C组件的方式</font></font><code>index.js</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font><font style="vertical-align: inherit;">这样，每个</font></font><em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">动态</font></font></em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">导入的组件都会获得一个单独的捆绑包，并且仅在需要时才请求。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这应该可以解决您的第二个问题。</font></font></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

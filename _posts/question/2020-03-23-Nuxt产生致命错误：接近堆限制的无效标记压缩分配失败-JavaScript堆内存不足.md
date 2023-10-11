@@ -110,7 +110,7 @@ FATAL ERROR: Ineffective mark-compacts near heap limit Allocation failed - JavaS
 </code></pre></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第2708篇《Nuxt产生致命错误：接近堆限制的无效标记压缩分配失败-JavaScript堆内存不足》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第2708篇《Nuxt产生致命错误：接近堆限制的无效标记压缩分配失败-JavaScript堆内存不足》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -139,9 +139,7 @@ FATAL ERROR: Ineffective mark-compacts near heap limit Allocation failed - JavaS
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">一些参考：</font><a href="https://medium.com/@vuongtran/how-to-solve-process-out-of-memory-in-node-js-5f0de8f8464c" rel="nofollow noreferrer"><font style="vertical-align: inherit;">https</font></a><font style="vertical-align: inherit;"> : </font></font><a href="https://medium.com/@vuongtran/how-to-solve-process-out-of-memory-in-node-js-5f0de8f8464c" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">//medium.com/@vuongtran/how-to-solve-process-out-of-memory-in-node-js-5f0de8f8464c</font></font></a></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

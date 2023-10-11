@@ -41,7 +41,7 @@ topic: HTML
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我想为html设置默认值</font></font><code>&lt;textarea&gt;</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font><font style="vertical-align: inherit;">我从材料中读到，要添加默认值，您必须执行</font></font><code>&lt;textarea&gt;This is default text&lt;/textarea&gt;</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font><font style="vertical-align: inherit;">我做到了，但是没有用。</font><font style="vertical-align: inherit;">正确的做法是什么？</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第2994篇《如何为html <textarea>添加默认值？[关闭]》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第2994篇《如何为html <textarea>添加默认值？\[关闭\]》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -61,9 +61,7 @@ topic: HTML
 <p></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">当文本区域成为焦点时，基本上使文本区域的innerHTML成为空字符串。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小卤蛋</span>
@@ -75,9 +73,7 @@ topic: HTML
 &lt;textarea value="your value"&gt; &lt;/textarea&gt;<font></font>
 <font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Davaid前端Harry</span>
@@ -92,9 +88,7 @@ topic: HTML
 
 <pre><code>&lt;textarea class="article-input" id="article-input" type="text" rows="9" &gt;{{article}}&lt;/textarea&gt; 
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">番长猴子</span>
@@ -113,9 +107,7 @@ topic: HTML
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">required命令最大程度地减少了使用php检查空字段所需的工作。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">樱小胖Mandy</span>
@@ -132,9 +124,7 @@ topic: HTML
 <p><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">重要说明</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">（如乔恩·布拉夫在评论中建议的那样）</font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">：</font></font></strong></p>
 
 <p><em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">占位符属性未设置文本区域的值。</font><font style="vertical-align: inherit;">而是“占位符属性表示一个简短的提示（单词或短语），旨在在控件没有值时帮助用户进行数据输入” [[当用户单击文本区域时，它就会消失]。</font><font style="vertical-align: inherit;">它永远不会充当控件的“默认值”。</font><font style="vertical-align: inherit;">如果需要的话，必须将所需的文本放到此处。这是实际的默认值，如此处其他答案所示</font></font></em></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">蛋蛋</span>
@@ -144,9 +134,7 @@ topic: HTML
 
 <pre><code>&lt;textarea name="test" rows="4" cols="6"&gt;My Text&lt;/textarea&gt;
 </code></pre></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

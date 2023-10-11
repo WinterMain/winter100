@@ -35,7 +35,7 @@ topic: JavaScript
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">不幸的是，</font><font style="vertical-align: inherit;">当</font><font style="vertical-align: inherit;">未定义</font><font style="vertical-align: inherit;">时</font><font style="vertical-align: inherit;">，</font></font><a href="http://en.wikipedia.org/wiki/Firebug_%28software%29" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Firebug会将</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这样的语句评估为运行时错误</font></font><code>some_variable</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，而第一个</font><font style="vertical-align: inherit;">语句</font><font style="vertical-align: inherit;">就可以了。</font><font style="vertical-align: inherit;">这仅仅是Firebug的一种（有害的）行为，还是这两种方式之间确实存在某些区别？</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第1252篇《如何在JavaScript中检查未定义或null变量？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第1252篇《如何在JavaScript中检查未定义或null变量？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -57,9 +57,7 @@ if (!exluded.includes(varToCheck) {<font></font>
 </div>
 </div>
 <p></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Sam斯丁</span>
@@ -67,9 +65,7 @@ if (!exluded.includes(varToCheck) {<font></font>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">使用</font></font><code>R.isNil(yourValue)</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
 Ramda </font><font style="vertical-align: inherit;">，您可以简单地使</font><font style="vertical-align: inherit;">Lodash和其他帮助程序库具有相同的功能。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">西里阳光</span>
@@ -78,9 +74,7 @@ Ramda </font><font style="vertical-align: inherit;">，您可以简单地使</fo
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">测试null（</font></font><code>if (value == null)</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">）或non-nullity（</font></font><code>if (value != null)</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">）的详细程度要比测试变量的定义状态少。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">此外，</font><font style="vertical-align: inherit;">如果将变量（或对象属性）定义为布尔</font><font style="vertical-align: inherit;">值</font><font style="vertical-align: inherit;">，则进行测试</font></font><code>if (value)</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">（或   </font></font><code>if( obj.property)</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">）以确保变量（或对象属性）的存在失败</font></font><code>false</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font><font style="vertical-align: inherit;">买者自负 ：）</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小小JinJin蛋蛋</span>
@@ -105,9 +99,7 @@ Ramda </font><font style="vertical-align: inherit;">，您可以简单地使</fo
     }   <font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">前端MandyJinJin</span>
@@ -118,9 +110,7 @@ Ramda </font><font style="vertical-align: inherit;">，您可以简单地使</fo
 <p><code>if (some_variable === undefined || some_variable === null) {
    do stuff
 }</code></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Eva凯</span>
@@ -130,9 +120,7 @@ Ramda </font><font style="vertical-align: inherit;">，您可以简单地使</fo
 
 <p><a href="https://i.stack.imgur.com/rr3X2.png" rel="nofollow noreferrer"><img src="https://i.stack.imgur.com/rr3X2.png" alt="图1"></a>
 <a href="https://i.stack.imgur.com/IEqrO.png" rel="nofollow noreferrer"><img src="https://i.stack.imgur.com/IEqrO.png" alt="图2"></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">泡芙Pro</span>
@@ -156,9 +144,7 @@ Ramda </font><font style="vertical-align: inherit;">，您可以简单地使</fo
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Boolean（0）的结果是什么？</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">当然是假的。</font><font style="vertical-align: inherit;">当0是预期结果的有效值时，这将在代码中创建错误。</font><font style="vertical-align: inherit;">因此，请确保在编写代码时进行检查。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">null</span>
@@ -179,9 +165,7 @@ Ramda </font><font style="vertical-align: inherit;">，您可以简单地使</fo
  //logic<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Itachi伽罗</span>
@@ -210,9 +194,7 @@ Ramda </font><font style="vertical-align: inherit;">，您可以简单地使</fo
 
 <pre><code>if (obj.property != null)
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">西里米亚</span>
@@ -222,9 +204,7 @@ Ramda </font><font style="vertical-align: inherit;">，您可以简单地使</fo
 
 <pre><code>[undefined, null].includes(value)
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">乐小小猪猪</span>
@@ -250,9 +230,7 @@ Ramda </font><font style="vertical-align: inherit;">，您可以简单地使</fo
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在本地范围内，确保在代码块的顶部声明变量总是有用的，这将节省对的重复使用</font></font><code>typeof</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Near路易蛋蛋</span>
@@ -273,9 +251,7 @@ Ramda </font><font style="vertical-align: inherit;">，您可以简单地使</fo
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在这里，“空”或“空字符串”或“未定义”将得到有效处理。</font></font></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

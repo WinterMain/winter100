@@ -26,7 +26,7 @@ topic: JavaScript
 </ol></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第1245篇《在JavaScript中将数字转换为字符串的最佳方法是什么？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第1245篇《在JavaScript中将数字转换为字符串的最佳方法是什么？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -42,9 +42,7 @@ topic: JavaScript
 123 .toString() // space before the dot 123.0.toString()<font></font>
 (123).toString()<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">GO番长</span>
@@ -77,9 +75,7 @@ topic: JavaScript
 <p><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">注意：</font></font></strong> <strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">您不能直接从数字中调用tostring（）</font></font></strong> </p>
 
 <p><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">例如：</font></font></strong> <strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">2.toString（）将抛出未捕获的SyntaxError</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">：无效或意外的令牌</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">逆天卡卡西</span>
@@ -172,9 +168,7 @@ test4: 59.752ms<font></font>
 test5: 213.136ms<font></font>
 test6: 204.869ms<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">十三泡芙</span>
@@ -185,9 +179,7 @@ test6: 204.869ms<font></font>
 <pre><code>var n = 8.434332;<font></font>
 n.toFixed(2)  // 8.43<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">JinJin乐</span>
@@ -195,9 +187,7 @@ n.toFixed(2)  // 8.43<font></font>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我们还可以使用</font></font><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">String</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">构造函数。</font><font style="vertical-align: inherit;">根据</font></font><a href="http://jsben.ch/ghQYR" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">此基准</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，即使比</font></font><code>
 " + num</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">流行的浏览器Google Chrome </font><font style="vertical-align: inherit;">慢</font><font style="vertical-align: inherit;">，</font><font style="vertical-align: inherit;">它也是在Firefox 58中将数字转换为字符串的最快方法</font><font style="vertical-align: inherit;">。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">做个有心人</span>
@@ -206,9 +196,7 @@ n.toFixed(2)  // 8.43<font></font>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">刚刚遇到这个问题，方法3和4不适合，因为如何复制字符串然后将它们放在一起。</font><font style="vertical-align: inherit;">对于小型程序而言，此问题无关紧要，但是对于任何实际的Web应用程序，我们必须处理频率字符串操作的此操作可能会影响性能和可读性。</font></font></p>
 
 <p><a href="https://blog.codinghorror.com/the-sad-tragedy-of-micro-optimization-theater/" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这是读取的链接</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。  </font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">猴子神无</span>
@@ -219,9 +207,7 @@ n.toFixed(2)  // 8.43<font></font>
 <p><code>Number.call(null, n).toString()</code></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">您可以将此技巧用于其他javascript本机对象。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Sam蛋蛋Itachi</span>
@@ -232,9 +218,7 @@ n.toFixed(2)  // 8.43<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">看起来</font></font><code>2+''</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">还是</font></font><code>2+""</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">最快的。</font></font></p>
 
 <p><a href="https://jsperf.com/int-2-string" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">https://jsperf.com/int-2-string</font></font></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">十三小哥</span>
@@ -249,18 +233,14 @@ myint = myint + ''<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">恕我直言，它是最快的方式转换为字符串。</font><font style="vertical-align: inherit;">如果我错了，请纠正我。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">梅Near米亚</span>
             <span class="discuss-time">2020.03.12</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">.toString（）是内置的类型转换函数，我对此并不熟练，但是每当我们比较内置类型转换和显式方法时，总是首选内置解决方法。 </font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小哥猴子</span>
@@ -281,18 +261,14 @@ number.toString()<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">两者</font></font><code>String(number)</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，并且</font></font><code>number.toString()</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">比最快的选项慢95％左右。</font></font></p>
 
 <p><a href="https://i.stack.imgur.com/mPxVd.png" rel="noreferrer"><img src="https://i.stack.imgur.com/mPxVd.png" alt="性能测试，如上所述"></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">西门神奇</span>
             <span class="discuss-time">2020.03.12</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我认为这取决于情况，但是无论如何您都可以使用该</font></font><code>.toString()</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">方法，因为它很容易理解。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">SamStafan</span>
@@ -307,9 +283,7 @@ console.log ("the number is: " + n);<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这是很自我解释的</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">路易卡卡西</span>
@@ -333,9 +307,7 @@ var bar = '' + foo;<font></font>
 <p><strong>Update:</strong> The speed seems to differ greatly by browser.  In Chrome <code>num + ''</code> seems to be fastest based on this test <a href="http://jsben.ch/#/ghQYR">http://jsben.ch/#/ghQYR</a></p>
 
 <p><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">更新2：</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">再次根据我上面的测试，应该注意到Firefox 20.0.1的执行</font></font><code>.toString()</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">速度比</font></font><code>'' + num</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">示例</font><font style="vertical-align: inherit;">慢约100倍</font><font style="vertical-align: inherit;">。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">神无LEY</span>
@@ -347,18 +319,14 @@ var bar = '' + foo;<font></font>
 </code></pre>
 
 <p><code>digits</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> 是小数点后显示的位数。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Mandy小卤蛋凯</span>
             <span class="discuss-time">2020.03.12</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我认为</font></font><code>n.toString()</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">该奖项以其清晰为目的，我认为它没有任何额外的开销。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">阳光Itachi</span>
@@ -374,9 +342,7 @@ var bar = '' + foo;<font></font>
 </code></pre>
 
 <p><a href="http://bonsaiden.github.io/JavaScript-Garden/#object.general" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">资源</font></font></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Tom阿飞</span>
@@ -393,9 +359,7 @@ var bar = '' + foo;<font></font>
 <pre><code>var harshNum = 108;<font></font>
 `${harshNum}`;<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Jim老丝梅</span>
@@ -404,9 +368,7 @@ var bar = '' + foo;<font></font>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">对于该语言的新手来说，显式转换非常明显。</font><font style="vertical-align: inherit;">正如其他人所建议的那样，如果开发人员不了解强制规则，则使用类型强制会导致歧义。</font><font style="vertical-align: inherit;">最终，开发人员的时间要比CPU时间花费更多，因此我会以后者为代价对前者进行优化。</font><font style="vertical-align: inherit;">话虽这么说，这种情况下的差异可能微不足道，但是如果不是这样的话，我敢肯定，有一些不错的JavaScript压缩器可以优化这种情况。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">因此，出于上述原因，我建议使用：</font></font><code>n.toString()</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">或</font></font><code>String(n)</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。  </font></font><code>String(n)</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">可能是一个更好的选择，因为如果</font></font><code>n</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">为null或未定义，</font><font style="vertical-align: inherit;">它不会失败</font><font style="vertical-align: inherit;">。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Pro西门</span>
@@ -420,9 +382,7 @@ var bar = '' + foo;<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">简短，简洁，已经在其他许多地方使用（如果您使用的是现代框架/ ES版本），因此可以肯定，任何程序员都可以理解。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">并不是（通常）有多大关系，但</font><font style="vertical-align: inherit;">与</font><a href="https://jsperf.com/number-to-string/53" rel="noreferrer"><font style="vertical-align: inherit;">其他方法</font></a><font style="vertical-align: inherit;">相比</font><font style="vertical-align: inherit;">，它似乎是</font></font><a href="https://jsperf.com/number-to-string/76" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">最快的</font></font></a><font style="vertical-align: inherit;"></font><a href="https://jsperf.com/number-to-string/53" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">方法</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

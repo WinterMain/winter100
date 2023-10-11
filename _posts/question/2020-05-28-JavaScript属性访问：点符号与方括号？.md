@@ -30,7 +30,7 @@ topic: TypeScript
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">上下文：我已经编写了一个代码生成器来生成这些表达式，我想知道哪种更好。</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第4182篇《JavaScript属性访问：点符号与方括号？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第4182篇《JavaScript属性访问：点符号与方括号？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -41,18 +41,14 @@ topic: TypeScript
             <span class="discuss-time">2020.05.28</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">让我添加方括号表示法的更多用例。</font><font style="vertical-align: inherit;">如果要访问</font></font><code>x-proxy</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">对象中的属性，</font></font><code>-</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">则将被错误地解释。</font><font style="vertical-align: inherit;">它们还有其他一些情况，例如空格，点等，在这种情况下，点操作将无济于事。</font><font style="vertical-align: inherit;">同样，如果u在变量中具有键，则访问括号中键值的唯一方法是使用方括号表示法。</font><font style="vertical-align: inherit;">希望您能获得更多背景信息。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">伽罗理查德</span>
             <span class="discuss-time">2020.05.28</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">点表示法始​​终是首选。</font><font style="vertical-align: inherit;">如果使用的是“更智能”的IDE或文本编辑器，它将显示该对象的未定义名称。</font><font style="vertical-align: inherit;">仅当您的名称带有破折号或类似无效的名称时，才使用括号表示法。</font><font style="vertical-align: inherit;">以及名称是否存储在变量中。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Itachi</span>
@@ -65,9 +61,7 @@ topic: TypeScript
 <p><code>var a = { 1 : 3 };</code></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">现在，如果您尝试像访问</font></font><code>a.1</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">错误</font><font style="vertical-align: inherit;">那样访问</font><font style="vertical-align: inherit;">，因为它在那儿期待一个字符串。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">猴子村村</span>
@@ -80,9 +74,7 @@ topic: TypeScript
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">2）使用for..in循环遍历对象的所有属性时。 </font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">来源：</font><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Working_with_Objects" rel="nofollow"><font style="vertical-align: inherit;">https</font></a><font style="vertical-align: inherit;"> : </font></font><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Working_with_Objects" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">//developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Working_with_Objects</font></font></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">和田</span>
@@ -96,9 +88,7 @@ topic: TypeScript
 foo</span><span class="pun">[</span><span class="str">"Hello, world!"</span><span class="pun">]</span><span class="pln"> </span><span class="pun">=</span><span class="pln"> </span><span class="kwd">false</span><span class="pun">;</span></code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">除此之外，我想这只是一个口味问题。</font><font style="vertical-align: inherit;">恕我直言，点表示法更短，并且使它更明显地表明它是一个属性而不是数组元素（尽管JavaScript当然没有关联数组）。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">神奇神奇Near</span>
@@ -112,9 +102,7 @@ foo</span><span class="pun">[</span><span class="str">"Hello, world!"</span><spa
 console</span><span class="pun">.</span><span class="pln">log</span><span class="pun">(</span><span class="pln">y</span><span class="pun">);</span><span class="pln"> </span><span class="com">//output - hello</span></code></pre>
 
 <p><code>obj.x</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> 在这种情况下将无法正常工作。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">西里乐</span>
@@ -127,9 +115,7 @@ console</span><span class="pun">.</span><span class="pln">log</span><span class=
 <p><strong><em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果是数组</font></font></em></strong></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">数组中的元素存储在属性中。</font><font style="vertical-align: inherit;">因为这些属性的名称是数字，并且我们经常需要从变量中获取它们的名称，所以我们必须使用方括号语法来访问它们。</font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">数组的length属性告诉我们它包含多少个元素。</font><font style="vertical-align: inherit;">此属性名称是有效的变量名称，我们预先知道它的名称，因此通常要写一个数组来查找数组的长度，</font></font><code>array.length</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">因为它比容易写</font></font><code>array["length"]</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></strong></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">老丝</span>
@@ -171,9 +157,7 @@ console</span><span class="pun">.</span><span class="pln">log</span><span class=
 
 <pre class="lang-js prettyprint prettyprinted" style=""><code><span class="kwd">var</span><span class="pln"> foo </span><span class="pun">=</span><span class="pln"> myResponse</span><span class="pun">.</span><span class="pln">bar</span><span class="pun">.</span><span class="typ">Baz</span><span class="pun">;</span><span class="pln"> </span><span class="com">// incorrect syntax</span><span class="pln">
 </span><span class="kwd">var</span><span class="pln"> foo </span><span class="pun">=</span><span class="pln"> myResponse</span><span class="pun">[</span><span class="str">"bar.Baz"</span><span class="pun">];</span><span class="pln"> </span><span class="com">// correct syntax</span></code></pre></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

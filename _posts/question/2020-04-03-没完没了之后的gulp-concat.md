@@ -39,7 +39,7 @@ return gulp.src('app.scss')<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">也许可以从sass生成一个css文件到一个临时位置，然后将其与css文件合并，然后将它们删除。</font><font style="vertical-align: inherit;">有任何想法如何在单个任务中做到这一点？</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第4033篇《没完没了之后的gulp concat》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第4033篇《没完没了之后的gulp concat》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -57,9 +57,7 @@ return gulp.src('app.scss')<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">然后将animate.css重命名为_animate.css</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">您还可以更好地控制CSS的编译方式/位置。</font></font></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

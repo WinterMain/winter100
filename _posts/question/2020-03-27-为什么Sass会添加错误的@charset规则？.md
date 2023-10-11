@@ -45,7 +45,7 @@ topic: CSS
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">现在，Sass为什么将字符集设置为</font></font><code>"CP852"</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">？</font><font style="vertical-align: inherit;">我正在PhpStorm中编写SCSS文件，该文件报告SCSS文件确实是UTF-8编码的（我在PhpStorm的状态栏中看到了该文件）。</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第3803篇《为什么Sass会添加错误的@charset规则？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第3803篇《为什么Sass会添加错误的\`charset规则？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -59,18 +59,14 @@ topic: CSS
 
 <pre class="lang-js prettyprint-override"><code>Encoding.default_external = "UTF-8"
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">梅</span>
             <span class="discuss-time">2020.03.27</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">尝试添加</font></font><code>@charset "UTF-8";</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">到原始SCSS文件中，SASS不应覆盖它/然后添加它自己的文件。</font></font></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

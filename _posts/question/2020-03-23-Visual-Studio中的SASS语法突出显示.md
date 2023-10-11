@@ -21,7 +21,7 @@ topic: CSS
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我不在乎它是否通过命令行构建文件。</font><font style="vertical-align: inherit;">我只想要一些具有良好语法支持的东西。</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第3010篇《Visual Studio中的SASS语法突出显示》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第3010篇《Visual Studio中的SASS语法突出显示》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -34,9 +34,7 @@ topic: CSS
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">尝试这个 ：</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在VS 2012中，打开菜单工具&gt;选项，在左侧选择菜单文本编辑器&gt;文件扩展名，然后将scss添加为扩展名，然后从下拉列表中选择CSS Source Editor作为编辑器</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">猴子</span>
@@ -71,9 +69,7 @@ topic: CSS
 </ul>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">重新启动VS，以使这些更改生效。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">蛋蛋</span>
@@ -84,9 +80,7 @@ topic: CSS
 <p><a href="http://blogs.msdn.com/b/webdev/archive/2014/04/02/announcing-new-web-features-in-visual-studio-2013-update-2-rc.aspx" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">http://blogs.msdn.com/b/webdev/archive/2014/04/02/announcing-new-web-features-in-visual-studio-2013-update-2-rc.aspx</font></font></a></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我正在研究如何使用指南针。</font><font style="vertical-align: inherit;">:)</font></font></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

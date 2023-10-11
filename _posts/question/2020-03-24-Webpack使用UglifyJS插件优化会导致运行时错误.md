@@ -36,7 +36,7 @@ webpack -optimize-minimize<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">有什么明显的原因可能导致这种情况吗？</font><font style="vertical-align: inherit;">Uglify是否过于热心并删除了不该这么做的东西？</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第3646篇《Webpack使用UglifyJS插件优化会导致运行时错误》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第3646篇《Webpack使用UglifyJS插件优化会导致运行时错误》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -47,9 +47,7 @@ webpack -optimize-minimize<font></font>
             <span class="discuss-time">2020.03.24</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">对于停用了mangle并仍然存在问题的用户，请检查是否使用-p参数进行构建。</font><font style="vertical-align: inherit;">看来-p也使输出混乱，在我的情况下，我不得不将UflifyJsPlugin混乱切换为false并在没有-p标志的情况下进行构建才能使其工作（以增加js权重约50的代价） ％）</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">猴子村村</span>
@@ -80,9 +78,7 @@ webpack -optimize-minimize<font></font>
 </blockquote>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">还要注意，这进去了</font></font><code>optimization.minimizer</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font><font style="vertical-align: inherit;">当我把它放进去时，它对我没有用</font></font><code>plugins</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小胖Gil</span>
@@ -110,9 +106,7 @@ webpack -optimize-minimize<font></font>
   ]<font></font>
 };<font></font>
 </code></pre></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

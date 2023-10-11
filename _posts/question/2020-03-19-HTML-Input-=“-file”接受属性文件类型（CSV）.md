@@ -44,7 +44,7 @@ topic: HTML
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">示例：</font><a href="http://jsfiddle.net/LzLcZ/" rel="noreferrer"><font style="vertical-align: inherit;">http</font></a><font style="vertical-align: inherit;">：</font></font><a href="http://jsfiddle.net/LzLcZ/" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">//jsfiddle.net/LzLcZ/</font></font></a></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第2359篇《HTML Input =“ file”接受属性文件类型（CSV）》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第2359篇《HTML Input =“ file”接受属性文件类型（CSV）》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -55,9 +55,7 @@ topic: HTML
             <span class="discuss-time">2020.03.19</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">现在，您可以使用新的html5输入验证属性</font></font><code>pattern=".+\.(xlsx|xls|csv)"</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小小</span>
@@ -136,9 +134,7 @@ topic: HTML
 
 <pre><code> &lt;input type="file" accept=".FILETYPE" /&gt;
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">古一神乐</span>
@@ -159,9 +155,7 @@ topic: HTML
 </ul>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">来源：</font><a href="http://filext.com/file-extension/CSV" rel="noreferrer"><font style="vertical-align: inherit;">http</font></a><font style="vertical-align: inherit;">：</font></font><a href="http://filext.com/file-extension/CSV" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">//filext.com/file-extension/CSV</font></font></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">村村伽罗十三</span>
@@ -176,9 +170,7 @@ topic: HTML
 
 <pre><code>&lt;input type="file" accept="text/csv" /&gt;
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">米亚LEY</span>
@@ -188,9 +180,7 @@ topic: HTML
 
 <pre><code>&lt;input type="file" ID="fileSelect" accept=".xlsx, .xls, .csv"/&gt;
 </code></pre></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

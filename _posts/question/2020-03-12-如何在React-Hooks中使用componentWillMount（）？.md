@@ -25,7 +25,7 @@ topic: JavaScript
 <p>My question is - how can we use the <code>componentWillMount()</code> lifecyle method in a hook?</p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第954篇《如何在React Hooks中使用componentWillMount（）？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第954篇《如何在React Hooks中使用componentWillMount（）？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -57,9 +57,7 @@ topic: JavaScript
   console.log("your pre-mount logic here");<font></font>
 });<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">乐蛋蛋</span>
@@ -90,9 +88,7 @@ topic: JavaScript
 <font></font>
 const createInitVal = () =&gt; { /* ... complex computation or other logic */ return 42; };<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">SamStafan十三</span>
@@ -103,9 +99,7 @@ const createInitVal = () =&gt; { /* ... complex computation or other logic */ re
 <blockquote>
   <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">请记住，传递给useMemo的函数在渲染期间运行。</font><font style="vertical-align: inherit;">不要在渲染时执行通常不会执行的任何操作。</font><font style="vertical-align: inherit;">例如，副作用属于useEffect，而不是useMemo。</font></font></p>
 </blockquote></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">古一凯Gil</span>
@@ -151,9 +145,7 @@ const createInitVal = () =&gt; { /* ... complex computation or other logic */ re
 </code></pre>
 
 <p><a href="https://codesandbox.io/embed/didmount-willmount-hooks-r9ios" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">完整演示</font></font></a></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

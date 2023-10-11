@@ -83,7 +83,7 @@ topic: React.js
 <p>I hope this helps! :)</p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第3851篇《如何通过React_router传递状态？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第3851篇《如何通过React_router传递状态？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -112,9 +112,7 @@ render(){<font></font>
   return ( &lt;div&gt; &lt;RouteComponent /&gt; &lt;/div&gt;)<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

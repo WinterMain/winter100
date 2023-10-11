@@ -20,7 +20,7 @@ topic: JavaScript
 </ol></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第943篇《JavaScript检查null与undefined以及==和===之间的差异》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第943篇《JavaScript检查null与undefined以及==和===之间的差异》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -48,9 +48,7 @@ else <font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">}</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">LGO西里</span>
@@ -101,9 +99,7 @@ undefined == null        # =&gt; true<font></font>
 test(null);       # =&gt; true<font></font>
 test(undefined);  # =&gt; true<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">十三老丝</span>
@@ -119,9 +115,7 @@ if (ItemID != null)<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这将同时捕获</font></font><code>null</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">和</font></font><code>undefined</code></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">斯丁宝儿</span>
@@ -149,9 +143,7 @@ if (ItemID != null)<font></font>
 <li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Andrea Giammarchi的</font></font><a href="http://webreflection.blogspot.co.uk/2010/10/javascript-coercion-demystified.html" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">JavaScript强制性神秘化</font></font></a></li>
 <li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">comp.lang.javascript常见问题解答：</font></font><a href="http://jibbering.com/faq/notes/type-conversion/" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">JavaScript类型转换</font></font></a></li>
 </ul></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">LJinJin</span>
@@ -194,9 +186,7 @@ x===y; //returns false.<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">因为它检查数据类型x是原始类型，而y是布尔对象。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">JinJin乐</span>
@@ -221,9 +211,7 @@ x===y; //returns false.<font></font>
 <li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">“”（空字符串）</font></font></li>
 <li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">N</font></font></li>
 </ul></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

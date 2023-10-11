@@ -57,7 +57,7 @@ app.use(function* (next) {<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">因此，现在我将尝试了解这些错误的收益。这是通过异步调用完成同步操作的一种方法吗？</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第3947篇《如何在Koa中正确使用Redis（node.js）》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第3947篇《如何在Koa中正确使用Redis（node.js）》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -99,9 +99,7 @@ console.log("listen on port " + port)<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">和“ co-redis”当然 </font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">多亏我自己！ </font></font></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

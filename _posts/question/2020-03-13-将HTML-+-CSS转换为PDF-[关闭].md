@@ -53,7 +53,7 @@ topic: PHP
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我缺少什么，或者如何解决此问题？</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第1481篇《将HTML + CSS转换为PDF [关闭]》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第1481篇《将HTML + CSS转换为PDF \[关闭\]》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -70,9 +70,7 @@ topic: PHP
 </blockquote>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">它可以通过</font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">PHP</font></font></strong><font style="vertical-align: inherit;"></font><code>system()</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">或类似的调用</font><font style="vertical-align: inherit;">在</font><strong><font style="vertical-align: inherit;">PHP中</font></strong><font style="vertical-align: inherit;">使用</font><font style="vertical-align: inherit;">。</font><font style="vertical-align: inherit;">尽管它要求</font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">XML</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">的格式正确</font></font><code>input</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">凯泡芙A</span>
@@ -81,9 +79,7 @@ topic: PHP
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">HTML到PDF的转换是否真的</font></font><em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">需要</font></font></em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">使用PHP在服务器端进行？</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我刚遇到</font></font><a href="http://parall.ax/products/jspdf" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">jsPDF</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，这是使用HTML5 / JavaScript的客户端解决方案。</font><font style="vertical-align: inherit;">MIT许可的</font></font><a href="https://github.com/MrRio/jsPDF" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">代码也在GitHub上</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小小Itachi</span>
@@ -94,18 +90,14 @@ topic: PHP
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果有人总是在搜索此类内容，则有一个</font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">免费的</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">网站，可让您将html代码和页面转换为pdf。</font><font style="vertical-align: inherit;">还有一个（很小）的api，可让您从网址获取pdf文件。</font></font></p>
 
 <p><a href="http://simplehtmltopdf.com" rel="nofollow"><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在这里检查</font></font></strong></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Harry乐Harry</span>
             <span class="discuss-time">2020.03.13</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我已经尝试了许多不同的PHP库。</font><font style="vertical-align: inherit;">我尝试过的所有清单。</font><font style="vertical-align: inherit;">在我看来，</font></font><a href="http://www.tcpdf.org/" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">TCPDF</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">库是最佳的性能/可用性折衷方案。</font><font style="vertical-align: inherit;">安装和使用非常简单，在中小型应用程序中也具有良好的性能。</font><font style="vertical-align: inherit;">如果您需要高性能和非常大的PDF文档，请使用</font></font><a href="http://framework.zend.com/manual/1.12/en/zend.pdf.html" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Zend_PDF</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">模块，但准备好进行编码！</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">伽罗西门小胖</span>
@@ -114,9 +106,7 @@ topic: PHP
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">TCPDF可以正常工作，没有依赖关系，是免费的，并且不断地修正。</font><font style="vertical-align: inherit;">如果提供的HTML / CSS内容格式正确，则速度合理。</font><font style="vertical-align: inherit;">我通常会生成50-300 kB的HTML输入（包括CSS），并在1-3秒内获得10-15 PDF页面的PDF输出。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我强烈建议</font><font style="vertical-align: inherit;">在将任何内容发送到TCPDF之前，将</font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">整洁的</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">库用作HTML漂亮的格式化程序。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">路易Sam神无</span>
@@ -125,9 +115,7 @@ topic: PHP
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">精细渲染没有任何意义。</font><font style="vertical-align: inherit;">可以验证吗？</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">无论输入有多糟糕，所有浏览器都将尽其所能在屏幕上显示某些内容。</font><font style="vertical-align: inherit;">当然，他们不会做同样的事情。</font><font style="vertical-align: inherit;">如果您想要与FireFox相同的渲染，则可以使用其渲染引擎。</font><font style="vertical-align: inherit;">有PDF生成器。</font><font style="vertical-align: inherit;">但是，这是一项艰巨的工作。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Pro逆天猿</span>
@@ -143,9 +131,7 @@ topic: PHP
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这两个API与前面提到的所有解决方案的不同之处在于-除了使用CSS和JavaScript将HTML转换为PDF外，它还提供PDF权限管理，水印和加密。</font><font style="vertical-align: inherit;">因此，对于那些想要踏踏实实地工作的人来说，这是一个一体化的解决方案。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">免责声明：我为Kaiomi（一家同时经营这两个网站的公司）工作。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">泡芙神无伽罗</span>
@@ -164,27 +150,21 @@ topic: PHP
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">免费帐户可用于测试或低使用率。</font><font style="vertical-align: inherit;">网站上的详细信息：</font></font></p>
 
 <p><a href="https://rotativahq.com" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">https://rotativahq.com</font></font></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">猿小小</span>
             <span class="discuss-time">2020.03.13</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">也许您可以在将文件交给转换器之前尝试使用Tidy。</font><font style="vertical-align: inherit;">如果某个渲染器在某些HTML问题（例如未关闭的标签）上感到窒息，则可能会有所帮助。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Green猿古一</span>
             <span class="discuss-time">2020.03.13</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我建议按此顺序使用TCPDF或DOMPDF。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">西里小卤蛋</span>
@@ -200,9 +180,7 @@ topic: PHP
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">目前，我认为wkhtmltopdf是最好的（野生动物园浏览器使用的），速度快，速度快，很棒。</font><font style="vertical-align: inherit;">是的，还有开源... 
  </font></font><a href="http://code.google.com/p/wkhtmltopdf/" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">看看吧</font></font></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">古一NearEva</span>
@@ -213,9 +191,7 @@ topic: PHP
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">它确实运行良好，并且是免费的解决方案。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">看一下</font><font style="vertical-align: inherit;">为这个确切问题制作的</font></font><a href="https://github.com/ariya/phantomjs/blob/master/examples/rasterize.js" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">示例</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">脚本。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">斯丁西门</span>
@@ -244,9 +220,7 @@ topic: PHP
 <p><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">pdfcrowd.com-</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">免费</font><font style="vertical-align: inherit;">提供</font></font><em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">一次</font></font></em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> 100个PDF </font><font style="vertical-align: inherit;">。</font><font style="vertical-align: inherit;">高级订阅计划的价格从$ 9- $ 89不等。</font></font><em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">每月10,000个PDF文档的价格约为$ 49.00。</font></font></em></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我已经使用了所有这三个函数，而本文旨在帮助任何人决定而不必为所有这些函数付费。</font><font style="vertical-align: inherit;">编写本文并不是为了支持任何一种产品，我与任何一种产品都不隶属。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Tony阿飞</span>
@@ -259,18 +233,14 @@ topic: PHP
 <blockquote>
   <p><a href="http://cutycapt.sourceforge.net/" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">CutyCapt</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">是一个小型的跨平台命令行实用程序，用于将WebKit的网页呈现捕获为各种矢量和位图格式，包括SVG，PDF，PS，PNG，JPEG，TIFF，GIF和BMP</font></font></p>
 </blockquote></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">飞云西里神乐</span>
             <span class="discuss-time">2020.03.13</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">达里尔·海因（Darryl Hein）在上面提到的</font></font><a href="http://www.tecnick.com/public/code/cp_dpage.php?aiocp_dp=tcpdf" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">TCPDF</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">可能是一个好主意。</font><font style="vertical-align: inherit;">Nicola Asuni的代码非常方便且强大。</font><font style="vertical-align: inherit;">唯一的杀手是，如果您计划将PDF文件与生成的PDF合并，则不具备这些功能。</font><font style="vertical-align: inherit;">您将必须创建PDF，然后使用Sid Steward（www.pdflabs.com/tools/pdftk-the-pdf-toolkit/）的PDFTK将其合并。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">江山如画</span>
@@ -279,18 +249,14 @@ topic: PHP
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">尝试获取最新的每晚</font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">dompdf</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">版本-我使用的是较旧的版本，这是非常糟糕的资源消耗，并且花了很多时间才能呈现我的pdf。</font><font style="vertical-align: inherit;">从</font></font><a href="http://eclecticgeek.com/dompdf/" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这里</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">抢了一个晚上</font><font style="vertical-align: inherit;">。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">生成PDF只花了几秒钟的时间，并且与</font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">PrinceXML</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> / </font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Docraptor</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">一样好呈现</font><font style="vertical-align: inherit;">。</font><font style="vertical-align: inherit;">自从我上次使用它以来，</font><font style="vertical-align: inherit;">似乎他们已经认真优化了</font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">dompdf</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">代码！</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">梅古一</span>
             <span class="discuss-time">2020.03.13</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">关于Zend的devzone的教程，内容涉及从php生成pdf（</font></font><a href="http://devzone.zend.com/article/1254-PDF-Generation-Using-Only-PHP---Part-1" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">第1 </font></font></a><font style="vertical-align: inherit;"></font><a href="http://devzone.zend.com/article/1255-PDF-Generation-Using-Only-PHP---Part-2" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">部分</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，</font><a href="http://devzone.zend.com/article/1255-PDF-Generation-Using-Only-PHP---Part-2" rel="noreferrer"><font style="vertical-align: inherit;">第2部分</font></a><font style="vertical-align: inherit;">），而没有任何外部库。</font><font style="vertical-align: inherit;">我从未实现过这种解决方案，但是由于它都是php，因此您可能会发现它更易于实现和调试。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">村村乐</span>
@@ -303,9 +269,7 @@ topic: PHP
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">它基于TCPDF，尽管部分使用法语。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">您可以使表的页眉或页脚在页面上重复，并具有页码和总页数。</font><font style="vertical-align: inherit;">查看</font></font><a href="http://html2pdf.fr/en/example" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">其示例</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font><font style="vertical-align: inherit;">我已经使用了三年多，并推荐它。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">村村AL</span>
@@ -320,9 +284,7 @@ topic: PHP
 <p><a href="http://www.nutquote.com/quote/William_Shakespeare/1/simple" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">原始HTML</font></font></a></p>
 
 <p><a href="http://www.converthub.com/htmltopdf.php?html=http://www.nutquote.com/quote/William_Shakespeare/1/simple" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">将HTML转换为PDF</font></font></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">十三Tony伽罗</span>
@@ -333,27 +295,21 @@ topic: PHP
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">例如，一个客户想要一个CMS系统，以便他可以更新他在俱乐部播放的音乐的曲目列表。</font><font style="vertical-align: inherit;">那没问题，但是他还希望用户能够下载播放列表的.pdf，因此该可下载的pdf也必须由cms更新。</font><font style="vertical-align: inherit;">多亏了mpdf，有了一些简单的循环和散布的变量，我才能做到这一点。</font><font style="vertical-align: inherit;">我原本以为要花上几周的时间花了我几分钟。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">很棒的</font></font><a href="http://www.smaizys.com/php/mpdf-html-to-pdf-introduction/" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">文章</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">帮助我入门。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Tony西门古一</span>
             <span class="discuss-time">2020.03.13</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我正在使用</font></font><a href="http://www.fpdf.org/" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">fpdf</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">使用PHP生成PDF文件。</font><font style="vertical-align: inherit;">到目前为止，对我来说，生成简单的输出效果很好。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Stafan路易</span>
             <span class="discuss-time">2020.03.13</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我建议使用</font></font><strong><a href="http://docraptor.com" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">DocRaptor</font></font></a></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">（</font></font><code>PrinceXML</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">用作“引擎”）</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">NearSamHarry</span>
@@ -364,9 +320,7 @@ topic: PHP
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Snappy是一个</font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">非常简单的</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">开源PHP5库，允许从url或html页面生成缩略图，快照或PDF。</font><font style="vertical-align: inherit;">而且...它使用了</font><font style="vertical-align: inherit;">基于Webkit </font><font style="vertical-align: inherit;">的</font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">出色</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">的</font></font><strong><a href="http://code.google.com/p/wkhtmltopdf/"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">wkhtmltopdf</font></font></a></strong></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">请享用！</font><font style="vertical-align: inherit;">^ _ ^</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Near卡卡西</span>
@@ -381,27 +335,21 @@ topic: PHP
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果今天要建造一些东西，我不会再走那条路了。</font></font><br><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
 但是会改用</font></font><a href="http://pdfkit.org/" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">http://pdfkit.org/</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font><br><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
 可能会剥离其所有的nodejs依赖关系，以在浏览器中运行。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">达蒙西里</span>
             <span class="discuss-time">2020.03.13</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">签出</font></font><a href="https://tcpdf.org/" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">TCPDF</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font><font style="vertical-align: inherit;">它具有一些HTML到PDF功能，可能足以满足您的需求。</font><font style="vertical-align: inherit;">它也是免费的！</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">鸣人</span>
             <span class="discuss-time">2020.03.13</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">只是为了突兀，我尝试了DOMPDF，它工作得很好。</font><font style="vertical-align: inherit;">我使用过</font></font><code>DIV</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">其他块级元素来放置所有内容，我严格将其保留为CSS 2.1，并且播放效果非常好。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">逆天西门</span>
@@ -428,9 +376,7 @@ topic: PHP
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">现在，html2pdf是一个资源消耗。</font><font style="vertical-align: inherit;">我的70k文件大约需要5分钟，并且至少需要500-600M的RAM才能创建35页的PDF文件。</font><font style="vertical-align: inherit;">不幸的是，到目前为止，下载速度不够快（到目前为止），并且内存使用率使内存使用率处于1000到1的顺序（70k文件的RAM为600M），这是非常荒谬的。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">不幸的是，这是我想出的最好的方法。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">西里神奇</span>
@@ -443,9 +389,7 @@ topic: PHP
 <p>But keep in mind, that the documentation can really be hard to handle. For example, take a look at this page: <a href="https://mpdf.github.io/" rel="noreferrer">https://mpdf.github.io/</a>. </p>
 
 <p>Very basic tasks around html to pdf, can be done with this library, but more complex tasks will take some time reading and "understanding" the documentation. </p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Sam梅小胖</span>
@@ -474,9 +418,7 @@ topic: PHP
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">哦，是的，我是否提到这是第一个（可能也是唯一）具有完整</font></font><a href="http://princexml.com/samples/acid2/acid2.pdf" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">ACID2的</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> HTML2PDF解决方案</font><font style="vertical-align: inherit;">？</font></font></p>
 
 <p><a href="http://princexml.com/samples/" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">PrinceXML示例</font></font></a></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

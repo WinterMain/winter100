@@ -47,7 +47,7 @@ topic: JavaScript
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">有没有在这种情况下使用</font></font><code>||</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">会失败的情况？</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第503篇《有没有更好的方法在JavaScript中执行可选函数参数？[重复]》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第503篇《有没有更好的方法在JavaScript中执行可选函数参数？\[重复\]》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -61,9 +61,7 @@ topic: JavaScript
   if(arguments.length&gt;1) var optionalArg = arguments[1];<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">神奇乐猪猪</span>
@@ -86,9 +84,7 @@ window.alert(test + "\n" + test2 + "\n" + test3 + "\n" + test4);<font></font>
 </code></pre>
 
 <p><a href="http://jsfiddle.net/mq60hqrf/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">http://jsfiddle.net/mq60hqrf/</font></font></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Gil伽罗</span>
@@ -135,9 +131,7 @@ defaultValue<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">唯一不理想的情况是，当您实际上具有旨在为布尔值或故意为null的可选参数时。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">DavaidTony宝儿</span>
@@ -154,9 +148,7 @@ defaultValue<font></font>
 doSomething(); //"defaultValue"<font></font>
 doSomething("myvalue"); //"myvalue"<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">LPro</span>
@@ -175,9 +167,7 @@ doSomething("myvalue"); //"myvalue"<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"></font><code>a</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">例如，</font><font style="vertical-align: inherit;">与变量一起使用的默认值</font><font style="vertical-align: inherit;">在</font></font><a href="https://en.wikipedia.org/wiki/Backbone.js" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Backbone.js中得到了</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">广泛使用</font><font style="vertical-align: inherit;">。</font></font></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

@@ -31,7 +31,7 @@ topic: CSS
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">那么，是否存在所有浏览器都将使用的某种项目或向标准渲染引擎的迁移？</font><font style="vertical-align: inherit;">HTML5是否会终结跨浏览器的兼容性问题？</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第3314篇《什么是WebKit？它与CSS有什么关系？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第3314篇《什么是WebKit？它与CSS有什么关系？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -44,9 +44,7 @@ topic: CSS
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Webkit是在流行的浏览器Safari和Chrome以及其他浏览器中使用的渲染引擎。每个浏览器都由渲染引擎支持以绘制HTML / CSS网页。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">IE→Trident（已停产）Edge→EdgeHTML（Trident的清理分支）Firefox→Gecko Opera→Presto（自2013年2月起不再使用Presto，如今考虑使用Opera = Chrome）Safari→WebKit Chrome→Blink（WebKit的分支） 。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">老丝</span>
@@ -54,9 +52,7 @@ topic: CSS
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">有关</font></font><code>WebEngines</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">特别是</font></font><code>webKit</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">其开发人员的</font><font style="vertical-align: inherit;">优秀文档，</font><font style="vertical-align: inherit;">您可以在以下网站阅读：
  </font></font><a href="http://en.wikipedia.org/wiki/WebKit" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">WebKit</font></font></a> </p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">猴子Itachi</span>
@@ -83,18 +79,14 @@ topic: CSS
 </div>
 </div>
 <p></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">梅西门</span>
             <span class="discuss-time">2020.03.24</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Webkit是在流行的浏览器Safari和Chrome以及其他浏览器中使用的渲染引擎。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">村村</span>
@@ -103,9 +95,7 @@ topic: CSS
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">作为网站设计师，我遇到的一个常见问题是很多人使用IE6 +。</font><font style="vertical-align: inherit;">通常没什么大不了的，除了在CSS中，我必须添加多个渲染语法以解析每个浏览器的每个请求。</font><font style="vertical-align: inherit;">如果有一个通用的CSS呈现设置，并且IE可以像Chrome / FF / Opera和webkit一样容易阅读，那将非常好。</font><font style="vertical-align: inherit;">IE的问题在于，如果我不使用所有正确的CSS样式和渲染，那么除IE之外，我的网站在使用其他所有浏览器时的外观和效果都很好。</font><font style="vertical-align: inherit;">这会使不高兴的，顽固的IE客户。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">例子是这样的：假设我需要一个1px的灰色边框，边框半径为10％。</font><font style="vertical-align: inherit;">对于Chrome和其他浏览器，我使用webkit属性。</font><font style="vertical-align: inherit;">现在，对于IE，我必须使用简单的旧CSS值“ border：1px solid＃E5E5E5”和“ border-radius：10％”添加单独的CSS样式。</font><font style="vertical-align: inherit;">并非总是能在所有IE浏览器版本上都获得肯定的结果，但是在大多数情况下，此方法对我和其他许多人都有效。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">飞云达蒙</span>
@@ -122,9 +112,7 @@ topic: CSS
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">来源</font></font><a href="http://en.wikipedia.org/wiki/WebKit" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">维基百科</font></font></a></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">有关布局引擎的更多信息，请</font></font><a href="http://en.wikipedia.org/wiki/Comparison_of_layout_engines_%28Cascading_Style_Sheets%29" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">点击此处</font></font></a> </p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Mandy村村</span>
@@ -133,9 +121,7 @@ topic: CSS
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Webkit是Chrome和Safari使用的HTML呈现引擎。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">它支持许多以开头的自定义CSS属性</font></font><code>-webkit-</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">猴子村村</span>
@@ -144,9 +130,7 @@ topic: CSS
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Webkit是在Apple的Safari浏览器和Google的Chrome中使用的html / css呈现引擎。</font><font style="vertical-align: inherit;">带-webkit-的css值前缀是特定于Webkit的，它们通常是CSS3或其他非标准化的功能。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">回答更新2 w3c是试图标准化这些东西的主体，他们编写规则，然后程序员编写其渲染引擎来解释这些规则。</font><font style="vertical-align: inherit;">因此，基本上w3c表示DIV应该以这种方式工作，然后引擎编写者使用该规则来编写其代码，任何错误或对该规则的错误解释都会导致兼容性问题。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">十三神乐</span>
@@ -174,9 +158,7 @@ topic: CSS
 </blockquote>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">不是本地的。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">西里神乐</span>
@@ -191,9 +173,7 @@ topic: CSS
 <h3><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">更新资料</font></font></h3>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">不再维护或不支持Chrome框架…</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">飞云</span>
@@ -210,9 +190,7 @@ topic: CSS
 <p><code>-o-</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> （旧的WebKit之前的Opera版本）</font></font></p>
 
 <p><code>-ms-</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> （Internet Explorer和Microsoft Edge）</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">阿飞</span>
@@ -223,9 +201,7 @@ topic: CSS
 <p><font style="vertical-align: inherit;"></font><code>-webkit</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">CSS选择器上</font><font style="vertical-align: inherit;">的</font><font style="vertical-align: inherit;">前缀是</font></font><em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">仅</font></font></em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">此引擎要处理的</font></font><code>-moz</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">属性</font><font style="vertical-align: inherit;">，与</font><font style="vertical-align: inherit;">属性</font><font style="vertical-align: inherit;">非常相似</font><font style="vertical-align: inherit;">。</font><font style="vertical-align: inherit;">我们中的许多人希望这一点消失，例如，</font></font><code>-webkit-border-radius</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">将被标准所取代，</font></font><code>border-radius</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">并且</font><font style="vertical-align: inherit;">对于多个浏览器</font><font style="vertical-align: inherit;">，</font></font><em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">同一</font></font></em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">件事</font><font style="vertical-align: inherit;">您不需要多个规则</font><font style="vertical-align: inherit;">。</font><font style="vertical-align: inherit;">这实际上是“预规范”功能的结果，这些功能旨在在出现时不干扰标准版本。</font></font></p>
 
 <p><em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">对于您的更新：</font></font></em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> ...不，它与IE无关，IE至少在9之前使用另一个名为</font></font><a href="http://en.wikipedia.org/wiki/Trident_(layout_engine)" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Trident的</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">渲染引擎</font><font style="vertical-align: inherit;">。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">老丝神奇</span>
@@ -242,9 +218,7 @@ topic: CSS
 <blockquote>
   <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">然后Google建立了Chrome，Chrome使用了Webkit，就像Safari一样，想要为Safari构建页面，因此假装为Safari。</font><font style="vertical-align: inherit;">因此，Chrome使用了WebKit，并假装为Safari，WebKit假装为KHTML，KHTML假装为Gecko，所有浏览器都假装为Mozilla，Chrome调用了self </font></font><code>Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US) AppleWebKit/525.13 (KHTML, like Gecko) Chrome/0.2.149.27 Safari/525.13</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，并且用户代理字符串完全是一团糟，并且几乎毫无用处，每个人都假装成其他人，到处都是混乱。</font></font></p>
 </blockquote></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">西门</span>
@@ -296,9 +270,7 @@ topic: CSS
 <p><sup>2)</sup> On April 3 2013 Google (Chrome version 28+) <a href="http://blog.chromium.org/2013/04/blink-rendering-engine-for-chromium.html" rel="nofollow noreferrer">announces</a> they are going to use the WebKit-based <a href="https://en.wikipedia.org/wiki/Blink_%28web_engine%29" rel="nofollow noreferrer">Blink</a> engine.</p>
 
 <p><sup>3)</sup> On December 6 2018 Microsoft (Microsoft Edge 79+ stable) <a href="https://github.com/MicrosoftEdge/MSEdge/blob/7d69268e85e198cee1c2b452d888ac5b9e5995ca/README.md" rel="nofollow noreferrer">announces</a> they are going to use the WebKit-based <a href="https://en.wikipedia.org/wiki/Blink_%28web_engine%29" rel="nofollow noreferrer">Blink</a> engine.</p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

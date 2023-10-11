@@ -41,7 +41,7 @@ topic: JavaScript
 </ul></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第565篇《反应功能性无状态组件，PureComponent，Component；有什么区别，什么时候应该使用什么？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第565篇《反应功能性无状态组件，PureComponent，Component；有什么区别，什么时候应该使用什么？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -56,9 +56,7 @@ topic: JavaScript
 <li><p><code>React.PureComponent</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">是</font></font><code>React.Component</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">实现</font></font><code>shouldComponentUpdate()</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">与做它的一个比较浅的功能</font></font><code>props</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">和</font></font><code>state</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font><font style="vertical-align: inherit;">你必须使用</font></font><code>forceUpdate()</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，如果你知道组件有道具或状态嵌套数据更改，您希望重新呈现。</font><font style="vertical-align: inherit;">因此，如果当您作为道具传递或设置为状态的数组或对象发生变化时需要重新渲染组件，则它们并不是很好。  </font></font></p></li>
 <li><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">功能组件是没有生命周期功能的组件。</font><font style="vertical-align: inherit;">它们据说是无状态的，但是它们是如此的干净整洁，以至于我们现在有了钩子（从React 16.8起），因此您仍然可以有一个状态。</font><font style="vertical-align: inherit;">所以我想它们只是“干净的组件”。</font></font></p></li>
 </ul></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">斯丁前端</span>
@@ -71,9 +69,7 @@ topic: JavaScript
 <li><p><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">纯组件-</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这些是具有生命周期的项目，并且在提供一组特定的道具时，它们将始终返回相同的结果。</font><font style="vertical-align: inherit;">当显示结果列表或不包含复杂子元素的特定对象数据时，可以使用这些组件，并用于执行只会影响自身的操作。</font><font style="vertical-align: inherit;">这样的用户卡显示列表或产品卡列表（基本产品信息），用户只能执行的操作是单击以查看详细信息页面或添加到购物车。</font></font></p></li>
 <li><p><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">普通组件或复杂组件-</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我使用术语“复杂组件”是因为它们通常是页面级组件，并且包含许多子组件，并且由于每个子组件都可以以自己独特的方式运行，因此您不能百分百确定它会在给定状态下呈现相同的结果。</font><font style="vertical-align: inherit;">正如我通常所说的，这些应该用作容器组件</font></font></p></li>
 </ol></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

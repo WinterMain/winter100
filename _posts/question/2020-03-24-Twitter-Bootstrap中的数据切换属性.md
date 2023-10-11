@@ -19,7 +19,7 @@ topic: HTML
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在</font></font><a href="https://stackoverflow.com/questions/10481684/where-does-data-toggle-attribute-of-bootstrap-framework-come-from"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">链接</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">之前，我也看到过类似的问题</font><font style="vertical-align: inherit;">。</font><font style="vertical-align: inherit;">但这并没有太大帮助。</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第3689篇《Twitter Bootstrap中的数据切换属性》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第3689篇《Twitter Bootstrap中的数据切换属性》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -30,18 +30,14 @@ topic: HTML
             <span class="discuss-time">2020.03.24</span>
           </div>
           <div class="discuss-comment"><p><a href="http://getbootstrap.com/javascript/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在这里，</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">您还可以找到有关</font></font><code>data-toggle</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">可以分配的</font><font style="vertical-align: inherit;">值的更多示例</font><font style="vertical-align: inherit;">。</font><font style="vertical-align: inherit;">只需访问该页面，然后</font></font><code>CTRL+F</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">搜索</font></font><code>data-toggle</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">飞云阿飞</span>
             <span class="discuss-time">2020.03.24</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">它是Bootstrap定义的HTML5数据属性。</font><font style="vertical-align: inherit;">它将按钮绑定到事件。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">梅猿</span>
@@ -56,9 +52,7 @@ topic: HTML
 </blockquote>
 
 <p><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes#attr-data-*" rel="nofollow" title="参考"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">参考</font></font></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Stafan</span>
@@ -108,9 +102,7 @@ This is the name of the attribute. It must be at least one lowercase character a
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在HTML中获得该信息后，就可以使用JavaScript进行访问，并根据该数据来操作页面。 </font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">樱小胖Mandy</span>
@@ -123,9 +115,7 @@ This is the name of the attribute. It must be at least one lowercase character a
 <p><a href="http://html5doctor.com/html5-custom-data-attributes/"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">html5doctor在data- attribute上有一篇不错的文章</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p>
 
 <p><a href="http://jquery.malsup.com/cycle2/"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">第2周期是广泛使用data-attribute的另一个示例</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">番长樱梅</span>
@@ -139,9 +129,7 @@ to target a specific modal to toggle.--&gt;<font></font>
 <font></font>
 &lt;button type="button" data-toggle="modal" data-target="#myModal"&gt;Launch modal&lt;/button&gt;<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">宝儿</span>
@@ -150,9 +138,7 @@ to target a specific modal to toggle.--&gt;<font></font>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">此数据属性的存在告诉Bootstrap在用户交互时在另一个元素的可视状态或逻辑状态之间切换。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">它用于显示模式，选项卡内容，工具提示和弹出菜单，以及设置切换按钮的按下状态。</font><font style="vertical-align: inherit;">没有清晰的文档，它有多种用法。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">米亚小哥</span>
@@ -176,9 +162,7 @@ to target a specific modal to toggle.--&gt;<font></font>
 </ol>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">目的：</font><font style="vertical-align: inherit;">如果使用Bootstrap，</font><font style="vertical-align: inherit;">该</font></font><code>data-toggle</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">属性允许我们创建一个控件来折叠/展开</font></font><code>div</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">（块）。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">JinJin</span>
@@ -213,9 +197,7 @@ data-toggle="tab"<font></font>
 </div>
 </div>
 <p></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

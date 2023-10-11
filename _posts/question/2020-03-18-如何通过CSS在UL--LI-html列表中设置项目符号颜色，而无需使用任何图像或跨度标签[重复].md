@@ -56,7 +56,7 @@ topic: CSS
 </code></pre></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第1985篇《如何通过CSS在UL / LI html列表中设置项目符号颜色，而无需使用任何图像或跨度标签[重复]》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第1985篇《如何通过CSS在UL / LI html列表中设置项目符号颜色，而无需使用任何图像或跨度标签\[重复\]》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -72,9 +72,7 @@ topic: CSS
   color: #fff;<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">米亚小小神乐</span>
@@ -104,9 +102,7 @@ topic: CSS
     font-family: Arial, sans-serif;<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">泡芙西门</span>
@@ -160,9 +156,7 @@ li:before {<font></font>
     padding-left: 10px;<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Jim猪猪伽罗</span>
@@ -182,9 +176,7 @@ li {<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">项目符号的颜色在ul标签上定义，然后我们将li颜色切换回去。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">伽罗神奇</span>
@@ -200,9 +192,7 @@ li          { padding-left:0.75em; position:relative; }<font></font>
 <font></font>
 li:before       { content:"•"; color:#e60000; position:absolute; left:0em; }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">达蒙老丝</span>
@@ -228,9 +218,7 @@ li:before {<font></font>
     left: 0;<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">泡芙猪猪</span>
@@ -239,9 +227,7 @@ li:before {<font></font>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">您最容易做的就是将中的内容包装</font></font><code>&lt;li&gt;</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">为</font></font><code>&lt;span&gt;</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">或等效形式，然后可以独立设置颜色。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">或者，您可以使用所需的项目符号颜色制作图像，然后使用</font></font><code>list-style-image</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">属性进行</font><font style="vertical-align: inherit;">设置</font><font style="vertical-align: inherit;">。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">LEY神无</span>
@@ -255,9 +241,7 @@ li:before {<font></font>
   padding-left:10px;<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">猪猪Stafan小卤蛋</span>
@@ -280,9 +264,7 @@ a:hover {<font></font>
     background-color: #ddd;<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">卡卡西乐</span>
@@ -313,9 +295,7 @@ ul li:before {<font></font>
 <p><a href="http://jsfiddle.net/HS82t/224/"><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">jsFiddle</font></font></strong></a></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">您甚至可以使用</font></font><code>box-shadow</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">来创建一些漂亮的阴影，而该阴影在</font></font><code>content: "• "</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">解决方案中</font><font style="vertical-align: inherit;">看起来并不好</font><font style="vertical-align: inherit;">。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">番长猴子</span>
@@ -327,9 +307,7 @@ ul li:before {<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">因此，目前，唯一的方法是使用带有的图片</font></font><code>list-style-image</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我猜您可以</font></font><code>li</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">用来</font><font style="vertical-align: inherit;">包装a的内容，</font></font><code>span</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">然后可以设置每个的颜色，但这对我来说似乎有点不足。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">斯丁阳光</span>
@@ -357,9 +335,7 @@ ul li span{<font></font>
     color: blue;<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">梅老丝</span>
@@ -402,9 +378,7 @@ ul li:before { /* the custom styled bullets */<font></font>
 </div>
 </div>
 <p></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">伽罗乐</span>
@@ -452,9 +426,7 @@ fa-angle-right [&amp;#xf105;]<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">就是这样！</font><font style="vertical-align: inherit;">现在您也有自定义的项目符号提示=）</font></font></p>
 
 <p><a href="http://jsfiddle.net/ytH5P/5721/" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">小提琴</font></font></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">古一村村</span>
@@ -491,9 +463,7 @@ li::before {<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">JSFiddle：</font><a href="http://jsfiddle.net/leaverou/ytH5P/" rel="noreferrer"><font style="vertical-align: inherit;">http</font></a><font style="vertical-align: inherit;"> : </font></font><a href="http://jsfiddle.net/leaverou/ytH5P/" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">//jsfiddle.net/leaverou/ytH5P/</font></font></a></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">适用于所有浏览器，包括版本8及更高版本的IE。</font></font></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

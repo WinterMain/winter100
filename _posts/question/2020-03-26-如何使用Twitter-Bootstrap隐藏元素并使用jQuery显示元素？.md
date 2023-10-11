@@ -37,7 +37,7 @@ topic: CSS
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">使用Bootstrap隐藏元素并使用jQuery显示元素的最简单方法是什么？</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第3766篇《如何使用Twitter Bootstrap隐藏元素并使用jQuery显示元素？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第3766篇《如何使用Twitter Bootstrap隐藏元素并使用jQuery显示元素？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -49,9 +49,7 @@ topic: CSS
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在bootstrap 4中，您可以使用</font></font><code>d-none</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">class完全隐藏元素。
 </font></font><a href="https://getbootstrap.com/docs/4.0/utilities/display/" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">https://getbootstrap.com/docs/4.0/utilities/display/</font></font></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Stafan</span>
@@ -66,9 +64,7 @@ topic: CSS
 <p><a href="https://getbootstrap.com/docs/4.1/utilities/visibility/" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">https://getbootstrap.com/docs/4.1/utilities/visibility/</font></font></a></p>
 
 <p><a href="https://getbootstrap.com/docs/4.1/utilities/display/" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">https://getbootstrap.com/docs/4.1/utilities/display/</font></font></a>  </p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">飞云</span>
@@ -84,9 +80,7 @@ $("#my-div").click(function(){$("#my-div").toggle()})<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">//您甚至不必设置</font></font><code>#my-div</code> <code>.hide</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">nor </font></font><code>!important</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，只需在事件函数中粘贴/重复该切换即可。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">伽罗</span>
@@ -98,9 +92,7 @@ $("#my-div").click(function(){$("#my-div").toggle()})<font></font>
 .rb-pull-left { float: left; }<font></font>
 etc...<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">TomJinJin</span>
@@ -109,9 +101,7 @@ etc...<font></font>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">使用bootstrap .collapse而不是.hidden</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">稍后在JQuery中，您可以使用.show（）或.hide（）对其进行操作</font></font></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

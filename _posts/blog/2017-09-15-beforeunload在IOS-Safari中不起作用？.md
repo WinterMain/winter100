@@ -30,7 +30,7 @@ window.addEventListener(eventName, function (event) {
 </div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第13篇《beforeunload在IOS Safari中不起作用？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第13篇《beforeunload在IOS Safari中不起作用？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -41,19 +41,15 @@ window.addEventListener(eventName, function (event) {
             <span class="discuss-time">2018.08.21</span>
           </div>
           <div class="discuss-comment">你好，请问下ios safari 页面跳转，推荐使用什么方法？</div>
-        </div>
-        
-        <div class="discuss-children">
+        </div><div class="discuss-children">
           <div class="discuss-child">
             <div class="discuss-comment">Safari 推荐使用window.location = 'user_home.html';</div>
             <div class="discuss-meta">
               <span class="discuss-user">Winter</span>
               <span class="discuss-time">2018.11.27</span>
             </div>
-          </div>
+          </div></div>
         </div>
-        
-      </div>
     {% endraw %}
   </div>
 <div>

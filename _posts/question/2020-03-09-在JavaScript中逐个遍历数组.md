@@ -23,10 +23,10 @@ topic: JavaScript
 <p><font style="vertical-align: inherit;"></font><code>theArray</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我的数组</font><font style="vertical-align: inherit;">在哪里</font><font style="vertical-align: inherit;">，但这似乎是不正确的。</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第142篇《在JavaScript中逐个遍历数组》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第142篇《在JavaScript中逐个遍历数组》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
-    {% raw %}
+    
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -107,9 +107,7 @@ console.log(it.next().value);   // {value: undefined, done: true}</code></pre>
 </ul>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">您可以</font></font><code>iteration protocol</code> <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Iteration_protocols" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在此处</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">了解更多信息</font><font style="vertical-align: inherit;">。  </font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">乐米亚</span>
@@ -184,9 +182,7 @@ for (var i = 0; i &lt; obj1.results.length; i++) {<font></font>
 </ul>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我敢肯定，还有其他各种利弊，请随时添加您认为合适的任何内容。</font><font style="vertical-align: inherit;">我认为，最重要的是，如果您需要效率，请坚持使用本机</font></font><code>for</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">循环来满足您的循环需求。</font><font style="vertical-align: inherit;">但是，如果您的数据集较小，并且为了交换可读性和可写性而放弃某种效率是可以的，那么一定要丢掉</font></font><code>angular.forEach</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">那个坏孩子。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">米亚Eva</span>
@@ -305,9 +301,7 @@ for (var i = array.length; i--; )    { ... }   // Reverse<font></font>
 <hr>
 
 <p><em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">感谢WYL向我展示反向for循环的好处和恐惧。</font></font></em></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小小小胖</span>
@@ -331,9 +325,7 @@ for (var i = 0; i &lt; length; i++) {<font></font>
   // Do something with yourArray[i].<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小哥Stafan</span>
@@ -356,9 +348,7 @@ for (var i = 0; i &lt; length; i++) {<font></font>
     console.log("index of the looped element" + index);<font></font>
 });<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">猪猪小卤蛋</span>
@@ -443,9 +433,7 @@ do{<font></font>
 <font></font>
 // Output: 1,2,3,4<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">D坤</span>
@@ -465,9 +453,7 @@ do{<font></font>
     console.log(element);<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">GilJinJin</span>
@@ -547,9 +533,7 @@ console.log(it.next().value);   // {value: undefined, done: true}</code></pre>
 </ul>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">您可以</font></font><code>iteration protocol</code> <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Iteration_protocols" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在此处</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">了解更多信息</font><font style="vertical-align: inherit;">。  </font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">神无神无</span>
@@ -582,9 +566,7 @@ theArray.forEach((element) =&gt; {<font></font>
   console.log(i); // i will have the value of each index<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Davaid小宇宙</span>
@@ -611,9 +593,7 @@ myArray = myArray.map(<font></font>
 <font></font>
 console.log(myArray); // [2, 3, 4]<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">JinJin小卤蛋</span>
@@ -646,9 +626,7 @@ console.log(myArray); // [2, 3, 4]<font></font>
 </ol>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">还有很多其他需要迭代的地方。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">逆天Eva</span>
@@ -666,9 +644,7 @@ var newData = $.map(data, function(element) {<font></font>
 <font></font>
 // newData = [2, 4, 6];<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">达蒙老丝</span>
@@ -689,9 +665,7 @@ for (var i = foo.length, item; item = foo[--i];) {<font></font>
 <p><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">缺点：</font></font></strong></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">每当引用为假-假（未定义等）时，这都会中断。</font><font style="vertical-align: inherit;">但是，它可以用作优势。</font><font style="vertical-align: inherit;">但是，这会使阅读起来有些困难。</font><font style="vertical-align: inherit;">而且还可以根据浏览器进行“非”优化，使其比原始浏览器更快地工作。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">梅Davaid</span>
@@ -707,9 +681,7 @@ for (var i = foo.length, item; item = foo[--i];) {<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">之所以</font></font><code>some</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">可行，是因为一旦按数组顺序执行的任何回调均返回true，则返回true，从而使其余部分的执行短路。 
 </font></font><a href="https://stackoverflow.com/questions/2641347/how-to-short-circuit-array-foreach-like-calling-break"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">原来的答案</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> 
 参见数组原型</font></font><a href="http://www.ecma-international.org/ecma-262/5.1/#sec-15.4.4.17" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">一些</font></font></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">LEYJim</span>
@@ -780,9 +752,7 @@ document.getElementById("example").innerHTML = numbers.map(function(num){return 
 <p></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">有关数组上函数编程的更多信息和示例，请参阅博客文章</font></font><em><a href="http://cryto.net/~joepie91/blog/2015/05/04/functional-programming-in-javascript-map-filter-reduce/" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">JavaScript中</font></font></a></em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">的</font><em><a href="http://cryto.net/~joepie91/blog/2015/05/04/functional-programming-in-javascript-map-filter-reduce/" rel="nofollow noreferrer"><font style="vertical-align: inherit;">函数编程：map，filter和reduce</font></a></em><font style="vertical-align: inherit;">。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">StafanItachi</span>
@@ -803,9 +773,7 @@ for (var i=0; i &lt; objects.length; i++) {<font></font>
     ...<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Itachi猪猪</span>
@@ -826,9 +794,7 @@ for (let obj of list) {<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">where </font></font><code>of</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">避免与之关联的怪异之处，</font></font><code>in</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">并使其像</font></font><code>for</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">任何其他语言</font><font style="vertical-align: inherit;">的</font><font style="vertical-align: inherit;">循环</font><font style="vertical-align: inherit;">一样工作</font><font style="vertical-align: inherit;">，并且</font><font style="vertical-align: inherit;">在循环内</font></font><code>let</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">绑定</font></font><code>i</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">而不是在函数内</font><font style="vertical-align: inherit;">绑定</font><font style="vertical-align: inherit;">。</font></font></p>
 
 <p><font style="vertical-align: inherit;"></font><code>{}</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">当只有一个命令时（例如，在以上示例中），可以省略</font><font style="vertical-align: inherit;">大括号（</font><font style="vertical-align: inherit;">）。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Green猿古一</span>
@@ -852,9 +818,7 @@ _.each(arr, function(elem, index, ar)<font></font>
 <li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在</font></font><em><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/for_each...in"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">for_each ... in</font></font></a></em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">（MDN）中，将其解释</font></font><code>for each (variable in object)</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">为ECMA-357（</font></font><a href="https://developer.mozilla.org/en-US/docs/E4X"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">EAX</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">）标准</font><font style="vertical-align: inherit;">的一部分已弃用</font><font style="vertical-align: inherit;">。</font></font></li>
 <li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/for...of"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">for（...）</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">（MDN）描述了</font></font><code>for (variable of object)</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">作为和声（ECMAScript 6）提议的一部分</font><font style="vertical-align: inherit;">使用的另一种迭代方法</font><font style="vertical-align: inherit;">。</font></font></li>
 </ul></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">凯神无</span>
@@ -868,9 +832,7 @@ $(a).each(function(){console.log(this.valueOf())}); //Method 1<font></font>
 $.each(a, function(){console.log(this.valueOf())}); //Method 2<font></font>
 $.each($(a), function(){console.log(this.valueOf())}); //Method 3<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Near路易小胖</span>
@@ -888,9 +850,7 @@ while(x = y.pop()){ <font></font>
 </code></pre>
 
 <p><code>x</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">将包含的最后一个值，</font></font><code>y</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">并将其从数组中删除。</font><font style="vertical-align: inherit;">您还可以使用来</font></font><code>shift()</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">从中提供和删除第一项</font></font><code>y</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小小西门</span>
@@ -904,9 +864,7 @@ while(x = y.pop()){ <font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">您可以通过</font></font><code>myArray.length</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">向后</font><font style="vertical-align: inherit;">缓存</font><font style="vertical-align: inherit;">或对其进行迭代</font><font style="vertical-align: inherit;">来获得一些性能优化</font><font style="vertical-align: inherit;">。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Davaid番长十三</span>
@@ -938,9 +896,7 @@ for (index in obj) {<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">重要的是要注意，</font></font><code>Array.prototype.forEach</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">回调返回时不会中断</font></font><code>false</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font><a href="http://en.wikipedia.org/wiki/JQuery" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">jQuery</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">和</font></font><a href="http://en.wikipedia.org/wiki/Underscore.js" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Underscore.js</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">提供了它们自己的变体，</font></font><code>each</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">以提供可以短路的循环。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">番长西里神无</span>
@@ -964,9 +920,7 @@ for (var i = 0; i &lt; length; i++) {<font></font>
   // Do something with yourArray[i].<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">LEY蛋蛋Near</span>
@@ -999,9 +953,7 @@ for (var i = 0; i &lt; length; i++) {<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">但是请注意，这种方法仅在数组密集且每个索引都被一个元素占用的情况下才有用。</font><font style="vertical-align: inherit;">如果数组稀疏，则使用此方法会遇到性能问题，因为您将遍历</font><font style="vertical-align: inherit;">数组中</font></font><em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">实际上</font></font></em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">不</font><font style="vertical-align: inherit;">存在</font><font style="vertical-align: inherit;">的许多索引</font><font style="vertical-align: inherit;">。</font><font style="vertical-align: inherit;">在这种情况下，</font></font><code>for .. in</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">-loop可能是一个更好的主意。</font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">但是</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，您必须使用适当的防护措施来确保仅对数组的所需属性（即数组元素）进行操作，因为</font></font><code>for..in</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">-loop还将在旧版浏览器中枚举，或者如果其他属性定义为</font></font><code>enumerable</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在</font></font><a href="https://en.wikipedia.org/wiki/ECMAScript#ECMAScript.2C_5th_Edition" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">ECMAScript 5中</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，数组原型上将有一个forEach方法，但是旧版浏览器不支持该方法。</font><font style="vertical-align: inherit;">因此，要能够始终如一地使用它，您必须具有一个支持它的环境（例如，</font><font style="vertical-align: inherit;">用于服务器端JavaScript的</font></font><a href="http://en.wikipedia.org/wiki/Node.js" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Node.js</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">），或使用“ Polyfill”。</font><font style="vertical-align: inherit;">但是，用于此功能的Polyfill很简单，并且由于它使代码更易于阅读，因此可以很好地包含它。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">猪猪小卤蛋</span>
@@ -1080,9 +1032,7 @@ array</span><span class="pun">.</span><span class="pln">forEach</span><span clas
 </span><span class="pun">}</span><span class="kwd">while</span><span class="pun">(</span><span class="pln">x </span><span class="pun">&lt;</span><span class="pln"> </span><span class="lit">5</span><span class="pun">)</span><span class="pln">
 
 </span><span class="com">// Output: 1,2,3,4</span></code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">D坤</span>
@@ -1100,9 +1050,7 @@ array</span><span class="pun">.</span><span class="pln">forEach</span><span clas
     </span><span class="kwd">let</span><span class="pln"> element </span><span class="pun">=</span><span class="pln"> theArray</span><span class="pun">[</span><span class="pln">idx</span><span class="pun">];</span><span class="pln">
     console</span><span class="pun">.</span><span class="pln">log</span><span class="pun">(</span><span class="pln">element</span><span class="pun">);</span><span class="pln">
 </span><span class="pun">}</span></code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">JinJin小卤蛋</span>
@@ -1131,9 +1079,7 @@ array</span><span class="pun">.</span><span class="pln">forEach</span><span clas
 </ol>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">还有很多其他需要迭代的地方。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">GilJinJin</span>
@@ -1213,9 +1159,7 @@ console</span><span class="pun">.</span><span class="pln">log</span><span class=
 </ul>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">您可以</font></font><code>iteration protocol</code> <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Iteration_protocols" rel="noreferrer" data-bitapp="processed"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在此处</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">了解更多信息</font><font style="vertical-align: inherit;">。  </font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小哥Stafan</span>
@@ -1236,9 +1180,7 @@ console</span><span class="pun">.</span><span class="pln">log</span><span class=
     console</span><span class="pun">.</span><span class="pln">log</span><span class="pun">(</span><span class="str">"value of the looped element"</span><span class="pln"> </span><span class="pun">+</span><span class="pln"> value</span><span class="pun">);</span><span class="pln">
     console</span><span class="pun">.</span><span class="pln">log</span><span class="pun">(</span><span class="str">"index of the looped element"</span><span class="pln"> </span><span class="pun">+</span><span class="pln"> index</span><span class="pun">);</span><span class="pln">
 </span><span class="pun">});</span></code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">神无神无</span>
@@ -1268,9 +1210,7 @@ theArray</span><span class="pun">.</span><span class="pln">forEach</span><span c
 <pre class="lang-js prettyprint prettyprinted" style=""><code><span class="kwd">for</span><span class="pln"> </span><span class="pun">(</span><span class="kwd">let</span><span class="pln"> i</span><span class="pun">=</span><span class="lit">0</span><span class="pun">;</span><span class="pln"> i</span><span class="pun">&lt;</span><span class="pln">theArray</span><span class="pun">.</span><span class="pln">length</span><span class="pun">;</span><span class="pln"> i</span><span class="pun">++)</span><span class="pln"> </span><span class="pun">{</span><span class="pln">
   console</span><span class="pun">.</span><span class="pln">log</span><span class="pun">(</span><span class="pln">i</span><span class="pun">);</span><span class="pln"> </span><span class="com">// i will have the value of each index</span><span class="pln">
 </span><span class="pun">}</span></code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Davaid小宇宙</span>
@@ -1295,9 +1235,7 @@ myArray </span><span class="pun">=</span><span class="pln"> myArray</span><span 
 </span><span class="pun">);</span><span class="pln">
 
 console</span><span class="pun">.</span><span class="pln">log</span><span class="pun">(</span><span class="pln">myArray</span><span class="pun">);</span><span class="pln"> </span><span class="com">// [2, 3, 4]</span></code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">逆天Eva</span>
@@ -1314,9 +1252,7 @@ console</span><span class="pun">.</span><span class="pln">log</span><span class=
 </span><span class="pun">});</span><span class="pln">
 
 </span><span class="com">// newData = [2, 4, 6];</span></code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">达蒙老丝</span>
@@ -1336,9 +1272,7 @@ console</span><span class="pun">.</span><span class="pln">log</span><span class=
 <p><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">缺点：</font></font></strong></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">每当引用为假-假（未定义等）时，这都会中断。</font><font style="vertical-align: inherit;">但是，它可以用作优势。</font><font style="vertical-align: inherit;">但是，这会使阅读起来有些困难。</font><font style="vertical-align: inherit;">而且还可以根据浏览器进行“非”优化，使其比原始浏览器更快地工作。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">梅Davaid</span>
@@ -1353,9 +1287,7 @@ console</span><span class="pun">.</span><span class="pln">log</span><span class=
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">之所以</font></font><code>some</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">可行，是因为一旦按数组顺序执行的任何回调均返回true，则返回true，从而使其余部分的执行短路。 
 </font></font><a href="https://stackoverflow.com/questions/2641347/how-to-short-circuit-array-foreach-like-calling-break" data-bitapp="processed"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">原来的答案</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> 
 参见数组原型</font></font><a href="http://www.ecma-international.org/ecma-262/5.1/#sec-15.4.4.17" rel="noreferrer" data-bitapp="processed"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">一些</font></font></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">LEYJim</span>
@@ -1426,9 +1358,7 @@ document</span><span class="pun">.</span><span class="pln">getElementById</span>
 <p></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">有关数组上函数编程的更多信息和示例，请参阅博客文章</font></font><em><a href="http://cryto.net/~joepie91/blog/2015/05/04/functional-programming-in-javascript-map-filter-reduce/" rel="nofollow noreferrer" data-bitapp="processed"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">JavaScript中</font></font></a></em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">的</font><em><a href="http://cryto.net/~joepie91/blog/2015/05/04/functional-programming-in-javascript-map-filter-reduce/" rel="nofollow noreferrer" data-bitapp="processed"><font style="vertical-align: inherit;">函数编程：map，filter和reduce</font></a></em><font style="vertical-align: inherit;">。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">StafanItachi</span>
@@ -1447,9 +1377,7 @@ document</span><span class="pun">.</span><span class="pln">getElementById</span>
     </span><span class="kwd">var</span><span class="pln"> instance </span><span class="pun">=</span><span class="pln"> objects</span><span class="pun">[</span><span class="pln">i</span><span class="pun">];</span><span class="pln">
     </span><span class="pun">...</span><span class="pln">
 </span><span class="pun">}</span></code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Green猿古一</span>
@@ -1472,9 +1400,7 @@ _</span><span class="pun">.</span><span class="pln">each</span><span class="pun"
 <li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在</font></font><em><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/for_each...in" data-bitapp="processed"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">for_each ... in</font></font></a></em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">（MDN）中，将其解释</font></font><code>for each (variable in object)</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">为ECMA-357（</font></font><a href="https://developer.mozilla.org/en-US/docs/E4X" data-bitapp="processed"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">EAX</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">）标准</font><font style="vertical-align: inherit;">的一部分已弃用</font><font style="vertical-align: inherit;">。</font></font></li>
 <li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/for...of" data-bitapp="processed"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">for（...）</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">（MDN）描述了</font></font><code>for (variable of object)</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">作为和声（ECMAScript 6）提议的一部分</font><font style="vertical-align: inherit;">使用的另一种迭代方法</font><font style="vertical-align: inherit;">。</font></font></li>
 </ul></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Itachi猪猪</span>
@@ -1495,9 +1421,7 @@ _</span><span class="pun">.</span><span class="pln">each</span><span class="pun"
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">where </font></font><code>of</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">避免与之关联的怪异之处，</font></font><code>in</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">并使其像</font></font><code>for</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">任何其他语言</font><font style="vertical-align: inherit;">的</font><font style="vertical-align: inherit;">循环</font><font style="vertical-align: inherit;">一样工作</font><font style="vertical-align: inherit;">，并且</font><font style="vertical-align: inherit;">在循环内</font></font><code>let</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">绑定</font></font><code>i</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">而不是在函数内</font><font style="vertical-align: inherit;">绑定</font><font style="vertical-align: inherit;">。</font></font></p>
 
 <p><font style="vertical-align: inherit;"></font><code>{}</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">当只有一个命令时（例如，在以上示例中），可以省略</font><font style="vertical-align: inherit;">大括号（</font><font style="vertical-align: inherit;">）。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Near路易小胖</span>
@@ -1515,9 +1439,7 @@ _</span><span class="pun">.</span><span class="pln">each</span><span class="pun"
 </code></pre>
 
 <p><code>x</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">将包含的最后一个值，</font></font><code>y</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">并将其从数组中删除。</font><font style="vertical-align: inherit;">您还可以使用来</font></font><code>shift()</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">从中提供和删除第一项</font></font><code>y</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">乐米亚</span>
@@ -1592,9 +1514,7 @@ angular</span><span class="pun">.</span><span class="pln">forEach</span><span cl
 </ul>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我敢肯定，还有其他各种利弊，请随时添加您认为合适的任何内容。</font><font style="vertical-align: inherit;">我认为，最重要的是，如果您需要效率，请坚持使用本机</font></font><code>for</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">循环来满足您的循环需求。</font><font style="vertical-align: inherit;">但是，如果您的数据集较小，并且为了交换可读性和可写性而放弃某种效率是可以的，那么一定要丢掉</font></font><code>angular.forEach</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">那个坏孩子。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">凯神无</span>
@@ -1607,9 +1527,7 @@ angular</span><span class="pun">.</span><span class="pln">forEach</span><span cl
 $</span><span class="pun">(</span><span class="pln">a</span><span class="pun">).</span><span class="pln">each</span><span class="pun">(</span><span class="kwd">function</span><span class="pun">(){</span><span class="pln">console</span><span class="pun">.</span><span class="pln">log</span><span class="pun">(</span><span class="kwd">this</span><span class="pun">.</span><span class="pln">valueOf</span><span class="pun">())});</span><span class="pln"> </span><span class="com">//Method 1</span><span class="pln">
 $</span><span class="pun">.</span><span class="pln">each</span><span class="pun">(</span><span class="pln">a</span><span class="pun">,</span><span class="pln"> </span><span class="kwd">function</span><span class="pun">(){</span><span class="pln">console</span><span class="pun">.</span><span class="pln">log</span><span class="pun">(</span><span class="kwd">this</span><span class="pun">.</span><span class="pln">valueOf</span><span class="pun">())});</span><span class="pln"> </span><span class="com">//Method 2</span><span class="pln">
 $</span><span class="pun">.</span><span class="pln">each</span><span class="pun">(</span><span class="pln">$</span><span class="pun">(</span><span class="pln">a</span><span class="pun">),</span><span class="pln"> </span><span class="kwd">function</span><span class="pun">(){</span><span class="pln">console</span><span class="pun">.</span><span class="pln">log</span><span class="pun">(</span><span class="kwd">this</span><span class="pun">.</span><span class="pln">valueOf</span><span class="pun">())});</span><span class="pln"> </span><span class="com">//Method 3</span></code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小小西门</span>
@@ -1623,9 +1541,7 @@ $</span><span class="pun">.</span><span class="pln">each</span><span class="pun"
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">您可以通过</font></font><code>myArray.length</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">向后</font><font style="vertical-align: inherit;">缓存</font><font style="vertical-align: inherit;">或对其进行迭代</font><font style="vertical-align: inherit;">来获得一些性能优化</font><font style="vertical-align: inherit;">。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">LEY蛋蛋Near</span>
@@ -1658,9 +1574,7 @@ $</span><span class="pun">.</span><span class="pln">each</span><span class="pun"
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">但是请注意，这种方法仅在数组密集且每个索引都被一个元素占用的情况下才有用。</font><font style="vertical-align: inherit;">如果数组稀疏，则使用此方法会遇到性能问题，因为您将遍历</font><font style="vertical-align: inherit;">数组中</font></font><em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">实际上</font></font></em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">不</font><font style="vertical-align: inherit;">存在</font><font style="vertical-align: inherit;">的许多索引</font><font style="vertical-align: inherit;">。</font><font style="vertical-align: inherit;">在这种情况下，</font></font><code>for .. in</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">-loop可能是一个更好的主意。</font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">但是</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，您必须使用适当的防护措施来确保仅对数组的所需属性（即数组元素）进行操作，因为</font></font><code>for..in</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">-loop还将在旧版浏览器中枚举，或者如果其他属性定义为</font></font><code>enumerable</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在</font></font><a href="https://en.wikipedia.org/wiki/ECMAScript#ECMAScript.2C_5th_Edition" rel="noreferrer" data-bitapp="processed"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">ECMAScript 5中</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，数组原型上将有一个forEach方法，但是旧版浏览器不支持该方法。</font><font style="vertical-align: inherit;">因此，要能够始终如一地使用它，您必须具有一个支持它的环境（例如，</font><font style="vertical-align: inherit;">用于服务器端JavaScript的</font></font><a href="http://en.wikipedia.org/wiki/Node.js" rel="noreferrer" data-bitapp="processed"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Node.js</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">），或使用“ Polyfill”。</font><font style="vertical-align: inherit;">但是，用于此功能的Polyfill很简单，并且由于它使代码更易于阅读，因此可以很好地包含它。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">逆天西门</span>
@@ -1684,9 +1598,7 @@ $</span><span class="pun">.</span><span class="pln">each</span><span class="pun"
   </span><span class="com">// Do something with yourArray[i].</span><font></font><span class="pln">
 </span><span class="pun">}</span><font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Davaid番长十三</span>
@@ -1718,9 +1630,7 @@ $</span><span class="pun">.</span><span class="pln">each</span><span class="pun"
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">重要的是要注意，</font></font><code>Array.prototype.forEach</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">回调返回时不会中断</font></font><code>false</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font><a href="http://en.wikipedia.org/wiki/JQuery" rel="noreferrer" data-bitapp="processed"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">jQuery</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">和</font></font><a href="http://en.wikipedia.org/wiki/Underscore.js" rel="noreferrer" data-bitapp="processed"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Underscore.js</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">提供了它们自己的变体，</font></font><code>each</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">以提供可以短路的循环。</font></font></p></div>
-        </div>
-        
-      </div>
-    {% endraw %}
+        </div></div>
+    
   </div>
 <div>

@@ -23,7 +23,7 @@ topic: JavaScript
 </ul></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第228篇《JavaScript中的“ new”关键字是什么？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第228篇《JavaScript中的“ new”关键字是什么？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -37,9 +37,7 @@ topic: JavaScript
 
 <pre><code>obj = new Element();
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">村村小小十三</span>
@@ -48,9 +46,7 @@ topic: JavaScript
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">的</font></font><code>new</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">关键字改变正在运行在其下的功能的上下文和指针返回到该上下文。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">当您不使用</font></font><code>new</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">关键字时，函数在其下</font></font><code>Vehicle()</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">运行的上下文与您从中调用该</font></font><code>Vehicle</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">函数的</font><font style="vertical-align: inherit;">上下文相同</font><font style="vertical-align: inherit;">。</font><font style="vertical-align: inherit;">该</font></font><code>this</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">关键字将指向同一个语境。</font><font style="vertical-align: inherit;">当您使用时</font></font><code>new Vehicle()</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，会创建一个新上下文，因此</font></font><code>this</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">函数内的</font><font style="vertical-align: inherit;">关键字</font><font style="vertical-align: inherit;">引用了新上下文。</font><font style="vertical-align: inherit;">作为回报，您将获得新创建的上下文。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">L前端</span>
@@ -92,9 +88,7 @@ console.log(doggie.__proto__ === Dog.prototype) // true</code></pre>
 <li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">使用</font></font><code>this</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">设置为新对象</font><font style="vertical-align: inherit;">的</font><font style="vertical-align: inherit;">值</font><font style="vertical-align: inherit;">执行构造函数</font><font style="vertical-align: inherit;">。</font><font style="vertical-align: inherit;">在此步骤中，将年龄分配给新创建的小狗对象。</font></font></li>
 <li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">返回新创建的对象，并将其分配给变量doggie。</font></font></li>
 </ol></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">BB</span>
@@ -103,9 +97,7 @@ console.log(doggie.__proto__ === Dog.prototype) // true</code></pre>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Javascript是一种动态编程语言，它支持面向对象的编程范例，并且用于创建对象的新实例。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">类对于对象不是必需的-Javascript是一种</font></font><a href="http://en.wikipedia.org/wiki/Prototype-based_programming" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">基于原型的</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">语言。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">LEY理查德</span>
@@ -130,18 +122,14 @@ b instanceof Foo;     // true<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">现在您可以阅读</font></font><a href="https://stackoverflow.com/questions/1646698/what-is-the-new-keyword-in-javascript#3658673"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">社区Wiki答案了</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">：）</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">阿飞西门</span>
             <span class="discuss-time">2020.03.09</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">JavaScript </font></font><em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">是</font></font></em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">一种面向对象的编程语言，它完全用于创建实例。</font><font style="vertical-align: inherit;">它是基于原型的，而不是基于类的，但这并不意味着它不是面向对象的。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">逆天L</span>
@@ -168,9 +156,7 @@ b instanceof Foo;     // true<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">当您添加</font></font><code>new</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">到函数调用中时，会发生一个新对象（只是</font></font><code>var bar = new Object()</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">）的</font><font style="vertical-align: inherit;">创建</font><font style="vertical-align: inherit;">，</font></font><code>this</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">并且函数内的指向</font></font><code>Object</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">刚创建</font><font style="vertical-align: inherit;">的新</font><font style="vertical-align: inherit;">对象，而不是指向调用该函数的对象。</font><font style="vertical-align: inherit;">所以，</font></font><code>bar</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">现在与属性的对象</font></font><code>A</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">和</font></font><code>B</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font><font style="vertical-align: inherit;">任何函数都可以是构造函数，但这并不总是很有意义。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">阳光逆天</span>
@@ -200,9 +186,7 @@ b instanceof Foo;     // true<font></font>
 
 <pre><code>var obj = new A(1, 2);
 </code></pre></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

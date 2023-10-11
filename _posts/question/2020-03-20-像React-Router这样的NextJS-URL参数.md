@@ -29,7 +29,7 @@ topic: React.js
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在react-router中在这里有一个完美的例子</font></font><a href="https://reacttraining.com/react-router/web/example/url-params" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">https://reacttraining.com/react-router/web/example/url-params</font></font></a></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第2535篇《像React-Router这样的NextJS URL参数》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第2535篇《像React-Router这样的NextJS URL参数》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -52,9 +52,7 @@ topic: React.js
   return app.render(req, res, "/product", { slug: req.params.slug })<font></font>
 })<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">古一</span>
@@ -64,9 +62,7 @@ topic: React.js
  </font></font><a href="https://github.com/fridays/next-routes" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">https://github.com/fridays/next-routes</font></font></a></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">它的工作原理几乎与react-router相同，我已经尝试过了，并且对我有用。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Gil</span>
@@ -75,9 +71,7 @@ topic: React.js
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">本示例将帮助您定义参数化的命名路由。</font><font style="vertical-align: inherit;">它使用嵌套/路由，并让您定义自定义的首选路由。</font><font style="vertical-align: inherit;">希望对您有帮助。</font></font></p>
 
 <p><a href="https://github.com/zeit/next.js/tree/master/examples/with-next-routes" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">https://github.com/zeit/next.js/tree/master/examples/with-next-routes</font></font></a></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

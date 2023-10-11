@@ -123,7 +123,7 @@ ValidationError: Invalid options object. Sass Loader has been initialised using 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如何解决这个问题？</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第4100篇《Sass Loader错误：与API模式不匹配的无效选项对象》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第4100篇《Sass Loader错误：与API模式不匹配的无效选项对象》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -141,9 +141,7 @@ ValidationError: Invalid options object. Sass Loader has been initialised using 
 <pre><code>npm uninstall --save-dev sass-loader<font></font>
 npm install --save-dev sass-loader@7.1.0<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Eva猴子古一</span>
@@ -153,9 +151,7 @@ npm install --save-dev sass-loader@7.1.0<font></font>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">同时，这可能会有所帮助：在package.json中，编辑sass-loader以读取 </font></font><code>"sass-loader": "7.0.1",
 </code></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

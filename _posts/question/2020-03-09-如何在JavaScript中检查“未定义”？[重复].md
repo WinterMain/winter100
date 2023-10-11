@@ -67,7 +67,7 @@ topic: JavaScript
 </code></pre></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第188篇《如何在JavaScript中检查“未定义”？[重复]》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第188篇《如何在JavaScript中检查“未定义”？\[重复\]》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -89,9 +89,7 @@ topic: JavaScript
 </code></pre>
 
 <p>Of course you could just use <code>typeof</code> though. But all my code is usually inside a containing function anyways, so using this method probably saves me a few bytes here and there.</p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Winter</span>
@@ -116,9 +114,7 @@ else {<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">因为它失败了并且炸毁了我的脸，而不是在以前没有声明x的情况下默默地通过/失败。</font><font style="vertical-align: inherit;">这提醒我未声明x。</font><font style="vertical-align: inherit;">我相信应该声明JavaScript中使用的所有变量。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">L泡芙Jim</span>
@@ -130,9 +126,7 @@ else {<font></font>
     return obj === void 0;<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Green蛋蛋</span>
@@ -144,9 +138,7 @@ else {<font></font>
     // ...<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">用户7049302300</span>
@@ -165,9 +157,7 @@ else {<font></font>
   something(param);<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">神无老丝Davaid</span>
@@ -183,9 +173,7 @@ if (someUndeclaredVariable === undefined) { <font></font>
     // Throws an error<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

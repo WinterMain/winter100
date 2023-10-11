@@ -34,7 +34,7 @@ topic: Vue.js
 </code></pre></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第1666篇《在setTimeout之后Vue.js滚动到新页面路由的顶部》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第1666篇《在setTimeout之后Vue.js滚动到新页面路由的顶部》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -65,9 +65,7 @@ topic: Vue.js
 </code></pre>
 
 <p><a href="https://router.vuejs.org/guide/advanced/scroll-behavior.html#scroll-behavior" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">了解更多信息</font></font></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">前端猪猪GO</span>
@@ -100,9 +98,7 @@ topic: Vue.js
   }<font></font>
 });<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">泡芙Green阳光</span>
@@ -129,9 +125,7 @@ router.beforeEach(function (to, from, next) { <font></font>
     transition.next();<font></font>
 });<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">番长路易</span>
@@ -142,9 +136,7 @@ router.beforeEach(function (to, from, next) { <font></font>
 <p><code>document.body.scrollTop = document.documentElement.scrollTop = 0;</code></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在路由的核心组件（在本例中为</font></font><code>Home</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">）</font></font><code>mounted()</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">函数中实现了我想要的。</font></font></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

@@ -17,7 +17,7 @@ topic: React.js
     <div class="article-content"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">除了可以在NavLink上设置“ activeClassName”和“ activeStyle”之外，</font><font style="vertical-align: inherit;">在网站上创建指向非导航元素（例如，页眉或页脚中的非主导航）的其他路线的</font><strong><font style="vertical-align: inherit;">链接</font></strong><font style="vertical-align: inherit;">时</font><font style="vertical-align: inherit;">，是否有任何理由</font><font style="vertical-align: inherit;">在</font><strong><font style="vertical-align: inherit;">链接</font></strong><font style="vertical-align: inherit;">上使用</font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">NavLink</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">不需要活动状态/类？</font></font><strong><font style="vertical-align: inherit;"></font></strong><font style="vertical-align: inherit;"></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第1598篇《React Router v4 <NavLink>与<Link>的优势》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第1598篇《React Router v4 <NavLink>与<Link>的优势》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -30,9 +30,7 @@ topic: React.js
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">简而言之，当您使用时</font><font style="vertical-align: inherit;">，所选元素上</font></font><code>&lt;Link&gt;</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">没有任何</font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">活动</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">类。
 </font></font><br><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">相反，</font></font><code>&lt;NavLink&gt;</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">选中的元素会突出显示，因为此元素被添加了一个活动类。
 </font></font><br><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">希望对您有用。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">TonyPro</span>
@@ -62,9 +60,7 @@ topic: React.js
 <p><a href="https://i.stack.imgur.com/YNApS.png" rel="nofollow noreferrer"><img src="https://i.stack.imgur.com/YNApS.png" alt="在此处输入图片说明"></a></p>
 
 <p>Ref: <a href="https://www.javatpoint.com/react-router" rel="nofollow noreferrer">https://www.javatpoint.com/react-router</a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">梅番长</span>
@@ -79,9 +75,7 @@ topic: React.js
 </blockquote>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">因此，答案是</font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">否定的</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font><font style="vertical-align: inherit;">除上述原因外，没有其他原因。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">樱理查德</span>
@@ -100,9 +94,7 @@ topic: React.js
 
 <pre><code>&lt;NavLink to="/" activeClassName="active"&gt;Home&lt;/NavLink&gt;
 </code></pre></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

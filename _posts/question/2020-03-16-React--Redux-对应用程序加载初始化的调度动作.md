@@ -19,7 +19,7 @@ topic: React.js
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我发现不建议使用Redux核心INIT操作，因此如何在呈现应用程序之前调度操作？</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第1791篇《React / Redux-对应用程序加载/初始化的调度动作》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第1791篇《React / Redux-对应用程序加载/初始化的调度动作》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -103,9 +103,7 @@ topic: React.js
 <font></font>
   export default connect(mapStateToProps)(SwitchAccount);<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Davaid番长十三</span>
@@ -159,9 +157,7 @@ export default connect(<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">然后编写一些redux操作来异步初始化您的应用程序。</font><font style="vertical-align: inherit;">工作请客。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">西门猪猪</span>
@@ -193,9 +189,7 @@ const mapDispatchToProps = {<font></font>
 <font></font>
 export default connect(mapStateToProps, mapDispatchToProps)(App)<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">凯泡芙A</span>
@@ -232,9 +226,7 @@ const App = () =&gt; (<font></font>
   &lt;/Provider&gt;<font></font>
 );<font></font>
 </code></pre></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

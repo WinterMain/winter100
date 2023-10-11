@@ -36,7 +36,7 @@ topic: CSS
 </code></pre></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第3067篇《jQuery SVG，为什么我不能添加类？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第3067篇《jQuery SVG，为什么我不能添加类？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -47,9 +47,7 @@ topic: CSS
             <span class="discuss-time">2020.03.23</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">受以上答案（尤其是Sagar Gala）的启发，我创建了此</font></font><a href="https://github.com/henningit/SVG-class" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">API</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font><font style="vertical-align: inherit;">如果您不希望或无法升级jquery版本，可以使用它。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">蛋蛋猿</span>
@@ -63,9 +61,7 @@ jimmy.addClass("exampleClass");<font></font>
 </code></pre>
 
 <p><a href="http://snapsvg.io/docs/#Element.addClass" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">http://snapsvg.io/docs/#Element.addClass</font></font></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">A乐</span>
@@ -160,9 +156,7 @@ if (hasClass(el, "someClass")) {<font></font>
 }<font></font>
 addClass(el, "someOtherClass");<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">番长</span>
@@ -216,9 +210,7 @@ addClass(el, "someOtherClass");<font></font>
 </div>
 </div>
 <p></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">SamGil</span>
@@ -229,9 +221,7 @@ addClass(el, "someOtherClass");<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">资料来源：</font><a href="http://keith-wood.name/svg.html#dom" rel="noreferrer"><font style="vertical-align: inherit;">http</font></a><font style="vertical-align: inherit;"> : </font></font><a href="http://keith-wood.name/svg.html#dom" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">//keith-wood.name/svg.html#dom</font></font></a></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">工作示例：</font><a href="http://jsfiddle.net/74RbC/99/" rel="noreferrer"><font style="vertical-align: inherit;">http</font></a><font style="vertical-align: inherit;"> : </font></font><a href="http://jsfiddle.net/74RbC/99/" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">//jsfiddle.net/74RbC/99/</font></font></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">LEY樱</span>
@@ -243,9 +233,7 @@ addClass(el, "someOtherClass");<font></font>
     this.classList.add("clicked");<font></font>
 });<font></font>
 </code></pre></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

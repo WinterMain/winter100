@@ -40,7 +40,7 @@ topic: CSS
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">将不胜感激某人的专家意见！</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第2970篇《Firefox的自定义CSS滚动条》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第2970篇《Firefox的自定义CSS滚动条》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -75,9 +75,7 @@ scrollbar[orient="vertical"] {<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">  有关详细信息，</font><font style="vertical-align: inherit;">请访问</font></font><a href="http://codemug.com/html/custom-scrollbars-using-css/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">http://codemug.com/html/custom-scrollbars-using-css/</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小胖</span>
@@ -188,9 +186,7 @@ scrollbar[orient="vertical"] {<font></font>
 </div>
 </div>
 <p></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">猪猪</span>
@@ -240,9 +236,7 @@ scrollbar[orient="vertical"] {<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">最后，为了在Firefox中也隐藏滚动条中的箭头，当前必须</font><font style="vertical-align: inherit;">使用以下规则</font><font style="vertical-align: inherit;">将其设置为“ </font></font><em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">thin</font></font></em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> ”</font></font><code>scrollbar-width: thin;</code></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小卤蛋Pro</span>
@@ -265,9 +259,7 @@ scrollbar[orient="vertical"] {<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">有关演示和更深入的说明，请在此处查看...</font></font></p>
 
 <p><a href="http://jsfiddle.net/aj7bxtjz/1" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">jsfiddle.net/aj7bxtjz/1/</font></font></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Stafan</span>
@@ -283,9 +275,7 @@ scrollbar[orient="vertical"] {<font></font>
 </code></pre>
 
 <p><a href="https://github.com/Aris-t2/CustomCSSforFx/issues/160" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">https://github.com/Aris-t2/CustomCSSforFx/issues/160</font></font></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">卡卡西Near</span>
@@ -319,9 +309,7 @@ scrollbar[orient="vertical"] {<font></font>
 <li><a href="https://github.com/jnicol/trackpad-scroll-emulator" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">https://github.com/jnicol/trackpad-scroll-emulator</font></font></a></li>
 <li><a href="https://github.com/vitch/jScrollPane" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">https://github.com/vitch/jScrollPane</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">（但是它已经过时了，显然是PITA ...）</font></font></li>
 </ul></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

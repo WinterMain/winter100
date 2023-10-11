@@ -19,7 +19,7 @@ topic: JavaScript
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如何识别用户浏览器并重定向（一旦单击安装按钮）下载相应的插件？</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第511篇《如何检测Safari，Chrome，IE，Firefox和Opera浏览器？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第511篇《如何检测Safari，Chrome，IE，Firefox和Opera浏览器？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -36,9 +36,7 @@ topic: JavaScript
     return  navigator ? navigator.userAgent.toLowerCase() : "other";<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Tom十三</span>
@@ -66,18 +64,14 @@ topic: JavaScript
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">现在，您可以使用的值对</font></font><code>result.browser</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">页面进行有条件的编程。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">源教程：</font></font><a href="https://justcode.me/how-to/detect-browser-engine-os-cpu-and-device-using-javascript/" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如何使用JavaScript检测浏览器，引擎，操作系统，CPU和设备？</font></font></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">逆天A前端</span>
             <span class="discuss-time">2020.03.10</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">还有一种不太“ hacky”的方法适用于所有流行的浏览器。</font><font style="vertical-align: inherit;">Google在其</font></font><a href="https://developers.google.com/closure/" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Closure Library中</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">包含了一个浏览器检查</font><font style="vertical-align: inherit;">。</font><font style="vertical-align: inherit;">特别要看一下</font></font><a href="https://google.github.io/closure-library/api/goog.userAgent.html" rel="nofollow noreferrer"><code>goog.userAgent</code></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">和</font></font><a href="https://google.github.io/closure-library/api/goog.userAgent.product.html" rel="nofollow noreferrer"><code>goog.userAgent.product</code></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font><font style="vertical-align: inherit;">这样，如果浏览器显示的方式发生了某些变化，您也可以保持最新（假设您始终运行最新版本的闭包编译器。）</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">逆天西门</span>
@@ -88,9 +82,7 @@ topic: JavaScript
 <pre><code>var match = $window.navigator.userAgent.match(/(?:Chrom(?:e|ium)|Firefox)\/([0-9]+)\./);<font></font>
 var ver = match ? parseInt(match[1], 10) : 0;<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">null</span>
@@ -99,9 +91,7 @@ var ver = match ? parseInt(match[1], 10) : 0;<font></font>
           <div class="discuss-comment"><pre><code>const isChrome = /Chrome/.test(navigator.userAgent)<font></font>
 const isFirefox = /Firefox/.test(navigator.userAgent)<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">JinJin理查德</span>
@@ -129,9 +119,7 @@ console.log(browser)</code></pre>
 </div>
 </div>
 <p></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">番长西里神无</span>
@@ -226,9 +214,7 @@ document.write("You are using " + BrowserDetect.browser +<font></font>
 <li><a href="https://stackoverflow.com/q/2400935/1366033"><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">堆栈溢出-JavaScript中的</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">浏览器检测？</font></font></a></li>
 <li><a href="https://stackoverflow.com/a/49582577/1366033"><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">堆栈溢出</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> -如何检测浏览器的版本？</font></font></a></li>
 </ul></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">飞云Jim梅</span>
@@ -240,9 +226,7 @@ document.write("You are using " + BrowserDetect.browser +<font></font>
 is.ie(6);<font></font>
 is.not.safari();<font></font>
 </code></pre></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

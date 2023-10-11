@@ -91,7 +91,7 @@ export default {<font></font>
 所以以某种方式，如果我将Nuxt降级到1.0.0版，一切正常</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第3932篇《Nuxt JS Apollo数据仅在页面刷新后可用》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第3932篇《Nuxt JS Apollo数据仅在页面刷新后可用》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -106,9 +106,7 @@ export default {<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果有多个产品，则应该在产品上进行迭代，或者</font></font><code>v-if="product != null"</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在产品容器上具有，则仅在从GraphQL提取数据后才会呈现。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这样，仅在真正获取HTML对象时才使用它，并避免读取未定义的属性。</font></font></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

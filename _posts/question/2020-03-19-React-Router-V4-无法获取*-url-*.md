@@ -44,7 +44,7 @@ appContainer)<font></font>
 </code></pre></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第2243篇《React-Router V4-无法获取* url *》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第2243篇《React-Router V4-无法获取\* url \*》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -63,9 +63,7 @@ appContainer)<font></font>
     historyApiFallback: true<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">斯丁JimDavaid</span>
@@ -79,9 +77,7 @@ appContainer)<font></font>
     historyApiFallback: true<font></font>
   },<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小宇宙LEY</span>
@@ -92,9 +88,7 @@ appContainer)<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">将其添加</font></font><code>devServer.historyApiFallback: true</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">到我的webpack配置中（不设置</font></font><code>publicPath</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">），修复了在刷新/返回/转发时看到的404 / Cannot-GET错误，但仅适用于单个级别的嵌套路由。</font><font style="vertical-align: inherit;">换句话说，“ /”和“ / topics”开始正常工作，但是超出此范围的任何内容（例如“ / topics / whatever”）仍然在refresh / etc上抛出404。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">刚刚在这里遇到了一个可以接受的答案：</font></font><a href="https://stackoverflow.com/questions/29718481/unexpected-token-error-in-react-router-component"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">意外的令牌&lt;反应路由器组件中的错误</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，它为我提供了最后丢失的部分。</font></font><code>/</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在我的包脚本src中</font><font style="vertical-align: inherit;">添加引导</font></font><code>index.html</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">已完全解决了该问题。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">米亚伽罗L</span>
@@ -113,9 +107,7 @@ appContainer)<font></font>
 <blockquote>
   <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">404将回退到/index.html</font></font></p>
 </blockquote></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

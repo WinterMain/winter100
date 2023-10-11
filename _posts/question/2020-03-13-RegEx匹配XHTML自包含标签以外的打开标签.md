@@ -59,7 +59,7 @@ topic: HTML
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我有那个权利吗？</font><font style="vertical-align: inherit;">更重要的是，您怎么看？</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第1567篇《RegEx匹配XHTML自包含标签以外的打开标签》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第1567篇《RegEx匹配XHTML自包含标签以外的打开标签》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -72,9 +72,7 @@ topic: HTML
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">尽管为此目的使用正则表达式不适当且无效，但有时正则表达式可以为简单的匹配问题提供快速解决方案，并且在我看来，对于琐碎的工作使用正则表达式并不是那么麻烦。 </font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">有</font></font><a href="http://blog.stevenlevithan.com/archives/match-innermost-html-element" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">一篇</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">关于匹配最里面的HTML元素的权威</font><a href="http://blog.stevenlevithan.com/archives/match-innermost-html-element" rel="noreferrer"><font style="vertical-align: inherit;">博客文章，</font></a><font style="vertical-align: inherit;">这些元素由Steven Levithan撰写。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">凯梅</span>
@@ -84,9 +82,7 @@ topic: HTML
 
 <pre><code>&lt;([a-zA-Z][a-zA-Z0-9]*)[^&gt;]*(?&lt;!/)&gt;
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Green小宇宙伽罗</span>
@@ -101,9 +97,7 @@ topic: HTML
  </font></font><a href="http://gskinner.com/RegExr/"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">//gskinner.com/RegExr/</font></font></a></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">它与您提到的标签类型匹配，而忽略了您想忽略的标签类型。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">飞云小胖</span>
@@ -131,9 +125,7 @@ topic: HTML
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">可以</font><font style="vertical-align: inherit;">将非常规的，甚至不是上下文无关</font><font style="vertical-align: inherit;">的</font></font><sup><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">n</font></font></sup><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> ba </font></font><sup><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">n</font></font></sup><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> ba </font></font><sup><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">n</font></font></sup><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">与</font></font><code>^(a+)b\1b\1$</code></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">反引用</font></font><a href="http://en.wiktionary.org/wiki/FTW" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">FTW</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">！</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Pro伽罗</span>
@@ -171,36 +163,28 @@ topic: HTML
 
 <p>Anyhow it is only a RegExp pattern, but it discloses the possibility to develop of a lot of powerful implementations.<br>
 I wrote this pattern to power the <em>recursive descent parser</em> of a template engine I built in my framework, and performances are really great, both in execution times or in memory usage (nothing to do with other template engines which use the same syntax).</p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">达蒙Jim斯丁</span>
             <span class="discuss-time">2020.03.13</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">正如许多人已经指出的那样，HTML不是一种常规语言，因此很难解析。</font><font style="vertical-align: inherit;">我的解决方案是使用整洁的程序将其转换为常规语言，然后使用XML解析器使用结果。</font><font style="vertical-align: inherit;">为此有很多不错的选择。</font><font style="vertical-align: inherit;">我的程序是使用Java和</font></font><a href="http://jtidy.sourceforge.net/" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">jtidy</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">库</font><font style="vertical-align: inherit;">编写的</font><font style="vertical-align: inherit;">，将HTML转换为XML，然后通过Jaxen将xpath转换为结果。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">神无Tom</span>
             <span class="discuss-time">2020.03.13</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这是一个</font></font><a href="http://kingdesk.com/projects/php-parser/" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">基于PHP的解析器</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，它使用一些不合常规的正则表达式来解析HTML。</font><font style="vertical-align: inherit;">作为该项目的作者，我可以告诉您可以使用正则表达式解析HTML，但是效率不高。</font><font style="vertical-align: inherit;">如果您需要服务器端解决方案（就像我为</font></font><a href="http://wordpress.org/extend/plugins/wp-typography/" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">wp-Typography WordPress插件</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">所做的那样</font><font style="vertical-align: inherit;">），则可以使用。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">乐Eva</span>
             <span class="discuss-time">2020.03.13</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我以前使用过一个名为</font></font><a href="http://htmlparser.sourceforge.net/"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">HTMLParser的</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">开源工具</font><font style="vertical-align: inherit;">。</font><font style="vertical-align: inherit;">它旨在以各种方式解析HTML，并且很好地达到了目的。</font><font style="vertical-align: inherit;">它可以将HTML解析为不同的treenode，并且您可以轻松地使用其API从节点中获取属性。</font><font style="vertical-align: inherit;">检查一下，看看是否可以帮到您。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">猴子阳光</span>
@@ -219,9 +203,7 @@ I wrote this pattern to power the <em>recursive descent parser</em> of a templat
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">对于Python和Java，发布了类似的链接。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">对于下注者-我仅在XML解析器证明无法承受实际使用时编写类。</font><font style="vertical-align: inherit;">宗教否决只会阻止发布有用的答案-请使问题保持​​在问题的角度之内。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小胖Gil</span>
@@ -235,9 +217,7 @@ I wrote this pattern to power the <em>recursive descent parser</em> of a templat
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">您能否提供更多有关您要解决的问题的信息？</font><font style="vertical-align: inherit;">您是否以编程方式遍历标签？</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">猴子猿</span>
@@ -249,9 +229,7 @@ I wrote this pattern to power the <em>recursive descent parser</em> of a templat
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">它与您的相似，但是最后一个</font></font><code>&gt;</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">不能在斜杠之后，并且也可以接受</font></font><code>h1</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Davaid古一</span>
@@ -264,9 +242,7 @@ I wrote this pattern to power the <em>recursive descent parser</em> of a templat
 <blockquote>
   <p><em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">它是一个.NET代码库，可让您解析“网络外” HTML文件。</font><font style="vertical-align: inherit;">解析器对“真实世界”格式的HTML非常宽容。</font></font></em></p>
 </blockquote></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Tony阳光</span>
@@ -277,9 +253,7 @@ I wrote this pattern to power the <em>recursive descent parser</em> of a templat
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">遵循了var链接</font></font><code>QName</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，</font></font><code>S</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">以及</font></font><code>Attribute</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">获得更清晰的画面。</font></font><br><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
 基于此，您可以创建一个很好的正则表达式来处理诸如剥离标签之类的事情。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Itachi村村</span>
@@ -306,9 +280,7 @@ regular language.<font></font>
 is defined within the phrase<font></font>
 &lt;([a-zA-Z]+)(?:[^&gt;]*[^/]*)?&gt;<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">木心小哥</span>
@@ -331,9 +303,7 @@ is defined within the phrase<font></font>
 <p><font style="vertical-align: inherit;"></font><code>(?&lt;! ... )</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">（在Perl正则表达式中）负向查找在</font><font style="vertical-align: inherit;">哪里</font><font style="vertical-align: inherit;">。</font><font style="vertical-align: inherit;">它显示为“一个&lt;，然后是一个单词，然后是不是&gt;的任何内容，最后一个可能不是/，后跟&gt;”。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">请注意，这允许类似</font></font><code>&lt;a/ &gt;</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">（与原始正则表达式一样）的东西，因此，如果您想要更严格的限制，则需要构建一个正则表达式以匹配用空格分隔的属性对。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">番长神乐小小</span>
@@ -357,18 +327,14 @@ is defined within the phrase<font></font>
 <li><a href="https://blog.codinghorror.com/regular-expressions-now-you-have-two-problems/" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">正则表达式：现在您有两个问题</font></font></a></li>
 <li><a href="http://danlec.com/blog/hacking-stackoverflow-com-s-html-sanitizer" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">黑客stackoverflow.com的HTML清理器</font></font></a></li>
 </ul></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">米亚十三Harry</span>
             <span class="discuss-time">2020.03.13</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我建议使用</font></font><a href="http://querypath.org/" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">QueryPath</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在PHP中解析XML和HTML。</font><font style="vertical-align: inherit;">它的语法基本上与jQuery相同，只是在服务器端。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Near神奇</span>
@@ -377,9 +343,7 @@ is defined within the phrase<font></font>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我认为这里的缺点是HTML是</font></font><a href="http://en.wikipedia.org/wiki/Context-free_grammar" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Chomsky Type 2语法（无上下文语法），</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">而RegEx是</font></font><a href="http://en.wikipedia.org/wiki/Regular_grammar" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Chomsky Type 3语法（常规语法）</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font><font style="vertical-align: inherit;">由于类型2语法从根本上比类型3语法复杂（请参阅</font></font><a href="http://en.wikipedia.org/wiki/Chomsky_hierarchy" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Chomsky层次结构</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">），因此从</font></font><em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">数学</font></font></em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">上讲</font><font style="vertical-align: inherit;">，</font><em><font style="vertical-align: inherit;">无法</font></em><font style="vertical-align: inherit;">使用RegEx解析XML。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">但是许多人会尝试，有些甚至会声称成功-但直到其他人发现错误并完全把您弄乱为止。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">null</span>
@@ -390,9 +354,7 @@ is defined within the phrase<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果您想从一小撮HTML页面中抓取数据，然后将它们填充到数据库中，则正则表达式可能会正常工作。</font><font style="vertical-align: inherit;">例如，我最近想获得我从议会网站上获得的澳大利亚联邦代表的姓名，政党和地区。</font><font style="vertical-align: inherit;">这是一项有限的一次性工作。  </font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">正则表达式对我来说效果很好，并且安装起来非常快。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">猿村村</span>
@@ -411,9 +373,7 @@ is defined within the phrase<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我本人还没有完成最后一部分，但是我知道我已经接近了。</font></font><code>CthulhuRlyehWgahnaglFhtagnException</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">由于某种原因，</font><font style="vertical-align: inherit;">它总是抛出</font><font style="vertical-align: inherit;">s，因此我将其移植到VB 6并使用</font></font><code>On Error Resume Next</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font><font style="vertical-align: inherit;">一旦调查了刚刚在墙上打开的这扇奇怪的门，我将更新代码。</font><font style="vertical-align: inherit;">嗯</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">PS Pierre de Fermat也想出了办法，但是他所写的利润不足以编写代码。</font></font></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

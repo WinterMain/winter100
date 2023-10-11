@@ -45,7 +45,7 @@ topic: JavaScript
 </code></pre></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第893篇《如何确定Javascript数组是否包含属性等于给定值的对象？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第893篇《如何确定Javascript数组是否包含属性等于给定值的对象？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -63,9 +63,7 @@ topic: JavaScript
 </code></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">结果：没有2（[{{id：1}，{id：1}，{id：2}]，{id：2}）</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">長ぐつをはいたネコ</span>
@@ -115,9 +113,7 @@ topic: JavaScript
 <font></font>
 const found = arrayIncludesInObj(ceos, "name", "Tim Bezos"); // false<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">乐米亚</span>
@@ -129,9 +125,7 @@ if (b) {<font></font>
    ...<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">番长神无</span>
@@ -141,9 +135,7 @@ if (b) {<font></font>
 
 <pre><code>const find = (key, needle) =&gt; return !!~vendors.findIndex(v =&gt; (v[key] === needle));
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">nick</span>
@@ -184,9 +176,7 @@ console.log(arr);<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">希望我的回答有帮助。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">飞云古一</span>
@@ -205,9 +195,7 @@ console.log(arr);<font></font>
     console.log(results[i].ID);<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">马克</span>
@@ -225,9 +213,7 @@ vendors.forEach(function(item){<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如今我已经习惯了，因为它简单易懂。</font><font style="vertical-align: inherit;">谢谢。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">JinJin达蒙</span>
@@ -243,9 +229,7 @@ vendors.forEach(function(item){<font></font>
 <p><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">注意：</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">   reduce的初始参数是a </font></font><code>false</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，如果数组具有键，它将返回true。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">希望它有助于更​​好，更干净地执行代码</font></font></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

@@ -73,7 +73,7 @@ export class Login extends Component&lt;LoginProps, {}&gt; {<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">谢谢</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第1003篇《TypeScript：React事件类型》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第1003篇《TypeScript：React事件类型》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -92,9 +92,7 @@ export class Login extends Component&lt;LoginProps, {}&gt; {<font></font>
   //for html form elements<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">L</span>
@@ -138,9 +136,7 @@ interface SyntheticEvent {<font></font>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">另请查看以下链接以获取更多说明：
  </font></font><a href="https://stackoverflow.com/questions/28900077/why-is-event-target-not-element-in-typescript"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">为什么Event.target不是Typescript中的Element？</font></font></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">EvaGil</span>
@@ -157,9 +153,7 @@ submit = (e:  ButtonEvent): void =&gt; {<font></font>
     e.preventDefault();<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">飞云A</span>
@@ -183,9 +177,7 @@ submit = (e:  ButtonEvent): void =&gt; {<font></font>
     this.props.login[e.currentTarget.name] = e.currentTarget.value<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">GO小胖</span>
@@ -198,9 +190,7 @@ submit = (e:  ButtonEvent): void =&gt; {<font></font>
     this.props.login[target.name] = target.value;<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

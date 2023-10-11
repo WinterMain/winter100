@@ -29,7 +29,7 @@ topic: Node.js
 </ul></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第3530篇《mongoError：拓扑已被破坏》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第3530篇《mongoError：拓扑已被破坏》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -40,9 +40,7 @@ topic: Node.js
             <span class="discuss-time">2020.03.24</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">您需要转到“ </font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">连接</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> ”菜单，然后单击“ </font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">连接到...</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> ”子菜单。</font><font style="vertical-align: inherit;">这将打开一个新的</font></font><em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">MongoDB Compass社区</font></font></em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">窗口，您可以通过该窗口再次进行连接。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">番长猴子</span>
@@ -54,9 +52,7 @@ topic: Node.js
 <li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">确保mongo正在运行</font></font></li>
 <li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">重新启动我的服务器</font></font></li>
 </ol></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">GO</span>
@@ -69,9 +65,7 @@ topic: Node.js
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">而且，关闭所有我可以想象的应用程序之后，我仍然无法在Mac的活动监视器中找到正在使用此端口的进程。</font><font style="vertical-align: inherit;">我必须使用</font></font><code>lsof</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">跟踪。</font><font style="vertical-align: inherit;">罪魁祸首并不奇怪-这是一个节点过程。</font><font style="vertical-align: inherit;">但是，使用终端中显示的PID，我发现监视器中的端口号与服务器使用的端口号不同。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">总而言之，杀死所有节点进程可以直接解决这个问题。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">宝儿</span>
@@ -92,9 +86,7 @@ mongoose.connect(dbUrl,options, function(<font></font>
 <font></font>
 });<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">卡卡西</span>
@@ -113,9 +105,7 @@ mongoose.connect(dbUrl,options, function(<font></font>
 <font></font>
 mongoose.connect(mongoDevString,mongoOptions);<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">猴子Davaid</span>
@@ -130,9 +120,7 @@ mongoose.connect(config.mongoConnectionString, options, (err) =&gt; {<font></fon
     }<font></font>
 });<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">DavaidTony宝儿</span>
@@ -146,9 +134,7 @@ mongoose.connect(config.mongoConnectionString, options, (err) =&gt; {<font></fon
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">运行该命令后，我能够创建数据库。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">希望能帮助到你。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小宇宙</span>
@@ -168,9 +154,7 @@ mongodb://server-1:27017,server-2:27017,server-3:27017/mydb?replicaSet=myReplSet
 </code></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">详细信息在这里：</font></font><a href="https://docs.mongodb.com/manual/reference/connection-string/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">[连接字符串的mongo doc]</font></font></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">蛋蛋</span>
@@ -193,9 +177,7 @@ mongodb://server-1:27017,server-2:27017,server-3:27017/mydb?replicaSet=myReplSet
     reconnectInterval: 1000<font></font>
 });<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">神乐</span>
@@ -211,9 +193,7 @@ mongoose.connect(secrets.db, options);<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我希望此答复可以帮助其他人遇到“拓扑已被破坏”错误。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">番长猴子</span>
@@ -237,9 +217,7 @@ mongoose.connect(secrets.db, options);<font></font>
 </code></pre>
 
 <p><a href="http://mongodb.github.io/node-mongodb-native/2.2/reference/connecting/connection-settings/" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">连接选项文档</font></font></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">斯丁</span>
@@ -253,9 +231,7 @@ mongoose.connect(secrets.db, options);<font></font>
 <font></font>
 await mongoose.disconnect();<font></font>
 </code></pre></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

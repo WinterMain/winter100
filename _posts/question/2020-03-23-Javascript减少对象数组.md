@@ -33,7 +33,7 @@ arr.reduce(function(a,b){return a + b})<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我在第一个示例中做错了什么？</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第2819篇《Javascript减少对象数组》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第2819篇《Javascript减少对象数组》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -46,9 +46,7 @@ arr.reduce(function(a,b){return a + b})<font></font>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">您不应该将ax用作累加器，而是可以像`arr = [{x：1}，{x：2}，{x：4}]这样操作</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">arr.reduce（function（a，b）{a + bx}，0）`</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">十三小宇宙</span>
@@ -60,9 +58,7 @@ arr.reduce(function(a,b){return a + b})<font></font>
 (a,b) =&gt; (a.x || a) + b.x <font></font>
 )<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">番长猴子</span>
@@ -103,9 +99,7 @@ arr.reduce(function(a,b){return a.x + b.x})<font></font>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这里是链接：
  </font></font><a href="https://github.com/lodash/lodash/blob/master/reduce.js" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">减少源代码</font></font></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">飞云</span>
@@ -119,9 +113,7 @@ arr.reduce(function(a,b){return a.x + b.x})<font></font>
 </code></pre>
 
 <hr></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">乐米亚</span>
@@ -152,9 +144,7 @@ arr.reduce(function(a,b){return a.x + b.x})<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如您所见，reduce方法多次执行回调函数。</font><font style="vertical-align: inherit;">对于每次，它都会获取数组中该项的当前值，并与累加器求和。</font><font style="vertical-align: inherit;">因此，要正确求和，需要将累加器的初始值设置为reduce方法的第二个参数。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">现在您有了新的const和，其值为30。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">伽罗理查德</span>
@@ -171,9 +161,7 @@ arr.reduce(function(a,b){return a + b.x})<font></font>
 <pre><code>arr = [{x:1},{x:2},{x:4}]<font></font>
 arr.reduce(function(a,b){return {x: a.x + b.x}; }) <font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">斯丁</span>
@@ -187,9 +175,7 @@ arr.map(function(a) {return a.x;})<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">诚然，它可能会稍慢一些，但我认为值得一提。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小卤蛋</span>
@@ -233,9 +219,7 @@ arr.reduce((a, b) =&gt; ({x: a.x + b.x}));<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">许多文字</font></font><code>3</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">不（通常）有一个叫做财产</font></font><code>x</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">所以它</font></font><code>undefined</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">和   </font></font><code>undefined + b.x</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">回报</font></font><code>NaN</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，并</font></font><code>NaN + &lt;anything&gt;</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">始终</font></font><code>NaN</code></p>
 
 <p><em>Clarification</em>: I prefer my method over the other top answer in this thread as I disagree with the idea that passing an optional parameter to reduce with a magic number to get out a number primitive is cleaner. It may result in fewer lines written but imo it is less readable.</p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">神乐卡卡西</span>
@@ -253,9 +237,7 @@ console.log(arr);</code></pre>
 <p></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">第一次调用匿名函数时，将使用调用</font></font><code>(0, {x: 1})</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">并返回</font></font><code>0 + 1 = 1</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font><font style="vertical-align: inherit;">下次，它被调用</font></font><code>(1, {x: 2})</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">并返回</font></font><code>1 + 2 = 3</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font><font style="vertical-align: inherit;">然后调用</font></font><code>(3, {x: 4})</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，最后返回</font></font><code>7</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

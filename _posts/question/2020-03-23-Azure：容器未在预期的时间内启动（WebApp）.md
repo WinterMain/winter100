@@ -111,7 +111,7 @@ app.prepare()<font></font>
 </code></pre></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第2770篇《Azure：容器未在预期的时间内启动（WebApp）》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第2770篇《Azure：容器未在预期的时间内启动（WebApp）》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -122,9 +122,7 @@ app.prepare()<font></font>
             <span class="discuss-time">2020.03.23</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">对我来说，同时设置</font></font><code>-Port 80</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">和</font></font><code>-WEBSITES_PORT 80</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在</font></font><code>Azure App Service Deploy</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">任务中，</font></font><code>App Settings</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在蔚蓝的DEVOPS节帮助。</font><font style="vertical-align: inherit;">它使docker从端口80而不是8000开始。这是</font><font style="vertical-align: inherit;">该任务的应用程序设置用法</font></font><a href="https://docs.microsoft.com/en-us/azure/devops/pipelines/tasks/deploy/azure-rm-web-app-deployment?view=azure-devops" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">示例</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

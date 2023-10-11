@@ -34,7 +34,7 @@ topic: Node.js
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如何测量这些数据库插入操作所花费的时间？</font><font style="vertical-align: inherit;">我可以计算这段代码前后的日期值之差，但是由于代码的异步特性，这将是不正确的。</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第2137篇《如何使用回调测量JavaScript代码的执行时间？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第2137篇《如何使用回调测量JavaScript代码的执行时间？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -54,18 +54,14 @@ topic: Node.js
 <p>These time() and timeEnd() use the existing hrtime() function, which give high-resolution real time.</p>
 
 <p>Hope this helps.</p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">番长猿阳光</span>
             <span class="discuss-time">2020.03.18</span>
           </div>
           <div class="discuss-comment"><p>You could give <a href="http://benchmarkjs.com/" rel="nofollow">Benchmark.js</a> a try. It supports many platforms among them also node.js. </p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">乐小胖</span>
@@ -86,9 +82,7 @@ for(var i = 1; i &lt; LIMIT; i++){<font></font>
     });<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Stafan小胖</span>
@@ -108,9 +102,7 @@ end = function(err, saved) {<font></font>
     if(--i === 1){console.timeEnd("dbsave");}<font></font>
 };<font></font>
 </code></pre></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

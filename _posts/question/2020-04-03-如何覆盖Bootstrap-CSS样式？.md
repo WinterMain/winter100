@@ -56,7 +56,7 @@ topic: CSS
 </code></pre></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第3995篇《如何覆盖Bootstrap CSS样式？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第3995篇《如何覆盖Bootstrap CSS样式？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -71,9 +71,7 @@ topic: CSS
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">找到要更改的项目（检查元素）并使用完全相同的声明，它将被覆盖。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我花了一些时间来解决这个问题。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">梅</span>
@@ -100,9 +98,7 @@ color:#006699;<font></font>
 <font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">卡卡西Near</span>
@@ -122,9 +118,7 @@ color:#006699;<font></font>
   border-bottom: 1px solid #e5e5e5;<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Tony凯</span>
@@ -167,9 +161,7 @@ $theme-colors: (<font></font>
 </code></pre></li>
 </ul></li>
 </ol></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">null</span>
@@ -178,9 +170,7 @@ $theme-colors: (<font></font>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果您打算进行任何较大的更改，那么最好直接在引导程序本身中进行更改并重建它。</font><font style="vertical-align: inherit;">然后，您可以减少加载的数据量。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">请参考</font></font><a href="https://github.com/twbs/bootstrap" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">GitHub上的Bootstrap</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">以获得构建指南。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">古一</span>
@@ -195,9 +185,7 @@ $theme-colors: (<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">复制custom.css中所有图例的样式定义并进行更改（例如margin-bottom：5px;-这将覆盖margin-bottom：20px;）</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Itachi</span>
@@ -213,9 +201,7 @@ $theme-colors: (<font></font>
 <li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果您不想丢失媒体查询，请始终在custom.css之后加载bootstrap-sensitive.css。</font><font style="vertical-align: inherit;">-必须遵循</font></font></li>
 <li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">最好修改必需的属性（并非全部）。</font></font></li>
 </ol></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">番长</span>
@@ -237,9 +223,7 @@ $theme-colors: (<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">可能的值为：</font></font><code>initial</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，</font></font><code>inherit</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">＆</font></font><code>unset</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">旁注：</font></font><code>clear</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">属性与</font></font><code>float</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">（</font></font><a href="https://css-tricks.com/almanac/properties/c/clear/" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">https://css-tricks.com/almanac/properties/c/clear/</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">）相关联</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小胖</span>
@@ -287,9 +271,7 @@ $theme-colors: (<font></font>
 </font></font><a href="http://css-tricks.com/specifics-on-css-specificity/"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">http://css-tricks.com/specifics-on-css-specificity/</font></font></a></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">其他一切都只是复制/粘贴和编辑样式的问题。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">飞云</span>
@@ -332,9 +314,7 @@ h1 { /* 1 priority score, not enough to override Bootstrap jumbotron definition 
   color: inherit;<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

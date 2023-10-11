@@ -29,7 +29,7 @@ export default withRouter(Foo);<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这是做什么用的，什么时候应该使用？</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第1534篇《在react-router-dom中withRouter有什么用？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第1534篇《在react-router-dom中withRouter有什么用？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -45,9 +45,7 @@ export default withRouter(Foo);<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">并且匹配和位置繁荣，以便能够更改位置并使用this.props.history.push，应该为每个组件属性提供该属性。必须提供，但是使用WithRouter时，可以访问位置并进行匹配，而无需添加属性历史记录可以访问方向，而无需为每个路径添加属性历史记录。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">飞云西里神乐</span>
@@ -84,9 +82,7 @@ const ShowTheLocationWithRouter = withRouter(ShowTheLocation);<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在</font></font><a href="https://github.com/ReactTraining/react-router/blob/e634f0bad7796d128a4c4e2c4678487dd7256be2/packages/react-router/docs/api/withRouter.md" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这里</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">可以找到更多信息</font><font style="vertical-align: inherit;">。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">null</span>
@@ -117,9 +113,7 @@ class ShowTheLocation extends React.Component {<font></font>
 // terminology) to the router.<font></font>
 const ShowTheLocationWithRouter = withRouter(ShowTheLocation);<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">理查德十三Davaid</span>
@@ -147,9 +141,7 @@ const ShowTheLocationWithRouter = withRouter(ShowTheLocation);<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这使</font></font><code>Header</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">组件可以访问</font></font><code>this.props.history</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，这意味着标题现在可以重定向用户。</font></font></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

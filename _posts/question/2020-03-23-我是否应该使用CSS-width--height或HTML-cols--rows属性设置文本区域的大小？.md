@@ -25,7 +25,7 @@ topic: CSS
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">通常如何做？</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第2892篇《我是否应该使用CSS width / height或HTML cols / rows属性设置文本区域的大小？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第2892篇《我是否应该使用CSS width / height或HTML cols / rows属性设置文本区域的大小？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -43,9 +43,7 @@ min-height: 900px;  <font></font>
 }<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">乐米亚</span>
@@ -56,9 +54,7 @@ min-height: 900px;  <font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">通常，在我的情况下，仅</font></font><code>width</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">和</font></font><code>rows</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">需要，文本区域相对于其他元素看起来不错。</font><font style="vertical-align: inherit;">（</font></font><code>cols</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如其他答案所述，如果有人不使用CSS，</font><font style="vertical-align: inherit;">这</font><font style="vertical-align: inherit;">是一个后备方法。）</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">（（同时指定两者</font></font><code>rows</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，</font></font><code>height</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">感觉有点像我想复制数据吗？）</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">达蒙</span>
@@ -70,27 +66,21 @@ min-height: 900px;  <font></font>
 </code></pre>
 
 <p><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在angularjs和angular7中测试</font></font></strong></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">十三</span>
             <span class="discuss-time">2020.03.23</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">根据w3c，cols和row都是textareas必需的属性。</font><font style="vertical-align: inherit;">行和列是要适合文本区域的字符数，而不是像素或其他可能的任意值。</font><font style="vertical-align: inherit;">与行/列。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">伽罗</span>
             <span class="discuss-time">2020.03.23</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">答案是“是”。</font><font style="vertical-align: inherit;">也就是说，您应该同时使用两者。</font><font style="vertical-align: inherit;">没有行和列（即使没有显式使用它们也有默认值），如果CSS被用户样式表禁用或覆盖，则文本区域将变得很小。</font><font style="vertical-align: inherit;">始终牢记可访问性问题。</font><font style="vertical-align: inherit;">就是说，如果允许样式表控制文本区域的外观，则通常会得到看起来更好的东西，可以很好地适合整个页面设计，</font></font><em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">并且</font></font></em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">可以调整大小以跟上用户输入（当然，在好味道的范围内）。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">DavaidTony宝儿</span>
@@ -107,18 +97,14 @@ min-height: 900px;  <font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这将触发浏览器将textarea的高度精确设置为行数加上周围的填充。</font><font style="vertical-align: inherit;">将CSS高度设置为精确的像素数量会留下任意空格。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">JinJin</span>
             <span class="discuss-time">2020.03.23</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">文本区域的大小可以由cols和rows属性指定，甚至更好；</font><font style="vertical-align: inherit;">通过CSS的height和width属性。</font><font style="vertical-align: inherit;">所有主要浏览器均支持cols属性。</font><font style="vertical-align: inherit;">一个主要区别是</font></font><code>&lt;TEXTAREA ...&gt;</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">容器标记：它具有开始标记（）。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">猪猪</span>
@@ -138,9 +124,7 @@ min-height: 900px;  <font></font>
 </div>
 </div>
 <p></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

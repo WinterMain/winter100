@@ -19,7 +19,7 @@ topic: CSS
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">有没有一种方法可以创建可将表达式传递给的mixin或函数，以便生成所需的标签，然后将其设置为a </font></font><code>width</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">或</font></font><code>height</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">？</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第2308篇《如何创建calc mixin作为表达式传递以生成标签？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第2308篇《如何创建calc mixin作为表达式传递以生成标签？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -50,9 +50,7 @@ topic: CSS
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">当不支持calc时，您可能需要包括一个“默认”值。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小宇宙理查德</span>
@@ -73,9 +71,7 @@ topic: CSS
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我认为这是一种更优雅的方式。</font></font></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

@@ -114,7 +114,7 @@ export default class App extends React.Component {<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">有任何想法吗？</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第3460篇《使用Webpack ExtractTextPlugin获取CSS输出》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第3460篇《使用Webpack ExtractTextPlugin获取CSS输出》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -161,9 +161,7 @@ module.exports = {<font></font>
     ]<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">樱小胖Mandy</span>
@@ -172,9 +170,7 @@ module.exports = {<font></font>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">一起</font><font style="vertical-align: inherit;">使用</font></font><code>css-loader</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">和</font></font><code>style-loader</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">一起解析CSS，然后将其转换为样式节点，可以像代码一样将其导入Webpack。</font><font style="vertical-align: inherit;">我不明白您为什么要在JavaScript和CSS之间建立这种人为的关系。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">最后，以上方法再次发出CSS。</font><font style="vertical-align: inherit;">为什么要像这样往返进行代码？</font><font style="vertical-align: inherit;">使用</font></font><a href="https://github.com/webpack-contrib/raw-loader" rel="nofollow noreferrer"><code>raw-loader</code></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">主CSS文件并将其添加到入口点。</font><font style="vertical-align: inherit;">您会丢失</font></font><code>css-loader</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">执行的</font><font style="vertical-align: inherit;">所有错误检查</font><font style="vertical-align: inherit;">，但是编译会快得多。</font><font style="vertical-align: inherit;">但是，如果您使用</font></font><code>sass-loader</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，则仍然会得到所有错误检查。</font></font></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

@@ -19,7 +19,7 @@ topic: JavaScript
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">示例：从“您的姓名”到“您的姓名”</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第294篇《将JavaScript字符串全部转换为小写吗？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第294篇《将JavaScript字符串全部转换为小写吗？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -36,18 +36,14 @@ topic: JavaScript
 </code></pre>
 
 <p><a href="http://jsfiddle.net/oneofthelions/z45ygobL/" rel="nofollow">Demo - JSFiddle</a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Davaid古一</span>
             <span class="discuss-time">2020.03.09</span>
           </div>
           <div class="discuss-comment"><p>you can use the in built .toLowerCase() method on javascript strings. ex: var x = "Hello"; x.toLowerCase();</p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Tony飞云</span>
@@ -80,9 +76,7 @@ return lowerCaseString<font></font>
 </code></pre>
 
 <p>}</p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小小Jim</span>
@@ -92,9 +86,7 @@ return lowerCaseString<font></font>
 <code>let v = "Your Name"
  let u = v.toLowerCase();</code> or<br>
 <code>let u = "Your Name".toLowerCase();</code></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Stafan番长</span>
@@ -104,9 +96,7 @@ return lowerCaseString<font></font>
 
 <pre><code>  document.write((a+"").toUpperCase());
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">逆天乐</span>
@@ -145,9 +135,7 @@ document.write(result);<font></font>
 <pre><code>toUpperCase() method converts any string to "UPPER" case letters.<font></font>
 toLowerCase() method converts any string to "lower" case letters.<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">十三西里GO</span>
@@ -180,9 +168,7 @@ x=x.toLowerCase();<font></font>
 
 <pre><code>x= convertToLowerCase(x);
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">猿蛋蛋凯</span>
@@ -210,9 +196,7 @@ So I tried this piece of code, which revealed the problem!</p>
 </code></pre>
 
 <p>After the cast, the extension.toLowerCase() function worked fine.</p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">DavaidL</span>
@@ -220,9 +204,7 @@ So I tried this piece of code, which revealed the problem!</p>
           </div>
           <div class="discuss-comment"><pre><code>var lowerCaseName = "Your Name".toLowerCase();
 </code></pre></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

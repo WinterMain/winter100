@@ -17,7 +17,7 @@ topic: HTML
     <div class="article-content"><p><font style="vertical-align: inherit;"></font><code>&lt;section&gt;</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">和</font></font><code>&lt;div&gt;</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">in有</font></font><code>HTML</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">什么</font><font style="vertical-align: inherit;">区别</font><font style="vertical-align: inherit;">？</font></font><br><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我们不是在两种情况下都定义了节吗？</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第1757篇《<section>和<div>有什么区别？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第1757篇《<section>和<div>有什么区别？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -34,9 +34,7 @@ topic: HTML
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">的</font></font><code>&lt;div&gt;</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">标签定义的划分或HTML文档中的一个部分。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">该</font></font><code>&lt;div&gt;</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">标记用于组块元件，以将它们与CSS格式化。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Tom西里路易</span>
@@ -76,9 +74,7 @@ topic: HTML
 <li><a href="https://teamtreehouse.com/community/use-div-or-section-element" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">https://teamtreehouse.com/community/use-div-or-section-element</font></font></a></li>
 <li><a href="http://webdesign.about.com/od/html5tags/fl/div-vs-section.htm" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">http://webdesign.about.com/od/html5tags/fl/div-vs-section.htm</font></font></a></li>
 </ul></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">十三小哥</span>
@@ -93,9 +89,7 @@ topic: HTML
 <p><code>&lt;header&gt;</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> 是标题和菜单栏。</font></font></p>
 
 <p><code>&lt;footer&gt;</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> 是状态栏。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">神乐Green</span>
@@ -106,9 +100,7 @@ topic: HTML
 <p><em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">总体上差别不大。</font></font></em></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">此外，不建议把</font></font><code>&lt;section&gt;</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在</font></font><code>&lt;section&gt;</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，而不是放置</font></font><code>&lt;div&gt;</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">内</font></font><code>&lt;section&gt;</code></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">米亚猴子</span>
@@ -139,9 +131,7 @@ topic: HTML
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这种策略使网络机器人和自动屏幕阅读器可以更好地理解您的内容流。</font><font style="vertical-align: inherit;">该标记明确定义了主要页面内容的包含位置。</font><font style="vertical-align: inherit;">当然，页眉和页脚通常在网站的数百甚至数千页面中很常见。</font><font style="vertical-align: inherit;">该</font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">部分</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">标签应限于解释这里独特的内容包含。</font><font style="vertical-align: inherit;">然后，</font><font style="vertical-align: inherit;">在</font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">section</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">标签内，我们应继续使用层次结构中较低的HTML标签（例如</font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">h1</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，</font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">div</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，</font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">span</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">等）</font><font style="vertical-align: inherit;">来标记和控制内容</font><font style="vertical-align: inherit;">。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在大多数简单页面中，应该只有一个</font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">section</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">标签，而不是多个。</font><font style="vertical-align: inherit;">也请考虑其他有趣的HTML5标签，它们与</font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">section</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">相似</font><font style="vertical-align: inherit;">。</font><font style="vertical-align: inherit;">考虑</font><font style="vertical-align: inherit;">在文档流中</font><font style="vertical-align: inherit;">使用</font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">article</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，</font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">summary</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，</font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">aside</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">和其他内容。</font><font style="vertical-align: inherit;">如您所见，这些标签进一步增强了我们定义HTML文档主要区域的能力。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">路易村村</span>
@@ -152,9 +142,7 @@ topic: HTML
 <p><code>&lt;section&gt;</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">—通用文档或应用程序部分。</font><font style="vertical-align: inherit;">通常，A具有标题（标题），也可能具有页脚。</font><font style="vertical-align: inherit;">它是一大堆相关内容，例如长篇文章的小节，页面的主要部分（例如，首页上的新闻部分）或Webapp的选项卡式界面中的页面。</font><font style="vertical-align: inherit;">（W3C：Markup，WhatWG）</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我的建议：div：使用较低的版本（我认为仍为4.01）html元素（很多设计师对此进行了处理）。</font><font style="vertical-align: inherit;">部分：最近使用（html5）html元素。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">LEYHarryHarry</span>
@@ -163,18 +151,14 @@ topic: HTML
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在HTML5标准中，</font></font><code>&lt;section&gt;</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">元素被定义为相关元素的块。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">的</font></font><code>&lt;div&gt;</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">元素被定义为子元素的块。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Sam小哥Tom</span>
             <span class="discuss-time">2020.03.16</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">section标签为html提供了更多的语义语法。</font><font style="vertical-align: inherit;">div是节的通用标记。</font><font style="vertical-align: inherit;">当您将section标签用于适当的内容时，它也可以用于搜索引擎优化。</font><font style="vertical-align: inherit;">section标签还使html解析变得容易。</font><font style="vertical-align: inherit;">有关更多信息，请参阅。</font></font><a href="http://blog.whatwg.org/is-not-just-a-semantic" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">http://blog.whatwg.org/is-not-just-a-semantic</font></font></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小小蛋蛋</span>
@@ -197,9 +181,7 @@ topic: HTML
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">-Level2-标头的字体比Level1-标头的字体小。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">当使用css为h1标头着色时，内部h1也被着色（表现为常规h1）。</font><font style="vertical-align: inherit;">在Firefox 18，IE 10和Chrome 28中，这是相同的行为。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">老丝乐</span>
@@ -226,9 +208,7 @@ topic: HTML
 <img src="https://i.stack.imgur.com/jYJNk.png" alt="在此处输入图片说明"></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">因此，div仅从纯CSS或DOM角度而言是相关的，而部分也与语义有关，并且在不久的将来与搜索引擎的索引也相关。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小宇宙猴子</span>
@@ -265,18 +245,14 @@ topic: HTML
 </blockquote>
 
 <p>(<a href="https://www.w3.org/TR/html/grouping-content.html#the-div-element" rel="noreferrer">https://www.w3.org/TR/html/grouping-content.html#the-div-element</a>)</p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小小西门</span>
             <span class="discuss-time">2020.03.16</span>
           </div>
           <div class="discuss-comment"><p><code>&lt;section&gt;</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">标记一个</font></font><a href="http://html5doctor.com/the-section-element/" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">节</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，</font></font><code>&lt;div&gt;</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">标记一个没有关联语义的通用块。</font></font></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

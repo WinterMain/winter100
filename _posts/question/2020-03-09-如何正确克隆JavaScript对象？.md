@@ -19,7 +19,7 @@ topic: JavaScript
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如何正确克隆JavaScript对象？</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第159篇《如何正确克隆JavaScript对象？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第159篇《如何正确克隆JavaScript对象？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -91,9 +91,7 @@ topic: JavaScript
 
     </span><span class="kwd">return</span><span class="pln"> ret</span><span class="pun">;</span><span class="pln">
 </span><span class="pun">};</span></code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">村村AL</span>
@@ -112,9 +110,7 @@ topic: JavaScript
 
 </span><span class="kwd">var</span><span class="pln"> myObjectInstance1 </span><span class="pun">=</span><span class="pln"> createMyObject</span><span class="pun">();</span><span class="pln">
 </span><span class="kwd">var</span><span class="pln"> myObjectInstance2 </span><span class="pun">=</span><span class="pln"> createMyObject</span><span class="pun">();</span></code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">凯JinJin</span>
@@ -135,9 +131,7 @@ console</span><span class="pun">.</span><span class="pln">log</span><span class=
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在nodejs中 </font></font></p>
 
 <pre class="lang-js prettyprint prettyprinted" style=""><code><span class="pun">{}</span></code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">达蒙阿飞斯丁</span>
@@ -150,9 +144,7 @@ console</span><span class="pun">.</span><span class="pln">log</span><span class=
 obj</span><span class="pun">.</span><span class="pln">a </span><span class="pun">=</span><span class="pln"> </span><span class="lit">5</span><span class="pun">;</span><span class="pln">
 obj</span><span class="pun">.</span><span class="pln">b</span><span class="pun">.</span><span class="pln">c </span><span class="pun">=</span><span class="pln"> </span><span class="lit">5</span><span class="pun">;</span><span class="pln">
 console</span><span class="pun">.</span><span class="pln">log</span><span class="pun">(</span><span class="pln">JSON</span><span class="pun">.</span><span class="pln">stringify</span><span class="pun">(</span><span class="pln">deepClone</span><span class="pun">));</span><span class="pln"> </span><span class="com">// { a: 0, b: { c: 0}}</span></code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">西里神奇泡芙</span>
@@ -163,9 +155,7 @@ console</span><span class="pun">.</span><span class="pln">log</span><span class=
 <p><code>JSON.parse(JSON.stringify(json_original));</code></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">源：</font></font><a href="https://stackoverflow.com/questions/18359093/how-to-copy-javascript-object-to-new-variable-not-by-reference?answertab=votes#tab-top" data-bitapp="processed"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如何不通过引用将JavaScript对象复制到新变量？</font></font></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">前端前端猴子</span>
@@ -179,9 +169,7 @@ cloned </span><span class="pun">=</span><span class="pln"> </span><span class="p
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这为对象的浅表副本提供了一种干净的方法。</font><font style="vertical-align: inherit;">进行深层复制（意味着要递归地嵌套每个对象中的每个值的新副本）需要上述较重的解决方案。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">JavaScript不断发展。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">逆天</span>
@@ -201,9 +189,7 @@ cloned </span><span class="pun">=</span><span class="pln"> </span><span class="p
 </span><span class="typ">Object</span><span class="pun">.</span><span class="pln">assign</span><span class="pun">(</span><span class="pln">merged</span><span class="pun">,</span><span class="pln"> deepCloned</span><span class="pun">);</span></code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">尽管这个问题有很多答案，但我希望这个问题也能有所帮助。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">宝儿小哥小卤蛋</span>
@@ -212,9 +198,7 @@ cloned </span><span class="pun">=</span><span class="pln"> </span><span class="p
           <div class="discuss-comment"><pre class="lang-js prettyprint prettyprinted" style=""><code><span class="kwd">let</span><span class="pln"> clone </span><span class="pun">=</span><span class="pln"> </span><span class="typ">Object</span><span class="pun">.</span><span class="pln">assign</span><span class="pun">(</span><span class="pln"> </span><span class="typ">Object</span><span class="pun">.</span><span class="pln">create</span><span class="pun">(</span><span class="pln"> </span><span class="typ">Object</span><span class="pun">.</span><span class="pln">getPrototypeOf</span><span class="pun">(</span><span class="pln">obj</span><span class="pun">)),</span><span class="pln"> obj</span><span class="pun">)</span></code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">ES6解决方案，如果您想（浅）克隆一个</font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">类实例</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，而不仅仅是一个属性对象。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">路易卡卡西</span>
@@ -223,9 +207,7 @@ cloned </span><span class="pun">=</span><span class="pln"> </span><span class="p
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">使用Lodash： </font></font></p>
 
 <pre class="lang-js prettyprint prettyprinted" style=""><code><span class="kwd">var</span><span class="pln"> y </span><span class="pun">=</span><span class="pln"> _</span><span class="pun">.</span><span class="pln">clone</span><span class="pun">(</span><span class="pln">x</span><span class="pun">,</span><span class="pln"> </span><span class="kwd">true</span><span class="pun">);</span></code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">樱理查德</span>
@@ -236,9 +218,7 @@ cloned </span><span class="pun">=</span><span class="pln"> </span><span class="p
 <pre class="lang-js prettyprint prettyprinted" style=""><code><span class="kwd">let</span><span class="pln"> objClone </span><span class="pun">=</span><span class="pln"> </span><span class="pun">{</span><span class="pln"> </span><span class="pun">...</span><span class="pln">obj </span><span class="pun">};</span></code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">请注意，</font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">嵌套对象</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">仍将被复制</font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">为参考。</font></font></strong></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">菏以飘落</span>
@@ -279,9 +259,7 @@ cloned </span><span class="pun">=</span><span class="pln"> </span><span class="p
 </span><span class="pun">}</span></code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">另请参阅答案中的Andy Burke的注释。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">老丝Gil樱</span>
@@ -301,9 +279,7 @@ object2 </span><span class="pun">=</span><span class="pln"> JSON</span><span cla
 
 object2</span><span class="pun">.</span><span class="pln">key </span><span class="pun">=</span><span class="pln"> </span><span class="str">"a change"</span><span class="pun">;</span><span class="pln">
 console</span><span class="pun">.</span><span class="pln">log</span><span class="pun">(</span><span class="pln">object1</span><span class="pun">);</span><span class="com">// returns value</span></code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">猿飞云斯丁</span>
@@ -318,9 +294,7 @@ console</span><span class="pun">.</span><span class="pln">log</span><span class=
 <pre class="lang-js prettyprint prettyprinted" style=""><code><span class="pln">angular</span><span class="pun">.</span><span class="pln">copy</span><span class="pun">(</span><span class="pln">source</span><span class="pun">,</span><span class="pln"> destination</span><span class="pun">);</span></code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">更多angular.copy </font></font><a href="https://docs.angularjs.org/api/ng/function/angular.copy" data-bitapp="processed"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">文档</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> ...</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">LEYJim</span>
@@ -346,9 +320,7 @@ console</span><span class="pun">.</span><span class="pln">log</span><span class=
 
 <pre class="lang-js prettyprint prettyprinted" style=""><code><span class="kwd">let</span><span class="pln"> cloned </span><span class="pun">=</span><span class="pln"> JSON</span><span class="pun">.</span><span class="pln">parse</span><span class="pun">(</span><span class="pln">JSON</span><span class="pun">.</span><span class="pln">stringify</span><span class="pun">(</span><span class="pln">obj</span><span class="pun">));</span><span class="pln"> 
 </span><span class="com">//new {a:1, b:2, c:3};, can be handy, but avoid using on big chunk of data over and over</span></code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">L西门</span>
@@ -361,9 +333,7 @@ console</span><span class="pun">.</span><span class="pln">log</span><span class=
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">或者你可以像扩展它</font></font></p>
 
 <pre class="lang-js prettyprint prettyprinted" style=""><code><span class="pln">copiedObject </span><span class="pun">=</span><span class="pln"> _</span><span class="pun">.</span><span class="pln">extend</span><span class="pun">({},</span><span class="pln">originalObject</span><span class="pun">);</span></code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小小小胖</span>
@@ -378,9 +348,7 @@ console</span><span class="pun">.</span><span class="pln">log</span><span class=
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">或进行</font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">深复制</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">：</font></font></p>
 
 <pre class="lang-js prettyprint prettyprinted" style=""><code><span class="kwd">var</span><span class="pln"> copiedObject </span><span class="pun">=</span><span class="pln"> jQuery</span><span class="pun">.</span><span class="pln">extend</span><span class="pun">(</span><span class="kwd">true</span><span class="pun">,</span><span class="pln"> </span><span class="pun">{},</span><span class="pln"> originalObject</span><span class="pun">)</span></code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小哥Gil</span>
@@ -394,9 +362,7 @@ console</span><span class="pun">.</span><span class="pln">log</span><span class=
 </ul>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">不需要外部库，但您需要首先检查</font></font><a href="https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Global_Objects/Object/assign#Browser_compatibility" rel="noreferrer" data-bitapp="processed"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">浏览器的兼容性</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">西门小宇宙</span>
@@ -408,9 +374,7 @@ console</span><span class="pun">.</span><span class="pln">log</span><span class=
 </span><span class="kwd">var</span><span class="pln"> y </span><span class="pun">=</span><span class="pln"> </span><span class="typ">Object</span><span class="pun">.</span><span class="pln">assign</span><span class="pun">({},</span><span class="pln"> x</span><span class="pun">);</span><span class="pln"> </span></code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">但是请注意，嵌套对象仍会复制为引用。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">神无Green</span>
@@ -437,9 +401,7 @@ bar</span><span class="pun">.</span><span class="pln">a </span><span class="pun"
 foo</span><span class="pun">.</span><span class="pln">a</span><span class="pun">;</span><span class="pln"> </span><span class="com">// Still 2, since setting bar.a makes it an "own" property</span></code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">为什么我认为此解决方案更好？</font><font style="vertical-align: inherit;">它是本机的，因此没有循环，没有递归。</font><font style="vertical-align: inherit;">但是，较旧的浏览器将需要使用polyfill。</font></font></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

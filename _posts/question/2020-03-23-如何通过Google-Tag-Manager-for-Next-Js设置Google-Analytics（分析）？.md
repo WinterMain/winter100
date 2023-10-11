@@ -56,7 +56,7 @@ export const logPageView = () =&gt; {<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">现在，我想使用Google跟踪代码管理器来处理Google Analytics（分析）页面视图。</font><font style="vertical-align: inherit;">我该怎么办？</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第2615篇《如何通过Google Tag Manager for Next-Js设置Google Analytics（分析）？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第2615篇《如何通过Google Tag Manager for Next-Js设置Google Analytics（分析）？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}

@@ -57,7 +57,7 @@ topic: JavaScript
 </ul></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第1115篇《Polymer元素和AngularJS指令之间有什么区别？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第1115篇《Polymer元素和AngularJS指令之间有什么区别？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -68,18 +68,14 @@ topic: JavaScript
             <span class="discuss-time">2020.03.12</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">AngularJS </font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">指令</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">是一种用于制作自定义元素的方法。</font><font style="vertical-align: inherit;">您可以使用自定义属性定义新的自定义标签。</font><font style="vertical-align: inherit;">Polymer也可以做到这一点，但它会以一种有趣且更简单的方式进行工作.Polymer实际上并不是一个框架，它只是一个库，而是一个功能强大而令人惊叹的库，您可以爱上它（像我一样）。</font><font style="vertical-align: inherit;">Polymer让您学习由w3c开发的本机Web组件技术，该Web浏览器最终会实现该技术。Web组件是未来的技术，但是Polymer让您现在就使用该技术。GooglePolymer是一个提供语法糖和polyfill用于构建的库元素和带有Web组件的应用程序。请记住，我说的Polymer不是框架，而是库。但是当您使用Polymer时，实际上您的框架是DOM。</font><font style="vertical-align: inherit;">这篇文章是关于angular js ver 1和polymer的，我一直与他们一起工作是我的项目，我个人更喜欢Polymer而不是angularjs。</font><font style="vertical-align: inherit;">但是Angular版本2与angularjs ver 1的比较完全不同。angular2中的指令具有不同的含义。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">神奇Harry</span>
             <span class="discuss-time">2020.03.12</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Angular提供的MVVM（模型视图，视图模型）不是Polymer旨在解决的问题。</font><font style="vertical-align: inherit;">当您考虑比较Angular和Polymer时，Angular指令提供给您的可组合和可重复使用的特性（自定义标签+关联的逻辑组合）是更合理的比较。</font><font style="vertical-align: inherit;">Angular是并且将继续是一个更广泛的目标服务框架。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Harry逆天Eva</span>
@@ -94,9 +90,7 @@ topic: JavaScript
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">来自AngularJS的官方Twitter帐户：“ angularjs将使用聚合物作为其小部件。这是双赢的”</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">来源：</font><a href="https://twitter.com/angularjs/status/335417160438542337"><font style="vertical-align: inherit;">https</font></a><font style="vertical-align: inherit;"> : </font></font><a href="https://twitter.com/angularjs/status/335417160438542337"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">//twitter.com/angularjs/status/335417160438542337</font></font></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">逆天Green古一</span>
@@ -123,18 +117,14 @@ topic: JavaScript
 <p><a href="http://javascriptjabber.com/120-jsj-google-polymer-with-rob-dodson-and-eric-bidelman/" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">JavaScript Jabber-Rob Dodson和Eric Bidelman撰写的Polymer</font></font></a></p>
 
 <p><a href="http://shoptalkshow.com/episodes/124-rob-dodson/" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">商店脱口秀-Rob Dodson的Web组件</font></font></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Jim前端Near</span>
             <span class="discuss-time">2020.03.12</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我认为从实际角度来看，最终角度指令的模板功能以及聚合物利用的Web组件方法都可以完成相同的任务。</font><font style="vertical-align: inherit;">我看到的主要区别在于，Polymer利用Web API来包含HTML的某些部分，这是一种语法正确，简化的方法，可以实现Angular在渲染模板时以编程方式实现的功能。</font><font style="vertical-align: inherit;">但是，如前所述，Polymer是一个使用组件构建声明性和交互式模板的小型框架。</font><font style="vertical-align: inherit;">它仅可用于UI设计，并且仅在最现代的浏览器中受支持。</font><font style="vertical-align: inherit;">AngularJS是一个完整的MVC框架，旨在通过使用数据绑定，依赖项和指令使Web应用程序具有声明性。</font><font style="vertical-align: inherit;">他们是两只完全不同的动物。</font><font style="vertical-align: inherit;">对你的问题 </font><font style="vertical-align: inherit;">在我看来，到目前为止，使用聚合物比使用angular不会带来什么大的好处，除了拥有数十个预先构建的组件外，但是仍然需要您将它们移植到angular指令上。</font><font style="vertical-align: inherit;">但是，在将来，随着Web API变得更加高级，Web组件将完全不需要以编程方式定义和构建模板，因为浏览器将能够以类似于处理javascript或CSS文件的方式简单地包含它们。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Tom老丝Pro</span>
@@ -148,9 +138,7 @@ topic: JavaScript
 <li><a href="http://www.youtube.com/watch?v=W13qDdJDHp8&amp;feature=share&amp;t=56m34s"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">http://www.youtube.com/watch?v=W13qDdJDHp8&amp;feature=share&amp;t=56m34s</font></font></a></li>
 <li><a href="http://www.youtube.com/watch?v=W13qDdJDHp8&amp;feature=share&amp;t=59m8s"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">http://www.youtube.com/watch?v=W13qDdJDHp8&amp;feature=share&amp;t=59m8s</font></font></a></li>
 </ul></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

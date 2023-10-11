@@ -21,7 +21,7 @@ topic: Vue.js
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我只是使用触发nuxt的npm run dev，我对</font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">nodemon</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">（如果在内部使用）或</font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">webpack</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">（我很确定是）</font><font style="vertical-align: inherit;">没有任何直接控制</font><font style="vertical-align: inherit;">。</font><font style="vertical-align: inherit;">我尝试添加</font></font><code>watch: [ '~/api/*.js']</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，</font></font><code>watch: [ '~/api/index.js']</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，</font></font><code>watch: [ '~/api/**/*.js']</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在构建</font></font><code>nuxt.conf.js</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，但没有运气。</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第3056篇《在Vue Nuxt中观看并重新加载api文件夹》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第3056篇《在Vue Nuxt中观看并重新加载api文件夹》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -51,9 +51,7 @@ topic: Vue.js
   },<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

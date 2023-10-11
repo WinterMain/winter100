@@ -24,7 +24,7 @@ topic: HTML
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">看</font></font><a href="http://code.google.com/apis/maps/documentation/v3/reference.html" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Reference API</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，对我来说还不清楚。</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第2486篇《Google Maps API v3：如何删除所有标记？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第2486篇《Google Maps API v3：如何删除所有标记？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -41,9 +41,7 @@ markers = [];<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">每次都为我工作。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">樱小胖Mandy</span>
@@ -53,9 +51,7 @@ markers = [];<font></font>
 </font></font><code>$("#map").gmap("removeAllMarkers");</code></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">请参阅：</font><a href="http://www.smashinglabs.pl/gmap/documentation#after-load" rel="nofollow"><font style="vertical-align: inherit;">http</font></a><font style="vertical-align: inherit;"> : </font></font><a href="http://www.smashinglabs.pl/gmap/documentation#after-load" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">//www.smashinglabs.pl/gmap/documentation#after-load</font></font></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">LEYGreen</span>
@@ -69,9 +65,7 @@ function Clear(){<font></font>
      marker.setMap(null);<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">前端Tom</span>
@@ -81,9 +75,7 @@ function Clear(){<font></font>
 
 <pre><code>    map.clear();
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Gil伽罗小宇宙</span>
@@ -110,9 +102,7 @@ function addMarkers() {<font></font>
       markersList.push(marker);<font></font>
    }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">飞云</span>
@@ -136,9 +126,7 @@ function addMarkers() {<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">请注意，我使用数组标记来跟踪它们并手动将其重置。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Pro逆天猿</span>
@@ -148,9 +136,7 @@ function addMarkers() {<font></font>
 
 <pre><code>mGoogle_map.clear();
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">古一TonyPro</span>
@@ -164,9 +150,7 @@ for(var i = 0; i &lt; markers.length; i++) {<font></font>
 }<font></font>
 map.markers = [];<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">泡芙</span>
@@ -200,9 +184,7 @@ directionsService.route(request, function (result, status) {<font></font>
     }<font></font>
 });<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">神无</span>
@@ -222,9 +204,7 @@ markers = [];<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">检查Google示例以获取完整的代码示例：</font></font></p>
 
 <p><a href="https://developers.google.com/maps/documentation/javascript/examples/places-searchbox" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">https://developers.google.com/maps/documentation/javascript/examples/places-searchbox</font></font></a> </p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小宇宙小小米亚</span>
@@ -270,18 +250,14 @@ markers = [];<font></font>
         markers = [];<font></font>
       }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Stafan路易</span>
             <span class="discuss-time">2020.03.20</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我刚刚使用kmlLayer.setMap（null）进行了尝试，并且它起作用了。</font><font style="vertical-align: inherit;">不知道这是否可以与常规标记一起使用，但似乎可以正常使用。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Stafan</span>
@@ -309,9 +285,7 @@ markers = [];<font></font>
     directionsDisplay.setPanel(document.getElementById("directionsPanel"));<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">米亚</span>
@@ -327,9 +301,7 @@ markers = [];<font></font>
   }    <font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">JinJinJim</span>
@@ -366,9 +338,7 @@ function deleteMarkers() {<font></font>
   markers = [];<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">NearSamHarry</span>
@@ -383,9 +353,7 @@ function deleteMarkers() {<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Google似乎更改了其API，以使“ </font></font><code>set_map</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">”不是“ </font></font><code>setMap</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">”。</font></font></p>
 
 <p><a href="http://code.google.com/apis/maps/documentation/v3/reference.html" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">http://code.google.com/apis/maps/documentation/v3/reference.html</font></font></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">宝儿米亚飞云</span>
@@ -404,9 +372,7 @@ function deleteMarkers() {<font></font>
       markersArray.push(marker) ;<font></font>
     }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小胖</span>
@@ -423,9 +389,7 @@ function deleteMarkers() {<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">但是，此示例显示了一个“技巧”。</font><font style="vertical-align: inherit;">在此示例中，“清除”意味着将它们从地图中删除，但将其保留在数组中，这使应用程序可以快速将它们重新添加到地图中。</font><font style="vertical-align: inherit;">从某种意义上讲，这就像“隐藏”它们。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">“删除”也会清除数组。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">伽罗理查德</span>
@@ -446,9 +410,7 @@ function deleteMarkers() {<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在Chrome，Firefox上工作，即...</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">逆天西里</span>
@@ -475,9 +437,7 @@ google.maps.Map.prototype.clearMarkers = function() {<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我认为V3中没有，所以我使用了上述自定义实现。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">免责声明：我没有编写此代码，但是在将其合并到我的代码库中时忘记了保留引用，所以我不知道它来自哪里。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">米亚</span>
@@ -498,9 +458,7 @@ google.maps.Map.prototype.clearMarkers = function() {<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">文档已更新，以包含有关以下主题的详细信息：</font><a href="https://developers.google.com/maps/documentation/javascript/markers#remove" rel="noreferrer"><font style="vertical-align: inherit;">https</font></a><font style="vertical-align: inherit;"> : </font></font><a href="https://developers.google.com/maps/documentation/javascript/markers#remove" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">//developers.google.com/maps/documentation/javascript/markers#remove</font></font></a></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

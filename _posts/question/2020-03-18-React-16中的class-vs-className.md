@@ -19,7 +19,7 @@ topic: React.js
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我只是想知道仍然可以使用className而不是class来实现优势，除了可以向下兼容React的早期版本。 </font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第2165篇《React 16中的class vs className》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第2165篇《React 16中的class vs className》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -30,9 +30,7 @@ topic: React.js
             <span class="discuss-time">2020.03.18</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在ReactJS中，我们处理的是JSX，而不是众所周知的HTML。</font><font style="vertical-align: inherit;">JSX希望您使用className，因为它是底层的JavaScript DOM API！</font><font style="vertical-align: inherit;">class是JS中的保留关键字不是我们不使用class而是使用className的主要原因。</font><font style="vertical-align: inherit;">这是因为我们指的是DOM API</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Tony西门古一</span>
@@ -41,18 +39,14 @@ topic: React.js
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">React团队对此没有真正的解释，但自从ES2015 +引入以来，人们就可以认为它与Javascript中的保留关键字“ class”是有区别的。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">即使您在创建元素时在元素配置中使用“类”，它也不会引发任何编译/渲染错误。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">樱猿</span>
             <span class="discuss-time">2020.03.18</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">与JavaScript中的函数一样，reactJS中的Class与className类是reactJS中的保留字或关键字。</font><font style="vertical-align: inherit;">这就是为什么我们使用单词“ className”来引用该类的原因。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">DavaidStafan</span>
@@ -63,9 +57,7 @@ topic: React.js
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这是facebook dev的帖子解释了为什么</font></font></p>
 
 <p><a href="https://github.com/facebook/react/issues/13525" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">https://github.com/facebook/react/issues/13525</font></font></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">达蒙西里</span>
@@ -84,9 +76,7 @@ React 15: Warns and ignores them.<font></font>
 React 16: Warns but converts values to strings and passes them through.<font></font>
 Note: always use the canonical React naming for all supported attributes.<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小哥路易Gil</span>
@@ -105,9 +95,7 @@ Note: always use the canonical React naming for all supported attributes.<font><
 <blockquote>
   <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我们的DOM组件（大部分）使用JS API，因此我们选择使用JS属性（node.className，而不是node.class）。</font></font></p>
 </blockquote></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">飞云西门Tony</span>
@@ -129,9 +117,7 @@ Note: always use the canonical React naming for all supported attributes.<font><
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">所以你应该保持关注。</font><font style="vertical-align: inherit;">只要这是API所期望的，</font></font><br><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
 我仍然会使用</font></font><code>className</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

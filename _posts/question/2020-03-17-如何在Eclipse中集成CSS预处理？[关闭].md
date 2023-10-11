@@ -52,7 +52,7 @@ topic: CSS
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">或者，更一般而言，如何将CSS预处理器集成到Eclipse中？</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第1973篇《如何在Eclipse中集成CSS预处理？[关闭]》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第1973篇《如何在Eclipse中集成CSS预处理？\[关闭\]》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -96,9 +96,7 @@ topic: CSS
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">注意：如果未显示css颜色，则可能必须执行以下操作：</font></font><code>Right click the .scss file &gt; Open With &gt; CSS Editor</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">希望这可以帮助。 </font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">猴子猿</span>
@@ -107,9 +105,7 @@ topic: CSS
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">您可以使用称为“ Colorer”的最新Eclipse插件，该插件现在支持SASS文件。</font><font style="vertical-align: inherit;">它在这里：</font><a href="http://colorer.sourceforge.net/eclipsecolorer/index.html" rel="noreferrer"><font style="vertical-align: inherit;">http</font></a><font style="vertical-align: inherit;"> : </font></font><a href="http://colorer.sourceforge.net/eclipsecolorer/index.html" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">//colorer.sourceforge.net/eclipsecolorer/index.html</font></font></a></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">从Eclipse的“帮助”菜单中打开“安装新软件”，然后</font><font style="vertical-align: inherit;">在“使用”框中</font><font style="vertical-align: inherit;">输入“ </font></font><a href="http://colorer.sf.net/eclipsecolorer" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">http://colorer.sf.net/eclipsecolorer</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> ”以安装插件</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">米亚西门</span>
@@ -133,9 +129,7 @@ topic: CSS
       <li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">您可能需要重新启动Eclipse才能继续。</font></font></li>
     </ol>
 </blockquote></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

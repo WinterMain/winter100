@@ -95,7 +95,7 @@ module.exports = SampleApp;<font></font>
 </code></pre></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第560篇《ReactNative：如何将文本居中？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第560篇《ReactNative：如何将文本居中？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -109,9 +109,7 @@ module.exports = SampleApp;<font></font>
 
 <pre><code>{ alignSelf : "center" }
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">十三Stafan</span>
@@ -125,9 +123,7 @@ module.exports = SampleApp;<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在您的styleSheet中，就是这样。</font><font style="vertical-align: inherit;">希望这会有所帮助。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">编辑：“中心”</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">猪猪Stafan小卤蛋</span>
@@ -137,18 +133,14 @@ module.exports = SampleApp;<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">是真正的魔力。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">米亚神无</span>
             <span class="discuss-time">2020.03.11</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">将这些样式设置为图像组件：{textAlignVertical：“ center”，textAlign：“ center”}</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">村村路易</span>
@@ -194,9 +186,7 @@ module.exports = SampleApp;<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这一切都取决于您在做什么。</font><font style="vertical-align: inherit;">您还可以查看有关该主题的完整博客文章</font></font></p>
 
 <p><a href="https://medium.com/@vygaio/how-to-auto-adjust-text-font-size-to-fit-into-a-nodes-width-in-react-native-9f7d1d68305b" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">https://medium.com/@vygaio/how-to-auto-adjust-text-font-size-to-fit-into-a-nodes-width-in-react-native-9f7d1d68305b</font></font></a></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

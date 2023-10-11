@@ -29,7 +29,7 @@ topic: CSS
 </code></pre></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第2226篇《错误：Windows的SASS安装》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第2226篇《错误：Windows的SASS安装》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -61,9 +61,7 @@ gem update --system<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">手动安装Ruby gem：</font><a href="https://rubygems.org/pages/download" rel="nofollow noreferrer"><font style="vertical-align: inherit;">https</font></a><font style="vertical-align: inherit;">：</font></font><a href="https://rubygems.org/pages/download" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">//rubygems.org/pages/download</font></font></a></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">手动安装RVM（</font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">推荐</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">）：</font><a href="http://rvm.io/" rel="nofollow noreferrer"><font style="vertical-align: inherit;">http</font></a><font style="vertical-align: inherit;"> : </font></font><a href="http://rvm.io/" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">//rvm.io/</font></font></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">JimEva神奇</span>
@@ -97,18 +95,14 @@ Done installing documentation for sass after 36 seconds<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">想要为像我这样的其他新手尽可能地详细介绍它。</font><font style="vertical-align: inherit;">希望这对某人有帮助。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">梅阳光</span>
             <span class="discuss-time">2020.03.19</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在Windows上安装完整的Cygwin，ssh支持很好。</font><font style="vertical-align: inherit;">您应该能够轻松安装它，我一直都很好。</font><font style="vertical-align: inherit;">实际上，一旦安装了Cygwin，就几乎不会使用命令提示符了。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Eva千羽</span>
@@ -127,18 +121,14 @@ Done installing documentation for sass after 36 seconds<font></font>
 </ol>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">注意：您可能还需要</font><font style="vertical-align: inherit;">在安装gem时</font><font style="vertical-align: inherit;">调用</font></font><em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">本地</font></font></em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">标志：</font></font><code>gem install --local C:Ruby22-x64/bin/sass-*.*.*.gem</code></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小胖TonyLEY</span>
             <span class="discuss-time">2020.03.19</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">第一步到Rubygems（</font></font><a href="http://rubygems.org/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">http://rubygems.org/</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">），然后在sass（</font></font><a href="http://rubygems.org/gems/sass" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">http://rubygems.org/gems/sass</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">）</font><font style="vertical-align: inherit;">上下载sass </font><font style="vertical-align: inherit;">：npm install</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Pro伽罗</span>
@@ -148,9 +138,7 @@ Done installing documentation for sass after 36 seconds<font></font>
 
 <pre><code>gem install sass --http-proxy=http://&lt;yourproxy&gt;:&lt;port&gt;
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">斯丁西门</span>
@@ -168,9 +156,7 @@ gem sources --add https://rubygems.org<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">参考：</font><a href="https://github.com/rubygems/rubygems/issues/1736" rel="noreferrer"><font style="vertical-align: inherit;">https</font></a><font style="vertical-align: inherit;"> : </font></font><a href="https://github.com/rubygems/rubygems/issues/1736" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">//github.com/rubygems/rubygems/issues/1736</font></font></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">斯丁Sam斯丁</span>
@@ -181,9 +167,7 @@ gem sources --add https://rubygems.org<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">只需将我的RUBY版本从“ 2.1.5”降级到“ 1.8”，而gem版本是“ 1.8.29”，就解决了这个问题。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">然后我就可以安装SASS</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Near西里泡芙</span>
@@ -200,9 +184,7 @@ gem sources --add https://rubygems.org<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">而且有效。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">神无达蒙Pro</span>
@@ -221,9 +203,7 @@ gem sources --add https://rubygems.org<font></font>
 
 <p><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">更新</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">：现在似乎有一个永久性的解决方案，用适当的受保护证书代替证书。</font><font style="vertical-align: inherit;">可以在以下URL上找到，该页面中包含一个教程。
 </font></font><a href="https://gist.github.com/luislavena/f064211759ee0f806c88#installing-using-update-packages-new"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">https://gist.github.com/luislavena/f064211759ee0f806c88#installing-using-update-packages-new</font></font></a></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

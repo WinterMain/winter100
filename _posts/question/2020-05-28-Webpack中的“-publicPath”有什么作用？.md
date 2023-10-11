@@ -33,7 +33,7 @@ topic: Webpack
 </span><span class="pun">}</span></code></pre></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第4212篇《Webpack中的“ publicPath”有什么作用？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第4212篇《Webpack中的“ publicPath”有什么作用？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -44,9 +44,7 @@ topic: Webpack
             <span class="discuss-time">2020.05.28</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">webpack使用publicPath来替换在CSS中定义的用于引用图像和字体文件的相对路径。 </font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">阿良</span>
@@ -58,9 +56,7 @@ topic: Webpack
 <blockquote>
   <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">webpack具有非常有用的配置，可让您指定应用程序中所有资产的基本路径。</font><font style="vertical-align: inherit;">它称为publicPath。</font></font></p>
 </blockquote></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">西里老丝</span>
@@ -72,9 +68,7 @@ topic: Webpack
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在这种情况下，我需要做的就是将publicpath设置为</font></font><a href="http://my.cdn.com/"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">http://my.cdn.com/，</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> 
 然后webpack将自动添加该前缀</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小宇宙十三</span>
@@ -112,9 +106,7 @@ module</span><span class="pun">.</span><span class="pln">exports </span><span cl
 $ webpack</span><span class="pun">-</span><span class="pln">dev</span><span class="pun">-</span><span class="pln">server </span><span class="pun">--</span><span class="pln">content</span><span class="pun">-</span><span class="pln">base build </span></code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">webpack-dev-server已创建一个虚拟资产文件夹以及它引用的虚拟bundle.js文件。</font><font style="vertical-align: inherit;">您可以通过转到localhost：8080 / assets / bundle.js进行测试，然后在应用程序中检入这些文件。</font><font style="vertical-align: inherit;">它们仅在您运行webpack-dev-server时生成。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">镜风</span>
@@ -154,9 +146,7 @@ $ webpack</span><span class="pun">-</span><span class="pln">dev</span><span clas
 <pre class="lang-js prettyprint prettyprinted" style=""><code><span class="pun">&lt;</span><span class="pln">script src</span><span class="pun">=</span><span class="str">"public/assets/js/app.js"</span><span class="pun">&gt;&lt;/</span><span class="pln">script</span><span class="pun">&gt;</span></code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">因此，总而言之，publicPath就像</font></font><code>virtual directory</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">服务器</font><font style="vertical-align: inherit;">之间的映射，</font></font><code>output directory</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">并由output.path配置指定。只要对文件</font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">public / assets / js / app.js的</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">请求</font><font style="vertical-align: inherit;">到来，</font><font style="vertical-align: inherit;">就会提供</font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">/examples/dist/app.js</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">文件</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">神离</span>
@@ -193,9 +183,7 @@ $ webpack</span><span class="pun">-</span><span class="pln">dev</span><span clas
   
   <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">访问者：（</font></font><code>http://server/assets/img/picture.jpg</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">）</font></font></p>
 </blockquote></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">十三</span>
@@ -204,9 +192,7 @@ $ webpack</span><span class="pun">-</span><span class="pln">dev</span><span clas
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在浏览器中执行时，webpack需要知道您将在何处托管生成的包。</font><font style="vertical-align: inherit;">因此，它能够请求额外的块（当使用</font></font><a href="http://webpack.github.io/docs/code-splitting.html"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">代码拆分时</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">）或</font><font style="vertical-align: inherit;">分别</font><font style="vertical-align: inherit;">通过</font></font><a href="https://github.com/webpack/file-loader"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">文件加载器</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">或</font></font><a href="https://github.com/webpack/file-loader"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">url加载器加载的</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">引用文件</font><font style="vertical-align: inherit;">。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">例如：如果将http服务器配置为托管生成的包，</font></font><code>/assets/</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">则应输入：</font></font><code>publicPath: "/assets/"</code>   </p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

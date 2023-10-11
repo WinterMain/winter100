@@ -36,7 +36,7 @@ Interface 'InputProps' incorrectly extends interface 'HTMLProps&lt;Input&gt;'.<f
 </code></pre></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第1004篇《TypeScript输入onchange event.target.value》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第1004篇《TypeScript输入onchange event.target.value》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -57,9 +57,7 @@ Interface 'InputProps' incorrectly extends interface 'HTMLProps&lt;Input&gt;'.<f
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">并确保您拥有</font></font><code>"lib": ["dom"]</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">自己的</font></font><code>tsconfig</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Mandy猪猪</span>
@@ -74,9 +72,7 @@ private updateName({ target }: { target: HTMLInputElement }) {<font></font>
     this.name = target.value;<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Tom村村</span>
@@ -105,18 +101,14 @@ interface InputProps extends React.HTMLProps&lt;Input&gt; {<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">没有编译错误。</font><font style="vertical-align: inherit;">实际上，您还可以将上面的前两个接口用于其他组件。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Me无敌小哥</span>
             <span class="discuss-time">2020.03.12</span>
           </div>
           <div class="discuss-comment"><p><code>as HTMLInputElement</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> 为我工作</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Eva西里</span>
@@ -137,9 +129,7 @@ interface InputProps extends React.HTMLProps&lt;Input&gt; {<font></font>
    const newValue = e.target.value;<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

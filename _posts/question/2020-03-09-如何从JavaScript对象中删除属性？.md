@@ -30,7 +30,7 @@ topic: JavaScript
 </span><span class="pun">};</span></code></pre></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第137篇《如何从JavaScript对象中删除属性？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第137篇《如何从JavaScript对象中删除属性？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -48,9 +48,7 @@ obj</span><span class="pun">.</span><span class="pln">key1 </span><span class="p
 obj</span><span class="pun">.</span><span class="pln">key2 </span><span class="pun">=</span><span class="pln"> </span><span class="pun">{</span><span class="pln">name</span><span class="pun">:</span><span class="pln"> </span><span class="str">"Jim"</span><span class="pun">,</span><span class="pln"> room</span><span class="pun">:</span><span class="pln"> </span><span class="lit">1234</span><span class="pun">};</span><span class="pln">
 
 </span><span class="kwd">delete</span><span class="pun">(</span><span class="pln">obj</span><span class="pun">.</span><span class="pln">key1</span><span class="pun">);</span></code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">伽罗Mandy</span>
@@ -72,9 +70,7 @@ console</span><span class="pun">.</span><span class="pln">log</span><span class=
 <div class="snippet-result"><div class="snippet-ctas"><button type="button" class="s-btn s-btn__primary"><span class="icon-play-white _hover"></span><span><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> 运行代码段</font></font></span></button><input class="copySnippet s-btn s-btn__filled" type="button" value="Copy snippet to answer" style="display: none;"><button type="button" class="s-btn hideResults" style="display: none;">Hide results</button><div class="popout-code"><a class="snippet-expand-link" data-bitapp="processed"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">展开摘要</font></font></a></div></div><div class="snippet-result-code" style="display: none;"><iframe name="sif10" sandbox="allow-forms allow-modals allow-scripts" class="snippet-box-edit" frameborder="0"></iframe></div></div></div>
 </div>
 <p></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">村村A小卤蛋</span>
@@ -96,9 +92,7 @@ console</span><span class="pun">.</span><span class="pln">log</span><span class=
 <div class="snippet-result"><div class="snippet-ctas"><button type="button" class="s-btn s-btn__primary"><span class="icon-play-white _hover"></span><span><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> 运行代码段</font></font></span></button><input class="copySnippet s-btn s-btn__filled" type="button" value="Copy snippet to answer" style="display: none;"><button type="button" class="s-btn hideResults" style="display: none;">Hide results</button><div class="popout-code"><a class="snippet-expand-link" data-bitapp="processed"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">展开摘要</font></font></a></div></div><div class="snippet-result-code" style="display: none;"><iframe name="sif9" sandbox="allow-forms allow-modals allow-scripts" class="snippet-box-edit" frameborder="0"></iframe></div></div></div>
 </div>
 <p></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">十三米亚阳光</span>
@@ -121,9 +115,7 @@ console</span><span class="pun">.</span><span class="pln">log </span><span class
 console</span><span class="pun">.</span><span class="pln">log </span><span class="pun">(</span><span class="typ">Date</span><span class="pun">.</span><span class="pln">now</span><span class="pun">()-</span><span class="pln">t2</span><span class="pun">);</span><span class="pln">  </span><span class="com">// 205</span></code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">请注意，我有意在一个循环中执行了多个“删除”操作，以最大程度地减少其他操作引起的影响。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小胖Davaid</span>
@@ -144,9 +136,7 @@ console</span><span class="pun">.</span><span class="pln">log </span><span class
 <pre class="lang-js prettyprint prettyprinted" style=""><code><span class="kwd">delete</span><span class="pln"> obj</span><span class="pun">[</span><span class="pln">key1</span><span class="pun">]</span></code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">参考：</font></font><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/delete" rel="noreferrer" data-bitapp="processed"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">MDN</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小小</span>
@@ -230,9 +220,7 @@ let shaped_obj2 = Object.keys(new_obj2).map(
 <div class="snippet-result"><div class="snippet-ctas"><button type="button" class="s-btn s-btn__primary"><span class="icon-play-white _hover"></span><span><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> 运行代码段</font></font></span></button><input class="copySnippet s-btn s-btn__filled" type="button" value="Copy snippet to answer" style="display: none;"><button type="button" class="s-btn hideResults" style="display: none;">Hide results</button><div class="popout-code"><a class="snippet-expand-link" data-bitapp="processed"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">展开摘要</font></font></a></div></div><div class="snippet-result-code" style="display: none;"><iframe name="sif8" sandbox="allow-forms allow-modals allow-scripts" class="snippet-box-edit" frameborder="0"></iframe></div></div></div>
 </div>
 <p></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">伽罗L</span>
@@ -251,9 +239,7 @@ console</span><span class="pun">.</span><span class="pln">log</span><span class=
 <div class="snippet-result"><div class="snippet-ctas"><button type="button" class="s-btn s-btn__primary"><span class="icon-play-white _hover"></span><span><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> 运行代码段</font></font></span></button><input class="copySnippet s-btn s-btn__filled" type="button" value="Copy snippet to answer" style="display: none;"><button type="button" class="s-btn hideResults" style="display: none;">Hide results</button><div class="popout-code"><a class="snippet-expand-link" data-bitapp="processed"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">展开摘要</font></font></a></div></div><div class="snippet-result-code" style="display: none;"><iframe name="sif7" sandbox="allow-forms allow-modals allow-scripts" class="snippet-box-edit" frameborder="0"></iframe></div></div></div>
 </div>
 <p></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">伽罗Tony小卤蛋</span>
@@ -274,9 +260,7 @@ console</span><span class="pun">.</span><span class="pln">log</span><span class=
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">由于JavaScript的动态特性，通常在某些情况下您根本不知道该属性是否存在。</font><font style="vertical-align: inherit;">检查obj在&amp;&amp;之前是否存在，还可以确保您不会由于未定义对象上调用hasOwnProperty（）函数而引发错误。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">抱歉，这没有添加到您的特定用例中，但是我相信这是在管理对象及其属性时可以适应的一个很好的设计。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">null</span>
@@ -312,9 +296,7 @@ deepObjectRemove</span><span class="pun">(</span><span class="pln">a</span><span
 console</span><span class="pun">.</span><span class="pln">log</span><span class="pun">(</span><span class="pln">a</span><span class="pun">);</span><span class="pln">
 
 </span><span class="com">//Prints {level1: {level2: {}}}</span></code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">DavaidL</span>
@@ -331,9 +313,7 @@ console</span><span class="pun">.</span><span class="pln">log</span><span class=
 </span><span class="pun">};</span><span class="pln">
 </span><span class="kwd">const</span><span class="pln"> </span><span class="pun">{</span><span class="pln"> regex</span><span class="pun">,</span><span class="pln"> </span><span class="pun">...</span><span class="pln">noRegex </span><span class="pun">}</span><span class="pln"> </span><span class="pun">=</span><span class="pln"> myObject</span><span class="pun">;</span><span class="pln">
 console</span><span class="pun">.</span><span class="pln">log</span><span class="pun">(</span><span class="pln">noRegex</span><span class="pun">);</span><span class="pln"> </span><span class="com">// =&gt; { b: 2, c: 3 }</span></code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小卤蛋宝儿</span>
@@ -364,9 +344,7 @@ _</span><span class="pun">.</span><span class="pln">omit</span><span class="pun"
 </span><span class="pun">=&gt;</span><span class="pln"> </span><span class="pun">{</span><span class="str">"ircEvent"</span><span class="pun">:</span><span class="pln"> </span><span class="str">"PRIVMSG"</span><span class="pun">,</span><span class="pln"> </span><span class="str">"method"</span><span class="pun">:</span><span class="pln"> </span><span class="str">"newURI"</span><span class="pun">};</span></code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">对于数组，</font></font><code>_.filter()</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">并且</font></font><code>_.reject()</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">可以以类似的方式使用。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">樱十三</span>
@@ -393,9 +371,7 @@ console</span><span class="pun">.</span><span class="pln">log</span><span class=
 <pre class="lang-js prettyprint prettyprinted" style=""><code><span class="kwd">let</span><span class="pln"> myObject </span><span class="pun">=</span><span class="pln"> </span><span class="pun">{</span><span class="str">"ircEvent"</span><span class="pun">:</span><span class="pln"> </span><span class="str">"PRIVMSG"</span><span class="pun">,</span><span class="pln"> </span><span class="str">"method"</span><span class="pun">:</span><span class="pln"> </span><span class="str">"newURI"</span><span class="pun">,</span><span class="pln"> </span><span class="str">"regex"</span><span class="pun">:</span><span class="pln"> </span><span class="str">"^http://.*"</span><span class="pun">};</span><span class="pln">
 </span><span class="pun">({</span><span class="pln"> regex</span><span class="pun">,</span><span class="pln"> </span><span class="pun">...</span><span class="pln">myObject </span><span class="pun">}</span><span class="pln"> </span><span class="pun">=</span><span class="pln"> myObject</span><span class="pun">);</span><span class="pln">
 console</span><span class="pun">.</span><span class="pln">log</span><span class="pun">(</span><span class="pln">myObject</span><span class="pun">);</span></code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">SamStafan</span>
@@ -413,9 +389,7 @@ console</span><span class="pun">.</span><span class="pln">log </span><span class
 <p></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这适用于Firefox和Internet Explorer，我认为它适用于所有其他产品。</font></font></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

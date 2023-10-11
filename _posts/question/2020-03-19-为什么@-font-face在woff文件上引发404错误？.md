@@ -42,7 +42,7 @@ topic: CSS
 </code></pre></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第2269篇《为什么@ font-face在woff文件上引发404错误？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第2269篇《为什么\` font-face在woff文件上引发404错误？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -53,9 +53,7 @@ topic: CSS
             <span class="discuss-time">2020.03.19</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">IIS Mime类型：.woff字体/ x-woff（不是application / x-woff或application / x-font-woff）</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">老丝Itachi</span>
@@ -64,9 +62,7 @@ topic: CSS
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果添加MIME类型后仍然无法使用，请检查站点的“身份验证”部分中是否启用了“匿名身份验证”，并确保根据给定的屏幕截图选择“应用程序池标识”。</font></font></p>
 
 <p><a href="https://i.stack.imgur.com/FD6XQ.jpg" rel="nofollow noreferrer"><img src="https://i.stack.imgur.com/FD6XQ.jpg" alt="在此处输入图片说明"></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">卡卡西Pro小卤蛋</span>
@@ -86,45 +82,35 @@ topic: CSS
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">希望能帮助到你 ！</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">泡芙村村Pro</span>
             <span class="discuss-time">2020.03.19</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">还要检查您的URL重写器。</font><font style="vertical-align: inherit;">如果发现“怪异”，它可能会抛出404。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">十三小哥Jim</span>
             <span class="discuss-time">2020.03.19</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这可能很明显，但是它使我不时使用404s了...确保字体文件夹权限设置正确。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Gil蛋蛋</span>
             <span class="discuss-time">2020.03.19</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果您无权访问您的Web服务器配置，则也可以只重命名字体文件，使其以svg结尾（但保留格式）。</font><font style="vertical-align: inherit;">在Chrome和Firefox中对我来说效果很好。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">神无LEYMandy</span>
             <span class="discuss-time">2020.03.19</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我尝试了很多有关权限，mime类型等的事情，但是对我来说，最终结果是web.config删除了IIS中的静态文件处理程序，然后将其显式添加回具有静态文件的目录中。</font><font style="vertical-align: inherit;">一旦我为目录添加了位置节点并添加了处理程序，请求就停止获取404。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小卤蛋JinJin</span>
@@ -143,9 +129,7 @@ topic: CSS
   &lt;mimeMap fileExtension=".woff2" mimeType="application/x-font-woff2" /&gt;<font></font>
 &lt;/staticContent&gt;<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">古一村村</span>
@@ -158,9 +142,7 @@ topic: CSS
   
   <p><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">MIME类型</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">：application / octet-stream</font></font></p>
 </blockquote></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">路易GO</span>
@@ -183,9 +165,7 @@ topic: CSS
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">而且您将不再有任何Chrome控制台错误！</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">（已在Chrome 17上测试）</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">前端LSam</span>
@@ -211,9 +191,7 @@ topic: CSS
   &lt;/security&gt;    <font></font>
 &lt;/system.webServer&gt;<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">米亚凯村村</span>
@@ -246,9 +224,7 @@ topic: CSS
     &lt;/staticContent&gt;    <font></font>
   &lt;/system.webServer&gt;<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Tony斯丁</span>
@@ -271,9 +247,7 @@ topic: CSS
 <p><a href="https://i.stack.imgur.com/dMv4w.png"><img src="https://i.stack.imgur.com/dMv4w.png" alt="添加MIME类型"></a></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这是我为解决IIS 7中的问题所做的工作</font></font></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

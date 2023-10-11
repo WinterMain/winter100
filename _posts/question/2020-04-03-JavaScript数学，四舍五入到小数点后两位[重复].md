@@ -42,7 +42,7 @@ topic: JavaScript
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这四舍五入为整数。</font><font style="vertical-align: inherit;">如何返回两位小数的结果？</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第3960篇《JavaScript数学，四舍五入到小数点后两位[重复]》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第3960篇《JavaScript数学，四舍五入到小数点后两位\[重复\]》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -57,9 +57,7 @@ topic: JavaScript
 <pre><code>var value=200.2365455;<font></font>
 result=Math.round(value*100)/100    //result will be 200.24<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小宇宙神奇飞云</span>
@@ -80,9 +78,7 @@ result=Math.round(value*100)/100    //result will be 200.24<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这给出了一个最多有两个小数位的数字。</font><font style="vertical-align: inherit;">如果要三个，则将乘以1000，以此类推。</font></font><br><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
 OP始终希望保留两位小数，但是如果toFixed（）在Firefox中损坏，则需要先修复。</font></font><br><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
 参见</font></font><a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1134388" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">https://bugzilla.mozilla.org/show_bug.cgi?id=1134388</font></font></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">番长猴子</span>
@@ -110,9 +106,7 @@ OP始终希望保留两位小数，但是如果toFixed（）在Firefox中损坏�
     return value;<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">番长樱梅</span>
@@ -133,18 +127,14 @@ result = Math.round(x * 100) / 100  // result .12<font></font>
 <pre><code>x      = .123456<font></font>
 result = Math.round(x * 1000) / 1000      // result .123<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">前端Stafan</span>
             <span class="discuss-time">2020.04.03</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">尝试使用 </font></font><code>discount.toFixed(2);</code></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Stafan路易</span>
@@ -153,9 +143,7 @@ result = Math.round(x * 1000) / 1000      // result .123<font></font>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果您使用一元加号将字符串转换</font></font><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Arithmetic_Operators#Unary_plus"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">为MDN中记录</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">的数字</font><font style="vertical-align: inherit;">。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">例如：</font></font><code>+discount.toFixed(2)</code></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">乐米亚</span>
@@ -167,9 +155,7 @@ result = Math.round(x * 1000) / 1000      // result .123<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">将四舍五入的值乘以100以保留前两位，然后将其除以100得到实际结果。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">乐</span>
@@ -235,9 +221,7 @@ result = Math.round(x * 1000) / 1000      // result .123<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">小提琴：</font><a href="https://jsfiddle.net/3Lbhfy5s/79/" rel="noreferrer"><font style="vertical-align: inherit;">https</font></a><font style="vertical-align: inherit;"> : </font></font><a href="https://jsfiddle.net/3Lbhfy5s/79/" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">//jsfiddle.net/3Lbhfy5s/79/</font></font></a></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

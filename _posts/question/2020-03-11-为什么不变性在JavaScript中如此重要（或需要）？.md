@@ -23,7 +23,7 @@ topic: JavaScript
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果我设置说</font><strong><font style="vertical-align: inherit;">最初</font></strong><font style="vertical-align: inherit;">具有值</font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">的对象数组，</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我将无法对其进行操作。</font><font style="vertical-align: inherit;">这就是不变性原则的意思，对吗？</font><font style="vertical-align: inherit;">（如果我错了，请纠正我。）但是，如果我有一个新的News对象必须更新怎么办？</font><font style="vertical-align: inherit;">在通常情况下，我可以将对象添加到数组中。</font><font style="vertical-align: inherit;">在这种情况下我该如何实现？</font><font style="vertical-align: inherit;">删除商店并重新创建？</font><font style="vertical-align: inherit;">是不是将对象添加到数组中的开销较小？</font></font><strong><font style="vertical-align: inherit;"></font></strong><font style="vertical-align: inherit;"></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第569篇《为什么不变性在JavaScript中如此重要（或需要）？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第569篇《为什么不变性在JavaScript中如此重要（或需要）？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -54,9 +54,7 @@ console.log(fillWithZ(["A","A","A","A","A","A"])) // bad, invalid state<font></f
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果</font></font><code>arr</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">成为一个不变的对象，那么我们将确保arr始终处于有效状态。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Gil梅</span>
@@ -69,9 +67,7 @@ console.log(fillWithZ(["A","A","A","A","A","A"])) // bad, invalid state<font></f
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">使用</font></font><a href="https://github.com/neuronetio/deep-state-observer" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">deep-state-observer，</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我只能使用点表示法更新一个节点并使用通配符。</font><font style="vertical-align: inherit;">我还可以创建状态历史记录（撤消/重做/时间旅行），仅保留已更改的具体值</font></font><code>{path:value}</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">=减少内存使用量。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">使用</font></font><a href="https://github.com/neuronetio/deep-state-observer" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">深度状态观察器，</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我可以微调事物，并且可以精确控制组件的行为，因此可以大大提高性能。</font><font style="vertical-align: inherit;">代码更具可读性，并且重构更加容易-只需搜索并替换路径字符串（无需更改代码/逻辑）。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Pro宝儿</span>
@@ -106,9 +102,7 @@ f.baz(); // this blows up<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">为了弄清楚这一点，您需要仔细检查类的内部，因为从检查公共接口并不能立即看出来。</font><font style="vertical-align: inherit;">在具有大量可变状态和类的大型代码库中，此问题可能会爆炸。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果</font></font><code>Foo</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">是不变的，那么这不再是问题。</font><font style="vertical-align: inherit;">可以安全地假定我们可以调用</font></font><code>baz</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">或</font></font><code>bar</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">以任何顺序</font><font style="vertical-align: inherit;">调用</font><font style="vertical-align: inherit;">，因为类的内部状态无法更改。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Tom阳光</span>
@@ -141,9 +135,7 @@ It will be predictable if <code>UI = f(application state)</code>.</p>
 <hr>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">碰巧创建所有这些状态仍然可以提高内存效率，与Git的类比很棒，并且在Linux OS中，我们使用符号链接（基于inode）也有类似的类比。 </font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">宝儿Harry</span>
@@ -160,9 +152,7 @@ It will be predictable if <code>UI = f(application state)</code>.</p>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">另一个用例：假设您要在Web应用程序上使用撤消按钮。</font><font style="vertical-align: inherit;">使用数据的不可变表示形式，实现这种过程相对简单。</font><font style="vertical-align: inherit;">但是，如果您依赖突变，则意味着您必须担心缓存世界状况并进行原子更新。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">简而言之，要为运行时性能和学习曲线的不变性付出代价。</font><font style="vertical-align: inherit;">但是任何有经验的程序员都会告诉您，调试时间比代码编写时间大一个数量级。</font><font style="vertical-align: inherit;">用户不必忍受的与状态相关的错误，可能会大大抵消对运行时性能的轻微影响。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Tom十三</span>
@@ -191,9 +181,7 @@ It will be predictable if <code>UI = f(application state)</code>.</p>
 <pre><code>var originalItems = Immutable.List.of(1, 2, 3);<font></font>
 var newItems = originalItems.push(4, 5, 6);<font></font>
 </code></pre></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

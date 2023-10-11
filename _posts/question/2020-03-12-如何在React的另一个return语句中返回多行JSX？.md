@@ -42,7 +42,7 @@ topic: React.js
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">谢谢。</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第1166篇《如何在React的另一个return语句中返回多行JSX？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第1166篇《如何在React的另一个return语句中返回多行JSX？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -67,9 +67,7 @@ topic: React.js
     &lt;/&gt;<font></font>
   );<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">达蒙西里</span>
@@ -129,9 +127,7 @@ topic: React.js
   
   <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">键是唯一可以传递给Fragment的属性。</font><font style="vertical-align: inherit;">将来，我们可能会增加对其他属性（例如事件处理程序）的支持。</font></font></p>
 </blockquote></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">乐蛋蛋</span>
@@ -156,9 +152,7 @@ topic: React.js
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">编辑：从React 16.0开始，显然再次允许返回数组，只要每个元素都有一个</font></font><code>key</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">：</font><a href="https://facebook.github.io/react/blog/2017/09/26/react-v16.0.html#new-render-return-types-fragments-and-strings" rel="noreferrer"><font style="vertical-align: inherit;">https</font></a><font style="vertical-align: inherit;"> : </font></font><a href="https://facebook.github.io/react/blog/2017/09/26/react-v16.0.html#new-render-return-types-fragments-and-strings" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">//facebook.github.io/react/blog/2017/09/26/react-v16.0.html ＃new-render-return-types片段和字符串</font></font></a></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">编辑：React 16.2允许您使用</font></font><code>&lt;Fragment&gt;…&lt;/Fragment&gt;</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">甚至</font><font style="vertical-align: inherit;">包围元素列表</font></font><code>&lt;&gt;…&lt;/&gt;</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，如果您更喜欢数组：</font><a href="https://blog.jmes.tech/react-fragment-and-semantic-html/" rel="noreferrer"><font style="vertical-align: inherit;">https</font></a><font style="vertical-align: inherit;"> : </font></font><a href="https://blog.jmes.tech/react-fragment-and-semantic-html/" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">//blog.jmes.tech/react-fragment-and-semantic-html/</font></font></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Tony小卤蛋</span>
@@ -202,9 +196,7 @@ topic: React.js
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">您不需要展平结果数组，React会为您完成。</font><font style="vertical-align: inherit;">参见以下提琴</font></font><a href="http://jsfiddle.net/mEB2V/1/"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">http://jsfiddle.net/mEB2V/1/</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font><font style="vertical-align: inherit;">再说一遍：从长远来看，将这两个元素包装到div / section中将很可能会更好。</font></font></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

@@ -27,7 +27,7 @@ topic: React.js
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我已经解决了，但是在这里添加了下一个人，因为该解决方案在搜索时未显示在任何地方（Google或StackOverflow）</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第4041篇《错误TS2339：类型“ HTMLProps <HTMLLabelElement>”上不存在属性“ for”》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第4041篇《错误TS2339：类型“ HTMLProps <HTMLLabelElement>”上不存在属性“ for”》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -43,9 +43,7 @@ topic: React.js
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这是React库本身的一部分，显然</font></font><code>for</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">像它一样</font><font style="vertical-align: inherit;">处理</font><font style="vertical-align: inherit;">不同</font></font><code>class</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">（它使用</font></font><code>className</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">），而不是肯定类型类型定义的问题。</font></font></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

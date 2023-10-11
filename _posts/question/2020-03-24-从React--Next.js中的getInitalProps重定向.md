@@ -37,7 +37,7 @@ topic: React.js
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">对此错误发生原因或解决方法的任何想法都值得赞赏；）  </font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第3376篇《从React / Next.js中的getInitalProps重定向》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第3376篇《从React / Next.js中的getInitalProps重定向》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -58,9 +58,7 @@ topic: React.js
   Router.push('/');<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">蛋蛋前端</span>
@@ -121,9 +119,7 @@ topic: React.js
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">^这是浏览器。</font><font style="vertical-align: inherit;">您有</font></font><code>window</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，您有</font></font><code>fetch</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，您可以使用下一台路由器。</font><font style="vertical-align: inherit;">现在您没有Node请求/响应，但这似乎减少了人们的负担。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">参考：</font></font><a href="https://reactjs.org/docs/react-component.html#the-component-lifecycle" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">组件生命周期</font></font></a></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

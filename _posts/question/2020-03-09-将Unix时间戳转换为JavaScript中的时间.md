@@ -19,7 +19,7 @@ topic: JavaScript
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">例如，以HH / MM / SS格式。</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第378篇《将Unix时间戳转换为JavaScript中的时间》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第378篇《将Unix时间戳转换为JavaScript中的时间》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -43,9 +43,7 @@ topic: JavaScript
 <font></font>
 //2016-01-14 02:40:01<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">A樱</span>
@@ -62,9 +60,7 @@ alert(iso[1]);</code></pre>
 </div>
 </div>
 <p></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">null</span>
@@ -74,9 +70,7 @@ alert(iso[1]);</code></pre>
 
 <pre><code>var dateTimeString = moment.unix(1466760005).format("DD-MM-YYYY HH:mm:ss");
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">逆天乐</span>
@@ -91,9 +85,7 @@ alert(iso[1]);</code></pre>
 
 <pre><code>var timeString = moment(1439198499).format("HH:mm:ss");
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Tony神乐</span>
@@ -122,9 +114,7 @@ console.log(s)</code></pre>
 <p></p>
 
 <p>see <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/toLocaleDateString" rel="noreferrer">Date.prototype.toLocaleDateString()</a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">神离伊芙妮</span>
@@ -135,9 +125,7 @@ console.log(s)</code></pre>
 <pre><code>var date = new Date(UNIX_Timestamp * 1000);<font></font>
 // Manipulate JavaScript Date object here...<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Sam猪猪</span>
@@ -167,9 +155,7 @@ console.log( time(12345) );  // "03:25:45"<font></font>
 </blockquote>
 
 <p><em>N.B.: This solution does not require any third-party libraries and is supported in all modern browsers and JavaScript engines.</em></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

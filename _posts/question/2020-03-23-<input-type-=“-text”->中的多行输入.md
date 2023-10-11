@@ -30,7 +30,7 @@ topic: HTML
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如何使输入更像文本区域？</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第2646篇《<input type =“ text” />中的多行输入》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第2646篇《<input type =“ text” />中的多行输入》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -61,9 +61,7 @@ topic: HTML
 <hr>
 
 <p><em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">有关更多信息，请参阅</font></font><a href="https://www.w3.org/TR/html401/interact/forms.html#h-17.7" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">此</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></em></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">斯丁乐</span>
@@ -75,18 +73,14 @@ topic: HTML
 Here you can write some text to display in the textarea as the default text<font></font>
 &lt;/textarea&gt;<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">LEYMandy</span>
             <span class="discuss-time">2020.03.23</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">通过赋予</font></font><code>word-break: break-word;</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">属性，</font><font style="vertical-align: inherit;">可以使文本输入多行</font><font style="vertical-align: inherit;">。</font><font style="vertical-align: inherit;">（仅在Chrome中对此进行测试）</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">达蒙西门十三</span>
@@ -100,9 +94,7 @@ Here you can write some text to display in the textarea as the default text<font
 </div>
 </div>
 <p></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">伽罗理查德</span>
@@ -117,9 +109,7 @@ Here you can write some text to display in the textarea as the default text<font
 <blockquote>
   <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">TEXTAREA元素创建多行文本输入控件</font></font></p>
 </blockquote></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">飞云Tom</span>
@@ -131,18 +121,14 @@ Here you can write some text to display in the textarea as the default text<font
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在开始和结束标记之间不要留任何空格。否则，这会留一些空行或空格。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">卡卡西</span>
             <span class="discuss-time">2020.03.23</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">你不能 </font><font style="vertical-align: inherit;">在撰写本文时，唯一设计为多行的HTML表单元素是</font></font><a href="https://developer.mozilla.org/en/HTML/Element/textarea" rel="nofollow noreferrer"><code>&lt;textarea&gt;</code></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

@@ -77,7 +77,7 @@ app.listen(process.env.PORT || 3000);<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">是否已知MongoDB变更流会影响读/写性能？</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第3949篇《MongoDB查询从Heroku上的Node.js应用程序花费2-3秒》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第3949篇《MongoDB查询从Heroku上的Node.js应用程序花费2-3秒》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -96,9 +96,7 @@ app.listen(process.env.PORT || 3000);<font></font>
 <p>If the network is totally fine and you see no MongoDB slow queries, that means something goes wrong in your own application. Detailed logging might really help where query goes slow.</p>
 
 <p>Hope this would help.</p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Mandy村村</span>
@@ -118,9 +116,7 @@ app.listen(process.env.PORT || 3000);<font></font>
 </blockquote>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">您需要增加池大小才能恢复正常性能。</font></font></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

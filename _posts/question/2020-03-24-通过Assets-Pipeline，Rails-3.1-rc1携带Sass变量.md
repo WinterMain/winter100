@@ -37,7 +37,7 @@ topic: CSS
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">有任何想法吗？</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第3351篇《通过Assets Pipeline，Rails 3.1 rc1携带Sass变量》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第3351篇《通过Assets Pipeline，Rails 3.1 rc1携带Sass变量》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -53,9 +53,7 @@ topic: CSS
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">从您的主要sass文件中。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">古一</span>
@@ -67,9 +65,7 @@ topic: CSS
  </font><font style="vertical-align: inherit;">行，并用</font></font><code>@import "layout.css.scss";</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">伪指令</font><font style="vertical-align: inherit;">替换</font><font style="vertical-align: inherit;">以手动导入每个sass文件。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">是的，您必须@import每个文件</font></font></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

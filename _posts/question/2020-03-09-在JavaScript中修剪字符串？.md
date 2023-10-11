@@ -17,7 +17,7 @@ topic: JavaScript
     <div class="article-content"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如何修剪JavaScript中的字符串？</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第285篇《在JavaScript中修剪字符串？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第285篇《在JavaScript中修剪字符串？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -33,9 +33,7 @@ topic: JavaScript
     return (text == null) ? '' : ''.trim.call(text);<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">神奇Davaid</span>
@@ -66,9 +64,7 @@ function strip(me){<font></font>
 <li><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">子字符串实现会复制原始字符串的数据吗？</font><font style="vertical-align: inherit;">如果是这样，首先，当需要修剪字符串时，会进行两次遍历，首先是正则表达式（可能希望是部分遍历），然后是子字符串提取。</font><font style="vertical-align: inherit;">希望子字符串实现仅引用原始字符串，因此子字符串之类的操作几乎是免费的。</font></font><em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">交叉手指</font></font></em></p></li>
 <li><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">正则表达式中的捕获效果有多好？</font><font style="vertical-align: inherit;">中间值，即输出值，可能会很长。</font><font style="vertical-align: inherit;">我还没有准备好所有正则表达式的捕获都不会阻止数百KB输入捕获，但是我也没有进行测试（太多的运行时，对不起！）。</font><font style="vertical-align: inherit;">第二个总是进行捕获；</font><font style="vertical-align: inherit;">如果您的引擎可以做到这一点而不会受到打击，则可以使用上述一些字符串编排技术来确保使用它！</font></font></p></li>
 </ol></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">伽罗理查德</span>
@@ -99,9 +95,7 @@ function strip(me){<font></font>
 
 <pre><code>form.elements[i].value = trim(form.elements[i].value);
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小次郎</span>
@@ -119,9 +113,7 @@ function strip(me){<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果本地原型不可用，它将退回到正则表达式。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">逆天卡卡西</span>
@@ -142,9 +134,7 @@ console.log(some_string_with_extra_spaces.match(/\S.*\S|\S/)[0])<font></font>
 
 <pre><code>console.log(some_string_with_extra_spaces.match(/^\s*(.*?)\s*$/)[1])
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Harry逆天</span>
@@ -160,9 +150,7 @@ console.log(some_string_with_extra_spaces.match(/\S.*\S|\S/)[0])<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">与之前的答案不同，添加标志有所不同</font></font><code>m</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">标志</font></font><code>m</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">将搜索几个线性的文本。</font><font style="vertical-align: inherit;">在此模式下，模式的开始和结束标记（</font></font><code>^</code> <code>$</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">）插入在换行符（</font></font><code>\n</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">）</font><font style="vertical-align: inherit;">之前和之后</font><font style="vertical-align: inherit;">。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">泡芙十三</span>
@@ -172,9 +160,7 @@ console.log(some_string_with_extra_spaces.match(/\S.*\S|\S/)[0])<font></font>
 
 <pre><code>String.prototype.trim = String.prototype.trim || function(){ return jQuery.trim(this); };
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">SamJim</span>
@@ -186,9 +172,7 @@ console.log(some_string_with_extra_spaces.match(/\S.*\S|\S/)[0])<font></font>
 return string.split(' ').join('');<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">卡卡西Davaid</span>
@@ -214,9 +198,7 @@ Basic support   (Yes)   3.5     9                   10.5    5       ?<font></fon
   };<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">LEYJim</span>
@@ -233,9 +215,7 @@ console.log(trimmedFullName);</code></pre>
 </div>
 </div>
 <p></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Tom小小蛋蛋</span>
@@ -259,9 +239,7 @@ String.prototype.trimFull = String.prototype.trimFull || function () {<font></fo
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">从</font></font><a href="https://github.com/duereg/SwimTraining/blob/master/lib/app/swim/string.js" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Matt Duereg</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">无耻地偷走了</font><font style="vertical-align: inherit;">。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">樱泡芙</span>
@@ -279,9 +257,7 @@ console.log(orig.trim());//foo<font></font>
 <li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/TrimLeft?redirectlocale=en-US&amp;redirectslug=JavaScript%2FReference%2FGlobal_Objects%2FString%2FTrimLeft" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">trimLeft（）</font></font></a></li>
 <li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/TrimRight?redirectlocale=en-US&amp;redirectslug=JavaScript%2FReference%2FGlobal_Objects%2FString%2FTrimRight" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">trimRight（）</font></font></a></li>
 </ul></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">斯丁阳光</span>
@@ -291,9 +267,7 @@ console.log(orig.trim());//foo<font></font>
 
 <pre><code>if( jQuery.trim(StringVariable) == '')
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">卡卡西猿</span>
@@ -322,9 +296,7 @@ function trim(str) {<font></font>
     return str.substr(begin, end - begin + 1);<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">泡芙Green</span>
@@ -334,9 +306,7 @@ function trim(str) {<font></font>
 
 <pre><code>document.getElementById("id").value.trim();
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Green逆天</span>
@@ -348,9 +318,7 @@ function trim(str) {<font></font>
         return str.replace(/^\s+|\s+$/g,"");<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小胖梅</span>
@@ -381,9 +349,7 @@ JavaScript 1.8.1 / ECMAScript 5</font></font></p>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">歌剧：</font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">10.5+</font></font></strong></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">ECMAScript 5支持表：</font><a href="http://kangax.github.com/es5-compat-table/" rel="noreferrer"><font style="vertical-align: inherit;">http</font></a><font style="vertical-align: inherit;"> : </font></font><a href="http://kangax.github.com/es5-compat-table/" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">//kangax.github.com/es5-compat-table/</font></font></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">L猪猪</span>
@@ -397,9 +363,7 @@ JavaScript 1.8.1 / ECMAScript 5</font></font></p>
 <font></font>
 " foo bar ".trim();  // "foo bar"<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">ㄏ囧囧ㄟ</span>
@@ -436,9 +400,7 @@ String.prototype.rtrim=function(){return this.replace(/\s+$/,'');};<font></font>
 <font></font>
 String.prototype.fulltrim=function(){return this.replace(/(?:(?:^|\n)\s+|\s+(?:$|\n))/g,'').replace(/\s+/g,' ');};<font></font>
 </code></pre></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

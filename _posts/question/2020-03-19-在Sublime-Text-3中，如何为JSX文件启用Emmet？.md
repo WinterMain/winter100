@@ -35,7 +35,7 @@ topic: React.js
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">此代码段似乎不适用于正式的sublime-react程序包。</font><font style="vertical-align: inherit;">似乎需要对键绑定进行修改，但是对Sublime文档的初步阅读没有引起人们的兴趣。</font><font style="vertical-align: inherit;">救命？</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第2244篇《在Sublime Text 3中，如何为JSX文件启用Emmet？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第2244篇《在Sublime Text 3中，如何为JSX文件启用Emmet？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -73,9 +73,7 @@ topic: React.js
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">您还需要按照要点中的建议安装RegReplace和Command of Chain包，甚至可以</font></font><code>span.class</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">将其变成。</font></font><code>&lt;span className="class"&gt;&lt;/span&gt;</code><br><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
 如果您想添加更多元素来侦听，只需将它们添加到列表中即可，即</font></font><code>(a\\b|div|span|p\\b|button|strong)</code><br><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
 The </font></font><code>\\b</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">指单词边界和阻止以下内容扩展</font></font><code>abc</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">到</font></font><code>&lt;abc&gt;&lt;/abc&gt;</code></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">伽罗理查德</span>
@@ -98,9 +96,7 @@ The </font></font><code>\\b</code><font style="vertical-align: inherit;"><font s
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这是没有所有注释且正确的代码</font></font><code>SCOPE_SELECTOR</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">猪猪宝儿</span>
@@ -133,9 +129,7 @@ The </font></font><code>\\b</code><font style="vertical-align: inherit;"><font s
     ]<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">猿GO</span>
@@ -160,9 +154,7 @@ The </font></font><code>\\b</code><font style="vertical-align: inherit;"><font s
         )<font></font>
     }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

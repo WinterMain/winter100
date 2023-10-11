@@ -155,7 +155,7 @@ it(`should show the entity`, () =&gt; {<font></font>
 我也试过</font></font><code>shallow</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">/ </font></font><code>mount</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">但似乎工作没有任何。</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第2541篇《[Vue警告]：未知的自定义元素：<nuxt-link>-运行Jest单元测试时》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第2541篇《\[Vue警告\]：未知的自定义元素：<nuxt-link>-运行Jest单元测试时》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}

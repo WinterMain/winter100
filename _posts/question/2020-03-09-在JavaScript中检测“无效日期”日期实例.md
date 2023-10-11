@@ -32,7 +32,7 @@ console.log(d instanceof Date); // shows 'true'<font></font>
 </ul></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第263篇《在JavaScript中检测“无效日期”日期实例》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第263篇《在JavaScript中检测“无效日期”日期实例》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -58,9 +58,7 @@ console.log(d instanceof Date); // shows 'true'<font></font>
 &amp;&amp; !is_valid_date(0000, 00, 00)<font></font>
 &amp;&amp; !is_valid_date(2013, 14, 01)<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">卡卡西逆天</span>
@@ -95,9 +93,7 @@ console.log(d instanceof Date); // shows 'true'<font></font>
         return false;<font></font>
     }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">逆天樱</span>
@@ -114,9 +110,7 @@ const isValidDate = (Boolean(+date) &amp;&amp; date.getDate() == day)<font></fon
 <p>[1] <a href="https://medium.com/@esganzerla/simple-date-validation-with-javascript-caea0f71883c" rel="nofollow noreferrer">https://medium.com/@esganzerla/simple-date-validation-with-javascript-caea0f71883c</a></p>
 
 <p>[2] <a href="https://stackoverflow.com/questions/39223481/incorrect-date-shown-in-new-date-in-javascript">Incorrect date shown in new Date() in JavaScript</a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">樱GO</span>
@@ -136,9 +130,7 @@ const isValidDate = (Boolean(+date) &amp;&amp; date.getDate() == day)<font></fon
 <pre><code>isValidDate(""2015/5/2""); // =&gt; true<font></font>
 isValidDate(""2015/5/2a""); // =&gt; false<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">L西门</span>
@@ -161,9 +153,7 @@ isValidDate(""2015/5/2a""); // =&gt; false<font></font>
   return time === time;<font></font>
 };<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">卡卡西Tom</span>
@@ -184,9 +174,7 @@ isValidDate(""2015/5/2a""); // =&gt; false<font></font>
 </code></pre>
 
 <p>the code above will see when JS makes 02/31/2012 into 03/02/2012 that its not valid</p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">老丝达蒙</span>
@@ -201,9 +189,7 @@ isValidDate(""2015/5/2a""); // =&gt; false<font></font>
         return true;<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Stafan小宇宙</span>
@@ -226,9 +212,7 @@ validStringDate("2/29/2012"); // true (leap year)<font></font>
 validStringDate("2/29/2013"); // false<font></font>
 validStringDate("2/30/2012"); // false<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">樱樱</span>
@@ -238,9 +222,7 @@ validStringDate("2/30/2012"); // false<font></font>
 
 <pre><code>angular.isDate(myDate);
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">蛋蛋神乐</span>
@@ -260,9 +242,7 @@ validStringDate("2/30/2012"); // false<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">有关详细信息，请参阅</font></font><a href="http://internotredici.com/article/checkdateinjavascript" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">javascript中的检查日期。</font></font></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Stafan古一</span>
@@ -277,9 +257,7 @@ validStringDate("2/30/2012"); // false<font></font>
 
 <pre><code>Date.prototype.isValid = d =&gt; !isNaN(Date.parse(d));
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">DavaidHarry</span>
@@ -297,9 +275,7 @@ validStringDate("2/30/2012"); // false<font></font>
 <pre><code>d = new Date(userDate);<font></font>
 if (d.valid()) { /* do stuff */ }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">阿飞神乐</span>
@@ -309,9 +285,7 @@ if (d.valid()) { /* do stuff */ }<font></font>
 
 <pre><code>if(!isNaN(date.getTime()))
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">GreenNear</span>
@@ -338,9 +312,7 @@ d = new Date("2012/09/11");<font></font>
 <font></font>
 console.log(d.isValid()); // true<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">古一斯丁猴子</span>
@@ -366,9 +338,7 @@ console.log(d.isValid()); // true<font></font>
   return d instanceof Date &amp;&amp; !isNaN(d);<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

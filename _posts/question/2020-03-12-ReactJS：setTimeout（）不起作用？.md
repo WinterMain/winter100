@@ -47,7 +47,7 @@ ReactDOM.render(<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我的主要目标是每3秒更改一次状态（使用</font></font><code>setInterval()</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">），但由于它不起作用，因此我尝试了</font></font><code>setTimeout()</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，该方法也不起作用。</font><font style="vertical-align: inherit;">上面有灯吗？</font><font style="vertical-align: inherit;">谢谢！</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第1217篇《ReactJS：setTimeout（）不起作用？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第1217篇《ReactJS：setTimeout（）不起作用？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -80,9 +80,7 @@ setTimeout(function() {<font></font>
    this.setState({position:1})<font></font>
 }.bind(this), 3000)<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Tony达蒙Mandy</span>
@@ -94,9 +92,7 @@ setTimeout(function() {<font></font>
     this.setState({position: 1})<font></font>
 }.bind(this), 3000);<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">逆天小卤蛋Green</span>
@@ -117,9 +113,7 @@ setTimeout(function() {<font></font>
 
 <pre><code>setTimeout(()=&gt;this.setState({position: 1}), 3000);
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">米亚西里</span>
@@ -139,9 +133,7 @@ setTimeout(function() {<font></font>
     clearInterval(this.timerID);<font></font>
   }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">神奇</span>
@@ -170,9 +162,7 @@ setTimeout(function() {<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">setTimeout仅占据函数的位置，并且函数已经具有上下文？</font><font style="vertical-align: inherit;">无论如何，它有效！</font></font></p>
 
 <p><em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">注意：这些可与您在js中使用的任何功能一起使用。</font></font></em></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">阿飞宝儿猴子</span>
@@ -184,9 +174,7 @@ setTimeout(function() {<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">由于ES6箭头功能不会更改的上下文，因此上述方法也将起作用</font></font><code>this</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">理查德Tony</span>
@@ -204,9 +192,7 @@ setTimeout(function() {<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">否则，您会将的结果传递</font></font><code>setState</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">给</font></font><code>setTimeout</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

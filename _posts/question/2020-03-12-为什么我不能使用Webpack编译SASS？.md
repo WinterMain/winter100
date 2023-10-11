@@ -123,7 +123,7 @@ html {<font></font>
 <p><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">编辑：</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">链接到完整的示例项目：</font><a href="https://dl.dropboxusercontent.com/u/1066659/dummy.zip"><font style="vertical-align: inherit;">https</font></a><font style="vertical-align: inherit;"> : </font></font><a href="https://dl.dropboxusercontent.com/u/1066659/dummy.zip"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">//dl.dropboxusercontent.com/u/1066659/dummy.zip</font></font></a></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第1105篇《为什么我不能使用Webpack编译SASS？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第1105篇《为什么我不能使用Webpack编译SASS？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}

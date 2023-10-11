@@ -44,7 +44,7 @@ topic: Vue.js
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">通常，让getter返回与大量数据有关的函数是否有意义？</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第4051篇《Vuex-何时使用getter和何时使用state》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第4051篇《Vuex-何时使用getter和何时使用state》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -89,9 +89,7 @@ topic: Vue.js
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">您唯一需要getter返回函数的情况是您希望getter能够接受参数，在这种情况下，getter更像是Vue组件</font></font><em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">方法，</font></font></em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">而不是Vue组件</font></font><em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">计算</font></font></em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">属性。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果您有一个返回一个函数并处理大量数据的getter，则Vuex无法帮助您缓存该函数调用的结果。</font><font style="vertical-align: inherit;">您必须找出一种方法来最小化它的调用次数，或者合并</font></font><a href="https://en.wikipedia.org/wiki/Memoization" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">备忘录</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">等。</font></font></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

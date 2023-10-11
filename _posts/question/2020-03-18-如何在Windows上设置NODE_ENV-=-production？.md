@@ -22,7 +22,7 @@ topic: Node.js
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">但是，这在Windows上不起作用。</font><font style="vertical-align: inherit;">是否可以在其中配置属性的配置文件？</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第2072篇《如何在Windows上设置NODE_ENV = production？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第2072篇《如何在Windows上设置NODE_ENV = production？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -33,9 +33,7 @@ topic: Node.js
             <span class="discuss-time">2020.03.18</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果NODE_ENV或任何其他环境变量未提供正确的值，请重新启动VS代码。</font><font style="vertical-align: inherit;">重新启动后应该可以使用。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">斯丁蛋蛋宝儿</span>
@@ -44,9 +42,7 @@ topic: Node.js
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我使用npm脚本运行不含“ &amp;&amp;”的gulp任务</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">NODE_ENV = testcases npm运行seed-db</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">村村Mandy</span>
@@ -56,9 +52,7 @@ topic: Node.js
 
 <pre><code>npm install --production
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小胖Gil</span>
@@ -67,9 +61,7 @@ topic: Node.js
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果您使用的是GITBASH终端 
  </font></font><code>"set NODE_ENV=production"</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> 
 不起作用，您可以输入“ export”</font></font><code>NODE_ENV=production"</code></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Green小小</span>
@@ -86,9 +78,7 @@ topic: Node.js
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">它将完美显示所有输出。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Tom卡卡西村村</span>
@@ -100,9 +90,7 @@ topic: Node.js
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">请注意，服务器正在执行的操作的文本输出被抑制，因此我不确定这是否可以解决。</font><font style="vertical-align: inherit;">（扩展@jsalonen的答案。）</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">十三村村蛋蛋</span>
@@ -129,9 +117,7 @@ topic: Node.js
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">输入变量名称和值，然后单击确定。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">您将需要关闭所有cmd提示符并重新启动服务器，以使新变量可用于process.env。</font><font style="vertical-align: inherit;">如果仍然没有显示，请重新启动计算机。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">卡卡西神奇</span>
@@ -144,9 +130,7 @@ topic: Node.js
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我的用例：  </font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我在Windows上开发，因为我的工作流程是</font></font><em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">很多</font></font></em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">快，但我需要确保我的应用程序的开发专用的中间件并没有在生产环境中射击。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">StafanL</span>
@@ -163,9 +147,7 @@ topic: Node.js
 
 <pre><code>npm install -g win-node-env
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">神奇Sam理查德</span>
@@ -195,9 +177,7 @@ topic: Node.js
 }<font></font>
 </code></pre></li>
 </ol></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小胖Tony</span>
@@ -207,9 +187,7 @@ topic: Node.js
 
 <pre><code>$env:NODE_ENV="production"
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Davaid泡芙</span>
@@ -225,9 +203,7 @@ topic: Node.js
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">哪个很方便！</font><font style="vertical-align: inherit;">不再有Windows或Unix专用命令！</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">老丝Itachi</span>
@@ -248,9 +224,7 @@ topic: Node.js
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">上一行将在执行命令的命令提示符处设置环境变量NODE_ENV。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">要全局设置环境变量，以使它们仅在单个命令提示符后仍然存在，您可以在“控制面板”的“系统”中找到该工具（或通过在“开始”菜单的搜索框中键入“ environment”）。</font></font></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

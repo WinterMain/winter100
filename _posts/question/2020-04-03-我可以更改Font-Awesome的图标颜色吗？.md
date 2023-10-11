@@ -24,7 +24,7 @@ topic: HTML
 </code></pre></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第3998篇《我可以更改Font Awesome的图标颜色吗？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第3998篇《我可以更改Font Awesome的图标颜色吗？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -45,9 +45,7 @@ topic: HTML
 
 <pre><code>text-white
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">番长樱梅</span>
@@ -57,9 +55,7 @@ topic: HTML
 
 <pre><code>&lt;i class="fas fa-ellipsis-v fa-2x" style="color:red !important"&gt;&lt;/i&gt;
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">神无</span>
@@ -76,9 +72,7 @@ topic: HTML
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">使用类将为您提供免费的绑定属性，您可以将其应用于所需的任何标签。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">神无</span>
@@ -90,9 +84,7 @@ topic: HTML
     color:red;<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">斯丁</span>
@@ -102,9 +94,7 @@ topic: HTML
 
 <pre><code>&lt;li class="fa fa-id-card-o" style="color:white" aria-hidden="true"&gt;
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">番长</span>
@@ -140,9 +130,7 @@ color:white<font></font>
 </code></pre>
 
 <hr></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Tom凯</span>
@@ -152,9 +140,7 @@ color:white<font></font>
 
 <pre><code>style="color: white;font-size: 20px;"
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">神无</span>
@@ -166,9 +152,7 @@ color:white<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">您在CSS中编写该代码，它将颜色更改为白色或您想要的任何颜色，请指定它</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">乐</span>
@@ -180,9 +164,7 @@ color:white<font></font>
    &lt;span style="color:black;"&gt;Text Name&lt;/span&gt;<font></font>
 &lt;/a&gt;<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">HarryJinJin</span>
@@ -204,9 +186,7 @@ color:white<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这将使按钮的直接后代中的所有图标变为黑色。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小小</span>
@@ -220,9 +200,7 @@ color:white<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">并且，然后添加</font></font><code>icon-white</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">到现有的类</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">逆天小宇宙</span>
@@ -234,9 +212,7 @@ color:white<font></font>
 &lt;i class="icon-cog text-blue"&gt;<font></font>
 &lt;i class="icon-cog text-yellow"&gt;<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">神乐Davaid</span>
@@ -255,9 +231,7 @@ color:white<font></font>
   color: black;<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">JinJin</span>
@@ -274,9 +248,7 @@ color:white<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">您还可以向按钮图标添加额外的类...</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">斯丁前端</span>
@@ -286,9 +258,7 @@ color:white<font></font>
 
 <pre><code>&lt;i class="fa fa-cog" style="color:#fff;"&gt;&lt;/i&gt;
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小卤蛋</span>
@@ -298,9 +268,7 @@ color:white<font></font>
 
 <pre><code>&lt;a href="/users/edit"&gt;&lt;i class="icon-cog" style="color:black"&gt;&lt;/i&gt; Edit profile&lt;/a&gt;
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">卡卡西Near</span>
@@ -312,9 +280,7 @@ color:white<font></font>
   color : red;<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

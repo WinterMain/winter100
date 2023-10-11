@@ -60,7 +60,7 @@ module.exports = config;<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我的问题是“如何在node_modules的reactjs应用程序中包含引导CSS和js？” </font><font style="vertical-align: inherit;">如何设置引导程序以包含在我的React应用程序中？</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第831篇《如何在ReactJS应用程序中包含Bootstrap CSS和JS？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第831篇《如何在ReactJS应用程序中包含Bootstrap CSS和JS？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -86,9 +86,7 @@ module.exports = config;<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我做了上面的工作来解决类似的问题。</font><font style="vertical-align: inherit;">希望这对您有用:-)</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">老丝Eva</span>
@@ -105,9 +103,7 @@ module.exports = config;<font></font>
 <li><a href="https://stackoverflow.com/a/52251319/4266842"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">https://stackoverflow.com/a/52251319/4266842</font></font></a></li>
 <li><a href="https://stackoverflow.com/a/54188034/4266842"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">https://stackoverflow.com/a/54188034/4266842</font></font></a></li>
 </ol></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Tony达蒙</span>
@@ -155,9 +151,7 @@ $ npm install --save react-bootstrap<font></font>
   &lt;/body&gt;<font></font>
 &lt;/html&gt;<font></font>
 </code></pre></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

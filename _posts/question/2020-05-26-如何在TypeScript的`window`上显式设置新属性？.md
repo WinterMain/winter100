@@ -35,7 +35,7 @@ topic: TypeScript
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">作为旁注，我发现TypeScript抱怨特别有趣，因为它告诉我</font></font><code>window</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">类型</font></font><code>any</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">肯定可以包含任何内容。</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第4179篇《如何在TypeScript的`window`上显式设置新属性？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第4179篇《如何在TypeScript的\`window\`上显式设置新属性？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -64,9 +64,7 @@ topic: TypeScript
 <pre class="lang-js prettyprint prettyprinted" style=""><code><span class="pln">window</span><span class="pun">.</span><span class="typ">MyNamespace</span><span class="pln"> </span><span class="pun">=</span><span class="pln"> </span><span class="typ">MyObject</span></code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">现在 TypeScript将不会抱怨。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">米亚</span>
@@ -77,9 +75,7 @@ topic: TypeScript
 <pre class="lang-js prettyprint prettyprinted" style=""><code><span class="kwd">interface</span><span class="pln"> </span><span class="typ">Window</span><span class="pln"> </span><span class="pun">{</span><span class="pln">
     </span><span class="typ">MyNamespace</span><span class="pun">:</span><span class="pln"> any</span><span class="pun">;</span><span class="pln">
 </span><span class="pun">}</span></code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Elena</span>
@@ -96,9 +92,7 @@ topic: TypeScript
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">创建完成后，请不要忘记在您的中公开它</font></font><code>public_api.ts</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">对我来说就做到了。</font><font style="vertical-align: inherit;">希望这可以帮助。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Chloe</span>
@@ -117,9 +111,7 @@ topic: TypeScript
 </span><span class="kwd">const</span><span class="pln"> customWindow</span><span class="pun">:</span><span class="typ">ICustomWindow</span><span class="pln"> </span><span class="pun">=</span><span class="pln"> window</span><span class="pun">;</span><span class="pln">
 
 customWindow</span><span class="pun">.</span><span class="typ">MyNamespace</span><span class="pln"> </span><span class="pun">=</span><span class="pln"> customWindow</span><span class="pun">.</span><span class="typ">MyNamespace</span><span class="pln"> </span><span class="pun">{}</span><span class="pln"> </span></code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">伽罗理查德</span>
@@ -160,9 +152,7 @@ customWindow</span><span class="pun">.</span><span class="typ">MyNamespace</span
 <pre class="lang-js prettyprint prettyprinted" style=""><code><span class="pln">global</span><span class="com">/* or window */</span><span class="pun">.</span><span class="pln">myGlobalFunction</span><span class="pun">(</span><span class="str">"Kevin"</span><span class="pun">);</span><span class="pln">
 
 myGlobalFunction</span><span class="pun">(</span><span class="str">"Kevin"</span><span class="pun">);</span></code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">猴子</span>
@@ -187,9 +177,7 @@ declare </span><span class="kwd">var</span><span class="pln"> window</span><span
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">完成，使用它</font></font><em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">‌！</font></font></em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> TypeScript不会再抱怨了：</font></font></p>
 
 <pre class="lang-js prettyprint prettyprinted" style=""><code><span class="pln">window</span><span class="pun">.</span><span class="typ">MyNamespace</span><span class="pln"> </span><span class="pun">=</span><span class="pln"> window</span><span class="pun">.</span><span class="typ">MyNamespace</span><span class="pln"> </span><span class="pun">||</span><span class="pln"> </span><span class="pun">{};</span></code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">番长猴子</span>
@@ -204,9 +192,7 @@ declare </span><span class="kwd">var</span><span class="pln"> window</span><span
 </span><span class="pun">}</span><span class="pln">
 
 window</span><span class="pun">.</span><span class="typ">MyNamespace</span><span class="pln"> </span><span class="pun">=</span><span class="pln"> window</span><span class="pun">.</span><span class="typ">MyNamespace</span><span class="pln"> </span><span class="pun">||</span><span class="pln"> </span><span class="pun">{};</span></code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Gil</span>
@@ -219,9 +205,7 @@ window</span><span class="pun">.</span><span class="typ">MyNamespace</span><span
 </span><span class="pun">}</span></code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">参考：</font><a href="https://www.typescriptlang.org/docs/handbook/declaration-files/templates/global-d-ts.html" rel="noreferrer"><font style="vertical-align: inherit;">https</font></a><font style="vertical-align: inherit;"> : </font></font><a href="https://www.typescriptlang.org/docs/handbook/declaration-files/templates/global-d-ts.html" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">//www.typescriptlang.org/docs/handbook/declaration-files/templates/global-d-ts.html</font></font></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">达蒙</span>
@@ -232,9 +216,7 @@ window</span><span class="pun">.</span><span class="typ">MyNamespace</span><span
 <pre class="lang-js prettyprint prettyprinted" style=""><code><span class="pln">window</span><span class="pun">[</span><span class="str">"newProperty"</span><span class="pun">]</span><span class="pln"> </span><span class="pun">=</span><span class="pln"> customObj</span><span class="pun">;</span></code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">理想情况下，应避免使用全局变量方案。</font><font style="vertical-align: inherit;">我有时用它来调试浏览器控制台中的对象。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">梅</span>
@@ -248,9 +230,7 @@ window</span><span class="pun">.</span><span class="typ">MyNamespace</span><span
 </span><span class="pun">}</span></code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这在使用Typescript 3.3，WebPack和TSLint时与我合作。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Mandy村村</span>
@@ -289,9 +269,7 @@ declare namespace </span><span class="typ">MyNamespace</span><span class="pln"> 
 </span><span class="pun">}</span></code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">现在，上面的代码将名称空间</font></font><code>MyNamespace</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">和接口的类型</font></font><code>MyNamespace</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">合并到全局变量</font></font><code>myNamespace</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">（window的属性）中。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">神离</span>
@@ -300,9 +278,7 @@ declare namespace </span><span class="typ">MyNamespace</span><span class="pln"> 
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">要使其保持动态，只需使用：</font></font></p>
 
 <pre class="lang-js prettyprint prettyprinted" style=""><code><span class="pun">(&lt;</span><span class="pln">any</span><span class="pun">&gt;</span><span class="pln">window</span><span class="pun">).</span><span class="typ">MyNamespace</span></code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Tony凯</span>
@@ -319,9 +295,7 @@ declare namespace </span><span class="typ">MyNamespace</span><span class="pln"> 
 declare </span><span class="kwd">var</span><span class="pln"> window</span><span class="pun">:</span><span class="pln"> </span><span class="typ">MyWindow</span><span class="pun">;</span></code></pre>
 
 <p><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">更新：</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">使用TypeScript 0.9.5，可接受的答案再次起作用。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">武藏</span>
@@ -336,9 +310,7 @@ declare </span><span class="kwd">var</span><span class="pln"> window</span><span
 window</span><span class="pun">.</span><span class="typ">MyNamespace</span><span class="pln"> </span><span class="pun">=</span><span class="pln"> window</span><span class="pun">.</span><span class="typ">MyNamespace</span><span class="pln"> </span><span class="pun">||</span><span class="pln"> </span><span class="pun">{};</span></code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">基本上，您需要扩展现有</font></font><code>window</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">接口以向其介绍新属性。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">伽罗</span>
@@ -349,9 +321,7 @@ window</span><span class="pun">.</span><span class="typ">MyNamespace</span><span
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这是我所做的：</font></font></p>
 
 <pre class="lang-js prettyprint prettyprinted" style=""><code><span class="pun">(</span><span class="pln">window as any</span><span class="pun">).</span><span class="typ">MyNamespace</span></code></pre></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

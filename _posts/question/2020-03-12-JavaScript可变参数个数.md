@@ -23,7 +23,7 @@ load(var1)<font></font>
 </code></pre></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第1151篇《JavaScript可变参数个数》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第1151篇《JavaScript可变参数个数》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -34,9 +34,7 @@ load(var1)<font></font>
             <span class="discuss-time">2020.03.12</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">请注意，按照Ken的建议传递带有命名属性的Object会增加分配和释放临时对象到每个调用的成本。</font><font style="vertical-align: inherit;">通过值或引用传递普通参数通常是最有效的。</font><font style="vertical-align: inherit;">对于许多应用程序而言，性能并不关键，但对于某些应用程序则可能至关重要。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小卤蛋村村</span>
@@ -53,18 +51,14 @@ load(var1)<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这大约是相同数量的代码（可能略多），但是应该只是运行时成本的一小部分。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">神无LEYMandy</span>
             <span class="discuss-time">2020.03.12</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"></font><code>arguments</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在函数内部</font><font style="vertical-align: inherit;">使用该</font><font style="vertical-align: inherit;">对象可以访问传入的所有参数。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">凯梅小胖</span>
@@ -80,9 +74,7 @@ load(var1)<font></font>
 <font></font>
 load(1,2);<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">逆天老丝</span>
@@ -116,9 +108,7 @@ load(1,2);<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这会将上下文对象与默认值合并，并使用默认值填充对象中所有未定义的值。  </font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Jim老丝猪猪</span>
@@ -137,9 +127,7 @@ load(1,2);<font></font>
   <li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">它不包括所有参数，而仅包括从其传递过来的参数。</font><font style="vertical-align: inherit;">例如，函数（a，b，... args）在这种情况下args包含arguments.length的参数3</font></font></li>
   </ol>
 </blockquote></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">猴子古一蛋蛋</span>
@@ -153,9 +141,7 @@ load(1,2);<font></font>
   }<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

@@ -80,7 +80,7 @@ AuthenticatedRoute.propTypes = {<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">发出错误的动作是正确的</font></font><code>render()</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">感觉。</font><font style="vertical-align: inherit;">似乎确实不正确，</font></font><code>componentDidMount</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">还是</font><font style="vertical-align: inherit;">带有</font><font style="vertical-align: inherit;">其他挂钩？</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第1001篇《如何在React Router 4中实现经过身份验证的路由？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第1001篇《如何在React Router 4中实现经过身份验证的路由？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -111,9 +111,7 @@ AuthenticatedRoute.propTypes = {<font></font>
   )<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">LEYJim</span>
@@ -148,9 +146,7 @@ const _App = ({ lastTab, isTokenVerified })=&gt; <font></font>
 </code></pre>
 
 <p><code>isTokenVerified</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> 是一种检查授权令牌的方法调用，它基本上返回布尔值。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">LEY米亚</span>
@@ -209,9 +205,7 @@ const _App = ({ lastTab, isTokenVerified })=&gt; <font></font>
   };<font></font>
 };<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">西里Stafan小哥</span>
@@ -230,9 +224,7 @@ const _App = ({ lastTab, isTokenVerified })=&gt; <font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">希望对您有所帮助！</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小宇宙古一</span>
@@ -268,9 +260,7 @@ const _App = ({ lastTab, isTokenVerified })=&gt; <font></font>
 
 <pre><code>const redirectStart = props =&gt; &lt;Redirect to="/orders" /&gt;
 </code></pre></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

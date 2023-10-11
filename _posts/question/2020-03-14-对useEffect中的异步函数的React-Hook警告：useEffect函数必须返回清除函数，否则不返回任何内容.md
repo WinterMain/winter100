@@ -35,7 +35,7 @@ topic: JavaScript
 <a href="https://www.samyoc.com//uploads/users/16782/images/thumbnails/1584181105961.png" data-src="https://www.samyoc.com//uploads/users/16782/images/1584181105961.png" rel="noreferrer"><img src="https://i.stack.imgur.com/YFRR5.png" alt="在此处输入图片说明"></a></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第1604篇《对useEffect中的异步函数的React Hook警告：useEffect函数必须返回清除函数，否则不返回任何内容》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第1604篇《对useEffect中的异步函数的React Hook警告：useEffect函数必须返回清除函数，否则不返回任何内容》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -61,9 +61,7 @@ topic: JavaScript
 </div>
 </div>
 <p></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小哥Gil</span>
@@ -88,9 +86,7 @@ topic: JavaScript
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">（注意initData（）的方括号</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">前端LEYLEY</span>
@@ -122,9 +118,7 @@ useEffect(()=&gt;{<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">参考=&gt; </font></font><a href="https://reactjs.org/docs/hooks-effect.html#tip-optimizing-performance-by-skipping-effects" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">https://reactjs.org/docs/hooks-effect.html#tip-optimizing-performance-by-skipping-effects</font></font></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">达蒙西里</span>
@@ -183,9 +177,7 @@ useEffect(()=&gt;{<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">第二种解决方案将使其更易于阅读，并且将帮助您编写代码以在触发新请求时取消先前的请求或将最新的请求响应保存在状态中</font></font></p>
 
 <p><strong><a href="https://codesandbox.io/s/jpknv0kyn9" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">工作代码和邮箱</font></font></a></strong></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

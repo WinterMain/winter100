@@ -63,7 +63,7 @@ query.on('end', function() { <font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">另外，在我让它在节点上工作之前，我必须做</font></font><code>npm install pg</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font><font style="vertical-align: inherit;">那是什么意思 </font><font style="vertical-align: inherit;">我查看了目录，但没有找到文件pg。</font><font style="vertical-align: inherit;">它放在哪里，JavaScript如何找到它？</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第1283篇《这个Javascript“要求”是什么？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第1283篇《这个Javascript“要求”是什么？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -85,9 +85,7 @@ query.on('end', function() { <font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">现在，整个脚本将被加载到页面中-因此您可以直接访问其变量和方法。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">还有其他在大型项目中使用更广泛的方法，例如</font></font><a href="http://requirejs.org/" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">require.js之</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">类的模块加载器</font><font style="vertical-align: inherit;">。</font><font style="vertical-align: inherit;">在这两个中，我没有使用Require my，但是我认为许多人认为它是可行的方式。</font></font></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

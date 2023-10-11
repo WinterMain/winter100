@@ -34,7 +34,7 @@ router.get('/', async (ctx) =&gt; {<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">任何帮助将不胜感激！</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第3835篇《Koa Router：如何获取查询字符串参数？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第3835篇《Koa Router：如何获取查询字符串参数？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -47,18 +47,14 @@ router.get('/', async (ctx) =&gt; {<font></font>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">您可以使用</font></font><code>ctx.query</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">（或长期</font><font style="vertical-align: inherit;">使用</font></font><code>ctx.request.query</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">）</font></font></p>
 
 <p><code>app.use( (ctx) =&gt; console.log(ctx.query) )</code></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">达蒙</span>
             <span class="discuss-time">2020.03.30</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">根据文档，应该有一个</font></font><code>ctx.request.query</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">表示为对象的查询字符串项。</font></font></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

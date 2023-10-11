@@ -34,7 +34,7 @@ export class MyComponent extends React.Component&lt;Props, any&gt; { ... }<font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">对类的定义？</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第1254篇《TypeScript React应用程序中的PropTypes》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第1254篇《TypeScript React应用程序中的PropTypes》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -47,9 +47,7 @@ export class MyComponent extends React.Component&lt;Props, any&gt; { ... }<font>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我猜在某些混乱的情况下，在编译时无法推断道具的类型，那么查看使用产生的任何警告将很有用</font></font><code>propTypes</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">除此之外，我没有看到任何好处（这就是为什么我从未亲自使用过它）。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">MandyEva</span>
@@ -68,9 +66,7 @@ export class MyComponent extends React.Component&lt;Props, any&gt; { ... }<font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">因此，通常这是您可以信任编译时间验证多少的问题。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">现在，较新版本的TypeScript可以根据您的</font></font><code>React.PropTypes</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">（</font></font><code>PropTypes.InferProps</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">）</font><font style="vertical-align: inherit;">推断类型</font><font style="vertical-align: inherit;">，但是生成的类型可能难以使用或在代码的其他地方引用。</font></font></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

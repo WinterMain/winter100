@@ -56,7 +56,7 @@ $.ajax<font></font>
 </code></pre></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第1860篇《对jQuery和Ajax使用基本身份验证》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第1860篇《对jQuery和Ajax使用基本身份验证》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -71,9 +71,7 @@ $.ajax<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我设法通过在请求中添加用户和密码（例如user：pw@domain.tld）来解决此限制。</font><font style="vertical-align: inherit;">这几乎适用于</font></font><em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">除Internet Explorer之外的</font></font></em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">任何浏览</font><em><font style="vertical-align: inherit;">器</font></em><font style="vertical-align: inherit;">，在</font><em><font style="vertical-align: inherit;">Internet Explorer中</font></em><font style="vertical-align: inherit;">，不支持通过URL进行身份验证（该调用将不会执行）。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">请参阅</font></font><a href="http://support.microsoft.com/kb/834489" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">http://support.microsoft.com/kb/834489</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">老丝Pro</span>
@@ -119,9 +117,7 @@ Header always set Access-Control-Allow-Origin %{origin_is}e env=origin_is<font><
 <p>Then send a few headers to tell the browser that it is allowed to authenticate, and the  <strong>Access-Control-Allow-Origin</strong> to grant permission for the cross-site request.</p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在某些情况下，</font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">*通配符不能</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">用作Access-Control-Allow-Origin的值：您需要返回被叫方的确切域。</font><font style="vertical-align: inherit;">使用SetEnvIf捕获此值。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Pro十三</span>
@@ -133,9 +129,7 @@ Header always set Access-Control-Allow-Origin %{origin_is}e env=origin_is<font><
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">参考：</font></font><a href="http://api.jquery.com/jQuery.ajax/"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">jQuery Ajax API</font></font></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">GO路易西门</span>
@@ -147,9 +141,7 @@ Header always set Access-Control-Allow-Origin %{origin_is}e env=origin_is<font><
     xhr.setRequestHeader ("Authorization", "Basic " + btoa(username + ":" + password));<font></font>
 },<font></font>
 </code></pre></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

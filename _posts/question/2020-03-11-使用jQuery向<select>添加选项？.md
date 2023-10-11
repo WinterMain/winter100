@@ -22,7 +22,7 @@ topic: JavaScript
 </code></pre></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第635篇《使用jQuery向<select>添加选项？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第635篇《使用jQuery向<select>添加选项？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -40,9 +40,7 @@ topic: JavaScript
           $("#mySelect").append($("&lt;option&gt;&lt;/option&gt;").val("1").html("My enter code hereoption"));<font></font>
     &lt;/script&gt;<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Stafan村村达蒙</span>
@@ -67,9 +65,7 @@ topic: JavaScript
 </code></pre>
 
 <p>Name and Id are names of object properties...so you can call them whatever you like...And ofcourse if you have Array...you want to build custom function with for loop...and then just call that function in document ready...Cheers</p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Jim米亚西里</span>
@@ -81,9 +77,7 @@ topic: JavaScript
 o.selected=true;<font></font>
 $("#mySelect").append(o);<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">谷若汐</span>
@@ -92,9 +86,7 @@ $("#mySelect").append(o);<font></font>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">那很好。 </font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果添加多个选项元素，我建议执行一次附加操作，而不是在每个元素上执行附加操作。</font></font></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

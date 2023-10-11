@@ -91,7 +91,7 @@ for (var i = 0; i &lt; 3; i++) {<font></font>
 <p>What’s the solution to this basic problem?</p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第170篇《循环内的JavaScript闭合–简单的实际示例》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第170篇《循环内的JavaScript闭合–简单的实际示例》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -117,9 +117,7 @@ for (var j = 0; j &lt; 3; j++) {<font></font>
 </div>
 </div>
 <p></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Tom小宇宙</span>
@@ -142,18 +140,14 @@ for (var j = 0; j &lt; 3; j++) {<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这看起来比其他语言的范围丑陋，但是恕我直言，它不如其他解决方案那么可怕。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">TomMandy</span>
             <span class="discuss-time">2020.03.09</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">您的原始示例无效的原因是，您在循环中创建的所有闭包都引用了同一框架。</font><font style="vertical-align: inherit;">实际上，对一个对象具有3个方法而只有一个</font></font><code>i</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">变量。</font><font style="vertical-align: inherit;">它们都打印出相同的值。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">飞云前端西门</span>
@@ -174,9 +168,7 @@ for (var j = 0; j &lt; 3; j++) {<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">（*）我是query-js的作者，因此偏向于使用它，因此不要只将我的话作为对上述库的建议：)</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">卡卡西Pro小卤蛋</span>
@@ -191,9 +183,7 @@ for (var i = 0; i &lt; 3; i++) {     <font></font>
   })(i);<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Tony阳光</span>
@@ -222,9 +212,7 @@ for (var i = 0; i &lt; 3; i++) {     <font></font>
     };<font></font>
 };<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">十三西里GO</span>
@@ -275,9 +263,7 @@ for (var k = 0; k &lt; 3; k += 1) {<font></font>
 <p></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">（</font></font><code>let</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">使变量成为块作用域。块用花括号表示，但是在for循环的</font></font><code>i</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">情况下，</font><font style="vertical-align: inherit;">初始化变量</font><font style="vertical-align: inherit;">在本例中被视为在花括号中声明。）</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">猴子阳光</span>
@@ -302,9 +288,7 @@ function createfunc(i) {<font></font>
 </code></pre>
 
 <p><a href="http://jsfiddle.net/7P6EN/"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">http://jsfiddle.net/7P6EN/</font></font></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">L前端</span>
@@ -345,9 +329,7 @@ for(var j =0; j&lt;3; j++){<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">其背后的想法是，使用</font></font><a href="https://en.wikipedia.org/wiki/Immediately-invoked_function_expression" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">IIFE</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">（立即调用函数表达式）</font><font style="vertical-align: inherit;">封装for循环的整个主体，</font><font style="vertical-align: inherit;">并</font></font><code>new_i</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">作为参数</font><font style="vertical-align: inherit;">传递</font><font style="vertical-align: inherit;">并将其捕获为</font></font><code>i</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font><font style="vertical-align: inherit;">由于匿名函数会立即执行，</font></font><code>i</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">因此匿名函数内部定义的每个函数</font><font style="vertical-align: inherit;">的</font><font style="vertical-align: inherit;">值都不同。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">此解决方案似乎适合任何此类问题，因为它将需要对遭受此问题的原始代码进行最少的更改。</font><font style="vertical-align: inherit;">实际上，这是设计使然，根本不成问题！</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">阳光LEY</span>
@@ -437,9 +419,7 @@ function makeCounters(num)<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">之所以可行，是因为直接在函数作用域中的局部变量以及函数自变量在输入时被分配了新副本。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">有关详细讨论，请参见</font></font><a href="https://gist.github.com/lucastan/5420969"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">JavaScript封闭陷阱和用法</font></font></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">飞云Tom小宇宙</span>
@@ -463,9 +443,7 @@ for (var i = 0; i &lt; 3; i++) {<font></font>
 <p></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">请注意，无论使用哪种技术，该</font></font><code>index</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">变量都将成为一种静态变量，绑定到内部函数的返回副本上。</font><font style="vertical-align: inherit;">即，在两次调用之间保留对其值的更改。</font><font style="vertical-align: inherit;">可能非常方便。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">SamJinJin路易</span>
@@ -494,9 +472,7 @@ for (var j = 0; j &lt; 3; j++) {<font></font>
 </div>
 </div>
 <p></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Gil番长</span>
@@ -531,9 +507,7 @@ for (let i = 0; i &lt; 3; i++) {          <font></font>
 </ul>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">但是请注意，IE9-IE11和Edge 14之前的Edge支持，</font></font><code>let</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">但是出现了上述错误（它们不会</font></font><code>i</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">每次都</font><font style="vertical-align: inherit;">创建一个新的</font><font style="vertical-align: inherit;">，因此上面的所有功能都将记录3，就像我们使用一样</font></font><code>var</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">）。</font><font style="vertical-align: inherit;">Edge 14终于正确了。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">JinJin阿飞番长</span>
@@ -563,9 +537,7 @@ for (var j = 0; j &lt; 3; j++) {<font></font>
 <p><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">编辑</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">（2014年）：</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我个人认为，@ Aust </font></font><a href="https://stackoverflow.com/a/19323214/918959"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">最近关于使用的答案</font></font><code>.bind</code></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">是现在执行此类操作的最佳方法。</font><font style="vertical-align: inherit;">还有LO-破折号/下划线是</font></font><code>_.partial</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">当你不需要或不想要惹做</font></font><code>bind</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">的</font></font><code>thisArg</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

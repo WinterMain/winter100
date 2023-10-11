@@ -81,7 +81,7 @@ module.exports = {<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我如何修改以确保该</font></font><code>http://localhost:8080/</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">条目本身是针对应用程序的？</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第1351篇《Webpack-dev-server提供目录列表而不是应用程序页面》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第1351篇《Webpack-dev-server提供目录列表而不是应用程序页面》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -97,9 +97,7 @@ module.exports = {<font></font>
         "start:dev": "webpack-dev-server --inline --content-base ./public"<font></font>
     }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">番长LA</span>
@@ -115,18 +113,14 @@ module.exports = {<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">有关</font><font style="vertical-align: inherit;">更多选项和一般信息</font><font style="vertical-align: inherit;">，</font><font style="vertical-align: inherit;">请参阅</font></font><a href="https://webpack.js.org/configuration/dev-server/" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">webpack配置文档</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，尤其是</font></font><a href="https://webpack.js.org/configuration/dev-server/#devserver" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">webpack开发服务器文档</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">JinJinTom</span>
             <span class="discuss-time">2020.03.13</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我不小心删除了index.html，然后仅得到目录列表。</font></font></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

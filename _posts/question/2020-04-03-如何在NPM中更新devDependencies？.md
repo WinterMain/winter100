@@ -21,7 +21,7 @@ topic: Node.js
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">有任何想法吗？</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第4007篇《如何在NPM中更新devDependencies？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第4007篇《如何在NPM中更新devDependencies？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -35,9 +35,7 @@ topic: Node.js
 
 <pre><code>npm install react-test-renderer@15.6.1 --save --only=dev
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">神无米亚</span>
@@ -49,9 +47,7 @@ topic: Node.js
  </font></font><a href="https://github.com/isaacs/npm/pull/3863" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">//github.com/isaacs/npm/pull/3863</font></font></a></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">它应该很快就会安装在npm的最新稳定版本上。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">凯阳光</span>
@@ -76,9 +72,7 @@ topic: Node.js
 
 <pre><code>npm update --save-dev
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">null</span>
@@ -93,9 +87,7 @@ topic: Node.js
 
 <pre><code>npm-check-updates -u
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">JinJin</span>
@@ -115,9 +107,7 @@ topic: Node.js
 
 <pre><code>npm help &lt;cmd&gt;
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">飞云飞云</span>
@@ -130,9 +120,7 @@ topic: Node.js
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">基本上，它将使用一个简单的Grunt Task自动更新您过时的开发依赖项。</font></font></p>
 
 <p><a href="https://github.com/pgilad/grunt-dev-update" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">https://github.com/pgilad/grunt-dev-update</font></font></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">神无</span>
@@ -141,9 +129,7 @@ topic: Node.js
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">当前版本的NPM（1.3.11）不再包含此问题。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">更新适用于： </font></font><code>npm update</code></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

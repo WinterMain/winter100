@@ -17,7 +17,7 @@ topic: JavaScript
     <div class="article-content"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我想要的只是获取网站URL。</font><font style="vertical-align: inherit;">不是从链接获取的URL。</font><font style="vertical-align: inherit;">在页面加载过程中，我需要能够获取网站的完整，当前URL，并将其设置为一个变量，以便我随意使用。</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第160篇《使用JavaScript获取当前URL？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第160篇《使用JavaScript获取当前URL？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -32,9 +32,7 @@ topic: JavaScript
 <p><a href="https://i.stack.imgur.com/ls587.png" rel="nofollow noreferrer" data-bitapp="processed"><img src="https://i.stack.imgur.com/ls587.png" alt="在此处输入图片说明"></a></p>
 
 <p>If you want the base URL without path or query parameter (for example to do AJAX requests against to work on both development/staging AND production servers), <code>window.location.origin</code> is best as it keeps the protocol as well as optional port (in Django development, you sometimes have a non-standard port which breaks it if you just use hostname etc.)</p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">GilJinJin</span>
@@ -52,9 +50,7 @@ console</span><span class="pun">.</span><span class="pln">log</span><span class=
 <div class="snippet-result"><div class="snippet-ctas"><button type="button" class="s-btn s-btn__primary"><span class="icon-play-white _hover"></span><span> Run code snippet</span></button><input class="copySnippet s-btn s-btn__filled" type="button" value="Copy snippet to answer" style="display: none;"><button type="button" class="s-btn hideResults" style="display: none;">Hide results</button><div class="popout-code"><a class="snippet-expand-link" data-bitapp="processed">Expand snippet</a></div></div><div class="snippet-result-code" style="display: none;"><iframe name="sif3" sandbox="allow-forms allow-modals allow-scripts" class="snippet-box-edit" frameborder="0"></iframe></div></div></div>
 </div>
 <p></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Jim猴子Eva</span>
@@ -68,9 +64,7 @@ console</span><span class="pun">.</span><span class="pln">log</span><span class=
   <li><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">window.location.href</font></font></p></li>
   </ul>
 </blockquote></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">满天星</span>
@@ -80,9 +74,7 @@ console</span><span class="pun">.</span><span class="pln">log</span><span class=
 方式获取</font><font style="vertical-align: inherit;">当前页面的完整链接，</font><font style="vertical-align: inherit;">并获取当前控制器的链接，请使用：</font></font></p>
 
 <pre class="lang-js prettyprint prettyprinted" style=""><code><span class="pln">location</span><span class="pun">.</span><span class="pln">href</span><span class="pun">.</span><span class="pln">substring</span><span class="pun">(</span><span class="lit">0</span><span class="pun">,</span><span class="pln"> location</span><span class="pun">.</span><span class="pln">href</span><span class="pun">.</span><span class="pln">lastIndexOf</span><span class="pun">(</span><span class="str">'/'</span><span class="pun">));</span></code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">卡卡西Pro小卤蛋</span>
@@ -95,9 +87,7 @@ console</span><span class="pun">.</span><span class="pln">log</span><span class=
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">并且，所有现代浏览器都映射</font></font><code>document.location</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">到</font></font><code>window.location</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">实际上，为了确保跨浏览器的安全，您应该使用</font></font><code>window.location</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">而不是</font></font><code>document.location</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">飞云前端西门</span>
@@ -108,18 +98,14 @@ console</span><span class="pun">.</span><span class="pln">log</span><span class=
 <pre class="lang-js prettyprint prettyprinted" style=""><code><span class="pln">url </span><span class="pun">=</span><span class="pln"> </span><span class="str">"${pageContext.request.contextPath}"</span><span class="pln"> </span><span class="pun">+</span><span class="pln"> </span><span class="str">"/controller/path"</span></code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">示例：对于页面，</font></font><code>http://stackoverflow.com/posts/36577223</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">将给出</font></font><code>http://stackoverflow.com/controller/path</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">理查德凯</span>
             <span class="discuss-time">2020.03.09</span>
           </div>
           <div class="discuss-comment"><pre class="lang-js prettyprint prettyprinted" style=""><code><span class="pln">   location</span><span class="pun">.</span><span class="pln">origin</span><span class="pun">+</span><span class="pln">location</span><span class="pun">.</span><span class="pln">pathname</span><span class="pun">+</span><span class="pln">location</span><span class="pun">.</span><span class="pln">search</span><span class="pun">+</span><span class="pln">location</span><span class="pun">.</span><span class="pln">hash</span><span class="pun">;</span></code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">逆天</span>
@@ -130,9 +116,7 @@ console</span><span class="pun">.</span><span class="pln">log</span><span class=
 <pre class="lang-js prettyprint prettyprinted" style=""><code><span class="kwd">const</span><span class="pln"> url </span><span class="pun">=</span><span class="pln"> </span><span class="kwd">new</span><span class="pln"> URL</span><span class="pun">(</span><span class="pln">window</span><span class="pun">.</span><span class="pln">location</span><span class="pun">.</span><span class="pln">href</span><span class="pun">)</span></code></pre>
 
 <p><a href="https://developer.mozilla.org/en-US/docs/Web/API/URL" rel="nofollow noreferrer" data-bitapp="processed"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">https://developer.mozilla.org/zh-CN/docs/Web/API/URL</font></font></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">猴子阳光</span>
@@ -145,9 +129,7 @@ console</span><span class="pun">.</span><span class="pln">log</span><span class=
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">对于主机URL：</font></font></p>
 
 <pre class="lang-js prettyprint prettyprinted" style=""><code><span class="pln">window</span><span class="pun">.</span><span class="pln">location</span></code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">ItachiGreen</span>
@@ -161,9 +143,7 @@ console</span><span class="pun">.</span><span class="pln">log</span><span class=
 </span><span class="pun">}</span></code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">上面的代码也可以帮助某人 </font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">西门小宇宙</span>
@@ -207,9 +187,7 @@ ancestorOrigins</span><span class="pun">:</span><span class="pln"> </span><span 
 </blockquote>
 
 <pre class="lang-js prettyprint prettyprinted" style=""><code><span class="str">"stackoverflow.com"</span></code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">伽罗Pro卡卡西</span>
@@ -218,9 +196,7 @@ ancestorOrigins</span><span class="pun">:</span><span class="pln"> </span><span 
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">使用：</font></font><code>window.location.href</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如上所述，</font></font><code>document.URL</code> <strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">更新</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">时</font><strong><font style="vertical-align: inherit;">不会</font></strong><font style="vertical-align: inherit;">更新</font></font><code>window.location</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font><font style="vertical-align: inherit;">参见</font></font><a href="https://developer.mozilla.org/en-US/docs/Web/API/document.URL" data-bitapp="processed"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">MDN</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">逆天Eva</span>
@@ -235,9 +211,7 @@ ancestorOrigins</span><span class="pun">:</span><span class="pln"> </span><span 
 <p><a href="https://i.stack.imgur.com/EbfAs.png" rel="noreferrer" data-bitapp="processed"><img src="https://i.stack.imgur.com/EbfAs.png" alt="在此处输入图片说明"></a></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">从这里获取您的需求。</font><font style="vertical-align: inherit;">:)</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">凯斯丁</span>
@@ -247,9 +221,7 @@ ancestorOrigins</span><span class="pun">:</span><span class="pln"> </span><span 
 <li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">使用</font></font><code>window.location.href</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">以获得完整的URL。</font></font></li>
 <li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">使用</font></font><code>window.location.pathname</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">得到URL离开主机。</font></font></li>
 </ul></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Tom阿飞</span>
@@ -258,18 +230,14 @@ ancestorOrigins</span><span class="pun">:</span><span class="pln"> </span><span 
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">获取当前页面的URL：</font></font></p>
 
 <pre class="lang-js prettyprint prettyprinted" style=""><code><span class="pln">window</span><span class="pun">.</span><span class="pln">location</span><span class="pun">.</span><span class="pln">href</span></code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">神乐小胖</span>
             <span class="discuss-time">2020.03.09</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">用于</font></font><code>window.location</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">对</font><font style="vertical-align: inherit;">与当前帧关联</font><font style="vertical-align: inherit;">的</font></font><a href="https://developer.mozilla.org/En/DOM/Window.location#Location_object" rel="noreferrer" data-bitapp="processed"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">位置对象的</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">读写访问</font><font style="vertical-align: inherit;">。</font><font style="vertical-align: inherit;">如果您只想以只读字符串的形式获取地址，则可以使用</font></font><code>document.URL</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，其值应与相同</font></font><code>window.location.href</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">路易斯丁神奇</span>
@@ -308,9 +276,7 @@ ancestorOrigins</span><span class="pun">:</span><span class="pln"> </span><span 
 </ul>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我希望你能得到答案。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">JinJinPro</span>
@@ -325,9 +291,7 @@ ancestorOrigins</span><span class="pun">:</span><span class="pln"> </span><span 
 <pre class="lang-js prettyprint prettyprinted" style=""><code><span class="pln">document</span><span class="pun">.</span><span class="pln">URL</span><span class="pun">;</span></code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">请参阅</font></font><strong><a href="https://web.archive.org/web/20170327080647/http://www.w3.org/TR/DOM-Level-2-HTML/html.html#ID-46183437" rel="noreferrer" data-bitapp="processed"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">DOMString类型的URL，只读</font></font></a></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

@@ -47,7 +47,7 @@ server.listen(3000);<font></font>
 </code></pre></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第1962篇《bodyParser弃用Express 4》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第1962篇《bodyParser弃用Express 4》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -60,9 +60,7 @@ server.listen(3000);<font></font>
           <div class="discuss-comment"><p><code>app.use(bodyParser.urlencoded({extended: true}));</code></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我有同样的问题，但这对我有用。</font><font style="vertical-align: inherit;">您可以尝试此扩展部分。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">番长蛋蛋Davaid</span>
@@ -77,9 +75,7 @@ app.use(bodyParser.urlencoded({<font></font>
 </code></pre>
 
 <p><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">说明</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">：</font></font><code>extended</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">不建议使用</font><font style="vertical-align: inherit;">该</font><font style="vertical-align: inherit;">选项</font><font style="vertical-align: inherit;">的默认值</font><font style="vertical-align: inherit;">，这意味着您需要显式传递true或false值。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">乐十三</span>
@@ -103,9 +99,7 @@ app.use(bodyParser.urlencoded({<font></font>
 
 <pre><code>cd node-express-app &amp;&amp; npm install &amp;&amp; npm start
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">神无老丝Davaid</span>
@@ -121,9 +115,7 @@ app.use(bodyParser.urlencoded({<font></font>
 <pre><code>app.use(bodyParser.urlencoded({ extended: false }));<font></font>
 app.use(bodyParser.json());<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">伽罗JinJin西门</span>
@@ -153,9 +145,7 @@ app.use(bodyParser.json());<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在</font></font><code>extended</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">现在的配置对象的关键需要明确的被传递，因为它现在已经没有默认值。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果您使用的快递&gt; = 4.16.0，身体解析器已根据这些方法重新加入</font></font><code>express.json()</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">和</font></font><code>express.urlencoded()</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

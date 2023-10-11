@@ -41,7 +41,7 @@ Error: Cannot find module 'webpack/lib/ConcatSource'<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我忘了什么？</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第3193篇《Webpack-extract-text-webpack-plugin找不到模块》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第3193篇《Webpack-extract-text-webpack-plugin找不到模块》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -52,9 +52,7 @@ Error: Cannot find module 'webpack/lib/ConcatSource'<font></font>
             <span class="discuss-time">2020.03.24</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">跑步</font></font><code>npm i node-sass</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">可能会解决您的问题</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">达蒙</span>
@@ -65,9 +63,7 @@ Error: Cannot find module 'webpack/lib/ConcatSource'<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">让我知道这是否有效。</font></font></p>
 
 <p><a href="https://github.com/webpack/webpack/issues/6568" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">https://github.com/webpack/webpack/issues/6568</font></font></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Stafan</span>
@@ -77,9 +73,7 @@ Error: Cannot find module 'webpack/lib/ConcatSource'<font></font>
 
 <pre><code>npm i extract-text-webpack-plugin
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小宇宙</span>
@@ -91,9 +85,7 @@ Error: Cannot find module 'webpack/lib/ConcatSource'<font></font>
 </code></pre>
 
 <p><a href="https://www.npmjs.com/package/extract-text-webpack-plugin" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">https://www.npmjs.com/package/extract-text-webpack-plugin</font></font></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">JimAGil</span>
@@ -102,9 +94,7 @@ Error: Cannot find module 'webpack/lib/ConcatSource'<font></font>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">用使用解决</font></font></p>
 
 <h3><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">npm install extract-text-webpack-plugin --save-dev</font></font></h3></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">GO村村</span>
@@ -117,9 +107,7 @@ Error: Cannot find module 'webpack/lib/ConcatSource'<font></font>
 </code></pre>
 
 <p><code>extract-text-webpack-plugin</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">需要</font></font><code>webpack</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">作为对等方依赖项，但是npm 3不会自动安装对等方依赖项。</font></font></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

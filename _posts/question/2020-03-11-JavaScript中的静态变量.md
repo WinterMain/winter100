@@ -17,7 +17,7 @@ topic: JavaScript
     <div class="article-content"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如何在Javascript中创建静态变量？</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第687篇《JavaScript中的静态变量》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第687篇《JavaScript中的静态变量》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -45,9 +45,7 @@ console.log(person1.counter);<font></font>
 </code></pre>
 
 <p>Doing this you will be able to access the counter variable from any instance and any change in the property will be immediately reflected!!</p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">凯JinJin</span>
@@ -61,18 +59,14 @@ console.log(person1.counter);<font></font>
 }<font></font>
 circle.prototype.pi=3.14159<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">StafanHarry</span>
             <span class="discuss-time">2020.03.11</span>
           </div>
           <div class="discuss-comment"><p>Window level vars are sorta like statics in the sense that you can use direct reference and these are available to all parts of your app</p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">A小胖</span>
@@ -89,9 +83,7 @@ f(); // Call No 1<font></font>
 <font></font>
 f(); // Call No 2<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">番长村村</span>
@@ -112,9 +104,7 @@ function foo() {<font></font>
 </code></pre>
 
 <p>And then access the variabels like this: <code>foo.bar</code>.</p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Eva西里</span>
@@ -134,9 +124,7 @@ setInterval(draw, 1000);<font></font>
 
 <p>The value of x is incremented by 1 every 1000 milliseconds<br>
 It will print 1,2,3 so forth</p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">前端凯</span>
@@ -161,9 +149,7 @@ It will print 1,2,3 so forth</p></div>
 <p></p>
 
 <p>This effectively creates a static variable in JavaScript.</p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">飞云神无</span>
@@ -183,9 +169,7 @@ var p1 = new Person();<font></font>
 var p2 = new Person();<font></font>
 var p3 = new Person();<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">null</span>
@@ -204,9 +188,7 @@ var p3 = new Person();<font></font>
 incr(); // returns 1<font></font>
 incr(); // returns 2<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">西门飞云泡芙</span>
@@ -220,9 +202,7 @@ incr(); // returns 2<font></font>
   alert(arguments.callee.myStaticVar);<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

@@ -62,7 +62,7 @@ vue: {<font></font>
 </code></pre></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第1549篇《使用NODE_ENV = production的Webpack编译vue仍会导致开发人员警告》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第1549篇《使用NODE_ENV = production的Webpack编译vue仍会导致开发人员警告》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -86,9 +86,7 @@ vue: {<font></font>
 
 <pre><code>echo $NODE_ENV
 </code></pre></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

@@ -41,7 +41,7 @@ module.exports  = Header;<font></font>
 </code></pre></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第2032篇《Visual Studio Code中的JSX或HTML自动补全》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第2032篇《Visual Studio Code中的JSX或HTML自动补全》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -54,9 +54,7 @@ module.exports  = Header;<font></font>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">直到昨天，React Babel的自动完成功能都可以正常工作。 </font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这些答案均无济于事，所以我只是重新启动了计算机。</font><font style="vertical-align: inherit;">像魅力一样工作;）</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">凯逆天</span>
@@ -69,9 +67,7 @@ module.exports  = Header;<font></font>
 
 <p>Second, select <em>Configure File Association for .js</em> from the menu that drops down at the top-center of the window. Change it to JavaScript React.
 <a href="https://i.stack.imgur.com/GJPIX.png" rel="nofollow noreferrer"><img src="https://i.stack.imgur.com/GJPIX.png" alt="在此处输入图片说明"></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Green理查德</span>
@@ -85,9 +81,7 @@ module.exports  = Header;<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">所以我发表了评论。</font><font style="vertical-align: inherit;">而且一切都可以在React Apps中完美运行。</font><font style="vertical-align: inherit;">谢谢</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">猿小宇宙小哥</span>
@@ -104,9 +98,7 @@ module.exports  = Header;<font></font>
     "javascriptreact": "javascriptreact"<font></font>
 },<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">乐米亚</span>
@@ -122,9 +114,7 @@ module.exports  = Header;<font></font>
 },<font></font>
 "emmet.triggerExpansionOnTab": true<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">番长Vicky</span>
@@ -154,9 +144,7 @@ module.exports  = Header;<font></font>
  "emmet.triggerExpansionOnTab": true</code></p>
 
 <p><a href="https://i.stack.imgur.com/u2fel.png" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">第三步</font></font></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">猪猪Harry泡芙</span>
@@ -170,9 +158,7 @@ module.exports  = Header;<font></font>
 </ol>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">现在，您有了不错的自动关闭JSX标签！</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Pro乐</span>
@@ -193,9 +179,7 @@ module.exports  = Header;<font></font>
 </ol>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果您想了解更多详细信息，可以检查</font></font><a href="https://code.visualstudio.com/docs/editor/emmet#_emmet-abbreviations-in-other-file-types" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">此</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">链接。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Tony番长L</span>
@@ -204,9 +188,7 @@ module.exports  = Header;<font></font>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">您可以使用Visual Studio Code中的“自动关闭扩展名”。</font><font style="vertical-align: inherit;">ps。</font><font style="vertical-align: inherit;">安装扩展程序时，只有重新加载VS Code或重新打开VS Code或转到自动关闭标签扩展名并单击“重新加载”，自动完成功能才起作用。</font></font></p>
 
 <p><font style="vertical-align: inherit;"></font><a href="https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-close-tag" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">自动关闭标签</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">扩展的</font><font style="vertical-align: inherit;">链接</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">飞云达蒙</span>
@@ -257,9 +239,7 @@ module.exports  = Header;<font></font>
 <p><a href="https://i.stack.imgur.com/n8Im2.png" rel="noreferrer"><img src="https://i.stack.imgur.com/n8Im2.png" alt="设定"></a></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我执行了第二步和第三步。</font><font style="vertical-align: inherit;">我现在可以做</font></font><code>Emmet</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">神无LEY</span>
@@ -267,9 +247,7 @@ module.exports  = Header;<font></font>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这些解决方案均无效...但是自动关闭标签扩展名有效！
 </font></font><a href="https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-close-tag" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-close-tag</font></font></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">村村LEY宝儿</span>
@@ -288,18 +266,14 @@ module.exports  = Header;<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">您可能必须重新启动VS Code才能使更改生效。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">PS：如果您不为React.js项目进行此映射，那么KehkashanFazal的答案可能对您有用。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Mandy小小</span>
             <span class="discuss-time">2020.03.18</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">只需</font><font style="vertical-align: inherit;">在屏幕右下角</font><font style="vertical-align: inherit;">选择适当的</font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">语言模式</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">：将其设置为</font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">JavaScript React。</font></font></strong></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">猪猪Mandy</span>
@@ -331,9 +305,7 @@ module.exports  = Header;<font></font>
   <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">启用默认情况下不支持的语言的emmet缩写。</font><font style="vertical-align: inherit;">在此语言和emmet支持的语言之间添加映射。</font></font><br><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
   例如：</font></font><code>{"vue-html": "html", "javascript": "javascriptreact"}</code>  </p>
 </blockquote></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

@@ -17,7 +17,7 @@ topic: Webpack
     <div class="article-content"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如何配置Angular和VSCode，以便我的断点起作用？</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第2608篇《如何使用VSCode调试Angular？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第2608篇《如何使用VSCode调试Angular？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -64,9 +64,7 @@ topic: Webpack
     ]<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">阿飞Tony</span>
@@ -104,9 +102,7 @@ topic: Webpack
   ]<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Tony凯</span>
@@ -177,9 +173,7 @@ topic: Webpack
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我写了自己的文章，并在其中举例说明了这种方法。</font></font></p>
 
 <p><a href="https://sergeome.com/blog/2018/07/01/configure-debugger-for-angular-in-vscode/" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">简单说明如何在VSCode中为Angular配置调试器</font></font></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">乐米亚</span>
@@ -221,9 +215,7 @@ topic: Webpack
   ]<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">凯西里</span>
@@ -245,18 +237,14 @@ topic: Webpack
 ]<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Eva阿飞</span>
             <span class="discuss-time">2020.03.23</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在Visual Studio Code网站上对此进行了详细说明：</font><a href="https://code.visualstudio.com/docs/nodejs/angular-tutorial" rel="noreferrer"><font style="vertical-align: inherit;">https</font></a><font style="vertical-align: inherit;">：</font></font><a href="https://code.visualstudio.com/docs/nodejs/angular-tutorial" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">//code.visualstudio.com/docs/nodejs/angular-tutorial</font></font></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">卡卡西Near</span>
@@ -418,9 +406,7 @@ topic: Webpack
   ]<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

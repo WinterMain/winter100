@@ -30,7 +30,7 @@ topic: JavaScript
 </code></pre></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第1595篇《JavaScript中“ =>”（等于或大于的箭头）的含义是什么？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第1595篇《JavaScript中“ =>”（等于或大于的箭头）的含义是什么？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -101,18 +101,14 @@ var instance = new SomeMethod();<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我鼓励您阅读此链接（</font></font><a href="https://medium.com/@shivprasadkoirala/arrow-function-in-javascript-471d13ad0af2" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">JavaScript中的Arrow函数</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">），</font><font style="vertical-align: inherit;">该链接</font><font style="vertical-align: inherit;">解释了javascript上下文的所有情况以及在哪些情况下不尊重调用者上下文。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">您还可以</font></font><a href="https://www.youtube.com/watch?v=ik3RWl_-U3o" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在此youtube视频中</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">看到</font><a href="https://www.youtube.com/watch?v=ik3RWl_-U3o" rel="nofollow noreferrer"><font style="vertical-align: inherit;">带有JavaScript</font></a><font style="vertical-align: inherit;">的</font><a href="https://www.youtube.com/watch?v=ik3RWl_-U3o" rel="nofollow noreferrer"><font style="vertical-align: inherit;">Arrow函数</font></a><font style="vertical-align: inherit;">演示，</font><font style="vertical-align: inherit;">该演示实际上演示了上下文。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">梅Tony</span>
             <span class="discuss-time">2020.03.14</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">正如所有其他答案已经说过的那样，它是ES2015箭头函数语法的一部分。</font><font style="vertical-align: inherit;">更具体地说，它不是运算符，而是将参数与主体分开的标点符号</font></font><code>ArrowFunction : ArrowParameters =&gt; ConciseBody</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font><font style="vertical-align: inherit;">例如</font></font><code>(params) =&gt; { /* body */ }</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">阳光凯</span>
@@ -131,9 +127,7 @@ var instance = new SomeMethod();<font></font>
 </code></pre>
 
 <p><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/arrow_functions"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">MDN文件</font></font></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">null</span>
@@ -151,9 +145,7 @@ var mixed = (a,b) =&gt; { (any logic); return a * b };<font></font>
 console.log(mixed(a,b)) <font></font>
 // 20<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Sam神乐番长</span>
@@ -183,9 +175,7 @@ f(123);  // 123<font></font>
 new f(); // TypeError: f is not a constructor<font></font>
 </code></pre></li>
 </ul></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">猿乐</span>
@@ -200,9 +190,7 @@ new f(); // TypeError: f is not a constructor<font></font>
 <blockquote>
   <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">箭头函数表达式的语法比函数表达式短，并且在词法上绑定了此值。</font><font style="vertical-align: inherit;">箭头功能始终是匿名的。</font></font></p>
 </blockquote></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

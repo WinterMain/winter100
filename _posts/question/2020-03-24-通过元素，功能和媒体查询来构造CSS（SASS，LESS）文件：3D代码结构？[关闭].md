@@ -127,7 +127,7 @@ topic: CSS
 <p>I'm absolutely not satisfied with that but i just fail to come up with a graceful solution. Please suggest one.</p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第3627篇《通过元素，功能和媒体查询来构造CSS（SASS，LESS）文件：3D代码结构？[关闭]》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第3627篇《通过元素，功能和媒体查询来构造CSS（SASS，LESS）文件：3D代码结构？\[关闭\]》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -141,9 +141,7 @@ topic: CSS
  Firefox的</font></font><a href="https://addons.mozilla.org/en-US/firefox/addon/firesass-for-firebug/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">FireSass</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">可以帮助您确定样式的来源。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">希望这些帮助！</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">番长樱梅</span>
@@ -176,9 +174,7 @@ topic: CSS
 我用它来构建用于生产的CSS文件。</font><font style="vertical-align: inherit;">（尚未完成，我需要添加从媒体查询版本中剥离的代码，但请看一下。）</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">希望这对您有所帮助。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">卡卡西</span>
@@ -212,9 +208,7 @@ modules/<font></font>
 <li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">尽可能缓慢地转向细节。</font></font></li>
 <li><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">切勿</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">根据任何外部概念（类型/布局，屏幕尺寸等）进行划分。</font></font></li>
 </ul></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">樱</span>
@@ -238,9 +232,7 @@ modules/<font></font>
   /site<font></font>
     includes.css /*use @import to include each modules stylesheet in a file here and let each module control its own media issues*/<font></font>
 </code></pre></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

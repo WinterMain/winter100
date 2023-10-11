@@ -23,7 +23,7 @@ topic: KoaJS
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">谢谢！</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第3841篇《Koa和Express 4.0有什么区别？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第3841篇《Koa和Express 4.0有什么区别？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -41,9 +41,7 @@ topic: KoaJS
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">有关更详细的答案，您可以访问此链接上的官方文档：</font><a href="https://github.com/koajs/koa/blob/master/docs/koa-vs-express.md" rel="nofollow noreferrer"><font style="vertical-align: inherit;">https</font></a><font style="vertical-align: inherit;"> :
  </font></font><a href="https://github.com/koajs/koa/blob/master/docs/koa-vs-express.md" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">//github.com/koajs/koa/blob/master/docs/koa-vs-express.md</font></font></a></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

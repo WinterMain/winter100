@@ -114,7 +114,7 @@ export default React.createClass({<font></font>
 </code></pre></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第3558篇《模块构建失败：ReferenceError：[BABEL]》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第3558篇《模块构建失败：ReferenceError：\[BABEL\]》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -130,9 +130,7 @@ export default React.createClass({<font></font>
 
 <pre><code>npm install --save-dev babel-preset-react
 </code></pre></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

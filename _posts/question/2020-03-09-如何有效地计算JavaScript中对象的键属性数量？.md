@@ -23,7 +23,7 @@ for (k in myobj) if (myobj.hasOwnProperty(k)) count++;<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">（Firefox确实提供了一个魔术</font></font><code>__count__</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">属性，但是在版本4的某个位置将其删除。）</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第257篇《如何有效地计算JavaScript中对象的键/属性数量？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第257篇《如何有效地计算JavaScript中对象的键/属性数量？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -34,9 +34,7 @@ for (k in myobj) if (myobj.hasOwnProperty(k)) count++;<font></font>
             <span class="discuss-time">2020.03.09</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我认为这是不可能的（至少在不使用某些内部组件的情况下）。</font><font style="vertical-align: inherit;">而且我认为通过优化它不会带来太大收益。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">A梅</span>
@@ -51,9 +49,7 @@ for (k in myobj) if (myobj.hasOwnProperty(k)) count++;<font></font>
 
 <pre><code>Object.values(objectName).length;
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">神乐宝儿小小</span>
@@ -79,9 +75,7 @@ get() {<font></font>
 <font></font>
 console.log({"Name":"Joe","Age":26}.length) //returns 2<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">猴子JinJin</span>
@@ -90,9 +84,7 @@ console.log({"Name":"Joe","Age":26}.length) //returns 2<font></font>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Google Closure为此提供了很好的功能... goog.object.getCount（obj）</font></font></p>
 
 <p><a href="http://closure-library.googlecode.com/svn/docs/closure_goog_object_object.js.html" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">看看goog.Object文档</font></font></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">逆天LEY</span>
@@ -132,9 +124,7 @@ return size;<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">基本上，地图会跟踪自己的大小，因此我们只返回一个数字字段。</font><font style="vertical-align: inherit;">远比其他任何方法都快。</font><font style="vertical-align: inherit;">如果您可以控制该对象，则可以将其转换为地图。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">西里神奇</span>
@@ -146,9 +136,7 @@ return size;<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这样做的好处是它可以在所有与Ext兼容的浏览器（包括IE6-IE8）上运行，但是，我相信运行时间并不比O（n）更好，就像其他建议的解决方案一样。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">斯丁飞云</span>
@@ -158,18 +146,14 @@ return size;<font></font>
 
 <pre><code>$(Object.Item).length
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">阿飞米亚</span>
             <span class="discuss-time">2020.03.09</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">您可以</font></font><code>Object.keys(data).length</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">用来查找具有关键数据的JSON对象的长度</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Near逆天</span>
@@ -203,9 +187,7 @@ return size;<font></font>
    }<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小小Jim</span>
@@ -260,9 +242,7 @@ email:leaked@example.com<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">注意：它在&lt;IE9浏览器中不起作用。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Tom猿</span>
@@ -277,9 +257,7 @@ email:leaked@example.com<font></font>
 
 <pre class="lang-js prettyprint-override"><code>_.size({a:'', b:''}) // =&gt; 2
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">樱Davaid</span>
@@ -293,9 +271,7 @@ email:leaked@example.com<font></font>
 map.set("key", "value");<font></font>
 map.size; // THE fastest way<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">老丝猿路易</span>
@@ -336,9 +312,7 @@ Object.keys(obj).length; // should be 3 because it looks like this <font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">最后是lodash实现</font></font><a href="https://lodash.com/docs#size" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">https://lodash.com/docs#size</font></font></a></p>
 
 <p><code>_.size(obj)</code></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Jim斯丁</span>
@@ -360,9 +334,7 @@ Object.keys(obj).length; // should be 3 because it looks like this <font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">通过这种方式，您可以随时引用myobj。</font></font><code>__count__</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">该函数将触发并重新计算。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小哥GOItachi</span>
@@ -371,9 +343,7 @@ Object.keys(obj).length; // should be 3 because it looks like this <font></font>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果您实际上遇到性能问题，建议您使用一个函数来包装向对象添加属性或从对象中删除属性的调用，该函数还要增加/减少适当命名的（size？）属性。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">您只需计算一次属性的初始数量，然后从那里继续。</font><font style="vertical-align: inherit;">如果没有实际的性能问题，请不要打扰。</font><font style="vertical-align: inherit;">只需将这段代码包装在一个函数中</font></font><code>getNumberOfProperties(object)</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">并完成它即可。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">逆天乐</span>
@@ -408,9 +378,7 @@ console.log("enumerableProp" in myObject); //outputs true<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如此处所述</font></font><a href="http://kangax.github.com/es5-compat-table/" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">该浏览器与</font></font><code>Object.keys</code></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">但是，在大多数情况下，您可能不希望在这些类型的操作中包括无数变量，但是了解它们之间的差异总是很好的;）</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Eva西里</span>
@@ -453,9 +421,7 @@ for (var k in myobj) if (hasOwn.call(myobj, k)) ++count;<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在给定的环境下这是否更快，是基准测试的问题。</font><font style="vertical-align: inherit;">无论如何，可以预期性能提升非常有限。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">米亚Near</span>
@@ -481,9 +447,7 @@ for (var k in myobj) if (hasOwn.call(myobj, k)) ++count;<font></font>
 
 <pre><code>var len = Object.keys(obj).length;
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">米亚伽罗L</span>
@@ -498,9 +462,7 @@ for (var k in myobj) if (hasOwn.call(myobj, k)) ++count;<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我强烈推荐Underscore，它是一个紧凑的库，可以处理很多基本的事情。</font><font style="vertical-align: inherit;">只要有可能，它们就会与ECMA5相匹配并遵循本机实现。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">否则，我支持@Avi的答案。</font><font style="vertical-align: inherit;">我对其进行了编辑，以添加指向MDC文档的链接，其中包括可以添加到非ECMA5浏览器的keys（）方法。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Mandy村村Harry</span>
@@ -515,9 +477,7 @@ for (var k in myobj) if (hasOwn.call(myobj, k)) ++count;<font></font>
 <li><a href="http://kangax.github.com/es5-compat-table/" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">浏览器兼容性</font></font></a></li>
 <li><a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object/keys" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Object.keys文档</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">（包括可以添加到非ES5浏览器的方法）</font></font></li>
 </ul></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

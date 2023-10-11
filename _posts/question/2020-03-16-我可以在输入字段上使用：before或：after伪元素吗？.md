@@ -37,7 +37,7 @@ topic: CSS
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">注意：我无法在</font></font><code>span</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">周围</font><font style="vertical-align: inherit;">添加</font></font><code>input</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，因为它是由第三方控件生成的。</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第1824篇《我可以在输入字段上使用：before或：after伪元素吗？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第1824篇《我可以在输入字段上使用：before或：after伪元素吗？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -76,9 +76,7 @@ topic: CSS
     margin: -3px -3px;<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">卡卡西乐</span>
@@ -89,18 +87,14 @@ topic: CSS
 <pre><code>&lt;div&gt;<font></font>
 &lt;input type="text"&gt;&lt;/input&gt;text can be entered here&lt;/div&gt;<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">猿樱</span>
             <span class="discuss-time">2020.03.16</span>
           </div>
           <div class="discuss-comment"><p><code>:before</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">并且</font></font><code>:after</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">仅适用于可以具有子节点的节点，因为它们会插入新节点作为第一个或最后一个节点。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Tony老丝</span>
@@ -113,9 +107,7 @@ topic: CSS
 </blockquote>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">附带说明，自动关闭的元素（例如img / hr / input）也称为“替换元素”，因为它们已被其各自的内容替换。</font><font style="vertical-align: inherit;">“外部对象”缺乏更好的用语。</font><font style="vertical-align: inherit;">更好的阅读</font></font><a href="http://developer.mozilla.org/en-US/docs/Web/CSS/Replaced_element" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这里</font></font></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">EvaLEY</span>
@@ -134,9 +126,7 @@ form {position: relative; }<font></font>
 &lt;input class="mystyle" type="text" value=""&gt;&lt;span class="mystyle"&gt;&lt;/span&gt;<font></font>
 &lt;/form&gt;<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">猪猪阿飞</span>
@@ -145,9 +135,7 @@ form {position: relative; }<font></font>
           <div class="discuss-comment"><p>According to a <a href="http://www.w3.org/TR/CSS2/generate.html#x2" rel="noreferrer">note</a> in the CSS 2.1 spec, the specification “does not fully define the interaction of :before and :after with replaced elements (such as IMG in HTML). This will be defined in more detail in a future specification.” Although <code>input</code> is not really a replaced element any more, the basic situation has not changed: the effect of <code>:before</code> and <code>:after</code> on it in unspecified and generally has no effect.</p>
 
 <p>The solution is to find a different approach to the problem you are trying to address this way. Putting generated content into a text input control would be very misleading: to the user, it would appear to be part of the initial value in the control, but it cannot be modified – so it would appear to be something forced at the start of the control, but yet it would not be submitted as part of form data.</p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Harry神乐</span>
@@ -160,9 +148,7 @@ form {position: relative; }<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">没有伪元素引用</font><font style="vertical-align: inherit;">元素</font></font><em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">外部</font></font></em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在不同的宇宙中，这些伪元素可能被称为其他名称，以使这种区分更加清楚。</font><font style="vertical-align: inherit;">甚至有人可能提出了一个伪元素，而该伪元素确实在元素之外。</font><font style="vertical-align: inherit;">到目前为止，在这个宇宙中情况并非如此。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Sam神乐番长</span>
@@ -179,9 +165,7 @@ form {position: relative; }<font></font>
   
   <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">实际上，在输入上指定伪元素将需要至少指定输入的内部结构，而我们尚未设法做到这一点（我不确定我们可以做到）。</font><font style="vertical-align: inherit;">但鲍里斯（Boris）建议，在其中一个bug线程中，允许它出现：无输入-基本上只是将它们转换为&lt;div&gt;，而不是“ kinda替换”元素。</font></font></p>
 </blockquote></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">猪猪乐理查德</span>
@@ -198,9 +182,7 @@ form {position: relative; }<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">只是这样</font></font><code>type=text</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，还有一些是行不通的。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Tony伽罗米亚</span>
@@ -209,9 +191,7 @@ form {position: relative; }<font></font>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">伪元素（如</font></font><code>:after</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">）</font></font><code>:before</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">仅用于容器元素。</font><font style="vertical-align: inherit;">开始和在像一个单一的地方封闭元件</font></font><code>&lt;input/&gt;</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，</font></font><code>&lt;img&gt;</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">等不是容器元素，因此伪构件不被支持。</font><font style="vertical-align: inherit;">将伪元素应用于容器元素之后</font></font><code>&lt;div&gt;</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，如果您检查代码（参见图片），您就可以理解我的意思。</font><font style="vertical-align: inherit;">实际上，伪元素是在容器元素内部创建的。</font><font style="vertical-align: inherit;">在</font></font><code>&lt;input&gt;</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">或的</font><font style="vertical-align: inherit;">情况下这是不可能的</font></font><code>&lt;img&gt;</code></p>
 
 <p><a href="https://i.stack.imgur.com/1yUox.png" rel="noreferrer"><img src="https://i.stack.imgur.com/1yUox.png" alt="在此处输入图片说明"></a> </p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">番长A</span>
@@ -234,9 +214,7 @@ form {position: relative; }<font></font>
 
 <pre><code>input[type="text"]::-webkit-input-placeholder:before { // your code }
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">西里小哥</span>
@@ -262,9 +240,7 @@ form {position: relative; }<font></font>
 <p></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我在AngularJS中使用这种方法，因为它将</font></font><code>.ng-invalid</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">自动</font><font style="vertical-align: inherit;">将</font><font style="vertical-align: inherit;">类</font><font style="vertical-align: inherit;">添加</font><font style="vertical-align: inherit;">到</font></font><code>&lt;input&gt;</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">表单元素和表单中，而不添加到中</font></font><code>&lt;label&gt;</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">神乐米亚蛋蛋</span>
@@ -281,9 +257,7 @@ form {position: relative; }<font></font>
 </code></pre>
 
 <p><a href="http://codepen.io/vkjgr/pen/Bfcae" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在Codepen上查看</font></font></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">米亚阿飞</span>
@@ -309,9 +283,7 @@ form {position: relative; }<font></font>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">看到？</font></font><em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">元素的文档树</font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">内容</font></font></strong></em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font><font style="vertical-align: inherit;">据我了解，这意味着</font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">容器内。</font></font><br>
 </p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">仲羽蛋蛋</span>
@@ -331,9 +303,7 @@ form {position: relative; }<font></font>
 <p><a href="http://api.jquery.com/after/" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">.after上的API文档</font></font></a></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">用javascript附加内容。</font><font style="vertical-align: inherit;">这将适用于所有浏览器。</font></font></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

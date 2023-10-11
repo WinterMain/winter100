@@ -26,7 +26,7 @@ topic: CSS
 </code></pre></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第2672篇《Sass @import使用领先的下划线》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第2672篇《Sass \`import使用领先的下划线》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -39,9 +39,7 @@ topic: CSS
           <div class="discuss-comment"><p>If you add an underscore to the start of the file name, Sass won’t compile it. So, if you don’t want <code>colors.scss</code> to compile to <code>colors.css</code>, name the file <code>_colors.scss</code> instead. Files named this way are called partials in Sass terminology. </p>
 
 <p>More about import feature in Sass you can find <a href="https://kolosek.com/sass-import/" rel="noreferrer">here</a> </p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

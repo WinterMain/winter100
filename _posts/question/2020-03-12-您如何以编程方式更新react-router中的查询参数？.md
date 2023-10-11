@@ -21,7 +21,7 @@ topic: React.js
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">而且是一个</font></font><code>onChange</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">真正的函数来监听查询变化的唯一途径？</font><font style="vertical-align: inherit;">为什么没有自动检测到查询更改并对参数更改做出反应？</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第1082篇《您如何以编程方式更新react-router中的查询参数？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第1082篇《您如何以编程方式更新react-router中的查询参数？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -35,9 +35,7 @@ topic: React.js
 
 <pre><code>this.props.history.push(`${window.location.pathname}&amp;page=${pageNumber}`)
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">AHarry</span>
@@ -61,9 +59,7 @@ topic: React.js
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在这里，成功进行Google-Passport身份验证后，我将从Node.js服务器重定向回我的客户端，该身份验证使用令牌作为查询参数进行重定向。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我正在使用query-string模块对其进行解析，保存并使用</font></font><a href="https://github.com/reactjs/react-router-redux" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">react-router-redux的</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> push更新URL中的查询参数</font><font style="vertical-align: inherit;">。</font></font></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

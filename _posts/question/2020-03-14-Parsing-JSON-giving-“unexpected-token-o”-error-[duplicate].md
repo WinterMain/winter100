@@ -53,7 +53,7 @@ topic: JavaScript
 <p>Note: I'm encoding my strings using <code>json_encode()</code> in PHP.</p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第1582篇《Parsing JSON giving “unexpected token o” error [duplicate]》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第1582篇《Parsing JSON giving “unexpected token o” error \[duplicate\]》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -67,9 +67,7 @@ topic: JavaScript
 
 <pre><code>var yourval = jQuery.parseJSON(JSON.stringify(data));
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">达蒙乐</span>
@@ -85,9 +83,7 @@ topic: JavaScript
     }
 });
 </code></pre></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

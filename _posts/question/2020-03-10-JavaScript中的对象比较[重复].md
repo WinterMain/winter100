@@ -52,7 +52,7 @@ alert(eq); // gives true<font></font>
 </code></pre></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第386篇《JavaScript中的对象比较[重复]》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第386篇《JavaScript中的对象比较\[重复\]》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -63,9 +63,7 @@ alert(eq); // gives true<font></font>
             <span class="discuss-time">2020.03.10</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果要显式检查方法，则可以使用method.toSource（）或method.toString（）方法。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">老丝小胖蛋蛋</span>
@@ -134,9 +132,7 @@ assert.isFalse(objectEquals({1:{name:"mhc",age:28}, 2:{name:"arb",age:26}},{1:{n
 assert.isTrue(objectEquals(function(x){return x;},function(x){return x;}));<font></font>
 assert.isFalse(objectEquals(function(x){return x;},function(y){return y+2;}));<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">达蒙小胖</span>
@@ -205,9 +201,7 @@ function areEquivalent(a, b) {<font></font>
     }<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Near神无Pro</span>
@@ -233,9 +227,7 @@ function areEquivalent(a, b) {<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">比较仅一个级别的对象的简单方法。</font></font></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

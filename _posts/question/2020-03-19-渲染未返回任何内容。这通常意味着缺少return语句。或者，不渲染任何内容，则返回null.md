@@ -53,7 +53,7 @@ export default Search_Bar;<font></font>
 </code></pre></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第2239篇《渲染未返回任何内容。这通常意味着缺少return语句。或者，不渲染任何内容，则返回null》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第2239篇《渲染未返回任何内容。这通常意味着缺少return语句。或者，不渲染任何内容，则返回null》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -71,9 +71,7 @@ export default Search_Bar;<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">删除该模拟程序（实际上并不需要）可以立即解决我的问题。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">当您知道从组件中正确返回时，这可能会节省您几个小时的研究时间。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">ProJinJin</span>
@@ -106,9 +104,7 @@ export default Search_Bar;<font></font>
   )<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">西门Sam</span>
@@ -135,9 +131,7 @@ statement2
 .........
 )
 </code></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">逆天西门</span>
@@ -152,9 +146,7 @@ statement2
 }<font></font>
 <font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Near神奇</span>
@@ -172,9 +164,7 @@ statement2
 (<font></font>
 )  <font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">樱Near</span>
@@ -186,9 +176,7 @@ statement2
     &lt;input /&gt;; <font></font>
 );<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">飞云Pro猴子</span>
@@ -202,9 +190,7 @@ statement2
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果要写多行，那么 </font></font><code>return ( ...</code> </p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">您的起始括号应与放在同一行</font></font><code>return</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">神奇A</span>
@@ -264,9 +250,7 @@ statement2
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在错误示例中，我们使用了花括号，但必须使用圆括号。</font><font style="vertical-align: inherit;">这也会产生相同的错误。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小胖古一</span>
@@ -279,9 +263,7 @@ statement2
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这解决了我的问题</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">乐逆天</span>
@@ -296,9 +278,7 @@ statement2
 
 <pre><code>const SomeComponent = () =&gt; (&lt;div&gt; Some Component Page &lt;/div&gt;)
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">猿神乐</span>
@@ -326,9 +306,7 @@ statement2
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这样可以解决错误</font></font></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

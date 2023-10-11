@@ -17,7 +17,7 @@ topic: JavaScript
     <div class="article-content"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如何在JavaScript中获取当前日期？</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第199篇《如何在JavaScript中获取当前日期？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第199篇《如何在JavaScript中获取当前日期？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -37,9 +37,7 @@ var dateToday = new Date(<font></font>
     0, <font></font>
     0);<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Tony樱番长</span>
@@ -56,9 +54,7 @@ function CurrentTime(){<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这将获取当前时间，并根据位置将其传递给字符串，然后您可以调用函数CurrentTime来显示时间。</font><font style="vertical-align: inherit;">对我来说，这是为某事获取时间戳的最有效方法。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">SamGreen</span>
@@ -73,9 +69,7 @@ console.log(date);</code></pre>
 </div>
 </div>
 <p></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Mandy猴子阿飞</span>
@@ -88,9 +82,7 @@ console.log(date.getDate()+'/'+(date.getMonth()+1)+'/'+date.getFullYear());<font
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这将以dd / MM / yyyy格式打印当前日期</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">猿前端猿</span>
@@ -99,9 +91,7 @@ console.log(date.getDate()+'/'+(date.getMonth()+1)+'/'+date.getFullYear());<font
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这有什么大不了的。最干净的方法是 </font></font></p>
 
 <p><code>var currentDate=new Date().toLocaleString().slice(0,10);</code></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">三千曜米亚</span>
@@ -116,9 +106,7 @@ document.write(today);<font></font>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">并参阅Date（）构造函数的文档。
 </font></font><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">链接</font></font></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">西里阳光</span>
@@ -128,9 +116,7 @@ document.write(today);<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">也会工作</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Itachi凯</span>
@@ -145,9 +131,7 @@ document.write( [d.getDate(), d.getMonth()+1, d.getFullYear()].join('/') );</cod
 </div>
 </div>
 <p></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">LEYTom</span>
@@ -161,18 +145,14 @@ document.write( [d.getDate(), d.getMonth()+1, d.getFullYear()].join('/') );</cod
 <blockquote>
   <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">“ 2016年2月3日星期三”</font></font></p>
 </blockquote></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">乐Near</span>
             <span class="discuss-time">2020.03.09</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">最简单的答案是： </font></font><code>new Date().toJSON().slice(0,10)</code></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">斯丁JimDavaid</span>
@@ -185,9 +165,7 @@ new Date(d.getTime() - d.getTimezoneOffset() * 60000).toJSON().slice(0, 10) // 2
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">的</font></font><code>TimezoneOffset</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">是分钟，而Date构造函数采用毫秒，因此乘以</font></font><code>60000</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">阿良</span>
@@ -201,18 +179,14 @@ new Date(d.getTime() - d.getTimezoneOffset() * 60000).toJSON().slice(0, 10) // 2
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">参考：</font></font></p>
 
 <p><a href="https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Global_Objects/Date/now"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Global_Objects/Date/now</font></font></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">达蒙小小</span>
             <span class="discuss-time">2020.03.09</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">您可以使用</font></font><a href="http://www.datejs.com/" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">扩展了</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> Date对象的</font><a href="http://www.datejs.com/" rel="noreferrer"><font style="vertical-align: inherit;">Date.js</font></a><font style="vertical-align: inherit;">库，从而可以使用.today（）方法。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">逆天猿理查德</span>
@@ -228,9 +202,7 @@ new Date(d.getTime() - d.getTimezoneOffset() * 60000).toJSON().slice(0, 10) // 2
 <blockquote>
   <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">2017/2/27上午9:15:41</font></font></p>
 </blockquote></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">猿GO</span>
@@ -248,9 +220,7 @@ new Date(d.getTime() - d.getTimezoneOffset() * 60000).toJSON().slice(0, 10) // 2
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">关于</font></font><a href="http://msdn.microsoft.com/en-US/library/kecw102f"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">MSDN的文章</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font><font style="vertical-align: inherit;">有关</font></font><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/toLocaleDateString"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">MDN</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">上此方法的更多信息</font><font style="vertical-align: inherit;">。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">阳光樱前端</span>
@@ -269,9 +239,7 @@ new Date(d.getTime() - d.getTimezoneOffset() * 60000).toJSON().slice(0, 10) // 2
 </div>
 </div>
 <p></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">斯丁JimDavaid</span>
@@ -293,9 +261,7 @@ document.write(d)</code></pre>
 <li><p><code>(new Date()).toString().split(' ')</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> 在每个空格上分割上述字符串，并返回如下数组：[“ Fri”，“ Jun”，“ 28”，“ 2013”​​，“ 15:31:14”，“ GMT-0700”，“（PDT）” ]</font></font></p></li>
 <li><p><code>(new Date()).toString().split(' ').splice(1,3).join(' ')</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> 从上面的数组中获取第二个，第三个和第四个值，将它们与空格连接，然后返回字符串“ Jun 28 2013”</font></font></p></li>
 </ol></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Davaid番长十三</span>
@@ -312,9 +278,7 @@ document.write(m);</code></pre>
 </div>
 </div>
 <p></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">JinJinDavaid卡卡西</span>
@@ -322,9 +286,7 @@ document.write(m);</code></pre>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果您要对日期格式进行更多的粒度控制，我强烈建议您查看一下momentjs。</font><font style="vertical-align: inherit;">很棒的图书馆-只有5KB。
 </font></font><a href="http://momentjs.com/"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">http://momentjs.com/</font></font></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">猴子村村</span>
@@ -347,9 +309,7 @@ document.write("&lt;b&gt;" + day + "/" + month + "/" + year + "&lt;/b&gt;")</cod
 
 <pre><code>15/2/2012
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">西门小胖小宇宙</span>
@@ -366,9 +326,7 @@ document.write(today);</code></pre>
 </div>
 </div>
 <p></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">宝儿小哥小卤蛋</span>
@@ -399,9 +357,7 @@ console.log(today)</code></pre>
 <p></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">另外，您可以将</font></font><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/toLocaleDateString#Using_locales" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">语言环境</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">作为参数</font><font style="vertical-align: inherit;">传递</font><font style="vertical-align: inherit;">，例如</font></font><code>toLocaleDateString("sr")</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，等等。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">樱Itachi</span>
@@ -416,9 +372,7 @@ document.write(utc);</code></pre>
 <p></p>
 
 <p><font style="vertical-align: inherit;"></font><code>replace</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果您要重用</font></font><code>utc</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">变量，</font><font style="vertical-align: inherit;">请使用</font><font style="vertical-align: inherit;">选项</font><font style="vertical-align: inherit;">，例如</font></font><code>new Date(utc)</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，因为Firefox和Safari无法识别带短划线的日期。</font></font></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

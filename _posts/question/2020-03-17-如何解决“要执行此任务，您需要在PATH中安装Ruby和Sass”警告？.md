@@ -29,7 +29,7 @@ to continue.<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这是否意味着我可以简单地通过a </font></font><code>sudo grunt install contrib-sass -g</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">来解决此问题？</font><font style="vertical-align: inherit;">那么Ruby –我一直以为它已经安装在OS X上了？</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第1972篇《如何解决“要执行此任务，您需要在PATH中安装Ruby和Sass”警告？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第1972篇《如何解决“要执行此任务，您需要在PATH中安装Ruby和Sass”警告？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -44,18 +44,14 @@ to continue.<font></font>
 <pre><code>brew install ruby<font></font>
 gem install sass<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">TonyJinJin泡芙</span>
             <span class="discuss-time">2020.03.17</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">同样</font></font><code>brew install saas/sass/sass</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在Mac High Sierra（10.13.x）上</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小小LDavaid</span>
@@ -72,9 +68,7 @@ gem install sass<font></font>
 
 <pre><code>sudo gem install sass
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Near泡芙</span>
@@ -88,18 +82,14 @@ gem install sass<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">试试这个，对我有用。</font></font></p>
 
 <p><a href="https://github.com/gruntjs/grunt-contrib-sass/issues/229" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">参考</font></font></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Mandy小小</span>
             <span class="discuss-time">2020.03.17</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果使用grunt，请使用grunt --force。</font><font style="vertical-align: inherit;">如果要使用grunt运行应用程序，并且会出现这样的警告。</font><font style="vertical-align: inherit;">要忽略此警告，可以使用--force。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">JinJin阿飞番长</span>
@@ -115,9 +105,7 @@ gem install sass<font></font>
 
 <pre><code>sudo gem install sass
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小哥斯丁</span>
@@ -131,18 +119,14 @@ gem install sass<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">解决方案</font></font><a href="https://github.com/sass/sass/issues/1769"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">来自github</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">宝儿L</span>
             <span class="discuss-time">2020.03.17</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">好，我知道了。</font><font style="vertical-align: inherit;">我只需要使用安装Sass </font></font><code>gem install sass</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，现在一切都很好...再简单不过了。</font></font></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

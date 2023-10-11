@@ -19,7 +19,7 @@ topic: React.js
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这两个软件包之间的主要区别是什么？</font><font style="vertical-align: inherit;">在单个页面react应用程序中使用这两个软件包是否有任何好处，或者坚持redux-thunk就足够了？  </font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第1259篇《redux-thunk和redux-promise有什么区别？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第1259篇《redux-thunk和redux-promise有什么区别？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -36,9 +36,7 @@ topic: React.js
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">另一方面，ReduxThunk强制操作创建者推迟将操作对象实际分发给reducer，直到调用dispatch。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这是我在其中找到此信息的教程的链接：</font></font><a href="https://blog.tighten.co/react-101-part-4-firebase" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">https</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> : </font><a href="https://blog.tighten.co/react-101-part-4-firebase" rel="noreferrer"><font style="vertical-align: inherit;">//blog.tighten.co/react-101-part-4-firebase</font></a><font style="vertical-align: inherit;">。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Davaid阳光伽罗</span>
@@ -84,9 +82,7 @@ topic: React.js
 <li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这是一篇</font></font><a href="https://medium.com/react-native-training/redux-4-ways-95a130da0cdc#.plivi8f61" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">很棒的文章，</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">直接比较了各种异步组合选项，包括thunk和redux-promise-middleware。</font><font style="vertical-align: inherit;">（TL； DR：</font></font><em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">“与其他一些选项相比，Redux Promise中间件极大地减少了样板”</font></font></em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> …… </font></font><em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">“我认为我喜欢Saga用于更复杂的应用程序</font></font></em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">（请阅读：“用途”），</font></font><em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">而Redux Promise中间件则可以用于其他所有方面。”</font></font></em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">）</font></font></li>
 <li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">请注意，在一个重要的情况下，您可能认为您需要调度多个动作，但实际上并不需要，并且可以使简单的事情保持简单。</font><font style="vertical-align: inherit;">那就是您只希望多个reducer对您的异步调用做出反应的地方。</font><font style="vertical-align: inherit;">但是，</font></font><em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">根本没有理由为什么多个reducer无法监视单个动作类型。</font></font></em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">您只想确保您的团队知道您正在使用该约定，因此他们不认为只有一个reducer（具有相关名称）可以处理给定的动作。</font></font></li>
 </ul></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">梅小宇宙</span>
@@ -111,9 +107,7 @@ topic: React.js
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果您需要异步或有条件地分派动作，则这两个库都非常有用。</font></font><code>redux-thunk</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">还可以让您在一个动作创建者内分派几次。</font><font style="vertical-align: inherit;">您选择一个，另一个还是全部取决于您的需求/风格。</font></font></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

@@ -17,7 +17,7 @@ topic: Node.js
     <div class="article-content"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">了解</font></font><code>.npmrc</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">文件中</font><font style="vertical-align: inherit;">的代理变量，</font><font style="vertical-align: inherit;">但是它不起作用。</font><font style="vertical-align: inherit;">尝试避免手动下载所有必需的软件包并进行安装。</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第2444篇《有没有一种方法可以使npm install（命令）在代理后面工作？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第2444篇《有没有一种方法可以使npm install（命令）在代理后面工作？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -30,18 +30,14 @@ topic: Node.js
           <div class="discuss-comment"><p>Just open the new terminal and type <code>npm config edit</code> and <code>npm config -g edit</code>. Reset to defaults. After that close terminal, open the new one and type <code>npm --without-ssl --insecure --proxy http://username:password@proxy:8080 install &lt;package&gt;</code> if you need globally just add <code>-g</code>. </p>
 
 <p>It worked for me, hope it`ll work for you :)</p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">乐Jim</span>
             <span class="discuss-time">2020.03.20</span>
           </div>
           <div class="discuss-comment"><p>when I give without http/http prefix in the proxy settings npm failed even when the proxy host and port were right values. It worked only after adding the protocol prefix. </p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">神无斯丁</span>
@@ -60,9 +56,7 @@ https-proxy=[IPADDRESS]:[PORTNUMBER]<font></font>
 </code></pre>
 
 <p>Which of course did not work, but the error messages didnt help much either...</p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">飞云村村</span>
@@ -77,9 +71,7 @@ https-proxy=[IPADDRESS]:[PORTNUMBER]<font></font>
 <p>For example if you have Windows you can add proxy as follow:</p>
 
 <p><a href="https://i.stack.imgur.com/lYk1X.png" rel="nofollow noreferrer"><img src="https://i.stack.imgur.com/lYk1X.png" alt="How it looks on Windows"></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Stafan小宇宙</span>
@@ -92,9 +84,7 @@ https-proxy=[IPADDRESS]:[PORTNUMBER]<font></font>
 <p>$ npm config set https-proxy "<a href="http://192.168.1.101:4128" rel="noreferrer">http://192.168.1.101:4128</a>"</p>
 
 <p>where 192.168.1.101 is proxy ip and 4128 is port. change according to your proxy settings. its works for me.</p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">LEY乐猴子</span>
@@ -115,9 +105,7 @@ npm config set registry http://registry.npmjs.org/</code></p>
 from the .npmrc file 
 that 
 npm install electron --save-dev worked</p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">神乐Tony阿飞</span>
@@ -131,9 +119,7 @@ npm install electron --save-dev worked</p></div>
 </code></pre>
 
 <p>PS : remove "&lt;" and "&gt;" please !!</p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">梅猪猪</span>
@@ -146,9 +132,7 @@ Set the http and https proxy.</p>
 <li>npm config set proxy <a href="http://proxy.company.com:8080" rel="noreferrer">http://proxy.company.com:8080</a></li>
 <li>npm config set https-proxy <a href="http://proxy.company.com:8080" rel="noreferrer">http://proxy.company.com:8080</a></li>
 </ul></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">逆天理查德</span>
@@ -159,9 +143,7 @@ npm config set registry http://registry.npmjs.org/<font></font>
 </code></pre>
 
 <p>This solved my problem.</p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">西里阿飞</span>
@@ -175,9 +157,7 @@ This one worked for me:</p>
   
   <p>npm --proxy <a href="http://XX.AA.AA.BB:8080" rel="noreferrer">http://XX.AA.AA.BB:8080</a> install </p>
 </blockquote></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Green小卤蛋</span>
@@ -202,9 +182,7 @@ In my case i had to encode</p>
 <pre><code>npm config set strict-ssl false<font></font>
 npm config set registry http://registry.npmjs.org/<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">神奇猴子米亚</span>
@@ -216,9 +194,7 @@ npm config set registry http://registry.npmjs.org/<font></font>
 https-proxy=https://&lt;proxy-url&gt;:&lt;port&gt;<font></font>
 registry=http://registry.npmjs.org/<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Mandy前端斯丁</span>
@@ -230,9 +206,7 @@ registry=http://registry.npmjs.org/<font></font>
 npm config set https-proxy http://proxy.company.com:8080<font></font>
 npm set strict-ssl=false<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">TonyEvaL</span>
@@ -241,9 +215,7 @@ npm set strict-ssl=false<font></font>
           <div class="discuss-comment"><pre class="lang-none prettyprint-override"><code>$ npm config set proxy http://login:pass@host:port<font></font>
 $ npm config set https-proxy http://login:pass@host:port<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Itachi猪猪</span>
@@ -260,9 +232,7 @@ $ npm config set https-proxy http://login:pass@host:port<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果您的密码包含特殊字符，例如</font></font><code>"</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，</font></font><code>@</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，</font></font><code>:</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">等等，通过他们的URL编码值替换它们。</font><font style="vertical-align: inherit;">例如</font></font><code>"</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">-&gt; </font></font><code>%22</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，</font></font><code>@</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">-&gt; </font></font><code>%40</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，</font></font><code>:</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">-&gt; </font></font><code>%3A</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font><code>%5C</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">用于角色</font></font><code>\</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">泡芙Stafan</span>
@@ -277,9 +247,7 @@ $ npm config set https-proxy http://login:pass@host:port<font></font>
 
 <p><code>sudo npm config set https-proxy http://proxy_host:port -g
 </code></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小胖Sam</span>
@@ -302,9 +270,7 @@ npm set strict-ssl false<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">希望这可以节省时间给某人</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">猪猪乐理查德</span>
@@ -316,9 +282,7 @@ npm set strict-ssl false<font></font>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我还看到了以下内容：
 </font></font><code>npm config set proxy http://proxy-server:8080/</code></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">阿飞村村</span>
@@ -414,9 +378,7 @@ echo "proxy=http://$username:$password@$proxy" &gt; ~/.curlrc<font></font>
 <li>If you want the module to be available globally, add option <code>-g</code></li>
 </ul></li>
 </ol></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">LEY米亚</span>
@@ -442,9 +404,7 @@ echo "proxy=http://$username:$password@$proxy" &gt; ~/.curlrc<font></font>
 </code></pre>
 
 <p><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">注意</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">：https-proxy没有</font></font><code>https</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">作为协议，而是</font></font><code>http</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">西里米亚</span>
@@ -472,9 +432,7 @@ echo "proxy=http://$username:$password@$proxy" &gt; ~/.curlrc<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">编辑：我的一个朋友刚刚指出的是，你可以通过设置让NPM背后的代理工作</font></font><strong><em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">BOTH</font></font></em></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> HTTP_PROXY和HTTPS_PROXY环境变量，然后正常发出命令   </font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">故宫安装快车</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">（例如）</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">EDIT2：正如@BStruthers所评论的那样，请记住，如果包含@，则不能正确地解析包含“ @”的密码，如果将@整个密码放在引号中</font></font></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

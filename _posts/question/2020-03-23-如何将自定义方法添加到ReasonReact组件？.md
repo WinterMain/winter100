@@ -64,7 +64,7 @@ The field getInitialProps does not belong to type ReasonReact.componentSpec<font
 </code></pre></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第2949篇《如何将自定义方法添加到ReasonReact组件？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第2949篇《如何将自定义方法添加到ReasonReact组件？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -102,9 +102,7 @@ inject(default, getInitialProps);<font></font>
 所有信贷@tmepple和@ -rase谁张贴的解决方案有！</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">另一种解决方案是将“ _app.js”保留为纯js，然后从该getInitialProps中传递内容，这些</font></font><code>&lt;Component someParam=manualStuff {...pageProps} /&gt;</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">内容可以作为参数输入到您的原因反应页面中。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">神奇达蒙</span>
@@ -121,9 +119,7 @@ inject(default, getInitialProps);<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">因此，您将拥有一个具有的reactjs组件</font></font><code>getInitialProps</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，该组件呈现一个ReasonInteract组件，该组件通过互操作公开了基础类。</font><font style="vertical-align: inherit;">如果我理解正确的话，如果您使用的是来自Reason的包装，那么您也应该将ReasonReact绑定写入该js包装。</font><font style="vertical-align: inherit;">这使这个过程有些虚构，但是您在这里遇到了一个病态的案例。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">一方面：理想情况下，Next.js API将要求一个组件类，而</font></font><code>getInitialProps</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在侧面，则是一个完全不可知的功能，该功能未附加到组件类上。</font><font style="vertical-align: inherit;">这样可以大大简化“原因”方面的绑定过程。</font></font></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

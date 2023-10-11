@@ -19,7 +19,7 @@ topic: CSS
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Sublime 3中是否可以将语法设置为SCSS？</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第2377篇《如何在Sublime 3中设置scss语法？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第2377篇《如何在Sublime 3中设置scss语法？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -37,9 +37,7 @@ topic: CSS
 </ul>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">图片来源：</font><a href="http://joncaveman.com/2015/08/11/sublime-text-3-default-syntax-highlighting-for-file-types/" rel="nofollow noreferrer"><font style="vertical-align: inherit;">http</font></a><font style="vertical-align: inherit;"> : </font></font><a href="http://joncaveman.com/2015/08/11/sublime-text-3-default-syntax-highlighting-for-file-types/" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">//joncaveman.com/2015/08/11/sublime-text-3-default-syntax-highlighting-for-file-types/</font></font></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">古一斯丁</span>
@@ -56,9 +54,7 @@ topic: CSS
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">再次按</font></font><kbd>CTRL</kbd><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">+ </font></font><kbd>Shift</kbd><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">+ </font></font><kbd>P</kbd><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">搜索SCSS，然后单击“ </font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">设置语法：SCSS”</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font><font style="vertical-align: inherit;">它它的scss文件将相应地着色</font></font></p>
 
 <p><a href="https://i.stack.imgur.com/yFiB0.png" rel="noreferrer"><img src="https://i.stack.imgur.com/yFiB0.png" alt="在此处输入图片说明"></a></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

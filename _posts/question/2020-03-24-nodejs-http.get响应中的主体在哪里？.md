@@ -28,7 +28,7 @@ true<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">完成（http.get为您完成），因此它应该具有某种内容。</font><font style="vertical-align: inherit;">但是没有主体，没有数据，我无法读取。</font><font style="vertical-align: inherit;">身体藏在哪里？</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第3176篇《nodejs http.get响应中的主体在哪里？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第3176篇《nodejs http.get响应中的主体在哪里？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -43,9 +43,7 @@ true<font></font>
 <p><a href="https://nodejs.org/docs/latest-v8.x/api/http.html#http_http_get_options_callback" rel="nofollow noreferrer"><code>http.get()</code></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">不返回响应对象。</font><font style="vertical-align: inherit;">它返回请求对象（</font></font><a href="https://nodejs.org/docs/latest-v8.x/api/http.html#http_class_http_clientrequest" rel="nofollow noreferrer"><code>http.clientRequest</code></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">）。</font><font style="vertical-align: inherit;">因此，没有任何方法可以从的返回值获取响应的主体</font></font><code>http.get()</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我知道这是一个老问题，但是阅读</font></font><a href="https://nodejs.org/docs/v0.4.0/api/http.html#http.request" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">链接到的文档后</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，即使您发布了它，情况也是如此。</font></font></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

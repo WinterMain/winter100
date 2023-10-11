@@ -44,7 +44,7 @@ TheArray.push(TheNewObject);<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">它在末尾添加TheNewObject。</font><font style="vertical-align: inherit;">我是否需要创建一个新数组，将TheNewObject添加到其中，然后遍历TheArray并将每个元素添加到该数组中？</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第1249篇《数组开头的javascript push元素[重复]》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第1249篇《数组开头的javascript push元素\[重复\]》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -58,9 +58,7 @@ TheArray.push(TheNewObject);<font></font>
 
 <pre><code>TheArray.unshift(TheNewObject);
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">MandyJinJin路易</span>
@@ -70,9 +68,7 @@ TheArray.push(TheNewObject);<font></font>
 
 <pre><code>TheArray.splice(0, 0, TheNewObject);
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">神乐神乐</span>
@@ -86,9 +82,7 @@ TheArray.push(TheNewObject);<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">有关</font></font><a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Array/unshift"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">文档的信息</font></font><code>unshift()</code></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，</font><font style="vertical-align: inherit;">请参见MDN；</font></font><a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Array"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">有关其他数组方法的信息，</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">请参见</font><font style="vertical-align: inherit;">此处</font><font style="vertical-align: inherit;">。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">仅供参考，就像有</font></font><code>.push()</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">和</font></font><code>.pop()</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">为数组的结尾，有</font></font><code>.shift()</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">和</font></font><code>.unshift()</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">为数组的开始。</font></font></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

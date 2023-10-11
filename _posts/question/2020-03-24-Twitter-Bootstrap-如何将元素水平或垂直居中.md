@@ -17,7 +17,7 @@ topic: CSS
     <div class="article-content"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">有什么办法可以在主要父级中垂直或水平居中html元素？</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第3146篇《Twitter Bootstrap-如何将元素水平或垂直居中》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第3146篇《Twitter Bootstrap-如何将元素水平或垂直居中》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -32,9 +32,7 @@ topic: CSS
 <p><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">中心水平</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">确实是</font></font><code>text-center</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">一流的</font></font></p>
 
 <p><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">中心垂直，</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">但是使用引导程序类添加了两者，</font></font><code>mb-auto mt-auto</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">因此margin-top和marginbottom被设置为auto。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">宝儿</span>
@@ -48,9 +46,7 @@ topic: CSS
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">来源：</font></font><a href="https://getbootstrap.com/docs/4.1/utilities/flex/" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">bootstrap 4.1</font></font></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">猴子村村</span>
@@ -70,9 +66,7 @@ topic: CSS
 <p></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">它应该居中水平和垂直居中 </font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">泡芙</span>
@@ -85,9 +79,7 @@ topic: CSS
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">和</font></font></p>
 
 <p><code>&lt;th class="text-center"&gt;Header cell data&lt;/th&gt;</code></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">GO</span>
@@ -102,9 +94,7 @@ margin:0 auto<font></font>
 <font></font>
  &lt;div class="span8 centering"&gt;&lt;/div&gt;<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">蛋蛋</span>
@@ -127,9 +117,7 @@ margin:0 auto<font></font>
 </div>
 </div>
 <p></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">老丝阿飞</span>
@@ -170,9 +158,7 @@ margin:0 auto<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这是</font><a href="https://www.youtube.com/watch?v=k32voqQhODc" rel="nofollow noreferrer"><font style="vertical-align: inherit;">Brad Schiff</font></a><font style="vertical-align: inherit;">精彩的快节奏</font></font><a href="https://www.youtube.com/watch?v=k32voqQhODc" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">视频教程</font></font></a></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这是一个很棒的</font></font><a href="https://yoksel.github.io/flex-cheatsheet/" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">备忘单</font></font></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">凯西里</span>
@@ -217,9 +203,7 @@ margin:0 auto<font></font>
     &lt;/div&gt;<font></font>
 &lt;/body&gt;<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">番长猴子</span>
@@ -233,9 +217,7 @@ margin:0 auto<font></font>
 
 <pre><code>&lt;div class="center-block"&gt;...&lt;/div&gt;
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">GO</span>
@@ -258,9 +240,7 @@ margin:0 auto<font></font>
 <p><a href="http://www.codeply.com/go/SOSvvKpLOc" rel="noreferrer"><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">演示</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> Bootstrap 4水平居中</font></font></a></p>
 
 <p><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">有关BS4中的垂直居中的信息，请参见</font></font></strong> <a href="https://stackoverflow.com/a/41464397/171456"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">https://stackoverflow.com/a/41464397/171456</font></font></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">null</span>
@@ -277,9 +257,7 @@ class="pagination-centered"<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">感谢@Henning和@trejder</font></font></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

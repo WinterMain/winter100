@@ -124,7 +124,7 @@ class SearchPage extends Component {<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">可以使用flexbox resizeMode完成此操作吗？</font><font style="vertical-align: inherit;">你怎么做呢？</font><font style="vertical-align: inherit;">我找不到关于它的任何文档...</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第2316篇《在React Native中调整图像大小》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第2316篇《在React Native中调整图像大小》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -143,9 +143,7 @@ class SearchPage extends Component {<font></font>
 </ul>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">为避免在调整图像时质量下降，请考虑使用矢量图形，以便您可以轻松地尝试不同的尺寸。</font><font style="vertical-align: inherit;">Inkscape是免费工具，可以很好地实现此目的。</font></font></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

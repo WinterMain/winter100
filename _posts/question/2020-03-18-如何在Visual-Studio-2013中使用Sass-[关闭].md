@@ -41,7 +41,7 @@ topic: CSS
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如何在</font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Visual Studio 2013中</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">使用Sass CSS预处理器</font><font style="vertical-align: inherit;">？</font><font style="vertical-align: inherit;">是否有任何扩展可为Sass提供支持？</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第2088篇《如何在Visual Studio 2013中使用Sass [关闭]》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第2088篇《如何在Visual Studio 2013中使用Sass \[关闭\]》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -72,27 +72,21 @@ $body-main: 45px;<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在第二种情况下，没有错误和智能感知，但是同步失败。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Mandy小小</span>
             <span class="discuss-time">2020.03.18</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">最新版本的Visual Studio +最新版本的Web Essentials </font></font><a href="http://vswebessentials.com/download" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">http://vswebessentials.com/download</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">允许立即使用Sass和Less。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">西门Green</span>
             <span class="discuss-time">2020.03.18</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我认为Web Essentials扩展-我假设每个Web开发人员都在运行，并且是本地VS IDE支持的先驱-具有SCSS编译支持，但我认为它仅适用于仍在CTP中的VS2013 Update 2。这次。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">神乐古一</span>
@@ -101,9 +95,7 @@ $body-main: 45px;<font></font>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我的评论可能没有用，因为人们可能已经有了答案，但是Scout可用于Windows :)，自2013年3月以来我一直在我的项目中使用。 </font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">您可以使用功能强大的Mixture，并创建CSS和JS文件的缩小版本。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">A樱</span>
@@ -114,9 +106,7 @@ $body-main: 45px;<font></font>
 <p><a href="http://pwkad.wordpress.com/2014/05/30/using-scss-in-visual-studio-2013-with-web-essentials-starring-compass-and-susy/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">http://pwkad.wordpress.com/2014/05/30/using-scss-in-visual-studio-2013-with-web-essentials-starring-compass-and-susy/</font></font></a></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">也要小心，因为我在编译Compass时遇到了一些问题，例如指南针/ css3 / images文件中存在中断错误。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Mandy伽罗神无</span>
@@ -128,9 +118,7 @@ $body-main: 45px;<font></font>
 
 <pre><code>install-package SassAndCoffee
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">泡芙伽罗小卤蛋</span>
@@ -143,9 +131,7 @@ $body-main: 45px;<font></font>
 <p>I thought this was pretty sad because it was absolutely the simplest way to compile Sass from Visual Studio. I created a new Visual Studio extension that behaves the same way. You just install the extension and it will automatically compile .scss files to compressed .min.css files when you save.</p>
 
 <p>Check out <a href="https://visualstudiogallery.msdn.microsoft.com/2e7b72e0-f6ca-4e5e-9b30-afcc07d801f0?SRC=Home" rel="nofollow">CompileSass</a>.</p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">逆天飞云</span>
@@ -168,9 +154,7 @@ $body-main: 45px;<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">尽管这些并非总是适用于每个项目的正确解决方案，但它们却为您提供了很多灵活性和成熟度，而您在Visual Studio扩展中不一定会找到这些灵活性和成熟度。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">希望对您有所帮助！</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">前端梅</span>
@@ -205,9 +189,7 @@ $body-main: 45px;<font></font>
 <li><a href="https://visualstudiogallery.msdn.microsoft.com/2b96d16a-c986-4501-8f97-8008f9db141a" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">网络工作台</font></font></a></li>
 <li><a href="https://visualstudiogallery.msdn.microsoft.com/3b329021-cd7a-4a01-86fc-714c2d05bb6c" rel="noreferrer"><font style="vertical-align: inherit;"></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">仅</font><a href="https://visualstudiogallery.msdn.microsoft.com/3b329021-cd7a-4a01-86fc-714c2d05bb6c" rel="noreferrer"><font style="vertical-align: inherit;">Web编译器</font></a><font style="vertical-align: inherit;">提供对VS2015的支持</font></font></li>
 </ul></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

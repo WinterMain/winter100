@@ -22,7 +22,7 @@ topic: HTML
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">他们是如何做到的？</font><font style="vertical-align: inherit;">Google的JavaScript反馈API已从</font></font><a href="https://ssl.gstatic.com/feedback/api.js" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">此处</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">加载</font><font style="vertical-align: inherit;">，</font></font><a href="http://www.google.com/tools/feedback/intl/en/learnmore.html" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">它们对反馈模块的概述</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">将演示屏幕截图功能。</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第1758篇《使用HTML5 / Canvas / JavaScript拍摄浏览器内屏幕截图》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第1758篇《使用HTML5 / Canvas / JavaScript拍摄浏览器内屏幕截图》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -39,9 +39,7 @@ topic: HTML
 <p><a href="https://www.webrtc-experiment.com/Pluginfree-Screen-Sharing/" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">https://www.webrtc-experiment.com/Pluginfree-Screen-Sharing/</font></font></a></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">客户端（现在必须）必须使用chrome，并且需要在chrome：// flags下启用屏幕捕获支持。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Stafan</span>
@@ -65,9 +63,7 @@ html2canvas脚本现在可以</font></font><a href="https://github.com/niklasvh/
 <p><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">编辑2</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> 
 另一个证实Google使用了非常相似的方法（实际上，根据文档，唯一的主要区别是它们的遍历/绘制异步方法）可以在Google反馈小组的Elliott Sprehn的演示文稿中找到：
  </font></font><a href="http://www.elliottsprehn.com/preso/fluentconf/" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">http： //www.elliottsprehn.com/preso/fluentconf/</font></font></a></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

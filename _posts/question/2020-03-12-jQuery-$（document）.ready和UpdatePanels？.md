@@ -28,7 +28,7 @@ topic: JavaScript
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">不仅在首页加载时，而且在每次UpdatePanel触发部分页面更新时，建议在jQuery中进行接线的推荐方法是什么？</font><font style="vertical-align: inherit;">我应该使用ASP.NET ajax生命周期来代替</font></font><code>$(document).ready</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">吗？</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第1335篇《jQuery $（document）.ready和UpdatePanels？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第1335篇《jQuery $（document）.ready和UpdatePanels？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -48,9 +48,7 @@ topic: JavaScript
         });<font></font>
     &lt;/script&gt;<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">十三JinJin乐</span>
@@ -63,9 +61,7 @@ function LoadHandler() {<font></font>
         });<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">路易Green</span>
@@ -80,9 +76,7 @@ function LoadHandler() {<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">它将工作正常... </font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">达蒙阳光乐</span>
@@ -111,9 +105,7 @@ function LoadHandler() {<font></font>
 <font></font>
 &lt;/script&gt;<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Pro神无樱</span>
@@ -122,9 +114,7 @@ function LoadHandler() {<font></font>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这是一个很棒的插件，可用于更新面板：</font></font></p>
 
 <p><a href="http://updatepanelplugin.codeplex.com/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">http://updatepanelplugin.codeplex.com/</font></font></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">路易Stafan</span>
@@ -138,9 +128,7 @@ function pageLoad() {<font></font>
 }<font></font>
 &lt;/script&gt;<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">老丝阿飞</span>
@@ -155,9 +143,7 @@ prm.add_endRequest(function() {... <font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果beginRequest使您获得空引用JS异常，则要记住一点。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">干杯</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">樱飞云泡芙</span>
@@ -177,9 +163,7 @@ prm.add_endRequest(function() {... <font></font>
 <font></font>
 });<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">老丝猿路易</span>
@@ -188,9 +172,7 @@ prm.add_endRequest(function() {... <font></font>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在这种情况下使用pageLoad（）函数非常危险。</font><font style="vertical-align: inherit;">您可能使事件多次关联。</font><font style="vertical-align: inherit;">我还应该远离.live（），因为它附加到document元素上，并且必须遍历整个页面（缓慢而cr脚）。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">到目前为止，我所看到的最好的解决方案是在更新面板外部的包装器上使用jQuery .delegate（）函数并利用冒泡。</font><font style="vertical-align: inherit;">除此之外，您总是可以使用设计用于UpdatePanels的Microsoft Ajax库连接处理程序。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">StafanGO</span>
@@ -205,9 +187,7 @@ prm.add_endRequest(function() {... <font></font>
 <p><a href="http://www.danwebb.net/2008/2/8/event-delegation-made-easy-in-jquery" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">http://www.danwebb.net/2008/2/8/event-delegation-made-easy-in-jquery</font></font></a></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">一旦您了解了发生的事情，我想您会发现这是一个更加优雅的解决方案，比记住每次更新后重新绑定事件更可靠。</font><font style="vertical-align: inherit;">这还具有一个额外的好处，即在卸载页面时为您提供一个取消绑定的事件。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">JinJin小小</span>
@@ -219,9 +199,7 @@ prm.add_endRequest(function() {... <font></font>
 <li><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">将事件绑定封装在函数中，并在每次更新页面时运行它。</font><font style="vertical-align: inherit;">您始终可以将事件绑定包含到特定元素，以免将事件多次绑定到相同元素。</font></font></p></li>
 <li><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">使用</font></font><a href="http://docs.jquery.com/Plugins/livequery" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">livequery</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">插件，该插件基本上可以自动为您执行方法一。</font><font style="vertical-align: inherit;">您的首选项可能会有所不同，具体取决于您希望对事件绑定进行控制的程度。</font></font></p></li>
 </ol></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">前端古一</span>
@@ -251,9 +229,7 @@ prm.add_endRequest(function() {... <font></font>
 &lt;/ContentTemplate&gt;<font></font>
     &lt;/asp:UpdatePanel&gt;<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">逆天理查德</span>
@@ -283,9 +259,7 @@ prm.add_endRequest(function() {<font></font>
 <hr>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">根据您的需求，您可能有一个更好的选择是使用jQuery </font></font><a href="http://api.jquery.com/on/" rel="noreferrer"><code>.on()</code></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font><font style="vertical-align: inherit;">这些方法比每次更新都重新订阅DOM元素更为有效。</font><font style="vertical-align: inherit;">但是，在使用此方法之前，请先阅读所有文档，因为它可能会满足您的需求，也可能无法满足您的需求。</font><font style="vertical-align: inherit;">有很多jQuery插件无法重构为使用</font></font><code>.delegate()</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">或</font></font><code>.on()</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，因此在这种情况下，最好重新订阅。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Harry猴子A</span>
@@ -301,9 +275,7 @@ prm.add_endRequest(function() {<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">等等</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">像魅力一样运作，许多其他解决方案惨遭失败。</font></font></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

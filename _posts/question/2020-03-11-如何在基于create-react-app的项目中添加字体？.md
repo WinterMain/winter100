@@ -115,7 +115,7 @@ total 1168<font></font>
 </code></pre></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第778篇《如何在基于create-react-app的项目中添加字体？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第778篇《如何在基于create-react-app的项目中添加字体？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -136,9 +136,7 @@ total 1168<font></font>
 <pre><code>@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i&amp;amp;subset=cyrillic,cyrillic-ext,latin-ext);<font></font>
 @import url(https://use.fontawesome.com/releases/v5.3.1/css/all.css);<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">西门小宇宙</span>
@@ -177,9 +175,7 @@ total 1168<font></font>
 <p><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">结果：</font></font></strong></p>
 
 <p><a href="https://i.stack.imgur.com/udJ77.png" rel="noreferrer"><img src="https://i.stack.imgur.com/udJ77.png" alt="在此处输入图片说明"></a></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

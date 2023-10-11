@@ -27,7 +27,7 @@ A problem occurred configuring project ':app'.                                  
 </code></pre></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第1174篇《Android上的React Native无法找到构建工具》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第1174篇《Android上的React Native无法找到构建工具》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -38,9 +38,7 @@ A problem occurred configuring project ':app'.                                  
             <span class="discuss-time">2020.03.12</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我在响应本机文档后尝试在命令行中进行构建时遇到了这个问题。</font><font style="vertical-align: inherit;">我通过在android studio中打开项目解决了这个问题。</font><font style="vertical-align: inherit;">不匹配的依赖项将出现在应用程序底部的构建失败小吃栏中。</font><font style="vertical-align: inherit;">对于每个失败，请单击链接以解决问题。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">斯丁蛋蛋宝儿</span>
@@ -49,9 +47,7 @@ A problem occurred configuring project ':app'.                                  
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果您拥有Build Tools版本24.0.1，请更新您的版本</font></font><code>build.gradle</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">以使其匹配</font></font><code>buildToolsVersion "24.0.0"</code></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我</font></font><code>Android/Sdk/build-tools/24.0.1/source.properties</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">已经</font></font><code>Pkg.Revision</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">准备好了</font></font><code>24.0.0</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小小卡卡西</span>
@@ -67,9 +63,7 @@ A problem occurred configuring project ':app'.                                  
 </ol>
 
 <p><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">或者，</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">您可以尝试在系统中安装</font></font><code>build.gradle</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">文件中</font><font style="vertical-align: inherit;">具有的版本</font><font style="vertical-align: inherit;">（使用SDK管理器）。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Stafan番长</span>
@@ -90,9 +84,7 @@ defaultConfig {<font></font>
         abiFilters "armeabi-v7a", "x86"<font></font>
     }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">前端逆天</span>
@@ -101,18 +93,14 @@ defaultConfig {<font></font>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在Android SDK Manager v25中，您必须直接从Android Studio安装正确的构建工具，因为该</font></font><code>android</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">命令不再起作用：</font></font></p>
 
 <p><a href="https://i.stack.imgur.com/icvRk.png" rel="nofollow noreferrer"><img src="https://i.stack.imgur.com/icvRk.png" alt="从android studio安装"></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Stafan番长</span>
             <span class="discuss-time">2020.03.12</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在</font></font><code>/Users/username/Library/Android/sdk/build-tools</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">目录中</font><font style="vertical-align: inherit;">找到版本号</font><font style="vertical-align: inherit;">，然后修改</font></font><code>buildToolsVersion</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">与Gradle配置相对应</font><font style="vertical-align: inherit;">的版本号</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Itachi猪猪</span>
@@ -127,9 +115,7 @@ defaultConfig {<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">更新：正如Mark所建议的，以这种方式仅更新次要（或补丁）版本是明智的。</font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">不</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">更新此版本的</font><font style="vertical-align: inherit;">另一个原因</font><font style="vertical-align: inherit;">是，当您有很多带有本机部分的第三方库时-您可能最终都更新了它们。</font><font style="vertical-align: inherit;">因此，您必须权衡新版本与更多工作之间可能带来的好处。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">达蒙小小</span>
@@ -146,9 +132,7 @@ Examples/UIExplorer/android/app/build.gradle:    buildToolsVersion "23.0.2"<font
 ReactAndroid/build.gradle:    buildToolsVersion "23.0.2"<font></font>
 local-cli/generator-android/templates/src/app/build.gradle:    buildToolsVersion "23.0.2"<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">阳光Tom逆天</span>
@@ -179,9 +163,7 @@ Packages available for installation or update: 156<font></font>
 
 <pre><code>android update sdk -a -u -t 4
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">达蒙老丝</span>
@@ -194,9 +176,7 @@ Packages available for installation or update: 156<font></font>
 <p><a href="https://i.stack.imgur.com/EhncM.png"><img src="https://i.stack.imgur.com/EhncM.png" alt="屏幕截图显示了23.0.2“已安装”但23.0.1“未安装”"></a></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我天真地认为，安装最新版本的Build-tools（在撰写本文时为23.0.2）可以，但显然不行。</font><font style="vertical-align: inherit;">另外安装23.0.1可解决此问题。</font></font></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

@@ -52,7 +52,7 @@ topic: CSS
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">有没有办法使它与默认的</font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">twitter bootstrap 3</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">类一起使用？</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第3586篇《Twitter bootstrap 3两列全高》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第3586篇《Twitter bootstrap 3两列全高》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -108,9 +108,7 @@ height: 1000px<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">样本</font></font><a href="http://jsfiddle.net/zHRZr/4/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">JSFiddle</font></font></a></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">希望这对任何有兴趣的人有所帮助。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Gil伽罗小宇宙</span>
@@ -125,9 +123,7 @@ height: 1000px<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这使用Bootstrap 3，因此不需要额外的CSS等。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Mandy</span>
@@ -138,9 +134,7 @@ height: 1000px<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我认为这将是最好，最简单的解决方案。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在那看看：</font><a href="http://getbootstrap.com/javascript/#affix" rel="nofollow"><font style="vertical-align: inherit;">http</font></a><font style="vertical-align: inherit;"> : </font></font><a href="http://getbootstrap.com/javascript/#affix" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">//getbootstrap.com/javascript/#affix</font></font></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">蛋蛋泡芙</span>
@@ -169,9 +163,7 @@ height: 1000px<font></font>
   &lt;/div&gt;<font></font>
 &lt;/div&gt;<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小胖Gil</span>
@@ -204,9 +196,7 @@ height: 1000px<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">造访</font></font><a href="http://www.sitepoint.com/building-responsive-websites-using-twitter-bootstrap/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">http://www.sitepoint.com/building-sensitive-websites-using-twitter-bootstrap/</font></font></a></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">感谢Syed </font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">HarryItachi</span>
@@ -267,9 +257,7 @@ div.tablefull&gt;div&gt;div {<font></font>
     padding: 0;<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">卡卡西Near</span>
@@ -336,9 +324,7 @@ $headerHeight: 43px;<font></font>
     padding-right: 0;<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">神无</span>
@@ -366,9 +352,7 @@ $headerHeight: 43px;<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">您只是创建一个形状，将其固定在页面后面并将其拉伸到最大高度。</font><font style="vertical-align: inherit;">通过使用现有的引导程序类，您将获得正确的宽度，并且它将保持响应状态。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这种方法ofc有一些局限性，但是如果它是针对页面的根结构的，那是最好的答案。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">村村</span>
@@ -422,9 +406,7 @@ $headerHeight: 43px;<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">供您参考，请看</font></font><a href="http://jsfiddle.net/zrBGw/129/embedded/result/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">小提琴。</font></font></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Stafan路易</span>
@@ -442,9 +424,7 @@ $headerHeight: 43px;<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">除此之外，这些示例还可以解决您的问题。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">老丝Tom</span>
@@ -468,9 +448,7 @@ $headerHeight: 43px;<font></font>
     display: flex;<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Harry神奇</span>
@@ -489,9 +467,7 @@ $headerHeight: 43px;<font></font>
     margin-bottom: -100%;<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">飞云阿飞</span>
@@ -538,9 +514,7 @@ $headerHeight: 43px;<font></font>
     background: yellow;<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">番长</span>
@@ -574,9 +548,7 @@ $headerHeight: 43px;<font></font>
   &lt;/div&gt;<font></font>
 &lt;/div&gt;<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">古一</span>
@@ -623,9 +595,7 @@ overflow: hidden; <font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">祝好运！</font></font></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

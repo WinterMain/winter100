@@ -26,7 +26,7 @@ topic: Node.js
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">谢谢！</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第3259篇《Express函数中的“ res”和“ req”参数是什么？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第3259篇《Express函数中的“ res”和“ req”参数是什么？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -39,9 +39,7 @@ topic: Node.js
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">请求和回应。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">要了解该功能</font></font><code>req</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，请尝试一下</font></font><code>console.log(req);</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

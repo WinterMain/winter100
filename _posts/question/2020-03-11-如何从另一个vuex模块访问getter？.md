@@ -31,7 +31,7 @@ topic: JavaScript
 <p><font style="vertical-align: inherit;"></font><code>activeFilters</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我的吸气剂</font><font style="vertical-align: inherit;">在哪里，</font><font style="vertical-align: inherit;">但这行不通。</font><font style="vertical-align: inherit;">使用</font></font><code>rootState.filters.getters.activeFilters</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">也不起作用。</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第628篇《如何从另一个vuex模块访问getter？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第628篇《如何从另一个vuex模块访问getter？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -66,9 +66,7 @@ topic: JavaScript
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">希望这会有所帮助。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Near神乐路易</span>
@@ -93,9 +91,7 @@ topic: JavaScript
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">希望这将对将来遇到这种情况的人有所帮助。</font></font></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

@@ -34,7 +34,7 @@ topic: CSS
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我尝试使用</font></font><code>overflow: hidden</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，但没有帮助。</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第3509篇《HTML + CSS：如何强制div内容保持一行？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第3509篇《HTML + CSS：如何强制div内容保持一行？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -54,9 +54,7 @@ topic: CSS
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">一些替代的方向值可以</font></font><code>row-reverse, column, column-reverse, unset, initial, inherit</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
 完成您期望他们做的事情</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">泡芙神无</span>
@@ -68,9 +66,7 @@ topic: CSS
 </code></pre>
 
 <p><a href="http://jsfiddle.net/NXchy/1/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">http://jsfiddle.net/NXchy/1/</font></font></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">十三</span>
@@ -87,9 +83,7 @@ topic: CSS
     overflow: hidden;<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">老丝阿飞</span>
@@ -107,18 +101,14 @@ topic: CSS
 Just Your Text || <font></font>
 &lt;span id="headerFiveThreeOneHelpText" float: left; white-space: nowrap; overflow: hidden;&gt;&lt;/span&gt;<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Tony凯</span>
             <span class="discuss-time">2020.03.24</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在你的CSS使用 </font></font><code>white-space:nowrap;</code></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小卤蛋</span>
@@ -133,9 +123,7 @@ Just Your Text || <font></font>
     white-space: nowrap;<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小宇宙Sam</span>
@@ -150,9 +138,7 @@ Just Your Text || <font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这里</font></font><code>overflow: hidden</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">有些</font><font style="vertical-align: inherit;">事情，</font><font style="vertical-align: inherit;">如果您不想看到多余的字符插入您的布局中，则需要。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">同样，如前所述，您可以使用</font></font><code>white-space: pre</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">（请参阅EnderMB）牢记，它</font></font><code>pre</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">不会折叠空白，而</font></font><code>white-space: nowrap</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">只会</font><font style="vertical-align: inherit;">折叠空白</font><font style="vertical-align: inherit;">。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">番长樱梅</span>
@@ -168,9 +154,7 @@ Just Your Text || <font></font>
 </code></pre>
 
 <p><a href="http://jsfiddle.net/NXchy/11/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">http://jsfiddle.net/NXchy/11/</font></font></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">DavaidTony宝儿</span>
@@ -179,9 +163,7 @@ Just Your Text || <font></font>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">使用</font></font><code>white-space:nowrap</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">和</font></font><code>overflow:hidden</code></p>
 
 <p><a href="http://jsfiddle.net/NXchy/8/" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">http://jsfiddle.net/NXchy/8/</font></font></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Stafan路易</span>
@@ -202,9 +184,7 @@ CSS：</font></font></p>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">现在的结果应该是：</font></font></p>
 
 <pre><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">堆栈溢出</font></font></pre></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

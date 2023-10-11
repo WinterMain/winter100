@@ -36,7 +36,7 @@ $('.form_wrapper').click(function(event){<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">问题是我在DIV中有链接，当单击它们时它们不再起作用。</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第1754篇《当用户在DIV之外单击时，使用jQuery隐藏DIV》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第1754篇《当用户在DIV之外单击时，使用jQuery隐藏DIV》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -69,9 +69,7 @@ $('.form_wrapper').click(function(event){<font></font>
     })<font></font>
 })<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">路易阿飞</span>
@@ -90,9 +88,7 @@ $(document).click(function(e){<font></font>
 <p></p>
 
 <p><a href="http://jsfiddle.net/sharmapattar/xJfHy/18/" rel="nofollow">FIDDLE</a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">卡卡西理查德</span>
@@ -112,9 +108,7 @@ alert("clickoutside");<font></font>
 }<font></font>
 });<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">伽罗十三</span>
@@ -126,9 +120,7 @@ alert("clickoutside");<font></font>
     $(".wrapper:visible").hide();<font></font>
 });<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">前端LEYLEY</span>
@@ -151,9 +143,7 @@ alert("clickoutside");<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">同样，主体元素可能不包括浏览器中显示的整个视觉空间。</font><font style="vertical-align: inherit;">如果您发现点击没有注册，则可能需要为HTML元素添加点击处理程序。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">番长猿</span>
@@ -189,9 +179,7 @@ $(document).click(function(){<font></font>
     $(".dropdown").hide();<font></font>
 });<font></font>
 </code></pre></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

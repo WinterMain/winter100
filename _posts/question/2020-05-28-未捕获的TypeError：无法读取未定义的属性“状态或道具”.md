@@ -89,7 +89,7 @@ topic: React.js
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">知道是什么原因造成的吗？</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第4191篇《未捕获的TypeError：无法读取未定义的属性“状态或道具”》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第4191篇《未捕获的TypeError：无法读取未定义的属性“状态或道具”》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -183,9 +183,7 @@ topic: React.js
     </span><span class="kwd">this</span><span class="pun">.</span><span class="pln">handleCodeChange </span><span class="pun">=</span><span class="pln"> </span><span class="kwd">this</span><span class="pun">.</span><span class="pln">handleCodeChange</span><span class="pun">.</span><span class="pln">bind</span><span class="pun">(</span><span class="kwd">this</span><span class="pun">);</span><span class="pln">
     </span><span class="kwd">this</span><span class="pun">.</span><span class="pln">login </span><span class="pun">=</span><span class="pln"> </span><span class="kwd">this</span><span class="pun">.</span><span class="pln">login</span><span class="pun">.</span><span class="pln">bind</span><span class="pun">(</span><span class="kwd">this</span><span class="pun">);</span><span class="pln">
 </span><span class="pun">}</span></code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">番长樱梅</span>
@@ -212,9 +210,7 @@ topic: React.js
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果您使用的是ES6，则不需要手动绑定，但是如果需要的话。</font><font style="vertical-align: inherit;">如果您想避免与范围相关的问题和手动功能/对象绑定，可以使用箭头功能。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">抱歉，我的手机上有错别字</font></font></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

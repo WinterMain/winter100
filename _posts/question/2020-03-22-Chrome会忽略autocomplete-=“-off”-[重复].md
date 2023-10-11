@@ -38,7 +38,7 @@ topic: HTML
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">尽管</font></font><code>input</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">字段和</font></font><code>form</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">具有</font></font><code>autocomplete="off"</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">属性</font><font style="vertical-align: inherit;">的</font><font style="vertical-align: inherit;">字段都存在</font><font style="vertical-align: inherit;">，但Chrome仍坚持显示该字段先前条目的下拉历史记录，这使标记框列表消失了。</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第2569篇《Chrome会忽略autocomplete =“ off” [重复]》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第2569篇《Chrome会忽略autocomplete =“ off” \[重复\]》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -55,9 +55,7 @@ topic: HTML
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">将密码字段的值设置为控制字符8（</font></font><code>"\x08"</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在PHP或</font></font><code>&amp;#8;</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">HTML中）。</font><font style="vertical-align: inherit;">Chrome会自动填充该字段，因为它具有一个值，但由于这是退格字符，因此未输入任何实际值。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">是的，这仍然是一个hack，但是对我有用。</font><font style="vertical-align: inherit;">YMMV。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">逆天飞云</span>
@@ -96,9 +94,7 @@ jQuery(window).load(function() {<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我知道它似乎不太优雅，但可以。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">飞云</span>
@@ -123,9 +119,7 @@ $(sI).attr("name", "password");<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">就我而言，我以前经常</font></font><code>id="password" name="password"</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">输入密码，因此在触发提交之前将它们放回原处。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Stafan路易</span>
@@ -142,9 +136,7 @@ $(sI).attr("name", "password");<font></font>
 
 <pre><code>&lt;input type="text" placeholder="nam&amp;#8203;e or emai&amp;#8203;l" autocomplete="off" /&gt;
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">村村</span>
@@ -180,9 +172,7 @@ $(sI).attr("name", "password");<font></font>
 </ol>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这也适用于旧版本。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">前端前端猴子</span>
@@ -205,9 +195,7 @@ $(sI).attr("name", "password");<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">经过镀铬测试。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">斯丁卡卡西</span>
@@ -216,9 +204,7 @@ $(sI).attr("name", "password");<font></font>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">将输入类型属性更改为</font></font><code>type="search"</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Google不会将自动填充应用于具有搜索类型的输入。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Davaid小胖</span>
@@ -227,18 +213,14 @@ $(sI).attr("name", "password");<font></font>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">代替</font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">autocomplete =“ off”，</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">使用</font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">autocomplete =“ false”</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> ;）</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">来自：</font><a href="https://stackoverflow.com/a/29582380/75799"><font style="vertical-align: inherit;">https</font></a><font style="vertical-align: inherit;"> : </font></font><a href="https://stackoverflow.com/a/29582380/75799"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">//stackoverflow.com/a/29582380/75799</font></font></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">番长樱梅</span>
             <span class="discuss-time">2020.03.22</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">不知道为什么这对我来说有效，但是我在chrome上使用了</font></font><code>autocomplete="none"</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Chrome，并停止为我的文本字段建议地址。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">逆天梅</span>
@@ -249,9 +231,7 @@ $(sI).attr("name", "password");<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果页面是HTML5页面（我使用的是XHTML），Chrome仅服从autocomplete =“ off”。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我将页面转换为HTML5，问题消失了（facepalm）。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">凯小卤蛋</span>
@@ -282,9 +262,7 @@ $(sI).attr("name", "password");<font></font>
 <li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">边缘：25</font></font></li>
 <li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Internet Explorer：11</font></font></li>
 </ul></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小宇宙</span>
@@ -293,9 +271,7 @@ $(sI).attr("name", "password");<font></font>
           <div class="discuss-comment"><p><code>autocomplete=off</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> 在现代浏览器中基本上被忽略-主要是由于密码管理器等。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">您可以尝试添加此功能</font></font><code>autocomplete="new-password"</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，并非所有浏览器都完全支持</font><font style="vertical-align: inherit;">此功能</font><font style="vertical-align: inherit;">，但是它可以在某些浏览器上使用</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">LGil</span>
@@ -310,9 +286,7 @@ $(sI).attr("name", "password");<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Chrome将填充“假输入”，提交后，服务器将获取“真实输入”值。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">西里ProL</span>
@@ -323,9 +297,7 @@ $(sI).attr("name", "password");<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">尝试使用只是一个随机字符串代替</font></font><code>"Off"</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，例如</font></font><code>Autocomplete="NoAutocomplete"</code></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">希望对您有所帮助。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小宇宙达蒙</span>
@@ -335,9 +307,7 @@ $(sI).attr("name", "password");<font></font>
  </font></font><a href="http://www.theregister.co.uk/2014/04/09/chrome_makes_new_password_grab_in_version_34/" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">请参阅此</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p>
 
 <p><a href="https://groups.google.com/a/chromium.org/d/msg/security-dev/wYGThW5WRrE/qiWrKwJ79S4J" rel="nofollow noreferrer"><font style="vertical-align: inherit;"></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">关于这是好是坏的</font><a href="https://groups.google.com/a/chromium.org/d/msg/security-dev/wYGThW5WRrE/qiWrKwJ79S4J" rel="nofollow noreferrer"><font style="vertical-align: inherit;">很多讨论</font></a><font style="vertical-align: inherit;">？</font><font style="vertical-align: inherit;">您对此有何看法？</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">DavaidTony宝儿</span>
@@ -355,9 +325,7 @@ $(sI).attr("name", "password");<font></font>
 <li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">铬：53，54，55</font></font></li>
 <li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Firefox：48、49、50</font></font></li>
 </ul></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Itachi</span>
@@ -369,9 +337,7 @@ $(sI).attr("name", "password");<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">希望对其他人有帮助。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">番长樱梅</span>
@@ -382,9 +348,7 @@ $(sI).attr("name", "password");<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">参见：</font><a href="https://twitter.com/Paul_Kinlan/status/596613148985171968" rel="noreferrer"><font style="vertical-align: inherit;">https</font></a><font style="vertical-align: inherit;"> : </font></font><a href="https://twitter.com/Paul_Kinlan/status/596613148985171968" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">//twitter.com/Paul_Kinlan/status/596613148985171968</font></font></a></p>
 
 <p><em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">2016年4月4日更新：</font></font></em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">看起来像是固定的！</font><font style="vertical-align: inherit;">参见</font></font><a href="http://codereview.chromium.org/1473733008" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">http://codereview.chromium.org/1473733008</font></font></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">乐十三</span>
@@ -403,18 +367,14 @@ $(sI).attr("name", "password");<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这不适用于密码字段-在Chrome中，这些字段的处理方式大不相同。</font><font style="vertical-align: inherit;">有关</font><font style="vertical-align: inherit;">更多详细信息，</font><font style="vertical-align: inherit;">请参见</font></font><a href="https://code.google.com/p/chromium/issues/detail?id=468153" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">https://code.google.com/p/chromium/issues/detail?id=468153</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p>
 
 <p><b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">更新：2016年3月11日，Chromium团队将漏洞关闭为“无法修复”。有关</font><font style="vertical-align: inherit;">完整说明</font><font style="vertical-align: inherit;">，请参见</font></font><a href="https://bugs.chromium.org/p/chromium/issues/detail?id=468153#c164" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我最初提交的漏洞报告中的</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">最后评论</font><font style="vertical-align: inherit;">。</font><font style="vertical-align: inherit;">TL; DR：使用语义自动完成属性，例如autocomplete =“ new-street-address”以避免Chrome执行自动填充。</font></font></b></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">凯西里</span>
             <span class="discuss-time">2020.03.22</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Chrome现在似乎会忽略它，</font></font><code>autocomplete="off"</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">除非它在</font></font><code>&lt;form autocomplete="off"&gt;</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">标签上。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Stafan</span>
@@ -437,9 +397,7 @@ $(sI).attr("name", "password");<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">至此，</font></font><code>&lt;form&gt;</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">此案已解决。</font></font></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

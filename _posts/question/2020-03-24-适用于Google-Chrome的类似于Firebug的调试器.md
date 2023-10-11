@@ -24,7 +24,7 @@ topic: CSS
 </ul></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第3156篇《适用于Google Chrome的类似于Firebug的调试器》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第3156篇《适用于Google Chrome的类似于Firebug的调试器》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -35,18 +35,14 @@ topic: CSS
             <span class="discuss-time">2020.03.24</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果您是在夜间使用PPA在Ubuntu上使用Chromium，则应该使用 </font></font><code>chromium-browser-inspector</code></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">斯丁</span>
             <span class="discuss-time">2020.03.24</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">请尝试</font></font><a href="http://getfirebug.com/releases/lite/chrome/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Google Chrome浏览器的Firebug Lite</font></font></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">前端小胖JinJin</span>
@@ -55,9 +51,7 @@ topic: CSS
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">官方的Firebug Chrome扩展程序，或者您可以自己下载并打包该扩展程序。</font></font></p>
 
 <p><a href="https://getfirebug.com/releases/lite/chrome/" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">https://getfirebug.com/releases/lite/chrome/</font></font></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">宝儿Tom</span>
@@ -70,18 +64,14 @@ topic: CSS
 <p><kbd> Ctrl </kbd> <kbd>⇧</kbd> <kbd>I</kbd></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">（</font></font><kbd>⌥</kbd> <kbd>⌘</kbd> <kbd>I</kbd><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果您使用的是Mac）</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">阳光Tony</span>
             <span class="discuss-time">2020.03.24</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这不能回答您的问题，但是，如果您错过了它，</font><font style="vertical-align: inherit;">可以在Chrome浏览器上使用</font><font style="vertical-align: inherit;">Chris Pederick的</font></font><a href="http://chrispederick.com/work/web-developer/" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Web开发人员</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">：</font></font><a href="https://chrome.google.com/extensions/detail/bfbameneiokkgbdmiekhjnmfkcnldhhm" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">https</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> : </font><font style="vertical-align: inherit;">//chrome.google.com/extensions/detail/bfbameneiokkgbdmiekhjnmfkcnldhhm </font><font style="vertical-align: inherit;">。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">神无</span>
@@ -94,9 +84,7 @@ topic: CSS
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">只需添加书签并转到任何网页，然后单击该书签即可。 </font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这实际上是Mozilla专案Goggles，令人惊叹令人惊叹...</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Tom凯</span>
@@ -105,18 +93,14 @@ topic: CSS
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">好吧，可以</font><font style="vertical-align: inherit;">为Google Chrome </font><font style="vertical-align: inherit;">启用</font></font><a href="http://en.wikipedia.org/wiki/Greasemonkey" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Greasemonkey</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">脚本，所以也许可以使用这种方法来安装Firebug吗？</font></font><a href="http://getfirebug.com/firebuglite" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Firebug Lite</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">也可以使用，但是与使用功能齐全的功能不一样：(</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">willshouse.com/2009/05/29/install-greasemonkey-for-chrome-a-更好的指南/</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">前端小宇宙</span>
             <span class="discuss-time">2020.03.24</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">或尝试使用用户脚本：</font><a href="http://dev.chromium.org/developers/design-documents/user-scripts" rel="nofollow noreferrer"><font style="vertical-align: inherit;">http</font></a><font style="vertical-align: inherit;"> : </font></font><a href="http://dev.chromium.org/developers/design-documents/user-scripts" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">//dev.chromium.org/developers/design-documents/user-scripts</font></font></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小小</span>
@@ -127,9 +111,7 @@ topic: CSS
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">此扩展用于将jQuery嵌入到所需的任何页面中。</font><font style="vertical-align: inherit;">它允许在控制台外壳中使用jQuery（您可以通过</font></font><kbd>Ctrl</kbd><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">+ </font></font><kbd>Shift</kbd><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">+ </font></font><kbd>j</kbd><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">“。</font><font style="vertical-align: inherit;">来调用Chrome控制台</font><font style="vertical-align: inherit;">。）。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">要将jQuery嵌入所选标签，请点击扩展按钮。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小宇宙</span>
@@ -138,9 +120,7 @@ topic: CSS
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Chrome已经内置了类似Firebug的工具。</font><font style="vertical-align: inherit;">只需右键单击页面上的任意位置，然后从菜单中选择“检查元素”。</font><font style="vertical-align: inherit;">Chrome具有用于调试的图形工具（例如在Firebug中），因此您可以调试JavaScript。</font><font style="vertical-align: inherit;">它还可以很好地进行CSS检查，甚至可以即时更改CSS渲染。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">有关更多信息，请参见</font></font><a href="https://developers.google.com/chrome-developer-tools/" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">https://developers.google.com/chrome-developer-tools/</font></font></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">null</span>
@@ -158,9 +138,7 @@ topic: CSS
 </ol>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">您会看到，现在每个人都想摆脱Flash而代替由移动可访问性和交互性（iPhone，iPad，Android）驱动的jQuery（iPhone，iPad，Android），并且JavaScript“突然”变得很重要（这很讽刺），所以这艘飞船驶过了Firefox。</font><font style="vertical-align: inherit;">作为Mozilla的支持者，这让我很难过。</font><font style="vertical-align: inherit;">在Firefox升级其JavaScript引擎之前，Chrome只是一个更好的浏览器。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">番长猴子</span>
@@ -169,9 +147,7 @@ topic: CSS
           <div class="discuss-comment"><p><kbd>F12</kbd> </p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我爱快捷键</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">蛋蛋</span>
@@ -180,9 +156,7 @@ topic: CSS
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Firebug Lite支持检查HTML元素，计算出的CSS样式等。</font><font style="vertical-align: inherit;">由于它是纯JavaScript，因此可以在许多不同的浏览器中使用。</font><font style="vertical-align: inherit;">只需在源文件中包含脚本，或将书签添加到书签栏中即可单击，将其包含在任何页面上。</font></font></p>
 
 <p><a href="http://getfirebug.com/lite.html" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">http://getfirebug.com/lite.html</font></font></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小胖Gil</span>
@@ -192,9 +166,7 @@ topic: CSS
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">您也可以在以下</font><a href="https://chrome.google.com/extensions/" rel="nofollow noreferrer"><font style="vertical-align: inherit;">网址</font></a><font style="vertical-align: inherit;">找到它：</font><a href="https://chrome.google.com/extensions/" rel="nofollow noreferrer"><font style="vertical-align: inherit;">https</font></a><font style="vertical-align: inherit;"> : 
  </font></font><a href="https://chrome.google.com/extensions/" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">//chrome.google.com/extensions/</font></font></a></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

@@ -46,7 +46,7 @@ topic: CSS
 <p><font style="vertical-align: inherit;"></font><code>$pages: "";</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在if语句之前</font><font style="vertical-align: inherit;">添加</font><font style="vertical-align: inherit;">。</font><font style="vertical-align: inherit;">为什么？</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第3909篇《具有布尔变量的SASS mixin：If语句不起作用》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第3909篇《具有布尔变量的SASS mixin：If语句不起作用》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -81,18 +81,14 @@ topic: CSS
 </code></pre>
 
 <p><a href="http://sassmeister.com/gist/8615883" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">演示</font></font></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Gil伽罗小宇宙</span>
             <span class="discuss-time">2020.04.03</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">消息错误可能令人困惑，但是您有语法错误。</font><font style="vertical-align: inherit;">应该</font></font><code>@else</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">不会</font></font><code>else</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

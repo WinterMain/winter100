@@ -66,7 +66,7 @@ npm ERR!     /Users/brentscholl/npm-debug.log<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我是一个完全菜鸟，不知道下一步该怎么做。</font><font style="vertical-align: inherit;">任何帮助将不胜感激！</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第3172篇《npm install -g less不起作用：EACCES：权限被拒绝》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第3172篇《npm install -g less不起作用：EACCES：权限被拒绝》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -80,9 +80,7 @@ npm ERR!     /Users/brentscholl/npm-debug.log<font></font>
 
 <pre><code>sudo npm i -g prisma
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">西里Near</span>
@@ -91,9 +89,7 @@ npm ERR!     /Users/brentscholl/npm-debug.log<font></font>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">另一个选择是使用安装程序下载并安装新版本。</font></font></p>
 
 <p><a href="https://nodejs.org/en/download/" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">https://nodejs.org/en/download/</font></font></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">GOJim</span>
@@ -103,9 +99,7 @@ npm ERR!     /Users/brentscholl/npm-debug.log<font></font>
 
 <pre><code>sudo su
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">逆天梅</span>
@@ -139,9 +133,7 @@ npm ERR!     /Users/brentscholl/npm-debug.log<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">最后一块是文件夹路径。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">运行此路径将使该文件夹成为您的文件夹，因此您可以安全地运行npm install -g命令！</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小宇宙乐理查德</span>
@@ -153,18 +145,14 @@ npm ERR!     /Users/brentscholl/npm-debug.log<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">解决问题 </font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">神乐Eva</span>
             <span class="discuss-time">2020.03.24</span>
           </div>
           <div class="discuss-comment"><p><a href="https://i.stack.imgur.com/vEvPi.png" rel="nofollow noreferrer"><img src="https://i.stack.imgur.com/vEvPi.png" alt="在此处输入图片说明"></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">使用sudo -i切换到$ root，然后执行npm install -g xxxx</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">十三</span>
@@ -194,9 +182,7 @@ nvm use 8.0<font></font>
 
 <pre><code>npm install -g less
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">斯丁</span>
@@ -208,9 +194,7 @@ nvm use 8.0<font></font>
 sudo chown -R $USER /usr/lib/node_modules<font></font>
 sudo chown -R $USER /usr/local/lib/node_modules<font></font>
 </code></pre></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

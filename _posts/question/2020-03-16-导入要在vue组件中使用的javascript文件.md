@@ -36,7 +36,7 @@ export default {<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我的问题是，什么是导入此javascript文件的正确方法，以便可以在vue组件中使用它？</font><font style="vertical-align: inherit;">...</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第1808篇《导入要在vue组件中使用的javascript文件》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第1808篇《导入要在vue组件中使用的javascript文件》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -60,9 +60,7 @@ export default {<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这是我从CDN下拉Vue时使用的方式（而不是直接使用它）。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">除此之外，您可以像平常一样使用它。</font></font></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

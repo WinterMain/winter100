@@ -49,7 +49,7 @@ Either include it or remove the dependency array  react-hooks/exhaustive-deps<fo
 </code></pre></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第957篇《使用useEffect React Hook时如何解决缺少依赖项警告？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第957篇《使用useEffect React Hook时如何解决缺少依赖项警告？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -84,9 +84,7 @@ useEffect(() =&gt; {<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">每当某些Dept更改时，都会调用fetchBusinesses</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">达蒙理查德</span>
@@ -117,9 +115,7 @@ useEffect(() =&gt; {<font></font>
     fetchBusinesses();<font></font>
   }, [fetchBusinesses]);<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">LEY宝儿</span>
@@ -139,9 +135,7 @@ useEffect(() =&gt; {<font></font>
   fetchBusinesses();<font></font>
 }, []);<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">阿飞神奇</span>
@@ -193,9 +187,7 @@ useEffect(() =&gt; {<font></font>
   fetchBusinesses()<font></font>
 }, []) // eslint-disable-line react-hooks/exhaustive-deps<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">GreenGil</span>
@@ -232,9 +224,7 @@ function YourComponent (props) {<font></font>
   // ...<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">番长樱梅</span>
@@ -280,9 +270,7 @@ function YourComponent (props) {<font></font>
    // eslint-disable-next-line react-hooks/exhaustive-deps<font></font>
 }, []) <font></font>
 </code></pre></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

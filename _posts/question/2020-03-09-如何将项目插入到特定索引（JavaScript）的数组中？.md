@@ -21,7 +21,7 @@ topic: JavaScript
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">最好是在jQuery中，但此时任何JavaScript实现都可以。</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第166篇《如何将项目插入到特定索引（JavaScript）的数组中？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第166篇《如何将项目插入到特定索引（JavaScript）的数组中？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -40,18 +40,14 @@ topic: JavaScript
 </span><span class="pun">}</span></code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">因此，通过这种方式，我们可以返回在索引处插入元素的新数组（这是一种很酷的功能方式-比使用push或splice更好），并且如果索引大于数组的长度，则将其插入在末尾。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">西里阳光</span>
             <span class="discuss-time">2020.03.09</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">线程有点旧，但是我必须同意上面的Redu，因为拼接肯定有一些令人困惑的接口。</font><font style="vertical-align: inherit;">cdbajorin给出的响应是：“仅当第二个参数为0时，它才返回一个空数组。如果它大于0，则它返回从数组中删除的项目”，这是正确的。</font><font style="vertical-align: inherit;">该函数的目的是进行拼接，或者如Jakob Keller先前所述，“进行连接或连接，也进行更改。您现在要更改的已建立数组将涉及添加或删除元素。...”返回的元素的值（如果有的话）充其量是尴尬的。</font><font style="vertical-align: inherit;">我100％同意，如果此方法返回了看起来很自然的结果，那么它可能会更适合于链接，这是一个添加了拼接元素的新数组。</font><font style="vertical-align: inherit;">然后，您可以对返回的数组执行[[19“，” 17“]。splice（1,0，” 18“）。join（” ...“）之类的操作。</font><font style="vertical-align: inherit;">它返回已删除内容的事实只是个废话恕我直言。</font><font style="vertical-align: inherit;">如果该方法的目的是“切出一组元素”，那仅仅是目的。</font><font style="vertical-align: inherit;">似乎，如果我不知道要切出的内容，可能没有什么理由要切掉那些元素，不是吗？</font><font style="vertical-align: inherit;">如果它的行为像concat，map，reduce，slice等，那将是更好的选择，其中从现有数组中创建一个新数组，而不是对现有数组进行突变。</font><font style="vertical-align: inherit;">这些都是可链接的，这是一个重要的问题。</font><font style="vertical-align: inherit;">链数组操作相当普遍。</font><font style="vertical-align: inherit;">似乎该语言需要朝着另一个方向发展，并尽可能地坚持下去。</font><font style="vertical-align: inherit;">Javascript具有功能性且声明性较差，这似乎是对规范的奇怪偏离。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">米亚卡卡西L</span>
@@ -66,9 +62,7 @@ initialArr</span><span class="pun">.</span><span class="pln">splice</span><span 
 
 <pre class="lang-js prettyprint prettyprinted" style=""><code><span class="pln">initialArr</span><span class="pun">.</span><span class="pln">splice</span><span class="pun">(</span><span class="lit">2</span><span class="pun">,</span><span class="pln"> </span><span class="lit">0</span><span class="pun">,</span><span class="pln"> </span><span class="str">"Nigeria"</span><span class="pun">);</span><span class="pln">
 initialArr</span><span class="pun">.</span><span class="pln">splice</span><span class="pun">(</span><span class="lit">2</span><span class="pun">,</span><span class="pln"> </span><span class="lit">0</span><span class="pun">,</span><span class="pln"> </span><span class="str">"Australia"</span><span class="pun">,</span><span class="str">"UK"</span><span class="pun">);</span></code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">十三村村蛋蛋</span>
@@ -89,9 +83,7 @@ initialArr</span><span class="pun">.</span><span class="pln">splice</span><span 
 </span><span class="pun">}</span></code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这是对引用数组进行迭代并将其与要检查的对象进行比较的组合，将它们都转换为字符串，然后在匹配时进行迭代。</font><font style="vertical-align: inherit;">然后，您可以数数。</font><font style="vertical-align: inherit;">可以改进，但这是我解决的地方。</font><font style="vertical-align: inherit;">希望这可以帮助。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">LEYJim</span>
@@ -138,9 +130,7 @@ initialArr</span><span class="pun">.</span><span class="pln">splice</span><span 
 <blockquote>
   <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">array.splice（start，deleteCount，item1，item2，item3 ...）</font></font></p>
 </blockquote></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">梅A飞云</span>
@@ -166,9 +156,7 @@ insert</span><span class="pun">(</span><span class="pln">arr2</span><span class=
 <div class="snippet-result"><div class="snippet-ctas"><button type="button" class="s-btn s-btn__primary"><span class="icon-play-white _hover"></span><span><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> 运行代码段</font></font></span></button><input class="copySnippet s-btn s-btn__filled" type="button" value="Copy snippet to answer" style="display: none;"><button type="button" class="s-btn hideResults" style="display: none;">Hide results</button><div class="popout-code"><a class="snippet-expand-link" data-bitapp="processed"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">展开摘要</font></font></a></div></div><div class="snippet-result-code" style="display: none;"><iframe name="sif6" sandbox="allow-forms allow-modals allow-scripts" class="snippet-box-edit" frameborder="0"></iframe></div></div></div>
 </div>
 <p></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">阿飞宝儿猴子</span>
@@ -195,9 +183,7 @@ console</span><span class="pun">.</span><span class="pln">log</span><span class=
 <div class="snippet-result"><div class="snippet-ctas"><button type="button" class="s-btn s-btn__primary"><span class="icon-play-white _hover"></span><span><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> 运行代码段</font></font></span></button><input class="copySnippet s-btn s-btn__filled" type="button" value="Copy snippet to answer" style="display: none;"><button type="button" class="s-btn hideResults" style="display: none;">Hide results</button><div class="popout-code"><a class="snippet-expand-link" data-bitapp="processed"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">展开摘要</font></font></a></div></div><div class="snippet-result-code" style="display: none;"><iframe name="sif1" sandbox="allow-forms allow-modals allow-scripts" class="snippet-box-edit" frameborder="0"></iframe></div></div></div>
 </div>
 <p></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">逆天西里</span>
@@ -248,9 +234,7 @@ console</span><span class="pun">.</span><span class="pln">log</span><span class=
 <div class="snippet-result"><div class="snippet-ctas"><button type="button" class="s-btn s-btn__primary"><span class="icon-play-white _hover"></span><span><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> 运行代码段</font></font></span></button><input class="copySnippet s-btn s-btn__filled" type="button" value="Copy snippet to answer" style="display: none;"><button type="button" class="s-btn hideResults" style="display: none;">Hide results</button><div class="popout-code"><a class="snippet-expand-link" data-bitapp="processed"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">展开摘要</font></font></a></div></div><div class="snippet-result-code" style="display: none;"><iframe name="sif3" sandbox="allow-forms allow-modals allow-scripts" class="snippet-box-edit" frameborder="0"></iframe></div></div></div>
 </div>
 <p></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">null</span>
@@ -282,9 +266,7 @@ insertAt</span><span class="pun">(</span><span class="pln">arr</span><span class
 </span><span class="kwd">var</span><span class="pln"> arrToInsert </span><span class="pun">=</span><span class="pln"> </span><span class="pun">[</span><span class="str">"x"</span><span class="pun">,</span><span class="pln"> </span><span class="str">"y"</span><span class="pun">,</span><span class="pln"> </span><span class="str">"z"</span><span class="pun">];</span><font></font><span class="pln">
 insertArrayAt</span><span class="pun">(</span><span class="pln">arr</span><span class="pun">,</span><span class="pln"> </span><span class="lit">1</span><span class="pun">,</span><span class="pln"> arrToInsert</span><span class="pun">);</span><font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">蛋蛋LEY</span>
@@ -330,9 +312,7 @@ insertArrayAt</span><span class="pun">(</span><span class="pln">arr</span><span 
 </code></pre>
 
 <p><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">演示：</font></font></strong> <font style="vertical-align: inherit;"><a href="http://jsfiddle.net/UPphH/" rel="noreferrer" data-bitapp="processed"><font style="vertical-align: inherit;">http </font></a><strong><font style="vertical-align: inherit;">: </font></strong></font><a href="http://jsfiddle.net/UPphH/" rel="noreferrer" data-bitapp="processed"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">//jsfiddle.net/UPphH/</font></font></a></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

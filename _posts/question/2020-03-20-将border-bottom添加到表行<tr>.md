@@ -33,7 +33,7 @@ border-bottom: 1pt solid black;<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我更喜欢使用CSS，因为这样我就不必</font></font><code>style</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在每一行中</font><font style="vertical-align: inherit;">添加一个</font><font style="vertical-align: inherit;">属性。</font><font style="vertical-align: inherit;">我尚未向中添加</font></font><code>border</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">属性</font></font><code>&lt;table&gt;</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font><font style="vertical-align: inherit;">我希望那不会影响我的CSS。</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第2431篇《将border-bottom添加到表行<tr>》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第2431篇《将border-bottom添加到表行<tr>》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -55,9 +55,7 @@ border-bottom: 1pt solid black;<font></font>
   border-bottom: 1px solid #222;<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Sam小哥理查德</span>
@@ -82,9 +80,7 @@ table {<font></font>
 </div>
 </div>
 <p></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">A樱</span>
@@ -121,9 +117,7 @@ table {<font></font>
 <p><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">带有边框照片的桌子直播</font></font></strong></p>
 
 <p><img src="https://i.stack.imgur.com/yzxWH.png" alt="带有边框照片的桌子直播"></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">泡芙小卤蛋Tom</span>
@@ -136,9 +130,7 @@ table {<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">有</font></font><code>border-bottom-style</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，</font></font><code>border-top-style</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，</font></font><code>border-left-style</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，</font></font><code>border-right-style</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font><font style="vertical-align: inherit;">或者只是一次将</font></font><code>border-style</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">其应用于所有四个边界。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">您可以</font><a href="http://www.w3schools.com/css/css_border.asp" rel="nofollow"><font style="vertical-align: inherit;">在此处</font></a><font style="vertical-align: inherit;">查看（并</font><font style="vertical-align: inherit;">在线</font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">尝试</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">）更多详细信息</font></font><a href="http://www.w3schools.com/css/css_border.asp" rel="nofollow"><font style="vertical-align: inherit;"></font></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">猴子小小Tony</span>
@@ -152,9 +144,7 @@ table {<font></font>
   box-shadow: 0px 2px 0px 0px rgba(0,0,0,0.99);<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Near西里泡芙</span>
@@ -181,9 +171,7 @@ table {<font></font>
     border:2px solid black;<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">乐Eva</span>
@@ -204,9 +192,7 @@ table {<font></font>
     &lt;/thead&gt;<font></font>
 &lt;/table&gt;<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Itachi猪猪Green</span>
@@ -227,9 +213,7 @@ table {<font></font>
     border-bottom: 1px solid #F00;<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">JinJinGil</span>
@@ -248,9 +232,7 @@ table {<font></font>
   border-collapse: collapse;<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Tony老丝</span>
@@ -261,9 +243,7 @@ table {<font></font>
 <p><code>border-collapse:collapse</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> 如内森（Nathan）所写，您需要设置</font></font></p>
 
 <p><code>td { border-bottom: 1px solid #000; }</code></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">卡卡西小卤蛋GO</span>
@@ -277,18 +257,14 @@ table {<font></font>
 </code></pre>
 
 <p><a href="http://www.w3schools.com/cssref/pr_border-collapse.asp"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">链接</font></font></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">樱</span>
             <span class="discuss-time">2020.03.20</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">使用</font></font><code>border-collapse:collapse</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">上表</font></font><code>border-bottom: 1pt solid black;</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">的TR</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">DavaidA</span>
@@ -301,9 +277,7 @@ tr{border-top:thin solid}<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">用CSS属性替换“ thin solid”。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小宇宙卡卡西</span>
@@ -320,9 +294,7 @@ tr{border-top:thin solid}<font></font>
   border-bottom:1pt solid black;<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

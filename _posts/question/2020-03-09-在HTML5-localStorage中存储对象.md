@@ -61,7 +61,7 @@ Value of retrievedObject: [object Object]<font></font>
 <p>Update: The W3C eventually changed their minds about the structured-clone specification, and decided to change the spec to match the implementations.  See <a href="https://www.w3.org/Bugs/Public/show_bug.cgi?id=12111" rel="noreferrer">https://www.w3.org/Bugs/Public/show_bug.cgi?id=12111</a>. So this question is no longer 100% valid, but the answers still may be of interest.</p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第182篇《在HTML5 localStorage中存储对象》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第182篇《在HTML5 localStorage中存储对象》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -95,9 +95,7 @@ getObj("obj"); // {a: "lol", b: "A", c: "hello world"}<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果您使用用于拆分对象的字母，此技术将引起一些故障，这也是非常实验性的。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">樱Davaid</span>
@@ -143,9 +141,7 @@ storage.setItem("address", {city:"Here"}); // ok<font></font>
 <font></font>
 const address: {city:string} = storage.getItem("address");<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">乐卡卡西</span>
@@ -176,9 +172,7 @@ const address: {city:string} = storage.getItem("address");<font></font>
 <p><a href="https://github.com/UziTech/storage.js" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">https://github.com/UziTech/storage.js</font></font></a></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我在包装器中添加了一些类型，包括正则表达式和函数</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Eva猿猿</span>
@@ -194,9 +188,7 @@ const address: {city:string} = storage.getItem("address");<font></font>
 <li><a href="https://github.com/marcuswestin/store.js"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Store.js</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> &lt;&lt;另一个不错的选择</font></font></li>
 <li><a href="https://github.com/aaronagray/omg"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我的天啊</font></font></a></li>
 </ul></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">木嘢</span>
@@ -209,9 +201,7 @@ const address: {city:string} = storage.getItem("address");<font></font>
 <p><a href="https://i.stack.imgur.com/cU5V0.png" rel="nofollow noreferrer"><img src="https://i.stack.imgur.com/cU5V0.png" alt="持久功能"></a></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">（免责声明：我是作者。）</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Mandy宝儿</span>
@@ -229,9 +219,7 @@ const address: {city:string} = storage.getItem("address");<font></font>
 <pre><code>value = $.jStorage.get(key)<font></font>
 value = $.jStorage.get(key, "default value")<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Tony老丝</span>
@@ -262,9 +250,7 @@ value = $.jStorage.get(key, "default value")<font></font>
   }<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">LEY村村</span>
@@ -283,9 +269,7 @@ Storage.prototype.getObject = function(key) {<font></font>
 </code></pre>
 
 <p>Because of <a href="http://en.wikipedia.org/wiki/Short-circuit_evaluation" rel="noreferrer">short-circuit evaluation</a>, <code>getObject()</code> will <em>immediately</em> return <code>null</code> if <code>key</code> is not in Storage. It also will not throw a <code>SyntaxError</code> exception if <code>value</code> is <code>""</code> (the empty string; <code>JSON.parse()</code> cannot handle that).</p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">LEYAItachi</span>
@@ -303,9 +287,7 @@ Storage.prototype.getObject = function(key) {<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这样，即使在API下仅支持字符串，您也可以获得真正想要的功能。</font></font></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

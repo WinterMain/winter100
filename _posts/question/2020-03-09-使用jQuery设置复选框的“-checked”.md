@@ -25,7 +25,7 @@ topic: JavaScript
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这样的事情存在吗？</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第148篇《使用jQuery设置复选框的“ checked”》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第148篇《使用jQuery设置复选框的“ checked”》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -53,9 +53,7 @@ $</span><span class="pun">(</span><span class="str">".myCheckBox"</span><span cl
 <hr>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这也是</font></font><a href="http://jsfiddle.net/8PCx8/" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">一个</font></font><em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">jsFiddle</font></font></em></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">梅Tom猿</span>
@@ -66,9 +64,7 @@ $</span><span class="pun">(</span><span class="str">".myCheckBox"</span><span cl
 <blockquote>
   <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在版本9之前的Internet Explorer中，使用.prop（）将DOM元素属性设置为简单基本值（数字，字符串或布尔值）以外的任何内容，如果不删除该属性（使用.removeProp（ ））从文档中删除DOM元素。</font><font style="vertical-align: inherit;">若要在DOM对象上安全地设置值而不会导致内存泄漏，请使用.data（）。</font></font></p>
 </blockquote></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">LEYTom</span>
@@ -110,9 +106,7 @@ $</span><span class="pun">(</span><span class="str">".myCheckBox"</span><span cl
 
 <pre class="lang-js prettyprint prettyprinted" style=""><code><span class="pln">    $</span><span class="pun">(</span><span class="str">":checkbox"</span><span class="pun">).</span><span class="pln">check</span><span class="pun">();</span><span class="pln">
     $</span><span class="pun">(</span><span class="str">":checkbox"</span><span class="pun">).</span><span class="pln">uncheck</span><span class="pun">();</span></code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">LEYEvaL</span>
@@ -146,9 +140,7 @@ addOrAttachListener</span><span class="pun">(</span><span class="pln">window</sp
 <div class="snippet-result"><div class="snippet-ctas"><button type="button" class="s-btn s-btn__primary"><span class="icon-play-white _hover"></span><span><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> 运行代码段</font></font></span></button><input class="copySnippet s-btn s-btn__filled" type="button" value="Copy snippet to answer" style="display: none;"><button type="button" class="s-btn hideResults" style="display: none;">Hide results</button><div class="popout-code"><a class="snippet-expand-link"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">展开摘要</font></font></a></div></div><div class="snippet-result-code" style="display: none;"><iframe name="sif1" sandbox="allow-forms allow-modals allow-scripts" class="snippet-box-edit" frameborder="0"></iframe></div></div></div>
 </div>
 <p></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">达蒙阿飞斯丁</span>
@@ -173,9 +165,7 @@ addOrAttachListener</span><span class="pun">(</span><span class="pln">window</sp
 $</span><span class="pun">(</span><span class="str">":checkbox"</span><span class="pun">).</span><span class="pln">uncheck</span><span class="pun">();</span></code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">或者，如果您使用其他使用这些名称的库，则可能要给它们提供诸如mycheck（）和myuncheck（）之类的唯一名称。</font></font></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

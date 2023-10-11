@@ -21,7 +21,7 @@ topic: JavaScript
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我找不到有关从文本区域获取文本的任何信息，我所得到的只是键盘信息。</font><font style="vertical-align: inherit;">另外，如何将返回的键码转换为ASCII字符？</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第1290篇《jQuery获取textarea文本》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第1290篇《jQuery获取textarea文本》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -42,9 +42,7 @@ topic: JavaScript
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这样，您只需将输入框的值发送到服务器进行处理，然后将结果附加到控制台消息div。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">ㄏ囧囧ㄟ</span>
@@ -56,9 +54,7 @@ topic: JavaScript
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">还是您需要的东西缺少我了？</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">做个有心人</span>
@@ -72,9 +68,7 @@ topic: JavaScript
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">然后从那里将字符附加到字符串，然后按Enter键将字符串发送到服务器。</font><font style="vertical-align: inherit;">很抱歉，我的问题似乎有点晦涩难懂，而且标题的含义几乎完全是题外话，这是凌晨，而且我还没有吃早餐;）。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">感谢您的帮助。</font></font></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

@@ -19,7 +19,7 @@ topic: React.js
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">使用WebStorm调试NextJS React应用程序的正确步骤是什么？</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第2862篇《如何使用WebStorm调试NextJS React应用程序？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第2862篇《如何使用WebStorm调试NextJS React应用程序？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -42,9 +42,7 @@ topic: React.js
 <p><a href="https://i.stack.imgur.com/MKbDF.png" rel="noreferrer"><img src="https://i.stack.imgur.com/MKbDF.png" alt="在此处输入图片说明"></a></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">然后，您可以调试</font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Node.js</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">和</font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Javascript Debug</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">运行配置，以</font><strong><font style="vertical-align: inherit;">调试</font></strong><font style="vertical-align: inherit;">服务器端和客户端代码。</font></font></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

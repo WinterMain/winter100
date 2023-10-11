@@ -23,7 +23,7 @@ topic: JavaScript
 </code></pre></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第1591篇《javascript中的多个箭头功能是什么意思？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第1591篇《javascript中的多个箭头功能是什么意思？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -53,9 +53,7 @@ topic: JavaScript
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">然后在输入或单击上使用handleChange。</font><font style="vertical-align: inherit;">这一切都有效并且看起来非常不错。</font><font style="vertical-align: inherit;">但是，这意味着将导致父项重新呈现的任何更改（如完全不相关的状态更改）也将重新呈现所有MyTask，即使它们是PureComponents。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">可以通过多种方式来缓解这种情况，例如传递“最外”箭头和您将使用的对象，或者编写自定义的shouldUpdate函数，或者回到基础知识，例如编写命名函数（并手动绑定此函数……）。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">泡芙</span>
@@ -112,9 +110,7 @@ const Confirm = props =&gt; (<font></font>
 )<font></font>
 <font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">达蒙西里</span>
@@ -179,9 +175,7 @@ const Confirm = props =&gt; (<font></font>
    console.log(args);<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">神奇Tony古一</span>
@@ -198,9 +192,7 @@ const Confirm = props =&gt; (<font></font>
 </code></pre>
 
 <p><a href="https://i.stack.imgur.com/vWrgH.png" rel="noreferrer"><img src="https://i.stack.imgur.com/vWrgH.png" alt="巴别塔"></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">伽罗L</span>
@@ -235,9 +227,7 @@ function (field) {         |  function (field) {       |  field =&gt; e =&gt; {<
   }                        |    }.bind(this)           |    <font></font>
 }                          |  }.bind(this)             |  }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

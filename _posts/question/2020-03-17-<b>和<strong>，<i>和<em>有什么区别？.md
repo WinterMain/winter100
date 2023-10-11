@@ -17,7 +17,7 @@ topic: HTML
     <div class="article-content"><p><font style="vertical-align: inherit;"></font><code>&lt;b&gt;</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">和</font></font><code>&lt;strong&gt;</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，</font></font><code>&lt;i&gt;</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">和</font></font><code>&lt;em&gt;</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">HTML / XHTML </font><font style="vertical-align: inherit;">之间有什么区别</font><font style="vertical-align: inherit;">？</font><font style="vertical-align: inherit;">您什么时候应该使用？</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第1904篇《<b>和<strong>，<i>和<em>有什么区别？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第1904篇《<b>和<strong>，<i>和<em>有什么区别？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -30,9 +30,7 @@ topic: HTML
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我们将</font></font><code>&lt;strong&gt;</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">标签用于具有较高优先级的文本，以用于SEO用途，例如产品名称，公司名称等，而</font></font><code>&lt;b&gt;</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">简单则使其变粗。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">类似地，我们使用</font></font><code>&lt;em&gt;</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">SEO优先级高</font></font><code>&lt;i&gt;</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">的文本</font><font style="vertical-align: inherit;">，同时</font><font style="vertical-align: inherit;">使文本简单斜体。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">村村飞云</span>
@@ -48,9 +46,7 @@ topic: HTML
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如 </font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">“车辆”就是“吉普车”</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">前端JinJin</span>
@@ -61,9 +57,7 @@ topic: HTML
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">自创建CSS以来，实际上不再需要在HTML中进行布局，这就是为什么首先创建CSS的原因（HTML == Structure，CSS == Layout）。</font><font style="vertical-align: inherit;">这些标签将来也可能消失，</font></font><code>span</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果您需要“无意义”的字体变化</font><font style="vertical-align: inherit;">，您毕竟可以使用CSS和</font><font style="vertical-align: inherit;">标签使文本变为粗体/斜体。</font><font style="vertical-align: inherit;">HTML 5仍然允许它们，但声明以这种方式标记文本</font></font><em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">没有任何意义</font></font></em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p>
 
 <p><code>&lt;em&gt;</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">而</font></font><code>&lt;strong&gt;</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">另一方面，它仅表示“强调”或“强调”某些内容，从而使浏览器完全可以使用它进行渲染。</font><font style="vertical-align: inherit;">默认情况下，</font><font style="vertical-align: inherit;">大多数浏览器将</font></font><code>em</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">按照</font></font><code>strong</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">标准建议的</font><font style="vertical-align: inherit;">斜体和</font><font style="vertical-align: inherit;">粗体进行</font><font style="vertical-align: inherit;">渲染</font><font style="vertical-align: inherit;">，但是并不一定要这样做（它们可能使用不同的颜色，字体大小，字体等）。</font><font style="vertical-align: inherit;">您可以使用CSS以所需的方式更改行为。</font><font style="vertical-align: inherit;">您可以根据需要将其设置为</font></font><code>em</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">粗体</font></font><code>strong</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，例如将其设置为粗体和红色。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Harry猴子A</span>
@@ -104,9 +98,7 @@ topic: HTML
 
 <pre><code>&lt;em&gt;This text is emphasized&lt;/em&gt;
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小宇宙前端</span>
@@ -119,9 +111,7 @@ topic: HTML
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Google dixit：</font></font></p>
 
 <p><a href="http://wiki.answers.com/Q/What_is_the_difference_between_HTML_tags_b_and_strong" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">http://wiki.answers.com/Q/What_is_the_difference_between_HTML_tags_b_and_strong</font></font></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Sam凯卡卡西</span>
@@ -130,9 +120,7 @@ topic: HTML
           <div class="discuss-comment"><p><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">b</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">或</font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">i</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">表示您希望文本显示为粗体或斜体。</font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">strong</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">或</font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">em</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">表示您希望以用户理解为“重要”的方式呈现文本。</font><font style="vertical-align: inherit;">默认设置是将strong呈现为粗体，将em呈现为斜体，但是其他一些文化可能会使用其他映射。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">像程序中的字符串一样，</font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">b</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">和</font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">i</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">将被“硬编码”，而</font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">strong</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">和</font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">em</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">将被“本地化”。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">伽罗Mandy</span>
@@ -141,9 +129,7 @@ topic: HTML
           <div class="discuss-comment"><p><code>&lt;b&gt;</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">并</font></font><code>&lt;i&gt;</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">应避免使用它们，因为它们描述了文本的样式。</font><font style="vertical-align: inherit;">而是使用</font></font><code>&lt;strong&gt;</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">和，</font></font><code>&lt;em&gt;</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">因为它描述了文本的语义（含义）。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">与HTML中的所有内容一样，您应该考虑的不是</font><font style="vertical-align: inherit;">真正的</font></font><em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">外观</font></font></em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，而是真正的</font></font><em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">含义</font></font></em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font><font style="vertical-align: inherit;">当然，对您而言可能只是粗体和斜体，而对于屏幕阅读器而言则不是。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Gil神奇</span>
@@ -156,9 +142,7 @@ topic: HTML
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">对于使用</font></font><code>&lt;i&gt;</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">  标签的</font><font style="vertical-align: inherit;">文本斜体样式  </font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">对于使用</font></font><code>&lt;em&gt;</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">  标签的</font><font style="vertical-align: inherit;">强调文字  </font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Sam猪猪</span>
@@ -167,9 +151,7 @@ topic: HTML
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">仅在由于任何原因使CSS样式类不方便或无法使用时才使用它们（例如博客系统，仅允许在帖子中使用某些标签，并最终允许使用嵌入的样式）。</font><font style="vertical-align: inherit;">另一个原因是支持非常老的浏览器（某些移动设备？）或原始搜索引擎（提供点</font></font><code>&lt;b&gt;</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">或</font></font><code>&lt;strong&gt;</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">标记，而不是分析CSS样式）。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果可以定义CSS样式，请使用它们。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Jim猪猪伽罗</span>
@@ -182,9 +164,7 @@ topic: HTML
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在那句话中，“全部”一词非常重要，而“曲棍网兜球”则不那么重要-我只是希望它是粗体的，因为它代表一个搜索词，因此我希望进行视觉上的分隔。</font><font style="vertical-align: inherit;">如果您正在使用屏幕阅读器来查看页面，那么我真的认为不需要强调“长曲棍球”一词。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我会倾向于想象大多数Web开发人员都使用其中一种，但是两者都很好-正如某些人所声称的，&lt;b&gt;绝对不被弃用。</font><font style="vertical-align: inherit;">对我来说，这只是视觉吸引力和意义之间的一条细线。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Eva梅村村</span>
@@ -229,9 +209,7 @@ topic: HTML
 <p><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/em" rel="nofollow noreferrer">https://developer.mozilla.org/en-US/docs/Web/HTML/Element/em</a> </p>
 
 <p><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/strong" rel="nofollow noreferrer">https://developer.mozilla.org/en-US/docs/Web/HTML/Element/strong</a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">蓝染大人</span>
@@ -240,9 +218,7 @@ topic: HTML
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">正如其他人所说，&lt;b&gt;和&lt;i&gt;是显式的（即“使此文本变为粗体”），而&lt;strong&gt;和&lt;em&gt;是语义的（即“应强调此文本”）。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在现代网络浏览器的背景下，很难看到差异（它们似乎都产生相同的结果，对吗？），但请考虑为视障人士使用屏幕阅读器。</font><font style="vertical-align: inherit;">如果屏幕阅读器遇到&lt;i&gt;标记，它将不知道该怎么办。</font><font style="vertical-align: inherit;">但是，如果遇到&lt;em&gt;标签，它就会知道应该将其中的内容强调给侦听器。</font><font style="vertical-align: inherit;">在其中，您得到了实际的区别。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">MandyTom</span>
@@ -255,9 +231,7 @@ topic: HTML
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">它们还会使编辑器屏幕上出现更多文本。</font><font style="vertical-align: inherit;">我似乎记得，程序员喜欢较小的源文件（如果相同）。</font><font style="vertical-align: inherit;">（而且，让我们成为现实，它们是相同的。是的，存在“技术性” </font><font style="vertical-align: inherit;">差异</font><font style="vertical-align: inherit;">（&lt;i&gt; </font></font><i><em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">咳嗽</font></font></em></i><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> &lt;/ i&gt;，</font><i><em><font style="vertical-align: inherit;">咳嗽</font></em></i><font style="vertical-align: inherit;">，对不起），但这首先是虚假的。”</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">使用上述任何一个标签，您都可以使用样式表来自定义样式，但是如果您希望它们显示的外观与默认呈现不同，可以使用它们。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">前端凯神乐</span>
@@ -270,9 +244,7 @@ topic: HTML
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">此外，这样的内容可以指粗体和斜体词和短语，以传达特定的含义。 </font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">一个例子是英语考试题，指示学生替换粗体字。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">TomPro</span>
@@ -289,9 +261,7 @@ topic: HTML
 <p><code>&lt;em&gt;</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> 表示重点。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">（这些都是W3C来源的直接引号，并增加了我的强调。请参阅：</font></font><a href="https://rawgithub.com/whatwg/html-differences/master/Overview.html#changed-elements"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">https</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> : </font><a href="https://rawgithub.com/whatwg/html-differences/master/Overview.html#changed-elements"><font style="vertical-align: inherit;">//rawgithub.com/whatwg/html-differences/master/Overview.html#changed-elements</font></a><font style="vertical-align: inherit;">和</font></font><a href="http://www.w3.org/TR/html401/struct/text.html#h-9.2.1"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">http://www.w3.org /TR/html401/struct/text.html#h-9.2.1</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">（原始）</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Green逆天</span>
@@ -300,9 +270,7 @@ topic: HTML
           <div class="discuss-comment"><p><code>&lt;b&gt;</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">和</font></font><code>&lt;i&gt;</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">都与样式有关，而</font></font><code>&lt;em&gt;</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">和</font></font><code>&lt;strong&gt;</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">是语义。</font><font style="vertical-align: inherit;">在HTML 4中，第一个分类为</font></font><a href="http://www.w3.org/TR/REC-html40/present/graphics.html#h-15.2.1" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">字体样式元素</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，</font><font style="vertical-align: inherit;">第二个分类</font><font style="vertical-align: inherit;">为</font></font><a href="http://www.w3.org/TR/REC-html40/struct/text.html#h-9.2.1" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">短语元素</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">正如您所指出的那样，</font></font><code>&lt;i&gt;</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">并且</font></font><code>&lt;em&gt;</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">通常被认为是相似的，因为浏览器经常以斜体显示这两者。</font><font style="vertical-align: inherit;">但是根据规范，</font></font><code>&lt;em&gt;</code> <em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">表示重点</font></font></em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">和</font></font><code>&lt;strong&gt;</code> <em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">表示更强的重点</font></font></em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，这很明显，但是经常会被误解。</font><font style="vertical-align: inherit;">另一方面，何时使用</font></font><code>&lt;i&gt;</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">或</font><font style="vertical-align: inherit;">何时使用之间的区别</font></font><code>&lt;b&gt;</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">实际上是样式问题。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">十三Tony伽罗</span>
@@ -315,9 +283,7 @@ topic: HTML
 <p><code>&lt;b&gt;</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">而</font></font><code>&lt;i&gt;</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在另一方面只适用的字体样式，不应再使用。</font><font style="vertical-align: inherit;">（因为您应该使用CSS进行格式化，并且如果文本实际上很重要，那么无论如何您都可能会将其设置为“强”或“强调”！）</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">希望有道理。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">ADavaid</span>
@@ -326,9 +292,7 @@ topic: HTML
           <div class="discuss-comment"><p><code>&lt;b&gt;</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">并且</font></font><code>&lt;i&gt;</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">是明确的-它们分别指定粗体和斜体。</font></font></p>
 
 <p><code>&lt;strong&gt;</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">并且</font></font><code>&lt;em&gt;</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">是语义的-它们指定所包含的文本应以某种方式“强”或“强调”，通常是粗体和斜体，但允许通过CSS控制实际样式。</font><font style="vertical-align: inherit;">因此，这些在现代网页中是首选。</font></font></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

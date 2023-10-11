@@ -88,7 +88,7 @@ topic: Webpack
 ，甚至该组件也未显示</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第1359篇《使用异步/等待与webpack-简单配置抛出错误：未定义RegeneratorRuntime》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第1359篇《使用异步/等待与webpack-简单配置抛出错误：未定义RegeneratorRuntime》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -121,9 +121,7 @@ module.exports = {<font></font>
 </code></pre>
 
 <p><em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">根据您的项目结构和文件名等进行必要的更改。</font></font></em></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">entaseven</span>
@@ -131,9 +129,7 @@ module.exports = {<font></font>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">要使用异步并等待，您应该在babel配置中添加2个插件：</font></font><a href="https://babeljs.io/docs/plugins/transform-async-to-generator/" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">https</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> :
  </font><a href="https://babeljs.io/docs/plugins/transform-async-to-generator/" rel="nofollow noreferrer"><font style="vertical-align: inherit;">//babeljs.io/docs/plugins/transform-async-to-generator/</font></a><font style="vertical-align: inherit;">和</font></font><a href="https://babeljs.io/docs/plugins/syntax-async-functions/" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">https://babeljs.io/docs/plugins/syntax -异步功能/</font></font></a></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

@@ -17,7 +17,7 @@ topic: JavaScript
     <div class="article-content"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在JavaScript中，如何格式化日期对象以打印为</font></font><code>10-Aug-2010</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">？</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第205篇《如何格式化JavaScript日期》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第205篇《如何格式化JavaScript日期》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -30,9 +30,7 @@ topic: JavaScript
           <div class="discuss-comment"><pre><code>var today = new Date();<font></font>
 var formattedToday = today.toLocaleDateString() + ' ' + today.toLocaleTimeString();<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Near逆天</span>
@@ -46,9 +44,7 @@ alert(testdate);<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">您可以</font></font><a href="http://api.jqueryui.com/datepicker/#option-dateFormat" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在jQuery UI文档中</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">看到   </font><a href="http://api.jqueryui.com/datepicker/#option-dateFormat" rel="noreferrer"><font style="vertical-align: inherit;">许多其他格式化日期的示例</font></a><font style="vertical-align: inherit;">。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">留姬</span>
@@ -64,9 +60,7 @@ alert(testdate);<font></font>
 <p></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在</font><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/toLocaleDateString" rel="noreferrer"><font style="vertical-align: inherit;">developer.mozilla.org上有</font></a><font style="vertical-align: inherit;">更多文档</font></font><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/toLocaleDateString" rel="noreferrer"><font style="vertical-align: inherit;"></font></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小宇宙神无</span>
@@ -83,9 +77,7 @@ let formatted = `${d.getFullYear()}-${d.getMonth() + 1}-${d.getDate()}`;<font></
 <pre><code>const delimiter = '/';<font></font>
 let formatted = [d.getFullYear(), d.getMonth() + 1, d.getDate()].join(delimiter);<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">ItachiHarry</span>
@@ -115,9 +107,7 @@ let formatted = [d.getFullYear(), d.getMonth() + 1, d.getDate()].join(delimiter)
 <li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/toJSON" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Date.toJSON</font></font></a></li>
 <li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/slice" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">字符串切片</font></font></a></li>
 </ul></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">逆天LEY逆天</span>
@@ -140,9 +130,7 @@ d.getHours() + ":" + d.getMinutes();<font></font>
 <font></font>
 // 16-05-2015 09:50<font></font>
 </code></pre></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

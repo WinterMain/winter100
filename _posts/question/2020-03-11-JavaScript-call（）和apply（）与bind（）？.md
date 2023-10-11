@@ -37,7 +37,7 @@ alert(obj.getX.apply(obj));<font></font>
 <p><a href="http://jsbin.com/awewof/1/edit"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">jsbin</font></font></a></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第548篇《JavaScript call（）和apply（）与bind（）？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第548篇《JavaScript call（）和apply（）与bind（）？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -48,9 +48,7 @@ alert(obj.getX.apply(obj));<font></font>
             <span class="discuss-time">2020.03.11</span>
           </div>
           <div class="discuss-comment"><p>I think the same places of them are: all of them can change the this value of a function.The differences of them are: the bind function will return a new function as a result; the call and apply methods will execute the function immediately, but apply can accept a array as params,and it will parse the array separated.And also, the bind function can be Currying.</p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">村村小卤蛋</span>
@@ -90,9 +88,7 @@ console.log(cal.apply(obj, arr)); <font></font>
        var calc = cal.bind(obj);<font></font>
        console.log(calc(2,3,4));<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Harry飞云</span>
@@ -111,9 +107,7 @@ var bindHelper =  function (someFunction, objToBind) {<font></font>
 <font></font>
 bindHelper(arguments);<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">蛋蛋L</span>
@@ -125,9 +119,7 @@ bindHelper(arguments);<font></font>
 
 <p><strong>apply</strong>: It executes the function with provided context and 
 <strong>parameter as array</strong>.</p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">前端逆天</span>
@@ -147,9 +139,7 @@ func.apply(context, [argument1,argument2,..]);<font></font>
     };<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">樱十三</span>
@@ -346,9 +336,7 @@ console.log (Math.max (allNumbers)); // NaN<font></font>
 // Using the apply () method, we can pass the array of numbers:<font></font>
 console.log (Math.max.apply (null, allNumbers)); // 56<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">LEYTom</span>
@@ -377,9 +365,7 @@ console.log (Math.max.apply (null, allNumbers)); // 56<font></font>
   };<font></font>
   setTimeout(function(){sayHello.call(obj)}, 1000);<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">樱理查德</span>
@@ -435,9 +421,7 @@ multiby2(4); //8<font></font>
 <p><code>magicMultiplication.apply(this,[5,2]); //10</code></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">简而言之，</font></font><code>bind</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">创建函数</font></font><code>call</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">并</font></font><code>apply</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">执行函数，而</font></font><code>apply</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">期望数组中的参数</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小卤蛋Stafan</span>
@@ -492,9 +476,7 @@ helloFunc();  // output: Jim Smith says hello world"<font></font>
 }<font></font>
 personContainer("world", "mars"); // output: "James Smith says hello mars", note: arguments[0] = "world" , arguments[1] = "mars"                                     <font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小哥Stafan</span>
@@ -505,9 +487,7 @@ personContainer("world", "mars"); // output: "James Smith says hello mars", note
 <p><a href="https://i.stack.imgur.com/WHlX0.jpg" rel="noreferrer"><img src="https://i.stack.imgur.com/WHlX0.jpg" alt="在此处输入图片说明"></a></p>
 
 <p><code>.bind</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">允许您设置的</font></font><code>this</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">值</font></font><em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">现在</font></font></em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">同时允许执行的功能</font></font><em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在未来</font></font></em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，因为它返回一个新的函数对象。</font></font></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

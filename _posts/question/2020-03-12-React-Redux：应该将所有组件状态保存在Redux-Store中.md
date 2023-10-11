@@ -53,7 +53,7 @@ return {color: true}<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">所以我想我真正要问的是，我在这里做错了什么？</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第1305篇《React-Redux：应该将所有组件状态保存在Redux Store中》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第1305篇《React-Redux：应该将所有组件状态保存在Redux Store中》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -70,9 +70,7 @@ return {color: true}<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在您的特定示例中，切换按钮的颜色是否会对应用程序的其他部分产生影响？</font><font style="vertical-align: inherit;">如果它是应用程序主要部分的某种全局开/关切换，则它肯定属于商店。</font><font style="vertical-align: inherit;">但是，如果您只是在单击按钮时切换按钮的颜色，则可以保留本地定义的颜色状态。</font><font style="vertical-align: inherit;">单击按钮的动作可能还具有其他需要动作分派的效果，但这与应该是什么颜色的简单问题是分开的。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">通常，请尝试使应用程序状态尽可能小。</font><font style="vertical-align: inherit;">您不必将</font></font><em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">所有东西</font></font></em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">都推</font><font style="vertical-align: inherit;">到那里。</font><font style="vertical-align: inherit;">在需要时执行此操作，或者将某些内容保留在其中很有意义。</font><font style="vertical-align: inherit;">或者，如果使用开发工具可以使您的生活更轻松。</font><font style="vertical-align: inherit;">但是不要过多地强调它的重要性。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Eva西里</span>
@@ -94,9 +92,7 @@ return {color: true}<font></font>
   <li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">您是否要缓存数据（即，使用已存在的状态而不是重新请求）？</font></font></li>
   </ul>
 </blockquote></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">卡卡西西里</span>
@@ -109,9 +105,7 @@ return {color: true}<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">出于性能方面的考虑，您可能希望退回可</font></font><code>this.setState()</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">重复执行许多操作的任何操作。</font><font style="vertical-align: inherit;">例如：每次用户键入键时，将输入字段的状态存储在Redux中可能会导致性能下降。</font><font style="vertical-align: inherit;">您可以通过将其视为事务来解决此问题：“提交”用户操作后，将最终状态保存在Redux中。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">您的原始帖子提到Redux方式是如何“编写大量代码的”。</font><font style="vertical-align: inherit;">是的，但是您可以将抽象用于常见的模式，例如本地组件状态。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Me无敌小哥</span>
@@ -128,9 +122,7 @@ return {color: true}<font></font>
   
   <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">丹·阿布拉莫夫（Dan Abramov）：</font><a href="https://github.com/reactjs/redux/issues/1287#issuecomment-175351978" rel="noreferrer"><font style="vertical-align: inherit;">https</font></a><font style="vertical-align: inherit;"> : </font></font><a href="https://github.com/reactjs/redux/issues/1287#issuecomment-175351978" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">//github.com/reactjs/redux/issues/1287#issuecomment-175351978</font></font></a></p>
 </blockquote></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

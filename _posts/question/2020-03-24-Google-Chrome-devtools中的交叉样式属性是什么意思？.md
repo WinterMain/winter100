@@ -17,7 +17,7 @@ topic: CSS
     <div class="article-content"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">使用Chrome的devtools检查元素时，在“元素”标签中，右侧的“样式”栏显示了相应的CSS属性。</font><font style="vertical-align: inherit;">有时，其中某些属性会被删除。</font><font style="vertical-align: inherit;">这些属性是什么意思？</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第3320篇《Google Chrome devtools中的交叉样式属性是什么意思？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第3320篇《Google Chrome devtools中的交叉样式属性是什么意思？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -28,9 +28,7 @@ topic: CSS
             <span class="discuss-time">2020.03.24</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在某些情况下，您将CSS代码复制并粘贴到某处会破坏格式，因此Chrome会显示黄色警告。</font><font style="vertical-align: inherit;">您应该再次尝试重新格式化CSS代码，这应该没问题。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">凯西里</span>
@@ -58,18 +56,14 @@ width:500px;<font></font>
 <font></font>
 ** width will be 300px and 500px will be crossed out **<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">凯西里</span>
             <span class="discuss-time">2020.03.24</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果即使在收到笔划指示后仍要应用样式，则可以使用</font></font><code>"!important"</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">来强制样式。</font><font style="vertical-align: inherit;">它可能不是正确的解决方案，但可以解决问题。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">神无小小</span>
@@ -107,9 +101,7 @@ width:500px;<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">然后在chrome中，您会看到</font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">背景尺寸</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">已删除。</font><font style="vertical-align: inherit;">我不确定为什么会这样，但是是的，您不想弄乱它。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">达蒙Tom</span>
@@ -120,9 +112,7 @@ width:500px;<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">（特殊情况：如果某个样式存在于匹配规则中但已被注释掉，或者您通过在Chrome开发者工具中取消选中该样式来手动将其禁用，则该样式也会显示为删除线。输出，但如果样式有语法错误，则带有错误图标。）</font></font></p>
 
 <p>For example, if a background color was applied to all <code>div</code>s, but a different background color was applied to <code>div</code>s with a certain id, the first color will show up but will be crossed out, as the second color has replaced it (in the property list for the <code>div</code> with that id).</p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

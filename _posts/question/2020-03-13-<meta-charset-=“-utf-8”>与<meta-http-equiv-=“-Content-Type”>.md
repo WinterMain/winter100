@@ -28,7 +28,7 @@ topic: HTML
 </ol></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第1495篇《<meta charset =“ utf-8”>与<meta http-equiv =“ Content-Type”>》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第1495篇《<meta charset =“ utf-8”>与<meta http-equiv =“ Content-Type”>》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -45,9 +45,7 @@ topic: HTML
 <p><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">不久的将来</font><strong><font style="vertical-align: inherit;">，旧样式必定会过时</font></strong><font style="vertical-align: inherit;">。</font><font style="vertical-align: inherit;">我会坚持新的</font></font><code>&lt;meta charset="utf-8"&gt;</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font><br><br><strong><em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">只有一种方法，但是向上。</font><font style="vertical-align: inherit;">以技术为例，那是淘汰旧的（真的，真的很快）</font></font></em></strong></p>
 
 <p><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">文档：</font></font></strong> <a href="https://www.w3schools.com/tags/att_meta_charset.asp" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">HTML元字符集属性-W3Schools</font></font></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">宝儿LEY理查德</span>
@@ -71,9 +69,7 @@ topic: HTML
 <p>Notepad cannot save your files in UTF-8 without the BOM. A free editor that can is <a href="http://notepad-plus-plus.org/" rel="noreferrer">Notepad++</a>. On the program menu bar, select "Encoding &gt; Encode in UTF-8 without BOM". You can also open files and re-save them in UTF-8 using "Encoding &gt; Convert to UTF-8 without BOM".</p>
 
 <p>More on the <a href="http://en.wikipedia.org/wiki/Byte_order_mark" rel="noreferrer">Byte Order Mark (BOM) at Wikipedia</a>.</p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小哥卡卡西</span>
@@ -85,9 +81,7 @@ topic: HTML
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">原因是使用html5的电子邮件阅读器并不多，因此始终最好使用旧的html样式。</font><font style="vertical-align: inherit;">实际上，使用表比使用divs + css更好。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user"> ....</span>
@@ -96,9 +90,7 @@ topic: HTML
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">使用</font></font><code>&lt;meta charset="utf-8" /&gt;</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">HTML5时用于Web浏览器。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">使用</font></font><code>&lt;meta http-equiv="Content-Type" content="text/html; charset=utf-8" /&gt;</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">使用HTML4和XHTML时，或过时的DOM解析器，像</font></font><code>DOMDocument</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在PHP 5.3</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">乐米亚</span>
@@ -110,18 +102,14 @@ topic: HTML
   <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">请勿使用该值（</font></font><code>http-equiv=content-type</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">），因为它已过时。</font><font style="vertical-align: inherit;">优先使用</font></font><code>charset</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">&lt; </font></font><code>meta</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">&gt;元素</font><font style="vertical-align: inherit;">上</font><font style="vertical-align: inherit;">的</font><font style="vertical-align: inherit;">属性</font><font style="vertical-align: inherit;">。
   </font></font><a href="https://i.stack.imgur.com/4alVf.png" rel="nofollow noreferrer"><img src="https://i.stack.imgur.com/4alVf.png" alt="在此处输入图片说明"></a></p>
 </blockquote></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小小西门</span>
             <span class="discuss-time">2020.03.13</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在HTML5中，它们是等效的。</font><font style="vertical-align: inherit;">使用较短的一个，更容易记住和键入。</font></font><a href="http://code.google.com/p/doctype-mirror/wiki/MetaCharsetAttribute"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">浏览器支持很好，</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">因为它是为向后兼容而设计的。</font></font></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

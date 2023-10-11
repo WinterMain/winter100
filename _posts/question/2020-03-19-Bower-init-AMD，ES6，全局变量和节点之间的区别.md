@@ -26,7 +26,7 @@ topic: Node.js
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这些选项之间有什么区别？</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第2217篇《Bower init-AMD，ES6，全局变量和节点之间的区别》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第2217篇《Bower init-AMD，ES6，全局变量和节点之间的区别》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -79,9 +79,7 @@ browserify -r ./index.js:dflow -o dist/dflow.js
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这是另一个话题，但是，值得考虑一下后一个好处是多么值得：让我分享</font></font><code>npm.scripts.browserify</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我在</font><em><font style="vertical-align: inherit;">package.json中</font></em><font style="vertical-align: inherit;">使用</font><font style="vertical-align: inherit;">的</font><font style="vertical-align: inherit;">属性</font></font><em><font style="vertical-align: inherit;"></font></em> </p>
 
 <p><code>"browserify": "browserify -r ./index.js:${npm_package_name} -o dist/${npm_package_name}.js"</code></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">卡卡西Near</span>
@@ -102,9 +100,7 @@ browserify -r ./index.js:dflow -o dist/dflow.js
 </blockquote>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">相关链接：</font><a href="https://github.com/bower/spec/blob/master/json.md#moduletype"><font style="vertical-align: inherit;">https</font></a><font style="vertical-align: inherit;"> : </font></font><a href="https://github.com/bower/spec/blob/master/json.md#moduletype"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">//github.com/bower/spec/blob/master/json.md#moduletype</font></font></a></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

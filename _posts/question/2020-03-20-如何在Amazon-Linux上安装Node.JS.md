@@ -19,7 +19,7 @@ topic: Node.js
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如何在AWS Amazon Linux上的一个命令中安装Node.JS和NPM？</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第2498篇《如何在Amazon Linux上安装Node.JS》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第2498篇《如何在Amazon Linux上安装Node.JS》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -68,9 +68,7 @@ topic: Node.js
 <code>rm -r node</code>  </li>
 <li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果您在使用任何</font></font><code>sudo npm...</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">命令时</font><font style="vertical-align: inherit;">都遇到麻烦</font><font style="vertical-align: inherit;">-例如</font></font><code>sudo: npm: command not found</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">和/或在没有sudo的情况下安装节点软件包有权限问题，请编辑</font></font><code>sudo nano /etc/sudoers</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">并添加</font></font><code>:/usr/local/bin</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">到该行的末尾，以</font></font><code>Defaults secure_path = /sbin:/bin:/usr/sbin:/usr/bin</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">使其读取</font></font><code>Defaults    secure_path = /sbin:/bin:/usr/sbin:/usr/bin:/usr/local/bin</code></li>
 </ol></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">斯丁前端</span>
@@ -89,9 +87,7 @@ $ yum -y install nodejs<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">您可以在</font></font><a href="https://github.com/nodesource/distributions/tree/master/rpm" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">NodeSource Github页面</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">上查看所有可用版本</font><font style="vertical-align: inherit;">，并根据需要从那里拉出。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">注意：您可能需要</font></font><code>sudo</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">根据环境</font><font style="vertical-align: inherit;">运行使用</font><font style="vertical-align: inherit;">。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">米亚</span>
@@ -110,9 +106,7 @@ $ yum -y install nodejs<font></font>
       warn: no<font></font>
   # ...<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">逆天斯丁</span>
@@ -126,9 +120,7 @@ $ yum -y install nodejs<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">它也适用于AWS Linux实例。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">飞云</span>
@@ -139,9 +131,7 @@ $ yum -y install nodejs<font></font>
 <pre><code>curl -sL https://deb.nodesource.com/setup_10.x | sudo -E bash -<font></font>
 sudo apt-get install -y nodejs<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">十三老丝</span>
@@ -158,9 +148,7 @@ sudo apt-get install -y nodejs<font></font>
 <li><code>sudo yum makecache</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">：重新生成元数据缓存（文档中没有此内容，但是yum一直尝试安装Node.jx 6.x，但未成功，直到我发出了最后两个命令）</font></font></li>
 <li><code>sudo yum install nodejs</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">：安装Node.js 8.x</font></font></li>
 </ol></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">乐米亚</span>
@@ -180,9 +168,7 @@ ln -s /etc/node-v9.0.0-linux-x64/bin/node node<font></font>
 </code></pre>
 
 <p><a href="https://i.stack.imgur.com/uLwoq.jpg" rel="nofollow noreferrer"><img src="https://i.stack.imgur.com/uLwoq.jpg" alt="在此处输入图片说明"></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">猪猪Sam</span>
@@ -206,9 +192,7 @@ yum -y install nodejs<font></font>
 
 <pre><code>yum install gcc-c++ make
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">蛋蛋猿</span>
@@ -220,9 +204,7 @@ curl --silent --location https://rpm.nodesource.com/setup_6.x | bash -
 yum -y install nodejs
 </code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
 适用于RedHat。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">StafanDavaidSam</span>
@@ -258,9 +240,7 @@ sudo yum install nodejs --enablerepo=epel-testing<font></font>
   
   <p><em>Via <a href="http://www.tecmint.com/how-to-enable-epel-repository-for-rhel-centos-6-5/" rel="noreferrer">http://www.tecmint.com/how-to-enable-epel-repository-for-rhel-centos-6-5/</a></em></p>
 </blockquote></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">古一</span>
@@ -281,9 +261,7 @@ sudo yum install nodejs --enablerepo=epel-testing<font></font>
 </ul>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">请参阅</font></font><a href="https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/amazon-linux-ami-basics.html#extras-library" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">附加程序库（Amazon Linux 2）</font></font></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">老丝阿飞</span>
@@ -294,9 +272,7 @@ sudo yum install nodejs --enablerepo=epel-testing<font></font>
 <pre><code>curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.31.0/install.sh | bash<font></font>
 nvm install node<font></font>
 </code></pre></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

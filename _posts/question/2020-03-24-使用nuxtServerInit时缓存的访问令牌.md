@@ -59,7 +59,7 @@ export default function ({ app, store }) {<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">是否有更好的方法来处理此问题并防止访问令牌被缓存？</font><font style="vertical-align: inherit;">或者换句话说，如何防止将</font></font><code>accessToken</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">状态写入全局</font></font><code>__NUXT__</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">变量？</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第3485篇《使用nuxtServerInit时缓存的访问令牌》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第3485篇《使用nuxtServerInit时缓存的访问令牌》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -74,9 +74,7 @@ export default function ({ app, store }) {<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">服务器端已经覆盖了nuxtServerInit。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">客户端可以使用客户端插件来完成，如此处所述：</font><a href="https://github.com/nuxt/nuxt.js/pull/4573#issuecomment-557857101" rel="nofollow noreferrer"><font style="vertical-align: inherit;">https</font></a><font style="vertical-align: inherit;"> : </font></font><a href="https://github.com/nuxt/nuxt.js/pull/4573#issuecomment-557857101" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">//github.com/nuxt/nuxt.js/pull/4573#issuecomment-557857101</font></font></a></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

@@ -22,7 +22,7 @@ topic: JavaScript
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如何将其随机/随机播放？</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第335篇《如何随机化（随机播放）JavaScript数组？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第335篇《如何随机化（随机播放）JavaScript数组？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -41,9 +41,7 @@ topic: JavaScript
    return this;<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Gil启人</span>
@@ -77,9 +75,7 @@ console.log(arr);</code></pre>
 </div>
 </div>
 <p></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">阳光神奇</span>
@@ -132,9 +128,7 @@ console.log(arr);</code></pre>
 </code></pre>
 
 <p>It should work for up to 16 elements with a little theoretical bias (though unnoticeable from a practical point of view); it can be seen as fully usable for 15 elements; with arrays containing less than 14 elements, you can safely consider there will be absolutely no bias.</p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">神乐西里</span>
@@ -147,9 +141,7 @@ console.log(arr);</code></pre>
     return o;<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Eva梅村村</span>
@@ -185,9 +177,7 @@ console.timeEnd("shuffle");</code></pre>
 <p></p>
 
 <p>The problem is, JS can not coop on with big recursions. In this particular case you array size is limited with like 3000~7000 depending on your browser engine and some unknown facts.</p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">GO蛋蛋</span>
@@ -195,9 +185,7 @@ console.timeEnd("shuffle");</code></pre>
           </div>
           <div class="discuss-comment"><pre><code>arr1.sort(() =&gt; Math.random() - 0.5);
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">乐小小猪猪</span>
@@ -217,9 +205,7 @@ console.timeEnd("shuffle");</code></pre>
     return a;<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">卡卡西理查德</span>
@@ -248,9 +234,7 @@ console.log(shuffle(d));</code></pre>
 </div>
 </div>
 <p></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小宇宙神无</span>
@@ -264,9 +248,7 @@ console.log(shuffle(d));</code></pre>
     }(a.splice(Math.floor(Math.random()*a.length),1));<font></font>
 };<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">神无宝儿</span>
@@ -287,9 +269,7 @@ console.log(fruits);</code></pre>
 <p></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">请参考</font></font><a href="https://www.w3schools.com/js/js_array_sort.asp" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">JavaScript排序数组</font></font></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">ItachiGreen</span>
@@ -310,9 +290,7 @@ console.log(fruits);</code></pre>
              .sort().map(function(n){ return n[1] });<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Davaid老丝</span>
@@ -334,9 +312,7 @@ console.log(fruits);</code></pre>
 
 <pre><code>[1, 2, 3, 4, 5, 6, 7].shuffle();
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Jim前端Near</span>
@@ -351,9 +327,7 @@ console.log(fruits);</code></pre>
    return temp;<font></font>
 };<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">村村凯</span>
@@ -378,9 +352,7 @@ alert(arr);<font></font>
 <blockquote>
   <p><code>Math.random() - 0.5</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> 是一个可以为正数或为负数的随机数，因此排序功能会随机对元素进行重新排序。</font></font></p>
 </blockquote></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">卡卡西老丝</span>
@@ -398,9 +370,7 @@ alert(arr);<font></font>
   return d<font></font>
 };<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Pro神无樱</span>
@@ -422,9 +392,7 @@ alert(arr);<font></font>
   return this;<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">古一阳光</span>
@@ -462,9 +430,7 @@ function shuffleArray(array) {<font></font>
     }<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">樱理查德</span>
@@ -476,9 +442,7 @@ function shuffleArray(array) {<font></font>
   return .5 - Math.random();<font></font>
 });<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">泡芙飞云</span>
@@ -520,9 +484,7 @@ console.log(arr);</code></pre>
 <p></p>
 
 <p><font style="vertical-align: inherit;"></font><a href="http://en.wikipedia.org/wiki/Fisher-Yates_shuffle" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">有关使用的算法的</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">更多信息</font><font style="vertical-align: inherit;">。</font></font></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

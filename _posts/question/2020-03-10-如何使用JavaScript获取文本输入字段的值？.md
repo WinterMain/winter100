@@ -31,7 +31,7 @@ topic: JavaScript
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如何从文本字段获取值到JavaScript？</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第463篇《如何使用JavaScript获取文本输入字段的值？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第463篇《如何使用JavaScript获取文本输入字段的值？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -70,9 +70,7 @@ search.getAjax("http://www.myurl.com/search/", function(rsp){<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">您可以将此插件用于许多目的，例如获取表单的值，将值放入表单，表单的验证等等。</font><font style="vertical-align: inherit;">您可以在项目的index.html文件中看到一些代码示例。</font></font></p>
 
 <p>Of course I am the author of this project and all are welcome to make it better.</p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">神乐神乐</span>
@@ -86,9 +84,7 @@ search.getAjax("http://www.myurl.com/search/", function(rsp){<font></font>
         }<font></font>
     &lt;/script&gt;<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">A小卤蛋Pro</span>
@@ -110,9 +106,7 @@ search.getAjax("http://www.myurl.com/search/", function(rsp){<font></font>
 </div>
 </div>
 <p></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">神奇Tony古一</span>
@@ -126,9 +120,7 @@ var url = "http://www.myurl.com/search/" + text;<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">资料来源：</font></font><a href="https://www.w3schools.com/jsref/coll_form_elements.asp" rel="nofollow noreferrer" title="w3schools"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">w3schools</font></font></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">YOC38880545</span>
@@ -152,9 +144,7 @@ function keyup(e) {<font></font>
 </code></pre>
 
 <p><a href="http://codepen.io/maudulus/pen/yVEOJL" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">参见Codepen中的此功能。</font></font></a> </p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Davaid阳光小卤蛋</span>
@@ -162,9 +152,7 @@ function keyup(e) {<font></font>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">同样，您也可以按标签名称进行调用，如下所示：</font></font><code>form_name.input_name.value;</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
 这样，您将以特定的形式获得确定的输入的特定值。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">逆天Eva</span>
@@ -185,9 +173,7 @@ function searchURL() {<font></font>
 <p></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我敢肯定，有更好的方法可以做到这一点，但是这种方法似乎可以在所有浏览器上正常工作，并且它对JavaScript的理解，编写，改进和编辑都需要极少的了解。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">理查德十三Davaid</span>
@@ -202,9 +188,7 @@ function trackChange(value) {<font></font>
 }<font></font>
 &lt;/script&gt;<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Jim樱</span>
@@ -218,9 +202,7 @@ function trackChange(value) {<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">然后，我将使用变量将输入值添加到字符串中。</font></font></p>
 
 <p><code>= "Your string" + input;</code></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

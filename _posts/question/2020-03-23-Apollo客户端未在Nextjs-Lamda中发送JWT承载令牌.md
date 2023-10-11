@@ -234,7 +234,7 @@ SetEnvIf Authorization "(.*)" HTTP_AUTHORIZATION=$1<font></font>
 </code></pre></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第3039篇《Apollo客户端未在Nextjs Lamda中发送JWT承载令牌》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第3039篇《Apollo客户端未在Nextjs Lamda中发送JWT承载令牌》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -255,9 +255,7 @@ SetEnvIf Authorization "(.*)" HTTP_AUTHORIZATION=$1<font></font>
   return forward(operation);<font></font>
 });<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">宝儿</span>
@@ -267,9 +265,7 @@ SetEnvIf Authorization "(.*)" HTTP_AUTHORIZATION=$1<font></font>
 
 <pre><code>SetEnvIf Authorization "(.*)" HTTP_AUTHORIZATION=$1
 </code></pre></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

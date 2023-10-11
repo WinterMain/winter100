@@ -52,7 +52,7 @@ switch (testClass) {<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">...不再存在完全匹配的内容，因此我得到的默认输出为none（</font></font><code>""</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">）。</font><font style="vertical-align: inherit;">但我还是想输出为</font></font><code>I have class1</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，因为</font></font><code>&lt;div&gt;</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">还</font></font><em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">包含</font></font></em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">了</font></font><code>.class1</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">类。</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第1031篇《检查元素是否包含JavaScript中的类？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第1031篇《检查元素是否包含JavaScript中的类？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -69,9 +69,7 @@ switch (testClass) {<font></font>
 else              <font></font>
     alert("Negative");<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">null</span>
@@ -85,9 +83,7 @@ else              <font></font>
     return (' ' + element.className + ' ').indexOf(' ' + cls + ' ') &gt; -1;<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">飞云古一</span>
@@ -96,18 +92,14 @@ else              <font></font>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我将使用Poly填充classList功能并使用新语法。</font><font style="vertical-align: inherit;">这样，较新的浏览器将使用新的实现（速度要快得多），只有旧的浏览器才能从代码中获得性能上的优势。</font></font></p>
 
 <p><a href="https://github.com/remy/polyfills/blob/master/classList.js" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">https://github.com/remy/polyfills/blob/master/classList.js</font></font></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">古一番长小小</span>
             <span class="discuss-time">2020.03.12</span>
           </div>
           <div class="discuss-comment"><p><code>className</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">只是一个字符串，因此您可以使用常规的</font></font><a href="http://www.quirksmode.org/js/strings.html#indexof" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">indexOf</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">函数查看类列表是否包含另一个字符串。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">泡芙理查德</span>
@@ -125,9 +117,7 @@ else              <font></font>
     return false;<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">老丝猪猪小卤蛋</span>
@@ -143,9 +133,7 @@ else              <font></font>
 </code></pre>
 
 <p><sup><b><font style="vertical-align: inherit;"></font></b></sup> <code>indexOf</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">IE（当然）不支持数组</font><sup><b><font style="vertical-align: inherit;"> 1</font></b></sup><font style="vertical-align: inherit;">。</font><font style="vertical-align: inherit;">在网上可以找到很多猴子补丁。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Jim老丝梅</span>
@@ -166,9 +154,7 @@ for(var i=0; i&lt;testClasses.length; i++) {<font></font>
     }<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Gil宝儿</span>
@@ -178,9 +164,7 @@ for(var i=0; i&lt;testClasses.length; i++) {<font></font>
 
 <pre><code>test.classList.contains(testClass);
 </code></pre></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

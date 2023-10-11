@@ -119,7 +119,7 @@ console.log(mym.demoTool(3,4));</code></pre>
 <p></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第3651篇《Webpack无法解析TypeScript模块》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第3651篇《Webpack无法解析TypeScript模块》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -132,9 +132,7 @@ console.log(mym.demoTool(3,4));</code></pre>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我使用的是tsconfig而不是webpack，它还将子模块编译为捆绑包（index.js）。 </font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">对我来说，问题是我在</font></font><code>tsc</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">从外部引用</font><font style="vertical-align: inherit;">子模块之前忘记编译子模块（即运行</font><font style="vertical-align: inherit;">生成index.js）。</font></font></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

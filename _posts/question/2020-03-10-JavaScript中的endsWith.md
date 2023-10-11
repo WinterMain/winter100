@@ -31,7 +31,7 @@ topic: JavaScript
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这是最好的方法还是还有其他方法？</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第381篇《JavaScript中的endsWith》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第381篇《JavaScript中的endsWith》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -46,9 +46,7 @@ topic: JavaScript
 <pre><code>String::endsWith = (suffix) -&gt;<font></font>
   -1 != @indexOf suffix, @length - suffix.length<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小宇宙米亚猿</span>
@@ -57,9 +55,7 @@ topic: JavaScript
           <div class="discuss-comment"><p>all of them are very useful examples. Adding <code>String.prototype.endsWith = function(str)</code> will help us to simply call the method to check if our string ends with it or not, well regexp will also do it.</p>
 
 <p>I found a better solution than mine. Thanks every one.</p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">古一番长小小</span>
@@ -69,9 +65,7 @@ topic: JavaScript
 Be careful adding a function to String.prototype. This code has nice examples of how to do it: <a href="https://github.com/danielnuriyev/groundjs/blob/master/prototype.js" rel="nofollow">groundjs/prototype.js</a>
 In general, this is a nice language-level library: <a href="https://github.com/danielnuriyev/groundjs/blob/master/ground.js" rel="nofollow">groundjs</a>
 You can also take a look at lodash</p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">斯丁宝儿</span>
@@ -123,9 +117,7 @@ You can also take a look at lodash</p></div>
 <li>Greatest performance on long strings. Here is a speed test <a href="http://jsperf.com/starts-ends-with/4" rel="nofollow">http://jsperf.com/starts-ends-with/4</a></li>
 <li>Fully compatible with ecmascript specification. It passes the <a href="https://github.com/monolithed/ECMAScript-6/blob/master/tests/String.js" rel="nofollow">tests</a></li>
 </ul></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">ItachiTom</span>
@@ -137,9 +129,7 @@ String.prototype.endsWith = function (str) {
   return this.length &gt;= str.length &amp;&amp; this.substr(this.length - str.length) == str;
 }
 </code></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">ItachiTom</span>
@@ -150,9 +140,7 @@ String.prototype.endsWith = function (str) {
 <p>String.prototype.endsWith = function (str) {
   return this.length &gt;= str.length &amp;&amp; this.substr(this.length - str.length) == str;
 }</p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">凯卡卡西</span>
@@ -164,9 +152,7 @@ String.prototype.endsWith = function (str) {
   return str.substr(-target.length) == target;<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">米亚十三Harry</span>
@@ -188,9 +174,7 @@ var str = "Hello";<font></font>
 alert(str.endWith("lo"));<font></font>
 alert(str.endWith(/l(o|a)/));<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">年轻不拽世界怎么精彩</span>
@@ -211,9 +195,7 @@ alert(str.endWith(/l(o|a)/));<font></font>
     return false;<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">GilGreen</span>
@@ -225,9 +207,7 @@ alert(str.endWith(/l(o|a)/));<font></font>
     return (lastIndex != -1) &amp;&amp; (lastIndex  == (str.length - 1));<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小小逆天</span>
@@ -239,9 +219,7 @@ alert(str.endWith(/l(o|a)/));<font></font>
 // "Hello World!".endsWith("World!")<font></font>
 "Hello World!".match("World!$") != null<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小宇宙古一</span>
@@ -281,9 +259,7 @@ function strEndsWith(str, suffix) {<font></font>
     return str.match(suffix+"$")==suffix;<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Davaid阳光小卤蛋</span>
@@ -327,9 +303,7 @@ alert( str.endsWith("to be", 19) );  // true<font></font>
 <h2><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">浏览器兼容性</font></font></h2>
 
 <p><a href="https://i.stack.imgur.com/THZsd.jpg" rel="noreferrer"><img src="https://i.stack.imgur.com/THZsd.jpg" alt="浏览器兼容性"></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小胖GO</span>
@@ -341,9 +315,7 @@ alert( str.endsWith("to be", 19) );  // true<font></font>
     return str.slice(-suffix.length) === suffix<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">神乐神无</span>
@@ -361,9 +333,7 @@ alert( str.endsWith("to be", 19) );  // true<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果性能对您很重要，那么值得测试一下是否</font></font><code>lastIndexOf</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">实际上比创建子字符串更快。</font><font style="vertical-align: inherit;">（这可能取决于您使用的JS引擎...）在匹配的情况下，它可能会更快，并且当字符串很小时-但是当字符串很大时，甚至需要回顾整个过程虽然我们并不在乎:(</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">对于检查单个字符，找到长度然后使用</font></font><code>charAt</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">可能是最好的方法。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Davaid米亚</span>
@@ -373,9 +343,7 @@ alert( str.endsWith("to be", 19) );  // true<font></font>
 <li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">不幸的是没有。</font></font></li>
 <li><code>if( "mystring#".substr(-1) === "#" ) {}</code></li>
 </ol></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">村村阿飞</span>
@@ -389,9 +357,7 @@ alert( str.endsWith("to be", 19) );  // true<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"></font><code>lastIndexOf</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果不匹配，</font><font style="vertical-align: inherit;">使用</font><font style="vertical-align: inherit;">只会创建不必要的CPU循环。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">乐米亚</span>
@@ -408,9 +374,7 @@ alert( str.endsWith("to be", 19) );  // true<font></font>
 
 <pre><code>return this.length &gt;= str.length &amp;&amp; this.lastIndexOf(str) + str.length == this.length
 </code></pre></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

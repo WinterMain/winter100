@@ -25,7 +25,7 @@ for line in html:<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">当在HTML文件中打印一行时，我试图找到一种仅显示每个HTML元素的内容而不显示格式本身的方法。</font><font style="vertical-align: inherit;">如果找到</font></font><code>'&lt;a href="whatever.com"&gt;some text&lt;/a&gt;'</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，它将仅打印“某些文本”，</font></font><code>'&lt;b&gt;hello&lt;/b&gt;'</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">打印“ hello”，等等。如何去做呢？</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第3884篇《在Python中从字符串中剥离HTML》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第3884篇《在Python中从字符串中剥离HTML》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -66,9 +66,7 @@ def html2Text(html):<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">它对我来说效果很好，但是可以增强，当然...</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Mandy</span>
@@ -100,9 +98,7 @@ def strip_tags(html):<font></font>
     s.feed(html)<font></font>
     return s.get_data()<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">卡卡西Near</span>
@@ -117,9 +113,7 @@ def strip_tags(html):<font></font>
     parser.feed（文本）                                                               </font></font><font></font><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
     返回''.join（parts）</font></font><font></font>
 </pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">梅</span>
@@ -139,9 +133,7 @@ def strip_tags(html):<font></font>
                  finished = 0<font></font>
      return text<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">卡卡西Near</span>
@@ -169,18 +161,14 @@ def strip_tags(html):<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">...，它将适用于Python 3.2.3。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">再次感谢Thomas K的修复以及上面提供的Eloff原始代码！</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Gil伽罗小宇宙</span>
             <span class="discuss-time">2020.04.03</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">您可以使用其他HTML解析器（</font></font><a href="http://codespeak.net/lxml/" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如lxml</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">或</font></font><a href="http://www.crummy.com/software/BeautifulSoup/" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Beautiful Soup</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">），该</font><font style="vertical-align: inherit;">解析器</font><font style="vertical-align: inherit;">提供仅提取文本的功能。</font><font style="vertical-align: inherit;">或者，您可以在行字符串上运行正则表达式以去除标记。</font><font style="vertical-align: inherit;">有关</font><font style="vertical-align: inherit;">更多信息，</font><font style="vertical-align: inherit;">请参见</font></font><a href="http://docs.python.org/howto/regex" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Python文档</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">LGil</span>
@@ -203,9 +191,7 @@ def html_to_txt(html_text):<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">不知道它是否完美，但是解决了我的用例，看起来很简单。 </font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Mandy</span>
@@ -219,9 +205,7 @@ soup = BeautifulSoup(html)<font></font>
 text = soup.get_text()<font></font>
 print(text)<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">西门JinJin</span>
@@ -239,9 +223,7 @@ def stripHtmlTags(htmlTxt):<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我尝试了接受的答案的代码，但得到的是“ RuntimeError：超出最大递归深度”，上述代码块未发生这种情况。</font></font></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

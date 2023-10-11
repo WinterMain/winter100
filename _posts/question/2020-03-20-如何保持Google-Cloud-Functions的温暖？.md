@@ -25,7 +25,7 @@ topic: React.js
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">另一种方法是一起避免冷启动。</font><font style="vertical-align: inherit;">从本质上讲，我可以（仅一个）保持云功能的温暖，这是什么好方法呢？</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第2537篇《如何保持Google Cloud Functions的温暖？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第2537篇《如何保持Google Cloud Functions的温暖？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -40,18 +40,14 @@ topic: React.js
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">正如您所发现的，有许多方法可以使冷启动成本降至最低，但无法消除这些成本。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果您绝对要求热服务器处理24/7的请求，则需要管理自己的运行24/7的服务器（并支付运行24/7的服务器的费用）。</font><font style="vertical-align: inherit;">如您所见，无服务器的好处是您无需管理或扩展自己的服务器，而只为使用的服务器付费，但是与项目相关的冷启动成本却不可预测。</font><font style="vertical-align: inherit;">这就是权衡。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">古一斯丁猴子</span>
             <span class="discuss-time">2020.03.20</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">您可以按照以下说明通过cron作业触发它：</font><a href="https://cloud.google.com/scheduler/docs/creating" rel="nofollow noreferrer"><font style="vertical-align: inherit;">https</font></a><font style="vertical-align: inherit;"> : </font></font><a href="https://cloud.google.com/scheduler/docs/creating" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">//cloud.google.com/scheduler/docs/creating</font></font></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Stafan路易</span>
@@ -64,9 +60,7 @@ topic: React.js
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">从您的问题尚不清楚，但我认为您的Function提供了HTTP端点。</font><font style="vertical-align: inherit;">在这种情况下，找到可配置为每x秒|分钟进行一次HTTP调用的运行状况检查或cron服务，并将其指向您的Function。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">您可能需要花些时间去寻找Goldilocks时期-并不是经常浪费您的精力，也不太可能是因为它死了-但这就是其他人所做的。</font></font></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

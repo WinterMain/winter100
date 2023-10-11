@@ -22,7 +22,7 @@ topic: JavaScript
 </code></pre></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第1154篇《如何检查JavaScript是否在某个数组索引处存在值？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第1154篇《如何检查JavaScript是否在某个数组索引处存在值？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -47,9 +47,7 @@ topic: JavaScript
      //the index is not defined or the value an empty value<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">神乐Harry</span>
@@ -67,9 +65,7 @@ topic: JavaScript
 </code></pre>
 
 <p>An object does not have a length property.</p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">神奇飞云</span>
@@ -79,9 +75,7 @@ topic: JavaScript
 
 <pre><code>if (array[index] != null) 
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">MandyJinJin路易</span>
@@ -104,9 +98,7 @@ console.log(arr[3])   // undefined<font></font>
   // member does not exist<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">凯老丝</span>
@@ -116,9 +108,7 @@ console.log(arr[3])   // undefined<font></font>
     //arrayName[index] has a value<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">米亚GO</span>
@@ -128,9 +118,7 @@ console.log(arr[3])   // undefined<font></font>
      // do stuff<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">路易GO</span>
@@ -149,9 +137,7 @@ console.log(arr[3])   // undefined<font></font>
 
 <pre><code>Object.keys(__array__).length
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小哥GOItachi</span>
@@ -166,9 +152,7 @@ console.log(arr[3])   // undefined<font></font>
    //this array is empty<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

@@ -49,7 +49,7 @@ ReactRouter.run(routes, function (Handler) {<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">用React Router做到这一点最简单，正确的方法是什么？</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第439篇《react-router-将道具传递给处理程序组件》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第439篇《react-router-将道具传递给处理程序组件》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -85,9 +85,7 @@ ReactRouter.run(routes, function (Handler) {<font></font>
   /&gt;<font></font>
 &lt;/Route&gt;<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小卤蛋樱</span>
@@ -105,9 +103,7 @@ ReactRouter.run(routes, function (Handler) {<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">确保第三个参数是类似的对象</font></font><code>{ checked: false }</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小小逆天</span>
@@ -122,9 +118,7 @@ ReactRouter.run(routes, function (Handler) {<font></font>
 </code></pre>
 
 <p><code>MyComponent</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">仍然有</font></font><code>props.match</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">和</font></font><code>props.location</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，并且有</font></font><code>props.foo === "lol"</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">你的名字</span>
@@ -141,9 +135,7 @@ ReactRouter.run(routes, function (Handler) {<font></font>
     ...<font></font>
 &lt;/Router&gt;<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">梅飞云</span>
@@ -163,9 +155,7 @@ ReactRouter.run(routes, function (Handler) {<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">（摘自</font></font><a href="https://github.com/rackt/react-router/releases/tag/v1.0.0"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">https://github.com/rackt/react-router/releases/tag/v1.0.0</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">的升级指南</font><font style="vertical-align: inherit;">）</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">所有子处理程序都将收到相同的道具集-视情况而定是否有用。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">番长阳光</span>
@@ -178,9 +168,7 @@ ReactRouter.run(routes, function (Handler) {<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果您需要让孩子通过：</font></font></p>
 
 <p><code>&lt;Route path="/" component={(props) =&gt; &lt;App myProp={someValue}&gt;{props.children}&lt;/App&gt;} &gt;</code></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">GO西门</span>
@@ -194,9 +182,7 @@ ReactRouter.run(routes, function (Handler) {<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">请注意，我使用</font></font><code>render</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">代替</font></font><code>component</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font><font style="vertical-align: inherit;">原因是为了避免</font></font><a href="https://reacttraining.com/react-router/web/api/Route/component" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">不必要的重新安装</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font><font style="vertical-align: inherit;">我也将传递</font></font><code>props</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">给该方法，并且在Comment组件上使用与对象散布运算符相同的道具（ES7提案）。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">达蒙猿</span>
@@ -208,9 +194,7 @@ ReactRouter.run(routes, function (Handler) {<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我认为这是最优雅的解决方案。</font><font style="vertical-align: inherit;">有用。</font><font style="vertical-align: inherit;">帮助过我。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Winter</span>
@@ -236,9 +220,7 @@ var routes = (<font></font>
   &lt;Route path="/" foo="bar" component={Index}/&gt;<font></font>
 );<font></font>
 </code></pre></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

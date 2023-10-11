@@ -25,7 +25,7 @@ topic: CSS
 <h2><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如何在不使用JS-SVG框架的情况下在SVG中嵌入SVG并更改其颜色？</font></font></strong></h2></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第2195篇《如何使用CSS更改SVG图像的颜色（jQuery SVG图像替换）？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第2195篇《如何使用CSS更改SVG图像的颜色（jQuery SVG图像替换）？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -36,9 +36,7 @@ topic: CSS
             <span class="discuss-time">2020.03.18</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果这是静态更改，请在Adobe Illustrator（或任何合适的SVG编辑器）中打开SVG文件，然后更改颜色并保存。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">米亚卡卡西</span>
@@ -59,9 +57,7 @@ topic: CSS
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">更好的是，您可以使用一种工具将所需的十六进制转换为过滤器：</font><a href="https://codepen.io/sosuke/pen/Pjoqqp" rel="nofollow noreferrer"><font style="vertical-align: inherit;">https</font></a><font style="vertical-align: inherit;"> :   </font></font><a href="https://codepen.io/sosuke/pen/Pjoqqp" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">//codepen.io/sosuke/pen/Pjoqqp</font></font></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">TomJim前端</span>
@@ -105,9 +101,7 @@ $content    = file_get_contents($pathToSVG);<font></font>
 </ol>
 
 <p><a href="https://i.stack.imgur.com/bcnwH.jpg" rel="nofollow noreferrer"><img src="https://i.stack.imgur.com/bcnwH.jpg" alt="在此处输入图片说明"></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">达蒙Gil</span>
@@ -134,9 +128,7 @@ $content    = file_get_contents($pathToSVG);<font></font>
     fill: red; // whichever color you want<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">泡芙达蒙</span>
@@ -169,9 +161,7 @@ $content    = file_get_contents($pathToSVG);<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">SVGInject是纯Javascript，可与所有支持SVG的浏览器一起使用。</font></font></p>
 
 <p><em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">免责声明：我是SVGInject的合著者</font></font></em></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">伽罗卡卡西猴子</span>
@@ -187,9 +177,7 @@ $content    = file_get_contents($pathToSVG);<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">它可以节省大量的丑陋脚本。</font><font style="vertical-align: inherit;">很抱歉，如果它不在基地，但是有时简单的解决方案可能会被忽略。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">...即使交换多个svg图片，其大小也可能小于此问题的某些代码段。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">西门Davaid</span>
@@ -207,9 +195,7 @@ $content    = file_get_contents($pathToSVG);<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">请注意，该</font></font><code>!important</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">位是覆盖填充颜色所必需的。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Jim理查德</span>
@@ -222,9 +208,7 @@ $content    = file_get_contents($pathToSVG);<font></font>
     -webkit-mask: url(image.svg) center / contain no-repeat;<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Davaid乐宝儿</span>
@@ -286,9 +270,7 @@ $content    = file_get_contents($pathToSVG);<font></font>
 </div>
 </div>
 <p></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

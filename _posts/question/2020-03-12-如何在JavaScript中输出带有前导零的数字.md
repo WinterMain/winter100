@@ -36,7 +36,7 @@ topic: JavaScript
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我可以用math.round舍入到小数位数的x位数，但是有没有办法舍入到小数点的左边？</font><font style="vertical-align: inherit;">例如，如果我指定2个位置，则5变为05</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第1243篇《如何在JavaScript中输出带有前导零的数字》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第1243篇《如何在JavaScript中输出带有前导零的数字》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -63,9 +63,7 @@ topic: JavaScript
   ).slice(-b) // cut leading "1"<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Tony伽罗米亚</span>
@@ -86,9 +84,7 @@ topic: JavaScript
 <font></font>
 (7).pad(3);  //returns "007"<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">梅小宇宙</span>
@@ -96,9 +92,7 @@ topic: JavaScript
           </div>
           <div class="discuss-comment"><pre><code>function zfill(num, len) {return (Array(len).join("0") + num).slice(-len);}
 </code></pre></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

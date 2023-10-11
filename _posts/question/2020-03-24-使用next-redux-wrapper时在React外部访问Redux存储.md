@@ -51,7 +51,7 @@ export default (<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">有没有一种方法可以从非React helper功能模块直接访问商店？</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第3213篇《使用next-redux-wrapper时在React外部访问Redux存储》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第3213篇《使用next-redux-wrapper时在React外部访问Redux存储》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -62,9 +62,7 @@ export default (<font></font>
             <span class="discuss-time">2020.03.24</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">您可以在任何需要的地方导入商店模块，并直接访问商店功能，例如</font></font><code>store.getState()</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font><font style="vertical-align: inherit;">但是，您需要订阅存储，以便在状态发生任何变化时得到通知。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">泡芙</span>
@@ -99,9 +97,7 @@ export default (<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">您可以使用高阶函数使其适合您（例如，将存储作为第一个参数传递，依此类推）。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">您也可以查看一下</font></font><code>useDispatch</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">并</font></font><code>useSelector</code> <a href="https://react-redux.js.org/next/api/hooks" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">从react-redux上钩</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font><font style="vertical-align: inherit;">它们还应具有任何功能。</font></font></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

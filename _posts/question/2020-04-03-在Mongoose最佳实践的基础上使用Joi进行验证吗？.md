@@ -84,7 +84,7 @@ topic: KoaJS
 <p>Thanks!</p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第3956篇《在Mongoose最佳实践的基础上使用Joi进行验证吗？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第3956篇《在Mongoose最佳实践的基础上使用Joi进行验证吗？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -95,9 +95,7 @@ topic: KoaJS
             <span class="discuss-time">2020.04.03</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">即使您具有猫鼬模式，实现验证服务也是一种常见的做法。</font><font style="vertical-align: inherit;">正如您自己所说，在对数据执行任何登录之前，它将返回验证错误。</font><font style="vertical-align: inherit;">因此，在这种情况下，肯定会节省一些时间。</font><font style="vertical-align: inherit;">而且，您可以通过joi获得更好的验证控制。</font><font style="vertical-align: inherit;">但是，它也很大程度上取决于您的要求，因为它会增加您必须编写的额外代码，可以避免这些代码，而不会对最终结果造成太大影响。</font></font></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

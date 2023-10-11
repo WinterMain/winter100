@@ -56,7 +56,7 @@ answer: 1
 		</section><p><br></p></section></section></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第122篇《应用接入，给你的网站添加评论互动功能，Add SamYoc to your site》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第122篇《应用接入，给你的网站添加评论互动功能，Add SamYoc to your site》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -67,9 +67,7 @@ answer: 1
             <span class="discuss-time">2019.08.15</span>
           </div>
           <div class="discuss-comment"><p>使用案例：http://www.yanglidong.com</p><figure class="image"><img src="https://www.samyoc.com/uploads/users/98/images/1565861406531.png"></figure></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

@@ -30,7 +30,7 @@ topic: JavaScript
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">有没有更简单或更优雅的方法？</font><font style="vertical-align: inherit;">如果它也可以与浮点数一起使用，那就太好了，但这不是必需的。</font><font style="vertical-align: inherit;">在句点和逗号之间进行决策不需要特定于区域设置。</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第231篇《如何在JavaScript中以逗号将数字打印为千位分隔符》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第231篇《如何在JavaScript中以逗号将数字打印为千位分隔符》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -182,9 +182,7 @@ demo(0.0123456789);</code></pre>
 <ul>
 <li><a href="https://caniuse.com/#feat=js-regexp-lookbehind" rel="nofollow noreferrer">https://caniuse.com/#feat=js-regexp-lookbehind</a></li>
 </ul></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">蛋蛋伽罗猿</span>
@@ -204,9 +202,7 @@ accounting.formatMoney(-500000, "£ ", 0); // £ -500,000<font></font>
 // Simple `format` string allows control of symbol position [%v = value, %s = symbol]:<font></font>
 accounting.formatMoney(5318008, { symbol: "GBP",  format: "%v %s" }); // 5,318,008.00 GBP<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">JinJin米亚</span>
@@ -220,9 +216,7 @@ accounting.formatMoney(5318008, { symbol: "GBP",  format: "%v %s" }); // 5,318,0
 </code></pre>
 
 <p>I checked it on a few numbers and it worked.</p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">梅Harry</span>
@@ -235,9 +229,7 @@ accounting.formatMoney(5318008, { symbol: "GBP",  format: "%v %s" }); // 5,318,0
     return parts[0].replace(/\B(?=(\d{3})+(?!\d))/g, ",") + (parts[1] ? "." + parts[1] : "");<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">十三Harry神无</span>
@@ -251,9 +243,7 @@ print(formatNumber(2665));      // 2,665<font></font>
 print(formatNumber(102665));    // 102,665<font></font>
 print(formatNumber(111102665)); // 111,102,665<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">西里阳光</span>
@@ -285,9 +275,7 @@ nf.format(number); // "1,234,567,890"<font></font>
 <hr>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">根据我的检查（至少是Firefox），它们在性能上或多或少都相同。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Near小哥神奇</span>
@@ -305,9 +293,7 @@ n.toLocaleString()<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">请注意，此函数返回的是字符串，而不是数字。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果您想要不同的东西，</font></font><a href="http://numeraljs.com/" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Numeral.js</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">可能会很有趣。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">路易番长</span>
@@ -463,9 +449,7 @@ if (failures) {<font></font>
 <p></p>
 
 <p><code>(?&lt;!\.\d*)</code><font style="vertical-align: inherit;"></font><code>.</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">后面</font><font style="vertical-align: inherit;">有一个否定性的含义，表示匹配之前不能</font><font style="vertical-align: inherit;">有零个或多个数字。</font><font style="vertical-align: inherit;">至少在V8中，</font><font style="vertical-align: inherit;">负向后看比</font></font><code>split</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">和</font></font><code>join</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">解决方案（</font></font><a href="http://jsben.ch/umq99" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">比较</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">）</font><font style="vertical-align: inherit;">快</font><font style="vertical-align: inherit;">。</font></font></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

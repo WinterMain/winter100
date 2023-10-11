@@ -23,7 +23,7 @@ topic: React.js
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我看到了</font></font><code>Navigation</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">mixin，但是没有mixin可以做到吗？</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第307篇《使用React Router以编程方式导航》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第307篇《使用React Router以编程方式导航》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -112,9 +112,7 @@ function Dashboard() {<font></font>
   );<font></font>
 }```<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">HarryGil</span>
@@ -131,9 +129,7 @@ function Dashboard() {<font></font>
   onClick={() =&gt; { this.props.history.goBack() }} <font></font>
 /&gt;<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">梅小哥</span>
@@ -157,9 +153,7 @@ function HomeButton() {<font></font>
 <blockquote>
   <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">注意：添加了挂钩</font></font><a href="https://github.com/ReactTraining/react-router/releases/tag/v5.1.0" rel="nofollow noreferrer"><code>react-router@5.1.0</code></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">并要求</font></font><code>react@&gt;=16.8</code></p>
 </blockquote></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">神乐Green</span>
@@ -173,9 +167,7 @@ function HomeButton() {<font></font>
 </code></pre>
 
 <p><a href="https://www.npmjs.com/package/trippler" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">特里普勒</font></font></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Tom小宇宙</span>
@@ -254,9 +246,7 @@ export class Navigator2 extends Component&lt;INavigatorProps, {}&gt; {<font></fo
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">无论今天安装了什么npm。</font><font style="vertical-align: inherit;">“反应路由器”：“ ^ 3.0.0”和</font></font><br><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
 “ @ types /反应路由器”：“ ^ 2.0.41”</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">西门老丝Pro</span>
@@ -279,9 +269,7 @@ export class Navigator2 extends Component&lt;INavigatorProps, {}&gt; {<font></fo
 <blockquote>
   <p><a href="https://reacttraining.com/react-router/core/api/withRouter" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">与路由器</font></font></a> </p>
 </blockquote></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">JinJin小卤蛋</span>
@@ -312,9 +300,7 @@ export class Navigator2 extends Component&lt;INavigatorProps, {}&gt; {<font></fo
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">带有上下文的陷阱是，除非您</font></font><code>contextTypes</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在类上</font><font style="vertical-align: inherit;">定义，否则无法访问</font><font style="vertical-align: inherit;">。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">至于什么是上下文，它是一个像道具一样的对象，它从父级传递到子级，但是隐式地传递下来，而不必每次都重新声明道具。</font><font style="vertical-align: inherit;">参见</font></font><a href="https://www.tildedave.com/2014/11/15/introduction-to-contexts-in-react-js.html" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">https://www.tildedave.com/2014/11/15/introduction-to-contexts-in-react-js.html</font></font></a></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

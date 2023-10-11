@@ -47,7 +47,7 @@ Vue.use(VueRouter)<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如何解决？</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第1888篇《在vue js cli中未定义axios》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第1888篇《在vue js cli中未定义axios》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -61,9 +61,7 @@ Vue.use(VueRouter)<font></font>
 
 <pre><code>import {AxiosInstance as axios} from "axios";
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">乐米亚</span>
@@ -77,9 +75,7 @@ Vue.use(VueRouter)<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">然后您可以</font></font><code>axios</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">使用</font></font><code>this.$axios</code></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

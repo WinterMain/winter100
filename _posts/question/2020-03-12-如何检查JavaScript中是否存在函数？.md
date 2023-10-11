@@ -42,7 +42,7 @@ function js_to_as( str ){<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">（下面的任何一种方法都不能尝试抓到一件作品）</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第1158篇《如何检查JavaScript中是否存在函数？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第1158篇《如何检查JavaScript中是否存在函数？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -58,9 +58,7 @@ function js_to_as( str ){<font></font>
 </code></pre>
 
 <p>Thus the error <code>TypeError: me.onChange is not a function</code> is prevent.</p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">null</span>
@@ -70,9 +68,7 @@ function js_to_as( str ){<font></font>
 
 <pre><code>( document.exitPointerLock || Function )();
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">LEYPro前端</span>
@@ -120,9 +116,7 @@ false<font></font>
 </div>
 </div>
 <p></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小哥GOItachi</span>
@@ -146,9 +140,7 @@ false<font></font>
       console.log("function not defined");/*the function is not defined or does not exists*/<font></font>
     }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小宇宙神无</span>
@@ -158,9 +150,7 @@ false<font></font>
 
 <p><code>const func =  me.onChange || (str =&gt; {});
 func(str)</code>;</p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">神奇西里</span>
@@ -173,9 +163,7 @@ func(str)</code>;</p></div>
 !!window.abc; // return true<font></font>
 !!window.abcd; // return false<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">米亚小小神乐</span>
@@ -197,9 +185,7 @@ function js_to_as( str ){<font></font>
      me.onChange(str);<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Gil伽罗</span>
@@ -211,9 +197,7 @@ function js_to_as( str ){<font></font>
 </code></pre>
 
 <p>just place it before any code that uses this function</p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">米亚伽罗L</span>
@@ -245,9 +229,7 @@ function js_to_as( str ){<font></font>
 </div>
 </div>
 <p></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Gil伽罗</span>
@@ -259,9 +241,7 @@ function js_to_as( str ){<font></font>
     functionName();<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">飞云Pro</span>
@@ -272,9 +252,7 @@ function js_to_as( str ){<font></font>
          me.onChange(str);<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">神乐小宇宙Gil</span>
@@ -290,9 +268,7 @@ function js_to_as( str ){<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">万一我也是异步的。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">启人小次郎</span>
@@ -311,9 +287,7 @@ function js_to_as( str ){<font></font>
     // safe to use the function<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

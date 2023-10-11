@@ -17,7 +17,7 @@ topic: React.js
     <div class="article-content"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在Apollo React文档</font></font><a href="http://dev.apollodata.com/react/queries.html#basics"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">http://dev.apollodata.com/react/queries.html#basics中，</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">有显示组件显示时自动获取的示例，但是我想在单击按钮时运行查询。</font><font style="vertical-align: inherit;">我看到一个在单击按钮时“重新”获取查询的示例，但我不希望它最初进行查询。</font><font style="vertical-align: inherit;">我看到有一种方法可以调用变异，但是您如何调用查询？</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第2396篇《Apollo GraphQL React-如何点击查询》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第2396篇《Apollo GraphQL React-如何点击查询》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -76,9 +76,7 @@ withApollo(MyComponent)<font></font>
   ...<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Gil蛋蛋Tony</span>
@@ -103,9 +101,7 @@ withApollo(MyComponent);<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">出于好奇，对单击事件运行查询的目的是什么？</font><font style="vertical-align: inherit;">也许有更好的方法可以实现基本目标。</font></font></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

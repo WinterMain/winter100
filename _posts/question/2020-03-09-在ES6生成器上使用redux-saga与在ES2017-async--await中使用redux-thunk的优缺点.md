@@ -91,7 +91,7 @@ export const loadUserData = (uid) =&gt; async (dispatch) =&gt; {<font></font>
 </code></pre></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第355篇《在ES6生成器上使用redux-saga与在ES2017 async / await中使用redux-thunk的优缺点》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第355篇《在ES6生成器上使用redux-saga与在ES2017 async / await中使用redux-thunk的优缺点》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -119,9 +119,7 @@ export const loadUserData = (uid) =&gt; async (dispatch) =&gt; {<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这个想法是将每个</font></font><a href="https://github.com/codemeasandwich/redux-auto#action-files" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">动作都放在一个特定的文件中</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font><font style="vertical-align: inherit;">将服务器调用与reducer函数一起定位在文件中，以“挂起”，“完成”和“拒绝”。</font><font style="vertical-align: inherit;">这使得兑现承诺非常容易。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">它还会自动将</font></font><a href="https://github.com/codemeasandwich/redux-auto#handling-async-actions-in-your-ui" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">助手对象（称为“异步”）</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">附加</font><font style="vertical-align: inherit;">到状态原型，从而使您可以在UI中跟踪请求的转换。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">西里阿飞</span>
@@ -132,9 +130,7 @@ export const loadUserData = (uid) =&gt; async (dispatch) =&gt; {<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">因此，另一个想法可能是使用带有redux-thunk的发电机，但是对我来说，这似乎是在尝试发明具有方形车轮的自行车。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">当然，发电机更容易测试。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">GreenSamA</span>
@@ -153,9 +149,7 @@ export const loadUserData = (uid) =&gt; async (dispatch) =&gt; {<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">总之，个人而言，我想说：在许多正常情况下和中小型应用程序中，请使用异步/等待风格的redux-thunk。</font><font style="vertical-align: inherit;">这将为您节省许多样板代码/操作/ typedef，并且您无需切换许多不同的sagas.ts并维护特定的sagas树。</font><font style="vertical-align: inherit;">但是，如果您开发的大型应用程序具有复杂的异步逻辑，并且需要并发/并行模式等功能，或者对测试和维护的需求很高（尤其是在测试驱动的开发中），那么redux-sagas可能会挽救您的生命。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">无论如何，redux-saga并不比redux本身更困难和复杂，并且它没有所谓的陡峭学习曲线，因为它具有有限的核心概念和API。</font><font style="vertical-align: inherit;">花一点时间学习redux-saga可能会在将来的一天让自己受益。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">梅十三</span>
@@ -168,9 +162,7 @@ export const loadUserData = (uid) =&gt; async (dispatch) =&gt; {<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我已经看到了几个项目，其中将重音视为来自MVC patten的控制器，并且很快就变得混乱不堪。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我的建议是在需要A触发与单个事件有关的B类型内容的地方使用Sagas。</font><font style="vertical-align: inherit;">对于可能涉及许多操作的任何事情，我发现编写客户中间件并使用FSA操作的meta属性来触发它更为简单。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">A番长</span>
@@ -193,9 +185,7 @@ export const loadUserData = (uid) =&gt; async (dispatch) =&gt; {<font></font>
 <li><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">有很多概念需要学习。</font></font></p></li>
 <li><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">API稳定性。</font><font style="vertical-align: inherit;">似乎redux-saga仍在添加功能（例如Channels？），并且社区还不那么庞大。</font><font style="vertical-align: inherit;">如果库有朝一日进行非向后兼容更新，则存在问题。</font></font></p></li>
 </ul></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

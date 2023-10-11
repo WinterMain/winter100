@@ -30,7 +30,7 @@ topic: HTML
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">用例示例：在</font></font><a href="http://twitter.com/signup" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Twitter Signup</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">页面上，</font></font><em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">用户名字</font></font></em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">段的值显示在其</font><font style="vertical-align: inherit;">下方</font><font style="vertical-align: inherit;">的URL“ </font></font><a href="http://twitter/" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">http：// twitter / </font></font></a><em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">username</font></font></em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> ”中。</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第2724篇《使用JQuery（立即）检测对<input type =“ text”>的所有更改》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第2724篇《使用JQuery（立即）检测对<input type =“ text”>的所有更改》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -84,9 +84,7 @@ function testingevent(ev){<font></font>
 });<font></font>
 &lt;/script&gt;<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">西里Near</span>
@@ -107,9 +105,7 @@ function testingevent(ev){<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这是一个</font></font><a href="https://jsfiddle.net/zs9168ac/" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">小提琴</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">不幸的是，有些东西在IE和Edge中实际上无法使用，而我找不到。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">猿小小</span>
@@ -130,9 +126,7 @@ function testingevent(ev){<font></font>
         }); <font></font>
 });<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">神奇逆天猪猪</span>
@@ -141,9 +135,7 @@ function testingevent(ev){<font></font>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">好吧，最好的方法是覆盖您自己列出的这三个基础。</font><font style="vertical-align: inherit;">简单的：onblur，：onkeyup等无法满足您的需求，因此只需将它们组合即可。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">KeyUp应该涵盖前两个，并且如果Javascript修改了输入框，那么我当然希望它是您自己的javascript，因此只需在修改它的函数中添加一个回调即可。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">路易Jim</span>
@@ -155,9 +147,7 @@ function testingevent(ev){<font></font>
 
 <pre><code>$(".inputElement").on("input", null, null, callbackFunction);
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">泡芙</span>
@@ -178,9 +168,7 @@ function testingevent(ev){<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果您使用的是jQuery &lt;= 1.4，请使用</font></font><code>live</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">代替</font></font><code>on</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

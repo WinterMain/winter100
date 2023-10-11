@@ -37,7 +37,7 @@ topic: CSS
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">是否可以有多个条件？</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第2157篇《在SASS IF语句中使用多个条件（AND）》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第2157篇《在SASS IF语句中使用多个条件（AND）》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -70,9 +70,7 @@ topic: CSS
     // ...<font></font>
 } <font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">阳光猪猪</span>
@@ -89,9 +87,7 @@ topic: CSS
 <li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">您尝试执行的操作可能不太明显。</font></font></li>
 <li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">它返回数字或</font></font><code>null</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，而不是布尔值。</font></font></li>
 </ol></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

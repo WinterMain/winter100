@@ -37,7 +37,7 @@ topic: Vue.js
 </code></pre></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第3983篇《如何在Axios中处理net :: ERR_CONNECTION_REFUSED-Vue.js》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第3983篇《如何在Axios中处理net    ERR_CONNECTION_REFUSED-Vue.js》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -50,9 +50,7 @@ topic: Vue.js
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">您应该执行@chithra指出的相同验证，</font></font><code>.then()</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">因为在关闭服务器的测试请求时我遇到了一个奇怪的问题，“响应”就好像成功了一样。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">另外，</font></font><code>.then()</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">用</font></font><code>response.status</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">代替</font></font><code> response.error</code></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">乐</span>
@@ -73,9 +71,7 @@ topic: Vue.js
     }<font></font>
 )<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">AEva</span>
@@ -84,9 +80,7 @@ topic: Vue.js
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">您可以像</font></font><a href="https://stackoverflow.com/users/4788022/panjunjie%E6%BD%98%E4%BF%8A%E6%9D%B0"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">潘俊杰</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">建议的</font><font style="vertical-align: inherit;">那样来验证自己</font><font style="vertical-align: inherit;">，也可以使用</font></font><a href="https://github.com/sindresorhus/is-reachable" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">sindresorhus / is-reachable之</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">类的库</font><font style="vertical-align: inherit;">。</font><font style="vertical-align: inherit;">后者将是我的首选。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">干杯!</font></font></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

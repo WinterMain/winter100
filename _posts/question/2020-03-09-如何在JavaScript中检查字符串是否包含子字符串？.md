@@ -34,7 +34,7 @@ topic: JavaScript
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">有什么合理的方法来检查？</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第135篇《如何在JavaScript中检查字符串是否包含子字符串？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第135篇《如何在JavaScript中检查字符串是否包含子字符串？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -53,9 +53,7 @@ topic: JavaScript
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">将返回true / false。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">正则表达式使用许多资源。</font><font style="vertical-align: inherit;">但是在大多数情况下，可读性更为重要。</font></font></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

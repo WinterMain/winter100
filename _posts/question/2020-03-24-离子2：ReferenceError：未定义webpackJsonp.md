@@ -68,7 +68,7 @@ topic: Webpack
 </code></pre></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第3199篇《离子2：ReferenceError：未定义webpackJsonp》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第3199篇《离子2：ReferenceError：未定义webpackJsonp》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -85,9 +85,7 @@ topic: Webpack
 "omit.js": "1.0.0"<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">猪猪</span>
@@ -99,9 +97,7 @@ topic: Webpack
 
 <pre><code>ionic cordova build ios --prod
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Green理查德</span>
@@ -115,9 +111,7 @@ topic: Webpack
 npm install -g ionic@v2.0.1<font></font>
 npm install -g ionic@v1<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">宝儿理查德</span>
@@ -130,9 +124,7 @@ npm install -g ionic@v1<font></font>
 
 <pre><code>yarn add -g ionic@v3.0.1
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">番长猴子</span>
@@ -148,9 +140,7 @@ npm install -g ionic@v1<font></font>
   &lt;!-- The bundle js is generated during the build process --&gt;<font></font>
   &lt;script src="build/main.js"&gt;&lt;/script&gt;<font></font>
 </code></pre></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

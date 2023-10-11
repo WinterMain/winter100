@@ -52,7 +52,7 @@ console.log(include([1, 2, 3, 4], 6)); // undefined</code></pre>
 <p></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第547篇《查找项目是否在JavaScript数组中的最佳方法？[重复]》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第547篇《查找项目是否在JavaScript数组中的最佳方法？\[重复\]》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -67,9 +67,7 @@ console.log(include([1, 2, 3, 4], 6)); // undefined</code></pre>
 <p><a href="https://developer.mozilla.org/en-US/docs/JavaScript/Reference/Global_Objects/Array" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">https://developer.mozilla.org/zh-CN/docs/JavaScript/Reference/Global_Objects/Array</font></font></a></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在那里，您将看到对Javascript 1.6中添加的indexOf的引用</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Harry蛋蛋Eva</span>
@@ -84,9 +82,7 @@ console.log(include([1, 2, 3, 4], 6)); // undefined</code></pre>
 </ol>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">二进制搜索在时间上与数组长度的对数成正比，因此它比查看每个单个元素要快得多。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小胖Gil</span>
@@ -99,9 +95,7 @@ else result = customSlowerSearch(yourArray, target);<font></font>
 </code></pre>
 
 <p><code>indexOf</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">可能是用本机代码编码的，因此它比您在JavaScript中可以做的任何事情都要快（如果合适的话，二进制搜索/二分法除外）。</font><font style="vertical-align: inherit;">注意：这是一个品味问题，但是我会</font></font><code>return false;</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在例程结束时</font><font style="vertical-align: inherit;">执行一个操作</font><font style="vertical-align: inherit;">，以返回真正的布尔值...</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">樱小小小小</span>
@@ -113,9 +107,7 @@ else result = customSlowerSearch(yourArray, target);<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">有关更多信息：</font><a href="http://api.jquery.com/jQuery.inArray/" rel="noreferrer"><font style="vertical-align: inherit;">http</font></a><font style="vertical-align: inherit;"> : </font></font><a href="http://api.jquery.com/jQuery.inArray/" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">//api.jquery.com/jQuery.inArray/</font></font></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">YOC60211911</span>
@@ -221,9 +213,7 @@ else result = customSlowerSearch(yourArray, target);<font></font>
 );<font></font>
 </code></pre></li>
 </ol></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

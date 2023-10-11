@@ -17,7 +17,7 @@ topic: React.js
     <div class="article-content"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">创建React应用时，默认情况下会调用Service Worker。</font><font style="vertical-align: inherit;">为什么要使用服务人员？</font><font style="vertical-align: inherit;">默认调用的原因是什么？</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第1659篇《什么是React JS中的Service Worker》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第1659篇《什么是React JS中的Service Worker》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -34,9 +34,7 @@ topic: React.js
 <p>You can think of the service worker as someone who sits between the client and server and all the requests that are made to the server pass through the service worker. Basically, a middle man. Since all the request pass through the service worker, it is capable to intercept these requests on the fly.</p>
 
 <p><a href="https://i.stack.imgur.com/ldRJk.png" rel="nofollow noreferrer"><img src="https://i.stack.imgur.com/ldRJk.png" alt="在此处输入图片说明"></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">理查德阿飞</span>
@@ -70,9 +68,7 @@ topic: React.js
 </blockquote>
 
 <p>The call to <code>register service worker</code> is enabled by default in new apps but you can always remove it and then you’re back to regular behaviour.</p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

@@ -53,7 +53,7 @@ topic: JavaScript
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我找到了一个</font><font style="vertical-align: inherit;">详细讨论此问题</font><font style="vertical-align: inherit;">的</font></font><a href="http://www.velocityreviews.com/forums/t99655-save-way-to-detect-browser-language.html" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">链接</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，但问题仍未得到解决:(</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第1594篇《用于检测浏览器语言偏好的JavaScript》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第1594篇《用于检测浏览器语言偏好的JavaScript》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -83,9 +83,7 @@ if (url_string = "http://yoursite.com/it/index.html") {<font></font>
     document.getElementById("page-wrapper").className = "italian";<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">达蒙GO</span>
@@ -105,9 +103,7 @@ public Response getUserLanguagePreference(@Context HttpHeaders headers) {<font><
             .build();<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Near逆天</span>
@@ -123,9 +119,7 @@ public Response getUserLanguagePreference(@Context HttpHeaders headers) {<font><
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">截至目前（2014年9月），该功能适用​​于：Chrome（v37），Firefox（v32）和Opera（v24）</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">但不支持：IE（v11）</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">达蒙樱</span>
@@ -138,9 +132,7 @@ public Response getUserLanguagePreference(@Context HttpHeaders headers) {<font><
  </font></font><a href="https://gerrit.wikimedia.org/r/gitweb?p=mediawiki/extensions/UniversalLanguageSelector.git;a=blob;f=resources/js/ext.uls.init.js;hb=HEAD" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">ext.uls.init.js;hb=HEAD</font></font></a></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">它仍然取决于服务器，或更具体地说，取决于MediaWiki API。</font><font style="vertical-align: inherit;">我显示它的原因是，它可以提供一个很好的示例，以获取有关用户语言的所有有用信息：浏览器语言，接受语言，地理位置（以及从CLDR获取国家/语言信息），当然，用户自己的网站偏好设置。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小胖GO</span>
@@ -153,9 +145,7 @@ public Response getUserLanguagePreference(@Context HttpHeaders headers) {<font><
   // ["en-AU", "en", "en-US"]<font></font>
 });<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">null</span>
@@ -164,9 +154,7 @@ public Response getUserLanguagePreference(@Context HttpHeaders headers) {<font><
           <div class="discuss-comment"><p><code>navigator.userLanguage</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> 对于IE</font></font></p>
 
 <p><code>window.navigator.language</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> 用于Firefox / Opera / Safari</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">西里神奇</span>
@@ -177,9 +165,7 @@ public Response getUserLanguagePreference(@Context HttpHeaders headers) {<font><
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">但是服务器具有该信息，因为它是HTTP请求标头的一部分（Accept-Language字段，请参见</font></font><a href="http://www.w3.org/Protocols/rfc2616/rfc2616-sec14.html#sec14.4" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">http://www.w3.org/Protocols/rfc2616/rfc2616-sec14.html#sec14.4</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">）</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">因此，唯一可靠的方法是从服务器获取答案。</font><font style="vertical-align: inherit;">您将需要在服务器上运行的某些内容（例如.asp，.jsp，.php，CGI），并且“内容”可以返回该信息。</font><font style="vertical-align: inherit;">此处的好例子：</font><a href="http://www.developershome.com/wap/detection/detection.asp?page=readHeader" rel="noreferrer"><font style="vertical-align: inherit;">http</font></a><font style="vertical-align: inherit;"> : </font></font><a href="http://www.developershome.com/wap/detection/detection.asp?page=readHeader" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">//www.developershome.com/wap/detection/detection.asp?page=readHeader</font></font></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Mandy卡卡西</span>
@@ -202,9 +188,7 @@ console.log(language);</code></pre>
 </ul>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">尝试PWA模板</font></font><a href="https://github.com/StartPolymer/progressive-web-app-template"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">https://github.com/StartPolymer/progressive-web-app-template</font></font></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">十三西里GO</span>
@@ -222,9 +206,7 @@ console.log(language);</code></pre>
     ? navigator.languages[0]<font></font>
     : (navigator.language || navigator.userLanguage)<font></font>
 </code></pre></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

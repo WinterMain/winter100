@@ -17,7 +17,7 @@ topic: Node.js
     <div class="article-content"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我卸载了先前版本的node.js（0.8.11），并从node.js网站下载了最新版本0.10.24并进行了安装。</font><font style="vertical-align: inherit;">但是，在运行之后</font></font><code>node --version</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，它仍然表明我正在运行v0.8.11。</font><font style="vertical-align: inherit;">显然，在卸载过程中遗留了一些东西，这导致我尝试通过npm添加模块时遇到各种错误。</font><font style="vertical-align: inherit;">我已经看到了针对OSX和Linux的解决方案，但找不到Windows的任何东西。</font><font style="vertical-align: inherit;">我正在运行Windows 7 64位。</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第2493篇《如何从Windows完全删除node.js》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第2493篇《如何从Windows完全删除node.js》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -28,9 +28,7 @@ topic: Node.js
             <span class="discuss-time">2020.03.20</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">最好的办法是从控制面板中删除Node.js。</font><font style="vertical-align: inherit;">删除后，下载所需版本的Node.js并安装它即可使用。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">村村神无</span>
@@ -39,9 +37,7 @@ topic: Node.js
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">就我而言，仅靠上述方法是行不通的。</font><font style="vertical-align: inherit;">我已经安装和卸载几个版本中的NodeJS修复这个错误：在故宫Windows错误：EISDIR，请阅读错误（原生），我一直得到任何NPM命令我试图运行工作，其中包括故宫版本：   </font></font><code>npm -v</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">因此，在nodejs文件夹中删除了npm目录，并从</font></font><a href="http://nodejs.org/dist/npm/" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">npm dist</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">复制了最新的npm版本</font><font style="vertical-align: inherit;">：然后一切开始工作。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Tony老丝</span>
@@ -50,9 +46,7 @@ topic: Node.js
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">昨天我遇到了同样的问题，我的解决方法是：1.从Controlpanel而不是从您的cli卸载2.从其网站下载并安装最新或所需版本的节点3.如果错误地尝试通过cli进行卸载（ （通常不会完全删除），那么在这种情况下，您不会在cpanel中获得卸载选项，请安装相同版本的节点，然后按照我的步骤1。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">希望它可以帮助某人。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小小小哥</span>
@@ -65,9 +59,7 @@ topic: Node.js
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我最终转到“下载”文件夹，右键单击“ node-v8.2.1-x64 MSI”并选择“卸载”。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">问候，乔恩</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">西里Near</span>
@@ -75,9 +67,7 @@ topic: Node.js
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">无论您安装了哪种nodejs软件，都请再次安装。。它要求您像这样删除nodejs。
 </font></font><a href="https://i.stack.imgur.com/Ghyjy.png" rel="noreferrer"><img src="https://i.stack.imgur.com/Ghyjy.png" alt="在此处输入图片说明"></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">伽罗理查德</span>
@@ -98,9 +88,7 @@ topic: Node.js
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">现在Windows知道了被遗忘的NodeJS安装，因此我可以完全卸载现有版本的NodeJS。</font><font style="vertical-align: inherit;">然后，我成功安装了Windows平台上推荐的最新NodeNode </font></font><em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">版本（在撰写本文时为4.4.5版</font></font></em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">），而没有回滚启动。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我花了一段时间才取得成功，因此我发布了此信息，以防其他有类似问题的人获得帮助。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Stafan路易</span>
@@ -127,9 +115,7 @@ topic: Node.js
 <li><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果</font></font><em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">仍未</font></font></em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">卸载，请</font></font><code>where node</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在命令提示符下键入，然后您将看到它的驻留位置-删除该位置（可能还要删除其父目录）。</font></font></p></li>
 <li><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">重新启动，这是很好的措施。</font></font></p></li>
 </ol></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

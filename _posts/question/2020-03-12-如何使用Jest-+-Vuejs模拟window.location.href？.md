@@ -43,7 +43,7 @@ topic: 单元测试
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我尝试了一些解决方案，但没有解决。</font><font style="vertical-align: inherit;">我需要一些提示来帮助我摆脱困境。</font><font style="vertical-align: inherit;">请帮助。</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第1061篇《如何使用Jest + Vuejs模拟window.location.href？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第1061篇《如何使用Jest + Vuejs模拟window.location.href？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -70,9 +70,7 @@ topic: 单元测试
 </code></pre>
 
 <p><a href="https://repl.it/repls/VoluminousHauntingFunctions" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">https://repl.it/repls/VoluminousHauntingFunctions</font></font></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">神无阳光</span>
@@ -91,9 +89,7 @@ Object.defineProperty(window, "location", {<font></font>
     writable: true<font></font>
 });<font></font>
 </code></pre></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

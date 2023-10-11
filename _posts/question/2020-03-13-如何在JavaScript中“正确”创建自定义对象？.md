@@ -23,7 +23,7 @@ topic: JavaScript
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">有人可以给我一个带有某些属性和方法的JavaScript对象的正确示例吗？</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第1373篇《如何在JavaScript中“正确”创建自定义对象？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第1373篇《如何在JavaScript中“正确”创建自定义对象？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -192,9 +192,7 @@ console.log(instance.getProperties());</code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">你可以找到一个填充工具对</font></font><code>Object.create</code> <a href="https://developer.mozilla.org/nl/docs/Web/JavaScript/Reference/Global_Objects/Object/create" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这里</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> 
  和一个</font></font><code>Object.assign</code> <a href="https://developer.mozilla.org/nl/docs/Web/JavaScript/Reference/Global_Objects/Object/assign" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在这里</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">路易理查德</span>
@@ -243,9 +241,7 @@ calculate(jsBook); //110<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在您的项目中，确定最适合用来计算增值税的顶级值。</font><font style="vertical-align: inherit;">根据经验，每当您不断传递相同的参数时，就有一种使用闭包改进它的方法。</font><font style="vertical-align: inherit;">无需创建传统对象。</font></font></p>
 
 <p><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Closures" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Guide/Closures</font></font></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">路易伽罗</span>
@@ -284,9 +280,7 @@ test.toTest();<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">要查看桌面和移动设备兼容性列表，请参见</font></font><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/defineProperty" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Mozilla的浏览器兼容性列表</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font><font style="vertical-align: inherit;">是的，IE9 +和Safari移动版都支持它。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Mandy小卤蛋凯</span>
@@ -312,9 +306,7 @@ MyThing.prototype.someMethod = function() {<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">您可能会从阅读</font></font><a href="http://www.crockford.com/javascript/" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">道格拉斯·克罗克福德（Douglas Crockford）</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">关于JavaScript的</font><font style="vertical-align: inherit;">内容</font><a href="http://www.crockford.com/javascript/" rel="nofollow noreferrer"><font style="vertical-align: inherit;">中学</font></a><font style="vertical-align: inherit;">到</font><font style="vertical-align: inherit;">很多</font><font style="vertical-align: inherit;">。</font></font><a href="http://ejohn.org/" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">约翰·雷西格</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">（</font><a href="http://ejohn.org/" rel="nofollow noreferrer"><font style="vertical-align: inherit;">John Resig</font></a><font style="vertical-align: inherit;">）也很聪明。</font><font style="vertical-align: inherit;">祝好运！</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小小小宇宙</span>
@@ -390,9 +382,7 @@ console.log('' + c, c);</code></pre>
 </div>
 </div>
 <p></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">卡卡西理查德</span>
@@ -419,9 +409,7 @@ console.log('' + c, c);</code></pre>
 <pre><code>var counter1 = createCounter();<font></font>
 counter1.increaseBy(4);<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">西门达蒙</span>
@@ -457,9 +445,7 @@ counter1.increaseBy(4);<font></font>
 var test = new Foo();     //instantiation<font></font>
 test.publicMethod();      //calling a method<font></font>
 </code></pre></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

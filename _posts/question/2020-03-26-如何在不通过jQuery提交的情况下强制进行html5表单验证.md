@@ -19,7 +19,7 @@ topic: HTML
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我想触发验证而不提交表单。</font><font style="vertical-align: inherit;">可能吗？</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第3775篇《如何在不通过jQuery提交的情况下强制进行html5表单验证》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第3775篇《如何在不通过jQuery提交的情况下强制进行html5表单验证》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -78,9 +78,7 @@ topic: HTML
 </code></pre>
 
 <p>Some of my forms contain multiple submit buttons, hence this line <code>if (submitvalue == e.elements[i].value)</code>. I set the value of <code>submitvalue</code> using a click event.</p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小胖A</span>
@@ -103,9 +101,7 @@ topic: HTML
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">来自：</font></font><a href="http://zhishu.huati365.com/read/HTML/%E5%9C%A8Ajax%E8%AF%B7%E6%B1%82%E4%B8%AD%E4%BD%BF%E7%94%A8HTML5%E8%87%AA%E5%AE%9A%E4%B9%89%E9%AA%8C%E8%AF%81" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">html5表单验证</font></font></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">番长樱梅</span>
@@ -116,9 +112,7 @@ topic: HTML
 <p><code>action="javascript:myFunction();"</code></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">然后您就进行了html5验证...非常简单:-)</font></font></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

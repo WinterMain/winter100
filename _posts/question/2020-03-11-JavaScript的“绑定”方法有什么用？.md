@@ -17,7 +17,7 @@ topic: JavaScript
     <div class="article-content"><p><font style="vertical-align: inherit;"></font><code>bind()</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在JavaScript中有什么</font><font style="vertical-align: inherit;">用</font><font style="vertical-align: inherit;">？</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第817篇《JavaScript的“绑定”方法有什么用？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第817篇《JavaScript的“绑定”方法有什么用？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -41,9 +41,7 @@ function somefunction(cb){<font></font>
 }<font></font>
 somefunction.call({}, cb);<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">神乐猿</span>
@@ -63,9 +61,7 @@ somefunction.call({}, cb);<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在这里，通过调用bind（）并传入对象o从sayColor（）创建了一个名为objectSayColor（）的新函数。</font><font style="vertical-align: inherit;">objectSayColor（）函数的this值等于o，因此调用该函数（即使是全局调用）也将导致显示字符串“ blue”。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">参考：Nicholas C. Zakas-Web开发人员的专业JAVASCRIPT®</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">凯飞云</span>
@@ -78,9 +74,7 @@ somefunction.call({}, cb);<font></font>
 <p><a href="http://api.jquery.com/jquery.proxy/" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">jQuery.proxy（）</font></font></a></p>
 
 <p><a href="https://dojotoolkit.org/reference-guide/1.9/dojo/_base/lang.html#dojo-base-lang-hitch" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Dojo.hitch（）</font></font></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">ProGO</span>
@@ -166,9 +160,7 @@ new ButtonPressedLogger();      </code></pre>
 </div>
 </div>
 <p></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">樱理查德</span>
@@ -198,9 +190,7 @@ new ButtonPressedLogger();      </code></pre>
   var result = boundedFunc(15); //passing value<font></font>
   console.log(result) // will give true;<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">伽罗GreenNear</span>
@@ -229,9 +219,7 @@ document.getElementById("demo2").innerHTML = x2();</code></pre>
 </div>
 </div>
 <p></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

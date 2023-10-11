@@ -17,7 +17,7 @@ topic: CSS
     <div class="article-content"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">为什么没有用于Twitter引导程序的精美文件元素上载按钮？</font><font style="vertical-align: inherit;">如果为上传按钮实现了蓝色主按钮，那就太好了。</font><font style="vertical-align: inherit;">甚至可以使用CSS精细化上传按钮吗？</font><font style="vertical-align: inherit;">（似乎是无法操纵的本机浏览器元素）</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第1902篇《Twitter Bootstrap表单文件元素上传按钮》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第1902篇《Twitter Bootstrap表单文件元素上传按钮》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -46,9 +46,7 @@ topic: CSS
     pointer: cursor;<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">乐米亚</span>
@@ -63,9 +61,7 @@ topic: CSS
 
 <pre><code>&lt;input type="file" class="filestyle" data-input="false"&gt;
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">西门</span>
@@ -87,9 +83,7 @@ topic: CSS
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">但是使用此方法，您应该用jasny引导程序文件替换twitter引导程序。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">问候。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">番长樱梅</span>
@@ -106,9 +100,7 @@ topic: CSS
     height: auto;<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">番长Vicky</span>
@@ -128,9 +120,7 @@ topic: CSS
 <li><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">将的z-index设置</font></font><code>&lt;input type="file"&gt;</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">为2，使其位于样式输入/图像的顶部。</font></font></p></li>
 <li><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">最后，将的不透明度设置</font></font><code>&lt;input type="file"&gt;</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">为0。</font></font><code>&lt;input type="file"&gt;</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">现在将变为实际上不可见，并且样式输入/图像也会照亮，但是您仍然可以单击“浏览”按钮。</font><font style="vertical-align: inherit;">如果按钮位于图像的顶部，则用户似乎单击图像并获得常规的文件选择窗口。</font><font style="vertical-align: inherit;">（请注意，您不能使用“可见性：隐藏”，因为真正不可见的元素也是不可点击的，因此我们需要保持点击状态）</font></font></p></li>
 </ol></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">西门Gil</span>
@@ -145,9 +135,7 @@ topic: CSS
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">使用fileupload插件，您可以创建更多高级小部件。</font><font style="vertical-align: inherit;">看看
  </font></font><a href="http://jasny.github.io/bootstrap/javascript/#fileinput"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">http://jasny.github.io/bootstrap/javascript/#fileinput</font></font></a></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

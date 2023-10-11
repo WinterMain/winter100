@@ -52,7 +52,7 @@ module.exports = withCSS();<font></font>
 </code></pre></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第3563篇《ValidationError：无效的选项对象。CSS Loader已使用与API模式不匹配的选项对象进行了初始化》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第3563篇《ValidationError：无效的选项对象。CSS Loader已使用与API模式不匹配的选项对象进行了初始化》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -74,9 +74,7 @@ module.exports = withCSS();<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这些软件包的更新版本似乎有问题。 </font></font></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

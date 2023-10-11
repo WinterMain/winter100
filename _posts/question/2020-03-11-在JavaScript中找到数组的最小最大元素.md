@@ -25,7 +25,7 @@ array.max() //=&gt; 100<font></font>
 </code></pre></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第595篇《在JavaScript中找到数组的最小/最大元素》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第595篇《在JavaScript中找到数组的最小/最大元素》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -54,9 +54,7 @@ Math.min(-10, -20); // -20<font></font>
 var max = Math.max(...arr); // 3<font></font>
 var min = Math.min(...arr); // 1<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">JimLEYSam</span>
@@ -67,9 +65,7 @@ var min = Math.min(...arr); // 1<font></font>
 let max = Math.max(...arr); // 7<font></font>
 let min = Math.min(...arr); // 1<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">JinJin村村</span>
@@ -82,9 +78,7 @@ arr.max();<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">此处记录：</font></font><a href="http://www.prototypejs.org/api/enumerable/max" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">max的Javascript原型框架</font></font></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">A小卤蛋Pro</span>
@@ -102,9 +96,7 @@ Array.min = function( array ){<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果数组值不是整数，则上面的代码将返回NaN，因此您应该构建一些功能来避免这种情况。</font><font style="vertical-align: inherit;">否则，它将起作用。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">宝儿Near</span>
@@ -121,9 +113,7 @@ Array.min = function( array ){<font></font>
 <font></font>
 maxsort = myArray.slice(0).sort(function(a, b) { return b.ID - a.ID })[0].ID; <font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小宇宙乐理查德</span>
@@ -137,9 +127,7 @@ arr.min = function() { return  Math.min.apply(Math, this); }; //attach min funct
 <font></font>
 alert("min: " + arr.min() + " max: " + arr.max());<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">西门逆天</span>
@@ -178,9 +166,7 @@ console.log("Max is: " + max);</code></pre>
 </div>
 </div>
 <p></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">NearSamHarry</span>
@@ -192,9 +178,7 @@ console.log("Max is: " + max);</code></pre>
 var maxValue = valueList.reduce(function(a, b) { return Math.max(a, b); });<font></font>
 var minValue = valueList.reduce(function(a, b) { return Math.min(a, b); });<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">樱猪猪</span>
@@ -216,9 +200,7 @@ function getMax(array){<font></font>
 <pre><code>var myArray = [1,2,3,4,5,6,7];<font></font>
 var maximo = getMax(myArray); //return the highest number<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Stafan西门</span>
@@ -267,9 +249,7 @@ var range = arr.range();<font></font>
 console.log(range.min);<font></font>
 console.log(range.max);<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">番长西里神无</span>
@@ -333,9 +313,7 @@ console.log(range.max);<font></font>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">*经过1,000,000项测试：</font></font><br><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
 仅供参考，第一个函数运行时（在我的机器上）为15.84ms，而第二个函数运行时仅为4.32ms。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Harry小卤蛋</span>
@@ -352,9 +330,7 @@ var b = arr.reduce(function(previous,current){ <font></font>
 b =&gt; 11<font></font>
 arr =&gt; [1, 10, 5, 11, 2]<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">null</span>
@@ -370,9 +346,7 @@ arr =&gt; [1, 10, 5, 11, 2]<font></font>
     return r;<font></font>
 };<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Tom老丝Pro</span>
@@ -410,9 +384,7 @@ Array.prototype.max = function(comparer) {<font></font>
     return v;<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Pro小卤蛋A</span>
@@ -433,9 +405,7 @@ console.log(getMaxOfArray(arr))</code></pre>
 <p></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这对我有用。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">西里Davaid</span>
@@ -450,9 +420,7 @@ console.log(getMaxOfArray(arr))</code></pre>
 
 <pre><code>var max = arrayMax([2, 5, 1]);
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小卤蛋LEY</span>
@@ -476,9 +444,7 @@ A.reduce((min, val) =&gt; val &lt; min ? val : min, A[0]); // returns -9<font></
 <pre><code>A = [4,3,-9,-2,2,1];<font></font>
 A.reduce((min, val) =&gt; val &lt; min._min ? {_min: val, _idx: min._curr, _curr: min._curr + 1} : {_min: min._min, _idx: min._idx, _curr: min._curr + 1}, {_min: A[0], _idx: 0, _curr: 0}); // returns { _min: -9, _idx: 2, _curr: 6 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">猪猪理查德</span>
@@ -495,9 +461,7 @@ Array.min = function( array ){<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">从</font></font><a href="http://ejohn.org/blog/fast-javascript-maxmin/" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这里</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">提振</font><font style="vertical-align: inherit;">（约翰·雷西格）</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">神奇Eva</span>
@@ -519,9 +483,7 @@ Array.min = function( array ){<font></font>
     return Math.max(a, b);<font></font>
 });<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">前端前端猴子</span>
@@ -593,9 +555,7 @@ function arrayMax(arr) {<font></font>
   return max;<font></font>
 };<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">猪猪小小</span>
@@ -628,9 +588,7 @@ function arrayMin(array) {<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">不幸的是，匿名函数是必需的（而不是</font></font><code>Math.max.bind(Math)</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">因为</font></font><code>reduce</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">不只是传递</font></font><code>a</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">和</font><font style="vertical-align: inherit;">传递</font></font><code>b</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">给函数</font><font style="vertical-align: inherit;">而使用</font><font style="vertical-align: inherit;">，而且还</font></font><code>i</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">需要对数组本身的引用，因此我们必须确保我们也不要尝试调用</font></font><code>max</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这些</font><font style="vertical-align: inherit;">函数</font><font style="vertical-align: inherit;">。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">十三LEY</span>
@@ -651,9 +609,7 @@ console.log(<font></font>
 </div>
 </div>
 <p></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">null</span>
@@ -664,9 +620,7 @@ console.log(<font></font>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">有关完整的讨论，请参见：</font><a href="http://aaroncrane.co.uk/2008/11/javascript_max_api/" rel="noreferrer"><font style="vertical-align: inherit;">http</font></a><font style="vertical-align: inherit;"> :
  </font></font><a href="http://aaroncrane.co.uk/2008/11/javascript_max_api/" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">//aaroncrane.co.uk/2008/11/javascript_max_api/</font></font></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小宇宙前端</span>
@@ -698,9 +652,7 @@ Array.prototype.min = function() {<font></font>
 <pre><code>var min = Math.min( ...arr ),<font></font>
     max = Math.max( ...arr );<font></font>
 </code></pre></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

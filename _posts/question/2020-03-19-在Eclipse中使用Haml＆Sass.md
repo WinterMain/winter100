@@ -29,7 +29,7 @@ topic: CSS
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">对于编译与Ecplise集成的Sass的任何方式，</font><font style="vertical-align: inherit;">我也都</font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">非常</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">感兴趣，这样我就不必与它分开运行。</font><font style="vertical-align: inherit;">（或将Sass / Compass放入Ecplise构建过程中的方法。）</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第2376篇《在Eclipse中使用Haml＆Sass》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第2376篇《在Eclipse中使用Haml＆Sass》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -42,9 +42,7 @@ topic: CSS
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">请注意，最新的</font></font><a href="http://colorer.sf.net/eclipsecolorer" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">EclipseColorer</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">实际上同时支持HAML＆SASS。</font><font style="vertical-align: inherit;">如果您不需要全功能的Aptana IDE，而只是寻找编辑器，那么它可能是一个不错的选择。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">EclipseColorer还为您提供了更好的语法混合支持：HAML中的其他语言在语法方面都得到了突出显示（ruby，javascript，css甚至sass的混合）。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">逆天A前端</span>
@@ -55,9 +53,7 @@ topic: CSS
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">它是一个插件，除其他功能外，还为SASS / SCSS文件提供了语法突出显示功能。</font><font style="vertical-align: inherit;">它似乎可以正常工作，并且具有“语法突出显示（基于LiClipse，TextMate或SublimeText）”，因此可能是可配置的（我还没有做太多的工作，但是基本的语法突出显示功能对我来说很有用，比Eclipse WST CSS编辑器可以处理SCSS文件）。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">它是</font><font style="vertical-align: inherit;">我未使用</font><font style="vertical-align: inherit;">的商业LiClipse插件（</font></font><a href="https://marketplace.eclipse.org/content/liclipse" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">https://marketplace.eclipse.org/content/liclipse</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">）</font><font style="vertical-align: inherit;">的开源编辑器组件</font><font style="vertical-align: inherit;">。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">米亚Tony</span>
@@ -66,18 +62,14 @@ topic: CSS
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">尽管目前似乎还没有HAML或SASS语法突出显示器，但是您可能需要考虑通过一些可用插件将VIM（确实支持HAML语法突出显示）引入Eclipse。  </font><font style="vertical-align: inherit;">可能会出现</font></font><a href="http://eclim.sourceforge.net/" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Eclim</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">（尽管我没有使用过-只是尝试提供其他替代方法）。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">另一个选择是采用现有的Eclipse语法突出显示插件，并为Sass和/或HAML添加语法突出显示。</font><font style="vertical-align: inherit;">诸如</font></font><a href="http://colorer.sourceforge.net/eclipsecolorer/" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Eclipse Colorer之</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">类的东西</font><font style="vertical-align: inherit;">可能值得研究。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">古一小胖</span>
             <span class="discuss-time">2020.03.19</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我知道这是一个老问题，但是对于像我这样对SASS和Compass陌生的任何人，我刚刚安装了Aptana Studio 3，现在它支持.scss，.sass和.haml。</font><font style="vertical-align: inherit;">请享用。</font></font></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

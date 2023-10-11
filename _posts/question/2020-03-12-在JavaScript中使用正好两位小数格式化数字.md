@@ -22,7 +22,7 @@ topic: JavaScript
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我想要数字10.80、2.40等。使用jQuery对我来说很好。</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第987篇《在JavaScript中使用正好两位小数格式化数字》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第987篇《在JavaScript中使用正好两位小数格式化数字》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -36,9 +36,7 @@ topic: JavaScript
 
 <pre><code>var rounded_value=Math.round(value * 100) / 100;
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">达蒙西里</span>
@@ -48,9 +46,7 @@ topic: JavaScript
 
 <pre><code>td[row].innerHTML = price.toPrecision(price.toFixed(decimals).length
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">宝儿理查德村村</span>
@@ -72,9 +68,7 @@ topic: JavaScript
 <p>That should yield: <code>4.04</code></p>
 
 <p>etc.</p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">西门老丝Pro</span>
@@ -84,9 +78,7 @@ topic: JavaScript
 </code></pre>
 
 <p>this will return a random number from 1 to 100 rounded to 2 decimal places.</p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Itachi梅Harry</span>
@@ -113,9 +105,7 @@ a.getDecimals(2); // will return 56.23<font></font>
    return ( decDigCount &gt; 20 ) ? this : this.toFixed(decDigCount);<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">西门斯丁</span>
@@ -146,9 +136,7 @@ a.getDecimals(2); // will return 56.23<font></font>
   <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">合并</font></font><a href="https://stackoverflow.com/a/7641824/1889449"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">https://stackoverflow.com/a/7641824/1889449</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">和
    </font></font><a href="https://www.kirupa.com/html5/rounding_numbers_in_javascript.htm" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">https://www.kirupa.com/html5/rounding_numbers_in_javascript.htm</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">谢谢他们。</font></font></p>
 </blockquote></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">米亚小哥斯丁</span>
@@ -167,9 +155,7 @@ a.getDecimals(2); // will return 56.23<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">呼叫</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">parseDecimalRoundAndFixed（10.800243929,4）=&gt; 10.80 parseDecimalRoundAndFixed（10.807243929,2）=&gt; 10.81</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">达蒙小胖</span>
@@ -189,9 +175,7 @@ a.getDecimals(2); // will return 56.23<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">使用方式 </font></font><code>alert(roundFloat(1.79209243929,4));</code></p>
 
 <p><a href="http://jsfiddle.net/ow3n/YqQgC/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">杰斯菲德尔</font></font></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">伽罗Tom猪猪</span>
@@ -248,9 +232,7 @@ console.log("precise_round(0.565, 2)    :", precise_round(0.565, 2));     // 0.5
 </div>
 </div>
 <p></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">神无Sam乐</span>
@@ -265,9 +247,7 @@ console.log("precise_round(0.565, 2)    :", precise_round(0.565, 2));     // 0.5
 
 <pre><code>(Math.round((num * 1000)/10)/100).toFixed(2)
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">樱理查德</span>
@@ -289,9 +269,7 @@ console.log("precise_round(0.565, 2)    :", precise_round(0.565, 2));     // 0.5
 
 <pre><code>result = num.toFixed(2);
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">逆天卡卡西</span>
@@ -306,9 +284,7 @@ console.log("precise_round(0.565, 2)    :", precise_round(0.565, 2));     // 0.5
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">将适用于所报告的异常。</font></font></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

@@ -19,7 +19,7 @@ topic: JavaScript
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果密钥不存在，而我尝试访问它，它将返回false吗？</font><font style="vertical-align: inherit;">还是抛出错误？</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第165篇《检查键是否存在于JavaScript对象中？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第165篇《检查键是否存在于JavaScript对象中？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -48,9 +48,7 @@ topic: JavaScript
 </span><span class="kwd">if</span><span class="pun">(!</span><span class="pln">key4</span><span class="pun">)</span><span class="pln"> </span><span class="pun">{</span><span class="pln"> console</span><span class="pun">.</span><span class="pln">log</span><span class="pun">(</span><span class="str">"key not present"</span><span class="pun">);</span><span class="pln"> </span><span class="pun">}</span><span class="pln"> </span><span class="com">// Key not present</span></code></pre>
 
 <p>Do check <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment" rel="nofollow noreferrer" data-bitapp="processed">other use of JavaScript Destructuring</a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">村村小小十三</span>
@@ -116,9 +114,7 @@ keyExistsOn</span><span class="pun">(</span><span class="pln">obj</span><span cl
 </span><span class="kwd">true</span></code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">另请参阅以下NPM软件包：</font><a href="https://www.npmjs.com/package/has-deep-value" rel="nofollow noreferrer" data-bitapp="processed"><font style="vertical-align: inherit;">https</font></a><font style="vertical-align: inherit;"> : </font></font><a href="https://www.npmjs.com/package/has-deep-value" rel="nofollow noreferrer" data-bitapp="processed"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">//www.npmjs.com/package/has-deep-value</font></font></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Green达蒙</span>
@@ -138,9 +134,7 @@ keyExistsOn</span><span class="pun">(</span><span class="pln">obj</span><span cl
 </span><span class="str">"c"</span><span class="pln"> in obj </span><span class="com">// false</span></code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">返回值为</font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">true</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">表示键存在于对象中。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">理查德西门Near</span>
@@ -153,9 +147,7 @@ keyExistsOn</span><span class="pun">(</span><span class="pln">obj</span><span cl
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果要检查对象在es2015中是否至少具有一个属性</font></font></p>
 
 <pre class="lang-js prettyprint prettyprinted" style=""><code><span class="typ">Object</span><span class="pun">.</span><span class="pln">keys</span><span class="pun">(</span><span class="pln">yourObjName</span><span class="pun">).</span><span class="pln">length </span><span class="pun">:</span><span class="pln"> </span><span class="kwd">true</span><span class="pln"> </span><span class="pun">?</span><span class="pln"> </span><span class="kwd">false</span></code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">古一斯丁猴子</span>
@@ -176,9 +168,7 @@ _</span><span class="pun">.</span><span class="pln">has</span><span class="pun">
 <pre class="lang-js prettyprint prettyprinted" style=""><code><span class="pln">_</span><span class="pun">.</span><span class="pln">has</span><span class="pun">(</span><span class="pln">yourArray</span><span class="pun">,</span><span class="pln"> </span><span class="str">"invalidKey"</span><span class="pun">)</span></code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">返回</font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">假</font></font></strong></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">西里阳光</span>
@@ -187,9 +177,7 @@ _</span><span class="pun">.</span><span class="pln">has</span><span class="pun">
           <div class="discuss-comment"><pre class="lang-js prettyprint prettyprinted" style=""><code><span class="str">"key"</span><span class="pln"> in obj</span></code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">可能只测试与数组键有很大不同的对象属性值</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">null</span>
@@ -201,9 +189,7 @@ _</span><span class="pun">.</span><span class="pln">has</span><span class="pun">
 </span><span class="com">// -&gt; false (Because the keys of the above Array are actually 0 and 1)</span></code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">要测试数组中的现有元素：</font></font><a href="https://stackoverflow.com/questions/143847/best-way-to-find-an-item-in-a-javascript-array" data-bitapp="processed"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">查找项目是否在JavaScript数组中的最佳方法？</font></font></a></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

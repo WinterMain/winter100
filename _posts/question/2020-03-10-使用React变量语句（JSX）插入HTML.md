@@ -31,7 +31,7 @@ topic: JavaScript
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">并按预期插入HTML吗？</font><font style="vertical-align: inherit;">我还没有看到或听到任何有关可以内联执行此操作的react函数的信息，也没有听说过任何可以使之起作用的解析方法。</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第528篇《使用React变量语句（JSX）插入HTML》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第528篇《使用React变量语句（JSX）插入HTML》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -42,9 +42,7 @@ topic: JavaScript
             <span class="discuss-time">2020.03.10</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">通过使用</font></font><code>''</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">它使它成为字符串。</font><font style="vertical-align: inherit;">使用不带反逗号的它将正常工作。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">米亚凯</span>
@@ -63,9 +61,7 @@ topic: JavaScript
     )<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Mandy小卤蛋凯</span>
@@ -79,9 +75,7 @@ topic: JavaScript
     );<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

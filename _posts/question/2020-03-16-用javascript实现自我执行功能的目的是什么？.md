@@ -27,7 +27,7 @@ topic: JavaScript
 </code></pre></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第1847篇《用javascript实现自我执行功能的目的是什么？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第1847篇《用javascript实现自我执行功能的目的是什么？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -38,9 +38,7 @@ topic: JavaScript
             <span class="discuss-time">2020.03.16</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">IIRC它允许您创建私有属性和方法。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">逆天宝儿米亚</span>
@@ -71,9 +69,7 @@ topic: JavaScript
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">一般来说，编码有很多晦涩的方式来做很多相同的事情，这使您想知道“为什么要打扰？” </font><font style="vertical-align: inherit;">但是，新的情况不断出现，您将无法再仅依靠基本/核心原则。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">猪猪阿飞</span>
@@ -85,9 +81,7 @@ topic: JavaScript
 <li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这是</font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">立即调用函数表达式</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font><font style="vertical-align: inherit;">因此，当您的JavaScript文件从HTML调用时，此函数会立即调用。</font></font></li>
 <li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这样可以防止在IIFE惯用语中访问变量以及污染全局范围。</font></font></li>
 </ul></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">达蒙逆天Pro</span>
@@ -112,9 +106,7 @@ scope(); <font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">因此，基本上，一个自执行函数允许编写代码而无需担心在其他JavaScript代码块中如何命名变量。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">神无西里</span>
@@ -123,9 +115,7 @@ scope(); <font></font>
           <div class="discuss-comment"><p><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">javascript中的自调用函数：</font></font></strong></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">自调用表达式将自动调用（启动），而不被调用。</font><font style="vertical-align: inherit;">自调用表达式创建后立即被调用。</font><font style="vertical-align: inherit;">基本上，这用于避免命名冲突以及实现封装。</font><font style="vertical-align: inherit;">在此函数之外无法访问变量或声明的对象。</font><font style="vertical-align: inherit;">为了避免最小化问题（filename.min），请始终使用自执行函数。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Tony宝儿梅</span>
@@ -134,18 +124,14 @@ scope(); <font></font>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">由于Javascript中的函数是一类对象，因此通过这样定义它，可以有效地定义一个类似于C ++或C＃的“类”。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">该函数可以定义局部变量，并在其中包含函数。</font><font style="vertical-align: inherit;">内部函数（有效的实例方法）将可以访问局部变量（有效的实例变量），但它们将与脚本的其余部分隔离。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">用户7049302300</span>
             <span class="discuss-time">2020.03.16</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">一个区别是，您在函数中声明的变量是局部变量，因此在退出函数时它们会消失，并且不会与其他代码中的其他变量发生冲突。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">猴子乐</span>
@@ -154,9 +140,7 @@ scope(); <font></font>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">范围隔离，也许。</font><font style="vertical-align: inherit;">这样，函数声明中的变量不会污染外部名称空间。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">当然，在一半的JS实现中，无论如何它们还是会的。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小哥猪猪</span>
@@ -183,9 +167,7 @@ scope(); <font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">输出： </font></font><code>0, 1, 2, 3, 4...</code></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">樱前端</span>
@@ -197,9 +179,7 @@ scope(); <font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">关闭。</font><font style="vertical-align: inherit;">的值</font></font><code>something</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">由分配给的函数使用</font></font><code>a</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font><code>something</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">可能具有一些变化的值（for循环），并且每次都有一个新函数。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">StafanStafan</span>
@@ -234,18 +214,14 @@ scope(); <font></font>
 </ul>
 
 <p>More <a href="http://mahtonu.wordpress.com/2010/05/19/self-executing-functions-in-javascript/" rel="noreferrer">here</a>.</p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Itachi阳光</span>
             <span class="discuss-time">2020.03.16</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">命名空间。</font><font style="vertical-align: inherit;">JavaScript的作用域是功能级别的。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小小卡卡西</span>
@@ -260,9 +236,7 @@ scope(); <font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">更简洁的</font></font><code>var App = {}</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">语法提供了类似的保护级别，并且在“公共”页面上时可以包装在功能块中。</font><font style="vertical-align: inherit;">（</font><font style="vertical-align: inherit;">有关使用此构造的库的真实示例，</font><font style="vertical-align: inherit;">请参见</font></font><a href="http://emberjs.com" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Ember.js</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">或</font></font><a href="http://sproutcore.com" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">SproutCore</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">）</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">就</font></font><code>private</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">属性而言，除非您要创建公共框架或库，否则它们会被高估，但是如果您需要实现它们，</font></font><a href="http://www.crockford.com/javascript/private.html" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Douglas Crockford</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">有一些好主意。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">ASamGreen</span>
@@ -281,9 +255,7 @@ alert(foo); <font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这将首先警报“ 3”，然后在下一个警报上引发错误，因为未定义foo。</font></font></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

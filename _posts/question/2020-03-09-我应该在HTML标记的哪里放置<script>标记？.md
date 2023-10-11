@@ -21,7 +21,7 @@ topic: JavaScript
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">（此问题引用了</font></font><a href="https://stackoverflow.com/questions/436154/why-does-the-call-to-this-jquery-function-fail-in-firefox"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这个问题</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，在</font><a href="https://stackoverflow.com/questions/436154/why-does-the-call-to-this-jquery-function-fail-in-firefox"><font style="vertical-align: inherit;">该问题</font></a><font style="vertical-align: inherit;">中建议将JavaScript函数调用从</font></font><code>&lt;a&gt;</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">标签</font><font style="vertical-align: inherit;">移动</font><font style="vertical-align: inherit;">到</font></font><code>&lt;script&gt;</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">标签。我专门使用jQuery，但更通用的答案也是合适的。）</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第262篇《我应该在HTML标记的哪里放置<script>标记？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第262篇《我应该在HTML标记的哪里放置<script>标记？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -52,9 +52,7 @@ topic: JavaScript
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">好的做法是，什么时候实施？</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我希望我能有所帮助，任何事情都可以回答我这个问题。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小小Eva</span>
@@ -68,9 +66,7 @@ topic: JavaScript
 <font></font>
 });<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">凯阳光</span>
@@ -81,18 +77,14 @@ topic: JavaScript
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我听说在head标签之外添加脚本时，Safari的旧版本有些古怪，但我说谁在乎。</font><font style="vertical-align: inherit;">我不知道有人在用那种废话。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">顺便问好问题。 </font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">宝儿Davaid</span>
             <span class="discuss-time">2020.03.09</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">为了防止和UI阻塞，在body标记之前结束。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">西里Sam</span>
@@ -101,18 +93,14 @@ topic: JavaScript
           <div class="discuss-comment"><p><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在HTML文档的末尾</font></font></strong></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">因此，在执行时不会影响将HTML文档加载到浏览器中。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">米亚小哥斯丁</span>
             <span class="discuss-time">2020.03.09</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我认为这取决于网页的执行情况。</font><font style="vertical-align: inherit;">如果要显示的页面在未先加载JavaScript的情况下无法正确显示，则应首先包含JavaScript文件。</font><font style="vertical-align: inherit;">但是，如果您无需先下载JavaScript文件就可以显示/呈现网页，则应将JavaScript代码放在页面底部。</font><font style="vertical-align: inherit;">因为它将模拟快速的页面加载，并且从用户的角度来看，似乎该页面的加载速度更快。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">JinJin飞云</span>
@@ -120,9 +108,7 @@ topic: JavaScript
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">您可以将大多数</font></font><code>&lt;script&gt;</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">引用放在的末尾</font></font><code>&lt;body&gt;</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，</font></font><br><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">但是，如果页面上有使用外部脚本的活动组件，</font></font><br><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
 则它们的依赖项（js文件）应该在此之前（最好在head标签中）。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">鱼二水</span>
@@ -135,9 +121,7 @@ topic: JavaScript
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">另一方面，将其放置在</font></font><code>&lt;body&gt;</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">开始或</font><font style="vertical-align: inherit;">之后的位置</font><font style="vertical-align: inherit;">将执行脚本（那里仍然没有DOM元素）。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">您将包括jQuery，这意味着您可以将其放置在任意位置并使用</font></font><a href="https://learn.jquery.com/using-jquery-core/document-ready/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">.ready（）</font></font></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小小</span>
@@ -147,9 +131,7 @@ topic: JavaScript
 <li><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果您仍然非常关心IE &lt;10的支持和性能，最好始终将脚本标记设置为HTML正文的最后一个标记。</font><font style="vertical-align: inherit;">这样，您可以确定其余的DOM已加载，并且不会阻塞和渲染。</font></font></p></li>
 <li><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果您不再关心IE &lt;10，则可能希望将脚本放在文档的开头，并</font></font><code>defer</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">用来确保</font><font style="vertical-align: inherit;">脚本</font><font style="vertical-align: inherit;">仅在DOM被加载后才能运行（</font></font><code>&lt;script type="text/javascript" src="path/to/script1.js" defer&gt;&lt;/script&gt;</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">）。</font><font style="vertical-align: inherit;">如果您仍然希望代码在IE &lt;10中运行，请不要忘记将代码</font></font><code>window.onload</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">均匀</font><font style="vertical-align: inherit;">地包装</font><font style="vertical-align: inherit;">！</font></font></p></li>
 </ul></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">理查德Tony</span>
@@ -160,9 +142,7 @@ topic: JavaScript
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">包括头中的脚本的脚本会尽早加载这些脚本，并且可以在加载整个网站之前使用。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果最后输入了脚本，则只有在加载了整个样式和设计之后才能进行验证，这对于快速响应的网站是不赞赏的。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小小Jim</span>
@@ -175,9 +155,7 @@ topic: JavaScript
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">自然，这要求脚本本身不需要呈现页面。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">有关更多信息，请参阅</font><font style="vertical-align: inherit;">Steve Souders（YSlow的创建者，但现在在Google上）</font><font style="vertical-align: inherit;">发布的</font></font><a href="http://www.stevesouders.com/blog/2008/12/27/coupling-async-scripts/" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">耦合异步脚本</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">村村伽罗Mandy</span>
@@ -186,9 +164,7 @@ topic: JavaScript
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">取决于，如果要加载的脚本对于页面的样式设置/使用页面中的操作（例如单击按钮）是必需的，则最好将其放在顶部。</font><font style="vertical-align: inherit;">如果您的样式是100％CSS，并且按钮操作具有所有后备选项，则可以将其放在底部。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">或最好的事情（如果这不是问题）是您可以创建一个模式加载框，将您的JavaScript放在页面底部，并在加载脚本的最后一行时使其消失。</font><font style="vertical-align: inherit;">这样，您可以避免用户在加载脚本之前在页面中使用操作。</font><font style="vertical-align: inherit;">并且避免样式不当。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">神奇Tony古一</span>
@@ -197,9 +173,7 @@ topic: JavaScript
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">常规的（被广泛接受的）答案是“最底层的”，因为这样，在任何内容开始执行之前，整个DOM都将被加载。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">出于各种原因，有一些持不同政见者从可用的实践开始，故意从页面onload事件开始执行。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">神奇JinJin</span>
@@ -215,9 +189,7 @@ topic: JavaScript
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果需要，请检查此内容：</font><a href="http://stevesouders.com/hpws/rule-js-bottom.php" rel="noreferrer"><font style="vertical-align: inherit;">http</font></a><font style="vertical-align: inherit;"> :
  </font></font><a href="http://stevesouders.com/hpws/rule-js-bottom.php" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">//stevesouders.com/hpws/rule-js-bottom.php</font></font></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Mandy神奇</span>
@@ -226,9 +198,7 @@ topic: JavaScript
           <div class="discuss-comment"><p><del><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">XHTML不会验证脚本是否位于head元素之外的任何其他位置。</font></font></del><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> 事实证明它可以无处不在。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">您可以使用jQuery之类的方法推迟执行，因此放置位置无关紧要（解析期间对性能的影响很小）。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">LEY樱</span>
@@ -252,9 +222,7 @@ topic: JavaScript
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">支持如下所示：</font></font></p>
 
 <p><a href="https://caniuse.com/#feat=es6-module" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">https://caniuse.com/#feat=es6-module</font></font></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">JimLEYHarry</span>
@@ -263,9 +231,7 @@ topic: JavaScript
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果您使用的是JQuery，则将javascript放在最合适的位置，并用于</font></font><code>$(document).ready()</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">确保在执行任何功能之前正确加载了所有内容。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">附带说明：我喜欢本</font></font><code>&lt;head&gt;</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">节</font><font style="vertical-align: inherit;">中的所有脚本标签，</font><font style="vertical-align: inherit;">因为这似乎是最干净的地方。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">A樱</span>
@@ -284,9 +250,7 @@ topic: JavaScript
   <li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">浏览器显示什么样的“进行中”指示（例如状态栏中的“正在加载”，沙漏鼠标光标）。</font></font></li>
   </ul>
 </blockquote></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小卤蛋宝儿</span>
@@ -301,9 +265,7 @@ topic: JavaScript
   
   <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">脚本引起的问题是它们阻止并行下载。</font><font style="vertical-align: inherit;">HTTP / 1.1规范建议浏览器每个主机名并行下载最多两个组件。</font><font style="vertical-align: inherit;">如果您从多个主机名提供图像，则可以并行进行两次以上的下载。</font><font style="vertical-align: inherit;">但是，在下载脚本时，即使使用不同的主机名，浏览器也不会启动任何其他下载。</font></font></p>
 </blockquote></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小小阿飞</span>
@@ -371,9 +333,7 @@ You can place the scripts inside head or body without worrying about blocking (u
 </ul>
 
 <p>It is possible to circumvent the execution order issues by using external scripts that support callbacks. Many third party JavaScript APIs now support non-blocking execution. Here is an example of <a href="http://salman-w.blogspot.com/2014/05/google-maps-asynchronous-loading.html">loading the Google Maps API asynchronously</a>.</p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

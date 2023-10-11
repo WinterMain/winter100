@@ -57,7 +57,7 @@ Which throws a nice error in the console :</p>
 <p>Should I copy the incoming props in the ErrorBox state, and manipulate it only internally ?</p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第1085篇《如何在React / Redux / Typescript通知消息中从自身上卸下，取消渲染或删除组件》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第1085篇《如何在React / Redux / Typescript通知消息中从自身上卸下，取消渲染或删除组件》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -77,9 +77,7 @@ Which throws a nice error in the console :</p>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">您要做的就是将其从DOM中删除以便卸载。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">只要</font></font><code>renderMyComponent = true</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，组件将呈现。</font><font style="vertical-align: inherit;">如果设置</font></font><code>renderMyComponent = false</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，它将从DOM卸载。</font></font></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

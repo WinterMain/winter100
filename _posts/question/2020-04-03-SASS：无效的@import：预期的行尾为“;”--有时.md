@@ -42,7 +42,7 @@ sass_output = sass_engine.render<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这是怎么回事，从脚本运行时如何使它接受分号？</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第4023篇《SASS：无效的@import：预期的行尾为“;” -有时》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第4023篇《SASS：无效的\`import：预期的行尾为“;” -有时》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -66,9 +66,7 @@ sass_output = sass_engine.render<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">中提琴！</font></font></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

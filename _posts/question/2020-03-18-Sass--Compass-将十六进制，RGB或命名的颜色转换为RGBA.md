@@ -22,7 +22,7 @@ topic: CSS
 </code></pre></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第2024篇《Sass / Compass-将十六进制，RGB或命名的颜色转换为RGBA》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第2024篇《Sass / Compass-将十六进制，RGB或命名的颜色转换为RGBA》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -43,9 +43,7 @@ topic: CSS
     @return "rgb(" + red($color) + ", " + green($color) + ", " + blue($color)+ ")";<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">乐逆天</span>
@@ -73,9 +71,7 @@ topic: CSS
 
 <pre><code>rgba(#ff0000, 0.5); // Output is rgba(255,0,0,0.5);
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Gil宝儿</span>
@@ -89,9 +85,7 @@ topic: CSS
 <blockquote>
   <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">从有效的CSS十六进制字符串创建新的颜色。</font><font style="vertical-align: inherit;">前导哈希是可选的。</font></font></p>
 </blockquote></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

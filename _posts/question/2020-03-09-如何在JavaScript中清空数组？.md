@@ -39,7 +39,7 @@ topic: JavaScript
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我该如何清空？</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第202篇《如何在JavaScript中清空数组？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第202篇《如何在JavaScript中清空数组？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -57,9 +57,7 @@ topic: JavaScript
     }<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">蛋蛋伽罗猿</span>
@@ -88,9 +86,7 @@ xs[0]<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">您可以使用</font></font><code>[,,,,]</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">或</font><font style="vertical-align: inherit;">生成等效数组</font></font><code>Array(4)</code></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">宝儿小哥小卤蛋</span>
@@ -110,9 +106,7 @@ xs[0]<font></font>
 
 <pre><code>numbers.length = 0
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">逆天</span>
@@ -153,9 +147,7 @@ console.log(b);// It will print [1,2,3];<font></font>
 </code></pre>
 
 <p>As per previous answer by kenshou.html, second method is faster.</p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小卤蛋小小</span>
@@ -168,9 +160,7 @@ for (var i = originalLength; i &gt; 0; i--) {<font></font>
      A.pop();<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">神无神乐</span>
@@ -182,9 +172,7 @@ for (var i = originalLength; i &gt; 0; i--) {<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">并称之为： </font></font><code>array.clear();</code></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">null</span>
@@ -193,9 +181,7 @@ for (var i = originalLength; i &gt; 0; i--) {<font></font>
           <div class="discuss-comment"><p><code>A.splice(0);</code></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我只是在我正在处理的某些代码上执行过此操作。</font><font style="vertical-align: inherit;">它清除了数组。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">猴子村村</span>
@@ -249,9 +235,7 @@ function tearDown()<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">您应该注意，这可能取决于数组元素的类型，因为javascript与其他基本类型不同，其管理字符串的方式更不用说对象数组了。</font><font style="vertical-align: inherit;">类型可能会影响发生的情况。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">阿飞小卤蛋</span>
@@ -277,9 +261,7 @@ for (var j = 0; j &lt; 1000; j++) {<font></font>
 <p><a href="http://jsperf.com/empty-javascript-array-redux"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">http://jsperf.com/empty-javascript-array-redux</font></font></a></p>
 
 <p><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">警告：</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">即使在此版本的测试中，您实际上也看不到真正的区别，因为克隆阵列会占用大部分测试时间。</font><font style="vertical-align: inherit;">它仍然显示这</font></font><code>splice</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">是清除阵列的最快方法（没有</font></font><code>[]</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">考虑，因为虽然这是最快的，但实际上并未清除现有阵列）。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">理查德Stafan</span>
@@ -308,9 +290,7 @@ list.clear();<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">许多人认为您不应该修改本机对象（例如Array），我倾向于同意。</font><font style="vertical-align: inherit;">在决定如何处理时，请谨慎使用。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">老丝老丝</span>
@@ -327,9 +307,7 @@ while (a.length &gt; 0) {<font></font>
     a.pop();<font></font>
 } // Fastest<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">米亚Eva</span>
@@ -383,9 +361,7 @@ while (a.length &gt; 0) {<font></font>
 </code></pre>
 
 <p>This is the only code that correctly empties the contents of a given JavaScript array.</p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">神无阳光</span>
@@ -394,9 +370,7 @@ while (a.length &gt; 0) {<font></font>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">跨浏览器更友好，更优化的解决方案将是使用该</font></font><code>splice</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">方法清空数组A的内容，如下所示：</font></font></p>
 
 <p><code>A.splice(0, A.length);</code></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">HarryL</span>
@@ -406,9 +380,7 @@ while (a.length &gt; 0) {<font></font>
 
 <pre><code>A.length = 0;
 </code></pre></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

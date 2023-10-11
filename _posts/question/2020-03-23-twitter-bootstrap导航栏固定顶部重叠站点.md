@@ -27,7 +27,7 @@ topic: HTML
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我试图完全复制引导程序示例，但仅在使用navbar fixed top时仍然存在此问题。</font><font style="vertical-align: inherit;">我究竟做错了什么？</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第2988篇《twitter bootstrap导航栏固定顶部重叠站点》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第2988篇《twitter bootstrap导航栏固定顶部重叠站点》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -47,9 +47,7 @@ topic: HTML
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">没有花哨的轨迹，但它起作用。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Tony凯</span>
@@ -74,9 +72,7 @@ body { padding-top: 40px; }<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果require语句在正文CSS之前，则它将无效。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Mandy村村</span>
@@ -89,9 +85,7 @@ body { padding-top: 40px; }<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这应确保nav块不会拉长页面范围并覆盖页面内容。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Davaid小宇宙</span>
@@ -101,9 +95,7 @@ body { padding-top: 40px; }<font></font>
 
 <pre><code>@media (min-width: 980px) { body { padding-top: 40px; } } 
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">番长樱梅</span>
@@ -127,9 +119,7 @@ body { padding-top: 40px; }<font></font>
   visibility: hidden; <font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">JinJin</span>
@@ -142,9 +132,7 @@ body { padding-top: 40px; }<font></font>
 </blockquote>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">对于bootstrap 4</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">斯丁前端</span>
@@ -159,9 +147,7 @@ body { padding-top: 40px; }<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">该间距在所有屏幕尺寸上都非常合适。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Gil伽罗小宇宙</span>
@@ -169,9 +155,7 @@ body { padding-top: 40px; }<font></font>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">只要改变</font></font><code>fixed-top</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">用</font></font><code>sticky-top</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font><font style="vertical-align: inherit;">这样，您就不必计算填充。</font></font><br><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
 而且有效！！</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小胖Tony</span>
@@ -192,9 +176,7 @@ body { padding-top: 40px; }<font></font>
 <p><a href="https://getbootstrap.com/docs/4.0/utilities/position/#sticky-top" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Bootstrap文档参考</font></font></a></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">大概他们做对了：D</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Mandy村村</span>
@@ -210,9 +192,7 @@ body { padding-top: 40px; }<font></font>
 ...<font></font>
 &lt;/nav&gt;<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">null</span>
@@ -229,9 +209,7 @@ body { padding-top: 40px; }<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">默认情况下，这会产生40px的填充，而在768px宽度以下时会填充0px（根据bootstrap的文档，这是将在其中创建间隙的手机布局截止点）</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">DavaidTony宝儿</span>
@@ -255,9 +233,7 @@ body { padding-top: 40px; }<font></font>
 <blockquote>
   <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">固定的导航栏使用位置：固定，这意味着它们是从DOM的正常流程中拉出的，并且可能需要自定义CSS（例如上的padding-top）以防止与其他元素重叠。</font></font></p>
 </blockquote></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">神乐</span>
@@ -273,9 +249,7 @@ body { padding-top: 40px; }<font></font>
 
 <pre><code>body { padding-top: 40px; }
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小胖</span>
@@ -297,9 +271,7 @@ body { padding-top: 40px; }<font></font>
   }<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">蛋蛋猿</span>
@@ -316,9 +288,7 @@ body { padding-top: 40px; }<font></font>
 
 <pre><code>.navbar.navbar-default.navbar-static-top
 </code></pre></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

@@ -41,7 +41,7 @@ topic: JavaScript
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我希望答案直接是DOM；</font><font style="vertical-align: inherit;">如果您还提供jQuery答案以及仅DOM答案，则需要加分。</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第472篇《在JavaScript中删除DOM节点的所有子元素》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第472篇《在JavaScript中删除DOM节点的所有子元素》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -55,9 +55,7 @@ topic: JavaScript
 
 <pre><code>$("#foo").find("*").remove();
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小哥GOItachi</span>
@@ -98,9 +96,7 @@ document.getElementById("my_button").addEventListener("click",function(){<font><
 <font></font>
 })<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">NearSamHarry</span>
@@ -123,9 +119,7 @@ document.getElementById("my_button").addEventListener("click",function(){<font><
 </code></pre>
 
 <p>If I use the <code>.firstChild</code> or <code>.lastChild</code> method the <code>displayHTML()</code> function doesnt work afterwards, but no problem with the <code>.innerHTML</code> method.</p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">达蒙伽罗Tom</span>
@@ -141,9 +135,7 @@ document.getElementById("my_button").addEventListener("click",function(){<font><
 </code></pre>
 
 <p>this will not work in <code>&lt;span&gt;</code> tag!</p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Green小宇宙伽罗</span>
@@ -154,9 +146,7 @@ document.getElementById("my_button").addEventListener("click",function(){<font><
 <pre><code>let container = document.getElementById("containerId");<font></font>
 container.innerHTML = "";<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">飞云伽罗伽罗</span>
@@ -168,9 +158,7 @@ container.innerHTML = "";<font></font>
 </code></pre>
 
 <p><code>true</code> - means to do deep removal - which means that all child are also removed</p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">阿飞飞云</span>
@@ -185,9 +173,7 @@ $("*", foo ).remove();<font></font>
 or<font></font>
 foo.html("");<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">樱斯丁</span>
@@ -208,9 +194,7 @@ const domEmpty = (el) =&gt; domChildren(el).map(domRemove)<font></font>
 </code></pre>
 
 <p>removes all children from the body element.</p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">逆天乐</span>
@@ -227,9 +211,7 @@ clear(myNode);<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">clear函数采用元素并使用父节点将其自身替换为没有子元素的副本。</font><font style="vertical-align: inherit;">如果元素稀疏，则性能提升不多，但是当元素具有一堆节点时，可以实现性能提升。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Green小宇宙伽罗</span>
@@ -247,9 +229,7 @@ while (foo.firstChild) {<font></font>
 <li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">选择父div</font></font></li>
 <li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在While循环内使用“删除”方法消除第一个子元素，直到没有剩余子元素为止。</font></font></li>
 </ul></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">木心小哥</span>
@@ -261,9 +241,7 @@ while (foo.firstChild) {<font></font>
   nodeArray[0].parentNode.removeChild(nodeArray[0]);<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">达蒙西里</span>
@@ -277,9 +255,7 @@ while (foo.firstChild) {<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">根据我在Chrome和Firefox中的测量，它慢了1.3倍。</font><font style="vertical-align: inherit;">在正常情况下，这可能无关紧要。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">A小宇宙</span>
@@ -305,9 +281,7 @@ for (var i=children.length - 1; i&gt;-1; i--) {<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">你怎么看？</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">ps：这个话题对我来说是个救命稻草。</font><font style="vertical-align: inherit;">我的Firefox插件被拒绝，因为我使用了innerHTML。</font><font style="vertical-align: inherit;">长期以来一直是习惯。</font><font style="vertical-align: inherit;">那我就这样 </font><font style="vertical-align: inherit;">我实际上注意到了速度差异。</font><font style="vertical-align: inherit;">在加载时，innerhtml花费了一段时间进行更新，但是通过addElement立即进行！</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">L</span>
@@ -321,18 +295,14 @@ while(myNode.hasChildNodes())<font></font>
    myNode.removeChild(myNode.lastChild);<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">ProGreen</span>
             <span class="discuss-time">2020.03.10</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">innerText是赢家！</font></font><a href="http://jsperf.com/innerhtml-vs-removechild/133" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">http://jsperf.com/innerhtml-vs-removechild/133</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font><font style="vertical-align: inherit;">在所有先前的测试中，父节点的内部dom在第一次迭代时都被删除，然后将innerHTML或removeChild应用于空div。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Pro梅</span>
@@ -357,9 +327,7 @@ while(myNode.hasChildNodes())<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这将删除元素内的所有节点。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">逆天Stafan</span>
@@ -386,9 +354,7 @@ while (node.hasChildNodes()) {<font></font>
 </code></pre>
 
 <p><a href="https://jsperf.com/remove-all-children-from-dom-element/1" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">具有建议选项的基准</font></font></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">ProItachi</span>
@@ -407,9 +373,7 @@ while (node.hasChildNodes()) {<font></font>
 
 <pre><code>anyDom.empty()
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">猴子Davaid神乐</span>
@@ -419,9 +383,7 @@ while (node.hasChildNodes()) {<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">就像innerText一样，标准除外。</font><font style="vertical-align: inherit;">它</font><font style="vertical-align: inherit;">比</font></font><a href="http://jsperf.com/so-remove-children"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">慢</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">一些</font></font><code>removeChild()</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，但使用起来更容易，并且如果您没有太多要删除的内容，则不会对性能造成太大影响。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">NearPro</span>
@@ -433,9 +395,7 @@ while (node.hasChildNodes()) {<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">取决于您要实现的目标。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">神奇老丝</span>
@@ -452,9 +412,7 @@ while (node.hasChildNodes()) {<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">感谢Andrey </font></font><a href="http://jsperf.com/innerhtml-vs-removechild/15" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Lushnikov提供的jsperf.com链接</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">（很酷的网站！）。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">编辑：显然，Chrome在firstChild和lastChild之间没有性能差异。</font><font style="vertical-align: inherit;">最佳答案显示了一个很好的性能解决方案。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">LEY猿</span>
@@ -473,9 +431,7 @@ while (parent.firstChild) {<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">大多数用户应该拥有现代的浏览器，或者您可以根据需要向下转换。</font></font></p>
 
 <p><a href="https://caniuse.com/#feat=childnode-remove" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">浏览器支持</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> -2019年12月95％</font></font></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

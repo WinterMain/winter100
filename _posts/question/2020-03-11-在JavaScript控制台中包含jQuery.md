@@ -22,7 +22,7 @@ topic: JavaScript
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">该网站不使用jQuery。</font><font style="vertical-align: inherit;">我可以从命令行添加它吗？</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第599篇《在JavaScript控制台中包含jQuery》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第599篇《在JavaScript控制台中包含jQuery》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -37,9 +37,7 @@ topic: JavaScript
 <p>Those utilities are quite useful for selecting elements in the DOM and modifying them.</p>
 
 <p>Docs: <a href="https://developers.google.com/web/tools/chrome-devtools/console/utilities?utm_source=dcc&amp;utm_medium=redirect&amp;utm_campaign=2016q3#selector" rel="nofollow noreferrer">Chrome</a>, <a href="https://developer.mozilla.org/en-US/docs/Tools/Web_Console/The_command_line_interpreter#Helper_commands" rel="nofollow noreferrer">Firefox</a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">阳光村村</span>
@@ -48,9 +46,7 @@ topic: JavaScript
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果您要为用户脚本执行此操作，请编写以下代码：</font><a href="http://userscripts.org/scripts/show/123588" rel="nofollow"><font style="vertical-align: inherit;">http</font></a><font style="vertical-align: inherit;"> ://userscripts.org/scripts/show/123588</font></font><a href="http://userscripts.org/scripts/show/123588" rel="nofollow"><font style="vertical-align: inherit;"></font></a></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">它可以让您包括jQuery，UI和所需的任何插件。</font><font style="vertical-align: inherit;">我在具有1.5.1和没有UI的网站上使用它；</font><font style="vertical-align: inherit;">这个脚本给了我1.7.1加上UI，在Chrome或FF中没有冲突。</font><font style="vertical-align: inherit;">我自己还没有测试过Opera，但是其他人告诉我，Opera也已经为他们工作过，因此，如果您需要这样做，那么它应该是一个完整的跨浏览器用户脚本解决方案。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">镜风Davaid</span>
@@ -86,18 +82,14 @@ function use(libname) {<font></font>
     }<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Sam老丝</span>
             <span class="discuss-time">2020.03.11</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">手动完成此操作非常容易，如其他答案所述。</font><font style="vertical-align: inherit;">但是，还有</font></font><a href="https://chrome.google.com/webstore/detail/gbmifchmngifmadobkcpijhhldeeelkc" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">jQuerify插件</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">卡卡西神奇</span>
@@ -112,9 +104,7 @@ function use(libname) {<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">弗洛伦特</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">LEYJim</span>
@@ -128,9 +118,7 @@ function use(libname) {<font></font>
 </code></pre>
 
 <p><a href="https://fs.fnkr.net/UzyzudnA8l7d" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">可读的源代码在这里</font></font></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">樱小胖Mandy</span>
@@ -140,9 +128,7 @@ function use(libname) {<font></font>
 <a href="https://code.jquery.com/jquery-3.4.1.min.js" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">//code.jquery.com/jquery-3.4.1.min.js</font></font></a> </p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">并将其粘贴到控制台中。</font><font style="vertical-align: inherit;">完美运作。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Near神无Pro</span>
@@ -153,9 +139,7 @@ function use(libname) {<font></font>
 <p><a href="http://marklets.com/jQuerify.aspx" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">http://marklets.com/jQuerify.aspx</font></font></a></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">与其复制粘贴代码到其他答案中，不如将其变成可点击的书签。</font></font></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

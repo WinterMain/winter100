@@ -26,7 +26,7 @@ topic: CSS
 </code></pre></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第2839篇《SASS中的嵌套mixin或函数》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第2839篇《SASS中的嵌套mixin或函数》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -92,18 +92,14 @@ topic: CSS
 </code></pre>
 
 <p>Scoping mixins means that you can have multiple mixins named the same in different scopes without conflicts arising.</p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">StafanPro</span>
             <span class="discuss-time">2020.03.23</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">是的，您已经做对了。</font><font style="vertical-align: inherit;">您可以在第二个中调用第一个mixin。</font><font style="vertical-align: inherit;">检查这支笔</font></font><a href="http://codepen.io/crazyrohila/pen/mvqHo"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">http://codepen.io/crazyrohila/pen/mvqHo</font></font></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Mandy</span>
@@ -137,9 +133,7 @@ div {<font></font>
   padding: 5;<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

@@ -66,7 +66,7 @@ module.exports = {<font></font>
 <p><a href="https://www.samyoc.com//uploads/users/26074/images/thumbnails/1585045238236.png" data-src="https://www.samyoc.com//uploads/users/26074/images/1585045238236.png"><img src="https://i.stack.imgur.com/4QFcU.png" alt="在此处输入图片说明"></a></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第3645篇《Babel 6转换运行时：$ export不是函数》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第3645篇《Babel 6转换运行时：$ export不是函数》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}

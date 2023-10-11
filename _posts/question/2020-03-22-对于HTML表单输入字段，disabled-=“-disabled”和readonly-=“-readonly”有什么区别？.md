@@ -17,7 +17,7 @@ topic: HTML
     <div class="article-content"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我已经阅读了一些，但是对于不同的浏览器如何处理事情，我似乎找不到任何可靠的方法。</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第2572篇《对于HTML表单输入字段，disabled =“ disabled”和readonly =“ readonly”有什么区别？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第2572篇《对于HTML表单输入字段，disabled =“ disabled”和readonly =“ readonly”有什么区别？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -54,9 +54,7 @@ topic: HTML
   <li>Read only form elements are included in tabbed navigation.</li>
   </ul>
 </blockquote></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

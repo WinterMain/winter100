@@ -57,7 +57,7 @@ componentWillUnmount () {<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我在中删除了EventListener'ended' </font></font><code>componentWillUnmount</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，但是它不起作用。</font><font style="vertical-align: inherit;">因为我添加</font></font><code>this.setState({'time': remainTimeInfo});</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">了</font></font><code>componentDidMount</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第1531篇《setState（…）：只能更新已安装或正在安装的组件。这通常意味着您在未安装的组件上调用了setState（）。这是无人值守》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第1531篇《setState（…）：只能更新已安装或正在安装的组件。这通常意味着您在未安装的组件上调用了setState（）。这是无人值守》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -68,9 +68,7 @@ componentWillUnmount () {<font></font>
             <span class="discuss-time">2020.03.13</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">addEventListener和removeEventListener，回调不得为Anonymous内部类，并且它们应具有相同的参数</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">蛋蛋樱</span>
@@ -81,9 +79,7 @@ componentWillUnmount () {<font></font>
 <li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
 由于不赞成使用isMounted标志</font></font><code>setState</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，因此</font><font style="vertical-align: inherit;">在异步调用时检查组件已经卸载。</font></font><br><font style="vertical-align: inherit;"></font></li>
 </ol></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">LEY米亚</span>
@@ -110,9 +106,7 @@ componentWillUnmount () {<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">相反，我调用setState（onSuccess回调）在组件（ajax回调）本身中显示弹出模式，并解决了问题。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在第二种情况下：组件被渲染两次（我在HTML中两次包含bundle.js）。 </font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Tom阳光达蒙</span>
@@ -141,9 +135,7 @@ componentWillUnmount () {<font></font>
   }; <font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小宇宙前端</span>
@@ -164,9 +156,7 @@ render() {<font></font>
   );<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">西里米亚</span>
@@ -200,9 +190,7 @@ async componentDidMount() {<font></font>
   }<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

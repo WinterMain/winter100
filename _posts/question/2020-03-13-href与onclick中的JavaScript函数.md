@@ -24,7 +24,7 @@ topic: JavaScript
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">）与将其放入</font></font><code>onclick</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">属性（</font><font style="vertical-align: inherit;">将其</font><font style="vertical-align: inherit;">绑定到</font></font><code>onclick</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">事件）？</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第1436篇《href与onclick中的JavaScript函数》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第1436篇《href与onclick中的JavaScript函数》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -35,9 +35,7 @@ topic: JavaScript
             <span class="discuss-time">2020.03.13</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">当页面嵌入Outlook的网页功能（将邮件文件夹设置为显示url）时，我遇到了javascript：hrefs不起作用的情况</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">ItachiTom</span>
@@ -84,9 +82,7 @@ topic: JavaScript
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这种方法的好处是您可以随时加载新链接（例如，通过AJAX），而不必担心每次绑定。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">飞云卡卡西神乐</span>
@@ -114,18 +110,14 @@ function myFunc() {<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在Chrome（双击）和IE11（三次）中复制。</font><font style="vertical-align: inherit;">在Chrome中，如果您单击的速度足够快，则可以单击10次，并且只能执行1个功能。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Firefox可以正常工作。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">null</span>
             <span class="discuss-time">2020.03.13</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">就个人而言，我发现将javascript调用放在HREF标签中很烦人。</font><font style="vertical-align: inherit;">我通常并不十分注意某个内容是否为javascript链接，并且常常想在新窗口中打开内容。</font><font style="vertical-align: inherit;">当我尝试使用这些类型的链接之一执行此操作时，我得到的空白页上没有任何内容，并且我的位置栏中也没有javascript。</font><font style="vertical-align: inherit;">但是，通过使用onlick可以略过这一点。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">达蒙阿飞斯丁</span>
@@ -135,9 +127,7 @@ function myFunc() {<font></font>
 
 <pre><code>&lt;a href="#" id="sampleApp" onclick="myFunction(); return false;"&gt;Click Here&lt;/a&gt;
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">老丝Tom前端</span>
@@ -154,9 +144,7 @@ function myFunc() {<font></font>
 <p><code>onclick</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">将</font></font><code>this</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">正确</font><font style="vertical-align: inherit;">传递</font><font style="vertical-align: inherit;">上下文，而</font></font><code>href</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">不会，或者换句话说，</font></font><code>&lt;a href="javascript:doStuff(this)"&gt;no context&lt;/a&gt;</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">将不会</font></font><code>&lt;a onclick="javascript:doStuff(this)"&gt;no context&lt;/a&gt;</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">是的，我省略了</font></font><code>href</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font><font style="vertical-align: inherit;">虽然不遵循规范，它会在所有的浏览器，但是，理想的应该包括</font></font><code>href="javascript:void(0);"</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">良好的措施</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">JinJin小卤蛋JinJin</span>
@@ -166,9 +154,7 @@ function myFunc() {<font></font>
 
 <pre><code>&lt;a id="LinkTest" title="Any Title"  href="#" onclick="Function(); return false; "&gt;text&lt;/a&gt;
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">MandyL</span>
@@ -185,18 +171,14 @@ function myFunc() {<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这样做。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">阿飞路易</span>
             <span class="discuss-time">2020.03.13</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">除了此处的所有内容之外，href还会显示在浏览器的状态栏中，而onclick不会显示。</font><font style="vertical-align: inherit;">我认为在此处显示javascript代码不是用户友好的。</font></font></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

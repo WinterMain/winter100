@@ -21,7 +21,7 @@ topic: JavaScript
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">因为我确定我们不是第一个处理此问题的人，所以我认为我会将它扔给社区。</font><font style="vertical-align: inherit;">更新代码时，如何确保客户端更新其缓存？</font><font style="vertical-align: inherit;">如果您使用上述方法，是否正在使用简化更改的过程？</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第934篇《如何强制客户端刷新JavaScript文件？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第934篇《如何强制客户端刷新JavaScript文件？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -42,9 +42,7 @@ topic: JavaScript
 &lt;meta http-equiv="pragma" content="no-cache" /&gt;<font></font>
 &lt;/head&gt;<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">飞云小卤蛋</span>
@@ -58,9 +56,7 @@ RewriteCond %{REQUEST_URI} \.(jpe?g|bmp|png|gif|css|js|mp3|ogg)$ [NC]<font></fon
 RewriteCond %{QUERY_STRING} !^(.+?&amp;v33|)v=33[^&amp;]*(?:&amp;(.*)|)$ [NC]<font></font>
 RewriteRule ^ %{REQUEST_URI}?v=33 [R=301,L]<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Monkey洋</span>
@@ -72,9 +68,7 @@ RewriteRule ^ %{REQUEST_URI}?v=33 [R=301,L]<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Dave Paquette在此处提供了一个很好的示例以及缓存清除的说明（页面底部）</font></font><a href="http://www.davepaquette.com/archive/2015/05/06/link-and-script-tag-helpers-in-mvc6.aspx" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">缓存清除</font></font></a> </p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">逆天神奇</span>
@@ -83,18 +77,14 @@ RewriteRule ^ %{REQUEST_URI}?v=33 [R=301,L]<font></font>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">最简单的解决方案？</font><font style="vertical-align: inherit;">不要让浏览器完全缓存。</font><font style="vertical-align: inherit;">附加当前时间（以毫秒为单位）作为查询。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">（您仍处于测试阶段，因此您可以为不针对性能进行优化提供合理的理由。这里是YMMV。）</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Green前端</span>
             <span class="discuss-time">2020.03.12</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">尽管它是特定于框架的，但Django 1.4具有</font></font><a href="https://docs.djangoproject.com/en/dev/ref/contrib/staticfiles/#django.contrib.staticfiles.storage.CachedStaticFilesStorage" rel="nofollow noreferrer" title="此功能"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">此功能</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，其工作方式与</font><a href="https://stackoverflow.com/a/32427/110226"><font style="vertical-align: inherit;">上述答案中</font></a><font style="vertical-align: inherit;">指向“ greenfelt”站点的链接类似</font></font><a href="https://stackoverflow.com/a/32427/110226"><font style="vertical-align: inherit;"></font></a> </p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Eva阿飞</span>
@@ -103,18 +93,14 @@ RewriteRule ^ %{REQUEST_URI}?v=33 [R=301,L]<font></font>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">使用版本</font></font><code>GET</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">变量来防止浏览器缓存。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">附加</font></font><code>?v=AUTO_INCREMENT_VERSION</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">到网址末尾可防止浏览器缓存-避免任何和所有缓存的脚本。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">null</span>
             <span class="discuss-time">2020.03.12</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我在</font></font><a href="http://www.stefanhayden.com/blog/2006/04/03/css-caching-hack/" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">http://www.stefanhayden.com/blog/2006/04/03/css-caching-hack/上</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">发布（参考CSS）后，我的同事刚刚找到了对该方法的引用</font><font style="vertical-align: inherit;">。</font><font style="vertical-align: inherit;">很高兴看到其他人正在使用它，并且似乎可以正常工作。</font><font style="vertical-align: inherit;">在这一点上，我认为在所有脚本标签中没有比找到替换增加这些“版本号”更好的方法了吗？</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">理查德小胖Harry</span>
@@ -125,9 +111,7 @@ RewriteRule ^ %{REQUEST_URI}?v=33 [R=301,L]<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">您可能根本不希望浏览器完全不缓存这些资源。</font><font style="vertical-align: inherit;">您更可能希望将其缓存，但希望浏览器在文件可用时获取新版本。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">最常见的解决方案似乎是在文件名本身中嵌入时间戳或修订号。</font><font style="vertical-align: inherit;">这需要做更多的工作，因为需要修改您的代码以请求正确的文件，但这意味着，例如，您的版本7 </font></font><code>snazzy_javascript_file.js</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">（即</font></font><code>snazzy_javascript_file_7.js</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">）会在浏览器中缓存，直到您发布版本8，然后您的代码更改为取</font></font><code>snazzy_javascript_file_8.js</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">来代替。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小胖Gil</span>
@@ -138,9 +122,7 @@ RewriteRule ^ %{REQUEST_URI}?v=33 [R=301,L]<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我遇到的问题</font></font><code>file.js?V=1</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">是，在使用新版本的库实用程序时，您可能在另一个JavaScript文件中有从属代码会中断。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">为了向后兼容，我认为最好</font></font><code>jQuery.1.3.js</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在新页面上使用并让现有页面使用</font></font><code>jQuery.1.1.js</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，直到必要时准备升级旧页面为止。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">斯丁JinJinHarry</span>
@@ -150,9 +132,7 @@ RewriteRule ^ %{REQUEST_URI}?v=33 [R=301,L]<font></font>
 
 <pre><code>&lt;script src="~/JsFilePath/JsFile.js?v=@DateTime.UtcNow.ToString()"&gt;&lt;/script&gt;
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">蛋蛋斯丁</span>
@@ -172,9 +152,7 @@ RewriteRule ^ %{REQUEST_URI}?v=33 [R=301,L]<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在</font><a href="http://api.jquery.com/jQuery.getScript/" rel="nofollow"><font style="vertical-align: inherit;">http://api.jquery.com/jQuery.getScript/中</font></a><font style="vertical-align: inherit;">检查该功能</font></font><a href="http://api.jquery.com/jQuery.getScript/" rel="nofollow"><font style="vertical-align: inherit;"></font></a></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">默认情况下，$。getScript（）将缓存设置设置为false。</font><font style="vertical-align: inherit;">这会将带时间戳的查询参数附加到请求URL，以确保浏览器在每次请求时都下载脚本。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">A村村</span>
@@ -185,9 +163,7 @@ RewriteRule ^ %{REQUEST_URI}?v=33 [R=301,L]<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">参见</font></font><a href="https://www.w3schools.com/jsref/met_loc_reload.asp" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">https://www.w3schools.com/jsref/met_loc_reload.asp</font></font></a></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我动态调用这一行代码，以确保已从Web服务器而不是从浏览器的缓存中重新检索了javascript，从而避免了此问题。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Jim老丝L</span>
@@ -198,9 +174,7 @@ RewriteRule ^ %{REQUEST_URI}?v=33 [R=301,L]<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">所以</font></font><code>stuff.js?123</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我</font><font style="vertical-align: inherit;">代替了</font></font><code>stuff_123.js</code> </p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我曾用过</font></font><code>mod_redirect</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">（我认为）</font></font><code>have stuff_*.js</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">去</font></font><code>stuff.js</code></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">猿乐</span>
@@ -235,9 +209,7 @@ RewriteRule ^ %{REQUEST_URI}?v=33 [R=301,L]<font></font>
     ...<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Eva前端</span>
@@ -251,9 +223,7 @@ RewriteRule ^ %{REQUEST_URI}?v=33 [R=301,L]<font></font>
 main。</font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">b746e3eb72875af2caa9</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> .js</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">通常，这是构建工具（例如webpack）的工作。</font><font style="vertical-align: inherit;">如果有人想尝试使用webpack，</font><font style="vertical-align: inherit;">这里有更多</font></font><a href="https://webpack.js.org/guides/caching/#output-filenames" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">详细信息</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Green理查德</span>
@@ -272,9 +242,7 @@ main。</font></font><strong><font style="vertical-align: inherit;"><font style=
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">添加DateTime.Now.Ticks效果很好。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">蛋蛋猿</span>
@@ -283,9 +251,7 @@ main。</font></font><strong><font style="vertical-align: inherit;"><font style=
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果要生成链接到JS文件的页面，则一种简单的解决方案是将文件的最后修改时间戳记附加到生成的链接。 </font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这与Huppie的答案非常相似，但是可以在没有关键字替换的版本控制系统中使用。</font><font style="vertical-align: inherit;">这也比追加当前时间更好，因为即使文件完全没有更改，这样做也可以防止缓存。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Stafan猴子</span>
@@ -302,9 +268,7 @@ main。</font></font><strong><font style="vertical-align: inherit;"><font style=
 
 <pre><code>Cache-Control: no-cache, must-revalidate
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Harry泡芙</span>
@@ -313,9 +277,7 @@ main。</font></font><strong><font style="vertical-align: inherit;"><font style=
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Google Page-Speed：在URL中不要包含用于静态资源的查询字符串。</font><font style="vertical-align: inherit;">大多数代理（最著名的是通过3.0版的Squid up）不使用“？”缓存资源。</font><font style="vertical-align: inherit;">即使响应中存在Cache-control：公共标头，也不会在其URL中显示。</font><font style="vertical-align: inherit;">要为这些资源启用代理缓存，请从对静态资源的引用中删除查询字符串，然后将参数编码为文件名本身。</font></font></p>
 
 <p>In this case, you can include the version into URL ex: <a href="http://abc.com/">http://abc.com/</a><strong>v1.2</strong>/script.js and use apache mod_rewrite to redirect the link to <a href="http://abc.com/script.js">http://abc.com/script.js</a>. When you change the version, client browser will update the new file.</p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">老丝Eva</span>
@@ -337,9 +299,7 @@ NETWORK:<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">并在每次您希望用户更新其缓存时使用新的时间戳生成该文件。</font><font style="vertical-align: inherit;">附带说明一下，如果添加了此选项，则</font><font style="vertical-align: inherit;">在清单通知您之前</font><font style="vertical-align: inherit;">，浏览器将</font></font><em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">不会</font></font></em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">重新加载（即使当用户刷新页面时）。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">猴子古一蛋蛋</span>
@@ -368,9 +328,7 @@ NETWORK:<font></font>
 <hr>
 
 <p>Of course, there are always better solutions like <a href="http://blog.greenfelt.net/2009/09/01/caching-javascript-safely/" rel="noreferrer">this one</a>.</p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

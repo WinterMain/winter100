@@ -37,7 +37,7 @@ npm WARN package.json ctype@0.5.2 No repository field.<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我是Node.js和Express.js的新手。</font><font style="vertical-align: inherit;">为什么会有以上警告？</font><font style="vertical-align: inherit;">我应该担心吗？</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第1576篇《npm WARN package.json：无存储库字段》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第1576篇《npm WARN package.json：无存储库字段》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -49,18 +49,14 @@ npm WARN package.json ctype@0.5.2 No repository field.<font></font>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">使用npm install -g angular-cli代替</font></font><br><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
     npm install -g @ nagular / cli安装Angular</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">JinJin乐</span>
             <span class="discuss-time">2020.03.14</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">是的，可能您可以通过</font></font><code>-f</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在命令末尾添加</font><font style="vertical-align: inherit;">来重新/创建一个</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小哥Eva</span>
@@ -74,9 +70,7 @@ npm WARN package.json ctype@0.5.2 No repository field.<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">然后，它将显示正确的信息，因此您不会猜测版本文件的位置等</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">请享用 ：）</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小宇宙飞云</span>
@@ -91,9 +85,7 @@ npm WARN package.json ctype@0.5.2 No repository field.<font></font>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">那对我有用。</font></font><br><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
 通过添加</font></font><code>private</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，您无需链接到存储库。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">L西门</span>
@@ -118,9 +110,7 @@ npm WARN package.json ctype@0.5.2 No repository field.<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">NPM文档有关此内容：</font><a href="https://docs.npmjs.com/files/package.json" rel="noreferrer"><font style="vertical-align: inherit;">https</font></a><font style="vertical-align: inherit;"> : </font></font><a href="https://docs.npmjs.com/files/package.json" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">//docs.npmjs.com/files/package.json</font></font></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">逆天米亚</span>
@@ -142,18 +132,14 @@ npm WARN package.json ctype@0.5.2 No repository field.<font></font>
       "url" : "http://github.com/npm/express.git" <font></font>
    }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">JinJinDavaid卡卡西</span>
             <span class="discuss-time">2020.03.14</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">你跑了</font></font><code>npm init</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">吗？</font><font style="vertical-align: inherit;">该命令将遍历所有内容...</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">路易逆天</span>
@@ -166,9 +152,7 @@ npm WARN package.json ctype@0.5.2 No repository field.<font></font>
    "url" : "https://github.com/npm/npm.git"<font></font>
  }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">米亚西门</span>
@@ -195,9 +179,7 @@ npm WARN package.json ctype@0.5.2 No repository field.<font></font>
   "private": true<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">村村伽罗Mandy</span>
@@ -211,9 +193,7 @@ npm WARN package.json ctype@0.5.2 No repository field.<font></font>
   "private": true<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">宝儿猪猪西门</span>
@@ -244,9 +224,7 @@ npm WARN package.json ctype@0.5.2 No repository field.<font></font>
   "private": true<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

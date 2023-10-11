@@ -25,7 +25,7 @@ topic: Vue.js
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">编辑：我也发现</font></font><a href="https://til.hashrocket.com/posts/sxbrscjuqu-share-scss-variables-with-javascript" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">那篇文章，</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">但对我来说，它是行不通的。</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第3816篇《是否可以在Vuex（Nuxt）中的SASS和Javascript之间共享变量？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第3816篇《是否可以在Vuex（Nuxt）中的SASS和Javascript之间共享变量？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}

@@ -21,7 +21,7 @@ topic: CSS
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我能做些什么来实现这一目标？</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第4034篇《Sublime SFTP-保存sass文件时上传已编译的CSS》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第4034篇《Sublime SFTP-保存sass文件时上传已编译的CSS》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -32,9 +32,7 @@ topic: CSS
             <span class="discuss-time">2020.04.03</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">SFTP为此提供了一个选项。</font><font style="vertical-align: inherit;">在程序包控件中搜索SFTP&gt;监视文件。</font><font style="vertical-align: inherit;">选择后，“ SFTP监视”将出现在底部命令信息中。</font><font style="vertical-align: inherit;">现在，每次保存时，sass和兼容的css都将被上载到其重复的文件夹中。  </font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">卡卡西</span>
@@ -45,9 +43,7 @@ topic: CSS
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我建议您使用某种东西来监视您的css文件夹，并自动将所有更改上传到您的服务器。</font><font style="vertical-align: inherit;">使用优质的WinSCP（如果您使用的是Windows）可以使用，但是任何同步文件夹的方法都可以使用。</font></font></p>
 
 <p><a href="http://winscp.net/eng/docs/task_keep_up_to_date" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">http://winscp.net/eng/docs/task_keep_up_to_date</font></font></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Gil伽罗小宇宙</span>
@@ -58,9 +54,7 @@ topic: CSS
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">然后，您可以进行构建/编译，打开本地已编译文件，右键单击代码，然后在SFTP / FTP菜单中选择“监视文件”选项。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">现在，当您将来再次构建时，在编译文件仍然打开的情况下，它们将在不久之后上载到服务器（以及在切换选项卡以查看它们时在Sublime中刷新）。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">西里神奇</span>
@@ -69,18 +63,14 @@ topic: CSS
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我仍在使用Sublime SFTP上传脚本文件（js / css / php等）。</font><font style="vertical-align: inherit;">通常，我按快捷方式上传打开的文件（Ctrl Alt U + N）。</font><font style="vertical-align: inherit;">但这很烦人，尤其是在频繁使用免责声明窗口的情况下。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我在nodejs上编写了一个简单的工具，它可以监视项目文件夹并在更改后上载任何文件。</font><font style="vertical-align: inherit;">它并不完美，但是使我的工作流程更加舒适：</font></font><a href="https://github.com/liberborn/live-uploader" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">https</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> : </font><a href="https://github.com/liberborn/live-uploader" rel="nofollow"><font style="vertical-align: inherit;">//github.com/liberborn/live-uploader</font></a><font style="vertical-align: inherit;">。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">JinJin</span>
             <span class="discuss-time">2020.04.03</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我最终报废了SFTP并使用</font></font><a href="http://www.expandrive.com/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">ExpanDrive</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font><font style="vertical-align: inherit;">非常适合我的工作流程。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">蛋蛋猿</span>
@@ -105,9 +95,7 @@ topic: CSS
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">注意：您也可以通过在侧边栏上右键单击要监视的文件并选择...来启用文件监视。</font></font></p>
 
 <p><img src="https://i.stack.imgur.com/Lbufv.png" alt="边栏对话框选项，用于启用文件监视"></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

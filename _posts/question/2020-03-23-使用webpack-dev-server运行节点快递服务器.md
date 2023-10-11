@@ -100,7 +100,7 @@ module.exports = [<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我对node和webpack都是新手，所以我在某个地方犯了一个小错误，或者我走得很远;）</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第3031篇《使用webpack-dev-server运行节点快递服务器》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第3031篇《使用webpack-dev-server运行节点快递服务器》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}

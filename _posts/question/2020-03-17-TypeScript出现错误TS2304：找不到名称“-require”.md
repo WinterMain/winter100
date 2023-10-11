@@ -52,7 +52,7 @@ tsd install require --save<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">产生的.js文件似乎可以正常工作，因此我可以忽略该错误。</font><font style="vertical-align: inherit;">但是，我很高兴知道为什么会发生此错误以及我在做什么错。</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第1912篇《TypeScript出现错误TS2304：找不到名称“ require”》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第1912篇《TypeScript出现错误TS2304：找不到名称“ require”》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -69,9 +69,7 @@ tsd install require --save<font></font>
 </blockquote>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">而且错误不会再出现。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小哥猿</span>
@@ -90,9 +88,7 @@ tsd install require --save<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我的问题是空</font></font><code>types</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在这</font></font><code>tsconfi.app.json</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">-它则会覆盖了一个在基本配置。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Harry蛋蛋Eva</span>
@@ -102,9 +98,7 @@ tsd install require --save<font></font>
 
 <pre><code>"typeRoots": [ "../node_modules/@types" ]
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">西里西里</span>
@@ -113,9 +107,7 @@ tsd install require --save<font></font>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果您可以编译代码，但Visual Studio 2015将“需要”功能标记为带有错误文本的错误，</font></font><em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">则找不到名称“需要”</font></font></em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">或</font></font><em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">无法解析符号“需要”</font></font></em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，请将TypeScript for Visual Studio 2015更新到最新版本（当前为2.1）。 5）并将ReSharper（如果使用的话）更新到至少2016.3.2版。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我有一个烦人的问题，有一段时间无法找到解决方案，但是我终于以这种方式解决了。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Stafan小宇宙</span>
@@ -128,9 +120,7 @@ tsd install require --save<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">您可以从以下位置下载工具的最新版本：</font></font></p>
 
 <p><em><a href="https://www.microsoft.com/en-us/download/details.aspx?id=48593" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">适用于Visual Studio 2015的TypeScript</font></font></a></em></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">神无宝儿</span>
@@ -144,9 +134,7 @@ tsd install require --save<font></font>
     "typings/index.d.ts"<font></font>
 ]<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">十三飞云</span>
@@ -160,9 +148,7 @@ tsd install require --save<font></font>
 <code>tsd install mongoose --save</code></p></li>
 <li><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">不要使用</font></font><code>var</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">声明变量（除非有必要，这是一种非常罕见的情况），请</font></font><code>let</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">改用。  </font></font><a href="http://www.typescriptlang.org/docs/handbook/variable-declarations.html" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">进一步了解</font></font></a></p></li>
 </ol></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">米亚猴子</span>
@@ -181,9 +167,7 @@ interface Window {<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">请注意，我的案例是使用Electron + Angular 2/4开发的。</font><font style="vertical-align: inherit;">我需要全局窗口上的需求。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">乐神乐前端</span>
@@ -200,27 +184,21 @@ interface Window {<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">到您的</font></font><code>tsconfig.json</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">文件。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小卤蛋卡卡西</span>
             <span class="discuss-time">2020.03.17</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">从“猫鼬”进口*作为猫鼬</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Near达蒙</span>
             <span class="discuss-time">2020.03.17</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">确保已安装 </font></font><code>npm i @types/node</code></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">AMandy前端</span>
@@ -235,9 +213,7 @@ interface Window {<font></font>
 </ol>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">干杯!</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">宝儿DavaidL</span>
@@ -258,9 +234,7 @@ interface Window {<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我希望有人觉得这有帮助，因为此错误使我发白。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">樱阳光Pro</span>
@@ -292,9 +266,7 @@ interface NodeModule {<font></font>
     children: any[];<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">卡卡西小卤蛋GO</span>
@@ -304,9 +276,7 @@ interface NodeModule {<font></font>
 
 <pre><code>    "types": ["node"], // within compilerOptions
 </code></pre></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

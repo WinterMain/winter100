@@ -24,7 +24,7 @@ tags: HTML
 </div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第79篇《在HTML中data-value和value有什么区别？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第79篇《在HTML中data-value和value有什么区别？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -37,9 +37,7 @@ tags: HTML
           <div class="discuss-comment">They are both attributes, but the value attribute (together with name attribute) can be natively accessed by most server-side languages. Whereas data-value can only be natively accessed by the client-side.
 
 Data attribute can also have different suffix, you could name it; data-name, data-email, data-content, and etc. You could say it's "customizable".</div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

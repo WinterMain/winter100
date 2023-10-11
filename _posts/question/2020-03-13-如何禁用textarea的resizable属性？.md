@@ -21,7 +21,7 @@ topic: HTML
 <p><a href="https://www.samyoc.com//uploads/users/555/images/thumbnails/1584085818315.png" data-src="https://www.samyoc.com//uploads/users/555/images/1584085818315.png" rel="noreferrer"><img src="https://i.stack.imgur.com/xrfWQ.png" alt="在此处输入图片说明"></a></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第1416篇《如何禁用textarea的resizable属性？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第1416篇《如何禁用textarea的resizable属性？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -37,9 +37,7 @@ topic: HTML
 </code></pre>
 
 <p><code>outline</code> is just to avoid the blue outline on certain browsers.</p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">西里A</span>
@@ -49,9 +47,7 @@ topic: HTML
 
 <pre><code>@Html.TextAreaFor(model =&gt; model.YourProperty, new { @style = "width: 90%; height: 180px; resize: none;" })
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小小Stafan宝儿</span>
@@ -74,9 +70,7 @@ topic: HTML
 }<font></font>
 </code></pre></li>
 </ul></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">GO小胖</span>
@@ -125,9 +119,7 @@ topic: HTML
 </code></pre>
 
 <p>Also if you have <code>width</code> and <code>height</code> in your CSS or HTML, it will prevent your textarea be resized, with a broader browsers support.</p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">A达蒙</span>
@@ -149,9 +141,7 @@ topic: HTML
 
 <pre><code>resize: horizontal;
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">逆天蛋蛋达蒙</span>
@@ -166,9 +156,7 @@ topic: HTML
     max-height: /* desired fixed height */ px;<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">神奇老丝</span>
@@ -182,9 +170,7 @@ topic: HTML
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这是一个CSS 3属性。</font><font style="vertical-align: inherit;">使用</font></font><a href="http://quirksmode.org/css/contents.html" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">兼容性图表</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">查看浏览器的兼容性。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我个人认为禁用textarea元素的大小调整会很烦人。</font><font style="vertical-align: inherit;">这是设计人员试图“破坏”用户客户端的情况之一。</font><font style="vertical-align: inherit;">如果您的设计不能容纳较大的文本区域，则可能需要重新考虑设计的工作方式。</font><font style="vertical-align: inherit;">任何用户都可以添加</font></font><code>textarea { resize: both !important; }</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">到其用户样式表中以覆盖您的首选项。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小小Jim</span>
@@ -192,9 +178,7 @@ topic: HTML
           </div>
           <div class="discuss-comment"><pre><code>&lt;textarea style="resize:none" rows="10" placeholder="Enter Text" &gt;&lt;/textarea&gt;
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">村村乐</span>
@@ -206,9 +190,7 @@ topic: HTML
     resize: none;<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">JinJin小卤蛋JinJin</span>
@@ -220,9 +202,7 @@ topic: HTML
 </code></pre>
 
 <p>This works for me. The default value is <code>true</code> for the <code>draggable</code> attribute.</p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">番长猿阳光</span>
@@ -272,9 +252,7 @@ topic: HTML
 </ul>
 
 <p><img src="https://i.stack.imgur.com/VxYgY.png" alt="在此处输入图片说明"></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

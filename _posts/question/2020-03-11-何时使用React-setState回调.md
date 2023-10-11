@@ -17,7 +17,7 @@ topic: React.js
     <div class="article-content"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">当反应组件状态改变时，将调用render方法。</font><font style="vertical-align: inherit;">因此，对于任何状态更改，都可以在渲染方法主体中执行操作。</font><font style="vertical-align: inherit;">那么setState回调是否有特定的用例？</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第607篇《何时使用React setState回调》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第607篇《何时使用React setState回调》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -59,9 +59,7 @@ topic: React.js
 <p>Thus whenever we need to update our current state to next state based on value possed by property just now and all this is happening in async fashion it is good idea to use setState as callback function.</p>
 
 <p><em>I have tried to explain it in codepen here</em> <a href="https://codepen.io/vtechguys/pen/gJBJxp" rel="nofollow noreferrer">CODE PEN</a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">老丝村村</span>
@@ -85,9 +83,7 @@ performSearch = () =&gt; {<font></font>
 </blockquote>
 
 <p><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">非常糟糕的做法</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，因为</font></font><code>render</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">-method应该是纯净的，这意味着不应执行任何操作，状态更改，api调用，只需合并视图并返回即可。</font><font style="vertical-align: inherit;">仅应在某些事件上执行操作。</font><font style="vertical-align: inherit;">渲染不是事件，而是</font></font><code>componentDidMount</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">例如。</font></font></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

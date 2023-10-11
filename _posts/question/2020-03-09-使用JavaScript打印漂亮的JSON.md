@@ -17,7 +17,7 @@ topic: JavaScript
     <div class="article-content"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如何以易于阅读的格式（对人类读者而言）显示JSON？</font><font style="vertical-align: inherit;">我主要是在寻找缩进和空格，甚至可能是颜色/字体样式/等等。</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第191篇《使用JavaScript打印漂亮的JSON》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第191篇《使用JavaScript打印漂亮的JSON》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -64,9 +64,7 @@ $( document ).ready(function()<font></font>
 });<font></font>
 &lt;/script&gt;<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Tom伽罗</span>
@@ -78,9 +76,7 @@ $( document ).ready(function()<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">生成依赖于Python3和Java。</font><font style="vertical-align: inherit;">添加</font></font><code>-n</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">以生成非缩小版本。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">null</span>
@@ -127,9 +123,7 @@ console.log(pretty(obj));<font></font>
   }<font></font>
 */<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">GO小胖</span>
@@ -149,9 +143,7 @@ console.log(pretty(obj));<font></font>
 
 <pre><code>Prism.highlightAll()
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">斯丁猿</span>
@@ -188,9 +180,7 @@ console.log(pretty(obj));<font></font>
 </font></font><a href="https://codepen.io/benshope/pen/BxVpjo" rel="nofollow noreferrer"><font style="vertical-align: inherit;"></font></a></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">希望有帮助！</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">老丝村村</span>
@@ -200,9 +190,7 @@ console.log(pretty(obj));<font></font>
 第二个参数用作替换函数，该函数使用key和Val作为参数。如果要在JSON对象中进行修改，</font><font style="vertical-align: inherit;">可以使用</font><font style="vertical-align: inherit;">第二个参数。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">更多参考：</font><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/JSON/stringify" rel="nofollow noreferrer"><font style="vertical-align: inherit;">https</font></a><font style="vertical-align: inherit;"> : </font></font><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/JSON/stringify" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">//developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/JSON/stringify</font></font></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">飞云前端西门</span>
@@ -211,9 +199,7 @@ console.log(pretty(obj));<font></font>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Douglas Crockford在JavaScript库中的JSON将通过stringify方法漂亮地打印JSON。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">您可能还会发现以下问题的答案很有用：</font></font><a href="https://stackoverflow.com/questions/352098/how-to-pretty-print-json-script"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如何在（unix）shell脚本中漂亮地打印JSON？</font></font></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">神无伽罗阳光</span>
@@ -225,9 +211,7 @@ console.log(pretty(obj));<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在此处阅读更多信息：</font><a href="https://developer.mozilla.org/pt-BR/docs/Web/API/Console/table" rel="nofollow noreferrer"><font style="vertical-align: inherit;">https</font></a><font style="vertical-align: inherit;"> : </font></font><a href="https://developer.mozilla.org/pt-BR/docs/Web/API/Console/table" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">//developer.mozilla.org/pt-BR/docs/Web/API/Console/table</font></font></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小哥前端</span>
@@ -242,9 +226,7 @@ console.log(pretty(obj));<font></font>
 <li><a href="https://getfirebug.com/wiki/index.php/Console_API"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">https://getfirebug.com/wiki/index.php/Console_API</font></font></a></li>
 <li><a href="https://developer.mozilla.org/en-US/docs/DOM/console"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">https://developer.mozilla.org/zh-CN/docs/DOM/console</font></font></a></li>
 </ul></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">伽罗Mandy</span>
@@ -262,9 +244,7 @@ console.dir(object, {depth: null, colors: true})<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">对于命令行：</font></font></p>
 
 <p><code>cat package.json | node -e "process.stdin.pipe(new stream.Writable({write: chunk =&gt; console.dir(JSON.parse(chunk), {depth: null, colors: true})}))"</code></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">米亚小小神乐</span>
@@ -277,9 +257,7 @@ console.dir(object, {depth: null, colors: true})<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我还发布了一个在线的独立JSON漂亮打印查看器jsonreport.js，该查看器提供了人类可读的HTML5报告，可用于查看任何JSON数据。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">您可以在“ </font></font><em><a href="https://github.com/ServiceStack/ServiceStack/wiki/HTML5ReportFormat" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">新JavaScript HTML5报告格式”中</font></font></a></em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">阅读有关该格式的更多信息</font><font style="vertical-align: inherit;">。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">达蒙阳光乐</span>
@@ -310,9 +288,7 @@ document.getElementById("result-after").innerHTML = "&lt;pre&gt;"+JSON.stringify
 </div>
 </div>
 <p></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

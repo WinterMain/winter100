@@ -17,7 +17,7 @@ topic: CSS
     <div class="article-content"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我想知道是否有可能在使用CSS单击文本输入/文本区域时删除默认的蓝色和黄色发光？</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第2710篇《删除Safari / Chrome文本输入/ textarea发光》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第2710篇《删除Safari / Chrome文本输入/ textarea发光》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -31,9 +31,7 @@ topic: CSS
 
 <pre><code>input.slidingdoorbutton:focus { outline: none;}
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">卡卡西</span>
@@ -54,9 +52,7 @@ button:hover<font></font>
     outline:0px !important;<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">达蒙</span>
@@ -69,9 +65,7 @@ button:hover<font></font>
     box-shadow: none !important;<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">斯丁</span>
@@ -84,9 +78,7 @@ button:hover<font></font>
   outline-style: none;<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">番长樱梅</span>
@@ -109,9 +101,7 @@ button:hover<font></font>
   outline-style: none;<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">卡卡西Near</span>
@@ -124,9 +114,7 @@ button:hover<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">查看</font><font style="vertical-align: inherit;">我写的</font></font><a href="https://www.sitebase.be/disable-focus-outline-without-breaking-accessibility/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这篇文章</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，以解释如何以一种易于访问的方式删除边框。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">简而言之，想法是仅在我们检测到键盘用户时才显示轮廓边框。</font><font style="vertical-align: inherit;">用户开始使用鼠标后，我们将禁用轮廓。</font><font style="vertical-align: inherit;">结果，您可以充分利用两者的优势。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">A村村</span>
@@ -138,9 +126,7 @@ button:hover<font></font>
 </code></pre>
 
 <p><em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这将禁用Webkit移动浏览器中的默认按钮突出显示</font></font></em></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">DavaidTony宝儿</span>
@@ -165,9 +151,7 @@ button:hover<font></font>
 <li><code>outline-color: transparent;</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> 表示蓝色发光是透明的。</font></font></li>
 <li><code>outline-style: none;</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> 做同样的事情。</font></font></li>
 </ul></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">阿飞</span>
@@ -186,9 +170,7 @@ button:hover<font></font>
 
 <pre><code>-webkit-appearance: none;
 </code></pre></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

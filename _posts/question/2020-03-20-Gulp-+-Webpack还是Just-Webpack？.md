@@ -36,7 +36,7 @@ topic: Webpack
 </code></pre></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第2523篇《Gulp + Webpack还是Just Webpack？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第2523篇《Gulp + Webpack还是Just Webpack？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -56,9 +56,7 @@ topic: Webpack
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我仍然必须找到一种用webpack打包css的不错的解决方案，到目前为止，我很高兴将gulp用于css和将webpack用于javascript。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我还</font></font><code>npm</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">按照描述将脚本用作@Tetradev。</font><font style="vertical-align: inherit;">特别是因为我正在使用</font></font><code>Visual Studio</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，并且虽然</font></font><code>NPM Task runner</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">很</font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">可靠</font></font></strong> <code>Webpack Task Runner</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，但是却很</font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">容易出错</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">老丝泡芙</span>
@@ -71,9 +69,7 @@ topic: Webpack
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在过去的一年中，我们公司从Gulp迁移到Webpack。</font><font style="vertical-align: inherit;">尽管花费了一些时间，但我们仍想出了如何将在Gulp中所做的所有工作转移到Webpack。</font><font style="vertical-align: inherit;">因此，对我们来说，我们在Gulp中所做的一切也可以通过Webpack来完成，但反之则不行。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">从今天开始，我建议您只使用Webpack，避免将Gulp和Webpack混合使用，这样您和您的团队就无需学习和维护两者，尤其是因为它们需要截然不同的心态。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小卤蛋</span>
@@ -94,9 +90,7 @@ topic: Webpack
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">但是从我的经验来看，webpack生态系统提供了我所需的足够多的插件和加载器，因此我喜欢使用最基本的方法，除非您只能在吞吃中做些。</font><font style="vertical-align: inherit;">而且，如果您的系统中少了一件东西，它将使您的配置更加容易。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如今，很多时候，我看到人们实际上将</font></font><code>gulp and browsify</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">所有的</font><font style="vertical-align: inherit;">人都替换成了一个人</font></font><code>webpack</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">LGil</span>
@@ -105,9 +99,7 @@ topic: Webpack
           <div class="discuss-comment"><p><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">2020年更新</font></font></strong></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果您使用</font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">ReactJS</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，请使用</font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">create-react-app</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font><font style="vertical-align: inherit;">我一直在尝试使用webpack和gulp的组合在Electron中配置React App，但是以某种方式失败了。</font><font style="vertical-align: inherit;">然后，感谢</font></font><a href="https://www.freecodecamp.org/news/building-an-electron-application-with-create-react-app-97945861647c/" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">本文</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">解决了我的问题。</font><font style="vertical-align: inherit;">如果您尝试使用gulp进行sass编译，则也可以使用create-react-app进行此操作，如</font></font><a href="https://create-react-app.dev/docs/adding-a-sass-stylesheet" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">官方文档中所述</font></font></a></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

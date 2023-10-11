@@ -38,7 +38,7 @@ function doSomething() {<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">还有其他方法可以克服吗？</font><font style="vertical-align: inherit;">处理程序</font></font><code>created</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">和</font></font><code>$route</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">更改</font><font style="vertical-align: inherit;">的处理程序</font><font style="vertical-align: inherit;">可以合并吗？</font><font style="vertical-align: inherit;">是否可以禁用组件的重用，以便根本不需要观察者？</font><font style="vertical-align: inherit;">我正在使用Vue 2，但这对于Vue 1也可能很有趣。</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第1803篇《使用Vue Router应对参数更改的最佳实践》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第1803篇《使用Vue Router应对参数更改的最佳实践》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -58,9 +58,7 @@ function doSomething() {<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">将其添加到视图后，您无需再观看</font></font><code>$route</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">了。</font><font style="vertical-align: inherit;">相反，Vue.js将创建该组件的全新实例，并调用</font></font><code>created</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">回调。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">但是，这是一个全有或全无的解决方案。</font><font style="vertical-align: inherit;">在我当前正在开发的小型应用程序上，它似乎运行良好。</font><font style="vertical-align: inherit;">但这可能会影响其他应用程序的性能。</font><font style="vertical-align: inherit;">如果您确实只想仅对某些路由禁用视图的重用，则可以查看</font><a href="https://github.com/vuejs/vue-router/issues/474#issuecomment-258139659" rel="noreferrer"><font style="vertical-align: inherit;">根据route</font></a><font style="vertical-align: inherit;">设置</font></font><code>key</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">的值</font><font style="vertical-align: inherit;">。</font><font style="vertical-align: inherit;">但是我真的不喜欢这种方法。</font></font><a href="https://github.com/vuejs/vue-router/issues/474#issuecomment-258139659" rel="noreferrer"><font style="vertical-align: inherit;"></font></a><font style="vertical-align: inherit;"></font></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

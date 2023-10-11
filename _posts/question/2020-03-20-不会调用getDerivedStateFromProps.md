@@ -126,7 +126,7 @@ export default withReduxSaga(Index)<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这里有人可以帮我吗？</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第2525篇《不会调用getDerivedStateFromProps》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第2525篇《不会调用getDerivedStateFromProps》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -141,18 +141,14 @@ export default withReduxSaga(Index)<font></font>
 <pre><code>"react": "^16.3.1",<font></font>
 "react-dom": "^16.3.1"<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">樱LEY神无</span>
             <span class="discuss-time">2020.03.20</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我看到</font></font><a href="https://github.com/zeit/next.js/releases/tag/6.0.0-canary.2" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在next.JS的6.0.0-canary.2版本中修补</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">了对该钩子的支持</font><font style="vertical-align: inherit;">。</font><font style="vertical-align: inherit;">因此，我猜测您使用的是旧版本。</font></font></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

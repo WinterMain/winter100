@@ -19,7 +19,7 @@ topic: JavaScript
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我需要一种适用于所有浏览器的方法。</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第502篇《如何使用JavaScript重新加载页面》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第502篇《如何使用JavaScript重新加载页面》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -33,9 +33,7 @@ topic: JavaScript
 
 <pre><code>history.go()
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">斌</span>
@@ -47,9 +45,7 @@ topic: JavaScript
 </code></pre>
 
 <p>where document.URL gets the current page URL and window.location reloads it.</p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">GilTony</span>
@@ -61,9 +57,7 @@ topic: JavaScript
 
 <pre><code>&lt;input type="button" value="Reload Page" onClick="document.location.reload(true)"&gt;
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">神无Tom</span>
@@ -82,9 +76,7 @@ assign() Used to load a new document<font></font>
 reload() Used to reloads the current document.<font></font>
 replace() Used to replace the current document with a new one<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">猴子逆天</span>
@@ -100,9 +92,7 @@ replace() Used to replace the current document with a new one<font></font>
      };<font></font>
 &lt;/script&gt;<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">村村阿飞</span>
@@ -110,9 +100,7 @@ replace() Used to replace the current document with a new one<font></font>
           </div>
           <div class="discuss-comment"><pre><code>location.href = location.href;
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">路易卡卡西</span>
@@ -120,9 +108,7 @@ replace() Used to replace the current document with a new one<font></font>
           </div>
           <div class="discuss-comment"><p>To make it easy and simple, use <code>location.reload()</code>.
 You can also use <code>location.reload(true)</code> if you want to grab something from the server.</p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">GO蛋蛋</span>
@@ -134,9 +120,7 @@ You can also use <code>location.reload(true)</code> if you want to grab somethin
 </code></pre>
 
 <p>at the beginning of your page with no other condition qualifying why that code runs, the page will load and then continue to reload itself until you close your browser.</p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">神奇</span>
@@ -152,9 +136,7 @@ You can also use <code>location.reload(true)</code> if you want to grab somethin
 </code></pre>
 
 <p><a href="http://jsfiddle.net/umerqureshi/znruyzop/" rel="nofollow noreferrer">http://jsfiddle.net/umerqureshi/znruyzop/</a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Jim理查德泡芙</span>
@@ -164,9 +146,7 @@ You can also use <code>location.reload(true)</code> if you want to grab somethin
 
 <pre><code>window.location.reload();
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">米亚猴子</span>
@@ -203,9 +183,7 @@ You can also use <code>location.reload(true)</code> if you want to grab somethin
 <p><a href="http://jsfiddle.net/agrawalnikhil/4FhHA/" rel="noreferrer">Online demo on jsfiddle</a></p>
 
 <p><em>To ask your browser to retrieve the page directly from the server not from the cache, you can pass a <code>true</code> parameter to <code>location.reload()</code>. This method is compatible with all major browsers, including IE, Chrome, Firefox, Safari, Opera.</em></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">路易Stafan</span>
@@ -222,9 +200,7 @@ You can also use <code>location.reload(true)</code> if you want to grab somethin
 <p><code>window.location.href = window.location.href;</code></p>
 
 <p>Hopefully this can help others looking for the same information.</p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

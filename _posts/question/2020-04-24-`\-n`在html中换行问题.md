@@ -15,7 +15,7 @@ answer: 1
     <div class="article-content"><p>`\ n`在html换行一般是不起作用的，有时候只能用&lt;br&gt;。但是有没有一些办法能让\n起作用呢、？</p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第4157篇《`\ n`在html中换行问题》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第4157篇《\`\ n\`在html中换行问题》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -30,9 +30,7 @@ white-space: pre-line; // 可以解决\n换行问题
 
 对于换行符\n和制表符\t：
 white-space: pre-wrap;</code></pre></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

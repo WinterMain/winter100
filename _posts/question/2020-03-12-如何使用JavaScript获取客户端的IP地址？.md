@@ -34,7 +34,7 @@ topic: JavaScript
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">但是，我不反对使用免费的第三方脚本/服务。</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第989篇《如何使用JavaScript获取客户端的IP地址？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第989篇《如何使用JavaScript获取客户端的IP地址？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -48,9 +48,7 @@ topic: JavaScript
         alert("Your ip address: " + data.ip);<font></font>
     });<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">村村小小十三</span>
@@ -81,18 +79,14 @@ topic: JavaScript
 "tor": false<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">神奇Tony古一</span>
             <span class="discuss-time">2020.03.12</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">您可以使用客户端可以调用的Flash对象，完全在客户端执行此操作，并且大多数情况下可以在JavaScript中执行。</font><font style="vertical-align: inherit;">Flash </font></font><em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">可以</font></font></em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">访问本地计算机的IP地址，这可能不是很有用。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Sam蛋蛋Itachi</span>
@@ -105,9 +99,7 @@ topic: JavaScript
 <p><a href="http://nanoagent.blogspot.com/2006/09/how-to-find-evaluate-remoteaddrclients.html" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">http://nanoagent.blogspot.com/2006/09/how-to-find-evaluate-remoteaddrclients.html</font></font></a></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">从这里查看其他答案，听起来您可能想要获取客户端的公共IP地址，该地址可能是他们用来连接到互联网的路由器的地址。</font><font style="vertical-align: inherit;">这里的许多其他答案都在谈论这一点。</font><font style="vertical-align: inherit;">我建议创建并托管自己的服务器端页面，以接收请求并使用IP地址进行响应，而不是依赖于可能会或可能不会继续工作的其他人的服务。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">GreenSamA</span>
@@ -131,9 +123,7 @@ topic: JavaScript
 </div>
 </div>
 <p></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">西门猴子</span>
@@ -186,9 +176,7 @@ topic: JavaScript
 
 <pre><code>http://api.ipify.org
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小小神奇</span>
@@ -227,18 +215,14 @@ topic: JavaScript
      }<font></font>
 &lt;/script&gt;<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">老丝</span>
             <span class="discuss-time">2020.03.12</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">除非您使用某种外部服务，否则通常是不可能的。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">村村宝儿Itachi</span>
@@ -263,9 +247,7 @@ topic: JavaScript
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这可能对像您这样有类似要求的人（像我一样，但我还没有弄清楚）有帮助。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">干杯!</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">神无JimEva</span>
@@ -287,9 +269,7 @@ UserInfo.getInfo(function(data) {<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">它会为您提供访问者的IP地址，以及有关其位置（国家，城市等）的一些数据。</font><font style="vertical-align: inherit;">它基于maxmind geoip数据库。</font></font></p>
 
 <p><em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">免责声明：我写了这个库</font></font></em></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">樱理查德</span>
@@ -305,9 +285,7 @@ UserInfo.getInfo(function(data) {<font></font>
     );<font></font>
 });<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小卤蛋Tony</span>
@@ -321,9 +299,7 @@ UserInfo.getInfo(function(data) {<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这是一个更详细的JSFiddle示例，该示例还打印了完整的响应信息，因此您可以看到所有可用的详细信息：</font><a href="http://jsfiddle.net/zK5FN/2/" rel="noreferrer"><font style="vertical-align: inherit;">http</font></a><font style="vertical-align: inherit;"> : </font></font><a href="http://jsfiddle.net/zK5FN/2/" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">//jsfiddle.net/zK5FN/2/</font></font></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">null</span>
@@ -361,18 +337,14 @@ function getIP(json) {<font></font>
 </blockquote>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我</font><font style="vertical-align: inherit;">与IPify团队</font></font><em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">无关</font></font></em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font><font style="vertical-align: inherit;">我只是认为有人为一般利益提供这样的服务真是太荒谬了。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小胖Itachi</span>
             <span class="discuss-time">2020.03.12</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">你不能 </font><font style="vertical-align: inherit;">您必须询问服务器。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小小卡卡西</span>
@@ -381,9 +353,7 @@ function getIP(json) {<font></font>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在您的页面中包含以下代码： </font></font><code>&lt;script type="text/javascript" src="http://l2.io/ip.js"&gt;&lt;/script&gt;</code></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">更多文档</font></font><a href="http://l2.io" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在这里</font></font></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">达蒙Itachi理查德</span>
@@ -410,9 +380,7 @@ function getIP(json) {<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">另外，地理定位信息会在同一调用中返回。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Gil村村</span>
@@ -434,9 +402,7 @@ function getIP(json) {<font></font>
 <blockquote>
   <p><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">注意：</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> telize.com API已于</font></font><a href="http://www.cambus.net/adventures-in-running-a-free-public-api/" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">2015年11月15日</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">永久</font><a href="http://www.cambus.net/adventures-in-running-a-free-public-api/" rel="nofollow noreferrer"><font style="vertical-align: inherit;">关闭</font></a><font style="vertical-align: inherit;">。</font></font></p>
 </blockquote></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">斯丁西门</span>
@@ -460,9 +426,7 @@ function getIP(json) {<font></font>
 </code></pre>
 
 <p><a href="http://jsfiddle.net/rBL3D/79/"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">小提琴</font></font></a></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

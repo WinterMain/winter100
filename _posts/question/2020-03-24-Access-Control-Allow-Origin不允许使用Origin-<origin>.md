@@ -26,7 +26,7 @@ localhost:3000 - Node.js server<font></font>
 <p><font style="vertical-align: inherit;"></font><code>localhost:8080 - GAE server</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">从节点服务器加载页面时，我</font><font style="vertical-align: inherit;">向发出了一个ajax请求</font><font style="vertical-align: inherit;">。</font><font style="vertical-align: inherit;">什么是最简单，最安全的方法（不想使用</font></font><code>disable-web-security</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">选项</font><font style="vertical-align: inherit;">启动chrome </font><font style="vertical-align: inherit;">）。</font><font style="vertical-align: inherit;">如果必须更改</font></font><code>'Content-Type'</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，是否应该在节点服务器上</font><font style="vertical-align: inherit;">进行更改</font><font style="vertical-align: inherit;">？</font><font style="vertical-align: inherit;">怎么样？</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第3429篇《Access-Control-Allow-Origin不允许使用Origin <origin>》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第3429篇《Access-Control-Allow-Origin不允许使用Origin <origin>》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -39,9 +39,7 @@ localhost:3000 - Node.js server<font></font>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果您使用的是Google Chrome浏览器，请尝试安装以下插件：</font></font></p>
 
 <p><a href="https://chrome.google.com/webstore/detail/allow-control-allow-origi/nlfbmbojpeacfghkpbjhddihlkkiljbi/related" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">https://chrome.google.com/webstore/detail/allow-control-allow-origi/nlfbmbojpeacfghkpbjhddihlkkiljbi/related</font></font></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">番长</span>
@@ -112,9 +110,7 @@ localhost:3000 - Node.js server<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">您可以在这里参考</font></font><a href="https://tomcat.apache.org/tomcat-8.0-doc/config/filter.html#CORS_Filter/Filter_Class_Name" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Tomcat过滤器文档</font></font></a></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">谢谢</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">古一LEY</span>
@@ -126,9 +122,7 @@ localhost:3000 - Node.js server<font></font>
 header("Access-Control-Allow-Methods: PUT, GET, POST");<font></font>
 header("Access-Control-Allow-Headers: Origin, X-Requested-With, Content-Type, Accept");<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">泡芙</span>
@@ -157,9 +151,7 @@ header("Access-Control-Allow-Headers: Origin, X-Requested-With, Content-Type, Ac
   &lt;/init-param&gt;<font></font>
 &lt;/filter&gt;<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">米亚</span>
@@ -173,9 +165,7 @@ header("Access-Control-Allow-Headers: Origin, X-Requested-With, Content-Type, Ac
   next();<font></font>
 });<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">猴子村村</span>
@@ -204,9 +194,7 @@ res.header("Access-Control-Allow-Headers", "X-Requested-With");<font></font>
     document.getElementById("employeeDetails").value=response;<font></font>
 });<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">理查德小小</span>
@@ -231,9 +219,7 @@ res.header("Access-Control-Allow-Headers", "X-Requested-With");<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">另外，在客户处设定 </font></font><code>withCredentials</code></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这会导致2个请求发送到服务器，其中一个带有</font></font><code>OPTIONS</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font><font style="vertical-align: inherit;">身份验证cookie不随其一起发送，因此需要处理外部身份验证。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">伽罗</span>
@@ -242,9 +228,7 @@ res.header("Access-Control-Allow-Headers", "X-Requested-With");<font></font>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果您需要在Chrome中快速解决Ajax请求，则此chrome插件会自动添加适当的响应标头，使您可以从任何来源访问任何网站</font></font></p>
 
 <p><a href="https://chrome.google.com/webstore/detail/allow-cors-access-control/lhobafahddgcelffkeicbaginigeejlf?hl=en" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Chrome扩展程序允许控制允许来源：*</font></font></a></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

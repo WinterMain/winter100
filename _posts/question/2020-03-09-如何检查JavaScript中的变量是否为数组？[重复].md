@@ -43,7 +43,7 @@ topic: JavaScript
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这是最好的方法吗？</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第225篇《如何检查JavaScript中的变量是否为数组？[重复]》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第225篇《如何检查JavaScript中的变量是否为数组？\[重复\]》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -59,9 +59,7 @@ topic: JavaScript
     //This is an array
  else
     //not an array</code></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">猴子Near</span>
@@ -73,9 +71,7 @@ topic: JavaScript
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Underscorejs和其他几个库使用了这个简短的技巧。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">西里猿LEY</span>
@@ -94,9 +90,7 @@ typeOf(user); //[object Array]<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">它认为可能需要进行一些微调，并考虑到一些问题，我还没有遇到或对其进行适当的测试。</font><font style="vertical-align: inherit;">因此，无论是从性能角度还是错误地重新导入typeOf，都欢迎进一步改进。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小小猴子</span>
@@ -118,9 +112,7 @@ typeOf(user); //[object Array]<font></font>
 input: [1,2,[3,4,[5],6],[7,[8,[9]]]]<font></font>
 output: [1, 2, 3, 4, 5, 6, 7, 8, 9]<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">西里宝儿Harry</span>
@@ -132,9 +124,7 @@ output: [1, 2, 3, 4, 5, 6, 7, 8, 9]<font></font>
     return myArray.constructor.toString().indexOf("Array") &gt; -1;<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">凯泡芙JinJin</span>
@@ -146,9 +136,7 @@ output: [1, 2, 3, 4, 5, 6, 7, 8, 9]<font></font>
    // variable is array, since AMAIK only arrays have push() method.<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">NearSamHarry</span>
@@ -159,9 +147,7 @@ output: [1, 2, 3, 4, 5, 6, 7, 8, 9]<font></font>
 <pre><code>  var isArray = Array.isArray || function(obj) {<font></font>
     return !!(obj &amp;&amp; obj.concat &amp;&amp; obj.unshift &amp;&amp; !obj.callee);};<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">老丝Jim猴子</span>
@@ -175,9 +161,7 @@ output: [1, 2, 3, 4, 5, 6, 7, 8, 9]<font></font>
 <blockquote>
   <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果object是Array，则返回true。</font></font></p>
 </blockquote></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Davaid神无</span>
@@ -191,9 +175,7 @@ output: [1, 2, 3, 4, 5, 6, 7, 8, 9]<font></font>
 Array.isArray("foo") // false<font></font>
 Array.isArray({})    // false<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">古一蛋蛋</span>
@@ -209,9 +191,7 @@ angular.isArray(myObj); //returns false<font></font>
 </code></pre>
 
 <p><a href="http://docs.angularjs.org/api/ng/function/angular.isArray" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">http://docs.angularjs.org/api/ng/function/angular.isArray</font></font></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Green前端</span>
@@ -228,9 +208,7 @@ angular.isArray(myObj); //returns false<font></font>
 
 <pre><code>toString.call(obj) === "[object Array]"
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Sam小哥理查德</span>
@@ -253,9 +231,7 @@ if (box.isArray) {<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">isArray仅在其为数组时可用</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">蛋蛋LEY</span>
@@ -273,9 +249,7 @@ if (box.isArray) {<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">已经对jQuery充满信心（尤其是他们的跨浏览器兼容性技术），我将升级到1.3版并使用其功能（假设升级不会引起太多问题），或者直接在我的系统中使用此建议的方法码。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">非常感谢您的建议。</font></font></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

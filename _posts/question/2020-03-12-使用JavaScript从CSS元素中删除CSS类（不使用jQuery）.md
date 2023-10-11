@@ -36,7 +36,7 @@ topic: JavaScript
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">谁能让我知道如何仅使用JavaScript删除元素上的类？</font><font style="vertical-align: inherit;">请不要给我jQuery的答案，因为我无法使用它，对此我一无所知。</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第902篇《使用JavaScript从CSS元素中删除CSS类（不使用jQuery）》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第902篇《使用JavaScript从CSS元素中删除CSS类（不使用jQuery）》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -49,9 +49,7 @@ topic: JavaScript
           <div class="discuss-comment"><p>There is also <code>$.toggleClass</code>, <code>$.addClass</code>, and <code>$.removeClass</code>. For documentation, take a look at <a href="http://api.jquery.com/toggleClass/" rel="nofollow">http://api.jquery.com/toggleClass/</a>.</p>
 
 <p>Take a look at this <a href="http://jsfiddle.net/7jmsH/" rel="nofollow">jsFiddle example</a> to see it in action.</p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Davaid神无</span>
@@ -64,9 +62,7 @@ topic: JavaScript
 <pre><code>Target = document.getElementsByClassName("yourClass")[1];<font></font>
 Target.className="";<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">米亚小小神乐</span>
@@ -77,9 +73,7 @@ div.classList.remove("foo");<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">有关更多信息，</font><a href="https://developer.mozilla.org/en-US/docs/Web/API/element.classList"><font style="vertical-align: inherit;">请</font></a><font style="vertical-align: inherit;">访问</font></font><a href="https://developer.mozilla.org/en-US/docs/Web/API/element.classList"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">https://developer.mozilla.org/en-US/docs/Web/API/element.classList</font></font></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">卡卡西达蒙西里</span>
@@ -99,9 +93,7 @@ div.classList.remove("foo");<font></font>
     this.className = newClassName;<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

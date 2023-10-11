@@ -50,7 +50,7 @@ topic: JavaScript
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如何</font></font><code>onClick</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在React js中将</font><font style="vertical-align: inherit;">值传递给</font><font style="vertical-align: inherit;">事件？</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第317篇《React js onClick无法将值传递给方法》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第317篇《React js onClick无法将值传递给方法》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -71,9 +71,7 @@ topic: JavaScript
 <p>Please find below running code in codesandbox for the same.</p>
 
 <p><a href="https://codesandbox.io/s/react-onclick-pass-value-rjh3d" rel="nofollow noreferrer">React pass value with method</a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Stafan路易</span>
@@ -86,9 +84,7 @@ topic: JavaScript
 
 <p>instead of
 <code>&lt;th value={column} onClick={that.handleSort} &gt;{column}&lt;/th&gt;</code></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">神无宝儿达蒙</span>
@@ -114,9 +110,7 @@ topic: JavaScript
 <font></font>
 &lt;button onClick={this.handleClick(id)} /&gt;<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">ProJinJin</span>
@@ -145,9 +139,7 @@ topic: JavaScript
 <pre><code>&lt;th value={column} onClick={() =&gt; that.handleSort} &gt;{column}&lt;/th&gt;
 </code></pre></li>
 </ol></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Sam猿泡芙</span>
@@ -159,9 +151,7 @@ topic: JavaScript
 </code></pre>
 
 <p>Here e is for event object, if you want to use event methods like <code>preventDefault()</code> in your handle function or want to get target value or name like <code>e.target.name</code>.</p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">A十三</span>
@@ -182,9 +172,7 @@ onClick={this.handleClick.bind(this,"dataOne")}&gt;Send&lt;/button&gt;<font></fo
   }<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">逆天LEY逆天</span>
@@ -220,9 +208,7 @@ onClick={this.handleClick.bind(this,"dataOne")}&gt;Send&lt;/button&gt;<font></fo
 }<font></font>
 export default App; <font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小小小胖</span>
@@ -240,18 +226,14 @@ export default App; <font></font>
      console.log(theValue);<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Itachi小卤蛋凯</span>
             <span class="discuss-time">2020.03.09</span>
           </div>
           <div class="discuss-comment"><p>I guess you will have to bind the method to the React’s class instance. It’s safer to use a constructor to bind all methods in React. In your case when you pass the parameter to the method, the first parameter is used to bind the ‘this’ context of the method, thus you cannot access the value inside the method.</p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小小村村</span>
@@ -294,9 +276,7 @@ export default App; <font></font>
     }<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">西门Sam</span>
@@ -331,9 +311,7 @@ export default App; <font></font>
    }<font></font>
  }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">文韬武略辛弃疾</span>
@@ -356,9 +334,7 @@ export default App; <font></font>
         }
     }/
         &gt;</p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">路易Itachi小小</span>
@@ -380,9 +356,7 @@ export default App; <font></font>
 <p>I presume you could also use a <code>data-</code> attribute.</p>
 
 <p>Simple, semantic.</p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">null</span>
@@ -447,9 +421,7 @@ const ListItem = props =&gt; {<font></font>
   <p>This will speed up rendering, as it avoids the need to create new
   functions (through bind calls) on every render.</p>
 </blockquote></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">卡卡西Near</span>
@@ -601,9 +573,7 @@ ReactDOM.render(&lt;App /&gt;, rootElement);</code></pre>
 </div>
 </div>
 <p></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">西里神无Pro</span>
@@ -623,9 +593,7 @@ ReactDOM.render(&lt;App /&gt;, rootElement);</code></pre>
   this.myMethod = this.myMethod.bind(this);<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">十三前端Harry</span>
@@ -686,9 +654,7 @@ ReactDOM.render(&lt;App /&gt;, rootElement);</code></pre>
   &lt;th value={column} onClick={that.handleSort.bind(that, column)}&gt;{column}&lt;/th&gt;<font></font>
 );<font></font>
 </code></pre></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

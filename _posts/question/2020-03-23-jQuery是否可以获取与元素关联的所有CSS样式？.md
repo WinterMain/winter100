@@ -19,7 +19,7 @@ topic: CSS
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我知道如果它们是带有的样式属性都可以</font></font><code>attr()</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，但是我所有的样式都在外部样式表中。</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第2973篇《jQuery是否可以获取与元素关联的所有CSS样式？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第2973篇《jQuery是否可以获取与元素关联的所有CSS样式？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -30,9 +30,7 @@ topic: CSS
             <span class="discuss-time">2020.03.23</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">为什么不使用</font></font><a href="http://www.w3schools.com/jsref/dom_obj_style.asp" rel="noreferrer"><code>.style</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">DOM元素</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">？</font><font style="vertical-align: inherit;">这是一个包含诸如</font></font><code>width</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">和的</font><font style="vertical-align: inherit;">成员的对象</font></font><code>backgroundColor</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">LGil</span>
@@ -46,9 +44,7 @@ topic: CSS
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">通过</font></font><code>length</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">而不是</font></font><code>in,</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">通过</font></font><code>getPropertyValue()</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">而不是进行</font><font style="vertical-align: inherit;">循环</font></font><code>toLowerCase().</code></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">宝儿理查德</span>
@@ -103,9 +99,7 @@ topic: CSS
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">希望能有所帮助。</font></font></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

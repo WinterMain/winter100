@@ -54,7 +54,7 @@ topic: JavaScript
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">每当位置更新时，我都会使用“ for（x in loc）”语句，以从列表中获取最后一个位置，并使用该语句来更新标记。</font><font style="vertical-align: inherit;">如何从哈希中的数组中选择最后一个元素？</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第1073篇《选择JavaScript数组中的最后一个元素[重复]》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第1073篇《选择JavaScript数组中的最后一个元素\[重复\]》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -125,9 +125,7 @@ var user = users.createUser();<font></font>
 user.addLocation(0, 0);<font></font>
 user.addLocation(0, 1);<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小宇宙西里</span>
@@ -137,9 +135,7 @@ user.addLocation(0, 1);<font></font>
 
 <pre><code>array.reverse()[0]
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Stafan猿</span>
@@ -150,9 +146,7 @@ arr.slice(-1).pop(); // return 3 and arr = [1, 2, 3]<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果数组为空，则将返回undefined，并且不会更改数组的值。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Sam神乐番长</span>
@@ -162,9 +156,7 @@ arr.slice(-1).pop(); // return 3 and arr = [1, 2, 3]<font></font>
 
 <pre><code>my_array.slice(-1)[0]
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">伽罗GreenNear</span>
@@ -176,9 +168,7 @@ arr.slice(-1).pop(); // return 3 and arr = [1, 2, 3]<font></font>
 a.pop(); // 3<font></font>
 a // [1,2]<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">神乐十三</span>
@@ -192,9 +182,7 @@ a // [1,2]<font></font>
 <p><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/slice"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Mozilla Docs on Slice</font></font></a></p>
 
 <p><a href="http://jsperf.com/get-last-item-from-array/13"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">选择最后一个数组元素的各种方法的性能</font></font></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">卡卡西乐</span>
@@ -205,9 +193,7 @@ a // [1,2]<font></font>
 <p><code>var last = [...yourArray].pop();</code></p>
 
 <p><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">请注意，yourArray不会改变。</font></font></strong></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

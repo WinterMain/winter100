@@ -54,7 +54,7 @@ topic: Vue.js
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">谢谢 </font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第3859篇《VueJS-v-bind：样式+悬停》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第3859篇《VueJS-v-bind：样式+悬停》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -91,9 +91,7 @@ color: #FFFFFF<font></font>
 
 <pre><code>&lt;style&gt;{{computedStyle}}&lt;/style&gt;
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">村村</span>
@@ -128,9 +126,7 @@ changeZIndexToOriginal(e){<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">使用以上方法，我们可以更改与目标元素相关的任何内容。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">梅</span>
@@ -150,9 +146,7 @@ changeZIndexToOriginal(e){<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">甚至对于更受限的样式，这里显示了一些模块：</font></font><a href="https://stackoverflow.com/questions/45898865/how-to-correctly-use-scoped-styles-in-vuejs-single-file-components"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如何在VueJS单个文件组件中正确使用“作用域”样式？</font></font></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">米亚</span>
@@ -183,9 +177,7 @@ changeZIndexToOriginal(e){<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">注意：您可以在</font></font><code>:root</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">选择器中</font><font style="vertical-align: inherit;">描述默认变量值</font><font style="vertical-align: inherit;">。</font></font></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

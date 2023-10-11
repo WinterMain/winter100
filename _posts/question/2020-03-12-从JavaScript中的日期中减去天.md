@@ -34,7 +34,7 @@ topic: JavaScript
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">因此，例如，如果我想计算今天之前5天的日期。</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第939篇《从JavaScript中的日期中减去天》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第939篇《从JavaScript中的日期中减去天》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -55,9 +55,7 @@ topic: JavaScript
 <p><strong>currDate</strong> could be any date</p>
 
 <p><strong>limit</strong> could be the difference in number of day (positive for future and negative for past)</p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小宇宙神无</span>
@@ -73,9 +71,7 @@ console.log(getDaysPastDate(1)); // yesterday</code></pre>
 </div>
 </div>
 <p></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">さ恋旧る</span>
@@ -112,9 +108,7 @@ document.body.innerHTML = DateHelper.format(DateHelper.addDays(new Date(), -5));
 <p></p>
 
 <p>(see also <a href="https://jsfiddle.net/9fpzcghg/24/" rel="nofollow noreferrer"><strong>this Fiddle</strong></a>)</p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">神无Davaid</span>
@@ -135,9 +129,7 @@ d.add(-10).days();  // subtract 10 days<font></font>
 <blockquote>
   <p>Datejs doesn’t just parse strings, it slices them cleanly in two</p>
 </blockquote></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">宝儿猪猪西门</span>
@@ -153,9 +145,7 @@ var substracted_date = (today.getMonth()+1) + "/" +today.getDate() + "/" + today
 <font></font>
 alert(substracted_date);<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">伽罗路易</span>
@@ -173,9 +163,7 @@ alert(substracted_date);<font></font>
 var date_from = new Date();<font></font>
 var date_to = addDays( new Date(), parseInt(days) );<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">乐逆天</span>
@@ -194,9 +182,7 @@ return new Date(<font></font>
 );<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">猴子蛋蛋</span>
@@ -208,9 +194,7 @@ return new Date(<font></font>
 prvDate = new Date(0); // Date set to epoch 0<font></font>
 prvDate.setUTCMilliseconds((curDate - (5 * 24 * 60 * 60 * 1000))); //Set epoch time<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">HarryLEY</span>
@@ -220,9 +204,7 @@ prvDate.setUTCMilliseconds((curDate - (5 * 24 * 60 * 60 * 1000))); //Set epoch t
 
 <pre><code>var fiveDaysAgo = new Date(new Date() - (1000*60*60*24*5));
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">路易Stafan</span>
@@ -248,9 +230,7 @@ prvDate.setUTCMilliseconds((curDate - (5 * 24 * 60 * 60 * 1000))); //Set epoch t
 <pre><code>var today = new Date();<font></font>
 var newDate = dateManipulation(today, 3, 0, 0, "-");<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Sam伽罗</span>
@@ -271,9 +251,7 @@ var tomorrow = addDays(now, 1);</code></pre>
 </div>
 </div>
 <p></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">蛋蛋古一</span>
@@ -283,9 +261,7 @@ var tomorrow = addDays(now, 1);</code></pre>
 
 <pre><code>let d=new Date(new Date().getTime() - (7 * 24 * 60 * 60 * 1000))
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Stafan逆天</span>
@@ -307,9 +283,7 @@ fiveDaysAgo = new Date(today - (5*days))<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我一直在使用这种方法进行30/60/365天的滚动计算。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">您可以轻松地对此进行推断，以创建几个月，几年等的时间单位。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">逆天西里</span>
@@ -329,9 +303,7 @@ fiveDaysAgo = new Date(today - (5*days))<font></font>
     );<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">番长西里神无</span>
@@ -373,9 +345,7 @@ new Date(newDate).toUTCString(); // or .toISOString(), BUT NOT toString<font></f
 <pre><code>newDate = new Date(Date.UTC(2015, 3, 1)).getTime() + -5*24*3600000;<font></font>
 new Date(newDate).toUTCString(); // or .toISOString BUT NOT toString<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">逆天AGreen</span>
@@ -386,9 +356,7 @@ new Date(newDate).toUTCString(); // or .toISOString BUT NOT toString<font></font
 <pre><code>var todayDate = new Date(), weekDate = new Date();<font></font>
 weekDate.setTime(todayDate.getTime()-(7*24*3600000));<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Jim古一</span>
@@ -432,9 +400,7 @@ weekDate.setTime(todayDate.getTime()-(7*24*3600000));<font></font>
 <pre><code>var date_subtract = new Date().adjustDate(-4),<font></font>
     date_add = new Date().adjustDate(4);<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小卤蛋Tom</span>
@@ -446,9 +412,7 @@ weekDate.setTime(todayDate.getTime()-(7*24*3600000));<font></font>
 var x = 5; // go back 5 days!<font></font>
 d.setDate(d.getDate() - x);<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">十三飞云斯丁</span>
@@ -462,9 +426,7 @@ myDate.setTime(myDate.getTime() - dateOffset);<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果您要在整个Web应用程序中执行很多头痛检查日期操作，</font></font><em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">DateJS</font></font></em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">将使您的生活更加轻松：</font></font></p>
 
 <p><a href="http://simonwillison.net/2007/Dec/3/datejs/" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">http://simonwillison.net/2007/Dec/3/datejs/</font></font></a></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

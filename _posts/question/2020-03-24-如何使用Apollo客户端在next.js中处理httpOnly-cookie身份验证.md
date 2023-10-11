@@ -25,7 +25,7 @@ topic: React.js
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">是否有一种通用的方法可以通过上述设置来处理此身份验证过程？</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第3574篇《如何使用Apollo客户端在next.js中处理httpOnly cookie身份验证》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第3574篇《如何使用Apollo客户端在next.js中处理httpOnly cookie身份验证》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -42,9 +42,7 @@ topic: React.js
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">然后，任何将来的请求将自动包含cookie。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">（只需确保设置了</font></font><a href="https://developer.mozilla.org/en-US/docs/Web/API/XMLHttpRequest/withCredentials" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">withCredentials</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">或同等功能。）</font></font></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

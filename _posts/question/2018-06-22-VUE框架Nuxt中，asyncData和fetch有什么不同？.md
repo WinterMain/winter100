@@ -16,7 +16,7 @@ answer: 1
 </div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第59篇《VUE框架Nuxt中，asyncData和fetch有什么不同？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第59篇《VUE框架Nuxt中，asyncData和fetch有什么不同？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -33,9 +33,7 @@ fetch 方法用于在渲染页面前填充应用的状态树（store）数据，
 如果页面组件设置了 fetch 方法，它会在组件每次加载前被调用（在服务端或切换至目标路由之前）。
 
 </div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

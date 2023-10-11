@@ -17,7 +17,7 @@ topic: CSS
     <div class="article-content"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">每个响应式网站开发教程都建议使用</font></font><code>display:none</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">CSS属性来隐藏内容，以防止内容在移动浏览器中加载，从而使网站加载速度更快。</font><font style="vertical-align: inherit;">是真的吗 </font><font style="vertical-align: inherit;">难道</font></font><code>display:none</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">不加载图像或它仍然加载在手机浏览器的内容？</font><font style="vertical-align: inherit;">有什么方法可以防止在移动浏览器上加载不必要的内容？</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第2634篇《“ display：none”会阻止图像加载吗？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第2634篇《“ display：none”会阻止图像加载吗？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -30,9 +30,7 @@ topic: CSS
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我们说的是图片无法在手机上加载，对不对？</font><font style="vertical-align: inherit;">那么，如果您只是使用@media（最小宽度：400像素）{background-image：thing.jpg}，该怎么办？</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">难道不是只能在一定的屏幕宽度以上查找图像吗？</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">番长猴子</span>
@@ -88,9 +86,7 @@ img#desktop {<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">祝你好运，让我知道它如何为您服务。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">伽罗</span>
@@ -112,9 +108,7 @@ img#desktop {<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">您可以使用相同的CSS来显示和隐藏显示/可见性/不透明度，但是图像仍在加载中，这是我们想到的最安全的代码。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">理查德Eva</span>
@@ -125,27 +119,21 @@ img#desktop {<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">使用我写的这个polyfill来读取</font></font><code>&lt;noscript&gt;</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">IE8 </font><font style="vertical-align: inherit;">中</font><font style="vertical-align: inherit;">标记</font><font style="vertical-align: inherit;">的内容</font></font></p>
 
 <p><a href="https://github.com/jameswestgate/noscript-textcontent" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">https://github.com/jameswestgate/noscript-textcontent</font></font></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">西门理查德</span>
             <span class="discuss-time">2020.03.23</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">否。如果您考虑节省手机用户的带宽，该图像将照常加载，并且仍将使用用户的带宽。您可以做的是使用媒体查询并筛选要加载图像的设备。图像必须设置为div等的背景图像，而不是标签，因为无论屏幕大小和媒体查询集如何，图像标签都会加载图像。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">番长村村</span>
             <span class="discuss-time">2020.03.23</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">为了防止获取资源，请使用</font></font><a href="http://webcomponents.org/articles/introduction-to-template-element/" rel="nofollow"><code>&lt;template&gt;</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Web Components</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">的</font><a href="http://webcomponents.org/articles/introduction-to-template-element/" rel="nofollow"><font style="vertical-align: inherit;">元素</font></a><font style="vertical-align: inherit;">。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">斯丁米亚小卤蛋</span>
@@ -160,9 +148,7 @@ img#desktop {<font></font>
 <p><a href="http://www.webdesignerdepot.com/2015/08/the-state-of-responsive-images/" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">http://www.webdesignerdepot.com/2015/08/the-state-of-sensitive-images/</font></font></a></p>
 
 <p><a href="https://caniuse.com/#feat=srcset" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">https://caniuse.com/#feat=srcset</font></font></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小胖逆天</span>
@@ -177,9 +163,7 @@ img#desktop {<font></font>
   
   <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">切换</font></font><code>display</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">到</font><font style="vertical-align: inherit;">时，只有Opera会下载图像</font></font><code>block</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font><font style="vertical-align: inherit;">其他所有浏览器均立即下载。</font></font></p>
 </blockquote></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">神无</span>
@@ -196,18 +180,14 @@ img#desktop {<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这是一个测试页面，可以证明这一点：</font></font></p>
 
 <p><a href="http://www.quirksmode.org/css/displayimg.html" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">http://www.quirksmode.org/css/displayimg.html</font></font></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">泡芙</span>
             <span class="discuss-time">2020.03.23</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果将图像设为CSS中div的背景图像，则将该div设置为“ display：none”时，将不会加载该图像。</font><font style="vertical-align: inherit;">禁用CSS时，它仍然不会加载，因为CSS被禁用了。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">猴子神奇</span>
@@ -226,9 +206,7 @@ img#desktop {<font></font>
 <p><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">编辑：</font></font></strong></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">浏览器变得越来越聪明。</font><font style="vertical-align: inherit;">今天，如果浏览器可以确定图像没有用，则它可能会跳过图像加载（取决于版本）。</font></font></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

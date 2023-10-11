@@ -35,7 +35,7 @@ topic: CSS
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我喜欢Dev Tools / Firebug的一件事是能够查看CSS样式的行号。</font><font style="vertical-align: inherit;">除了必须手动搜索.less / .scss文件以查找我想要修改的代码之外，还有使用CSS预处理器执行此操作的好方法吗？</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第2156篇《Chrome开发工具/ Firebug中的更少/简单调试》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第2156篇《Chrome开发工具/ Firebug中的更少/简单调试》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -48,9 +48,7 @@ topic: CSS
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">由于失礼，我从少变了。</font><font style="vertical-align: inherit;">这样，您将在Firebug中获得原始的Sass行。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果使用sass，</font><font style="vertical-align: inherit;">请安装</font></font><a href="https://addons.mozilla.org/en-US/firefox/addon/firesass-for-firebug/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">firesass</font></font></a><font style="vertical-align: inherit;"></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">DavaidHarry</span>
@@ -76,9 +74,7 @@ topic: CSS
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">（尽管我们尝试的深度不超过3层）</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我对SASS并没有真正的经验，但是我不喜欢几年前第一次看CSS时离CSS有多远（从那以后再也没有回来...）</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小小Davaid</span>
@@ -105,9 +101,7 @@ topic: CSS
 <p>There is now a Firefox plugin called FireSASS (https://addons.mozilla.org/en-US/firefox/addon/firesass-for-firebug/)</p>
 
 <p>In your <code>sass --watch</code> command, add a <code>-g</code> for <code>--debug-info</code> so that it will output the hooks needed for the plugin to run. </p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">村村伽罗Mandy</span>
@@ -133,9 +127,7 @@ topic: CSS
  2.在Chrome / ium中，转到about：flags。3 </font></font><br><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
  .启用Developer Tools实验</font></font><br><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
  。4.在检查器（F12）中，打开“设置”，然后转到“ Experiments”标签，然后选中“ Support for SASS”。  </font></font></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

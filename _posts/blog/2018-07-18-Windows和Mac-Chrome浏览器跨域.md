@@ -70,7 +70,7 @@ open -n /Applications/Google\ Chrome.app/ --args --disable-web-security  --user-
 </div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第72篇《Windows和Mac Chrome浏览器跨域》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第72篇《Windows和Mac Chrome浏览器跨域》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}

@@ -28,7 +28,7 @@ topic: HTML
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我对使用有疑问</font></font><code>type="number"</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，它引起的问题多于解决的问题，无论如何我都要进行理智检查，所以我应该回到使用状态</font></font><code>type="text"</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">吗？</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第3777篇《如何将type =“ number”仅设置为正数》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第3777篇《如何将type =“ number”仅设置为正数》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}

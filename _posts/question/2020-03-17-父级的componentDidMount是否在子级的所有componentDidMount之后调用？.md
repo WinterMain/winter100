@@ -39,7 +39,7 @@ topic: React.js
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果这是工作方式，我如何检测从父级加载所有子级组件的时间？</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第1866篇《父级的componentDidMount是否在子级的所有componentDidMount之后调用？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第1866篇《父级的componentDidMount是否在子级的所有componentDidMount之后调用？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}

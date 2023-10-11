@@ -20,7 +20,7 @@ tags: JavaScript
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我想知道是否有人以前这样做过，是否值得，是否有人知道任何教程或参考资料。</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第1408篇《在Angular中使用Vue组件》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第1408篇《在Angular中使用Vue组件》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}

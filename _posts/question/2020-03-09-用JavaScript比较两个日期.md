@@ -17,7 +17,7 @@ topic: JavaScript
     <div class="article-content"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">有人可以建议一种</font><font style="vertical-align: inherit;">使用JavaScript </font><font style="vertical-align: inherit;">比较</font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">两个</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">大于，小于和过去的</font><strong><font style="vertical-align: inherit;">日期</font></strong><font style="vertical-align: inherit;">的值的</font><font style="vertical-align: inherit;">方法吗？</font><font style="vertical-align: inherit;">这些值将来自文本框。</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第219篇《用JavaScript比较两个日期》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第219篇《用JavaScript比较两个日期》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -56,9 +56,7 @@ topic: JavaScript
 
 <p>calling this on form onsubmit.
 hope this helps.</p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">TonyEvaL</span>
@@ -97,9 +95,7 @@ Date.prototype.compare = function(b) {<font></font>
   assertEquals(-1, a.compare(c));<font></font>
   assertEquals( 1, c.compare(a));<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">斯丁Sam斯丁</span>
@@ -128,9 +124,7 @@ var timestamp = new Date().getTime(); // Current Timestamp<font></font>
 <pre><code>var timestamp = 0; // 1970-01-01 00:00:00<font></font>
 var DateObject = new Date(timestamp);<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">番长神无</span>
@@ -141,9 +135,7 @@ var DateObject = new Date(timestamp);<font></font>
 <p>You could use Date.parse() which takes free text tries to convert it into a new date but if you have control over the page I would recommend using HTML select boxes instead or a date picker such as the <a href="http://developer.yahoo.com/yui/calendar/" rel="noreferrer">YUI calendar control</a> or the <a href="http://docs.jquery.com/UI/Datepicker" rel="noreferrer">jQuery UI Datepicker</a>.</p>
 
 <p>Once you have a date as other people have pointed out you can use simple arithmetic to subtract the dates and convert it back into a number of days by dividing the number (in seconds) by the number of seconds in a day (60*60*24 = 86400).</p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">达蒙理查德</span>
@@ -158,9 +150,7 @@ var DateObject = new Date(timestamp);<font></font>
 <p>0 = values are equal. </p>
 
 <p>1 = date1 is greaterthan date2.</p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">LEYEvaL</span>
@@ -186,9 +176,7 @@ alert(compare("11/07/2015", "10/07/2015"));<font></font>
 <p>The method returns 0 if <code>dateTimeA</code> equals <code>dateTimeB</code></p>
 
 <p>The method returns -1 if <code>dateTimeA</code> is less than <code>dateTimeB</code></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">理查德村村小宇宙</span>
@@ -210,9 +198,7 @@ alert(compare("11/07/2015", "10/07/2015"));<font></font>
 </code></pre>
 
 <p>...if you prefer them not to be equal.</p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小小</span>
@@ -235,9 +221,7 @@ yesterday.setDate(...date info here);<font></font>
 <font></font>
 if(date&gt;yesterday)  // will compare dates<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">LJinJin</span>
@@ -248,9 +232,7 @@ if(date&gt;yesterday)  // will compare dates<font></font>
    return (!(a&gt;b || b&gt;a))<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">神无阳光</span>
@@ -266,9 +248,7 @@ var date2= new Date("01/01/2014").setHours(0,0,0,0);<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">现在：</font></font><code>if date1.valueOf()&gt; date2.valueOf()</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">将像魅力一样工作。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Eva千羽</span>
@@ -287,9 +267,7 @@ alert(oDateOne - oDateTwo &gt; 0);</code></pre>
 </div>
 </div>
 <p></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小小</span>
@@ -310,9 +288,7 @@ alert(oDateOne - oDateTwo &gt; 0);</code></pre>
     // highlight day on calendar or something else clever<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小小阿飞</span>
@@ -351,9 +327,7 @@ Number(d1)   == Number(d2);   // true<font></font>
 </code></pre>
 
 <p>Both <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/getTime"><code>Date.getTime()</code></a> and <code>Date.valueOf()</code> return the number of milliseconds since January 1, 1970, 00:00 UTC. Both <code>Number</code> function and unary <code>+</code> operator call the <code>valueOf()</code> methods behind the scenes.</p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Cathy</span>
@@ -451,9 +425,7 @@ var dates = {<font></font>
     }<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">神无Green</span>
@@ -482,9 +454,7 @@ console.log(d1.getTime() === d2.getTime()); // prints true (correct)<font></font
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我建议您使用下拉列表或日期输入的某些类似约束形式，而不要使用文本框，以免您陷入输入验证的困境。</font></font></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

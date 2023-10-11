@@ -44,7 +44,7 @@ ReactDOM.render(&lt;Clock /&gt;, document.querySelector('#app'));</code></pre>
 <p></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第1601篇《在setInterval中使用React状态挂钩时状态未更新》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第1601篇《在setInterval中使用React状态挂钩时状态未更新》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -65,9 +65,7 @@ async function increment(count,value) {<font></font>
 //call increment function<font></font>
 increment(count);<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">ProItachi</span>
@@ -143,9 +141,7 @@ function App() {<font></font>
 const rootElement = document.getElementById("root");<font></font>
 ReactDOM.render(&lt;App /&gt;, rootElement);<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">伽罗小哥</span>
@@ -167,9 +163,7 @@ ReactDOM.render(&lt;App /&gt;, rootElement);<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">的性能影响</font></font><code>setTimeout</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">微不足道，通常可以忽略。</font><font style="vertical-align: inherit;">除非组件是时间敏感到新设置的超时引起不希望的效应的点，都</font></font><code>setInterval</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">和</font></font><code>setTimeout</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">方法是可以接受的。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">猿AJim</span>
@@ -195,9 +189,7 @@ ReactDOM.render(&lt;App /&gt;, rootElement);<font></font>
 
 <pre><code>let dateFrom = await getCurrentHackValue(setSelectedDateFrom);
 </code></pre></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

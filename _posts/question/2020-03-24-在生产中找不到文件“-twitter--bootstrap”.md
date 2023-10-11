@@ -38,7 +38,7 @@ app/views/layouts/application.html.erb:5:in<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我使用的是Rails 3.2.0，在添加SASS文件之前，该应用程序一直在Heroku上运行。</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第3360篇《在生产中找不到文件“ twitter / bootstrap”》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第3360篇《在生产中找不到文件“ twitter / bootstrap”》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -61,9 +61,7 @@ TCP/IP connections on port xxxx?<font></font>
 
 <pre><code>config.assets.initialize_on_precompile = false
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">宝儿</span>
@@ -96,9 +94,7 @@ TCP/IP connections on port xxxx?<font></font>
        Please see this article for troubleshooting help:<font></font>
        http://devcenter.heroku.com/articles/rails31_heroku_cedar#troubleshooting<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">DavaidTony宝儿</span>
@@ -108,9 +104,7 @@ TCP/IP connections on port xxxx?<font></font>
 
 <pre><code>config.serve_static_assets = true
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">猴子村村</span>
@@ -121,9 +115,7 @@ TCP/IP connections on port xxxx?<font></font>
 <p><code>config.assets.precompile = [/^[-_a-zA-Z0-9]*\..*/]</code></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我的猜测是它不会添加您的所有资产。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">理查德神无Mandy</span>
@@ -137,9 +129,7 @@ TCP/IP connections on port xxxx?<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">因此，只需将宝石移到任何组之外，就可以了。</font></font></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

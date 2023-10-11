@@ -98,7 +98,7 @@ topic: Vue.js
 <p>Thanks in advance. </p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第3052篇《具有Firebase身份验证的Nuxt SSR身份验证防护》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第3052篇《具有Firebase身份验证的Nuxt SSR身份验证防护》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -109,9 +109,7 @@ topic: Vue.js
             <span class="discuss-time">2020.03.23</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">您需要在nuxtServerInit中的服务器上初始化用户。</font><font style="vertical-align: inherit;">参见此仓库以获取示例实现</font></font><a href="https://github.com/davidroyer/nuxt-ssr-firebase-auth.v2" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">https://github.com/davidroyer/nuxt-ssr-firebase-auth.v2</font></font></a></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

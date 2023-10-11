@@ -36,7 +36,7 @@ topic: React.js
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">有人可以用外行的术语解释一下此功能是什么以及为什么有用吗？</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第399篇《什么是mapDispatchToProps？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第399篇《什么是mapDispatchToProps？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -53,9 +53,7 @@ topic: React.js
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我发现这仅使您不必</font></font><code>dispatch(actionCreator())</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在组件中执行操作，从而使其更易于阅读。</font></font></p>
 
 <p><a href="https://github.com/reactjs/react-redux/blob/master/docs/api.md#arguments" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">https://github.com/reactjs/react-redux/blob/master/docs/api.md#arguments</font></font></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">村村西里</span>
@@ -79,9 +77,7 @@ topic: React.js
 <hr>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">丹·阿布拉莫夫（Dan Abramov）在此提供了一个有用的视频：</font><a href="https://egghead.io/lessons/javascript-redux-generating-containers-with-connect-from-react-redux-visibletodolist" rel="noreferrer"><font style="vertical-align: inherit;">https</font></a><font style="vertical-align: inherit;"> : </font></font><a href="https://egghead.io/lessons/javascript-redux-generating-containers-with-connect-from-react-redux-visibletodolist" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">//egghead.io/lessons/javascript-redux-generating-containers-with-connect-from-react-redux-visibletodolist</font></font></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">卡卡西Stafan</span>
@@ -128,9 +124,7 @@ const TodoList = connect(<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">还要确保您熟悉</font></font><a href="https://facebook.github.io/react/docs/reusable-components.html#stateless-functions" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">React无状态函数</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">和</font></font><a href="https://medium.com/@dan_abramov/mixins-are-dead-long-live-higher-order-components-94a0d2f9e750#.8hdi3n2wx" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">高阶组件</font></font></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">猴子凯</span>
@@ -138,9 +132,7 @@ const TodoList = connect(<font></font>
           </div>
           <div class="discuss-comment"><p><code>mapStateToProps()</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">是一个实用程序，可以帮助您的组件获取更新的状态（由其他一些组件更新），</font></font><br>
 <code>mapDispatchToProps()</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">是一个实用程序，可以帮助您的组件触发操作事件（调度操作，这可能会导致应用程序状态发生变化）</font></font></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

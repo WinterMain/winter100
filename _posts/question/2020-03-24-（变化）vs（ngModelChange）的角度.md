@@ -35,7 +35,7 @@ topic: HTML
 </code></pre></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第3424篇《（变化）vs（ngModelChange）的角度》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第3424篇《（变化）vs（ngModelChange）的角度》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -46,9 +46,7 @@ topic: HTML
             <span class="discuss-time">2020.03.24</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在Angular 7中，</font></font><code>(ngModelChange)="eventHandler()"</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">意志将</font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">绑定到</font></font><code>[(ngModel)]="value"</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">值更改</font><strong><font style="vertical-align: inherit;">之前</font></strong><font style="vertical-align: inherit;">触发</font><font style="vertical-align: inherit;">，而</font><font style="vertical-align: inherit;">意志将</font><strong><font style="vertical-align: inherit;">在</font></strong><font style="vertical-align: inherit;">绑定到</font><font style="vertical-align: inherit;">更改</font><font style="vertical-align: inherit;">值</font><strong><font style="vertical-align: inherit;">之后</font></strong></font><code>(change)="eventHandler()"</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">触发</font><font style="vertical-align: inherit;">。</font></font><strong><font style="vertical-align: inherit;"></font></strong><font style="vertical-align: inherit;"></font><code>[(ngModel)]="value"</code><font style="vertical-align: inherit;"></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小小</span>
@@ -70,9 +68,7 @@ topic: HTML
 <li><code>(change)</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">当</font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">用户</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">更改输入</font><font style="vertical-align: inherit;">时触发</font></font></li>
 <li><code>(ngModelChange)</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> 在模型更改时触发，无论它是否连续执行用户操作</font></font></li>
 </ul></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小卤蛋</span>
@@ -98,9 +94,7 @@ topic: HTML
 如果将其放置在之后</font></font><code>ngModel</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，则该模型将已经具有新值。</font></font></p>
 
 <p><a href="https://github.com/angular/angular/issues/11234" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">资源</font></font></a></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

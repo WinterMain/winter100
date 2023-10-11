@@ -17,7 +17,7 @@ topic: React.js
     <div class="article-content"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我有点新反应。</font><font style="vertical-align: inherit;">我看到我们必须导入两件事才能开始，</font></font><code>React</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">并且</font></font><code>ReactDOM</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，谁能解释其中的区别。</font><font style="vertical-align: inherit;">我正在阅读</font></font><a href="http://facebook.github.io/react/docs/"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">React文档</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，但没有说。</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第563篇《React vs ReactDOM？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第563篇《React vs ReactDOM？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -34,9 +34,7 @@ topic: React.js
 <p><strong>Why separate them?</strong></p>
 
 <p>The <code>reason</code> React and ReactDOM were split into two libraries was due to the arrival of <code>React Native (A react platform for mobile development)</code>.</p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">阳光Itachi村村</span>
@@ -59,9 +57,7 @@ topic: React.js
 </blockquote>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这两段说明了核心API方法从何而来</font></font><code>v0.13</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">EvaGil</span>
@@ -77,18 +73,14 @@ topic: React.js
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">请参阅宣布v0.14版本的博客文章：</font><a href="https://facebook.github.io/react/blog/2015/10/07/react-v0.14.html"><font style="vertical-align: inherit;">https</font></a><font style="vertical-align: inherit;"> ://facebook.github.io/react/blog/2015/10/07/react-v0.14.html
 </font></font><a href="https://facebook.github.io/react/blog/2015/10/07/react-v0.14.html"><font style="vertical-align: inherit;"></font></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Green蛋蛋</span>
             <span class="discuss-time">2020.03.11</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">为了更简洁，react用于组件，而react-dom用于呈现DOM中的组件。</font><font style="vertical-align: inherit;">“反应域”充当组件和DOM之间的粘合剂。</font><font style="vertical-align: inherit;">您将使用react-dom的render（）方法来渲染DOM中的组件，而这就是您从开始时就需要知道的一切。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">西门泡芙Jim</span>
@@ -97,9 +89,7 @@ topic: React.js
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">ReactDOM模块公开了特定于DOM的方法，而React具有旨在由React在不同平台（例如React Native）上共享的核心工具。</font></font></p>
 
 <p><a href="http://facebook.github.io/react/docs/tutorial.html" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">http://facebook.github.io/react/docs/tutorial.html</font></font></a></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

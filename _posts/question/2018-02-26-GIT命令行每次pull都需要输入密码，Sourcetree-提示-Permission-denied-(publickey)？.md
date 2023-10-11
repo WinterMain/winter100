@@ -17,7 +17,7 @@ tags: 前端
 </div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第46篇《GIT命令行每次pull都需要输入密码，Sourcetree 提示 Permission denied (publickey)？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第46篇《GIT命令行每次pull都需要输入密码，Sourcetree 提示 Permission denied (publickey)？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -30,9 +30,7 @@ tags: 前端
           <div class="discuss-comment">找了很久解决这个，也是一句话搞定
 
 在终端输入：ssh-add ~/.ssh/id_rsa</div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

@@ -23,7 +23,7 @@ topic: Vue.js
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">由于Javascript </font></font><code>Map</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">和</font></font><code>Set</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">数据类型被设计为与它们的内置</font></font><code>get</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">/ </font></font><code>set</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">方法一起使用，因此如何获取Vue来跟踪对</font></font><code>Map</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">s和</font></font><code>Set</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">s </font><font style="vertical-align: inherit;">内部状态的调用（以及更改）</font><font style="vertical-align: inherit;">？</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第669篇《Vue是否支持Map和Set数据类型的反应性？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第669篇《Vue是否支持Map和Set数据类型的反应性？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -45,9 +45,7 @@ topic: Vue.js
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这使您的代码更简洁，但存在一个明显的问题：性能。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">只需根据需要选择解决方案即可：)</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Eva猴子古一</span>
@@ -84,9 +82,7 @@ methods: {<font></font>
   
   <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这说明了一种有点怪异但100％有效的方法，用于使不可观察的数据具有响应性。</font><font style="vertical-align: inherit;">尽管如此，在现实世界中，我最终还是获得了Sets / Maps的序列化版本（例如，您可能希望将Set / Maps的修改后的版本存储在本地存储中，从而无论如何都要对其进行序列化），因此不涉及任何人工计数器/黑客。</font></font></p>
 </blockquote></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

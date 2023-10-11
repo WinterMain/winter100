@@ -152,7 +152,7 @@ answer: 2
 </div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第52篇《Npm编译报错Exit status 137 verbose stack at EventEmitter.<anonymous> 》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第52篇《Npm编译报错Exit status 137 verbose stack at EventEmitter.<anonymous> 》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -163,9 +163,7 @@ answer: 2
             <span class="discuss-time">2018.03.12</span>
           </div>
           <div class="discuss-comment">其实也是因为内存不够了</div>
-        </div>
-        
-        <div class="discuss-children">
+        </div><div class="discuss-children">
           <div class="discuss-child">
             <div class="discuss-comment"><p><a href='/home/26969'>@刹那花开</a>可以的，你可以试试</p></div>
             <div class="discuss-meta">
@@ -178,10 +176,8 @@ answer: 2
               <span class="discuss-user">刹那花开</span>
               <span class="discuss-time">2020.09.28</span>
             </div>
-          </div>
-        </div>
-        
-      </div><div class="discuss-item">
+          </div></div>
+        </div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Winter</span>
@@ -193,9 +189,7 @@ answer: 2
 1.  npm install -g n   安装n模块
 2.  n stable   安装稳定版本
 然后搞定！</div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

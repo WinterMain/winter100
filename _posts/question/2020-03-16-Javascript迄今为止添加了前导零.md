@@ -35,7 +35,7 @@ MyDateString = MyDate.getDate() + '/' + (MyDate.getMonth()+1) + '/' + MyDate.get
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果有人可以告诉我将这些内容插入脚本的位置，我将非常感激。</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第1776篇《Javascript迄今为止添加了前导零》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第1776篇《Javascript迄今为止添加了前导零》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -53,9 +53,7 @@ let d = new date();<font></font>
 console.log(d);<font></font>
 console.log(`${d.getfullyear()}-${pad(d.getmonth() + 1)}-${pad(d.getdate())}t${pad(d.gethours())}:${pad(d.getminutes())}:${pad(d.getseconds())}`);<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">StafanEva</span>
@@ -73,9 +71,7 @@ console.log(`${d.getfullyear()}-${pad(d.getmonth() + 1)}-${pad(d.getdate())}t${p
     mm = "0" + mm;//if less then 10 add a leading zero<font></font>
   }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">飞云Jim</span>
@@ -92,9 +88,7 @@ console.log(`${d.getfullyear()}-${pad(d.getmonth() + 1)}-${pad(d.getdate())}t${p
  return mm + "/" + dd + "/" + tmp.getFullYear();<font></font>
 };<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">さ恋旧る</span>
@@ -131,9 +125,7 @@ document.body.innerHTML = DateHelper.format(DateHelper.addDays(new Date(), 20));
 <p></p>
 
 <p>(see also <a href="https://jsfiddle.net/9fpzcghg/1/" rel="nofollow"><strong>this Fiddle</strong></a>)</p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">StafanL</span>
@@ -157,9 +149,7 @@ console.log("Format Y/m/d : ",year+"/"+month+"/" + date);</code></pre>
 </div>
 </div>
 <p></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">TomL</span>
@@ -169,9 +159,7 @@ console.log("Format Y/m/d : ",year+"/"+month+"/" + date);</code></pre>
 
 <pre><code>today.toLocaleDateString("default", {year: "numeric", month: "2-digit", day: "2-digit"})
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">神无阳光</span>
@@ -189,9 +177,7 @@ console.log("Format Y/m/d : ",year+"/"+month+"/" + date);</code></pre>
       jsDate.getFullYear();<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">老丝Tony</span>
@@ -207,9 +193,7 @@ var datestring = d.getFullYear() + "-" + ("0"+(d.getMonth()+1)).slice(-2) +"-"+(
 <p>the <code>datestring</code> return date with format as you expect: 2019-09-01</p>
 
 <p>another approach is using <code>dateformat</code> library: <a href="https://github.com/felixge/node-dateformat" rel="noreferrer">https://github.com/felixge/node-dateformat</a> </p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">逆天Gil</span>
@@ -233,9 +217,7 @@ console.log(result);</code></pre>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">当您跳过第一个参数时，它将检测浏览器语言。</font><font style="vertical-align: inherit;">此外，您也可以使用</font></font><code>2-digit</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">年份选项。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果您不需要支持IE10之类的旧浏览器，这是完成这项工作的最干净的方法。</font><font style="vertical-align: inherit;">IE10及更低版本不了解options参数。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">古一斯丁猴子</span>
@@ -247,9 +229,7 @@ console.log(result);</code></pre>
     return String("00" + n).slice(-2);<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">伽罗Tony</span>
@@ -288,9 +268,7 @@ let byte = "00000100"<font></font>
 <font></font>
 byte = byte.padStart(8, 0) // "00000100"<font></font>
 </code></pre></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

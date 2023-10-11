@@ -23,7 +23,7 @@ topic: Node.js
 <p><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">但是什么</font></font><code>--save-dev</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">意思呢？</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我试着看，但徒劳无功。</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第2366篇《-save-dev在npm install grunt是什么意思--save-dev》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第2366篇《-save-dev在npm install grunt是什么意思--save-dev》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -42,9 +42,7 @@ topic: Node.js
 <p><code>npm install &lt;package_name&gt; ---save-dev</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">更新</font></font><code>devDependencies</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">您包中的。</font><font style="vertical-align: inherit;">这些仅用于本地测试和开发。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">您可以</font><a href="https://docs.npmjs.com/cli/install" rel="nofollow noreferrer"><font style="vertical-align: inherit;">在dcu中</font></a><font style="vertical-align: inherit;">阅读更多内容</font></font><a href="https://docs.npmjs.com/cli/install" rel="nofollow noreferrer"><font style="vertical-align: inherit;"></font></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">理查德猪猪伽罗</span>
@@ -57,9 +55,7 @@ topic: Node.js
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">一个</font></font><code>package.json</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">文件声明有关您正在开发的模块的元数据。</font><font style="vertical-align: inherit;">上述两个命令均会修改该</font></font><code>package.json</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">文件。</font></font><code>--save</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">将声明已安装的软件包（在本例中为</font></font><code>grunt</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">）作为模块的依赖项；</font></font><code>--save-dev</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">会将其声明为模块开发的依赖项。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">问问自己：使用我的模块是否需要安装的软件包，还是仅在开发它时才需要？</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小卤蛋小卤蛋</span>
@@ -69,9 +65,7 @@ topic: Node.js
 
 <pre><code>npm install --production
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小小猿</span>
@@ -116,9 +110,7 @@ topic: Node.js
 </ul></li>
 </ul></li>
 </ul></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">宝儿神无</span>
@@ -136,9 +128,7 @@ topic: Node.js
 <pre><code>npm install --save-dev packageName
 </code></pre></li>
 </ol></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">梅Jim</span>
@@ -149,9 +139,7 @@ topic: Node.js
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">1）“依赖项”：生产中的应用程序需要这些软件包。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">2）“ devDependencies”：这些包仅用于开发和测试</font></font></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

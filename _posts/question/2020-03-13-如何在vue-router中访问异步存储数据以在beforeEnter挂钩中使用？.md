@@ -41,7 +41,7 @@ store.dispatch('initApp'); // in here, async data will be fetched and assigned t
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">（哦，并且预先填充“ asyncData”不是解决方案，因为beforeEnter挂钩需要根据数据库中的实际数据（而非默认数据）做出决定）</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第1464篇《如何在vue-router中访问异步存储数据以在beforeEnter挂钩中使用？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第1464篇《如何在vue-router中访问异步存储数据以在beforeEnter挂钩中使用？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}

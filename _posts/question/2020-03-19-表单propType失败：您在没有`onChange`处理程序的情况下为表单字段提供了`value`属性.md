@@ -83,7 +83,7 @@ export default AppFrame;<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我正在努力找出我实际上在这里做错了什么。</font><font style="vertical-align: inherit;">该应用程序启动并运行，但是我正在尝试删除所有控制台警告/错误。</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第2246篇《表单propType失败：您在没有`onChange`处理程序的情况下为表单字段提供了`value`属性》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第2246篇《表单propType失败：您在没有\`onChange\`处理程序的情况下为表单字段提供了\`value\`属性》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -109,9 +109,7 @@ export default AppFrame;<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">文档：</font><a href="https://facebook.github.io/react/docs/uncontrolled-components.html#default-values" rel="noreferrer"><font style="vertical-align: inherit;">https</font></a><font style="vertical-align: inherit;"> : </font></font><a href="https://facebook.github.io/react/docs/uncontrolled-components.html#default-values" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">//facebook.github.io/react/docs/un受控-components.html＃default-values</font></font></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Tom伽罗</span>
@@ -125,9 +123,7 @@ export default AppFrame;<font></font>
 <p><a href="https://reactjs.org/docs/uncontrolled-components.html" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">https://reactjs.org/docs/uncontrol-components.html</font></font></a></p></li>
 <li><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">设置</font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">onChange</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">处理函数。</font></font></p></li>
 </ol></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

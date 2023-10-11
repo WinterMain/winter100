@@ -72,7 +72,7 @@ module.exports = redBubble;<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">最好的方式，最好是“反应”方式的任何建议，将不胜感激！</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第2030篇《将本地文件中的json数据加载到React JS中》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第2030篇《将本地文件中的json数据加载到React JS中》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -130,9 +130,7 @@ then after return:<font></font>
 </div>
 </div>
 <p></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">LEYHarryHarry</span>
@@ -141,9 +139,7 @@ then after return:<font></font>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">您可以使用webpack配置将JSON文件添加为外部文件。</font><font style="vertical-align: inherit;">然后，您可以在任何react模块中加载该json。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">看看</font></font><a href="https://stackoverflow.com/a/30602665/6886570"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这个答案</font></font></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">西里达蒙</span>
@@ -160,9 +156,7 @@ then after return:<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我没有</font></font><code>data</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在React组件中</font><font style="vertical-align: inherit;">看到使用</font><font style="vertical-align: inherit;">，因此我只能从理论上提出建议：为什么不在</font><font style="vertical-align: inherit;">回调中</font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">更新</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">您的组件？</font></font></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

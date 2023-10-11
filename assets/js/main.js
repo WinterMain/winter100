@@ -8,6 +8,23 @@
     resize: true,
   });
 
+  var layoutTimer;
+  function updateLayout() {
+    clearTimeout(layoutTimer);
+    layoutTimer = setTimeout(function () {
+      $('.blog-list').masonry('layout');
+    }, 500)
+  }
+  $('.blog-list .article-item img').on({
+    load: function () {
+      updateLayout();
+    },
+    error: function () {
+      $(this).hide();
+      updateLayout();
+    }
+  })
+
   // QUESTION
   $('.question-list-wrapper .c-nav .nav-item').click(function (e) {
     $(".question-list-wrapper").attr("topic", e.currentTarget.innerText);
@@ -20,7 +37,7 @@
     let asides = document.getElementsByClassName("s-right");
     let outter = document.getElementsByClassName("stage");
 
-    if(fixedArea) {
+    if (fixedArea) {
       fixedArea = fixedArea[0] || fixedArea;
     }
 

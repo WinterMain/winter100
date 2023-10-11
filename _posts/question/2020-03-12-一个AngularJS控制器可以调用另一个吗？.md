@@ -52,7 +52,7 @@ topic: JavaScript
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果我要添加另一个控制器，</font></font><code>DateCtrl</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">它将特定格式的日期返回给</font></font><code>MessageCtrl</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，那么该怎么做呢？</font><font style="vertical-align: inherit;">DI框架似乎与</font></font><code>XmlHttpRequests</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">服务有关。</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第937篇《一个AngularJS控制器可以调用另一个吗？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第937篇《一个AngularJS控制器可以调用另一个吗？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -67,9 +67,7 @@ topic: JavaScript
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我建议使用服务。</font><font style="vertical-align: inherit;">这是我最近在我的一个项目</font></font><a href="https://gist.github.com/3384419" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">-https:</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> //gist.github.com/3384419中实现它的方式</font><font style="vertical-align: inherit;">。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">基本思想-将pub-sub / event总线注册为服务。</font><font style="vertical-align: inherit;">然后将事件总线注入您需要订阅或发布事件/主题的地方。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">逆天米亚</span>
@@ -82,9 +80,7 @@ topic: JavaScript
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">2）</font></font><code>$rootScope</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在不相关的控制器上使用。
      </font></font><a href="http://jsfiddle.net/VxafF/" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">http://jsfiddle.net/VxafF/</font></font></a></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

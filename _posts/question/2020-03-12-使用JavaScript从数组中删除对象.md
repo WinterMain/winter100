@@ -26,7 +26,7 @@ topic: JavaScript
 </code></pre></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第1157篇《使用JavaScript从数组中删除对象》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第1157篇《使用JavaScript从数组中删除对象》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -57,9 +57,7 @@ let someArray = [ {"ColumnName" : "a", "PropertySerno" : 100005,"UpdateType" : 1
 </div>
 </div>
 <p></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">神无Green前端</span>
@@ -78,9 +76,7 @@ for (var i = 0; i &lt; selectedItem.length; i++) {<font></font>
     }<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小小</span>
@@ -110,9 +106,7 @@ console.log(noKristianArray);</code></pre>
 </div>
 </div>
 <p></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">路易Near番长</span>
@@ -128,9 +122,7 @@ someArray.some(item =&gt; { <font></font>
         someArray.splice(someArray.indexOf(item),1) <font></font>
 })<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">LPro</span>
@@ -159,9 +151,7 @@ for(var i = 0;i &lt; objArr.length; i ++)<font></font>
 </code></pre>
 
 <p>The above code snippet removes all objects with age greater than 20.</p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Sam神乐番长</span>
@@ -176,9 +166,7 @@ for(var i = 0;i &lt; objArr.length; i ++)<font></font>
 let arrayToRemove={name:"Kristian", lines:"2,5,10"};<font></font>
 someArray=someArray.filter((e)=&gt;e.name !=arrayToRemove.name &amp;&amp; e.lines!= arrayToRemove.lines)<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">老丝Eva</span>
@@ -189,9 +177,7 @@ someArray=someArray.filter((e)=&gt;e.name !=arrayToRemove.name &amp;&amp; e.line
 <pre><code>someArray = [{name:"Kristian", lines:"2,5,10"}, {name:"John", lines:"1,19,26,96"}];<font></font>
 someArray.splice(1,1)<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">十三猴子</span>
@@ -219,9 +205,7 @@ myArray.delete(3);<font></font>
 
 <pre><code>console.log(myArray); //Expected output 1,2,3,5,6,7,8,9
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">神奇Davaid</span>
@@ -242,9 +226,7 @@ myArray.delete(3);<font></font>
 </code></pre>
 
 <p>instead .</p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">猴子十三</span>
@@ -262,9 +244,7 @@ someArray.map(function(obj, index){<font></font>
 someArray = newArray;<font></font>
 console.log(someArray);<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Harry逆天</span>
@@ -277,9 +257,7 @@ console.log(someArray);<font></font>
 <pre><code> _.without([1, 2, 1, 0, 3, 1, 4], 0, 1);<font></font>
     =&gt; [2, 3, 4]<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">null</span>
@@ -295,9 +273,7 @@ console.log(someArray);<font></font>
     return array;<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">神无村村</span>
@@ -307,9 +283,7 @@ console.log(someArray);<font></font>
 
 <pre><code>someArray.splice(pos, 1);
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">神奇Eva</span>
@@ -358,9 +332,7 @@ console.log(someArray);<font></font>
 <font></font>
 console.log(removeFunction(obj.results,"id","460"));<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">GreenTonyL</span>
@@ -393,9 +365,7 @@ console.log(removeFunction(obj.results,"id","460"));<font></font>
                    function(o,i) { return o.name === "Kristian"; },<font></font>
                    true);<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">GO蛋蛋</span>
@@ -411,9 +381,7 @@ someArray.remove(function(el) { return el.Name === "Kristian"; });<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在大多数项目中，像这样的库提供一组辅助方法非常有用。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">别坑我路易</span>
@@ -425,9 +393,7 @@ someArray.remove(function(el) { return el.Name === "Kristian"; });<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这样做的问题是它</font></font><a href="http://kangax.github.com/es5-compat-table/" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">不能</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在IE &lt;9上运行。但是，您可以包括来自Java库的代码（例如</font></font><a href="http://documentcloud.github.com/underscore/#filter" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">underscore.js</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">），该代码可为任何浏览器实现此功能。</font></font></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

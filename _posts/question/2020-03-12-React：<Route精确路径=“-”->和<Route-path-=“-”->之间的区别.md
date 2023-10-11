@@ -27,7 +27,7 @@ topic: React.js
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我不知道“确切”的含义</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第864篇《React：<Route精确路径=“ /” />和<Route path =“ /” />之间的区别》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第864篇《React：<Route精确路径=“ /” />和<Route path =“ /” />之间的区别》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -48,9 +48,7 @@ topic: React.js
 </code></pre>
 
 <p>Take a look here :<a href="https://reacttraining.com/react-router/core/api/Route/exact-bool" rel="nofollow noreferrer">https://reacttraining.com/react-router/core/api/Route/exact-bool</a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">阿飞路易</span>
@@ -70,9 +68,7 @@ topic: React.js
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">然后，您必须将</font></font><code>exact</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">关键字</font><font style="vertical-align: inherit;">放入</font><font style="vertical-align: inherit;">该路径，该路径的路径也包含在另一个路径的路径中。</font><font style="vertical-align: inherit;">例如</font></font><code>/</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，所有路径中都包含</font><font style="vertical-align: inherit;">home路径</font><font style="vertical-align: inherit;">，因此它需要具有</font></font><code>exact</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">关键字以将其与以开头的其他路径区分开</font></font><code>/</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font><font style="vertical-align: inherit;">原因也类似于</font></font><code>/functions</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">路径。</font><font style="vertical-align: inherit;">如果要使用其他路径，例如</font></font><code>/functions-detail</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">或</font></font><code>/functions/open-door</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">其中包含的</font><font style="vertical-align: inherit;">路径</font></font><code>/functions</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，则需要使用</font></font><code>exact</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">该</font></font><code>/functions</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">路径。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">猴子宝儿Harry</span>
@@ -99,9 +95,7 @@ topic: React.js
 </code></pre>
 
 <p><a href="https://reacttraining.com/react-router/web/api/Route/exact-bool" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">该文档</font></font><code>exact</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">详细</font><font style="vertical-align: inherit;">解释</font><font style="vertical-align: inherit;">并给出了其他示例。</font></font></a></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

@@ -45,7 +45,7 @@ topic: JavaScript
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我的问题是：为什么</font></font><code>onClick</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">函数在渲染时触发，如何使其</font><font style="vertical-align: inherit;">不</font><font style="vertical-align: inherit;">触发？</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第523篇《React onClick函数在渲染时触发》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第523篇《React onClick函数在渲染时触发》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -89,9 +89,7 @@ class ScheduleType extends React.Component<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在</font></font><em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">RenderRadioInput中</font></font></em></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">它为我解决了这个问题。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">前端飞云</span>
@@ -102,9 +100,7 @@ class ScheduleType extends React.Component<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">取代这个 </font></font><code>&lt;a onClick={props.signOut()}&gt;Log Out&lt;/a&gt;</code></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">与此</font></font><code>&lt;a onClick={props.signOut}&gt;Log Out&lt;/a&gt;</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">...！</font><font style="vertical-align: inherit;">😆</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">L泡芙Jim</span>
@@ -131,9 +127,7 @@ class ScheduleType extends React.Component<font></font>
   return this.props.removeTaskFunction(todo);<font></font>
 }.bind(this);<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">樱泡芙</span>
@@ -160,9 +154,7 @@ class ScheduleType extends React.Component<font></font>
     }<font></font>
 });<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">逆天神奇</span>
@@ -174,9 +166,7 @@ class ScheduleType extends React.Component<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">MDN参考：</font><a href="https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Global_objects/Function/bind"><font style="vertical-align: inherit;">https</font></a><font style="vertical-align: inherit;">：</font></font><a href="https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Global_objects/Function/bind"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">//developer.mozilla.org/en/docs/Web/JavaScript/Reference/Global_objects/Function/bind</font></font></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">老丝小胖蛋蛋</span>
@@ -186,9 +176,7 @@ class ScheduleType extends React.Component<font></font>
 
 <pre><code>&lt;button type="submit" onClick={function(){removeTaskFunction(todo)}}&gt;Submit&lt;/button&gt;
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Tony村村</span>
@@ -200,9 +188,7 @@ class ScheduleType extends React.Component<font></font>
 </code></pre>
 
 <p><code>=&gt;</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> 在ES6中引入了一个称为Arrow Function的功能，并将在React 0.13.3或更高版本中得到支持。 </font></font></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

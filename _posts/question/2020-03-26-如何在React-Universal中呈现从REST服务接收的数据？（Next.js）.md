@@ -66,7 +66,7 @@ received<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">有没有办法同步或延迟调用服务器</font></font><code>render()</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">？</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第3742篇《如何在React Universal中呈现从REST服务接收的数据？（Next.js）》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第3742篇《如何在React Universal中呈现从REST服务接收的数据？（Next.js）》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -79,9 +79,7 @@ received<font></font>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">您可以添加</font></font><code>static async getInitialProps () {}</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">以将数据加载到props中，然后再渲染页面组件。</font></font></p>
 
 <p>More info here: <a href="https://github.com/zeit/next.js/blob/master/readme.md#fetching-data-and-component-lifecycle" rel="nofollow noreferrer">https://github.com/zeit/next.js/blob/master/readme.md#fetching-data-and-component-lifecycle</a></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

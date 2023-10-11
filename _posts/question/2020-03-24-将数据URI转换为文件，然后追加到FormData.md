@@ -30,7 +30,7 @@ topic: HTML
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">谢谢。</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第3693篇《将数据URI转换为文件，然后追加到FormData》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第3693篇《将数据URI转换为文件，然后追加到FormData》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -47,18 +47,14 @@ topic: HTML
 var name = "image.jpg";<font></font>
 var parseFile = new Parse.File(name, {base64: dataURL.substring(23)});<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">泡芙</span>
             <span class="discuss-time">2020.03.24</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">toDataURL给您一个字符串，您可以将该字符串放入隐藏的输入中。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">凯西里</span>
@@ -85,9 +81,7 @@ var parseFile = new Parse.File(name, {base64: dataURL.substring(23)});<font></fo
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">您是否为BlobBuilder使用了另一个库的polyfill？</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">宝儿理查德</span>
@@ -99,9 +93,7 @@ var parseFile = new Parse.File(name, {base64: dataURL.substring(23)});<font></fo
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">无需尝试即可使用。 </font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">谢谢check_ca。</font><font style="vertical-align: inherit;">做得好。</font></font></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

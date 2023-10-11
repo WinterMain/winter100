@@ -19,7 +19,7 @@ topic: CSS
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">有没有一种方法可以指示Safari（通过CSS或元数据）不对输入字段进行舍入并按预期将其呈现为矩形？</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第2471篇《关闭iPhone / Safari输入元素舍入》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第2471篇《关闭iPhone / Safari输入元素舍入》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -36,18 +36,14 @@ topic: CSS
 background-image: linear-gradient(to bottom, #e4e4e4, #f7f7f7);<font></font>
 border: 1px solid #afafaf<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Green小哥Tom</span>
             <span class="discuss-time">2020.03.20</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我使用了一个简单的border-radius：0; </font><font style="vertical-align: inherit;">删除文本输入类型的圆角。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Davaid前端LEY</span>
@@ -60,9 +56,7 @@ border: 1px solid #afafaf<font></font>
 <pre><code> -webkit-appearance: none;<font></font>
        border-radius: 0;<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">A逆天猿</span>
@@ -73,9 +67,7 @@ border: 1px solid #afafaf<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">它比单个类选择器具有更高的特异性</font></font><code>.foo</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，因此请注意，这样做不能做到</font></font><code>.my-field { -webkit-appearance: none; }</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font><font style="vertical-align: inherit;">如果您没有更好的方法来实现正确的特异性，这将有帮助：</font></font></p>
 
 <p><code>.my-field { -webkit-appearance: none !important; }</code></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">JimProL</span>
@@ -85,9 +77,7 @@ border: 1px solid #afafaf<font></font>
 
 <pre><code>input[type="submit"] { -webkit-appearance:none; -webkit-border-radius:0; }
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">L前端</span>
@@ -99,9 +89,7 @@ border: 1px solid #afafaf<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">否则</font></font><code>-webkit-border-radius: 0;</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">单单没有明确的原生样式。</font><font style="vertical-align: inherit;">这也是本机应用程序上的Webview。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">DavaidPro</span>
@@ -114,9 +102,7 @@ border: 1px solid #afafaf<font></font>
   @include border-radius(0);  // remove border-radius in iOS<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小哥猿</span>
@@ -129,9 +115,7 @@ border: 1px solid #afafaf<font></font>
     border-radius: 0;<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">西里神奇</span>
@@ -149,9 +133,7 @@ input[type="submit"] {<font></font>
 </code></pre>
 
 <p><b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">注意：</font></font></b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">请不要将此代码用于“选择选项”。</font><font style="vertical-align: inherit;">这将在我们选择的问题。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">逆天前端</span>
@@ -172,9 +154,7 @@ input[type="submit"] {<font></font>
     -webkit-appearance: none;<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">TomAL</span>
@@ -183,9 +163,7 @@ input[type="submit"] {<font></font>
           <div class="discuss-comment"><p><code>input -webkit-appearance: none;</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> 独自行不通。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">尝试</font></font><code>-webkit-border-radius:0px;</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">另外添加。</font></font></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

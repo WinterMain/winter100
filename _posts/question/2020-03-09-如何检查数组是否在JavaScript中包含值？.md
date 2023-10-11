@@ -32,7 +32,7 @@ topic: JavaScript
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这与Stack Overflow问题密切相关。</font></font><em><a href="https://stackoverflow.com/questions/143847/best-way-to-find-an-item-in-a-javascript-array"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在JavaScript数组中查找项目的最佳方法？</font></font></a></em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">解决使用数组查找对象的问题</font></font><code>indexOf</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第153篇《如何检查数组是否在JavaScript中包含值？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第153篇《如何检查数组是否在JavaScript中包含值？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -54,9 +54,7 @@ topic: JavaScript
     </span><span class="pun">}</span><span class="pln">
     </span><span class="kwd">return</span><span class="pln"> </span><span class="kwd">false</span><span class="pun">;</span><span class="pln">
 </span><span class="pun">}</span></code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">null</span>
@@ -76,9 +74,7 @@ topic: JavaScript
 </span><span class="pun">[</span><span class="lit">1</span><span class="pun">,</span><span class="lit">2</span><span class="pun">,</span><span class="lit">3</span><span class="pun">,</span><span class="lit">4</span><span class="pun">,</span><span class="lit">5</span><span class="pun">].</span><span class="pln">filter</span><span class="pun">(</span><span class="kwd">function</span><span class="pun">(</span><span class="pln">x</span><span class="pun">){</span><span class="kwd">return</span><span class="pln"> toRemove</span><span class="pun">[</span><span class="pln">x</span><span class="pun">]===</span><span class="kwd">undefined</span><span class="pun">})</span></code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">（不幸的是，尽管您可以创建一个Array.prototype.contains来“冻结”一个数组并将哈希表存储在两行中的this._cache中，但是如果您以后选择编辑数组，则会产生错误的结果。JavaScript的钩子不足让您保持这种状态，例如与Python不同。）</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">SamEva</span>
@@ -91,9 +87,7 @@ topic: JavaScript
 <li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">使更新对象成为remove + sorted插入操作，并且</font></font></li>
 <li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在中使用</font></font><a href="http://en.wikipedia.org/wiki/Binary_search_algorithm" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">二进制搜索</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">查找</font></font><code>contains(a, obj)</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></li>
 </ol></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Chloe</span>
@@ -110,18 +104,14 @@ topic: JavaScript
 </span><span class="pun">}</span><span class="pln"> </span></code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果找到，则返回数组索引；如果找不到，则返回-1</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">西门乐</span>
             <span class="discuss-time">2020.03.09</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果您使用的是JavaScript 1.6或更高版本（Firefox 1.5或更高版本），则可以使用</font></font><a href="https://developer.mozilla.org/en/Core_JavaScript_1.5_Reference/Objects/Array/indexOf" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Array.indexOf</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font><font style="vertical-align: inherit;">否则，我认为您最终将得到与原始代码相似的东西。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">村村JinJin</span>
@@ -132,9 +122,7 @@ topic: JavaScript
 </span><span class="pun">}</span></code></pre>
 
 <p><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/some"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Array.prototype.some（）</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">已在第5版中添加到ECMA-262标准中</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">伽罗Mandy</span>
@@ -145,9 +133,7 @@ topic: JavaScript
 <pre class="lang-js prettyprint prettyprinted" style=""><code><span class="kwd">function</span><span class="pln"> contains</span><span class="pun">(</span><span class="pln">arr</span><span class="pun">,</span><span class="pln"> x</span><span class="pun">)</span><span class="pln"> </span><span class="pun">{</span><span class="pln">
     </span><span class="kwd">return</span><span class="pln"> arr</span><span class="pun">.</span><span class="pln">filter</span><span class="pun">(</span><span class="kwd">function</span><span class="pun">(</span><span class="pln">elem</span><span class="pun">)</span><span class="pln"> </span><span class="pun">{</span><span class="pln"> </span><span class="kwd">return</span><span class="pln"> elem </span><span class="pun">==</span><span class="pln"> x </span><span class="pun">}).</span><span class="pln">length </span><span class="pun">&gt;</span><span class="pln"> </span><span class="lit">0</span><span class="pun">;</span><span class="pln">
 </span><span class="pun">}</span></code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">null</span>
@@ -156,9 +142,7 @@ topic: JavaScript
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">扩展JavaScript </font></font><code>Array</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">对象是一个非常糟糕的主意，因为您将新属性（您的自定义方法）引入了</font></font><code>for-in</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">可能破坏现有脚本的循环中。</font><font style="vertical-align: inherit;">几年前，</font></font><a href="http://en.wikipedia.org/wiki/Prototype_JavaScript_Framework" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">原型</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">库</font><font style="vertical-align: inherit;">的作者</font><font style="vertical-align: inherit;">不得不重新设计其库实现，以删除此类内容。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果您不必担心与页面上运行的其他JavaScript的兼容性，请坚持下去，否则，我建议您使用更笨拙但更安全的独立功能解决方案。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小卤蛋Near小卤蛋</span>
@@ -176,9 +160,7 @@ topic: JavaScript
 </span><span class="pun">{</span><span class="pln">
     </span><span class="com">//...</span><span class="pln">
 </span><span class="pun">}</span></code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">神奇Harry</span>
@@ -203,9 +185,7 @@ topic: JavaScript
             </span><span class="kwd">return</span><span class="pln"> </span><span class="pun">-</span><span class="lit">1</span><span class="pun">;</span><span class="pln">
         </span><span class="pun">};</span><span class="pln">
 </span><span class="pun">}</span></code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Jim小胖米亚</span>
@@ -214,9 +194,7 @@ topic: JavaScript
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">开箱即用地思考一下，如果您多次进行此调用，则使用</font></font><strike><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">关联数组</font></font></strike><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> Map来使用哈希函数进行查找</font><font style="vertical-align: inherit;">要高效得多</font><font style="vertical-align: inherit;">。</font></font></p>
 
 <p><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Map" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Map</font></font></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">神奇宝儿</span>
@@ -231,9 +209,7 @@ topic: JavaScript
 </span><span class="pun">[</span><span class="lit">1</span><span class="pun">,</span><span class="pln"> </span><span class="lit">2</span><span class="pun">,</span><span class="pln"> </span><span class="lit">3</span><span class="pun">].</span><span class="pln">indexOf</span><span class="pun">(</span><span class="lit">4</span><span class="pun">)</span><span class="pln"> </span><span class="pun">=&gt;</span><span class="pln"> </span><span class="pun">-</span><span class="lit">1</span></code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">AFAICS </font></font><a href="http://msdn.microsoft.com/en-us/library/k4h76zbx%5C%28VS.85%5C%29.aspx" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">微软并</font></font><em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">没有</font></font></em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">提供某种替代的</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这一点，但你可以在Internet Explorer阵列（和不支持其他浏览器加入类似的功能</font></font><code>indexOf</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，如果你希望），作为一个</font></font><a href="http://google.com/search?q=indexof%20internet%20explorer" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">快速谷歌搜索发现</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">（例如，</font></font><a href="http://soledadpenades.com/2007/05/17/arrayindexof-in-internet-explorer/" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这一个</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">）。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Sam神乐番长</span>
@@ -260,9 +236,7 @@ topic: JavaScript
 <pre class="lang-js prettyprint prettyprinted" style=""><code><span class="kwd">new</span><span class="pln"> </span><span class="typ">Array</span><span class="pun">(</span><span class="lit">5</span><span class="pun">).</span><span class="pln">includes</span><span class="pun">(</span><span class="kwd">undefined</span><span class="pun">);</span><span class="pln"> </span><span class="com">// true</span></code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">目前，它仍然是草稿，但可以对其进行多</font></font><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/includes#Polyfill" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">填充</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">以使其在所有浏览器上均可使用。</font></font></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

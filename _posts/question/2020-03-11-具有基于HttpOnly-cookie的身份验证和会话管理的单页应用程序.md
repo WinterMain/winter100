@@ -97,7 +97,7 @@ Accept-Language: en-US,en;q=0.8,tr;q=0.6<font></font>
 </ul></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第844篇《具有基于HttpOnly cookie的身份验证和会话管理的单页应用程序》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第844篇《具有基于HttpOnly cookie的身份验证和会话管理的单页应用程序》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -108,9 +108,7 @@ Accept-Language: en-US,en;q=0.8,tr;q=0.6<font></font>
             <span class="discuss-time">2020.03.11</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">使用凭据控件设置和发送cookie，因此请确保在发布登录时将其打开，以便将返回的cookie保存在浏览器中。</font></font></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

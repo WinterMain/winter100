@@ -17,7 +17,7 @@ topic: JavaScript
     <div class="article-content"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如何检查值是否是JavaScript中的Object？</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第290篇《检查值是否是JavaScript中的对象》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第290篇《检查值是否是JavaScript中的对象》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -31,9 +31,7 @@ topic: JavaScript
 
 <pre><code>angular.isObject(...)
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">MandyEva</span>
@@ -50,9 +48,7 @@ topic: JavaScript
 </code></pre>
 
 <p>I think in most of the cases a Date must pass the check as an Object, so I do not filter dates out</p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">村村神无猴子</span>
@@ -64,9 +60,7 @@ topic: JavaScript
    return item.constructor.name === "Object";<font></font>
 }; <font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">村村凯宝儿</span>
@@ -86,18 +80,14 @@ console.log(isObject(null)); // null</code></pre>
 </div>
 </div>
 <p></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">逆天古一Mandy</span>
             <span class="discuss-time">2020.03.09</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">lodash具有</font></font><a href="https://lodash.com/docs#isPlainObject" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">isPlainObject</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，这可能是许多访问此页面的人正在寻找的东西。</font><font style="vertical-align: inherit;">给定函数或数组时返回false。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Tony宝儿</span>
@@ -127,9 +117,7 @@ c instanceof Array //false<font></font>
   // code for objects<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">GOItachi</span>
@@ -195,9 +183,7 @@ console.log((null).constructor.name) //throws an error because null does not act
 <blockquote>
   <p><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">注意：</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">从2018年开始，Function.name在</font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">IE </font></font></strong> <font style="vertical-align: inherit;"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/name#Browser_compatibility" rel="noreferrer"><font style="vertical-align: inherit;">https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Function/name#Browser_compatibility中</font></a><font style="vertical-align: inherit;">可能不起作用</font></font><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/name#Browser_compatibility" rel="noreferrer"><font style="vertical-align: inherit;"></font></a></p>
 </blockquote></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">SamStafan十三</span>
@@ -221,9 +207,7 @@ console.log((null).constructor.name) //throws an error because null does not act
 <p><a href="http://devdocs.io/javascript/global_objects/array/isarray" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">http://devdocs.io/javascript/global_objects/array/isarray</font></font></a></p>
 
 <p><a href="http://devdocs.io/javascript/global_objects/null" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">http://devdocs.io/javascript/global_objects/null</font></font></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">村村小小十三</span>
@@ -238,9 +222,7 @@ console.log((null).constructor.name) //throws an error because null does not act
 </ul>
 
 <p>For more information on this and why it is a good alternative to typeof, <a href="http://javascriptweblog.wordpress.com/2011/08/08/fixing-the-javascript-typeof-operator/" rel="noreferrer">check out this article</a>.</p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">GreenSam</span>
@@ -257,9 +239,7 @@ console.log((null).constructor.name) //throws an error because null does not act
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">尝试使用</font></font><code>typeof(var)</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">和/或</font></font><code>var instanceof something</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">编辑：这个答案给出了一个如何检查变量属性的想法，但是它</font></font><em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">不是</font></font></em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">防弹配方（毕竟根本没有配方！）来检查它是否是一个对象，而不是对象。</font><font style="vertical-align: inherit;">由于人们倾向于在不做任何研究的情况下从这里寻找要复制的东西，因此我强烈建议他们转向另一个最受好评（也是正确的答案）的答案。</font></font></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

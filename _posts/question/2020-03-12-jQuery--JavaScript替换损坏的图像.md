@@ -23,7 +23,7 @@ topic: JavaScript
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">-我以为使用jQuery会更容易，但是事实证明，仅使用纯JavaScript解决方案（即Prestaul提供的解决方案）要容易得多。</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第1064篇《jQuery / JavaScript替换损坏的图像》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第1064篇《jQuery / JavaScript替换损坏的图像》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -43,9 +43,7 @@ topic: JavaScript
   }<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">米亚神无</span>
@@ -72,18 +70,14 @@ $( "img" )<font></font>
 </code></pre>
 
 <p><a href="https://api.jquery.com/error/" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">参考</font></font></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">木心</span>
             <span class="discuss-time">2020.03.12</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我不确定是否有更好的方法，但是我可以考虑采用这种方法-您可以将Ajax发布到img URL，然后解析响应以查看图像是否真的回来了。</font><font style="vertical-align: inherit;">如果它以404或类似的形式返回，则换掉img。</font><font style="vertical-align: inherit;">虽然我希望这会很慢。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Harry逆天</span>
@@ -107,9 +101,7 @@ render: function() {<font></font>
     );<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">阿良</span>
@@ -128,9 +120,7 @@ render: function() {<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">为什么</font></font><code>javascript: _</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">需要？</font><font style="vertical-align: inherit;">由于通过脚本标记插入到DOM中的脚本在</font></font><code>innerHTML</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">注入时未运行，因此必须明确。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">成天</span>
@@ -144,9 +134,7 @@ render: function() {<font></font>
   e = $(@).get 0<font></font>
   $(@).hide() if !$.browser.msie &amp;&amp; (typeof this.naturalWidth == "undefined" || this.naturalWidth == 0)<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Pro理查德LEY</span>
@@ -160,9 +148,7 @@ render: function() {<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">因为使用</font></font><code>document.ready</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">不一定意味着图像已加载，所以仅HTML。</font><font style="vertical-align: inherit;">因此，不需要延迟的呼叫。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">神乐Jim</span>
@@ -172,9 +158,7 @@ render: function() {<font></font>
 
 <pre><code>&lt;img ...  onerror="this.parentNode.removeChild(this);"&gt;
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">猴子阳光</span>
@@ -193,9 +177,7 @@ render: function() {<font></font>
     $(this).attr("src", "broken.gif");<font></font>
 });<font></font>
 </code></pre></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

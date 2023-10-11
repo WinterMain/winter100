@@ -36,7 +36,7 @@ topic: Node.js
 </code></pre></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第2499篇《npm install不会安装devDependencies》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第2499篇《npm install不会安装devDependencies》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -51,9 +51,7 @@ topic: Node.js
 <pre><code>RUN npm install<font></font>
 RUN npm install --only=dev<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">LGil</span>
@@ -63,9 +61,7 @@ RUN npm install --only=dev<font></font>
 
 <pre><code>npm i -D &lt;dependencies-names&gt;
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">飞云TomSam</span>
@@ -76,18 +72,14 @@ RUN npm install --only=dev<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">跑 </font></font><code>npm config get production</code></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">要设置它： </font></font><code>npm config set -g production false</code></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">米亚宝儿</span>
             <span class="discuss-time">2020.03.20</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我有一个类似的问题。  </font></font><code>npm install --only=dev</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">没有用，也没有用</font></font><code>npm rebuild</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font><font style="vertical-align: inherit;">最终，我不得不删除</font></font><code>node_modules</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">并</font><font style="vertical-align: inherit;">重新</font></font><code>package-lock.json</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">运行</font></font><code>npm install</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font><font style="vertical-align: inherit;">这为我解决了。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">JinJinA</span>
@@ -152,9 +144,7 @@ npm install jquery@^2.1.4 --save<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">一切正常吗？</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我正在尝试做的是了解您的问题是全局的，还是先前文件夹和依赖项的局部问题。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Gil伽罗小宇宙</span>
@@ -169,18 +159,14 @@ npm install jquery@^2.1.4 --save<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">同样，导致</font></font><code>devDependencies</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">未安装。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">仅供参考，将</font></font><code>package.json</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">“名称” </font><font style="vertical-align: inherit;">更改</font><font style="vertical-align: inherit;">为</font></font><code>blah-blah-blah</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">固定的</font><font style="vertical-align: inherit;">名称</font><font style="vertical-align: inherit;">。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">西里神奇</span>
             <span class="discuss-time">2020.03.20</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我有一个</font></font><code>package-lock.json</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">来自旧版本package.json </font><font style="vertical-align: inherit;">的</font><font style="vertical-align: inherit;">文件，我删除了该文件，然后正确安装了所有文件。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Stafan</span>
@@ -189,9 +175,7 @@ npm install jquery@^2.1.4 --save<font></font>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">确保您没有将env变量</font></font><code>NODE_ENV</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">设置为“ production”。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果这样做，没有</font></font><code>--dev</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">标记</font><font style="vertical-align: inherit;">将不会安装dev依赖项</font></font></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

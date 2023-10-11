@@ -23,7 +23,7 @@ topic: HTML
 <p><b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">[编辑]：</font></font></b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我没有提前提到它，所以回答“ Flash”的海报是足够有效的，但是我正在做的部分工作是试图强调使用纯HTML5可以完成的工作...因此Flash是就我而言 </font><font style="vertical-align: inherit;">（尽管对于使用“真实” Web应用程序的任何人来说，这都是一个完全正确的答案。）在这种情况下，除非我不想让服务器参与其中，否则看起来我很不走运。</font><font style="vertical-align: inherit;">不管怎么说，还是要谢谢你！</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第3250篇《使用HTML5 / JavaScript生成并保存文件》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第3250篇《使用HTML5 / JavaScript生成并保存文件》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -38,9 +38,7 @@ topic: HTML
 <blockquote>
   <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Downloadify是一个很小的JavaScript + Flash库，可在浏览器中即时生成和保存文件，而无需服务器交互。 </font></font></p>
 </blockquote></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">蛋蛋</span>
@@ -49,9 +47,7 @@ topic: HTML
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">HTML5定义了一种</font></font><code>window.saveAs(blob, filename)</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">方法。</font><font style="vertical-align: inherit;">目前没有任何浏览器支持。</font><font style="vertical-align: inherit;">但是，有一个名为</font></font><a href="http://eligrey.com/blog/post/saving-generated-files-on-the-client-side" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">FileSaver.js</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">的兼容性库</font><font style="vertical-align: inherit;">，可以将该功能添加到大多数现代浏览器（包括Internet Explorer 10+）中。</font><font style="vertical-align: inherit;">Internet Explorer 10支持一种</font></font><code>navigator.msSaveBlob(blob, filename)</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">方法（</font></font><a href="http://msdn.microsoft.com/en-us/library/windows/apps/hh441122.aspx" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">MSDN</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">），该方法在FileSaver.js中用于Internet Explorer支持。</font></font></p>
 
 <p>I wrote a <a href="http://hackworthy.blogspot.com/2012/05/savedownload-data-generated-in.html" rel="noreferrer">blog posting</a> with more details about this problem.</p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

@@ -51,7 +51,7 @@ topic: React.js
 </code></pre></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第1790篇《在React中使用多个选项从<select>检索值》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第1790篇《在React中使用多个选项从<select>检索值》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -68,9 +68,7 @@ topic: React.js
     this.props.onChange(values);<font></font>
   };<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">泡芙小胖</span>
@@ -84,9 +82,7 @@ topic: React.js
     )<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">老丝Tom前端</span>
@@ -103,9 +99,7 @@ topic: React.js
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">target.selectedOptions返回一个HTMLCollection</font></font></p>
 
 <p><a href="https://codepen.io/papawa/pen/XExeZY" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">https://codepen.io/papawa/pen/XExeZY</font></font></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小宇宙樱</span>
@@ -126,9 +120,7 @@ var values = [].filter.call(select.options, function (o) {<font></font>
 <pre><code>  let select = this.refs.selectRef;<font></font>
   let values = [].filter.call(select.options, o =&gt; o.selected).map(o =&gt; o.value);<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">JimJim</span>
@@ -140,9 +132,7 @@ var values = [].filter.call(select.options, function (o) {<font></font>
   this.setState({multiValue: [...evt.target.selectedOptions].map(o =&gt; o.value)}); <font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">卡卡西Near</span>
@@ -153,9 +143,7 @@ var values = [].filter.call(select.options, function (o) {<font></font>
 <pre><code>var selectBoxObj = React.findDOMNode(this.refs.selectBox)<font></font>
 var values = $(selectBoxObj).val()<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">JimJim</span>
@@ -174,9 +162,7 @@ var values = $(selectBoxObj).val()<font></font>
   this.props.someCallback(value);<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小卤蛋小卤蛋</span>
@@ -195,9 +181,7 @@ var values = $(selectBoxObj).val()<font></font>
 </code></pre>
 
 <p><code>selectedOptions</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">是与DOM相关的元素的数组形式的集合/列表。</font><font style="vertical-align: inherit;">选择选项值时，可以在事件目标对象中访问它。</font></font><code>Array.prototype.slice</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">并</font></font><code>call</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">允许我们为新状态创建它的副本。</font><font style="vertical-align: inherit;">您也可以使用ref（如果您不捕获事件）以这种方式访问​​值，这是该问题的另一个答案。</font></font></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

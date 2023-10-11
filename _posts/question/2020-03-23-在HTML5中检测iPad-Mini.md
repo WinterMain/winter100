@@ -44,7 +44,7 @@ topic: HTML
 <p>So IMHO this goes beyond the thick fingers / guidelines discussions and is just something Apple and all other vendors ought to do: allow us to uniquely identify your device and <strong>think different</strong> instead of <strong>following</strong> guidelines.</p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第2807篇《在HTML5中检测iPad Mini》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第2807篇《在HTML5中检测iPad Mini》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -69,18 +69,14 @@ alert(hasWebkitAudio);​<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">（此测试不适用于台式机，对于台式机，请检查webkitAudioContext是否为函数）。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这是供您试用的代码：</font><a href="http://jsfiddle.net/sqFbc/" rel="nofollow noreferrer"><font style="vertical-align: inherit;">http</font></a><font style="vertical-align: inherit;"> : </font></font><a href="http://jsfiddle.net/sqFbc/" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">//jsfiddle.net/sqFbc/</font></font></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Tony神乐</span>
             <span class="discuss-time">2020.03.23</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果您创建了一堆1“ x1”宽的div，并将它们一个接一个地附加到父div，直到边界框从1英寸跳到2英寸，该怎么办？</font><font style="vertical-align: inherit;">mini上的一英寸与iPad上的一英寸一样，对吗？</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">十三</span>
@@ -95,9 +91,7 @@ font: -apple-system-body;    <font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">（</font></font><a href="http://jsfiddle.net/fU8QK/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">示例</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">按钮CSS，感谢jsfiddle和cssbuttongenerator）</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">米亚LEY</span>
@@ -137,9 +131,7 @@ alert(Math.sqrt(width*width + height*height));<font></font>
 <p><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">EDIT2：</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">事实证明，我在其中进行测试的页面有一些冲突的</font></font><a href="http://en.wikipedia.org/wiki/Cascading_Style_Sheets" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">CSS</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font><font style="vertical-align: inherit;">我修复了测试代码，使其现在可以正常工作。</font><font style="vertical-align: inherit;">您需要位置：div上的绝对位置，以便可以使用％的高度。</font></font></p>
 
 <p><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">EDIT3：</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我做了一些研究，似乎没有办法真正获得任何设备上的屏幕尺寸。</font><font style="vertical-align: inherit;">这不是操作系统所能知道的。</font><font style="vertical-align: inherit;">当您在CSS中使用现实单位时，实际上只是基于屏幕某些属性的估计。</font><font style="vertical-align: inherit;">不用说这根本不准确。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">猪猪</span>
@@ -148,9 +140,7 @@ alert(Math.sqrt(width*width + height*height));<font></font>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">未经测试，但是它可以播放音频文件，提取背景噪音并计算其“颜色”（频率图），而不是播放音频文件并检查平衡情况。</font><font style="vertical-align: inherit;">如果IPad Mini的麦克风型号与IPad 2不同，则其背景颜色应明显不同，并且某些音频指纹识别技术可能会帮助您确定所使用的设备。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我不认为在这种情况下可行并值得麻烦，但我认为</font><font style="vertical-align: inherit;">在某些应用中可以使用</font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">背景噪音的指纹识别功能</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，例如，告诉您建筑物内的位置。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">樱</span>
@@ -159,9 +149,7 @@ alert(Math.sqrt(width*width + height*height));<font></font>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">您可以随时询问用户？！ </font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果用户看不到按钮或内容，则为他们提供一种自行管理缩放的方法。</font><font style="vertical-align: inherit;">您总是可以在站点上内置一些缩放按钮，以使内容（文本/按钮）更大或更小。</font><font style="vertical-align: inherit;">（几乎）可以保证此功能适用于任何当前的iPad分辨率，并且可能由苹果决定采用的任何将来的分辨率。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">LLEY</span>
@@ -176,9 +164,7 @@ alert(Math.sqrt(width*width + height*height));<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果您收集了不在可视区域中的足够的水龙头，则可以决定以可视方式缩放UI控件。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">另外，这也适用于iPad上的大手笔。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">老丝阿飞</span>
@@ -205,9 +191,7 @@ alert(Math.sqrt(width*width + height*height));<font></font>
 </ul>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">祝您好运-希望您找到了一个很棒的解决方案！</font><font style="vertical-align: inherit;">如果您不这样做，请不要忘记这一点。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">null</span>
@@ -218,9 +202,7 @@ alert(Math.sqrt(width*width + height*height));<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">而不是检测iPad Mini，为什么不检测用户是否很难按一下控件（或：一直按控件的子区域），并增大/缩小控件的大小以适应他们？</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">需要更大控件的用户无论硬件如何均可获得它们。</font><font style="vertical-align: inherit;">不需要更大控件并希望看到更多内容的用户也可以得到该功能。</font><font style="vertical-align: inherit;">这不仅仅是检测硬件，这很简单，而且有些微妙的事情要解决，但是如果仔细地做的话，可能会很好。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">老丝阿飞</span>
@@ -229,9 +211,7 @@ alert(Math.sqrt(width*width + height*height));<font></font>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">要求所有具有iPad2用户代理的用户</font></font><a href="http://howto.cnet.com/8301-11310_39-57507927-285/with-ios-6-you-can-upload-photos-in-safari/"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">使用内置摄像头</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">提供照片</font><a href="http://howto.cnet.com/8301-11310_39-57507927-285/with-ios-6-you-can-upload-photos-in-safari/"><font style="vertical-align: inherit;">，</font></a><font style="vertical-align: inherit;">并使用</font></font><a href="http://www.w3.org/TR/FileAPI/"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">HTML File API</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">检测分辨率</font><font style="vertical-align: inherit;">。</font><font style="vertical-align: inherit;">由于相机的改进，iPad Mini照片将具有更高的分辨率。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">您还可以尝试创建一个不可见的canvas元素，然后使用Canvas API将其转换为PNG / JPG。</font><font style="vertical-align: inherit;">我没有任何测试方法，但是</font><font style="vertical-align: inherit;">由于底层的压缩算法和设备的像素密度</font><font style="vertical-align: inherit;">，最终的位</font></font><em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">可能会</font></font></em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">有所不同。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Tony达蒙</span>
@@ -256,9 +236,7 @@ alert(Math.sqrt(width*width + height*height));<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">没有任何iPad可以测试。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Tony樱</span>
@@ -267,9 +245,7 @@ alert(Math.sqrt(width*width + height*height));<font></font>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">关于微基准测试，在iPad 2上计算大约需要X微秒，在iPad mini上需要大约y秒。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">它可能不够准确，但是可能会有一些指导说明iPad mini的芯片效率更高。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">蛋蛋</span>
@@ -282,9 +258,7 @@ alert(Math.sqrt(width*width + height*height));<font></font>
 <p>If those two numbers are different, and mutually prime, then in production you can calculate <code>battery.level * iPad2TotalLevel</code> and <code>battery.level * iPadMiniTotalLevel</code>. Whichever is closer to an integer will indicate which device is being used.</p>
 
 <p>Sorry about the number of ifs in this answer! Hopefully something better will come along.</p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">梅</span>
@@ -298,9 +272,7 @@ alert(Math.sqrt(width*width + height*height));<font></font>
   
   <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">好的，是的，您是对的，但这与问题没有直接关系。</font><font style="vertical-align: inherit;">而且我需要补充第二个坏消息：</font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">没有客户端技术也无法进行“特征检测”</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p>
 </blockquote></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">老丝</span>
@@ -311,9 +283,7 @@ alert(Math.sqrt(width*width + height*height));<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">例如，</font></font><a href="http://developer.apple.com/library/safari/#documentation/SafariDOMAdditions/Reference/DeviceMotionEventClassRef/DeviceMotionEvent/DeviceMotionEvent.html"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">此页面</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">似乎建议您仅</font></font><code>rotationRate</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在设备具有陀螺仪的情况下</font><font style="vertical-align: inherit;">才能获取该</font><font style="vertical-align: inherit;">值。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">抱歉，我无法提供有效的POC-我无法使用iPad mini。</font><font style="vertical-align: inherit;">也许对这些定向API有更多了解的人可以在这里提出建议。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">JimJinJin</span>
@@ -352,9 +322,7 @@ else {<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">”</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我不完全了解您在JavaScript中可以做什么和不能做什么。</font><font style="vertical-align: inherit;">我知道您可以获取用户的IP，但是可以获取用户的mac地址吗？</font><font style="vertical-align: inherit;">iPad2和iPad mini的范围是否有所不同？</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小小</span>
@@ -371,9 +339,7 @@ else {<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">当苹果公司不可避免地以不同的外形尺寸发布下一个iPad时，您几乎肯定需要重新查看此代码。</font><font style="vertical-align: inherit;">但是，我敢肯定，您将掌握一切，并为每个新版本的iPad维护此技巧。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">LGil</span>
@@ -382,9 +348,7 @@ else {<font></font>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">当右声道和左声道的音量都很高时，播放立体声音频文件并比较加速度计的响应-iPad2具有单声道扬声器，而iPad Mini具有内置立体声扬声器。</font></font></p>
 
 <p><em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">需要您的帮助来收集数据，请访问</font></font><a href="http://www.intechrity365.com/collectIpadMini2.html" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">此页面，</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">并帮助我收集有关此疯狂想法的数据。</font><font style="vertical-align: inherit;">我没有iPad mini，所以我真的需要您的帮助</font></font></em></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">阿飞</span>
@@ -397,9 +361,7 @@ else {<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">该值可以通过用户代理（</font></font><code>window.navigator.userAgent</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">）</font><font style="vertical-align: inherit;">上的正则表达式轻松获得</font><font style="vertical-align: inherit;">；</font><font style="vertical-align: inherit;">该数字以“ </font></font><code>Mobile/</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">” </font><font style="vertical-align: inherit;">为前缀</font><font style="vertical-align: inherit;">。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">不幸的是，这是检测iPad Mini的唯一明确方法。</font><font style="vertical-align: inherit;">我建议采用</font></font><code>viewport</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">相关方法（在支持的情况下，使用vh / vw单位）在不同屏幕尺寸上正确显示内容。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小卤蛋小卤蛋</span>
@@ -422,9 +384,7 @@ screen.availHeight = 1024<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">来源：</font><a href="http://konstruktors.com/blog/web-design/4396-detect-ipad-mini-javascript/" rel="noreferrer"><font style="vertical-align: inherit;">http</font></a><font style="vertical-align: inherit;">：</font></font><a href="http://konstruktors.com/blog/web-design/4396-detect-ipad-mini-javascript/" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">//konstruktors.com/blog/web-design/4396-detect-ipad-mini-javascript/</font></font></a></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

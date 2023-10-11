@@ -17,7 +17,7 @@ topic: CSS
     <div class="article-content"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我想让我的Bootstrap菜单在悬停时自动下拉，而不是必须单击菜单标题。</font><font style="vertical-align: inherit;">我也想丢掉菜单标题旁边的小箭头。</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第1558篇《如何在悬停而不是单击时使Twitter Bootstrap菜单下拉菜单》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第1558篇《如何在悬停而不是单击时使Twitter Bootstrap菜单下拉菜单》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -34,9 +34,7 @@ topic: CSS
     content: none;<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小胖LEY西门</span>
@@ -51,9 +49,7 @@ Keeps the same friendly functionality for mobile and tablet.</p>
     }<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">卡卡西神奇</span>
@@ -67,9 +63,7 @@ Keeps the same friendly functionality for mobile and tablet.</p>
     }<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">猪猪阿飞</span>
@@ -84,9 +78,7 @@ Keeps the same friendly functionality for mobile and tablet.</p>
    display:none;<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">阿飞蛋蛋</span>
@@ -102,9 +94,7 @@ Keeps the same friendly functionality for mobile and tablet.</p>
     margin-top: 0;<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Green老丝Itachi</span>
@@ -116,9 +106,7 @@ Keeps the same friendly functionality for mobile and tablet.</p>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">但是，这对于向上的指针没有任何作用。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">猪猪西门</span>
@@ -130,9 +118,7 @@ Keeps the same friendly functionality for mobile and tablet.</p>
     display: block;<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">null</span>
@@ -146,9 +132,7 @@ Keeps the same friendly functionality for mobile and tablet.</p>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">而且它将正常工作。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Tony凯</span>
@@ -160,9 +144,7 @@ Keeps the same friendly functionality for mobile and tablet.</p>
 display: block;<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">十三SamJim</span>
@@ -315,9 +297,7 @@ display: block;<font></font>
 <p></p>
 
 <p><a href="http://jsfiddle.net/2Smgv/3100/" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">演示版</font></font></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">斯丁A</span>
@@ -353,9 +333,7 @@ display: block;<font></font>
  margin-top: 0px;<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Pro番长</span>
@@ -403,9 +381,7 @@ display: block;<font></font>
 <p>It will work in your favour if you look further into how these work and not just use the answers that I have given you.</p>
 
 <p><strong><em>Thanks to @CocaAkat for pointing out that we were missing the "&gt;" child combinator to prevent sub menus being shown on the parent hover</em></strong></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小小仲羽</span>
@@ -417,9 +393,7 @@ display: block;<font></font>
    display: block;<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

@@ -39,7 +39,7 @@ topic: JavaScript
 <p></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第150篇《我应该为JavaScript链接使用哪个“ href”值，“＃”或“ javascript：void（0）”？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第150篇《我应该为JavaScript链接使用哪个“ href”值，“＃”或“ javascript：void（0）”？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -52,18 +52,14 @@ topic: JavaScript
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我相信您提出的是错误的二分法。</font><font style="vertical-align: inherit;">这些不是仅有的两个选择。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我同意D4V360先生的意见，他建议，即使您使用的是定位标记，也没有真正的定位标记。</font><font style="vertical-align: inherit;">您所拥有的只是文档的特殊部分，其行为应略有不同。</font><font style="vertical-align: inherit;">一个</font></font><code>&lt;span&gt;</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">标签是更为合适。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">理查德十三</span>
             <span class="discuss-time">2020.03.09</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我用开发人员工具在谷歌浏览器中尝试了两次，</font></font><code>id="#"</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">花了0.32秒。</font><font style="vertical-align: inherit;">而该</font></font><code>javascript:void(0)</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">方法仅花费了0.18秒。</font><font style="vertical-align: inherit;">因此，在谷歌浏览器中，</font></font><code>javascript:void(0)</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">效果更好，更快。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">卡卡西卡卡西</span>
@@ -78,9 +74,7 @@ topic: JavaScript
 <pre class="lang-js prettyprint prettyprinted" style=""><code><span class="pun">&lt;</span><span class="pln">a href</span><span class="pun">=</span><span class="str">"javascriptlessDestination.html"</span><span class="pln"> onclick</span><span class="pun">=</span><span class="str">"myJSFunc(); return false;"</span><span class="pun">&gt;</span><span class="typ">Link</span><span class="pln"> text</span><span class="pun">&lt;/</span><span class="pln">a</span><span class="pun">&gt;</span></code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">最后，</font></font><code>javascript:void(0)</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果您不希望任何人去任何地方并且不想调用JavaScript函数，则可以使用。</font><font style="vertical-align: inherit;">如果您有想要发生鼠标悬停事件的图像，则效果很好，但是用户没有任何可单击的东西。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">猿小小</span>
@@ -91,9 +85,7 @@ topic: JavaScript
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">您几乎可以在每个元素上附加事件（单击，悬停等），那么为什么不只使用a </font></font><code>span</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">或</font></font><code>div</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">？呢？</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">对于禁用了JavaScript的用户：如果没有后备广告（例如，Alternative </font></font><code>href</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">），那么他们至少应该根本无法看到该元素并与之交互，无论它是</font></font><code>&lt;a&gt;</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">还是</font></font><code>&lt;span&gt;</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">标签。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小哥卡卡西</span>
@@ -115,9 +107,7 @@ topic: JavaScript
 </ul></li>
 <li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">简而言之</font></font></li>
 </ul></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Sam番长逆天</span>
@@ -148,9 +138,7 @@ topic: JavaScript
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">最后，如果您要绑定JavaScript代码本身的事件，则可以</font></font><code>event.preventDefault()</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在使用</font></font><code>&lt;a&gt;</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">标签的情况下</font><font style="vertical-align: inherit;">实现此目的</font><font style="vertical-align: inherit;">，但是，如果您不</font></font><code>&lt;a&gt;</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">为此</font><font style="vertical-align: inherit;">使用</font><font style="vertical-align: inherit;">标签，则可以得到好处，而不会不需要这样做。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">因此，如果您看到了，最好不要对此类内容使用标签。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">乐乐</span>
@@ -173,9 +161,7 @@ topic: JavaScript
 </span><span class="pun">.</span><span class="pln">funcActuator</span><span class="pun">:</span><span class="pln">hover </span><span class="pun">{</span><span class="pln"> 
   color</span><span class="pun">:</span><span class="pln"> </span><span class="pun">#</span><span class="lit">900</span><span class="pun">;</span><span class="pln">
 </span><span class="pun">}</span></code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">樱古一</span>
@@ -194,18 +180,14 @@ topic: JavaScript
 <pre class="lang-js prettyprint prettyprinted" style=""><code><span class="pun">&lt;</span><span class="pln">a onclick</span><span class="pun">=</span><span class="str">"hello()"</span><span class="pun">&gt;</span><span class="typ">Hello</span><span class="pun">&lt;/</span><span class="pln">a</span><span class="pun">&gt;</span></code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">很简单！</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">番长Jim路易</span>
             <span class="discuss-time">2020.03.09</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我选择use </font></font><code>javascript:void(0)</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，因为使用此方法可能会阻止右键单击以打开内容菜单。</font><font style="vertical-align: inherit;">但是</font></font><code>javascript:;</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">更短并且做同样的事情。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">老丝村村</span>
@@ -222,18 +204,14 @@ topic: JavaScript
 <li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">当鼠标悬停在链接上时，并不表示它是脚本。</font></font></li>
 <li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">通过使用</font></font><code>return false;</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，页面不会跳到顶部或断开</font></font><code>back</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">按钮。</font></font></li>
 </ol></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">乐泡芙</span>
             <span class="discuss-time">2020.03.09</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">除非您使用JavaScript写出链接（以便您知道已在浏览器中启用该链接），否则，理想情况下，应该为禁用了JavaScript进行浏览的用户提供正确的链接，然后阻止onclick中该链接的默认操作事件处理程序。</font><font style="vertical-align: inherit;">这样，那些启用了JavaScript的用户将运行该功能，而那些禁用JavaScript的用户将跳至相应的页面（或同一页面内的位置），而不仅仅是单击链接而没有任何反应。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">乐卡卡西</span>
@@ -250,9 +228,7 @@ topic: JavaScript
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">当然，带有防止默认操作的onclick处理程序的“＃”要好得多。</font><font style="vertical-align: inherit;">而且，仅在运行JavaScript时才有的链接并不是真正的“链接”，除非您在出现问题时将用户引导到页面上的某个合理锚点（只是＃会发送到顶部）。</font><font style="vertical-align: inherit;">您可以简单地模拟与样式表链接的外观，而完全不用考虑href。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">另外，关于cowgod的建议，尤其是这样：</font></font><code>...href="javascript_required.html" onclick="...</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这是一个好方法，但是不能区分“ JavaScript禁用”和“ onclick失败”两种情况。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Ss Yy</span>
@@ -263,9 +239,7 @@ topic: JavaScript
 <pre class="lang-js prettyprint prettyprinted" style=""><code><span class="pun">&lt;</span><span class="pln">a href</span><span class="pun">=</span><span class="str">"javascript:;"</span><span class="pln"> onclick</span><span class="pun">=</span><span class="str">"yourFunction()"</span><span class="pun">&gt;</span><span class="typ">Link</span><span class="pln"> description</span><span class="pun">&lt;/</span><span class="pln">a</span><span class="pun">&gt;</span></code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">它比javascript：void（0）短，并且执行相同的操作。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">十三古一神奇</span>
@@ -274,9 +248,7 @@ topic: JavaScript
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我建议改用</font></font><code>&lt;button&gt;</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">元素，</font></font><em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">尤其是</font></font></em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在控件应该在数据中进行更改的情况下。</font><font style="vertical-align: inherit;">（有点像POST。）</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果不加干扰地注入元素（一种渐进增强），那就更好了。</font><font style="vertical-align: inherit;">（请参阅</font></font><a href="https://stackoverflow.com/questions/134845/href-for-javascript-links-or-javascriptvoid0#134957"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">此评论</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。）</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">宝儿小哥小卤蛋</span>
@@ -295,9 +267,7 @@ topic: JavaScript
 </span><span class="pun">});</span></code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">您应该始终努力使性能降级（在用户未启用JavaScript的情况下……以及在符合规格和预算的情况下）。</font><font style="vertical-align: inherit;">另外，直接在HTML中使用JavaScript属性和协议也被认为是不好的形式。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Sam神乐番长</span>
@@ -321,9 +291,7 @@ topic: JavaScript
 <div class="snippet-result"><div class="snippet-ctas"><button type="button" class="s-btn s-btn__primary"><span class="icon-play-white _hover"></span><span><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> 运行代码段</font></font></span></button><input class="copySnippet s-btn s-btn__filled" type="button" value="Copy snippet to answer" style="display: none;"><button type="button" class="s-btn hideResults" style="display: none;">Hide results</button><div class="popout-code"><a class="snippet-expand-link"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">展开摘要</font></font></a></div></div><div class="snippet-result-code" style="display: none;"><iframe name="sif5" sandbox="allow-forms allow-modals allow-scripts" class="snippet-box-edit" frameborder="0"></iframe></div></div></div>
 </div>
 <p></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">猪猪十三</span>
@@ -336,18 +304,14 @@ topic: JavaScript
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">代替</font></font></p>
 
 <pre class="lang-js prettyprint prettyprinted" style=""><code><span class="pun">&lt;</span><span class="pln">a href</span><span class="pun">=</span><span class="str">"javascript:void(0);"</span><span class="pln"> onclick</span><span class="pun">=</span><span class="str">"myJsFunc();"</span><span class="pun">&gt;</span><span class="typ">Link</span><span class="pun">&lt;/</span><span class="pln">a</span><span class="pun">&gt;</span></code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">L前端</span>
             <span class="discuss-time">2020.03.09</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">使用只会</font></font><code>#</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">产生一些有趣的动作，因此，</font></font><code>#self</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果您希望节省的打字工作，</font><font style="vertical-align: inherit;">我建议使用</font></font><code>JavaScript bla, bla,</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">逆天路易</span>
@@ -358,9 +322,7 @@ topic: JavaScript
 <pre class="lang-js prettyprint prettyprinted" style=""><code><span class="pun">&lt;</span><span class="pln">a href</span><span class="pun">=</span><span class="str">"javascriptlessDestination.html"</span><span class="pln"> onclick</span><span class="pun">=</span><span class="str">"myJSFunc(); return false;"</span><span class="pun">&gt;</span><span class="typ">Link</span><span class="pln"> text</span><span class="pun">&lt;/</span><span class="pln">a</span><span class="pun">&gt;</span></code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">或者，甚至更好的是，您将在HTML中具有默认的动作链接，并且会在DOM呈现后通过JavaScript将onclick事件毫不费力地添加到元素中，从而确保如果不存在/未使用JavaScript，您不会有无用的事件处理程序使您的代码混乱，并可能混淆（或至少分散您的注意力）您的实际内容。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Tom猿</span>
@@ -398,9 +360,7 @@ topic: JavaScript
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">采用 </font></font><code>href="javascript:void(0)"</code></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">第二种显然更容易沟通。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">达蒙武藏</span>
@@ -415,9 +375,7 @@ topic: JavaScript
 <p><code>&lt;a [routerLink]="" (click)="passTheSalt()"&gt;Click me&lt;/a&gt;</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">看到这里</font></font><a href="https://stackoverflow.com/a/45465728/2803344"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">https://stackoverflow.com/a/45465728/2803344</font></font></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">L神无Mandy</span>
@@ -432,9 +390,7 @@ topic: JavaScript
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我意识到这并非总是可能的，但我认为在开发任何公共网站时都应努力做到这一点。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">查看</font></font><em><a href="http://en.wikipedia.org/wiki/Unobtrusive_JavaScript" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Unobtrusive JavaScript</font></font></a></em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">和</font></font><em><a href="http://en.wikipedia.org/wiki/Progressive_enhancement" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Progressive增强功能</font></font></a></em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">（均为Wikipedia）。</font></font></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

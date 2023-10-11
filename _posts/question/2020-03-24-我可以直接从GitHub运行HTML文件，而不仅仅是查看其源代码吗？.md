@@ -21,7 +21,7 @@ topic: HTML
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我知道这基本上会将GitHub置于静态内容托管业务中，但是话又说回来，他们只需要将其mime类型从更改为</font></font><a href="https://raw.github.com/jquery/jquery/master/test/index.html" rel="noreferrer"><code>text/plain</code></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">即可</font></font><code>text/html</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第3422篇《我可以直接从GitHub运行HTML文件，而不仅仅是查看其源代码吗？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第3422篇《我可以直接从GitHub运行HTML文件，而不仅仅是查看其源代码吗？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -38,9 +38,7 @@ topic: HTML
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">所以我迅速开发了自己的解决方案：</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">为此的node.js解决方案：</font><a href="https://github.com/shimondoodkin/rawgithub" rel="nofollow"><font style="vertical-align: inherit;">https</font></a><font style="vertical-align: inherit;"> : </font></font><a href="https://github.com/shimondoodkin/rawgithub" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">//github.com/shimondoodkin/rawgithub</font></font></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">老丝阿飞</span>
@@ -53,9 +51,7 @@ topic: HTML
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">即使没有将Node_Modules上传到Github，这也可以工作</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">当前支持使用@ angular / cli和create-react-app的项目。</font><font style="vertical-align: inherit;">对Ionic，Vue和自定义Webpack配置的支持即将推出！</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">JinJin</span>
@@ -80,9 +76,7 @@ topic: HTML
 ...<font></font>
 &lt;/html&gt;<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">凯西里</span>
@@ -102,9 +96,7 @@ topic: HTML
 </ul></li>
 <li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">打开在规则中添加了URL的文件浏览器（在步骤3中）。</font></font></li>
 </ol></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">西里Near</span>
@@ -113,9 +105,7 @@ topic: HTML
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">有一个名为</font></font><a href="http://htmlpreview.github.com/" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">GitHub HTML Preview</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">的新工具</font><font style="vertical-align: inherit;">，它可以完全满足您的需求。</font><font style="vertical-align: inherit;">只需添加</font></font><code>http://htmlpreview.github.com/?</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">到任何HTML文件的URL，例如</font></font><a href="http://htmlpreview.github.com/?https://github.com/twbs/bootstrap/blob/gh-pages/2.3.2/index.html" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">http://htmlpreview.github.com/?https://github.com/twbs/bootstrap/blob/gh-pages/2.3.2/index.html</font></font></a></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">注意：该工具实际上是github.io页面，与github无关。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Stafan</span>
@@ -142,9 +132,7 @@ cdn.attr("href", "https://cdn.rawgit.com" + cdn.attr("href").replace("/raw/","/"
 cdn.text("CDN");<font></font>
 cdn.insertBefore(raw);<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小胖Gil</span>
@@ -160,9 +148,7 @@ cdn.insertBefore(raw);<font></font>
 <li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">对于</font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">URL</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">类型</font></font><code>javascript:top.location="http://htmlpreview.github.com/?"+document.URL</code></li>
 <li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">当您在github文件查看页面（</font></font><em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">不是raw.github.com</font></font></em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">）上时，单击书签链接，您会很</font><em><font style="vertical-align: inherit;">高兴</font></em><font style="vertical-align: inherit;">。</font></font></li>
 </ol></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">番长樱梅</span>
@@ -173,9 +159,7 @@ cdn.insertBefore(raw);<font></font>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果您需要测试，则可以将JS文件嵌入到：</font><a href="http://jsperf.com/"><font style="vertical-align: inherit;">http</font></a><font style="vertical-align: inherit;"> :
  </font></font><a href="http://jsperf.com/"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">//jsperf.com/</font></font></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">米亚神奇</span>
@@ -258,9 +242,7 @@ cdn.insertBefore(raw);<font></font>
 <hr>
 
 <p><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">更新：rawgit已停产</font></font></strong></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

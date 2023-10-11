@@ -38,7 +38,7 @@ topic: Vue.js
 <p><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">编辑2020/01：</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> Vue CLI 4.2.2创建新项目仍然建议</font></font><code>dart-sass</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">作为之前的第一个选项</font></font><code>node-sass</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font><font style="vertical-align: inherit;">然而，这里已经确定这</font></font><code>node-sass</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">是性能更高的选择，</font></font><a href="https://www.npmtrends.com/dart-sass-vs-node-sass" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">几乎没有人使用dart-sass</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">（ccleve的评论）。</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第625篇《Vue CLI CSS预处理器选项：dart-sass VS节点-sass？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第625篇《Vue CLI CSS预处理器选项：dart-sass VS节点-sass？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -76,18 +76,14 @@ topic: Vue.js
 </blockquote>
 
 <p><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我个人</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">使用</font></font><code>dart-sass</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">npmjs软件包而不是</font></font><code>node-sass</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">（</font></font><code>js</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">本机</font></font><code>C</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">库的</font><font style="vertical-align: inherit;">包装</font><font style="vertical-align: inherit;">）的</font><strong><font style="vertical-align: inherit;">个人经验</font></strong></font><code>dart-sass</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">是（比起我，至少50倍，因为我有很多大型主题文件）要慢于</font></font><code>node-sass</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">TomMandy</span>
             <span class="discuss-time">2020.03.11</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">node-sass不适用于节点v.12</font></font></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

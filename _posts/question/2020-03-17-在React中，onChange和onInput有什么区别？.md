@@ -19,7 +19,7 @@ topic: React.js
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在执行各种测试时，我似乎无法分辨出这两个事件有何不同（应用于文本区域时）。</font><font style="vertical-align: inherit;">谁能对此有所启发？</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第1872篇《在React中，onChange和onInput有什么区别？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第1872篇《在React中，onChange和onInput有什么区别？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -32,18 +32,14 @@ topic: React.js
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如您在此处的各种评论中所见，React将onChange和onInput视为相同，因此，无需辩论此决定的优缺点。</font><font style="vertical-align: inherit;">这是解决方案。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果您不想在完成用户编辑之前对其进行处理，请使用onBlur。</font><font style="vertical-align: inherit;">:)</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Gil启人</span>
             <span class="discuss-time">2020.03.17</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">最近我遇到一个错误，该错误</font></font><code>onChange</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">不允许在IE11的输入字段中进行复制和粘贴。</font><font style="vertical-align: inherit;">而该</font></font><code>onInput</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">事件将允许该行为。</font><font style="vertical-align: inherit;">我在文档中找不到任何描述此内容的文档，但这确实表明两者之间存在差异（预期与否）。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">伽罗番长</span>
@@ -76,9 +72,7 @@ topic: React.js
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">尽管React是基于JS构建的，并且已经获得了巨大的采用率，但是作为一种技术，React存在于其自己的（相当小的）API下隐藏了很多功能。</font><font style="vertical-align: inherit;">一旦这在事件系统中很明显，那么在地下发生的事情实际上与标准DOM事件系统有很大的不同。</font><font style="vertical-align: inherit;">不仅根据哪个事件执行了什么操作，还根据何时允许数据保留在事件处理的哪个阶段。</font><font style="vertical-align: inherit;">您可以在这里阅读更多有关此的内容：</font></font></p>
 
 <p><strong><a href="https://facebook.github.io/react/docs/events.html" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">反应事件系统</font></font></a></strong></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

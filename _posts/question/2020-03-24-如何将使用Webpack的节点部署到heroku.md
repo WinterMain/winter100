@@ -23,7 +23,7 @@ topic: Webpack
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">派生自：</font></font><a href="https://stackoverflow.com/questions/24504476/how-to-deploy-node-that-uses-gulp-to-heroku"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如何将使用Gulp的节点部署到heroku</font></font></a></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第3735篇《如何将使用Webpack的节点部署到heroku》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第3735篇《如何将使用Webpack的节点部署到heroku》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -50,9 +50,7 @@ topic: Webpack
 <li><a href="https://devcenter.heroku.com/articles/node-best-practices#hook-things-up" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">heroku挂钩的东西</font></font></a></li>
 <li><a href="https://docs.npmjs.com/misc/scripts" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">npm脚本</font></font></a></li>
 </ul></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">猴子</span>
@@ -70,9 +68,7 @@ topic: Webpack
 <blockquote>
   <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">npm的生命周期脚本非常适合自动化。</font><font style="vertical-align: inherit;">Heroku提供了自定义钩子，使您可以在安装依赖项之前或之后运行自定义命令。</font><font style="vertical-align: inherit;">如果您需要在构建应用程序之前运行某些程序，则可以使用</font></font><code>heroku-prebuild</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">脚本。</font><font style="vertical-align: inherit;">需要使用grunt，gulp，browserify或webpack构建资产吗？</font><font style="vertical-align: inherit;">用</font></font><code>build</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">脚本执行。</font></font></p>
 </blockquote></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小宇宙</span>
@@ -82,9 +78,7 @@ topic: Webpack
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这样比较好，因为如果使用postinstall，则每次执行</font></font><code>npm i</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">构建脚本时都会被解雇</font></font></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

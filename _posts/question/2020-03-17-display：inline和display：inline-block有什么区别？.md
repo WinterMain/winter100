@@ -17,7 +17,7 @@ topic: CSS
     <div class="article-content"><p><font style="vertical-align: inherit;"></font><code>inline</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">和</font></font><code>inline-block</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">的CSS值</font><font style="vertical-align: inherit;">之间到底有什么区别</font></font><code>display</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">？</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第1898篇《display：inline和display：inline-block有什么区别？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第1898篇《display：inline和display：inline-block有什么区别？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -80,9 +80,7 @@ span {<font></font>
 <p></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我不知道是否还有其他怪癖，我只是在Chrome上凭经验发现了这一点。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">猿小小</span>
@@ -112,9 +110,7 @@ span {<font></font>
 <p></p>
 
 <p><a href="https://i.stack.imgur.com/xXdn3.png" rel="nofollow noreferrer"><img src="https://i.stack.imgur.com/xXdn3.png" alt="在此处输入图片说明"></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">路易西门</span>
@@ -132,9 +128,7 @@ span {<font></font>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">的元素</font></font><code>display: inline;</code> <em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">不能</font></font></em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">具有</font></font><code>height</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">或</font></font><code>width</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">或垂直</font></font><code>margin</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font><font style="vertical-align: inherit;">有一个元素</font></font><code>display: block;</code> <em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">可以</font></font></em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">有</font></font><code>width</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，</font></font><code>height</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">和</font></font><code>margin</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font><br><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
 如果您想将添加</font></font><code>height</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">到</font></font><code>&lt;em&gt;</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">元素，你需要设置这个元素</font></font><code>display: inline-block;</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font><font style="vertical-align: inherit;">现在，您可以</font></font><code>height</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在元素和其他所有块样式（的</font></font><code>block</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">一部分</font></font><code>inline-block</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">）中</font><font style="vertical-align: inherit;">添加a </font><font style="vertical-align: inherit;">，但将其放置在句子中（的</font></font><code>inline</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">部分</font></font><code>inline-block</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">）。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">猴子Harry路易</span>
@@ -166,9 +160,7 @@ span {<font></font>
 <li><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">内联</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">：只</font></font><code>margin-left</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，</font></font><code>margin-right</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，</font></font><code>padding-left</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，</font></font><code>padding-right</code></li>
 <li><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">内联块</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">：</font></font><code>margin</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，</font></font><code>padding</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，</font></font><code>height</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，</font></font><code>width</code></li>
 </ul></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

@@ -65,7 +65,7 @@ d1.toString('dddd, MMMM ,yyyy')  //Returns "Monday, June 29,2009" in Internet Ex
 <p>Where is the documentation which lists the format specifiers supported by the <code>Date()</code> object?</p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第266篇《在哪里可以找到有关在JavaScript中格式化日期的文档？[关闭]》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第266篇《在哪里可以找到有关在JavaScript中格式化日期的文档？\[关闭\]》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -83,9 +83,7 @@ kendo.toString(new Date(value), "d")<font></font>
 // Monday, November 06, 2000<font></font>
 kendo.toString(new Date(2000, 10, 6), "D")<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">null</span>
@@ -113,9 +111,7 @@ function timeAsInputValue(toFormat) {<font></font>
     return pad(toFormat.getHours(), "00") + ":" + pad(toFormat.getMinutes(), "00") + ":" + pad(toFormat.getSeconds(), "00");<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">神无阿飞古一</span>
@@ -130,9 +126,7 @@ function timeAsInputValue(toFormat) {<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">支持日期/时间格式，日期数学（添加/减去日期部分），日期比较，日期解析等。它是开源的。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果您已经在使用框架（它们都有能力），则没有理由考虑它，但是如果您只需要快速将日期操作添加到项目中，则可以给它一个机会。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">斯丁Jim</span>
@@ -145,9 +139,7 @@ function timeAsInputValue(toFormat) {<font></font>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">请参阅下面的链接以获取更多详细信息
  </font></font><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date</font></font></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">古一飞云</span>
@@ -161,9 +153,7 @@ function timeAsInputValue(toFormat) {<font></font>
 var formattedString = sdf.format(new Date());<font></font>
 var dateObject = sdf.parse("Monday, June 29, 2009");<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">ProTom</span>
@@ -180,9 +170,7 @@ var time = d.toISOString().replace(/.*?T(\d+:\d+:\d+).*/, "$1");<font></font>
 <blockquote>
   <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">“ 13:45:20”</font></font></p>
 </blockquote></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">樱泡芙</span>
@@ -220,9 +208,7 @@ for (var k in o) if (new RegExp("(" + k + ")").test(format))<font></font>
 return format;<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">JinJin猪猪</span>
@@ -233,18 +219,14 @@ return format;<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">该</font></font><a href="http://arshaw.com/xdate/"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">XDate JavaScript库</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">由</font></font><a href="https://github.com/arshaw"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">亚当·肖</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">自2011年中期已经出现，并仍在积极发展。</font><font style="vertical-align: inherit;">它具有出色的文档，出色的API，格式，试图保持向后兼容，甚至支持本地化字符串。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">链接到更改区域设置字符串：</font><a href="https://gist.github.com/1221376"><font style="vertical-align: inherit;">https</font></a><font style="vertical-align: inherit;"> : </font></font><a href="https://gist.github.com/1221376"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">//gist.github.com/1221376</font></font></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">成天</span>
             <span class="discuss-time">2020.03.09</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">DateJS当然功能齐全，但是我建议使用</font></font><a href="http://blog.stevenlevithan.com/archives/date-time-format"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这种更简单的lib（JavaScript日期格式）</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，我更喜欢它，因为它只有120行左右。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Davaid阳光伽罗</span>
@@ -276,9 +258,7 @@ return format;<font></font>
 alert(new Date().format("yyyy-MM-dd"));<font></font>
 alert(new Date("january 12 2008 11:12:30").format("yyyy-MM-dd h:mm:ss"));<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">十三猴子</span>
@@ -292,9 +272,7 @@ alert(new Date("january 12 2008 11:12:30").format("yyyy-MM-dd h:mm:ss"));<font><
 [d[3], d[1], d[2], d[4]].join(' ');<font></font>
 // "2013 Sep 03 21:58:03"<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">达蒙逆天Pro</span>
@@ -303,9 +281,7 @@ alert(new Date("january 12 2008 11:12:30").format("yyyy-MM-dd h:mm:ss"));<font><
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">您引用的功能不是标准Javascript，不太可能跨浏览器移植，因此不是很好的做法。</font><font style="vertical-align: inherit;">在</font></font><a href="http://www.ecma-international.org/publications/standards/Ecma-262.htm" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">ECMAScript的3规格</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">叶解析和输出格式功能到Javascript实现。  </font></font><a href="http://www.ecma-international.org/publications/files/drafts/tc39-2009-025.pdf" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">ECMAScript 5</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">添加了一部分ISO8601支持。</font><font style="vertical-align: inherit;">我相信您提到的toString（）函数是一种浏览器（Mozilla？）的创新。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">一些库提供了用于对此参数化的例程，其中一些具有广泛的本地化支持。</font><font style="vertical-align: inherit;">您也可以在</font></font><a href="http://dojotoolkit.org/api/?qs=1.3/dojo.date.locale" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">dojo.date.locale中</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">检出方法</font><font style="vertical-align: inherit;">。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">梅古一</span>
@@ -314,9 +290,7 @@ alert(new Date("january 12 2008 11:12:30").format("yyyy-MM-dd h:mm:ss"));<font><
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">确保</font><font style="vertical-align: inherit;">在JavaScript中处理日期时</font><font style="vertical-align: inherit;">签出</font></font><a href="http://www.datejs.com/" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Datejs</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font><font style="vertical-align: inherit;">在</font></font><a href="http://code.google.com/p/datejs/wiki/APIDocumentation#toString" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">toString函数的</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">情况下，它令人印象深刻且有据可查</font><font style="vertical-align: inherit;">。</font></font></p>
 
 <p><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">编辑</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">：泰勒·福赛斯指出，datejs已过时。</font><font style="vertical-align: inherit;">我在当前项目中使用了它，但没有任何问题，但是您应该意识到这一点并考虑替代方法。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">6的不行</span>
@@ -333,9 +307,7 @@ alert(new Date("january 12 2008 11:12:30").format("yyyy-MM-dd h:mm:ss"));<font><
 <p><font style="vertical-align: inherit;"></font><code>Date</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我最常使用</font><font style="vertical-align: inherit;">的</font><font style="vertical-align: inherit;">对象参考位于</font></font><a href="http://www.w3schools.com/jsref/jsref_obj_date.asp"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">w3schools.com网站上</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">（但是</font></font><a href="https://www.google.com/search?q=javascript%20date%20object%20reference"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Google的快速搜索</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">将显示更多可以更好地满足您的需求的对象）。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">还要注意，“ </font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">日期对象属性”</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">部分提供了的链接</font></font><a href="http://www.w3schools.com/jsref/jsref_prototype_date.asp"><code>prototype</code></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，该</font><font style="vertical-align: inherit;">链接</font><font style="vertical-align: inherit;">说明了使用自定义方法扩展Date对象的一些方法。</font><font style="vertical-align: inherit;">多年来</font><font style="vertical-align: inherit;">，JavaScript社区</font><font style="vertical-align: inherit;">一直在</font></font><a href="http://perfectionkills.com/extending-built-in-native-objects-evil-or-not/"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">争论</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这是否是最佳做法，我并不主张或反对它，只是指出它的存在。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Harry古一</span>
@@ -351,9 +323,7 @@ a.format("ddd, hA");                       // "Sun, 3PM"<font></font>
 </code></pre>
 
 <p><em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">（*）轻巧，意味着在最小的设置中缩小了9.3KB并压缩了文件（2014年2月）</font></font></em> </p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">阿飞猿</span>
@@ -380,9 +350,7 @@ console.log(curr_date + "-" + curr_month + "-" + curr_year);</code></pre>
 </div>
 </div>
 <p></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

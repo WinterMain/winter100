@@ -23,7 +23,7 @@ var myOtherUrl = "http://example.com/index.html?url=" + myUrl;<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我假设您需要</font></font><code>myUrl</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在第二行</font><font style="vertical-align: inherit;">编码该</font><font style="vertical-align: inherit;">变量？</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第184篇《用JavaScript编码URL？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第184篇《用JavaScript编码URL？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -88,9 +88,7 @@ var myOtherUrl = "http://example.com/index.html?url=" + myUrl;<font></font>
   &lt;/body&gt;<font></font>
 &lt;/html&gt;<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小卤蛋小卤蛋小哥</span>
@@ -112,9 +110,7 @@ var myOtherUrl = "http://example.com/index.html?url=" + myUrl;<font></font>
 </code></pre>
 
 <p><a href="https://www.owasp.org/index.php/ESAPI_JavaScript_Readme" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">https://www.owasp.org/index.php/ESAPI_JavaScript_Readme</font></font></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">猴子阳光</span>
@@ -127,9 +123,7 @@ var myOtherUrl = "http://example.com/index.html?url=" + myUrl;<font></font>
 <pre><code>encodeURI("abc%20xyz 123")            //   wrong: "abc%2520xyz%20123"<font></font>
 encodeURI(decodeURI("abc%20xyz 123")) // correct: "abc%20xyz%20123"<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">null</span>
@@ -138,9 +132,7 @@ encodeURI(decodeURI("abc%20xyz 123")) // correct: "abc%20xyz%20123"<font></font>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">坚持下去</font></font><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/encodeURIComponent" rel="noreferrer"><code>encodeURIComponent()</code></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font><font style="vertical-align: inherit;">该功能</font></font><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/encodeURI" rel="noreferrer"><code>encodeURI()</code></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">不会麻烦编码许多在URL中具有语义重要性的字符（例如“＃”，“？”和“＆”）。</font></font><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/escape" rel="noreferrer"><code>escape()</code></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">已弃用，并且不会费心地对“ +”字符进行编码，后者将被解释为服务器上的编码空格（并且，如此处其他人所指出的那样，不会正确地对非ASCII字符进行URL编码）。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">有一个很好</font></font><a href="https://stackoverflow.com/questions/75980/best-practice-escape-or-encodeuri-encodeuricomponent"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">的区别的解释</font></font><code>encodeURI()</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">和</font></font><code>encodeURIComponent()</code></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">其他地方。</font><font style="vertical-align: inherit;">如果您想对某些内容进行编码，以便可以安全地将其作为URI的组成部分（例如，作为查询字符串参数），请使用</font></font><code>encodeURIComponent()</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">TomL</span>
@@ -150,9 +142,7 @@ encodeURI(decodeURI("abc%20xyz 123")) // correct: "abc%20xyz%20123"<font></font>
 
 <pre><code>$.param({a:"1=2", b:"Test 1"}) // gets a=1%3D2&amp;b=Test+1
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">LEY蛋蛋Near</span>
@@ -164,9 +154,7 @@ encodeURI(decodeURI("abc%20xyz 123")) // correct: "abc%20xyz%20123"<font></font>
 <pre><code>var myOtherUrl = <font></font>
        "http://example.com/index.html?url=" + encodeURIComponent(myUrl);<font></font>
 </code></pre></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

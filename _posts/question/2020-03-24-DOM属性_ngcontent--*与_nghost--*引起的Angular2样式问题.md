@@ -30,7 +30,7 @@ topic: CSS
 </code></pre></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第3186篇《DOM属性_ngcontent- *与_nghost- *引起的Angular2样式问题》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第3186篇《DOM属性_ngcontent- \*与_nghost- \*引起的Angular2样式问题》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -59,9 +59,7 @@ topic: CSS
 </blockquote>
 
 <p>Use it, with precaution...</p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">老丝Gil樱</span>
@@ -89,9 +87,7 @@ topic: CSS
 </ul>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">另请参见</font></font><a href="https://stackoverflow.com/questions/36214546/styles-in-component-for-d3-js-do-not-show-in-angular-2"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">D3.js组件中的样式未在angular 2中显示</font></font></a></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

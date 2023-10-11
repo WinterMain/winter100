@@ -33,7 +33,7 @@ topic: JavaScript
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">基本上，如果用户转到主页，我想将其发送给搜索仪表板。</font><font style="vertical-align: inherit;">所以我想我正在寻找一个等效于React Router的功能</font></font><code>window.location.replace("mygreathostname.com/#/dashboards/searchDashboard");</code></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第1295篇《如何在React Router中将DefaultRoute设置为另一个路由》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第1295篇《如何在React Router中将DefaultRoute设置为另一个路由》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -51,9 +51,7 @@ topic: JavaScript
   &lt;Route path="about" component={About} /&gt;<font></font>
 &lt;/Route&gt;<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">蛋蛋古一</span>
@@ -69,9 +67,7 @@ topic: JavaScript
     &lt;Route path="about" component={About} /&gt;<font></font>
 &lt;/Route&gt;<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">梅十三</span>
@@ -90,9 +86,7 @@ class App extends Component {<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这样可以使您在本地主机上加载服务器时将您重定向到/ something </font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">达蒙逆天Pro</span>
@@ -109,9 +103,7 @@ class App extends Component {<font></font>
     &lt;Route path="*" component={HomePage} /&gt;<font></font>
 &lt;/Route&gt;<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">番长理查德</span>
@@ -136,9 +128,7 @@ class App extends Component {<font></font>
   )<font></font>
 )}/&gt;<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">L卡卡西米亚</span>
@@ -153,9 +143,7 @@ class App extends Component {<font></font>
     &lt;Redirect from="/*" to="/" /&gt;<font></font>
   &lt;/Route&gt;<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">阿飞米亚</span>
@@ -170,9 +158,7 @@ class App extends Component {<font></font>
 <p><code>&lt;IndexRoute component={SearchDashboard}/&gt;</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">来源：</font><a href="https://github.com/rackt/react-router/blob/master/docs/guides/advanced/ComponentLifecycle.md"><font style="vertical-align: inherit;">https</font></a><font style="vertical-align: inherit;"> : </font></font><a href="https://github.com/rackt/react-router/blob/master/docs/guides/advanced/ComponentLifecycle.md"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">//github.com/rackt/react-router/blob/master/docs/guides/advanced/ComponentLifecycle.md</font></font></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小卤蛋村村</span>
@@ -193,9 +179,7 @@ class App extends Component {<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这是基于react-router 1.0.0的。</font><font style="vertical-align: inherit;">参见</font></font><a href="https://github.com/rackt/react-router/blob/master/modules/IndexRedirect.js"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">https://github.com/rackt/react-router/blob/master/modules/IndexRedirect.js</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">凯神无</span>
@@ -210,9 +194,7 @@ class App extends Component {<font></font>
 
 <pre><code>&lt;Redirect exact from="/" to="searchDashboard" /&gt;
 </code></pre></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

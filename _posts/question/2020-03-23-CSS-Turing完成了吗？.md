@@ -22,7 +22,7 @@ topic: CSS
 </ul></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第2979篇《CSS Turing完成了吗？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第2979篇《CSS Turing完成了吗？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -35,9 +35,7 @@ topic: CSS
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">CSS不是一种编程语言，因此图灵完备性问题是毫无意义的。</font><font style="vertical-align: inherit;">如果像IE6中那样将编程扩展添加到CSS，那么新的综合就是完全不同的事情。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">CSS只是样式的描述；</font><font style="vertical-align: inherit;">它没有任何逻辑，并且其结构是扁平的。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">十三SamJim</span>
@@ -81,9 +79,7 @@ topic: CSS
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">现代的CSS布局算法非常复杂，具有诸如</font></font><a href="https://css-tricks.com/snippets/css/a-guide-to-flexbox/" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Flexbox</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">和</font></font><a href="https://css-tricks.com/snippets/css/complete-guide-grid/" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Grid之</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">类的功能。</font><font style="vertical-align: inherit;">但是，即使有可能触发布局无限循环，也很难利用它来执行有用的计算。</font><font style="vertical-align: inherit;">这是因为CSS选择器仅检查DOM的内部结构，而不检查这些元素在屏幕上的布局。</font><font style="vertical-align: inherit;">因此，</font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">任何使用布局系统的图灵完整性证明都必须仅依赖于布局</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p>
 
 <p>Finally – and this is perhaps the most important reason – <strong>browser vendors have an interest in keeping CSS <em>not</em> Turing complete</strong>. By restricting the language, vendors allow for <a href="https://calendar.perfplanet.com/2011/css-selector-performance-has-changed-for-the-better/" rel="noreferrer">clever optimizations</a> that make the web faster for everyone. Moreover, Google dedicates <a href="https://www.chromium.org/Home/chromium-security/bugs/using-clusterfuzz" rel="noreferrer">a whole server farm</a> to searching for bugs in Chrome. If there were a way to write an infinite loop using CSS, then they probably would have found it already 😉</p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">卡卡西</span>
@@ -200,9 +196,7 @@ body &gt; input:nth-child(30n) + label { display: none !important; }</code></pre
 </div>
 </div>
 <p></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">猪猪GO</span>
@@ -215,18 +209,14 @@ body &gt; input:nth-child(30n) + label { display: none !important; }</code></pre
 <blockquote>
   <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">因此，我不认为CSS即将完成。</font><font style="vertical-align: inherit;">没有能力在CSS中定义函数。</font><font style="vertical-align: inherit;">为了使系统图灵完整，必须有可能编写一个解释器：一个解释表示要执行程序的表达式的函数。</font><font style="vertical-align: inherit;">CSS没有用户可以直接访问的变量。</font><font style="vertical-align: inherit;">因此，您甚至无法为表示要在CSS中解释的程序的结构建模。</font></font></p>
 </blockquote></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">凯西里</span>
             <span class="discuss-time">2020.03.23</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这里的根本问题是，除非代码是无限长的，否则任何用HTML + CSS编写的机器都不能评估无限多的步骤（即，不可能有“真实的”递归）。</font><font style="vertical-align: inherit;">而这个问题将这款机器达到配置</font></font><code>H</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">的</font></font><code>n</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">步骤或更少的是，如果总是回答的</font></font><code>n</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">是有限的。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">蛋蛋路易</span>
@@ -239,9 +229,7 @@ body &gt; input:nth-child(30n) + label { display: none !important; }</code></pre
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">有些例子中人们仅使用类型系统在Scala上计算某些算术函数</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">所以，是的，在我看来，CSS3 + HTML是图灵完备的（即使您不能在那时不做任何真正的计算而不会发疯） </font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小卤蛋</span>
@@ -277,9 +265,7 @@ body &gt; input:nth-child(30n) + label { display: none !important; }</code></pre
 <hr>
 
 <p>Critical part that CSS lack is ability to change of it own state in arbitrary way, if CSS could generate clicks then it would be UTM. Argument that your clicks are "crank" for CSS is not accurate because real "crank" for CSS is Layout Engine that run it and it should be enough to prove that CSS is UTM.</p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

@@ -66,7 +66,7 @@ topic: JavaScript
 </ol></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第309篇《为什么通过Facebook Flux使用Redux？[关闭]》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第309篇《为什么通过Facebook Flux使用Redux？\[关闭\]》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -80,9 +80,7 @@ topic: JavaScript
  </font></font><a href="https://medium.freecodecamp.org/a-realworld-comparison-of-front-end-frameworks-with-benchmarks-2019-update-4be0d3c78075" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">//medium.freecodecamp.org/a-realworld-comparison-of-front-end-frameworks-with-benchmarks-2019-update-4be0d3c78075</font></font></a></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">您最好使用MobX来管理应用程序中的数据以获得更好的性能，而不是Redux。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">JimDavaid卡卡西</span>
@@ -101,9 +99,7 @@ topic: JavaScript
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">它还使用相同的redux工具运行。</font><font style="vertical-align: inherit;">这是一篇</font></font><a href="https://hackernoon.com/redesigning-redux-b2baee8b8a38" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">很好的文章</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，涵盖了一些好处。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">因此，对于到达此SO职位搜索“更简单的redux”的任何人，我建议尝试使用它作为redux的一种简单替代方法，它具有所有优点和1/4的样板。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">十三西门</span>
@@ -116,9 +112,7 @@ topic: JavaScript
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我鼓励您使用它，因为它展示了Flux架构的更多内部工作，这是很有教益的，但是同时，它没有像Redux这样的库提供许多好处（这些没有对于小型项目来说很重要，但对于大型项目则变得非常有价值）。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我们已经决定继续前进，我们将搬到Redux，我建议您这样做;）</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">西里猿LEY</span>
@@ -130,9 +124,7 @@ topic: JavaScript
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">其次，您链接到的动机页面并没有真正讨论Redux的动机，而是讨论Flux（和React）背后的动机。</font><font style="vertical-align: inherit;">尽管仍然没有解决与标准Flux架构的实现差异，但</font><font style="vertical-align: inherit;">“ </font></font><a href="https://redux.js.org/docs/introduction/ThreePrinciples.html" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">三项原则”</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">是针对Redux的。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">基本上，Flux具有多个存储，这些存储可响应于与组件的UI / API交互来计算状态更改，并将这些更改作为组件可以订阅的事件进行广播。</font><font style="vertical-align: inherit;">在Redux中，每个组件都只能订阅一个存储。</font><font style="vertical-align: inherit;">IMO至少感觉到Redux通过统一（或减少，如Redux所说的）流回组件的数据流来进一步简化和统一数据流-而Flux则集中于统一数据流的另一端-模型。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">村村凯宝儿</span>
@@ -141,18 +133,14 @@ topic: JavaScript
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这是Redux over Flux的简单说明。</font><font style="vertical-align: inherit;">Redux没有调度程序，它依赖于称为reducers的纯函数。</font><font style="vertical-align: inherit;">它不需要调度程序。</font><font style="vertical-align: inherit;">每个动作由一个或多个reduce处理，以更新单个存储。</font><font style="vertical-align: inherit;">由于数据是不可变的，reduces返回一个新的更新状态来更新存储</font></font><a href="https://i.stack.imgur.com/uaoem.jpg" rel="nofollow noreferrer"><img src="https://i.stack.imgur.com/uaoem.jpg" alt="在此处输入图片说明"></a></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">有关更多信息，</font></font><a href="http://www.prathapkudupublog.com/2017/04/flux-vs-redux.html" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Flux vs Redux</font></font></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小哥GO</span>
             <span class="discuss-time">2020.03.09</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我在Flux工作了很长时间，现在在Redux中工作了很长时间。</font><font style="vertical-align: inherit;">正如Dan所指出的，两种架构都没有太大不同。</font><font style="vertical-align: inherit;">事实是Redux使事情变得更简单，更清洁。</font><font style="vertical-align: inherit;">它教会了您有关Flux的一些知识。</font><font style="vertical-align: inherit;">例如，Flux是单向数据流的完美示例。</font><font style="vertical-align: inherit;">关注点分离在我们拥有数据的地方，其操作和视图层是分离的。</font><font style="vertical-align: inherit;">在Redux中，我们有相同的东西，但我们还学习了不变性和纯函数。</font></font></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

@@ -37,7 +37,7 @@ Trace: <font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如何解决呢？ </font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第2733篇《检测到可能的EventEmitter内存泄漏》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第2733篇《检测到可能的EventEmitter内存泄漏》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -50,9 +50,7 @@ Trace: <font></font>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我们团队对此的解决方法是从.npmrc中删除注册表路径。</font><font style="vertical-align: inherit;">我们在rc文件中有两个路径别名，一个是指向已被弃用的Artifactory实例。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">错误无关，与我们的应用程序的实际代码，但</font></font><em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">一切都</font></font></em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">与我们的开发环境。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小胖Gil</span>
@@ -69,9 +67,7 @@ Trace: <font></font>
 &nbsp;&nbsp;for（let i = 0; i &lt;dataLength; i ++）{ </font></font><br><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;等待sftp.get（remotePath，fs.createWriteStream（</font></font><code>xyzProject/${data[i].name}</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">））; </font></font><br><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
 &nbsp;&nbsp;}</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">番长</span>
@@ -82,9 +78,7 @@ Trace: <font></font>
 <p><code>setMaxListeners()</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> 工作正常，但我不推荐它。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">正确的方法是检查您的代码中是否有其他侦听器，删除侦听器或更改您正在侦听的端口号，这解决了我的问题。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">宝儿</span>
@@ -103,9 +97,7 @@ Trace: <font></font>
 
 <pre><code>this.socket.removeAllListeners("connect");
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">猴子</span>
@@ -122,18 +114,14 @@ Trace: <font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">烦人的消息不见了。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Gil</span>
             <span class="discuss-time">2020.03.23</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在我的情况下，</font></font><code>child.stderr.pipe(process.stderr)</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">当我启动10个（或大约）孩子实例时</font><font style="vertical-align: inherit;">，它就是</font><font style="vertical-align: inherit;">被调用的。</font><font style="vertical-align: inherit;">因此，导致将事件处理程序附加到LOOP中的同一EventEmitter对象的任何事情，都会导致nodejs抛出此错误。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小小</span>
@@ -147,9 +135,7 @@ Trace: <font></font>
 </code></pre>
 
 <p><a href="https://github.com/npm/npm/issues/13806" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">https://github.com/npm/npm/issues/13806</font></font></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">西门</span>
@@ -161,9 +147,7 @@ Trace: <font></font>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这与restler 0.10与节点的行为不当有关。</font><font style="vertical-align: inherit;">您可以在此处查看git上已关闭的问题：</font></font><a href="https://github.com/danwrong/restler/issues/112" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">https</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> : </font><a href="https://github.com/danwrong/restler/issues/112" rel="nofollow noreferrer"><font style="vertical-align: inherit;">//github.com/danwrong/restler/issues/112</font></a><font style="vertical-align: inherit;"> 
 但是，npm尚未更新此内容，因此这就是为什么您必须引用git head的原因。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">null</span>
@@ -172,9 +156,7 @@ Trace: <font></font>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我想在此指出警告的出现是有原因的，正确的解决办法很有可能</font></font><em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">不会</font></font></em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">增加限制，而是弄清楚为什么要在同一事件中添加如此多的侦听器。</font><font style="vertical-align: inherit;">仅当您知道为什么要添加如此多的侦听器并确信这是您真正想要的时，才增加限制。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我找到此页面是因为收到此警告，并且在我的情况下，我正在使用的某些代码中存在一个错误，该错误将全局对象转换为EventEmitter！</font><font style="vertical-align: inherit;">我当然建议不要在全球范围内增加限制，因为您不希望这些事情被忽视。</font></font></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

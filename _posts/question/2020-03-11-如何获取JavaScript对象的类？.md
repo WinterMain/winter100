@@ -19,7 +19,7 @@ topic: JavaScript
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我想要一些类似于Java的</font></font><code>.getClass()</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">方法。</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第681篇《如何获取JavaScript对象的类？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第681篇《如何获取JavaScript对象的类？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -67,27 +67,21 @@ A.getInstance() {<font></font>
   return new this;<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">蛋蛋蛋蛋</span>
             <span class="discuss-time">2020.03.11</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Javascript是一种无类语言：没有类可以像Java中一样静态地定义类的行为。</font><font style="vertical-align: inherit;">JavaScript使用原型而不是类来定义对象属性，包括方法和继承。</font><font style="vertical-align: inherit;">可以使用JavaScript中的原型来模拟许多基于类的功能。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">StafanJinJin</span>
             <span class="discuss-time">2020.03.11</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在javascript中，没有任何类，但是我认为您需要构造函数名称，</font></font><code>obj.constructor.toString()</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">并将告诉您所需的内容。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小胖MandyGil</span>
@@ -122,9 +116,7 @@ ruffles.meow();    // "meow!"<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果从</font></font><code>getClass</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">方法</font><font style="vertical-align: inherit;">实例化该类，请</font><font style="vertical-align: inherit;">确保将其包装在方括号中，例如</font></font><code>ruffles = new ( fluffy.getClass() )( args... );</code></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">前端LEY米亚</span>
@@ -151,9 +143,7 @@ console.log(nameByType(Test));<font></font>
 
 <pre><code>console.log(Test.prototype.constructor.name); // returns "Test" 
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Tony神乐</span>
@@ -189,9 +179,7 @@ foo.bar(21);            // == 42<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">注意：如果使用Uglify编译代码，它将更改非全局类名。</font><font style="vertical-align: inherit;">为了防止这种情况，Uglify有一个</font></font><a href="https://github.com/mishoo/UglifyJS2" rel="noreferrer"><code>--mangle</code></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">参数，可以使用</font></font><a href="https://github.com/terinjokes/gulp-uglify" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">gulp</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">或</font></font><a href="https://github.com/gruntjs/grunt-contrib-uglify" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">grunt</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">设置为false </font><font style="vertical-align: inherit;">。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">伽罗理查德</span>
@@ -213,9 +201,7 @@ getClass({})   === "Object";<font></font>
 getClass(null) === "Null";<font></font>
 // etc...<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">斯丁斯丁</span>
@@ -234,9 +220,7 @@ obj.constructor; // MyObject<font></font>
 
 <pre><code>obj instanceof MyObject // true
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">GO小胖</span>
@@ -250,9 +234,7 @@ obj.constructor; // MyObject<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">它将为数字返回“ Number”，为数组返回“ Array”，为函数返回“ Function”，等等。它的行为通常与预期的一样。</font><font style="vertical-align: inherit;">失败的唯一情况是通过原型创建的对象没有原型</font></font><code>Object.create( null )</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，或者该对象是从匿名定义（未命名）的函数实例化的。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">另请注意，如果要压缩代码，则与硬编码类型字符串进行比较是不安全的。</font><font style="vertical-align: inherit;">例如，而不是检查是否</font></font><code>obj.constructor.name == "MyType"</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，而是检查</font></font><code>obj.constructor.name == MyType.name</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font><font style="vertical-align: inherit;">或者只是比较构造函数本身，但是这将无法跨DOM边界，因为每个DOM上都有不同的构造函数实例，因此无法在其构造函数上进行对象比较。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">用户7049302300</span>
@@ -297,9 +279,7 @@ Dog.prototype.constructor = Dog;<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">它到达构造函数，将其转换为字符串，并提取构造函数的名称。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">请注意，这</font></font><code>obj.constructor.name</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">可能效果很好，但不是标准的。</font><font style="vertical-align: inherit;">它可以在Chrome和Firefox上使用，但不能在IE（包括IE 9或IE 10 RTM）上使用。</font></font></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

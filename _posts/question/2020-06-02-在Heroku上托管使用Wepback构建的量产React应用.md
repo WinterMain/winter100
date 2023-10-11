@@ -31,7 +31,7 @@ topic: Webpack
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">带有postinstall的安装程序会给我一个错误，说未安装webpack（保存在我的devDependencies下）。</font><font style="vertical-align: inherit;">在第二个页面中，我在Heroku日志上获得了成功的构建，但在加载页面时显示“未找到”。</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第4248篇《在Heroku上托管使用Wepback构建的量产React应用》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第4248篇《在Heroku上托管使用Wepback构建的量产React应用》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -42,9 +42,7 @@ topic: Webpack
             <span class="discuss-time">2020.06.02</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">您需要将webpack（以及Heroku上需要的任何其他依赖项）放在package.json中的“ dependencies”下，而不是“ devDependencies”下。</font></font></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

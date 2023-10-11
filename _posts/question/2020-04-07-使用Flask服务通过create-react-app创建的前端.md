@@ -66,7 +66,7 @@ def serve_worker():<font></font>
 <p>Is my solution robust enough? Is there a way to use built-in Flask features to serve these assets? Is there a better way to use create-react-app?</p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第4046篇《使用Flask服务通过create-react-app创建的前端》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第4046篇《使用Flask服务通过create-react-app创建的前端》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -119,9 +119,7 @@ def handle_405(e):<font></font>
 <font></font>
 <font></font>
 </code></pre></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

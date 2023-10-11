@@ -24,7 +24,7 @@ topic: CSS
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如何删除该背景或仅禁用此自动填充？</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第3589篇《Google Chrome表单自动填充及其黄色背景》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第3589篇《Google Chrome表单自动填充及其黄色背景》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -38,9 +38,7 @@ topic: CSS
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">相似问题：</font></font><a href="https://stackoverflow.com/questions/2530/how-do-you-disable-browser-autocomplete-on-web-form-field-input-tag"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">链接</font></font></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">宝儿</span>
@@ -52,9 +50,7 @@ topic: CSS
   outline: none;<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Tony十三Itachi</span>
@@ -67,9 +63,7 @@ topic: CSS
     transition: background-color 10s ease-in-out 0s;<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Mandy村村</span>
@@ -81,9 +75,7 @@ topic: CSS
 Google不会将自动填充应用于具有搜索类型的输入。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">希望这可以节省您一些时间。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">西里Near</span>
@@ -104,9 +96,7 @@ Google不会将自动填充应用于具有搜索类型的输入。</font></font>
     background-color: rgb(250, 255, 189) !important;<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Near飞云</span>
@@ -129,9 +119,7 @@ Google不会将自动填充应用于具有搜索类型的输入。</font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">疯狂破解，我知道。</font><font style="vertical-align: inherit;">但这对我有用。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Chrome 34.0.1847.116，OSX 10.7.5</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">乐</span>
@@ -143,9 +131,7 @@ Google不会将自动填充应用于具有搜索类型的输入。</font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">但是，请勿将其放在用户名/电子邮件/ idname字段中，因为如果您仍在使用自动完成功能，它将在此字段中禁用它。</font><font style="vertical-align: inherit;">但是我找到了解决方法，只需将代码放在密码输入标签中，因为无论如何您永远不会自动完成密码。</font><font style="vertical-align: inherit;">此修复程序应该删除电子邮件/用户名字段上的颜色强制和行事自动完成功能，并使您避免使用Jquery或javascript之类的笨拙的骇客。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小小</span>
@@ -157,9 +143,7 @@ Google不会将自动填充应用于具有搜索类型的输入。</font></font>
     -webkit-box-shadow: 0 0 0 1000px white inset;<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">老丝L</span>
@@ -171,9 +155,7 @@ Google不会将自动填充应用于具有搜索类型的输入。</font></font>
 input:focus:-webkit-autofill { -webkit-box-shadow: 0 0 0px 1000px white inset !important; }<font></font>
 /* You can use color:#color to change the color */<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">米亚</span>
@@ -186,9 +168,7 @@ input:focus:-webkit-autofill { -webkit-box-shadow: 0 0 0px 1000px white inset !i
 }</code></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">其中，</font></font><em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">白色</font></font></em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">可以是任何你想要的颜色。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Gil伽罗小宇宙</span>
@@ -206,9 +186,7 @@ input:focus:-webkit-autofill { -webkit-box-shadow: 0 0 0px 1000px white inset !i
    }<font></font>
 &lt;/style&gt;<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小宇宙</span>
@@ -220,9 +198,7 @@ input:focus:-webkit-autofill { -webkit-box-shadow: 0 0 0px 1000px white inset !i
     -webkit-box-shadow: 0 0 0px 1000px white inset;<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">西里Near</span>
@@ -236,9 +212,7 @@ input:focus:-webkit-autofill { -webkit-box-shadow: 0 0 0px 1000px white inset !i
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">您可以将任何颜色代替</font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">#ffffff</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">神无Green前端</span>
@@ -254,9 +228,7 @@ input:-webkit-autofill:active {<font></font>
     -webkit-transition: color 9999s ease-out, background-color 9999s ease-out;<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Gil伽罗小宇宙</span>
@@ -269,9 +241,7 @@ input:-webkit-autofill:active {<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">您可以在Chrome浏览器中对其进行测试，因为它应该可以正常工作。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小小</span>
@@ -291,9 +261,7 @@ input:-webkit-autofill:focus {<font></font>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">复制的解决方案来自：
  </font></font><a href="https://stackoverflow.com/questions/2338102/override-browser-form-filling-and-input-highlighting-with-html-css"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">覆盖浏览器表单填充并使用HTML / CSS突出显示输入</font></font></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">樱</span>
@@ -305,9 +273,7 @@ input:-webkit-autofill:focus {<font></font>
     -webkit-box-shadow: 0 0 0 1000px white inset !important;<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

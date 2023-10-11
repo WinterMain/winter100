@@ -86,7 +86,7 @@ topic: JavaScript
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我应该如何</font></font><code>this.setState</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">进行更新</font></font><code>items[1].name</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">？</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第481篇《反应：如何使用setState更新state.item [1]状态？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第481篇《反应：如何使用setState更新state.item \[1\]状态？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -121,9 +121,7 @@ topic: JavaScript
 
 <pre><code>&lt;input type="text" name="name" onChange={(e) =&gt; this.props.setData(this.props.objectIndex,{name: e.target.value})}/&gt;
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">理查德小哥</span>
@@ -146,9 +144,7 @@ topic: JavaScript
    }<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">樱小胖Mandy</span>
@@ -157,9 +153,7 @@ topic: JavaScript
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">使用事件on </font></font><code>handleChange</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">找出已更改的元素，然后对其进行更新。</font><font style="vertical-align: inherit;">为此，您可能需要更改一些属性以进行标识和更新。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">参见小提琴</font></font><a href="https://jsfiddle.net/69z2wepo/6164/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">https://jsfiddle.net/69z2wepo/6164/</font></font></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Near神乐路易</span>
@@ -175,9 +169,7 @@ topic: JavaScript
                                     return item.name !== "field_1"}).concat(udpateditem)<font></font>
     }));<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">泡芙Gil</span>
@@ -193,9 +185,7 @@ topic: JavaScript
     return {items: newItems};<font></font>
 })<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">阿飞蛋蛋</span>
@@ -229,9 +219,7 @@ topic: JavaScript
     }));<font></font>
 };<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">樱Itachi</span>
@@ -243,9 +231,7 @@ topic: JavaScript
 newItems[item] = value;<font></font>
 this.setState({ items:newItems });<font></font>
 </code></pre></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

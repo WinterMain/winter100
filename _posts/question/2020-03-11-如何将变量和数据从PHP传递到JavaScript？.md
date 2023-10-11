@@ -49,7 +49,7 @@ topic: JavaScript
 </code></pre></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第767篇《如何将变量和数据从PHP传递到JavaScript？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第767篇《如何将变量和数据从PHP传递到JavaScript？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -70,9 +70,7 @@ topic: JavaScript
 <font></font>
 ?&gt;<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">飞云伽罗伽罗</span>
@@ -126,9 +124,7 @@ topic: JavaScript
    }<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">D坤</span>
@@ -160,9 +156,7 @@ window.onload = function(){<font></font>
     variable_2 = document.getElementById("storage").getAttribute("data-variable-two");<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">飞云伽罗伽罗</span>
@@ -180,9 +174,7 @@ window.onload = function(){<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">-尝试了一段时间后</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">虽然可以，但是会降低性能。</font><font style="vertical-align: inherit;">因为PHP是服务器端脚本，而JavaScript是用户端。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">null</span>
@@ -199,9 +191,7 @@ window.onload = function(){<font></font>
 <li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">PHP 5.2.0或更高</font></font></li>
 <li><code>$PHPVar</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> 编码为UTF-8，Unicode。</font></font></li>
 </ul></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

@@ -31,7 +31,7 @@ topic: Vue.js
 </code></pre></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第1059篇《vue-language-server：迭代中的元素期望具有“ v-bind：key”指令》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第1059篇《vue-language-server：迭代中的元素期望具有“ v-bind：key”指令》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -46,9 +46,7 @@ topic: Vue.js
 <pre><code>&lt;div :class="sliderClass()" v-for="(slide,index) in slides" :key="index"&gt;<font></font>
 &lt;div :class="sliderClass()" v-for="slide in slides" :key="slide.SliderID"&gt;<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">十三米亚阳光</span>
@@ -62,9 +60,7 @@ topic: Vue.js
       &lt;/div&gt;<font></font>
 &lt;/div&gt;<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Sam小哥Tom</span>
@@ -74,9 +70,7 @@ topic: Vue.js
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">像这样在标签中指定唯一键。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">米亚神奇</span>
@@ -90,9 +84,7 @@ topic: Vue.js
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">希望能帮助到你！</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">伽罗小哥</span>
@@ -101,9 +93,7 @@ topic: Vue.js
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">您可以放心地忽略该警告。</font><font style="vertical-align: inherit;">它来自vue的eslint插件，它是一个错误，已</font></font><a href="https://github.com/vuejs/eslint-plugin-vue/commit/73a9dd46a91016504f33e5877544ebf71392841a" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在一个月前</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">修复，</font><font style="vertical-align: inherit;">但也许vetur仍在使用旧版本的插件。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">必须将key属性添加到传递给组件的内容中</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">阿飞飞云</span>
@@ -128,9 +118,7 @@ topic: Vue.js
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果您的商品没有任何唯一的ID字段，则可以编写</font></font><code>:key="item"</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font><font style="vertical-align: inherit;">但是，出于性能原因，您的数据应具有一个id字段。</font></font></p>
 
 <p><a href="https://vuejs.org/v2/guide/list.html#key" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">https://vuejs.org/v2/guide/list.html#key</font></font></a></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

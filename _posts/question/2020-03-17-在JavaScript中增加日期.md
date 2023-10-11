@@ -21,7 +21,7 @@ topic: JavaScript
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如何将日期增加一天？</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第1853篇《在JavaScript中增加日期》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第1853篇《在JavaScript中增加日期》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -41,9 +41,7 @@ topic: JavaScript
     return new Date(result.getTime() + sign(offset) * offset * 60 * 1000);<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">猪猪十三</span>
@@ -59,9 +57,7 @@ date.setDate(date.getDate() + 1) // tomorrow<font></font>
 
 <pre><code>const date = moment().add(14, "days").toDate()
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">宝儿阿飞</span>
@@ -106,9 +102,7 @@ Sat Oct 18 2014 01:01:01 GMT-0300<font></font>
 Sun Oct 19 2014 01:01:01 GMT-0200<font></font>
 Mon Oct 20 2014 01:01:01 GMT-0200<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小宇宙LEY</span>
@@ -121,9 +115,7 @@ Slice the date from the returned value and then increment by the number of days 
 currentdate.setDate(currentdate.getDate() + 1);<font></font>
 var tomorrow = currentdate.toJSON().slice(0,10);<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小胖阳光</span>
@@ -136,9 +128,7 @@ console.log(d.setTime(d.getTime() + 1000 * 60 * 60 * 24)) // MILLISECONDS<font><
 </code></pre>
 
 <p><code>.setDate()</code> for invalid Date (like 31 + 1) is too dangerous, and it depends on the browser implementation.</p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">西门蛋蛋</span>
@@ -172,9 +162,7 @@ console.log(dt.AddDays(30));<font></font>
 2017-10-13T15:01:37.213Z<font></font>
 2017-11-02T15:01:37.213Z<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">达蒙十三</span>
@@ -195,9 +183,7 @@ var b = new Date(a.setTime(a.getTime() + no_of_days * 86400000)<font></font>
 // no_of_days is an integer value<font></font>
 var b = new Date(a.setDate(a.getDate() + no_of_days)<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">村村LEY</span>
@@ -216,9 +202,7 @@ var curdate = new Date(y, m, d+i)<font></font>
 console.log(curdate)<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Itachi理查德</span>
@@ -229,9 +213,7 @@ console.log(curdate)<font></font>
 //add a day to the date<font></font>
 myDate.setDate(myDate.getDate() + 1);<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Eva宝儿理查德</span>
@@ -241,9 +223,7 @@ myDate.setDate(myDate.getDate() + 1);<font></font>
 
 <pre><code>var tomorrow = new Date(today.getTime()+1000*60*60*24);
 </code></pre></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

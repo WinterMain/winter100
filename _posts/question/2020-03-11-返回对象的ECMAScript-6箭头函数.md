@@ -27,7 +27,7 @@ topic: JavaScript
 <p>Is there something obvious I am missing?</p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第861篇《返回对象的ECMAScript 6箭头函数》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第861篇《返回对象的ECMAScript 6箭头函数》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -41,9 +41,7 @@ topic: JavaScript
 
 <pre><code>x =&gt; ({}[x.name] = x);
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">梅老丝</span>
@@ -73,9 +71,7 @@ topic: JavaScript
 <p><em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在上面的示例中，第一组花括号打开了一个多语句代码块，第二组花括号用于动态对象。</font><font style="vertical-align: inherit;">在箭头功能的多语句代码块中，您必须显式使用return语句</font></font></em></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">有关更多详细信息，请查看</font></font><a href="https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Functions/Arrow_functions" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Mozilla Docs中的JS Arrow函数表达式</font></font></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">乐理查德</span>
@@ -122,9 +118,7 @@ console.log(getUser(user));<font></font>
 <p><a href="https://github.com/lydiahallie/javascript-questions/issues/220" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">https://github.com/lydiahallie/javascript-questions/issues/220</font></font></a></p>
 
 <p><a href="https://mariusschulz.com/blog/returning-object-literals-from-arrow-functions-in-javascript" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">https://mariusschulz.com/blog/returning-object-literals-from-arrow-functions-in-javascript</font></font></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小胖Eva</span>
@@ -144,9 +138,7 @@ console.log(getUser(user));<font></font>
   "bar"; //obviously no return here!<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

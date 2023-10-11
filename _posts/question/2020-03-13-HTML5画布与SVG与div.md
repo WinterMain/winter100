@@ -21,7 +21,7 @@ topic: JavaScript
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">为了比较这些方法，我正在考虑创建三个视觉上相同的网页，每个网页中都有页眉，页脚，小部件和文本内容。</font><font style="vertical-align: inherit;">第一页中的小部件将完全使用</font></font><code>canvas</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">元素</font><font style="vertical-align: inherit;">创建</font><font style="vertical-align: inherit;">，第二页中的完全使用</font></font><code>svg</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">元素创建，而第三页中的使用简单</font></font><code>div</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">元素HTML和CSS创建。</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第1377篇《HTML5画布与SVG与div》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第1377篇《HTML5画布与SVG与div》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -43,18 +43,14 @@ topic: JavaScript
   
   <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">因此，canvas是比SVG更底层的限制性API。</font><font style="vertical-align: inherit;">但这有一个缺点，那就是使用画布您可以用相同的资源量执行更多操作。</font><font style="vertical-align: inherit;">因为浏览器不必创建和维护我们绘制的所有对象的内存对象图，所以它需要更少的内存和计算资源即可绘制相同的视觉场景。</font><font style="vertical-align: inherit;">如果您要绘制非常大而复杂的可视化效果，则Canvas可能是您的理想选择。</font></font></p>
 </blockquote></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">JinJin阿飞番长</span>
             <span class="discuss-time">2020.03.13</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">出于您的目的，我建议您使用SVG，因为您会获得DOM事件，例如包含鼠标操作（包括拖放）在内的DOM事件，因此您不必实现自己的重绘，也不必跟踪状态。你的对象。</font><font style="vertical-align: inherit;">当您需要进行位图图像处理时，请使用Canvas；而当您要处理用HTML创建的内容时，请使用常规div。</font><font style="vertical-align: inherit;">在性能方面，您会发现现代浏览器现在正在加速这三种浏览器，但是到目前为止，canvas是最受关注的。</font><font style="vertical-align: inherit;">另一方面，JavaScript编写的好坏对于使画布发挥最大性能至关重要，因此我仍然建议您使用SVG。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">GreenGil</span>
@@ -81,9 +77,7 @@ topic: JavaScript
 <li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果很复杂，则渲染速度较慢（经常使用DOM的东西都会很慢）</font></font></li>
 <li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">不适合游戏应用</font></font></li>
 </ul></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">逆天前端</span>
@@ -104,9 +98,7 @@ topic: JavaScript
 <li><a href="http://www.eleqtriq.com/2010/02/canvas-svg-flash/" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">http://www.eleqtriq.com/2010/02/canvas-svg-flash/</font></font></a></li>
 <li><a href="http://smus.com/canvas-vs-svg-performance/" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">http://smus.com/canvas-vs-svg-performance/</font></font></a></li>
 </ul></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">阳光逆天</span>
@@ -117,9 +109,7 @@ topic: JavaScript
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">著名/臭名昭著和SamsaraJS（可能还有其他）使用绝对定位的非嵌套div（具有非平凡的HTML / CSS内容），结合matrix2d / matrix3d进行定位和2D / 3D转换，并在中等移动硬件上实现稳定的60FPS ，因此我反对divs是一个缓慢的选择。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Youtube和其他地方有很多屏幕录像，浏览器中运行着高性能2D / 3D素材，所有内容都是DOM元素，您可以</font><font style="vertical-align: inherit;">以60FPS的速度</font></font><em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">检查元素</font></font></em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">（与WebGL混合以获得某些效果，但不适用于渲染的主要部分）。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">卡卡西理查德</span>
@@ -132,9 +122,7 @@ topic: JavaScript
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在当今大多数用例中，恕我直言，SVG提供了最佳的性能/可用性比。</font><font style="vertical-align: inherit;">可视化必须非常复杂（就元素数量而言），同时又必须非常简单（每个元素），以便Canvas甚至更多，WebGL才能真正发挥作用。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在</font></font><a href="https://stackoverflow.com/a/49709860/351836"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">回答类似问题时，</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我提供了更多详细信息，为什么我认为</font><font style="vertical-align: inherit;">有时</font><a href="https://stackoverflow.com/a/49709860/351836"><font style="vertical-align: inherit;">将这</font></a><font style="vertical-align: inherit;">三种技术</font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">结合起来</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">是您最好的选择。</font></font></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

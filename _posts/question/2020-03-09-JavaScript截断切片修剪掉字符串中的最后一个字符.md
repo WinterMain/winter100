@@ -19,7 +19,7 @@ topic: JavaScript
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我已经看过了</font></font><code>trim</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，但是看起来它只是在修剪空白，</font></font><code>slice</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">而我看不出</font><font style="vertical-align: inherit;">它是</font><font style="vertical-align: inherit;">如何工作的。</font><font style="vertical-align: inherit;">有什么建议么？</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第217篇《JavaScript截断/切片/修剪掉字符串中的最后一个字符》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第217篇《JavaScript截断/切片/修剪掉字符串中的最后一个字符》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -35,9 +35,7 @@ topic: JavaScript
 </code></pre>
 
 <p>3 is that start and 7 is the length.</p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">ProGreen</span>
@@ -59,9 +57,7 @@ topic: JavaScript
 </code></pre>
 
 <p>You can also try the live working example on <a href="http://jsfiddle.net/informativejavascript/F7WTn/87/" rel="nofollow noreferrer">http://jsfiddle.net/informativejavascript/F7WTn/87/</a>.</p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">LGO西里</span>
@@ -72,9 +68,7 @@ topic: JavaScript
     str = str.substring(0, str.length - 4);<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">前端Eva</span>
@@ -91,9 +85,7 @@ topic: JavaScript
 
 <pre><code>str = str.slice(0, -5) + str.substr(-4);
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Eva千羽</span>
@@ -103,9 +95,7 @@ topic: JavaScript
 
 <pre><code>str.slice(0, -1); 
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">猿AJim</span>
@@ -136,9 +126,7 @@ MoreMath.round(float3, 1) =&gt; 12346.0<font></font>
 </code></pre>
 
 <p><em>EDIT:</em> Seems like there exists a built in function for this, as Paolo points out. That solution is obviously much cleaner than mine. Use <a href="http://www.w3schools.com/jsref/jsref_parseFloat.asp" rel="nofollow noreferrer">parseFloat</a> followed by <a href="http://www.w3schools.com/jsref/jsref_tofixed.asp" rel="nofollow noreferrer">toFixed</a> </p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">达蒙神奇</span>
@@ -151,9 +139,7 @@ console.log(str.slice(0, -1));</code></pre>
 </div>
 </div>
 <p></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小卤蛋Davaid</span>
@@ -168,9 +154,7 @@ console.log(myString.slice(0, -1));</code></pre>
 </div>
 </div>
 <p></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">YOC38880545</span>
@@ -208,9 +192,7 @@ console.log(myString.slice(0, -1));</code></pre>
 </div>
 </div>
 <p></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">十三西门</span>
@@ -226,9 +208,7 @@ console.log(aStr);</code></pre>
 </div>
 </div>
 <p></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Itachi泡芙Pro</span>
@@ -243,9 +223,7 @@ console.log(myString.substring(0, myString.length - 1));</code></pre>
 </div>
 </div>
 <p></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小宇宙</span>
@@ -260,9 +238,7 @@ console.log(str.replace(/_bar$/, ""));</code></pre>
 </div>
 </div>
 <p></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小卤蛋小卤蛋小哥</span>
@@ -284,9 +260,7 @@ console.log(withoutLastChunk);</code></pre>
 </div>
 </div>
 <p></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小宇宙猴子</span>
@@ -304,9 +278,7 @@ console.log(withoutLastChunk);</code></pre>
 <pre><code>var re = /_bar$/;<font></font>
 s.replace(re, "");<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Jim猪猪</span>
@@ -317,9 +289,7 @@ s.replace(re, "");<font></font>
 <pre><code>js&gt;"12345.00".slice(0,-1)<font></font>
 12345.0<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">乐</span>
@@ -346,9 +316,7 @@ console.log(str);</code></pre>
 </div>
 </div>
 <p></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

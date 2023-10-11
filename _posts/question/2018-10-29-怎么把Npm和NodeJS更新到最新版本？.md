@@ -20,7 +20,7 @@ answer: 1
 </div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第91篇《怎么把Npm和NodeJS更新到最新版本？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第91篇《怎么把Npm和NodeJS更新到最新版本？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -56,9 +56,7 @@ answer: 1
 </blockquote>
 
 <p>To update Node.js itself, I recommend you use&nbsp;<a href="https://github.com/creationix/nvm" rel="noreferrer">nvm, the Node Version Manager</a>.</p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

@@ -27,7 +27,7 @@ topic: HTML
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我已经知道NppAutoIndent了-它无法工作，因为我正在使用XML，HTML和CSS。</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第2057篇《如何在Notepad ++中自动设置格式/缩进XML / HTML》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第2057篇《如何在Notepad ++中自动设置格式/缩进XML / HTML》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -38,27 +38,21 @@ topic: HTML
             <span class="discuss-time">2022.03.17</span>
           </div>
           <div class="discuss-comment"><p>您可以使用以下在线工具：</p><p><a href="http://extendsclass.com/xml-formatter-online.html">http://extendsclass.com/xml-formatter-online.html</a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">YOC108074432</span>
             <span class="discuss-time">2020.11.25</span>
           </div>
           <div class="discuss-comment"><p>&nbsp;</p><p>&nbsp;</p><p>If you want to learn How Blogging Works? and How it is done? Then you must visit this site to find out the concept of blogging. I am offering this site cause it change my life and I wish it may change yours too. For that <i><strong>Click here</strong></i></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小胖逆天</span>
             <span class="discuss-time">2020.03.18</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">只需安装最新的notepad ++并安装fold by fold。</font><font style="vertical-align: inherit;">在菜单栏上，选择Plugins-&gt; Plugins Admin，然后选择fold By和折叠。</font><font style="vertical-align: inherit;">效果最好</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小小卡卡西小卤蛋</span>
@@ -76,9 +70,7 @@ topic: HTML
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">可能有一种方法可以解决此问题，但目前，它已设法将文档中的行数减少了300k，可以解决此特殊异常。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Jim老丝达蒙</span>
@@ -87,9 +79,7 @@ topic: HTML
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我将记事本7.6与“插件管理”一起使用，但找不到XML工具。</font></font><br><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
 我必须手动安装它，就像@ some-java-guy在他的</font></font><a href="https://stackoverflow.com/a/34036271/1037864"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">回答中</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">所做的一样，</font><font style="vertical-align: inherit;">除了我的plugins文件夹位于此处：</font></font><code>C:\Users\&lt;my username&gt;\AppData\Local\Notepad++\plugins</code><br><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
 在该目录中，我创建了一个新目录（名为XmlTools），并在那里复制了XMLTools.dll。</font><font style="vertical-align: inherit;">（并且我将所有依赖项都复制到了程序文件中的Notepad ++目录。）</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">MandyEva</span>
@@ -98,9 +88,7 @@ topic: HTML
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我必须</font><font style="vertical-align: inherit;">在“插件”-&gt;“插件管理器”-&gt;“显示插件管理器”-&gt;“ </font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">设置”</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">下</font><strong><font style="vertical-align: inherit;">更新代理设置</font></strong><font style="vertical-align: inherit;">，以查看“可用”列表中的所有插件。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">之后，安装“ XML工具”非常容易，并且如上所述完成了请求的工作。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">神奇神奇Near</span>
@@ -114,9 +102,7 @@ topic: HTML
 <li><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在最新的npp安装目的地（通常为C：\ Program Files（x86）\ Notepad ++ \ plugins）中有一个Config文件夹后，npp需要对该文件夹的写访问权限。</font><font style="vertical-align: inherit;">右键单击配置文件夹-&gt;属性-&gt;安全选项卡-&gt;选择用户，单击编辑-&gt;选中完全控制以允许读/写访问。</font><font style="vertical-align: inherit;">请注意，您需要管理员权限才能执行此操作。</font></font></p></li>
 <li><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">重新启动npp并验证TextFX-&gt; TextFX HTML Tidy-&gt; Tidy：重新插入XML即可。</font></font></p></li>
 </ol></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Tony伽罗Sam</span>
@@ -125,9 +111,7 @@ topic: HTML
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">默认情况下，Notepad ++不提供任何此类功能。</font><font style="vertical-align: inherit;">但是您可以使用一些在线工具来自动格式化文本，例如</font></font><a href="https://www.freeformatter.com/xml-formatter.html" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">https://www.freeformatter.com/xml-formatter.html</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">它有助于。</font><font style="vertical-align: inherit;">:)</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">番长阿飞</span>
@@ -160,18 +144,14 @@ topic: HTML
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">重新启动并享受！！！</font></font></p>
 
 <p><kbd>Ctrl</kbd><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">+ </font></font><kbd>Alt</kbd><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">+ </font></font><kbd>Shft</kbd><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">+ </font></font><kbd>B</kbd><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">格式化。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">DavaidAPro</span>
             <span class="discuss-time">2020.03.18</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">安装Tidy2插件。</font><font style="vertical-align: inherit;">我有Notepad ++ v6.2.2，并且Tidy2到目前为止运行良好。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">LEY蛋蛋Near</span>
@@ -187,9 +167,7 @@ menu -&gt; Plugins -&gt; XML Tools -&gt; Pretty Print)</li>
 
 <p>In older versions:
 menu -&gt; TextFX -&gt; HTML Tidy -&gt; Tidy: Reindent XML.</p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

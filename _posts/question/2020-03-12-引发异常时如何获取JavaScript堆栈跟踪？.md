@@ -31,7 +31,7 @@ function bar(n) {<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">当</font></font><code>foo</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">被调用时，我希望得到一个堆栈跟踪，其中包括在两个电话</font></font><code>foo</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，</font></font><code>bar</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，</font></font><code>bar</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第1207篇《引发异常时如何获取JavaScript堆栈跟踪？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第1207篇《引发异常时如何获取JavaScript堆栈跟踪？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -44,9 +44,7 @@ function bar(n) {<font></font>
           <div class="discuss-comment"><p>Using <code>console.error(e.stack)</code> Firefox only shows the stacktrace in logs,
 Chrome also shows the message.
 This can be a bad surprise if the message contains vital information. Always log both.</p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Itachi猪猪</span>
@@ -57,9 +55,7 @@ Use the following in a javascript method:</p>
 
 <pre><code>try{ null.toString(); } catch(e) { alert(e.stack); }
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">StafanDavaid</span>
@@ -82,9 +78,7 @@ Use the following in a javascript method:</p>
          print_call_stack(err); <font></font>
      }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">凯飞云</span>
@@ -103,9 +97,7 @@ Use the following in a javascript method:</p>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">注1：这种事情仅应在调试时完成，而在实时运行时应禁用，尤其是在频繁调用时。</font><font style="vertical-align: inherit;">注意2：可能无法在所有浏览器中使用，但似乎可以在FF和IE 11中使用，正好适合我的需求。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小宇宙西里</span>
@@ -131,18 +123,14 @@ Use the following in a javascript method:</p>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在IE 11中无法使用！</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">使用</font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">arguments.callee.caller-</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在任何浏览器中都不能在严格模式下使用！</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小小小胖</span>
             <span class="discuss-time">2020.03.12</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在Chrome浏览器中，您可以使用以下</font></font><code>console.trace</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">方法：</font><a href="https://developer.chrome.com/devtools/docs/console-api#consoletraceobject" rel="noreferrer"><font style="vertical-align: inherit;">https</font></a><font style="vertical-align: inherit;"> : </font></font><a href="https://developer.chrome.com/devtools/docs/console-api#consoletraceobject" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">//developer.chrome.com/devtools/docs/console-api#consoletraceobject</font></font></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Winter</span>
@@ -153,9 +141,7 @@ Use the following in a javascript method:</p>
 <pre><code>e = new Error();<font></font>
 console.log(e.stack);<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Eva达蒙</span>
@@ -173,9 +159,7 @@ console.log(e.stack);<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">它适用于基本异常以及您自己抛出的异常。</font><font style="vertical-align: inherit;">（考虑使用Error类，这是一个好习惯）。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">查看有关</font><a href="https://v8.dev/docs/stack-trace-api" rel="nofollow noreferrer"><font style="vertical-align: inherit;">V8文档的</font></a><font style="vertical-align: inherit;">详细信息</font></font><a href="https://v8.dev/docs/stack-trace-api" rel="nofollow noreferrer"><font style="vertical-align: inherit;"></font></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">路易Pro</span>
@@ -191,9 +175,7 @@ console.log(e.stack);<font></font>
     var myStackTrace = e.stack || e.stacktrace || "";<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">ProTony</span>
@@ -205,9 +187,7 @@ console.log(e.stack);<font></font>
 <li><a href="http://helephant.com/2007/05/diy-javascript-stack-trace/" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">DIY JavaScript堆栈跟踪</font></font></a></li>
 <li><a href="http://eriwen.com/javascript/js-stack-trace/" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">任何浏览器中的Javascript stacktrace</font></font></a></li>
 </ul></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">凯老丝</span>
@@ -216,9 +196,7 @@ console.log(e.stack);<font></font>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果您有萤火虫，则脚本标签中的所有错误选项都会中断。</font><font style="vertical-align: inherit;">脚本到达断点后，您可以查看firebug的堆栈窗口：</font></font></p>
 
 <p><img src="https://i.stack.imgur.com/XA8Bf.png" alt="屏幕截图"></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

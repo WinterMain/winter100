@@ -19,7 +19,7 @@ topic: JavaScript
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">不</font></font><code>jQuery</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，没有其他框架-只是纯Javascript :)</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第1380篇《Javascript对象的查询字符串编码》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第1380篇《Javascript对象的查询字符串编码》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -73,9 +73,7 @@ topic: JavaScript
 <font></font>
     serialize(data, "prefix", false);<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">阿飞</span>
@@ -93,9 +91,7 @@ topic: JavaScript
         return s;<font></font>
      };<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">樱Davaid</span>
@@ -118,9 +114,7 @@ topic: JavaScript
     }).join("&amp;");<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">GO村村</span>
@@ -139,9 +133,7 @@ topic: JavaScript
 <font></font>
   str.join("&amp;")<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Pro十三</span>
@@ -150,9 +142,7 @@ topic: JavaScript
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">使用JSON。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">请看一下</font></font><a href="https://stackoverflow.com/questions/459105/convert-a-multidimensional-javascript-array-to-json"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这个问题，</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">以获取有关如何实施的想法。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">null</span>
@@ -162,9 +152,7 @@ topic: JavaScript
 
 <pre><code>const encoded = Object.entries(obj).map(([k, v]) =&gt; `${k}=${encodeURIComponent(v)}`).join("&amp;");
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小卤蛋Tom</span>
@@ -184,9 +172,7 @@ topic: JavaScript
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">检查对象上的hasOwnProperty使JSLint / JSHint满意，并且如果对象不是简单的字典，则可以防止意外地序列化对象或其他内容的方法。</font><font style="vertical-align: inherit;">有关此页面中的声明，请参见上的段落：</font><a href="http://javascript.crockford.com/code.html"><font style="vertical-align: inherit;">http</font></a><font style="vertical-align: inherit;"> : </font></font><a href="http://javascript.crockford.com/code.html"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">//javascript.crockford.com/code.html</font></font></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">null</span>
@@ -199,9 +185,7 @@ const search = {foo: "hi there", bar: "100%" };<font></font>
 Object.keys(search).forEach(key =&gt; searchParams.append(key, search[key]));<font></font>
 console.log(searchParams.toString())<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">神无老丝Davaid</span>
@@ -232,9 +216,7 @@ qsb.add("vegCount", "5");<font></font>
 <font></font>
 alert( qsb.toQueryString() );<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">前端Pro</span>
@@ -244,9 +226,7 @@ alert( qsb.toQueryString() );<font></font>
 
 <pre class="lang-js prettyprint-override"><code>new URLSearchParams(object).toString()
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小红酱</span>
@@ -262,9 +242,7 @@ var str = jQuery.param( params );<font></font>
 </code></pre>
 
 <p><code>str</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> 现在包含 </font></font><code>width=1680&amp;height=1050</code></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">梅Near米亚</span>
@@ -322,9 +300,7 @@ console.log(serialize({<font></font>
 </div>
 </div>
 <p></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

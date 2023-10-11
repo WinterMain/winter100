@@ -30,7 +30,7 @@ topic: CSS
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我不好说不清楚。</font><font style="vertical-align: inherit;">我正在使用Bootstrap的SASS部分。</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第2087篇《CSS属性值中的！default是什么意思？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第2087篇《CSS属性值中的！default是什么意思？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -44,9 +44,7 @@ topic: CSS
 
 <p><em>Normally when you assign a value to a variable, if that variable already had a value, its old value is overwritten. But if you’re writing a Sass library, you might want to allow your users to configure your library’s variables before you use them to generate CSS.
 To make this possible, Sass provides the !default flag. This assigns a value to a variable only if that variable isn’t defined or its value is null. Otherwise, the existing value will be used.</em></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">西门神乐</span>
@@ -57,9 +55,7 @@ To make this possible, Sass provides the !default flag. This assigns a value to 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">此外，我</font></font><code>!default</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在</font></font><a href="http://lesscss.org" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">LESS文档中</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">找不到任何引用</font><font style="vertical-align: inherit;">，据我所知，它仅属于Sass。</font><font style="vertical-align: inherit;">您确定在Bootstrap的源代码中找到了这个吗？</font><font style="vertical-align: inherit;">因为老实说，我不记得在Bootstrap的样式表中看到Sass / SCSS代码。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">就其价值而言，</font></font><code>!</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">CSS中</font><font style="vertical-align: inherit;">唯一以开头的有效令牌</font><font style="vertical-align: inherit;">是</font></font><code>!important</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，</font></font><a href="http://www.w3.org/TR/CSS21/cascade.html#important-rules" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">您可能已经知道了</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

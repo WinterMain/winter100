@@ -32,7 +32,7 @@ topic: Node.js
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">正确的方法是什么？</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第2913篇《npm通过package.json中的依赖项安装私有github存储库》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第2913篇《npm通过package.json中的依赖项安装私有github存储库》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -47,9 +47,7 @@ topic: Node.js
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在</font></font><code>ssh-add ~/.ssh/id_rsa</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">没有本地钥匙串的情况下</font><font style="vertical-align: inherit;">使用</font><font style="vertical-align: inherit;">。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这避免了必须弄乱令牌。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Tony宝儿</span>
@@ -73,9 +71,7 @@ topic: Node.js
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果无法访问Github，请尝试运行以下</font></font><code>git ls-remote ...</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">命令</font></font><code>npm install will print</code></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">乐米亚</span>
@@ -95,9 +91,7 @@ topic: Node.js
 </blockquote>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果您在自己的公司中使用Github Enterprise，这也应该起作用。</font><font style="vertical-align: inherit;">只需将您的企业github url放在该</font></font><code>machine</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">字段中即可。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">泡芙</span>
@@ -112,9 +106,7 @@ topic: Node.js
 <li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">添加了＃commit-sha</font></font></li>
 <li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">跑npm安装</font></font></li>
 </ol></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">西门飞云</span>
@@ -140,9 +132,7 @@ topic: Node.js
   "hexo-renderer-marked": "amejiarosario/hexo-renderer-marked",<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">猿小宇宙小哥</span>
@@ -162,9 +152,7 @@ topic: Node.js
 <hr>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在Heroku中也可以使用，只需将上述</font></font><code>git config ...</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">命令</font><font style="vertical-align: inherit;">设置</font><font style="vertical-align: inherit;">为</font></font><code>heroku-prebuild</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">脚本</font></font><code>package.json</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">并设置</font></font><code>GITHUB_TOKEN</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">为Heroku配置变量即可。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">阿飞</span>
@@ -183,9 +171,7 @@ topic: Node.js
 </code></pre>
 
 <p><a href="https://docs.npmjs.com/files/package.json#github-urls" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">https://docs.npmjs.com/files/package.json#github-urls</font></font></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">阿飞</span>
@@ -197,9 +183,7 @@ topic: Node.js
 "GitRepo": "git+https://&lt;token-from-github&gt;:x-oauth-basic@github.com/&lt;user&gt;/&lt;GitRepo&gt;.git"<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">斯丁阳光</span>
@@ -219,9 +203,7 @@ git+https://user@hostname/project/blah.git#commit-ish<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">commit-ish可以是任何标签，sha或分支，可以将其作为git checkout的参数提供。</font><font style="vertical-align: inherit;">默认值为master。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">番长Itachi</span>
@@ -250,9 +232,7 @@ git+https://user@hostname/project/blah.git#commit-ish<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">取自</font></font><a href="https://docs.npmjs.com/files/package.json#git-urls-as-dependencies"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">NPM文档</font></font></a></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

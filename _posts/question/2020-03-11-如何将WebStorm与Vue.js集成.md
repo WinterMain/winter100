@@ -21,7 +21,7 @@ topic: Vue.js
 <p><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">随时改善答案</font></font></strong></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第845篇《如何将WebStorm与Vue.js集成》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第845篇《如何将WebStorm与Vue.js集成》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -35,9 +35,7 @@ topic: Vue.js
 
 <pre><code>&lt;template lang="pug" src="./MyComponent.pug"&gt;
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">阿飞Pro</span>
@@ -46,9 +44,7 @@ topic: Vue.js
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">WebStorm开始正式支持VueJS </font></font><a href="https://blog.jetbrains.com/webstorm/2017/02/webstorm-2017-1-eap-171-2822/" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">参见他们的博客</font></font></a></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">但现在它仅在</font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">抢先体验预览版本中有效</font></font></strong></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">村村小小十三</span>
@@ -62,9 +58,7 @@ topic: Vue.js
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我会评论您以前的回答，但由于字符数限制，我无法这样做。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">注意：还有更多</font><font style="vertical-align: inherit;">可用的</font></font><a href="https://developer.mozilla.org/en-US/docs/Web/Events" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">事件</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，我个人认为，我只手工挑选了最常见的</font><a href="https://developer.mozilla.org/en-US/docs/Web/Events" rel="noreferrer"><font style="vertical-align: inherit;">事件</font></a><font style="vertical-align: inherit;">。</font></font></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

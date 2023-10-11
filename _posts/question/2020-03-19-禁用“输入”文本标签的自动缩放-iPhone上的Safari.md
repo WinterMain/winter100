@@ -17,7 +17,7 @@ topic: HTML
     <div class="article-content"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我制作了一个带有</font></font><code>&lt;input&gt;</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">标记</font><font style="vertical-align: inherit;">的HTML页面</font></font><code>type="text"</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font><font style="vertical-align: inherit;">当我使用iPhone上的Safari单击它时，页面变大（自动缩放）。</font><font style="vertical-align: inherit;">有人知道如何禁用此功能吗？</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第2278篇《禁用“输入”文本标签的自动缩放-iPhone上的Safari》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第2278篇《禁用“输入”文本标签的自动缩放-iPhone上的Safari》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -38,9 +38,7 @@ topic: HTML
 </code></pre>
 
 <p>Ended up with the initial styles and scale I wanted but no zoom on focus. </p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">JinJin神奇宝儿</span>
@@ -52,9 +50,7 @@ topic: HTML
   font-size: 16px;<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">村村卡卡西</span>
@@ -78,9 +74,7 @@ input.addEventListener("focus", function (e) {<font></font>
 <p>On "mousedown" it sets font-size of input to 16px. This will prevent the zooming. On focus event it changes font-size back to initial value. </p>
 
 <p>Unlike solutions posted before, this will let you set the font-size of the input to whatever you want.</p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Green猿</span>
@@ -113,9 +107,7 @@ input.addEventListener("focus", function (e) {<font></font>
 </code></pre>
 
 <p>It has some cons, though, noticeably a "jump" as result of the quick font size change occuring between the "hover"ed and "focus"ed states - and the redraw impact on performance</p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">老丝阿飞</span>
@@ -127,9 +119,7 @@ input.addEventListener("focus", function (e) {<font></font>
     font-size: initial;<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Harry蛋蛋Eva</span>
@@ -141,9 +131,7 @@ input.addEventListener("focus", function (e) {<font></font>
 </code></pre>
 
 <p>Worked for me :)</p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Eva飞云</span>
@@ -156,9 +144,7 @@ textarea:focus, select:focus {<font></font>
   font-size: 16px;<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">猴子神奇</span>
@@ -172,18 +158,14 @@ textarea:focus, select:focus {<font></font>
 </div>
 </div>
 <p></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">神奇伽罗Itachi</span>
             <span class="discuss-time">2020.03.19</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">总之，答案是：将表单元素的字体大小设置为至少16px</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小卤蛋Eva西门</span>
@@ -195,9 +177,7 @@ textarea:focus, select:focus {<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这解决了您的移动页面或表单将“浮动”的问题。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Green达蒙Harry</span>
@@ -225,9 +205,7 @@ textarea:focus, select:focus {<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我添加了背景，因为IOS在选择中未添加任何背景。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">阿飞小胖</span>
@@ -238,9 +216,7 @@ textarea:focus, select:focus {<font></font>
 <p>It is a worthwhile option if you have a form in a layer that “floats” around if zoomed, which can cause important UI elements to move off screen.</p>
 
 <p><code>&lt;meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"&gt;</code></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

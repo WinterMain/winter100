@@ -80,7 +80,7 @@ Error: W:\bariokart\app\script\trishell.coffee:5:1: error: unexpected *<font></f
 </code></pre></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第3266篇《防止错误破坏/损坏gulp watch》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第3266篇《防止错误破坏/损坏gulp watch》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -97,9 +97,7 @@ Error: W:\bariokart\app\script\trishell.coffee:5:1: error: unexpected *<font></f
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">编辑JavaScript时，请将此命令的输出保存在屏幕上的可见区域。</font><font style="vertical-align: inherit;">当您的编辑导致错误时，Gulp将崩溃，打印其堆栈跟踪，等待一秒钟，然后继续查看源文件。</font><font style="vertical-align: inherit;">然后，您可以更正语法错误，Gulp将通过打印正常输出或再次崩溃（然后恢复）来指示编辑是否成功。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这将在Linux或Mac终端中工作。</font><font style="vertical-align: inherit;">如果您使用的是Windows，请使用Cygwin或Ubuntu Bash（Windows 10）。</font></font></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

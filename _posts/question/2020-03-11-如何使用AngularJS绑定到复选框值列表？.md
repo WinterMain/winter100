@@ -29,7 +29,7 @@ topic: JavaScript
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">还有另一种方法可以使四个复选框绑定到控制器中的列表吗？</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第728篇《如何使用AngularJS绑定到复选框值列表？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第728篇《如何使用AngularJS绑定到复选框值列表？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -77,9 +77,7 @@ $scope.getChecked = function(item){<font></font>
     $scope.checkedItems = $filter("filter")($scope.fruits,{checked:true});<font></font>
 };<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">神奇Tony古一</span>
@@ -112,9 +110,7 @@ $scope.getChecked = function(item){<font></font>
   }<font></font>
 ];<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小胖逆天</span>
@@ -200,9 +196,7 @@ return {<font></font>
 <p></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我还包括一个Plunker：</font><a href="http://plnkr.co/edit/XnFtyij4ed6RyFwnFN6V?p=preview" rel="nofollow"><font style="vertical-align: inherit;">http</font></a><font style="vertical-align: inherit;"> ://plnkr.co/edit/XnFtyij4ed6RyFwnFN6V?p=preview</font></font><a href="http://plnkr.co/edit/XnFtyij4ed6RyFwnFN6V?p=preview" rel="nofollow"><font style="vertical-align: inherit;"></font></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Jim达蒙阳光</span>
@@ -214,9 +208,7 @@ return {<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">否则，我认为您必须处理列表以构造列表（通过</font></font><code>$watch()</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">将模型数组与复选框绑定在一起）。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">JinJin宝儿</span>
@@ -224,9 +216,7 @@ return {<font></font>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">签出可有效管理复选框列表的指令。</font><font style="vertical-align: inherit;">我希望这个对你有用。
 </font></font><a href="https://vitalets.github.io/checklist-model/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">清单模型</font></font></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">null</span>
@@ -256,9 +246,7 @@ return {<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">此方法并非在所有情况下都适用，但易于实现。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">乐蛋蛋</span>
@@ -281,9 +269,7 @@ return {<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">ng-init允许服务器端生成的HTML最初设置某些复选框。</font></font></p>
 
 <p><a href="http://jsfiddle.net/mrajcok/CBmgM/"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">小提琴</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

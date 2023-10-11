@@ -105,7 +105,7 @@ React.renderComponent(<font></font>
 </code></pre></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第4044篇《ReactJS this.state为空》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第4044篇《ReactJS this.state为空》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -133,9 +133,7 @@ React.renderComponent(<font></font>
   ...<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">LGil</span>
@@ -162,9 +160,7 @@ React.renderComponent(<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">因为我写</font></font><code>console.log(this.state)</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">的方法不受类限制（我的handleSelect方法）。</font><font style="vertical-align: inherit;">这导致</font></font><code>this</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">指向对象层次结构中较高的某个对象（最有可能是该</font></font><code>window</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">对象），而</font><font style="vertical-align: inherit;">该</font><font style="vertical-align: inherit;">对象没有名为的属性</font></font><code>state</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font><font style="vertical-align: inherit;">因此，通过将我的</font></font><code>handleSelect</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">方法</font><font style="vertical-align: inherit;">绑定</font><font style="vertical-align: inherit;">到</font></font><code>this</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，可以确保无论何时编写</font></font><code>this</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">该方法，它都将指向该方法所在的对象。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我建议你阅读这一个很好的解释</font></font><a href="http://reactkungfu.com/2015/07/why-and-how-to-bind-methods-in-your-react-component-classes/" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在这里</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">卡卡西Near</span>
@@ -172,9 +168,7 @@ React.renderComponent(<font></font>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我有类似的问题。</font><font style="vertical-align: inherit;">就我而言，运行时并</font></font><code>webpack-dev-server</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">没有重新编译我的东西。</font></font><br><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
 我刚刚重新启动了开发服务器，以使其再次工作。</font></font><br></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">阿飞</span>
@@ -191,9 +185,7 @@ React.renderComponent(<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">请参阅</font></font><a href="https://facebook.github.io/react/blog/2015/01/27/react-v0.13.0-beta-1.html" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">本文档</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

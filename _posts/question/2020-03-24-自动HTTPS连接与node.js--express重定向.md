@@ -58,7 +58,7 @@ https.createServer(options, function (req, res) {<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这是我第一次涉足Web开发，所以如果这很明显，请原谅我的无知。</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第3346篇《自动HTTPS连接/与node.js / express重定向》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第3346篇《自动HTTPS连接/与node.js / express重定向》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -75,9 +75,7 @@ https.createServer(options, function (req, res) {<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这是我的方法：（使用restify.js，但也应该适用于express.js或节点本身）</font></font></p>
 
 <p><a href="http://qugstart.com/blog/node-js/node-js-restify-server-with-both-http-and-https/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">http://qugstart.com/blog/node-js/node-js-restify-server-with-both-http-and-https/</font></font></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">西里神奇</span>
@@ -93,9 +91,7 @@ https.createServer(options, function (req, res) {<font></font>
     } <font></font>
 });<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">猪猪L</span>
@@ -110,9 +106,7 @@ https.createServer(options, function (req, res) {<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">因此，请</font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">始终验证所有输入</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font><font style="vertical-align: inherit;">这不是偏执狂，我收到的请求缺少服务中的主机头。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">另外，</font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">切勿将URL视为string</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font><font style="vertical-align: inherit;">使用节点url模块来修改字符串的特定部分。</font><font style="vertical-align: inherit;">将URL视为字符串可以通过多种方式加以利用。</font><font style="vertical-align: inherit;">不要这样</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">神无</span>
@@ -128,9 +122,7 @@ https.createServer(options, function (req, res) {<font></font>
   } <font></font>
 });<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">DavaidTony宝儿</span>
@@ -141,9 +133,7 @@ https.createServer(options, function (req, res) {<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">某些人通过让Node的HTTPS服务器（也可以与Express.js一起使用）侦听443（或其他端口），并且使小型http服务器绑定到80并将用户重定向到安全端口，从而解决了此问题。 </font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果绝对必须能够在单个端口上处理两个协议，则需要在该端口上放置nginx，lighttpd，apache或其他Web服务器，并充当Node的反向代理。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小宇宙</span>
@@ -158,9 +148,7 @@ https.createServer(options, function (req, res) {<font></font>
     res.redirect("https://" + req.headers.host + req.url);  <font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

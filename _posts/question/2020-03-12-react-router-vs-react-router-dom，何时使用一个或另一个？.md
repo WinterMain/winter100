@@ -31,7 +31,7 @@ topic: React.js
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">何时使用一个或另一个非常令人困惑，任何帮助都值得赞赏。</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第990篇《react-router vs react-router-dom，何时使用一个或另一个？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第990篇《react-router vs react-router-dom，何时使用一个或另一个？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -44,9 +44,7 @@ topic: React.js
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在v4中，react-router导出核心组件和功能。</font><font style="vertical-align: inherit;">react-router-dom导出DOM感知组件，例如</font></font><code>&lt;Link&gt;</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">（渲染</font></font><code>&lt;a&gt;</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">）和（与浏览器的window.history交互）。</font></font></p>
 
 <p><code>react-router-dom</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">重新导出react-router的所有导出，因此您只需要从</font></font><code>react-router-dom</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">项目中</font><font style="vertical-align: inherit;">导入</font><font style="vertical-align: inherit;">。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Harry蛋蛋Eva</span>
@@ -66,18 +64,14 @@ topic: React.js
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">证明：</font><a href="https://github.com/ReactTraining/react-router/blob/master/packages/react-router-dom/modules/NavLink.js" rel="noreferrer"><font style="vertical-align: inherit;">https</font></a><font style="vertical-align: inherit;"> : </font></font><a href="https://github.com/ReactTraining/react-router/blob/master/packages/react-router-dom/modules/NavLink.js" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">//github.com/ReactTraining/react-router/blob/master/packages/react-router-dom/modules/NavLink.js</font></font></a></p></li>
 </ul></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">猪猪Jim</span>
             <span class="discuss-time">2020.03.12</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">只需使用</font></font><code>react-router-dom</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">- </font></font><code>react-router-dom</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">全部导出</font></font><code>react-router</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font><font style="vertical-align: inherit;">GitHub答案上的链接（</font><a href="https://github.com/ReactTraining/react-router/issues/4648" rel="nofollow noreferrer"><font style="vertical-align: inherit;">＆</font></a><a href="https://github.com/ReactTraining/react-router/issues/4648" rel="nofollow noreferrer"><font style="vertical-align: inherit;">？</font></a></font><a href="https://github.com/ReactTraining/react-router/issues/4648" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">之间的区别是</font><font style="vertical-align: inherit;">什么</font></font><code>react-router-dom</code><font style="vertical-align: inherit;"></font><code>react-router</code><font style="vertical-align: inherit;"></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">）。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">TonyPro</span>
@@ -96,9 +90,7 @@ topic: React.js
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在RRv4中，您无需传递浏览器历史记录，仅用于路由器的早期版本。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果您仍然感到困惑，可以在</font><a href="https://github.com/ReactTraining/react-router/tree/master/packages" rel="noreferrer"><font style="vertical-align: inherit;">此处查看</font></a><font style="vertical-align: inherit;">每个包装的详细信息</font></font><a href="https://github.com/ReactTraining/react-router/tree/master/packages" rel="noreferrer"><font style="vertical-align: inherit;"></font></a></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

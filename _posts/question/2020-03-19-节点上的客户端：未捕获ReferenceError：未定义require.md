@@ -28,7 +28,7 @@ topic: Node.js
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如何从</font><font style="vertical-align: inherit;">打开服务器套接字</font></font><code>messages.js</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">的主</font></font><code>client.js</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">文件</font><font style="vertical-align: inherit;">中的</font><font style="vertical-align: inherit;">其他JS文件（如</font><font style="vertical-align: inherit;">）</font><font style="vertical-align: inherit;">调用这些函数</font><font style="vertical-align: inherit;">？</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第2214篇《节点上的客户端：未捕获ReferenceError：未定义require》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第2214篇《节点上的客户端：未捕获ReferenceError：未定义require》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -59,9 +59,7 @@ var utils_1 = require("./utils");<font></font>
 ....<font></font>
 utils_1.Utils.doSomething();<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">老丝米亚</span>
@@ -100,9 +98,7 @@ utils_1.Utils.doSomething();<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">请注意，在搜索选择与之搭配的产品时，您会了解到</font></font><a href="https://github.com/bower/bower" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Bower</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font><font style="vertical-align: inherit;">Bower仅用于程序包依赖关系，并且在CommonJS和AMD等模块定义上不受质疑。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">希望这会有所帮助。 </font></font></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

@@ -17,7 +17,7 @@ topic: JavaScript
     <div class="article-content"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">获取新Date（）实例但将时间设置为午夜的最简单方法是什么？</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第1779篇《将JavaScript日期初始化为午夜的最佳方法是什么？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第1779篇《将JavaScript日期初始化为午夜的最佳方法是什么？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -35,9 +35,7 @@ topic: JavaScript
 d3.timeHour(d) // Wed Aug 02 2017 00:00:00 GMT+0200 (CEST)<font></font>
 d3.timeMonth(d) // Tue Aug 01 2017 00:00:00 GMT+0200 (CEST)<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">乐米亚</span>
@@ -52,9 +50,7 @@ d3.timeMonth(d) // Tue Aug 01 2017 00:00:00 GMT+0200 (CEST)<font></font>
     d.setHours(24,0,0,0); // next midnight day<font></font>
     }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">樱Tony</span>
@@ -66,9 +62,7 @@ d3.timeMonth(d) // Tue Aug 01 2017 00:00:00 GMT+0200 (CEST)<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果您只需要一次该值。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">猪猪Harry泡芙</span>
@@ -81,9 +75,7 @@ d.setHours(0,0,0,0);<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这样会将时间设置</font></font><code>00:00:00.000</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">为</font></font><em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">当前时区</font></font></em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，如果您想使用UTC时间，则可以使用该</font></font><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/setUTCHours" rel="noreferrer"><code>setUTCHours</code></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">方法。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">GOTom</span>
@@ -100,9 +92,7 @@ if(d.getHours() &lt; 12) {<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这使我可以为某个事件设置频率上限，只允许该站点的任何访问者在早上一次和下午一次发生。</font><font style="vertical-align: inherit;">捕获的日期用于设置cookie的过期时间。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">凯梅小胖</span>
@@ -120,9 +110,7 @@ if(d.getHours() &lt; 12) {<font></font>
       value: new Date(new Date().setHours(0, 0, 0, 0)),<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">A小卤蛋</span>
@@ -139,9 +127,7 @@ d.setHours(0,0,0,0); // last midnight<font></font>
 <pre><code>var d = new Date();<font></font>
 d.setHours(24,0,0,0); // next midnight<font></font>
 </code></pre></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

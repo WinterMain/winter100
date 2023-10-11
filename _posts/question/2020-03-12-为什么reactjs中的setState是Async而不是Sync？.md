@@ -28,7 +28,7 @@ topic: JavaScript
 </ol></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第904篇《为什么reactjs中的setState是Async而不是Sync？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第904篇《为什么reactjs中的setState是Async而不是Sync？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -56,9 +56,7 @@ this.setState((prevState, props) =&gt; ({<font></font>
 
 <p><a href="https://medium.com/javascript-scene/setstate-gate-abc10a9b2d82" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">https://medium.com/javascript-scene/setstate-gate-abc10a9b2d82 </font></font></a>
  <a href="https://medium.freecodecamp.org/functional-setstate-is-the-future-of-react-374f30401b6b" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">https://medium.freecodecamp.org/functional-setstate-is-the-future-of-react-374f30401b6b</font></font></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">AL村村</span>
@@ -75,9 +73,7 @@ this.setState((prevState, props) =&gt; ({<font></font>
 </div>
 </div>
 <p></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">伽罗小卤蛋米亚</span>
@@ -95,9 +91,7 @@ this.setState((prevState, props) =&gt; ({<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这是因为</font></font><code>setState</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">更改状态并导致重新渲染。</font><font style="vertical-align: inherit;">这可能是一项昂贵的操作，并且使其同步可能会使浏览器无响应。
 </font></font><br><br><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
 因此，setState调用是异步的也可以是批处理的，以获得更好的UI体验和性能。</font></font></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

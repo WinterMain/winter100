@@ -19,7 +19,7 @@ topic: Node.js
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如何在Python包管理器中实现同一目的</font></font><code>pip</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">？</font><font style="vertical-align: inherit;">我想将软件包名称及其版本保存到，例如，</font></font><code>requirements.pip</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">使用来安装软件包之后</font></font><code>pip install package --save-dev requirements.pip</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第3178篇《pip等同于`npm install package --save-dev`吗？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第3178篇《pip等同于\`npm install package --save-dev\`吗？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -48,9 +48,7 @@ topic: Node.js
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">然后运行</font></font><code>source ~/.profile</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">或</font></font><code>source ~/.bashrc</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">将其导入到当前终端</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">例如，当您要安装和保存程序包时，只需运行即可</font></font><code>pips requests</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font><font style="vertical-align: inherit;">安装软件包后，其版本将保存到</font></font><code>requirements.txt</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">您的当前目录中。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Gil伽罗小宇宙</span>
@@ -73,9 +71,7 @@ install:<font></font>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">然后运行 </font></font><code>make install</code>
 <br></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">null</span>
@@ -83,9 +79,7 @@ install:<font></font>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我正在使用此小命令行来安装软件包并将其版本保存在</font></font><code>requirements.txt</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">： 
 </font></font><code>pkg=package &amp;&amp; pip install $pkg &amp;&amp; echo $(pip freeze | grep -i $pkg) &gt;&gt; requirements.txt</code></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小胖樱</span>
@@ -104,9 +98,7 @@ install:<font></font>
 </blockquote>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">A </font></font><code>Pipfile</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">直接等于</font></font><code>package.json</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，而</font></font><code>Pipfile.lock</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">对应于</font></font><code>package-lock.json</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">老丝阿飞</span>
@@ -128,9 +120,7 @@ install:<font></font>
 
 <pre><code>pip-install-save some-package
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小小</span>
@@ -165,9 +155,7 @@ install:<font></font>
 <h2><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">包括开发依赖</font></font></h2>
 
 <p><code>pipm install --dev</code></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Near村村</span>
@@ -182,9 +170,7 @@ install:<font></font>
  </font></font><a href="https://github.com/abhiomkar/pip-save" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">//github.com/abhiomkar/pip-save</font></font></a></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">希望这可以帮助。</font></font></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

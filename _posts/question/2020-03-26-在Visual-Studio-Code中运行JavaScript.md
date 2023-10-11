@@ -28,7 +28,7 @@ topic: Node.js
 <p><a href="https://code.visualstudio.com/"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Visual Studio程式码</font></font></a></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第3786篇《在Visual Studio Code中运行JavaScript》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第3786篇《在Visual Studio Code中运行JavaScript》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -76,9 +76,7 @@ topic: Node.js
     ]<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Tony樱</span>
@@ -113,9 +111,7 @@ topic: Node.js
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这将在“命令面板”中打开“运行”，但是您仍然必须使用鼠标键入或选择要运行的任务，在本例中为节点。</font><font style="vertical-align: inherit;">第二个快捷方式用于切换输出面板，它已经有一个快捷方式，但是这些键彼此相邻且易于使用。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">null</span>
@@ -128,9 +124,7 @@ topic: Node.js
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">您可以将</font></font><em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">命令pallete</font></font></em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">命令</font><font style="vertical-align: inherit;">绑定</font><font style="vertical-align: inherit;">到所需的任何键。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">PS：</font></font><code>node</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">应该已安装并在您的路径中</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">斯丁</span>
@@ -142,9 +136,7 @@ topic: Node.js
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在vs代码终端上。  </font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">DavaidTony宝儿</span>
@@ -162,18 +154,14 @@ topic: Node.js
 8) Click "Open" and you can just see cmd flashing<font></font>
 9) Restart vscode and open the file -&gt; Terminal Menu -&gt; "Run active file".<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">凯西里</span>
             <span class="discuss-time">2020.03.26</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">另一个选择是使用Visual Studio Code中的开发人员工具控制台。</font><font style="vertical-align: inherit;">只需从帮助菜单中选择“切换开发者工具”，然后在弹出的开发者工具中选择“控制台”选项卡。</font><font style="vertical-align: inherit;">从那里，您将获得与Chrome中相同的开发工具REPL。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Eva西里蛋蛋</span>
@@ -187,9 +175,7 @@ topic: Node.js
 </ol>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">此外，您可以选择部分JavaScript代码并运行代码段。</font><font style="vertical-align: inherit;">该扩展名还可以与未保存的文件一起使用，因此您只需创建一个文件，将其更改为Javascript并快速编写代码即可（对于只需要快速尝试的情况）。</font><font style="vertical-align: inherit;">很方便！</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Gil伽罗小宇宙</span>
@@ -209,9 +195,7 @@ topic: Node.js
 <p><a href="https://i.stack.imgur.com/qHCLQ.png" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">开始调试的屏幕截图</font></font></a></p>
 
 <p><a href="https://i.stack.imgur.com/WOUMS.png" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">终端中js代码输出的屏幕截图</font></font></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">番长</span>
@@ -219,9 +203,7 @@ topic: Node.js
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我建议您使用一个名为Quokka的简单插件，该插件在当今非常流行，可以帮助您随时随地调试代码。
 </font></font><a href="https://marketplace.visualstudio.com/items?itemName=WallabyJs.quokka-vscode" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Quokka.js</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font><font style="vertical-align: inherit;">使用此插件的最大优势在于，您可以节省大量时间在Web浏览器上评估代码，借助此插件，您可以看到VS代码中发生的所有事情，从而节省了很多时间。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Itachi</span>
@@ -264,9 +246,7 @@ topic: Node.js
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这是因为它将在VSC调试器中启动您当前正在使用的任何文件。</font><font style="vertical-align: inherit;">它设置为在启动时停止。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">要启动它，请在要调试的文件中按F5键。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">老丝阿飞</span>
@@ -316,9 +296,7 @@ topic: Node.js
     ]<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">樱卡卡西</span>
@@ -342,18 +320,14 @@ topic: Node.js
 <p><em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">希望这会帮助你。</font></font></em> </p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">当然，您的问题对我有帮助，因为我也来这里获得帮助，可以</font></font><strong><code>JS</code></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在我的</font><strong><font style="vertical-align: inherit;">VS CODE中</font></strong><font style="vertical-align: inherit;">运行</font></font><strong><font style="vertical-align: inherit;"></font></strong></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">蛋蛋西里</span>
             <span class="discuss-time">2020.03.26</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">无需设置在Visual Studio代码中的javascript，python等上运行代码的环境，您要做的就是安装Code Runner Extension，然后选择要运行的部分代码并点击右上角显示运行按钮。 </font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">老丝阿飞</span>
@@ -364,9 +338,7 @@ topic: Node.js
 <p><a href="https://marketplace.visualstudio.com/items?itemName=miramac.vscode-exec-node" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">https://marketplace.visualstudio.com/items?itemName=miramac.vscode-exec-node</font></font></a></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">只需进行一些配置，您就可以添加Babel来进行即时转译。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">老丝阿飞</span>
@@ -446,9 +418,7 @@ topic: Node.js
     "command": "workbench.action.tasks.test"<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Itachi</span>
@@ -459,9 +429,7 @@ topic: Node.js
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">只需</font></font><code>.js</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在VS Code中</font><font style="vertical-align: inherit;">打开有</font><font style="vertical-align: inherit;">问题</font><font style="vertical-align: inherit;">的</font><font style="vertical-align: inherit;">文件，切换到“调试控制台”选项卡，单击左侧导航栏中的调试按钮，然后单击运行图标（播放按钮）即可！</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">需要安装nodejs！</font></font></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

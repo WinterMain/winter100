@@ -67,7 +67,7 @@ new Vue({<font></font>
 <p><strong><em>Update</em></strong>: I specifically want a solution which doesn't include adding the rather heavy Font Awesome <code>all.css</code> file (<code>&lt;link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet"&gt;</code>) - instead importing on an icon by icon need. (the overall weight of the minified all.css file is 52kb in <code>v.5.2.0</code>.</p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第2408篇《具有Vuetify的FontAwesome-如何在v-icon组件中包含Font Awesome图标》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第2408篇《具有Vuetify的FontAwesome-如何在v-icon组件中包含Font Awesome图标》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}

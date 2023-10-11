@@ -65,7 +65,7 @@ topic: Vue.js
 我将非常感谢您提供的任何帮助！</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第970篇《使用vue-router登录后重定向到请求的页面》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第970篇《使用vue-router登录后重定向到请求的页面》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -87,9 +87,7 @@ this.$auth<font></font>
     fetchUser: true<font></font>
   })<font></font>
 </code></pre></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

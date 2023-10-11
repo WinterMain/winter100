@@ -49,7 +49,7 @@ topic: Ckeditor
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">任何建议..摆脱这个问题..</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第4276篇《jQuery验证不适用于ckeditor》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第4276篇《jQuery验证不适用于ckeditor》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -67,9 +67,7 @@ topic: Ckeditor
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">该表单仅在提交时验证。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在此提琴上检查示例：</font><a href="http://jsfiddle.net/5RrGa/800/" rel="nofollow"><font style="vertical-align: inherit;">http</font></a><font style="vertical-align: inherit;"> : </font></font><a href="http://jsfiddle.net/5RrGa/800/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">//jsfiddle.net/5RrGa/800/</font></font></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">6的不行</span>
@@ -104,9 +102,7 @@ $(<span class="hljs-string">"#myForm"</span>).validate({
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">有关验证的更多信息，请单击此处</font></font><a href="http://www.dotnetqueries.com/Article/129/validate-ckeditor-using-jquery-form-validation" rel="nofollow noreferrer"><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">http://www.dotnetqueries.com/Article/129/validate-ckeditor-using-jquery-form-validation</font></font></strong></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Me无敌</span>
@@ -165,9 +161,7 @@ $(<span class="hljs-string">"#myForm"</span>).validate({
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">当我在</font><a href="https://stackoverflow.com/questions/20763216/ckeditor-data-not-being-validated-by-jquery-validation"><font style="vertical-align: inherit;">这里</font></a><font style="vertical-align: inherit;">找到这个答案</font></font><a href="https://stackoverflow.com/questions/20763216/ckeditor-data-not-being-validated-by-jquery-validation"><font style="vertical-align: inherit;"></font></a></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">谢谢大家...</font></font></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

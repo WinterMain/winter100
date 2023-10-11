@@ -19,7 +19,7 @@ topic: Vue.js
 <p><a href="https://www.samyoc.com//uploads/users/13402/images/thumbnails/1584008368269.png" data-src="https://www.samyoc.com//uploads/users/13402/images/1584008368269.png" rel="noreferrer"><img src="https://i.stack.imgur.com/xvnLa.png" alt="在此处输入图片说明"></a></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第1268篇《如何为VueJs Props添加多种数据类型？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第1268篇《如何为VueJs Props添加多种数据类型？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -35,9 +35,7 @@ topic: Vue.js
    value: [Number, String, Array]<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

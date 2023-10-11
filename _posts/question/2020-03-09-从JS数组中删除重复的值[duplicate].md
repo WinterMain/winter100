@@ -49,7 +49,7 @@ topic: JavaScript
 </ul></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第286篇《从JS数组中删除重复的值[duplicate]》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第286篇《从JS数组中删除重复的值\[duplicate\]》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -81,9 +81,7 @@ console.log(remove_duplicates(Array(1,1,1,2,2,2,3,3,3)));<font></font>
 <p>Loop through, remove duplicates, and create a clone array place holder because the array index will not be updated.</p>
 
 <p>Loop backward for better performance ( your loop wont need to keep checking the length of your array) </p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小哥Stafan</span>
@@ -101,9 +99,7 @@ console.log(remove_duplicates(Array(1,1,1,2,2,2,3,3,3)));<font></font>
 </code></pre>
 
 <p><a href="https://github.com/mbostock/d3/wiki/Arrays#set_values" rel="nofollow">https://github.com/mbostock/d3/wiki/Arrays#set_values</a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">路易达蒙</span>
@@ -155,9 +151,7 @@ console.log(remove_duplicates(Array(1,1,1,2,2,2,3,3,3)));<font></font>
     alert(finalarray);<font></font>
 });<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">阳光乐</span>
@@ -239,9 +233,7 @@ console.log( uniqueBy(seqCI) (ys) );</code></pre>
 <h2><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">内存消耗和垃圾回收</font></font></h2>
 
 <p><code>uniqueBy</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">利用</font></font><code>push(x) (acc)</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">隐藏在其体内的</font><font style="vertical-align: inherit;">突变（</font><font style="vertical-align: inherit;">）。</font><font style="vertical-align: inherit;">它重复使用累加器，而不是在每次迭代后将其丢弃。</font><font style="vertical-align: inherit;">这样可以减少内存消耗和GC压力。</font><font style="vertical-align: inherit;">由于此副作用包含在函数内部，因此外部的所有内容都保持纯净。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">GreenGil</span>
@@ -255,9 +247,7 @@ console.log( uniqueBy(seqCI) (ys) );</code></pre>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">一个警告：在IE9中添加了Array.lastIndexOf（），因此，如果您需要降低此值，则需要查找其他地方。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">卡卡西乐逆天</span>
@@ -269,9 +259,7 @@ console.log( uniqueBy(seqCI) (ys) );</code></pre>
     }<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Mandy古一</span>
@@ -297,9 +285,7 @@ function unique(array){<font></font>
 <font></font>
 //*result* peoplenames == ["Mike","Matt","Nancy","Adam","Jenny","Carl"]<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">村村A</span>
@@ -322,9 +308,7 @@ b = a.filter((val,i)=&gt;{<font></font>
 })                        <font></font>
 // b = [11, 22]<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">阿飞宝儿猴子</span>
@@ -344,9 +328,7 @@ console.log("\n Unique name list:"+get_uniq.length, get_uniq)</code></pre>
 <p></p>
 
 <p><a href="https://i.stack.imgur.com/PbJoQ.png" rel="noreferrer"><img src="https://i.stack.imgur.com/PbJoQ.png" alt="在此处输入图片说明"></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小胖泡芙</span>
@@ -365,9 +347,7 @@ return r;<font></font>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我的测试案例比较：</font><a href="http://jsperf.com/remove-duplicate-array-tests" rel="nofollow noreferrer"><font style="vertical-align: inherit;">http</font></a><font style="vertical-align: inherit;"> :
  </font></font><a href="http://jsperf.com/remove-duplicate-array-tests" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">//jsperf.com/remove-duplicate-array-tests</font></font></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">西里Near</span>
@@ -378,9 +358,7 @@ return r;<font></font>
 <pre><code>var names = ["Mike","Matt","Nancy","Adam","Jenny","Nancy","Carl"],<font></font>
     unique = [...new Set(names)];<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小宇宙猪猪</span>
@@ -397,9 +375,7 @@ var uniqueNames = [];<font></font>
         }<font></font>
     }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">梅JinJin十三</span>
@@ -467,9 +443,7 @@ console.timeEnd("unique2");</code></pre>
 </div>
 </div>
 <p></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">猪猪Jim</span>
@@ -483,9 +457,7 @@ console.timeEnd("unique2");</code></pre>
 </code></pre>
 
 <p><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Set" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Set</font></font></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小胖Gil</span>
@@ -499,9 +471,7 @@ console.timeEnd("unique2");</code></pre>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">现在uniqueArray不包含重复项。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小宇宙老丝</span>
@@ -543,9 +513,7 @@ console.timeEnd("unique2");</code></pre>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">实现是如此简单，不再需要定义功能。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">樱十三</span>
@@ -572,9 +540,7 @@ console.timeEnd("unique2");</code></pre>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">干杯！</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">阿飞小小</span>
@@ -605,9 +571,7 @@ alert(_.uniq(names, false));<font></font>
 </code></pre>
 
 <p><em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">注意：</font></font><a href="http://lodash.com"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Lo-Dash</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">（</font></font><a href="http://underscorejs.org/"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">下划线</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">竞争对手）还提供了类似的</font></font><a href="http://lodash.com/docs#uniq"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">.uniq</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">实现。</font></font></em></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Davaid阳光</span>
@@ -619,9 +583,7 @@ alert(_.uniq(names, false));<font></font>
     return array.indexOf (value) == index;<font></font>
 });<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Near小哥Green</span>
@@ -637,9 +599,7 @@ a.filter(function(value, index){ return a.indexOf(value) == index });<font></fon
 
 <pre><code>a.filter((v,i) =&gt; a.indexOf(v) == i)
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">卡卡西乐逆天</span>
@@ -707,9 +667,7 @@ d = remove_duplicates_es6(a);<font></font>
 // d:<font></font>
 // ["Mike", "Matt", "Nancy", "Adam", "Jenny", "Carl"]<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">飞云西门Near</span>
@@ -723,9 +681,7 @@ $.each(names, function(i, el){<font></font>
     if($.inArray(el, uniqueNames) === -1) uniqueNames.push(el);<font></font>
 });<font></font>
 </code></pre></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

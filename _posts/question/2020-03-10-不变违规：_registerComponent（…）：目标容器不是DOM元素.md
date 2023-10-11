@@ -50,7 +50,7 @@ React.renderComponent(&lt;App /&gt;, document.body);<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这是什么意思？</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第392篇《不变违规：_registerComponent（…）：目标容器不是DOM元素》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第392篇《不变违规：_registerComponent（…）：目标容器不是DOM元素》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -61,9 +61,7 @@ React.renderComponent(&lt;App /&gt;, document.body);<font></font>
             <span class="discuss-time">2020.03.10</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我遇到类似/相同的错误消息。</font><font style="vertical-align: inherit;">就我而言，我没有用于定义ReactJS组件的目标DOM节点。</font><font style="vertical-align: inherit;">确保使用适当的“ id”或“ name”以及其他HTML属性（适合您的设计需求）很好地定义了HTML目标节点。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">古一</span>
@@ -72,18 +70,14 @@ React.renderComponent(&lt;App /&gt;, document.body);<font></font>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">对于使用ReactJS.Net并在发布后出现此错误的用户：</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">检查.jsx文件的属性，并确保</font></font><code>Build Action</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">将其设置为</font></font><code>Content</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font><font style="vertical-align: inherit;">设置为的那些</font></font><code>None</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">将不会被发布。</font><font style="vertical-align: inherit;">我从</font></font><a href="https://stackoverflow.com/a/38002636/5793033"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这个SO答案中</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">得到了这个解决方案</font><font style="vertical-align: inherit;">。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小卤蛋Stafan</span>
             <span class="discuss-time">2020.03.10</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">以我为例，此错误是由热重载引起的，同时引入了新类。</font><font style="vertical-align: inherit;">在项目的那个阶段，请使用普通的观察者来编译您的代码。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">逆天古一</span>
@@ -100,9 +94,7 @@ React.renderComponent(&lt;App /&gt;, document.body);<font></font>
 
 <pre><code>&lt;body onload="initReact()"&gt;...&lt;/body&gt;
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">TomGreen</span>
@@ -119,9 +111,7 @@ React.renderComponent(&lt;App /&gt;, document.body);<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">对我来说，它奏效了！</font><font style="vertical-align: inherit;">:-)</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">LEYJim</span>
@@ -166,9 +156,7 @@ React.renderComponent(&lt;App /&gt;, document.body);<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">还有更多选项可以检查</font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">DOM</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">是否准备就绪，但是简单的答案是</font><font style="vertical-align: inherit;">在确保</font><font style="vertical-align: inherit;">在每种情况下</font><strong><font style="vertical-align: inherit;">DOM准备就绪</font></strong><font style="vertical-align: inherit;">之前都</font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">不要</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">运行任何脚本</font><font style="vertical-align: inherit;">...</font></font><strong><font style="vertical-align: inherit;"></font></strong><font style="vertical-align: inherit;"></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">JavaScript正在与</font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">DOM</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">元素</font><font style="vertical-align: inherit;">一起使用</font><font style="vertical-align: inherit;">，如果它们不可用，则将返回</font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">null</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，可能会破坏整个应用程序...因此，请始终确保在运行JavaScript之前已准备就绪...</font></font></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

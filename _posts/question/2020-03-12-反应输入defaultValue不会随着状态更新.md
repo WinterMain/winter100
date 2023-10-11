@@ -87,7 +87,7 @@ AWAY_MESSAGE Object {id: 1, company_id: 1, text: "Sample Text", master_toggle: f
 </code></pre></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第1211篇《反应输入defaultValue不会随着状态更新》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第1211篇《反应输入defaultValue不会随着状态更新》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}

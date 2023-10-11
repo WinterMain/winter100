@@ -17,7 +17,7 @@ topic: JavaScript
     <div class="article-content"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如何确定变量是字符串还是JavaScript中的其他内容？</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第241篇《检查变量是否为JavaScript中的字符串》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第241篇《检查变量是否为JavaScript中的字符串》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -69,9 +69,7 @@ var obj = {<font></font>
 <font></font>
 isString(obj) //should be false, but true<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">蛋蛋猿</span>
@@ -208,9 +206,7 @@ test(x =&gt; x + 1)    // assertion failed</code></pre>
 
 <pre><code>Function(x) === x // always false
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">西里A</span>
@@ -226,9 +222,7 @@ test(x =&gt; x + 1)    // assertion failed</code></pre>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">通过串联空引号，它将值转换为字符串。</font><font style="vertical-align: inherit;">如果</font></font><code>myVar</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">已经是一个字符串，则if语句成功。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">理查德十三Davaid</span>
@@ -246,9 +240,7 @@ console.log(isString(a))<font></font>
 console.log(isString(b))<font></font>
 console.log(isString(c))<font></font>
 </code></pre></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

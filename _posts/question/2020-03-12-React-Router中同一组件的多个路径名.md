@@ -31,7 +31,7 @@ topic: JavaScript
 </code></pre></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第1123篇《React Router中同一组件的多个路径名》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第1123篇《React Router中同一组件的多个路径名》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -44,9 +44,7 @@ topic: JavaScript
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">根据React Router docs，属性类型“ path”的类型为字符串。因此，您无法将数组作为属性传递给路由组件。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果您只想更改路线，则可以将同一组件用于不同的路线，这没有问题</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">达蒙Jim斯丁</span>
@@ -66,9 +64,7 @@ topic: JavaScript
 <p><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">编辑</font></font></strong></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">您也可以</font></font><a href="https://reacttraining.com/react-router/web/api/Route/path-string" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在react-router v4中</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">使用正则表达式作为路径</font><a href="https://reacttraining.com/react-router/web/api/Route/path-string" rel="noreferrer"><font style="vertical-align: inherit;">，</font></a><font style="vertical-align: inherit;">只要</font></font><a href="https://www.npmjs.com/package/path-to-regexp" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">path-to-regexp</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">支持</font><a href="https://www.npmjs.com/package/path-to-regexp" rel="noreferrer"><font style="vertical-align: inherit;">即可</font></a><font style="vertical-align: inherit;">。</font><font style="vertical-align: inherit;">有关更多信息，请参见@Cameron的答案。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">逆天乐</span>
@@ -84,9 +80,7 @@ topic: JavaScript
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">数组中的每个路径都是一个正则表达式字符串。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">可以在</font></font><a href="https://reacttraining.com/react-router/web/api/Route/path-string-string" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这里</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">找到有关此方法的文档</font><font style="vertical-align: inherit;">。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">西里小哥</span>
@@ -106,9 +100,7 @@ topic: JavaScript
   &lt;Route path="/pages/" component={Home} /&gt;<font></font>
 &lt;/Router&gt;<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Tony樱番长</span>
@@ -120,9 +112,7 @@ topic: JavaScript
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">很显然，您需要在顶部导入Home jsx文件。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">梅十三</span>
@@ -138,9 +128,7 @@ topic: JavaScript
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如您所见，它有点冗长，因此，如果您的</font></font><code>component</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">/ </font></font><code>route</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">像这样简单，则可能不值得。</font></font></p>
 
 <p>And of course if this actually comes up often you could always create a wrapping component that takes in an array <code>paths</code> parameter, which does the regex or <code>.map</code> logic reusably.</p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

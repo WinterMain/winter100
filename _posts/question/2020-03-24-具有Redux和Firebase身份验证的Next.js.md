@@ -23,7 +23,7 @@ topic: React.js
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">谢谢。</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第3294篇《具有Redux和Firebase身份验证的Next.js》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第3294篇《具有Redux和Firebase身份验证的Next.js》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -36,9 +36,7 @@ topic: React.js
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">使用下面的示例，您可以在firebase.auth（）。onAuthStateChanged期间调度一些操作，以使用新的用户信息刷新您的redux存储</font></font></p>
 
 <p><a href="https://github.com/zeit/next.js/tree/canary/examples/with-firebase-authentication" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">https://github.com/zeit/next.js/tree/canary/examples/with-firebase-authentication</font></font></a></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

@@ -41,7 +41,7 @@ topic: Webpack
 </ol></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第3555篇《如何使用Webpack在js文件而不是html文件中加载CDN或外部供应商javascript lib》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第3555篇《如何使用Webpack在js文件而不是html文件中加载CDN或外部供应商javascript lib》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -54,9 +54,7 @@ topic: Webpack
           <div class="discuss-comment"><p><code>externals</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">不打算让您这样做。</font><font style="vertical-align: inherit;">这意味着“不要将这个资源编译到最终的捆绑包中，因为我会自己将其包括在内”</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">您需要的是脚本加载器实现，例如</font></font><a href="https://github.com/ded/script.js/"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">script.js</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font><font style="vertical-align: inherit;">我还编写了一个简单的应用程序来比较不同的脚本加载器实现：</font></font><a href="https://tomchentw.github.io/xrossref/#ZGVkL3NjcmlwdC5qcywgc3lzdGVtanMvc3lzdGVtanMsIFNsZXhBeHRvbi95ZXBub3BlLmpzLCBnZXRpZnkvTEFCanMsIHdlc3NtYW4vZGVmZXIuanM="><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">link</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">猪猪</span>
@@ -67,9 +65,7 @@ topic: Webpack
 <blockquote>
   <p><code>externals</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">允许您为库指定依赖项，这些依赖项不会被webpack解析，而是成为输出的依赖项。</font><font style="vertical-align: inherit;">这意味着它们是在运行时从环境中导入的。</font></font></p>
 </blockquote></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">宝儿理查德</span>
@@ -79,18 +75,14 @@ topic: Webpack
 
 <pre><code>$("body").append($("&lt;script src="https://forio.com/tools/js-libs/1.5.0/epicenter.min.js"&gt;&lt;/script&gt;"))
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">宝儿理查德</span>
             <span class="discuss-time">2020.03.24</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">肯定有一个html文件可用于附加了js捆绑包的用户。</font><font style="vertical-align: inherit;">可能您可以将script标签附加到该html文件中</font></font></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

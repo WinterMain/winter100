@@ -17,7 +17,7 @@ topic: HTML
     <div class="article-content"><p><font style="vertical-align: inherit;"></font><code>&lt;img&gt;</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">万一</font></font><code>src</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">属性无效（仅使用HTML）</font><font style="vertical-align: inherit;">，</font><font style="vertical-align: inherit;">有什么方法可以在HTML </font><font style="vertical-align: inherit;">标签中</font><font style="vertical-align: inherit;">呈现默认图像</font><font style="vertical-align: inherit;">？</font><font style="vertical-align: inherit;">如果没有，那么解决该问题的轻巧方式是什么？</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第3887篇《如果html <img>的src属性无效，是否输入默认图像？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第3887篇《如果html <img>的src属性无效，是否输入默认图像？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -50,9 +50,7 @@ topic: HTML
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我觉得这是处理许多后备图像的一种非常轻巧的方法。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">伽罗理查德</span>
@@ -67,9 +65,7 @@ topic: HTML
 
 <pre><code>&lt;img src="img/Refresh.png" alt="Refresh" height="50" width="50"&gt;
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">蛋蛋L卡卡西</span>
@@ -82,9 +78,7 @@ topic: HTML
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">它可能是题外话，但它解决了我自己的问题，也可能对其他人有帮助。 </font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">神乐</span>
@@ -106,9 +100,7 @@ topic: HTML
     }<font></font>
 });<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">猪猪</span>
@@ -162,9 +154,7 @@ And is displaying the placeholder</code></pre>
 </div>
 </div>
 <p></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Gil伽罗小宇宙</span>
@@ -178,9 +168,7 @@ And is displaying the placeholder</code></pre>
 <p></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">使用可添加多个图像的背景图像。</font><font style="vertical-align: inherit;">我的情况是：image1是主图像，它将从某个位置（浏览器执行请求）获得。image2是在加载image1时显示的默认本地图像。</font><font style="vertical-align: inherit;">如果image1返回任何类型的错误，则用户将看不到任何更改，这对于用户体验将是干净的</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Mandy前端</span>
@@ -218,9 +206,7 @@ And is displaying the placeholder</code></pre>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">由于第一个图像不存在，因此将显示后备（此网站上使用的sprites *）。</font><font style="vertical-align: inherit;">如果您使用的是</font></font><em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">真正</font></font></em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">的老的浏览器不支持</font></font><a href="http://htmlhelp.com/reference/html40/special/object.html" rel="noreferrer"><code>object</code></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，它会忽略该标签和使用</font></font><code>img</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">标签。</font><font style="vertical-align: inherit;">有关</font><font style="vertical-align: inherit;">兼容性，</font><font style="vertical-align: inherit;">请参见</font></font><a href="https://caniuse.com/#search=%3Cobject%3E" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">caniuse</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">网站。</font><font style="vertical-align: inherit;">截至2018年，ie6 +的所有浏览器均广泛支持此元素。</font></font></p>
 
 <p><em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">*除非再次更改图片的网址，否则您可能会看到替代文字。</font></font></em></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

@@ -17,7 +17,7 @@ topic: JavaScript
     <div class="article-content"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">eval函数是一种动态生成代码的强大而简便的方法，那么有哪些警告？</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第1108篇《为什么使用JavaScript eval函数不是一个好主意？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第1108篇《为什么使用JavaScript eval函数不是一个好主意？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -43,9 +43,7 @@ topic: JavaScript
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">与上述代码一样简单的操作会导致少量内存被存储，直到应用程序终止。</font><font style="vertical-align: inherit;">当逃避的脚本是一个巨大的函数并按间隔调用时，情况更糟。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">神奇Jim</span>
@@ -58,18 +56,14 @@ topic: JavaScript
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">*只要您的服务器端点具有对用户提供的值的正确验证和清除，则在客户端javascript中解析和评估的内容无关紧要。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">但是，如果您询问是否适合</font></font><code>eval()</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在PHP中</font><font style="vertical-align: inherit;">使用</font><font style="vertical-align: inherit;">，答案是“ </font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">否”</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，除非您</font><font style="vertical-align: inherit;">将可能传递给eval语句的任何值</font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">列入白名单</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">猿小小</span>
             <span class="discuss-time">2020.03.12</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">除了在执行用户提交的代码时可能出现的安全问题外，大多数时候，还有一种更好的方法，该方法无需每次执行代码都重新解析。</font><font style="vertical-align: inherit;">匿名函数或对象属性可以替代大多数eval用法，并且更加安全，快捷。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">YOC66078158</span>
@@ -88,9 +82,7 @@ topic: JavaScript
 <p><a href="https://github.com/getify/You-Dont-Know-JS/blob/master/scope%20&amp;%20closures/ch2.md#eval" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">https://github.com/getify/You-Dont-Know-JS/blob/master/scope%20&amp;%20closures/ch2.md#eval</font></font></a></p>
 
 <p><a href="https://github.com/getify/You-Dont-Know-JS/blob/master/scope%20&amp;%20closures/ch2.md#performance" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">https://github.com/getify/You-Dont-Know-JS/blob/master/scope%20&amp;%20closures/ch2.md#performance</font></font></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">村村小小十三</span>
@@ -100,9 +92,7 @@ topic: JavaScript
   </font><a href="http://blogs.popart.com/2009/07/javascript-injection-attacks/" rel="nofollow"><font style="vertical-align: inherit;">//blogs.popart.com/2009/07/javascript-injection-attacks/</font></a><font style="vertical-align: inherit;"> 
 如果您正在寻找eval（）的基础知识在这里查看：</font><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/eval" rel="nofollow"><font style="vertical-align: inherit;">https</font></a><font style="vertical-align: inherit;"> : 
  </font></font><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/eval" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">//developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/eval</font></font></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">谷若汐</span>
@@ -114,36 +104,28 @@ topic: JavaScript
 <blockquote>
   <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我并不是说您应该精疲力尽，并开始在任何地方使用eval（）。</font><font style="vertical-align: inherit;">实际上，运行eval（）的好用例很少。</font><font style="vertical-align: inherit;">绝对存在代码清晰度，可调试性和性能方面的问题，这些问题不容忽视。</font><font style="vertical-align: inherit;">但是当您遇到eval（）有意义的情况时，就不用担心使用它。</font><font style="vertical-align: inherit;">尝试先不要使用它，但是当适当使用eval（）时，不要让任何人吓到您认为您的代码更脆弱或更不安全。</font></font></p>
 </blockquote></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">达蒙小胖</span>
             <span class="discuss-time">2020.03.12</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">随着下一代浏览器以某种JavaScript编译器的形式出现，这可能会成为一个更大的问题。</font><font style="vertical-align: inherit;">在这些较新的浏览器上，通过Eval执行的代码可能无法像其他JavaScript一样出色地运行。</font><font style="vertical-align: inherit;">有人应该做一些分析。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">GO前端</span>
             <span class="discuss-time">2020.03.12</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果您希望用户输入一些逻辑函数并求与与或，则JavaScript eval函数非常理想。</font><font style="vertical-align: inherit;">我可以接受两个字符串和</font></font><code>eval(uate) string1 === string2</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，等等。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">神乐宝儿</span>
             <span class="discuss-time">2020.03.12</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这大大降低了您对安全性的信心。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">蛋蛋Tom</span>
@@ -201,9 +183,7 @@ myFunc(1, 2, 3);<font></font>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">防止自动全局变量的另一种方法是将</font></font><code>eval()</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">调用</font><font style="vertical-align: inherit;">包装
  </font><font style="vertical-align: inherit;">到立即函数中。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">理查德小宇宙</span>
@@ -214,9 +194,7 @@ myFunc(1, 2, 3);<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果您的应用程序正在使用</font></font><code>eval()</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">从</font></font><a href="http://en.wikipedia.org/wiki/XMLHttpRequest" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">XMLHttpRequest</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">返回</font><font style="vertical-align: inherit;">到您自己的站点（由受信任的服务器端代码</font><font style="vertical-align: inherit;">创建）的JSON创建对象</font><font style="vertical-align: inherit;">，则可能不是问题。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">无论如何，不​​受信任的客户端JavaScript代码不能做太多事情。</font><font style="vertical-align: inherit;">只要您执行的事情</font></font><code>eval()</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">来自合理的来源，就可以了。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">老丝猿Near</span>
@@ -225,9 +203,7 @@ myFunc(1, 2, 3);<font></font>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我知道这个讨论很古老，但是我真的很喜欢</font><font style="vertical-align: inherit;">Google的</font></font><a href="http://www.youtube.com/watch?feature=player_detailpage&amp;v=6EJ801el-I8#t=1729s" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这种</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">方法，并希望与他人分享这种感觉；）</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">另一件事是，您越了解越多，您就会尝试去理解，最终您只是不相信某事是好是坏，只是因为有人这么说:)这是一部非常鼓舞人心的</font></font><a href="http://www.youtube.com/watch?v=MFtijdklZDo" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">视频</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，帮助我独自思考了更多:)好的做法很好，但是请不要轻率地使用它们:)</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">JinJin神奇宝儿</span>
@@ -236,54 +212,42 @@ myFunc(1, 2, 3);<font></font>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这可能会带来安全风险，执行范围不同，效率很低，因为它会为代码执行创建全新的脚本环境。</font><font style="vertical-align: inherit;">有关更多信息，请参见此处：</font></font><a href="http://userjs.org/help/tutorials/efficient-code#evalevil" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">eval</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">但是，它非常有用，并且适度使用可以增加很多良好的功能。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">路易路易</span>
             <span class="discuss-time">2020.03.12</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">除非您让eval（）动态内容（通过cgi或输入），否则它与页面中所有其他JavaScript一样安全可靠。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">神乐路易</span>
             <span class="discuss-time">2020.03.12</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">除了其他答案外，我认为eval语句无法实现高级最小化。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">DavaidL</span>
             <span class="discuss-time">2020.03.12</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">除非您100％确定要评估的代码来自受信任的来源（通常是您自己的应用程序），否则这是使您的系统遭受跨站点脚本攻击的肯定方式。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">JinJin梅</span>
             <span class="discuss-time">2020.03.12</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">主要是，它很难维护和调试。</font><font style="vertical-align: inherit;">就像一个</font></font><code>goto</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font><font style="vertical-align: inherit;">您可以使用它，但是它使发现问题变得更加困难，并且使以后可能需要进行更改的人员变得更加困难。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">→笑里藏刀↓</span>
             <span class="discuss-time">2020.03.12</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我相信这是因为它可以从字符串执行任何JavaScript函数。</font><font style="vertical-align: inherit;">使用它可以使人们更容易地将恶意代码注入应用程序。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Pro乐</span>
@@ -295,27 +259,21 @@ myFunc(1, 2, 3);<font></font>
 <li><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">安全性（但是，只要您生成要自己评估的字符串，就可能不是问题）</font></font></p></li>
 <li><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">性能：除非要执行的代码未知，否则无法对其进行优化。</font><font style="vertical-align: inherit;">（关于javascript和性能，当然是</font></font><a href="http://steve-yegge.blogspot.com/2008/05/dynamic-languages-strike-back.html" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Steve Yegge的介绍</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">）</font></font></p></li>
 </ol></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">ProTony</span>
             <span class="discuss-time">2020.03.12</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果传递有效的用户输入，通常这只是一个问题。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">十三村村蛋蛋</span>
             <span class="discuss-time">2020.03.12</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">将用户输入传递给eval（）会带来安全风险，但是每次调用eval（）都会创建一个新的JavaScript解释器实例。</font><font style="vertical-align: inherit;">这可能是资源浪费。</font></font></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

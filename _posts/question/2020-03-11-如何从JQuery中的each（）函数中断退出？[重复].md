@@ -64,7 +64,7 @@ topic: JavaScript
 </code></pre></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第820篇《如何从JQuery中的each（）函数中断/退出？[重复]》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第820篇《如何从JQuery中的each（）函数中断/退出？\[重复\]》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -80,9 +80,7 @@ topic: JavaScript
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">看到</font><font style="vertical-align: inherit;">3天前问的</font></font><a href="https://stackoverflow.com/questions/1784780/how-to-break-out-of-jquerys-each-loop"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">类似问题</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">番长千羽</span>
@@ -99,9 +97,7 @@ topic: JavaScript
 | return true; or return; | continue;    |<font></font>
 +-------------------------+--------------+<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">宝儿神无</span>
@@ -121,9 +117,7 @@ topic: JavaScript
 <blockquote>
   <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">从每个函数中返回“ false”将完全停止所有元素的循环（这就像在常规循环中使用“ break”一样）。</font><font style="vertical-align: inherit;">从循环内返回“ true”会跳到下一个迭代（这就像对正常循环使用“ continue”一样）。</font></font></p>
 </blockquote></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">null</span>
@@ -137,9 +131,7 @@ topic: JavaScript
         return false;<font></font>
 });<font></font>
 </code></pre></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

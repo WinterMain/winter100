@@ -32,7 +32,7 @@ topic: CSS
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">从我的角度来看</font></font><code>compilerconfig.json</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，一切正常，这意味着可能与autoprefixer有关。</font><font style="vertical-align: inherit;">另外，我手动将软件包版本更改为最新版本，</font></font><code>package.json</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">然后重新安装，但没有运气。</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第2224篇《浏览器列表：caniuse-lite已过时。请运行下一个命令`npm update caniuse-lite browserslist`。》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第2224篇《浏览器列表：caniuse-lite已过时。请运行下一个命令\`npm update caniuse-lite browserslist\`。》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -62,9 +62,7 @@ topic: CSS
 
 <pre><code>npm uninstall -g &lt;package-name&gt;
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">前端小胖JinJin</span>
@@ -127,9 +125,7 @@ topic: CSS
 <font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">飞云Green</span>
@@ -140,9 +136,7 @@ topic: CSS
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">编辑</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我发生此错误是因为我使用的是节点版本12。当我降级到版本10.16.5时，此错误停止。</font><font style="vertical-align: inherit;">此错误发生在我的本地环境中，但是在生产和暂存中却没有发生。</font><font style="vertical-align: inherit;">在prod和暂存节点中，版本为10.x，因此我只需执行此操作，而无需更新package.json中的任何软件包。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">逆天小胖</span>
@@ -151,9 +145,7 @@ topic: CSS
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">就我而言，这很好...</font></font></p>
 
 <p><code>sudo npm i -g browserslist caniuse-lite</code></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Harry逆天</span>
@@ -167,18 +159,14 @@ topic: CSS
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">工作正常。 </font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">JinJin宝儿</span>
             <span class="discuss-time">2020.03.19</span>
           </div>
           <div class="discuss-comment"><p><code>npm --depth 9999 update</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">为我解决了这个问题-显然是因为</font></font><code>package-lock.json</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">坚持使用过时的版本。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小宇宙达蒙</span>
@@ -224,9 +212,7 @@ topic: CSS
 <ol start="4">
 <li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">将项目重新加载到解决方案中。</font></font></li>
 </ol></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Itachi蛋蛋</span>
@@ -237,9 +223,7 @@ topic: CSS
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">与@MehrdadBabaki具有相同的“插件错误”。</font><font style="vertical-align: inherit;">我卸载了Web编译器，删除了上面提到的AppData WebCompiler文件夹，然后重新打开VS2019并重新安装了Web编译器。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">然后我再次转到WebCompiler文件夹，</font></font><code>npm i autoprefixer@latest</code> <code>npm i caniuse-lite@latest</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">然后执行</font></font><code>npm i caniuse-lite browserslist@latest</code></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">西里小哥</span>
@@ -248,9 +232,7 @@ topic: CSS
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我发现了一条捷径，而不是经历了一步</font></font><code>vs code appData/webCompiler</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，我将此</font><font style="vertical-align: inherit;">快捷方式</font><font style="vertical-align: inherit;">添加为</font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">使用此cmd的</font></font></strong> <font style="vertical-align: inherit;"><font style="vertical-align: inherit;">项目依赖项</font></font><code>npm i caniuse-lite browserslist</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font><font style="vertical-align: inherit;">但是您可以全局安装它，以避免将其添加到每个项目中。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">安装后，您可以将其从项目中删除</font></font><code>package.json</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">并执行</font></font><code>npm i</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">阳光Tony</span>
@@ -269,9 +251,7 @@ topic: CSS
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">运行</font></font><code>ng update @angular/cli</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">将解决此警告。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">干杯!</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">达蒙JinJin路易</span>
@@ -287,9 +267,7 @@ topic: CSS
 <li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">从</font></font><code>node_modules</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">文件夹中</font><font style="vertical-align: inherit;">删除以下文件</font><font style="vertical-align: inherit;">夹：</font></font><code>caniuse-lite</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">并</font></font><code>browserslist</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
 打开CMD（在里面</font></font><code>C:\Users\USERNAME\AppData\Local\Temp\WebCompilerX.X.X</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">）并运行：</font></font><code>npm i caniuse-lite browserslist</code></li>
 </ol></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

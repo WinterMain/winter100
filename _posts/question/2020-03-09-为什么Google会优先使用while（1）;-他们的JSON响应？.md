@@ -37,7 +37,7 @@ topic: JavaScript
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这里发生了什么？</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第151篇《为什么Google会优先使用while（1）; 他们的JSON响应？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第151篇《为什么Google会优先使用while（1）; 他们的JSON响应？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -52,9 +52,7 @@ topic: JavaScript
 </blockquote>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">参考：</font></font><a href="https://books.google.co.nz/books?id=VmrSJ3V-s_MC&amp;lpg=PA214&amp;ots=cXaR_XGXSH&amp;dq=google%20while(1)&amp;pg=PA214#v=onepage&amp;q=google%20while(1)&amp;f=false" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Web安全测试手册：快速发现问题的系统技术</font></font></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">前端Tom</span>
@@ -67,18 +65,14 @@ topic: JavaScript
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">它防止将其用作简单</font></font><code>&lt;script&gt;</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">标签</font><font style="vertical-align: inherit;">的目标</font><font style="vertical-align: inherit;">。</font><font style="vertical-align: inherit;">（好吧，这并不能阻止它，但是它使它不愉快。）那样，坏蛋就不能只将脚本标记放在自己的站点中，而是依靠活动会话来获取内容。</font></font></p>
 
 <p><em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">编辑</font></font></em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> -注意评论（和其他答案）。</font><font style="vertical-align: inherit;">这个问题与颠覆的内置功能有关，特别是</font></font><code>Object</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">和</font></font><code>Array</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">构造函数。</font><font style="vertical-align: inherit;">可以对其进行更改，以使否则当解析时使用无害的JSON可能会触发攻击者代码。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">米亚小小神乐</span>
             <span class="discuss-time">2020.03.09</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这将使第三方很难将带有</font></font><code>&lt;script&gt;</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">标记</font><font style="vertical-align: inherit;">的JSON响应插入到HTML文档中</font><font style="vertical-align: inherit;">。</font><font style="vertical-align: inherit;">请记住，该</font></font><code>&lt;script&gt;</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">标签不受“ </font></font><a href="http://en.wikipedia.org/wiki/Same_origin_policy" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">相同来源政策”的约束</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">null</span>
@@ -91,18 +85,14 @@ topic: JavaScript
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">的</font></font><code>while(1);</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">或</font></font><code>&amp;&amp;&amp;BLAH&amp;&amp;&amp;</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">防止这样的：在一个AJAX请求</font></font><code>mail.google.com</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">将具有完全访问的文本内容，并且可以去除它扔掉。</font><font style="vertical-align: inherit;">但是，</font></font><code>&lt;script&gt;</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">插入标签会盲目地执行JavaScript，而不进行任何处理，从而导致无限循环或语法错误。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这不能解决</font></font><a href="https://en.wikipedia.org/wiki/Cross-site_request_forgery" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">跨站点请求伪造的问题</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Sam神乐番长</span>
             <span class="discuss-time">2020.03.09</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">由于该</font></font><code>&lt;script&gt;</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">标记不受Web世界中安全性必需的Same Origin Policy的限制，因此将其</font></font><code>while(1)</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">添加到JSON响应后，可以防止在</font></font><code>&lt;script&gt;</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">标记中</font><font style="vertical-align: inherit;">滥用该</font><font style="vertical-align: inherit;">标记。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">JinJinPro</span>
@@ -111,9 +101,7 @@ topic: JavaScript
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这是为了确保其他某些网站无法采取令人讨厌的手段来窃取您的数据。</font><font style="vertical-align: inherit;">例如，通过</font></font><a href="http://ejohn.org/blog/re-securing-json/" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">替换数组构造函数</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，然后通过</font></font><code>&lt;script&gt;</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">标签</font><font style="vertical-align: inherit;">包含此JSON URL </font><font style="vertical-align: inherit;">，恶意的第三方站点可能会从JSON响应中窃取数据。</font><font style="vertical-align: inherit;">通过将a </font></font><code>while(1);</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">放在开头，脚​​本将挂起。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">另一方面，使用XHR和单独的JSON解析器的同一站点请求可以轻松忽略该</font></font><code>while(1);</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">前缀。</font></font></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

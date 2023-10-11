@@ -40,7 +40,7 @@ topic: React.js
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">任何帮助表示赞赏！ </font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第2778篇《NextJs SSR无法识别移动版CSS Media查询》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第2778篇《NextJs SSR无法识别移动版CSS Media查询》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -56,9 +56,7 @@ topic: React.js
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">移至时</font></font><code>SSR</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，职责转移到开发人员来自己添加此位。</font><font style="vertical-align: inherit;">如果没有它，在</font></font><code>@media</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">查询断点</font><font style="vertical-align: inherit;">时您将有一些非常意外的行为</font><font style="vertical-align: inherit;">。</font><font style="vertical-align: inherit;">当您解决您的问题后发现，这已经解决了</font></font><a href="https://github.com/zeit/next.js/issues/5122" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">已经</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

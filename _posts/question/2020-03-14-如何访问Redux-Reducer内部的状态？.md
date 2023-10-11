@@ -71,7 +71,7 @@ export default rootReducer;<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如何访问此字段？</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第1607篇《如何访问Redux Reducer内部的状态？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第1607篇《如何访问Redux Reducer内部的状态？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -82,9 +82,7 @@ export default rootReducer;<font></font>
             <span class="discuss-time">2020.03.14</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在分派动作时，您可以传递参数。</font><font style="vertical-align: inherit;">在这种情况下，您可以传递</font></font><code>accountDetails.stateOfResidenceId</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">给操作，然后将其作为有效负载传递给reducer。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">飞云Tom小宇宙</span>
@@ -101,9 +99,7 @@ const localState2 = getState(reducerB.state2)<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">但是首先考虑是否最好将外部状态作为有效负载传递给操作。   </font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">杨天栾</span>
@@ -112,9 +108,7 @@ const localState2 = getState(reducerB.state2)<font></font>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">您的选择是要么仅使用编写更多逻辑</font></font><code>combineReducers</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，要么在操作中包含更多数据。</font><font style="vertical-align: inherit;">Redux常见问题解答涵盖了以下主题：</font></font><a href="http://redux.js.org/docs/faq/Reducers.html#reducers-share-state" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">http</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> : </font><a href="http://redux.js.org/docs/faq/Reducers.html#reducers-share-state" rel="noreferrer"><font style="vertical-align: inherit;">//redux.js.org/docs/faq/Reducers.html#reducers-share-state</font></a><font style="vertical-align: inherit;">。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">另外，我目前正在针对Redux docs主题为“结构化减速器”的一组新页面进行工作，您可能会有所帮助。</font><font style="vertical-align: inherit;">当前的WIP页面位于</font></font><a href="https://github.com/markerikson/redux/blob/structuring-reducers-page/docs/recipes/StructuringReducers.md" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">https://github.com/markerikson/redux/blob/structuring-reducers-page/docs/recipes/StructuringReducers.md</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">凯理查德</span>
@@ -136,9 +130,7 @@ const localState2 = getState(reducerB.state2)<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">基本上，您可以获得操作所需的所有数据，然后可以将该数据发送到减速器。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">蛋蛋伽罗猿</span>
@@ -171,9 +163,7 @@ const localState2 = getState(reducerB.state2)<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">现在，在您触发动作updateProduct的react组件中，您应该将stateOfResidenceId作为道具，然后可以将其传递给动作创建者。 </font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这听起来有些令人费解，但实际上是有关关注点分离的问题。 </font></font></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

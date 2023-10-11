@@ -30,7 +30,7 @@ topic: CSS
 </code></pre></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第3402篇《如何在Twitter Bootstrap 3中将按钮居中？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第3402篇《如何在Twitter Bootstrap 3中将按钮居中？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -56,9 +56,7 @@ topic: CSS
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">该类</font></font><code>center-block</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">所做的只是告诉元素的auto边距为0，其中auto为左/右边距。</font><font style="vertical-align: inherit;">但是，除非类text-center或css text-align：center; </font><font style="vertical-align: inherit;">是在父对象上设置的，元素不知道要从中进行此自动计算的点，因此不会使自己居中。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在这里查看上面的代码示例：</font><a href="https://jsfiddle.net/Seany84/2j9pxt1z/" rel="noreferrer"><font style="vertical-align: inherit;">https</font></a><font style="vertical-align: inherit;"> : </font></font><a href="https://jsfiddle.net/Seany84/2j9pxt1z/" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">//jsfiddle.net/Seany84/2j9pxt1z/</font></font></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">凯西里</span>
@@ -67,9 +65,7 @@ topic: CSS
           <div class="discuss-comment"><p><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">添加到您的样式：</font></font></strong></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">显示：表；</font><font style="vertical-align: inherit;">保证金：0自动;</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小胖Gil</span>
@@ -96,9 +92,7 @@ topic: CSS
 <p><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">编辑</font></font></strong></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">作为</font></font><em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">BootstrapV4</font></font></em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，</font></font><code>center-block</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">滴入</font></font><a href="https://github.com/twbs/bootstrap/pull/19102" rel="noreferrer" title="＃19102"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">＃19102</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">赞成</font></font><code>m-*-auto</code></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

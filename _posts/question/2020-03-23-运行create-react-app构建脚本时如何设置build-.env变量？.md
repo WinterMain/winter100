@@ -49,7 +49,7 @@ topic: Webpack
 </code></pre></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第3119篇《运行create-react-app构建脚本时如何设置build .env变量？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第3119篇《运行create-react-app构建脚本时如何设置build .env变量？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -70,9 +70,7 @@ topic: Webpack
 <p><strong>EDIT:</strong> I should point out that the environment variables you have set must start with "REACT_APP_", eg. "REACT_APP_MY_ENV_VALUE".</p>
 
 <p><strong>EDIT 2:</strong> if you need more than just development, and production, use <a href="https://github.com/toddbluhm/env-cmd" rel="noreferrer">env-cmd</a>, as specified by <a href="https://github.com/facebook/create-react-app/issues/3903#issuecomment-365096630" rel="noreferrer">this comment</a>.</p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">null</span>
@@ -99,9 +97,7 @@ topic: Webpack
 
 <pre class="lang-sh prettyprint-override"><code>npm run build:stage
 </code></pre></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

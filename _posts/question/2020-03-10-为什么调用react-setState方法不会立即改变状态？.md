@@ -48,7 +48,7 @@ React.render(<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">当我</font></font><code>&lt;input/&gt;</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在浏览器中</font><font style="vertical-align: inherit;">更新</font><font style="vertical-align: inherit;">值时，</font><font style="vertical-align: inherit;">回调</font></font><code>console.log</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">内</font><font style="vertical-align: inherit;">的第二个</font><font style="vertical-align: inherit;">与第一个</font></font><code>handleChange</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">相同</font><font style="vertical-align: inherit;">，为什么</font><font style="vertical-align: inherit;">在</font><font style="vertical-align: inherit;">回调</font><font style="vertical-align: inherit;">范围内</font><font style="vertical-align: inherit;">看不到结果</font><font style="vertical-align: inherit;">？</font></font><code>value</code><font style="vertical-align: inherit;"></font><code>console.log</code><font style="vertical-align: inherit;"></font><code>this.setState({value: event.target.value})</code><font style="vertical-align: inherit;"></font><code>handleChange</code><font style="vertical-align: inherit;"></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第438篇《为什么调用react setState方法不会立即改变状态？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第438篇《为什么调用react setState方法不会立即改变状态？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -80,9 +80,7 @@ goPrevMonth = async () =&gt; {<font></font>
   history.push(`/calendar?year=${this.state.year}&amp;month=${this.state.month}`);<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">飞云神乐</span>
@@ -98,9 +96,7 @@ goPrevMonth = async () =&gt; {<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我工作了几个小时，才发现</font></font><code>getDerivedStateFromProps</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">每次之后都会打电话</font><font style="vertical-align: inherit;">给我</font></font><code>setState()</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">😂</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">SamItachi阿飞</span>
@@ -114,9 +110,7 @@ goPrevMonth = async () =&gt; {<font></font>
     console.log(this.state.value);<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">乐JinJin</span>
@@ -139,9 +133,7 @@ componentDidUpdate(prevProps, prevState) {<font></font>
   }<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Tom凯</span>
@@ -159,9 +151,7 @@ componentDidUpdate(prevProps, prevState) {<font></font>
     console.log(this.state.value);<font></font>
 });<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">L泡芙Jim</span>
@@ -189,9 +179,7 @@ componentDidUpdate(prevProps, prevState) {<font></font>
      console.log(this.state.data);<font></font>
     });<font></font>
 </code></pre></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

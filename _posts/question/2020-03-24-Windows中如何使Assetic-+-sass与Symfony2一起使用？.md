@@ -185,7 +185,7 @@ assetic:<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">由于这种疯狂，我已经拉了好几天了，希望这篇文章对其他人的心理健康有所帮助；）</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第3448篇《Windows中如何使Assetic + sass与Symfony2一起使用？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第3448篇《Windows中如何使Assetic + sass与Symfony2一起使用？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}

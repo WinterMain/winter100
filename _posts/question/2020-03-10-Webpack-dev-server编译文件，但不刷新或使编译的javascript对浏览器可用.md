@@ -60,7 +60,7 @@ topic: JavaScript
 <p>What am I missing?</p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第497篇《Webpack-dev-server编译文件，但不刷新或使编译的javascript对浏览器可用》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第497篇《Webpack-dev-server编译文件，但不刷新或使编译的javascript对浏览器可用》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -71,9 +71,7 @@ topic: JavaScript
             <span class="discuss-time">2020.03.10</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">您的项目树尚不清楚，但是问题可能出在contentBase设置中。</font><font style="vertical-align: inherit;">尝试设置contentBase：__dirname</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">十三西门小小</span>
@@ -89,9 +87,7 @@ topic: JavaScript
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">为了构建一个Typescript项目。</font><font style="vertical-align: inherit;">编译的</font></font><code>.js</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">文件将更新，但浏览器看到的捆绑包不会更新。</font><font style="vertical-align: inherit;">所以我基本上和OP处于同一位置。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我的问题归结为</font></font><code>watchOptions.ignored</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">参数。</font><font style="vertical-align: inherit;">构建配置的原始作者已设置</font></font><code>ignored</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">为过滤器功能，结果证明该参数不是有效值。</font><font style="vertical-align: inherit;">用适当的替换过滤器功能</font></font><code>RegExp</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">使</font></font><code>--watch</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">构建再次为我工作。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Stafan飞云Sam</span>
@@ -106,9 +102,7 @@ topic: JavaScript
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">打开那是我的票。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">前端神无</span>
@@ -134,27 +128,21 @@ topic: JavaScript
   }<font></font>
 };<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">阿飞乐</span>
             <span class="discuss-time">2020.03.10</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">由于</font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">ExtractTextPlugin</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">可能会发生这种情况</font><font style="vertical-align: inherit;">。</font><font style="vertical-align: inherit;">在开发模式下停用ExtractTextPlugin。</font><font style="vertical-align: inherit;">仅将其用于生产构建。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">达蒙十三</span>
             <span class="discuss-time">2020.03.10</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我遇到了同样的问题，我发现除了所有这些要点之外，我们还必须将index.html和输出bundle.js放在同一文件夹中，并将contentBase设置为该文件夹（根目录或子文件夹） 。</font></font></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

@@ -43,7 +43,7 @@ React.renderComponent(&lt;TestApp /&gt;, document.body);<font></font>
 </code></pre></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第948篇《React JS onClick事件处理程序》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第948篇《React JS onClick事件处理程序》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -112,9 +112,7 @@ ReactDOM.render(element, document.getElementById("root"));</code></pre>
 <p></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">@ user544079希望这个演示可以帮助您：)我建议通过切换类名来更改背景颜色。</font></font></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

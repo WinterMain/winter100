@@ -53,7 +53,7 @@ topic: JavaScript
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我不希望在</font></font><code>jQuery</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">和</font><font style="vertical-align: inherit;">之间进行详细的比较</font></font><code>AngularJS</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第143篇《如果我有jQuery背景，那么“ AngularJS中的思考”吗？[关闭]》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第143篇《如果我有jQuery背景，那么“ AngularJS中的思考”吗？\[关闭\]》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -80,9 +80,7 @@ topic: JavaScript
 </ul>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">注意：此列表不完整，也不是“最佳图书馆”；</font><font style="vertical-align: inherit;">它们恰好是我使用的库。</font><font style="vertical-align: inherit;">这些库还包含更多模式，其中提到的只是它们的主要重点或原始意图。</font><font style="vertical-align: inherit;">如果您觉得此列表中缺少某些内容，请在评论中提及它，我们将很高兴添加它。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">老丝阿飞</span>
@@ -97,9 +95,7 @@ topic: JavaScript
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">然后，我决定制作一个很小的代码段，以帮助我使用带有jQuery Selector（使用Sizzle）的AngularJS快速启动网站。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我在这里分享了我的代码：</font><a href="https://github.com/huytd/Sizzular" rel="noreferrer" data-bitapp="processed"><font style="vertical-align: inherit;">https</font></a><font style="vertical-align: inherit;"> : </font></font><a href="https://github.com/huytd/Sizzular" rel="noreferrer" data-bitapp="processed"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">//github.com/huytd/Sizzular</font></font></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">神奇宝儿</span>
@@ -116,18 +112,14 @@ topic: JavaScript
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">还有一件事，那就是指令。</font><font style="vertical-align: inherit;">它是一个属性，可以附加到任何DOM元素，并且可以在其中使用jQuery，而不必担心jQuery与AngularJs组件发生冲突或使其体系结构混乱。</font></font></p>
 
 <p>I heard from a meetup I attended, one of the founders of Angular said they worked really hard to separate out the DOM manipulation so do not try to include them back in. </p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小卤蛋Near小卤蛋</span>
             <span class="discuss-time">2020.03.09</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我发现这个问题很有趣，因为我最先接触JavaScript编程的是</font></font><a href="http://en.wikipedia.org/wiki/Node.js" rel="noreferrer" data-bitapp="processed"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Node.js</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">和AngularJS。</font><font style="vertical-align: inherit;">我从来没有学过jQuery，我想那是一件好事，因为我不必学习任何东西。</font><font style="vertical-align: inherit;">实际上，我积极地避免了针对我的问题的jQuery解决方案，而是仅寻找“ AngularJS方式”来解决它们。</font><font style="vertical-align: inherit;">因此，我想我对这个问题的回答基本上可以归结为“像从未学习过jQuery的人一样思考”，并避免了直接集成jQuery的任何诱惑（显然AngularJS在后台使用了它）。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">神奇猴子</span>
@@ -150,9 +142,7 @@ topic: JavaScript
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">-&gt;对于所有来自jQuery背景的开发人员，我的第一条建议是“在跳入AngularJS之类的丰富框架之前，将JavaScript作为一流的语言来学习！” </font><font style="vertical-align: inherit;">我很难学到上述事实。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">祝好运。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">西里Stafan小哥</span>
@@ -169,9 +159,7 @@ topic: JavaScript
 <li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果需要HTML小部件，请创建一个指令。</font></font></li>
 <li><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果您有一些数据，现在正尝试更新HTML，请停止！</font><font style="vertical-align: inherit;">更新模型，并确保您的HTML已绑定到模型。</font></font></strong></li>
 </ol></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">做个有心人</span>
@@ -210,9 +198,7 @@ topic: JavaScript
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">您可以在已经使用纯jQuery的现有应用程序上使用它。</font><font style="vertical-align: inherit;">但是，如果您想充分利用AngularJS功能，则可以考虑使用</font></font><a href="http://en.wikipedia.org/wiki/Representational_state_transfer#RESTful_web_services" rel="nofollow noreferrer" data-bitapp="processed"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">RESTful</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">方法</font><font style="vertical-align: inherit;">对服务器端进行编码</font><font style="vertical-align: inherit;">。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这样做将允许您利用他们的</font></font><a href="http://docs.angularjs.org/api/ngResource.$resource" rel="nofollow noreferrer" data-bitapp="processed"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">资源工厂</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，这将创建服务器端RESTful </font></font><a href="http://en.wikipedia.org/wiki/Application_programming_interface" rel="nofollow noreferrer" data-bitapp="processed"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">API</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">的抽象，</font><font style="vertical-align: inherit;">并使服务器端调用（获取，保存，删除等）变得异常简单。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小小神无</span>
@@ -247,9 +233,7 @@ topic: JavaScript
 <h2><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">原型继承</font></font></h2>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">您可以在不了解JavaScript原型继承如何工作的情况下使用jQuery做很多事情。</font><font style="vertical-align: inherit;">在开发AngularJS应用程序时，如果您对JavaScript继承有很好的了解，将避免一些常见的陷阱。</font><font style="vertical-align: inherit;">推荐阅读：</font></font><a href="https://stackoverflow.com/questions/14049480/what-are-the-nuances-of-scope-prototypal-prototypical-inheritance-in-angularjs" data-bitapp="processed"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">AngularJS中范围原型/原型继承的细微差别是什么？</font></font></a></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

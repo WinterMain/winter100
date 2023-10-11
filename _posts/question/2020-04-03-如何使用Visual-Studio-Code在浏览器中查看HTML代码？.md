@@ -19,7 +19,7 @@ topic: HTML
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">使用Notepad ++，您可以选择在浏览器中运行。</font><font style="vertical-align: inherit;">如何使用Visual Studio Code做同样的事情？</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第4005篇《如何使用Visual Studio Code在浏览器中查看HTML代码？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第4005篇《如何使用Visual Studio Code在浏览器中查看HTML代码？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -86,9 +86,7 @@ topic: HTML
 <ul>
 <li>You could re-use these variables e.g. in <code>launch.json</code> for debugging purposes: <code>"runtimeExecutable": "${config:chrome.executable}"</code></li>
 </ul></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">JinJinLEY</span>
@@ -117,9 +115,7 @@ topic: HTML
   ]<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">神无</span>
@@ -160,18 +156,14 @@ topic: HTML
 <hr>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">简单。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">番长猴子</span>
             <span class="discuss-time">2020.04.03</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Ctrl + F1将打开默认浏览器。</font><font style="vertical-align: inherit;">或者，您可以按Ctrl + shift + P打开命令窗口，然后选择“在浏览器中查看”。</font><font style="vertical-align: inherit;">html代码必须保存在文件中（编辑器上未保存的代码-无扩展名，不起作用）</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Mandy</span>
@@ -193,9 +185,7 @@ topic: HTML
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">当我在index.html文件中按ctrl shift b时，它只是打开我的资源管理器</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">JinJin</span>
@@ -230,9 +220,7 @@ topic: HTML
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">注意，我没有在args中为edge输入任何内容，因为Edge是我的默认浏览器，只是为其指定了文件名。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">编辑：而且您不需要-incognito或-private-window ...这只是我，我想在一个私人窗口中查看它</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Gil伽罗小宇宙</span>
@@ -253,9 +241,7 @@ topic: HTML
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">想知道为什么vscode能够以降价模式显示html文件时，默认情况下为什么没有HTML查看器选项。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">总之很酷。</font><font style="vertical-align: inherit;">开心的vscoding :)</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Mandy樱</span>
@@ -270,9 +256,7 @@ topic: HTML
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">或者对于您的HTML，</font></font><code>F5</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在打开命令面板后</font><font style="vertical-align: inherit;">，我</font><font style="vertical-align: inherit;">应该打开调试器。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">资料来源：</font></font><a href="https://youtu.be/lEI9mxYpcS8" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">链接</font></font></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">古一</span>
@@ -292,9 +276,7 @@ topic: HTML
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">注意</font></font><strong><em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">“命令”：</font></font></em></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">行</font><font style="vertical-align: inherit;">上的路径格式</font><font style="vertical-align: inherit;">。</font><font style="vertical-align: inherit;">不要使用“ C：\ path_to_exe \ runme.exe”格式。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">要运行此任务，请打开要查看的html文件，按F1，键入</font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Task Opera</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，然后按Enter。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小宇宙LEY</span>
@@ -328,18 +310,14 @@ topic: HTML
 <ol start="4">
 <li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">切换回您的html文件，然后按</font></font><kbd>Command</kbd><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">+ </font></font><kbd>Shift</kbd><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">+ </font></font><kbd>b</kbd><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在Chrome中查看您的页面。</font></font></li>
 </ol></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">神无猿村村</span>
             <span class="discuss-time">2020.04.03</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">一键式解决方案只需安装</font><font style="vertical-align: inherit;">Visual Studio市场</font></font><a href="https://marketplace.visualstudio.com/items?itemName=techer.open-in-browser" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">中的浏览器内</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">扩展。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">飞云</span>
@@ -368,9 +346,7 @@ topic: HTML
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这将执行您想要的操作，例如，如果该应用程序已经打开，则在新标签页中打开。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小小</span>
@@ -390,9 +366,7 @@ topic: HTML
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">就这样................................................ ......</font></font></p></li>
 </ol></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Gil</span>
@@ -470,9 +444,7 @@ editing the package.json file.</li>
 
 <p><em>Originally posted <a href="https://blogs.msdn.microsoft.com/cdndevs/2016/01/24/visual-studio-code-and-local-web-server/" rel="noreferrer">here</a> in <code>msdn</code> blog.
 Credits goes to Author : <code>@Laurent Duveau</code></em></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Tony凯</span>
@@ -513,9 +485,7 @@ Credits goes to Author : <code>@Laurent Duveau</code></em></p></div>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">要在网络服务器上运行：</font></font></p>
 
 <p><a href="https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer</font></font></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">西里Near</span>
@@ -533,9 +503,7 @@ Credits goes to Author : <code>@Laurent Duveau</code></em></p></div>
     "args": ["${file}"]<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">蛋蛋</span>
@@ -552,9 +520,7 @@ Credits goes to Author : <code>@Laurent Duveau</code></em></p></div>
 </ul>
 
 <p><a href="https://i.stack.imgur.com/pOMJG.gif" rel="noreferrer"><img src="https://i.stack.imgur.com/pOMJG.gif" alt="在此处输入图片说明"></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Stafan</span>
@@ -565,9 +531,7 @@ Credits goes to Author : <code>@Laurent Duveau</code></em></p></div>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">vscode版本：1.10.2</font></font></p>
 
 <p><a href="https://i.stack.imgur.com/2gTaO.png" rel="noreferrer"><img src="https://i.stack.imgur.com/2gTaO.png" alt="在此处输入图片说明"></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">阿飞</span>
@@ -601,9 +565,7 @@ Credits goes to Author : <code>@Laurent Duveau</code></em></p></div>
 </ol>
 
 <p><img src="https://i.stack.imgur.com/ahjua.png" alt="在此处输入图片说明"></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">宝儿</span>
@@ -624,9 +586,7 @@ Credits goes to Author : <code>@Laurent Duveau</code></em></p></div>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果您已经打开chrome，它将在新标签页中启动html文件。</font></font></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

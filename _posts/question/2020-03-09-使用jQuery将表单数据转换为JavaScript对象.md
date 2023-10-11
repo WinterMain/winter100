@@ -19,7 +19,7 @@ topic: JavaScript
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我希望有一些方法可以自动从表单中构建JavaScript对象，而不必遍历每个元素。</font><font style="vertical-align: inherit;">我不想要由返回的字符串，</font></font><code>$('#formid').serialize();</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">也不希望由返回的映射</font></font><code>$('#formid').serializeArray();</code></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第244篇《使用jQuery将表单数据转换为JavaScript对象》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第244篇《使用jQuery将表单数据转换为JavaScript对象》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -38,18 +38,14 @@ for (const [key, value] of formData.entries()) {<font></font>
     formDataJSON[key] = value;<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小卤蛋Pro</span>
             <span class="discuss-time">2020.03.09</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我自己将表单编码为多维JavaScript对象，以在生产中使用它。</font><font style="vertical-align: inherit;">结果是</font></font><a href="https://github.com/serbanghita/formToObject.js" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">https://github.com/serbanghita/formToObject.js</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">布雷西</span>
@@ -99,9 +95,7 @@ for (const [key, value] of formData.entries()) {<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">仅在Firefox中测试过。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Pro小卤蛋</span>
@@ -145,18 +139,14 @@ for (const [key, value] of formData.entries()) {<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">请注意：这也可以在表单commit（）之外使用，因此，如果在其余代码中发生错误，则如果您将链接放置在“保存更改”按钮上，则表单将不会提交。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">还要注意，永远不要仅使用此函数来验证表单，以收集要发送到服务器端的数据以进行验证。</font><font style="vertical-align: inherit;">使用此类弱且大量分配的代码将导致</font></font><a href="http://en.wikipedia.org/wiki/Cross-site_scripting" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">XSS</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">等。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小宇宙米亚猿</span>
             <span class="discuss-time">2020.03.09</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">对于jQuery，有一个插件可以做到这一点</font></font><em><a href="https://github.com/marioizquierdo/jquery.serializeJSON" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">jquery.serializeJSON</font></font></a></em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font><font style="vertical-align: inherit;">我现在已经在一些项目上成功使用了它。</font><font style="vertical-align: inherit;">它像一种魅力。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">神无JimEva</span>
@@ -176,9 +166,7 @@ for (const [key, value] of formData.entries()) {<font></font>
 
 <pre><code>&lt;input type="text" name="zooAnimals[0].name" /&gt;
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">JinJin猪猪</span>
@@ -197,9 +185,7 @@ for (const [key, value] of formData.entries()) {<font></font>
 </div>
 </div>
 <p></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Pro逆天猿</span>
@@ -226,9 +212,7 @@ for (const [key, value] of formData.entries()) {<font></font>
     return o;<font></font>
 };<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">HarryL</span>
@@ -243,9 +227,7 @@ values.replace(/([^&amp;]+)=([^&amp;]*)/g, function (match, name, value) {<font>
     attributes[name] = value;<font></font>
 });<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">JimHarry</span>
@@ -265,9 +247,7 @@ values.replace(/([^&amp;]+)=([^&amp;]*)/g, function (match, name, value) {<font>
 
 <pre><code>{"myfield": "myfield value", "passwordfield": "mypasswordvalue"}
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小宇宙猪猪</span>
@@ -280,9 +260,7 @@ var data = JSON.stringify(frm.serializeArray());<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">参见</font></font><em><a href="http://www.json.org/" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">JSON</font></font></a></em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Harry路易</span>
@@ -316,9 +294,7 @@ console.log(obj);<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我喜欢这两种解决方案，因为它们是</font></font><code>$.map()</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">函数的</font><font style="vertical-align: inherit;">简单用法</font><font style="vertical-align: inherit;">，并且您可以完全控制选择器（因此，最终将哪些元素包括在结果对象中）。</font><font style="vertical-align: inherit;">另外，不需要额外的插件。</font><font style="vertical-align: inherit;">普通的旧jQuery。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">十三Jim</span>
@@ -377,9 +353,7 @@ console.log(obj);<font></font>
 <font></font>
   return objectData<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">宝儿Harry</span>
@@ -390,9 +364,7 @@ console.log(obj);<font></font>
 <pre><code>var data = {};<font></font>
 $(".form-selector").serializeArray().map(function(x){data[x.name] = x.value;}); <font></font>
 </code></pre></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

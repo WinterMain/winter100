@@ -101,7 +101,7 @@ topic: CSS
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">有任何想法吗？</font><font style="vertical-align: inherit;">谢谢！</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第2596篇《WordPress中的Sass [关闭]》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第2596篇《WordPress中的Sass \[关闭\]》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -132,18 +132,14 @@ topic: CSS
 
 <p><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">CREDIT TO </font></font><a href="https://stackoverflow.com/users/870729/cale-b"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">cale_b-</font></font></a></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> 
  “您可以创建一个“ custom.scss”文件，该文件供设计人员使用（他们可以使用原始CSS），并且导入了LAST，因此它的样式将覆盖所有其他scss规则”</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Stafan</span>
             <span class="discuss-time">2020.03.23</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我这样做的方法是，我将所有SASS编译到一个main.css文件中，然后通过常规CSS导入将其导入到style.css中。</font></font></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

@@ -19,7 +19,7 @@ topic: JavaScript
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">用JavaScript做到这一点的最佳方法是什么？</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第232篇《在JavaScript中生成随机字符串/字符》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第232篇《在JavaScript中生成随机字符串/字符》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -41,9 +41,7 @@ console.log(randNo);</code></pre>
 <p></p>
 
 <p>I have been using it for 1 month with great results.</p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">卡卡西神奇</span>
@@ -51,9 +49,7 @@ console.log(randNo);</code></pre>
           </div>
           <div class="discuss-comment"><p>How about something like this: <code>Date.now().toString(36)</code>
 Not very random, but short and quite unique every time you call it.</p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Harry逆天</span>
@@ -74,9 +70,7 @@ function randomString() {<font></font>
 }<font></font>
 &lt;/script&gt;<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">老丝飞云</span>
@@ -93,9 +87,7 @@ function randomString() {<font></font>
 <p><code>Math.random().toString(36).substr(2, 5).split('').map(c =&gt; Math.random() &lt; 0.5 ? c.toUpperCase() : c).join('');</code></p>
 
 <p>Change the <code>5</code> in <code>substr(2, 5)</code> to adjust to the length you need.</p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">MandyMandyJim</span>
@@ -107,9 +99,7 @@ function randomString() {<font></font>
 </code></pre>
 
 <p>Lowercase letters, uppercase letters, and numbers will occur.</p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">LEY神乐</span>
@@ -137,9 +127,7 @@ console.log(randomDNA(5));</code></pre>
 </div>
 </div>
 <p></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Stafan神乐</span>
@@ -156,9 +144,7 @@ console.log(randomDNA(5));</code></pre>
 
 <pre><code>new Array(5).join().replace(/(.|$)/g, function(){return ((Math.random()*36)|0).toString(36)[Math.random()&lt;.5?"toString":"toUpperCase"]();});
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">SamGreen</span>
@@ -181,9 +167,7 @@ console.log(randomDNA(5));</code></pre>
 <p>This will generate a random string of 4 or 5 characters, always diferent. Example output is like <code>30jzm</code> or <code>1r591</code> or <code>4su1a</code></p>
 
 <p>In both ways the first part generate a random number. The <code>.toString(36)</code> part cast the number to a base36 (alphadecimal) representation of it. </p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">神无乐</span>
@@ -198,9 +182,7 @@ console.log(randomDNA(5));</code></pre>
 <li>The <code>36</code> is the maximum radix number you can pass to <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number/toString" rel="noreferrer">numeric.toString()</a>, which means <a href="https://en.wikipedia.org/wiki/Base36" rel="noreferrer">all numbers and a-z lowercase letters</a></li>
 <li>The <code>2</code> is used to pick the 3th index from the random string which looks like this: <code>"0.mfbiohx64i"</code>, we could take any index after <code>0.</code></li>
 </ul></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">逆天西里</span>
@@ -223,9 +205,7 @@ console.log(randomstring(5));</code></pre>
 </div>
 </div>
 <p></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Jim小胖米亚</span>
@@ -237,9 +217,7 @@ console.log(randomstring(5));</code></pre>
 
 <pre><code>Math.random().toString(36).substr(2, 5);
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小小Stafan宝儿</span>
@@ -279,9 +257,7 @@ console.log(btoa(+new Date).substr(-7, 5));</code></pre>
 </div>
 </div>
 <p></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">斯丁JimDavaid</span>
@@ -303,9 +279,7 @@ console.log("random", r);</code></pre>
 <li><code>Math.random()</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">根据实现的不同，可能会产生可预测的（“看上去很随机”但不是真正随机的）输出。</font><font style="vertical-align: inherit;">当您需要保证唯一性或不可预测性时，生成的字符串不适合。</font></font></li>
 <li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">即使它产生了6个均匀随机且不可预测的字符，由于</font></font><a href="https://en.wikipedia.org/wiki/Birthday_problem" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">生日悖论</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，您也可以期望仅生成大约50,000个字符串后看到重复项</font><font style="vertical-align: inherit;">。</font><font style="vertical-align: inherit;">（sqrt（36 ^ 6）= 46656）</font></font></li>
 </ul></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

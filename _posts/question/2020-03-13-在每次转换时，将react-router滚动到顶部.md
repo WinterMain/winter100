@@ -17,7 +17,7 @@ topic: JavaScript
     <div class="article-content"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">导航到另一个页面时出现问题，它的位置将像以前的页面一样。</font><font style="vertical-align: inherit;">所以它不会自动滚动到顶部。</font><font style="vertical-align: inherit;">我也尝试</font></font><code>window.scrollTo(0, 0)</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在onChange路由器</font><font style="vertical-align: inherit;">上使用</font><font style="vertical-align: inherit;">。</font><font style="vertical-align: inherit;">我还使用了scrollBehavior来解决此问题，但没有成功。</font><font style="vertical-align: inherit;">有什么建议吗？</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第1524篇《在每次转换时，将react-router滚动到顶部》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第1524篇《在每次转换时，将react-router滚动到顶部》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -32,18 +32,14 @@ topic: JavaScript
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">window.scrollTo（0,0）;</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">渲染（）;</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">梅村村Gil</span>
             <span class="discuss-time">2020.03.13</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我发现这</font></font><code>ReactDOM.findDomNode(this).scrollIntoView()</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">是可行的。</font><font style="vertical-align: inherit;">我把它放在里面</font></font><code>componentDidMount()</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">null</span>
@@ -56,18 +52,14 @@ topic: JavaScript
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在不更改道具且未触发componentDidUpdate（）的情况下，这可能是一个简单的解决方案。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">蛋蛋GO</span>
             <span class="discuss-time">2020.03.13</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">对于具有1-4条路由的小型应用程序，您可以尝试使用#id重定向到顶部的DOM元素，而不是仅通过一条路由来破解它。</font><font style="vertical-align: inherit;">这样就无需将Routes包装在ScrollToTop中或使用生命周期方法。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">乐米亚</span>
@@ -118,9 +110,7 @@ class LongContent extends Component {<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">希望这有助于为更多的滚动恢复VIST有文档野兔</font></font><a href="https://reacttraining.com/react-router/web/guides/scroll-restoration" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">反应路由器DOM滚动恢复</font></font></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小宇宙GO</span>
@@ -140,9 +130,7 @@ class LongContent extends Component {<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">就是这样！</font><font style="vertical-align: inherit;">有效！</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">猿小宇宙小哥</span>
@@ -156,9 +144,7 @@ class LongContent extends Component {<font></font>
     window.scrollTo(0, 0);<font></font>
   }, [props.location]);<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">MandyJinJin</span>
@@ -176,9 +162,7 @@ history.listen(_ =&gt; {<font></font>
 <font></font>
 &lt;Router history={history}&gt;<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">宝儿Pro</span>
@@ -218,9 +202,7 @@ export default withRouter(ScrollToTop)<font></font>
 <p><a href="https://reacttraining.com/react-router/web/guides/scroll-restoration/scroll-to-top" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">^直接从文档复制</font></font></a></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">显然，这适用于大多数情况，但是还有更多关于如何处理选项卡式接口以及为何未实现通用解决方案的信息。 </font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">卡卡西卡卡西</span>
@@ -256,9 +238,7 @@ window.scrollTo(0,0);<font></font>
   }<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

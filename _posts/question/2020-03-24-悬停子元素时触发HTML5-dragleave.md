@@ -58,7 +58,7 @@ $('#drag').bind({<font></font>
 <p><strong>2017 Update:</strong>  TL;DR, Look up CSS <code>pointer-events: none;</code> as described in @H.D.'s answer below that works in modern browsers and IE11.</p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第3514篇《悬停子元素时触发HTML5 dragleave》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第3514篇《悬停子元素时触发HTML5 dragleave》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -98,18 +98,14 @@ container.addEventListener("dragleave", function(e) {<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">您可以</font></font><a href="https://jsfiddle.net/LalitNankani/7fec9hjo/32/" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在这里</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">找到有用的小提琴</font><font style="vertical-align: inherit;">！</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">宝儿理查德</span>
             <span class="discuss-time">2020.03.24</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我已经编写了一个名为</font></font><a href="http://bensmithett.github.io/dragster/" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Dragster</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">的小库</font><font style="vertical-align: inherit;">来处理这个确切的问题，它可以在IE之外无所事事地工作（它不支持DOM事件构造函数，但是使用jQuery的自定义事件编写类似的东西很容易），因此可以在任何地方使用。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">樱小小小小</span>
@@ -121,9 +117,7 @@ container.addEventListener("dragleave", function(e) {<font></font>
   return;<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">猿乐小小</span>
@@ -132,9 +126,7 @@ container.addEventListener("dragleave", function(e) {<font></font>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">一个非常简单的解决方案是使用</font></font><a href="https://developer.mozilla.org/fr/docs/Web/CSS/pointer-events" rel="noreferrer"><code>pointer-events</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">CSS属性</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font><font style="vertical-align: inherit;">只是它的值设置为</font></font><code>none</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在</font></font><em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">的dragstart</font></font></em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">每一个子元素。</font><font style="vertical-align: inherit;">这些元素将不再触发与鼠标相关的事件，因此它们不会将鼠标捕获在它们上面，因此也不会触发</font><font style="vertical-align: inherit;">父</font></font><em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">级</font></font></em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">上的</font><em><font style="vertical-align: inherit;">Dragleave</font></em><font style="vertical-align: inherit;">。</font></font></p>
 
 <p><font style="vertical-align: inherit;"></font><code>auto</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">完成拖动时，请</font><font style="vertical-align: inherit;">不要忘记将此属性设置回</font><font style="vertical-align: inherit;">;）</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">古一Mandy</span>
@@ -155,9 +147,7 @@ container.addEventListener("dragleave", function(e) {<font></font>
 </code></pre>
 
 <p><a href="http://jsfiddle.net/azlar/nro5Lthz/3/" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这是一个jsfiddle</font></font></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Mandy村村</span>
@@ -170,9 +160,7 @@ container.addEventListener("dragleave", function(e) {<font></font>
 <p><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">更新：</font></font></strong></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我创建</font></font><a href="http://jsfiddle.net/theodorejb/j2fDt/9/"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">了一个jsFiddle，演示了</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">使用功能检测</font><a href="http://jsfiddle.net/theodorejb/j2fDt/9/"><font style="vertical-align: inherit;">的组合解决方案</font></a><font style="vertical-align: inherit;">，其中使用了指针事件（如果支持的话）（当前支持Chrome，Firefox和IE11），并且如果没有指针事件支持（IE8，则浏览器会回退到向子节点添加事件） -10）。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">西门</span>
@@ -199,9 +187,7 @@ container.addEventListener("dragleave", function(e) {<font></font>
  </font></font><a href="http://caniuse.com/pointer-events" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">//caniuse.com/pointer-events</font></font></a></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">看到Facebook源代码，我可以</font></font><code>pointer-events: none;</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">多次</font><font style="vertical-align: inherit;">找到</font><font style="vertical-align: inherit;">它，但是它可能与优美的降级后备功能结合使用。</font><font style="vertical-align: inherit;">至少它是如此简单，并且可以解决很多环境下的问题。</font></font></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

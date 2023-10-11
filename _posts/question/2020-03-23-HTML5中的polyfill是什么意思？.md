@@ -27,7 +27,7 @@ topic: HTML
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">垫片，后备和填料之间有什么区别？</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第2806篇《HTML5中的polyfill是什么意思？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第2806篇《HTML5中的polyfill是什么意思？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -62,9 +62,7 @@ topic: HTML
 <p>The one it has replaced it with is a shim. This will detect if the feature is natively supported and use it if it is, or it will work around it using other APIs if it is not.</p>
 
 <p>So a polyfill is a sort of "transparent" shim. And this is what Remy Sharp (who coined the term) meant when saying "<em>if you removed the polyfill script, your code would continue to work, without any changes required in spite of the polyfill being removed</em>".</p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">西门</span>
@@ -81,9 +79,7 @@ topic: HTML
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">以下是Polyfills和Shims的完整列表：</font></font></p>
 
 <p><a href="https://github.com/Modernizr/Modernizr/wiki/HTML5-Cross-browser-Polyfills"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">https://github.com/Modernizr/Modernizr/wiki/HTML5-Cross-browser-Polyfills</font></font></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Tony凯</span>
@@ -96,18 +92,14 @@ topic: HTML
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这里的polyfill的来源和示例：</font></font></p>
 
 <p><a href="http://www.programmerinterview.com/index.php/html5/html5-polyfill/"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">http://www.programmerinterview.com/index.php/html5/html5-polyfill/</font></font></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">米亚</span>
             <span class="discuss-time">2020.03.23</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">polyfill是一段代码（或插件），它提供开发人员希望浏览器本机提供的技术。</font></font></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

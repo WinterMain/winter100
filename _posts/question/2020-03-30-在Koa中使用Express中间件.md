@@ -24,7 +24,7 @@ topic: KoaJS
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">所以我想这里需要某种适配器或技巧...想法？</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第3848篇《在Koa中使用Express中间件》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第3848篇《在Koa中使用Express中间件》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -41,9 +41,7 @@ topic: KoaJS
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">由于koa-connect的作者尚未发布下一版本（npm i koa-connect @ next无法正常工作），并且与webpack-dev-middleware和webpack-hot-middleware不兼容。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">梅</span>
@@ -54,9 +52,7 @@ topic: KoaJS
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">您可以为koa重写中间件。</font><font style="vertical-align: inherit;">koa Wiki具有</font><font style="vertical-align: inherit;">编写中间件</font><font style="vertical-align: inherit;">的特殊</font></font><a href="https://github.com/koajs/koa/blob/master/docs/guide.md" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">指南</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在快速中间件中将收到</font><font style="vertical-align: inherit;">的</font></font><code>req</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">和</font></font><code>res</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，在koa中间件中不直接可用。</font><font style="vertical-align: inherit;">但是您可以</font><font style="vertical-align: inherit;">通过</font><font style="vertical-align: inherit;">和</font><font style="vertical-align: inherit;">访问koa </font></font><a href="http://koajs.com/#request" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">请求</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">和koa </font></font><a href="http://koajs.com/#response" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">响应</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">对象</font><font style="vertical-align: inherit;">。</font></font><code>this.request</code><font style="vertical-align: inherit;"></font><code>this.response</code><font style="vertical-align: inherit;"></font></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

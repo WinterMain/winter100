@@ -17,7 +17,7 @@ topic: CSS
     <div class="article-content"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">当有人将鼠标悬停在</font></font><code>&lt;a&gt;</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">元素上时，我想</font><font style="vertical-align: inherit;">显示一个div </font><font style="vertical-align: inherit;">，但是我想在CSS中而不是在JavaScript中执行此操作。</font><font style="vertical-align: inherit;">您知道如何实现吗？</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第3060篇《仅使用CSS，将div悬停在<a>上时显示div》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第3060篇《仅使用CSS，将div悬停在<a>上时显示div》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -52,9 +52,7 @@ topic: CSS
     &lt;div class="product-card-"&gt;Message from the business goes here. They can talk alot or not&lt;/div&gt;<font></font>
 &lt;/div&gt;<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">神乐Tom</span>
@@ -82,9 +80,7 @@ topic: CSS
 </code></pre>
 
 <p><a href="https://codepen.io/KondalDurgam/pen/NYpooe" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">CodePen：将鼠标悬停在div上将文本显示在另一个div中</font></font></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">梅</span>
@@ -111,9 +107,7 @@ display:inline !important;<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，结果是它确实使用第二个展开，但没有使用第一个展开。</font><font style="vertical-align: inherit;">因此，如果悬停目标和隐藏的div之间有一个div，则它将不起作用。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Stafan</span>
@@ -125,9 +119,7 @@ display:inline !important;<font></font>
     display: block;<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">卡卡西Near</span>
@@ -188,9 +180,7 @@ display:inline;<font></font>
 &lt;/body&gt;<font></font>
 &lt;/html&gt;<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">斯丁Tony</span>
@@ -281,9 +271,7 @@ z-index: 200;<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这在Internet Explorer 10.0.9200中无法正常工作，在Opera 12.16，Firefox 18.0和Google Chrome 28.0.15中工作正常。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">有关</font><font style="vertical-align: inherit;">带有弹出式多级菜单的完整示例，</font><font style="vertical-align: inherit;">请参见小提琴</font></font><a href="http://jsfiddle.net/F68Le/"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">http://jsfiddle.net/F68Le/</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">JinJin猴子</span>
@@ -312,9 +300,7 @@ z-index: 200;<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这些是在实现此类行为时需要注意的quirq的示例。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这完全取决于您需要什么。</font><font style="vertical-align: inherit;">此方法适用于菜单样式的方案，而</font></font><a href="https://stackoverflow.com/questions/5210033/using-only-css-show-div-on-hover-over-a#5210074"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Yi Jiang</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">的适用于工具提示。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">卡卡西</span>
@@ -339,9 +325,7 @@ a:hover + div {<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这使用</font></font><a href="http://meyerweb.com/eric/articles/webrev/200007a.html"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">相邻的兄弟选择器</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，是the </font></font><a href="http://www.alistapart.com/articles/dropdowns"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">鱼下拉菜单</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">的基础</font><font style="vertical-align: inherit;">。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">HTML5允许锚元素包装几乎所有内容，因此在这种情况下，</font></font><code>div</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">可以使</font><font style="vertical-align: inherit;">该</font><font style="vertical-align: inherit;">元素成为锚的子级。</font><font style="vertical-align: inherit;">否则原理是相同的-使用</font></font><code>:hover</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">伪类更改</font></font><code>display</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">另一个元素</font><font style="vertical-align: inherit;">的</font><font style="vertical-align: inherit;">属性。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">番长猴子</span>
@@ -373,9 +357,7 @@ a:hover + div {<font></font>
 </div>
 </div>
 <p></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

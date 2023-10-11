@@ -43,7 +43,7 @@ topic: JavaScript
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">JavaScript中是否有这样的本机函数可以返回三进制值，以便在二进制搜索的每次迭代中只需要一个比较？</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第3965篇《在JavaScript中比较字符串的最佳方法？[重复]》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第3965篇《在JavaScript中比较字符串的最佳方法？\[重复\]》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -75,9 +75,7 @@ topic: JavaScript
 <li><a href="https://stackoverflow.com/questions/1179366/is-there-a-javascript-strcmp"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">堆栈溢出-是否有JavaScript strcmp（）？</font></font></a></li>
 <li><a href="http://www.tutorialspoint.com/javascript/string_localecompare.htm" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">教程重点：JavaScript字符串-localeCompare（）方法</font></font></a></li>
 </ul></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Stafan路易</span>
@@ -100,9 +98,7 @@ topic: JavaScript
     return (a&lt;b?-1:(a&gt;b?1:0));  <font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">樱</span>
@@ -128,9 +124,7 @@ topic: JavaScript
     return a.charAt(i) &gt; b.charAt(i) ? -1 : 1;<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

@@ -68,7 +68,7 @@ ReactDOM.render(<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">您是否对其正常运作有解释？</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第1210篇《在React组件中多次使用this.setState会发生什么？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第1210篇《在React组件中多次使用this.setState会发生什么？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -81,9 +81,7 @@ ReactDOM.render(<font></font>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">React批处理状态更新发生在事件处理程序和生命周期方法中。</font><font style="vertical-align: inherit;">因此，如果您在</font></font><code>&lt;div onClick /&gt;</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">处理程序中</font><font style="vertical-align: inherit;">多次更新状态</font><font style="vertical-align: inherit;">，React将在重新渲染之前等待事件处理完成。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">需要明确的是，这仅适用于React控制的综合事件处理程序和生命周期方法。</font><font style="vertical-align: inherit;">例如，状态更新不在AJAX和</font></font><code>setTimeout</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">事件处理程序中进行</font><font style="vertical-align: inherit;">批处理</font><font style="vertical-align: inherit;">。</font></font></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

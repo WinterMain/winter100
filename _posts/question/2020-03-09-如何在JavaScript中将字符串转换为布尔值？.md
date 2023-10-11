@@ -27,7 +27,7 @@ var isTrueSet = myValue == 'true';<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">有没有更好的方法可以做到这一点？</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第181篇《如何在JavaScript中将字符串转换为布尔值？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第181篇《如何在JavaScript中将字符串转换为布尔值？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -43,9 +43,7 @@ var isTrueSet = myValue == 'true';<font></font>
 
 <pre><code>testVar = testVar.toString().match(/^(true|[1-9][0-9]*|[0-9]*[1-9]+|yes)$/i) ? true : false;
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">LEYJim</span>
@@ -75,9 +73,7 @@ var isTrueSet = myValue == 'true';<font></font>
 </code></pre>
 
 <p>It works for many cases, does not fail when values like {} are passed in, and is very concise. Also it returns false as the default value rather than undefined or throwing an Error, which is more useful in loosely-typed Javascript development. Bravo to the other answers that suggested it!</p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">JinJin猴子</span>
@@ -95,9 +91,7 @@ var isTrueSet = myValue == 'true';<font></font>
  var flag = false<font></font>
  var flag = "false"<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">SamStafan十三</span>
@@ -114,9 +108,7 @@ var isTrueSet = myValue == 'true';<font></font>
   }<font></font>
 };<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">ItachiHarry</span>
@@ -130,9 +122,7 @@ var isTrueSet = myValue == 'true';<font></font>
 </code></pre>
 
 <p>This function performs the usual Boolean coercion with the exception of the strings "false" (case insensitive) and "0".</p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">LEYEvaL</span>
@@ -161,9 +151,7 @@ getBool("FALSE"); //false<font></font>
 </code></pre>
 
 <p>I also created fiddle to test it <a href="http://jsfiddle.net/remunda/2GRhG/">http://jsfiddle.net/remunda/2GRhG/</a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">GO神奇</span>
@@ -177,9 +165,7 @@ getBool("FALSE"); //false<font></font>
     }<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">十三村村蛋蛋</span>
@@ -196,9 +182,7 @@ String(false) == "true"    //returns false<font></font>
 String("true") == "true"   //returns true<font></font>
 String("false") == "true"  //returns false<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">十三西里GO</span>
@@ -223,9 +207,7 @@ String("false") == "true"  //returns false<font></font>
 
 <pre><code>$.parseJSON("TRUE".toLowerCase());
 </code></pre></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

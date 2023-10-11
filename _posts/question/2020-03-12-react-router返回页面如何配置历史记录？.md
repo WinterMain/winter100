@@ -69,7 +69,7 @@ var routes = (<font></font>
 </code></pre></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第959篇《react-router返回页面如何配置历史记录？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第959篇《react-router返回页面如何配置历史记录？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -83,9 +83,7 @@ var routes = (<font></font>
 
 <pre><code>this.context.router.history.goBack()
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">阿飞路易</span>
@@ -95,9 +93,7 @@ var routes = (<font></font>
 
 <pre><code>&lt;span onClick={() =&gt; this.props.history.goBack()}&gt;Back&lt;/span&gt;
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Pro凯</span>
@@ -109,9 +105,7 @@ var routes = (<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">伊姆·特克斯（Tks，Iam）</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小哥斯丁</span>
@@ -133,9 +127,7 @@ var routes = (<font></font>
 
 <pre><code>history.goBack()
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">ALPro</span>
@@ -291,9 +283,7 @@ export default withLastLocation(Back);<font></font>
 </code></pre>
 
 <p><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">演示：</font></font></strong> <font style="vertical-align: inherit;"><a href="https://codesandbox.io/s/727nqm99jj" rel="nofollow noreferrer"><font style="vertical-align: inherit;">https </font></a><strong><font style="vertical-align: inherit;">: </font></strong></font><a href="https://codesandbox.io/s/727nqm99jj" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">//codesandbox.io/s/727nqm99jj</font></font></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Mandy猿</span>
@@ -303,9 +293,7 @@ export default withLastLocation(Back);<font></font>
 
 <pre><code>this.props.history.goBack();
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">十三西里GO</span>
@@ -315,9 +303,7 @@ export default withLastLocation(Back);<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">无需导航混入！</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Jim米亚西里</span>
@@ -394,9 +380,7 @@ var SomePage = React.createClass({<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">您需要小心，以确保有必要的历史记录才能返回。</font><font style="vertical-align: inherit;">如果您直接点击该页面，然后再点击该页面，它将带您回到浏览器历史记录中，然后再查看您的应用。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">此解决方案将同时考虑这两种情况。</font><font style="vertical-align: inherit;">但是，它将无法使用后退按钮处理可在页面内导航（并添加到浏览器历史记录）的iframe。</font><font style="vertical-align: inherit;">坦白说，我认为这是react-router中的错误。</font><font style="vertical-align: inherit;">在此处创建的问题：</font><a href="https://github.com/rackt/react-router/issues/1874" rel="noreferrer"><font style="vertical-align: inherit;">https</font></a><font style="vertical-align: inherit;">：</font></font><a href="https://github.com/rackt/react-router/issues/1874" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">//github.com/rackt/react-router/issues/1874</font></font></a></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

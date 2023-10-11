@@ -32,7 +32,7 @@ if(currentColor == my.namespace.ColorEnum.RED) {<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">还是有更好的成语？</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第207篇《在JavaScript中定义枚举的首选语法是什么？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第207篇《在JavaScript中定义枚举的首选语法是什么？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -90,9 +90,7 @@ var STATE = new Enum("CLOSED","PENDING","CONFIRMED",{ name : "STARTED"},{ name :
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">完整示例
  </font></font><a href="https://gist.github.com/lnt/bb13a2fd63cdb8bce85fd62965a20026" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">https://gist.github.com/lnt/bb13a2fd63cdb8bce85fd62965a20026</font></font></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">null</span>
@@ -119,9 +117,7 @@ var STATE = new Enum("CLOSED","PENDING","CONFIRMED",{ name : "STARTED"},{ name :
 
 <pre><code>console.log(Object.keys(Status)[Status.Ready]) // Ready
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Jim理查德</span>
@@ -187,9 +183,7 @@ var Color = _.enum(<font></font>
 // Color.Gray → 21<font></font>
 // Color[5] → Blue<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">达蒙理查德</span>
@@ -203,9 +197,7 @@ var Color = _.enum(<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">您无需确保不会以这种方式将重复的数字分配给不同的枚举值。</font><font style="vertical-align: inherit;">实例化一个新对象并将其分配给所有枚举值。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">→笑里藏刀↓</span>
@@ -237,9 +229,7 @@ Colors.each(function(color) {<font></font>
 // using<font></font>
 Colors.Red.print()<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">逆天米亚</span>
@@ -256,9 +246,7 @@ Colors.Red.print()<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这样</font></font><code>MyEnum.Bar</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">一来，</font></font><code>MyEnum[1]</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">无论声明的顺序如何，</font><font style="vertical-align: inherit;">都可以查找</font><font style="vertical-align: inherit;">返回1以及</font><font style="vertical-align: inherit;">返回“ Bar”的这</font><font style="vertical-align: inherit;">两者</font><font style="vertical-align: inherit;">。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">十三LEY</span>
@@ -282,9 +270,7 @@ Colors.Red.print()<font></font>
 
 <pre><code> class ColorEnum  extends Enum {/*....*/}
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">神奇启人</span>
@@ -293,9 +279,7 @@ Colors.Red.print()<font></font>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这并不是一个很好的答案，但是我个人认为这很好</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">话虽这么说，因为值无关紧要（您使用过0、1、2），所以如果您想输出当前值，我将使用有意义的字符串。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">凯神无</span>
@@ -323,9 +307,7 @@ color.size // 2<font></font>
 color.values() // Symbol(RED), Symbol(BLUE)<font></font>
 color.toString() // RED,BLUE<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">路易飞云</span>
@@ -361,9 +343,7 @@ Document.Write("Enumerant: " + DaysEnum.tuesday);<font></font>
 <p><a href="http://www.2ality.com/2011/10/enums.html" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">http://www.2ality.com/2011/10/enums.html</font></font></a></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">尽管它可能不适合枚举的所有有效用法，但它的路途很长。 </font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">老丝阿飞</span>
@@ -393,9 +373,7 @@ day = 298832342 // goes through without any errors<font></font>
 <p><a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object/freeze" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">资源</font></font></a></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">不需要引号，但为了保持一致性，我保留了它们。</font></font></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

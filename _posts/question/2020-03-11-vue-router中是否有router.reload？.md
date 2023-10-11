@@ -46,7 +46,7 @@ topic: Vue.js
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">PS。</font><font style="vertical-align: inherit;">我知道这</font></font><code>location.reload()</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">是替代方法之一，但我正在寻找本机Vue选项。</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第579篇《vue-router中是否有router.reload？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第579篇《vue-router中是否有router.reload？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -82,9 +82,7 @@ export default {<font></font>
 }<font></font>
 &lt;/script&gt;<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">GilPro</span>
@@ -105,18 +103,14 @@ export default {<font></font>
 <p></p>
 
 <p>This method replaces the URL and causes the page to do a full request (refresh) rather than relying on Vue.router. $router.go does not work the same for me even though it is theoretically supposed to.</p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">樱Harry</span>
             <span class="discuss-time">2020.03.11</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">使用</font></font><code>router.go(0)</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果使用 TypeScript，并且它要求的参数为细末方法。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Near神乐路易</span>
@@ -136,9 +130,7 @@ export default {<font></font>
 
 <pre><code>&lt;router-view v-if="isRouterAlive"/&gt;
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">理查德神乐老丝</span>
@@ -158,9 +150,7 @@ export default {<font></font>
         }<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">梅乐</span>
@@ -172,9 +162,7 @@ export default {<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这是因为如果寻址相同的组件，Vue Router不会注意到任何更改。</font><font style="vertical-align: inherit;">使用该键，对路径的任何更改都将触发使用新数据重新加载组件。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">SamStafan</span>
@@ -199,9 +187,7 @@ export default {<font></font>
 <pre><code>"vue": "^2.1.0",<font></font>
 "vue-router": "^2.1.1"<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小宇宙樱</span>
@@ -214,9 +200,7 @@ export default {<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">至于“为什么会这样”：在</font></font><code>go</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">内部将其参数传递给</font></font><code>window.history.go</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，因此其等于</font></font><code>windows.history.go()</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">-进而根据</font></font><a href="https://developer.mozilla.org/en-US/docs/Web/API/History" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">MDN doc</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">重新加载页面</font><font style="vertical-align: inherit;">。</font></font></p>
 
 <p><sub><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">注意：由于这会在常规桌面（非便携式）Firefox上执行“软”重新加载，因此，如果使用它，可能会出现许多奇怪的怪癖，但实际上您需要真正的重新加载；</font><font style="vertical-align: inherit;">使用</font><font style="vertical-align: inherit;">OP提到</font><font style="vertical-align: inherit;">的</font></font><code>window.location.reload(true);</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">（</font></font><a href="https://developer.mozilla.org/en-US/docs/Web/API/Location/reload" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">https://developer.mozilla.org/en-US/docs/Web/API/Location/reload</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">）可能会有所帮助-它确实解决了我在FF上的问题。</font></font></sub></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

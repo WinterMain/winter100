@@ -30,7 +30,7 @@ topic: JavaScript
 </code></pre></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第229篇《JavaScript检查变量是否存在（已定义/初始化）》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第229篇《JavaScript检查变量是否存在（已定义/初始化）》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -53,9 +53,7 @@ topic: JavaScript
 }<font></font>
 sayHello(); // =&gt; "Hello unknown person"<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">十三西门</span>
@@ -85,9 +83,7 @@ if( invalid( variable )){<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果需要相反的情况，则首先将！variable变为!! variable，而在无效函数中===变为！=且函数名称更改为notInvalid。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">神奇Davaid</span>
@@ -115,9 +111,7 @@ if (declared) {<font></font>
   console.log("someVar is not declared");<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">乐猪猪</span>
@@ -138,9 +132,7 @@ if (declared) {<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">请注意，我们</font></font><code>console</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">仅在全局范围（这是</font></font><code>window</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">所有浏览器中</font><font style="vertical-align: inherit;">的</font><font style="vertical-align: inherit;">对象）中查找。</font><font style="vertical-align: inherit;">在这种特殊情况下，这是可取的。</font><font style="vertical-align: inherit;">我们不想</font></font><code>console</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在其他地方定义。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">@BrianKelley在他的出色回答中解释了技术细节。</font><font style="vertical-align: inherit;">我仅添加了缺少的结论，并将其摘要为更易于阅读的内容。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">马克</span>
@@ -161,9 +153,7 @@ if (declared) {<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在AJAX达到顶峰的时候，我编写了一种方法（后来称为isNS（）），该方法能够确定名称空间是否存在，包括对属性名称（例如“ Book1.chapter22.paragraph37”）的深入测试等等。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">但是，由于它以前已经发布过，并且由于它的重要性，它值得在单独的线程中发布，因此我不会在此处发布它，但是会提供关键字（</font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">javascript + isNS</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">），它将帮助您找到源代码，并附带所有必要的解释。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Sam蛋蛋Itachi</span>
@@ -183,9 +173,7 @@ alert("Variable dataSet is : " + typeof dataSet);<font></font>
 <blockquote>
   <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">变量dataSet是：未定义。</font></font></p>
 </blockquote></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">阳光Itachi村村</span>
@@ -200,9 +188,7 @@ alert("Variable dataSet is : " + typeof dataSet);<font></font>
    // the variable is defined and not null<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">LEYJim</span>
@@ -221,9 +207,7 @@ alert(_undefined == _null);<font></font>
 alert(_undefined === _null);<font></font>
 </code>
 </pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">null</span>
@@ -242,9 +226,7 @@ alert(_undefined === _null);<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">适用于所有浏览器</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">神乐Near</span>
@@ -255,9 +237,7 @@ alert(_undefined === _null);<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">但是，我想指出的是，JavaScript </font></font><code>undefined</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">是可变的（出于某些不敬虔的原因）。</font><font style="vertical-align: inherit;">因此，简单地进行检查</font></font><code>varName !== undefined</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">有可能不会总是按预期返回，因为其他库可能已更改为未定义。</font><font style="vertical-align: inherit;">一些答案（@skalee的答案）似乎更喜欢不使用</font></font><code>typeof</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，这可能</font><font style="vertical-align: inherit;">会给您带来</font><font style="vertical-align: inherit;">麻烦。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">处理此问题的“旧”方法是将undefined声明为var，以抵消的任何可能的静音/覆盖</font></font><code>undefined</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font><font style="vertical-align: inherit;">但是，最好的方法仍然是使用，</font></font><code>typeof</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">因为它将忽略任何</font></font><code>undefined</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">其他代码的</font><font style="vertical-align: inherit;">替代</font><font style="vertical-align: inherit;">。</font><font style="vertical-align: inherit;">尤其是如果您正在编写要在野外使用的代码，而谁又知道该页面上可能还会运行什么……</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">米亚十三Harry</span>
@@ -272,9 +252,7 @@ alert(_undefined === _null);<font></font>
 <p><code>== null</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">或</font></font><code>!= null</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">将检查值是否为</font></font><code>undefined</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">或</font></font><code>null</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p>
 
 <p><code>if(value)</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">将检查变量是</font></font><code>undefined</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，</font></font><code>null</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，</font></font><code>0</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，或一个空字符串。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">乐米亚</span>
@@ -288,9 +266,7 @@ alert(_undefined === _null);<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我发现它对于检测在浏览器外部运行的脚本（没有声明</font></font><code>window</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">变量）</font><font style="vertical-align: inherit;">很有用</font><font style="vertical-align: inherit;">。</font></font></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

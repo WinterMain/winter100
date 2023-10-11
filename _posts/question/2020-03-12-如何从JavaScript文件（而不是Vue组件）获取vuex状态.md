@@ -21,7 +21,7 @@ topic: JavaScript
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我现在的估计是，这根本不是“解决之道”，因为js文件中的state.property值不会是被动的，因此不会更新或发生其他事情，但是也许有人可以确认/证明我错了。</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第1314篇《如何从JavaScript文件（而不是Vue组件）获取vuex状态》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第1314篇《如何从JavaScript文件（而不是Vue组件）获取vuex状态》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}

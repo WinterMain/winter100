@@ -45,7 +45,7 @@ class Section extends Component {<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">谢谢！</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第446篇《使用React内联样式设置backgroundImage》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第446篇《使用React内联样式设置backgroundImage》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -59,9 +59,7 @@ class Section extends Component {<font></font>
 
 <pre><code>backgroundImage: url(process.env.PUBLIC_URL + "/      assets/image_location")
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">神无小哥</span>
@@ -72,9 +70,7 @@ class Section extends Component {<font></font>
 <p><code>&lt;div style={{ backgroundImage: `url(require("images/img.svg"))` }}&gt;</code></p>
 
 <p><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">请注意两组大括号</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font><font style="vertical-align: inherit;">第一组用于进入反应模式，第二组用于表示对象</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">三千曜米亚</span>
@@ -84,9 +80,7 @@ class Section extends Component {<font></font>
 
 <pre><code>backgroundImage: `url(${Background})`
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">泡芙</span>
@@ -96,9 +90,7 @@ class Section extends Component {<font></font>
 
 <pre><code>style={{ backgroundImage: `url(require("path/image.ext"))` }}
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">村村路易</span>
@@ -115,9 +107,7 @@ class Section extends Component {<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">从本质上讲，在为backgroundImage属性添加值的同时删除不必要的花括号将起作用。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">阳光神乐</span>
@@ -132,9 +122,7 @@ class Section extends Component {<font></font>
 
 <pre><code>backgroundImage: `url(${Background})`
 </code></pre></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

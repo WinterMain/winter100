@@ -17,10 +17,10 @@ topic: JavaScript
     <div class="article-content"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">JavaScript中是否有类似于</font></font><code>@import</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">CSS的</font><font style="vertical-align: inherit;">东西</font><font style="vertical-align: inherit;">，允许您在另一个JavaScript文件中包含一个JavaScript文件？</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第141篇《如何在另一个JavaScript文件中包含一个JavaScript文件？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第141篇《如何在另一个JavaScript文件中包含一个JavaScript文件？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
-    {% raw %}
+    
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -52,9 +52,7 @@ topic: JavaScript
 <p><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">更新</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">：混合物</font></font><a href="http://mixture.io/blog/free/" rel="nofollow noreferrer" data-bitapp="processed"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">现在免费</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">（脱机）。</font></font></p>
 
 <p><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">更新</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">：混合物现已停产。</font></font><a href="https://github.com/teammixture/mixture.io/issues/6" rel="nofollow noreferrer" data-bitapp="processed"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">旧的混合物版本</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">仍然可用</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">达蒙阿飞斯丁</span>
@@ -85,9 +83,7 @@ topic: JavaScript
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">用法（承诺）：</font></font></p>
 
 <pre class="lang-js prettyprint prettyprinted" style=""><code><span class="pln">loadJs</span><span class="pun">(</span><span class="str">"https://.../script.js"</span><span class="pun">).</span><span class="pln">then</span><span class="pun">(</span><span class="pln">res </span><span class="pun">=&gt;</span><span class="pln"> </span><span class="pun">{}).</span><span class="kwd">catch</span><span class="pun">(</span><span class="pln">err </span><span class="pun">=&gt;</span><span class="pln"> </span><span class="pun">{})</span></code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">乐十三</span>
@@ -99,9 +95,7 @@ js</span><span class="pun">.</span><span class="pln">type </span><span class="pu
 js</span><span class="pun">.</span><span class="pln">src </span><span class="pun">=</span><span class="pln"> jsFilePath</span><span class="pun">;</span><span class="pln">
 
 document</span><span class="pun">.</span><span class="pln">body</span><span class="pun">.</span><span class="pln">appendChild</span><span class="pun">(</span><span class="pln">js</span><span class="pun">);</span></code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">猿小宇宙小哥</span>
@@ -112,9 +106,7 @@ document</span><span class="pun">.</span><span class="pln">body</span><span clas
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">幸运的是，</font></font><a href="https://developer.mozilla.org/en-US/docs/Web/API/Web_Workers_API/basic_usage#Importing_scripts_and_libraries" rel="noreferrer" data-bitapp="processed"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Web Workers具有自己的</font></font><code>importScripts</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">功能</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，这是</font><a href="https://developer.mozilla.org/en-US/docs/Web/API/Web_Workers_API/basic_usage#Importing_scripts_and_libraries" rel="noreferrer" data-bitapp="processed"><font style="vertical-align: inherit;">Web Workers</font></a><font style="vertical-align: inherit;">范围内的全局功能，它</font></font><a href="https://html.spec.whatwg.org/multipage/workers.html#importing-scripts-and-libraries" rel="noreferrer" data-bitapp="processed"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">是</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">浏览器本身的固有功能，因为它</font><a href="https://html.spec.whatwg.org/multipage/workers.html#importing-scripts-and-libraries" rel="noreferrer" data-bitapp="processed"><font style="vertical-align: inherit;">是规范的一部分</font></a><font style="vertical-align: inherit;">。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">另外，</font></font><a href="https://stackoverflow.com/a/10939737/1676444" data-bitapp="processed"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">作为对您问题的第二高投票答案</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，</font></font><a href="http://www.requirejs.org/" rel="noreferrer" data-bitapp="processed"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">RequireJS</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">还可以处理Web Worker内的脚本（可能会</font></font><code>importScripts</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">自称，但还有一些其他有用的功能）。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">TomMandy</span>
@@ -129,9 +121,7 @@ document</span><span class="pun">.</span><span class="pln">body</span><span clas
 <ul>
 <li><em><a href="http://37signals.com/svn/posts/1587-introducing-sprockets-javascript-dependency-management-and-concatenation" rel="noreferrer" data-bitapp="processed"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Sprockets简介：JavaScript依赖关系管理和串联</font></font></a></em></li>
 </ul></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">null</span>
@@ -143,9 +133,7 @@ document</span><span class="pun">.</span><span class="pln">body</span><span clas
 xhr</span><span class="pun">.</span><span class="pln">open</span><span class="pun">(</span><span class="str">"GET"</span><span class="pun">,</span><span class="pln"> </span><span class="str">"/soap/ajax/11.0/connection.js"</span><span class="pun">,</span><span class="pln"> </span><span class="kwd">false</span><span class="pun">);</span><span class="pln">
 xhr</span><span class="pun">.</span><span class="pln">send</span><span class="pun">();</span><span class="pln">
 </span><span class="kwd">eval</span><span class="pun">(</span><span class="pln">xhr</span><span class="pun">.</span><span class="pln">responseText</span><span class="pun">);</span></code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">木千</span>
@@ -182,9 +170,7 @@ A</span><span class="pun">.</span><span class="pln">func2</span><span class="pun
   </span><span class="pun">&lt;</span><span class="pln">script type</span><span class="pun">=</span><span class="str">"text/javascript"</span><span class="pln"> src</span><span class="pun">=</span><span class="str">"file2.js"</span><span class="pun">&gt;&lt;/</span><span class="pln">script</span><span class="pun">&gt;</span><span class="pln">
   </span><span class="pun">&lt;</span><span class="pln">script type</span><span class="pun">=</span><span class="str">"text/javascript"</span><span class="pln"> src</span><span class="pun">=</span><span class="str">"main.js"</span><span class="pun">&gt;&lt;/</span><span class="pln">script</span><span class="pun">&gt;</span><span class="pln">
 </span><span class="pun">&lt;/</span><span class="pln">head</span><span class="pun">&gt;</span></code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">凯阳光</span>
@@ -223,9 +209,7 @@ A</span><span class="pun">.</span><span class="pln">func2</span><span class="pun
           method</span><span class="pun">:</span><span class="pln"> </span><span class="kwd">function</span><span class="pun">(){}</span><span class="pln">
     </span><span class="pun">}</span><span class="pln">
 </span><span class="pun">};</span></code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Eva猿猿</span>
@@ -242,9 +226,7 @@ A</span><span class="pun">.</span><span class="pln">func2</span><span class="pun
 </span><span class="kwd">import</span><span class="pln"> </span><span class="pun">{</span><span class="pln"> member1 </span><span class="pun">,</span><span class="pln"> member2 as alias2 </span><span class="pun">,</span><span class="pln"> </span><span class="pun">[...]</span><span class="pln"> </span><span class="pun">}</span><span class="pln"> </span><span class="kwd">from</span><span class="pln"> </span><span class="str">"module-name"</span><span class="pun">;</span><span class="pln">
 </span><span class="kwd">import</span><span class="pln"> name </span><span class="pun">,</span><span class="pln"> </span><span class="pun">{</span><span class="pln"> member </span><span class="pun">[</span><span class="pln"> </span><span class="pun">,</span><span class="pln"> </span><span class="pun">[...]</span><span class="pln"> </span><span class="pun">]</span><span class="pln"> </span><span class="pun">}</span><span class="pln"> </span><span class="kwd">from</span><span class="pln"> </span><span class="str">"module-name"</span><span class="pun">;</span><span class="pln">
 </span><span class="kwd">import</span><span class="pln"> </span><span class="str">"module-name"</span><span class="pln"> as name</span><span class="pun">;</span></code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">泡芙村村Pro</span>
@@ -262,9 +244,7 @@ A</span><span class="pun">.</span><span class="pln">func2</span><span class="pun
 </span><span class="pun">}</span><span class="pln">
 
 includeJs</span><span class="pun">(</span><span class="str">"/path/to/some/file.js"</span><span class="pun">);</span></code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Harry小卤蛋</span>
@@ -295,9 +275,7 @@ includeJs</span><span class="pun">(</span><span class="str">"/path/to/some/file.
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">并能够在下一行中从所需脚本中调用函数：</font></font></p>
 
 <pre class="lang-js prettyprint prettyprinted" style=""><code><span class="pln">subscript</span><span class="pun">.</span><span class="pln">doSomethingCool</span><span class="pun">();</span><span class="pln"> </span></code></pre></div>
-        </div>
-        
-      </div>
-    {% endraw %}
+        </div></div>
+    
   </div>
 <div>

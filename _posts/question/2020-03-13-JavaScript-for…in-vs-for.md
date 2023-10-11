@@ -34,7 +34,7 @@ topic: JavaScript
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我没什么大不同。</font><font style="vertical-align: inherit;">有性能问题吗？</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第1440篇《JavaScript for…in vs for》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第1440篇《JavaScript for…in vs for》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -45,9 +45,7 @@ topic: JavaScript
             <span class="discuss-time">2020.03.13</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">for in语句允许遍历对象的所有属性的名称。</font><font style="vertical-align: inherit;">不幸的是，它还会遍历通过原型链继承的所有成员。</font><font style="vertical-align: inherit;">当关注数据成员时，这不利于提供方法功能。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Tom阳光达蒙</span>
@@ -74,9 +72,7 @@ remove<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">您可以将for-in与一起使用</font></font><code>if(myArray.hasOwnProperty(i))</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font><font style="vertical-align: inherit;">尽管如此，当遍历数组时，我总是更喜欢避免这种情况，而只使用for（;;）语句。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">西里伽罗</span>
@@ -121,18 +117,14 @@ for (var key in array)<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">阵列[10] = D</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">数组[ABC] = 123</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Jim老丝L</span>
             <span class="discuss-time">2020.03.13</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">使用Array（）。forEach循环利用并行性</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">西里凯</span>
@@ -145,9 +137,7 @@ for (var i = keys.length; i--;){<font></font>
    value = obj[keys[i]];// or other action<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">米亚番长</span>
@@ -156,9 +146,7 @@ for (var i = keys.length; i--;){<font></font>
           <div class="discuss-comment"><p><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">for（;;）</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">用于</font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">数组</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">：[20,55,33]</font></font></p>
 
 <p><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">for..in</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">是</font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">对象</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">：{x：20，y：55：z：33}</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">西门LEY</span>
@@ -167,9 +155,7 @@ for (var i = keys.length; i--;){<font></font>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我已经看到使用对象，原型和数组的“ for each”问题</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我的理解是for for是对象的属性，而不是数组的属性</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">卡卡西猿</span>
@@ -181,9 +167,7 @@ for (var i = keys.length; i--;){<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这有点在for语句中包含while逻辑，并且冗余程度较低。</font><font style="vertical-align: inherit;">Firefox也具有Array.forEach和Array.filter</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Stafan猴子</span>
@@ -192,9 +176,7 @@ for (var i = keys.length; i--;){<font></font>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">数组上的for in循环与Prototype不兼容。</font><font style="vertical-align: inherit;">如果您认为将来可能需要使用该库，则最好坚持使用for循环。</font></font></p>
 
 <p><a href="http://www.prototypejs.org/api/array" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">http://www.prototypejs.org/api/array</font></font></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">前端猴子</span>
@@ -219,9 +201,7 @@ alert(i); // Will print "length", "item" and "namedItem" in addition to your ele
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">即使getElementsByTagName应该返回NodeList，大多数浏览器也会返回HTMLCollection：</font><a href="https://developer.mozilla.org/en/DOM/document.getElementsByTagName" rel="nofollow"><font style="vertical-align: inherit;">https</font></a><font style="vertical-align: inherit;"> :
  </font></font><a href="https://developer.mozilla.org/en/DOM/document.getElementsByTagName" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">//developer.mozilla.org/en/DOM/document.getElementsByTagName</font></font></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">樱Harry</span>
@@ -234,18 +214,14 @@ alert(i); // Will print "length", "item" and "namedItem" in addition to your ele
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果需要索引器进行相对比较，则用于。</font><font style="vertical-align: inherit;">（即与上一个/下一个项目相比如何？）</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我从未注意到性能差异。</font><font style="vertical-align: inherit;">我会等到出现性能问题后再担心它。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">斯丁Green</span>
             <span class="discuss-time">2020.03.13</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">使用</font></font><em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">for（myArray中的var i），</font></font></em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">您也可以循环对象，</font></font><em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我</font></font></em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">将包含键名，并且可以通过</font></font><em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">myArray [i]</font></font></em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">访问该属性</font><font style="vertical-align: inherit;">。</font><font style="vertical-align: inherit;">另外，您将添加到对象中的任何方法也将包含在循环中，即，如果您使用任何外部框架（如jQuery或原型），或者如果直接将方法添加到对象原型，则</font></font><em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我</font></font></em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">将指向这些方法。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">逆天前端</span>
@@ -274,9 +250,7 @@ Object.keys(tst).forEach(function (val) {<font></font>
     console.log(val + tst[val]);<font></font>
 });<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Sam神乐番长</span>
@@ -294,9 +268,7 @@ Object.keys(tst).forEach(function (val) {<font></font>
     }<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小小小胖</span>
@@ -319,9 +291,7 @@ for (var i = 0; i &lt; array.length; ++i) {<font></font>
   // Behavior when loop body modifies array is clearer.<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Tom小小蛋蛋</span>
@@ -337,18 +307,14 @@ for (var i = 0; i &lt; array.length; ++i) {<font></font>
 </code></pre>
 
 <p><a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Array/forEach" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">有关array.forEach（）的完整文档，请访问MDN。</font></font></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Davaid梅</span>
             <span class="discuss-time">2020.03.13</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">请注意，本机Array.forEach方法现已</font></font><a href="http://kangax.github.com/es5-compat-table/"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">得到广泛支持</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">L神无Mandy</span>
@@ -369,9 +335,7 @@ for (var i = 0; i &lt; array.length; ++i) {<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">除非您有惊天动地的理由，否则请遵循既定的使用模式。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">GIZO-俊宏</span>
@@ -390,9 +354,7 @@ for (var i = 0; i &lt; array.length; ++i) {<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">但是，除非您的数组很大，否则您必须不断地循环它们，否则它们的速度都足够快。</font><font style="vertical-align: inherit;">我严重怀疑数组循环是否会成为您项目中的瓶颈（或任何其他与此项目有关的项目）</font></font></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

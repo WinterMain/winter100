@@ -47,7 +47,7 @@ Vue.use(VueNativeSock, 'wss://dev.example.com/websocket/ws/connect', { store: st
 webpack，正如我所见</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第3820篇《将Vuex与Nuxt和Vue-Native-Websocket一起使用》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第3820篇《将Vuex与Nuxt和Vue-Native-Websocket一起使用》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}

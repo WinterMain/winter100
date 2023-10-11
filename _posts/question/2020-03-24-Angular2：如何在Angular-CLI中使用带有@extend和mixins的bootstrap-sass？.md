@@ -54,7 +54,7 @@ vendorNpmFiles: [<font></font>
 </ol></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第3447篇《Angular2：如何在Angular-CLI中使用带有@extend和mixins的bootstrap-sass？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第3447篇《Angular2：如何在Angular-CLI中使用带有\`extend和mixins的bootstrap-sass？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}

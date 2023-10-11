@@ -17,7 +17,7 @@ topic: React.js
     <div class="article-content"><p><font style="vertical-align: inherit;"></font><code>this.setState()</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">使用redux时</font><font style="vertical-align: inherit;">应该</font><font style="vertical-align: inherit;">使用吗？</font><font style="vertical-align: inherit;">还是应该一直在派遣行动并依靠道具？</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第996篇《使用redux时应该使用this.setState（）吗？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第996篇《使用redux时应该使用this.setState（）吗？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -32,9 +32,7 @@ topic: React.js
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">其他示例可能包括层次结构的手风琴显示中线条的折叠/展开状态。</font><font style="vertical-align: inherit;">或选项卡导航中当前选择的选项卡。</font><font style="vertical-align: inherit;">但是，在这两个示例中，您仍可能选择全局处理UI状态。</font><font style="vertical-align: inherit;">例如，如果您想将扩展/折叠状态保留在浏览器存储中，以便通过页面刷新来保存它，则将是必需的。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">实际上，通常最简单的方法是使用局部状态实现此类UI元素，然后根据需要将其重构为全局状态。</font></font></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

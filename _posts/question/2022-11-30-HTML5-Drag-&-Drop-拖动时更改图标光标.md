@@ -19,7 +19,7 @@ topic: JavaScript
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">谢谢！</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第4293篇《HTML5 Drag & Drop 拖动时更改图标/光标》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第4293篇《HTML5 Drag & Drop 拖动时更改图标/光标》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -34,9 +34,7 @@ topic: JavaScript
     event.preventDefault();<font></font>
 });<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小胖Gil</span>
@@ -45,18 +43,14 @@ topic: JavaScript
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我试图达到同样的目的，但找不到真正好的解决方案。</font><font style="vertical-align: inherit;">我最后所做的是为 dataTransfer 设置一个图像，并在每次操作时更改其 src。</font><font style="vertical-align: inherit;">这样，行为至少在浏览器之间是一致的。</font><font style="vertical-align: inherit;">这是我用作参考的页面的链接：</font></font></p>
 
 <p><a href="https://kryogenix.org/code/browser/custom-drag-image.html" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">https://kryogenix.org/code/browser/custom-drag-image.html</font></font></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">十刃</span>
             <span class="discuss-time">2022.11.30</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><a href="https://developer.mozilla.org/en-US/docs/Web/API/DataTransfer/dropEffect#javascript_content" rel="nofollow noreferrer"><font style="vertical-align: inherit;">如MDN中所述，</font></a></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">当且仅当</font></font></strong> <code>ev.preventDefault()</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">对所有更改</font></font><code>dropEffect</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">（不要调用它</font></font><code>dragstart</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">）的事件调用时</font><font style="vertical-align: inherit;">，接受的答案才有效</font></font><a href="https://developer.mozilla.org/en-US/docs/Web/API/DataTransfer/dropEffect#javascript_content" rel="nofollow noreferrer"><font style="vertical-align: inherit;"></font></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">朔风</span>
@@ -80,9 +74,7 @@ topic: JavaScript
         <span class="hljs-attribute">cursor</span>: -webkit-grabbing;<font></font>
     }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">番长</span>
@@ -99,9 +91,7 @@ topic: JavaScript
 
 <pre class="default s-code-block"><code class="hljs language-ini"><span class="hljs-attr">event.dataTransfer.dropEffect</span> = <span class="hljs-string">"copy"</span><span class="hljs-comment">;</span>
 </code></pre></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

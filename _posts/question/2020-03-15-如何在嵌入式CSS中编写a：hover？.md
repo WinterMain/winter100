@@ -21,7 +21,7 @@ topic: HTML
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">例如，您不能在HTML电子邮件中可靠地使用CSS类。</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第1630篇《如何在嵌入式CSS中编写a：hover？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第1630篇《如何在嵌入式CSS中编写a：hover？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -38,9 +38,7 @@ topic: HTML
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">2行，但您可以在任何地方重用该类。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">null</span>
@@ -50,9 +48,7 @@ topic: HTML
 
 <pre><code>a:hover {color:#FF00FF;}   /* Mouse-over link */
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小胖蛋蛋</span>
@@ -91,9 +87,7 @@ a:hover {<font></font>
 </div>
 </div>
 <p></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">西里Stafan小哥</span>
@@ -118,9 +112,7 @@ a:hover {<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">您可能不需要 </font></font><code>!important</code></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">神奇启人</span>
@@ -129,9 +121,7 @@ a:hover {<font></font>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我同意</font></font><em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">影子</font></font></em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font><font style="vertical-align: inherit;">您可以使用</font></font><code>onmouseover</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">and </font></font><code>onmouseout</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">事件</font><font style="vertical-align: inherit;">通过JavaScript </font><font style="vertical-align: inherit;">更改</font></font><a href="http://en.wikipedia.org/wiki/Cascading_Style_Sheets" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">CSS</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">而且不要说人们需要激活JavaScript。</font><font style="vertical-align: inherit;">这只是一个样式问题，因此，是否有一些没有JavaScript的访问者都没有关系；）尽管大多数</font></font><a href="https://en.wikipedia.org/wiki/Web_2.0" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Web 2.0</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">使用JavaScript。</font><font style="vertical-align: inherit;">例如，</font><font style="vertical-align: inherit;">参见</font></font><a href="http://en.wikipedia.org/wiki/Facebook" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Facebook</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">（许多JavaScript）或</font></font><a href="http://en.wikipedia.org/wiki/Myspace" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Myspace</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Itachi卡卡西</span>
@@ -142,9 +132,7 @@ a:hover {<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我的问题：我</font></font><code>&lt;a&gt;</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在一些幻灯片/主要内容查看器周围</font><font style="vertical-align: inherit;">有一个</font></font><code>&lt;a&gt;</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">标签，在页脚中</font><font style="vertical-align: inherit;">也有一个</font><font style="vertical-align: inherit;">标签</font><font style="vertical-align: inherit;">。</font><font style="vertical-align: inherit;">我希望它们在IE中位于同一位置，因此</font></font><code>onHover</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">即使它们不是链接，</font><font style="vertical-align: inherit;">整个段落也都带有下划线</font><font style="vertical-align: inherit;">：幻灯片整体是一个链接。</font><font style="vertical-align: inherit;">IE不知道区别。</font><font style="vertical-align: inherit;">我的页脚中也有一些实际的链接，这些链接确实需要下划线和颜色更改</font></font><code>onHover</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font><font style="vertical-align: inherit;">我以为我必须将样式与页脚标记内联以进行颜色更改，但是从上面的建议来看，这是不可能的。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">解决方案：我为页脚链接提供了两个不同的类，而我的问题已解决。</font><font style="vertical-align: inherit;">我能够</font></font><code>onHover</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在一类中</font><font style="vertical-align: inherit;">进行</font><font style="vertical-align: inherit;">颜色更改，使幻灯片</font></font><code>onHover</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">没有颜色更改/下划线，并且仍然能够在页脚和幻灯片中同时具有外部HREFS！</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">启人乐</span>
@@ -153,18 +141,14 @@ a:hover {<font></font>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">没有办法做到这一点。</font><font style="vertical-align: inherit;">您的选择是使用JavaScript或CSS块。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">也许有一些JavaScript库会将专有的style属性转换为style block。</font><font style="vertical-align: inherit;">但是，这样的代码将不符合标准。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">神奇乐</span>
             <span class="discuss-time">2020.03.15</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">根据您的评论，无论如何，您正在发送一个JavaScript文件。</font><font style="vertical-align: inherit;">在JavaScript中进行过渡。</font></font><a href="http://en.wikipedia.org/wiki/JQuery" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">jQuery</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">的</font></font><code>$.hover()</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">方法非常简单，其他所有JavaScript包装器也是如此。</font><font style="vertical-align: inherit;">在直接的JavaScript中也不是很难。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">YOC36540264</span>
@@ -175,9 +159,7 @@ a:hover {<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">悬停是伪类，因此不能与样式属性一起应用。</font><font style="vertical-align: inherit;">它是选择器的一部分。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">L卡卡西米亚</span>
@@ -187,9 +169,7 @@ a:hover {<font></font>
 
 <pre><code>style="cursor: pointer;"
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Itachi村村</span>
@@ -204,9 +184,7 @@ a:hover {<font></font>
 &lt;/style&gt;<font></font>
 &lt;a href="/foo" class="myLinkClass"&gt;Foo!&lt;/a&gt;<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Stafan神无前端</span>
@@ -230,9 +208,7 @@ a:hover {<font></font>
   &lt;a id="uniqueid"&gt;hello&lt;/a&gt;<font></font>
 &lt;/html&gt;<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">APro</span>
@@ -259,18 +235,14 @@ a:hover {<font></font>
 <p></p>
 
 <p>In this case, the inline code: "background-color: red;" is the switch colour on hover, put the colour you need into there and then this solution works. I realise this may not be the perfect solution in terms of compatibility however this works if it is absolutely needed.</p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">斯丁Eva</span>
             <span class="discuss-time">2020.03.15</span>
           </div>
           <div class="discuss-comment"><p><a href="http://www.w3.org/TR/2002/WD-css-style-attr-20020515" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">您可以</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在过去的某个时间</font><a href="http://www.w3.org/TR/2002/WD-css-style-attr-20020515" rel="noreferrer"><font style="vertical-align: inherit;">做到</font></a><font style="vertical-align: inherit;">。</font><font style="vertical-align: inherit;">但是现在（根据同一标准的最新修订版，即候选推荐标准），您不能这样做。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">路易Davaid</span>
@@ -300,9 +272,7 @@ a:hover {<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">注意：以上假设存在</font></font><a href="https://en.wikipedia.org/wiki/HTML_element#Document_structure_elements" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">头部</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

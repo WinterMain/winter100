@@ -17,7 +17,7 @@ topic: Vue.js
     <div class="article-content"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我正在使用vue-router，并希望匹配两个非常不同的路径。</font><font style="vertical-align: inherit;">我可以使用某种数组符号吗？</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第1611篇《（VueJS）vue-router匹配多个路径》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第1611篇《（VueJS）vue-router匹配多个路径》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}

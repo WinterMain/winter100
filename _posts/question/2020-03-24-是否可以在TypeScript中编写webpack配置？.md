@@ -19,7 +19,7 @@ topic: Webpack
 <p><a href="https://www.samyoc.com//uploads/users/6912/images/thumbnails/1585031031339.png" data-src="https://www.samyoc.com//uploads/users/6912/images/1585031031339.png" rel="noreferrer"><img src="https://i.stack.imgur.com/GEsxc.png" alt="在此处输入图片说明"></a></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第3367篇《是否可以在TypeScript中编写webpack配置？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第3367篇《是否可以在TypeScript中编写webpack配置？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -103,9 +103,7 @@ export default configurationBuilder;<font></font>
 <blockquote>
   <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">webpack --env.prod</font></font></p>
 </blockquote></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">番长</span>
@@ -114,9 +112,7 @@ export default configurationBuilder;<font></font>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我在webpack源代码中找不到任何线索，您可以将</font></font><code>webpack.config.ts</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">文件直接用作项目的配置。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">当然，由于TypeScript只是Javascript的超集，因此您始终可以使用TypeScript编写您的脚本</font></font><code>webpack.config.ts</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">并将其转换为有效的Javascript </font></font><code>webpack.config.js</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">文件。</font></font></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

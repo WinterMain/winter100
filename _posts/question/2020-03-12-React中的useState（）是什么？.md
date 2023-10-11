@@ -48,7 +48,7 @@ function Example() {<font></font>
 </code></pre></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第1177篇《React中的useState（）是什么？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第1177篇《React中的useState（）是什么？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -89,9 +89,7 @@ const setCount = () =&gt; {<font></font>
 <p><a href="https://enmascript.com/articles/2018/10/26/react-conf-2018-understanding-react-hooks-proposal-with-simple-examples" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我写了多个例子挂钩一个完整的文章</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">（包括计数器）如</font></font><a href="https://codepen.io/enmanuelduran/pen/LgMomz" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">本codepen</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，我利用了</font></font><code>useState</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，</font></font><code>useEffect</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，</font></font><code>useContext</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，和</font></font><em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">自定义挂钩</font></font></em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font><font style="vertical-align: inherit;">我可以深入了解有关钩子如何工作的详细信息，但是文档在解释</font></font><a href="https://reactjs.org/docs/hooks-overview.html#-state-hook" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">状态钩子</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">和其他钩子方面</font><font style="vertical-align: inherit;">做得很好</font><font style="vertical-align: inherit;">，希望对您有所帮助。</font></font></p>
 
 <p><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">更新：</font></font></strong> <a href="https://github.com/facebook/react/blob/master/CHANGELOG.md#1680-february-6-2019" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">钩子不再是一个建议</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，因为版本</font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">16.8</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">可以使用了，因此React网站上有一个部分可以回答一些</font></font><a href="https://reactjs.org/docs/hooks-faq.html" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">FAQ</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">前端Eva</span>
@@ -118,9 +116,7 @@ const setCount = () =&gt; {<font></font>
 </div>
 </div>
 <p></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">西里猴子</span>
@@ -134,9 +130,7 @@ const setCount = () =&gt; {<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">然后，这使您可以调用</font></font><code>setLoading</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">传递布尔值。</font><font style="vertical-align: inherit;">这是拥有“有状态”功能组件的一种很酷的方法。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">古一GO</span>
@@ -145,18 +139,14 @@ const setCount = () =&gt; {<font></font>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">useState（）是内置的React挂钩示例，可让您在功能组件中使用状态。</font><font style="vertical-align: inherit;">在React 16.7之前这是不可能的。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">useState函数是一个内置的挂钩，可以从react包中导入。</font><font style="vertical-align: inherit;">它允许您向功能组件添加状态。</font><font style="vertical-align: inherit;">使用功能组件内部的useState挂钩，您可以创建一条状态，而无需切换到类组件。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">古一老丝宝儿</span>
             <span class="discuss-time">2020.03.12</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">挂钩是</font></font><code>React v16.7.0-alpha</code> <code>useState</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">“挂钩” </font><font style="vertical-align: inherit;">中的一个新功能</font><font style="vertical-align: inherit;">。</font></font><code>useState()</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">设置any变量的默认值并在函数组件（PureComponent函数）中进行管理。  </font></font><code>ex : const [count, setCount] = useState(0);</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">设置计数0的默认值。并且u可以使用</font></font><code>setCount</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">to </font></font><code>increment</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">或</font></font><code>decrement</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">该值。</font></font><code>onClick={() =&gt; setCount(count + 1)}</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">增加计数值。</font></font><a href="https://reactjs.org/docs/hooks-overview.html" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">DOC</font></font></a></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

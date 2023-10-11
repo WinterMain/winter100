@@ -21,7 +21,7 @@ topic: Vue.js
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">用生成的Vue项目中</font><font style="vertical-align: inherit;">的</font></font><code>views</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">和</font></font><code>components</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">文件夹有</font><font style="vertical-align: inherit;">什么区别</font></font><a href="https://github.com/vuejs/vue-cli" rel="noreferrer"><code>vue-cli</code></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">？</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第414篇《Vue项目中的views和components文件夹有什么区别？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第414篇《Vue项目中的views和components文件夹有什么区别？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -40,18 +40,14 @@ topic: Vue.js
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">组件是类似于asp.net Web表单的用户控件。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">它只是为了更好地维护和可读性而构造代码。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">神无LEYMandy</span>
             <span class="discuss-time">2020.03.10</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我认为这更多是一种惯例。</font><font style="vertical-align: inherit;">可重复使用的内容可以保存在src / components文件夹中，而与路由器绑定的内容可以保存在src / views中</font></font></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

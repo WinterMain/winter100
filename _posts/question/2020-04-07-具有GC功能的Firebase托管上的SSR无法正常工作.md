@@ -76,7 +76,7 @@ exports.nuxtApp = functions.https.onRequest(app)<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">当使用Firebase Serve在本地进行测试时，它可以工作，但是它仅呈现基本URL，</font></font><code>/</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">而没有其他任何内容，而且我没有诸如scss文件或应用清单的静态资产。</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第4137篇《具有GC功能的Firebase托管上的SSR无法正常工作》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第4137篇《具有GC功能的Firebase托管上的SSR无法正常工作》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}

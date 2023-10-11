@@ -25,7 +25,7 @@ topic: Ckeditor
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我认为可以在中关闭这种令人讨厌的行为</font></font><code>config.js</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，但是我一直在挖掘并且无法在文档中找到任何内容来关闭它。</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第4267篇《CKEditor自动从div中剥离类》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第4267篇《CKEditor自动从div中剥离类》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -42,27 +42,21 @@ topic: Ckeditor
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">facebook = span.icon-facebook2</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">还要检查是否启用了字体样式按钮</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">飞云</span>
             <span class="discuss-time">2020.08.03</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我想添加此config.allowedContent = true; </font><font style="vertical-align: inherit;">需要添加到ckeditor.config.js文件而不是config.js，config.js对我没有任何帮助，但将其添加到ckeditor.config.js的顶部区域使我的div类</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">番长</span>
             <span class="discuss-time">2020.08.03</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我发现切换为使用完整html而不是过滤的html（在“文本格式”下拉框中的编辑器下方）对我来说已解决了此问题。</font><font style="vertical-align: inherit;">否则，样式将消失。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Vicky</span>
@@ -77,9 +71,7 @@ topic: Ckeditor
 <p><img src="https://i.stack.imgur.com/BEBwj.png" alt="在此处输入图片说明"></p>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">不要忘记在“性能”标签下刷新缓存。</font></font></p>
 </blockquote></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Me无敌小哥</span>
@@ -88,9 +80,7 @@ topic: Ckeditor
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">请参考</font></font><a href="http://docs.ckeditor.com/#!/guide/dev_advanced_content_filter" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">官方的高级内容过滤器指南</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">和</font></font><a href="http://docs.ckeditor.com/#!/guide/plugin_sdk_integration_with_acf" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">插件集成教程</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">关于此强大功能，您会发现更多。</font><font style="vertical-align: inherit;">另请参阅</font></font><a href="http://docs.ckeditor.com/#!/api/CKEDITOR.config-cfg-extraAllowedContent" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">config.extraAllowedContent</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，它看起来很适合您的需求。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">别坑我</span>
@@ -99,9 +89,7 @@ topic: Ckeditor
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这在ckeditor中称为ACF（自动内容过滤器）。它会删除所有不必要的标记，即我们在文本内容中使用的标记。在config.js文件中使用此命令应关闭此ACK。</font></font></p>
 
 <pre class="default prettyprint prettyprinted" style=""><code><span class="pln">config</span><span class="pun">.</span><span class="pln">allowedContent </span><span class="pun">=</span><span class="pln"> </span><span class="kwd">true</span><span class="pun">;</span></code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">null</span>
@@ -116,9 +104,7 @@ topic: Ckeditor
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">尝试将以下行放在config.js中</font></font></p>
 
 <pre class="default prettyprint prettyprinted" style=""><code><span class="pln">config</span><span class="pun">.</span><span class="pln">ignoreEmptyParagraph </span><span class="pun">=</span><span class="pln"> </span><span class="kwd">false</span><span class="pun">;</span></code></pre></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

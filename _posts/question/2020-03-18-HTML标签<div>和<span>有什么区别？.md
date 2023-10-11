@@ -17,7 +17,7 @@ topic: HTML
     <div class="article-content"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我想问一些简单的例子，说明</font></font><code>&lt;div&gt;</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">and </font><font style="vertical-align: inherit;">的用法</font></font><code>&lt;span&gt;</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font><font style="vertical-align: inherit;">我看过他们都用来标记网页的有一个部分</font></font><code>id</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">或</font></font><code>class</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，但我想知道是否有当一个优于其他倍。</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第2200篇《HTML标签<div>和<span>有什么区别？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第2200篇《HTML标签<div>和<span>有什么区别？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -38,9 +38,7 @@ topic: HTML
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">所述</font></font><code>&lt;span&gt;</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">标签用于标识文档的一个内联区段/分。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">例如，可以使用span标签将嵌入式象形文字添加到元素中。 </font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">猿神乐A</span>
@@ -74,9 +72,7 @@ topic: HTML
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">根据您的要求，两者都有使用的时间和情况。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">希望答案清楚。</font><font style="vertical-align: inherit;">谢谢。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Itachi猪猪</span>
@@ -113,9 +109,7 @@ topic: HTML
 <p><a href="https://www.w3.org/TR/2018/SPSD-html32-20180315/#center" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">HTML 3.2规范</font></font></a></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">简而言之，这两个元素都是出于对语义上更通用的容器的需求。</font><font style="vertical-align: inherit;">提议将Span用作</font></font><code>&lt;text&gt;</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">样式元素</font><font style="vertical-align: inherit;">的更通用替代</font><font style="vertical-align: inherit;">。</font><font style="vertical-align: inherit;">提出Div是一种划分页面的通用方法，它具有替换</font></font><code>&lt;center&gt;</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">标签以使内容居中对齐的其他</font><font style="vertical-align: inherit;">好处</font><font style="vertical-align: inherit;">。</font><font style="vertical-align: inherit;">由于Div作为页分隔符的历史，它一直是一个块元素。</font><font style="vertical-align: inherit;">Span一直是内联元素，因为其最初的目的是文本样式，而今天div和span都已成为具有默认block和inline display属性的通用元素。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小小卡卡西小卤蛋</span>
@@ -124,18 +118,14 @@ topic: HTML
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我想说的是，如果您知道西班牙语，可以在</font></font><a href="http://developer.mozilla.org/es/HTML/Elemento/span#div_y_span" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">此页面</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">中找到适当的解释。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">但是，一个快速的定义</font></font><code>div</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">是用于划分部分，并且</font></font><code>span</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">将某种样式应用于其他块元素（例如）中的元素</font></font><code>div</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">伽罗逆天</span>
             <span class="discuss-time">2020.03.18</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Div是一个块元素，而span是一个内联元素，其宽度取决于其自身的内容，而div不</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">木禾</span>
@@ -155,9 +145,7 @@ topic: HTML
 <pre><code>&lt;span style="display: block"&gt;&lt;p&gt;Still wrong&lt;/p&gt;&lt;/span&gt;<font></font>
 &lt;span&gt;&lt;p style="display: inline"&gt;Just as wrong&lt;/p&gt;&lt;/span&gt;<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">乐米亚</span>
@@ -180,9 +168,7 @@ a div.<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这表明，不仅</font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">要</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">一个div </font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">不</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">被使用内联，它根本不会产生预期的影响。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Mandy蛋蛋</span>
@@ -200,9 +186,7 @@ a div.<font></font>
 </ol>
 
 <p><font style="vertical-align: inherit;"></font><code>inline-block</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在游戏网站项目中，</font><font style="vertical-align: inherit;">我曾经</font><font style="vertical-align: inherit;">取得过巨大的成功。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">达蒙小胖</span>
@@ -213,9 +197,7 @@ a div.<font></font>
 <p><img src="https://i.stack.imgur.com/wA8PD.png" alt="div和span之间的差异"></p>
 
 <p><code>&lt;div&gt;</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">是一个块标签，</font></font><code>&lt;span&gt;</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">而是一个内联标签。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">神无小哥</span>
@@ -229,9 +211,7 @@ a div.<font></font>
 <li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">所以，你会怎么做时，有</font></font><em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">是</font></font></em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">没有意义的，你正在试图做的事情？</font><font style="vertical-align: inherit;">400px宽的列</font><font style="vertical-align: inherit;">没有</font></font><em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">意义，</font></font></em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">对吗？</font><font style="vertical-align: inherit;">您只希望文本列的宽度为400px，因为这适合您的设计。</font></font></li>
 <li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">因此，他们在HTML中又添加了两个元素：通用或无意义的元素</font></font><code>&lt;div&gt;</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">和</font></font><code>&lt;span&gt;</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，因为否则，人们会回到滥用确实具有意义的元素。</font></font></li>
 </ul></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小卤蛋前端</span>
@@ -250,9 +230,7 @@ a div.<font></font>
    &lt;p&gt;Nam &lt;span id="SomeSpecialText2"&gt;eget magna nec&lt;/span&gt; sapien fringilla euismod. Donec hendrerit.&lt;/p&gt; <font></font>
 &lt;/div&gt;<font></font>
 </code></pre></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

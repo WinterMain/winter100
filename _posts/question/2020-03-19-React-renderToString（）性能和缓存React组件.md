@@ -61,7 +61,7 @@ topic: React.js
 Thanks.</p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第2400篇《React renderToString（）性能和缓存React组件》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第2400篇《React renderToString（）性能和缓存React组件》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -108,9 +108,7 @@ console.log(Date.now() - start);<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">就我而言，这有助于将</font></font><code>renderToString()</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">时间从〜120ms </font><font style="vertical-align: inherit;">减少</font><font style="vertical-align: inherit;">到〜30ms。</font><font style="vertical-align: inherit;">（您仍然需要将1x </font></font><code>serialize()</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">的〜20ms加到总数上，这要在之前完成</font></font><code>renderToString()</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">）这是一个不错的快速改进。</font><font style="vertical-align: inherit;">-重要的是要记住，即使您不知道直接的影响，也要始终正确地做事！</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">JinJin达蒙</span>
@@ -127,9 +125,7 @@ console.log(Date.now() - start);<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">4）关于SEO，根据我6个月使用同构应用的经验。</font><font style="vertical-align: inherit;">Google Bot可以轻松阅读客户端React Web页面，所以我不确定为什么我们要烦恼服务器端渲染。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">5）保留</font></font><code>&lt;Head &gt;</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">and </font></font><code>&lt;Footer&gt;</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">作为静态字符串，或使用模板引擎（</font></font><a href="https://github.com/stevenvachon/handlebars-react" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Reactjs-handellbars</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">），仅渲染页面内容（它应保存一些渲染组件）。</font><font style="vertical-align: inherit;">如果是单页应用，则可以在中的每个导航中更新标题说明</font></font><code>Router.Run</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

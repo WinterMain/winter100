@@ -59,7 +59,7 @@ $(function() {<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我知道有人可以像这样将对象传递给函数，</font></font><code>$.when(deferred1, deferred2, ..., deferredX)</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">但是未知我要解决的实际问题中执行多少个Deferred对象。</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第1583篇《将一个Deferreds数组传递给$ .when（）》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第1583篇《将一个Deferreds数组传递给$ .when（）》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -89,9 +89,7 @@ $q.all(savePromises).then(<font></font>
 <p><a href="https://github.com/kriskowal/q/wiki/API-Reference#promiseall" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">https://github.com/kriskowal/q/wiki/API-Reference#promiseall</font></font></a></p>
 
 <p><a href="https://docs.angularjs.org/api/ng/service/%24q" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">https://docs.angularjs.org/api/ng/service/$q</font></font></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">神奇小小</span>
@@ -142,9 +140,7 @@ for (var i = 0; i &lt; someDataArray.length; i++) {<font></font>
 )<font></font>
 </code></pre></li>
 </ol></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">JinJin乐</span>
@@ -158,9 +154,7 @@ for (var i = 0; i &lt; someDataArray.length; i++) {<font></font>
 </code></pre>
 
 <p><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Spread_operator" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">MDN链接-传播语法</font></font></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小宇宙小小米亚</span>
@@ -174,9 +168,7 @@ $.when.apply($, arr);<font></font>
 </code></pre>
 
 <p><a href="https://stackoverflow.com/questions/4878887/how-do-you-work-with-an-array-of-jquery-deferreds"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">您如何使用jQuery Deferreds数组？</font></font></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Stafan卡卡西</span>
@@ -195,9 +187,7 @@ $.when.apply($, arr);<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在这两种情况下，由于您不太可能事先知道</font></font><code>.then</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">处理程序需要</font><font style="vertical-align: inherit;">多少个形式参数</font><font style="vertical-align: inherit;">，因此该处理程序将需要处理</font></font><code>arguments</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">数组以检索每个Promise的结果。</font></font></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

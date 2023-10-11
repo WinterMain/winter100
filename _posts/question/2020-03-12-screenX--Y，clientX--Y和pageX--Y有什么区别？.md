@@ -21,7 +21,7 @@ topic: JavaScript
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果您能指出一个例子，那就太好了。</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第979篇《screenX / Y，clientX / Y和pageX / Y有什么区别？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第979篇《screenX / Y，clientX / Y和pageX / Y有什么区别？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -32,9 +32,7 @@ topic: JavaScript
             <span class="discuss-time">2020.03.12</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">两者之间的差异将在很大程度上取决于您当前所指的浏览器。</font><font style="vertical-align: inherit;">每个属性都以不同的方式或根本没有实现这些属性。</font></font><a href="http://www.quirksmode.org/dom/w3c_cssom.html#mousepos" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Quirksmode</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">提供了很多有关W3C标准（例如DOM和JavaScript事件）的浏览器差异的文档。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">逆天TomHarry</span>
@@ -53,9 +51,7 @@ topic: JavaScript
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这里还有另一个关于视觉视口和布局视口之间差异的stackoverflow线程：</font></font><a href="https://stackoverflow.com/questions/6333927/difference-between-visual-viewport-and-layout-viewport"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">视觉视口和布局视口之间的差异？</font></font></a></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">另一个很好的资源：</font><a href="http://www.quirksmode.org/mobile/viewports2.html" rel="noreferrer"><font style="vertical-align: inherit;">http</font></a><font style="vertical-align: inherit;"> : </font></font><a href="http://www.quirksmode.org/mobile/viewports2.html" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">//www.quirksmode.org/mobile/viewports2.html</font></font></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">斯丁斯丁</span>
@@ -108,9 +104,7 @@ of the mouse pointer.&lt;/p&gt;<font></font>
 </div>
 </div>
 <p></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">LEYEvaL</span>
@@ -131,9 +125,7 @@ of the mouse pointer.&lt;/p&gt;<font></font>
 <h2><a href="http://jsbin.com/oRIDUXE/1/"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">观看演示</font></font></a></h2>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">您可能永远都不需要 </font></font><code>screenX/Y</code></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

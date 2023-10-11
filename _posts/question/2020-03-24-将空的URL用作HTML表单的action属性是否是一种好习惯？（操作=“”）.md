@@ -19,7 +19,7 @@ topic: HTML
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这里有</font></font><a href="https://stackoverflow.com/questions/641292/html-forms-without-actions"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">一篇帖子问空白的HTML表单动作是做什么的，</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">并且像</font></font><a href="http://www.thefutureoftheweb.com/blog/use-empty-form-action-submit-to-current" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这样的</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">一些页面</font><font style="vertical-align: inherit;">表明它很好，但是我想知道人们的想法。</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第3697篇《将空的URL用作HTML表单的action属性是否是一种好习惯？（操作=“”）》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第3697篇《将空的URL用作HTML表单的action属性是否是一种好习惯？（操作=“”）》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -30,18 +30,14 @@ topic: HTML
             <span class="discuss-time">2020.03.24</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">当我使用Classic ASP时，我经常这样做。</font><font style="vertical-align: inherit;">通常，当需要某种形式的服务器端验证作为输入时（在AJAX时代之前），我会使用它。</font><font style="vertical-align: inherit;">我看到的主要缺点是，它没有在文件级别将编程逻辑与表示分离开来。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">乐泡芙</span>
             <span class="discuss-time">2020.03.24</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我以前根本不指定动作属性。</font><font style="vertical-align: inherit;">实际上是我的框架的设计方式，所有页面都精确地提交回相同的地址。</font><font style="vertical-align: inherit;">但是今天我发现了问题。</font><font style="vertical-align: inherit;">有时我借用动作属性值来进行一些后台调用（我猜有些人将它们命名为AJAX）。</font><font style="vertical-align: inherit;">因此，我发现如果未指定动作属性，IE会将动作属性值保持为空。</font><font style="vertical-align: inherit;">根据我的理解，这有点奇怪，因为如果未指定action属性，则JavaScript对应项至少必须未定义。</font><font style="vertical-align: inherit;">无论如何，我的意思是选择最佳实践之前，您需要了解更多上下文，例如是否在JavaScript中使用该属性。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小卤蛋Tom</span>
@@ -57,9 +53,7 @@ topic: HTML
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">它不违反HTML5标准。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">SamGil</span>
@@ -68,9 +62,7 @@ topic: HTML
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我认为最好</font></font><em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">明确</font></font></em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">声明表单的发布位置。</font><font style="vertical-align: inherit;">如果您想完全安全，则要在表单中将表单提交回自身，请在action属性中输入与表单相同的URL。</font><font style="vertical-align: inherit;">尽管主流浏览器的评估结果</font></font><code>""</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">是相同的，但您不能保证非主流浏览</font><font style="vertical-align: inherit;">器的评估结果</font><font style="vertical-align: inherit;">会相同。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">当然，整个URL包括Juddling之类的GET数据也会指出。 </font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">泡芙</span>
@@ -80,9 +72,7 @@ topic: HTML
 
 <pre><code>&lt;form action="#"&gt;
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">伽罗</span>
@@ -102,9 +92,7 @@ topic: HTML
 <ul>
 <li><a href="http://blog.andlabs.org/2010/03/bypassing-csrf-protections-with.html" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">通过ClickJacking和HTTP参数污染绕过CSRF保护</font></font></a></li>
 </ul></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">卡卡西猪猪</span>
@@ -126,9 +114,7 @@ topic: HTML
 
 <pre><code>&lt;form action="#"&gt;
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">卡卡西</span>
@@ -147,18 +133,14 @@ topic: HTML
 </blockquote>
 
 <p>The change from HTML4—which did allow an empty URL—was made because “<a href="https://www.w3.org/Bugs/Public/show_bug.cgi?id=14215#c1" rel="noreferrer">browsers do weird things with an empty <code>action=""</code> attribute</a>”. Considering the reason for the change, its probably best not to do that in HTML4 either.</p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Mandy村村</span>
             <span class="discuss-time">2020.03.24</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我通常使用action =“”，它是XHTML有效的，并将GET数据保留在URL中。</font></font></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

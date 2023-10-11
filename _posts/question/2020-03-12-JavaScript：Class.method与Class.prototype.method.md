@@ -23,7 +23,7 @@ Class.prototype.method = function () { /* code using this.values */ }<font></fon
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">是否可以将第一条语句视为静态方法的声明，而将第二条语句视为实例方法的声明，可以吗？</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第1248篇《JavaScript：Class.method与Class.prototype.method》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第1248篇《JavaScript：Class.method与Class.prototype.method》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -100,9 +100,7 @@ Person.prototype.sayHi = function() {<font></font>
 <p><code>aminu.sayHi(); // will return "Hi Aminu"</code></p>
 
 <p><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">注意：</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这两个示例本质上是相同的，JavaScript仍然是一种无类语言。</font><font style="vertical-align: inherit;">在</font></font><code>class</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">中介绍</font></font><em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">ES6</font></font></em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">主要是在现有的基于原型的继承模型是语法糖。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">乐米亚</span>
@@ -113,9 +111,7 @@ Person.prototype.sayHi = function() {<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这就是原型节省内存的原因。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">另外，如果您更改父对象的属性，并且未更改子对象的相应属性，则会对其进行更新。</font></font></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

@@ -23,7 +23,7 @@ topic: TypeScript
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">有人可以通过此设置（Angular 2，TypeScript，systemjs）共享其构建过程吗？</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第4238篇《我如何实际部署Angular 2 + Typescript + systemjs应用程序？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第4238篇《我如何实际部署Angular 2 + Typescript + systemjs应用程序？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -41,9 +41,7 @@ topic: TypeScript
 <li><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在存储桶的“属性”标签下，找到“静态网站托管”面板，选中“使用此存储桶托管网站”选项，然后为索引文档和错误文档指定“ index.html”。</font></font></p></li>
 <li><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">单击静态网站Endpoint，您的项目运行良好！</font></font></p></li>
 </ol></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小小</span>
@@ -51,9 +49,7 @@ topic: TypeScript
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我在后端使用expressjs服务于ng2项目。</font><font style="vertical-align: inherit;">您可以从我的github页面检查它：</font><a href="https://github.com/echonax/ng2-beta-and-test-framework" rel="nofollow"><font style="vertical-align: inherit;">https</font></a><font style="vertical-align: inherit;"> :
  </font></font><a href="https://github.com/echonax/ng2-beta-and-test-framework" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">//github.com/echonax/ng2-beta-and-test-framework</font></font></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">千羽</span>
@@ -90,9 +86,7 @@ topic: TypeScript
 <pre class="lang-js prettyprint prettyprinted" style=""><code><span class="pln">ng build </span><span class="pun">--</span><span class="pln">prod </span><span class="pun">--</span><span class="pln">build</span><span class="pun">-</span><span class="pln">optimizer</span></code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">检查</font></font><a href="https://angular.io/guide/deployment#build-with---prod" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">文件</font></font></a> </p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

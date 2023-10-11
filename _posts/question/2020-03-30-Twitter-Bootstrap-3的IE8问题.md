@@ -255,7 +255,7 @@ topic: CSS
 </code></pre></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第3868篇《Twitter Bootstrap 3的IE8问题》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第3868篇《Twitter Bootstrap 3的IE8问题》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -313,9 +313,7 @@ module.exports = {<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">希望对你有帮助</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">蛋蛋猿</span>
@@ -326,9 +324,7 @@ module.exports = {<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果您使用</font></font><code>LESS</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">或</font></font><code>SASS</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">不想贪图样式。</font><font style="vertical-align: inherit;">在我的项目中</font></font><code>bootstrap.min.css</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，我的主要样式</font><font style="vertical-align: inherit;">包含</font><font style="vertical-align: inherit;">在文件的顶部，因此所有样式都应该只有一个请求。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">因此，boostrap类无法正常工作。</font><font style="vertical-align: inherit;">当单独添加时，将按预期工作。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Stafan</span>
@@ -347,9 +343,7 @@ module.exports = {<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在Bootstrap 3.3.5上测试</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">链接下载   </font></font><a href="https://github.com/livingston/css3-mediaqueries-js" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">mediaqieries.js</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font><font style="vertical-align: inherit;">链接下载   </font></font><a href="https://github.com/coliff/bootstrap-ie7" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">bootstrap-ie7.css</font></font></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">JinJin</span>
@@ -369,9 +363,7 @@ module.exports = {<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">从主题设置使用CDN引导程序。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">要了解更多信息，请查看我的Drupal设计和开发网站博客</font></font><a href="http://www.devangsolanki.com" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">www.devangsolanki.com</font></font></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">泡芙</span>
@@ -400,9 +392,7 @@ module.exports = {<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果要在本地尝试...通过本地主机尝试，或创建质量检查服务器并设置内容并尝试。 </font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我们需要bootstrap 3的response.js，如果仅将其放入js并将其附加到标头中的html，它将无法在本地计算机上工作。</font><font style="vertical-align: inherit;">它将说访问被拒绝。</font><font style="vertical-align: inherit;">它仅通过服务器工作，因为IE具有安全限制。</font><font style="vertical-align: inherit;">：P</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">斯丁前端</span>
@@ -411,9 +401,7 @@ module.exports = {<font></font>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">只是抬起头来。</font><font style="vertical-align: inherit;">我有同样的问题，以上都不适合我。</font><font style="vertical-align: inherit;">最终，我发现</font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">response.js</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">无法解析通过</font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">@import</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">引用的CSS </font><font style="vertical-align: inherit;">。</font><font style="vertical-align: inherit;">我已经将整个</font></font><code>bootstrap.min.css</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">进口通过</font></font><code>@import</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我的</font></font><code>main.css</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">因此，请确保您没有任何包含通过</font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">@import</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">引用的媒体查询的CSS </font><font style="vertical-align: inherit;">。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">卡卡西</span>
@@ -430,9 +418,7 @@ module.exports = {<font></font>
 }<font></font>
 @import "twitter-bootstrap/less/bootstrap";<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">宝儿理查德</span>
@@ -458,9 +444,7 @@ module.exports = {<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">一旦我删除了空白行，并且没有神奇的X-UA-Compatible元，IE 10就开始正确渲染该网站。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果您使用的是PHP和Smarty，请谨慎对待Smarty注释，因为它们会添加那些有问题的空白行：-)</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">村村Mandy</span>
@@ -473,18 +457,14 @@ module.exports = {<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我把它直播在IE中不起作用。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">只是Bootstrap在他们的模板中没有包含那行代码，我不确定为什么，但这可能是因为它与W3C不兼容。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Gil</span>
             <span class="discuss-time">2020.03.30</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我已解决此问题。</font><font style="vertical-align: inherit;">实际上，IE7和8不正确支持@media，如果您检查css中的“ col-md- *”类，则宽度为992px。</font><font style="vertical-align: inherit;">只需创建一个新的CSS文件IE，例如：IE.css并添加条件注释。</font><font style="vertical-align: inherit;">然后，只需使用那里的任何媒体查询直接复制设计所需的类，就可以完成。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Gil</span>
@@ -505,9 +485,7 @@ module.exports = {<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">还要确保在本地目录中复制response.proxy.gif，response.min.js和response.proxy.js</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">ProGreen</span>
@@ -557,9 +535,7 @@ module.exports = {<font></font>
 &lt;/body&gt;<font></font>
 &lt;/html&gt;<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Tony凯</span>
@@ -574,18 +550,14 @@ module.exports = {<font></font>
 </blockquote>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">参考</font></font><a href="https://stackoverflow.com/questions/6771258/whats-the-difference-if-meta-http-equiv-x-ua-compatible-content-ie-edge-e"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">&lt;meta http-equiv =“ X-UA-Compatible” content =“ IE = edge”&gt;是做什么的？</font></font></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">JinJin</span>
             <span class="discuss-time">2020.03.30</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">不要忘了将CSS链接放在中，</font></font><code>&lt;head&gt;</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">因为</font></font><code>respond.js</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">只需那些</font><font style="vertical-align: inherit;">链接即可</font><font style="vertical-align: inherit;">。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">古一</span>
@@ -622,18 +594,14 @@ module.exports = {<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">仅仅是因为这就是Bootstrap网站本身所拥有的。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">西里Near</span>
             <span class="discuss-time">2020.03.30</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">以防万一。</font><font style="vertical-align: inherit;">加载css文件后，请确保加载IE特定的js文件。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">神乐</span>
@@ -661,9 +629,7 @@ module.exports = {<font></font>
   &lt;script src="../../assets/js/respond.min.js"&gt;&lt;/script&gt;<font></font>
 &lt;![endif]--&gt;<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">西里Mandy</span>
@@ -672,9 +638,7 @@ module.exports = {<font></font>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">放在</font></font><code>respond.js</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">页面底部但在关闭</font></font><code>body</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">标签</font><font style="vertical-align: inherit;">之前</font><font style="vertical-align: inherit;">，这是的链接，</font></font><code>respond.js</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">并在您的本地主机中运行此代码。</font></font></p>
 
 <p><a href="https://github.com/scottjehl/Respond" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">https://github.com/scottjehl/回复</font></font></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Tom凯</span>
@@ -699,9 +663,7 @@ module.exports = {<font></font>
   &lt;script src="/js/respond.min.js"&gt;&lt;/script&gt;<font></font>
 &lt;![endif]--&gt;<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">古一</span>
@@ -711,9 +673,7 @@ module.exports = {<font></font>
 
 <pre><code>&lt;meta http-equiv="X-UA-Compatible" content="IE=edge"&gt; 
 </code></pre></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

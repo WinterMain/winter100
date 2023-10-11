@@ -32,7 +32,7 @@ topic: HTML
 </ul></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第1493篇《<button>与<input type =“ button” />。使用哪个？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第1493篇《<button>与<input type =“ button” />。使用哪个？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -67,27 +67,21 @@ topic: HTML
 </ul>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">再次，检查W3参考以获取</font><a href="https://developer.mozilla.org/docs/Web/HTML/Element/Button" rel="nofollow noreferrer"><font style="vertical-align: inherit;">MDN</font></a><font style="vertical-align: inherit;">或</font><a href="http://www.w3schools.com/tags/tag_button.asp" rel="nofollow noreferrer"><font style="vertical-align: inherit;">W3Schools </font></a><a href="https://developer.mozilla.org/docs/Web/HTML/Element/Button" rel="nofollow noreferrer"><font style="vertical-align: inherit;">上</font></a><font style="vertical-align: inherit;">的</font></font><code>&lt;button&gt;</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">标签</font><font style="vertical-align: inherit;">。</font></font><a href="https://developer.mozilla.org/docs/Web/HTML/Element/Button" rel="nofollow noreferrer"><font style="vertical-align: inherit;"></font></a><font style="vertical-align: inherit;"></font><a href="http://www.w3schools.com/tags/tag_button.asp" rel="nofollow noreferrer"><font style="vertical-align: inherit;"></font></a><font style="vertical-align: inherit;"></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">有壳网</span>
             <span class="discuss-time">2020.03.13</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我只想在此处的其余答案中添加一些内容。</font><font style="vertical-align: inherit;">输入元素被认为是空元素或空元素（其他空元素是area，base，br，col，hr，img，input，link，meta和param。您也可以</font></font><a href="https://developer.mozilla.org/en-US/docs/Glossary/Empty_element" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在此处</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">检查</font><font style="vertical-align: inherit;">），这意味着它们不能包含任何内容。</font><font style="vertical-align: inherit;">除了没有任何内容外，空元素</font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">不能具有任何伪元素，例如:: after和:: before</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，我认为这是一个主要缺点。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">番长阿飞</span>
             <span class="discuss-time">2020.03.13</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">此外，差异之一可能来自库的提供者及其所编写的内容。</font><font style="vertical-align: inherit;">例如，在这里，我将Cordova平台与移动角度ui结合使用，并且虽然input / div / etc标签与ng-click可以很好地工作，但该按钮可能导致Visual Studio调试器崩溃，这肯定是程序员造成的差异。</font><font style="vertical-align: inherit;">请注意，MattC答案指向的是同一问题，jQuery只是一个库，提供程序没有想到一个元素上的功能，而他/他在另一个元素上提供了功能。</font><font style="vertical-align: inherit;">因此，当您使用图书馆时，您可能会遇到一个元素的问题，而您不会遇到另一个。</font></font><code>input</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">只是因为它更受欢迎，所以</font><font style="vertical-align: inherit;">像这样的受欢迎的</font><font style="vertical-align: inherit;">大多数将是固定的。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小欧学姐</span>
@@ -102,9 +96,7 @@ topic: HTML
   
   <p><em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">按钮元素-W3C</font></font></em></p>
 </blockquote></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Tony凯</span>
@@ -113,9 +105,7 @@ topic: HTML
           <div class="discuss-comment"><p><code>&lt;button&gt;</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">灵活，因为它可以包含HTML。</font><font style="vertical-align: inherit;">而且，使用CSS进行样式设置要容易得多，并且样式实际上已应用到所有浏览器中。</font><font style="vertical-align: inherit;">但是，有关Internet Explorer（Eww！IE！）有一些缺点。</font><font style="vertical-align: inherit;">Internet Explorer使用标记的内容作为值，无法正确检测到value属性。</font><font style="vertical-align: inherit;">表单中的所有值都发送到服务器端，无论是否单击该按钮。</font><font style="vertical-align: inherit;">这使得使用它既</font></font><code>&lt;button type="submit"&gt;</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">棘手又痛苦。</font></font></p>
 
 <p><code>&lt;input type="submit"&gt;</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">另一方面，它没有任何价值或检测问题，但是您不能像使用一样添加HTML </font></font><code>&lt;button&gt;</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font><font style="vertical-align: inherit;">这也很难设置样式，并且样式在所有浏览器中不一定总是响应良好。</font><font style="vertical-align: inherit;">希望这会有所帮助。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">达蒙Eva</span>
@@ -131,9 +121,7 @@ topic: HTML
 <blockquote>
   <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">当我们谈论IE时，有一些与按钮宽度有关的错误。</font><font style="vertical-align: inherit;">当您尝试添加样式时，它将神秘地添加额外的填充，这意味着您必须添加一个微小的技巧来控制一切。</font></font></p>
 </blockquote></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">米亚Near</span>
@@ -144,9 +132,7 @@ topic: HTML
 <blockquote>
   <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">使用BUTTON元素创建的按钮的功能与使用INPUT元素创建的按钮一样，但是它们提供了更丰富的呈现可能性：BUTTON元素可能具有内容。</font><font style="vertical-align: inherit;">例如，包含图像功能的BUTTON元素类似于并且可能类似于其类型设置为“图像”的INPUT元素，但是BUTTON元素类型允许内容。</font></font></p>
 </blockquote></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小小乐</span>
@@ -157,9 +143,7 @@ topic: HTML
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">由于</font><font style="vertical-align: inherit;">在某些情况下类</font><font style="vertical-align: inherit;">的</font></font><code>&lt;input type="button"&gt;</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">视觉呈现方式与</font></font><code>&lt;a&gt;</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">或</font><font style="vertical-align: inherit;">不同，因此</font></font><code>&lt;span&gt;</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我避免使用它们。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">值得注意的是，</font></font><a href="https://stackoverflow.com/questions/469059/button-vs-input-type-button-which-to-use/469084#469084"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">当前的最佳答案</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">是在2009年编写的。如今，IE6不再是一个问题，因此</font></font><code>&lt;button type="submit"&gt;Wins&lt;/button&gt;</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我眼中的样式一致性始终居于首位。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Sam伽罗</span>
@@ -168,18 +152,14 @@ topic: HTML
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果您使用的是jQuery，则会有很大的不同。</font><font style="vertical-align: inherit;">jQuery知道输入上的事件比按钮上的事件更多。</font><font style="vertical-align: inherit;">在按钮上，jQuery仅知道“单击”事件。</font><font style="vertical-align: inherit;">在输入上，jQuery知道“单击”，“焦点”和“模糊”事件。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">您总是可以根据需要将事件绑定到按钮，但是要知道jQuery自动知道的事件是不同的。</font><font style="vertical-align: inherit;">例如，如果您创建了一个在页面上出现“ focusin”事件时就执行的函数，则输入将触发该函数，但按钮不会触发。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">神无阳光</span>
             <span class="discuss-time">2020.03.13</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果要在表单中创建按钮，请使用输入元素中的按钮。</font><font style="vertical-align: inherit;">如果要为操作创建按钮，请使用按钮标签。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">MandyL</span>
@@ -194,9 +174,7 @@ topic: HTML
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">来自：</font><a href="http://www.w3schools.com/tags/tag_button.asp" rel="noreferrer"><font style="vertical-align: inherit;">http</font></a><font style="vertical-align: inherit;"> : </font></font><a href="http://www.w3schools.com/tags/tag_button.asp" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">//www.w3schools.com/tags/tag_button.asp</font></font></a></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果我理解正确，答案是浏览器之间的兼容性和输入一致性</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">TomSam</span>
@@ -214,9 +192,7 @@ topic: HTML
 reset  ||  "resets the fields in the form when clicked"<font></font>
 button ||  "clickable, but without any event handler until one is assigned"<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Green小哥Tom</span>
@@ -228,9 +204,7 @@ button ||  "clickable, but without any event handler until one is assigned"<font
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这是此元素和使用该</font></font><code>&lt;input&gt;</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">元素</font><font style="vertical-align: inherit;">创建的按钮之间的区别</font><font style="vertical-align: inherit;">。</font></font></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

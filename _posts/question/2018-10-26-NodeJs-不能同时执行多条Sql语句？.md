@@ -18,7 +18,7 @@ answer: 1
 </div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第90篇《NodeJs 不能同时执行多条Sql语句？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第90篇《NodeJs 不能同时执行多条Sql语句？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -37,9 +37,7 @@ var pool  = mysql.createPool({port:"..", host, "...", ... , multipleStatements: 
 
 <p>在配置中添加multipleStatements: true</p>
 </div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

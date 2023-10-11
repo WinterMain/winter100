@@ -17,7 +17,7 @@ topic: CSS
     <div class="article-content"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">是否可以仅使用CSS更改位于页面上iframe内的div的样式？</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第3405篇《使用CSS影响iframe中的div样式》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第3405篇《使用CSS影响iframe中的div样式》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -31,27 +31,21 @@ topic: CSS
 
 <pre><code>&lt;meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"&gt;
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小宇宙LEY</span>
             <span class="discuss-time">2020.03.24</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">从客户端不可能。</font><font style="vertical-align: inherit;">由于Iframe不属于您的域，因此将引发JavaScript错误“错误：拒绝访问属性“文档”的权限”。</font><font style="vertical-align: inherit;">唯一的解决方案是从服务器端代码获取页面并更改所需的CSS。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">番长猴子</span>
             <span class="discuss-time">2020.03.24</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">可能不是您的思维方式。</font><font style="vertical-align: inherit;">iframe也必须</font></font><code>&lt;link&gt;</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在css文件中。</font><font style="vertical-align: inherit;">而且，即使它位于其他域中，您也无法使用javascript做到这一点。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">西里Near</span>
@@ -67,9 +61,7 @@ topic: CSS
 <li><a href="http://www.w3schools.com/js/js_htmldom_html.asp" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">http://www.w3schools.com/js/js_htmldom_html.asp</font></font></a></li>
 <li><a href="http://www.w3schools.com/js/js_htmldom_css.asp" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">http://www.w3schools.com/js/js_htmldom_css.asp</font></font></a></li>
 </ul></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Tom阳光</span>
@@ -78,9 +70,7 @@ topic: CSS
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">快速的答案是：不，对不起。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">仅使用CSS是不可能的。</font><font style="vertical-align: inherit;">基本上，您需要控制iframe内容才能设置其样式。</font><font style="vertical-align: inherit;">有一些方法可以使用javascript或您选择的网络语言（我已经读过一些，但并不熟悉我自己）动态插入一些所需的样式，但是您需要直接控制iframe内容，听起来就像你没有。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Gil</span>
@@ -96,9 +86,7 @@ $("#iframe-id").contents().find("img").onclick(function(){ zoomit($(this)); });<
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">祝好运！</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">米亚</span>
@@ -107,9 +95,7 @@ $("#iframe-id").contents().find("img").onclick(function(){ zoomit($(this)); });<
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">简而言之，没有。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">您不能将CSS应用于iframe中加载的HTML，除非由于跨域资源限制而可以控制iframe中加载的页面。</font></font></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

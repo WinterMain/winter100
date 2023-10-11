@@ -45,7 +45,7 @@ xhr.send();<font></font>
 </code></pre></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第1445篇《如何解决错误：使用nodejs时监听EADDRINUSE？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第1445篇《如何解决错误：使用nodejs时监听EADDRINUSE？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -59,18 +59,14 @@ xhr.send();<font></font>
 
 <pre><code>Stop-Process -processname node
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">老丝GO</span>
             <span class="discuss-time">2020.03.13</span>
           </div>
           <div class="discuss-comment"><p>Two servers can not listen on same port, so check out if other server listening on same port, also check out for browser sync if its running on same port</p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Jim米亚西里</span>
@@ -88,9 +84,7 @@ xhr.send();<font></font>
 <li>You can check it with <code>sudo lsof -i tcp:8080</code></li>
 <li>If Yes, and You want to stop Jenkins only once, run: <code>sudo launchctl unload /Library/LaunchDaemons/org.jenkins-ci.plist</code></li>
 </ol></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">神奇Davaid</span>
@@ -112,9 +106,7 @@ xhr.send();<font></font>
 </code></pre>
 
 <p>to serve your project on a free port of you choice.</p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">凯JinJin</span>
@@ -126,9 +118,7 @@ xhr.send();<font></font>
 </code></pre>
 
 <p>I hope it helps </p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">LEY小卤蛋</span>
@@ -142,9 +132,7 @@ xhr.send();<font></font>
 <p>again. that works for me, some time just need to wait for a few second till it work again.</p>
 
 <p>But this works only on a developer machine instead of a server console..</p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">前端LEYLEY</span>
@@ -163,18 +151,14 @@ xhr.send();<font></font>
 
 <pre><code>kill process_id
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">梅番长</span>
             <span class="discuss-time">2020.03.13</span>
           </div>
           <div class="discuss-comment"><p>I have seen this error before (in node) with http.client, and as I recall, the problem had to do with not initializing the httpClient or setting bad options in the httpClient creation and/or in the url request.</p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">凯小卤蛋</span>
@@ -196,9 +180,7 @@ xhr.send();<font></font>
 <ol start="3">
 <li>Now you should be able to start again</li>
 </ol></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">猿西门Tom</span>
@@ -223,9 +205,7 @@ xhr.send();<font></font>
 <blockquote>
   <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">杀死-9 processId</font></font></p>
 </blockquote></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">卡卡西理查德</span>
@@ -235,9 +215,7 @@ xhr.send();<font></font>
 
 <pre><code>sudo lsof -t -i tcp:portNumber | xargs kill -9
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">西里小哥</span>
@@ -252,9 +230,7 @@ xhr.send();<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">tcp 0 0 IP地址：3000       </font></font><em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">：</font></font></em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">                      LISTEN 26869 / node</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">现在您可以杀死该进程sudo kill -9 26869</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">神乐Mandy小哥</span>
@@ -267,9 +243,7 @@ kill -9 $(lsof -t -i:3000);<font></font>
 kill PID <font></font>
 ex: kill 129393<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">HarryItachi</span>
@@ -281,9 +255,7 @@ ex: kill 129393<font></font>
 pkill node<font></font>
 npm start <font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">A小宇宙</span>
@@ -300,9 +272,7 @@ npm start <font></font>
 </blockquote>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">使用以上cmd杀死特定端口，然后运行服务器</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">null</span>
@@ -335,9 +305,7 @@ npm start <font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">注意：此解决方案适用于linux用户。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Green留姬</span>
@@ -355,9 +323,7 @@ node      17269 hientrq   19u  IPv4 0xc42959c71ae86fc1      0t0  TCP localhost:1
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">并运行 </font></font><code>kill -9 [YOUR_PID]</code></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小小仲羽</span>
@@ -367,9 +333,7 @@ node      17269 hientrq   19u  IPv4 0xc42959c71ae86fc1      0t0  TCP localhost:1
 
 <pre><code>sudo lsof -t -i tcp:8080 | xargs kill -9
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">GO飞云</span>
@@ -385,9 +349,7 @@ node      17269 hientrq   19u  IPv4 0xc42959c71ae86fc1      0t0  TCP localhost:1
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">理解以下资源可能会很有用：</font><a href="https://www.thegeekstuff.com/2009/12/4-ways-to-kill-a-process-kill-killall-pkill-xkill/" rel="noreferrer"><font style="vertical-align: inherit;">https</font></a><font style="vertical-align: inherit;"> :
  </font></font><a href="https://www.thegeekstuff.com/2009/12/4-ways-to-kill-a-process-kill-killall-pkill-xkill/" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">//www.thegeekstuff.com/2009/12/4-ways-to-kill-a-process-kill-killall-pkill-xkill/</font></font></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">梅蛋蛋</span>
@@ -443,9 +405,7 @@ node      17269 hientrq   19u  IPv4 0xc42959c71ae86fc1      0t0  TCP localhost:1
 
 <pre><code>export PORT=5000
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小宇宙神无</span>
@@ -459,9 +419,7 @@ node      17269 hientrq   19u  IPv4 0xc42959c71ae86fc1      0t0  TCP localhost:1
 
 <pre><code>sudo fuser -k 80/tcp    
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Green理查德</span>
@@ -501,9 +459,7 @@ node     57385   You   11u  IPv6 0xac745b2749fd2be3      0t0  TCP *:ddi-tcp-1 (L
 <p><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">编辑2</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">：正如</font></font><a href="https://stackoverflow.com/questions/9898372/how-to-fix-error-listen-eaddrinuse-while-using-nodejs/30163868#comment56010567_16107404"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在此处的注释中</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">多次</font><a href="https://stackoverflow.com/questions/9898372/how-to-fix-error-listen-eaddrinuse-while-using-nodejs/30163868#comment56010567_16107404"><font style="vertical-align: inherit;">提到的，</font></a><font style="vertical-align: inherit;">此错误是由于没有正常退出进程而导致的。</font><font style="vertical-align: inherit;">这意味着许多人使用</font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">CTRL + Z</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">退出节点命令（或其他任何命令）</font><font style="vertical-align: inherit;">。</font><font style="vertical-align: inherit;">停止正在运行的进程的正确方法是发出</font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">CTRL + C</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">命令，该命令执行干净退出。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">以正确的方式退出进程将在关闭时释放该端口。</font><font style="vertical-align: inherit;">这样一来，您就可以重新启动该过程，而不必担心自己被杀死后才能再次运行它。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">蛋蛋LEY</span>
@@ -518,9 +474,7 @@ node     57385   You   11u  IPv6 0xac745b2749fd2be3      0t0  TCP *:ddi-tcp-1 (L
 <blockquote>
   <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">PS进行更改后，请不要忘记重新启动Skype！ </font></font></p>
 </blockquote></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">null</span>
@@ -539,9 +493,7 @@ node     57385   You   11u  IPv6 0xac745b2749fd2be3      0t0  TCP *:ddi-tcp-1 (L
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">您可以检查它是否有效。</font></font></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

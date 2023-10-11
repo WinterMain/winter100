@@ -21,7 +21,7 @@ topic: JavaScript
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我需要做什么才能使它正常工作？</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第3957篇《ExecJS并且找不到JavaScript运行时》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第3957篇《ExecJS并且找不到JavaScript运行时》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -33,18 +33,14 @@ topic: JavaScript
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">仅供参考，这为我解决了问题...这是一个问题：</font><a href="http://forums.freebsd.org/showthread.php?t=35539" rel="nofollow"><font style="vertical-align: inherit;">http</font></a><font style="vertical-align: inherit;"> : </font><a href="http://forums.freebsd.org/showthread.php?t=35539" rel="nofollow"><font style="vertical-align: inherit;">//forums.freebsd.org/showthread.php?</font></a><font style="vertical-align: inherit;"> t=
  </font></font><a href="http://forums.freebsd.org/showthread.php?t=35539" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">35539</font></font></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Mandy</span>
             <span class="discuss-time">2020.04.03</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">当我开始在Ruby 1.9.3中使用rbenv时遇到了这个问题，因为我的系统ruby是1.8.7。</font><font style="vertical-align: inherit;">这两个地方都安装了gem，但是出于某种原因，rails脚本没有将其安装。</font><font style="vertical-align: inherit;">但是，在Gemfile中添加“ execjs”和“ therubyracer”可以达到目的。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">村村Tony</span>
@@ -67,9 +63,7 @@ topic: JavaScript
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">然后，该应用程序在分阶段工作。 </font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">没有大惊小怪。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">猴子村村</span>
@@ -79,9 +73,7 @@ topic: JavaScript
 
 <pre><code>sudo yum install nodejs npm --enablerepo=epel
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">樱</span>
@@ -94,18 +86,14 @@ topic: JavaScript
 <p><a href="https://github.com/sstephenson/execjs" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">https://github.com/sstephenson/execjs</font></font></a></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">因此，与使用RubyRacer相比，Node.js并不是一个过大的解决方案，并且是更好的解决方案。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Gil</span>
             <span class="discuss-time">2020.04.03</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我曾经将</font></font><a href="https://github.com/cowboyd/therubyracer" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Ruby Racer</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">添加</font><font style="vertical-align: inherit;">到Gem文件中进行修复。</font><font style="vertical-align: inherit;">但是，</font></font><a href="http://en.wikipedia.org/wiki/Nodejs" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Node.js</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">可以工作！</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Gil伽罗小宇宙</span>
@@ -119,9 +107,7 @@ topic: JavaScript
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">您完全不需要修改Gemfile，前提是您当然不需要做资产链工作-通常适用于非开发环境。</font><font style="vertical-align: inherit;">Bundle会记住.bundle / config文件中的“ --without”设置。   </font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">米亚</span>
@@ -144,9 +130,7 @@ topic: JavaScript
 
 <pre><code>sudo yum install nodejs
 </code></pre></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

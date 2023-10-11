@@ -24,7 +24,7 @@ topic: React.js
 </code></pre></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第609篇《如何在react-router v4中使用history.push / Link / Redirect传递参数？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第609篇《如何在react-router v4中使用history.push / Link / Redirect传递参数？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -58,9 +58,7 @@ topic: React.js
 </blockquote>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">对象，包括this.props.history.push方法。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小宇宙GO</span>
@@ -77,9 +75,7 @@ topic: React.js
 <p><code>const state = this.props.location.state</code></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">阅读更多有关React </font></font><a href="https://javamastermind.com/2020/01/16/react-navigation-manage-session-history/" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Session History Management的信息</font></font></a></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

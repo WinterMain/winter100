@@ -87,7 +87,7 @@ var Route = (<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">[mapDispatchToProps]</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第1046篇《如何使用带有Redux的connect从this.props获得简单的调度？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第1046篇《如何使用带有Redux的connect从this.props获得简单的调度？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -102,9 +102,7 @@ var Route = (<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">请参阅我在此处</font></font><a href="https://stackoverflow.com/a/34455431/2644281"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">https://stackoverflow.com/a/34455431/2644281</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">发布的示例，该示例</font><font style="vertical-align: inherit;">说明如何传递“已经绑定的动作创建者”，这样您的组件就无需直接了解或依赖商店/发货。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">抱歉，简短。</font><font style="vertical-align: inherit;">我将更新瓦特/更多信息。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">JinJin村村</span>
@@ -122,9 +120,7 @@ var Route = (<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我不知道如何</font></font><code>fetchUsers</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">使用（如异步功能？），但你通常会使用类似</font></font><code>bindActionCreators</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">来</font></font><em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">自动绑定</font></font></em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">调度，然后你就不必担心使用</font></font><code>dispatch</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">直接连接的部件。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">使用</font></font><code>dispatch</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">目录排序将</font></font><em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">哑巴</font></font></em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，无状态组件与redux </font><font style="vertical-align: inherit;">耦合</font><font style="vertical-align: inherit;">。</font><font style="vertical-align: inherit;">这会使它的便携性降低。</font></font></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

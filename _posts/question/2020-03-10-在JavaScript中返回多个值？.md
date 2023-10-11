@@ -24,7 +24,7 @@ topic: JavaScript
 </code></pre></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第509篇《在JavaScript中返回多个值？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第509篇《在JavaScript中返回多个值？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -50,9 +50,7 @@ a(function(a,b){<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我进行了jsperf测试，以查看三种方法中哪种更快。</font><font style="vertical-align: inherit;">阵列最快，而收集器最慢。</font></font></p>
 
 <p><a href="http://jsperf.com/returning-multiple-values-2" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">http://jsperf.com/returning-multiple-values-2</font></font></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">LEYJim</span>
@@ -86,9 +84,7 @@ myFunction().age; //age<font></font>
 familyName; //Dezfoolian<font></font>
 age; //35<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Pro神无樱</span>
@@ -128,9 +124,7 @@ var todayYear = myTodayDate().year;<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">回答这个问题的重点是分享这种以良好格式获取Date的方法。</font><font style="vertical-align: inherit;">希望它对您有所帮助:)</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">6的不行</span>
@@ -180,9 +174,7 @@ alert(all.divisor); // 0utputs: 2<font></font>
 alert(all.quotient); // 0utputs: 5<font></font>
 &lt;/script&gt;<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Eva神乐</span>
@@ -225,9 +217,7 @@ let [ code1, ...rest ] = newCodes(); //first item, and others as an array<font><
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">值得一提的是，</font></font><code>...rest</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">应该始终将其结尾，因为在将其他所有内容汇总到之后，销毁任何内容都没有任何意义</font></font><code>rest</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我希望这将为这个问题增加一些价值：)</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">泡芙老丝Jim</span>
@@ -247,9 +237,7 @@ let [ code1, ...rest ] = newCodes(); //first item, and others as an array<font><
 console.log(x) ---&gt; 10<font></font>
 console.log(y) ---&gt; 20<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小卤蛋卡卡西</span>
@@ -264,9 +252,7 @@ console.log(y) ---&gt; 20<font></font>
      return [...val];<font></font>
  };<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">神奇西里泡芙</span>
@@ -283,9 +269,7 @@ console.log(y) ---&gt; 20<font></font>
 <font></font>
 const {d,c,f} = a()<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">entaseven</span>
@@ -300,9 +284,7 @@ const {d,c,f} = a()<font></font>
 };<font></font>
 var {firstCodes, secondCodes} = newCodes()<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">TomGreen</span>
@@ -317,9 +299,7 @@ var {firstCodes, secondCodes} = newCodes()<font></font>
 &gt;&gt; foo()<font></font>
 &gt;&gt; 3<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">乐十三</span>
@@ -335,9 +315,7 @@ var {firstCodes, secondCodes} = newCodes()<font></font>
     return obj;<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">村村小小凯</span>
@@ -364,9 +342,7 @@ var {firstCodes, secondCodes} = newCodes()<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">:)</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">！</font><font style="vertical-align: inherit;">这仅仅是解决问题的另一种方法。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小卤蛋猿阿飞</span>
@@ -402,9 +378,7 @@ return 2, 3;<font></font>
 // becomes<font></font>
 return 3;<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">西门神奇</span>
@@ -426,9 +400,7 @@ var result = newCodes();<font></font>
 alert(result.dCodes);<font></font>
 alert(result.dCodes2);<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">西里阳光</span>
@@ -448,9 +420,7 @@ let {dCodes, dCodes2} = newCodes()<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">返回表达式</font></font><code>{dCodes, dCodes2}</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">是</font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">属性值的简写</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，并且等效于this </font></font><code>{dCodes: dCodes, dCodes2: dCodes2}</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">最后一行的这种分配称为</font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">对象破坏分配</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font><font style="vertical-align: inherit;">它提取对象的属性值，并将其分配给相同名称的变量。</font><font style="vertical-align: inherit;">如果您想将返回值分配给不同名称的变量，则可以这样做</font></font><code>let {dCodes: x, dCodes2: y} = newCodes()</code></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">卡卡西Davaid</span>
@@ -482,9 +452,7 @@ let {dCodes, dCodes2} = newCodes()<font></font>
       return {d,c,f}<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">村村西里Green</span>
@@ -532,9 +500,7 @@ var second = values.second;<font></font>
 </code></pre>
 
 <p><sup>* See <a href="https://kangax.github.io/compat-table/es6/" rel="noreferrer">this table</a> for browser compatibility. Basically, all modern browsers aside from IE support this syntax, but you can compile ES6 code down to IE-compatible JavaScript at build time with tools like <a href="https://babeljs.io/" rel="noreferrer">Babel</a>.</sup></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

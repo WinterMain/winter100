@@ -208,7 +208,7 @@ module.exports = {<font></font>
 </code></pre></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第3729篇《Babel和ES6发生意外的“未捕获的TypeError：XXX不是构造函数”错误》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第3729篇《Babel和ES6发生意外的“未捕获的TypeError：XXX不是构造函数”错误》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -234,9 +234,7 @@ module.exports = {<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">使用babel编译类时，请移至最后一行。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">LGil</span>
@@ -249,9 +247,7 @@ module.exports = {<font></font>
 } <font></font>
 export var __useDefault = true;<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">卡卡西Near</span>
@@ -262,9 +258,7 @@ export var __useDefault = true;<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">因此，如果您</font></font><code>Token</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在文件顶部</font><font style="vertical-align: inherit;">声明您的类</font><font style="vertical-align: inherit;">，然后再编写</font></font><code>new Token()</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，它将运行。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果在构造函数调用之后声明了类，则将出现</font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">xxx不是构造函数</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">错误</font></font></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

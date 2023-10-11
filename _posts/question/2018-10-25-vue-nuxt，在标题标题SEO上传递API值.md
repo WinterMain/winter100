@@ -49,7 +49,7 @@ head () {
 </div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第86篇《vue nuxt，在标题标题SEO上传递API值》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第86篇《vue nuxt，在标题标题SEO上传递API值》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -68,19 +68,15 @@ head () {
             ]
         }
 </code></pre></div>
-        </div>
-        
-        <div class="discuss-children">
+        </div><div class="discuss-children">
           <div class="discuss-child">
             <div class="discuss-comment">header方法里设置</div>
             <div class="discuss-meta">
               <span class="discuss-user">Winter</span>
               <span class="discuss-time">2018.10.25</span>
             </div>
-          </div>
-        </div>
-        
-      </div><div class="discuss-item">
+          </div></div>
+        </div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Winter</span>
@@ -88,9 +84,7 @@ head () {
           </div>
           <div class="discuss-comment"><p>直接修改header方法</p>
 </div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

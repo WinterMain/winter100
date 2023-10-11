@@ -24,7 +24,7 @@ topic: React.js
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">谢谢。</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第3856篇《React-Router在新标签页中打开链接》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第3856篇《React-Router在新标签页中打开链接》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -38,9 +38,7 @@ topic: React.js
 
 <pre><code>&lt;Link to="chart" target="_blank" to="http://link2external.page.com" &gt;Test&lt;/Link&gt;
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">神乐</span>
@@ -50,9 +48,7 @@ topic: React.js
 
 <pre><code>&lt;Link to={`link`} target="_blank"&gt;View&lt;/Link&gt;
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小胖Gil</span>
@@ -62,18 +58,14 @@ topic: React.js
 
 <pre><code>&lt;a rel="noopener noreferrer" href="http://url.com" target="_blank"&gt;Link Here&lt;/a&gt;
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">神乐</span>
             <span class="discuss-time">2020.03.30</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">从react_router 1.0开始，道具将传递到锚标记上。</font><font style="vertical-align: inherit;">您可以直接使用</font></font><code>target="_blank"</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font><font style="vertical-align: inherit;">在这里讨论：</font><a href="https://github.com/ReactTraining/react-router/issues/2188" rel="noreferrer"><font style="vertical-align: inherit;">https</font></a><font style="vertical-align: inherit;"> : </font></font><a href="https://github.com/ReactTraining/react-router/issues/2188" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">//github.com/ReactTraining/react-router/issues/2188</font></font></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小小</span>
@@ -84,9 +76,7 @@ topic: React.js
 <blockquote>
   <p><code>&lt;Link target={"_blank"} to="your-link"&gt;Your Link&lt;/Link&gt;</code></p>
 </blockquote></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">斯丁前端</span>
@@ -96,9 +86,7 @@ topic: React.js
 
 <pre><code>&lt;Link to="route" target="_blank" onClick={(event) =&gt; {event.preventDefault(); window.open(this.makeHref("route"));}} /&gt;
 </code></pre></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

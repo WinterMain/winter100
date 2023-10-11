@@ -27,7 +27,7 @@ topic: Vue.js
 除了对其进行硬编码之外，还有其他方法吗？</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第2703篇《如何在nuxt中获取axios baseUrl？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第2703篇《如何在nuxt中获取axios baseUrl？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -41,9 +41,7 @@ topic: Vue.js
 
 <pre><code>this.$axios.defaults.baseURL
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Davaid猪猪</span>
@@ -59,9 +57,7 @@ topic: Vue.js
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">它将在</font></font><code>localhost:3000/api</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">以及</font></font><code>any-domain.com/api</code></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Stafan路易</span>
@@ -78,9 +74,7 @@ topic: Vue.js
 
 <pre><code>:src="`${$axios.defaults.baseURL}upload/1.png`"
 </code></pre></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

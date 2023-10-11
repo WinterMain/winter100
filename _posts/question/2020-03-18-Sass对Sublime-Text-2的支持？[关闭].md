@@ -48,7 +48,7 @@ topic: CSS
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">理想情况下，我希望语法高亮显示，缩进和完成</font></font><code>sass</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">语法。</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第2143篇《Sass对Sublime Text 2的支持？[关闭]》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第2143篇《Sass对Sublime Text 2的支持？\[关闭\]》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -72,9 +72,7 @@ topic: CSS
 </ol>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">现在，去调整其他烦人的软件包中的所有小设置/默认设置。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">乐理查德</span>
@@ -87,9 +85,7 @@ topic: CSS
 <li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">打开一些sass文件</font></font></li>
 <li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">单击</font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">查看</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> | </font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">语法</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> | </font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">以当前扩展名打开所有…</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> | | </font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">萨斯</font></font></strong></li>
 </ol></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">西里Jim</span>
@@ -98,9 +94,7 @@ topic: CSS
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我建议您使用以下</font><font style="vertical-align: inherit;">代码</font><font style="vertical-align: inherit;">：</font></font><a href="https://github.com/nathos/sass-textmate-bundle"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">https</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> : </font><a href="https://github.com/nathos/sass-textmate-bundle"><font style="vertical-align: inherit;">//github.com/nathos/sass-textmate-bundle</font></a><font style="vertical-align: inherit;">，如果仅用于惊人的代码完成-与SASS / SCSS兼容。</font></font></p>
 
 <p>Whenever in doubt about packages, and assuming you use the amazing Sublime <a href="https://sublime.wbond.net/installation"><strong>Package Control</strong></a>, just use the <a href="https://sublime.wbond.net/sort-installs">packages list</a>, <a href="https://sublime.wbond.net/search/Sass">type something</a> (the result will be sorted by the number of installs), and usually the most popular one is the best one.</p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">GilTony梅</span>
@@ -148,9 +142,7 @@ topic: CSS
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">现在，您安装的SASS高亮包应该可以正常工作。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">神无Jim小哥</span>
@@ -167,9 +159,7 @@ topic: CSS
 </ul>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">查看</font></font><a href="http://aspirecode.com/how-to-add-sass-support-in-sublime-text/"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">博客文章</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">以获取完整详细信息。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">达蒙老丝</span>
@@ -184,9 +174,7 @@ topic: CSS
   &lt;string&gt;scss&lt;/string&gt;<font></font>
 &lt;/array&gt;<font></font>
 </code></pre></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

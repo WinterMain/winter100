@@ -37,7 +37,7 @@ topic: React.js
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我不知道如何解释对象成为要渲染的反应组件。</font><font style="vertical-align: inherit;">有什么建议吗？</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第1303篇《如何通过使用map和join来渲染React组件》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第1303篇《如何通过使用map和join来渲染React组件》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -62,9 +62,7 @@ topic: React.js
       {processedData}<font></font>
   &lt;/div&gt;<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">GilL</span>
@@ -89,9 +87,7 @@ topic: React.js
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">通过</font></font><code>React.Fragment</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我们可以简单地将分隔符放置在</font></font><code>,</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">返回的HTML之外，React不会抱怨。</font></font></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

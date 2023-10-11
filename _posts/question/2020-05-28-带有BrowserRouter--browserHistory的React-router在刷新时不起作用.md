@@ -87,7 +87,7 @@ module</span><span class="pun">.</span><span class="pln">exports </span><span cl
 </blockquote></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第4187篇《带有BrowserRouter / browserHistory的React-router在刷新时不起作用》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第4187篇《带有BrowserRouter / browserHistory的React-router在刷新时不起作用》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -108,9 +108,7 @@ module</span><span class="pun">.</span><span class="pln">exports </span><span cl
 <pre class="lang-js prettyprint prettyprinted" style=""><code><span class="pln">webpack</span><span class="pun">-</span><span class="pln">dev</span><span class="pun">-</span><span class="pln">server </span><span class="pun">--</span><span class="pln">config webpack</span><span class="pun">.</span><span class="pln">config</span><span class="pun">.</span><span class="pln">js</span></code></pre>
 
 <p>Because you want React-Route to handle the route instead of your server. So no matter what the url is it should goes to index.html.</p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

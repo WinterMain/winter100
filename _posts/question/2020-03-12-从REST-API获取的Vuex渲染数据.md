@@ -55,7 +55,7 @@ topic: Vue.js
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在这里添加不是问题</font></font><code>v-if="firstSectionId"</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font><font style="vertical-align: inherit;">但是通常，从服务器获取要显示的数据的方法是什么？</font><font style="vertical-align: inherit;">目前，我所有的组件都在检查渲染之前存储中是否存在数据，这是正常现象还是有更好的方法等待渲染之前加载数据？</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第1140篇《从REST API获取的Vuex渲染数据》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第1140篇《从REST API获取的Vuex渲染数据》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -70,9 +70,7 @@ topic: Vue.js
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">但是通常，添加</font></font><code>v-if</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">是很正常的事情。</font><a href="https://router.vuejs.org/en/advanced/data-fetching.html" rel="nofollow noreferrer"><font style="vertical-align: inherit;">文档中</font></a><font style="vertical-align: inherit;">有</font></font><a href="https://router.vuejs.org/en/advanced/data-fetching.html" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">一章对此进行了</font></font><code>vue-router</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">介绍，</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">并检查属性是否存在正是所建议的内容。</font><font style="vertical-align: inherit;">它提到的另一种可能的解决方案是在</font></font><code>beforeRouteEnter</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">guard </font><font style="vertical-align: inherit;">内部获取数据</font><font style="vertical-align: inherit;">，以确保您始终可以使用已有的数据访问组件。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">最终，两种解决方案都是正确的，它们之间的决策更多是关于UX / UI的问题。</font></font></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

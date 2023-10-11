@@ -117,7 +117,7 @@ export default class Users extends React.Component {<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">但是，当然上面的示例不起作用，因为</font></font><code>getUsers</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">不存在于我的用户视图中的道具。</font><font style="vertical-align: inherit;">如果有可能的话，正确的做法是什么？</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第1647篇《在渲染功能之外访问React Context》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第1647篇《在渲染功能之外访问React Context》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -128,9 +128,7 @@ export default class Users extends React.Component {<font></font>
             <span class="discuss-time">2020.03.16</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">您必须在较高级的父级组件中传递上下文，以在子级中获得作为道具的访问权限。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">老丝乐</span>
@@ -159,9 +157,7 @@ class MyComp extends Component {<font></font>
   }<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">梅达蒙</span>
@@ -174,9 +170,7 @@ class MyComp extends Component {<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">该库的链接：</font><a href="https://github.com/SunHuawei/with-context" rel="nofollow noreferrer"><font style="vertical-align: inherit;">https</font></a><font style="vertical-align: inherit;"> : </font></font><a href="https://github.com/SunHuawei/with-context" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">//github.com/SunHuawei/with-context</font></font></a></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">编辑：实际上，您不需要使用提供的多上下文api，</font></font><code>with-context</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">实际上，您可以使用简单的api并为每个上下文创建一个 decorator，如果您想在组件中使用多个消费者，则只需在类上声明所需的装饰数！</font></font></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

@@ -26,7 +26,7 @@ topic: React.js
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">是否可以使用svg精灵并以这种方式在ReactJS中加载它们？</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第953篇《SVG使用标签和ReactJS》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第953篇《SVG使用标签和ReactJS》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -39,9 +39,7 @@ topic: React.js
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果遇到</font></font><code>xlink:href</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，则可以通过删除冒号并打包添加的文本来获得ReactJS中的等效内容：</font></font><code>xlinkHref</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">您最终可能会在SVG中使用其他名称空间标签，例如</font></font><code>xml:space</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，等等。相同的规则适用于它们（即</font></font><code>xml:space</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">变为</font></font><code>xmlSpace</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">）。</font></font></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

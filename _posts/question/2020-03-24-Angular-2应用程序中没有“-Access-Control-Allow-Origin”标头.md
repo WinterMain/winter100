@@ -81,7 +81,7 @@ export class AppShell {<font></font>
 </font></font><code>Error: [object Object]</code></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第3287篇《Angular 2应用程序中没有“ Access-Control-Allow-Origin”标头》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第3287篇《Angular 2应用程序中没有“ Access-Control-Allow-Origin”标头》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -99,9 +99,7 @@ export class AppShell {<font></font>
 <li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">您无需在Angular端设置任何CORS标头。</font><font style="vertical-align: inherit;">非常知道该如何处理。</font><font style="vertical-align: inherit;">Angular期望返回数据为json格式。</font><font style="vertical-align: inherit;">因此，即使对于OPTIONS请求，也要确保返回类型为JSON。</font></font></li>
 <li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">您可以使用CORS标头在服务器端处理CORS，这很容易解释，也可以在Google中设置CORS标头或中间件。</font></font></li>
 </ol></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">猴子</span>
@@ -111,9 +109,7 @@ export class AppShell {<font></font>
 
 <pre><code>@CrossOrigin(origins = {"http://localhost:3000"})
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小胖古一</span>
@@ -122,9 +118,7 @@ export class AppShell {<font></font>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我在练习Angular5时遇到了同样的问题。</font><font style="vertical-align: inherit;">然后我遇到了</font></font><a href="https://spring.io/guides/gs/rest-service-cors/" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">https://spring.io/guides/gs/rest-service-cors/</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，这帮助我解决了问题。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我一直</font></font><code>@CrossOrigin(exposedHeaders="Access-Control-Allow-Origin")</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">使用我的请求映射方法。</font><font style="vertical-align: inherit;">我们也可以在Spring Boot应用程序中全局配置它。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">AStafan</span>
@@ -148,9 +142,7 @@ export class AppShell {<font></font>
 <p><a href="https://i.stack.imgur.com/IKLSt.jpg" rel="nofollow noreferrer"><img src="https://i.stack.imgur.com/IKLSt.jpg" alt="控制台内部错误"></a></p>
 
 <p><font style="vertical-align: inherit;"></font><a href="https://www.youtube.com/watch?v=L2SMZ9bbDvE&amp;t=298s" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">该视频</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">是帮助我了解创建第一个模型的重要资源</font><font style="vertical-align: inherit;">。</font><font style="vertical-align: inherit;">它将帮助您在SoapUi的环境中创建新的模型，而无需服务器端。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">伽罗</span>
@@ -159,9 +151,7 @@ export class AppShell {<font></font>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">不幸的是，这不是Angular2错误，而是浏览器正在运行的错误（即，应用程序外部）。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">必须先将CORS标头添加到服务器上的该端点，然后才能发出任何请求。 </font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">猴子</span>
@@ -188,9 +178,7 @@ export class AppShell {<font></font>
         app.UseMvc();<font></font>
     }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">老丝神无</span>
@@ -201,9 +189,7 @@ export class AppShell {<font></font>
 <pre><code>header("Access-Control-Allow-Origin: *");<font></font>
 header("Content-Type: application/json; charset=UTF-8");<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Stafan</span>
@@ -215,9 +201,7 @@ header("Content-Type: application/json; charset=UTF-8");<font></font>
 
 <p><img src="https://i.stack.imgur.com/T417c.png" alt="Mock.io标头示例"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
 完成此操作后，我的应用程序便能够从外部域检索数据。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">樱小胖Mandy</span>
@@ -229,9 +213,7 @@ header("Content-Type: application/json; charset=UTF-8");<font></font>
 
 <pre><code>Header set Access-Control-Allow-Origin "*"
 </code></pre></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

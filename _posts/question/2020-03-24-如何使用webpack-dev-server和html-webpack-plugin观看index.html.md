@@ -17,7 +17,7 @@ topic: Webpack
     <div class="article-content"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我正在使用webpack-dev-server与html-webpack-plugin进行开发，以生成带有修订源的index.html。</font><font style="vertical-align: inherit;">问题是每次我更改index.html时，捆绑系统都不会再次重建。</font><font style="vertical-align: inherit;">我知道索引不在条目中，但是有办法解决吗？</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第3202篇《如何使用webpack-dev-server和html-webpack-plugin观看index.html》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第3202篇《如何使用webpack-dev-server和html-webpack-plugin观看index.html》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}

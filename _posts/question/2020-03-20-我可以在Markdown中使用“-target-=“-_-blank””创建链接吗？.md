@@ -17,7 +17,7 @@ topic: HTML
     <div class="article-content"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">有没有一种方法可以在Markdown中创建在新窗口中打开的链接？</font><font style="vertical-align: inherit;">如果没有，建议您使用哪种语法。</font><font style="vertical-align: inherit;">我将其添加到我使用的markdown编译器中。</font><font style="vertical-align: inherit;">我认为这应该是一个选择。</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第2481篇《我可以在Markdown中使用“ target =“ _ blank””创建链接吗？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第2481篇《我可以在Markdown中使用“ target =“ _ blank””创建链接吗？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -28,9 +28,7 @@ topic: HTML
             <span class="discuss-time">2020.03.20</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这对我有用：[页面链接]（您的URL在这里“（目标| _blank）”）</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Stafan逆天</span>
@@ -39,9 +37,7 @@ topic: HTML
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">您可以使用{[attr] =“ [prop]”}添加任何属性</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">例如[Google]（</font></font><a href="http://www.google.com" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">http://www.google.com</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">）{target =“ _ blank”}</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Gil</span>
@@ -54,9 +50,7 @@ topic: HTML
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在这里找到它：</font><a href="https://cmatskas.com/open-external-links-in-a-new-window-ghost/" rel="noreferrer"><font style="vertical-align: inherit;">https</font></a><font style="vertical-align: inherit;"> :
  </font></font><a href="https://cmatskas.com/open-external-links-in-a-new-window-ghost/" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">//cmatskas.com/open-external-links-in-a-new-window-ghost/</font></font></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">十三泡芙</span>
@@ -70,9 +64,7 @@ topic: HTML
 <p><a href="https://example.org/" rel="noreferrer" title="标题“ target =” _ blank"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">链接</font></font></a></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">但并非所有解析器都允许您这样做。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Harry</span>
@@ -80,9 +72,7 @@ topic: HTML
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">一种全局解决方案是将</font></font><code>&lt;base target="_blank"&gt;</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
 页面</font></font><code>&lt;head&gt;</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">元素</font><font style="vertical-align: inherit;">放入其中</font><font style="vertical-align: inherit;">。</font><font style="vertical-align: inherit;">这实际上为每个锚元素添加了默认目标。</font><font style="vertical-align: inherit;">我使用markdown在基于Wordpress的网站上创建内容，而主题定制器将使我将该代码注入到每个页面的顶部。</font><font style="vertical-align: inherit;">如果您的主题没有这样做，那么有一个</font></font><a href="https://wordpress.org/plugins/header-and-footer-scripts/" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">插件</font></font></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Pro十三</span>
@@ -92,9 +82,7 @@ topic: HTML
 
 <pre><code>[link](url){:target="_blank"}
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Sam斯丁</span>
@@ -127,9 +115,7 @@ topic: HTML
  ^<font></font>
  ^ Colon<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小小</span>
@@ -147,9 +133,7 @@ topic: HTML
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">也可以作为直接链接：</font></font><br>
 <code>[Go to this page](http://somelink.com/?target=_blank)</code></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">古一</span>
@@ -159,9 +143,7 @@ topic: HTML
 
 <pre><code>[link](url){:target="_blank"}
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">西里神奇</span>
@@ -175,9 +157,7 @@ topic: HTML
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我见过的大多数Markdown引擎都允许使用纯旧的HTML，仅在这种情况下，即通用文本标记系统无法将其截断。</font><font style="vertical-align: inherit;">（例如，StackOverflow引擎。）然后，无论如何，它们都将通过HTML白名单过滤器运行整个输出，因为即使是仅Markdown的文档也可以轻松包含XSS攻击。</font><font style="vertical-align: inherit;">这样，如果您或您的用户想要创建</font></font><code>_blank</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">链接，那么他们可能仍然可以。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果这是您将经常使用的功能，则创建自己的语法可能很有意义，但是通常它并不是至关重要的功能。</font><font style="vertical-align: inherit;">如果要在新窗口中启动该链接，请自己按住ctrl键单击它，谢谢。</font></font></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

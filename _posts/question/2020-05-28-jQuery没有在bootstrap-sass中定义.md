@@ -43,7 +43,7 @@ exports</span><span class="pun">.</span><span class="pln">plugins </span><span c
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">您是否处理过类似的问题？</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第4209篇《jQuery没有在bootstrap-sass中定义》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第4209篇《jQuery没有在bootstrap-sass中定义》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -100,9 +100,7 @@ hash</span><span class="pun">:</span><span class="kwd">string</span><span class=
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果您要检查源代码是否相同，请检查</font></font><a href="https://github.com/rahulrsingh09/TestingSPA" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">LINK</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我发布的答案来自此链接，这是我在Angular </font><a href="https://rahulrsingh09.github.io/AngularConcepts" rel="nofollow noreferrer"><font style="vertical-align: inherit;">LINK上的</font></a><font style="vertical-align: inherit;">页面</font></font><a href="https://rahulrsingh09.github.io/AngularConcepts" rel="nofollow noreferrer"><font style="vertical-align: inherit;"></font></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">神乐</span>
@@ -111,9 +109,7 @@ hash</span><span class="pun">:</span><span class="kwd">string</span><span class=
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">您可以使用命令</font></font><a href="https://github.com/angular/angular-cli/wiki/eject" rel="nofollow noreferrer"><code>ng eject</code></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">让Angular CLI生成webpack.config文件。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">然后像以前一样将jQuery公开为变量。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">十刃</span>
@@ -124,9 +120,7 @@ hash</span><span class="pun">:</span><span class="kwd">string</span><span class=
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">最简单的解决方案是使用考虑到Angular构建的版本，我相信</font></font><a href="https://ng-bootstrap.github.io/#/home" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">ng-bootstrap</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">是其中最突出的版本。</font><font style="vertical-align: inherit;">我自己没有使用过，但是我为Angular 1使用了angular-ui-bootstrap，这似乎是同一项目的Angular 2对应版本。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">另外，您也可以</font></font><a href="https://hackernoon.com/wrap-any-jquery-plugin-with-angular-2-component-case-study-8b00eacec998" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">自己将其包装在指令中</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，但是如果您可以让ng-bootstrap做您想做的事，我会避免这样做，因为这样做会做更多的工作。</font></font></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

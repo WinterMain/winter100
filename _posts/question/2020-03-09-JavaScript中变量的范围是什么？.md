@@ -17,7 +17,7 @@ topic: JavaScript
     <div class="article-content"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">javascript中变量的范围是什么？</font><font style="vertical-align: inherit;">它们在函数内部和外部的作用域是否相同？</font><font style="vertical-align: inherit;">还是有关系吗？</font><font style="vertical-align: inherit;">另外，如果变量是全局定义的，则将变量存储在哪里？</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第210篇《JavaScript中变量的范围是什么？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第210篇《JavaScript中变量的范围是什么？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -49,9 +49,7 @@ function myFunction() {<font></font>
 }<font></font>
 </code></pre></li>
 </ol></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">TomL</span>
@@ -67,9 +65,7 @@ function myFunction() {<font></font>
 statement2...// inside this scope we can access the value of i, if we want to access the value of i outside for loop it will give undefined.<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">猪猪Mandy</span>
@@ -80,9 +76,7 @@ statement2...// inside this scope we can access the value of i, if we want to ac
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">对于那些相信只有全局和局部作用域的用户，请解释为什么Mozilla会有整个页面描述JS中块作用域的细微差别。 </font></font></p>
 
 <p><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/let" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Statements/let</font></font></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Tom蛋蛋</span>
@@ -99,9 +93,7 @@ function f1(b)<font></font>
 f1(a);<font></font>
 alert(a.getDate());<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">A小卤蛋Pro</span>
@@ -137,9 +129,7 @@ alert(a.getDate());<font></font>
     }<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小小西门</span>
@@ -178,9 +168,7 @@ local_function();<font></font>
 // No variable in a separate function is visible into the global scope.<font></font>
 console.log("global_scope: - local_variable: " + local_variable);<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">LEY猿</span>
@@ -195,9 +183,7 @@ console.log("global_scope: - local_variable: " + local_variable);<font></font>
 <p><code>let</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">应该用于期望重新分配的任何变量。</font><font style="vertical-align: inherit;">这包括在for循环中。</font><font style="vertical-align: inherit;">如果您在初始化后更改了值，请使用</font></font><code>let</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">块作用域意味着该变量将仅在声明该变量的方括号内可用。</font><font style="vertical-align: inherit;">这扩展到内部范围，包括在您的范围内创建的匿名函数。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">LEY樱</span>
@@ -236,9 +222,7 @@ function b(){<font></font>
 <hr>
 
 <p><a href="http://www.thatjsdude.com/jsConcepts/concepts/scope.html" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">查看本文以深入了解范围</font></font></a> </p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">TomTony</span>
@@ -305,9 +289,7 @@ console.log(i);<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这可能看起来与直觉相反，但是从命令式语言设计师的角度来看这是有道理的。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">蛋蛋樱</span>
@@ -338,9 +320,7 @@ outer();<font></font>
 </ol>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">现在，当</font></font><code>a</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">需要</font><font style="vertical-align: inherit;">一个变量</font><font style="vertical-align: inherit;">时，它首先搜索最近的变量范围，如果不存在该变量，则将其移到变量范围链的下一个对象。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">米亚JinJin樱</span>
@@ -368,9 +348,7 @@ outer();<font></font>
 </ul>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">当前，该功能支持深度为16的嵌套函数，但当前不为全局变量着色。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Tony阳光</span>
@@ -402,9 +380,7 @@ outer();<font></font>
  <em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">iii</font></font></em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">）返回的函数上下文，它具有词法a = 6的环境，这是调用时警报中引用的值。</font></font></p>
 
 <p><a href="https://i.stack.imgur.com/v45hL.png"><img src="https://i.stack.imgur.com/v45hL.png" alt="在此处输入图片说明"></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">阿飞宝儿猴子</span>
@@ -413,9 +389,7 @@ outer();<font></font>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">据我所知，关键是Javascript具有功能级别范围，而不是更常见的C块范围。</font></font></p>
 
 <p><a href="http://www.adequatelygood.com/2010/2/JavaScript-Scoping-and-Hoisting"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这是一篇关于该主题的好文章。</font></font></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">GreenTonyL</span>
@@ -429,9 +403,7 @@ outer();<font></font>
  }<font></font>
  alert(a);   // 4<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Green老丝Itachi</span>
@@ -440,9 +412,7 @@ outer();<font></font>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">全局声明的变量具有全局范围。</font><font style="vertical-align: inherit;">函数内声明的变量的作用域为该函数，并且阴影全局变量具有相同的名称。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">（我敢肯定，真正的JavaScript程序员可以在其他答案中指出很多细微之处。特别是我在</font></font><a href="http://www.digital-web.com/articles/scope_in_javascript/" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">本页</font></font></a><font style="vertical-align: inherit;"></font><code>this</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">上随时</font><font style="vertical-align: inherit;">了解确切</font><font style="vertical-align: inherit;">含义。希望</font></font><a href="http://bowles.byethost3.com/javascript/section6/lesson6.htm#part4" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这篇介绍性链接</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">足以使您入门）</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">卡卡西Sam</span>
@@ -453,9 +423,7 @@ outer();<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">范围链中的元素基本上是一个Map，具有指向其父范围的指针。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">解析变量时，javascript从最内部的范围开始并向外搜索。</font></font></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

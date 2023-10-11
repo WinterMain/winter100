@@ -78,7 +78,7 @@ https://www.google-analytics.com/gtm/js?id=GTM-xxxxxx&amp;t=gtag_UA_xxxx&amp;cid
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">因此，一切看起来都不错，除了该</font></font><code>optimize.callback</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">活动似乎是一场彻底的无人打扰。</font><font style="vertical-align: inherit;">它什么也不做。</font><font style="vertical-align: inherit;">而且我不知道如何通过其他方式访问调试器的http响应中看到的实验数据。</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第3045篇《在本地主机上运行时，Google Optimize不触发》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第3045篇《在本地主机上运行时，Google Optimize不触发》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -93,9 +93,7 @@ https://www.google-analytics.com/gtm/js?id=GTM-xxxxxx&amp;t=gtag_UA_xxxx&amp;cid
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">换句话说，</font><font style="vertical-align: inherit;">主机名中</font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">必须</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">有一个点，Optimize才能触发实验。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">对于本地测试，可以通过创建主机名别名（例如</font></font><code>localhost.domain</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">for </font></font><code>127.0.0.1</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">）并使用该别名访问网页来解决此问题。</font></font></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

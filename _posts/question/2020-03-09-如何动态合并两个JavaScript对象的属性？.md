@@ -27,7 +27,7 @@ obj1.merge(obj2);<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">有没有人为此提供脚本或知道内置的方式来执行此操作？</font><font style="vertical-align: inherit;">我不需要递归，也不需要合并函数，只需合并平面对象上的方法即可。</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第185篇《如何动态合并两个JavaScript对象的属性？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第185篇《如何动态合并两个JavaScript对象的属性？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -47,9 +47,7 @@ _(arrayOfObjects).reduce(function(memo, o) { return _(memo).extend(o); });<font>
 
 <pre><code>Object {a: 1, b: 2, c: 3, d: 4}
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">十三村村蛋蛋</span>
@@ -64,9 +62,7 @@ console.log(merged);</code></pre>
 </div>
 </div>
 <p></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">猿飞云斯丁</span>
@@ -76,9 +72,7 @@ console.log(merged);</code></pre>
 
 <pre><code>Object.merge(obj1, obj2);
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">神乐前端</span>
@@ -93,9 +87,7 @@ var mergedObject2 = Ext.merge(object1, object2)<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">请参见</font></font><em><a href="http://docs.sencha.com/ext-js/4-0/#/api/Ext.Object-method-merge" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">merge（object）：Object</font></font></a></em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">斯丁猿</span>
@@ -326,9 +318,7 @@ assertTrue("Array does not override Object", !Array.isArray(a[1]));<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我的equals方法可以在这里找到：</font></font><a href="https://stackoverflow.com/questions/1068834/object-comparison-in-javascript/5522917#5522917"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">JavaScript中的对象比较</font></font></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">神奇阿良Jim</span>
@@ -370,9 +360,7 @@ obj.extend（replacement）;</font></font><font></font>
 </pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我刚刚在这里写了一篇博客文章：</font><a href="http://onemoredigit.com/post/1527191998/extending-objects-in-node-js" rel="noreferrer"><font style="vertical-align: inherit;">http</font></a><font style="vertical-align: inherit;"> : </font></font><a href="http://onemoredigit.com/post/1527191998/extending-objects-in-node-js" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">//onemoredigit.com/post/1527191998/extending-objects-in-node-js</font></font></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">神无阳光</span>
@@ -388,9 +376,7 @@ obj.extend（replacement）;</font></font><font></font>
 </code></pre>
 
 <p><code>obj1.extend(obj2)</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> 会做你想要的。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">StafanDavaid</span>
@@ -405,9 +391,7 @@ jQuery.extend(obj1, obj2);<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">现在</font></font><code>obj1</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">包含的所有值</font></font><code>obj1</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">和</font></font><code>obj2</code></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">null</span>
@@ -416,18 +400,14 @@ jQuery.extend(obj1, obj2);<font></font>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">有一个叫库</font></font><a href="https://github.com/nrf110/deepmerge" rel="noreferrer"><code>deepmerge</code></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在</font></font><a href="http://en.wikipedia.org/wiki/GitHub" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">GitHub上</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">：这似乎是得到一些牵引。</font><font style="vertical-align: inherit;">它是独立的，可通过</font></font><a href="https://en.wikipedia.org/wiki/Npm_(software)" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">npm</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">和bower软件包管理器使用。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我倾向于对此进行使用或改进，而不是从答案中粘贴粘贴代码。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">EvaPro</span>
             <span class="discuss-time">2020.03.09</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">给出的解决方案应进行修改，以检查</font></font><code>source.hasOwnProperty(property)</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在</font></font><code>for..in</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">分配前环-否则，你最终会复制整个原型链，这是很少所需的属性...</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">null</span>
@@ -449,9 +429,7 @@ var obj = Object.assign(o1, o2, o3);<font></font>
 console.log(obj); // { a: 1, b: 2, c: 3 }<font></font>
 console.log(o1);  // { a: 1, b: 2, c: 3 }, target object itself is changed.<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Itachi凯</span>
@@ -461,9 +439,7 @@ console.log(o1);  // { a: 1, b: 2, c: 3 }, target object itself is changed.<font
 
 <p><code>_.extend</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">（</font></font><a href="http://underscorejs.org/#extend" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">http://underscorejs.org/#extend</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">）</font></font><br>
 <code>_.merge</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">（</font></font><a href="https://lodash.com/docs#merge" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">https://lodash.com/docs#merge</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">）</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">A小卤蛋Pro</span>
@@ -522,9 +498,7 @@ console.log(merge(t2, t3));<font></font>
 console.log(merge(t1, t2, t3));<font></font>
 console.log(merge({}, t1, { key1: 1 }));<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Davaid番长</span>
@@ -596,9 +570,7 @@ o3 = MergeRecursive(o1, o2);<font></font>
             cca : 101,<font></font>
             ccb : 202 } } };<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Itachi小卤蛋凯</span>
@@ -610,9 +582,7 @@ o3 = MergeRecursive(o1, o2);<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">当前的浏览器支持</font></font><a href="http://kangax.github.io/compat-table/es6/#test-Object_static_methods_Object.assign" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">越来越好</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，但是如果您正在开发不支持的浏览器，则可以使用</font></font><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/assign#Polyfill" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">polyfill</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

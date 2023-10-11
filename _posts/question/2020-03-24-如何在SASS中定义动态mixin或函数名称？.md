@@ -32,7 +32,7 @@ topic: CSS
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">SASS不支持此用法吗？</font><font style="vertical-align: inherit;">我在手册中找不到关于它的任何内容。</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第3636篇《如何在SASS中定义动态mixin或函数名称？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第3636篇《如何在SASS中定义动态mixin或函数名称？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -50,9 +50,7 @@ topic: CSS
     @error "#{$name} is not an event icon."<font></font>
   background-position: -($event-icon-width * $i) 0<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">斯丁前端</span>
@@ -68,9 +66,7 @@ topic: CSS
 
 <p><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">更新</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">：由于对它的请求数量众多，Eppstein在2016年最终实现了该功能。</font><font style="vertical-align: inherit;">但是，今天（2018年中），这些更改仍未合并到主分支中，因此在sass版本中仍然不可用。</font><font style="vertical-align: inherit;">参见
  </font></font><a href="https://github.com/sass/sass/pull/2057" rel="nofollow noreferrer"><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">问题2057</font></font></strong></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

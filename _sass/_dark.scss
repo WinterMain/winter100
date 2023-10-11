@@ -1,0 +1,63 @@
+.dark {
+  --line-color: #363636;
+  --line: 1px solid var(--line-color);
+  --bg-color: #292929;
+  --bg-element: black;
+  --text-title: #ffffff;
+  --text-level1: #b9b9b9;
+  --themeColor: #ed3da1;
+  --themeColorLevel1: #ffe9f6;
+
+  .page-header {
+    background-color: black;
+    background-image: url(/assets/img/star.png);
+    background-repeat: repeat;
+    .nav-ul li {
+      a {
+        color: var(--text-title);
+      }
+      &.active {
+        a { color: var(--themeColor) };
+      }
+    }
+  }
+  footer {
+    &.bg-white {
+      background-color: black!important;
+      background-image: url(/assets/img/star.png);
+      background-repeat: repeat;
+      a {
+        color: var(--text-title);
+      }
+    }
+    .friend {
+      border-top: var(--line);
+      span {color: var(--text-title)!important;}
+      background-color: black !important;
+    }
+  }
+
+  .intro {
+    background-color: #002b60;
+    color: var(--text-title);
+    padding: 90px 20px;
+    .title {
+      color: var(--text-title);
+    }
+    .divider-custom-line {
+      background-color: var(--text-title);
+    }
+  }
+
+  .p-post .code-content {
+    color: var(--text-level1);
+    p {
+      color: var(--text-title);
+    }
+    blockquote {
+      background-color: var(--bg-color);
+      border-left: 6px solid var(--line-color);
+      color: var(--text-level1);
+    }
+  }
+}

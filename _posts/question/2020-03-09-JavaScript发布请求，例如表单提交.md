@@ -40,7 +40,7 @@ topic: JavaScript
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">对不起，我不清楚。</font><font style="vertical-align: inherit;">我需要一个更改浏览器位置的解决方案，就像提交表单一样。</font><font style="vertical-align: inherit;">如果</font></font><a href="http://en.wikipedia.org/wiki/XMLHttpRequest" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">XMLHttpRequest</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">可以做到这一点</font><font style="vertical-align: inherit;">，那不是很明显。</font><font style="vertical-align: inherit;">而且这不应该是异步的，也不应该使用XML，因此Ajax并不是答案。</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第258篇《JavaScript发布请求，例如表单提交》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第258篇《JavaScript发布请求，例如表单提交》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -51,9 +51,7 @@ topic: JavaScript
             <span class="discuss-time">2020.03.09</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">您可以进行AJAX调用（可能使用诸如Prototype.js或JQuery之类的库）。</font><font style="vertical-align: inherit;">AJAX可以处理GET和POST选项。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">理查德小胖Harry</span>
@@ -109,27 +107,21 @@ topic: JavaScript
          &lt;/body&gt;<font></font>
      &lt;/html&gt;<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">LA</span>
             <span class="discuss-time">2020.03.09</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">您可以使用jQuery之类的库及其</font></font><a href="http://docs.jquery.com/Ajax/jQuery.post" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">$ .post方法</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">西里猴子</span>
             <span class="discuss-time">2020.03.09</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">您可以使用DHTML动态添加表单，然后提交。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">番长阳光</span>
@@ -148,9 +140,7 @@ topic: JavaScript
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">使用此功能，您可以发布所有输入值。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">西门神奇</span>
@@ -220,18 +210,14 @@ function normalPost(url, params) {<font></font>
    {"name"=&gt;"Andrew", "address"=&gt;"Underworld", "dogs"=&gt;["Doug", "Elf", "Orange"]},<font></font>
    {"name"=&gt;"Julian", "address"=&gt;"In a hole", "dogs"=&gt;["Please", "Help"]}]}<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小红酱</span>
             <span class="discuss-time">2020.03.09</span>
           </div>
           <div class="discuss-comment"><p><a href="https://developer.mozilla.org/en-US/docs/Web/API/FormData/Using_FormData_Objects" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">FormObject</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">是一个选项。</font><font style="vertical-align: inherit;">但是，大多数浏览器现在不支持FormObject。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">神无Davaid</span>
@@ -244,9 +230,7 @@ function normalPost(url, params) {<font></font>
 <li><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">自己发出XMLHTTPRequest请求，将post传递到open方法而不是get中。</font><font style="vertical-align: inherit;">（有关更多信息，请参见</font></font><em><a href="http://www.openjs.com/articles/ajax_xmlhttp_using_post.php" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在XMLHTTPRequest（Ajax）</font></font></a></em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">中</font><em><a href="http://www.openjs.com/articles/ajax_xmlhttp_using_post.php" rel="noreferrer"><font style="vertical-align: inherit;">使用POST方法</font></a></em><font style="vertical-align: inherit;">。）</font></font></p></li>
 <li><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">通过JavaScript，动态创建表单，添加操作，添加输入并提交。</font></font></p></li>
 </ol></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Near小哥神奇</span>
@@ -311,9 +295,7 @@ function normalPost(url, params) {<font></font>
     form.appendTo( document.body ).submit(); <font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">LEY小卤蛋</span>
@@ -349,9 +331,7 @@ function normalPost(url, params) {<font></font>
     document.body.removeChild(form);<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

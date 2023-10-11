@@ -61,7 +61,7 @@ API.one(function(err, data) {<font></font>
 <h3><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如何在Promise中使用API​​，如何“承诺”呢？</font></font></h3></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第684篇《如何将现有的回调API转换为Promise？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第684篇《如何将现有的回调API转换为Promise？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -86,9 +86,7 @@ API.one(function(err, data) {<font></font>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在这里看看这个非常简单的版本：</font><a href="https://gist.github.com/jdtorregrosas/aeee96dd07558a5d18db1ff02f31e21a" rel="nofollow noreferrer"><font style="vertical-align: inherit;">https</font></a><font style="vertical-align: inherit;"> :
  </font></font><a href="https://gist.github.com/jdtorregrosas/aeee96dd07558a5d18db1ff02f31e21a" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">//gist.github.com/jdtorregrosas/aeee96dd07558a5d18db1ff02f31e21a</font></font></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">伽罗Tony小卤蛋</span>
@@ -112,9 +110,7 @@ API.one(function(err, data) {<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在这个例子中，承诺没有失败的理由，因此</font></font><code>reject()</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">永远不会被称为。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">神奇古一</span>
@@ -147,9 +143,7 @@ export default toPromise<font></font>
   console.log(friends)<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">AStafan</span>
@@ -169,9 +163,7 @@ export default toPromise<font></font>
 then(function(results) {<font></font>
 });<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">蛋蛋猿</span>
@@ -298,9 +290,7 @@ getName().then(function(name){ console.log(name) })<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">上面的方法可以响应老式回调和Promise用法的结果。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">希望这可以帮助。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小宇宙JinJinHarry</span>
@@ -316,9 +306,7 @@ getName().then(function(name){ console.log(name) })<font></font>
 }<font></font>
 promiseDOMready().then(initOnLoad);<font></font>
 </code></pre></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

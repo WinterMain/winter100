@@ -64,7 +64,7 @@ new Vue({ <font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">但是我认为将Webpack与vue-loader一起使用时，我需要做一些不同的事情。</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第922篇《使用Webpack导入Vue组件》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第922篇《使用Webpack导入Vue组件》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}

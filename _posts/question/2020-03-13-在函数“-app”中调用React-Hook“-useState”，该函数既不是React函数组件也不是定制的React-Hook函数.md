@@ -79,7 +79,7 @@ export default person; <font></font>
 </code></pre></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第1343篇《在函数“ app”中调用React Hook“ useState”，该函数既不是React函数组件也不是定制的React Hook函数》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第1343篇《在函数“ app”中调用React Hook“ useState”，该函数既不是React函数组件也不是定制的React Hook函数》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -140,9 +140,7 @@ const MyComponent = React.forwardRef( function MyComponent(props, ref) {<font></
   );<font></font>
 });<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">神奇古一</span>
@@ -153,18 +151,14 @@ const MyComponent = React.forwardRef( function MyComponent(props, ref) {<font></
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">步骤2：点击“是”以“更新app.js的导入”。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">步骤3：再次重新启动服务器。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Stafan小小</span>
             <span class="discuss-time">2020.03.13</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">使用const App代替const app</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">老丝村村</span>
@@ -189,9 +183,7 @@ const MyComponent = React.forwardRef( function MyComponent(props, ref) {<font></
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">欲了解更多信息，您应该阅读</font></font><a href="https://reactjs.org/docs/hooks-rules.html" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">钩子规则-React</font></font></a></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">希望这可以帮助！</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">猴子十三</span>
@@ -211,9 +203,7 @@ export default Person;<font></font>
 <blockquote>
   <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我们提供了一个ESLint插件，该插件可以强制执行Hooks规则以避免错误。</font><font style="vertical-align: inherit;">它假定任何以“ use”开头且紧随其后的是大写字母的函数都是“挂钩”。</font><font style="vertical-align: inherit;">我们认识到这种启发式方法不是完美的，并且可能会有一些误报，但是如果没有整个生态系统的约定，就无法使Hooks正常工作-较长的名称将使人们不愿采用Hooks或遵循约定。</font></font></p>
 </blockquote></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">前端MandyJinJin</span>
@@ -225,36 +215,28 @@ export default Person;<font></font>
 </code></pre>
 
 <p><a href="https://reactjs.org/docs/jsx-in-depth.html#html-tags-vs.-react-components" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">https://reactjs.org/docs/jsx-in-depth.html#html-tags-vs.-react-components</font></font></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">理查德村村小宇宙</span>
             <span class="discuss-time">2020.03.13</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">解决方法很简单，正确的“ app”并用大写第一个字符写“ App”。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">JinJinDavaidNear</span>
             <span class="discuss-time">2020.03.13</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">将应用程序大写为App肯定会起作用。 </font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">逆天小卤蛋Green</span>
             <span class="discuss-time">2020.03.13</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">函数的第一个字符应为大写</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">猿EvaL</span>
@@ -273,9 +255,7 @@ export default Document;<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这解决了我的问题。 </font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">凯梅小胖</span>
@@ -284,27 +264,21 @@ export default Document;<font></font>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">React组件名称应</font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">大写</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，自定义钩子函数应以</font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">use</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">关键字</font><font style="vertical-align: inherit;">开头，</font><font style="vertical-align: inherit;">以标识为</font><font style="vertical-align: inherit;">React </font><font style="vertical-align: inherit;">钩子函数。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">因此，将您的</font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">应用程序</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">组件</font><font style="vertical-align: inherit;">大写</font><font style="vertical-align: inherit;">为</font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">App</font></font></strong></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">猿前端前端</span>
             <span class="discuss-time">2020.03.13</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我遇到过同样的问题。</font><font style="vertical-align: inherit;">原来是在“ App”中将“ A”大写的问题。</font><font style="vertical-align: inherit;">另外，如果要导出，请</font></font><code>export default App;</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">确保也导出相同名称的“ App”。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">LLSam</span>
             <span class="discuss-time">2020.03.13</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">组件应以大写字母开头。</font><font style="vertical-align: inherit;">还记得更改出口行中的第一个字母！</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">罗静云</span>
@@ -324,9 +298,7 @@ function Helper2(){}</code></pre>
 </div>
 </div>
 <p></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">理查德飞云</span>
@@ -338,18 +310,14 @@ function Helper2(){}</code></pre>
 <font></font>
 export default App;<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">蛋蛋和田</span>
             <span class="discuss-time">2020.03.13</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在函数名称中使用首字母大写。</font><font style="vertical-align: inherit;">例如：-功能App {}</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">LEY宝儿</span>
@@ -358,9 +326,7 @@ export default App;<font></font>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">据我所知，这个包装中包含了短绒棉。</font><font style="vertical-align: inherit;">并且它要求您的组件应该从大写字母开始。</font><font style="vertical-align: inherit;">请检查一下。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">然而，对我而言，这是可悲的。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">文韬武略辛弃疾</span>
@@ -387,9 +353,7 @@ export default App;<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这对我来说很有用。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">宝儿神奇</span>
@@ -401,9 +365,7 @@ export default App;<font></font>
 <font></font>
 export default App;<font></font>
 </code></pre></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

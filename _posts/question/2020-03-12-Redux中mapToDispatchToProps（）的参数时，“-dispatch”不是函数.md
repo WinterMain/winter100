@@ -90,7 +90,7 @@ export default StartContainer<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">干杯。</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第916篇《Redux中mapToDispatchToProps（）的参数时，“ dispatch”不是函数》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第916篇《Redux中mapToDispatchToProps（）的参数时，“ dispatch”不是函数》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -118,9 +118,7 @@ export default StartContainer<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">没有任何mapDispatchToProps</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小胖Itachi</span>
@@ -144,9 +142,7 @@ const mapDispatchToProps = (dispatch) =&gt; {<font></font>
 <font></font>
 export default connect(mapStateToProps,mapDispatchToProps)(TodoList);<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">神无Davaid</span>
@@ -163,9 +159,7 @@ export default connect(mapStateToProps,mapDispatchToProps)(TodoList);<font></fon
 
 <pre><code>export default connect(mapStateToProps,mapDispatchToProps)(TodoList);
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">MandyJinJin路易</span>
@@ -180,9 +174,7 @@ export default connect(mapStateToProps,mapDispatchToProps)(TodoList);<font></fon
 
 <pre><code>const StartContainer = connect(mapDispatchToProps)(Start)
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">十三西里Sam</span>
@@ -191,9 +183,7 @@ export default connect(mapStateToProps,mapDispatchToProps)(TodoList);<font></fon
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果您想</font></font><code>mapDispatchToProps</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">不带</font><font style="vertical-align: inherit;">参数地</font></font><code>mapStateToProps</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">使用</font></font><code>null</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">第一个参数。</font></font></p>
 
 <p><code>export default connect(null, mapDispatchToProps)(Start)</code></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">GreenNear</span>
@@ -220,9 +210,7 @@ const VisibleTodoList = connect(<font></font>
   mapDispatchToProps<font></font>
 )(TodoList)<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">逆天Green古一</span>
@@ -239,9 +227,7 @@ const VisibleTodoList = connect(<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">现在听起来很明显，但可能会帮助某人。</font></font></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

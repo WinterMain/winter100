@@ -17,7 +17,7 @@ topic: CSS
     <div class="article-content"><p><font style="vertical-align: inherit;"></font><code>:focus</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">和</font></font><code>:active</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">伪类</font><font style="vertical-align: inherit;">之间有什么区别</font><font style="vertical-align: inherit;">？</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第3236篇《：focus和：active有什么区别？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第3236篇《：focus和：active有什么区别？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -30,9 +30,7 @@ topic: CSS
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">使用“焦点”将为键盘用户提供与鼠标用户悬停鼠标时相同的效果。</font><font style="vertical-align: inherit;">为了在Internet Explorer中获得相同的效果，需要“活动”。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">现实情况是，这些状态无法像所有用户那样正常工作。</font><font style="vertical-align: inherit;">不使用所有三个选择器会为许多无法使用鼠标的纯键盘用户带来可访问性问题。</font><font style="vertical-align: inherit;">我邀请您参加#nomouse挑战赛（nomouse dot org）。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">十三</span>
@@ -49,9 +47,7 @@ topic: CSS
 &lt;input type="text"/&gt;<font></font>
 &lt;input type="text"/&gt;<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">猪猪</span>
@@ -86,9 +82,7 @@ topic: CSS
 <p></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">编辑：</font></font><a href="http://jsfiddle.net/NCwvj/" rel="noreferrer" title="jsfiddle"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">jsfiddle</font></font></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">乐米亚</span>
@@ -134,9 +128,7 @@ div:focus:active {<font></font>
 <hr>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">元素是否可聚焦是</font></font><a href="https://stackoverflow.com/a/1600194"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">另一个问题</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font><font style="vertical-align: inherit;">大多数不是默认设置。</font><font style="vertical-align: inherit;">但是，它是安全的假设</font></font><code>&lt;a&gt;</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，</font></font><code>&lt;input&gt;</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，</font></font><code>&lt;textarea&gt;</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在默认情况下可获得焦点。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">StafanTony</span>
@@ -151,9 +143,7 @@ div:focus:active {<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">来源：</font></font><a href="http://www.w3schools.com/CSS/css_pseudo_classes.asp" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">CSS伪类</font></font></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">樱小胖Mandy</span>
@@ -162,9 +152,7 @@ div:focus:active {<font></font>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">焦点只能通过键盘输入来指定，但是一个元素可以通过鼠标或键盘来激活。 </font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果在链接上使用：focus，则样式规则仅在按下键盘上的botton时适用。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">猴子蛋蛋</span>
@@ -173,9 +161,7 @@ div:focus:active {<font></font>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">：focus是当元素能够接受输入时-输入框中的光标或已制表到的链接。 </font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">：active是用户激活元素的时间-用户按下鼠标按钮然后释放它之间的时间。</font></font></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

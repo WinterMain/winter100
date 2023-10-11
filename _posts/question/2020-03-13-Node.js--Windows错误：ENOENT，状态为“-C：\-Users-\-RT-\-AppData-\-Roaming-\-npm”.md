@@ -23,7 +23,7 @@ topic: Node.js
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">一个人如何解决呢？</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第1503篇《Node.js / Windows错误：ENOENT，状态为“ C：\ Users \ RT \ AppData \ Roaming \ npm”》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第1503篇《Node.js / Windows错误：ENOENT，状态为“ C：\ Users \ RT \ AppData \ Roaming \ npm”》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -34,9 +34,7 @@ topic: Node.js
             <span class="discuss-time">2020.03.13</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我需要来自github的以 TypeScript编写的软件包。</font><font style="vertical-align: inherit;">我从master分支中将最新版本进行了git pull到主项目的根目录中。</font><font style="vertical-align: inherit;">然后，我进入目录并进行了npm安装，以便gulp命令可以正常工作以生成ES5模块。</font><font style="vertical-align: inherit;">无论如何，总而言之，我的构建过程试图从这个新文件夹构建文件，因此我不得不将其移出根目录。</font><font style="vertical-align: inherit;">这是导致这些相同的错误。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">神乐古一</span>
@@ -45,9 +43,7 @@ topic: Node.js
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">通过npm安装软件包时遇到了同样的问题。 </font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在</font></font><code>npm</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">手动</font><font style="vertical-align: inherit;">创建</font><font style="vertical-align: inherit;">文件夹</font><font style="vertical-align: inherit;">后</font><font style="vertical-align: inherit;">，</font></font><code>C:\Users\UserName\AppData\Roaming\</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">该特定错误消失了，但是它尝试在该</font></font><code>npm</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">文件夹中</font><font style="vertical-align: inherit;">创建其他目录时却出现了类似的多个错误，但</font><font style="vertical-align: inherit;">失败了。</font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">以管理员身份运行命令提示符</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">后，此问题已解决</font><font style="vertical-align: inherit;">。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Near飞云</span>
@@ -59,9 +55,7 @@ topic: Node.js
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这样做的过程将设置所有必需的目录。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">西门达蒙</span>
@@ -76,9 +70,7 @@ npm config set cache C:\Dev\npm-repository\npm-cache --global  <font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">当然，您可以将位置设置为最适合的位置。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这对我来说效果很好，可以解决您可能遇到的所有权限问题。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">神乐古一</span>
@@ -88,9 +80,7 @@ npm config set cache C:\Dev\npm-repository\npm-cache --global  <font></font>
 
 <pre><code>install &lt;packagename&gt; -g
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">十三西里古一</span>
@@ -99,9 +89,7 @@ npm config set cache C:\Dev\npm-repository\npm-cache --global  <font></font>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在显示的路径中手动创建名为“ npm”的文件夹可以解决该问题。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">可以在“ </font><a href="https://github.com/npm/npm/wiki/Troubleshooting#error-enoent-stat-cusersuserappdataroamingnpm-on-windows-7" rel="noreferrer"><font style="vertical-align: inherit;">故障排除”页面</font></a><font style="vertical-align: inherit;">上找到更多信息。</font></font><a href="https://github.com/npm/npm/wiki/Troubleshooting#error-enoent-stat-cusersuserappdataroamingnpm-on-windows-7" rel="noreferrer"><font style="vertical-align: inherit;"></font></a></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

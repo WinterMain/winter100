@@ -104,7 +104,7 @@ import apolloProvider from '../plugins/graphql'<font></font>
 </code></pre></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第3669篇《如何在NuxtJs中使用Graphql》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第3669篇《如何在NuxtJs中使用Graphql》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -117,9 +117,7 @@ import apolloProvider from '../plugins/graphql'<font></font>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">也许有点晚，但是有</font></font><a href="https://github.com/nuxt-community/apollo-module" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">@ nuxtjs / apollo</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">插件。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我在使用Nuxt 1.0的博客中使用了此工具，但仍在Nuxt2上进行一些测试，但这给我带来了问题。.猜想我暂时仍将使用V1。</font></font></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

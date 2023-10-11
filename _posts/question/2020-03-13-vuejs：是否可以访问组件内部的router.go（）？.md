@@ -54,7 +54,7 @@ window.router = router // I don't want to set this global variable<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">谢谢，非常感谢您的帮助</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第1399篇《vuejs：是否可以访问组件内部的router.go（）？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第1399篇《vuejs：是否可以访问组件内部的router.go（）？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}

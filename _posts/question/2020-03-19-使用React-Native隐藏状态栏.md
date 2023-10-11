@@ -17,7 +17,7 @@ topic: React.js
     <div class="article-content"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">使用React Native开发时如何隐藏iOS或Android的状态栏？</font><font style="vertical-align: inherit;">我已经导入了StatusBar，但是我相信还有StatusBarIOS和一个StatusBar for Android。</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第2314篇《使用React Native隐藏状态栏》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第2314篇《使用React Native隐藏状态栏》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -35,9 +35,7 @@ topic: React.js
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">归功于</font><a href="https://stackoverflow.com/a/36186625/3377049"><font style="vertical-align: inherit;">此答案中</font></a><font style="vertical-align: inherit;">的第一个评论</font></font><a href="https://stackoverflow.com/a/36186625/3377049"><font style="vertical-align: inherit;"></font></a></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">请记住首先</font><font style="vertical-align: inherit;">按照此处的其他答案</font><font style="vertical-align: inherit;">导入</font></font><a href="https://facebook.github.io/react-native/docs/statusbar.html" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">StatusBar组件</font></font></a><font style="vertical-align: inherit;"></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">StafanHarry</span>
@@ -62,9 +60,7 @@ class App extends React.Component {<font></font>
     }<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">GreenJinJin猿</span>
@@ -76,9 +72,7 @@ class App extends React.Component {<font></font>
 </code></pre>
 
 <p><a href="https://facebook.github.io/react-native/docs/statusbar.html" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">响应本机文档 </font></font><code>StatusBar</code></a></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

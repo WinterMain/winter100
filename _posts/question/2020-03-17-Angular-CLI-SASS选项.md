@@ -23,7 +23,7 @@ topic: CSS
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">另外，在新的Angular项目中组织样式的最佳方法是什么？</font><font style="vertical-align: inherit;">最好将sass文件放在与组件相同的文件夹中。</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第1925篇《Angular CLI SASS选项》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第1925篇《Angular CLI SASS选项》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -67,9 +67,7 @@ topic: CSS
 </code></pre>
 
 <p><a href="https://blog.jcarlson.io/bulma-angular-6/" rel="nofollow noreferrer">BULMA + ANGULAR 6</a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">乐小哥L</span>
@@ -101,18 +99,14 @@ topic: CSS
 </blockquote>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">但是，如果有人可以共享更新现有项目的方式，我将不胜感激，因为那样很好。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">斯丁小小</span>
             <span class="discuss-time">2020.03.17</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">截至2019年3月10日，安瓜尔放弃了对sass的支持。</font><font style="vertical-align: inherit;">无论您</font></font><code>--style</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在运行时使用</font><font style="vertical-align: inherit;">什么选项</font></font><code>ng new</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，总会</font></font><code>.scss</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">生成文件。</font><font style="vertical-align: inherit;">可耻的是，没有任何解释就放弃了无礼的支持。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Tony阳光</span>
@@ -143,9 +137,7 @@ topic: CSS
 <p><code>"@schematics/angular:component": {
       "styleext": "sass"
     }</code></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">西里凯</span>
@@ -154,9 +146,7 @@ topic: CSS
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">将其设置为全局默认值</font></font></p>
 
 <p><code>ng set defaults.styleExt=scss --global</code></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Sam猪猪</span>
@@ -210,9 +200,7 @@ topic: CSS
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在我看来，似乎是一个过于复杂的架构。</font><font style="vertical-align: inherit;">¯_（ツ）_ /¯</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">现在，您必须将所有的CSS / less文件更改为scss，并更新组件等中的任何引用，但是您应该一切顺利。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">猪猪猿小哥</span>
@@ -252,9 +240,7 @@ topic: CSS
     }<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小宇宙前端</span>
@@ -275,9 +261,7 @@ topic: CSS
 <ul>
 <li><a href="https://github.com/angular/angular-cli/wiki/stories-css-preprocessors" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">https://github.com/angular/angular-cli/wiki/stories-css-preprocessors</font></font></a></li>
 </ul></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">JimEva</span>
@@ -295,9 +279,7 @@ topic: CSS
 
 <pre><code>ng new some_project_name --style=scss
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">十三Davaid</span>
@@ -316,9 +298,7 @@ topic: CSS
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">有关更多信息，您可以在这里查看其文档：</font></font></p>
 
 <p><a href="https://github.com/angular/angular-cli" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">https://github.com/angular/angular-cli</font></font></a></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

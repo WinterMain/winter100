@@ -49,7 +49,7 @@ topic: Vue.js
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">也许我不应该在asyncData中调用多个请求？</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第2867篇《Nuxt-具有多个请求的asyncData》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第2867篇《Nuxt-具有多个请求的asyncData》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -97,9 +97,7 @@ export default {<font></font>
 </code></pre>
 
 <p><a href="https://codesandbox.io/embed/5vowp1vqkp" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">是它的工作沙箱。</font><font style="vertical-align: inherit;">（别忘了为</font></font><code>:id</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">路由参数</font><font style="vertical-align: inherit;">添加值</font><font style="vertical-align: inherit;">）</font></font></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

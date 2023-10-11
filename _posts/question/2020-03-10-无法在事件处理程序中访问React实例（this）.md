@@ -63,7 +63,7 @@ export default SomeClass<font></font>
 </code></pre></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第517篇《无法在事件处理程序中访问React实例（this）》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第517篇《无法在事件处理程序中访问React实例（this）》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -91,9 +91,7 @@ export default SomeClass<font></font>
 <font></font>
     this.popRow=this.popRow.bind(this);//This was the Issue, This line //should be kept above "this.state"<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">猿老丝</span>
@@ -106,9 +104,7 @@ export default SomeClass<font></font>
   this.changeContent = this.changeContent.bind(this);<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Harry泡芙</span>
@@ -129,9 +125,7 @@ export default SomeClass<font></font>
     )<font></font>
   }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">StafanTony</span>
@@ -168,9 +162,7 @@ export default SomeClass<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">组件每次渲染时，这两种方法将不会创建新函数。</font><font style="vertical-align: inherit;">因此我们的ChildComponent不会因为新功能道具的更改而重新渲染，否则可能会产生性能问题。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">阿飞古一A</span>
@@ -191,9 +183,7 @@ export default SomeClass<font></font>
 <font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小宇宙路易</span>
@@ -214,9 +204,7 @@ export default SomeClass<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">简单得多，不需要</font></font><code>bind(this)</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">或</font></font><code>fatArrow</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">西门Sam</span>
@@ -251,9 +239,7 @@ export default SomeClass<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">因为第二种方法实际上将在每个渲染调用中生成新函数，实际上这意味着新版本的props指针，而不是如果您以后在意性能，则可以使用</font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">React.PureComponent</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">或在</font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">React.Component中，</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">   您可以覆盖</font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">shouldComponentUpdate（nextProps，nextState）</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">并在道具到达时进行浅层检查</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">阿飞米亚</span>
@@ -281,9 +267,7 @@ for (let member of Object.getOwnPropertyNames(Object.getPrototypeOf(dis))) {<fon
 
 <pre><code>bindAllFunctions({ bindTo: this })
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">JinJin乐</span>
@@ -295,9 +279,7 @@ for (let member of Object.getOwnPropertyNames(Object.getPrototypeOf(dis))) {<fon
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这种方式</font></font><code>this.state</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">将是有效的对象。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">蛋蛋GO</span>
@@ -319,9 +301,7 @@ for (let member of Object.getOwnPropertyNames(Object.getPrototypeOf(dis))) {<fon
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">因为arrow函数是在构造函数的范围内声明的，并且因为arrow函数是</font></font><code>this</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在其声明范围内进行</font><font style="vertical-align: inherit;">维护的</font><font style="vertical-align: inherit;">，所以它们都可以工作。</font><font style="vertical-align: inherit;">缺点是这些将不是原型上的函数，它们将与每个组件一起重新创建。</font><font style="vertical-align: inherit;">但是，这不会带来太大的负面影响，因为会</font></font><code>bind</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">导致相同的结果。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Davaid阳光小卤蛋</span>
@@ -348,9 +328,7 @@ for (let member of Object.getOwnPropertyNames(Object.getPrototypeOf(dis))) {<fon
 <hr>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">引用是在组件实例上设置的，而不是在组件实例上设置的</font></font><code>React.refs</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">：您需要更改</font></font><code>React.refs.someref</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">为</font></font><code>this.refs.someref</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font><font style="vertical-align: inherit;">您还需要将</font></font><code>sendContent</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">方法</font><font style="vertical-align: inherit;">绑定</font><font style="vertical-align: inherit;">到组件实例，以便对其进行</font></font><code>this</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">引用。</font></font></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

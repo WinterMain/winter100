@@ -17,7 +17,7 @@ topic: JavaScript
     <div class="article-content"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">是否有任何JavaScript或jQuery API或方法来获取页面上图像的尺寸？</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第863篇《如何使用JavaScript获取图像大小（高度和宽度）？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第863篇《如何使用JavaScript获取图像大小（高度和宽度）？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -50,9 +50,7 @@ img.src = "http://example.com/myimage.jpg:;<font></font>
 <p><strong>Conclusion:</strong></p>
 
 <p>Use <code>img</code>, not <code>this</code>, after <code>onload</code>.</p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">十三西里Sam</span>
@@ -62,9 +60,7 @@ img.src = "http://example.com/myimage.jpg:;<font></font>
 alert( img.height + " ;; " + img .width + " ;; " + img .naturalHeight + " ;; " + img .clientHeight + " ;; " + img.offsetHeight + " ;; " + img.scrollHeight + " ;; " + img.clientWidth + " ;; " + img.offsetWidth + " ;; " + img.scrollWidth )<font></font>
 //But all invalid in Baidu browser  360 browser ...<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">西里神奇</span>
@@ -78,9 +74,7 @@ alert( img.height + " ;; " + img .width + " ;; " + img .naturalHeight + " ;; " +
 <font></font>
  });<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">GilGilPro</span>
@@ -92,9 +86,7 @@ alert( img.height + " ;; " + img .width + " ;; " + img .naturalHeight + " ;; " +
 var width=image.offsetWidth;<font></font>
 var height=image.offsetHeight;<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">凯番长蛋蛋</span>
@@ -106,9 +98,7 @@ var height=image.offsetHeight;<font></font>
   console.log($(this).width() + "x" + $(this).height())<font></font>
 })<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">null</span>
@@ -138,9 +128,7 @@ var height=image.offsetHeight;<font></font>
 </div>
 </div>
 <p></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">米亚凯</span>
@@ -206,9 +194,7 @@ console.log($("#img1").height(),  $("#img1").width());<font></font>
 <font></font>
 /*Actual Rendered size*/    120                  150<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">TomTony</span>
@@ -225,9 +211,7 @@ console.log($("#img1").height(),  $("#img1").width());<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这些提供了图像文件本身的高度和宽度（而不仅仅是图像元素）。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Itachi梅Harry</span>
@@ -237,9 +221,7 @@ console.log($("#img1").height(),  $("#img1").width());<font></font>
 
 <pre><code>var imgWidth = $("#imgIDWhatever").width();
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">伽罗乐</span>
@@ -254,9 +236,7 @@ console.log($("#img1").height(),  $("#img1").width());<font></font>
     });<font></font>
 });<font></font>
 </code></pre></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

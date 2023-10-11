@@ -34,7 +34,7 @@ topic: JavaScript
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">注意：我不是在寻找图表库。</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第1111篇《JavaScript中的图形可视化库》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第1111篇《JavaScript中的图形可视化库》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -68,9 +68,7 @@ topic: JavaScript
 <p><img src="https://i.stack.imgur.com/9RrCz.png" alt="BPMN演示创建的示例渲染的屏幕快照。"></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">全面披露：我为yWorks工作，但是在Stackoverflow上我不代表我的雇主。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Mandy番长</span>
@@ -79,9 +77,7 @@ topic: JavaScript
           <div class="discuss-comment"><p><a href="http://www.jsviz.org" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">JsVIS</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">相当不错，但是随着较大的图形速度变慢，并且自2007年以来已被放弃。</font></font></p>
 
 <p><a href="https://github.com/prefuse/Prefuse" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">prefuse</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">是用于在Java中创建丰富的交互式数据可视化</font><a href="https://github.com/prefuse/Prefuse" rel="nofollow noreferrer"><font style="vertical-align: inherit;">效果</font></a><font style="vertical-align: inherit;">的一组软件工具。</font></font><a href="https://github.com/prefuse/Flare" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">flare</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">   是一个ActionScript库，用于创建可在Adobe Flash Player中运行的可视化效果，该功能自2012年以来已被废弃。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">StafanMandy</span>
@@ -90,9 +86,7 @@ topic: JavaScript
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">正如guruz所提到的，</font></font><a href="http://philogb.github.io/jit/" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">JIT</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">具有几种可爱的图形/树布局，包括颇具吸引力的RGraph和HyperTree可视化。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">另外，我刚刚</font></font><a href="http://github.com/jackrusher/jssvggraph" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在github上</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">提出了一个基于SVG的超级简单的</font><a href="http://github.com/jackrusher/jssvggraph" rel="nofollow noreferrer"><font style="vertical-align: inherit;">实现</font></a><font style="vertical-align: inherit;">（无依赖项，〜125 LOC），对于在现代浏览器中显示的小图来说应该足够好了。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">村村凯</span>
@@ -114,9 +108,7 @@ topic: JavaScript
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果您正在考虑使用图形构建严肃的Web应用程序，则至少应考虑Cytoscape.js。</font><font style="vertical-align: inherit;">它是免费和开源的：</font></font></p>
 
 <p><a href="http://js.cytoscape.org"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">http://js.cytoscape.org</font></font></a></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

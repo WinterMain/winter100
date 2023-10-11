@@ -44,7 +44,7 @@ module.exports = {<font></font>
 </code></pre></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第1388篇《使用extract-text-webpack-plugin React时未定义窗口错误》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第1388篇《使用extract-text-webpack-plugin React时未定义窗口错误》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -76,9 +76,7 @@ module.exports = {<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">您不应将loader字符串传递</font></font><code>style</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">给</font></font><code>#extract</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font><font style="vertical-align: inherit;">但是...如果您设置</font></font><code>allChunks=false</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，那么它将不会为非初始块构建CSS文件。</font><font style="vertical-align: inherit;">因此，它需要知道要使用哪种加载器来注入页面。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">提示：Webpack是真正需要深入了解的工具，否则您可能会遇到很多奇怪的问题。</font></font></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

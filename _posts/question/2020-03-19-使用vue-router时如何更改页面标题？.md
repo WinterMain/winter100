@@ -67,7 +67,7 @@ export default new Router({<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">最好是，我希望有一个自动系统，而不是在每个组件的已创建功能上更改页面标题。</font><font style="vertical-align: inherit;">谢谢。</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第2248篇《使用vue-router时如何更改页面标题？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第2248篇《使用vue-router时如何更改页面标题？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -78,9 +78,7 @@ export default new Router({<font></font>
             <span class="discuss-time">2020.03.19</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我想补充一点，以上内容并未真正保留历史记录。</font><font style="vertical-align: inherit;">请参阅</font></font><a href="https://github.com/vuejs/vue-router/issues/914#issuecomment-384477609" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">https://github.com/vuejs/vue-router/issues/914#issuecomment-384477609，</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">以获得更好的答案，该答案实际上可以处理历史记录（尽管有些古怪）。</font></font></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

@@ -17,7 +17,7 @@ topic: JavaScript
     <div class="article-content"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如何</font></font><code>&lt;div&gt;</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">使用jQuery在屏幕中央</font><font style="vertical-align: inherit;">设置a </font><font style="vertical-align: inherit;">？</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第591篇《使用jQuery在屏幕上居中放置DIV》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第591篇《使用jQuery在屏幕上居中放置DIV》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -50,9 +50,7 @@ margin: auto;<font></font>
 
 <pre><code>margin: auto 0;
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">逆天蛋蛋</span>
@@ -65,9 +63,7 @@ transform: translate(-50%, -50%);<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">阅读</font></font><a href="http://blog.netgloo.com/2014/07/30/centering-a-div-with-css-without-negative-margin-or-jquery/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这篇文章</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">以获取更多详细信息。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Gil伽罗</span>
@@ -81,18 +77,14 @@ transform: translate(-50%, -50%);<font></font>
   top: 50%;<font></font>
 } <font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">梅Sam路易</span>
             <span class="discuss-time">2020.03.11</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">只需说：$（“＃divID”）。html（$（''）。html（$（“＃divID”）。html（）））;;</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">西门猴子</span>
@@ -122,9 +114,7 @@ transform: translate(-50%, -50%);<font></font>
         return this;<font></font>
     };<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小欧学姐</span>
@@ -180,9 +170,7 @@ $("#example6").center("fixed")<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">它可以与任何定位类型一起使用，并且可以轻松地在整个站点中使用，也可以轻松地移植到您创建的任何其他站点。</font><font style="vertical-align: inherit;">不再需要烦人的变通办法来正确地使内容居中。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">希望这对外面的人有用！</font><font style="vertical-align: inherit;">请享用。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Tony樱番长</span>
@@ -230,27 +218,21 @@ $("#example6").center("fixed")<font></font>
 <font></font>
 });<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">樱Mandy</span>
             <span class="discuss-time">2020.03.11</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">您得到的过渡效果不佳，因为每次滚动文档时都要调整元素的位置。</font><font style="vertical-align: inherit;">您要使用固定位置。</font><font style="vertical-align: inherit;">我尝试了上面列出的固定中心插件，看来确实可以很好地解决问题。</font><font style="vertical-align: inherit;">固定位置允许您将元素居中一次，并且CSS属性将在每次滚动时为您保持该位置。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">乐猪猪</span>
             <span class="discuss-time">2020.03.11</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我认为，如果要使元素始终居中于页面中间，则绝对位置最好。</font><font style="vertical-align: inherit;">您可能需要固定的元素。</font><font style="vertical-align: inherit;">我找到了另一个使用固定定位的jQuery居中插件。</font><font style="vertical-align: inherit;">它称为</font></font><a href="http://david-tang.net/2010/06/fixed-center-plugin/" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">固定中心</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">别太浪</span>
@@ -272,9 +254,7 @@ $("#example6").center("fixed")<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">现在，该框位于</font></font><code>-25</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">屏幕中央。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">路易飞云</span>
@@ -299,9 +279,7 @@ $(function(){<font></font>
 };<font></font>
 &lt;/script&gt;<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">泡芙村村Pro</span>
@@ -330,9 +308,7 @@ $(function(){<font></font>
 
 <p><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/calc"><font style="vertical-align: inherit;"></font><code>calc()</code></a><font style="vertical-align: inherit;"><a href="http://caniuse.com/#feat=calc"><font style="vertical-align: inherit;">浏览器支持表的</font></a><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/calc"><font style="vertical-align: inherit;">MDN文档</font></a></font><br>
 <a href="http://caniuse.com/#feat=calc"><font style="vertical-align: inherit;"></font></a> </p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">伽罗小哥</span>
@@ -356,9 +332,7 @@ $(function(){<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">演示：</font></font><a href="http://jsfiddle.net/DerekL/GbDw9/" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">小提琴</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">（带有添加的参数）</font></font></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

@@ -22,7 +22,7 @@ topic: JavaScript
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">使用jQuery </font></font><code>regTitle</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我的div ID </font><font style="vertical-align: inherit;">在哪里</font><font style="vertical-align: inherit;">？</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第1644篇《如何使用jQuery替换div的innerHTML？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第1644篇《如何使用jQuery替换div的innerHTML？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -38,9 +38,7 @@ topic: JavaScript
 </code></pre>
 
 <p>Also, you can use <code>html()</code> instead, if you have any <strong>html tag</strong>...</p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小卤蛋Pro</span>
@@ -55,9 +53,7 @@ topic: JavaScript
 
 <pre><code>$("#regTitle").text("hello world");
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">LSam</span>
@@ -65,9 +61,7 @@ topic: JavaScript
           </div>
           <div class="discuss-comment"><pre><code>$("#regTitle").html("Hello World");
 </code></pre></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

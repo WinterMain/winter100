@@ -131,7 +131,7 @@ topic: React.js
 <p><code>Uncaught TypeError: Cannot read property 'props' of undefined</code></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第906篇《React，ES6-getInitialState在普通的JavaScript类上定义》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第906篇《React，ES6-getInitialState在普通的JavaScript类上定义》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -159,9 +159,7 @@ topic: React.js
 <p><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">更新资料</font></font></strong></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这种“更简洁”的方法比@Ross Allen的答案中提到的选项效率低，因为每次</font></font><code>render()</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">调用</font><font style="vertical-align: inherit;">该</font><font style="vertical-align: inherit;">方法</font><font style="vertical-align: inherit;">时都会生成一个新函数。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">TonyEvaL</span>
@@ -188,9 +186,7 @@ topic: React.js
 <font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">村村老丝</span>
@@ -227,9 +223,7 @@ topic: React.js
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在React的文档中了解有关ES6类的更多信息：</font></font><a href="https://reactjs.org/docs/state-and-lifecycle.html#converting-a-function-to-a-class" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">将函数转换为类</font></font></a></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

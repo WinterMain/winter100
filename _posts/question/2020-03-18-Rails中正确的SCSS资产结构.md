@@ -61,7 +61,7 @@ Undefined mixin 'rounded_corners'.<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">不幸的是，</font></font><a href="https://stackoverflow.com/questions/8887824/persisting-scss-variables-in-rails-asset-pipeline"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这个家伙</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">似乎并不认为有可能，但我希望他错了。</font><font style="vertical-align: inherit;">任何想法都将不胜感激。</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第2025篇《Rails中正确的SCSS资产结构》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第2025篇《Rails中正确的SCSS资产结构》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -76,9 +76,7 @@ Undefined mixin 'rounded_corners'.<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">=&gt;这似乎只是名称问题。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">另一种方法可以</font></font><a href="http://rwilcox.tumblr.com/post/9038701675/sass-variables-and-the-rails-3-1-asset-pipeline" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">包括所有内容并禁用此管道</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">斯丁</span>
@@ -136,9 +134,7 @@ Undefined mixin 'rounded_corners'.<font></font>
 <p>Now if you make a bit of css to style an article on your homepage. Just create <code>partials/_article.scss</code> and it will be added to the compiled <code>application.css</code>. Because of the import order you can also use any bootstrap mixins and variables in your own scss files.</p>
 
 <p>The only drawback of this method I found so far is, sometimes you have to force a recompile of the partial/*.scss files because rails wont always do it for you. </p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Itachi蛋蛋</span>
@@ -155,9 +151,7 @@ Undefined mixin 'rounded_corners'.<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这可能是一个奇怪的错误...</font></font></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

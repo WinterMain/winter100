@@ -45,7 +45,7 @@ topic: JavaScript
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我发现</font><font style="vertical-align: inherit;">建议使用Router.ActiveState mixin和路由处理程序来解决</font></font><a href="https://github.com/rackt/react-router/issues/119"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">此已关闭的问题</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，但是现在似乎已弃用了这两个解决方案。</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第1384篇《如何在react-router 2.0.0-rc5中获取当前路由》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第1384篇《如何在react-router 2.0.0-rc5中获取当前路由》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -68,9 +68,7 @@ topic: JavaScript
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">然后，我可以在MyComponent函数中访问“ this.props.location.pathname”。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我忘了那是我...）））以下链接介绍了更多有关制作导航栏的信息：</font></font><a href="https://stackoverflow.com/questions/42010053/react-router-this-props-location"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">react router this.props.location</font></font></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">GOMandy</span>
@@ -90,9 +88,7 @@ topic: JavaScript
     console.log(this.context.location.pathname);<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">宝儿Sam</span>
@@ -102,9 +98,7 @@ topic: JavaScript
 
 <pre><code>window.location.pathname
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">卡卡西Sam</span>
@@ -130,9 +124,7 @@ topic: JavaScript
     }<font></font>
 });<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">樱GO</span>
@@ -146,9 +138,7 @@ topic: JavaScript
 
 <pre><code>var currentLocation = this.props.location.pathname
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">西里阳光</span>
@@ -161,9 +151,7 @@ this.props.location.query;<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">得到它？</font></font></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

@@ -30,7 +30,7 @@ topic: JavaScript
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">那我该怎么办呢？</font><font style="vertical-align: inherit;">有</font></font><a href="https://github.com/facebook/css-layout/issues/57#issuecomment-102148200" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这个问题的一些讨论</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">中作出反应原住民的问题跟踪器，但提出的解决方案似乎是讨厌的黑客。</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第1344篇《在React Native中使视图的父级宽度为80％》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第1344篇《在React Native中使视图的父级宽度为80％》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -86,9 +86,7 @@ topic: JavaScript
   }<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

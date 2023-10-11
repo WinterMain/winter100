@@ -23,7 +23,7 @@ topic: React.js
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">感谢您的回答！</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第1045篇《什么时候使用React的“ componentDidUpdate”方法？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第1045篇《什么时候使用React的“ componentDidUpdate”方法？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -34,9 +34,7 @@ topic: React.js
             <span class="discuss-time">2020.03.12</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">有时，您可能会在构造函数或componentDidMount中的props中添加状态值，当props更改但组件已经挂载时，可能需要调用setState，因此componentDidMount将不会执行，构造函数也不会执行；</font><font style="vertical-align: inherit;">在这种情况下，由于道具已更改，因此可以使用componentDidUpdate，可以在具有新道具的componentDidUpdate中调用setState。</font></font></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

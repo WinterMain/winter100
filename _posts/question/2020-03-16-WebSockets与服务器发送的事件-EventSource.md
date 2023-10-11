@@ -17,7 +17,7 @@ topic: HTML
     <div class="article-content"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">双方</font></font><a href="http://dev.w3.org/html5/websockets/" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">的WebSockets</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">和</font></font><a href="https://html.spec.whatwg.org/multipage/server-sent-events.html#server-sent-events" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">服务器发送的事件</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">能够将数据推送到浏览器。</font><font style="vertical-align: inherit;">在我看来，它们似乎是竞争技术。</font><font style="vertical-align: inherit;">它们之间有什么区别？</font><font style="vertical-align: inherit;">您何时会选择一个？</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第1834篇《WebSockets与服务器发送的事件/ EventSource》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第1834篇《WebSockets与服务器发送的事件/ EventSource》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -30,27 +30,21 @@ topic: HTML
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">最大连接限制不是http2 + sse的问题。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这是http 1上的问题</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Pro伽罗</span>
             <span class="discuss-time">2020.03.16</span>
           </div>
           <div class="discuss-comment"><p><a href="http://www.youtube.com/watch?v=vhJz3HftuZU/%22Here%22" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这里</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">讨论Web套接字和服务器发送事件之间的区别。</font><font style="vertical-align: inherit;">从Java EE 7开始，</font></font><a href="http://docs.oracle.com/javaee/7/tutorial/doc/websocket.htm" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">WebSocket</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> API已经成为规范的一部分，并且服务器发送的事件似乎将</font><font style="vertical-align: inherit;">在企业版</font><font style="vertical-align: inherit;">的</font></font><a href="https://java.net/downloads/javaee-spec/SSE-in-EE8.pdf" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">下一</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">版本中</font><font style="vertical-align: inherit;">发布</font><font style="vertical-align: inherit;">。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Davaid神无</span>
             <span class="discuss-time">2020.03.16</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Opera，Chrome，Safari支持SSE，Chrome，Safari在SharedWorker内部支持SSE。Firefox支持XMLHttpRequest readyState交互，因此我们可以为Firefox创建EventSource polyfil</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">番长十三小宇宙</span>
@@ -65,9 +59,7 @@ topic: HTML
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我</font></font><em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">认为</font></font></em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">服务器发送事件没有那么多问题。</font><font style="vertical-align: inherit;">但是我不知道。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">就是说，WebSocket充满了乐趣。</font><font style="vertical-align: inherit;">我有一个使用websockets的小型网络游戏（通过Socket.IO）（</font></font><a href="http://minibman.com" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">http://minibman.com</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">）</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小胖Jim</span>
@@ -89,9 +81,7 @@ topic: HTML
 
 <pre><code>Example - Online stock quotes or cricket score website.
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">理查德Mandy</span>
@@ -133,9 +123,7 @@ topic: HTML
 <ul>
 <li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">WebSockets支持任意二进制数据，SSE仅使用UTF-8</font></font></li>
 </ul></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Tony小卤蛋</span>
@@ -208,9 +196,7 @@ topic: HTML
 <li>No binary support</li>
 <li>Maximum open connections limit </li>
 </ul></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

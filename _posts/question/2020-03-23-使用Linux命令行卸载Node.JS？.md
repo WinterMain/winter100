@@ -17,7 +17,7 @@ topic: Node.js
     <div class="article-content"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如何在Linux中使用cmd行卸载node.js？</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第2739篇《使用Linux命令行卸载Node.JS？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第2739篇《使用Linux命令行卸载Node.JS？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -31,9 +31,7 @@ topic: Node.js
 
 <pre><code> sudo rm -rf bin/node bin/node-waf include/node lib/node lib/pkgconfig/nodejs.pc share/man/man1/node
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Harry前端Itachi</span>
@@ -51,9 +49,7 @@ topic: Node.js
 <pre><code>  dpkg -r nodejs
 </code></pre>
 </blockquote></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">逆天小卤蛋Green</span>
@@ -67,9 +63,7 @@ nvm uninstall &lt;VERSION_TO_UNINSTALL&gt;
 
 <p><code>nvm uninstall 4.4.5
 </code></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小卤蛋Davaid</span>
@@ -88,9 +82,7 @@ nvm uninstall &lt;VERSION_TO_UNINSTALL&gt;
   
   <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">nvm安装v0.4.1</font></font></p>
 </blockquote></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">JinJin</span>
@@ -137,9 +129,7 @@ brew upgrade node<font></font>
 
 <pre><code>brew uninstall node
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">飞云</span>
@@ -161,9 +151,7 @@ brew upgrade node<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">有关命令的逐步指南，请</font></font><a href="http://amcositsupport.blogspot.in/2016/07/to-completely-uninstall-node-js-from.html" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">参见http://amcositsupport.blogspot.in/2016/07/to-completely-uninstall-node-js-from.html</font></font></a></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这帮助我解决了我的问题。  </font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">番长猴子</span>
@@ -181,9 +169,7 @@ sudo yum -y install nodejs<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">请注意，使用</font></font><code>curl</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">脚本会导致安装错误版本的节点。</font></font><a href="https://github.com/nodesource/distributions/issues/340" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">有一个错误</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">会导致</font></font><code>node</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">安装v6.7而不是</font><font style="vertical-align: inherit;">脚本中</font></font><code>(../setup_4.x)</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">使用</font><font style="vertical-align: inherit;">的路径</font><font style="vertical-align: inherit;">所</font><font style="vertical-align: inherit;">预期的v4.x。</font></font><code>curl</code><font style="vertical-align: inherit;"></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Tony凯</span>
@@ -195,9 +181,7 @@ sudo yum -y install nodejs<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这似乎摆脱了系统目录（例如</font></font><code>/usr/bin/npm</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">和）中</font><font style="vertical-align: inherit;">的npm </font></font><code>/usr/lib/npm</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font><font style="vertical-align: inherit;">我从</font></font><a href="http://comments.gmane.org/gmane.comp.lang.javascript.nodejs/22051" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这里</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">得到命令</font><font style="vertical-align: inherit;">。</font><font style="vertical-align: inherit;">然后</font></font><code>~/.npm</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，</font><font style="vertical-align: inherit;">我找到一个</font><font style="vertical-align: inherit;">目录，该目录已手动删除。</font><font style="vertical-align: inherit;">老实说，我不知道npm的所有痕迹是否都已删除，但是我找不到其他东西。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">樱</span>
@@ -231,9 +215,7 @@ curl --silent --location https://rpm.nodesource.com/setup_10.x | sudo bash -<fon
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">希望对您有帮助！！！</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">蛋蛋</span>
@@ -248,9 +230,7 @@ curl --silent --location https://rpm.nodesource.com/setup_10.x | sudo bash -<fon
 
 <pre><code>./configure --prefix=$HOME/local/node
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">老丝</span>
@@ -262,9 +242,7 @@ curl --silent --location https://rpm.nodesource.com/setup_10.x | sudo bash -<fon
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">它将</font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">轻松卸载nodejs和npm</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

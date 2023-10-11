@@ -63,7 +63,7 @@ topic: Vue.js
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">当我执行以上代码时，我可以发现show属性已更改。</font><font style="vertical-align: inherit;">但是，v-if不会更新。</font><font style="vertical-align: inherit;">我们不能对v-if使用array [index]还是有其他原因？</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第2416篇《VueJS v-if = array [index]无法正常工作》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第2416篇《VueJS v-if = array \[index\]无法正常工作》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -74,9 +74,7 @@ topic: Vue.js
             <span class="discuss-time">2020.03.19</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">您可以使用JS </font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">对象</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">而不是</font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">数组来</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">获得相同的效果。</font><font style="vertical-align: inherit;">换句话说，替换</font></font><code>show: [false, false, false],</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">用</font></font><code>show: {0:false, 1:false, 2:false},</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">乐米亚</span>
@@ -86,9 +84,7 @@ topic: Vue.js
 
 <pre><code>this.$set(this.show, index, !this.show[index])
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">神奇老丝</span>
@@ -124,9 +120,7 @@ this.show = [...this.show]<font></font>
   i === index ? !el : el<font></font>
 )<font></font>
 </code></pre></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

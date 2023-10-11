@@ -54,7 +54,7 @@ topic: CSS
 <p>This would probably work in production, but in development the /assets folder doesn't exist, so the <code>url(/images/delete.png)</code> directives result in unfound images.</p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第3443篇《sass-rails资产管道：错误生成图像路径；url（/images/blah.png）而不是url（/assets/blah.png）》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第3443篇《sass-rails资产管道：错误生成图像路径；url（/images/blah.png）而不是url（/assets/blah.png）》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -69,18 +69,14 @@ topic: CSS
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">改变</font></font><code>image_path</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">为</font></font><code>image-path</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">工作</font></font><code>.scss</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font><font style="vertical-align: inherit;">后来，我</font></font><code>image_path</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">再次</font><font style="vertical-align: inherit;">切换到</font><font style="vertical-align: inherit;">它，现在工作正常。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">删除缓存并没有帮助我。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">猴子</span>
             <span class="discuss-time">2020.03.24</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">编辑.scss文件（添加空格）并重新加载页面后，我得到了正确的结果。</font><font style="vertical-align: inherit;">在我删除空间后，它可以正常工作。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">蛋蛋</span>
@@ -90,9 +86,7 @@ topic: CSS
 如果是这样，您应该尝试找到Compass和Sass-rails之间版本的良好组合。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">也许将所有内容（包括Rails）都升级到最新版本，这仍然是最好的方法（使用</font></font><code>bundle outdated</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">捆绑程序1.2中的命令来了解要升级的宝石）</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">DavaidPro</span>
@@ -103,9 +97,7 @@ topic: CSS
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">尝试升级到3.1.4并清除</font></font><code>tmp/cache</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font><font style="vertical-align: inherit;">还要确保您没有访问任何浏览器缓存。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我知道您说3.1.4导致了其他问题...您尝试过更高版本吗？</font></font></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

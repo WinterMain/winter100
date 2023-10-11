@@ -25,7 +25,7 @@ topic: Webpack
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">那么，将</font></font><em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">正确的</font></font></em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> Roboto文件与我的应用程序</font><font style="vertical-align: inherit;">捆绑在一起的好又简单的解决方案是</font><font style="vertical-align: inherit;">什么？</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第3455篇《如何在Material UI的webpack构建中包括Roboto字体？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第3455篇《如何在Material UI的webpack构建中包括Roboto字体？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -45,9 +45,7 @@ topic: Webpack
 <pre><code>import WebFont from "webfontloader";<font></font>
 WebFont.load({google: {families: ["Roboto:300,400,500"]}});<font></font>
 </code></pre></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

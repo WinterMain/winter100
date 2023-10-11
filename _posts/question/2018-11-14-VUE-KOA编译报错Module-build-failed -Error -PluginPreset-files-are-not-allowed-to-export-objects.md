@@ -32,7 +32,7 @@ Module build failed: Error: Plugin/Preset files are not allowed to export object
 </div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第105篇《VUE KOA编译报错Module build failed: Error: Plugin/Preset files are not allowed to export objects》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第105篇《VUE KOA编译报错Module build failed  Error  Plugin/Preset files are not allowed to export objects》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -57,9 +57,7 @@ Module build failed: Error: Plugin/Preset files are not allowed to export object
 
 <p>&nbsp;</p>
 </div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

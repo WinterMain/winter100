@@ -42,7 +42,7 @@ topic: Vue.js
 </code></pre></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第3491篇《asyncData和nuxt js中的方法有什么区别？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第3491篇《asyncData和nuxt js中的方法有什么区别？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -63,9 +63,7 @@ topic: Vue.js
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">初始化组件时，方法首先可用。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">您可以</font></font><a href="https://nuxtjs.org/guide/async-data" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在文档中</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">找到有关asyncData的更多信息</font><font style="vertical-align: inherit;">，并对其进行了很好的描述。</font></font></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

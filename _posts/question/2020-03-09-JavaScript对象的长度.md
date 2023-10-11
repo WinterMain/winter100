@@ -23,7 +23,7 @@ myObject["age"] = 21;<font></font>
 </code></pre></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第193篇《JavaScript对象的长度》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第193篇《JavaScript对象的长度》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -40,9 +40,7 @@ myObject["age"] = 21;<font></font>
   size++ for own key of obj<font></font>
   size<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">老丝镜风</span>
@@ -52,18 +50,14 @@ myObject["age"] = 21;<font></font>
 
 <pre><code>Object.values(myObject).length
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">西里Jim</span>
             <span class="discuss-time">2020.03.09</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">您始终</font></font><code>Object.getOwnPropertyNames(myObject).length</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">可以得到与</font></font><code>[].length</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">普通阵列</font><font style="vertical-align: inherit;">相同的结果</font><font style="vertical-align: inherit;">。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">SamStafan</span>
@@ -78,9 +72,7 @@ myObject["age"] = 21;<font></font>
 <font></font>
 console.log(Object.keys(myObject).length); //3<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">LEY蛋蛋Near</span>
@@ -107,9 +99,7 @@ x.size() === 3;<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">jsfiddle示例：</font><a href="http://jsfiddle.net/qar4j/1/" rel="noreferrer"><font style="vertical-align: inherit;">http</font></a><font style="vertical-align: inherit;"> : </font></font><a href="http://jsfiddle.net/qar4j/1/" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">//jsfiddle.net/qar4j/1/</font></font></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">JinJin村村</span>
@@ -127,9 +117,7 @@ x.size() === 3;<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">集成hasOwnProp的方式更优雅。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Davaid前端神奇</span>
@@ -141,9 +129,7 @@ x.size() === 3;<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">其中myobject是您想要的长度的对象</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">樱泡芙</span>
@@ -160,9 +146,7 @@ myObject["age"] = 21;<font></font>
 <li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Object.entries（myObject）.length</font></font></li>
 <li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Object.keys（myObject）.length</font></font></li>
 </ol></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">西门村村古一</span>
@@ -205,9 +189,7 @@ console.log(size(myArr, false)); // Output : 7<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">另请参阅</font></font><a href="https://jsfiddle.net/0x11tv73/5/" rel="nofollow noreferrer"><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">此小提琴</font></font></strong></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">以获取演示。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">null</span>
@@ -224,9 +206,7 @@ console.log(size(myArr, false)); // Output : 7<font></font>
 <blockquote>
   <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">keys（hash）.length</font></font></p>
 </blockquote></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小卤蛋Near小卤蛋</span>
@@ -240,9 +220,7 @@ console.log(size(myArr, false)); // Output : 7<font></font>
     function remove(key) { if (this.hasOwnProperty(key)) { delete this[key]; this.length--; }}<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">西门樱前端</span>
@@ -256,9 +234,7 @@ myMap.set("lastname", "Simpson");<font></font>
 myMap.set("age", 21);<font></font>
 myMap.size; // 3<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">泡芙村村Pro</span>
@@ -281,9 +257,7 @@ console.log(size);<font></font>
 
 <pre><code>var size = Object.keys(myObj).length;
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">LEYEvaL</span>
@@ -302,18 +276,14 @@ console.log(obj)</code></pre>
 </div>
 </div>
 <p></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">樱猪猪</span>
             <span class="discuss-time">2020.03.09</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在某些情况下，最好将大小存储在单独的变量中。</font><font style="vertical-align: inherit;">特别是，如果要在一处将一个元素添加到数组中，并且可以轻松增加大小。</font><font style="vertical-align: inherit;">如果您需要经常检查尺寸，显然可以更快地工作。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">老丝村村</span>
@@ -351,9 +321,7 @@ a1["prop2"] = 1234;<font></font>
 a1["prop3"] = "something else";<font></font>
 alert("Length of array is " + a1.length);<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小小</span>
@@ -363,9 +331,7 @@ alert("Length of array is " + a1.length);<font></font>
 
 <pre><code>Object.keys(myObject).length
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Chloe</span>
@@ -378,9 +344,7 @@ for(var e in myArray)<font></font>
     if(myArray.hasOwnProperty(e))<font></font>
         element_count++;<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Gil小哥伽罗</span>
@@ -411,9 +375,7 @@ alert(myArray.length()); // will alert 2<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果您始终使用add方法，则length属性将是正确的。</font><font style="vertical-align: inherit;">如果您担心自己或其他人忘记使用它，则也可以将其他人发布的属性计数器添加到length方法中。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">当然，您总是可以覆盖这些方法。</font><font style="vertical-align: inherit;">但是即使这样做，您的代码也可能会明显失败，从而易于调试。</font><font style="vertical-align: inherit;">;）</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Mandy宝儿</span>
@@ -423,9 +385,7 @@ alert(myArray.length()); // will alert 2<font></font>
 
 <pre><code>Object.getOwnPropertyNames({"hi":"Hi","msg":"Message"}).length; // =&gt; 2
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">LEY理查德</span>
@@ -438,9 +398,7 @@ for (e in myArray) {  if (myArray.hasOwnProperty(e)) element_count++; }<font></f
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">@palmsey：为了公平起见，JavaScript文档实际上以这种方式显式地将使用Object类型的变量称为“关联数组”。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">宝儿猿</span>
@@ -465,9 +423,7 @@ for (e in myArray) {  if (myArray.hasOwnProperty(e)) element_count++; }<font></f
 <font></font>
 Object.keys(obj).length;<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小宇宙前端</span>
@@ -490,9 +446,7 @@ Object.keys(obj).length;<font></font>
     return size;<font></font>
 };<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">村村小小十三</span>
@@ -502,9 +456,7 @@ Object.keys(obj).length;<font></font>
 
 <pre><code>Object.keys(myArray).length
 </code></pre></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

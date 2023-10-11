@@ -46,7 +46,7 @@ topic: CSS
 “导入我仍然没有成功”</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第4094篇《使用npm安装Awesome 5字体以用于CSS》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第4094篇《使用npm安装Awesome 5字体以用于CSS》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -61,9 +61,7 @@ topic: CSS
 <p>Take a look at this article: <a href="https://fontawesome.com/how-to-use/svg-with-js" rel="nofollow noreferrer">SVG with JS</a></p>
 
 <p>Rather than compiling an scss file, you just need to include this javascipt one: <code>fontawesome-all.js</code>, any icons you add to your HTML should then be converted to SVGs automatically.</p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

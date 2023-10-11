@@ -151,7 +151,7 @@ export class AppModule{}; <font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">谢谢你的时间。</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第3029篇《Angular 2：未找到NgModule元数据》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第3029篇《Angular 2：未找到NgModule元数据》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -162,9 +162,7 @@ export class AppModule{}; <font></font>
             <span class="discuss-time">2020.03.23</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">使用ngcWebpack插件时，未指定mainPath或entryModule时出现此错误。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">猴子</span>
@@ -183,18 +181,14 @@ export class AppModule{}; <font></font>
         platformBrowserDynamic(extraProviders).bootstrapModule(AppModule);<font></font>
     }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小哥Stafan</span>
             <span class="discuss-time">2020.03.23</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">就我而言，我在一个组件中定义了两个（私有）静态方法，并在同一组件中使用它们。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">MandyNear米亚</span>
@@ -220,18 +214,14 @@ export class AppModule{}; <font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">该设置是为了帮助不应创建内置延迟加载模块的库创建者。我以前（使用Angular 7）将所有“ strict”选项设置为true。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">MandyJinJin路易</span>
             <span class="discuss-time">2020.03.23</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我遇到了同样的问题，并通过关闭编辑器（即</font></font><code>Visual Studio Code</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">再次启动，运行</font></font><code>ng serve</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">并</font><font style="vertical-align: inherit;">运行）</font><font style="vertical-align: inherit;">解决了该问题</font><font style="vertical-align: inherit;">。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">蛋蛋猿</span>
@@ -258,9 +248,7 @@ export class AppModule {<font></font>
 <font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">逆天米亚</span>
@@ -283,9 +271,7 @@ export class AppModule {<font></font>
 <p><code>"compilerOptions": {
   "types": []
  }</code></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Itachi</span>
@@ -316,9 +302,7 @@ export class AppModule {<font></font>
 </ul>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">就是这样，一切正常。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">GilPro</span>
@@ -339,9 +323,7 @@ export class AppModule {<font></font>
     loadChildren: () =&gt; import("./game/game.module").then(m =&gt; m.GameModule)<font></font>
  }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Gil</span>
@@ -350,9 +332,7 @@ export class AppModule {<font></font>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">当我从git仓库克隆时遇到了这个问题，当我创建一个新项目并从旧项目中重新插入src文件夹时，它已解决。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">src文件夹是部署角度应用程序时唯一需要的文件夹，但是您必须使用此解决方案重新配置开发环境。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">番长</span>
@@ -401,9 +381,7 @@ export class AppModule {<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">注意：如果失败，请再次尝试步骤4。</font><font style="vertical-align: inherit;">会的。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">JinJin</span>
@@ -423,9 +401,7 @@ export class AppModule {<font></font>
     ],<font></font>
 })<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">村村</span>
@@ -434,9 +410,7 @@ export class AppModule {<font></font>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在中</font></font><code>main.ts</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，您将同时引导AppModule </font></font><em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">和</font></font></em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> App。</font><font style="vertical-align: inherit;">它应该只是AppModule，然后引导该App。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果将main.ts与文档进行比较，您会发现区别-只需从main.ts中删除所有对App的引用</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Gil</span>
@@ -456,9 +430,7 @@ export class AppModule {<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">所以我又撞了一下头。</font><font style="vertical-align: inherit;">WebStorm额外的逗号非常纯净地显示为轻微警告，通过在Array中插入一个空插槽造成了严重破坏。</font><font style="vertical-align: inherit;">WATCHOUT FOT的</font></font><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Trailing_commas#Arrays" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">省音</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">陷阱;）</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">西里Near</span>
@@ -476,9 +448,7 @@ export class AppModule {<font></font>
 <li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果要升级，请确保遵循框架的当前语法，例如：</font><font style="vertical-align: inherit;">Angular2中的</font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">路由</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">语法已更改。</font></font></li>
 <li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">检查引导过程，并确保您正在加载正确的模块。</font></font></li>
 </ul></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">JinJin</span>
@@ -520,9 +490,7 @@ export class AppModule {<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">注意：如果失败，请重试:)</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">5）庆祝:)</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">番长</span>
@@ -531,9 +499,7 @@ export class AppModule {<font></font>
           <div class="discuss-comment"><blockquote>
   <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我建议重新启动应用程序。</font><font style="vertical-align: inherit;">大多数案例编辑器将无法检测到延迟加载的模块中的更改。</font></font></p>
 </blockquote></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">番长猴子</span>
@@ -541,18 +507,14 @@ export class AppModule {<font></font>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在运行之后，</font><font style="vertical-align: inherit;">尝试删除node_modules
  </font></font><code>rm -rf node_modules</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">和package-lock.json </font><font style="vertical-align: inherit;">。</font></font><code>rm -rf package-lock.json</code><font style="vertical-align: inherit;"></font><code>npm install</code><font style="vertical-align: inherit;"></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">西里神奇</span>
             <span class="discuss-time">2020.03.23</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">即使我已将上述答案建议的所有内容都放在适当的位置，我仍然遇到此错误。</font></font><code>app.module.ts</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">只需</font><font style="vertical-align: inherit;">对</font><font style="vertical-align: inherit;">文件进行</font><font style="vertical-align: inherit;">简单的编辑即可</font><font style="vertical-align: inherit;">（例如删除括号并放回去）。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Davaid村村</span>
@@ -570,9 +532,7 @@ platform.bootstrapModule(App);<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">它将解决您的错误。</font></font></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

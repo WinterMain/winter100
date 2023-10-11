@@ -24,7 +24,7 @@ topic: React.js
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">但是我不想启动另一个Express服务器来允许路由匹配。</font><font style="vertical-align: inherit;">我只想告诉webpack开发服务器匹配任何URL，并向我发送我的react应用。</font><font style="vertical-align: inherit;">请。</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第736篇《如何告诉Webpack开发服务器为任何路由提供index.html》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第736篇《如何告诉Webpack开发服务器为任何路由提供index.html》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -42,9 +42,7 @@ topic: React.js
   },<font></font>
 },<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">神离伊芙妮</span>
@@ -86,9 +84,7 @@ devServer: {<font></font>
   historyApiFallback: true<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">米亚逆天</span>
@@ -97,9 +93,7 @@ devServer: {<font></font>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果选择使用</font></font><code>webpack-dev-server</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，则不应使用它来服务整个React应用程序。</font><font style="vertical-align: inherit;">您应该使用它来服务</font></font><code>bundle.js</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">文件以及静态依赖项。</font><font style="vertical-align: inherit;">在这种情况下，您将必须启动两台服务器，一台用于Node.js入口点，这些服务器实际上将处理路由并为HTML服务，另一台用于捆绑和静态资源。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果您确实想要一台服务器，则必须停止使用</font></font><code>webpack-dev-server</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">并开始</font><font style="vertical-align: inherit;">在应用程序服务器内</font><font style="vertical-align: inherit;">使用</font></font><a href="https://github.com/webpack/webpack-dev-middleware" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">webpack-dev-middleware</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font><font style="vertical-align: inherit;">它将“即时”处理包（我认为它支持缓存和热模块替换），并确保您的调用</font></font><code>bundle.js</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">始终是最新的。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">乐米亚</span>
@@ -117,9 +111,7 @@ devServer: {<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在防暴应用程序上工作</font></font></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

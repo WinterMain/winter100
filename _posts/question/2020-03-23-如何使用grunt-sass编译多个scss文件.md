@@ -38,7 +38,7 @@ topic: CSS
 </code></pre></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第2750篇《如何使用grunt-sass编译多个scss文件》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第2750篇《如何使用grunt-sass编译多个scss文件》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -50,9 +50,7 @@ topic: CSS
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果您不想使用concat，则可以在目录中指定所有文件。</font><font style="vertical-align: inherit;">检出此示例：</font><a href="https://github.com/gruntjs/grunt-contrib-sass#compile-files-in-a-directory" rel="nofollow"><font style="vertical-align: inherit;">https</font></a><font style="vertical-align: inherit;"> :
  </font></font><a href="https://github.com/gruntjs/grunt-contrib-sass#compile-files-in-a-directory" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">//github.com/gruntjs/grunt-contrib-sass#compile-files-in-a-directory</font></font></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">老丝神无</span>
@@ -100,9 +98,7 @@ topic: CSS
                     }<font></font>
                 };<font></font>
 </code></pre></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

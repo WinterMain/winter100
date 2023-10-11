@@ -30,7 +30,7 @@ topic: HTML
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这里发生了什么？</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第1425篇《HTML为什么认为“ chucknorris”是一种颜色？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第1425篇《HTML为什么认为“ chucknorris”是一种颜色？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -155,9 +155,7 @@ table { table-layout: fixed; width: 100%; }</code></pre>
 </div>
 </div>
 <p></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Gil番长</span>
@@ -199,9 +197,7 @@ table { table-layout: fixed; width: 100%; }</code></pre>
 </div>
 </div>
 <p></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">老丝LEY西门</span>
@@ -215,9 +211,7 @@ table { table-layout: fixed; width: 100%; }</code></pre>
 <li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">然后，浏览器将所述结果为3个groupds： ，</font></font><code>Red = c00c</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，</font><font style="vertical-align: inherit;">。</font></font><code>Green = 0000</code><font style="vertical-align: inherit;"></font><code>Blue = 0000</code><font style="vertical-align: inherit;"></font></li>
 <li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">由于html背景的有效十六进制值对于每种颜色类型（</font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">r</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，</font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">g</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，</font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">b</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">）</font><font style="vertical-align: inherit;">仅包含2位数字，因此每组</font><font style="vertical-align: inherit;">都将截断最后2位数字，而剩下的rgb值为</font></font><code>c00000</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">砖红色调的颜色。</font></font></li>
 </ul></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">西门斯丁</span>
@@ -247,9 +241,7 @@ table { table-layout: fixed; width: 100%; }</code></pre>
 <hr>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">更新：</font></font><em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">说颜色是原来的原始</font></font><code>#CC0000</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">答复者已经编辑了他们的答案以包括更正。</font></font></em></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">ProTony</span>
@@ -270,9 +262,7 @@ table { table-layout: fixed; width: 100%; }</code></pre>
       bytes_per_val = 4;<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">null</span>
@@ -337,9 +327,7 @@ table { table-layout: fixed; width: 100%; }</code></pre>
 <p>Which gives a light yellow gold colour. As the string starts off as 9 characters, we keep the second C this time around hence it ends up in the final colour value.</p>
 
 <p>I originally encountered this when someone pointed out you could do <code>color="crap"</code> and, well, it comes out brown.</p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

@@ -35,7 +35,7 @@ topic: JavaScript
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">是否有人对规则有更深入的描述？</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第1707篇《JavaScript的自动分号插入（ASI）的规则是什么？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第1707篇《JavaScript的自动分号插入（ASI）的规则是什么？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -56,9 +56,7 @@ topic: JavaScript
 <blockquote>
   <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果我详细介绍了它的工作原理，那么本设计笔记将变成一个设计思路，更不用说所有的各种坏方法了。</font><font style="vertical-align: inherit;">一团糟。</font><font style="vertical-align: inherit;">我知道JavaScript是唯一的一种语言，尽管从理论上讲，您可以忽略每条语句，但许多样式指南在每条语句后都要求使用明确的分号。</font></font></p>
 </blockquote></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">村村A小卤蛋</span>
@@ -84,9 +82,7 @@ topic: JavaScript
   
   <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">但是，上述规则还有一个额外的优先条件：如果分号随后将被解析为空语句，或者该分号将成为</font></font><kbd>for</kbd><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">语句</font><font style="vertical-align: inherit;">标题中的两个分号之一，则永远不会自动插入分号。</font><font style="vertical-align: inherit;">.3）。</font></font></p>
 </blockquote></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">别坑我路易</span>
@@ -187,9 +183,7 @@ YieldExpression :<font></font>
   "something";<font></font>
 </code></pre></li>
 </ol></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小哥Tony</span>
@@ -202,9 +196,7 @@ YieldExpression :<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">它运行了，但结果是srcIds声明/赋值是全局的，因为由于自动分号插入导致该语句被视为完成，因此不再应用前一行上带有var的本地声明。</font></font></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

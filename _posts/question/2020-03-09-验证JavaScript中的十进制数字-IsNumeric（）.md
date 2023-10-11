@@ -39,7 +39,7 @@ topic: JavaScript
 </code></pre></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第189篇《验证JavaScript中的十进制数字-IsNumeric（）》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第189篇《验证JavaScript中的十进制数字-IsNumeric（）》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -52,9 +52,7 @@ topic: JavaScript
           <div class="discuss-comment"><p><code>isNumeric=(el)=&gt;{return Boolean(parseFloat(el)) &amp;&amp; isFinite(el)}</code></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">没什么不同，但是我们可以使用布尔构造函数</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">DavaidAPro</span>
@@ -66,9 +64,7 @@ topic: JavaScript
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果n为数字，</font></font><code>Number(n)</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">则将返回数字值并将</font></font><code>toString()</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">其返回为字符串。</font><font style="vertical-align: inherit;">但是，如果n不为数字，</font></font><code>Number(n)</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">则将返回，</font></font><code>NaN</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">因此它将与原始值不匹配</font></font><code>n</code></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">逆天西门</span>
@@ -81,9 +77,7 @@ topic: JavaScript
  return (n != '' &amp;&amp; !isNaN(parseFloat(n)) &amp;&amp; isFinite(n));<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小哥Eva</span>
@@ -99,9 +93,7 @@ topic: JavaScript
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">它似乎适用于所有情况，但我可能是错的。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Sam神乐番长</span>
@@ -113,9 +105,7 @@ topic: JavaScript
     return parseFloat(num).toString() == num<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">→笑里藏刀↓</span>
@@ -129,9 +119,7 @@ topic: JavaScript
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">jQuery版本的缺点是，如果您传递带有前导数字和后缀字母的字符串（如）</font></font><code>"123abc"</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，</font></font><code>parseFloat | parseInt</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">则会提取出数字分数并返回123，但是，第二个保护措施</font></font><code>isFinite</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">无论如何都会使它失败。</font><font style="vertical-align: inherit;">使用一元运算</font></font><code>+</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">符时，它将在第一个后卫上死亡，因为+会给此类混合动力抛出NaN :)一点点的性能，但我认为这是可靠的语义收益。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小卤蛋小小</span>
@@ -144,9 +132,7 @@ topic: JavaScript
     return parseFloat(n) == n;<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">蛋蛋LEY</span>
@@ -186,9 +172,7 @@ topic: JavaScript
  - .<font></font>
  - .e0<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">GO小胖</span>
@@ -204,9 +188,7 @@ return (input - 0) == input &amp;&amp; temp.length &gt; 0;<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">工作正常。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Tony阳光</span>
@@ -220,9 +202,7 @@ return (input - 0) == input &amp;&amp; temp.length &gt; 0;<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">简单。</font></font></p>
 
 <p><a href="https://api.jquery.com/jQuery.isNumeric/" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">https://api.jquery.com/jQuery.isNumeric/</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">（自jQuery 1.7起）</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">NearGreen</span>
@@ -234,18 +214,14 @@ return (input - 0) == input &amp;&amp; temp.length &gt; 0;<font></font>
     return parseFloat(data)==data;<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小小小胖</span>
             <span class="discuss-time">2020.03.09</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">使用功能</font></font><code>isNaN</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font><font style="vertical-align: inherit;">我相信，如果您</font></font><code>!isNaN(yourstringhere)</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">对此进行</font><font style="vertical-align: inherit;">测试，</font><font style="vertical-align: inherit;">则可以在任何情况下正常工作。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">樱Davaid</span>
@@ -276,9 +252,7 @@ return (input - 0) == input &amp;&amp; temp.length &gt; 0;<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">针对新代码运行单元测试，它只会在无穷和布尔文字上失败，并且唯一应该出现问题的时间是您是否正在生成代码（真的，谁会输入文字并检查它是否为数字？您应该</font></font><em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">知道</font></font></em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">），这将生成一些奇怪的代码。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">但是，再次</font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">使用此方法的唯一原因是，由于某种原因必须避免使用isNaN（）。</font></font></strong></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Pro逆天猿</span>
@@ -290,9 +264,7 @@ return (input - 0) == input &amp;&amp; temp.length &gt; 0;<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这也适用于0x23类型编号。</font></font></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

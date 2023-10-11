@@ -56,7 +56,7 @@ render() {<font></font>
 </code></pre></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第1036篇《如何在带有Typescript的React中使用refs》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第1036篇《如何在带有Typescript的React中使用refs》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -86,9 +86,7 @@ render() {<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">把它们放在一个物体上</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">十三小哥</span>
@@ -110,9 +108,7 @@ render() {<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">...</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Gil村村</span>
@@ -122,9 +118,7 @@ render() {<font></font>
 
 <pre><code>let myInputElement: Element = this.refs["myInput"] as Element
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">乐米亚</span>
@@ -133,9 +127,7 @@ render() {<font></font>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我总是这样做，在这种情况下要获取参考</font></font></p>
 
 <p><code>let input: HTMLInputElement =   ReactDOM.findDOMNode&lt;HTMLInputElement&gt;(this.refs.input);</code></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">猪猪十三</span>
@@ -196,9 +188,7 @@ class ServerTime extends React.Component&lt;IServerTimeProps, IServerTimeState&g
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">}</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">ASamGreen</span>
@@ -216,9 +206,7 @@ class ServerTime extends React.Component&lt;IServerTimeProps, IServerTimeState&g
 
 <pre><code>stepInput = (): HTMLInputElement =&gt; ReactDOM.findDOMNode(this.refs.stepInput);
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">MandyL</span>
@@ -235,9 +223,7 @@ class ServerTime extends React.Component&lt;IServerTimeProps, IServerTimeState&g
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">感谢@basarat指出正确的方向。</font></font></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

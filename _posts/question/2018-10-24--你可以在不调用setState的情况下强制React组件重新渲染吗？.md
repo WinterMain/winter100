@@ -38,7 +38,7 @@ answer: 1
 </div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第82篇《 你可以在不调用setState的情况下强制React组件重新渲染吗？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第82篇《 你可以在不调用setState的情况下强制React组件重新渲染吗？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -51,9 +51,7 @@ answer: 1
           <div class="discuss-comment">可以在你的组件中尝试调用这个方法 this.forceUpdate() 来强制重新渲染.
 <br>
 文档: https://facebook.github.io/react/docs/component-api.html</div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

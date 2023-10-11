@@ -59,7 +59,7 @@ topic: React.js
 <p>How do you do it?</p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第878篇《React / Redux和多语言（国际化）应用程序-体系结构》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第878篇《React / Redux和多语言（国际化）应用程序-体系结构》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}

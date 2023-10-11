@@ -17,7 +17,7 @@ topic: JavaScript
     <div class="article-content"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如何使用jQuery更改超链接的href？</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第298篇《如何使用jQuery更改超链接的href》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第298篇《如何使用jQuery更改超链接的href》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -44,9 +44,7 @@ jQuery("div.fusion-logo a").attr("href","tel:303-985-9850");<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">选择器可能会根据您使用的图像以及是否准备好视网膜而变化，但是您始终可以使用开发人员工具来找出它。 </font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Davaid前端神奇</span>
@@ -60,9 +58,7 @@ jQuery("div.fusion-logo a").attr("href","tel:303-985-9850");<font></font>
 <p><font style="vertical-align: inherit;"></font><code>prop</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">和</font><font style="vertical-align: inherit;">之间的区别在于</font><font style="vertical-align: inherit;">，</font></font><code>attr</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">它</font></font><code>attr</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">获取HTML属性，而</font></font><code>prop</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">获取DOM属性。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">您可以在这篇文章中找到更多详细信息：</font></font><a href="https://stackoverflow.com/questions/5874652/prop-vs-attr"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">.prop（）vs .attr（）</font></font></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">古一Mandy</span>
@@ -72,9 +68,7 @@ jQuery("div.fusion-logo a").attr("href","tel:303-985-9850");<font></font>
 
 <pre><code>$("a.mylink").attr("href", "http://cupcream.com");
 </code></pre></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

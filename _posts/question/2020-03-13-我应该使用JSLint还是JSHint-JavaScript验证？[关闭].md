@@ -59,7 +59,7 @@ topic: JavaScript
 </ol></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第1446篇《我应该使用JSLint还是JSHint JavaScript验证？[关闭]》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第1446篇《我应该使用JSLint还是JSHint JavaScript验证？\[关闭\]》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -82,9 +82,7 @@ topic: JavaScript
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">希望对你有帮助 ：）</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">宝儿宝儿</span>
@@ -111,9 +109,7 @@ topic: JavaScript
 <ul>
 <li><a href="http://glebbahmutov.com/blog/perfect-code-zero-effort/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">完美的代码，零负担</font></font></a></li>
 </ul></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Tom凯</span>
@@ -124,9 +120,7 @@ topic: JavaScript
 <blockquote>
   <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Closure Compiler是使JavaScript下载和运行速度更快的工具。</font><font style="vertical-align: inherit;">这是一个真正的JavaScript编译器。</font><font style="vertical-align: inherit;">它不是从源语言编译为机器代码，而是从JavaScript编译为更好的JavaScript。</font><font style="vertical-align: inherit;">它解析您的JavaScript，对其进行分析，删除无效代码，然后重写并最大程度地减少剩余内容。</font><font style="vertical-align: inherit;">它还会检查语法，变量引用和类型，并警告常见的JavaScript陷阱。</font></font></p>
 </blockquote></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小胖Green</span>
@@ -158,9 +152,7 @@ topic: JavaScript
 <li><a href="https://www.npmjs.com/package/grunt-eslint"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">咕es声</font></font></a></li>
 <li><a href="https://www.npmjs.com/package/gulp-eslint"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">口香糖</font></font></a></li>
 </ul></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">逆天蛋蛋达蒙</span>
@@ -191,9 +183,7 @@ topic: JavaScript
 <li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">看起来绝对是由社区推动，而不是单人表演（无论</font></font><em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">《男人》</font></font></em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">有多酷</font><font style="vertical-align: inherit;">）。</font></font></li>
 <li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">JSHint比我们的JSLint更适合我们的代码风格OOTB。</font></font></li>
 </ul></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">梅乐</span>
@@ -221,9 +211,7 @@ topic: JavaScript
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">不管写得多么好，几乎任何长度或复杂性都很高的Javascript代码都会在JSLint中产生警告。</font><font style="vertical-align: inherit;">如果您不相信我，请尝试通过它运行一些流行的库，例如JQuery。</font></font></p>
 
 </strike><p><strike><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">一些JSLint警告比其他警告更有价值：了解要注意的警告和不那么重要的警告。</font><font style="vertical-align: inherit;">应该考虑每一个警告，但不必为了解决任何给定的警告而修正代码。</font><font style="vertical-align: inherit;">查看代码并决定对它满意是完全可以的。</font><font style="vertical-align: inherit;">有时候，JSlint不喜欢的事情实际上是正确的事情。</font></font></strike></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

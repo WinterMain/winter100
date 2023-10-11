@@ -23,7 +23,7 @@ topic: HTML
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我想在中显示HTML样式的文本</font></font><code>TextView</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font><font style="vertical-align: inherit;">这该怎么做？</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第1906篇《如何在TextView中显示HTML？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第1906篇《如何在TextView中显示HTML？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -45,9 +45,7 @@ topic: HTML
     }</code></p>
 
 <p>It is better way than Html.fromHtml as there is less code, only one line, and recommended way to use it.</p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">伽罗古一</span>
@@ -58,9 +56,7 @@ topic: HTML
 <pre><code>String variable="StackOverflow";<font></font>
 textView.setText(Html.fromHtml("&lt;b&gt;Hello : &lt;/b&gt;"+ variable));<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Stafan阳光</span>
@@ -77,9 +73,7 @@ textView.setText(Html.fromHtml("&lt;b&gt;Hello : &lt;/b&gt;"+ variable));<font><
 
 <pre><code>textViewMessage.setHtmlText("Message: &lt;b&gt;Hello World&lt;/b&gt;")
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">JinJinPro</span>
@@ -103,9 +97,7 @@ textView.setText(Html.fromHtml("&lt;b&gt;Hello : &lt;/b&gt;"+ variable));<font><
     return result;<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">阳光逆天</span>
@@ -118,9 +110,7 @@ textView.setText(Html.fromHtml("&lt;b&gt;Hello : &lt;/b&gt;"+ variable));<font><
     return HtmlCompat.fromHtml(this, HtmlCompat.FROM_HTML_MODE_COMPACT)<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">神奇神乐GO</span>
@@ -144,9 +134,7 @@ private void init(){<font></font>
 </code></pre>
 
 <p>update of <a href="https://stackoverflow.com/a/27462961/2497264">answer above</a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">阿飞A飞云</span>
@@ -161,9 +149,7 @@ private void init(){<font></font>
         myWebView.getSettings().setJavaScriptEnabled(true);<font></font>
         myWebView.loadDataWithBaseURL(null, html, mime, encoding, null);<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">番长卡卡西</span>
@@ -181,9 +167,7 @@ private void init(){<font></font>
     }<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">AL村村</span>
@@ -207,9 +191,7 @@ private void init(){<font></font>
 
 <pre><code>text_view.setText(stripHtml(htmlText));
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">GO神乐</span>
@@ -218,9 +200,7 @@ private void init(){<font></font>
           <div class="discuss-comment"><pre><code>String value = html value ....<font></font>
 mTextView.setText(Html.fromHtml(value),TextView.BufferType.SPANNABLE)<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">神无逆天</span>
@@ -233,18 +213,14 @@ webview.loadData(htmlText , "text/html; charset=UTF-8", null);<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这也不限制您使用几个html标签。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">村村达蒙LEY</span>
             <span class="discuss-time">2020.03.17</span>
           </div>
           <div class="discuss-comment"><p>Simple use <code>Html.fromHtml("html string")</code>. This will work. If the string has tags like <code>&lt;h1&gt;</code> then spaces will come. But we cannot eliminate those spaces. If you still want to remove the spaces, then you can remove the tags in the string and then pass the string to the method <code>Html.fromHtml("html string");</code> . Also generally these strings come from server(dynamic) but not often, if it is the case better to pass the string as it is to the method than try to remove the tags from the string.</p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">西里小胖小卤蛋</span>
@@ -258,9 +234,7 @@ webview.loadData(htmlText , "text/html; charset=UTF-8", null);<font></font>
 </code></pre>
 
 <p>Found it after I already started by own implementation of html to spannable converter, because standard Html.fromHtml does not provide enough flexibility over rendering control and even no possibility to use custom fonts from ttf</p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">西门Harry梅</span>
@@ -283,9 +257,7 @@ tvWelcomeUser.setText(Html.fromHtml(welcomStr));<font></font>
 <blockquote>
   <p>Welcome, to your favorite music app store. Logged in as: username</p>
 </blockquote></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">AGO</span>
@@ -296,9 +268,7 @@ tvWelcomeUser.setText(Html.fromHtml(welcomStr));<font></font>
     SiteLink.setText(Html.fromHtml(value));<font></font>
     SiteLink.setMovementMethod(LinkMovementMethod.getInstance());<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Eva神无</span>
@@ -317,9 +287,7 @@ text.setText(Html.fromHtml(getString(R.string.sample_string));<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">有关</font><font style="vertical-align: inherit;">更多详细信息，</font><font style="vertical-align: inherit;">请参见此</font></font><a href="https://stackoverflow.com/a/13893926/923920"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">帖子</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小宇宙樱</span>
@@ -332,9 +300,7 @@ htmltext = &lt;your html (markup) character&gt;;<font></font>
 Spanned sp = Html.fromHtml(htmltext);<font></font>
 myTextview.setText(sp);<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Pro蛋蛋</span>
@@ -355,9 +321,7 @@ myTextview.setText(sp);<font></font>
 <pre><code>        &lt;com.package.HTMLTextView<font></font>
         android:text="@string/about_item_1"/&gt;<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">村村Mandy</span>
@@ -371,9 +335,7 @@ myTextview.setText(sp);<font></font>
       tvDocument.setText(Html.fromHtml(bodyData));<font></font>
  }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">L十三</span>
@@ -389,9 +351,7 @@ myTextview.setText(sp);<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">它仅适用于少量标签。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">西门LEY</span>
@@ -407,9 +367,7 @@ myTextview.setText(sp);<font></font>
     textView.setText(Html.fromHtml("&lt;h2&gt;Title&lt;/h2&gt;&lt;br&gt;&lt;p&gt;Description here&lt;/p&gt;"));<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

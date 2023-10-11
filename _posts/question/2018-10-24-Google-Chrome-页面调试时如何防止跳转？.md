@@ -16,7 +16,7 @@ answer: 1
 </div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第85篇《Google Chrome 页面调试时如何防止跳转？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第85篇《Google Chrome 页面调试时如何防止跳转？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -27,9 +27,7 @@ answer: 1
             <span class="discuss-time">2018.10.24</span>
           </div>
           <div class="discuss-comment"><img style="max-width:100%" src="https://www.samyoc.com/uploads/users/9/images/1540375661617.jpg"/> 打开调试器，把这个打上勾，“保存log”的意思，然后再试试</div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

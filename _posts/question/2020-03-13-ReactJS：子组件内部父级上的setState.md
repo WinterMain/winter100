@@ -71,7 +71,7 @@ React.render(&lt;Todos /&gt;, document.body)<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我有一个待办事项数组，保持在父母的状态。</font><font style="vertical-align: inherit;">我想访问父项的状态，并从</font></font><code>TodoForm</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">的</font></font><code>handleClick</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">组件中</font><font style="vertical-align: inherit;">添加新的待办事项</font><font style="vertical-align: inherit;">。</font><font style="vertical-align: inherit;">我的想法是在父对象上执行setState，这将呈现新添加的待办事项。</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第1454篇《ReactJS：子组件内部父级上的setState》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第1454篇《ReactJS：子组件内部父级上的setState》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -83,9 +83,7 @@ React.render(&lt;Todos /&gt;, document.body)<font></font>
           </div>
           <div class="discuss-comment"><pre><code>parentSetState={(obj) =&gt; { this.setState(obj) }}
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">达蒙梅</span>
@@ -108,9 +106,7 @@ addTodo: function(newTodo) {<font></font>
 
 <pre><code>this.props.addToDo(newTodo);
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">番长樱梅</span>
@@ -153,9 +149,7 @@ var TodoForm = React.createClass({<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">您可以</font></font><code>addTodoItem</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在TodoForm的handleClick中</font><font style="vertical-align: inherit;">调用</font><font style="vertical-align: inherit;">。</font><font style="vertical-align: inherit;">这将在父级上执行setState，从而呈现新添加的待办事项。</font><font style="vertical-align: inherit;">希望你能明白。</font></font></p>
 
 <p><a href="http://jsfiddle.net/sewttkqn/1/" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在这里摆弄。</font></font></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">null</span>
@@ -168,9 +162,7 @@ var TodoForm = React.createClass({<font></font>
 </blockquote>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">参见</font></font><a href="https://reactjs.org/docs/lifting-state-up.html" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">https://reactjs.org/docs/lifting-state-up.html</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font><font style="vertical-align: inherit;">该页面还通过一个示例工作。  </font></font></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

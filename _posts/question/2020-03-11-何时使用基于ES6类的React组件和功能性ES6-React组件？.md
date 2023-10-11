@@ -49,7 +49,7 @@ export class MyComponent extends Component {<font></font>
 <p>I’m guessing if I use any life cycle methods, it might be best to go with a class based component.</p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第561篇《何时使用基于ES6类的React组件和功能性ES6 React组件？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第561篇《何时使用基于ES6类的React组件和功能性ES6 React组件？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -86,9 +86,7 @@ export class MyComponent extends Component {<font></font>
 </ul>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">反应</font></font><a href="https://reactjs.org/docs/hooks-intro.html#motivation" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">动机</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">为何使用挂钩（即功能组件）。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">斯丁Jim</span>
@@ -105,9 +103,7 @@ export class MyComponent extends Component {<font></font>
 <h3><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">更新</font></font></h3>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">现在有一个称为React的类</font></font><code>PureComponent</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，您可以扩展（而不是</font></font><code>Component</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">）来实现它自己的方法</font></font><code>shouldComponentUpdate</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，该方法可以为您比较浅道具。</font></font><a href="https://facebook.github.io/react/docs/react-component.html#shouldcomponentupdate" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">阅读更多</font></font></a></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

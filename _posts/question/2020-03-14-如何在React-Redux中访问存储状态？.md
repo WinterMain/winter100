@@ -74,7 +74,7 @@ render(<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">谢谢</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第1606篇《如何在React Redux中访问存储状态？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第1606篇《如何在React Redux中访问存储状态？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -87,9 +87,7 @@ render(<font></font>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">您需要使用</font></font><a href="http://redux.js.org/docs/api/Store.html#getState" rel="noreferrer"><code>Store.getState()</code></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">获取商店的当前状态。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">有关</font></font><code>getState()</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">观看</font></font><a href="https://egghead.io/lessons/javascript-redux-store-methods-getstate-dispatch-and-subscribe?course=getting-started-with-redux" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">此</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">短片的</font><font style="vertical-align: inherit;">更多信息</font><font style="vertical-align: inherit;">。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小卤蛋猴子猪猪</span>
@@ -128,9 +126,7 @@ export default connect(mapStateToProps)(MyComponent);<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">看看这个答案：</font><a href="https://stackoverflow.com/a/36214059/4040563"><font style="vertical-align: inherit;">https</font></a><font style="vertical-align: inherit;"> : </font></font><a href="https://stackoverflow.com/a/36214059/4040563"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">//stackoverflow.com/a/36214059/4040563</font></font></a></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">进一步阅读：</font><a href="https://medium.com/@atomarranger/redux-mapstatetoprops-and-mapdispatchtoprops-shorthand-67d6cd78f132" rel="noreferrer"><font style="vertical-align: inherit;">https</font></a><font style="vertical-align: inherit;"> : </font></font><a href="https://medium.com/@atomarranger/redux-mapstatetoprops-and-mapdispatchtoprops-shorthand-67d6cd78f132" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">//medium.com/@atomarranger/redux-mapstatetoprops-and-mapdispatchtoprops-shorthand-67d6cd78f132</font></font></a></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

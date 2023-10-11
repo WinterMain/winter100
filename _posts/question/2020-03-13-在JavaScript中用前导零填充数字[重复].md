@@ -42,7 +42,7 @@ topic: JavaScript
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">是否有一种轻松的方法？</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第1517篇《在JavaScript中用前导零填充数字[重复]》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第1517篇《在JavaScript中用前导零填充数字\[重复\]》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -60,9 +60,7 @@ topic: JavaScript
   return s;<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">A逆天猿</span>
@@ -90,9 +88,7 @@ topic: JavaScript
 <li>If an arrow function body has a single line that starts with <code>return</code> you can omit the braces and the <code>return</code> keyword and simply use the expression</li>
 <li>To get the function body down to a single line I cheated and used a ternary expression</li>
 </ul></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">前端LEY米亚</span>
@@ -119,9 +115,7 @@ topic: JavaScript
 <li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果该数字大于指定的大小，它将仅返回该数字。</font></font></li>
 <li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">使用</font></font><code>Math.floor(num)</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">代替</font></font><code>~~num</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">将支持更大的数字。</font></font></li>
 </ol></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">神奇启人</span>
@@ -142,9 +136,7 @@ padDigits(15000, 4); // "15000"<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">不漂亮，但有效。</font></font></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

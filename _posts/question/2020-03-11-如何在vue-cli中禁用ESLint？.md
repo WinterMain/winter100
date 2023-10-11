@@ -35,7 +35,7 @@ topic: JavaScript
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果删除该</font></font><code>loader: 'eslint'</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">行，它将无法编译，与将其设置为空字符串相同。</font><font style="vertical-align: inherit;">我知道我可以</font></font><code>ESLint</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在初始化阶段</font><font style="vertical-align: inherit;">选择退出</font><font style="vertical-align: inherit;">，但是在创建项目后如何禁用它呢？</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第665篇《如何在vue-cli中禁用ESLint？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第665篇《如何在vue-cli中禁用ESLint？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -62,9 +62,7 @@ topic: JavaScript
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">参考：</font><a href="https://github.com/vuejs-templates/webpack/issues/73#issuecomment-355149342" rel="nofollow noreferrer"><font style="vertical-align: inherit;">https</font></a><font style="vertical-align: inherit;"> : </font></font><a href="https://github.com/vuejs-templates/webpack/issues/73#issuecomment-355149342" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">//github.com/vuejs-templates/webpack/issues/73#issuecomment-355149342</font></font></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">AHarry</span>
@@ -74,9 +72,7 @@ topic: JavaScript
  </font></font><code>useEslint: false,</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在</font></font><code>config/index.js</code></p>
 
 <p><a href="https://i.stack.imgur.com/4ZpyA.png" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">看到这张图片</font></font></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">飞云卡卡西</span>
@@ -99,9 +95,7 @@ topic: JavaScript
     ]<font></font>
   },<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小小</span>
@@ -110,9 +104,7 @@ topic: JavaScript
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Vue的入门项目本身都是使用模板语言构建的。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">查看</font></font><a href="https://github.com/vuejs-templates/webpack/blob/cbcba9268dbfb277497bcdde6409dab4398eed8e/template/build/webpack.base.conf.js" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">模板</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">（</font></font><code>{{#lint}}</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">位），您可以删除整个</font></font><code>preLoaders</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">块。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">凯泡芙Davaid</span>
@@ -123,9 +115,7 @@ topic: JavaScript
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">但是最好的方法是：</font></font><br><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
 在</font></font><code>**/*</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">.eslintignore中</font><font style="vertical-align: inherit;">添加一行</font><font style="vertical-align: inherit;">，它将忽略所有文件。</font><font style="vertical-align: inherit;">如果是网络应用程序，然后重新运行！</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">西门樱Eva</span>
@@ -143,18 +133,14 @@ topic: JavaScript
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">祝好运...</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">SamStafan十三</span>
             <span class="discuss-time">2020.03.11</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在最新版本中，打开“ .eslintrc.js”文件，然后设置“ root：false”。</font></font><a href="https://i.stack.imgur.com/s8PVB.jpg" rel="nofollow noreferrer"><img src="https://i.stack.imgur.com/s8PVB.jpg" alt="在此处输入图片说明"></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小小Pro</span>
@@ -166,9 +152,7 @@ topic: JavaScript
 
 <pre><code>npm remove @vue/cli-plugin-eslint
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">西门ItachiL</span>
@@ -179,9 +163,7 @@ topic: JavaScript
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">useEslint：否， </font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在config / index.js中</font></font></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

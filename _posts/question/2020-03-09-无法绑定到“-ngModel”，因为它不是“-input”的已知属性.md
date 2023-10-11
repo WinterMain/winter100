@@ -49,7 +49,7 @@ topic: JavaScript
 </code></pre></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第292篇《无法绑定到“ ngModel”，因为它不是“ input”的已知属性》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第292篇《无法绑定到“ ngModel”，因为它不是“ input”的已知属性》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -60,9 +60,7 @@ topic: JavaScript
             <span class="discuss-time">2020.03.09</span>
           </div>
           <div class="discuss-comment"><p>For any version from Angular 2, you need to import FormsModule in your app.module.ts file and it will fix the issue.</p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">樱神无</span>
@@ -75,9 +73,7 @@ topic: JavaScript
 <p>I did an <code>npm update</code> and then an <code>npm outdated</code> to confirm the versions installed were correct, still no luck.</p>
 
 <p>I ended up completely wiping the <code>node_modules</code> folder and reinstalling with <code>npm install</code> - Voila! Problem solved.</p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小宇宙泡芙</span>
@@ -93,9 +89,7 @@ topic: JavaScript
 <p><code>imports: [ng.platformBrowser.BrowserModule, ng.forms.FormsModule],</code></p>
 
 <p>Happy coding!</p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">JinJin西门</span>
@@ -106,9 +100,7 @@ topic: JavaScript
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">例如，您有2个模块，分别具有module1.componentA.component.ts和module2.componentC.component.ts，并尝试在module2内部的模板（例如</font></font><code>&lt;module1-componentA [someInputVariableInModule1]="variableFromHTTPRequestInModule2"&gt;</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">）中</font><font style="vertical-align: inherit;">使用来自module1.componentA.component.ts的选择器</font><font style="vertical-align: inherit;">，它将抛出即使在module1.componentA中有someInputVariableInModule1在module1.componentA.component.ts中不可用的错误</font></font><code>@Input() someInputVariableInModule1</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果发生这种情况，您希望共享module1.componentA以在其他模块中进行访问。</font><font style="vertical-align: inherit;">因此，如果您在sharedModule中共享module1.componentA，则module1.componentA将在其他模块中使用（在module1之外），并且每个导入sharedModule的模块都将能够在其模板中访问选择器，并注入</font></font><code>@Input()</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">声明的变量。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Tony西门古一</span>
@@ -138,9 +130,7 @@ topic: JavaScript
 
 <p><a href="https://i.stack.imgur.com/yUee7.png" rel="noreferrer"><img src="https://i.stack.imgur.com/yUee7.png" alt="在此处输入图片说明"></a></p></li>
 </ol></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">JinJin西门神乐</span>
@@ -149,9 +139,7 @@ topic: JavaScript
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果正确导入FormsModule后仍然出现错误，则请在终端或Windows控制台中检入，因为您的项目未编译（由于另一个错误，可能是任何错误），并且您的解决方案未反映在浏览器中！ </font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">就我而言，我的控制台出现以下不相关的错误：类型“ ApiService”上不存在属性“ retrieveGithubUser”。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">神无LEYMandy</span>
@@ -165,18 +153,14 @@ topic: JavaScript
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">希望这可以帮助。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">JinJin凯梅</span>
             <span class="discuss-time">2020.03.09</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果在应用可接受的解决方案后仍然有人遇到错误，则可能是因为您要在输入标记中使用ngModel属性的组件具有单独的模块文件。</font><font style="vertical-align: inherit;">在这种情况下，也应在组件的module.ts文件中应用可接受的解决方案。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Green达蒙</span>
@@ -201,9 +185,7 @@ FormsModule
 <li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">例： </font></font><code>&lt;input type="text" [(ngModel)]="name" &gt;</code></li>
 <li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">接着 </font></font><code>&lt;h1&gt;your name is: {{name}} &lt;/h1&gt;</code></li>
 </ol></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">L木嘢</span>
@@ -212,9 +194,7 @@ FormsModule
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在要使用[[ngModel）]的那些模块中导入FormsModule</font></font></p>
 
 <p><a href="https://i.stack.imgur.com/Ulpi6.png" rel="noreferrer"><img src="https://i.stack.imgur.com/Ulpi6.png" alt="在此处输入图片说明"></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">逆天A前端</span>
@@ -255,18 +235,14 @@ imports: [<font></font>
 })<font></font>
 export class AppModule { }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Mandy小卤蛋凯</span>
             <span class="discuss-time">2020.03.09</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">为了能够对表单输入使用双向数据绑定，您需要将</font></font><code>FormsModule</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">包</font><font style="vertical-align: inherit;">导入</font></font><code>Angular</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">模块中。</font><font style="vertical-align: inherit;">有关更多信息，请参见</font><a href="https://angular.io/docs/ts/latest/tutorial/toh-pt1.html#!#two-way-binding"><font style="vertical-align: inherit;">此处</font></a><font style="vertical-align: inherit;">的</font></font><code>Angular 2</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">官方教程</font><font style="vertical-align: inherit;">和</font><a href="https://angular.io/docs/ts/latest/guide/forms.html"><font style="vertical-align: inherit;">表单</font></a><font style="vertical-align: inherit;">的官方文档。</font></font><a href="https://angular.io/docs/ts/latest/tutorial/toh-pt1.html#!#two-way-binding"><font style="vertical-align: inherit;"></font></a><font style="vertical-align: inherit;"></font><a href="https://angular.io/docs/ts/latest/guide/forms.html"><font style="vertical-align: inherit;"></font></a></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

@@ -22,7 +22,7 @@ topic: JavaScript
 </code></pre></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第1592篇《JavaScript：如何将消息打印到错误控制台？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第1592篇《JavaScript：如何将消息打印到错误控制台？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -37,9 +37,7 @@ topic: JavaScript
 <pre><code>var var=10;<font></font>
 console.log(`var=${var}`);<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">逆天卡卡西</span>
@@ -49,9 +47,7 @@ console.log(`var=${var}`);<font></font>
 
 <pre><code>console.log(`x = ${x}`);
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Tony神乐</span>
@@ -63,9 +59,7 @@ console.log(`var=${var}`);<font></font>
 
 <pre><code>alert("message");
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">JinJin乐逆天</span>
@@ -75,9 +69,7 @@ console.log(`var=${var}`);<font></font>
 
 <pre><code>console.warn("Text to print on console");
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">猪猪理查德</span>
@@ -89,9 +81,7 @@ console.log(`var=${var}`);<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在这种情况下，object将是您的错误字符串</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">凯Harry</span>
@@ -129,27 +119,21 @@ console.log(`var=${var}`);<font></font>
     }<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">null</span>
             <span class="discuss-time">2020.03.14</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在</font></font><a href="http://en.wikipedia.org/wiki/WebKit" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">WebKit的</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">网络督察还支持</font></font><a href="http://en.wikipedia.org/wiki/Firebug" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Firebug的</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">控制台API（只是一个小除了</font></font><a href="https://stackoverflow.com/questions/164397/javascript-how-do-i-print-a-message-to-the-error-console/164408#164408"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">丹的答案</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">）。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Green卡卡西</span>
             <span class="discuss-time">2020.03.14</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果您使用的是</font></font><a href="http://getfirebug.com/" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Firebug，</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">并且还需要支持IE，Safari或Opera，则</font></font><a href="http://getfirebug.com/lite.html" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Firebug Lite</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">会向这些浏览器添加console.log（）支持。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">村村AL</span>
@@ -161,27 +145,21 @@ console.log(`var=${var}`);<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">它将显示在浏览器的控制台上。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">达蒙Eva</span>
             <span class="discuss-time">2020.03.14</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在</font></font><em><a href="http://www.sitepoint.com/debugging-javascript-throw-away-your-alerts/" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">调试JavaScript中</font></font></a></em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">概述了一种实现跨浏览器工作的好方法</font><em><a href="http://www.sitepoint.com/debugging-javascript-throw-away-your-alerts/" rel="noreferrer"><font style="vertical-align: inherit;">：丢掉警报！</font></a></em><font style="vertical-align: inherit;">。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">神无伽罗阳光</span>
             <span class="discuss-time">2020.03.14</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">安装</font></font><a href="http://en.wikipedia.org/wiki/Firebug_(software)" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Firebug</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，然后可以使用</font></font><code>console.log(...)</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">和</font></font><code>console.debug(...)</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">等（</font><font style="vertical-align: inherit;">有关更多信息</font><font style="vertical-align: inherit;">，请参见</font></font><a href="http://getfirebug.com/wiki/index.php/Console_Panel#Message_types" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">文档</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">）。</font></font></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

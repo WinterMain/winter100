@@ -94,7 +94,7 @@ export default class Index extends Component {
 }</code></pre><p><code>1. options中的</code>属性&nbsp;<code><strong>languages</strong></code></p><p>它是一个数组，里面放了你需要将你的页面翻译成目标语言的语言标识，你可以添加任意的语言，比如日语（Ja_JP）等等，名字可以任意取，只要满足你的需求即可。</p><p><code>2. options中的</code>属性&nbsp;<code><strong>regText</strong></code></p><p>它的值是一段正则表达式字符串，根据这个正则字符串，loader可以提取出匹配的文本作为翻译的源头。</p><p>比如你如果想提取出中文，你需要这样设置，那么你就可以在页面中直接写中文，loader会自动帮你提取出来：</p><pre><code class="language-plaintext"> regText: "[\u4e00-\u9fa5\u3002\uff1b\uff0c\uff1a\u2018\u2019\u201c\u201d\uff08\uff09\u3001\uff1f\uff01\ufe15\u300a\u300b]+" </code></pre><p>利用这个正则字符串，你可以实现提取任意的语言。</p><p><code>3. options中的</code>属性&nbsp;<code><strong>method</strong></code>&nbsp;</p><p><code>method属性只能是以下这三个值</code>: <strong>props</strong>, <strong>state</strong>, <strong>func</strong>.它的默认值是&nbsp;<code><strong>props</strong></code>.</p><figure class="table"><table><thead><tr><th>value</th><th>description</th></tr></thead><tbody><tr><td>props</td><td>loader将会添加一个属性$lang至对应的React组件的Props中，你需要更改props.$lang来切换多语言，详情请看set_lang_via_props例子。</td></tr><tr><td>state</td><td>loader将会添加一个属性$lang至对应的React组件的state中，你需要更改state.$lang来切换多语言，详情请看set_lang_via_state例子。</td></tr><tr><td>func</td><td>你需要添加一个方法$getLang() {return XXX; // The language code like 'zh_Hans_CN'&nbsp;}到你的React组件中。&nbsp;详情请看set_lang_via_func例子。</td></tr></tbody></table></figure></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第118篇《react-i18loader》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第118篇《react-i18loader》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -106,19 +106,15 @@ export default class Index extends Component {
           </div>
           <div class="discuss-comment"><p>react-i18loader 运用案例，请访问：<a href="http://doc.samyoc.com" target="_blank">在线API文档 http://doc.samyoc.com</a></p>
 </div>
-        </div>
-        
-        <div class="discuss-children">
+        </div><div class="discuss-children">
           <div class="discuss-child">
             <div class="discuss-comment"><p><a href="http://doc.samyoc.com">在线API文档 http://doc.samyoc.com &nbsp;</a>已经和主站整合，请访问https://www.samyoc.com 查看react-i18loader 运用案例</p></div>
             <div class="discuss-meta">
               <span class="discuss-user">Winter</span>
               <span class="discuss-time">2020.04.16</span>
             </div>
-          </div>
+          </div></div>
         </div>
-        
-      </div>
     {% endraw %}
   </div>
 <div>

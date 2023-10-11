@@ -243,7 +243,7 @@ X-Amz-Cf-Id: 3wQ7Z6EaAcMscGirwsYVi1M_rvoc1fbI034QY4QZd6IqmlRzLRllEg==<font></fon
 <p><em>All resources useful in this investigation can be found on google drive <a href="https://drive.google.com/open?id=0ByRPB4t3N6FjZEVSaTZqOUxRZTQ" rel="noreferrer">here</a>.</em></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第3361篇《对CORS的缓存效果：所请求的资源上不存在“ Access-Control-Allow-Origin”标头》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第3361篇《对CORS的缓存效果：所请求的资源上不存在“ Access-Control-Allow-Origin”标头》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -264,9 +264,7 @@ X-Amz-Cf-Id: 3wQ7Z6EaAcMscGirwsYVi1M_rvoc1fbI034QY4QZd6IqmlRzLRllEg==<font></fon
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我们的假设是，可能来自任何CDN的safari和preload字体之间都存在问题</font></font><code>crossOrigin="anonymous"</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">（这是</font></font><a href="https://drafts.csswg.org/css-fonts/#font-fetching-requirements" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">要求</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">）。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">问候。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Sam老丝</span>
@@ -277,9 +275,7 @@ X-Amz-Cf-Id: 3wQ7Z6EaAcMscGirwsYVi1M_rvoc1fbI034QY4QZd6IqmlRzLRllEg==<font></fon
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果现在这样的浏览器来到我们的网站，它将不会发送原始信息：因为它不了解“ crossorigin”属性。</font><font style="vertical-align: inherit;">如果以后又有另一个了解它的人来了，它将发送源：-&gt; CORS错误，因为已缓存第一个响应。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">丑陋。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小宇宙</span>
@@ -338,9 +334,7 @@ X-Amz-Cf-Id: 3wQ7Z6EaAcMscGirwsYVi1M_rvoc1fbI034QY4QZd6IqmlRzLRllEg==<font></fon
 <hr>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">现在，我们刚刚将CSS迁移到Webpack，因此遇到了与您类似的问题。</font><font style="vertical-align: inherit;">我们正在遇到CSS文件的偶发性CORS错误。</font><font style="vertical-align: inherit;">我们正在尝试删除</font><font style="vertical-align: inherit;">标签</font></font><code>crossorigin="anonymous"</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">上</font><font style="vertical-align: inherit;">的</font><font style="vertical-align: inherit;">属性，</font></font><code>&lt;link rel="stylesheet" /&gt;</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">因为我们不需要对CSS文件进行错误跟踪。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">DavaidTony宝儿</span>
@@ -366,9 +360,7 @@ X-Amz-Cf-Id: 3wQ7Z6EaAcMscGirwsYVi1M_rvoc1fbI034QY4QZd6IqmlRzLRllEg==<font></fon
 
 <pre><code>Vary: Origin, Access-Control-Request-Headers, Access-Control-Request-Method
 </code></pre></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

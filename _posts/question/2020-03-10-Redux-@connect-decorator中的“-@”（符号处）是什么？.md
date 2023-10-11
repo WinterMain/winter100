@@ -32,7 +32,7 @@ topic: JavaScript
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">实际上，</font></font><a href="https://github.com/rackt/react-redux"><code>react-redux</code></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">它</font><font style="vertical-align: inherit;">的一部分</font><font style="vertical-align: inherit;">用于将React组件连接到Redux存储。</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第516篇《Redux @connect decorator中的“ @”（符号处）是什么？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第516篇《Redux \`connect decorator中的“ \`”（符号处）是什么？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -68,9 +68,7 @@ topic: JavaScript
    last_message: state.messages[state.messages.length-1]<font></font>
 }))<font></font>
 </code></pre></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

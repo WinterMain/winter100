@@ -34,7 +34,7 @@ topic: HTML
 </code></pre></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第1907篇《Bootstrap 3中仅sr是什么？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第1907篇《Bootstrap 3中仅sr是什么？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -47,9 +47,7 @@ topic: HTML
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">的</font></font><code>.sr-only</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">类隐藏除了一个元件的所有设备</font></font><code>screen readers:</code></p>
 
 <p><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">跳到主要内容将.sr-only与.sr-only-focusable结合使用可在元素聚焦时再次显示该元素</font></font></strong></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">DavaidTony宝儿</span>
@@ -65,9 +63,7 @@ topic: HTML
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Glyphicon将在所有其他设备上显示，</font><font style="vertical-align: inherit;">在文本阅读器上</font><font style="vertical-align: inherit;">显示</font></font><strong><em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">错误：</font></font></em></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">字样</font><font style="vertical-align: inherit;">。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小胖凯前端</span>
@@ -116,9 +112,7 @@ overflow: hidden;<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">希望我在此提供的信息除了其他回复之外，还对某人有用。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Near神无</span>
@@ -150,9 +144,7 @@ overflow: hidden;<font></font>
 </ul>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">由于这项技术的存在，盲人本可以更轻松地在您的网站上导航。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">达蒙A</span>
@@ -169,9 +161,7 @@ overflow: hidden;<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">更新2019：</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">作为开发人员，我们应该提供仅适用于所有即用型内容的可访问内容，而不是专门针对屏幕阅读器的内容。</font><font style="vertical-align: inherit;">并非总是可能的，但请</font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">使用ARIA和“仅限屏幕阅读器”调整要小心</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font><font style="vertical-align: inherit;">如果您不完全了解它，请不要这样做。</font><font style="vertical-align: inherit;">错误的实现可能比不使用它更糟糕。</font><font style="vertical-align: inherit;">请阅读</font></font><a href="https://www.accessibility-developer-guide.com/knowledge/aria/bad-practices/" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">有关ARIA错误示例的accessibility-developer-guide</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font><font style="vertical-align: inherit;">在这里，您将找到完全可访问的组件/小部件，不需要任何“仅屏幕阅读器”干预。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">乐Jim</span>
@@ -211,9 +201,7 @@ overflow: hidden;<font></font>
 <li><p><a href="http://www.w3.org/WAI/" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">网络无障碍倡议（WAI）</font></font></a></p></li>
 <li><p><a href="https://developer.mozilla.org/en-US/docs/Web/Accessibility?redirectlocale=en-US&amp;redirectslug=Accessibility" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">MDN可访问性文档</font></font></a></p></li>
 </ul></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

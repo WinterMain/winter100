@@ -59,7 +59,7 @@ topic: JavaScript
 </code></pre></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第1063篇《XmlHttpRequest错误：Access-Control-Allow-Origin不允许使用Origin null》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第1063篇《XmlHttpRequest错误：Access-Control-Allow-Origin不允许使用Origin null》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -78,18 +78,14 @@ nserver # to use<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">然后它将在投放</font></font><code>http://localhost:8000</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">JinJinTom</span>
             <span class="discuss-time">2020.03.12</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">确保您使用的是最新版本的JQuery。</font><font style="vertical-align: inherit;">我们遇到了针对JQuery 1.10.2的错误，使用JQuery 1.11.1后该错误已得到解决</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">AEva伽罗</span>
@@ -101,9 +97,7 @@ nserver # to use<font></font>
 RewriteCond %{HTTP_HOST} ^domain\.com$ [NC]<font></font>
 RewriteRule ^(.*)$ http://www.domain.com/$1 [R=301,L]<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">番长神乐小小</span>
@@ -121,9 +115,7 @@ LoadModule proxy_http_module modules/mod_proxy_http.so<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">最后，将proxy-url传递给脚本。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Harry飞云</span>
@@ -133,9 +125,7 @@ LoadModule proxy_http_module modules/mod_proxy_http.so<font></font>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在MAC上：
 </font></font><code>open -a Google\ Chrome --args --disable-web-security</code></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">LEY古一阿飞</span>
@@ -152,9 +142,7 @@ LoadModule proxy_http_module modules/mod_proxy_http.so<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在中</font></font><code>Header set Access-Control-Allow-Origin "*"</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，您可以放置​​一个精确的URL。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小胖Davaid</span>
@@ -168,9 +156,7 @@ Refused to get unsafe header "X-JSON"<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我必须删除Ajax URL的www部分，以使其与原始URL正确匹配，然后工作正常。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Near西里泡芙</span>
@@ -203,9 +189,7 @@ Refused to get unsafe header "X-JSON"<font></font>
 <li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">确保浏览器</font></font><a href="http://caniuse.com/cors" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">实际上支持CORS</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font><font style="vertical-align: inherit;">（Opera和Internet Explorer迟到了）</font></font></li>
 </ol></li>
 </ol></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">逆天小卤蛋Green</span>
@@ -218,27 +202,21 @@ python -m SimpleHTTPServer 8000<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">然后浏览您的文件。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Mandy猴子</span>
             <span class="discuss-time">2020.03.12</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">只要请求的服务器支持JSON数据格式，请使用JSONP（JSON填充）接口。</font><font style="vertical-align: inherit;">它使您可以发出外部域请求，而无需代理服务器或精美的标题。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小小西门</span>
             <span class="discuss-time">2020.03.12</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这是</font></font><a href="https://developer.mozilla.org/En/Same_origin_policy_for_JavaScript" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">相同的原始策略</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，您必须使用JSON-P接口或在同一主机上运行的代理。</font></font></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

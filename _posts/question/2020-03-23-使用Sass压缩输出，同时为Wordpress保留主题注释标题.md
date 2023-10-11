@@ -23,7 +23,7 @@ topic: CSS
 <p><a href="http://sass-lang.com/docs/yardoc/file.SASS_REFERENCE.html#id40" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">http://sass-lang.com/docs/yardoc/file.SASS_REFERENCE.html#id40</font></font></a></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第3106篇《使用Sass压缩输出，同时为Wordpress保留主题注释标题》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第3106篇《使用Sass压缩输出，同时为Wordpress保留主题注释标题》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -37,9 +37,7 @@ topic: CSS
 
 <pre><code>/*! A loud SASS comment */
 </code></pre></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

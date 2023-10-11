@@ -47,7 +47,7 @@ topic: CSS
 </ol></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第4030篇《节点应用程序的LibSass的SCSS编译器替代品》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第4030篇《节点应用程序的LibSass的SCSS编译器替代品》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -64,9 +64,7 @@ topic: CSS
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果您确实在开发机器上运行它，请确保在Vagrant或Docker中进行操作以创建一致的工件。 </font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">要回答第二个问题，不，似乎没有其他选择</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小胖</span>
@@ -77,18 +75,14 @@ topic: CSS
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">对于您的用例，我将使用</font></font><a href="https://www.npmjs.com/package/sass" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在npm上</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">转换为</font><a href="https://www.npmjs.com/package/sass" rel="nofollow noreferrer"><font style="vertical-align: inherit;">JavaScript</font></a><font style="vertical-align: inherit;">的版本</font><font style="vertical-align: inherit;">。</font><font style="vertical-align: inherit;">根据我对大型Sass项目（VideoJS）的测试，Dart-Sass的执行速度比node-sass慢，但如果您进行较小的更改，效果还不错。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">第二个</font></font><a href="https://dev.to/michaeldscherr/switching-from-sass-to-postcss-4p0c" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">pure-JS node-sass替代方法是PostCSS</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，尽管您可能无法使用所需的所有Sass功能。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">泡芙</span>
             <span class="discuss-time">2020.04.03</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">除非您的应用程序必须即时编译Sass，否则您可能应该在开发机上编译样式并将静态CSS推送到生产环境。</font></font></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

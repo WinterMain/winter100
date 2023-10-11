@@ -23,7 +23,7 @@ topic: Node.js
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我一定对确切的</font></font><code>npm install</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">功能</font><font style="vertical-align: inherit;">感到困惑</font><font style="vertical-align: inherit;">。</font><font style="vertical-align: inherit;">如果它检测到依赖性，是否应该安装它？</font><font style="vertical-align: inherit;">在什么情况下会给我这样的错误消息，我该如何解决依赖关系？</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第1952篇《为什么npm install说我有未满足的依赖关系？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第1952篇《为什么npm install说我有未满足的依赖关系？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -37,9 +37,7 @@ topic: Node.js
 
 <pre><code>sudo npm install -g npm
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">StafanL</span>
@@ -50,9 +48,7 @@ topic: Node.js
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">一些依赖需要角度4</font></font></p>
 
 <p><a href="https://coursetro.com/posts/code/55/How-to-Install-an-Angular-4-App" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这是有关如何安装angular 4或更新项目的教程。</font></font></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Itachi小宇宙</span>
@@ -61,9 +57,7 @@ topic: Node.js
           <div class="discuss-comment"><p><code>npm install</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">将安装中的所有软件包</font></font><code>npm-shrinkwrap.json</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，但</font></font><code>package.json</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果未在中预先设置，则</font><font style="vertical-align: inherit;">可能会忽略中的软件包</font><font style="vertical-align: inherit;">。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果您的项目有个</font></font><code>npm-shrinkwrap.json</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，请确保您</font></font><code>npm shrinkwrap</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">每次添加添加/删除/更改时都</font><font style="vertical-align: inherit;">运行</font><font style="vertical-align: inherit;">以重新生成它</font></font><code>package.json</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小宇宙GilMandy</span>
@@ -71,9 +65,7 @@ topic: Node.js
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我在安装react软件包时遇到了这个问题，这对我有用：
      </font></font><code>npm install --save &lt;package causing this error&gt;</code></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">宝儿凯</span>
@@ -94,9 +86,7 @@ npm update --dev<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这至少将解决递归依赖性解析。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">NearMandy</span>
@@ -105,9 +95,7 @@ npm update --dev<font></font>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我试图在运行的自动部署系统上工作</font></font><code>npm install</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，所以很多这些解决方案在自动化方面对我不起作用。</font><font style="vertical-align: inherit;">我无法删除/重新创建，</font></font><code>node_modules/</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">也无法轻松更改Node.js版本。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">因此，我最终运行</font></font><code>npm shrinkwrap</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">-将</font></font><code>npm-shrinkwrap.json</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">文件</font><font style="vertical-align: inherit;">添加</font><font style="vertical-align: inherit;">到我的部署包中，然后从那里运行安装。</font><font style="vertical-align: inherit;">那为我解决了问题；</font><font style="vertical-align: inherit;">通过使用rinklewrap文件作为“帮助器”，npm似乎能够找到正确的软件包并为我安装了它们。</font><font style="vertical-align: inherit;">（Shrinkwrap也具有其他功能，但这是我在特定情况下所需的功能）。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">LEY宝儿神奇</span>
@@ -118,9 +106,7 @@ npm update --dev<font></font>
 <p><code>npm update -g</code></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">并能够在此之后安装该软件包。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小宇宙神乐Mandy</span>
@@ -135,9 +121,7 @@ npm update --dev<font></font>
 </ol>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">重复这些步骤，直到没有更多错误为止。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Eva古一</span>
@@ -149,9 +133,7 @@ npm update --dev<font></font>
 
 <p><code>├── UNMET DEPENDENCY css-loader@^0.23.1</code> <br>
 <code>npm install css-loader@^0.23.1</code></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">卡卡西猿</span>
@@ -167,9 +149,7 @@ npm update --dev<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">请注意，这会通过不安全的HTTP连接拉动节点模块。 </font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Src：</font><a href="https://stackoverflow.com/a/13119867/4082503"><font style="vertical-align: inherit;">https</font></a><font style="vertical-align: inherit;">：</font></font><a href="https://stackoverflow.com/a/13119867/4082503"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">//stackoverflow.com/a/13119867/4082503</font></font></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">西门樱Eva</span>
@@ -178,9 +158,7 @@ npm update --dev<font></font>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">对于每个</font></font><code>-- UNMET PEER DEPENDENCY</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，对于前。</font></font><code>-- UNMET PEER DEPENDENCY rxjs@5.0.0-rc.2</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，安装那个依赖，</font></font><code>npm install --save rxjs@5.0.0-rc.2</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">直到没有了</font></font><code>UNMET DEPENDENCIES</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">祝好运。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">路易Harry</span>
@@ -191,9 +169,7 @@ npm update --dev<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">该命令</font></font><code>npm list</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">为您提供了所有已安装的列表</font></font><code>node_modules</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font><font style="vertical-align: inherit;">当我从1.4.2版本升级到2.7.4版本时，以前标记过的许多模块</font></font><code>WARN unmet dependency</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">不再被这样指出。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">要更新npm，您应该</font></font><code>npm install -g npm</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在MacOSX或Linux上</font><font style="vertical-align: inherit;">键入</font><font style="vertical-align: inherit;">。</font><font style="vertical-align: inherit;">在Windows上，我发现重新下载并重新运行nodejs安装程序是更新npm的更有效方法。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Eva小哥理查德</span>
@@ -208,18 +184,14 @@ npm update --dev<font></font>
 </ul>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">完成！</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">乐猴子樱</span>
             <span class="discuss-time">2020.03.17</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在WIFI期间WIFI掉线的时候我发生了</font></font><code>npm install</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font><font style="vertical-align: inherit;">删除</font></font><code>node_modules</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">并重新运行</font></font><code>npm install</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">修复它。</font></font></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

@@ -17,7 +17,7 @@ topic: HTML
     <div class="article-content"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我有一个简单的页面，其中包含一些iframe部分（以显示RSS链接）。</font><font style="vertical-align: inherit;">如何将相同的CSS格式从首页应用于iframe中显示的页面？</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第1627篇《如何将CSS应用于iframe？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第1627篇《如何将CSS应用于iframe？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -40,9 +40,7 @@ divClass iframe { width: 100%; height: 100%; }<font></font>
 </code></pre>
 
 <p>This works in IE 6. Should work in other browsers, do check!</p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Pro猪猪</span>
@@ -53,9 +51,7 @@ divClass iframe { width: 100%; height: 100%; }<font></font>
 <p><a href="https://github.com/cssobj/cssobj" rel="nofollow noreferrer">https://github.com/cssobj/cssobj</a></p>
 
 <p>It can inject JS object as CSS to iframe, dynamically</p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">老丝卡卡西西里</span>
@@ -66,18 +62,14 @@ divClass iframe { width: 100%; height: 100%; }<font></font>
 <p>make its <code>z-index</code> bigger than the iframe container, so you can easly just style your own div. If you need to click on it, just use <code>pointer-events:none</code> on your own div, so the iframe would be working in case you need to click on it ;)</p>
 
 <p>I hope It will help someone ;)  </p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">A达蒙</span>
             <span class="discuss-time">2020.03.15</span>
           </div>
           <div class="discuss-comment"><p>You will not be able to style the contents of the iframe this way. My suggestion would be to use serverside scripting (PHP, ASP, or a Perl script) or find an online service that will convert a feed to JavaScript code. The only other way to do it would be if you can do a serverside include.</p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">路易小卤蛋</span>
@@ -88,18 +80,14 @@ divClass iframe { width: 100%; height: 100%; }<font></font>
 <p>Otherwise it is unlikely you will be able to dynamically change the style of a page from an external page in your iframe.  This is because browsers have tightened the security on cross frame dom scripting due to possible misuse for spoofing and other hacks.</p>
 
 <p><a href="http://www.dyn-web.com/tutorials/iframes/" rel="noreferrer">This tutorial</a> may provide you with more information on scripting iframes in general.  <a href="http://msdn.microsoft.com/en-us/library/ms533028(VS.85).aspx" rel="noreferrer">About cross frame scripting</a> explains the security restrictions from the IE perspective.</p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">神无Sam乐</span>
             <span class="discuss-time">2020.03.15</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">大多数浏览器普遍将iframe视为不同的HTML页面。</font><font style="vertical-align: inherit;">如果要将相同的样式表应用于iframe的内容，只需从那里使用的页面引用它即可。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">梅十三Near</span>
@@ -113,9 +101,7 @@ $head.append($("&lt;link/&gt;", {<font></font>
     type: "text/css"<font></font>
 }));<font></font>
 </code></pre></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

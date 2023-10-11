@@ -23,7 +23,7 @@ topic: HTML
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">是不是</font></font><code>&lt;br&gt;</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，</font></font><code>&lt;br/&gt;</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">还是</font></font><code>&lt;br /&gt;</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">？</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第1490篇《HTML 5：是<br>，<br/>还是<br />？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第1490篇《HTML 5：是<br>，<br/>还是<br />？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -58,9 +58,7 @@ topic: HTML
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">并非所有标签都可以自动关闭。</font><font style="vertical-align: inherit;">例如，</font></font><code>&lt;script src="jQuery.min.js" /&gt;</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">XHTML DTD不允许</font><font style="vertical-align: inherit;">使用标记</font><font style="vertical-align: inherit;">。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">L猴子</span>
@@ -69,9 +67,7 @@ topic: HTML
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">没有结束标签的元素称为空标签。</font><font style="vertical-align: inherit;">在html 4和html 5中，结束标记不是必需的，可以省略。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在xhtml中，标记是如此严格。</font><font style="vertical-align: inherit;">这意味着必须以开始标签开始，并以结束标签结束。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">LEY神无</span>
@@ -79,9 +75,7 @@ topic: HTML
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在</font></font><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/br" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">HTML5中</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，不再需要使用斜杠：
  </font></font><code>&lt;br&gt;</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，</font></font><code>&lt;hr&gt;</code></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">米亚宝儿</span>
@@ -98,9 +92,7 @@ topic: HTML
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">不要与混淆</font></font><code>br</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，此外，您还可以考虑</font></font><code>wbr</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在HTML中</font><font style="vertical-align: inherit;">使用</font><font style="vertical-align: inherit;">标记：分词机会标记，它指定可以在文本中的何处添加换行符。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">若要进一步阅读，请阅读</font></font><a href="http://www.w3.org/TR/html5/syntax.html#void-elements" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">HTML5规范</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Gil村村</span>
@@ -109,9 +101,7 @@ topic: HTML
           <div class="discuss-comment"><p><code>&lt;br&gt;</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">效果很好。</font><font style="vertical-align: inherit;">像XHTML这样的更严格的版本要求您添加结束符，而真正的HTML旧版本则不包含</font></font><code>DOCTYPE</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">make </font></font><code>&lt;br&gt;</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">non-void标签，例如</font></font><code>&lt;br&gt;&lt;/br&gt;</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">总结：</font></font><code>&lt;br&gt;</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">很好。</font><font style="vertical-align: inherit;">其他的也很好。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">乐逆天</span>
@@ -120,9 +110,7 @@ topic: HTML
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在HTML </font></font><code>&lt;br&gt;</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">和XHTML中</font></font><code>&lt;br/&gt;</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我建议您使用</font></font><code>&lt;br/&gt;</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">JimEva神奇</span>
@@ -135,9 +123,7 @@ topic: HTML
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">由于</font></font><a href="http://google.com" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Google会</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">使用，</font></font><code>&lt;br&gt;</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">因此我也会这样做。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">（当然请记住，他们可能正在为我服务，</font></font><code>&lt;br&gt;</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">因为我使用的是他们知道支持的Chrome。在IE中，他们可能仍在服务</font></font><code>&lt;br/&gt;</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">）</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">SamYoc</span>
@@ -148,9 +134,7 @@ topic: HTML
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在这里查看邮件：</font><a href="http://snag.gy/cLxUa.jpg" rel="nofollow"><font style="vertical-align: inherit;">http</font></a><font style="vertical-align: inherit;"> : </font></font><a href="http://snag.gy/cLxUa.jpg" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">//snag.gy/cLxUa.jpg</font></font></a></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">文本的前两部分用分隔</font></font><code>&lt;br /&gt;</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，因此，空白行，底部的最后三行文本和最后的部分用分隔，</font></font><code>&lt;br&gt;</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">并给出新行。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">猴子Davaid</span>
@@ -182,9 +166,7 @@ topic: HTML
 
 <pre><code>"emmet.syntaxProfiles": {"html": "xhtml"}
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">达蒙乐</span>
@@ -208,9 +190,7 @@ topic: HTML
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果使用Dreamweaver CS6，它将自动完成</font></font><code>&lt;br /&gt;</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">要在W3C上验证HTML文件，请参见：</font><a href="http://validator.w3.org/" rel="noreferrer"><font style="vertical-align: inherit;">http</font></a><font style="vertical-align: inherit;"> : </font></font><a href="http://validator.w3.org/" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">//validator.w3.org/</font></font></a> </p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">樱神奇</span>
@@ -225,9 +205,7 @@ topic: HTML
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在</font></font><code>HTML5</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">代码世界的“ LAX”中，确实没有正确的答案，因为它</font></font><code>detects every example you put up</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在那里是正确的……</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">最后，我认为所有问题</font></font><code>is what validation YOU PREFER</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">或</font></font><code>the person that you are working for prefers</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">...随着</font></font><code>lackadaisical</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">代码严格性的变化，</font></font><code>html5</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我们看到了一些非常懒惰的编码器</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Davaid番长十三</span>
@@ -236,9 +214,7 @@ topic: HTML
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">两者</font></font><code>&lt;br&gt;</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">和</font></font><code>&lt;br/&gt;</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">都可以正常工作，但我更喜欢，</font></font><code>&lt;br/&gt;</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">因为它稍微合逻辑。</font><font style="vertical-align: inherit;">逻辑上是每当有一个开始标签时就期望有一个结束标签。</font><font style="vertical-align: inherit;">因此，如果在没有结束标记的情况下不使用开始标记，则代码将更易于阅读。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">所有浏览器（可能没关系的一些非常旧的浏览器除外）将显示完全相同的内容。</font><font style="vertical-align: inherit;">但是，</font></font><code>&lt;br&gt;</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">不符合xHTML。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Admin</span>
@@ -247,9 +223,7 @@ topic: HTML
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果您对可比性（不是兼容性，而是可比性）感兴趣，那么我会坚持使用</font></font><code>&lt;br /&gt;</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">否则</font></font><code>&lt;br&gt;</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">很好。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">阳光达蒙达蒙</span>
@@ -262,27 +236,21 @@ topic: HTML
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">例如，在</font></font><a href="http://dev.w3.org/html5/spec/Overview.html#the-img-element" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">HTML5规范中</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，所有带有</font></font><code>br</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">标记的</font><font style="vertical-align: inherit;">示例都</font><font style="vertical-align: inherit;">使用</font></font><code>&lt;br&gt;</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">语法，而不是</font></font><code>&lt;br/&gt;</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p>
 
 <p><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">UPD</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">实际上</font></font><code>&lt;br/&gt;</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">是</font></font><a href="http://www.w3.org/TR/html5/syntax.html#void-elements" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">HTML5中允许的</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font><font style="vertical-align: inherit;">9.1.2.1，7。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">MandyL</span>
             <span class="discuss-time">2020.03.13</span>
           </div>
           <div class="discuss-comment"><p><code>&lt;br&gt;</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">并以</font></font><code>&lt;br/&gt;</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">不同的方式呈现。</font><font style="vertical-align: inherit;">一些浏览器解释</font></font><code>&lt;br/&gt;</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">为</font></font><code>&lt;br&gt;&lt;/br&gt;</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">并插入两个换行符</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">逆天路易</span>
             <span class="discuss-time">2020.03.13</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">HTML5中可以接受</font></font><code>&lt;br&gt;</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">和</font><font style="vertical-align: inherit;">两者</font></font><code>&lt;br /&gt;</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，但</font></font><code>&lt;br&gt;</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">应</font><font style="vertical-align: inherit;">本着HTML的精神</font><font style="vertical-align: inherit;">。</font><font style="vertical-align: inherit;">HTML5允许使用斜杠，以便与以前的HTML 4.01和XHTML 1.0的文档更加兼容，从而更容易迁移到HTML5。</font><font style="vertical-align: inherit;">当然，</font></font><code>&lt;br/&gt;</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这也是可以接受的，但是为了与某些较旧的浏览器兼容，请在斜杠（</font></font><code>/</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">）</font><font style="vertical-align: inherit;">前留一个空格</font><font style="vertical-align: inherit;">。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">猿路易</span>
@@ -308,18 +276,14 @@ topic: HTML
 <li><a href="http://www.w3schools.com/tags/tag_br.asp"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">http://www.w3schools.com/tags/tag_br.asp</font></font></a></li>
 <li><a href="http://en.wikipedia.org/wiki/XHTML"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">http://en.wikipedia.org/wiki/XHTML</font></font></a></li>
 </ul></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Stafan西门</span>
             <span class="discuss-time">2020.03.13</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">根据</font></font><a href="http://dev.w3.org/html5/spec/Overview.html#the-br-element" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">规范</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，预期格式</font></font><code>&lt;br&gt;</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">为HTML 5，但允许使用斜杠。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">村村路易</span>
@@ -352,9 +316,7 @@ topic: HTML
 <pre><code>&lt;hr&gt;&lt;/hr&gt;
 </code></pre>
 </blockquote></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">ProTony</span>
@@ -369,9 +331,7 @@ topic: HTML
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">3）一些旧的解析器和一些编码规范要求在斜杠前加空格（即：</font></font><code>&lt;br /&gt;</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">而不是</font></font><code>&lt;br/&gt;</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">），例如WordPress插件编码规范：</font><a href="http://make.wordpress.org/core/handbook/coding-standards/html/" rel="noreferrer"><font style="vertical-align: inherit;">http</font></a><font style="vertical-align: inherit;"> : </font></font><a href="http://make.wordpress.org/core/handbook/coding-standards/html/" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">//make.wordpress.org/core/handbook/coding-standards/html/</font></font></a></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">根据我的经验，我从来没有遇到过使用</font></font><code>&lt;br /&gt;</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">有问题的情况，但是，在许多情况下，</font></font><code>&lt;br/&gt;</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">或</font></font><code>&lt;br&gt;</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">更旧的浏览器和工具可能有问题。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">猴子神乐</span>
@@ -382,9 +342,7 @@ topic: HTML
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">还有其他形式是为了与XHTML兼容。</font><font style="vertical-align: inherit;">使编写与XHTML相同的代码成为可能，并使它也可以用作HTML。</font><font style="vertical-align: inherit;">某些生成HTML的系统可能基于XML生成器，因此不能仅输出裸</font></font><code>&lt;br&gt;</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">标签。</font><font style="vertical-align: inherit;">如果您使用的是这样的系统，则可以使用</font></font><code>&lt;br/&gt;</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，如果不需要，就没有必要。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">但是，实际上很少有人使用XHTML。</font><font style="vertical-align: inherit;">您需要将其内容提供服务</font></font><code>application/xhtml+xml</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，以使其解释为XHTML，这在旧版本的IE中将不起作用-这也意味着您犯的任何小错误都将阻止您的页面在支持XHTML的浏览器中显示。</font><font style="vertical-align: inherit;">因此，Web上大多数看起来像XHTML的东西实际上都是作为HTML提供和解释的。</font><font style="vertical-align: inherit;">有关</font><font style="vertical-align: inherit;">更多信息，</font><font style="vertical-align: inherit;">请参见将</font></font><a href="http://hixie.ch/advocacy/xhtml" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">XHTML作为text / html认为有害</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

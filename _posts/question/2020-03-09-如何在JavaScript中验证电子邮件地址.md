@@ -17,7 +17,7 @@ topic: JavaScript
     <div class="article-content"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">是否有正则表达式来验证JavaScript中的电子邮件地址？</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第146篇《如何在JavaScript中验证电子邮件地址》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第146篇《如何在JavaScript中验证电子邮件地址》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -57,9 +57,7 @@ topic: JavaScript
             </span><span class="kwd">return</span><span class="pln"> </span><span class="kwd">true</span><span class="pln">
     </span><span class="pun">}</span><span class="pln">
 </span><span class="pun">&lt;/</span><span class="pln">script</span><span class="pun">&gt;</span></code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">做个有心人</span>
@@ -70,9 +68,7 @@ topic: JavaScript
 <pre class="lang-js prettyprint prettyprinted" style=""><code><span class="str">/^[\w-]+(\.[\w-]+)*@([a-z0-9-]+(\.[a-z0-9-]+)*?\.[a-z]{2,6}|(\d{1,3}\.){3}\d{1,3})(:\d{4})?$/</span></code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果存在缺陷，我会在此处发布-尽管它始终非常适合我的需求。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">ItachiHarry</span>
@@ -85,9 +81,7 @@ topic: JavaScript
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">取自</font><font style="vertical-align: inherit;">10年10月1日</font></font><a href="http://fightingforalostcause.net/misc/2006/compare-email-regex.php" rel="noreferrer" data-bitapp="processed"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">http://fightingforalostcause.net/misc/2006/compare-email-regex.php</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">但是，当然，这忽略了国际化。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">猿Sam</span>
@@ -98,9 +92,7 @@ topic: JavaScript
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这是当前与JavaScript兼容的顶级表达式，仅供参考：</font></font></p>
 
 <pre class="lang-js prettyprint prettyprinted" style=""><code><span class="str">/^[-a-z0-9~!$%^&amp;*_=+}{\'?]+(\.[-a-z0-9~!$%^&amp;*_=+}{\'?]+)*@([a-z0-9_][-a-z0-9_]*(\.[-a-z0-9_]+)*\.(aero|arpa|biz|com|coop|edu|gov|info|int|mil|museum|name|net|org|pro|travel|mobi|[a-z][a-z])|([0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}))(:[0-9]{1,5})?$/</span><span class="pln">i</span></code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">GO路易西门</span>
@@ -115,9 +107,7 @@ topic: JavaScript
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">例如，尽管该地址</font></font><code>example@example.ccc</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">将通过正则表达式，但它不是有效的电子邮件，因为</font></font><code>ccc</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">它不是IANA的顶级域。</font></font></p>
 
 <p><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">2-确保电子邮件确实存在：</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">为此，</font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">唯一的选择</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">是</font></font><a href="https://davidcel.is/posts/stop-validating-email-addresses-with-regex/#just-send-them-an-email-already" rel="nofollow noreferrer" data-bitapp="processed"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">向用户发送电子邮件</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">梅老丝</span>
@@ -132,9 +122,7 @@ topic: JavaScript
 <pre class="lang-js prettyprint prettyprinted" style=""><code><span class="kwd">if</span><span class="pln"> </span><span class="pun">(</span><span class="pln">reg</span><span class="pun">.</span><span class="pln">test</span><span class="pun">(</span><span class="str">/@/</span><span class="pun">))</span></code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">其次，检查以确保在</font></font><code>@</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">符号</font><font style="vertical-align: inherit;">后有一个句</font><font style="vertical-align: inherit;">点，并确保在</font></font><code>@</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">s和句点</font><font style="vertical-align: inherit;">之间有字符</font><font style="vertical-align: inherit;">。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">前端Harry十三</span>
@@ -157,9 +145,7 @@ dotpos </span><span class="pun">=</span><span class="pln"> emailID</span><span c
     required</span><span class="pun">:</span><span class="pln"> </span><span class="kwd">true</span><span class="pun">,</span><span class="pln">
     email</span><span class="pun">:</span><span class="pln"> </span><span class="kwd">true</span><span class="pln">
 </span><span class="pun">}</span></code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">前端猿</span>
@@ -168,9 +154,7 @@ dotpos </span><span class="pun">=</span><span class="pln"> emailID</span><span c
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这是</font></font><a href="https://github.com/chriso/validator.js" rel="noreferrer" data-bitapp="processed"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">节点验证器的</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">操作方式：</font></font></p>
 
 <pre class="lang-js prettyprint prettyprinted" style=""><code><span class="str">/^(?:[\w\!\#\$\%\&amp;\'\*\+\-\/\=\?\^\`\{\|\}\~]+\.)*[\w\!\#\$\%\&amp;\'\*\+\-\/\=\?\^\`\{\|\}\~]+@(?:(?:(?:[a-zA-Z0-9](?:[a-zA-Z0-9\-](?!\.)){0,61}[a-zA-Z0-9]?\.)+[a-zA-Z0-9](?:[a-zA-Z0-9\-](?!$)){0,61}[a-zA-Z0-9]?)|(?:\[(?:(?:[01]?\d{1,2}|2[0-4]\d|25[0-5])\.){3}(?:[01]?\d{1,2}|2[0-4]\d|25[0-5])\]))$/</span></code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">古一凯Gil</span>
@@ -181,9 +165,7 @@ dotpos </span><span class="pun">=</span><span class="pln"> emailID</span><span c
 <pre class="lang-js prettyprint prettyprinted" style=""><code><span class="pun">&lt;</span><span class="pln">input type</span><span class="pun">=</span><span class="str">"email"</span><span class="pun">/&gt;</span></code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">无需编写任何函数进行验证。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">A神无</span>
@@ -196,9 +178,7 @@ dotpos </span><span class="pun">=</span><span class="pln"> emailID</span><span c
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">不要为更复杂的事情而烦恼。</font><font style="vertical-align: inherit;">即使您可以完美地确定电子邮件在RFC语法上是否有效，也不会告诉您电子邮件是否属于提供电子邮件的人。</font><font style="vertical-align: inherit;">那才是真正重要的。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">要进行测试，请发送验证消息。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Jim小胖米亚</span>
@@ -209,9 +189,7 @@ dotpos </span><span class="pun">=</span><span class="pln"> emailID</span><span c
 <pre class="lang-js prettyprint prettyprinted" style=""><code><span class="pun">^</span><span class="pln">\S</span><span class="pun">+@</span><span class="pln">\S</span><span class="pun">+</span><span class="pln">$</span></code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">它通常会捕获用户所犯的最明显的错误，并确保表单最正确，这就是JavaScript验证的全部内容。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">乐Near</span>
@@ -232,9 +210,7 @@ dotpos </span><span class="pun">=</span><span class="pln"> emailID</span><span c
     </span><span class="kwd">var</span><span class="pln"> re </span><span class="pun">=</span><span class="pln"> </span><span class="str">/\S+@\S+\.\S+/</span><span class="pun">;</span><span class="pln">
     </span><span class="kwd">return</span><span class="pln"> re</span><span class="pun">.</span><span class="pln">test</span><span class="pun">(</span><span class="pln">email</span><span class="pun">);</span><span class="pln">
 </span><span class="pun">}</span></code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">十三神无</span>
@@ -243,9 +219,7 @@ dotpos </span><span class="pun">=</span><span class="pln"> emailID</span><span c
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在决定使用正则表达式验证电子邮件时，您需要了解一些内容：</font></font><a href="http://ex-parrot.com/~pdw/Mail-RFC822-Address.html" rel="noreferrer" data-bitapp="processed"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这可能不是一个好主意</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font><font style="vertical-align: inherit;">一旦您对此有所了解，就有许多实现可以使您半途而废，</font></font><a href="http://www.regular-expressions.info/email.html" rel="noreferrer" data-bitapp="processed"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">本文对它们进行了很好的总结。</font></font></a></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">简而言之，唯一可以绝对肯定地确定用户输入的实际上是电子邮件的唯一方法是实际发送电子邮件并查看会发生什么。</font><font style="vertical-align: inherit;">除此之外，所有这些只是猜测。</font></font></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

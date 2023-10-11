@@ -35,7 +35,7 @@ topic: HTML
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">而</font></font><a href="http://doctype.com/style-select" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这个</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在Doctype.com上。</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第1489篇《如何仅使用CSS设置<select>下拉列表的样式？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第1489篇《如何仅使用CSS设置<select>下拉列表的样式？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -65,18 +65,14 @@ select:hover {background: url(https://alt-fit.com/images/global/select-button.pn
 </div>
 </div>
 <p></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">StafanEva</span>
             <span class="discuss-time">2020.03.13</span>
           </div>
           <div class="discuss-comment"><p>You definitely should do it like in <em><a href="http://www.electrictoolbox.com/style-select-optgroup-options-css/" rel="nofollow">Styling select, optgroup and options with CSS</a></em>. In many ways, background-color and color are just what you would typically need to style options, not the entire select.</p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Sam神奇A</span>
@@ -102,18 +98,14 @@ select:hover {background: url(https://alt-fit.com/images/global/select-button.pn
   }<font></font>
 &lt;/style&gt;<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小胖A</span>
             <span class="discuss-time">2020.03.13</span>
           </div>
           <div class="discuss-comment"><p>A very nice example that uses <code>:after</code> and <code>:before</code> to do the trick is in <em><a href="http://cssdeck.com/labs/styling-select-box-with-css3" rel="nofollow">Styling Select Box with CSS3 | CSSDeck</a></em></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">TonyDavaid</span>
@@ -137,9 +129,7 @@ select {<font></font>
 </code></pre>
 
 <p>This uses a background color for select elements and I removed the image..</p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Tom神奇</span>
@@ -160,9 +150,7 @@ select {<font></font>
 <font></font>
 select option {border: 1px solid #000; background: #010;}<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Davaid神无</span>
@@ -231,9 +219,7 @@ select option {border: 1px solid #000; background: #010;}<font></font>
 <li><a href="https://dojotoolkit.org/reference-guide/1.8/dojox/fx/ext-dojo/complex.html" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Dojo FX测试：dojox.fx.ext-dojo.complex</font></font></a></li>
 <li><a href="http://test.csswg.org/suites/css-masking/nightly-unstable/html/clip-rect-auto-002.htm" rel="nofollow noreferrer">CSS Masking: Test clip property with rect function and auto values clip to border box</a></li>
 </ul></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">神奇Davaid</span>
@@ -280,9 +266,7 @@ select {<font></font>
 </div>
 </div>
 <p></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小胖Eva</span>
@@ -316,9 +300,7 @@ select {<font></font>
 <p></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">注意：base64内容</font></font><a href="http://fontawesome.io/icon/chevron-down/" rel="noreferrer"><code>fa-chevron-down</code></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在SVG中。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小哥猴子</span>
@@ -350,9 +332,7 @@ select {<font></font>
 </div>
 </div>
 <p></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小胖Davaid</span>
@@ -393,9 +373,7 @@ select {<font></font>
 </div>
 </div>
 <p></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">路易Green</span>
@@ -439,9 +417,7 @@ select {<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">最重要的部分是</font></font><code>appearance</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">属性，它可以更改元素的行为。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">它</font></font><code>appearance</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">似乎</font><font style="vertical-align: inherit;">可以在几乎所有基于WebKit的浏览器中完美运行，包括移动浏览器，尽管Gecko并不</font><font style="vertical-align: inherit;">像WebKit </font><font style="vertical-align: inherit;">那样受支持</font><font style="vertical-align: inherit;">。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">理查德小宇宙</span>
@@ -459,9 +435,7 @@ select {<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">但是，这确实删除了下拉箭头。</font><font style="vertical-align: inherit;">您可以使用附近</font></font><code>div</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">带有背景，负边距或绝对位于所选下拉菜单上方的</font><font style="vertical-align: inherit;">箭头来添加下拉箭头</font><font style="vertical-align: inherit;">。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">*更多信息和其他变量可在</font></font><em><a href="http://css-infos.net/property/-webkit-appearance" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">CSS属性中找到：-webkit-appearance</font></font></a></em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">猿小小</span>
@@ -474,9 +448,7 @@ select {<font></font>
 <blockquote>
   <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">“ select元素是操作系统的一部分，而不是浏览器chrome。因此，它的样式非常不可靠，无论如何尝试都不一定有意义。”</font></font></p>
 </blockquote></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Harry前端Itachi</span>
@@ -567,9 +539,7 @@ select:active {<font></font>
 </div>
 </div>
 <p></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">A蛋蛋乐</span>
@@ -612,9 +582,7 @@ select {<font></font>
   left: 100px;<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

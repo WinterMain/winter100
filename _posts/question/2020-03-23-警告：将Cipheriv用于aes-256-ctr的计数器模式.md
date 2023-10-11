@@ -67,7 +67,7 @@ topic: React.js
 </code></pre></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第2944篇《警告：将Cipheriv用于aes-256-ctr的计数器模式》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第2944篇《警告：将Cipheriv用于aes-256-ctr的计数器模式》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -83,18 +83,14 @@ topic: React.js
 不建议使用没有随机输入的aes-256-ctr来摇动它。</font><font style="vertical-align: inherit;">将其更新为另一种算法后，错误消失了。  </font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我不确定如果您未在代码中使用加密，那么哪个部门可能会抛出此错误。</font><font style="vertical-align: inherit;">它可能会搜索</font></font><code>createCipher</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">或</font></font><code>aes-256-ctr</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">凯凯Jim</span>
             <span class="discuss-time">2020.03.23</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">您必须使用createCipheriv方法</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">神无小小</span>
@@ -103,9 +99,7 @@ topic: React.js
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">似乎与节点8和</font></font><code>session-file-store</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">模块</font><font style="vertical-align: inherit;">有关的问题</font><font style="vertical-align: inherit;">。</font></font></p>
 
 <p><a href="https://github.com/valery-barysok/session-file-store/issues/65" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">https://github.com/valery-barysok/session-file-store/issues/65</font></font></a></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

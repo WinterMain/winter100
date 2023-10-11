@@ -37,7 +37,7 @@ returnSomething</span><span class="pun">()</span><span class="pln"> </span><span
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在上面的快速示例中，我想知道是否有什么方法可以</font></font><code>res</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">从</font></font><code>getSomething()</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">内部</font><font style="vertical-align: inherit;">返回</font></font><code>returnSomething()</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font><font style="vertical-align: inherit;">如果无法以这种方式实现，那有什么选择呢？</font><font style="vertical-align: inherit;">我要补充一点，_restService非常依赖，我真的不想开始弄糟它。</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第4241篇《Angular 2-直接从Observable返回数据》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第4241篇《Angular 2-直接从Observable返回数据》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}

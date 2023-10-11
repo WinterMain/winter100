@@ -22,7 +22,7 @@ topic: JavaScript
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如何使用JavaScript从此数组中选择随机值？</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第594篇《从JavaScript数组获取随机值》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第594篇《从JavaScript数组获取随机值》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -60,9 +60,7 @@ topic: JavaScript
 <font></font>
   $scope.praiseTextWord = $scope.praiseTextArray[Math.floor(Math.random()*$scope.praiseTextArray.length)];<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">村村路易</span>
@@ -83,9 +81,7 @@ topic: JavaScript
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这样您仍然可以</font></font><code>for(x in array)</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">正确</font><font style="vertical-align: inherit;">使用</font><font style="vertical-align: inherit;">循环</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Green老丝Itachi</span>
@@ -102,9 +98,7 @@ topic: JavaScript
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">该代码的工作方式是选择一个介于0和数组长度之间的随机数，然后返回该索引处的项目。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">阿飞米亚</span>
@@ -131,9 +125,7 @@ topic: JavaScript
     return getRandomElement([...array])<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">十三古一神奇</span>
@@ -149,9 +141,7 @@ topic: JavaScript
 <pre><code>var number = Math.floor(14444323231.2); // =&gt; 14444323231<font></font>
 var number = 14444323231.2 | 0; // =&gt; 1559421343<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Harry泡芙</span>
@@ -180,9 +170,7 @@ var number = 14444323231.2 | 0; // =&gt; 1559421343<font></font>
 
 <pre><code>var myRandomDiffElement = myArray.randomDiffElement(lastRandomElement)
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">null</span>
@@ -207,9 +195,7 @@ var number = 14444323231.2 | 0; // =&gt; 1559421343<font></font>
 <hr>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">根据</font></font><a href="https://creativecommons.org/publicdomain/zero/1.0/" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">CC0 1.0许可证</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">的条款向公共领域发布的代码</font><font style="vertical-align: inherit;">。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Green蛋蛋</span>
@@ -231,9 +217,7 @@ console.log("random month =&gt;", randomMonth);</code></pre>
 </div>
 </div>
 <p></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

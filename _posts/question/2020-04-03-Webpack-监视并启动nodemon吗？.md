@@ -21,7 +21,7 @@ topic: Webpack
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我总是可以将webpack程序包保存到另一个目录，并使用gulp观看/复制/浏览器同步化它，但这似乎很简单。是否有更好的方法？</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第3927篇《Webpack-监视并启动nodemon吗？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第3927篇《Webpack-监视并启动nodemon吗？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -74,9 +74,7 @@ function OnFirstBuildDonePlugin() {<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">希望能帮助到你。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">宝儿</span>
@@ -119,9 +117,7 @@ function OnFirstBuildDonePlugin() {<font></font>
 <li><code>webpack</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">-webpack是一个模块捆绑器。</font><font style="vertical-align: inherit;">它的主要目的是捆绑JavaScript文件以供在浏览器中使用，但它也能够转换，捆绑或打包几乎任何资源或资产。</font></font></li>
 <li><code>nodemon</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> -在node.js应用程序开发期间使用的简单监控脚本。</font></font></li>
 </ol></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

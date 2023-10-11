@@ -17,7 +17,7 @@ topic: CSS
     <div class="article-content"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我正在尝试将Sass文件链接到Sinatra应用程序。</font><font style="vertical-align: inherit;">我有一个</font></font><code>public/sass/styles.scss</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">文件，正在尝试将其链接到我的</font></font><code>views/layout.haml</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">文件中。</font><font style="vertical-align: inherit;">我能够使用下面的链接我的链接经常css文件</font></font><code>layout.haml</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">：</font></font><code>%link(rel="stylesheet" href="styles.css")</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font><font style="vertical-align: inherit;">但是，当我尝试链接到我的时</font></font><code>sass/styles.scss</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，它不起作用。</font><font style="vertical-align: inherit;">有人可以告诉我如何在Sinatra应用程序中链接Sass css文件吗？</font><font style="vertical-align: inherit;">谢谢！</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第3795篇《如何在Sinatra应用程序中链接Sass文件？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第3795篇《如何在Sinatra应用程序中链接Sass文件？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -34,9 +34,7 @@ topic: CSS
 <blockquote>
   <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">现在，无论何时更改style.scss，Sass都会自动使用更改来更新style.css。</font><font style="vertical-align: inherit;">稍后，当您有多个Sass文件时，您还可以查看整个目录</font></font></p>
 </blockquote></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">泡芙</span>
@@ -51,9 +49,7 @@ topic: CSS
 <blockquote>
   <p><a href="https://github.com/chriseppstein/compass/wiki/Sinatra-Integration"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">https://github.com/chriseppstein/compass/wiki/Sinatra-Integration</font></font></a></p>
 </blockquote></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

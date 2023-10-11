@@ -23,7 +23,7 @@ npm config set registry https://registry.npmjs.org/<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">然后运行a.bat，但不起作用，我发现“ set”一词是npm和bat的特殊关键字，是否有任何方法可以解决此问题？</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第3261篇《“ npm配置设置注册表https://registry.npmjs.org/”在Windows bat文件中不起作用》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第3261篇《“ npm配置设置注册表https //registry.npmjs.org/”在Windows bat文件中不起作用》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -45,9 +45,7 @@ npm config set registry https://registry.npmjs.org/<font></font>
 
 <pre><code>npm install --save vuex
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">神无JinJin</span>
@@ -59,9 +57,7 @@ npm config set registry https://registry.npmjs.org/<font></font>
 npm config set registry https://registry.npmjs.org/<font></font>
 @cmd.exe /K<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">米亚樱</span>
@@ -84,9 +80,7 @@ npm config set registry https://registry.npmjs.org/<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这样可以确保将所有配置属性（</font></font><em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">注册表，代理，apiKeys等</font></font></em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">）复制到</font></font><code>.npmrc</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">您可以</font></font><a href="https://docs.microsoft.com/en-us/windows-server/administration/windows-commands/xcopy" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在此处</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">阅读有关xcopy的更多信息</font><font style="vertical-align: inherit;">。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">西门</span>
@@ -103,9 +97,7 @@ npm config set registry https://registry.npmjs.org/<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">参考：</font><a href="https://docs.npmjs.com/misc/scope" rel="noreferrer"><font style="vertical-align: inherit;">https</font></a><font style="vertical-align: inherit;"> : </font></font><a href="https://docs.npmjs.com/misc/scope" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">//docs.npmjs.com/misc/scope</font></font></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">阿飞</span>
@@ -115,9 +107,7 @@ npm config set registry https://registry.npmjs.org/<font></font>
 
 <pre><code>call npm config set registry https://registry.npmjs.org/
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">达蒙樱梅</span>
@@ -128,9 +118,7 @@ npm config set registry https://registry.npmjs.org/<font></font>
 <p><code>npm config set registry &lt;registry url&gt;</code></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">您可以使用</font></font><code>npm help config</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">command </font><font style="vertical-align: inherit;">查找更多信息</font><font style="vertical-align: inherit;">，还可以在以</font></font><code>.bat</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这种方式</font><font style="vertical-align: inherit;">运行</font><font style="vertical-align: inherit;">文件</font><font style="vertical-align: inherit;">时以及是否运行</font><font style="vertical-align: inherit;">文件</font><font style="vertical-align: inherit;">时检查特权</font><font style="vertical-align: inherit;">。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小胖</span>
@@ -141,9 +129,7 @@ npm config set registry https://registry.npmjs.org/<font></font>
 <pre><code>npm install --registry=https://registry.npmjs.org/ <font></font>
 npm install --registry=https://custom.npm.registry.com/ <font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小哥达蒙</span>
@@ -153,9 +139,7 @@ npm install --registry=https://custom.npm.registry.com/ <font></font>
 
 <pre><code>npm config set registry=https://registry.npmjs.com/
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Gil伽罗小宇宙</span>
@@ -164,9 +148,7 @@ npm install --registry=https://custom.npm.registry.com/ <font></font>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在npm版本3.7.3上</font></font></p>
 
 <p><code>npm set registry=http://whatever/</code></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

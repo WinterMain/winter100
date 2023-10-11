@@ -34,7 +34,7 @@ topic: TypeScript
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">typeof </font></font><code>objKey</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">是一个泛型，</font></font><code>string</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">但我希望它是一个</font></font><code>string literal</code> <code>"admin/home"</code></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第4201篇《无论如何，目前在TypeScript中现在是否可以将两个或多个字符串文字类型连接为单个字符串文字类型？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第4201篇《无论如何，目前在TypeScript中现在是否可以将两个或多个字符串文字类型连接为单个字符串文字类型？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -45,9 +45,7 @@ topic: TypeScript
             <span class="discuss-time">2020.05.28</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">不幸的是，答案是</font></font><a href="https://github.com/Microsoft/TypeScript/issues/12940" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">否定的</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font><font style="vertical-align: inherit;">GitHub上提出了一些功能建议，如果实施了这些建议，可能会为您提供这种功能（</font></font><a href="https://github.com/Microsoft/TypeScript/issues/12754" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">this</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">或</font></font><a href="https://github.com/Microsoft/TypeScript/issues/6579" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">this</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">），但是我认为它们并未得到积极的研究。</font><font style="vertical-align: inherit;">无论如何，</font><font style="vertical-align: inherit;">我在</font></font><a href="https://github.com/Microsoft/TypeScript/wiki/Roadmap" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">路线图</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">中看不到任何东西</font><font style="vertical-align: inherit;">。</font><font style="vertical-align: inherit;">如果您真的想看到这种情况发生，那么您可能想转到其中一个GitHub问题，给他们一个👍或描述它的用例（如果它特别引人注目）。</font><font style="vertical-align: inherit;">但是我不会屏住呼吸。</font><font style="vertical-align: inherit;">抱歉!</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小胖Gil</span>
@@ -59,9 +57,7 @@ topic: TypeScript
     </span><span class="pun">(</span><span class="pln">m</span><span class="pun">:</span><span class="pln"> </span><span class="typ">MyStringLiteral</span><span class="pun">,</span><span class="pln"> suffix</span><span class="pun">:</span><span class="pln"> string</span><span class="pun">)</span><span class="pln"> </span><span class="pun">=&gt;</span><span class="pln"> </span><span class="pun">`</span><span class="pln">$</span><span class="pun">{</span><span class="pln">m</span><span class="pun">}</span><span class="pln">$</span><span class="pun">{</span><span class="pln">suffix</span><span class="pun">}`</span><span class="pln"> as </span><span class="typ">MyStringLiteral</span><span class="pun">;</span></code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我不知道它是否是 TypeScript的新功能。</font></font></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

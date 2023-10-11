@@ -46,7 +46,7 @@ topic: JavaScript
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">（显然，将代码链接到可能更改的库不一定是一个很好的计划，但在开发中很有用。）</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第513篇《是否有指向Google API上“最新” jQuery库的链接？[重复]》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第513篇《是否有指向Google API上“最新” jQuery库的链接？\[重复\]》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -59,9 +59,7 @@ topic: JavaScript
           <div class="discuss-comment"><p><a href="http://lab.abhinayrathore.com/jquery_cdn/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">http://lab.abhinayrathore.com/jquery_cdn/</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">是一个页面，您可以在其中找到指向jQuery，</font></font><a href="http://en.wikipedia.org/wiki/JQuery_UI" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">jQuery UI</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">和适用于Google和Microsoft </font></font><a href="http://en.wikipedia.org/wiki/Content_delivery_network" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">CDN</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">的</font><font style="vertical-align: inherit;">主题</font><font style="vertical-align: inherit;">的最新版本的链接</font><font style="vertical-align: inherit;">。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">该页面会自动更新CDN中的最新链接。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">神奇Harry</span>
@@ -70,9 +68,7 @@ topic: JavaScript
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">就在这里。</font></font></p>
 
 <p><a href="http://code.jquery.com/jquery-latest.min.js" rel="noreferrer"></a><a href="http://code.jquery.com/jquery-latest.min.js" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">http://code.jquery.com/jquery-latest.min.js</font></font></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">逆天A前端</span>
@@ -83,9 +79,7 @@ topic: JavaScript
 <p><a href="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js</font></font></a></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我认为这始终是最新版本-如果我输入错误，请纠正我。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">JimLEYHarry</span>
@@ -94,9 +88,7 @@ topic: JavaScript
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">不，没有</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">但是，对于开发而言，</font></font><a href="http://code.jquery.com/jquery-latest.js" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">jQuery代码站点</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">上有这样的链接</font><font style="vertical-align: inherit;">。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Mandy猴子</span>
@@ -130,9 +122,7 @@ topic: JavaScript
 
 <p>** Development (Full) version</p></li>
 </ul></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">西门路易</span>
@@ -154,9 +144,7 @@ topic: JavaScript
   google.load("jquery", "1.7");<font></font>
 &lt;/script&gt;<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">米亚番长</span>
@@ -173,9 +161,7 @@ topic: JavaScript
 
 <pre><code>Cache-Control: public, max-age=3600, must-revalidate, proxy-revalidate
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">宝儿Sam</span>
@@ -202,9 +188,7 @@ topic: JavaScript
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这两台主机都支持</font></font><code>https</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">和</font></font><code>http</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，因此请根据需要更改协议（或使用</font></font><a href="http://www.paulirish.com/2010/the-protocol-relative-url/" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">协议相对URI</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">）</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">另请参阅：</font><a href="https://developers.google.com/speed/libraries/devguide" rel="noreferrer"><font style="vertical-align: inherit;">https</font></a><font style="vertical-align: inherit;"> : </font></font><a href="https://developers.google.com/speed/libraries/devguide" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">//developers.google.com/speed/libraries/devguide</font></font></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">西门飞云</span>
@@ -216,9 +200,7 @@ topic: JavaScript
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">有关jQuery博客的更多详细信息：</font><a href="http://blog.jquery.com/2014/07/03/dont-use-jquery-latest-js/"><font style="vertical-align: inherit;">http</font></a><font style="vertical-align: inherit;"> :
  </font></font><a href="http://blog.jquery.com/2014/07/03/dont-use-jquery-latest-js/"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">//blog.jquery.com/2014/07/03/dont-use-jquery-latest-js/</font></font></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">L路易</span>
@@ -245,18 +227,14 @@ topic: JavaScript
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">或使用jQuery CDN：</font><a href="https://code.jquery.com/" rel="nofollow noreferrer"><font style="vertical-align: inherit;">https</font></a><font style="vertical-align: inherit;">：
  </font></font><a href="https://code.jquery.com/" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">//code.jquery.com/</font></font></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">null</span>
             <span class="discuss-time">2020.03.10</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">并非没有，但您不应该只是自动使用最新的库。</font><font style="vertical-align: inherit;">如果他们明天发布最新的库并且破坏了某些脚本，那么您就是</font></font><a href="https://en.wiktionary.org/wiki/SOL#Adjective"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">SOL</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，但是如果您使用用于开发脚本的库，则将确保它们可以工作。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">神奇Eva</span>
@@ -269,9 +247,7 @@ topic: JavaScript
 </blockquote>
 
 <p><a href="http://code.jquery.com/jquery-latest.min.js" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">http://code.jquery.com/jquery-latest.min.js</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">是最小版本，始终是最新的。</font></font></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

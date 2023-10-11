@@ -23,7 +23,7 @@ topic: CSS
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如何在编译样式表时避免运行单独的缩小步骤？</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第1929篇《sass --watch自动缩小？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第1929篇《sass --watch自动缩小？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -37,9 +37,7 @@ topic: CSS
 
 <pre><code>compass watch --output-style compressed
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">猿小宇宙小哥</span>
@@ -68,9 +66,7 @@ topic: CSS
 <pre><code>$FileNameWithoutExtension$.min.css
 </code></pre></li>
 </ol></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">卡卡西西里</span>
@@ -85,9 +81,7 @@ topic: CSS
 <li><a href="http://sass-lang.com/documentation/file.SASS_REFERENCE.html#using_sass" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">http://sass-lang.com/documentation/file.SASS_REFERENCE.html#using_sass</font></font></a></li>
 <li><a href="http://sass-lang.com/documentation/file.SASS_REFERENCE.html#output_style" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">http://sass-lang.com/documentation/file.SASS_REFERENCE.html#output_style</font></font></a></li>
 </ul></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

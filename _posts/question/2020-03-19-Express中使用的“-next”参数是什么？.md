@@ -38,7 +38,7 @@ topic: Node.js
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我不明白它的意义</font></font><code>next()</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">是</font><font style="vertical-align: inherit;">什么，</font><font style="vertical-align: inherit;">为什么要使用它。</font><font style="vertical-align: inherit;">在该示例中，如果id不存在，那么</font></font><code>next</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">实际上在做什么？</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第2284篇《Express中使用的“ next”参数是什么？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第2284篇《Express中使用的“ next”参数是什么？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -49,27 +49,21 @@ topic: Node.js
             <span class="discuss-time">2020.03.19</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">调用此函数将调用应用程序中的下一个中间件函数。</font><font style="vertical-align: inherit;">next（）函数不是Node.js或Express API的一部分，而是传递给中间件函数的第三个参数。</font><font style="vertical-align: inherit;">next（）函数可以命名为任何名称，但按照惯例，它始终命名为“ next”。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">路易Sam神无</span>
             <span class="discuss-time">2020.03.19</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Next用于将控制权传递给下一个中间件功能。</font><font style="vertical-align: inherit;">否则，请求将被挂起或打开。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">斯丁村村</span>
             <span class="discuss-time">2020.03.19</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">执行该</font></font><code>next</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">功能会通知服务器您已完成此中间件步骤，并且可以执行链中的下一步。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">神乐阿飞Itachi</span>
@@ -91,9 +85,7 @@ app.get("/", function(httpRequest, httpResponse, next){<font></font>
 <font></font>
 app.listen(8080);<font></font>
 </code></pre></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

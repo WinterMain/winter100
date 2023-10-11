@@ -307,7 +307,7 @@ module.exports = Content;<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我想通过_handleClick方法将其发送到服务器上。</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第3978篇《如何从material-ui TextField，DropDownMenu组件获取数据？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第3978篇《如何从material-ui TextField，DropDownMenu组件获取数据？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -332,9 +332,7 @@ module.exports = Content;<font></font>
 
 <pre><code>this.refs.myField.getValue()
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">梅</span>
@@ -363,9 +361,7 @@ module.exports = Content;<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">希望这可以帮助。</font></font></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

@@ -19,7 +19,7 @@ topic: JavaScript
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果没有，指定用作常量的变量的常见做法是什么？</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第343篇《JavaScript中有常量吗？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第343篇《JavaScript中有常量吗？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -30,9 +30,7 @@ topic: JavaScript
             <span class="discuss-time">2020.03.09</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">关键字“ const”是较早提出的，现在已正式包含在ES6中。</font><font style="vertical-align: inherit;">通过使用const关键字，您可以传递将用作不可变字符串的值/字符串。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">西里神奇</span>
@@ -44,18 +42,14 @@ topic: JavaScript
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这不能通过重新分配而改变。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">JinJin阿飞</span>
             <span class="discuss-time">2020.03.09</span>
           </div>
           <div class="discuss-comment"><p><code>Rhino.js</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">工具</font></font><code>const</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">除了什么如上所述。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">猴子阳光</span>
@@ -82,9 +76,7 @@ for(var c in constants) {<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">然后简单地： </font></font><code>var foo = constantMap.MY_CONSTANT</code></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果您这样做，</font></font><code>constantMap.MY_CONSTANT = "bar"</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">那将是无效的，因为我们正在尝试将赋值运算符与getter一起使用，因此</font></font><code>constantMap.MY_CONSTANT === "myconstant"</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">将保持不变。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">前端Harry十三</span>
@@ -113,9 +105,7 @@ for(var c in constants) {<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">但是，当然，这只能防止您通过直接访问意外地修改，更改，无效或清空属性常量值，如给定示例所示。 </font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">否则我仍然认为常量是假的。</font><font style="vertical-align: inherit;">我仍然认为，将自己的巨大自由换成一小部分欺骗性安全保障是最糟糕的交易。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">MonsterKK梅</span>
@@ -154,9 +144,7 @@ console.log(a); // [1] !!! const does not make objects immutable<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果您确实需要一个不变且绝对恒定的对象：只需使用</font></font><code>const ALL_CAPS</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">即可使您的意图清楚。</font></font><code>const</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">无论如何</font><font style="vertical-align: inherit;">都要遵循所有</font><font style="vertical-align: inherit;">声明</font><font style="vertical-align: inherit;">是一个好习惯</font><font style="vertical-align: inherit;">，因此请仅依赖它。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">番长Jim路易</span>
@@ -177,9 +165,7 @@ console.log(a); // [1] !!! const does not make objects immutable<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这样，“天”和“小时”实际上就像常量，因为您无法从外部更改“小时”表示多少秒。</font><font style="vertical-align: inherit;">但是很容易覆盖</font></font><code>MyModule.Date.HOUR</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这种方法也将有助于调试。</font><font style="vertical-align: inherit;">如果Firebug告诉您</font></font><code>action === 18</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，很难理解其含义，但是当您看到时，</font></font><code>action === "save"</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">便会立即清楚。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小胖Green</span>
@@ -187,9 +173,7 @@ console.log(a); // [1] !!! const does not make objects immutable<font></font>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我</font><font style="vertical-align: inherit;">在Greasemonkey脚本中</font><font style="vertical-align: inherit;">使用</font></font><code>const</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">而不是</font></font><code>var</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，但是，因为它们只能在Firefox上运行... </font></font><br><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
 名称约定也确实是可行的方式（我俩都做！）。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">古一十三</span>
@@ -223,18 +207,14 @@ alert(constants.CONST); //9<font></font>
 
 <pre><code>const a = 9;
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">卡卡西卡卡西</span>
             <span class="discuss-time">2020.03.09</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">忘记IE并使用</font></font><code>const</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">关键字。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">十三小哥</span>
@@ -263,9 +243,7 @@ b(); // 20<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我个人觉得这很令人愉快，特别是在从可观察的观测器适应了这种模式之后。</font></font></p>
 
 <p><sup><sub><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">*除非有人</font></font><code>constant</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在您调用它之前</font><font style="vertical-align: inherit;">重新定义了该函数</font></font></sub></sup></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">米亚小小神乐</span>
@@ -276,9 +254,7 @@ b(); // 20<font></font>
 <hr>
 
 <p><a href="https://stackoverflow.com/questions/130396#130399"><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">@John</font></font></strong></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">指出了一种在其他语言上已经使用了多年的const的通用命名惯例，我认为没有理由不能使用它。</font><font style="vertical-align: inherit;">当然，这并不意味着某人无论如何也不会覆盖变量的值。</font><font style="vertical-align: inherit;">:)</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Pro小卤蛋</span>
@@ -293,9 +269,7 @@ b(); // 20<font></font>
 <font></font>
 alert(MY_CONSTANT());<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小小理查德</span>
@@ -312,9 +286,7 @@ alert(MY_CONSTANT());<font></font>
 
 <pre><code>var MY_CONSTANT = "some-value";
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">前端Harry十三</span>
@@ -324,9 +296,7 @@ alert(MY_CONSTANT());<font></font>
 
 <pre><code>const CONSTANT_NAME = 0;
 </code></pre></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

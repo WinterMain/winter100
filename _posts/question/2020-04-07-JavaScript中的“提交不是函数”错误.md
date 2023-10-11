@@ -43,7 +43,7 @@ topic: HTML
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">两者都显示相同的错误:(</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第4075篇《JavaScript中的“提交不是函数”错误》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第4075篇《JavaScript中的“提交不是函数”错误》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -70,9 +70,7 @@ function submitAction(element)<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">您是否有多个同名表格？</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">神无</span>
@@ -82,9 +80,7 @@ function submitAction(element)<font></font>
 确保您没有其他名称/ id为提交的元素。</font></font><br><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
 2.尝试将函数调用为</font></font><code>onClick = "return submitAction();"</code><br><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
 3。</font></font><code>document.getElementById("form-name").submit();</code>  </p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">JinJin</span>
@@ -100,9 +96,7 @@ function submitAction(element)<font></font>
 <pre><code>YOURFORMOBJ.getElementsByTagName("button")[0].setAttribute("form", "form_id_name");<font></font>
 YOURFORMOBJ.submit();<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">飞云</span>
@@ -115,9 +109,7 @@ enviar.type = "submit"; <font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">仅仅因为其他一切都没有用。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">西里神奇</span>
@@ -157,9 +149,7 @@ enctype="multipart/form-data"&gt;<font></font>
     }<font></font>
 &lt;/script&gt;<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小卤蛋</span>
@@ -175,18 +165,14 @@ enctype="multipart/form-data"&gt;<font></font>
 </div>
 </div>
 <p></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">西里神奇</span>
             <span class="discuss-time">2020.04.07</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">给表单元素一个提交的名字将简单地遮盖提交属性。</font><font style="vertical-align: inherit;">确保没有名称提交的表单元素，并且您应该可以很好地访问提交函数。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">DavaidTony宝儿</span>
@@ -207,18 +193,14 @@ enctype="multipart/form-data"&gt;<font></font>
     frm.submit();<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">斯丁前端</span>
             <span class="discuss-time">2020.04.07</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">确保没有其他同名表单，并且表单中没有name =“ submit”或id =“ submit”。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">凯西里</span>
@@ -243,9 +225,7 @@ function submitAction()<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">编辑：我不小心交换了ID的周围</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">JinJin</span>
@@ -258,9 +238,7 @@ function submitAction()<font></font>
     submitFormFunction.call(form);<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">卡卡西</span>
@@ -273,9 +251,7 @@ function submitAction()<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">表示您已将自己的提交按钮或其他元素命名为</font></font><code>submit</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font><font style="vertical-align: inherit;">将按钮重命名为</font></font><code>btnSubmit</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，您的呼叫将神奇地工作。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">将按钮命名为Submit时，将覆盖</font></font><code>submit()</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">表单上的功能。</font></font></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

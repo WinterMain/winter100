@@ -48,7 +48,7 @@ body{color:green;font-size:1rem}body{border:1px solid;background:purple}<font></
 </code></pre></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第4105篇《Webpack提取文本Webpack插件和CSS加载程序最小化》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第4105篇《Webpack提取文本Webpack插件和CSS加载程序最小化》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -65,9 +65,7 @@ body{color:green;font-size:1rem}body{border:1px solid;background:purple}<font></
     new OptimizeCssAssetsPlugin()<font></font>
 ]<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小胖</span>
@@ -93,9 +91,7 @@ module: {<font></font>
 },<font></font>
 ...<font></font>
 </code></pre></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

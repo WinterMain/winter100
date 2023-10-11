@@ -22,7 +22,7 @@ topic: Node.js
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这将是非阻塞的吗？</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第1999篇《JavaScript，Node.js：Array.forEach是否异步？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第1999篇《JavaScript，Node.js：Array.forEach是否异步？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -54,9 +54,7 @@ loop(0, [{"title": "hello"}, {"title": "world"}], function(data) {<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">另一方面，它比“ for”要慢得多。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">否则，出色的Async库可以做到这一点：</font><a href="https://caolan.github.io/async/docs.html#each" rel="nofollow noreferrer"><font style="vertical-align: inherit;">https</font></a><font style="vertical-align: inherit;"> : </font></font><a href="https://caolan.github.io/async/docs.html#each" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">//caolan.github.io/async/docs.html#each</font></font></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">番长斯丁Itachi</span>
@@ -77,18 +75,14 @@ loop(0, [{"title": "hello"}, {"title": "world"}], function(data) {<font></font>
     iterate(this);<font></font>
 };<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小胖蛋蛋</span>
             <span class="discuss-time">2020.03.18</span>
           </div>
           <div class="discuss-comment"><p><code>Array.forEach</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">意味着不需要等待就可以进行计算，并且在事件循环中使计算异步化是没有任何收获的（如果需要多核计算，网络工作人员可以添加多处理功能）。</font><font style="vertical-align: inherit;">如果要等待多个任务结束，请使用计数器，您可以将其包装在信号量类中。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">番长猿阳光</span>
@@ -100,9 +94,7 @@ loop(0, [{"title": "hello"}, {"title": "world"}], function(data) {<font></font>
     // if any of the saves produced an error, err would equal that error<font></font>
 });<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">达蒙米亚达蒙</span>
@@ -160,9 +152,7 @@ loop(0, [{"title": "hello"}, {"title": "world"}], function(data) {<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">那时这将是非阻塞的。</font><font style="vertical-align: inherit;">该示例摘自</font></font><a href="https://rads.stackoverflow.com/amzn/click/com/059680279X" rel="noreferrer"><em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">High Performance JavaScript</font></font></em></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p>
 
 <p>Another option might be <a href="https://developer.mozilla.org/en-US/docs/Web/API/Web_Workers_API/Using_web_workers" rel="noreferrer"><em>web workers</em></a>.</p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

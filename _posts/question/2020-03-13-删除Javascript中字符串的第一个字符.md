@@ -21,7 +21,7 @@ topic: JavaScript
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">现在，我正在尝试使用JS </font></font><code>slice()</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">函数，但是非常尴尬。</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第1371篇《删除Javascript中字符串的第一个字符》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第1371篇《删除Javascript中字符串的第一个字符》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -44,9 +44,7 @@ console.log("string00 =&gt;", "string00".replace(/^0/,'') );</code></pre>
 </div>
 </div>
 <p></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">凯小卤蛋</span>
@@ -61,9 +59,7 @@ str = str.substring(1,(keyw.length));<font></font>
 //---- remove only last char    <font></font>
 str = str.substring(0,(keyw.length));<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">伽罗卡卡西</span>
@@ -77,9 +73,7 @@ a = a.substring(1);<font></font>
 <font></font>
 console.log(a); // y test string<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">神无老丝Davaid</span>
@@ -95,9 +89,7 @@ s = s.replace(/^0+/, "");<font></font>
 
 <pre><code>s = s.replace(/^0/, "");
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">猴子神乐</span>
@@ -116,9 +108,7 @@ if(s.substr(0,1) == "0") {<font></font>
 }<font></font>
 var s = "0000test".ltrim0();<font></font>
 </code></pre></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

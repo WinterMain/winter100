@@ -52,7 +52,7 @@ topic: Vue.js
 <p>So how do I do this in Nuxt? I want to take a string of HTML from the server, and render it on the page, and turn any registered Vue components into proper full-blown Vue components. Basically a little "VueifyThis(html)" factory.</p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第2701篇《Nuxt渲染函数，用于包含Vue组件的HTML字符串》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第2701篇《Nuxt渲染函数，用于包含Vue组件的HTML字符串》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -70,9 +70,7 @@ topic: Vue.js
 <li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">模板在当前版本的Vue中只能具有一个根元素</font></font></li>
 <li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">v-bind仅接受变量，但您传入一个字符串。</font></font></li>
 </ol></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小胖猪猪</span>
@@ -86,9 +84,7 @@ topic: Vue.js
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我认为它将做得到。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">蛋蛋Itachi</span>
@@ -99,9 +95,7 @@ topic: Vue.js
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">要点是将动态组件包装</font></font><code>&lt;div&gt;</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在</font></font><code>dynamicComponent()</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">模板</font><font style="vertical-align: inherit;">中的一个HTML标记中</font><font style="vertical-align: inherit;">（因为它只有一个根元素），并且它来自Wordpress，因此源字符串本身可以具有任意数量的顶级元素。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">而且该</font></font><code>WpContent</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">组件必须导入。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">十三Harry</span>
@@ -133,9 +127,7 @@ topic: Vue.js
         }<font></font>
     }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

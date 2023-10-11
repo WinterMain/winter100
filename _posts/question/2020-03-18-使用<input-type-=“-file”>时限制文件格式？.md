@@ -17,7 +17,7 @@ topic: HTML
     <div class="article-content"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">当用户单击</font></font><code>&lt;input type="file"&gt;</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">HTML元素中</font><font style="vertical-align: inherit;">的“浏览”按钮时，我想限制可以从本机OS文件选择器选择的文件类型</font><font style="vertical-align: inherit;">。</font><font style="vertical-align: inherit;">我有一种感觉，这是不可能的，但我想知道是否有</font></font><em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">是</font></font></em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">一个解决方案。</font><font style="vertical-align: inherit;">我只想保留HTML和JavaScript；</font><font style="vertical-align: inherit;">请不要使用Flash。</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第1993篇《使用<input type =“ file”>时限制文件格式？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第1993篇《使用<input type =“ file”>时限制文件格式？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -32,9 +32,7 @@ topic: HTML
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果您想开始使用服务器端验证，</font><font style="vertical-align: inherit;">请看一下</font></font><a href="http://php.about.com/od/advancedphp/ss/php_file_upload_4.htm" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这个基本教程</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font><font style="vertical-align: inherit;">对于整个教程，请访问</font></font><a href="http://php.about.com/od/advancedphp/ss/php_file_upload.htm" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">此页面</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">祝好运！</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">前端小胖JinJin</span>
@@ -54,9 +52,7 @@ topic: HTML
 <p><code>&lt;input type="file" accept=".bmp, .doc, .pdf" /&gt;</code></p></li>
 <li><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">您不能限制用户将文件文件管理器更改为所有文件，因此请始终在脚本和服务器中验证文件类型</font></font></p></li>
 </ul></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">樱西里猴子</span>
@@ -67,9 +63,7 @@ topic: HTML
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">至于验证，我们必须在服务器端进行。</font><font style="vertical-align: inherit;">我们也可以在js的客户端执行此操作，但这不是万无一失的解决方案。</font><font style="vertical-align: inherit;">我们必须在服务器端进行验证。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">对于这些需求，我确实更喜欢struts2 Java Web应用程序开发框架。</font><font style="vertical-align: inherit;">借助其内置的文件上传功能，将文件上传到基于struts2的Web应用程序可谓小菜一碟。</font><font style="vertical-align: inherit;">只需提及我们希望在应用程序中接受的文件格式，其余所有内容都由框架本身的核心负责。</font><font style="vertical-align: inherit;">您可以在struts官方网站上进行检查。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Gil村村</span>
@@ -93,9 +87,7 @@ topic: HTML
 
 <p><a href="https://i.stack.imgur.com/FWFiw.png" rel="noreferrer"><img src="https://i.stack.imgur.com/FWFiw.png" alt="仅会显示gif，jpg和png，Chrome 44版的屏幕截图"></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
 仅会显示gif，jpg和png，Chrome 44版的屏幕截图</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Tom老丝Pro</span>
@@ -156,9 +148,7 @@ topic: HTML
 Here are <a href="https://stackoverflow.com/questions/3597082/how-is-a-website-hacked-by-a-maliciously-encoded-image-that-contained-a-php-scr">three</a> <a href="http://www.acunetix.com/websitesecurity/upload-forms-threat/" rel="noreferrer">good</a> <a href="http://www.hanselman.com/blog/BackToBasicsWhenAllowingUserUploadsDontAllowUploadsToExecuteCode.aspx" rel="noreferrer">reads</a> on file-uploads and security.</p>
 
 <p><strong>EDIT:</strong>  Maybe file type verification using its binary signature can also be done on client side using JavaScript (rather than just by looking at the extension) using HTML5 File API, but still, the file must be verified on the server, because a malicious user will still be able to upload files by making a custom HTTP request.</p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">神乐路易</span>
@@ -188,9 +178,7 @@ Here are <a href="https://stackoverflow.com/questions/3597082/how-is-a-website-h
     &lt;input type="file" id="ifile" name="ifile"/&gt;<font></font>
 &lt;/form&gt;<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">十三前端Harry</span>
@@ -216,18 +204,14 @@ Here are <a href="https://stackoverflow.com/questions/3597082/how-is-a-website-h
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">因此，答案是：</font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">不，</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">您</font></font><em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">不能限制</font></font></em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，但是您</font></font><em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">可以</font></font></em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">设置预选择，但</font></font><em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">不能</font></font></em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">依靠它。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">替代地或附加地，您可以通过使用JavaScript检查文件名（输入字段的值）来执行类似的操作，但这是无稽之谈，因为它不提供任何保护，也不会简化用户的选择。</font><font style="vertical-align: inherit;">它只会潜在地诱使网站管理员认为他/她受到了保护，并打开了一个安全漏洞。</font><font style="vertical-align: inherit;">对于具有备用文件扩展名（例如jpeg而不是jpg），大写或没有文件扩展名（在Linux系统中很常见）的用户来说，这可能会很麻烦。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小小乐</span>
             <span class="discuss-time">2020.03.18</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">从技术上讲，您可以</font><font style="vertical-align: inherit;">在</font><font style="vertical-align: inherit;">元素</font><font style="vertical-align: inherit;">上</font><font style="vertical-align: inherit;">指定</font></font><a href="http://www.w3.org/TR/html401/interact/forms.html#adef-accept"><code>accept</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">属性</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">（在</font></font><a href="http://dev.w3.org/html5/spec/states-of-the-type-attribute.html#attr-input-accept"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">html5中为</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">替代</font><a href="http://www.w3.org/TR/html401/interact/forms.html#adef-accept"><font style="vertical-align: inherit;">属性</font></a><font style="vertical-align: inherit;">）</font></font><code>input</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，但未正确支持</font><font style="vertical-align: inherit;">该</font><a href="http://www.w3.org/TR/html401/interact/forms.html#adef-accept"><font style="vertical-align: inherit;">属性</font></a><font style="vertical-align: inherit;">。</font></font></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

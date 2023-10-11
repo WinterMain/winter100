@@ -33,7 +33,7 @@ topic: JavaScript
 </ul></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第348篇《React中state和props有什么区别？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第348篇《React中state和props有什么区别？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -73,9 +73,7 @@ class Child extends React.Component {<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在上面的代码中，我们有一个父类（父类），其父类的状态作为名称传递给子组件（子类）作为道具，子组件使用{this.props.name}进行渲染。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">老丝Near</span>
@@ -84,9 +82,7 @@ class Child extends React.Component {<font></font>
           <div class="discuss-comment"><p><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">道具：</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">表示“只读”数据，该数据是不可变的，是指来自父级组件的属性。</font></font></p>
 
 <p><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">状态：</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">表示可变数据，最终会影响页面上呈现的内容以及由组件本身在内部进行管理的内容，并且通常由于用户输入而导致超时变化。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">村村Mandy</span>
@@ -100,27 +96,21 @@ class Child extends React.Component {<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">给定</font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">相同的道具</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">（用于显示的数据），它将始终产生</font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">相同的标记</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">因此，道具就像将数据从源头传送到功能组件的管道一样。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Davaid阳光</span>
             <span class="discuss-time">2020.03.09</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">简单的解释是：STATE是组件的局部状态，例如color =“ blue”或animation = true等。</font><font style="vertical-align: inherit;">使用this.setState更改组件的状态。</font><font style="vertical-align: inherit;">PROPS是组件之间相互通信（将数据从父级发送到子级）并使组件可重用的方式。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">StafanTony</span>
             <span class="discuss-time">2020.03.09</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">状态是您的数据，是可变的，您可以使用它做任何您需要的事情，道具是只读数据，通常当您传递道具时，您已经使用了数据，并且需要子组件来呈现它，或者您的道具是一个道具。你调用它执行任务的功能</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">TonyStafan</span>
@@ -132,18 +122,14 @@ class Child extends React.Component {<font></font>
 <li><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">状态就像组件内部的局部变量。</font><font style="vertical-align: inherit;">您可以使用set state来操纵state的值。</font><font style="vertical-align: inherit;">然后，您可以例如将state的值传递给子组件。</font></font></p></li>
 <li><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">道具是完全位于您的redux存储内的值，它实际上来自于reducer产生的状态。</font><font style="vertical-align: inherit;">您的组件应连接到redux以从props获取值。</font><font style="vertical-align: inherit;">您还可以将props值传递给子组件</font></font></p></li>
 </ol></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Pro神无樱</span>
             <span class="discuss-time">2020.03.09</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在回答有关道具是不可变的最初问题时，就</font></font><em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">子组件而言</font></font></em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，据说道具是不可变的，</font><font style="vertical-align: inherit;">但在父</font><em><font style="vertical-align: inherit;">组件中</font></em><font style="vertical-align: inherit;">却是可变的。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">W先生</span>
@@ -154,9 +140,7 @@ class Child extends React.Component {<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">React根据状态控制和呈现DOM。</font><font style="vertical-align: inherit;">组件状态有两种类型：props是在组件之间转移的状态，而state是组件的内部状态。</font><font style="vertical-align: inherit;">道具用于从父组件到子组件的数据传输。</font><font style="vertical-align: inherit;">组件内部也有自己的状态：状态只能在组件内部进行修改。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">通常，某些组件的状态可能是子组件的道具，道具将传递给子组件，这在父组件的渲染方法中声明</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">蛋蛋Near</span>
@@ -166,9 +150,7 @@ class Child extends React.Component {<font></font>
 <li><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">道具</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">   ---你不能改变它的价值。</font></font></li>
 <li><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">状态</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> ---您可以在代码中更改其值，但是在进行渲染时它将处于活动状态。</font></font></li>
 </ul></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Harry伽罗</span>
@@ -177,9 +159,7 @@ class Child extends React.Component {<font></font>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在React中，状态存储数据以及道具。</font><font style="vertical-align: inherit;">与后者的区别在于，可以通过不同的更改来修改存储的数据。</font><font style="vertical-align: inherit;">这些不过是用平面JavaScript编写的对象，因此它们可以包含数据或代码，代表您要建模的信息。</font><font style="vertical-align: inherit;">如果您需要更多的细节，建议你看这些出版物
   </font></font><a href="https://blog.devsun.eu/react/2019/01/12/empleo-del-state-en-react/" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">中使用做出反应的国家</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">和
   </font></font><a href="https://blog.devsun.eu/react/2019/01/05/empleo-de-props-en-react/" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">道具的用途作出反应</font></font></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小宇宙猴子</span>
@@ -220,9 +200,7 @@ class Child extends React.Component {<font></font>
 </ol>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在上面的代码中，我们有一个父类（父类），其父类的状态作为名称传递给子组件（子类）作为道具，子组件使用{this.props.name}进行渲染。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">乐米亚</span>
@@ -238,9 +216,7 @@ class Child extends React.Component {<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">所以是的，道具正在发生变化，但是它们在“源”处发生了变化，然后将仅从那里流下来。</font><font style="vertical-align: inherit;">因此，道具</font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在组件接收它们的上下文中</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">是不可变</font><strong><font style="vertical-align: inherit;">的</font></strong><font style="vertical-align: inherit;">。  </font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">例如，参考数据屏幕，用户在其中编辑供应商列表将在状态下进行管理，然后执行一个操作，使更新的数据保存在ReferenceDataState中，该数据可能位于AppState的下一级，然后此供应商列表将作为道具传递到需要使用它的所有组件。  </font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">A十三</span>
@@ -253,9 +229,7 @@ class Child extends React.Component {<font></font>
   
   <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">状态值可以使用setState方法[mutable]进行更改</font></font></p>
 </blockquote></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小哥梅</span>
@@ -304,9 +278,7 @@ class Child extends React.Component{<font></font>
 </div>
 </div>
 <p></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">猴子十三</span>
@@ -360,9 +332,7 @@ onInputChange(term) {<font></font>
 <p>Props are used to pass data from parent to child or by the component itself. They are immutable and thus will not be changed.</p>
 
 <p>State is used for mutable data, or data that will change. This is particularly useful for user input. Think search bars for example. The user will type in data and this will update what they see.</p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">宝儿小胖</span>
@@ -407,27 +377,21 @@ onInputChange(term) {<font></font>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">检查react docs以获取更多扩展说明：</font><a href="https://facebook.github.io/react/docs/state-and-lifecycle.html" rel="nofollow noreferrer"><font style="vertical-align: inherit;">https</font></a><font style="vertical-align: inherit;"> :
  </font></font><a href="https://facebook.github.io/react/docs/state-and-lifecycle.html" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">//facebook.github.io/react/docs/state-and-lifecycle.html</font></font></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Davaid小宇宙</span>
             <span class="discuss-time">2020.03.09</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">两个</font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">状态</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">和</font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">道具</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">中发生反应被用来控制数据到一个组件，一般道具由父设置并传递到子组件和它们固定整个组件。</font><font style="vertical-align: inherit;">对于</font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">将要更改的数据，</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我们必须使用状态。</font><font style="vertical-align: inherit;">而且道具是</font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">不可变的，</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">而状态是</font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">可变的</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，如果要更改道具，可以从父组件执行，然后将其传递给子组件。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Stafan路易</span>
             <span class="discuss-time">2020.03.09</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">基本上，区别在于</font></font><strong><em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">状态</font></font></em></strong><em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">类似于OOP中的属性</font></font></em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">：</font><strong><em><font style="vertical-align: inherit;">状态</font></em></strong><em><font style="vertical-align: inherit;">是</font></em><font style="vertical-align: inherit;">类（组件）的</font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">局部</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">内容，用于更好地描述状态。</font></font><strong><em><a href="https://kolosek.com/react-props-basic" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">道具</font></font></a></em></strong><em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">就像参数一样</font></font></em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> -它们是</font><font style="vertical-align: inherit;">从组件的调用者（父对象）</font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">传递</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">给组件的：就像您使用某些参数调用函数一样。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">L猴子</span>
@@ -464,9 +428,7 @@ render(&lt;A /&gt;, document.getElementById("root"));<font></font>
 <li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">状态可以更改（可变）</font></font></li>
 <li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">而道具不能（不变）</font></font></li>
 </ul></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">LEYJim</span>
@@ -515,9 +477,7 @@ render(&lt;A /&gt;, document.getElementById("root"));<font></font>
     &lt;/div&gt;<font></font>
 );<font></font>
 </code></pre></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

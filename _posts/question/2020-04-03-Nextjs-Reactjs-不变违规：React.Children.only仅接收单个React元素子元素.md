@@ -79,7 +79,7 @@ topic: React.js
 </code></pre></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第3930篇《Nextjs-Reactjs-不变违规：React.Children.only仅接收单个React元素子元素》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第3930篇《Nextjs-Reactjs-不变违规：React.Children.only仅接收单个React元素子元素》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -90,9 +90,7 @@ topic: React.js
             <span class="discuss-time">2020.04.03</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">问题是我的数据结构对应于另一个框架。</font><font style="vertical-align: inherit;">因此，存在一些使NextJS崩溃的微小细节-例如我的React Links中的“ props”调用等。</font><font style="vertical-align: inherit;">因此，如果有人遇到相同的问题，请仔细检查框架数据结构的配置</font></font></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

@@ -25,7 +25,7 @@ topic: JavaScript
 </code></pre></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第1109篇《如何在JavaScript中的特定索引处替换字符？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第1109篇《如何在JavaScript中的特定索引处替换字符？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -43,9 +43,7 @@ myString = myString.replace(myString.charAt(number goes here), "insert replaceme
 </code></pre>
 
 <p>This is as simple as it gets.</p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">GilGreen</span>
@@ -59,9 +57,7 @@ myString = myString.replace(myString.charAt(number goes here), "insert replaceme
 <font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">伽罗Tom猪猪</span>
@@ -85,9 +81,7 @@ myString = myString.replace(myString.charAt(number goes here), "insert replaceme
   x.push("!"); // good performance: no new string is created<font></font>
   var y = "Hi, "+x; // converted to string: "Hi, Bello!"<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Itachi理查德</span>
@@ -108,9 +102,7 @@ alert(s.append(4,"complete "));</code></pre>
 <p></p>
 
 <p>Then you can call the function:</p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Harry小小</span>
@@ -157,9 +149,7 @@ for(var i=0; i&lt;100000; i++)<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">实际发生的情况是，TEST2中的所有操作都是使用数组之类的赋值表达式在数组本身上完成的</font></font><code>strarr2[p] = n</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font><font style="vertical-align: inherit;">与大字符串上的子字符串相比，分配确实非常快，而且很明显，它会赢。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">因此，这全都在于为工作选择合适的工具。</font><font style="vertical-align: inherit;">再次。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Tony樱番长</span>
@@ -171,9 +161,7 @@ for(var i=0; i&lt;100000; i++)<font></font>
     return this.substr(0, i) + str + this.substr(j, this.length);<font></font>
 };<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小宇宙</span>
@@ -207,9 +195,7 @@ document.write(str);</code></pre>
 </div>
 </div>
 <p></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user"> ....</span>
@@ -229,9 +215,7 @@ document.write(str);</code></pre>
 <pre><code>var hello="Hello World";<font></font>
 alert(hello.replaceAt(2, "!!")); //should display He!!o World<font></font>
 </code></pre></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

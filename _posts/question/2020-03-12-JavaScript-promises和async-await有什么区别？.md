@@ -56,7 +56,7 @@ var returnVal = await myAsyncFunction(obj);<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我已经在我的React项目和Node.js模块中广泛使用异步，唤醒和承诺。</font><font style="vertical-align: inherit;">React特别是早起的鸟儿，并采用了许多ECMAScript 6和ECMAScript 7功能。</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第1261篇《JavaScript promises和async await有什么区别？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第1261篇《JavaScript promises和async await有什么区别？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -192,9 +192,7 @@ var returnVal = await myAsyncFunction(obj);<font></font>
   <li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">要求今天使用Babel或其他编译器以及一些配置</font></font></li>
   </ul>
 </blockquote></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Harry凯</span>
@@ -203,9 +201,7 @@ var returnVal = await myAsyncFunction(obj);<font></font>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在需要复杂的控制流的情况下，异步/等待可以帮助使代码更清晰，可读性更好。</font><font style="vertical-align: inherit;">它还会产生更多的调试友好代码。</font><font style="vertical-align: inherit;">并且可以用just处理同步和异步错误</font></font><code>try/catch</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我最近写了这篇文章，通过代码示例展示了异步/等待优于promise的优势：</font></font><em><a href="https://hackernoon.com/6-reasons-why-javascripts-async-await-blows-promises-away-tutorial-c7ec10518dd9" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">6个为什么JavaScript异步/等待使承诺消失的原因（教程）</font></font></a></em></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Jim老丝梅</span>
@@ -220,9 +216,7 @@ var returnVal = await myAsyncFunction(obj);<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">对于简单的查询和数据操作，Promises可能很简单，但是如果您遇到了复杂的数据操作和不涉及任何内容的场景，那么如果代码</font></font><em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">看起来</font></font></em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">好像是同步的</font><font style="vertical-align: inherit;">，则更容易理解正在发生</font><font style="vertical-align: inherit;">的情况（换句话说，语法本身就是一种“偶然的复杂性”，</font></font><code>async/await</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">可以绕开。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果您想知道，可以使用类似</font></font><a href="https://github.com/tj/co" rel="noreferrer"><code>co</code></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">（与生成器一起）</font><font style="vertical-align: inherit;">的库</font><font style="vertical-align: inherit;">来提供相同的感觉。</font><font style="vertical-align: inherit;">已经开发了类似的方法来解决</font></font><code>async/await</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">最终</font><font style="vertical-align: inherit;">解决的问题</font><font style="vertical-align: inherit;">（本机）。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">朔风</span>
@@ -239,9 +233,7 @@ var returnVal = await myAsyncFunction(obj);<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">仅使用Promises，此示例将更加复杂。</font></font></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

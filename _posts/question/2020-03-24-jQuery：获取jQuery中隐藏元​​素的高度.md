@@ -24,7 +24,7 @@ $select.hide();<font></font>
 </code></pre></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第3508篇《jQuery：获取jQuery中隐藏元​​素的高度》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第3508篇《jQuery：获取jQuery中隐藏元​​素的高度》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -55,9 +55,7 @@ $("#parent").append(height).removeClass("overflow-y-hidden");</code></pre>
 </div>
 </div>
 <p></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">米亚</span>
@@ -68,9 +66,7 @@ $("#parent").append(height).removeClass("overflow-y-hidden");</code></pre>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">只是好奇：为什么需要隐藏元素的高度？</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">一种替代方法是</font><font style="vertical-align: inherit;">通过将元素放置在某种类型的叠加层之后（使用z-index）</font><font style="vertical-align: inherit;">来</font></font><em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">有效地</font></font></em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">隐藏它。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">老丝</span>
@@ -86,9 +82,7 @@ top: 0;<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这样，height（）仍然可用。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">DavaidTony宝儿</span>
@@ -99,9 +93,7 @@ top: 0;<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果通过设置可见性css样式隐藏了元素，则无论元素是否可见，您都应该能够获得高度，因为该元素</font></font><em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">仍在页面上占据空间</font></font></em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果通过将display css样式更改为“ none”来隐藏该元素，则该元素不会在页面上占用空间，并且您将不得不赋予它一种显示样式，这将导致该元素在某个空间处呈现。哪一点就可以得到高度。</font></font></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

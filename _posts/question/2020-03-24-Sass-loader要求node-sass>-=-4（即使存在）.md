@@ -90,7 +90,7 @@ npm install<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我想念什么？</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第3713篇《Sass-loader要求node-sass> = 4（即使存在）》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第3713篇《Sass-loader要求node-sass> = 4（即使存在）》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -107,9 +107,7 @@ npm install<font></font>
 <li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">删除</font></font><code>node-saas</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">文件夹</font></font><code>&lt;application_folder&gt;/node_modules</code></li>
 <li><font style="vertical-align: inherit;"></font><code>npm install</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">从</font><font style="vertical-align: inherit;">运行</font></font><code>&lt;application_folder&gt;</code></li>
 </ol></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">番长猴子</span>
@@ -123,9 +121,7 @@ npm install<font></font>
 <li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在命令行界面（CLI）中运行安装命令： </font></font><code>npm install node-sass</code></li>
 <li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">该问题将得到解决。</font></font></li>
 </ol></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">十三蛋蛋</span>
@@ -135,9 +131,7 @@ npm install<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">阿斯洛帮助</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">米亚</span>
@@ -154,9 +148,7 @@ npm install<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">该</font></font><code>package-lock.json</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">文件将使用新的依赖项版本自动更新。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">希望能帮助到你。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">GO</span>
@@ -166,9 +158,7 @@ npm install<font></font>
 
 <pre><code>npm install --save node-sass
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">乐</span>
@@ -177,9 +167,7 @@ npm install<font></font>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">要解决您的问题，请运行以下命令</font></font></p>
 
 <p><code>npm install --unsafe-perm</code></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">伽罗理查德</span>
@@ -193,9 +181,7 @@ npm install<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在项目文件夹中，对于项目而言，因为在全局安装（带有</font></font><code>-g</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">选项）无法解决问题。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">希望能帮助到你。</font></font></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

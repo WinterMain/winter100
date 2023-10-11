@@ -47,7 +47,7 @@ npm ERR! npm -v 1.0.104<font></font>
 </code></pre></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第2286篇《使用npm时收到错误：“错误：SSL错误：SELF_SIGNED_CERT_IN_CHAIN”》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第2286篇《使用npm时收到错误：“错误：SSL错误：SELF_SIGNED_CERT_IN_CHAIN”》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -58,9 +58,7 @@ npm ERR! npm -v 1.0.104<font></font>
             <span class="discuss-time">2020.03.19</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">关闭SSL似乎是一个非常糟糕的主意。</font></font><a href="http://blog.npmjs.org/post/78085451721/npms-self-signed-certificate-is-no-more" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">npm的博客</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">解释说，他们不再支持其自签名证书。</font><font style="vertical-align: inherit;">他们建议通过升级npm </font></font><code>npm install npm -g</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，但我当然也遇到了同样的SELF_SIGNED_CERT_IN_CHAIN错误。</font><font style="vertical-align: inherit;">因此，我只是更新了节点，它同时更新了npm。</font><font style="vertical-align: inherit;">确切过程取决于首先安装节点的方式。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">神乐西里</span>
@@ -81,9 +79,7 @@ npm ERR! npm -v 1.0.104<font></font>
 </code></pre>
 
 <p><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">提示</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">：如何在Linux中安装node.js </font></font><a href="https://stackoverflow.com/a/22099363/333061"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">https://stackoverflow.com/a/22099363/333061</font></font></a> </p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">樱路易</span>
@@ -95,9 +91,7 @@ npm ERR! npm -v 1.0.104<font></font>
 </font></font><a href="http://blog.npmjs.org/post/78085451721/npms-self-signed-certificate-is-no-more" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">http://blog.npmjs.org/post/78085451721/npms-self-signed-certificate-is-no-more</font></font></a></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">上面的链接建议使用NPM升级NPM。</font><font style="vertical-align: inherit;">这也会因SELF_SIGNED_CERT_IN_CHAIN而失败...</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">GONear</span>
@@ -123,9 +117,7 @@ sudo ln -s /usr/bin/nodejs /usr/bin/node<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">您需要打开一个新的终端会话才能使用更新的</font></font><code>npm</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p>
 
 <p><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">资料来源：</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这最初是对</font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">jnylen</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">答案</font><font style="vertical-align: inherit;">的编辑</font><font style="vertical-align: inherit;">。</font><font style="vertical-align: inherit;">尽管指南中说</font></font><em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">“我们欢迎所有有建设性的修改，但请对其进行实质性的修改”，但</font></font></em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">由于</font></font><em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">“此修改在原始帖子中的更改太大；该帖子的原始含义或意图会丢失” </font></font></em><font style="vertical-align: inherit;"><em><font style="vertical-align: inherit;">，因此</font></em><font style="vertical-align: inherit;">该编辑被拒绝</font><em><font style="vertical-align: inherit;">。</font></em><font style="vertical-align: inherit;">我想社区更喜欢一个单独的答案。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">null</span>
@@ -144,9 +136,7 @@ sudo ln -s /usr/bin/nodejs /usr/bin/node<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在osx（10.9.1）上为我工作</font></font></p>
 
 <p><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">编辑</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">：您可能需要</font></font><code>brew update</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">安装npm之前。</font><font style="vertical-align: inherit;">您也可以</font></font><code>brew upgrade</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在更新自制软件后</font><font style="vertical-align: inherit;">执行</font><font style="vertical-align: inherit;">。</font></font><code>brew doctor</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果您遇到其他任何问题，</font><font style="vertical-align: inherit;">也可能会有所帮助</font><font style="vertical-align: inherit;">。  </font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">村村凯</span>
@@ -155,9 +145,7 @@ sudo ln -s /usr/bin/nodejs /usr/bin/node<font></font>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">将其放在命令之前似乎可行</font></font><code>NODE_TLS_REJECT_UNAUTHORIZED=0</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font><font style="vertical-align: inherit;">例如：</font></font><code>NODE_TLS_REJECT_UNAUTHORIZED=0 npm ...</code></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">最好弄清楚如何使节点将自签名证书视为有效。</font><font style="vertical-align: inherit;">出于某些原因，上面的strict-ssl建议对我不起作用。</font><font style="vertical-align: inherit;">如果您了解安全隐患并且需要临时快速修复，这就是我</font><font style="vertical-align: inherit;">在Google搜索错误期间的</font><font style="vertical-align: inherit;">一些</font></font><a href="https://github.com/apigee/microgateway-core/issues/9#issuecomment-248728735" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">随机github问题</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">中</font><font style="vertical-align: inherit;">发现</font><font style="vertical-align: inherit;">的内容。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Tony小胖</span>
@@ -177,9 +165,7 @@ npm config delete ca<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">您可能需要为这些命令加上前缀</font></font><code>sudo</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">来源：</font><a href="http://blog.npmjs.org/post/78085451721/npms-self-signed-certificate-is-no-more"><font style="vertical-align: inherit;">http</font></a><font style="vertical-align: inherit;">：</font></font><a href="http://blog.npmjs.org/post/78085451721/npms-self-signed-certificate-is-no-more"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">//blog.npmjs.org/post/78085451721/npms-self-signed-certificate-is-no-more</font></font></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Stafan斯丁</span>
@@ -191,9 +177,7 @@ npm config delete ca<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我目前无法评论它是否会引起任何其他问题。</font><font style="vertical-align: inherit;">希望能帮助到你。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">西门前端A</span>
@@ -203,9 +187,7 @@ npm config delete ca<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">全局保存 </font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Stafan西门凯</span>
@@ -215,9 +197,7 @@ npm config delete ca<font></font>
 
 <pre><code>npm config set registry="http://registry.npmjs.org/"
 </code></pre></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

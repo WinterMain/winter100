@@ -21,7 +21,7 @@ topic: JavaScript
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如何检查情况呢？</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第162篇《如何测试一个空的JavaScript对象？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第162篇《如何测试一个空的JavaScript对象？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -36,9 +36,7 @@ topic: JavaScript
 <pre class="lang-js prettyprint prettyprinted" style=""><code><span class="pln">_</span><span class="pun">.</span><span class="pln">isEmpty</span><span class="pun">({})</span><span class="pln"> </span><span class="com">// returns true</span></code></pre>
 
 <p>Additionally, it does not assume the input parameter to be an object. For a list or string or undefined, it will also turn the correct answer.</p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">西里Near</span>
@@ -50,9 +48,7 @@ topic: JavaScript
 jQuery</span><span class="pun">.</span><span class="pln">isEmptyObject</span><span class="pun">({</span><span class="pln"> foo</span><span class="pun">:</span><span class="pln"> </span><span class="str">"bar"</span><span class="pln"> </span><span class="pun">})</span><span class="pln"> </span><span class="com">// false</span></code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">进一步了解</font></font><a href="http://api.jquery.com/jQuery.isEmptyObject/" rel="noreferrer" data-bitapp="processed"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">http://api.jquery.com/jQuery.isEmptyObject/</font></font></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小宇宙前端</span>
@@ -61,9 +57,7 @@ jQuery</span><span class="pun">.</span><span class="pln">isEmptyObject</span><sp
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我会去检查它是否至少有一把钥匙。</font><font style="vertical-align: inherit;">这就足以告诉我它不是空的。</font></font></p>
 
 <pre class="lang-js prettyprint prettyprinted" style=""><code><span class="kwd">typeof</span><span class="pln"> obj </span><span class="pun">!==</span><span class="pln"> </span><span class="str">"undefined"</span><span class="pln"> </span><span class="pun">&amp;&amp;</span><span class="pln"> </span><span class="typ">Boolean</span><span class="pun">(</span><span class="typ">Object</span><span class="pun">.</span><span class="pln">keys</span><span class="pun">(</span><span class="pln">obj</span><span class="pun">)[</span><span class="lit">0</span><span class="pun">])</span></code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">神无伽罗阳光</span>
@@ -73,9 +67,7 @@ jQuery</span><span class="pun">.</span><span class="pln">isEmptyObject</span><sp
   </span><span class="kwd">for</span><span class="pun">(</span><span class="kwd">var</span><span class="pln"> i in obj</span><span class="pun">)</span><span class="pln"> </span><span class="pun">{</span><span class="pln"> </span><span class="kwd">return</span><span class="pln"> </span><span class="kwd">false</span><span class="pun">;</span><span class="pln"> </span><span class="pun">}</span><span class="pln">
   </span><span class="kwd">return</span><span class="pln"> </span><span class="kwd">true</span><span class="pun">;</span><span class="pln">
 </span><span class="pun">}</span></code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">不知</span>
@@ -86,9 +78,7 @@ jQuery</span><span class="pun">.</span><span class="pln">isEmptyObject</span><sp
 </blockquote>
 
 <pre class="lang-js prettyprint prettyprinted" style=""><code><span class="typ">Object</span><span class="pun">.</span><span class="pln">entries</span><span class="pun">({}).</span><span class="pln">length </span><span class="pun">===</span><span class="pln"> </span><span class="lit">0</span></code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">TomEva</span>
@@ -131,9 +121,7 @@ isEmpty  </span><span class="pun">=</span><span class="pln"> isObjectEmpty</span
   </span><span class="pun">}</span><span class="pln">
   </span><span class="kwd">return</span><span class="pln"> </span><span class="kwd">true</span><span class="pun">;</span><span class="pln">
 </span><span class="pun">}</span></code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小卤蛋宝儿</span>
@@ -150,9 +138,7 @@ isEmpty  </span><span class="pun">=</span><span class="pln"> isObjectEmpty</span
     </span><span class="pun">}</span><span class="pln">
     </span><span class="kwd">return</span><span class="pln"> </span><span class="kwd">true</span><span class="pun">;</span><span class="pln">
 </span><span class="pun">}</span></code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">十三西门</span>
@@ -184,9 +170,7 @@ isEmpty  </span><span class="pun">=</span><span class="pln"> isObjectEmpty</span
 </span><span class="pun">}</span></code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">请参阅</font><a href="https://stackoverflow.com/questions/4994201/is-object-empty/34491287#34491287" data-bitapp="processed"><font style="vertical-align: inherit;">“对象为空吗？”中的</font></a><font style="vertical-align: inherit;">详细测试结果和测试代码</font></font><a href="https://stackoverflow.com/questions/4994201/is-object-empty/34491287#34491287" data-bitapp="processed"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">达蒙理查德</span>
@@ -197,9 +181,7 @@ isEmpty  </span><span class="pun">=</span><span class="pln"> isObjectEmpty</span
 <pre class="lang-js prettyprint prettyprinted" style=""><code><span class="kwd">if</span><span class="pln"> </span><span class="pun">(</span><span class="typ">Object</span><span class="pun">.</span><span class="pln">keys</span><span class="pun">(</span><span class="pln">a</span><span class="pun">).</span><span class="pln">length </span><span class="pun">&gt;</span><span class="pln"> </span><span class="lit">0</span><span class="pun">)</span><span class="pln"> </span><span class="pun">{</span><span class="pln">
     </span><span class="com">// not empty</span><span class="pln">
 </span><span class="pun">}</span></code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">番长GO</span>
@@ -207,9 +189,7 @@ isEmpty  </span><span class="pun">=</span><span class="pln"> isObjectEmpty</span
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果您使用的是较新的浏览器，则有一种简单的方法。
 </font></font><code>Object.keys(obj).length == 0</code></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">GreenGil</span>
@@ -219,9 +199,7 @@ isEmpty  </span><span class="pun">=</span><span class="pln"> isObjectEmpty</span
 
 <pre class="lang-js prettyprint prettyprinted" style=""><code><span class="kwd">var</span><span class="pln"> obj </span><span class="pun">=</span><span class="pln"> </span><span class="pun">{};</span><span class="pln">
 </span><span class="kwd">return</span><span class="pln"> </span><span class="typ">Object</span><span class="pun">.</span><span class="pln">keys</span><span class="pun">(</span><span class="pln">obj</span><span class="pun">).</span><span class="pln">length</span><span class="pun">;</span><span class="pln"> </span><span class="com">//returns 0 if empty or an integer &gt; 0 if non-empty</span></code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">猿AJim</span>
@@ -230,9 +208,7 @@ isEmpty  </span><span class="pun">=</span><span class="pln"> isObjectEmpty</span
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">您可以使用</font></font><a href="http://underscorejs.org/#isEmpty" rel="noreferrer" data-bitapp="processed"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Underscore.js</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p>
 
 <pre class="lang-js prettyprint prettyprinted" style=""><code><span class="pln">_</span><span class="pun">.</span><span class="pln">isEmpty</span><span class="pun">({});</span><span class="pln"> </span><span class="com">// true</span></code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">伽罗理查德</span>
@@ -285,18 +261,14 @@ isEmpty  </span><span class="pun">=</span><span class="pln"> isObjectEmpty</span
 <p><a href="https://ramdajs.com/docs/#isEmpty" rel="nofollow noreferrer" data-bitapp="processed">Ramda</a></p>
 
 <pre class="lang-js prettyprint prettyprinted" style=""><code><span class="pln">R</span><span class="pun">.</span><span class="pln">isEmpty</span><span class="pun">({});</span><span class="pln"> </span><span class="com">// true</span></code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Davaid番长十三</span>
             <span class="discuss-time">2020.03.09</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">对于那些同样的问题但使用jQuery的人，可以使用</font></font><a href="http://api.jquery.com/jQuery.isEmptyObject/" rel="noreferrer" data-bitapp="processed"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">jQuery.isEmptyObject</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">逆天伽罗宝儿</span>
@@ -307,9 +279,7 @@ isEmpty  </span><span class="pun">=</span><span class="pln"> isObjectEmpty</span
 </span><span class="pun">}</span></code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">参见</font></font><a href="http://bencollier.net/2011/04/javascript-is-an-object-empty/" data-bitapp="processed"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">http://bencollier.net/2011/04/javascript-is-an-object-empty/</font></font></a> </p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">前端神无</span>
@@ -331,9 +301,7 @@ isEmpty  </span><span class="pun">=</span><span class="pln"> isObjectEmpty</span
 <pre class="lang-js prettyprint prettyprinted" style=""><code><span class="kwd">function</span><span class="pln"> isEmpty</span><span class="pun">(</span><span class="pln">obj</span><span class="pun">)</span><span class="pln"> </span><span class="pun">{</span><span class="pln">
     </span><span class="kwd">return</span><span class="pln"> </span><span class="typ">Object</span><span class="pun">.</span><span class="pln">keys</span><span class="pun">(</span><span class="pln">obj</span><span class="pun">).</span><span class="pln">length </span><span class="pun">===</span><span class="pln"> </span><span class="lit">0</span><span class="pun">;</span><span class="pln">
 </span><span class="pun">}</span></code></pre></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

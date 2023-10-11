@@ -27,7 +27,7 @@ topic: React.js
 <p><a href="https://www.samyoc.com//uploads/users/9694/images/thumbnails/1583920697379.png" data-src="https://www.samyoc.com//uploads/users/9694/images/1583920697379.png" rel="noreferrer"><img src="https://i.stack.imgur.com/vCZZs.png" alt="在此处输入图片说明"></a></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第789篇《无法加载脚本。请确保您正在运行Metro服务器，或者已正确捆绑了软件包“ index.android.bundle”以进行发布》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第789篇《无法加载脚本。请确保您正在运行Metro服务器，或者已正确捆绑了软件包“ index.android.bundle”以进行发布》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -46,9 +46,7 @@ topic: React.js
   /.*\/__tests__\/.*/<font></font>
 ];<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">凯飞云</span>
@@ -62,9 +60,7 @@ topic: React.js
 <font></font>
 3. react-native run-android<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">伽罗</span>
@@ -79,27 +75,21 @@ topic: React.js
 <li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">确保只连接了一个设备</font></font></li>
 <li><code>$ react-native run-android</code></li>
 </ol></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Davaid泡芙</span>
             <span class="discuss-time">2020.03.11</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">就我而言，我已经在模拟器中设置了代理。</font><font style="vertical-align: inherit;">删除该代理后，它可以恢复正常。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">SamStafan</span>
             <span class="discuss-time">2020.03.11</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">模拟器上的错误消息有点令人误解。</font><font style="vertical-align: inherit;">就我而言，我使用的是Macbook。</font><font style="vertical-align: inherit;">我需要通过运行来更改android / gradlew的权限</font></font><code>$ chmod 755 ./gradlew</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，然后才能构建该应用并将其部署到android模拟器。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Green小小古一</span>
@@ -122,18 +112,14 @@ topic: React.js
 <p><a href="https://stackoverflow.com/questions/39632667/how-to-kill-the-process-currently-using-a-port-on-localhost-in-windows"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如何使用Windows上的localhost上的端口杀死当前进程？</font></font></a></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">最重要的是，我按照facebook @ </font><a href="https://facebook.github.io/react-native/docs/getting-started" rel="nofollow noreferrer"><font style="vertical-align: inherit;">https://facebook.github.io/react-native/docs/getting-started的</font></a><font style="vertical-align: inherit;">建议将节点版本从8.x升级到10.x（最新）。</font></font><a href="https://facebook.github.io/react-native/docs/getting-started" rel="nofollow noreferrer"><font style="vertical-align: inherit;"></font></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Pro小胖</span>
             <span class="discuss-time">2020.03.11</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果您在Linux OS上运行，则可能会导致npm远程服务器未运行。</font><font style="vertical-align: inherit;">打开另一个终端（带有项目目录）并</font><font style="vertical-align: inherit;">在执行</font><strong><font style="vertical-align: inherit;">sudo react-native run-android</font></strong><font style="vertical-align: inherit;">之前</font><font style="vertical-align: inherit;">运行此命令</font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">sudo npm start</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">或</font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">sudo react-native start</font></font></strong><font style="vertical-align: inherit;"></font><strong><font style="vertical-align: inherit;"></font></strong></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">ItachiStafan</span>
@@ -158,9 +144,7 @@ topic: React.js
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">确保也不使用9001 :)</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Gil伽罗小宇宙</span>
@@ -175,9 +159,7 @@ topic: React.js
 
 <pre><code>reactive-native run-around
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Gil伽罗</span>
@@ -239,9 +221,7 @@ react-native-cli: 2.0.1<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">当我尝试将build（.apk）上传到goole播放控制台时，在出现警告后，我不得不将targetSdkVersion从27更改为28。</font><font style="vertical-align: inherit;">我几乎没有意识到这是上述错误的根本原因。</font><font style="vertical-align: inherit;">立即使用@tom和@tinmarfrutos回答绝对有道理。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我通过将android：usesCleartextTraffic =“ true”添加到我的android / app / src / debug / AndroidManifest.xml中解决了该问题</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">乐米亚</span>
@@ -252,18 +232,14 @@ react-native-cli: 2.0.1<font></font>
 <pre><code> export ANDROID_HOME=/Users/microrentindia/Library/Android/sdk/<font></font>
  export PATH=$PATH:$ANDROID_HOME/tools:$ANDROID_HOME/platform-tools<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">A小卤蛋Pro</span>
             <span class="discuss-time">2020.03.11</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我遇到这种情况是因为我的Wifi错误地在模拟器上关闭了。我重新打开它，并且开始工作正常。</font><font style="vertical-align: inherit;">希望对某人有帮助</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">凯梅小胖</span>
@@ -272,9 +248,7 @@ react-native-cli: 2.0.1<font></font>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我只想添加一个在这里没有涉及的非显而易见的可能性。</font><font style="vertical-align: inherit;">我正在使用</font></font><a href="https://github.com/react-native-community/react-native-netinfo" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">@ react-native-community / netinfo</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">来检测网络更改，主要是网络状态。</font><font style="vertical-align: inherit;">要测试网络关闭状态，需要关闭（仿真器上的）WIFI开关。</font><font style="vertical-align: inherit;">这也有效地切断了仿真器和调试环境之间的桥梁。</font><font style="vertical-align: inherit;">测试后，我没有重新启用WIFI，因为我不在电脑旁，回来后立即忘记了它。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">其他人也可能会遇到这种情况，值得在采取任何其他严厉措施之前进行检查。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">神无老丝Davaid</span>
@@ -291,9 +265,7 @@ react-native-cli: 2.0.1<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">也许在前面的步骤之后，您已经执行了npm start---reset-cache</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我工作，希望对您有帮助。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">宝儿Davaid</span>
@@ -310,9 +282,7 @@ react-native-cli: 2.0.1<font></font>
 </code></pre>
 
 <p><a href="https://i.stack.imgur.com/qObqE.png" rel="nofollow noreferrer"><img src="https://i.stack.imgur.com/qObqE.png" alt="我的代码示例"></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Gil伽罗</span>
@@ -342,9 +312,7 @@ react-native-cli: 2.0.1<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">然后运行npx react-native run-android --port 9001</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">快乐编码..！</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Davaid阳光小卤蛋</span>
@@ -387,9 +355,7 @@ react-native-cli: 2.0.1<font></font>
 
 <pre><code>$ react-native run-android
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">理查德神乐老丝</span>
@@ -413,9 +379,7 @@ react-native-cli: 2.0.1<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">参见   </font></font><a href="https://facebook.github.io/react-native/docs/troubleshooting#content" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">React Native故障排除页面</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">番长西里神无</span>
@@ -424,9 +388,7 @@ react-native-cli: 2.0.1<font></font>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">下班后寻找答案。</font><font style="vertical-align: inherit;">解决方案是将节点降级到版本12.4。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在我的情况下，我意识到该错误仅发生在版本本机0.60和节点版本12.6之间的错误中。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小小卡卡西小卤蛋</span>
@@ -452,9 +414,7 @@ react-native-cli: 2.0.1<font></font>
     android:usesCleartextTraffic="true" // add this line with TRUE Value.<font></font>
 android:theme="@style/AppTheme"&gt;<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">逆天乐</span>
@@ -485,9 +445,7 @@ android:theme="@style/AppTheme"&gt;<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">希望这可以帮助。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">满天星</span>
@@ -501,9 +459,7 @@ android:theme="@style/AppTheme"&gt;<font></font>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">所有学分</font></font><a href="https://www.reddit.com/r/reactnative/comments/5etpqw/what_do_you_call_what_adb_reverse_is_doing/" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">归功于Swingline0
 </font></font></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Davaid神无</span>
@@ -541,9 +497,7 @@ android:theme="@style/AppTheme"&gt;<font></font>
   <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">请注意，如果您运行</font></font><code>npm install</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">或</font><font style="vertical-align: inherit;">，则</font></font><code>yarn install</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">需要再次更改代码。</font></font></p>
 </blockquote></li>
 </ul></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">乐猪猪</span>
@@ -560,9 +514,7 @@ android:theme="@style/AppTheme"&gt;<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">关闭应用程序，然后从应用程序抽屉启动它</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">希望对您有帮助！！</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">LEYJim</span>
@@ -579,9 +531,7 @@ android:theme="@style/AppTheme"&gt;<font></font>
   /.*\/__tests__\/.*/<font></font>
 ];<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">西门神奇</span>
@@ -628,9 +578,7 @@ android:theme="@style/AppTheme"&gt;<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">genymotion菜单</font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">- &gt;</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">设置</font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">- &gt;</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> ADB </font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">- &gt;</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">   然后选择使用定制的Android SDK工具（点击浏览找到SDK的位置）</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">最后，再次运行您的项目..</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">神奇老丝</span>
@@ -647,9 +595,7 @@ android:usesCleartextTraffic="true"<font></font>
 [...]<font></font>
 &lt;/application&gt;<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">村村AL</span>
@@ -675,9 +621,7 @@ android:usesCleartextTraffic="true"<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">看到更多信息：</font><a href="https://stackoverflow.com/a/50834600/1713216"><font style="vertical-align: inherit;">https</font></a><font style="vertical-align: inherit;"> : </font></font><a href="https://stackoverflow.com/a/50834600/1713216"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">//stackoverflow.com/a/50834600/1713216</font></font></a></p>
 
 <p><a href="https://react-native-community.github.io/upgrade-helper/" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">https://react-native-community.github.io/upgrade-helper/</font></font></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">十三古一</span>
@@ -699,18 +643,14 @@ android:usesCleartextTraffic="true"<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">请使用最新版本的index.js。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">请享用 ：）</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">卡卡西逆天</span>
             <span class="discuss-time">2020.03.11</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">您尚未启动捆绑器。</font><font style="vertical-align: inherit;">在之前</font><font style="vertical-align: inherit;">运行</font></font><code>npm start</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">或</font></font><code>react-native start</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在项目的根目录中</font></font><code>react-native run-android</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

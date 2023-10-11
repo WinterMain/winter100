@@ -54,7 +54,7 @@ var foo = function foo() { return 5; }<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">对类似问题（</font></font><a href="https://stackoverflow.com/questions/336859/javascript-var-functionname-function-vs-function-functionname"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">var functionName = function（）{}与function functionName（）{}</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">）</font><font style="vertical-align: inherit;">的回答有什么不</font><font style="vertical-align: inherit;">完全正确？</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第1328篇《函数表达式与JavaScript中的声明之间有什么区别？[重复]》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第1328篇《函数表达式与JavaScript中的声明之间有什么区别？\[重复\]》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -94,9 +94,7 @@ var foo = function foo() { return 5; }<font></font>
 <h1><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">结论</font></font></h1>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Crockford建议使用函数表达式，因为它可以清楚地表明它</font></font><code>foo</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">是一个包含函数值的变量。</font><font style="vertical-align: inherit;">好吧，就我个人而言，除非有理由表达，否则我更喜欢使用声明。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">理查德十三Davaid</span>
@@ -105,9 +103,7 @@ var foo = function foo() { return 5; }<font></font>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">尽管完全的区别更加复杂，但是与我有关的唯一区别是机器创建功能对象时。</font><font style="vertical-align: inherit;">在声明的情况下，这是在执行任何语句之前但在调用语句主体之后（是全局代码主体或子函数的那个​​），在表达式的情况下，是执行该语句所在的语句时。</font><font style="vertical-align: inherit;">出于所有意图和目的，浏览器均将它们视为相同。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">为了帮助您理解，请看一下此性能</font></font><a href="http://jsperf.com/local-vs-global/7" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">测试</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，</font><font style="vertical-align: inherit;">该</font><a href="http://jsperf.com/local-vs-global/7" rel="nofollow"><font style="vertical-align: inherit;">测试</font></a><font style="vertical-align: inherit;">否定了我对内部声明的函数所做的假设，当调用外部函数时，不需要由机器重新创建内部声明的函数。</font><font style="vertical-align: inherit;">我也很喜欢那样写代码，这也有点可耻。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">村村小小十三</span>
@@ -134,9 +130,7 @@ var foo = function foo() { return 5; }<font></font>
 
 <pre><code>var foo = function fooYou() { return 5; }
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">null</span>
@@ -178,9 +172,7 @@ d = a(5);<font></font>
 console.log(d(3)); // outputs 6<font></font>
 console.log(d(8)); // outputs 8<font></font>
 </code></pre></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

@@ -31,7 +31,7 @@ server.listen(3000);<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我可以肯定，我要做的就是关闭服务器或连接。</font><font style="vertical-align: inherit;">我打过电话</font></font><code>server.close()</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">的</font></font><code>process.on('exit', ...);</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，没有运气。</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第1950篇《节点/ Express：EADDRINUSE，地址已在使用中-终止服务器》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第1950篇《节点/ Express：EADDRINUSE，地址已在使用中-终止服务器》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -48,18 +48,14 @@ server.listen(3000);<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在这种情况下，如果您确实需要在运行期间定义端口，则可以在没有nodemon的情况下运行您的项目。</font><font style="vertical-align: inherit;">另外，如果您想坚持使用nodemon，则可以在文件本身中定义端口。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">对我来说我现在就这样做 </font></font><code>PORT=6060 node app.js</code></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">梅Jim</span>
             <span class="discuss-time">2020.03.17</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">就我而言，这是因为我打开了Eclipse ... </font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Davaid小哥</span>
@@ -68,9 +64,7 @@ server.listen(3000);<font></font>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">UI解决方案对于Windows用户：我发现最重要的答案对我而言不起作用，它们似乎是Mac或Linux用户的命令。</font><font style="vertical-align: inherit;">我找到了一个简单的解决方案，不需要记住任何命令：打开任务管理器（ctrl + shift + esc）。</font><font style="vertical-align: inherit;">查看正在运行的后台进程。</font><font style="vertical-align: inherit;">找到任何Node.js并结束任务。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">完成此操作后，该问题对我而言消失了。</font><font style="vertical-align: inherit;">如其他答案中所述，由于先前遇到错误并且未调用常规退出/清除功能，因此后台进程仍在运行。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">西门樱Eva</span>
@@ -83,18 +77,14 @@ server.listen(3000);<font></font>
 </ul>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">因此，</font></font><em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在开始检查使用port的进程之前</font></font></em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，请</font><em><font style="vertical-align: inherit;">调试代码并检查传递给函数的内容是什么</font></em><font style="vertical-align: inherit;">。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">村村LEY</span>
             <span class="discuss-time">2020.03.17</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这意味着您有两个在同一端口上运行的节点服务器，如果其中一个在端口上运行，则假设3000将另一台服务器更改为另一个端口，例如3001，则一切正常</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">前端阳光</span>
@@ -107,9 +97,7 @@ server.listen(3000);<font></font>
 <li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">节点可能已崩溃，端口可能尚未释放。</font></font></li>
 <li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">您可能尝试启动多个服务器。</font><font style="vertical-align: inherit;">为了解决这个问题，可以维护一个布尔值来检查服务器是否已经启动。</font><font style="vertical-align: inherit;">仅当boolean返回false或undefined时，才应启动该方法。</font></font></li>
 </ol></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">凯乐</span>
@@ -124,9 +112,7 @@ server.listen(3000);<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果我只是</font></font><code>node index.js</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">从git bash而不是</font></font><code>npm run start</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">ctrl + c杀掉，那我就永远不会遇到这个错误。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我不确定为什么，但是我认为这可能会对某人有所帮助。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">LEY老丝</span>
@@ -143,9 +129,7 @@ server.listen(3000);<font></font>
   await server.close();<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">LEYL</span>
@@ -163,18 +147,14 @@ server.listen(3000);<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">拉取更改： </font></font><code>source ~/.bashrc</code></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">并使用它： </font></font><code>killTcpListen 3000</code></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">GilNear</span>
             <span class="discuss-time">2020.03.17</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">节点正在内存中的某个位置运行，并且该端口已锁定。</font><font style="vertical-align: inherit;">在Windows上，将像大多数Windows问题一样，通过单击</font></font><kbd>CTRL</kbd><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">+ </font></font><kbd>ALT</kbd><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">+ </font></font><kbd>DEL</kbd><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">和/或重新启动</font><font style="vertical-align: inherit;">来解决此问题</font><font style="vertical-align: inherit;">。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">阿飞小卤蛋达蒙</span>
@@ -187,9 +167,7 @@ server.listen(3000);<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">当我使用Ctrl + C终止节点应用程序时，下一次我打开它时，它运行顺利。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">将端口号更改为错误的端口号即可解决此问题。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">十三神乐</span>
@@ -202,9 +180,7 @@ server.listen(3000);<font></font>
 <blockquote>
   <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">npm install -g hotnode</font></font></p>
 </blockquote></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">神奇老丝</span>
@@ -215,9 +191,7 @@ server.listen(3000);<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">进程选项卡-&gt; </font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">选择“ node.exe”进程，然后单击“结束进程” </font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">TomPro</span>
@@ -240,9 +214,7 @@ npm run stop-Linux<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果需要的话，您可以做得更好，并用一个参数标志来执行那些BIN命令。</font><font style="vertical-align: inherit;">您也可以将它们添加为要在try-catch子句中执行的命令。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">DavaidTony宝儿</span>
@@ -259,9 +231,7 @@ npm run stop-Linux<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">所以我找到了第一个终端，然后……瞧，我在那儿运行服务器。</font></font></p>
 
 <p><a href="https://i.stack.imgur.com/WOWn8.png" rel="noreferrer"><img src="https://i.stack.imgur.com/WOWn8.png" alt="实现它的多个终端"></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">JinJin伽罗小胖</span>
@@ -285,18 +255,14 @@ php-fpm 275 _www    0u  IPv4 0x110e2ba1cc64b26d      0t0  TCP 127.0.0.1:3000 (LI
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">然后，您将能够运行而不会出现侦听EADDRINUSE ::: 3000错误</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">神乐逆天</span>
             <span class="discuss-time">2020.03.17</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">仅供参考，您可以通过一个命令终止该进程   </font></font><code>sudo fuser -k 3000/tcp</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font><font style="vertical-align: inherit;">可以对所有其他通常用于开发的端口（例如8000、8080或9000）执行此操作。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">JinJinStafan</span>
@@ -307,9 +273,7 @@ php-fpm 275 _www    0u  IPv4 0x110e2ba1cc64b26d      0t0  TCP 127.0.0.1:3000 (LI
 <blockquote>
   <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Taskkill / IM node.exe / F</font></font></p>
 </blockquote></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">神无小宇宙</span>
@@ -328,9 +292,7 @@ kill -9 [PID] (provided by above command)<font></font>
 <li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">管道符号：| </font><font style="vertical-align: inherit;">将通过ps aux的结果进行进一步操作。</font></font></li>
 <li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">grep将从ps aux提供的列表中搜索提供的字符串（在本例中为node）。</font></font></li>
 </ol></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">神乐十三</span>
@@ -353,9 +315,7 @@ kill -9 [PID] (provided by above command)<font></font>
 
 <pre><code>taskkill /pid PID
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">西门前端</span>
@@ -365,9 +325,7 @@ kill -9 [PID] (provided by above command)<font></font>
 
 <pre><code>kill $(lsof -t -i:3000)
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">斯丁蛋蛋</span>
@@ -376,9 +334,7 @@ kill -9 [PID] (provided by above command)<font></font>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">对于Windows，请打开任务管理器并找到node.exe进程。</font><font style="vertical-align: inherit;">使用“结束任务”杀死所有人。</font></font></p>
 
 <p><a href="https://i.stack.imgur.com/r29OI.png" rel="noreferrer"><img src="https://i.stack.imgur.com/r29OI.png" alt="在此处输入图片说明"></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">西门Davaid</span>
@@ -389,9 +345,7 @@ kill -9 [PID] (provided by above command)<font></font>
 <p><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我的问题是</font></font><code>app.listen(3000);</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在同一个app.js脚本中</font><font style="vertical-align: inherit;">有两个</font><font style="vertical-align: inherit;">调用。</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">第一个app.listen（）成功，第二个引发错误。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我遇到的另一个有用的命令是对我有用的调试程序</font></font><code>sudo fuser -k 3000/tcp</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，它将杀死您可能已启动的任何恶意进程（某些进程可能会重新启动，例如，如果使用forever.js运行，但这对我很有用）。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Stafan小宇宙</span>
@@ -412,9 +366,7 @@ node     5805  xyz    12u  IPv6  63135    0t0     TCP  *:3000 (LISTEN)<font></fo
 
 <pre><code>kill -9 5805
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">神奇飞云</span>
@@ -424,9 +376,7 @@ node     5805  xyz    12u  IPv6  63135    0t0     TCP  *:3000 (LISTEN)<font></fo
 
 <pre><code>  sudo pkill node
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小胖Green</span>
@@ -445,9 +395,7 @@ node     5805  xyz    12u  IPv6  63135    0t0     TCP  *:3000 (LISTEN)<font></fo
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">杀死-9时会发送SIGKILL（而不是SIGTERM）。</font><font style="vertical-align: inherit;">有时对我来说，SIGTERM被节点忽略了。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">神奇Sam理查德</span>
@@ -460,9 +408,7 @@ node     5805  xyz    12u  IPv6  63135    0t0     TCP  *:3000 (LISTEN)<font></fo
 <pre><code>C:\Windows\System32&gt;taskkill /F /IM node.exe<font></font>
 SUCCESS: The process "node.exe" with PID 11008 has been terminated.<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">JinJin宝儿</span>
@@ -477,9 +423,7 @@ SUCCESS: The process "node.exe" with PID 11008 has been terminated.<font></font>
 
 <pre><code>kill -9 {PID}
 </code></pre></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

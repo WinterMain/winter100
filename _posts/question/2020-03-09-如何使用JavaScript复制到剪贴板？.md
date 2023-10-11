@@ -34,7 +34,7 @@ topic: JavaScript
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">一个没有Flash的好窍门：</font></font><a href="https://stackoverflow.com/questions/17527870/how-does-trello-access-the-users-clipboard"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Trello如何访问用户的剪贴板？</font></font></a></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第155篇《如何使用JavaScript复制到剪贴板？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第155篇《如何使用JavaScript复制到剪贴板？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -55,9 +55,7 @@ topic: JavaScript
 <pre class="lang-js prettyprint prettyprinted" style=""><code><span class="pln">bower install clipboard </span><span class="pun">--</span><span class="pln">save</span></code></pre>
 
 <p>Usage &amp; examples are at <a href="https://zenorocha.github.io/clipboard.js/" rel="nofollow noreferrer">https://zenorocha.github.io/clipboard.js/</a>.</p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Davaid阳光</span>
@@ -92,9 +90,7 @@ topic: JavaScript
 <p><strong>Note:</strong> <em>The <code>document.execCommand()</code> method is not supported in Internet Explorer 9 and earlier.</em></p>
 
 <p><strong>Source</strong>: <a href="https://www.w3schools.com/howto/howto_js_copy_clipboard.asp" rel="nofollow noreferrer">W3Schools - <em>Copy Text to Clipboard</em></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">凯神乐</span>
@@ -105,9 +101,7 @@ topic: JavaScript
 <ul>
 <li><a href="http://ajaxian.com/archives/auto-copy-to-clipboard" rel="nofollow noreferrer">Auto copy to clipboard</a></li>
 </ul></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">神离伊芙妮</span>
@@ -143,9 +137,7 @@ topic: JavaScript
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">切记</font></font><code>#{text}</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">用需要复制的文字和</font></font><code>#{bgcolor}</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">颜色</font><font style="vertical-align: inherit;">替换</font><font style="vertical-align: inherit;">。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">TomMandy</span>
@@ -211,9 +203,7 @@ topic: JavaScript
 </code></pre>
 
 <p><a href="https://jsfiddle.net/fx6a6n6x/" rel="noreferrer">https://jsfiddle.net/fx6a6n6x/</a></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

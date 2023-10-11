@@ -23,7 +23,7 @@ topic: Webpack
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">问题是那</font></font><code>drop_console</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">不起作用。</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第3282篇《使用Webpack和Uglify删除console.logs》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第3282篇《使用Webpack和Uglify删除console.logs》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -45,9 +45,7 @@ topic: Webpack
     })<font></font>
 ]<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">古一</span>
@@ -70,9 +68,7 @@ topic: Webpack
   ],<font></font>
 },<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">蛋蛋</span>
@@ -102,9 +98,7 @@ topic: Webpack
 </blockquote>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">现在uglifyjs-webpack-plugin v1.2.6已经发布，我为此使用了最新的文档，因此我想最新的插件也不会有任何问题。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">十三</span>
@@ -156,9 +150,7 @@ plugins: !debug ? [<font></font>
   },<font></font>
 };<font></font>
 </code></pre></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

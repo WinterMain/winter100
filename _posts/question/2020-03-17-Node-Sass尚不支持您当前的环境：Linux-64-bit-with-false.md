@@ -38,7 +38,7 @@ v6.2.0<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">即使使用此命令</font></font><code>npm rebuild node-sass</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">也不会更改任何内容。</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第1976篇《Node Sass尚不支持您当前的环境：Linux 64-bit with false》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第1976篇《Node Sass尚不支持您当前的环境：Linux 64-bit with false》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -49,9 +49,7 @@ v6.2.0<font></font>
             <span class="discuss-time">2020.03.17</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">npm审核修复对我而言就像一个魅力！ </font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Mandy神乐</span>
@@ -71,27 +69,21 @@ npm install --save-dev node-sass<font></font>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果问题仍未解决，请检查node-sass支持的环境列表：-https:
  </font></font><a href="https://github.com/sass/node-sass/releases/" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">//github.com/sass/node-sass/releases/</font></font></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">猿前端前端</span>
             <span class="discuss-time">2020.03.17</span>
           </div>
           <div class="discuss-comment"><p><code>npm i @ionic/app-scripts</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> 是唯一对我有影响的东西。 </font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">乐宝儿</span>
             <span class="discuss-time">2020.03.17</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果卸载和安装</font></font><code>node-sass</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">不起作用，请尝试</font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">删除</font></font></strong> <code>node_modules</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">文件夹并</font></font><code>npm install</code></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Tom神无</span>
@@ -100,9 +92,7 @@ npm install --save-dev node-sass<font></font>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">删除节点模块：</font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">$ rm-rf node_modules</font></font></strong> </p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">重新安装节点模块：</font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">$ npm install</font></font></strong></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">神乐Eva</span>
@@ -113,9 +103,7 @@ npm install --save-dev node-sass<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">npm我node-sass@4.7.2</font></font></p>
 
 <p><a href="https://dev.to/letsbsocial1/node-sass-and-node-910-4ol" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">https://dev.to/letsbsocial1/node-sass-and-node-910-4ol</font></font></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">蛋蛋L卡卡西</span>
@@ -124,9 +112,7 @@ npm install --save-dev node-sass<font></font>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">删除node_modules / node-sass文件夹并运行npm install（这可能需要一些时间，具体取决于依赖项），然后运行npm run build</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这样可以解决问题</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">西门前端A</span>
@@ -145,9 +131,7 @@ npm install --save-dev node-sass<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">像魅力一样工作 </font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">十三前端Harry</span>
@@ -159,9 +143,7 @@ npm install --save-dev node-sass<font></font>
 sudo npm install -g n<font></font>
 sudo n 6.0.0<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小胖Itachi西里</span>
@@ -175,9 +157,7 @@ sudo n 6.0.0<font></font>
 
 <pre><code>"node-sass": "^4.11.0",
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">ProJinJin樱</span>
@@ -189,9 +169,7 @@ sudo n 6.0.0<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这解决了我的问题 </font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">神乐凯神无</span>
@@ -204,27 +182,21 @@ sudo n 6.0.0<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">解决问题</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">请参考：</font><a href="https://github.com/sass/node-sass/issues/1764" rel="noreferrer"><font style="vertical-align: inherit;">https</font></a><font style="vertical-align: inherit;"> : </font></font><a href="https://github.com/sass/node-sass/issues/1764" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">//github.com/sass/node-sass/issues/1764</font></font></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">米亚L</span>
             <span class="discuss-time">2020.03.17</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">您还应该检查您的nodejs版本。</font><font style="vertical-align: inherit;">我使用的是Node js的版本9，目前尚不正式支持。</font><font style="vertical-align: inherit;">恢复到6.11.4版本可以解决此问题。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">西里Green</span>
             <span class="discuss-time">2020.03.17</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我不知道这在这里是否适用，但是对我来说，我只是删除了node_modules并重新安装（npm install）。</font><font style="vertical-align: inherit;">问题已解决。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">A小宇宙</span>
@@ -251,9 +223,7 @@ sudo n 6.0.0<font></font>
 
 <pre><code>npm install --save-dev node-sass
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">GOGil</span>
@@ -270,9 +240,7 @@ sudo n 6.0.0<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">将node-sass升级到v4.12.0为我修复了它。</font></font></p>
 
 <p><code>npm install node-sass@4.12.0</code></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Harry神乐</span>
@@ -287,9 +255,7 @@ sudo n 6.0.0<font></font>
 
 <pre><code>npm install --save-dev node-sass
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">LJinJin</span>
@@ -300,9 +266,7 @@ sudo n 6.0.0<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">要么</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">跑 </font></font><code>sudo npm rebuild node-sass</code></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

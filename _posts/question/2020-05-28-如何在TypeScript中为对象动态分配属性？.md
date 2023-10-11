@@ -28,7 +28,7 @@ obj</span><span class="pun">.</span><span class="pln">prop </span><span class="p
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我应该如何在TypeScript中为对象分配任何新属性？</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第4204篇《如何在TypeScript中为对象动态分配属性？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第4204篇《如何在TypeScript中为对象动态分配属性？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -44,9 +44,7 @@ obj</span><span class="pun">.</span><span class="pln">prop </span><span class="p
    newProp</span><span class="pun">:</span><span class="pln"> string</span><span class="pun">;</span><span class="pln">
    newProp2</span><span class="pun">:</span><span class="pln"> number</span><span class="pun">;</span><span class="pln">
 </span><span class="pun">}</span></code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Tony凯</span>
@@ -69,9 +67,7 @@ obj</span><span class="pun">.</span><span class="pln">prop2 </span><span class="
 </span><span class="com">//  const obj: { prop1: "foo", prop2: 42 }</span></code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">注意：该</font></font><a href="https://www.typescriptlang.org/play/#code/GYVwdgxgLglg9mABAQwM6pgczAHgCoA0iAqgHwAUUyATpgKZQBcihiqcI1EdzxAlMzSo61KKkRVaDRDHF5EAMhKIA3gFgAUIm2IA8gCMAVnWgA6IVjCUa9KEXadufTQF9NmiAlRREcI4gBeVRcAbk0LbHI-QyIVRAAHajh4gEZmACJgODh0xBdnDQB6Qu1PMG9ffzA4AHdEAAs0CQBPeLpVBKTU5m9qGDBMELzNaNNE5JTEYrYoPoHw9Esoo1jO5IAmZgAWdbyC6cQyiujEarrG8ShW9rjx7pm5wbzFDrvN05AAW30RIbcNUZvKYlMBfH7UdwaI5wAA2dFMMLgmGWhgKkKAA" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">示例</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">使用TS 3.7 </font></font><a href="https://www.typescriptlang.org/docs/handbook/release-notes/typescript-3-7.html#assertion-functions" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">断言函数</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font><font style="vertical-align: inherit;">的返回类型</font></font><code>assign</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">是</font></font><code>void</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，不像</font></font><code>Object.assign</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">神乐</span>
@@ -80,9 +76,7 @@ obj</span><span class="pun">.</span><span class="pln">prop2 </span><span class="
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">您可以添加此声明以使警告静音。</font></font></p>
 
 <p><code>declare var obj: any;</code></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">飞云</span>
@@ -97,9 +91,7 @@ obj</span><span class="pun">.</span><span class="pln">prop2 </span><span class="
 
 <pre class="lang-js prettyprint prettyprinted" style=""><code><span class="pln">  </span><span class="kwd">var</span><span class="pln"> a </span><span class="pun">=</span><span class="pln"> obj</span><span class="pun">.</span><span class="pln">prop</span><span class="pun">;</span><span class="pln"> </span><span class="pun">==&gt;</span><span class="pln"> </span><span class="typ">Will</span><span class="pln"> generate a compiler error
   </span><span class="kwd">var</span><span class="pln"> b </span><span class="pun">=</span><span class="pln"> </span><span class="pun">(&lt;</span><span class="pln">any</span><span class="pun">&gt;</span><span class="pln">obj</span><span class="pun">).</span><span class="pln">prop</span><span class="pun">;</span><span class="pln"> </span><span class="pun">==&gt;</span><span class="pln"> </span><span class="typ">Will</span><span class="pln"> assign </span><span class="lit">5</span><span class="pln"> to b </span><span class="kwd">with</span><span class="pln"> no error</span><span class="pun">;</span></code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Cathy</span>
@@ -108,9 +100,7 @@ obj</span><span class="pun">.</span><span class="pln">prop2 </span><span class="
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">您可以使用此：</font></font></p>
 
 <pre class="lang-js prettyprint prettyprinted" style=""><code><span class="kwd">this</span><span class="pun">.</span><span class="pln">model </span><span class="pun">=</span><span class="pln"> </span><span class="typ">Object</span><span class="pun">.</span><span class="pln">assign</span><span class="pun">(</span><span class="kwd">this</span><span class="pun">.</span><span class="pln">model</span><span class="pun">,</span><span class="pln"> </span><span class="pun">{</span><span class="pln"> newProp</span><span class="pun">:</span><span class="pln"> </span><span class="lit">0</span><span class="pln"> </span><span class="pun">});</span></code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">伊芙妮</span>
@@ -155,9 +145,7 @@ console</span><span class="pun">.</span><span class="pln">log</span><span class=
 <li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">当您使用扁平对象时，Object.assign效果最佳。</font><font style="vertical-align: inherit;">如果要合并两个包含可为空的属性的嵌套对象，最终可能会用undefined覆盖真实值。</font><font style="vertical-align: inherit;">如果您注意Object.assign参数的顺序，那应该没问题。</font></font></li>
 </ul></li>
 </ol></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">伽罗</span>
@@ -183,9 +171,7 @@ enhancedPromise</span><span class="pun">.</span><span class="pln">sayHello </spa
 
 </span><span class="com">// eventually prints "Hello Peter"</span><span class="pln">
 enhancedPromise</span><span class="pun">.</span><span class="pln">sayHello</span><span class="pun">();</span></code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">飞云</span>
@@ -196,9 +182,7 @@ enhancedPromise</span><span class="pun">.</span><span class="pln">sayHello</span
 <pre class="lang-js prettyprint prettyprinted" style=""><code><span class="kwd">const</span><span class="pln"> obj </span><span class="pun">=</span><span class="pln"> </span><span class="pun">&lt;</span><span class="pln">any</span><span class="pun">&gt;{};</span><span class="pln">
 obj</span><span class="pun">.</span><span class="pln">prop1 </span><span class="pun">=</span><span class="pln"> </span><span class="str">"value"</span><span class="pun">;</span><span class="pln">
 obj</span><span class="pun">.</span><span class="pln">prop2 </span><span class="pun">=</span><span class="pln"> </span><span class="str">"another value"</span></code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">老丝阿飞</span>
@@ -208,9 +192,7 @@ obj</span><span class="pun">.</span><span class="pln">prop2 </span><span class="
 
 <pre class="lang-js prettyprint prettyprinted" style=""><code><span class="pln">  </span><span class="kwd">var</span><span class="pln"> obj</span><span class="pun">:</span><span class="pln">any </span><span class="pun">=</span><span class="pln"> </span><span class="pun">{}</span><span class="pln">
   obj</span><span class="pun">.</span><span class="pln">prop </span><span class="pun">=</span><span class="pln"> </span><span class="lit">5</span><span class="pun">;</span></code></pre></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

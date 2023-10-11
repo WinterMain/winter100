@@ -59,7 +59,7 @@ ReactDOM.render(<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">所以有什么想法如何将ID传递给DetailsPage吗？</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第3853篇《React Router将参数传递给组件》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第3853篇《React Router将参数传递给组件》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -73,9 +73,7 @@ ReactDOM.render(<font></font>
 
 <pre><code>exact path="/problem/:problemId" render={props =&gt; &lt;ProblemPage {...props.match.params} /&gt;}
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小卤蛋</span>
@@ -92,9 +90,7 @@ ReactDOM.render(<font></font>
 
 <pre><code>this.props.id
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">前端JinJin</span>
@@ -129,9 +125,7 @@ ReactDOM.render(<font></font>
 <blockquote>
   <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">导出接口ProblemRouteTokens {issueId：string; </font><font style="vertical-align: inherit;">}</font></font></p>
 </blockquote></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小宇宙</span>
@@ -152,9 +146,7 @@ export default class DetailsPage extends Component {<font></font>
   }<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">卡卡西</span>
@@ -173,9 +165,7 @@ export default class DetailsPage extends Component {<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在DetailsPage组件内部</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">梅</span>
@@ -193,9 +183,7 @@ this.props.globalStore<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">将</font></font><code>{...props}</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">需要通过原路线的道具，否则你将只能得到</font></font><code>this.props.globalStore</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">内</font></font><code>DetailPage</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">NearDavaid</span>
@@ -212,9 +200,7 @@ this.props.globalStore<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">内部</font></font><code>DetailsPage</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">组件</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Stafan</span>
@@ -239,9 +225,7 @@ this.props.globalStore<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这将在h2中呈现任何ID，希望对您有所帮助。</font></font></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

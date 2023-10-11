@@ -17,7 +17,7 @@ topic: CSS
     <div class="article-content"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我将如何修改CSS以更改Twitter Bootstrap中导航栏的颜色？</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第1820篇《在Twitter Bootstrap中更改导航栏颜色》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第1820篇《在Twitter Bootstrap中更改导航栏颜色》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -268,9 +268,7 @@ topic: CSS
     background-color: #ffffff;<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">神奇A阿飞</span>
@@ -320,9 +318,7 @@ topic: CSS
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">您也可以尝试</font></font><a href="http://twitterbootstrap3navbars.w3masters.nl/" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">http://twitterbootstrap3navbars.w3masters.nl/</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font><font style="vertical-align: inherit;">该工具为您的自定义导航栏生成CSS代码。</font><font style="vertical-align: inherit;">（可选）您还可以向导航栏添加渐变颜色和边框。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Near猪猪</span>
@@ -424,9 +420,7 @@ topic: CSS
 </ul>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">您可以</font></font><em><a href="https://fellowtuts.com/bootstrap/to-change-navbar-color-in-twitter-bootstrap-3/" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在Twitter Bootstrap 3</font></font></a></em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">中的</font><em><a href="https://fellowtuts.com/bootstrap/to-change-navbar-color-in-twitter-bootstrap-3/" rel="nofollow noreferrer"><font style="vertical-align: inherit;">“更改导航栏颜色”中</font></a></em><font style="vertical-align: inherit;">了解更多信息</font><font style="vertical-align: inherit;">。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">JimLEYHarry</span>
@@ -444,9 +438,7 @@ topic: CSS
 </div>
 </div>
 <p></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">GO飞云</span>
@@ -465,9 +457,7 @@ navbar-inverse {<font></font>
 </code></pre>
 
 <p><a href="https://onaircode.com/best-responsive-bootstrap-navigation-menus/" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">25+ Bootstrap Nav菜单代码</font></font></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">ItachiGreen</span>
@@ -601,9 +591,7 @@ navbar-inverse {<font></font>
 <p><a href="http://www.bootply.com/Iq82PS84ZA" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">带下拉菜单的演示</font></font></a></p>
 
 <hr></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">飞云Stafan</span>
@@ -612,9 +600,7 @@ navbar-inverse {<font></font>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果仅是要更改导航栏的颜色，我的建议是使用：</font></font><a href="http://pikock.github.io/bootstrap-magic/app/#!/editor" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Bootstrap Magic</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font><font style="vertical-align: inherit;">您可以更改导航栏不同属性的值并查看预览。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">将结果下载为自定义CSS样式表或Less变量文件。</font><font style="vertical-align: inherit;">您可以使用输入字段和颜色选择器更改值。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">逆天Tony</span>
@@ -676,9 +662,7 @@ navbar-inverse {<font></font>
 </div>
 </div>
 <p></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小卤蛋小小</span>
@@ -692,9 +676,7 @@ navbar-inverse {<font></font>
   color: #000000;<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">LLEY</span>
@@ -877,9 +859,7 @@ $colHighlight: #ffbbbc;<font></font>
 <em>[Update]: From now, you can use Less as the default language provided by TWBSColor</em> <br>
 <em>[Update]: TWBSColor now supports drop down menus colorization</em><br>
 <em>[Update]: TWBSColor now allows to choose your version (Bootstrap 4 support added)</em></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">宝儿Sam</span>
@@ -912,9 +892,7 @@ $colHighlight: #ffbbbc;<font></font>
 
 <p>
 </p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">GOL</span>
@@ -926,9 +904,7 @@ $colHighlight: #ffbbbc;<font></font>
     background-image: none;<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

@@ -32,7 +32,7 @@ A.prototype.x = function () {<font></font>
 </code></pre></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第550篇《在JavaScript中使用“原型”还是“ this”？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第550篇《在JavaScript中使用“原型”还是“ this”？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -47,18 +47,14 @@ A.prototype.x = function () {<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我整理了一个jsperf来展示这一点。</font><font style="vertical-align: inherit;">实例化类的时间有很大的不同，尽管实际上只有在创建多个实例时才有意义。</font></font></p>
 
 <p><a href="http://jsperf.com/functions-in-constructor-vs-prototype" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">http://jsperf.com/functions-in-constructor-vs-prototype</font></font></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">神奇宝儿</span>
             <span class="discuss-time">2020.03.11</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">考虑一下静态类型的语言，事物</font></font><code>prototype</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">是静态的，事物</font></font><code>this</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">是与实例相关的。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Stafan西门</span>
@@ -77,18 +73,14 @@ A.prototype = {<font></font>
 </code></pre>
 
 <p><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">编辑</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">并不是要暗示变量的范围是私有的，我只是想说明如何在javascript中定义类。</font><font style="vertical-align: inherit;">变量名称已更改以反映这一点。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">逆天Jim</span>
             <span class="discuss-time">2020.03.11</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">原型是该类的模板；</font><font style="vertical-align: inherit;">这适用于它的所有未来实例。</font><font style="vertical-align: inherit;">而这是对象的特定实例。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">猪猪小卤蛋</span>
@@ -101,18 +93,14 @@ A.prototype = {<font></font>
 <p><a href="https://i.stack.imgur.com/rEyMR.png" rel="noreferrer"><img src="https://i.stack.imgur.com/rEyMR.png" alt="原型功能"></a></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在这里，我们使用</font></font><code>print</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Chrome中</font><font style="vertical-align: inherit;">的</font><font style="vertical-align: inherit;">方法</font><font style="vertical-align: inherit;">创建2,000,000个新对象</font><font style="vertical-align: inherit;">。</font><font style="vertical-align: inherit;">我们将每个对象存储在一个数组中。</font><font style="vertical-align: inherit;">放置</font></font><code>print</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">原型大约需要1/2倍的时间。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">西门JinJin</span>
             <span class="discuss-time">2020.03.11</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">第一个示例仅更改该对象的接口。</font><font style="vertical-align: inherit;">第二个示例更改该类所有对象的接口。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">猿小小</span>
@@ -136,9 +124,7 @@ A.prototype = {<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">由于javascript的范围规则，private_var可用于分配给this.x的函数，但不适用于该对象。</font></font></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

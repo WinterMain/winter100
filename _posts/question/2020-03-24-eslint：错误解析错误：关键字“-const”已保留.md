@@ -29,7 +29,7 @@ const _ = require('underscore');<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我试着删除</font></font><code>node_modules</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">并重新安装所有NPM包（如建议</font></font><a href="https://stackoverflow.com/questions/38757885/setting-up-airbnb-eslint-with-react-and-webpack"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在这里</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">），但无济于事。</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第3343篇《eslint：错误解析错误：关键字“ const”已保留》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第3343篇《eslint：错误解析错误：关键字“ const”已保留》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -51,9 +51,7 @@ const _ = require('underscore');<font></font>
     }<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">猪猪</span>
@@ -77,9 +75,7 @@ const _ = require('underscore');<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">希望这会有所帮助。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">编辑：我也发现了</font></font><a href="https://gist.github.com/nkbt/9efd4facb391edbf8048" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这个例子</font></font><code>.eslintrc</code></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">可能会有所帮助。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">伽罗</span>
@@ -96,9 +92,7 @@ const _ = require('underscore');<font></font>
 <pre><code>/* eslint-env es6 */<font></font>
 /* eslint-disable */<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Mandy</span>
@@ -112,18 +106,14 @@ const _ = require('underscore');<font></font>
     }<font></font>
 };<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">番长</span>
             <span class="discuss-time">2020.03.24</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">就我而言，它找不到</font></font><code>.eslintrc</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">文件，因此我从node_modules / .bin复制到了根目录。</font></font></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

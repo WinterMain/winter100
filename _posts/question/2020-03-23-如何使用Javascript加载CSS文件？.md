@@ -19,7 +19,7 @@ topic: CSS
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">附言：JavaScript将托管在我的网站上，但我希望用户能够放入</font></font><code>&lt;head&gt;</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">其网站</font><font style="vertical-align: inherit;">的</font><font style="vertical-align: inherit;">标签，并且它应该能够将托管在我的服务器上的CSS文件导入当前网页。</font><font style="vertical-align: inherit;">（css文件和javascript文件都将托管在我的服务器上）。</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第2879篇《如何使用Javascript加载CSS文件？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第2879篇《如何使用Javascript加载CSS文件？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -37,9 +37,7 @@ fileref.setAttribute("href", "/filepath")<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我正在使用百里香，这很好用。</font><font style="vertical-align: inherit;">谢谢</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Gil伽罗小宇宙</span>
@@ -65,18 +63,14 @@ assetsLoader.load([<font></font>
 </code></pre>
 
 <p>According to the <a href="https://www.npmjs.com/package/async-assets-loader" rel="nofollow noreferrer">async-assets-loader</a> docs</p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">西门</span>
             <span class="discuss-time">2020.03.23</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">您可以使用此</font></font><a href="http://developer.yahoo.com/yui/get/" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">YUI库</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">或使用</font></font><a href="http://www.javascriptkit.com/javatutors/loadjavascriptcss.shtml" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">本文来实现</font></font></a> </p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Mandy</span>
@@ -85,9 +79,7 @@ assetsLoader.load([<font></font>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">该</font></font><a href="http://developer.yahoo.com/yui/get/" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">YUI库</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">可能是你在找什么。</font><font style="vertical-align: inherit;">它还支持跨域加载。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果使用jquery，则</font></font><a href="http://nicolas.rudas.info/jQuery/getPlugin/" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">此插件</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">执行相同的操作。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">樱阳光Pro</span>
@@ -109,9 +101,7 @@ document<font></font>
   .getElementsByTagName("head")[0]<font></font>
   .appendChild(css);<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">宝儿理查德</span>
@@ -125,18 +115,14 @@ element.setAttribute("type", "text/css");<font></font>
 element.setAttribute("href", "external.css");<font></font>
 document.getElementsByTagName("head")[0].appendChild(element);<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">飞云</span>
             <span class="discuss-time">2020.03.23</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">有一个通用的jquery插件，可按需加载CSS和JS文件的同步和异步。</font><font style="vertical-align: inherit;">它还可以跟踪已加载的内容：）请参阅：</font><a href="http://code.google.com/p/rloader/" rel="nofollow"><font style="vertical-align: inherit;">http</font></a><font style="vertical-align: inherit;"> : </font></font><a href="http://code.google.com/p/rloader/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">//code.google.com/p/rloader/</font></font></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">古一泡芙猴子</span>
@@ -151,9 +137,7 @@ document.getElementsByTagName("head")[0].appendChild(element);<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">除了动态加载css然后删除它之外，您可以在新css中所有元素的前面添加一个Class / id，然后仅切换该CSS基本节点的class / id（例如body标签）。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">使用此解决方案，您最初会加载更多的css文件，但是您可以使用更动态的方式切换css布局。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">蛋蛋阿飞小小</span>
@@ -165,9 +149,7 @@ document.getElementsByTagName("head")[0].appendChild(element);<font></font>
     "beforeend",<font></font>
     "&lt;link rel=\"stylesheet\" href=\"path/to/style.css\" /&gt;");<font></font>
 </code></pre></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

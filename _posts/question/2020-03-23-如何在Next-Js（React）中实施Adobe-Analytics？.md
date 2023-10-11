@@ -61,7 +61,7 @@ export default function Index() {<font></font>
 <p>I humble request, please provide the solution by forking the above codesandbox with working condition.</p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第2857篇《如何在Next Js（React）中实施Adobe Analytics？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第2857篇《如何在Next Js（React）中实施Adobe Analytics？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}

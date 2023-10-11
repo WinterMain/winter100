@@ -34,7 +34,7 @@ model.find({<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">该数组可能包含数百个_id。</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第2657篇《mongodb / mongoose findMany-查找ID在数组中列出的所有文档》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第2657篇《mongodb / mongoose findMany-查找ID在数组中列出的所有文档》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -70,9 +70,7 @@ augmentUserInfo = function(list, callback){<font></font>
         });<font></font>
     }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

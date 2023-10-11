@@ -24,7 +24,7 @@ topic: JavaScript
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如何使用jQuery将'foo'更改为'bar'？</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第1634篇《使用jQuery选择和操作CSS伪元素，例如:: before和:: after》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第1634篇《使用jQuery选择和操作CSS伪元素，例如   before和   after》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -113,9 +113,7 @@ $( "#reference" ).hover(<font></font>
  }<font></font>
 );<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">NearGilSam</span>
@@ -131,9 +129,7 @@ $( "#reference" ).hover(<font></font>
 <li><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">将样式应用于一个或多个任意类的伪元素，然后在类之间进行切换（</font><font style="vertical-align: inherit;">有关快速示例，</font><font style="vertical-align: inherit;">请参见</font></font><a href="https://stackoverflow.com/questions/5041494/manipulating-css-pseudo-elements-using-jquery-e-g-before-and-after/5335771#5335771"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">seucolega的答案</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">）—这是惯用的方式，因为它使用了简单的选择器（伪元素不是）区分元素和元素状态，以及它们的预期使用方式</font></font></p></li>
 <li><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">通过更改文档样式表来操纵应用于所述伪元素的样式，这更像是骇客</font></font></p></li>
 </ul></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

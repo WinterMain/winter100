@@ -92,7 +92,7 @@ Connection: keep-alive<font></font>
 <p>Please help!!</p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第3583篇《NuxtJS $ axios发送带有请求的Cookie》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第3583篇《NuxtJS $ axios发送带有请求的Cookie》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -115,9 +115,7 @@ Connection: keep-alive<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">感谢到目前为止在评论中提供的帮助，但从外观上看，axios库对此几乎没有任何修复，因为它是一种广泛内置的浏览器安全性。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果有人对</font><font style="vertical-align: inherit;">在</font><strong><font style="vertical-align: inherit;">浏览器</font></strong><font style="vertical-align: inherit;">的</font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">CLIENT</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">端</font><font style="vertical-align: inherit;">上运行有其他建议或答案</font><font style="vertical-align: inherit;">，请与我们分享。</font></font><strong><font style="vertical-align: inherit;"></font></strong><font style="vertical-align: inherit;"></font></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

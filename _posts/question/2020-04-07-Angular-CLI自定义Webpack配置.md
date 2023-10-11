@@ -22,7 +22,7 @@ topic: Webpack
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">有什么方法可以向使用@ angular / cli 6+的Angular应用程序添加自定义webpack配置？</font><font style="vertical-align: inherit;">或者，是否有办法“弹出”新的Angular CLI在后台使用的webpack配置？</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第4107篇《Angular CLI自定义Webpack配置》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第4107篇《Angular CLI自定义Webpack配置》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -35,9 +35,7 @@ topic: Webpack
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">由于Angular 8 </font></font><code>@angular-builders/dev-server:generic</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">已被弃用，</font></font><code>@angular-builders/custom-webpack:dev-server</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">取而代之的是源：</font></font><a href="https://github.com/just-jeb/angular-builders/blob/master/MIGRATION.MD" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">https</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> : </font><a href="https://github.com/just-jeb/angular-builders/blob/master/MIGRATION.MD" rel="nofollow noreferrer"><font style="vertical-align: inherit;">//github.com/just-jeb/angular-builders/blob/master/MIGRATION.MD</font></a><font style="vertical-align: inherit;">。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">最重要的是，</font></font><code>npm i @angular-devkit/architect@latest @angular-devkit/build-angular@latest @angular-devkit/core@latest @angular-devkit/schematics@latest</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果在迁移后发现以下错误，则</font><font style="vertical-align: inherit;">可能需要运行</font></font><code>architect_1.createBuilder is not a function</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">老丝阿飞</span>
@@ -78,9 +76,7 @@ topic: Webpack
 
 <p><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">进一步阅读：</font></font></strong><br>
 <a href="https://medium.com/@_Just_JeB_/customizing-angular-cli-6-build-an-alternative-to-ng-eject-a48304cd3b21" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">自定义Angular CLI构建-ng弹出的替代方法</font></font></a></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

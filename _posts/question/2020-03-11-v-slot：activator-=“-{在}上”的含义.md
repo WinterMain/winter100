@@ -37,7 +37,7 @@ topic: Vue.js
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">据我所知，</font></font><code>on</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">它在任何地方都不是已定义的变量，因此我看不到它是如何工作的。</font><font style="vertical-align: inherit;">当我在项目中尝试使用Internet Explorer时，Internet Explorer会引发错误</font></font><code>&lt;template v-slot:activator="{ on }"&gt;</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，但是如果将其删除，则会呈现页面。</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第710篇《v-slot：activator =“ {在}上”的含义》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第710篇《v-slot：activator =“ {在}上”的含义》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -52,9 +52,7 @@ topic: Vue.js
 <p><a href="https://github.com/vuetifyjs/vuetify/issues/6866" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">https://github.com/vuetifyjs/vuetify/issues/6866</font></font></a></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">本质上，“ on”是从激活器传入的道具。</font><font style="vertical-align: inherit;">v-on =“ on”的作用是将prop上的内容绑定到组件。</font><font style="vertical-align: inherit;">“ on”本身就是从激活器传递的所有事件侦听器。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Itachi猪猪Green</span>
@@ -129,9 +127,7 @@ topic: Vue.js
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">...按钮的点击处理程序已绑定到</font></font><code>VMenu</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">方法。</font></font></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

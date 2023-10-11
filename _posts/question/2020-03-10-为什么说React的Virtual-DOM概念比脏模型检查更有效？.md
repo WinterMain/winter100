@@ -19,7 +19,7 @@ topic: JavaScript
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我真的很喜欢Virtual DOM（尤其是服务器端渲染）的潜在功能，但是我想知道所有的优点和缺点。</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第394篇《为什么说React的Virtual DOM概念比脏模型检查更有效？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第394篇《为什么说React的Virtual DOM概念比脏模型检查更有效？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -30,9 +30,7 @@ topic: JavaScript
             <span class="discuss-time">2020.03.10</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">您可以阅读这篇文章（</font></font><a href="https://reactkungfu.com/2015/10/the-difference-between-virtual-dom-and-dom/" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Virtual DOM和DOM之间的区别</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">）以了解Real DOM和Virtual DOM。</font><font style="vertical-align: inherit;">希望对您有所帮助！</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">斯丁米亚Green</span>
@@ -53,9 +51,7 @@ topic: JavaScript
 </blockquote>
 
 <p><a href="https://news.ycombinator.com/item?id=6937668" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">https://news.ycombinator.com/item?id=6937668</font></font></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Tom神奇</span>
@@ -76,9 +72,7 @@ topic: JavaScript
 </ol>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">对于非平凡的模型（例如具有大量字段或大量列表的模型），第二点更为重要。</font><font style="vertical-align: inherit;">复杂模型的一个字段更改将仅导致涉及该字段的DOM元素所需的操作，而不是整个视图/模板。</font></font></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

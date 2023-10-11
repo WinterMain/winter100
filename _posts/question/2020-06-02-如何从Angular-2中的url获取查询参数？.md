@@ -42,7 +42,7 @@ topic: TypeScript
 <pre class="lang-js prettyprint prettyprinted" style=""><code><span class="pln">query params</span><span class="pun">(</span><span class="str">"/my/path?param1=value1&amp;param2=value2"</span><span class="pun">)</span></code></pre></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第4243篇《如何从Angular 2中的url获取查询参数？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第4243篇《如何从Angular 2中的url获取查询参数？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -78,9 +78,7 @@ console</span><span class="pun">.</span><span class="pln">log</span><span class=
 <div class="snippet-result"><div class="snippet-ctas"><button type="button" class="s-btn s-btn__primary"><span class="icon-play-white _hover"></span><span><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> 运行代码段</font></font></span></button><input class="copySnippet s-btn s-btn__filled" type="button" value="Copy snippet to answer" style="display: none;"><button type="button" class="s-btn hideResults" style="display: none;">Hide results</button><div class="popout-code"><a class="snippet-expand-link"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">展开摘要</font></font></a></div></div><div class="snippet-result-code" style="display: none;"><iframe name="sif1" sandbox="allow-forms allow-modals allow-scripts" class="snippet-box-edit snippet-box-result" frameborder="0"></iframe></div></div></div>
 </div>
 <p></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">蓝染大人</span>
@@ -91,9 +89,7 @@ console</span><span class="pun">.</span><span class="pln">log</span><span class=
 <pre class="lang-js prettyprint prettyprinted" style=""><code><span class="kwd">this</span><span class="pun">.</span><span class="pln">activatedRoute</span><span class="pun">.</span><span class="pln">queryParams</span><span class="pun">.</span><span class="pln">subscribe</span><span class="pun">((</span><span class="pln">params</span><span class="pun">:</span><span class="pln"> </span><span class="typ">Params</span><span class="pun">)</span><span class="pln"> </span><span class="pun">=&gt;</span><span class="pln"> </span><span class="pun">{</span><span class="pln">
   console</span><span class="pun">.</span><span class="pln">log</span><span class="pun">(</span><span class="pln">params</span><span class="pun">);</span><span class="pln">
 </span><span class="pun">});</span></code></pre></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

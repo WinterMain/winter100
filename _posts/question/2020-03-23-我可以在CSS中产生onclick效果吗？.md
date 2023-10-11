@@ -38,7 +38,7 @@ topic: CSS
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">但是，这显然不起作用。</font></font><code>onclick</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">CSS </font><font style="vertical-align: inherit;">根本有可能有</font><font style="vertical-align: inherit;">行为（即不使用JavaScript）吗？</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第2721篇《我可以在CSS中产生onclick效果吗？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第2721篇《我可以在CSS中产生onclick效果吗？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -105,9 +105,7 @@ topic: CSS
     &lt;p&gt;Some text. Some text. Some text.&lt;/p&gt;<font></font>
 &lt;/div&gt;<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Stafan</span>
@@ -122,9 +120,7 @@ h1:active { color: blue; }<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我努力了一段时间，直到发现</font><font style="vertical-align: inherit;">CSS选择器</font><font style="vertical-align: inherit;">的</font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">顺序</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">是我遇到的问题。</font><font style="vertical-align: inherit;">问题是我切换了位置并且活动的选择器不起作用。</font><font style="vertical-align: inherit;">然后我发现</font></font><code>:hover</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">先走再走</font></font><code>:active</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">樱小卤蛋</span>
@@ -150,9 +146,7 @@ h1:active { color: blue; }<font></font>
     visibility: hidden;<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Mandy村村</span>
@@ -238,9 +232,7 @@ h1:active { color: blue; }<font></font>
 <p><a href="https://i.stack.imgur.com/q5MoQ.png" rel="nofollow noreferrer"><img src="https://i.stack.imgur.com/q5MoQ.png" alt="在此处输入图片说明"></a></p>
 
 <p><a href="https://i.stack.imgur.com/AaLUj.png" rel="nofollow noreferrer"><img src="https://i.stack.imgur.com/AaLUj.png" alt="在此处输入图片说明"></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小胖</span>
@@ -253,9 +245,7 @@ h1:active { color: blue; }<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">复选框hack本质上使您可以单击标签，从而“选中”复选框，从而使您可以根据需要设置标签的样式。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">该</font></font><a href="http://dabblet.com/gist/1506530"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">演示</font></font></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">猴子</span>
@@ -277,9 +267,7 @@ h1:active { color: blue; }<font></font>
 </code></pre>
 
 <p><a href="http://jsfiddle.net/NaTj5/"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">http://jsfiddle.net/NaTj5/</font></font></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小卤蛋</span>
@@ -328,9 +316,7 @@ h1:active { color: blue; }<font></font>
 </div>
 </div>
 <p></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">凯梅小胖</span>
@@ -356,9 +342,7 @@ h1:active { color: blue; }<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">外观如下：</font><a href="http://jsfiddle.net/TYhnb/" rel="noreferrer"><font style="vertical-align: inherit;">http</font></a><font style="vertical-align: inherit;"> : </font></font><a href="http://jsfiddle.net/TYhnb/" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">//jsfiddle.net/TYhnb/</font></font></a></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">需要注意的一点是，这仅限于超链接，因此，如果您需要在超链接之外的其他应用程序（例如按钮）上使用它，则可能需要对其稍加修改，例如将超链接样式化为按钮。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">老丝阿飞</span>
@@ -373,9 +357,7 @@ h1:active { color: blue; }<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">但是，这仅在按住鼠标按钮时才适用。</font><font style="vertical-align: inherit;">应用样式</font></font><em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">并使之保持</font></font></em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> onclick </font><font style="vertical-align: inherit;">的唯一方法</font><font style="vertical-align: inherit;">是使用一些JavaScript。</font></font></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

@@ -93,7 +93,7 @@ topic: React.js
 </code></pre></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第835篇《React Checkbox不发送onChange》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第835篇《React Checkbox不发送onChange》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -112,9 +112,7 @@ topic: React.js
 
 <pre><code>event.target.checked
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">阳光Itachi</span>
@@ -124,9 +122,7 @@ topic: React.js
 
 <pre><code>this.refs.complete.state.switched
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">老丝逆天</span>
@@ -157,9 +153,7 @@ topic: React.js
   }}<font></font>
 /&gt;<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">米亚神无</span>
@@ -169,9 +163,7 @@ topic: React.js
 
 <pre><code>&lt;input onClick={this.handleChange} onTouchEnd={this.handleChange} type="checkbox" defaultChecked={!!this.state.complete} /&gt;;
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">西门Harry</span>
@@ -195,9 +187,7 @@ topic: React.js
 <h2><code>onClick</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> 与 </font></font><code>onChange</code></h2>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">前者总是会触发点击。</font><font style="vertical-align: inherit;">如果</font><font style="vertical-align: inherit;">元素</font></font><code>checked</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">上存在属性，则</font><font style="vertical-align: inherit;">后者不会触发点击</font></font><code>input</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

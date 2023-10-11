@@ -28,7 +28,7 @@ topic: CSS
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">有任何想法吗？</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第3268篇《尽管有更改，Rails仍使用缓存的application.css》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第3268篇《尽管有更改，Rails仍使用缓存的application.css》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -39,9 +39,7 @@ topic: CSS
             <span class="discuss-time">2020.03.24</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">随机我遇到了与使用Twitter Bootstrap和application.css.scss有关的缓存问题。</font><font style="vertical-align: inherit;">基本上，我将application.css.scss更改为普通的application.css并解决了我的问题。</font><font style="vertical-align: inherit;">也许这可以帮助您？</font><font style="vertical-align: inherit;">如果您还没有弄清楚。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">斯丁</span>
@@ -54,18 +52,14 @@ topic: CSS
 </blockquote>
 
 <p><a href="http://blog.55minutes.com/2012/02/untangling-the-rails-asset-pipeline-part-1-caches-and-compass/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">http://blog.55minutes.com/2012/02/untangling-the-rails-asset-pipeline-part-1-caches-and-compass/</font></font></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">伽罗理查德</span>
             <span class="discuss-time">2020.03.24</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我遇到过同样的问题。</font><font style="vertical-align: inherit;">我停止了服务器，执行了</font></font><code>rm -fr tmp/cache</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，我的css文件终于被重建了。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">LEYMandyStafan</span>
@@ -83,9 +77,7 @@ config.assets.compress = false<font></font>
 # Expands the lines which load the assets<font></font>
 config.assets.debug = true<font></font>
 </code></pre></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

@@ -60,7 +60,7 @@ topic: JavaScript
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">什么是跨浏览器（旧/新）兼容方法以jQuery的方式发布一个或多个函数</font></font><code>$.ready()</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">？</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第284篇《纯JavaScript等效于jQuery的$ .ready（）-如何在页面/ DOM准备就绪时调用函数[重复]》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第284篇《纯JavaScript等效于jQuery的$ .ready（）-如何在页面/ DOM准备就绪时调用函数\[重复\]》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -73,9 +73,7 @@ topic: JavaScript
           <div class="discuss-comment"><p><code>document.ondomcontentready=function(){}</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> 应该可以解决问题，但是它不具有完全的浏览器兼容性。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">似乎您应该只使用jQuery min</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">西门卡卡西</span>
@@ -91,9 +89,7 @@ topic: JavaScript
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">是支持新旧浏览器的可靠方法。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">猴子Sam宝儿</span>
@@ -116,9 +112,7 @@ function main(){<font></font>
 <font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">斯丁Sam斯丁</span>
@@ -158,9 +152,7 @@ function main(){<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">该IIFE不会等待您的DOM加载。</font><font style="vertical-align: inherit;">（我什至在谈论最新版本的Chrome浏览器！）</font></font></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

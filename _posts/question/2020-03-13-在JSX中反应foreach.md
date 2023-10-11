@@ -44,7 +44,7 @@ export default QuestionSet;<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">从上面的代码片段中可以看到，我正在尝试通过在props中使用数组Answers来插入组件Answer的数组，它确实令人陶醉，但没有输出到HTML中。</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第1530篇《在JSX中反应foreach》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第1530篇《在JSX中反应foreach》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -69,9 +69,7 @@ render(){ <font></font>
 <font></font>
 export default QuestionSet;<font></font>
 </code></pre></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

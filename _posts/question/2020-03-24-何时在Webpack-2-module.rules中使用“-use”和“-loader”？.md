@@ -78,7 +78,7 @@ topic: Webpack
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">先感谢您。</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第3731篇《何时在Webpack 2 module.rules中使用“ use”和“ loader”？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第3731篇《何时在Webpack 2 module.rules中使用“ use”和“ loader”？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -94,9 +94,7 @@ topic: Webpack
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">对于插件，请</font></font><a href="https://webpack.js.org/configuration/" rel="noreferrer"><code>plugins</code></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在配置中</font><font style="vertical-align: inherit;">使用该</font><font style="vertical-align: inherit;">属性。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">卡卡西Near</span>
@@ -125,9 +123,7 @@ topic: Webpack
     ]<font></font>
   }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

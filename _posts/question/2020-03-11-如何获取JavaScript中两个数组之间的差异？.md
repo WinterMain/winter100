@@ -25,7 +25,7 @@ var a2 = ['a', 'b', 'c', 'd'];<font></font>
 </code></pre></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第685篇《如何获取JavaScript中两个数组之间的差异？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第685篇《如何获取JavaScript中两个数组之间的差异？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -52,9 +52,7 @@ var a2 = ['a', 'b', 'c', 'd'];<font></font>
 </code></pre>
 
 <p>this will take current type of element in consideration. b/c when we make a[a1[i]] it converts a value to string from its oroginal value, so we lost actual value.</p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">蛋蛋Near</span>
@@ -70,9 +68,7 @@ var a2 = ['a', 'b', 'c', 'd'];<font></font>
 _.intersection([1, 2, 3], [101, 2, 1, 10], [2, 1]);<font></font>
 =&gt; [1, 2]<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Tony伽罗Sam</span>
@@ -128,9 +124,7 @@ diffArray = diffArrays(array1, array2, true);<font></font>
 </code></pre>
 
 <p>Note the sorting will likely not be as noted above... but if desired, call .sort() on the array to sort it.</p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">null</span>
@@ -161,9 +155,7 @@ diffArray = diffArrays(array1, array2, true);<font></font>
 </div>
 </div>
 <p></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">路易EvaSam</span>
@@ -178,18 +170,14 @@ diffArray = diffArrays(array1, array2, true);<font></font>
     return arrays[1].filter(x =&gt; !smallSet.has(x));<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">老丝飞云</span>
             <span class="discuss-time">2020.03.11</span>
           </div>
           <div class="discuss-comment"><p>yet another answer, but seems nobody mentioned jsperf where they compare several algorithms and technology support: <a href="https://jsperf.com/array-difference-javascript" rel="nofollow noreferrer">https://jsperf.com/array-difference-javascript</a>  seems using filter gets the best results. thanks</p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">SamEva</span>
@@ -204,9 +192,7 @@ diffArray = diffArrays(array1, array2, true);<font></font>
 </code></pre>
 
 <p>this is works for me</p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">阿飞神奇</span>
@@ -223,9 +209,7 @@ var array3 = array2.subtract( array1 );<font></font>
 var array4 = array1.exclusion( array2 );<font></font>
 // ["test5", "test6"]<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">逆天Near</span>
@@ -248,9 +232,7 @@ console.log(c);<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这应该输出： </font></font><code>[ 1, 2, 6, 7 ]</code></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">前端凯</span>
@@ -265,9 +247,7 @@ eg:- <font></font>
 [1,2,3,4,5,6,7].difference( [3,4,5] );  <font></font>
  =&gt; [1, 2, 6 , 7]<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">神奇JinJin</span>
@@ -292,9 +272,7 @@ alert(a.diff(b));<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">因此，您可以通过这种方式</font></font><code>array1.diff(array2)</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">来获得它们的差异（尽管我相信算法的时间复杂度很差-我相信O（array1.length x array2.length）</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">JinJin伽罗小胖</span>
@@ -319,9 +297,7 @@ diffArray([1, 2, 3, 7], [3, 2, 1, 4, 5]);    // return [7, 4, 5]<font></font>
 <font></font>
 diffArray([1, 2, 3, 7], [3, 2, 1, 4, 5]);    // return [7, 4, 5]<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">神奇启人</span>
@@ -335,9 +311,7 @@ diffArray([1, 2, 3, 7], [3, 2, 1, 4, 5]);    // return [7, 4, 5]<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">合并两个数组，唯一值将仅出现一次，因此indexOf（）将与lastIndexOf（）相同。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">番长阳光</span>
@@ -441,9 +415,7 @@ console.log( difference(xs) (ys) );</code></pre>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我想这个例子是一个很好的起点，可以使人对函数式编程的印象：</font></font></p>
 
 <p><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">使用可以以许多不同方式连接在一起的构件块进行编程。</font></font></strong></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">宝儿理查德</span>
@@ -459,9 +431,7 @@ var b = new JS.Set([2,4,6,8]);<font></font>
 a.difference(b)<font></font>
 // -&gt; Set{1,3,5,7,9}<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小胖Eva</span>
@@ -473,9 +443,7 @@ a.difference(b)<font></font>
 </code></pre>
 
 <p><code>diff</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">现在包含的内容</font></font><code>old_array</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">不在其中</font></font><code>new_array</code></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">前端LEY米亚</span>
@@ -493,9 +461,7 @@ _.difference([1, 2, 3, 4, 5], [5, 2, 10]);<font></font>
 
 <pre><code>_([1, 2, 3, 4, 5]).difference([5, 2, 10]);
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Green猴子</span>
@@ -537,9 +503,7 @@ console.log(dif2); // =&gt; ["test5", "test6"]</code></pre>
 <p></p>
 
 <p><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">注意</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> indexOf和filter在ie9之前的ie中不可用。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">老丝飞云</span>
@@ -581,9 +545,7 @@ console.log(dif2); // =&gt; ["test5", "test6"]</code></pre>
 <pre><code>Array.prototype.diff = function(arr2) { return this.filter(x =&gt; arr2.includes(x)); }<font></font>
 [1, 2, 3].diff([2, 3])<font></font>
 </code></pre></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

@@ -34,7 +34,7 @@ topic: CSS
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">请注意，使用DOM表示法时，属性名称周围的引号是</font></font><em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">可选的</font></font></em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，但对于CSS表示法，</font><font style="vertical-align: inherit;">由于名称中的连字符，因此</font></font><em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">必须</font></font></em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">使用</font><font style="vertical-align: inherit;">引号</font><font style="vertical-align: inherit;">。</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第2043篇《如何在jQuery中定义多个CSS属性？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第2043篇《如何在jQuery中定义多个CSS属性？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -56,9 +56,7 @@ topic: CSS
 
 <pre><code>&lt;div id="hello"&gt;&lt;/div&gt;
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">斯丁A</span>
@@ -68,9 +66,7 @@ topic: CSS
 
 <pre><code>$("p:first").css("background-color", "#B2E0FF").css("border", "3px solid red");
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">路易猴子Pro</span>
@@ -83,9 +79,7 @@ topic: CSS
     "propertyName2":"propertyValue2"<font></font>
 })<font></font>
 </code></pre></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

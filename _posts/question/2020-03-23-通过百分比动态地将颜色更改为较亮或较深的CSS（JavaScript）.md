@@ -39,7 +39,7 @@ a.lighter {<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">有没有一种方法可以减少一定百分比的颜色？</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第2974篇《通过百分比动态地将颜色更改为较亮或较深的CSS（JavaScript）》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第2974篇《通过百分比动态地将颜色更改为较亮或较深的CSS（JavaScript）》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -50,9 +50,7 @@ a.lighter {<font></font>
             <span class="discuss-time">2020.03.23</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">您可以使用JavaScript库（例如JXtension），该库使用户能够使颜色变浅或变深。</font><font style="vertical-align: inherit;">如果您想查找此全新库的文档，</font></font><a href="http://gotochriswest.com/forum/viewtopic.php?f=4&amp;t=249#p423" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">请单击此处</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font><font style="vertical-align: inherit;">您还可以使用JXtension将一种颜色与另一种颜色组合。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">AAEva</span>
@@ -65,9 +63,7 @@ a.lighter {<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">您必须使用它来查看获得了什么结果。</font><font style="vertical-align: inherit;">我担心使用这个简单的公式，足够大的系数可以使深色很好地褪色，可能会使浅色完全变成白色，而如果足够小的系数可以使浅色仅稍微变浅，则可能会使深色不足。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">不过，我认为，比起固定的步数，到白色的距离要小得多。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">GilTom</span>
@@ -164,9 +160,7 @@ a.lighter {<font></font>
 &lt;/div&gt;<font></font>
 &lt;/body&gt;<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">蛋蛋猿</span>
@@ -217,9 +211,7 @@ button:hover {<font></font>
 </div>
 </div>
 <p></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小哥十三</span>
@@ -235,9 +227,7 @@ a:hover {<font></font>
   color: hsl(240, 100%, 70%);<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">卡卡西Near</span>
@@ -248,9 +238,7 @@ a:hover {<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">示例（颜色：＃a9dbb4）：</font></font></p>
 
 <p><a href="https://i.stack.imgur.com/UxWQ8.png" rel="nofollow noreferrer"><img src="https://i.stack.imgur.com/UxWQ8.png" alt="在此处输入图片说明"></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小卤蛋A</span>
@@ -267,9 +255,7 @@ a:hover {<font></font>
 <li><a href="http://colorschemegenerator.com/" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">http://colorschemegenerator.com/</font></font></a></li>
 <li><a href="http://www.cssjuice.com/25-popular-color-scheme-and-palette-generators/" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">http://www.cssjuice.com/25-popular-color-scheme-and-palette-generators/</font></font></a></li>
 </ul></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">米亚</span>
@@ -302,9 +288,7 @@ a:hover {<font></font>
   color: #a86f6f;<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">达蒙Gil</span>
@@ -375,9 +359,7 @@ div {<font></font>
 </div>
 </div>
 <p></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小胖Gil</span>
@@ -392,9 +374,7 @@ div {<font></font>
 
 <pre><code>rgba(255,255,255,0.3).
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">蛋蛋</span>
@@ -419,9 +399,7 @@ div {<font></font>
 <p></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">从CSS Tricks可获得更多有关您可以使用的各种过滤器的信息：</font><a href="https://css-tricks.com/almanac/properties/f/filter/" rel="noreferrer"><font style="vertical-align: inherit;">https</font></a><font style="vertical-align: inherit;"> : </font></font><a href="https://css-tricks.com/almanac/properties/f/filter/" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">//css-tricks.com/almanac/properties/f/filter/</font></font></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">古一</span>
@@ -440,9 +418,7 @@ a.lighter <font></font>
 color:hsl(240,65%,75%);<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小小</span>
@@ -460,9 +436,7 @@ a.lighter {<font></font>
   color: lighten($linkcolour, 50%);<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Mandy村村</span>
@@ -554,9 +528,7 @@ a.lighter {<font></font>
 <p></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我还创建了一个CSS框架（仍处于早期阶段），以提供称为</font></font><a href="https://github.com/sparanoid/root-variables" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">root-variables的</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">基本CSS变量支持</font><font style="vertical-align: inherit;">。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">乐</span>
@@ -569,9 +541,7 @@ a.lighter {<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这将采用第一个变量并将其减少20％（或任何其他百分比）。</font><font style="vertical-align: inherit;">在此示例中，您最终将得到较浅的颜色：</font></font><code>#ccc</code></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Gil伽罗小宇宙</span>
@@ -583,9 +553,7 @@ a.lighter {<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">但我不确定这是您的意思。</font><font style="vertical-align: inherit;">定义“减少颜色”：使透明？</font><font style="vertical-align: inherit;">还是加白？</font></font></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

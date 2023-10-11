@@ -17,7 +17,7 @@ topic: HTML
     <div class="article-content"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如何</font></font><code>&lt;div&gt;</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在</font></font><em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">不</font></font></em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">使用jQuery之类的库的</font><em><font style="vertical-align: inherit;">情况下</font></em><font style="vertical-align: inherit;">以跨浏览器兼容的方式</font><font style="vertical-align: inherit;">找到的当前宽度</font><font style="vertical-align: inherit;">？</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第4000篇《如何使用香草JavaScript查找div的宽度？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第4000篇《如何使用香草JavaScript查找div的宽度？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -35,9 +35,7 @@ if(elem) {<font></font>
    console.log(rect.width);  <font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">米亚小哥</span>
@@ -50,9 +48,7 @@ if(elem) {<font></font>
 或</font></font><br>
 <code>var w = mydiv.offsetWidth;</code><br><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
 等。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">西里Near</span>
@@ -69,9 +65,7 @@ if(elem) {<font></font>
 
 <pre><code>document.getElementById("yourDiv").offsetWidth; // 728 + borders width
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">理查德伽罗</span>
@@ -83,9 +77,7 @@ if(elem) {<font></font>
 <ul>
 <li><a href="https://developer.mozilla.org/en/DOM/element.offsetWidth"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">element.offsetWidth（MDC）</font></font></a></li>
 </ul></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小小</span>
@@ -102,9 +94,7 @@ if(elem) {<font></font>
 </code></pre>
 
 <p><code>divWidth</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> 现在将等于div数组中第一个元素的宽度。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小胖</span>
@@ -118,9 +108,7 @@ if(elem) {<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">getComputedStyle允许您访问该元素的所有样式。</font><font style="vertical-align: inherit;">例如：padding，paddingLeft，margin，border-top-left-radius等。</font></font></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

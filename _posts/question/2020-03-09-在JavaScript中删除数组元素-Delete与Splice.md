@@ -28,7 +28,7 @@ myArray.splice (1, 1);<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果我可以像删除对象一样删除数组元素，为什么还要使用splice方法呢？</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第281篇《在JavaScript中删除数组元素-Delete与Splice》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第281篇《在JavaScript中删除数组元素-Delete与Splice》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -67,9 +67,7 @@ var found = false;<font></font>
 <font></font>
 console.log(l, arr[l]);// l is index, arr[l] is the item you look for<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">梅JinJin十三</span>
@@ -107,9 +105,7 @@ Ex: arrName.splice(1,1);<font></font>
 
 <pre><code> delete arrName[1];
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">泡芙十三</span>
@@ -127,9 +123,7 @@ Ex: arrName.splice(1,1);<font></font>
 </ol>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">但是我总是建议对数组对象使用拼接，对对象属性使用删除，因为删除不会更新数组长度。 </font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">达蒙西里</span>
@@ -176,9 +170,7 @@ console.log(`Success, array-length: ${ary.length}.`);<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这些是极端的例子，但它们指出了</font></font><code>delete</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我从未见过有人提及的地方。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">LEYJim</span>
@@ -219,9 +211,7 @@ console.log(`Success, array-length: ${ary.length}.`);<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如您所见，数组长度已更改，</font><font style="vertical-align: inherit;">现在</font></font><code>arr[1]</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">为</font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">3</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> ...</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">而且这将在数组中返回已删除的项目，</font></font><code>[3]</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在这种情况下...</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">ProStafan</span>
@@ -233,9 +223,7 @@ console.log(`Success, array-length: ${ary.length}.`);<font></font>
     return item.anProperty != whoShouldBeDeleted<font></font>
 });<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">阿飞米亚</span>
@@ -279,9 +267,7 @@ console.log(`Success, array-length: ${ary.length}.`);<font></font>
     array.splice( index );  // Remove any remaining elements (These will be duplicates of earlier items)<font></font>
 },<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小哥西门</span>
@@ -312,9 +298,7 @@ console.log(arr);</code></pre>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果</font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">删除</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，</font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">则</font></font></strong><font style="vertical-align: inherit;"><strong><font style="vertical-align: inherit;">删除</font></strong><font style="vertical-align: inherit;">该</font><strong><font style="vertical-align: inherit;">元素，</font></strong><font style="vertical-align: inherit;">但</font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">索引保持为空</font></font></strong></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">而在</font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">剪接</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">元素被删除而</font><strong><font style="vertical-align: inherit;">其余元素</font></strong><font style="vertical-align: inherit;">的</font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">索引相应减少的情况下</font></font></strong></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">StafanStafan</span>
@@ -327,9 +311,7 @@ console.log(arr);</code></pre>
 <pre><code>delete myObj.propName;     // , or:<font></font>
 delete myObj["propName"];  // Equivalent.<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">JinJin乐</span>
@@ -360,9 +342,7 @@ array.remove(-2,-1);<font></font>
 </code></pre>
 
 <p><a href="http://ejohn.org/blog/javascript-array-remove/" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">约翰的网站</font></font></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">L神无Mandy</span>
@@ -373,9 +353,7 @@ array.remove(-2,-1);<font></font>
 <blockquote>
   <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">删除数组元素时，数组长度不受影响。</font><font style="vertical-align: inherit;">例如，如果删除a [3]，则a [4]仍为a [4]，而a [3]未定义。</font><font style="vertical-align: inherit;">即使删除数组的最后一个元素（删除a [a.length-1]），该设置仍然成立。</font></font></p>
 </blockquote></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

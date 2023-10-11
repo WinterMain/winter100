@@ -21,7 +21,7 @@ topic: CSS
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">将Compass与Rails 3.1结合使用可以带来什么好处？</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第2671篇《Compass for Rails 3.1的价值是什么？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第2671篇《Compass for Rails 3.1的价值是什么？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -38,18 +38,14 @@ topic: CSS
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">但是，我发现蓝图比它的价值更麻烦。</font><font style="vertical-align: inherit;">我仍然会使用Compass作为mixins，但是现在Rails 3.1和Compass之间的兼容性非常糟糕（您必须跳过一些麻烦而仍然牺牲一些功能）。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在有点相关的注释中，Rails 3.1编译资产的方式相当“破损”。</font><font style="vertical-align: inherit;">它不考虑社区在最近一两年中如何使用Sass，而是将变量，混合和页面部分分开放置，以便按顺序包含在主文件中。</font><font style="vertical-align: inherit;">Sprockets加载和编译Sass的“自动”方式使文件彼此解除关联，因此，即使您在中手动定义了加载顺序</font></font><code>application.css</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，在文件中设置的变量也不可用于后续加载的文件。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Mandy</span>
             <span class="discuss-time">2020.03.23</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">该</font></font><a href="https://github.com/sporkd/compass-html5-boilerplate" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">html5boilerplate</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">指南针插件是一个伟大的节省时间太多，所以基于这些原因，我会用指南针</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">凯西里</span>
@@ -62,9 +58,7 @@ topic: CSS
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">您可能会错过罗盘所具有的一些强大功能，但是可以用sass的强大功能轻松克服：仅复制/创建您自己的mixin！ </font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">升级我的Rails应用程序时，指南针经常让我头疼。</font><font style="vertical-align: inherit;">我很欣赏波旁威士忌的简单性（尽管它也可能使您头痛…………）</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Mandy村村</span>
@@ -79,9 +73,7 @@ topic: CSS
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">边注：</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Rails 3.1处理.scss文件的方式一次只能一次-例如，如果您在一个文件中定义变量，则它们不会被传递到其他.scss文件中。</font><font style="vertical-align: inherit;">恕我直言，这并不是真正的最佳解决方案。</font></font></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

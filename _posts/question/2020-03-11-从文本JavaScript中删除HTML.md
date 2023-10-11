@@ -17,7 +17,7 @@ topic: JavaScript
     <div class="article-content"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">有没有一种简单的方法可以在JavaScript中获取html字符串并去除html？ </font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第812篇《从文本JavaScript中删除HTML》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第812篇《从文本JavaScript中删除HTML》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -31,9 +31,7 @@ topic: JavaScript
 
 <pre><code>myString.replace(/((&amp;lt)|(&lt;)(?:.|\n)*?(&amp;gt)|(&gt;))/gm, '');
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">蛋蛋蛋蛋</span>
@@ -49,9 +47,7 @@ topic: JavaScript
    return tmp.textContent || tmp.innerText || "";<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">米亚Eva</span>
@@ -61,9 +57,7 @@ topic: JavaScript
 
 <pre><code>str=str.replace(/(&lt;\?[a-z]*(\s[^&gt;]*)?\?(&gt;|$)|&lt;!\[[a-z]*\[|\]\]&gt;|&lt;!DOCTYPE[^&gt;]*?(&gt;|$)|&lt;!--[\s\S]*?(--&gt;|$)|&lt;[a-z?!\/]([a-z0-9_:.])*(\s[^&gt;]*)?(&gt;|$))/gi, ''); 
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">LEY乐伽罗</span>
@@ -76,9 +70,7 @@ topic: JavaScript
 <pre><code>htmlContent= htmlContent.replace(/&lt;a.*href="(.*?)"&gt;/g, '');<font></font>
 htmlContent= htmlContent.replace(/&lt;\/a&gt;/g, '');<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">番长小哥</span>
@@ -94,9 +86,7 @@ htmlContent= htmlContent.replace(/&lt;\/a&gt;/g, '');<font></font>
 <font></font>
  cj("#text_area_id").val(text);//set your content to text area using text_area_id<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">樱LEY神无</span>
@@ -136,9 +126,7 @@ htmlContent= htmlContent.replace(/&lt;\/a&gt;/g, '');<font></font>
 <p>demo of top answer doing the terrible things:</p>
 
 <p><a href="https://jsfiddle.net/gaby_de_wilde/6f0jymL6/1/" rel="nofollow">https://jsfiddle.net/gaby_de_wilde/6f0jymL6/1/</a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小胖Pro</span>
@@ -170,9 +158,7 @@ var textVersion = createTextVersion(yourHtml);<font></font>
   var textVersion = createTextVersion(yourHtml);<font></font>
 });<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">entaseven</span>
@@ -195,9 +181,7 @@ text.replace(/&lt;style[^&gt;]*&gt;.*&lt;\/style&gt;/gm, '')<font></font>
 // Rule to remove leading spaces and repeated CR/LF.<font></font>
     .replace(/([\r\n]+ +)+/gm, '');<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">卡卡西Near</span>
@@ -205,9 +189,7 @@ text.replace(/&lt;style[^&gt;]*&gt;.*&lt;\/style&gt;/gm, '')<font></font>
           </div>
           <div class="discuss-comment"><pre><code>myString.replace(/&lt;[^&gt;]*&gt;?/gm, '');
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">猴子神乐</span>
@@ -219,9 +201,7 @@ text.replace(/&lt;style[^&gt;]*&gt;.*&lt;\/style&gt;/gm, '')<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这将从html字符串中检索所有文本。 </font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">null</span>
@@ -238,9 +218,7 @@ text.replace(/&lt;style[^&gt;]*&gt;.*&lt;\/style&gt;/gm, '')<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">注意：正如人们在评论中所指出的那样，如果您不控制HTML的源代码（例如，请勿在可能来自用户输入的任何内容上运行此代码），则最好避免这种情况。</font><font style="vertical-align: inherit;">对于这些情况，您</font></font><em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">仍然</font></font></em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">可以</font><font style="vertical-align: inherit;">让浏览器为您完成工作- </font></font><a href="https://stackoverflow.com/questions/822452/strip-html-from-text-javascript/47140708#47140708"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">请参阅Saba关于使用现在广泛使用的DOMParser的答案</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

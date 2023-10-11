@@ -43,7 +43,7 @@ topic: React.js
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我该如何解决？</font><font style="vertical-align: inherit;">谢谢</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第2401篇《Visual Studio代码更改格式（React-JSX）》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第2401篇《Visual Studio代码更改格式（React-JSX）》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -54,9 +54,7 @@ topic: React.js
             <span class="discuss-time">2020.03.19</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我有类似的问题，然后我发现这是由“美化”扩展名引起的。</font><font style="vertical-align: inherit;">卸载扩展程序后，一切正常。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">卡卡西小卤蛋GO</span>
@@ -67,9 +65,7 @@ topic: React.js
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在</font><a href="https://marketplace.visualstudio.com/items?itemName=taichi.react-beautify" rel="nofollow noreferrer"><font style="vertical-align: inherit;">这里</font></a><font style="vertical-align: inherit;">找到</font></font><a href="https://marketplace.visualstudio.com/items?itemName=taichi.react-beautify" rel="nofollow noreferrer"><font style="vertical-align: inherit;"></font></a></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">该扩展程序包装prettydiff / esformatter来格式化javascript，JSX， TypeScript，TSX文件。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小宇宙猴子</span>
@@ -106,9 +102,7 @@ topic: React.js
 
 <pre><code>"beautify.ignore": ["**/*.js","**/*.jsx"]
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">王者一打九达蒙</span>
@@ -124,9 +118,7 @@ topic: React.js
     "*.js": "javascriptreact"<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">逆天村村</span>
@@ -137,9 +129,7 @@ topic: React.js
 <p><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">react-beautify</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">主要起到魔术作用，但是如果您已经安装了其他JS格式化程序/美化器，则会失败。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">就我而言，我安装了react-beautify和JS-CSS-HTML Formatter扩展。</font><font style="vertical-align: inherit;">我必须为当前工作空间禁用JS-CSS-HTML Formatter。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Tom老丝Pro</span>
@@ -152,9 +142,7 @@ topic: React.js
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">不要在return和返回的JSX表达式之间放置换行符。 </font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">触发自动格式化</font></font><code>(Alt+Shift+F)</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">并检查是否有效。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">JimTomL</span>
@@ -166,9 +154,7 @@ topic: React.js
         "*.js":"javascriptreact"<font></font>
     }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">ItachiEva</span>
@@ -179,9 +165,7 @@ topic: React.js
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我也面临同样的挑战，我希望找到一种更好的方法来处理vscode中的此问题。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我注意到每次打开扩展名为</font><strong><font style="vertical-align: inherit;">.js</font></strong><font style="vertical-align: inherit;">的react文件时，都必须完成建议的解决方法</font></font><strong><font style="vertical-align: inherit;"></font></strong></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

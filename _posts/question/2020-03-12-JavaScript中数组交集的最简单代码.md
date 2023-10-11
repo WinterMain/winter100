@@ -25,7 +25,7 @@ topic: JavaScript
 </code></pre></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第980篇《JavaScript中数组交集的最简单代码》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第980篇《JavaScript中数组交集的最简单代码》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -54,9 +54,7 @@ topic: JavaScript
 </code></pre>
 
 <p>Source: <a href="http://underscorejs.org/docs/underscore.html#section-62" rel="nofollow">http://underscorejs.org/docs/underscore.html#section-62</a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Me无敌</span>
@@ -76,9 +74,7 @@ topic: JavaScript
 <font></font>
 getIntersection([1,2,3], [2,3,4,5]); // [ 2, 3 ]<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">ProTony</span>
@@ -214,9 +210,7 @@ console.log( intersectn(xs, ys, zs) );</code></pre>
 </div>
 </div>
 <p></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Tony番长</span>
@@ -236,9 +230,7 @@ console.log(intersection([1,2,3], [2,3,4,5]));</code></pre>
 </div>
 </div>
 <p></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">乐达蒙</span>
@@ -256,9 +248,7 @@ console.log(intersection([1,2,3], [2,3,4,5]));</code></pre>
 
 <pre><code>intersection([1, 2, 3], [4, 3, 2]); // [2, 3]
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">JinJinGil</span>
@@ -277,9 +267,7 @@ console.log(intersect([1,2,3,4,5], [1,2], [1, 2, 3,4,5], [2, 10, 1])) // [1,2]</
 </div>
 </div>
 <p></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">蛋蛋猴子前端</span>
@@ -296,9 +284,7 @@ console.log(intersect([1,2,3,4,5], [1,2], [1, 2, 3,4,5], [2, 10, 1])) // [1,2]</
 intersection([1,2,3], [2,3,4,5]);<font></font>
 //Result:  [2,3]<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">达蒙老丝</span>
@@ -314,9 +300,7 @@ intersection([1,2,3], [2,3,4,5]);<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这不是最简单的解决方案（比</font></font><a href="https://stackoverflow.com/a/1885569/1424242"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">filter + indexOf的</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">代码更多</font><font style="vertical-align: inherit;">），也不是最快的解决方案（可能比</font></font><a href="https://stackoverflow.com/a/1885660/1424242"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">intersect_safe（）</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">慢一个常数</font><font style="vertical-align: inherit;">），但似乎是一个很好的平衡。</font><font style="vertical-align: inherit;">它具有</font></font><em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">非常</font></font></em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">简单的一面，同时提供了良好的性能，并且不需要预先排序的输入。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">凯梅小胖</span>
@@ -331,9 +315,7 @@ intersection([1,2,3], [2,3,4,5]);<font></font>
 
 <pre><code>const intersection = array1.filter(element =&gt; array2.indexOf(element) !== -1);
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">hide on</span>
@@ -377,9 +359,7 @@ intersection([1,2,3], [2,3,4,5]);<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">当然，您需要确保密钥之前没有出现，否则您将破坏数据... </font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">A逆天猿</span>
@@ -401,9 +381,7 @@ intersection([1,2,3], [2,3,4,5]);<font></font>
     return array2.indexOf(n) !== -1;<font></font>
 });<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">LEvaGreen</span>
@@ -434,9 +412,7 @@ alert(intersection([1,2,3], [2,3,4,5]));<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">PS：仅适用于数字和普通字符串的算法，任意对象数组的交集可能不起作用。 </font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">神无老丝Davaid</span>
@@ -488,9 +464,7 @@ function arrayIntersection() {<font></font>
 <font></font>
 arrayIntersection( [1, 2, 3, "a"], [1, "a", 2], ["a", 1] ); // Gives [1, "a"]; <font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小宇宙飞云</span>
@@ -508,9 +482,7 @@ for (i=0; i&lt;A.length; i++) {<font></font>
 return result;<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">逆天小卤蛋Green</span>
@@ -528,9 +500,7 @@ console.log(intersection([1, 2, 3], [2, 3, 4, 5]));</code></pre>
 </div>
 </div>
 <p></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Tom蛋蛋</span>
@@ -543,9 +513,7 @@ var b = [2,3,4,5];<font></font>
 var c = $(b).not($(b).not(a));<font></font>
 alert(c);<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">不知</span>
@@ -577,9 +545,7 @@ alert(c);<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">请注意，使用集时，您将仅获得不同的值，因此</font></font><code>new Set[1,2,3,3].size</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">计算为</font></font><code>3</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">MonsterKK梅</span>
@@ -692,9 +658,7 @@ filter + has (this)            43,531 (this answer)<font></font>
 filter + has (arrow function)  35,588<font></font>
 </code></pre></li>
 </ul></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">泡芙小宇宙十三</span>
@@ -704,9 +668,7 @@ filter + has (arrow function)  35,588<font></font>
 
 <pre><code>_.intersection( [0,345,324] , [1,0,324] )  // gives [0,324]
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">JinJin村村</span>
@@ -748,9 +710,7 @@ function intersect(a, b) {<font></font>
     return results;<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">泡芙小胖</span>
@@ -770,9 +730,7 @@ document.write("&lt;pre&gt;" + JSON.stringify(arr.intersect(...arrs)) + "&lt;/pr
 </div>
 </div>
 <p></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

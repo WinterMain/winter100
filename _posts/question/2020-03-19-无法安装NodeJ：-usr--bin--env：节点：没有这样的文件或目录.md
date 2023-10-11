@@ -60,7 +60,7 @@ sudo apt-get install -y nodejs<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我该怎么办？</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第2208篇《无法安装NodeJ：/ usr / bin / env：节点：没有这样的文件或目录》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第2208篇《无法安装NodeJ：/ usr / bin / env：节点：没有这样的文件或目录》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -71,9 +71,7 @@ sudo apt-get install -y nodejs<font></font>
             <span class="discuss-time">2020.03.19</span>
           </div>
           <div class="discuss-comment"><p>Just rename the command or file name <code>ln -s /usr/bin/nodejs /usr/bin/node</code> by this command</p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">LEY泡芙</span>
@@ -92,9 +90,7 @@ sudo apt-get install -y nodejs<font></font>
   
   <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">+＃！/ usr / bin / env nodejs</font></font></p>
 </blockquote></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">米亚Stafan</span>
@@ -102,9 +98,7 @@ sudo apt-get install -y nodejs<font></font>
           </div>
           <div class="discuss-comment"><pre><code>sudo PATH="$PATH:/usr/local/bin" npm install -g &lt;package-name&gt;
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">JimEva神奇</span>
@@ -131,9 +125,7 @@ sudo apt-get install -y nodejs<font></font>
 
 <pre><code>node -v
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">猴子神乐</span>
@@ -147,9 +139,7 @@ sudo apt-get install -y nodejs<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">上面的命令将获取您节点的位置并为您创建一个链接。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">乐猴子</span>
@@ -166,9 +156,7 @@ sudo apt-get install -y nodejs<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">因此，其他一些已知工具（我不知道它的作用。虽然在ubuntu存储库中是已知的，但默认情况下未在16.04中安装它）占用了该命名空间。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果Ubuntu提供了一个“干净”解决此问题的建议，如果不是通过手工完成，该软件包会做的话，那会很好。</font><font style="vertical-align: inherit;">（碰撞仍然是碰撞……如果+何时会发生）</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">阿飞番长</span>
@@ -185,9 +173,7 @@ sudo apt-get install -y nodejs<font></font>
 <p><code>ln -s /usr/bin/nodejs /usr/bin/node</code></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">希望对您有所帮助。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">梅路易</span>
@@ -197,9 +183,7 @@ sudo apt-get install -y nodejs<font></font>
 
 <pre><code>update-alternatives --install /usr/bin/node node /usr/bin/nodejs 99
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">A阿飞</span>
@@ -218,9 +202,7 @@ sudo apt-get install -y nodejs<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这对我有用。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小胖Eva</span>
@@ -232,9 +214,7 @@ sudo apt-get install -y nodejs<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">它将开始工作。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">斯丁理查德</span>
@@ -244,9 +224,7 @@ sudo apt-get install -y nodejs<font></font>
 
 <pre><code>sudo apt-get install nodejs-legacy
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">逆天番长</span>
@@ -256,9 +234,7 @@ sudo apt-get install -y nodejs<font></font>
 
 <pre><code>ln -s /usr/bin/nodejs /usr/bin/node
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">神奇Harry</span>
@@ -269,9 +245,7 @@ sudo apt-get install -y nodejs<font></font>
 <p><code>ln -s /usr/bin/nodejs /usr/bin/node</code></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这可以解决问题</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">阳光神奇</span>
@@ -283,9 +257,7 @@ sudo apt-get install -y nodejs<font></font>
 sudo npm install -g n<font></font>
 sudo n stable<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Itachi卡卡西</span>
@@ -297,9 +269,7 @@ sudo n stable<font></font>
 
 <pre><code>ln -s /usr/bin/nodejs /usr/bin/node
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">A伽罗</span>
@@ -311,9 +281,7 @@ sudo n stable<font></font>
 我的感谢和对</font></font><a href="https://stackoverflow.com/questions/20886217/browserify-error-usr-bin-env-node-no-such-file-or-directory"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">bodokaiser的</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> +1投票</font><font style="vertical-align: inherit;">）。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">注意：我认为这篇文章并非完全相同，因为该文章有点像是浏览器问题。</font></font></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

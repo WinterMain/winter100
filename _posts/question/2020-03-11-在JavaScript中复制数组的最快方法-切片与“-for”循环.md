@@ -34,7 +34,7 @@ topic: JavaScript
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我只问速度。</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第816篇《在JavaScript中复制数组的最快方法-切片与“ for”循环》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第816篇《在JavaScript中复制数组的最快方法-切片与“ for”循环》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -55,9 +55,7 @@ topic: JavaScript
 <p><strong>If your array objects contain some JSON-non-serializable content (functions, Number.POSITIVE_INFINITY, etc.) better to use</strong> </p>
 
 <p><strong><code>array1copy = JSON.parse(JSON.stringify(array1))</code></strong></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">前端古一</span>
@@ -68,9 +66,7 @@ topic: JavaScript
 <pre><code>original = [1,2,3]<font></font>
 cloned = original.map(x=&gt;x)<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">樱神奇</span>
@@ -190,9 +186,7 @@ log(res[0][0].toString());</code></pre>
   
   <p>SpiderMonkey (Mozilla/Firefox)</p>
 </blockquote></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">宝儿Near</span>
@@ -211,9 +205,7 @@ while(i--) { b[i] = a[i]; }<font></font>
 <hr>
 
 <p>@aleclarson created a new, more reliable benchmark.</p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">HarryGil</span>
@@ -246,9 +238,7 @@ console.log(twoArraysBecomOne);<font></font>
 <li><em><a href="https://davidwalsh.name/spread-operator" rel="nofollow noreferrer">6 Great Uses of the Spread Operator</a></em> </li>
 <li><em><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Spread_operator" rel="nofollow noreferrer">Spread syntax</a></em></li>
 </ul></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">木嘢</span>
@@ -261,9 +251,7 @@ var clonedArray = srcArray.length === 1 ? [srcArray[0]] : Array.apply(this, srcA
 </code></pre>
 
 <p>The length check is required, because the <code>Array</code> constructor behaves differently when it is called with exactly one argument.</p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">十三小哥</span>
@@ -276,9 +264,7 @@ var clonedArray = srcArray.length === 1 ? [srcArray[0]] : Array.apply(this, srcA
 <p>Results:</p>
 
 <p><a href="https://i.stack.imgur.com/JMwiQ.png" rel="nofollow noreferrer"><img src="https://i.stack.imgur.com/JMwiQ.png" alt="Enter image description here"></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">猿Pro</span>
@@ -295,9 +281,7 @@ var clonedArray = srcArray.length === 1 ? [srcArray[0]] : Array.apply(this, srcA
 </code></pre>
 
 <p><a href="http://jsperf.com/cloning-arrays/3" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">http://jsperf.com/cloning-arrays/3</font></font></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">null</span>
@@ -305,9 +289,7 @@ var clonedArray = srcArray.length === 1 ? [srcArray[0]] : Array.apply(this, srcA
           </div>
           <div class="discuss-comment"><pre><code>var cloned_array = [].concat(target_array);
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">西门</span>
@@ -317,9 +299,7 @@ var clonedArray = srcArray.length === 1 ? [srcArray[0]] : Array.apply(this, srcA
 
 <pre><code>var dup_array = JSON.parse(JSON.stringify(original_array))
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">前端LEYLEY</span>
@@ -343,9 +323,7 @@ console.log(JSON.stringify(brr));</code></pre>
 </div>
 </div>
 <p></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">ㄏ囧囧ㄟ</span>
@@ -354,9 +332,7 @@ console.log(JSON.stringify(brr));</code></pre>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我整理了一个快速演示：</font><a href="http://jsbin.com/agugo3/edit" rel="nofollow noreferrer"><font style="vertical-align: inherit;">http</font></a><font style="vertical-align: inherit;"> : </font></font><a href="http://jsbin.com/agugo3/edit" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">//jsbin.com/agugo3/edit</font></font></a></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我在Internet Explorer 8上的结果是156、782和750，这表明</font></font><code>slice</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在这种情况下速度更快。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">飞云斯丁GO</span>
@@ -366,9 +342,7 @@ console.log(JSON.stringify(brr));</code></pre>
 
 <pre><code>arr2 = [...arr1];
 </code></pre></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

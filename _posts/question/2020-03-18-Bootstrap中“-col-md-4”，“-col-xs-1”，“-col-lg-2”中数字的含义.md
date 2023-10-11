@@ -32,7 +32,7 @@ col-xs-*<font></font>
 </ol></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第2199篇《Bootstrap中“ col-md-4”，“ col-xs-1”，“ col-lg-2”中数字的含义》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第2199篇《Bootstrap中“ col-md-4”，“ col-xs-1”，“ col-lg-2”中数字的含义》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -53,9 +53,7 @@ col-xs-*<font></font>
 <p>Below image shows various screen size widths :</p>
 
 <p><a href="https://i.stack.imgur.com/QRM0O.png" rel="noreferrer"><img src="https://i.stack.imgur.com/QRM0O.png" alt="屏幕尺寸定义"></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">达蒙猪猪</span>
@@ -70,9 +68,7 @@ col-xs-*<font></font>
 </ul>
 
 <p><a href="https://stackoverflow.com/questions/19865158/what-is-the-difference-among-col-lg-col-md-and-col-sm-in-twitter-bootstra"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">阅读更多...</font></font></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">老丝Gil</span>
@@ -85,9 +81,7 @@ col-xs-*<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">示例：如果要在桌面屏幕和电话屏幕中有两列，请在这两列中放置两个</font></font><code>col-md-6</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">和两个</font></font><code>col-xs-6</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">类。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果要在桌面屏幕上显示两列，而在电话屏幕上仅显示一列（即，两行相互堆叠），则将</font></font><code>two col-md-6</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">两</font></font><code>col-xs-12</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">列</font><font style="vertical-align: inherit;">放进去</font><font style="vertical-align: inherit;">，因为总和为24，因此它们将自动堆叠在每一行的顶部其他，或者只保留</font></font><code>xs</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">样式。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">LEYJim</span>
@@ -117,9 +111,7 @@ col-xs-*<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我还创建了下面的图片显示了如何网格系统的工作原理，在这个例子我使用他们的3个，喜欢</font></font><code>col-lg-6</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">向你展示电网系统工作的页面，看看如何如何</font></font><code>lg</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，</font></font><code>md</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">并</font></font><code>xs</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">响应窗口大小：</font></font></p>
 
 <p><a href="https://i.stack.imgur.com/S1RYa.png" rel="noreferrer"><img src="https://i.stack.imgur.com/S1RYa.png" alt="引导网格系统，col-*-6"></a></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

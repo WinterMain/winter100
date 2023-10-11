@@ -39,7 +39,7 @@ test.length = 4;<font></font>
 </code></pre></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第1164篇《如何在JavaScript中初始化数组的长度？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第1164篇《如何在JavaScript中初始化数组的长度？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -62,9 +62,7 @@ test.length = 4;<font></font>
     return arr;<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">猿Sam</span>
@@ -77,9 +75,7 @@ test.length = 4;<font></font>
 <pre><code>var myArray = [];<font></font>
 myArray.length = yourValue;<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">樱十三</span>
@@ -95,9 +91,7 @@ arr.length; // 4<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">的第一个参数</font></font><code>apply()</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">是this对象绑定，此处我们不在乎，因此将其设置为</font></font><code>null</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p>
 
 <p><code>Array.apply(..)</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">正在调用该</font></font><code>Array(..)</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">函数并将</font></font><code>{ length: 3 }</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">对象值作为其参数展开。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Tony宝儿</span>
@@ -110,9 +104,7 @@ console.log(test.length);<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">由于上述原因，除非我想将数组初始化为特定值，否则我将避免这样做。</font><font style="vertical-align: inherit;">有趣的是，还有其他实现范围的库，包括Lo-dash和Lazy，它们可能具有不同的性能特征。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">猴子神无</span>
@@ -123,9 +115,7 @@ console.log(test.length);<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">此外，示例代码已损坏，第二条</font></font><code>var</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">语句将引发</font></font><code>SyntaxError</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font><font style="vertical-align: inherit;">您正在设置</font></font><code>length</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">数组</font><font style="vertical-align: inherit;">的属性</font></font><code>test</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，因此不需要另一个</font></font><code>var</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p>
 
 <p>As far as your options go, <code>array.length</code> is the only "clean" one. Question is, why do you need to set the size in the first place? Try to refactor your code to get rid of that dependency. </p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">乐米亚</span>
@@ -135,9 +125,7 @@ console.log(test.length);<font></font>
 arr[5]=0;<font></font>
 alert("length="+arr.length); // gives 6<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">樱GO</span>
@@ -183,9 +171,7 @@ $ node main.js <font></font>
 9<font></font>
 19<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">樱JimPro</span>
@@ -228,9 +214,7 @@ $ node main.js <font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">超过一分钟（同一Chrome控制台上的10000大约需要90秒，或者慢2000倍）。</font><font style="vertical-align: inherit;">这不仅是分配，还包括10000次推送，for循环等。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">神奇逆天猪猪</span>
@@ -240,9 +224,7 @@ $ node main.js <font></font>
 
 <pre><code>[...Array(1000)]
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Davaid番长</span>
@@ -257,9 +239,7 @@ $ node main.js <font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在这种情况下，</font></font><code>{length: 10}</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">代表了</font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">“数组状”</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">对象</font><font style="vertical-align: inherit;">的最小定义</font><font style="vertical-align: inherit;">：一个仅</font></font><code>length</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">定义</font><font style="vertical-align: inherit;">了</font><font style="vertical-align: inherit;">属性</font><font style="vertical-align: inherit;">的空对象</font><font style="vertical-align: inherit;">。</font></font></p>
 
 <p><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/from" rel="noreferrer"><code>Array.from</code></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> 允许第二个参数映射到结果数组上。 </font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">猴子蛋蛋</span>
@@ -269,9 +249,7 @@ $ node main.js <font></font>
 
 <pre><code>var x = [,,,,];
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">猴子逆天</span>
@@ -287,9 +265,7 @@ Array(n).fill(0)<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">比这简明得多 </font></font><code>Array.apply(0, new Array(n)).map(i =&gt; value)</code></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">可以插入</font></font><code>0</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">in </font></font><code>.fill()</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">并在不使用参数的情况下运行，这将用填充数组</font></font><code>undefined</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font><font style="vertical-align: inherit;">（</font></font><em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">但是，这将在Typescript中失败</font></font></em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">）</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">阿飞小卤蛋</span>
@@ -400,9 +376,7 @@ var arr = NArray( 3,2,4 );<font></font>
 //   [ A2,B2,C2,D2,E2,F2,G2,H2 ],<font></font>
 //   [ A1,B1,C1,D1,E1,F1,G1,H1 ] ]<font></font>
 </code></pre></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

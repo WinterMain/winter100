@@ -41,7 +41,7 @@ topic: Webpack
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">但我不明白angular-cli配置的工作方式...</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第2603篇《angular-cli在哪里是webpack.config.js文件-新的angular6不支持ng弹出》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第2603篇《angular-cli在哪里是webpack.config.js文件-新的angular6不支持ng弹出》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -56,9 +56,7 @@ topic: Webpack
 <blockquote>
   <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">有几个项目可以与新的配置格式结合使用，这些项目提供了弹出的好处，而没有维护开销。</font><font style="vertical-align: inherit;">ngx-build-plus就是一个这样的项目，可以在这里找到：</font><a href="https://github.com/manfredsteyer/ngx-build-plus" rel="nofollow noreferrer"><font style="vertical-align: inherit;">https</font></a><font style="vertical-align: inherit;"> : </font></font><a href="https://github.com/manfredsteyer/ngx-build-plus" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">//github.com/manfredsteyer/ngx-build-plus</font></font></a></p>
 </blockquote></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">泡芙</span>
@@ -80,9 +78,7 @@ topic: Webpack
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">此方法在所有最新版本的angular-cli中都应适用（我亲自尝试了一些，最早的是</font></font><em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">1.0.0-beta.21</font></font></em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，最新的是</font></font><em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">1.0.0-beta.32.3</font></font></em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">）</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">LGil</span>
@@ -91,9 +87,7 @@ topic: Webpack
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我在想，发布产品时使用webpack会很容易。 </font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">仅供参考：</font><a href="https://github.com/Piusha/ngx-lazyloading" rel="nofollow noreferrer"><font style="vertical-align: inherit;">https</font></a><font style="vertical-align: inherit;"> : </font></font><a href="https://github.com/Piusha/ngx-lazyloading" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">//github.com/Piusha/ngx-lazyloading</font></font></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">番长樱梅</span>
@@ -108,9 +102,7 @@ topic: Webpack
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">您可以在中修改配置模板</font></font><code>angular-cli/addon/ng2/models</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font><font style="vertical-align: inherit;">到目前为止，尚无官方方法来修改webpack配置。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">github上有一个关于此的封闭的“ wont-fix”问题：</font><a href="https://github.com/angular/angular-cli/issues/1656" rel="nofollow noreferrer"><font style="vertical-align: inherit;">https</font></a><font style="vertical-align: inherit;"> : </font></font><a href="https://github.com/angular/angular-cli/issues/1656" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">//github.com/angular/angular-cli/issues/1656</font></font></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">番长猴子</span>
@@ -121,9 +113,7 @@ topic: Webpack
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">考虑到Webpack上有用配置的数量，这是一个很大的缺点。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我不建议将其</font></font><code>angular-cli</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">用于生产应用程序，因为它受到了高度评​​价。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">逆天蛋蛋</span>
@@ -163,9 +153,7 @@ topic: Webpack
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">请再次注意投放目标的构建器中的更改。</font><font style="vertical-align: inherit;">发布这些更改后，您可以</font><font style="vertical-align: inherit;">在同一根目录中</font><font style="vertical-align: inherit;">创建一个名为</font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">custom-webpack.config.js</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">的文件</font><font style="vertical-align: inherit;">，并在其中添加您的webpack配置。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">但是，与</font><font style="vertical-align: inherit;">提供的</font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">ng弹出</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">配置</font><font style="vertical-align: inherit;">不同</font><font style="vertical-align: inherit;">，此处将与默认配置合并，因此只需添加要编辑/添加的内容即可。</font></font></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

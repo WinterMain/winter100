@@ -40,7 +40,7 @@ topic: JavaScript
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">设置选项值应该是（可能是）最简单的事情，但是到目前为止，我还是不明白。</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第1026篇《如何在AngularJS的ng-options中设置value属性？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第1026篇《如何在AngularJS的ng-options中设置value属性？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -74,9 +74,7 @@ topic: JavaScript
 </code></pre>
 
 <p>My HTML displays the option value properly.</p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">村村LEY</span>
@@ -104,9 +102,7 @@ topic: JavaScript
 <p>By above code sample, you might get out of this exaggeration.</p>
 
 <p>Another <a href="https://github.com/angular/angular.js/issues/1302" rel="nofollow noreferrer">reference</a>:</p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">泡芙小卤蛋Tom</span>
@@ -119,9 +115,7 @@ topic: JavaScript
   data-ng-model="entity.countryId"<font></font>
   ng-options="value.dataValue as value.dataText group by value.group for value in countries"&gt;&lt;/select&gt;<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Davaid阳光小卤蛋</span>
@@ -135,9 +129,7 @@ topic: JavaScript
 </code></pre>
 
 <p>which will assign labels with text and value with value(from the array)</p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">达蒙小胖</span>
@@ -147,9 +139,7 @@ topic: JavaScript
    &lt;option ng-repeat="(key,val) in dictionary" value="{{key}}"&gt;{{val}}&lt;/option&gt;<font></font>
 &lt;/select&gt;<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">理查德村村小宇宙</span>
@@ -159,9 +149,7 @@ topic: JavaScript
 
 <pre><code>&lt;select ng-model="mySelect" ng-options="key as value for (key, value) in object"&gt;&lt;/select&gt;
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">NearItachi</span>
@@ -169,9 +157,7 @@ topic: JavaScript
           </div>
           <div class="discuss-comment"><pre><code>&lt;select ng-model="color" ng-options="(c.name+' '+c.shade) for c in colors"&gt;&lt;/select&gt;&lt;br&gt;
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">YOC66078158</span>
@@ -203,9 +189,7 @@ topic: JavaScript
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">它很棒</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">乐伽罗古一</span>
@@ -221,9 +205,7 @@ topic: JavaScript
 </blockquote>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">请参阅堆栈溢出问题</font></font><em><a href="https://stackoverflow.com/questions/14425686/angularjs-ng-options-not-rendering-values"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">AngularJS ng-options不呈现值</font></font></a></em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">西里伽罗</span>
@@ -238,9 +220,7 @@ topic: JavaScript
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">您可以在其中使用模型绑定数据的位置。</font><font style="vertical-align: inherit;">您将获得该对象将包含的值，并根据您的方案选择默认值。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">录泰红木家具</span>
@@ -281,9 +261,7 @@ topic: JavaScript
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">另外，我需要空白的第一行，因此我只需将an添加</font></font><code>&lt;option&gt;</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">到</font></font><code>&lt;select&gt;</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">元素中。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这是</font><font style="vertical-align: inherit;">展示我工作</font><font style="vertical-align: inherit;">的</font></font><a href="http://plnkr.co/edit/fbfmpPht7ENkWrlfT8c4?p=info" rel="nofollow noreferrer" title="朋克"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Plunkr</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">达蒙小哥</span>
@@ -304,9 +282,7 @@ topic: JavaScript
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我发现这只是基于常识。</font><font style="vertical-align: inherit;">（k，v）是将数组/对象拆分为键值对的实际语句。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在“ k as v”语句中，k将是值，而v将是显示给用户的文本选项。</font><font style="vertical-align: inherit;">我认为“跟踪”是凌乱和过大的。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">神无Green前端</span>
@@ -324,9 +300,7 @@ topic: JavaScript
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">然后，期望值将以正确的名称通过表格发送。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">乐LEY</span>
@@ -351,9 +325,7 @@ topic: JavaScript
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">服务器将接收</font></font><code>iron</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">或</font></font><code>super</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">作为的值</font></font><code>my_hero</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这类似于</font></font><a href="https://stackoverflow.com/questions/12139152/how-do-i-set-the-value-property-in-angularjs-ng-options/17070766#17070766"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">@neemzy的答案</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，但是为该</font></font><code>value</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">属性</font><font style="vertical-align: inherit;">指定了单独的数据</font><font style="vertical-align: inherit;">。</font></font></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

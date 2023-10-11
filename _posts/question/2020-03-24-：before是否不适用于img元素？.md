@@ -51,7 +51,7 @@ topic: CSS
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我希望这项工作能够正常进行，因为这会让我感到不</font></font><code>span</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">舒服，但更重要的是，我有大约100个我想修改的博客文章，如果可以修改样式表，我可以一口气做到这一点，但是如果我必须返回并</font></font><code>span</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在</font></font><code>a</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">和</font></font><code>img</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">元素</font><font style="vertical-align: inherit;">之间</font><font style="vertical-align: inherit;">添加一个额外</font><font style="vertical-align: inherit;">的</font><font style="vertical-align: inherit;">元素，这将需要做更多的工作。  </font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第3415篇《：before是否不适用于img元素？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第3415篇《：before是否不适用于img元素？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -76,18 +76,14 @@ topic: CSS
     content: url(../images/check.png);<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">卡卡西</span>
             <span class="discuss-time">2020.03.24</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在前一个元素上</font><font style="vertical-align: inherit;">尝试</font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">:: after</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">伽罗理查德</span>
@@ -96,9 +92,7 @@ topic: CSS
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">:: before和:: after生成的伪元素包含在元素的格式框中，因此不适用于替换的元素（例如img）或br元素。</font></font></p>
 
 <p><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/::after" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">https://developer.mozilla.org/zh-CN/docs/Web/CSS/ ::之后</font></font></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">西门神奇</span>
@@ -132,9 +126,7 @@ img:not(:first-child)::after {<font></font>
 </div>
 </div>
 <p></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">西里阳光</span>
@@ -152,18 +144,14 @@ Content<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">但是，img是一个自包含的，自动关闭的标签，并且由于它没有单独的关闭标签，因此您不能在其中添加任何内容。</font><font style="vertical-align: inherit;">（这看起来应该像</font></font><code>&lt;img&gt;Content&lt;/img&gt;</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，但是当然不起作用。）</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我知道这是一个老话题，但是它首先出现在Google上，因此希望它可以帮助其他人学习。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">逆天Pro逆天</span>
             <span class="discuss-time">2020.03.24</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">之前和之后的伪选择器不会插入HTML元素，而是在目标元素的现有内容之前或之后插入文本。</font><font style="vertical-align: inherit;">由于图像元素不包含文本或有后代，既不</font></font><code>img:before</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">或者</font></font><code>img:after</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">将你带来任何好处。</font><font style="vertical-align: inherit;">这也是相同的元件的情况下</font></font><code>&lt;br&gt;</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">和</font></font><code>&lt;hr&gt;</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">出于同样的原因。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小胖LEY西门</span>
@@ -188,9 +176,7 @@ Content<font></font>
 </div>
 </div>
 <p></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

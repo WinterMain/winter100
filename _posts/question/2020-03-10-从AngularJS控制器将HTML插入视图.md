@@ -47,7 +47,7 @@ topic: JavaScript
 </code></pre></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第510篇《从AngularJS控制器将HTML插入视图》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第510篇《从AngularJS控制器将HTML插入视图》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -63,9 +63,7 @@ topic: JavaScript
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">希望对您有帮助。</font><font style="vertical-align: inherit;">谢谢。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">LEYJim</span>
@@ -77,9 +75,7 @@ topic: JavaScript
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在您需要使用之前</font></font><code>ng-bind-html</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">...</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">神乐Harry</span>
@@ -92,9 +88,7 @@ topic: JavaScript
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">您可以使用</font></font><strong><em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">“ ng-show”</font></font></em></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">来显示隐藏此模板数据。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小胖GO</span>
@@ -107,9 +101,7 @@ and expression can be "&lt;ul&gt;&lt;li&gt;render me please&lt;/li&gt;&lt;/ul&gt
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">确保在模块的依赖项中包括ngSanitize。</font><font style="vertical-align: inherit;">然后它应该工作正常。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Tom神奇</span>
@@ -135,9 +127,7 @@ this.myCtrl.comment.msg = $sce.trustAsHtml(html);<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">也可以与 </font></font><code>$scope.comment.msg = $sce.trustAsHtml(html);</code></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Mandy伽罗</span>
@@ -146,9 +136,7 @@ this.myCtrl.comment.msg = $sce.trustAsHtml(html);<font></font>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我今天尝试过，我发现的唯一方法是</font></font></p>
 
 <p><code>&lt;div ng-bind-html-unsafe="expression"&gt;&lt;/div&gt;</code></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

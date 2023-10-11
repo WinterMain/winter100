@@ -33,7 +33,7 @@ box-shadow: 2px 2px 5px #555555 "";<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如何重写mixin，以便在没有</font></font><code>$inset</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">传递</font><font style="vertical-align: inherit;">值的情况下</font><font style="vertical-align: inherit;">什么也不输出？</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第1933篇《使用可选参数进行Sass mixin》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第1933篇《使用可选参数进行Sass mixin》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -51,9 +51,7 @@ box-shadow: 2px 2px 5px #555555 "";<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">现在，当没有传递$ inset时，将不会显示任何内容。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">AEva</span>
@@ -67,9 +65,7 @@ box-shadow: 2px 2px 5px #555555 "";<font></font>
     box-shadow: $top $left $blur $color $inset;<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小胖泡芙</span>
@@ -87,9 +83,7 @@ box-shadow: 2px 2px 5px #555555 "";<font></font>
     }<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">斯丁乐</span>
@@ -136,9 +130,7 @@ position:absolute;<font></font>
  right: 5px;<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小宇宙理查德</span>
@@ -160,9 +152,7 @@ position:absolute;<font></font>
   @include box-shadow(2px 2px 5px #555, inset 0 0 0);<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Gil小哥番长</span>
@@ -193,9 +183,7 @@ position:absolute;<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">也与六合一 </font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">前端L小小</span>
@@ -211,9 +199,7 @@ position:absolute;<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这大致相当于Josh的答案，但是我认为显式命名的函数比字符串插值语法更容易混淆。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">理查德小胖</span>
@@ -245,9 +231,7 @@ position:absolute;<font></font>
 <li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">允许传递可变数量的参数</font></font></li>
 <li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">定义懒惰的默认值</font></font></li>
 </ul></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">神奇Pro</span>
@@ -265,9 +249,7 @@ position:absolute;<font></font>
   -moz-box-shadow: 12px 14px 2px green;  <font></font>
   box-shadow: 12px 14px 2px green;<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">理查德GO</span>
@@ -285,9 +267,7 @@ position:absolute;<font></font>
   }<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">斯丁JimDavaid</span>
@@ -313,9 +293,7 @@ position:absolute;<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如图答案</font></font><a href="https://stackoverflow.com/a/23565388/4601149"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在这里</font></font></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">老丝梅</span>
@@ -338,9 +316,7 @@ position:absolute;<font></font>
   @include box-shadow(2px 2px 5px #555, inset 0 0 0);<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">乐猴子</span>
@@ -367,9 +343,7 @@ position:absolute;<font></font>
 </code></pre>
 
 <p><em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在这里进行选择：</font></font><a href="https://stackoverflow.com/questions/7517941/pass-a-list-to-a-mixin-as-a-single-argument-with-sass/9960372#9960372"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">使用SASS作为单个参数将列表传递给mixin</font></font></a></em></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

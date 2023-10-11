@@ -57,7 +57,7 @@ export default layout;<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如何正确输入？</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第1861篇《TypeScript和React-子类型？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第1861篇《TypeScript和React-子类型？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -85,9 +85,7 @@ export default layout;<font></font>
     &lt;Aux/&gt;<font></font>
 )<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Tony小胖</span>
@@ -102,9 +100,7 @@ export default layout;<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">那对我有用。</font><font style="vertical-align: inherit;">子节点可以有很多不同的东西，因此显式键入可能会遗漏大小写。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这里有一个关于后续问题的更长的讨论：</font></font><a href="https://github.com/Microsoft/TypeScript/issues/13618" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">https</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> : </font><a href="https://github.com/Microsoft/TypeScript/issues/13618" rel="nofollow noreferrer"><font style="vertical-align: inherit;">//github.com/Microsoft/TypeScript/issues/13618</font></a><font style="vertical-align: inherit;">，但是任何方法仍然有效。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">西里斯丁</span>
@@ -116,9 +112,7 @@ export default layout;<font></font>
     return props.children;<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Sam逆天</span>
@@ -130,9 +124,7 @@ export default layout;<font></font>
   children: JSX.Element[] | JSX.Element<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">TomNear前端</span>
@@ -150,18 +142,14 @@ export default layout;<font></font>
 <pre><code>const aux: React.FC&lt;AuxProps&gt; = props =&gt;<font></font>
   &lt;&gt;{props.children}&lt;/&gt;;<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">古一小宇宙</span>
             <span class="discuss-time">2020.03.17</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">只是 </font></font><code>children: React.ReactNode</code></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

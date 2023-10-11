@@ -52,7 +52,7 @@ npm ERR! not ok code 0<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">帮我整理一下</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第3709篇《使用npm命令时SSL错误：CERT_UNTRUSTED》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第3709篇《使用npm命令时SSL错误：CERT_UNTRUSTED》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -75,9 +75,7 @@ npm ERR! not ok code 0<font></font>
 
 <pre><code>npm install npm@latest -g
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">AEva</span>
@@ -100,9 +98,7 @@ npm ERR! not ok code 0<font></font>
   <li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">它将永远不会写入package.json或任何包锁：安装实际上是冻结的。</font></font></li>
   </ul>
 </blockquote></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Davaid斯丁</span>
@@ -122,9 +118,7 @@ sudo n stable<font></font>
 <hr>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">编辑：好的，如果您</font></font><em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">确实</font></font></em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">有充分的理由运行软件的旧版本，</font></font><code>npm set ca null</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">将解决此问题。</font><font style="vertical-align: inherit;">发生了，因为内置的npm证书已过期多年。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">凯斯丁达蒙</span>
@@ -140,18 +134,14 @@ sudo apt-get install nodejs -y<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">可在以下链接中找到更多版本和系统的安装说明：</font></font></p>
 
 <p><a href="https://github.com/nodesource/distributions/blob/master/README.md" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">https://github.com/nodesource/distributions/blob/master/README.md</font></font></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">蛋蛋猿</span>
             <span class="discuss-time">2020.03.24</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我认为我有上述错误的原因。</font><font style="vertical-align: inherit;">它是为了在客户端网络中工作而提供的公司代理（虚拟专用网络）。</font><font style="vertical-align: inherit;">没有这种连接，我经常会遇到相同的问题，无论是maven build还是npm install。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">JinJin</span>
@@ -161,9 +151,7 @@ sudo apt-get install nodejs -y<font></font>
 
 <pre><code>npm --https-proxy=http://proxy.company.com install express -g
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">神乐</span>
@@ -180,9 +168,7 @@ sudo apt-get install nodejs -y<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">但是，我个人认为绕过https不是真正的解决方案，但是我们可以将其用作解决方法。 </font></font></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

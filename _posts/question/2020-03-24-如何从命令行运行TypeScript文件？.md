@@ -19,7 +19,7 @@ topic: Node.js
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我的项目有一个</font></font><code>tsconfig.json</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">供Webpack / ts-loader使用的工具，用于为浏览器构建一个不错的小捆绑包。</font><font style="vertical-align: inherit;">不过，在此之前，我需要从控制台运行一个构建步骤，该步骤将使用</font></font><code>.ts</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">项目中</font><font style="vertical-align: inherit;">使用的一些</font><font style="vertical-align: inherit;">文件来生成模式，但是我似乎无法在不编译的情况下运行单个Typescript文件整个项目。</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第3252篇《如何从命令行运行TypeScript文件？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第3252篇《如何从命令行运行TypeScript文件？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -49,9 +49,7 @@ console.log(greeter.greet());<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">现在，使用命令编译以上文件，该命令</font></font><code>tsc Greeter.ts</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">将在同一目录中创建文件Greeter.js。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">现在，您可以运行</font></font><code>node Greeter.js</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">将输出</font><font style="vertical-align: inherit;">的命令</font></font><code>Hello, world</code></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">樱小胖Mandy</span>
@@ -89,18 +87,14 @@ $TSC $TSCFILE &amp;&amp; $NODE $JSFILE<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">简单。</font><font style="vertical-align: inherit;">只要确保您的脚本只有一个“”即可。</font><font style="vertical-align: inherit;">否则，您将需要以不同于我所展示的方式更改JSFILE。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">梅小小</span>
             <span class="discuss-time">2020.03.24</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">该问题发布于2015年。在2018年，node可以识别</font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">.js</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">和</font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">.ts</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font><font style="vertical-align: inherit;">因此，运行</font></font><strong><code>node file.ts</code></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">也将运行。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">神乐西门</span>
@@ -111,9 +105,7 @@ $TSC $TSCFILE &amp;&amp; $NODE $JSFILE<font></font>
 <pre><code>#!/bin/bash<font></font>
 npx tsc $1 &amp;&amp; node ${1%%.ts}<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小胖蛋蛋前端</span>
@@ -130,9 +122,7 @@ npx tsc $1 &amp;&amp; node ${1%%.ts}<font></font>
 
 <pre><code>tsc main.ts &amp;&amp; node main.js
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">JimJim小小</span>
@@ -141,9 +131,7 @@ npx tsc $1 &amp;&amp; node ${1%%.ts}<font></font>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">只是有用的信息-这是最新的TypeScript / JavaScript运行时</font></font><a href="https://github.com/denoland/deno" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Deno</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">它是由节点Ryan Dahl的创建者创建的，基于他可能会重新开始时会做的不同。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">LGil</span>
@@ -180,9 +168,7 @@ console.log("Result",result)<font></font>
 <ol start="5">
 <li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">结果将显示在控制台上 </font></font></li>
 </ol></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">猴子村村</span>
@@ -198,9 +184,7 @@ npm install -g typescript<font></font>
 
 <pre class="lang-sh prettyprint-override"><code>ts-node typescript-file.ts
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Davaid番长</span>
@@ -215,9 +199,7 @@ npm install -g typescript<font></font>
 <h1><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">TS节点</font></font></h1>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">有ts-node：</font></font><a href="https://github.com/TypeStrong/ts-node"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">https</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> : </font><a href="https://github.com/TypeStrong/ts-node"><font style="vertical-align: inherit;">//github.com/TypeStrong/ts-node</font></a><font style="vertical-align: inherit;">会为您做所有这一切🌹</font></font></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

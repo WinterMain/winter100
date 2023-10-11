@@ -43,7 +43,7 @@ topic: JavaScript
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">JavaScript或可用的库无法执行的工作是什么，这使我有理由考虑？</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第236篇《什么是TypeScript？为什么我要用它代替JavaScript？[关闭]》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第236篇《什么是TypeScript？为什么我要用它代替JavaScript？\[关闭\]》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -58,9 +58,7 @@ topic: JavaScript
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">•TypeScript是类型-&gt;意味着我们必须定义每个属性和方法的数据类型。</font><font style="vertical-align: inherit;">如果您知道C＃，那么Typescript很容易理解。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">•TypeScript的一大优势是我们可以在投入生产之前及早识别与类型相关的问题。</font><font style="vertical-align: inherit;">如果类型不匹配，这会使单元测试失败。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">前端Eva</span>
@@ -71,9 +69,7 @@ topic: JavaScript
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">对我来说，除了智能感知的可能性之外，真正好的功能还包括</font></font><em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">类</font></font></em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，</font></font><em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">接口</font></font></em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，</font></font><em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">模块</font></font></em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，易于实现AMD以及在通过IE调用时使用Visual Studio Typescript调试器的可能性。</font></font></p>
 
 <p><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">总结</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">：如果按预期使用TypeScript，可以使JavaScript编程更可靠，更容易。</font><font style="vertical-align: inherit;">在整个SDLC上，它可以显着提高JavaScript程序员的生产率。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小胖Gil</span>
@@ -82,9 +78,7 @@ topic: JavaScript
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">TypeScript所做的事情与CSS的less或sass相似。</font><font style="vertical-align: inherit;">它们是它的超级集，这意味着您编写的每个JS代码都是有效的TypeScript代码。</font><font style="vertical-align: inherit;">另外，您可以使用它添加到语言中的其他优点，并且转译后的代码将是有效的js。</font><font style="vertical-align: inherit;">您甚至可以设置要在其上生成结果代码的JS版本。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">当前TypeScript是ES2015的超集，因此可能是开始学习js新功能并转换为项目所需标准的一个不错的选择。 </font></font></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

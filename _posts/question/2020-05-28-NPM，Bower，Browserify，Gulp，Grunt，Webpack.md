@@ -36,7 +36,7 @@ topic: Webpack
 </ol></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第4206篇《NPM，Bower，Browserify，Gulp，Grunt，Webpack》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第4206篇《NPM，Bower，Browserify，Gulp，Grunt，Webpack》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -63,9 +63,7 @@ topic: Webpack
 </span><span class="pun">}</span></code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">实际上，如果软件包支持CLI，则通常不需要任何插件。 </font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Itachi</span>
@@ -75,9 +73,7 @@ topic: Webpack
 因此，这里是：</font><a href="https://yarnpkg.com/" rel="nofollow noreferrer"><font style="vertical-align: inherit;">https</font></a><font style="vertical-align: inherit;"> : </font></font><a href="https://yarnpkg.com/" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">//yarnpkg.com/</font></font></a></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">据我所知，它可以获取npm和bower依赖关系，并具有其他令人赞赏的功能。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小胖Gil</span>
@@ -90,9 +86,7 @@ topic: Webpack
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如您所见，webpack维护得很好，平均每4天就会发布一个新版本。</font><font style="vertical-align: inherit;">但是Gulp似乎拥有最大的社区（Github上有超过2万颗星）Grunt似乎被忽略了（与其他人相比）</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">因此，如果需要选择一个，我会选择Gulp</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">蛋蛋和田</span>
@@ -101,9 +95,7 @@ topic: Webpack
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">关于npm的小提示：npm3尝试以扁平方式安装依赖项</font></font></p>
 
 <p><a href="https://docs.npmjs.com/how-npm-works/npm3#npm-v3-dependency-resolution"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">https://docs.npmjs.com/how-npm-works/npm3#npm-v3-dependency-resolution</font></font></a></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

@@ -36,7 +36,7 @@ for (var x = 0; x &lt; Args.length; x++)<font></font>
 </code></pre></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第1704篇《打破JavaScript中的嵌套循环的最佳方法是什么？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第1704篇《打破JavaScript中的嵌套循环的最佳方法是什么？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -50,9 +50,7 @@ for (var x = 0; x &lt; Args.length; x++)<font></font>
 1) Sort the both array which are used in first and second loop. <br>
 2) if item matched then break the inner loop and hold the index value.<br>
 3) when start next iteration start inner loop with hold index value.</p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">凯泡芙A</span>
@@ -111,9 +109,7 @@ for (var x = 0; x &lt; Args.length; x++)<font></font>
         });<font></font>
     });<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Itachi猪猪Green</span>
@@ -147,9 +143,7 @@ for (var i = 0 ; i &lt; Args.length &amp;&amp; condition ; i++) {<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这样，循环在满足条件后立即停止</font></font></p>
 
 <p><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">提醒：此代码在TypeScript中运行</font></font></strong></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">路易Harry</span>
@@ -182,9 +176,7 @@ for (var i = 0; i &lt; _table.length; i++) {<font></font>
   result.add(r);<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小卤蛋伽罗</span>
@@ -223,9 +215,7 @@ loop:<font></font>
     return ok;<font></font>
 };<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">老丝梅神乐</span>
@@ -241,9 +231,7 @@ loop:<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">...因此您只需使用“返回”即可退出循环。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">卡卡西猪猪</span>
@@ -264,9 +252,7 @@ loop:<font></font>
        }<font></font>
      }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">null</span>
@@ -288,9 +274,7 @@ loop:<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">从正面看，它自然流动，这将使非GOTO人群感到满意。</font><font style="vertical-align: inherit;">不利的一面是，内部循环需要在终止之前完成当前迭代，因此在某些情况下可能不适用。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">A小宇宙</span>
@@ -327,9 +311,7 @@ for (var i = 0; i &lt; 89; i++) {<font></font>
   }<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小宇宙卡卡西</span>
@@ -349,9 +331,7 @@ for (var i in a) {<font></font>
     if (breakCheck1) break;<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">十三伽罗Harry</span>
@@ -369,18 +349,14 @@ for (a = 0; a &lt; 10 &amp;&amp; !abort; a++) {<font></font>
     }<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Stafan小小斯丁</span>
             <span class="discuss-time">2020.03.16</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">将其包装在一个函数中，然后将其包装</font></font><code>return</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Davaid番长十三</span>
@@ -464,9 +440,7 @@ for (i = 0; i &lt; 5; i++)<font></font>
 }<font></font>
 nested_loops();<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">泡芙小卤蛋</span>
@@ -489,9 +463,7 @@ loop3:<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如EMCA-262第12.12节所定义。</font></font><a href="https://developer.mozilla.org/en/JavaScript/Reference/Statements/label" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">[MDN文件]</font></font></a></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">与C不同，这些标签只能用于</font></font><a href="https://developer.mozilla.org/en/JavaScript/Reference/Statements/continue" rel="noreferrer"><code>continue</code></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">和</font></font><a href="https://developer.mozilla.org/en/JavaScript/Reference/Statements/break" rel="noreferrer"><code>break</code></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，而Javascript没有</font></font><code>goto</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

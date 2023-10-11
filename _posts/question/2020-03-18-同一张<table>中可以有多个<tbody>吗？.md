@@ -17,7 +17,7 @@ topic: HTML
     <div class="article-content"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我们可以</font></font><code>&lt;tbody&gt;</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在同一标签中</font><font style="vertical-align: inherit;">包含多个</font><font style="vertical-align: inherit;">标签</font></font><code>&lt;table&gt;</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">吗？</font><font style="vertical-align: inherit;">如果是，那么在什么情况下我们应该使用多个</font></font><code>&lt;tbody&gt;</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">标签？</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第2061篇《同一张<table>中可以有多个<tbody>吗？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第2061篇《同一张<table>中可以有多个<tbody>吗？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -104,18 +104,14 @@ Side note:
 This fills up the DOM if you have a lot of data on both levels, so I am therefore working on a directive to fetch data and replace, i.e. adding into DOM when clicking parent and removing when another is clicked or same parent again.
 To get the kind of behavior you find on <a href="http://www.prisjakt.nu/kategori.php?k=353#footer" rel="nofollow">Prisjakt.nu</a>, if you scroll down to the computers listed and click on the row (not the links). If you do that and inspect elements you will see that a tr is added and then removed if parent is clicked again or another.
 )</p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">老丝小卤蛋</span>
             <span class="discuss-time">2020.03.18</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">此外，如果您</font></font><code>&lt;tbody&gt;</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">通过</font></font><a href="http://validator.w3.org/check" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">W3C的HTML验证器</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">（带有HTML5 DOCTYPE）</font><font style="vertical-align: inherit;">运行带有多个</font><font style="vertical-align: inherit;">标签</font><a href="http://validator.w3.org/check" rel="nofollow"><font style="vertical-align: inherit;">的HTML</font></a><font style="vertical-align: inherit;">文档，它将成功验证。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小卤蛋Near小卤蛋</span>
@@ -146,9 +142,7 @@ To get the kind of behavior you find on <a href="http://www.prisjakt.nu/kategori
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">上面的示例未按您期望的方式进行渲染，因为这样的编写表明对</font></font><code>caption</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">标签</font><font style="vertical-align: inherit;">有误解</font><font style="vertical-align: inherit;">。</font><font style="vertical-align: inherit;">您将需要大量CSS技巧来使其正确呈现，因为这将违反标准。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我在</font></font><code>caption</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">标记</font><font style="vertical-align: inherit;">上搜索了W3Cs标准，</font><font style="vertical-align: inherit;">但找不到明确的规则来声明</font></font><code>caption</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">每个表</font><font style="vertical-align: inherit;">只能有一个</font><font style="vertical-align: inherit;">元素，但实际上就是这种情况。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">卡卡西Itachi</span>
@@ -173,18 +167,14 @@ To get the kind of behavior you find on <a href="http://www.prisjakt.nu/kategori
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">可以提供一个按钮，以通过操纵正文而不在单独处理很多行的情况下在所有日期之间切换或仅在当天切换。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">神无西里</span>
             <span class="discuss-time">2020.03.18</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">根据此示例可以完成：</font></font><a href="http://www.w3.org/TR/html401/struct/tables.html#h-11.2.3" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">w3-struct-tables</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小哥小卤蛋</span>
@@ -222,9 +212,7 @@ tbody:nth-child(even) { background: #e5e5e5;  border: solid 1px #ddd; }</code></
 <p></p>
 
 <p><a href="http://jsfiddle.net/umRJr/" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">您可以在此处查看示例</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font><font style="vertical-align: inherit;">它只能在更新的浏览器中使用，但这就是我当前应用程序所支持的功能，您可以对JavaScript等使用分组。主要是，这是一种方便的方式，可以直观地对行进行分组以使数据更具可读性。</font><font style="vertical-align: inherit;">当然还有其他用途，但就适用示例而言，这对我来说是最常见的一种。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Jim猴子Itachi</span>
@@ -242,9 +230,7 @@ tbody:nth-child(even) { background: #e5e5e5;  border: solid 1px #ddd; }</code></
   <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">当</font><font style="vertical-align: inherit;">
   在表行组之间需要</font></font><a href="http://www.w3.org/TR/html401/struct/tables.html#h-11.3.1" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">规则</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">时，请使用多个正文部分</font><font style="vertical-align: inherit;">。</font></font></p>
 </blockquote></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">西门村村古一</span>
@@ -312,9 +298,7 @@ tbody:nth-child(even) { background: #e5e5e5;  border: solid 1px #ddd; }</code></
 </div>
 </div>
 <p></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

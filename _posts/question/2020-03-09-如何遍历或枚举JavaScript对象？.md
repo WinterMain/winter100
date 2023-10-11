@@ -27,7 +27,7 @@ topic: JavaScript
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我可以根据需要修改JavaScript对象。</font><font style="vertical-align: inherit;">我的最终目标是遍历一些键值对，如果可能的话，我想避免使用</font></font><code>eval</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第168篇《如何遍历或枚举JavaScript对象？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第168篇《如何遍历或枚举JavaScript对象？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -40,9 +40,7 @@ topic: JavaScript
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在最新的ES脚本中，您可以执行以下操作：</font></font></p>
 
 <pre class="lang-js prettyprint prettyprinted" style=""><code><span class="typ">Object</span><span class="pun">.</span><span class="pln">entries</span><span class="pun">(</span><span class="pln">p</span><span class="pun">);</span></code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">阿飞小卤蛋</span>
@@ -59,9 +57,7 @@ topic: JavaScript
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">和钥匙（在这里我已经回答了） </font></font></p>
 
 <pre class="lang-js prettyprint prettyprinted" style=""><code><span class="kwd">let</span><span class="pln"> arrKeys   </span><span class="pun">=</span><span class="pln"> </span><span class="typ">Object</span><span class="pun">.</span><span class="pln">keys</span><span class="pun">(</span><span class="pln">yourObject</span><span class="pun">);</span></code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Near神奇</span>
@@ -137,9 +133,7 @@ console</span><span class="pun">.</span><span class="pln">log</span><span class=
 </span><span class="lit">3</span></code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">您可以</font><font style="vertical-align: inherit;">使用上面提供的所有代码</font><font style="vertical-align: inherit;">签出</font></font><a href="http://www.es6fiddle.net/isksh68n/" rel="nofollow" data-bitapp="processed"><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">JSFiddle</font></font></strong></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">飞云Eva</span>
@@ -167,9 +161,7 @@ console</span><span class="pun">.</span><span class="pln">log</span><span class=
 <div class="snippet-result"><div class="snippet-ctas"><button type="button" class="s-btn s-btn__primary"><span class="icon-play-white _hover"></span><span><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> 运行代码段</font></font></span></button><input class="copySnippet s-btn s-btn__filled" type="button" value="Copy snippet to answer" style="display: none;"><button type="button" class="s-btn hideResults" style="display: none;">Hide results</button><div class="popout-code"><a class="snippet-expand-link" data-bitapp="processed"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">展开摘要</font></font></a></div></div><div class="snippet-result-code" style="display: none;"><iframe name="sif19" sandbox="allow-forms allow-modals allow-scripts" class="snippet-box-edit" frameborder="0"></iframe></div></div></div>
 </div>
 <p></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">飞云Tom小宇宙</span>
@@ -188,9 +180,7 @@ console</span><span class="pun">.</span><span class="pln">log</span><span class=
 </span><span class="kwd">for</span><span class="pln"> </span><span class="pun">(</span><span class="kwd">var</span><span class="pln"> key </span><span class="kwd">of</span><span class="pln"> </span><span class="typ">Object</span><span class="pun">.</span><span class="pln">keys</span><span class="pun">(</span><span class="pln">p</span><span class="pun">))</span><span class="pln"> </span><span class="pun">{</span><span class="pln">
    console</span><span class="pun">.</span><span class="pln">log</span><span class="pun">(</span><span class="pln">key </span><span class="pun">+</span><span class="pln"> </span><span class="str">" : "</span><span class="pln"> </span><span class="pun">+</span><span class="pln"> object</span><span class="pun">[</span><span class="pln">key</span><span class="pun">])</span><span class="pln">
 </span><span class="pun">}</span></code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Tony西门古一</span>
@@ -216,9 +206,7 @@ console</span><span class="pun">.</span><span class="pln">log</span><span class=
 </span><span class="pun">}</span></code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">但是了解使用es6现在所具有的功能很重要！</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小胖梅</span>
@@ -250,9 +238,7 @@ console</span><span class="pun">.</span><span class="pln">log</span><span class=
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">请注意，自2016年6月18日起，大多数浏览器将不支持上述代码。即使在Chrome中，您也需要启用此特殊标志才能使其正常工作： </font></font><code>chrome://flags/#enable-javascript-harmony</code></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在成为新标准之前，仍然可以使用旧方法，但是流行的库中还有其他选择，甚至</font><font style="vertical-align: inherit;">对于那些不使用这些库的人来说，</font><font style="vertical-align: inherit;">甚至还有</font></font><a href="https://github.com/nbouvrette/forEach" rel="noreferrer" data-bitapp="processed"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">轻量级的选择</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">番长神无</span>
@@ -272,9 +258,7 @@ console</span><span class="pun">.</span><span class="pln">log</span><span class=
 <div class="snippet-result"><div class="snippet-ctas"><button type="button" class="s-btn s-btn__primary"><span class="icon-play-white _hover"></span><span><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> 运行代码段</font></font></span></button><input class="copySnippet s-btn s-btn__filled" type="button" value="Copy snippet to answer" style="display: none;"><button type="button" class="s-btn hideResults" style="display: none;">Hide results</button><div class="popout-code"><a class="snippet-expand-link" data-bitapp="processed"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">展开摘要</font></font></a></div></div><div class="snippet-result-code" style="display: none;"><iframe name="sif17" sandbox="allow-forms allow-modals allow-scripts" class="snippet-box-edit" frameborder="0"></iframe></div></div></div>
 </div>
 <p></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Harry小宇宙</span>
@@ -288,9 +272,7 @@ keys </span><span class="pun">=</span><span class="pln"> </span><span class="typ
 </span><span class="kwd">for</span><span class="pun">(</span><span class="pln">i </span><span class="pun">=</span><span class="pln"> </span><span class="lit">0</span><span class="pun">;</span><span class="pln"> i </span><span class="pun">&lt;</span><span class="pln"> keys</span><span class="pun">.</span><span class="pln">length</span><span class="pun">;</span><span class="pln"> i</span><span class="pun">++){</span><span class="pln">
   console</span><span class="pun">.</span><span class="pln">log</span><span class="pun">(</span><span class="pln">keys</span><span class="pun">[</span><span class="pln">i</span><span class="pun">]</span><span class="pln"> </span><span class="pun">+</span><span class="pln"> </span><span class="str">"="</span><span class="pln"> </span><span class="pun">+</span><span class="pln"> p</span><span class="pun">[</span><span class="pln">keys</span><span class="pun">[</span><span class="pln">i</span><span class="pun">]]);</span><span class="pln">   </span><span class="com">// p1=value1, p2=value2, p3=value3</span><span class="pln">
 </span><span class="pun">}</span></code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">SamEva</span>
@@ -310,9 +292,7 @@ keys </span><span class="pun">=</span><span class="pln"> </span><span class="typ
 <div class="snippet-result"><div class="snippet-ctas"><button type="button" class="s-btn s-btn__primary"><span class="icon-play-white _hover"></span><span><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> 运行代码段</font></font></span></button><input class="copySnippet s-btn s-btn__filled" type="button" value="Copy snippet to answer" style="display: none;"><button type="button" class="s-btn hideResults" style="display: none;">Hide results</button><div class="popout-code"><a class="snippet-expand-link" data-bitapp="processed"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">展开摘要</font></font></a></div></div><div class="snippet-result-code" style="display: none;"><iframe name="sif16" sandbox="allow-forms allow-modals allow-scripts" class="snippet-box-edit" frameborder="0"></iframe></div></div></div>
 </div>
 <p></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">理查德阳光</span>
@@ -340,9 +320,7 @@ keys </span><span class="pun">=</span><span class="pln"> </span><span class="typ
 <div class="snippet-result"><div class="snippet-ctas"><button type="button" class="s-btn s-btn__primary"><span class="icon-play-white _hover"></span><span><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> 运行代码段</font></font></span></button><input class="copySnippet s-btn s-btn__filled" type="button" value="Copy snippet to answer" style="display: none;"><button type="button" class="s-btn hideResults" style="display: none;">Hide results</button><div class="popout-code"><a class="snippet-expand-link" data-bitapp="processed"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">展开摘要</font></font></a></div></div><div class="snippet-result-code" style="display: none;"><iframe name="sif14" sandbox="allow-forms allow-modals allow-scripts" class="snippet-box-edit" frameborder="0"></iframe></div></div></div>
 </div>
 <p></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">神乐路易</span>
@@ -363,9 +341,7 @@ keys </span><span class="pun">=</span><span class="pln"> </span><span class="typ
 <div class="snippet-result"><div class="snippet-ctas"><button type="button" class="s-btn s-btn__primary"><span class="icon-play-white _hover"></span><span><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> 运行代码段</font></font></span></button><input class="copySnippet s-btn s-btn__filled" type="button" value="Copy snippet to answer" style="display: none;"><button type="button" class="s-btn hideResults" style="display: none;">Hide results</button><div class="popout-code"><a class="snippet-expand-link" data-bitapp="processed"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">展开摘要</font></font></a></div></div><div class="snippet-result-code" style="display: none;"><iframe name="sif11" sandbox="allow-forms allow-modals allow-scripts" class="snippet-box-edit" frameborder="0"></iframe></div></div></div>
 </div>
 <p></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">番长猴子古一</span>
@@ -387,9 +363,7 @@ obj</span><span class="pun">.</span><span class="pln">each</span><span class="pu
 </span><span class="com">// a 1</span><span class="pln">
 </span><span class="com">// b 2</span><span class="pln">
 </span><span class="com">// c 3</span></code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">卡卡西卡卡西</span>
@@ -400,9 +374,7 @@ obj</span><span class="pun">.</span><span class="pln">each</span><span class="pu
 </span><span class="pun">}</span></code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">注意：您可以在数组上执行此操作，但是也将在</font></font><code>length</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">和其他属性上</font><font style="vertical-align: inherit;">进行迭代</font><font style="vertical-align: inherit;">。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小卤蛋前端</span>
@@ -415,9 +387,7 @@ obj</span><span class="pun">.</span><span class="pln">each</span><span class="pu
 </span><span class="pun">}</span></code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">请注意，它</font></font><code>key</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">不会采用该属性的值，而只是一个索引值。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">满天星</span>
@@ -475,9 +445,7 @@ obj</span><span class="pun">.</span><span class="pln">each</span><span class="pu
 </span><span class="kwd">for</span><span class="pln"> </span><span class="pun">(</span><span class="kwd">let</span><span class="pln"> </span><span class="pun">[</span><span class="pln">key</span><span class="pun">,</span><span class="pln"> value</span><span class="pun">]</span><span class="pln"> </span><span class="kwd">of</span><span class="pln"> </span><span class="typ">Object</span><span class="pun">.</span><span class="pln">entries</span><span class="pun">(</span><span class="pln">p</span><span class="pun">))</span><span class="pln"> </span><span class="pun">{</span><span class="pln">
   console</span><span class="pun">.</span><span class="pln">log</span><span class="pun">(`</span><span class="pln">$</span><span class="pun">{</span><span class="pln">key</span><span class="pun">}:</span><span class="pln"> $</span><span class="pun">{</span><span class="pln">value</span><span class="pun">}`);</span><span class="pln">
 </span><span class="pun">}</span></code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">宝儿猿</span>
@@ -510,9 +478,7 @@ obj</span><span class="pun">.</span><span class="pln">each</span><span class="pu
 </span><span class="pun">}</span></code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">二者</font></font><code>Object.keys()</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">并</font></font><code>Object.entries()</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">以相同的顺序作为迭代性质</font></font><code>for...in</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">环</font></font><em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">但忽略原型链</font></font></em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font><font style="vertical-align: inherit;">仅迭代对象自身的可枚举属性。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">猪猪小小小哥</span>
@@ -552,9 +518,7 @@ obj</span><span class="pun">.</span><span class="pln">each</span><span class="pu
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">此问题上所有最受欢迎案例的性能比较</font></font><code>perfjs.info</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">：</font></font></p>
 
 <p><a href="http://perfjs.info/#!/384A61CA-DA2E-4FD2-A113-080010D4A42B" rel="noreferrer" data-bitapp="processed"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">对象文字迭代</font></font></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">猴子古一蛋蛋</span>
@@ -573,9 +537,7 @@ obj</span><span class="pun">.</span><span class="pln">each</span><span class="pu
     </span><span class="pun">}</span><span class="pln">
     </span><span class="com">//Do your logic with the property here</span><span class="pln">
 </span><span class="pun">}</span></code></pre></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

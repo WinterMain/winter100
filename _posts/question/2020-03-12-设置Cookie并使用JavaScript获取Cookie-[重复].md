@@ -68,7 +68,7 @@ function getCookie(){<font></font>
 </code></pre></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第1153篇《设置Cookie并使用JavaScript获取Cookie [重复]》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第1153篇《设置Cookie并使用JavaScript获取Cookie \[重复\]》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -124,9 +124,7 @@ function getCookie(){<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Mozilla进行了一些测试，以证明此方法在所有情况下均有效。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">还有一个另外的片段</font></font><a href="http://mdn.beonex.com/en/DOM/document.cookie.html" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在这里</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">：</font></font></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

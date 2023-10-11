@@ -23,7 +23,7 @@ topic: CSS
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">是否可以在不更改HTML且不应用其他CSS类的情况下用FontAwesome替换Glyphicons？</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第4093篇《如何在Bootstrap 3中用FontAwesome替换Glyphicons，而不更改HTML？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第4093篇《如何在Bootstrap 3中用FontAwesome替换Glyphicons，而不更改HTML？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -50,9 +50,7 @@ topic: CSS
     content:"\f054"<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">L泡芙Jim</span>
@@ -88,9 +86,7 @@ topic: CSS
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">但是，</font><font style="vertical-align: inherit;">请将其</font><font style="vertical-align: inherit;">视为</font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">HACK，</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">并且</font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">不要重载所有图标</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，因为它会使CSS不必要地变大！</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">考虑说服您的第三方供应商为不同的图标库实施支持。</font><font style="vertical-align: inherit;">这将是一个适当的解决方案。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">GO</span>
@@ -105,9 +101,7 @@ topic: CSS
 <hr>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">即使这样做确实会重载所有图标，但是如果您从引导程序构建中删除所有glyphicon图标，您实际上也会节省一些字节（-字体的确很棒）</font></font></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

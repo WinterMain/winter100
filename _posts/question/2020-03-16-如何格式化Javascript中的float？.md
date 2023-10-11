@@ -17,7 +17,7 @@ topic: JavaScript
     <div class="article-content"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在JavaScript中，从浮点数转换为字符串时，小数点后仅能获得2位数字吗？</font><font style="vertical-align: inherit;">例如，用0.34代替0.3445434。</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第1708篇《如何格式化Javascript中的float？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第1708篇《如何格式化Javascript中的float？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -54,9 +54,7 @@ So with your specific case:</p>
 
 <pre class="lang-js prettyprint-override"><code>roundOf(0.3445434, 2).toFixed(2); // 0.34
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小哥蛋蛋</span>
@@ -76,9 +74,7 @@ So with your specific case:</p>
     return Math.round( (number * multi).toFixed(precision + 1) ) / multi;<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Green小哥Tom</span>
@@ -113,9 +109,7 @@ humanize(3/4)<font></font>
 humanize(4/3)<font></font>
 "1.333333"<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">达蒙阿飞斯丁</span>
@@ -124,9 +118,7 @@ humanize(4/3)<font></font>
           <div class="discuss-comment"><pre><code>var x = 0.3445434<font></font>
 x = Math.round (x*100) / 100 // this will make nice rounding<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">米亚ItachiL</span>
@@ -142,9 +134,7 @@ print(x.toFixed(2));<font></font>
 
 <p><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">编辑：</font></font></strong>
 <a href="http://jsfiddle.net/TM7DQ/" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">小提琴</font></font></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">樱西里猴子</span>
@@ -156,9 +146,7 @@ print(x.toFixed(2));<font></font>
 <p><a href="http://www.javascriptkit.com/javatutors/round.shtml" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">具体细节</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，以防代码不言自明。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">编辑：...或</font></font><code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number/toFixed" rel="noreferrer">toFixed</a></code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">按照</font></font><a href="https://stackoverflow.com/questions/661562/comma-format-in-javascript/661579#661579"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">TimBüthe的</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">建议</font><font style="vertical-align: inherit;">使用</font><font style="vertical-align: inherit;">。</font><font style="vertical-align: inherit;">忘了那个，谢谢（和赞扬）:)</font></font></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

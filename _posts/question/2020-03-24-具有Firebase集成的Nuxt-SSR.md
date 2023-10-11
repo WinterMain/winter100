@@ -23,7 +23,7 @@ topic: Vue.js
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">知道我该如何解决吗？</font><font style="vertical-align: inherit;">还是我错过了该项目上的任何其他配置？</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第3483篇《具有Firebase集成的Nuxt SSR》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第3483篇《具有Firebase集成的Nuxt SSR》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}

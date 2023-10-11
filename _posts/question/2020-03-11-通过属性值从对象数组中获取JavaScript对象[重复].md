@@ -46,7 +46,7 @@ topic: JavaScript
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">有没有一种方法可以</font></font><code>{a: 5, b: 6}</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">通过属性的值</font><font style="vertical-align: inherit;">获取第三个对象（</font><font style="vertical-align: inherit;">）</font></font><code>b</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，例如没有</font></font><code>for...in</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">循环？</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第598篇《通过属性值从对象数组中获取JavaScript对象[重复]》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第598篇《通过属性值从对象数组中获取JavaScript对象\[重复\]》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -64,9 +64,7 @@ topic: JavaScript
 <font></font>
    var result = jsObjects.find(byValue.bind({ a: 5, b: 6 }));<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小小Stafan宝儿</span>
@@ -140,9 +138,7 @@ textarea, button {<font></font>
 </div>
 </div>
 <p></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">神乐前端</span>
@@ -153,9 +149,7 @@ textarea, button {<font></font>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">要访问第三个对象，请使用：</font></font><code>jsObjects[2];</code><br><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
 要访问第三个对象b值，请使用：</font></font><code>jsObjects[2].b;</code></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">蛋蛋Itachi</span>
@@ -165,9 +159,7 @@ textarea, button {<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">会更好，有时在过滤器中使用return可能无法获得结果（我不知道为什么）</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">伽罗卡卡西</span>
@@ -183,9 +175,7 @@ textarea, button {<font></font>
     }<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Sam凯卡卡西</span>
@@ -197,9 +187,7 @@ textarea, button {<font></font>
 
 <pre><code>var result = arr.reduce(function(prev, curr) { return (curr.b === 6) ? curr : prev; }, null);
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小胖Eva</span>
@@ -234,9 +222,7 @@ console.log( [4, 5, 8, 12].find(isPrime) ); // 5<font></font>
 console.log( [4, 6, 8, 12].findIndex(isPrime) ); // -1, not found<font></font>
 console.log( [4, 6, 7, 12].findIndex(isPrime) ); // 2<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">伽罗Mandy</span>
@@ -259,9 +245,7 @@ jsObjects.some(function (obj) {<font></font>
   return obj.b === 6;<font></font>
 });<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">HarryL梅</span>
@@ -294,9 +278,7 @@ jsObjects.some(function (obj) {<font></font>
 </code></pre>
 
 <p><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">工作提琴：</font></font></strong> <font style="vertical-align: inherit;"><a href="https://jsfiddle.net/uq9n9g77/" rel="noreferrer"><font style="vertical-align: inherit;">https </font></a><strong><font style="vertical-align: inherit;">: </font></strong></font><a href="https://jsfiddle.net/uq9n9g77/" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">//jsfiddle.net/uq9n9g77/</font></font></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">A村村</span>
@@ -306,9 +288,7 @@ jsObjects.some(function (obj) {<font></font>
 
 <pre><code>var foundObject = _.findWhere(jsObjects, {b: 6});
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">乐十三</span>
@@ -367,9 +347,7 @@ jsObjects.some(function (obj) {<font></font>
   }<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">LEYJim</span>
@@ -432,9 +410,7 @@ jsObjects.some(function (obj) {<font></font>
 
 <pre><code>filteredArray(jsObjects, "b", 6); //[{a: 5, b: 6}]
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">。</span>
@@ -493,9 +469,7 @@ console.log(result)</code></pre>
 </div>
 </div>
 <p></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">理查德猪猪伽罗</span>
@@ -513,9 +487,7 @@ console.log(result)</code></pre>
 <hr>
 
 <p>Side note: methods like <code>find()</code> and arrow functions are not supported by older browsers (like IE), so if you want to support these browsers, you should transpile your code using <a href="https://babeljs.io/" rel="noreferrer">Babel</a>.</p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

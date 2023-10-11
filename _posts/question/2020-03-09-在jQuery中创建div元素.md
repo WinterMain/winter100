@@ -36,7 +36,7 @@ topic: JavaScript
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如何</font></font><code>div</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在</font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">jQuery中</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">创建</font><font style="vertical-align: inherit;">元素</font><font style="vertical-align: inherit;">？</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第254篇《在jQuery中创建div元素》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第254篇《在jQuery中创建div元素》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -71,9 +71,7 @@ topic: JavaScript
 </div>
 </div>
 <p></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Stafan神乐</span>
@@ -85,9 +83,7 @@ topic: JavaScript
 </code></pre>
 
 <p>You can easily add anything more to that <code>div</code> in the string - Attributes, Content, you name it. Do note, for attribute values, you need to use the right quotation marks. </p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">樱小小小小</span>
@@ -116,9 +112,7 @@ topic: JavaScript
     return $(form);<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">猿十三</span>
@@ -135,9 +129,7 @@ topic: JavaScript
 
 <pre><code>$("#test").append("Your HTML");
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Tom米亚</span>
@@ -154,9 +146,7 @@ topic: JavaScript
 </code></pre>
 
 <p>It gives the same result.</p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">DavaidHarry</span>
@@ -164,9 +154,7 @@ topic: JavaScript
           </div>
           <div class="discuss-comment"><pre><code>document.createElement('div');
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">路易逆天</span>
@@ -178,9 +166,7 @@ you can also use <code>appendTo()</code> which has a different syntax: </p>
 <pre><code>$("#foo").append("&lt;div&gt;hello world&lt;/div&gt;");<font></font>
 $("&lt;div&gt;hello world&lt;/div&gt;").appendTo("#foo");    <font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小小卡卡西小卤蛋</span>
@@ -217,9 +203,7 @@ $("&lt;div&gt;hello world&lt;/div&gt;").appendTo("#foo");    <font></font>
     $("#targetDIV").append("&lt;div&gt;Hello, Stack Overflow users&lt;/div&gt;"); //Same as appendTo<font></font>
 &lt;/script&gt;<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">路易Green</span>
@@ -231,9 +215,7 @@ $("&lt;div&gt;hello world&lt;/div&gt;").appendTo("#foo");    <font></font>
 </code></pre>
 
 <p>Now the custom div  can be appended to any other div.</p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">乐LEY</span>
@@ -254,9 +236,7 @@ $(d).addClass(classname)<font></font>
     $(this).remove();<font></font>
 });<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">凯西里</span>
@@ -265,9 +245,7 @@ $(d).addClass(classname)<font></font>
           <div class="discuss-comment"><pre><code>div = $("&lt;div&gt;").html("Loading......");<font></font>
 $("body").prepend(div);    <font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">EvaGil</span>
@@ -277,9 +255,7 @@ $("body").prepend(div);    <font></font>
 </code></pre>
 
 <p>will append a blank div to <code>&lt;div id="main"&gt;&lt;/div&gt;</code></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

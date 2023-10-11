@@ -176,7 +176,7 @@ module.exports = {<font></font>
 </code></pre></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第3649篇《使用babel 6时__webpack_require __（…）不是函数》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第3649篇《使用babel 6时__webpack_require __（…）不是函数》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -201,9 +201,7 @@ loaders : [<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">）</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">村村古一</span>
@@ -212,9 +210,7 @@ loaders : [<font></font>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我认为从需求到导入的建议解决方案是不正确的。</font><font style="vertical-align: inherit;">导入需要在文件的顶部进行，因此，您无法使生产版本忽略devtools。</font><font style="vertical-align: inherit;">您需要一个有条件的需求。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我认为</font></font><a href="https://github.com/59naga/babel-plugin-add-module-exports" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">babel-plugin-add-module-exports</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">解决了这个问题。</font><font style="vertical-align: inherit;">看看这个</font></font><a href="https://github.com/davezuko/react-redux-starter-kit" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">react-redux-starter-kit</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">看看它在项目中的用法。</font></font></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

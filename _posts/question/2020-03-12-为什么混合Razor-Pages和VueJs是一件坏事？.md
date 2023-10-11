@@ -42,7 +42,7 @@ topic: Asp.net
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">为什么是这样？</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第931篇《为什么混合Razor Pages和VueJs是一件坏事？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第931篇《为什么混合Razor Pages和VueJs是一件坏事？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -55,9 +55,7 @@ topic: Asp.net
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">现在，您还可以在Razor视图中添加VueJS模板：</font></font></p>
 
 <p><a href="https://www.npmjs.com/package/razor-vue-lint" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">https://www.npmjs.com/package/razor-vue-lint</font></font></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Stafan路易</span>
@@ -73,9 +71,7 @@ topic: Asp.net
 <li><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">SPA宇宙。</font><font style="vertical-align: inherit;">路由，Vuex，这确实是未来的方式。</font></font></p></li>
 <li><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">纯度。</font><font style="vertical-align: inherit;">Razor和Vue在一天结束时会做类似的事情。</font><font style="vertical-align: inherit;">如果混合使用它们，可能会很难保持直立。</font></font></p></li>
 </ul></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

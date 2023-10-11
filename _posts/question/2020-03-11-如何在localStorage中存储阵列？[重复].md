@@ -48,7 +48,7 @@ localStorage.names[0] = prompt("New member name?");<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我要去哪里错了？</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第821篇《如何在localStorage中存储阵列？[重复]》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第821篇《如何在localStorage中存储阵列？\[重复\]》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -67,9 +67,7 @@ localStorage.setItem("names", JSON.stringify(names));<font></font>
 //...<font></font>
 var storedNames = JSON.parse(localStorage.getItem("names"));<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">卡卡西理查德</span>
@@ -90,9 +88,7 @@ Storage.prototype.getObj = function(key) {<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果仅使用新方法访问存储，则每个值将在保存之前进行转换并转换为JSON字符串，并在由getter返回之前将其解析。</font></font></p>
 
 <p><sub><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">资料来源：</font><a href="http://www.acetous.de/p/152"><font style="vertical-align: inherit;">http</font></a><font style="vertical-align: inherit;"> : </font></font><a href="http://www.acetous.de/p/152"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">//www.acetous.de/p/152</font></font></a></sub></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">YOC60211911</span>
@@ -101,18 +97,14 @@ Storage.prototype.getObj = function(key) {<font></font>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">JSON方法可行，即在7上，您需要json2.js，它可以完美工作，尽管有一条评论说否则上面有localStorage。</font><font style="vertical-align: inherit;">它确实看起来像是麻烦最少的最佳解决方案。</font><font style="vertical-align: inherit;">当然，可以编写脚本来执行与json2基本上相同的操作，但是这样做没有什么意义。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">至少使用以下版本字符串存在localStorage，但如上所述，您需要包括json2.js，因为浏览器本身不包含该文件：4.0（兼容； MSIE 7.0； Windows NT 6.1； WOW64； Trident / 5.0； SLCC2 ; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; BRI / 2; NP06; .NET4.0C; .NET4.0E; Zune 4.7）（我会对此发表评论）回复，但不能）。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Pro西门樱</span>
             <span class="discuss-time">2020.03.11</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">使用</font></font><code>JSON.stringify()</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">和</font></font><code>JSON.parse()</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">否建议！</font><font style="vertical-align: inherit;">这样可以防止包含分隔符的成员名称（例如，成员名称</font></font><code>three|||bars</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">）</font><font style="vertical-align: inherit;">出现罕见但可能的问题</font><font style="vertical-align: inherit;">。</font></font></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

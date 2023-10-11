@@ -95,7 +95,7 @@ CORS_ORIGIN_WHITELIST = (<font></font>
 </code></pre></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第2367篇《CORS：当凭据标志为true时，不能在Access-Control-Allow-Origin中使用通配符》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第2367篇《CORS：当凭据标志为true时，不能在Access-Control-Allow-Origin中使用通配符》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -115,9 +115,7 @@ CORS_ORIGIN_WHITELIST = (<font></font>
   credentials: true<font></font>
 }));<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">斯丁JimDavaid</span>
@@ -131,9 +129,7 @@ CORS_ORIGIN_WHITELIST = (<font></font>
 </ol>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">除此以外</font></font><code>*</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，它们太宽松了，会打败使用凭据。</font><font style="vertical-align: inherit;">因此，将其设置为</font></font><code>http://localhost:3000</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">或</font></font><code>http://localhost:8000</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">作为allow origin标头。</font></font></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

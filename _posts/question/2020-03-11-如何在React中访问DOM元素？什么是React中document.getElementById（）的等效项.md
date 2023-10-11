@@ -88,7 +88,7 @@ topic: JavaScript
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如何在react.js中选择特定元素？</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第611篇《如何在React中访问DOM元素？什么是React中document.getElementById（）的等效项》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第611篇《如何在React中访问DOM元素？什么是React中document.getElementById（）的等效项》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -131,9 +131,7 @@ const {urls,description} = this.props.image;<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">}</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小卤蛋十三</span>
@@ -151,9 +149,7 @@ const {urls,description} = this.props.image;<font></font>
 <font></font>
   &lt;Progressbar completed={25} ref="Progress1" id="Progress1"/&gt;<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">樱阳光Pro</span>
@@ -167,9 +163,7 @@ const {urls,description} = this.props.image;<font></font>
 </code></pre>
 
 <p><a href="https://facebook.github.io/react/docs/refs-and-the-dom.html" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这是一个很好的链接，</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">可以帮助您找出答案。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">达蒙西里</span>
@@ -256,9 +250,7 @@ const {urls,description} = this.props.image;<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">等等...</font></font></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

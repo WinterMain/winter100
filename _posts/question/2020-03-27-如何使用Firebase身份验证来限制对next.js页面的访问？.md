@@ -46,7 +46,7 @@ export default withAuthorization;<font></font>
 </code></pre></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第3811篇《如何使用Firebase身份验证来限制对next.js页面的访问？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第3811篇《如何使用Firebase身份验证来限制对next.js页面的访问？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -57,9 +57,7 @@ export default withAuthorization;<font></font>
             <span class="discuss-time">2020.03.27</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">嗨经过一番研究</font></font><a href="https://github.com/iaincollins/nextjs-starter/issues/12" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在这里</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">似乎有这样做的方法有两种。</font><font style="vertical-align: inherit;">您可以使用“ </font></font><a href="https://github.com/zeit/next.js#custom-app" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">自定义”</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">来</font><font style="vertical-align: inherit;">替换页面的初始化过程，</font><font style="vertical-align: inherit;">以在其中包括身份验证-在这种情况下，您可以将身份验证状态作为prop传输到下一页-或针对每次加载的页面要求一个新的身份验证状态。</font></font></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

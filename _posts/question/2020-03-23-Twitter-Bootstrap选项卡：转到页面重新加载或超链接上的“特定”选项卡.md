@@ -23,7 +23,7 @@ topic: HTML
 <p><font style="vertical-align: inherit;"><strong><font style="vertical-align: inherit;">单击外部页面上的链接时，</font></strong><font style="vertical-align: inherit;">应分别转到“主页”选项卡和“注释”选项卡</font></font><strong><font style="vertical-align: inherit;"></font></strong></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第2900篇《Twitter Bootstrap选项卡：转到页面重新加载或超链接上的“特定”选项卡》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第2900篇《Twitter Bootstrap选项卡：转到页面重新加载或超链接上的“特定”选项卡》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -45,18 +45,14 @@ topic: HTML
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">它的作用是检索ID并触发click事件。</font><font style="vertical-align: inherit;">简单。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">凯西里</span>
             <span class="discuss-time">2020.03.23</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我只是遇到了这个问题，但需要处理多个选项卡级别。</font><font style="vertical-align: inherit;">该代码相当丑陋（请参见评论），但是可以完成它的工作：</font></font><a href="https://gist.github.com/JensRantil/4721860" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">https</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> : </font><a href="https://gist.github.com/JensRantil/4721860" rel="nofollow"><font style="vertical-align: inherit;">//gist.github.com/JensRantil/4721860</font></a><font style="vertical-align: inherit;">希望其他人会发现它有用（并随时提出更好的解决方案！）。</font></font></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

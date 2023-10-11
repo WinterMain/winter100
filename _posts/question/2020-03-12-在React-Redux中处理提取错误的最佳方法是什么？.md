@@ -30,7 +30,7 @@ topic: JavaScript
 我将Eric的答案标记为正确，但是我不得不说，我在este中使用的解决方案更像是Eric和Dan的答案的结合……您只需要找到最适合自己代码的方法即可。 。</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第1078篇《在React Redux中处理提取错误的最佳方法是什么？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第1078篇《在React Redux中处理提取错误的最佳方法是什么？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -66,9 +66,7 @@ axios.interceptors.response.use(function (response) {<font></font>
 </div>
 </div>
 <p></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">ProJinJin</span>
@@ -91,9 +89,7 @@ function errorMessage(state = null, action) {<font></font>
   return state<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">乐小小猪猪</span>
@@ -124,9 +120,7 @@ function *errorHandler(action) {<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">然后按照Erik的描述将错误添加到状态树中。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我很少使用它，但是它使我不必重复合法化归约化器的逻辑（因此它可以保护自己免受无效状态的侵害）。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">null</span>
@@ -146,9 +140,7 @@ httpErrors$: Observable&lt;any&gt; = this.actions$<font></font>
         return of(confirm(`There was an error accessing the server: ${error}`));<font></font>
     });<font></font>
 </code></pre></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

@@ -29,7 +29,7 @@ topic: Node.js
 <p><code>forever start -c "npm start" ./</code></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第3180篇《pm2是否可以运行“ npm start”脚本》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第3180篇《pm2是否可以运行“ npm start”脚本》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -45,9 +45,7 @@ topic: Node.js
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">跟着</font></font><a href="https://github.com/Unitech/pm2/issues/1317#issuecomment-220955319" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">https://github.com/Unitech/pm2/issues/1317#issuecomment-220955319</font></font></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">GOLEY前端</span>
@@ -68,9 +66,7 @@ topic: Node.js
 
 <pre><code>pm2 start "npm -- run main" --name myMainFile
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Green路易</span>
@@ -93,9 +89,7 @@ pm2 start npm --name "myApp" -- run "start:production"<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">希望能有所帮助</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">猴子</span>
@@ -110,9 +104,7 @@ pm2 start npm --name "myApp" -- run "start:production"<font></font>
 
 <pre><code>pm2 start npm -- start
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">樱小胖Mandy</span>
@@ -126,9 +118,7 @@ pm2 start npm --name "myApp" -- run "start:production"<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">其他人没有的时候这对我有用</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">乐</span>
@@ -137,9 +127,7 @@ pm2 start npm --name "myApp" -- run "start:production"<font></font>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">不幸的是，似乎pm2不支持您请求的确切功能</font></font><a href="https://github.com/Unitech/PM2/issues/1317" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">https://github.com/Unitech/PM2/issues/1317</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">建议的替代方案是使用</font></font><code>ecosystem.json</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">文件“ </font></font><a href="https://github.com/Unitech/PM2/blob/master/ADVANCED_README.md#getting-started-with-deployment" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">部署入门”，</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">其中可能包括生产和开发环境的设置。</font><font style="vertical-align: inherit;">但是，这仍</font></font><code>npm start</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">用于引导您的应用程序。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">LGil</span>
@@ -151,9 +139,7 @@ pm2 start npm --name "myApp" -- run "start:production"<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">可以跑步</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果您想部署多个服务器，则可以这样做。</font><font style="vertical-align: inherit;">代替pm2 start npm-开始</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">宝儿理查德</span>
@@ -165,9 +151,7 @@ pm2 start npm --name "myApp" -- run "start:production"<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">你怎么看？</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小卤蛋神乐L</span>
@@ -177,9 +161,7 @@ pm2 start npm --name "myApp" -- run "start:production"<font></font>
 
 <pre><code>pm2 start npm -- start
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">猴子Davaid老丝</span>
@@ -189,18 +171,14 @@ pm2 start npm --name "myApp" -- run "start:production"<font></font>
 
 <pre><code>pm2 start npm --name "app" -- start
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Gil</span>
             <span class="discuss-time">2020.03.24</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">是。</font><font style="vertical-align: inherit;">使用</font></font><code>pm2 start npm --no-automation --name {app name} -- run {script name}</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font><font style="vertical-align: inherit;">有用。</font><font style="vertical-align: inherit;">该</font></font><code>--no-automation</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">标志存在</font></font><a href="https://github.com/Unitech/pm2/issues/1934" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">是因为没有它，PM2崩溃时将不会重新启动您的应用程序。</font></font></a> </p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">老丝</span>
@@ -209,9 +187,7 @@ pm2 start npm --name "myApp" -- run "start:production"<font></font>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">使用 </font></font><code>npm run</code></p>
 
 <p><code>pm2 start npm --name "{app_name}" -- run {script_name}</code></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Gil伽罗小宇宙</span>
@@ -254,9 +230,7 @@ pm2 start npm --name "myApp" -- run "start:production"<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"></font><a href="https://github.com/Unitech/pm2/issues/2003" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这里有</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">更多细节</font><font style="vertical-align: inherit;">。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">猴子神奇</span>
@@ -273,9 +247,7 @@ npm start<font></font>
 
 <pre><code>pm2 start start.sh --name appNameYouLike
 </code></pre></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

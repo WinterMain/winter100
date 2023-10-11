@@ -26,7 +26,7 @@ topic: React.js
 </code></pre></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第1864篇《如何在react-router中限制对路由的访问？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第1864篇《如何在react-router中限制对路由的访问？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -58,9 +58,7 @@ topic: React.js
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在您的根页面上，检查令牌是否为null或使用服务器对令牌进行身份验证，以查看用户是否有效登录。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">希望这可以帮助 ：）</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">阿飞Sam</span>
@@ -71,9 +69,7 @@ topic: React.js
 <pre><code>&lt;Route path="/login" component={SignIn} /&gt;<font></font>
 &lt;Route path="/posts" render = {() =&gt; (auth ?  (&lt;Post /&gt;) : (&lt;Redirect to="/login" /&gt;))}/&gt;<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">A阿飞前端</span>
@@ -103,9 +99,7 @@ const LoggedOutRoutes = [<font></font>
   &lt;Route path="/" component={Login} /&gt;<font></font>
 ];<font></font>
 </code></pre></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

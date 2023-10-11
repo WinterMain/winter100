@@ -19,7 +19,7 @@ topic: JavaScript
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">GUID / UUID至少应包含32个字符，并且应保持在ASCII范围内，以免在传递它们时遇到麻烦。</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第149篇《在JavaScript中创建GUID / UUID？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第149篇《在JavaScript中创建GUID / UUID？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -35,9 +35,7 @@ topic: JavaScript
   </span><span class="kwd">const</span><span class="pln"> s4</span><span class="pun">=()=&gt;</span><span class="pln"> </span><span class="typ">Math</span><span class="pun">.</span><span class="pln">floor</span><span class="pun">((</span><span class="lit">1</span><span class="pln"> </span><span class="pun">+</span><span class="pln"> </span><span class="typ">Math</span><span class="pun">.</span><span class="pln">random</span><span class="pun">())</span><span class="pln"> </span><span class="pun">*</span><span class="pln"> </span><span class="lit">0x10000</span><span class="pun">).</span><span class="pln">toString</span><span class="pun">(</span><span class="lit">16</span><span class="pun">).</span><span class="pln">substring</span><span class="pun">(</span><span class="lit">1</span><span class="pun">);</span><span class="pln">     
   </span><span class="kwd">return</span><span class="pln"> </span><span class="pun">`</span><span class="pln">$</span><span class="pun">{</span><span class="pln">s4</span><span class="pun">()</span><span class="pln"> </span><span class="pun">+</span><span class="pln"> s4</span><span class="pun">()}-</span><span class="pln">$</span><span class="pun">{</span><span class="pln">s4</span><span class="pun">()}-</span><span class="pln">$</span><span class="pun">{</span><span class="pln">s4</span><span class="pun">()}-</span><span class="pln">$</span><span class="pun">{</span><span class="pln">s4</span><span class="pun">()}-</span><span class="pln">$</span><span class="pun">{</span><span class="pln">s4</span><span class="pun">()</span><span class="pln"> </span><span class="pun">+</span><span class="pln"> s4</span><span class="pun">()</span><span class="pln"> </span><span class="pun">+</span><span class="pln"> s4</span><span class="pun">()}`;</span><span class="pln">
 </span><span class="pun">}</span></code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Pro小卤蛋</span>
@@ -70,9 +68,7 @@ console</span><span class="pun">.</span><span class="pln">log</span><span class=
 <p></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">以上功能应在速度和随机性之间取得适当的平衡。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">番长神无</span>
@@ -93,9 +89,7 @@ console</span><span class="pun">.</span><span class="pln">log</span><span class=
   
   <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">JavaScript的低时间戳分辨率可以通过随机数来补偿。</font></font></p>
 </blockquote></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">TomGreen</span>
@@ -157,9 +151,7 @@ console</span><span class="pun">.</span><span class="pln">log</span><span class=
 
   w</span><span class="pun">.</span><span class="pln">UUID </span><span class="pun">=</span><span class="pln"> w</span><span class="pun">.</span><span class="typ">Guid</span><span class="pln"> </span><span class="pun">=</span><span class="pln"> UUID</span><span class="pun">;</span><span class="pln">
 </span><span class="pun">}(</span><span class="pln">window </span><span class="pun">||</span><span class="pln"> </span><span class="kwd">this</span><span class="pun">));</span></code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">SamStafan十三</span>
@@ -172,9 +164,7 @@ console</span><span class="pun">.</span><span class="pln">log</span><span class=
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">无法保证该实现，但是SOMEONE必须发布真实的GUID生成器。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">使用这种Web服务，您可以开发一个REST Web界面，该界面使用GUID Web服务，并通过AJAX将其提供给浏览器中的javascript。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">逆天路易</span>
@@ -209,9 +199,7 @@ console</span><span class="pun">.</span><span class="pln">log</span><span class=
         b </span><span class="com">// random hex digits</span><span class="pln">
       </span><span class="pun">)</span><span class="pln">
 </span><span class="pun">}</span></code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">乐十三</span>
@@ -233,9 +221,7 @@ console</span><span class="pun">.</span><span class="pln">log</span><span class=
     </span><span class="kwd">var</span><span class="pln"> uuid </span><span class="pun">=</span><span class="pln"> s</span><span class="pun">.</span><span class="pln">join</span><span class="pun">(</span><span class="str">""</span><span class="pun">);</span><span class="pln">
     </span><span class="kwd">return</span><span class="pln"> uuid</span><span class="pun">;</span><span class="pln">
 </span><span class="pun">}</span></code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">JimNear</span>
@@ -254,9 +240,7 @@ console</span><span class="pun">.</span><span class="pln">log</span><span class=
 <pre class="lang-js prettyprint prettyprinted" style=""><code><span class="pln">xxxxxxxx</span><span class="pun">-</span><span class="pln">xxxx</span><span class="pun">-</span><span class="typ">Mxxx</span><span class="pun">-</span><span class="typ">Nxxx</span><span class="pun">-</span><span class="pln">xxxxxxxxxxxx</span></code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">其中</font></font><em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">M</font></font></em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">和</font></font><em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">N</font></font></em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">位置可能只有某些值。</font><font style="vertical-align: inherit;">此时，M的唯一有效值为1、2、3、4和5，因此随机生成该位置将使大多数结果不可接受。</font></font></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

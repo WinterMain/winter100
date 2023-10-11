@@ -33,7 +33,7 @@ topic: JavaScript
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我的路线工作正常，但我不确定如何格式化路径以获取所需的参数。</font><font style="vertical-align: inherit;">感谢任何帮助！</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第1000篇《从react-router哈希片段获取查询参数》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第1000篇《从react-router哈希片段获取查询参数》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -55,9 +55,7 @@ topic: JavaScript
 <font></font>
 var query = querySearch(this.props.location.search);<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小胖蛋蛋</span>
@@ -95,9 +93,7 @@ console.log(this.id, this.searchObj, this.from);<font></font>
 <p><code>const queryParams = this.props.location.query;</code></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">queryParams是一个包含查询参数的对象： </font></font><code>{name: novaline, age: 26}</code></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">猴子飞云</span>
@@ -117,9 +113,7 @@ console.log(this.id, this.searchObj, this.from);<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">React Router 4中的this.props.location.query已被删除（当前使用v4.1.1），有关此问题的更多信息：</font><a href="https://github.com/ReactTraining/react-router/issues/4410" rel="noreferrer"><font style="vertical-align: inherit;">https</font></a><font style="vertical-align: inherit;"> : </font></font><a href="https://github.com/ReactTraining/react-router/issues/4410" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">//github.com/ReactTraining/react-router/issues/4410</font></font></a></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">看起来他们希望您使用自己的方法来解析查询参数，当前正在使用此库来填补空白：</font><a href="https://github.com/sindresorhus/query-string" rel="noreferrer"><font style="vertical-align: inherit;">https</font></a><font style="vertical-align: inherit;"> : </font></font><a href="https://github.com/sindresorhus/query-string" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">//github.com/sindresorhus/query-string</font></font></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Harry乐Harry</span>
@@ -175,9 +169,7 @@ console.log(obj); // { limit: "10", page:"1", status:"APPROVED" }<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">希望有帮助:)</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">编码愉快！</font></font></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

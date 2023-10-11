@@ -23,7 +23,7 @@ topic: HTML
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我想使实际的HTML尽可能简单，避免使用类，因为其他用户将维护它。</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第3165篇《<code> vs <pre> vs <samp>用于内联代码和块代码片段》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第3165篇《<code> vs <pre> vs <samp>用于内联代码和块代码片段》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -36,9 +36,7 @@ topic: HTML
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">考虑Prism.js：</font><a href="https://prismjs.com/#examples" rel="nofollow noreferrer"><font style="vertical-align: inherit;">https</font></a><font style="vertical-align: inherit;">：//prismjs.com/#examples</font></font><a href="https://prismjs.com/#examples" rel="nofollow noreferrer"><font style="vertical-align: inherit;"></font></a></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">它使</font></font><code>&lt;pre&gt;&lt;code&gt;</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">工作变得有吸引力。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">JinJin飞云</span>
@@ -106,9 +104,7 @@ tabs &amp; space,<font></font>
 </div>
 </div>
 <p></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小卤蛋</span>
@@ -168,9 +164,7 @@ and then <font></font>
 &lt;/codenza&gt;<font></font>
 &lt;/html&gt;<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">十三逆天</span>
@@ -187,9 +181,7 @@ and then <font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">用于代码块。</font><font style="vertical-align: inherit;">取决于哪个不太常见。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小卤蛋樱</span>
@@ -224,9 +216,7 @@ and then <font></font>
 }&lt;/code&gt;&lt;/pre&gt;<font></font>
 </code></pre>
 </blockquote></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

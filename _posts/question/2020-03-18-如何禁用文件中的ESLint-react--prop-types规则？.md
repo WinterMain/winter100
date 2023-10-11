@@ -36,7 +36,7 @@ var Component = React.createClass({<font></font>
 </code></pre></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第2035篇《如何禁用文件中的ESLint react / prop-types规则？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第2035篇《如何禁用文件中的ESLint react / prop-types规则？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -51,9 +51,7 @@ var Component = React.createClass({<font></font>
 <pre><code>// eslint-disable-next-line react/prop-types<font></font>
 const RightArrow = ({ onPress, to }) =&gt; (&lt;TouchableOpacity onPress={() =&gt; onPress(to)} style={styles.rightArrow}&gt;&lt;Chevrons.chevronRight size={25} color="grey" /&gt;&lt;/TouchableOpacity&gt;);<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">StafanDavaid</span>
@@ -77,9 +75,7 @@ const RightArrow = ({ onPress, to }) =&gt; (&lt;TouchableOpacity onPress={() =&g
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">要了解更多规则，您可以查看</font></font><a href="https://c9.io/burnnat/eslint-plugin-react" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">此链接</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">来解决我的问题；不便之处，您还可以阅读</font></font><a href="https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/prop-types.md" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">eslint-plugin-react</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">的github文档，以了解如何使用各种选项禁用或启用它。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小宇宙GO</span>
@@ -89,9 +85,7 @@ const RightArrow = ({ onPress, to }) =&gt; (&lt;TouchableOpacity onPress={() =&g
 
 <pre><code>/* eslint react/prop-types: 0 */
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">宝儿Tom</span>
@@ -115,9 +109,7 @@ const RightArrow = ({ onPress, to }) =&gt; (&lt;TouchableOpacity onPress={() =&g
     }<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

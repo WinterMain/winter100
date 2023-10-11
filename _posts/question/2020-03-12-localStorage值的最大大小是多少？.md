@@ -19,7 +19,7 @@ topic: JavaScript
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">有谁知道是否存在适用于所有浏览器的定义？</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第1152篇《localStorage值的最大大小是多少？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第1152篇《localStorage值的最大大小是多少？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -65,9 +65,7 @@ topic: JavaScript
     return maxLength;<font></font>
 };<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小胖Gil</span>
@@ -87,18 +85,14 @@ Local Storage content size 10240 KB (10 MB)<font></font>
 <blockquote>
   <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">未捕获的DOMException：无法在“存储”上执行“ setItem”：设置“便笺”的值超出了配额。</font></font></p>
 </blockquote></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">逆天古一Mandy</span>
             <span class="discuss-time">2020.03.12</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">不要假设5MB可用-本地存储容量会因浏览器而异，其中2.5MB，5MB和无限制是最常见的值。</font><font style="vertical-align: inherit;">来源：</font><a href="http://dev-test.nemikor.com/web-storage/support-test/"><font style="vertical-align: inherit;">http</font></a><font style="vertical-align: inherit;">：</font></font><a href="http://dev-test.nemikor.com/web-storage/support-test/"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">//dev-test.nemikor.com/web-storage/support-test/</font></font></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">西里神无Pro</span>
@@ -138,9 +132,7 @@ Local Storage content size 10240 KB (10 MB)<font></font>
   (Opera, for example, may only provide
   3MB - but only time will tell.)</p>
 </blockquote></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">飞云卡卡西</span>
@@ -149,9 +141,7 @@ Local Storage content size 10240 KB (10 MB)<font></font>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">实际上，Opera没有5MB的限制。</font><font style="vertical-align: inherit;">随着应用程序需求的增加，它提供了增加限制的功能。</font><font style="vertical-align: inherit;">用户甚至可以为域选择“无限存储”。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">您可以轻松地</font><font style="vertical-align: inherit;">自己</font></font><a href="http://arty.name/localstorage.html" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">测试localStorage限制/配额</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">卡卡西Davaid</span>
@@ -172,9 +162,7 @@ Available  | 10MB     | 10MB     | 10MB       | 5MB         | 10MB<font></font>
 </code></pre>
 
 <p><a href="https://www.html5rocks.com/en/tutorials/offline/quota-research/" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">参考链接</font></font></a></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

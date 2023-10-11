@@ -35,7 +35,7 @@ tool or in PATH<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">有什么建议么？</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第360篇《从终端（iOS）运行React Native App时出错》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第360篇《从终端（iOS）运行React Native App时出错》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -56,9 +56,7 @@ tool or in PATH<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">就完成了。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">希望能帮助到你？ </font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Sam番长逆天</span>
@@ -69,9 +67,7 @@ tool or in PATH<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">添加以下行，</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">* .local，本地主机</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">满天星</span>
@@ -85,9 +81,7 @@ tool or in PATH<font></font>
 
 <pre><code>export SDKROOT=/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.2.sdk
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">飞云前端西门</span>
@@ -100,18 +94,14 @@ tool or in PATH<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">3）在给定的命令行工具中设置Xcode版本</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">现在，它将成功运行。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">JinJinPro</span>
             <span class="discuss-time">2020.03.09</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">对我来说，事实是有一个iOS系统更新正在等待重新启动计算机。</font><font style="vertical-align: inherit;">重新启动，让更新完成可以解决我的问题。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">乐米亚</span>
@@ -136,27 +126,21 @@ tool or in PATH<font></font>
 <p><code>open -a Simulator; npm start</code></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">希望找到一个永久的解决方案。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小胖Green梅</span>
             <span class="discuss-time">2020.03.09</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">对于像我这样的人，他们在更新Xcode后来到此页面但没有位置设置问题，重新启动计算机就可以解决问题。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">纳兰长歌</span>
             <span class="discuss-time">2020.03.09</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">就我而言，问题是未安装Xcode。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">樱小小Tom</span>
@@ -166,9 +150,7 @@ tool or in PATH<font></font>
 
 <pre><code>sudo xcodebuild -license
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">逆天小哥蛋蛋</span>
@@ -200,9 +182,7 @@ tool or in PATH<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">或</font></font><code>Command Line Tools</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">通过Xcode（</font></font><code>Xcode &gt; Preferences &gt; Locations</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">）</font><font style="vertical-align: inherit;">调整</font><font style="vertical-align: inherit;">设置</font><font style="vertical-align: inherit;">：</font></font></p>
 
 <p><a href="https://i.stack.imgur.com/cVeTY.png" rel="noreferrer"><img src="https://i.stack.imgur.com/cVeTY.png" alt="Xcode首选项-“位置”标签"></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">前端猪猪GO</span>
@@ -213,18 +193,14 @@ tool or in PATH<font></font>
 <p>In Xcode, select Xcode menu, then Preferences, then Locations tab. Select your Xcode version from the dropdown and exit Xcode.</p>
 
 <p><a href="https://i.stack.imgur.com/M6w7Q.png" rel="noreferrer"><img src="https://i.stack.imgur.com/M6w7Q.png" alt="XCode位置选项卡"></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">猪猪小小</span>
             <span class="discuss-time">2020.03.09</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">问题是您没有在命令行工具上设置您的Xcode版本，要解决此问题，请打开Xcode&gt; Menu&gt; preferences&gt; location&gt;，这里为命令行工具选择您的Xcode版本。 </font></font><a href="https://i.stack.imgur.com/fvWo9.png" rel="noreferrer"><img src="https://i.stack.imgur.com/fvWo9.png" alt="在此处输入图片说明"></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">LEYJim</span>
@@ -243,9 +219,7 @@ tool or in PATH<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">您会看到一个很酷的新iPhone模拟器，如下图所示：</font></font></p>
 
 <p><a href="https://i.stack.imgur.com/3G0KO.png" rel="noreferrer"><img src="https://i.stack.imgur.com/3G0KO.png" alt="响应本机打印，我是前端开发人员Alireza Dezfoolian！"></a></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

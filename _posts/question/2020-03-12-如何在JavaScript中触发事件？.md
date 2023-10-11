@@ -19,7 +19,7 @@ topic: JavaScript
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我该怎么做？</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第1155篇《如何在JavaScript中触发事件？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第1155篇《如何在JavaScript中触发事件？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -43,9 +43,7 @@ Write the below line where you want to trigger onChange of any element.</p>
 </code></pre>
 
 <p>Because it has very less support. Refer this document for its <a href="https://developer.mozilla.org/en-US/docs/Web/API/EventTarget/fireEvent" rel="nofollow noreferrer">support</a>.</p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">老丝Near</span>
@@ -56,9 +54,7 @@ Write the below line where you want to trigger onChange of any element.</p>
 <p>You can also trigger a fake event with <code>CustomEvent</code> and co.</p>
 
 <p>Finally some elements such as <code>&lt;input type="file"&gt;</code> support a <code>.click()</code> method.</p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">古一阳光</span>
@@ -73,9 +69,7 @@ Write the below line where you want to trigger onChange of any element.</p>
 
 <pre><code>$(".example").trigger("click");
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">宝儿卡卡西理查德</span>
@@ -101,9 +95,7 @@ Write the below line where you want to trigger onChange of any element.</p>
 var obj = document.getElementById("......");<font></font>
 fireMouseEvent(obj, "click");<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">斯丁卡卡西</span>
@@ -116,9 +108,7 @@ element.focus();<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在这种情况下，仅当值确实发生更改时才触发该事件，就像您由用户执行的正常焦点轨迹丢失触发该事件一样。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">番长神乐小小</span>
@@ -131,9 +121,7 @@ element.focus();<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">然后，您还可以在需要完成事件触发时执行的相同操作的任何其他位置调用该函数。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我发现这种方式“代码密集型”较少，而且更易于阅读。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">老丝镜风</span>
@@ -156,9 +144,7 @@ document.dispatchEvent(event);<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">有关较旧的浏览器</font></font><a href="https://developer.mozilla.org/en-US/docs/Web/API/CustomEvent/CustomEvent#Polyfill"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">polyfill</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">和更复杂的示例，请参见</font></font><a href="https://developer.mozilla.org/en-US/docs/Web/API/CustomEvent"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">MDN docs</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">见支持表的</font></font><a href="http://caniuse.com/#feat=dispatchevent"><code>EventTarget.dispatchEvent</code></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">和</font></font><a href="http://caniuse.com/#feat=customevent"><code>CustomEvent</code></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Stafan樱</span>
@@ -181,9 +167,7 @@ if(document.createEvent){<font></font>
     element.fireEvent("on" + event.eventType, event);<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

@@ -28,7 +28,7 @@ body { $navBg; } // it gave me an error<font></font>
 </code></pre></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第3359篇《在Sass中将变量设置为@mixin？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第3359篇《在Sass中将变量设置为\`mixin？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -53,9 +53,7 @@ $font-medium: font(20px);<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">顺便说一句，尽管这不能完全满足该用户的需求，但这是互联网搜索中弹出的唯一一则关于将var设置为mixin的信息，所以我想在这里与其他人分享以了解如何做如果出现这种情况。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">西门</span>
@@ -72,9 +70,7 @@ body { @include navBg; }<font></font>
 <p><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">编辑</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">：</font></font></p>
 
 <p><a href="http://sass-lang.com/docs/yardoc/file.SASS_REFERENCE.html#variables_" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">是SASS变量支持的数据类型的列表。</font><font style="vertical-align: inherit;">既不包括mixin调用，也不包括它们的结果（整个CSS规则）。</font><font style="vertical-align: inherit;">我还尝试将include作为字符串处理并内插，但这仅适用于最终结果CSS，不适用于其他指令。</font></font></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

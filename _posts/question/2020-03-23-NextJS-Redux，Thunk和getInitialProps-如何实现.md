@@ -53,7 +53,7 @@ export default connect(mapStateToProps, mapDispatchToProps)(Page);<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">请帮助我正确</font></font><code>redux</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">实施</font></font><code>nextjs</code></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第2700篇《NextJS Redux，Thunk和getInitialProps-如何实现》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第2700篇《NextJS Redux，Thunk和getInitialProps-如何实现》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -69,9 +69,7 @@ export default connect(mapStateToProps, mapDispatchToProps)(Page);<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">将</font></font><code>getInitialProps</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">不能访问到组件的情况下，这是无法访问的，所以你不能打电话</font></font><code>this.props.fetchUsers</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，但是，因为你是路过商店的情况下，你可以做</font></font><code>store.dispatch(fetchUsers())</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">和删除调度</font></font><code>mapDispatchToProps</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">通常，我在中调度动作</font></font><code>getInitialProps</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，然后将状态映射到中的道具</font></font><code>connect</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

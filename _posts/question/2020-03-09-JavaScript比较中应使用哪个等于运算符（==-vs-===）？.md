@@ -38,7 +38,7 @@ topic: JavaScript
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果没有进行类型转换，性能会超过</font></font><code>==</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">？</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第138篇《JavaScript比较中应使用哪个等于运算符（== vs ===）？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第138篇《JavaScript比较中应使用哪个等于运算符（== vs ===）？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -60,9 +60,7 @@ topic: JavaScript
 <p><img src="https://i.stack.imgur.com/11I0i.jpg" alt="在此处输入图片说明"></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这与任何对象（如{}，数组等）相同，非空字符串和布尔值true都是真实条件。</font><font style="vertical-align: inherit;">但是，它们都不相等。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">西里米亚</span>
@@ -77,9 +75,7 @@ topic: JavaScript
 </blockquote>
 
 <p><a href="http://dorey.github.io/JavaScript-Equality-Table/" rel="noreferrer" data-bitapp="processed"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">http://dorey.github.io/JavaScript-Equality-Table/</font></font></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Sam猪猪</span>
@@ -97,9 +93,7 @@ topic: JavaScript
 <p><img src="https://i.stack.imgur.com/11I0i.jpg" alt="在此处输入图片说明"></p>
 
 <p>This is same as any object (like {}, arrays, etc.), non-empty string &amp; Boolean true are all truthy conditions. But, they are all not equal.</p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">古一L</span>
@@ -115,9 +109,7 @@ topic: JavaScript
 </blockquote>
 
 <p><a href="http://dorey.github.io/JavaScript-Equality-Table/" rel="noreferrer" data-bitapp="processed">http://dorey.github.io/JavaScript-Equality-Table/</a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">SamEva</span>
@@ -128,9 +120,7 @@ topic: JavaScript
 <blockquote>
   <p><code>===</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">返回</font></font><code>true</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果操作数严格相等（见上文），没有类型转换。</font></font></p>
 </blockquote></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">古一凯Gil</span>
@@ -150,9 +140,7 @@ topic: JavaScript
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">显然，在运行时这会做</font></font><em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">非常</font></font></em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">不确定的事情...</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Google在C ++和</font></font><a href="http://en.wikipedia.org/wiki/Standard_Template_Library" rel="noreferrer" data-bitapp="processed"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">STL中</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">进行隐式转换，</font><font style="vertical-align: inherit;">以获取针对它的一些参数...</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">文韬武略辛弃疾</span>
@@ -170,9 +158,7 @@ console</span><span class="pun">.</span><span class="pln">log</span><span class=
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在上面的代码中，==和===都为假，因为a和b不是同一对象。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这就是说：如果==的两个操作数都是对象，则==的行为与===相同，这也意味着标识。</font><font style="vertical-align: inherit;">这两个运算符的本质区别在于类型转换。</font><font style="vertical-align: inherit;">==在检查相等性之前已经进行了转换，但是===没有。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">木嘢</span>
@@ -199,9 +185,7 @@ console</span><span class="pun">.</span><span class="pln">log</span><span class=
 <pre class="lang-js prettyprint prettyprinted" style=""><code><span class="com">// Check for both undefined and null values, for some important reason. </span><span class="pln">
 undefOrNull </span><span class="pun">==</span><span class="pln"> </span><span class="kwd">null</span><span class="pun">;</span></code></pre>
 </blockquote></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Jnck</span>
@@ -210,9 +194,7 @@ undefOrNull </span><span class="pun">==</span><span class="pln"> </span><span cl
           <div class="discuss-comment"><p><code>===</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> 操作员检查值以及变量类型是否相等。</font></font></p>
 
 <p><code>==</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> 运算符只是检查变量的值是否相等。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">斯丁Jim</span>
@@ -241,18 +223,14 @@ $a</span><span class="pun">==</span><span class="kwd">false</span><span class="p
 $a</span><span class="pun">===</span><span class="lit">0</span><span class="pun">;</span><span class="pln"> </span><span class="com">// returns true</span><span class="pln">
 $a</span><span class="pun">===</span><span class="pln">NULL</span><span class="pun">;</span><span class="pln"> </span><span class="com">// returns false</span><span class="pln">
 $a</span><span class="pun">===</span><span class="kwd">false</span><span class="pun">;</span><span class="pln"> </span><span class="com">// returns false</span></code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">乐泡芙A</span>
             <span class="discuss-time">2020.03.09</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">使用中的两个操作之间的性能差异不大。</font><font style="vertical-align: inherit;">由于两个参数已经是相同的类型，因此无需进行类型转换。</font><font style="vertical-align: inherit;">这两个操作都将进行类型比较，然后进行值比较。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">梅Davaid</span>
@@ -264,9 +242,7 @@ $a</span><span class="pun">===</span><span class="kwd">false</span><span class="
 </span><span class="lit">0</span><span class="pun">===</span><span class="kwd">false</span><span class="pln">  </span><span class="com">// false, because they are of a different type</span><span class="pln">
 </span><span class="lit">1</span><span class="pun">==</span><span class="str">"1"</span><span class="pln">     </span><span class="com">// true, auto type coercion</span><span class="pln">
 </span><span class="lit">1</span><span class="pun">===</span><span class="str">"1"</span><span class="pln">    </span><span class="com">// false, because they are of a different type</span></code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Gil小哥伽罗</span>
@@ -298,9 +274,7 @@ $a</span><span class="pun">===</span><span class="kwd">false</span><span class="
 <p><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">总而言之</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> ; </font><font style="vertical-align: inherit;">在您不希望使用</font><strong><font style="vertical-align: inherit;">===</font></strong><font style="vertical-align: inherit;">运算符的</font><font style="vertical-align: inherit;">情况下，</font><font style="vertical-align: inherit;">使用</font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">==</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">运算符可能会</font><font style="vertical-align: inherit;">得出</font><font style="vertical-align: inherit;">true，因此使用</font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">===</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">运算符会更安全。  </font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在90％的使用情况下，使用哪一个无关紧要，但是当您一天有某些意外行为时，知道它们之间的区别很方便。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">神无Davaid</span>
@@ -315,18 +289,14 @@ $a</span><span class="pun">===</span><span class="kwd">false</span><span class="
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">但</font></font></p>
 
 <pre class="lang-js prettyprint prettyprinted" style=""><code><span class="lit">4</span><span class="pln"> </span><span class="pun">===</span><span class="pln"> </span><span class="str">"4"</span><span class="pln"> </span><span class="com">// will return false </span></code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">老丝Tom前端</span>
             <span class="discuss-time">2020.03.09</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在PHP和JavaScript中，它是严格的相等运算符。</font><font style="vertical-align: inherit;">这意味着它将比较类型和值。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">古一L</span>
@@ -395,9 +365,7 @@ alert</span><span class="pun">(</span><span class="pln">a </span><span class="pu
 alert</span><span class="pun">(</span><span class="pln">a </span><span class="pun">===</span><span class="pln"> b</span><span class="pun">);</span><span class="pln"> </span><span class="com">// returns false !! (but they are equal and of the same type)</span></code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我以为字符串的行为类似于值类型？</font><font style="vertical-align: inherit;">好吧，这取决于您问的是谁...在这种情况下，a和b不是同一类型。</font></font><code>a</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">是类型的</font></font><code>Object</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，</font></font><code>b</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">而是类型的</font></font><code>string</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font><font style="vertical-align: inherit;">只需记住，使用</font></font><code>String</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">构造函数创建</font><font style="vertical-align: inherit;">字符串对象</font><font style="vertical-align: inherit;">会创建某种类型的东西，</font><em><font style="vertical-align: inherit;">大多数情况下</font></em></font><code>Object</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">它的行为都类似于字符串</font><font style="vertical-align: inherit;">。</font></font><em><font style="vertical-align: inherit;"></font></em><font style="vertical-align: inherit;"></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">神奇米亚神乐</span>
@@ -432,9 +400,7 @@ alert</span><span class="pun">(</span><span class="pln">a </span><span class="pu
   
   <p><strong><em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">使用</font></font><code>===</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">除非你完全明白发生与转换</font></font><code>==</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></em></strong></p>
 </blockquote></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

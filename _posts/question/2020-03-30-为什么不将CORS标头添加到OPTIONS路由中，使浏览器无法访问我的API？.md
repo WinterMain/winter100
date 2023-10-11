@@ -48,7 +48,7 @@ topic: ExpressJS
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">所以我的主要问题是，在我看来，这种情况怎么似乎没有发生？</font><font style="vertical-align: inherit;">为什么没有调用我的app.options块？</font><font style="vertical-align: inherit;">为什么需要在主app.get块中设置标题？</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第3849篇《为什么不将CORS标头添加到OPTIONS路由中，使浏览器无法访问我的API？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第3849篇《为什么不将CORS标头添加到OPTIONS路由中，使浏览器无法访问我的API？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -65,9 +65,7 @@ topic: ExpressJS
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">最终，如果您要部署到像</font></font><code>Google Cloud Platform</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">or </font></font><code>Heroku</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">或</font><font style="vertical-align: inherit;">or这样的生产视蛋白</font><font style="vertical-align: inherit;">，则无需担心诸如允许原产地之类的CORS或生产中的任何东西。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">因此，在测试服务器时，只需使用它即可，</font></font><code>postman</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">并且在部署服务器然后在客户端上工作之后，不会阻止CORS。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">乐</span>
@@ -85,9 +83,7 @@ topic: ExpressJS
   next();<font></font>
 });<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">JinJin</span>
@@ -111,9 +107,7 @@ app.all("/api/*", function(req, res, next) {<font></font>
 </code></pre>
 
 <p><a href="https://williambert.online/2013/06/allow-cors-with-localhost-in-chrome/" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">参考</font></font></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Tony凯</span>
@@ -128,9 +122,7 @@ app.all("/api/*", function(req, res, next) {<font></font>
    next();<font></font>
 }) <font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">飞云</span>
@@ -144,9 +136,7 @@ app.all("/api/*", function(req, res, next) {<font></font>
     next();<font></font>
 });<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">猴子</span>
@@ -182,9 +172,7 @@ app.all("/api/*", function(req, res, next) {<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">因此，您可以添加一个自定义标头，例如：</font></font><code>x-Trigger: CORS</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，它应该触发飞行前请求并点击OPTIONS块。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">请参阅《</font></font><a href="https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS#Preflighted_requests" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">MDN Web API参考-CORS预检请求》</font></font></a></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

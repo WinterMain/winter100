@@ -27,7 +27,7 @@ topic: JavaScript
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">当前的浏览器是否响应该</font></font><code>"use strict";</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">字符串，或者</font><font style="vertical-align: inherit;">该</font><font style="vertical-align: inherit;">字符串可供将来使用？</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第134篇《“严格使用”在JavaScript中有什么作用，其背后的原因是什么？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第134篇《“严格使用”在JavaScript中有什么作用，其背后的原因是什么？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -71,9 +71,7 @@ at getname </span><span class="pun">(&lt;</span><span class="pln">anonymous</spa
 at </span><span class="pun">&lt;</span><span class="pln">anonymous</span><span class="pun">&gt;:</span><span class="lit">6</span><span class="pun">:</span><span class="lit">5</span></code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在此，编译器将引发参考错误。</font><font style="vertical-align: inherit;">在严格模式下，编译器不允许我们在未声明的情况下使用变量。</font><font style="vertical-align: inherit;">因此可以防止内存泄漏。</font><font style="vertical-align: inherit;">另外，我们可以编写更多优化的代码。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">神无宝儿</span>
@@ -105,9 +103,7 @@ at </span><span class="pun">&lt;</span><span class="pln">anonymous</span><span c
 
 <p><a href="https://www.tutorialsteacher.com/javascript/javascript-strict" rel="nofollow noreferrer" data-bitapp="processed"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">https://www.tutorialsteacher.com/javascript/javascript-strict</font></font></a></p></li>
 </ul></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">哎小爱</span>
@@ -116,9 +112,7 @@ at </span><span class="pun">&lt;</span><span class="pln">anonymous</span><span c
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">通常，JavaScript不遵循严格的规则，因此会增加出错的机会。</font><font style="vertical-align: inherit;">使用之后</font></font><code>"use strict"</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，JavaScript代码应遵循其他编程语言中的严格规则集，例如终止符的使用，初始化之前的声明等。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果</font></font><code>"use strict"</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">使用，则应遵循一组严格的规则来编写代码，从而减少出现错误和歧义的机会。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">gia</span>
@@ -136,18 +130,14 @@ at </span><span class="pun">&lt;</span><span class="pln">anonymous</span><span c
 </ul>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">您也可以阅读</font></font><a href="https://www.nczonline.net/blog/2012/03/13/its-time-to-start-using-javascript-strict-mode/" rel="noreferrer" data-bitapp="processed"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">本文</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">以了解详细信息</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">神奇猴子</span>
             <span class="discuss-time">2020.03.09</span>
           </div>
           <div class="discuss-comment"><p><code>use strict</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">是一种使代码更安全的方法，因为您不能使用无法正常使用的危险功能。</font><font style="vertical-align: inherit;">而且，如前所述，它使代码更加严格。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">凯Harry</span>
@@ -172,9 +162,7 @@ syntax checking. It does the following tasks for us:</p>
 <p><code>use strict</code> also works inside of individual functions. It is always a better practice to include <code>use strict</code> in your code.</p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">浏览器兼容性问题：“使用”指令旨在向后兼容。</font><font style="vertical-align: inherit;">不支持它们的浏览器只会看到未进一步引用的字符串文字。</font><font style="vertical-align: inherit;">因此，他们将越过它并继续前进。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Sam神乐番长</span>
@@ -194,18 +182,14 @@ syntax checking. It does the following tasks for us:</p>
   <li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果最后一个参数是一个字符串，则该函数代码将作为内置函数和生成器构造函数的参数提供给函数代码，该字符串在处理时是一个</font></font><em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">功能</font></font></em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">主体，该主体</font><font style="vertical-align: inherit;">以包含使用严格指令的指令序言开头。</font></font></li>
   </ul>
 </blockquote></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">十三泡芙</span>
             <span class="discuss-time">2020.03.09</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">“使用严格”；</font><font style="vertical-align: inherit;">ECMA致力于使JavaScript更加强大。</font><font style="vertical-align: inherit;">它引入了JS使其至少有点“严格”的尝试（自90年代以来其他语言都实施了严格的规则）。</font><font style="vertical-align: inherit;">实际上，它“迫使” JavaScript开发人员遵循某种编码最佳实践。</font><font style="vertical-align: inherit;">不过，JavaScript非常脆弱。</font><font style="vertical-align: inherit;">没有诸如类型变量，类型方法之类的东西。我强烈建议JavaScript开发人员学习更健壮的语言（例如Java或ActionScript3），并在JavaScript代码中实现相同的最佳实践，它将更好，更容易地工作。调试。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">达蒙武藏</span>
@@ -214,9 +198,7 @@ syntax checking. It does the following tasks for us:</p>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">ECMAScript委员会中的一些人有一个很好的演讲：</font></font><a href="http://www.youtube.com/watch?v=Kq4FpMe6cRs" rel="noreferrer" data-bitapp="processed"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">JavaScript的变化，第1部分：ECMAScript 5“，</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">关于增量使用</font></font><code>"use strict"</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">开关</font><font style="vertical-align: inherit;">如何</font><font style="vertical-align: inherit;">使JavaScript实现者能够清理JavaScript的许多危险特性而不会突然破坏每个网站在世界上。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">当然，它也讨论了其中的许多错误特征以及ECMAScript 5如何修复它们。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">蛋蛋飞云</span>
@@ -249,18 +231,14 @@ syntax checking. It does the following tasks for us:</p>
 </blockquote>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">请参考</font></font><a href="http://www.w3schools.com/js/js_strict.asp" rel="noreferrer" data-bitapp="processed"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">http://www.w3schools.com/js/js_strict.asp</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">了解更多信息</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">樱理查德</span>
             <span class="discuss-time">2020.03.09</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"></font><code>use strict</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">从这一点开始，在所有敏感的JavaScript文件的开头都</font><font style="vertical-align: inherit;">包含</font><font style="vertical-align: inherit;">一个小方法，可以成为一个更好的JavaScript程序员，并避免随机变量变成全局变量，并且事情无声无息地变化。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">null</span>
@@ -273,9 +251,7 @@ syntax checking. It does the following tasks for us:</p>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">相信我。</font><font style="vertical-align: inherit;">与设计不良的代码相比，开销可忽略不计。</font></font><a href="http://www.yuiblog.com/blog/2010/12/14/strict-mode-is-coming-to-town/" rel="noreferrer" data-bitapp="processed"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">多年担任高级JavaScript开发人员的Doug Crockford在此发表了一篇非常有趣的文章</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font><font style="vertical-align: inherit;">就个人而言，我喜欢一直回到他的网站，以确保我不会忘记自己的良好做法。</font></font></p>
 
 <p><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">现代JavaScript实践应始终唤起“使用严格”的原则；</font><font style="vertical-align: inherit;">实用 </font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">ECMA集团将“严格”模式</font><em><font style="vertical-align: inherit;">设为</font></em><font style="vertical-align: inherit;">可选的唯一原因</font></font><em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">是，允许经验不足的编码人员访问JavaScript，然后给予时间以适应新的更安全的编码实践。</font></font></em></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">凯斯丁</span>
@@ -290,9 +266,7 @@ syntax checking. It does the following tasks for us:</p>
 </ul>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">有关更多信息，请访问</font></font><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions_and_function_scope/Strict_mode" data-bitapp="processed"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">严格模式-Javascript</font></font></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">蛋蛋L西里</span>
@@ -348,9 +322,7 @@ arguments</span><span class="pun">++;</span><span class="pln">
 <li><p><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Strict_mode" rel="noreferrer" data-bitapp="processed"><font style="vertical-align: inherit;"></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">MDN上的</font><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Strict_mode" rel="noreferrer" data-bitapp="processed"><font style="vertical-align: inherit;">严格模式</font></a></font></p></li>
 <li><p><a href="http://web.archive.org/web/20170707015027/http://cjihrig.com/blog/javascripts-strict-mode-and-why-you-should-use-it/" rel="noreferrer" data-bitapp="processed"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">JavaScript的严格模式以及为什么要</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在Colin J. Ihrig的博客上</font><a href="http://web.archive.org/web/20170707015027/http://cjihrig.com/blog/javascripts-strict-mode-and-why-you-should-use-it/" rel="noreferrer" data-bitapp="processed"><font style="vertical-align: inherit;">使用它</font></a><font style="vertical-align: inherit;">（存档版本）</font></font></p></li>
 </ul></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">null</span>
@@ -359,9 +331,7 @@ arguments</span><span class="pun">++;</span><span class="pln">
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果您使用的是去年左右发布的浏览器，则该浏览器很可能支持JavaScript严格模式。</font><font style="vertical-align: inherit;">只有在ECMAScript 5成为当前标准之前的较旧的浏览器才不支持它。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">该命令周围的引号确保该代码在旧版本的浏览器中也仍然可以运行（尽管在严格模式下生成语法错误的内容通常只会导致脚本在旧版本的浏览器中以某种难以检测的方式发生故障）。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">null</span>
@@ -407,9 +377,7 @@ arguments</span><span class="pun">++;</span><span class="pln">
 <li>In strict mode the identifiers <code>eval</code> and <code>arguments</code> are treated like keywords. You cannot change their value, cannot assign a value to them, and you cannot use them as names for variables, functions, function parameters or identifiers of a catch block.</li>
 <li>In strict mode are more restrictions on the possibilities to examine the call stack. <code>arguments.caller</code> and <code>arguments.callee</code> cause a <code>TypeError</code> in a function in strict mode. Furthermore, some caller- and arguments properties of functions in strict mode cause a <code>TypeError</code> when you try to read them.</li>
 </ul></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">西里Near</span>
@@ -422,9 +390,7 @@ arguments</span><span class="pun">++;</span><span class="pln">
 <pre class="lang-js prettyprint prettyprinted" style=""><code><span class="str">"use strict"</span><span class="pun">;</span></code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">现在将其放入您的代码应该不会对当前的浏览器造成任何问题，因为它只是一个字符串。</font><font style="vertical-align: inherit;">如果您的代码违反了编译指示，将来可能会导致您的代码出现问题。</font><font style="vertical-align: inherit;">例如，如果您当前</font></font><code>foo = "bar"</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">没有</font></font><code>foo</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">首先</font><font style="vertical-align: inherit;">定义</font><font style="vertical-align: inherit;">，则您的代码将开始失败...在我看来，这是一件好事。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">蛋蛋L西里</span>
@@ -450,9 +416,7 @@ arguments</span><span class="pun">++;</span><span class="pln">
 </ol>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">[参考：</font></font><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Strict_mode" rel="noreferrer" data-bitapp="processed"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">严格模式</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，</font></font><em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Mozilla开发人员网络</font></font></em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> ]</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">null</span>
@@ -499,9 +463,7 @@ arguments</span><span class="pun">++;</span><span class="pln">
 <p><font style="vertical-align: inherit;"></font><a href="http://caniuse.com/#use-strict" rel="noreferrer" data-bitapp="processed"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">所有主要浏览器</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">现在都</font><a href="http://caniuse.com/#use-strict" rel="noreferrer" data-bitapp="processed"><font style="vertical-align: inherit;">支持</font></a><font style="vertical-align: inherit;">严格模式</font><font style="vertical-align: inherit;">。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在</font></font><a href="https://caniuse.com/#feat=es6-module" rel="noreferrer" data-bitapp="processed"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">本机ECMAScript模块</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">（带有</font></font><code>import</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">和</font></font><code>export</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">语句）和</font></font><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes" rel="noreferrer" data-bitapp="processed"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">ES6类中</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，严格模式始终处于启用状态，不能被禁用。</font></font></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

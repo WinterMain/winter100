@@ -30,7 +30,7 @@ topic: JavaScript
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我试过将图像放在资产文件夹和静态文件夹中没有任何运气。</font><font style="vertical-align: inherit;">我是否必须告诉Vue以某种方式加载这些图像？</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第574篇《如何在Vue JavaScript中引用静态资产》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第574篇《如何在Vue JavaScript中引用静态资产》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -41,9 +41,7 @@ topic: JavaScript
             <span class="discuss-time">2020.03.11</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">具有由Vue CLI生成的默认文件夹结构，例如，</font></font><code>src/assets</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">您可以将图像放置在此处，并按以下方式从HTML引用此图像</font></font><code>&lt;img src="../src/assets/img/logo.png"&gt;</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">（也可以自动运行，而无需对部署进行任何更改）。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">SamStafan十三</span>
@@ -66,9 +64,7 @@ topic: JavaScript
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">使用</font></font><code>@</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">指向</font></font><code>src</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">目录。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">使用</font></font><code>~</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">指向项目根目录的点，这使得访问</font></font><code>node_modules</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">和其他根目录级资源</font><font style="vertical-align: inherit;">更加容易</font></font></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

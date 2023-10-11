@@ -55,7 +55,7 @@ render(<font></font>
 <p><a href="https://www.samyoc.com//uploads/users/12509/images/thumbnails/1584001817613.png" data-src="https://www.samyoc.com//uploads/users/12509/images/1584001817613.png"><img src="https://i.stack.imgur.com/cRtyD.png" alt="在此处输入图片说明"></a></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第1135篇《如果名为jsx的文件，webpack找不到模块》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第1135篇《如果名为jsx的文件，webpack找不到模块》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -82,9 +82,7 @@ render(<font></font>
   ]<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Gil十三</span>
@@ -93,9 +91,7 @@ render(<font></font>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">验证bundle.js是否已正确生成（检查任务运行器日志）。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">由于组件渲染功能中html中的语法错误，我得到了“如果文件名为jsx则找不到模块”。 </font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">猿前端猿</span>
@@ -117,9 +113,7 @@ render(<font></font>
   }<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

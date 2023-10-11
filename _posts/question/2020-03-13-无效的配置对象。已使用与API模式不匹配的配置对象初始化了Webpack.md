@@ -144,7 +144,7 @@ module.exports = {<font></font>
 </code></pre></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第1525篇《无效的配置对象。已使用与API模式不匹配的配置对象初始化了Webpack》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第1525篇《无效的配置对象。已使用与API模式不匹配的配置对象初始化了Webpack》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -167,18 +167,14 @@ module.exports = {<font></font>
 </blockquote>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">解决这个问题！。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">乐米亚</span>
             <span class="discuss-time">2020.03.13</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在我的情况下，问题是项目所在的文件夹的名称，其名称为“！”。</font><font style="vertical-align: inherit;">我要做的就是重命名文件夹，一切就绪。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">古一蛋蛋</span>
@@ -204,9 +200,7 @@ yarn start<font></font>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我发现以下链接</font><a href="https://scotch.io/tutorials/setup-a-react-environment-using-webpack-and-babel" rel="nofollow noreferrer"><font style="vertical-align: inherit;">很有</font></a><font style="vertical-align: inherit;">用：
  </font></font><a href="https://scotch.io/tutorials/setup-a-react-environment-using-webpack-and-babel" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">使用webpack和Babel设置React环境</font></font></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">番长梅</span>
@@ -221,36 +215,28 @@ npm install webpack --save-dev<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">重新启动应用程序，一切正常。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我希望能够帮助某人。</font><font style="vertical-align: inherit;">干杯</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">猴子小哥</span>
             <span class="discuss-time">2020.03.13</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我改变了</font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">装载机</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">到</font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">规则</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">中</font></font><code>webpack.config.js</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">的文件和更新包</font></font><code>html-webpack-plugin</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，</font></font><code>webpack</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，</font></font><code>webpack-cli</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，</font></font><code>webpack-dev-server</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">到随后的最新版本，它的工作对我来说！</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">猿米亚</span>
             <span class="discuss-time">2020.03.13</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在webpack.config.js中，将加载器：[..]替换为规则：[..]对我有用。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">GilL</span>
             <span class="discuss-time">2020.03.13</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">将“加载程序”更改为“规则”对我有用（webpack v4）</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">GilGilPro</span>
@@ -259,9 +245,7 @@ npm install webpack --save-dev<font></font>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我猜你的webpack版本是2.2.1。</font><font style="vertical-align: inherit;">我认为您应该使用此迁移指南-&gt;   </font></font><a href="https://webpack.js.org/guides/migrating/" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">https://webpack.js.org/guides/migrating/</font></font></a></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">另外，您可以使用</font></font><a href="https://github.com/jquintozamora/react-typescript-es6-webpack2-postCSS" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">TypeSCript + Webpack 2的</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">此示例</font><font style="vertical-align: inherit;">。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Eva阿飞</span>
@@ -270,9 +254,7 @@ npm install webpack --save-dev<font></font>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">只需从“ webpack.config.js”中的“加载程序”更改为“规则”</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">因为在Webpack 1中使用了加载程序，在Webpack2中使用了规则。</font><font style="vertical-align: inherit;">您可以看到存在</font></font><a href="https://stackoverflow.com/a/43805263/5453953"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">差异</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">YLD</span>
@@ -289,9 +271,7 @@ npm install webpack --save-dev<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">然后，您应该可以再次吞食。</font><font style="vertical-align: inherit;">为我解决了此问题。</font></font></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

@@ -28,7 +28,7 @@ function Hello()<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">有没有办法找出调用堆栈？</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第431篇《如何找到JavaScript中的调用者函数？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第431篇《如何找到JavaScript中的调用者函数？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -70,9 +70,7 @@ Main();</code></pre>
 </div>
 </div>
 <p></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">达蒙樱梅</span>
@@ -92,9 +90,7 @@ function Hello(caller)<font></font>
     // will be called without parameters from somewhere else<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">村村老丝</span>
@@ -124,9 +120,7 @@ function Hello(caller)<font></font>
 </code></pre>
 
 <p>My example uses a hard coded check of the function name, but you could easily use a switch statement or some other logic to do what you want there.</p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">A村村</span>
@@ -164,9 +158,7 @@ function Hello(caller)<font></font>
 </code></pre>
 
 <p>Worked for me in Firefox-21 and Chromium-25.</p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">阿飞古一A</span>
@@ -178,18 +170,14 @@ function Hello(caller)<font></font>
 </code></pre>
 
 <p>Please note that, the above line will throw an exception, if there is no caller or no previous stack. Use accordingly.</p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">达蒙小胖</span>
             <span class="discuss-time">2020.03.10</span>
           </div>
           <div class="discuss-comment"><p>Just want to let you know that on <strong>PhoneGap/Android</strong> the <code>name</code> doesnt seem to be working. But <code>arguments.callee.caller.toString()</code> will do the trick.</p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user"> ....</span>
@@ -199,18 +187,14 @@ function Hello(caller)<font></font>
 
 <pre><code>arguments.callee.caller.name
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">ProSam</span>
             <span class="discuss-time">2020.03.10</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"></font><code>*arguments.callee.caller</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">由于</font></font><code>arguments.caller</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">已</font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">弃用</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，因此使用</font><font style="vertical-align: inherit;">起来</font><font style="vertical-align: inherit;">更安全</font><font style="vertical-align: inherit;">...</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">古一蛋蛋凯</span>
@@ -220,9 +204,7 @@ function Hello(caller)<font></font>
     alert(Hello.caller);<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">西里猴子</span>
@@ -234,9 +216,7 @@ function Hello(caller)<font></font>
   console.trace();<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Harry小卤蛋</span>
@@ -245,9 +225,7 @@ function Hello(caller)<font></font>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我通常</font></font><code>(new Error()).stack</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在Chrome中</font><font style="vertical-align: inherit;">使用</font><font style="vertical-align: inherit;">。</font><font style="vertical-align: inherit;">令人高兴的是，这还为您提供了调用方调用该函数的行号。</font><font style="vertical-align: inherit;">缺点是它将堆栈的长度限制为10，这就是为什么我首先来到此页面的原因。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">（我正在使用它在执行期间收集低级构造函数中的调用堆栈，以供日后查看和调试，因此设置断点是没有用的，因为它会被击中数千次）</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">null</span>
@@ -271,9 +249,7 @@ function main()<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">有关过时的arguments.caller的说明：</font><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/arguments/caller"><font style="vertical-align: inherit;">https</font></a><font style="vertical-align: inherit;"> :   </font></font><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/arguments/caller"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">//developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Functions/arguments/caller</font></font></a></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">请注意Function.caller是非标准的：</font><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/caller"><font style="vertical-align: inherit;">https</font></a><font style="vertical-align: inherit;"> : </font></font><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/caller"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">//developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Function/caller</font></font></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小哥猪猪</span>
@@ -293,9 +269,7 @@ main()<font></font>
 // Hello @ VM261:9<font></font>
 // main @ VM261:4<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">梅JinJin十三</span>
@@ -311,9 +285,7 @@ arguments.callee.caller.caller.caller<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">直到来电者是</font></font><code>null</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">注意：这会在递归函数上造成无限循环。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Mandy小卤蛋凯</span>
@@ -322,9 +294,7 @@ arguments.callee.caller.caller.caller<font></font>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我知道您提到过“用Java语言编写”，但是如果目的是调试，我认为仅使用浏览器的开发人员工具会更容易。</font><font style="vertical-align: inherit;">在Chrome中是这样的：
  </font></font><img src="https://i.stack.imgur.com/aBtUp.png" alt="在此处输入图片说明"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
 只需将调试器放在要调查堆栈的位置即可。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">猿十三</span>
@@ -349,9 +319,7 @@ arguments.callee.caller.caller.caller<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">显然，第一位操作员更易于移植，因为您可以更改函数的名称，例如从“ Hello”更改为“ Ciao”​​，仍然可以使整个过程正常进行。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在后者中，如果您决定重构被调用函数的名称（Hello），则必须更改其所有出现的位置：( </font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">TomMandy</span>
@@ -379,9 +347,7 @@ arguments.callee.caller.caller.caller<font></font>
     alert("caller is " + arguments.callee.caller.toString());<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

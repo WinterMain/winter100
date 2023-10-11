@@ -17,7 +17,7 @@ topic: CSS
     <div class="article-content"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">有没有办法在Sass文件中使用我的Ruby应用程序中的变量？</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第3184篇《如何在Sass中使用Ruby / Rails变量？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第3184篇《如何在Sass中使用Ruby / Rails变量？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -39,9 +39,7 @@ topic: CSS
 <li><a href="http://guides.rubyonrails.org/asset_pipeline.html#coding-links-to-assets"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">http://guides.rubyonrails.org/asset_pipeline.html#coding-links-to-assets</font></font></a></li>
 <li><a href="http://rwilcox.tumblr.com/post/9038701675/sass-variables-and-the-rails-3-1-asset-pipeline"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">http://rwilcox.tumblr.com/post/9038701675/sass-variables-and-the-rails-3-1-asset-pipeline</font></font></a></li>
 </ul></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

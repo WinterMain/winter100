@@ -68,7 +68,7 @@ topic: React.js
 <p><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">更新：</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">由于似乎热重装是Windows的问题，所以我的主要问题是，是否有一种方法可以运行不热重装的任务，而我只能自行刷新浏览器，否则无法开发在Windows上不停止并重新启动服务的每一次更改，这是不可能做的。</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第2781篇《试图让无头的WordPress在yarn start命令上进行热重装》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第2781篇《试图让无头的WordPress在yarn start命令上进行热重装》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -88,9 +88,7 @@ topic: React.js
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我看到了有关热装的问题-查看此链接 </font></font></p>
 
 <p><a href="https://stackoverflow.com/questions/45622125/how-can-i-add-live-reload-to-my-nodejs-server"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如何将实时重载添加到我的Node.js服务器</font></font></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">米亚</span>
@@ -122,9 +120,7 @@ topic: React.js
 </blockquote>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">希望能帮助到你。</font></font></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

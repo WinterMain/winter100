@@ -32,7 +32,7 @@ topic: TypeScript
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">设置值的关键字是什么？</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第4237篇《在TypeScript中获取并设置》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第4237篇《在TypeScript中获取并设置》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -73,9 +73,7 @@ topic: TypeScript
     </span><span class="pun">}</span><span class="pln"> 
 
 </span><span class="pun">}</span></code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">老丝阿飞</span>
@@ -103,9 +101,7 @@ topic: TypeScript
 
 <pre class="lang-js prettyprint prettyprinted" style=""><code><span class="kwd">import</span><span class="pln"> </span><span class="pun">*</span><span class="pln"> as dataStore </span><span class="kwd">from</span><span class="pln"> </span><span class="str">"./dataStore"</span><span class="pln">
 console</span><span class="pun">.</span><span class="pln">log</span><span class="pun">(</span><span class="pln">dataStore</span><span class="pun">.</span><span class="pln">myData</span><span class="pun">);</span><span class="pln"> </span><span class="com">// "my data"</span></code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">番长</span>
@@ -156,9 +152,7 @@ console</span><span class="pun">.</span><span class="pln">log</span><span class=
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果使用的是Visual Studio，则必须编辑项目文件以将标志添加到TypeScriptCompile构建工具的配置中。</font><font style="vertical-align: inherit;">您可以</font></font><a href="https://stackoverflow.com/a/17261732/1733315"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在这里</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">看到</font><font style="vertical-align: inherit;">：</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">就像@DanFromGermany在下面建议的那样，如果您只是在读写本地属性（例如）</font></font><code>foo.bar = true</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，那么拥有一对setter和getter对就太过分了。</font><font style="vertical-align: inherit;">如果需要在读取或写入属性时执行某些操作（例如日志记录），则以后可以随时添加它们。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">斯丁前端</span>
@@ -179,9 +173,7 @@ console</span><span class="pun">.</span><span class="pln">log</span><span class=
 </span><span class="pun">}</span></code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">JavaScript中的getter和setter只是正常功能。</font><font style="vertical-align: inherit;">设置器是一个函数，它接受一个参数，其值就是要设置的值。</font></font></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

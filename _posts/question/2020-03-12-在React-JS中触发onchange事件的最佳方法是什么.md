@@ -23,7 +23,7 @@ topic: React.js
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">似乎React取决于浏览器有很多事件处理策略。</font><font style="vertical-align: inherit;">有什么通用的方法可以触发特定DOM元素的更改事件，以便React可以听到吗？</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第1134篇《在React JS中触发onchange事件的最佳方法是什么》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第1134篇《在React JS中触发onchange事件的最佳方法是什么》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -36,9 +36,7 @@ topic: React.js
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">您可以使用</font></font><a href="http://facebook.github.io/react/docs/test-utils.html"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">ReactTestUtils</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">模拟事件，</font><font style="vertical-align: inherit;">但这是为单元测试而设计的。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我建议在这种情况下不使用valueLink，而只是侦听插件触发的更改事件并作为响应更新输入的状态。</font><font style="vertical-align: inherit;">双向绑定实用程序更像是一个演示程序；</font><font style="vertical-align: inherit;">它们包含在附加组件中只是为了强调以下事实：纯双向绑定不适用于大多数应用程序，并且您通常需要更多的应用程序逻辑来描述应用程序中的交互。</font></font></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

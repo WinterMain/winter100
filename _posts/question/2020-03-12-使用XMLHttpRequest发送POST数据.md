@@ -29,7 +29,7 @@ topic: JavaScript
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如何在JavaScript中使用XMLHttpRequest编写等效项？</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第1204篇《使用XMLHttpRequest发送POST数据》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第1204篇《使用XMLHttpRequest发送POST数据》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -78,9 +78,7 @@ function submitForm(oFormElement)<font></font>
 <li><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">本示例非常简单，不支持该</font></font><code>GET</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">方法。</font><font style="vertical-align: inherit;">如果您对更复杂的示例感兴趣，请查看出色的</font></font><a href="https://developer.mozilla.org/en-US/docs/Web/API/XMLHttpRequest/Using_XMLHttpRequest#Using_FormData_objects" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">MDN文档</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font><font style="vertical-align: inherit;">另请参见</font></font><a href="https://stackoverflow.com/a/19836927/938111"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">有关</font></font><em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">XMLHttpRequest到HTML表单的</font></font></em></a><font style="vertical-align: inherit;"><a href="https://stackoverflow.com/a/19836927/938111"><font style="vertical-align: inherit;">类似答案</font></a><font style="vertical-align: inherit;">。</font></font></p></li>
 <li><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">此解决方案的局限性：正如</font></font><a href="https://stackoverflow.com/u/802500"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Justin Blank</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">和</font></font><a href="https://stackoverflow.com/u/1168754"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Thomas Munk</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">（请参阅他们的评论）</font><font style="vertical-align: inherit;">所指出的那样，</font></font><code>FormData</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">IE9及更低版本以及Android 2.3上的默认浏览器均不支持</font><font style="vertical-align: inherit;">该解决方案</font><font style="vertical-align: inherit;">。</font></font></p></li>
 </ol></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">宝儿猴子</span>
@@ -105,9 +103,7 @@ function submitForm(oFormElement)<font></font>
 
 <pre><code> javascript:var my_params=prompt("Enter your parameters","var1=aaaa&amp;var2=bbbbb"); var Target_LINK=prompt("Enter destination", location.href); function post(path, params) {   var xForm= document.createElement("form");   xForm.setAttribute("method", "post");   xForm.setAttribute("action", path); xForm.setAttribute("target", "_blank");   for(var key in params) {   if(params.hasOwnProperty(key)) {        var hiddenField = document.createElement("input");      hiddenField.setAttribute("name", key);      hiddenField.setAttribute("value", params[key]);         xForm.appendChild(hiddenField);     }   }   document.body.appendChild(xForm);  xForm.submit(); }   parsed_params={}; my_params.split("&amp;").forEach(function(item) {var s = item.split("="), k=s[0], v=s[1]; parsed_params[k] = v;}); post(Target_LINK, parsed_params); void(0); 
 </code></pre></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

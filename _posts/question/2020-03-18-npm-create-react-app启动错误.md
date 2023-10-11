@@ -134,7 +134,7 @@ npm ERR! There is likely additional logging output above.<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我也尝试克隆我的存储库，并得到相同的错误。</font><font style="vertical-align: inherit;">如果有人可以给我一些方法来找到会发生什么。</font><font style="vertical-align: inherit;">谢谢</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第2034篇《npm create-react-app启动错误》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第2034篇《npm create-react-app启动错误》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -145,9 +145,7 @@ npm ERR! There is likely additional logging output above.<font></font>
             <span class="discuss-time">2020.03.18</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">比.npm开始添加带有“ SKIP_PREFLIGHT_CHECK = true”的.env文件</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">西门理查德</span>
@@ -155,9 +153,7 @@ npm ERR! There is likely additional logging output above.<font></font>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我的问题源于许可问题。</font><font style="vertical-align: inherit;">我通过遵循此</font><a href="https://docs.npmjs.com/resolving-eacces-permissions-errors-when-installing-packages-globally" rel="nofollow noreferrer"><font style="vertical-align: inherit;">https://docs.npmjs.com/resolving-eacces-permissions-errors-when-installing-packages-globally</font></a><font style="vertical-align: inherit;">解决了我的问题
 </font></font><a href="https://docs.npmjs.com/resolving-eacces-permissions-errors-when-installing-packages-globally" rel="nofollow noreferrer"><font style="vertical-align: inherit;"></font></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">神乐猿</span>
@@ -170,18 +166,14 @@ npm ERR! There is likely additional logging output above.<font></font>
 <pre><code>rd node_modules /S /Q<font></font>
 npm install<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小胖古一</span>
             <span class="discuss-time">2020.03.18</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">可能与其他库冲突，请删除node_modules并再次安装npm。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">古一Jim</span>
@@ -193,18 +185,14 @@ npm install<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">希望能帮助到你</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">西里Eva伽罗</span>
             <span class="discuss-time">2020.03.18</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">万一您碰巧像我这样不幸，连续三（3）天试图解决此问题，这里提出的每个解决方案都使我失败...在您的项目根目录中创建一个.env文件并添加此代码</font></font><code>SKIP_PREFLIGHT_CHECK=true</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font><font style="vertical-align: inherit;">祝好运</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Stafan逆天前端</span>
@@ -220,9 +208,7 @@ npm install<font></font>
 <pre><code>rm -r node_modules<font></font>
 npm i<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Eva阿飞</span>
@@ -234,9 +220,7 @@ npm i<font></font>
 
 <pre><code>npm install --save react react-dom react-scripts
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">JinJin乐逆天</span>
@@ -265,9 +249,7 @@ npm ERR! spawn ENOENT<font></font>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这应该可以解决问题。</font></font><br><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
 如果不是，请</font></font><a href="https://github.com/facebookincubator/create-react-app/issues/new" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">提出问题，</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">并提供指向您的项目以及Node和npm版本的链接。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">阳光番长</span>
@@ -289,9 +271,7 @@ npm ERR! spawn ENOENT<font></font>
     "proxy": "http://128.199.139.144:3000"<font></font>
   },<font></font>
 </code></pre></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

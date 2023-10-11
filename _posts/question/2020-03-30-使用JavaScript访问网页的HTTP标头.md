@@ -24,7 +24,7 @@ topic: KoaJS
 </blockquote></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第3831篇《使用JavaScript访问网页的HTTP标头》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第3831篇《使用JavaScript访问网页的HTTP标头》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -35,27 +35,21 @@ topic: KoaJS
             <span class="discuss-time">2020.03.30</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我认为问题出了错，如果您想从JQuery / JavaScript中获取Request标头，答案就是“否”。其他解决方案是创建aspx页或jsp页，那么我们可以轻松地访问请求标头。</font><font style="vertical-align: inherit;">在aspx页面中接受所有请求，并放入会话/ cookie，然后可以在JavaScript页面中访问cookie。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">猴子村村</span>
             <span class="discuss-time">2020.03.30</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这是一个老问题。</font><font style="vertical-align: inherit;">不知道什么时候支持变得更加广泛，但</font></font><code>getAllResponseHeaders()</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">并</font></font><code>getResponseHeader()</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">似乎现在是相当标准：</font></font><a href="http://www.w3schools.com/xml/dom_http.asp" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">http://www.w3schools.com/xml/dom_http.asp</font></font></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">蛋蛋猿</span>
             <span class="discuss-time">2020.03.30</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">使用mootools，您可以使用this.xhr.getAllResponseHeaders（）</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小小</span>
@@ -68,9 +62,7 @@ request.setRequestHeader("X-Requested-With", "XMLHttpRequest");<font></font>
 request.open("GET", path, true);<font></font>
 request.send(null);<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">蛋蛋</span>
@@ -79,9 +71,7 @@ request.send(null);<font></font>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">您无法访问http标头，但是DOM中提供了其中提供的某些信息。</font><font style="vertical-align: inherit;">例如，如果要查看http引用（原文如此），请使用document.referrer。</font><font style="vertical-align: inherit;">对于其他http标头，可能还有其他类似的内容。</font><font style="vertical-align: inherit;">尝试谷歌搜索所需的特定内容，例如“ http Referer javascript”。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我知道这很明显，但是当我真正想要的只是引荐来源时，我一直在搜索“ http headers javascript”之类的东西，但没有得到任何有用的结果。</font><font style="vertical-align: inherit;">我不知道自己怎么能做出更具体的查询。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Itachi村村</span>
@@ -112,18 +102,14 @@ request.send(null);<font></font>
 <li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">浏览器需要支持</font></font><a href="https://developer.mozilla.org/fr/docs/Web/API/Service_Worker_API" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Service Workers</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> API</font></font></li>
 <li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">相同域/跨域策略正在执行，就像XMLHttpRequest一样</font></font></li>
 </ul></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">猴子</span>
             <span class="discuss-time">2020.03.30</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">将标头信息发送到JavaScript的另一种方法是通过cookie。</font><font style="vertical-align: inherit;">服务器可以从请求标头中提取所需的任何数据，并将其发送回</font></font><code>Set-Cookie</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">响应标头中，并且可以在JavaScript中读取cookie。</font><font style="vertical-align: inherit;">但是，正如keparo所说，最好只对一个或两个标头执行此操作，而不要对所有标头执行此操作。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">梅</span>
@@ -136,9 +122,7 @@ request.send(null);<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">有关执行此操作的一些示例，请访问</font></font><a href="http://www.jibbering.com/2002/4/httprequest.html" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">http://www.jibbering.com/2002/4/httprequest.html</font></font></a></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">只是我的2美分。</font></font></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

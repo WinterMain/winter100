@@ -22,7 +22,7 @@ topic: JavaScript
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">假设它有50多个属性，却不知道属性名称（即不知道“键”）如何在循环中获取每个属性值？</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第1518篇《如何获取JavaScript对象的所有属性值（不知道键）？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第1518篇《如何获取JavaScript对象的所有属性值（不知道键）？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -40,9 +40,7 @@ topic: JavaScript
 <p>and if you using google chrome open Console by using Ctrl+Shift+j</p>
 
 <p>Goto &gt;&gt; Console</p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">JinJin乐</span>
@@ -60,9 +58,7 @@ topic: JavaScript
 </div>
 </div>
 <p></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">乐泡芙</span>
@@ -80,9 +76,7 @@ topic: JavaScript
 </ul></li>
 <li><p><code>const myValues = Object.keys(myObj).map(key =&gt; myObj[key])</code></p></li>
 </ul></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">木心小哥</span>
@@ -96,9 +90,7 @@ topic: JavaScript
         return vls;<font></font>
     }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Tom凯飞云</span>
@@ -109,9 +101,7 @@ topic: JavaScript
 <p><code>Object.values(obj)</code> will fetch you all the property values as an array.</p>
 
 <p><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_objects/Object/values" rel="nofollow noreferrer">https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_objects/Object/values</a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">null</span>
@@ -126,9 +116,7 @@ for (var i = 0, objLen = objKeys.length; i &lt; objLen; i++) {<font></font>
     var obj = objs[objKeys[i]];<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">卡卡西Near</span>
@@ -145,9 +133,7 @@ for (var i = 0, objLen = objKeys.length; i &lt; objLen; i++) {<font></font>
 </code></pre>
 
 <p>3) profit!</p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小小Eva</span>
@@ -159,9 +145,7 @@ for (var i = 0, objLen = objKeys.length; i &lt; objLen; i++) {<font></font>
 Object.keys(a).map(function(key){ return a[key] });<font></font>
 // result: [1,2,3]<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">JinJinTom</span>
@@ -181,9 +165,7 @@ for (key in foo){<font></font>
 foo[two]=2<font></font>
 foo[three]=3<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">蛋蛋蛋蛋</span>
@@ -193,9 +175,7 @@ foo[three]=3<font></font>
 
 <pre><code>_.values({one : 1, two : 2, three : 3}); // return [1, 2, 3]
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小卤蛋Tony</span>
@@ -213,9 +193,7 @@ foo[three]=3<font></font>
     return vals;<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">飞云斯丁GO</span>
@@ -234,9 +212,7 @@ foo[three]=3<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这将遍历对象o的键。</font><font style="vertical-align: inherit;">在每次迭代中，将k设置为o的键。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">A十三</span>
@@ -248,9 +224,7 @@ foo[three]=3<font></font>
     var value = objects[key];<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

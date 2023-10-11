@@ -70,7 +70,7 @@ var Lander = React.createClass({<font></font>
 <p>EDIT: OOOOH do I need to host it using MAMP or something?</p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第1040篇《ReactJS：“未捕获到的SyntaxError：意外令牌<”》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第1040篇《ReactJS：“未捕获到的SyntaxError：意外令牌<”》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -87,9 +87,7 @@ var Lander = React.createClass({<font></font>
 </blockquote>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">可能是您缺少大括号</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">前端飞云</span>
@@ -98,9 +96,7 @@ var Lander = React.createClass({<font></font>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">您输入的代码正确无误。</font><font style="vertical-align: inherit;">JSX代码需要编译为JS：</font></font></p>
 
 <p><a href="http://facebook.github.io/react/jsx-compiler.html" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">http://facebook.github.io/react/jsx-compiler.html</font></font></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Itachi</span>
@@ -110,9 +106,7 @@ var Lander = React.createClass({<font></font>
 
 <pre><code>&lt;script type="text/babel" src="./lander.js"&gt;&lt;/script&gt;
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">米亚</span>
@@ -122,9 +116,7 @@ var Lander = React.createClass({<font></font>
 
 <pre><code>&lt;script type="text/babel" src="./lander.js"&gt;&lt;/script&gt;
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">JinJin宝儿</span>
@@ -145,18 +137,14 @@ var Lander = React.createClass({<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">然后你可以使用甲基苯丙胺或一些其他服务托管的网页在本地主机上，这样所有的包裹的工作，为讨论</font></font><a href="https://stackoverflow.com/questions/10752055/cross-origin-requests-are-only-supported-for-http-error-when-loading-a-local"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在这里</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">谢谢各位的帮助！</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">米亚番长</span>
             <span class="discuss-time">2020.03.12</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">添加</font></font><code>type="text/babel"</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">到包含.jsx文件的脚本并添加以下内容：   </font></font><code>&lt;script src="https://npmcdn.com/babel-core@5.8.38/browser.min.js"&gt;&lt;/script&gt;</code></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

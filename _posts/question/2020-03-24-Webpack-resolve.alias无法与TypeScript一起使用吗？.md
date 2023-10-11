@@ -38,7 +38,7 @@ topic: Webpack
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我发现了以下</font></font><a href="https://github.com/s-panferov/awesome-typescript-loader/issues/34" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">问题，</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">但没有答案。</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第3733篇《Webpack resolve.alias无法与TypeScript一起使用吗？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第3733篇《Webpack resolve.alias无法与TypeScript一起使用吗？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -54,9 +54,7 @@ topic: Webpack
 <li><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">当您编写自定义Webpack时，</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">它可以使用</font><strong><font style="vertical-align: inherit;">Typescript</font></strong><font style="vertical-align: inherit;">，但不能直接使用。</font><font style="vertical-align: inherit;">解释一下，后台有两种编译类型。</font><font style="vertical-align: inherit;">首先是tsx-&gt; tsconfig.json扮演角色的js，但是当您实际编译js代码时，webpack就会出现。</font><font style="vertical-align: inherit;">因此，对于别名，应在两个位置（即tsconfig和webpack中）放置解析，以成功运行应用程序</font></font></li>
 <li><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">使用default时（创建react应用后）</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">：只需添加</font></font><code>"baseUrl": "./src"</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">tsconfig并查看代码即可。</font></font></li>
 </ol></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">樱蛋蛋</span>
@@ -90,9 +88,7 @@ topic: Webpack
 
 <pre><code>import { FormsModule } from "forms/my-forms/my-forms.module";
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小卤蛋神乐</span>
@@ -111,9 +107,7 @@ topic: Webpack
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果您使用</font></font><code>awesome-typescript-loader</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，则可以的WebPack自动从算出这个</font></font><code>paths</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">设置在你的</font></font><code>tsconfig.json</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，按</font></font><a href="https://github.com/s-panferov/awesome-typescript-loader/issues/156" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">从回购这一问题上的地位</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font><font style="vertical-align: inherit;">这样，您无需在Webpack </font></font><code>alias</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">字段中</font><font style="vertical-align: inherit;">重复相同的信息</font><font style="vertical-align: inherit;">。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">梅</span>
@@ -146,9 +140,7 @@ topic: Webpack
   ]<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">猴子</span>
@@ -170,9 +162,7 @@ topic: Webpack
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我从这篇文章中发现了这一点：</font><a href="https://medium.com/@martin_hotell/type-safe-es2015-module-import-path-aliasing-with-webpack-typescript-and-jest-fe461347e010" rel="noreferrer"><font style="vertical-align: inherit;">https</font></a><font style="vertical-align: inherit;"> :
  </font></font><a href="https://medium.com/@martin_hotell/type-safe-es2015-module-import-path-aliasing-with-webpack-typescript-and-jest-fe461347e010" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">//medium.com/@martin_hotell/type-safe-es2015-module-import-path-aliasing-with-webpack-typescript-and-jest-fe461347e010</font></font></a></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

@@ -19,7 +19,7 @@ topic: JavaScript
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如何使用jQuery 1.2.6从Ajax调用管理重定向指令？</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第274篇《jQuery Ajax调用后如何管理重定向请求》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第274篇《jQuery Ajax调用后如何管理重定向请求》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -53,9 +53,7 @@ XMLHttpRequest.prototype.send = function() {<font></font>
   oldXMLHttpRequestSend.apply(this, arguments);<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">L泡芙Jim</span>
@@ -70,9 +68,7 @@ In your jsp you can write </p>
 </code></pre>
 
 <p>And then you can store this temp value in your javascript variable and play around </p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">米亚凯</span>
@@ -106,9 +102,7 @@ In your jsp you can write </p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">来源：
  </font></font><a href="https://stackoverflow.com/questions/11242174/handle-session-expired-event-in-spring-based-web-application"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">1</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，</font></font><a href="http://yoyar.com/blog/2012/06/dealing-with-the-spring-security-ajax-session-timeout-problem/" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">2</font></font></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">null</span>
@@ -124,9 +118,7 @@ In your jsp you can write </p>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">将其放在登录页面上。</font><font style="vertical-align: inherit;">如果已将其加载到主页的div中，它将重定向到登录页面。</font><font style="vertical-align: inherit;">“ #site”是位于除登录页面以外的所有页面上的div的ID。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">GilGreen</span>
@@ -152,9 +144,7 @@ In your jsp you can write </p>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我检查html标签的存在，但是您可以更改indexOf来搜索登录页面中存在的唯一字符串...</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">米亚小小神乐</span>
@@ -189,9 +179,7 @@ In your jsp you can write </p>
     }<font></font>
 });<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">A小胖</span>
@@ -209,9 +197,7 @@ In your jsp you can write </p>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">替换</font></font><code>400</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">为您要处理的状态码。</font><font style="vertical-align: inherit;">像已经提到的那样，</font></font><code>401 Unauthorized</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">可能是一个好主意。</font><font style="vertical-align: inherit;">我使用，</font></font><code>400</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">因为它是非常不确定的，我可以将其</font></font><code>401</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">用于更具体的情况（例如错误的登录凭据）。</font><font style="vertical-align: inherit;">因此，</font></font><code>4xx</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">当会话超时并且您要处理客户端重定向时，</font><font style="vertical-align: inherit;">后端应该返回</font><font style="vertical-align: inherit;">错误代码，</font><font style="vertical-align: inherit;">而不是直接</font><font style="vertical-align: inherit;">重定向。</font><font style="vertical-align: inherit;">即使使用骨干.js之类的框架，对我来说也很完美</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">老丝Tom</span>
@@ -247,9 +233,7 @@ In your jsp you can write </p>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">...就像魅​​力:)。</font><font style="vertical-align: inherit;">您可能想知道为什么我在</font></font><code>LoginPage</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">标头中</font><font style="vertical-align: inherit;">包含url </font><font style="vertical-align: inherit;">...基本上是因为我找不到确定</font></font><code>GET</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">从</font></font><code>xhr</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">对象</font><font style="vertical-align: inherit;">的自动位置重定向得到</font><font style="vertical-align: inherit;">的url的方法</font><font style="vertical-align: inherit;">...</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">达蒙小胖</span>
@@ -267,9 +251,7 @@ In your jsp you can write </p>
 <font></font>
 });<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">神无老丝Davaid</span>
@@ -278,9 +260,7 @@ In your jsp you can write </p>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">没有浏览器正确处理301和302响应。</font><font style="vertical-align: inherit;">实际上，该标准甚至说他们应该“透明地”处理它们，这对于Ajax Library供应商来说是一个巨大的麻烦。</font><font style="vertical-align: inherit;">在</font></font><a href="http://code.google.com/p/ra-ajax/" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Ra-Ajax中，</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我们被迫使用HTTP响应状态代码278（只是一些“未使用”的成功代码）来透明地处理来自服务器的重定向。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这真的让我很烦，如果这里有人在W3C中有一些“拉”，我将不胜感激，您可以让W3C </font></font><em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">知道</font></font></em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我们确实需要自己处理301和302代码...！</font><font style="vertical-align: inherit;">;）</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">蛋蛋猿</span>
@@ -313,9 +293,7 @@ In your jsp you can write </p>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这对我们有用，因为所有Ajax调用总是在DIV元素内返回HTML，该DIV元素用于替换页面的一部分。</font><font style="vertical-align: inherit;">另外，我们只需要重定向到登录页面。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">猪猪路易</span>
@@ -345,9 +323,7 @@ In your jsp you can write </p>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">JSON对象“数据”在服务器上构造为具有2个成员：</font></font><code>data.redirect</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">和</font></font><code>data.form</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font><font style="vertical-align: inherit;">我发现这种方法要好得多。</font></font></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

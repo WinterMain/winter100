@@ -49,7 +49,7 @@ render(<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">该方法在我调用时执行</font></font><code>onEnter={requireAuth()}</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，但显然这不是目的，而且我也不会获得所需的参数。</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第2319篇《在React-Router中未调用onEnter》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第2319篇《在React-Router中未调用onEnter》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -71,9 +71,7 @@ render(<font></font>
    </font></font><code>componentWillReceiveProps</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">）。</font></font><code>onLeave</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">可以替换为
    </font></font><code>componentWillUnmount</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p>
 </blockquote></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">前端逆天前端</span>
@@ -89,9 +87,7 @@ render(<font></font>
   )<font></font>
 )}/&gt;<font></font>
 </code></pre></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

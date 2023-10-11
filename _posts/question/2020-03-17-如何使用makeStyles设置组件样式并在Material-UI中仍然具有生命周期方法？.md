@@ -66,7 +66,7 @@ topic: React.js
 </code></pre></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第1863篇《如何使用makeStyles设置组件样式并在Material UI中仍然具有生命周期方法？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第1863篇《如何使用makeStyles设置组件样式并在Material UI中仍然具有生命周期方法？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -77,9 +77,7 @@ topic: React.js
             <span class="discuss-time">2020.03.17</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">除了将类转换为函数外，一个简单的步骤是为包含使用“类”的组件的jsx创建一个函数（在您的情况下为）</font></font><code>&lt;container&gt;&lt;/container&gt;</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，然后在类render（）的返回内部调用此函数。作为标签。</font><font style="vertical-align: inherit;">这样，您就可以从类中移出函数。</font><font style="vertical-align: inherit;">它对我来说非常有效。</font><font style="vertical-align: inherit;">就我而言，这是</font></font><code>&lt;table&gt;</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我将其移至函数TableStmt外部并在render内部将该函数称为</font></font><code>&lt;TableStmt/&gt;</code></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">卡卡西神奇</span>
@@ -137,9 +135,7 @@ export default Welcome;<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">🏓在↓CodeSandBox↓上</font></font></p>
 
 <p><a href="https://codesandbox.io/s/eager-swartz-558tk?fontsize=14&amp;hidenavigation=1&amp;theme=dark" rel="nofollow noreferrer"><img src="https://codesandbox.io/static/img/play-codesandbox.svg" alt="编辑React钩子"></a></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

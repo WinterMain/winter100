@@ -22,7 +22,7 @@ topic: Node.js
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">诀窍在于它也应该处理月份和年份的边界。</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第4088篇《Javascript-获取2个日期之间的日期数组》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第4088篇《Javascript-获取2个日期之间的日期数组》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -69,9 +69,7 @@ Output: <font></font>
 <pre><code>var daylist = getDaysArray(new Date("2018-05-01"),new Date());<font></font>
 daylist.map((v)=&gt;v.toISOString().slice(0,10)).join("")<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">凯西里</span>
@@ -95,9 +93,7 @@ function getDates(startDate, stopDate) {<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这是一个功能</font></font><a href="http://jsfiddle.net/jfhartsock/cM3ZU/" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">演示</font></font></a> <a href="http://jsfiddle.net/jfhartsock/cM3ZU/" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">http://jsfiddle.net/jfhartsock/cM3ZU/</font></font></a></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

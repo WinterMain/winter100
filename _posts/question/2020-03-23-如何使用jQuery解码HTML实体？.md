@@ -17,7 +17,7 @@ topic: HTML
     <div class="article-content"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如何使用jQuery解码字符串中的HTML实体？</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第3080篇《如何使用jQuery解码HTML实体？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第3080篇《如何使用jQuery解码HTML实体？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -31,9 +31,7 @@ topic: HTML
 
 <pre><code>var decoded = $("&lt;div/&gt;").text(encodedStr).html();
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">GOL蛋蛋</span>
@@ -43,9 +41,7 @@ topic: HTML
 
 <pre><code>Ext.util.Format.htmlDecode(innerHtmlContent)
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">卡卡西梅Harry</span>
@@ -66,9 +62,7 @@ topic: HTML
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这将再次在按钮中显示⇓。</font><font style="vertical-align: inherit;">我希望这可以帮助某人。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">LStafan小宇宙</span>
@@ -91,9 +85,7 @@ topic: HTML
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果您想避免与实体解码有关的浏览器错误和/或能够处理所有命名字符引用，则无法逃脱</font></font><code>&lt;textarea&gt;</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">；</font><font style="vertical-align: inherit;">你需要像</font></font><em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">他</font></font></em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这样的图书馆</font><font style="vertical-align: inherit;">。</font></font></p></li>
 <li><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">他只是觉得很好，感觉用这种方式做事不太hacky。</font></font></p></li>
 </ul></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">逆天乐</span>
@@ -108,9 +100,7 @@ topic: HTML
 <p><strong><a href="http://underscorejs.org/#escape" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">_.escape（字符串）</font></font></a></strong></p>
 
 <p><strong><a href="http://underscorejs.org/#unescape" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">_.unescape（字符串）</font></font></a></strong></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">逆天猿</span>
@@ -124,9 +114,7 @@ topic: HTML
 
 <pre><code>var decoded = $("&lt;div/&gt;").html(encodedStr).text();
 </code></pre></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

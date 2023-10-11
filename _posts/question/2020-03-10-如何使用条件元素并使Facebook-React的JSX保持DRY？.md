@@ -35,7 +35,7 @@ topic: JavaScript
 </code></pre></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第484篇《如何使用条件元素并使Facebook React的JSX保持DRY？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第484篇《如何使用条件元素并使Facebook React的JSX保持DRY？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -48,9 +48,7 @@ topic: JavaScript
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">只是为了扩展@Jack Allan对文档的引用。</font></font></p>
 
 <p><a href="https://facebook.github.io/react/docs/conditional-rendering.html#preventing-component-from-rendering" rel="nofollow noreferrer"><font style="vertical-align: inherit;"></font></a> <code>null</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在这种情况下，</font><a href="https://facebook.github.io/react/docs/conditional-rendering.html#preventing-component-from-rendering" rel="nofollow noreferrer"><font style="vertical-align: inherit;">React基本（快速入门）文档会提出建议</font></a><font style="vertical-align: inherit;">。</font><font style="vertical-align: inherit;">但是，</font><font style="vertical-align: inherit;">高级指南中也提到了</font></font><a href="https://facebook.github.io/react/docs/jsx-in-depth.html#booleans-null-and-undefined-are-ignored" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">布尔值，空值和未定义</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Ss Yy</span>
@@ -68,9 +66,7 @@ topic: JavaScript
     }<font></font>
   &lt;/div&gt;  <font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Stafan路易</span>
@@ -97,9 +93,7 @@ topic: JavaScript
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">当然，还有其他有效的方法可以做到这一点，这完全取决于个人喜好和场合。</font><font style="vertical-align: inherit;">如果您有兴趣，可以在</font></font><a href="http://kolosek.com/react-jsx-conditions/" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">本文中</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">了解更多有关如何在React中进行条件渲染的方法</font><font style="vertical-align: inherit;">！</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">飞云泡芙</span>
@@ -138,9 +132,7 @@ class App extends React.Component {<font></font>
   }<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小卤蛋Davaid</span>
@@ -184,9 +176,7 @@ class App extends React.Component {<font></font>
 <font></font>
 }())<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">猿樱</span>
@@ -232,9 +222,7 @@ React.render(element, document.body);<font></font>
 </div>
 </div>
 <p></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">凯斯丁</span>
@@ -300,9 +288,7 @@ React.render(element, document.body);<font></font>
 <ul>
 <li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">避免使用它们，并熟悉JSX和JavaScript</font></font></li>
 </ul></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">斯丁Sam</span>
@@ -324,9 +310,7 @@ React.render(element, document.body);<font></font>
                &lt;/div&gt;<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">樱Davaid</span>
@@ -356,18 +340,14 @@ React.render(element, document.body);<font></font>
   }<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Vicky</span>
             <span class="discuss-time">2020.03.10</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我制作了</font></font><a href="https://www.npmjs.com/package/jsx-control-statements" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">https://www.npmjs.com/package/jsx-control-statements</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">使其更容易一些，基本上，它允许您将</font></font><code>&lt;If&gt;</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">条件</font><font style="vertical-align: inherit;">定义</font><font style="vertical-align: inherit;">为标签，然后将它们编译为三元ifs，以便</font></font><code>&lt;If&gt;</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">仅获取</font><font style="vertical-align: inherit;">内部代码</font><font style="vertical-align: inherit;">如果条件为真，则执行。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Tom阳光</span>
@@ -385,9 +365,7 @@ React.render(element, document.body);<font></font>
             );<font></font>
         }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">蛋蛋蛋蛋</span>
@@ -410,9 +388,7 @@ React.render(element, document.body);<font></font>
   &lt;span&gt;Hello!&lt;/span&gt;<font></font>
 )}<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">MandyJinJin路易</span>
@@ -430,9 +406,7 @@ React.render(element, document.body);<font></font>
   }<font></font>
 })()}<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">猴子NearJinJin</span>
@@ -482,9 +456,7 @@ React.render(element, document.body);<font></font>
   );<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">米亚小小神乐</span>
@@ -523,9 +495,7 @@ React.render(element, document.body);<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">ps有人认为此组件不利于代码读取。</font><font style="vertical-align: inherit;">但是在我看来，带有javascript的html更糟</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">斯丁Tony泡芙</span>
@@ -553,9 +523,7 @@ render: function () {<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我一直都遵循这种模式。</font><font style="vertical-align: inherit;">使代码真正干净且易于理解。</font><font style="vertical-align: inherit;">此外，</font></font><code>Banner</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果它变得太大（或在其他地方重复使用），</font><font style="vertical-align: inherit;">它还允许您将</font><font style="vertical-align: inherit;">其</font><font style="vertical-align: inherit;">重构</font><font style="vertical-align: inherit;">为自己的组件。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">JinJin卡卡西小胖</span>
@@ -577,9 +545,7 @@ render: function () {<font></font>
 <p><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">但是，这些不适用于</font></font></strong> <code>price == 0</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在第一种情况下，JSX将呈现false分支，并且在逻辑合取的情况下，将不呈现任何内容。</font><font style="vertical-align: inherit;">如果该属性可能为0，则只需在JSX之外使用if语句即可。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">卡卡西Mandy</span>
@@ -603,9 +569,7 @@ render: function () {<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">参见</font></font><a href="http://wiki.ecmascript.org/doku.php?id=strawman:do_expressions" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">http://wiki.ecmascript.org/doku.php?id=strawman:do_expressions</font></font></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">老丝乐</span>
@@ -629,18 +593,14 @@ render: function () {<font></font>
   &lt;/div&gt;<font></font>
 &lt;/div&gt;<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小胖凯樱</span>
             <span class="discuss-time">2020.03.10</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">只需将横幅标为未定义即可，它就不会包含在内。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">LEY逆天</span>
@@ -652,9 +612,7 @@ render: function () {<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果您</font></font><code>state.banner</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">是</font></font><code>null</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">或</font></font><code>undefined</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，则跳过条件的右侧。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">GreenGil</span>
@@ -710,9 +668,7 @@ render: function () {<font></font>
   );<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

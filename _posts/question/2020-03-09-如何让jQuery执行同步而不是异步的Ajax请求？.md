@@ -29,7 +29,7 @@ answer: 5
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">但是我想防止我的小部件创建该项目，因此我应该</font></font><code>false</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在母函数中</font><font style="vertical-align: inherit;">返回</font><font style="vertical-align: inherit;">，而不是在回调中返回。</font><font style="vertical-align: inherit;">有没有一种方法可以使用jQuery或任何其他浏览器内API执行同步AJAX请求？</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第338篇《如何让jQuery执行同步而不是异步的Ajax请求？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第338篇《如何让jQuery执行同步而不是异步的Ajax请求？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -49,9 +49,7 @@ answer: 5
   async:false // to make it synchronous<font></font>
 });<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小胖前端逆天</span>
@@ -68,9 +66,7 @@ answer: 5
    // Todo something..<font></font>
 });<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Stafan理查德</span>
@@ -90,9 +86,7 @@ answer: 5
 var msg=getURL("message.php");<font></font>
 alert(msg);<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Gil理查德</span>
@@ -111,9 +105,7 @@ alert(msg);<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我想它的工作原理与@Adam所建议的一样，但对于希望重新配置其</font><font style="vertical-align: inherit;">语法</font></font><code>jQuery.get()</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">或</font></font><code>jQuery.post()</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">更复杂的</font></font><code>jQuery.ajax()</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">语法的</font><font style="vertical-align: inherit;">人可能会有所帮助</font><font style="vertical-align: inherit;">。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">前端LEY米亚</span>
@@ -136,9 +128,7 @@ alert(msg);<font></font>
   return strReturn;<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

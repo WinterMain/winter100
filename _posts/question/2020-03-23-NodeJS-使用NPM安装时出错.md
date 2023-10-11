@@ -132,7 +132,7 @@ G:\nodejs\node_modules\caress-server&gt;<font></font>
 </code></pre></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第2995篇《NodeJS-使用NPM安装时出错》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第2995篇《NodeJS-使用NPM安装时出错》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -143,18 +143,14 @@ G:\nodejs\node_modules\caress-server&gt;<font></font>
             <span class="discuss-time">2020.03.23</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">修复了将Node从v12.8.1降级到v11.15.0并成功安装所有内容的问题</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">LGil</span>
             <span class="discuss-time">2020.03.23</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">安装node-gyp和c ++编译器（gcc-c ++）。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Tony西门</span>
@@ -166,9 +162,7 @@ G:\nodejs\node_modules\caress-server&gt;<font></font>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这意味着Python环境。</font><font style="vertical-align: inherit;">在我的情况下，变量应指向可执行的python文件：
 </font></font><code>SET PYTHON=C:\work\_env\Python27\python.exe</code></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">凯西里</span>
@@ -182,9 +176,7 @@ cd /usr/local/lib sudo ln -s ../../lib/libSystem.B.dylib libgcc_s.10.5.dylib <fo
 brew install gcc<font></font>
 npm install<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">猪猪</span>
@@ -199,9 +191,7 @@ npm install<font></font>
 <p><em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">npm install --global --production Windows构建工具</font></font></em> </p>
 
 <p><em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">npm install --global node-gyp</font></font></em></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">卡卡西Near</span>
@@ -258,9 +248,7 @@ lrwxrwxrwx 1 Administrators xxx   13 Aug 24 17:28 python.exe -&gt; python2.7.exe
 lrwxrwxrwx 1 xxx            xxx   13 Jun  2  2015 python2 -&gt; python2.7.exe<font></font>
 -rwxr-xr-x 1 xxx            xxx 9235 Jun  2  2015 python2.7.exe<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Mandy</span>
@@ -271,9 +259,7 @@ lrwxrwxrwx 1 xxx            xxx   13 Jun  2  2015 python2 -&gt; python2.7.exe<fo
 <pre><code>choco install python2<font></font>
 choco install visualstudioexpress2013windowsdesktop<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">乐米亚</span>
@@ -303,9 +289,7 @@ choco install visualstudioexpress2013windowsdesktop<font></font>
 <ul>
 <li><a href="https://github.com/joyent/node/issues/8005#issuecomment-50545326" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">https://github.com/joyent/node/issues/8005#issuecomment-50545326</font></font></a></li>
 </ul></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

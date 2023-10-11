@@ -81,7 +81,7 @@ topic: Vue.js
 Okay so I still have the problem I tried to play around with it a bit more to find the issue but its still occuring... I will set a bounty now and I hope anyone is able to help.</p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第3141篇《Firestore .startAt无法正常工作》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第3141篇《Firestore .startAt无法正常工作》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -107,9 +107,7 @@ Okay so I still have the problem I tried to play around with it a bit more to fi
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我也尝试通过不同的解决方案来提高效率，感谢您的帮助。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Stafan</span>
@@ -182,9 +180,7 @@ async fetch({ store }){<font></font>
 </div>
 </div>
 <p></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

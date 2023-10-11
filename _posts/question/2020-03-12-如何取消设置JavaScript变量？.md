@@ -21,7 +21,7 @@ topic: JavaScript
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">你怎么看？</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第936篇《如何取消设置JavaScript变量？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第936篇《如何取消设置JavaScript变量？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -36,9 +36,7 @@ topic: JavaScript
 <pre><code>foo = null;<font></font>
 if(foo === null) or if(foo !== null)<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">JinJinDavaid卡卡西</span>
@@ -46,9 +44,7 @@ if(foo === null) or if(foo !== null)<font></font>
           </div>
           <div class="discuss-comment"><p>You cannot delete a variable if you declared it (with var x;) at the time of first use.
 However, if your variable x first appeared in the script without a declaration, then you can use the delete operator (delete x;) and your variable will be deleted, very similar to deleting an element of an array or deleting a property of an object.</p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">LEYAItachi</span>
@@ -72,18 +68,14 @@ delete function_dec; // true, tested on Chrome 52<font></font>
 delete declared_variable; // true, tested on Chrome 52<font></font>
 delete let_variable; // false, tested on Chrome 78<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">JimStafan</span>
             <span class="discuss-time">2020.03.12</span>
           </div>
           <div class="discuss-comment"><p>Variables, in contrast with simple properties, have attribute <strong>[[Configurable]]</strong>, meaning impossibility to remove a variable via the <em>delete</em> operator. However there is one execution context on which this rule does not affect. It is the <strong>eval</strong> context: there [[Configurable]] attribute is not set for variables.</p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">逆天L</span>
@@ -134,9 +126,7 @@ letVar;<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">FF Nightly 53.0a1显示相同的行为。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小胖梅</span>
@@ -147,9 +137,7 @@ letVar;<font></font>
 //or remove it..<font></font>
 delete some_var;<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小胖Pro</span>
@@ -187,9 +175,7 @@ delete foo.bar;<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">所以要小心</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">编辑：我的回答</font></font><a href="http://perfectionkills.com/understanding-delete/" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">有点不准确</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">（请参阅“误解”在最后）。</font><font style="vertical-align: inherit;">该链接说明了所有细节，但摘要是，浏览器之间以及要删除的对象之间可能会有很大差异。</font></font><code>delete object.someProp</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">一般只要保持安全</font></font><code>object !== window</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font><code>var</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">尽管您可以在适当的情况下</font><font style="vertical-align: inherit;">使用，但我仍然不会使用它来删除声明的变量</font><font style="vertical-align: inherit;">。</font></font></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

@@ -24,7 +24,7 @@ SecurityError: localStorage is not available for opaque origins at Window.get lo
 </code></pre></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第4012篇《Jest SecurityError：localStorage不适用于不透明的来源》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第4012篇《Jest SecurityError：localStorage不适用于不透明的来源》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -54,9 +54,7 @@ SecurityError: localStorage is not available for opaque origins at Window.get lo
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">}</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小胖</span>
@@ -68,27 +66,21 @@ SecurityError: localStorage is not available for opaque origins at Window.get lo
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">开玩笑的配置。</font><font style="vertical-align: inherit;">但是，很高兴知道这也是由酶触发的。</font><font style="vertical-align: inherit;">对我来说是React v15和v15适配器。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">飞云</span>
             <span class="discuss-time">2020.04.03</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这听起来可能很愚蠢，但是对我来说，问题是由于我错误地使用安装了随机软件包而引起的</font></font><code>npm update</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font><font style="vertical-align: inherit;">我当时正在跑步</font></font><code>npm install</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，</font></font><code>npm update</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">但我只应该跑步</font></font><code>npm install</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font><font style="vertical-align: inherit;">我通过删除</font></font><code>node_modules</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">目录并</font></font><code>npm install</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">再次</font><font style="vertical-align: inherit;">运行来</font><font style="vertical-align: inherit;">解决该问题</font><font style="vertical-align: inherit;">。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">老丝</span>
             <span class="discuss-time">2020.04.03</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">对我来说，这是通过升级到“ jest”：“ ^ 24.9.0”解决的，</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Stafan</span>
@@ -103,9 +95,7 @@ const { JSDOM } = jsdom;<font></font>
 <font></font>
 const dom = new JSDOM(`...`, { url: "https://example.org/" });<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Itachi</span>
@@ -122,9 +112,7 @@ const dom = new JSDOM(`...`, { url: "https://example.org/" });<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这应该为您工作！</font></font></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

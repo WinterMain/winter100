@@ -1,7 +1,7 @@
 ---
 title: 问答
 sitemap: true
-permalink: /question/
+permalink: /question
 layout: default
 ---
 
@@ -11,13 +11,15 @@ layout: default
 <div class="p-page p-question">
   <div class="stage">
     <div class="s-left question-list-wrapper" topic="">
-      <div class="c-nav flex">
-        <span item="" class="nav-item active">全部</span>
-        {% for item in all_topic %}
-          {% if item %}
-          <span item="{{item}}" class="nav-item">{{ item }}</span>
-          {% endif %}
-        {% endfor %}
+      <div class="nav-wrapper">
+        <div class="c-nav flex">
+          <span item="" class="nav-item active">全部({{site.categories.question.size}})</span>
+          {% for item in all_topic %}
+            {% if item %}
+            <span item="{{item}}" class="nav-item">{{ item }}</span>
+            {% endif %}
+          {% endfor %}
+        </div>
       </div>
       <div class="question-list">
       {% for post in site.categories.question %}

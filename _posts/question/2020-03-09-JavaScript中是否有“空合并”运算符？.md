@@ -31,7 +31,7 @@ var whatIWant = someString ? someString : 'Cookies!';<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这有点怪异恕我直言。</font><font style="vertical-align: inherit;">我可以做得更好吗？</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第273篇《JavaScript中是否有“空合并”运算符？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第273篇《JavaScript中是否有“空合并”运算符？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -54,9 +54,7 @@ var whatIWant = someString ? someString : 'Cookies!';<font></font>
 </blockquote>
 
 <p><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">想要例子吗？</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">跟随我发布的链接，</font></font><em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">它包含了所有内容。</font></font></em></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">TomGil村村</span>
@@ -75,9 +73,7 @@ var whatIWant = someString ? someString : 'Cookies!';<font></font>
   
   <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这是一种新的表示值</font></font><code>foo</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">“存在”时将被使用的方式；</font><font style="vertical-align: inherit;">但是当它是</font></font><code>null</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">或时</font></font><code>undefined</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，请计算</font></font><code>bar()</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">其位置。</font></font></p>
 </blockquote></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">村村AL</span>
@@ -88,18 +84,14 @@ var whatIWant = someString ? someString : 'Cookies!';<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">@Gumbo的答案提供了检查null的最佳方法；</font><font style="vertical-align: inherit;">但是，重要的是要注意</font><font style="vertical-align: inherit;">JavaScript </font></font><code>==</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">与</font></font><code>===</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">JavaScript之间</font><font style="vertical-align: inherit;">的区别，</font></font><em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">尤其是</font></font></em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在涉及检查</font></font><code>undefined</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">和/或问题时</font></font><code>null</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">有关于两个词的区别一个真正的好文章</font></font><a href="http://saladwithsteve.com/2008/02/javascript-undefined-vs-null.html" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在这里</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font><font style="vertical-align: inherit;">基本上，请理解，如果您使用</font></font><code>==</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">而不是</font></font><code>===</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，JavaScript将尝试合并您正在比较的值，并</font></font><em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在</font></font></em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">合并</font><em><font style="vertical-align: inherit;">后</font></em><font style="vertical-align: inherit;">返回比较的结果</font><font style="vertical-align: inherit;">。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">TomMandy</span>
             <span class="discuss-time">2020.03.09</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">目前尚不支持，但是JS标准化过程正在其上进行：</font><a href="https://github.com/tc39/proposal-optional-chaining" rel="noreferrer"><font style="vertical-align: inherit;">https</font></a><font style="vertical-align: inherit;"> : </font></font><a href="https://github.com/tc39/proposal-optional-chaining" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">//github.com/tc39/proposal-optional-chaining</font></font></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">JinJinLEY</span>
@@ -122,9 +114,7 @@ xyz.val = coalesce(null, undefined, xyz.val, 5);<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">此解决方案的工作方式类似于SQL合并函数，它接受任意数量的参数，如果它们都不具有值，则返回null。</font><font style="vertical-align: inherit;">它的行为类似于C＃？</font><font style="vertical-align: inherit;">从“”，“ false”和“ 0”被视为NOT NULL的意义上讲，因此算作实际值。</font><font style="vertical-align: inherit;">如果您来自.net背景，这将是最自然的解决方案。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">菏以飘落</span>
@@ -158,9 +148,7 @@ var whatIWant = 0 || 42; // is 42<font></font>
 var whatIWant = "" || "a million bucks"; // is "a million bucks"<font></font>
 var whatIWant = "false" || "no way"; // is "false"<font></font>
 </code></pre></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

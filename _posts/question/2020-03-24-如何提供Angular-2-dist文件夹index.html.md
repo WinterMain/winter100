@@ -32,7 +32,7 @@ topic: Webpack
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">现在，我想在浏览器中运行此构建。</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第3652篇《如何提供Angular 2 dist文件夹index.html》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第3652篇《如何提供Angular 2 dist文件夹index.html》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -49,9 +49,7 @@ topic: Webpack
 <li>Open separate instance of VS Code onto the <code>dist/</code> folder</li>
 <li>Press "Go Live" button in bottom right of VS Code status bar <a href="https://i.stack.imgur.com/4cjal.png" rel="nofollow noreferrer"><img src="https://i.stack.imgur.com/4cjal.png" alt="在此处输入图片说明"></a> which you will see after installing the Live Server extension.</li>
 </ol></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">老丝小卤蛋梅</span>
@@ -76,18 +74,14 @@ Safari/537.36"<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">然后，此解决方案使用了所有相同的步骤，但没有使用http-server try </font></font><code>angular-http-server</code></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">它为我工作。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">番长</span>
             <span class="discuss-time">2020.03.24</span>
           </div>
           <div class="discuss-comment"><p><code>ng serve</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">将正常运行，并且不需要事先构建。</font><font style="vertical-align: inherit;">它在内存中生成文件，并具有一些其他功能，例如自动重新加载。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Gil米亚</span>
@@ -113,9 +107,7 @@ Safari/537.36"<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">查看</font></font><a href="https://github.com/simonh1000/angular-http-server" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">回购</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">以获取有关用法的更多信息。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">PS：作者认为，它还应与其他SPA框架（React，Vue等）一起使用。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">西里神奇</span>
@@ -141,9 +133,7 @@ Safari/537.36"<font></font>
 
 <pre><code>npm run pwa 
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">达蒙</span>
@@ -166,9 +156,7 @@ Safari/537.36"<font></font>
 <p><a href="https://i.stack.imgur.com/RQT9J.png" rel="noreferrer"><img src="https://i.stack.imgur.com/RQT9J.png" alt="在此处输入图片说明"></a></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在浏览器中</font><font style="vertical-align: inherit;">检查</font></font><a href="http://localhost:8080" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">http：// localhost：8080</font></font></a><font style="vertical-align: inherit;"></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">梅</span>
@@ -183,9 +171,7 @@ Safari/537.36"<font></font>
 </blockquote>
 
 <p><a href="https://angular.io/cli/serve" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">https://angular.io/cli/serve</font></font></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小胖Gil</span>
@@ -201,9 +187,7 @@ Safari/537.36"<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">有关参考，请参见</font></font><a href="https://www.npmjs.com/package/http-server" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">https://www.npmjs.com/package/http-server</font></font></a></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

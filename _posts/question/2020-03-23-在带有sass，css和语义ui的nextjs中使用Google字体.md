@@ -72,7 +72,7 @@ $font-size: 100px;<font></font>
 </code></pre></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第3123篇《在带有sass，css和语义ui的nextjs中使用Google字体》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第3123篇《在带有sass，css和语义ui的nextjs中使用Google字体》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -83,9 +83,7 @@ $font-size: 100px;<font></font>
             <span class="discuss-time">2020.03.23</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我必须将文件放到静态文件夹中才能正常工作，必须是在nextjs中渲染图像和字体的特定设置</font></font></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

@@ -63,7 +63,7 @@ topic: Django
 <p>But other urls like the media or static urls will also point to the same <em>catch all pattern regex</em>. How can I solve this problem?</p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第1467篇《处理单页应用程序URL和Django URL》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第1467篇《处理单页应用程序URL和Django URL》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}

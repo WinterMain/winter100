@@ -23,7 +23,7 @@ topic: CSS
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">谢谢！</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第3906篇《Rails：对资产管道使用livereload》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第3906篇《Rails：对资产管道使用livereload》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -44,9 +44,7 @@ end<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这不是您运行时生成的默认代码，</font></font><code>guard init livereload</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">因为某些原因无法与sass导入一起正常运行。  </font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">伽罗理查德</span>
@@ -62,9 +60,7 @@ end<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我的理解是，这会将scss文件映射到已编译的css文件。</font><font style="vertical-align: inherit;">我希望它也适用于无礼。</font></font></p>
 
 <p><a href="https://github.com/guard/guard-livereload/issues/126#issuecomment-72420391" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">资料来源：Github Issue</font></font></a></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

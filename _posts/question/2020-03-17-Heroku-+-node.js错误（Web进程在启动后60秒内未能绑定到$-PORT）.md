@@ -69,7 +69,7 @@ topic: Node.js
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">任何想法 ？</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第1913篇《Heroku + node.js错误（Web进程在启动后60秒内未能绑定到$ PORT）》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第1913篇《Heroku + node.js错误（Web进程在启动后60秒内未能绑定到$ PORT）》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -104,9 +104,7 @@ app.listen(PORT, () =&gt; {<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">使用process.env.PORT而不是process.env.port !!!! </font><font style="vertical-align: inherit;">端口！=端口!!! </font><font style="vertical-align: inherit;">（明显）</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">归功于：gprasant</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Harry</span>
@@ -164,9 +162,7 @@ module.exports = {<font></font>
  ]<font></font>
 };<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">阳光梅L</span>
@@ -175,9 +171,7 @@ module.exports = {<font></font>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我有同样的问题。</font><font style="vertical-align: inherit;">最终，我意识到我不需要请求端点中的端口号。</font><font style="vertical-align: inherit;">（因此端点是</font></font><a href="https://...herokuapp.com" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">https：//...herokuapp.com</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">而不是</font></font><a href="https://...herokuapp.com:5000" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">https：//...herokuapp.com：5000</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">）。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">listen（）调用可以不包含主机和回调：server.listen（5000）;</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">神奇小宇宙</span>
@@ -192,9 +186,7 @@ module.exports = {<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">2）区分大小写的问题是使用“ Sequelize”而不是“ sequelize”</font></font></p>
 
 <p><a href="https://i.stack.imgur.com/iCrGS.png" rel="nofollow noreferrer"><img src="https://i.stack.imgur.com/iCrGS.png" alt="在此处输入图片说明"></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">凯十三</span>
@@ -202,9 +194,7 @@ module.exports = {<font></font>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我有同样的问题，因为我没有定义Procfile。</font><font style="vertical-align: inherit;">将名为Procfile的文本文件提交到应用程序的根目录，不带文件扩展名。</font><font style="vertical-align: inherit;">该文件告诉Heroku要运行哪个命令来启动您的应用程序。</font></font><br>
 <code>web: node app.js</code></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">老丝小小</span>
@@ -221,18 +211,14 @@ module.exports = {<font></font>
 <pre><code>&gt; server.listen({ port: process.env.PORT || 4000 }).then(({ url }) =&gt; { <font></font>
 &gt; console.log(`Server ready at ${url}`); });<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">阿飞Pro</span>
             <span class="discuss-time">2020.03.17</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果像我一样，正在将Heroku配置为从</font></font><code>package.json</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">部署时</font><font style="vertical-align: inherit;">的</font><font style="vertical-align: inherit;">文件中</font><font style="vertical-align: inherit;">运行脚本，请</font><font style="vertical-align: inherit;">确保尚未</font></font><code>PORT</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">对该脚本中</font><font style="vertical-align: inherit;">的值进行硬编码</font><font style="vertical-align: inherit;">！</font><font style="vertical-align: inherit;">如果这样做，您最终会像我一样，花一个小时试图弄清楚为什么会出现此错误。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">村村飞云</span>
@@ -241,9 +227,7 @@ module.exports = {<font></font>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在所有解决方案中，我没有按预期尝试过任何工作，默认情况下，我研究heroku。.env文件应保持约定PORT，process.env.PORT，heroku缺省将查找关键字PORT。 </font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">取消任何重命名，例如APP_PORT =，而在环境文件中使用PORT =。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">MandyTony</span>
@@ -257,18 +241,14 @@ module.exports = {<font></font>
     console.log("Server started.......");<font></font>
 });<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">JinJinEva</span>
             <span class="discuss-time">2020.03.17</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我遇到了同样的问题，可以通过将“ localhost”替换为IP“ 0.0.0.0”来解决该问题</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">路易斯丁LEY</span>
@@ -295,27 +275,21 @@ console.log("Listening on Port 3000");<font></font>
 });<font></font>
 ...<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Itachi猿</span>
             <span class="discuss-time">2020.03.17</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我遇到了同样的问题，将侦听端口从3000更改为（process.env.PORT || 5000）解决了该问题！</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">卡卡西Davaid</span>
             <span class="discuss-time">2020.03.17</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">就我而言，我将Babel与</font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">babel-plugin-transform-inline-environment-variables</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">插件一起使用。</font><font style="vertical-align: inherit;">显然，Heroku在进行部署时未设置PORT env变量，因此</font></font><code>process.env.PORT</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">将被替换</font></font><code>undefined</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，并且您的代码将回退到Heroku不了解的开发端口。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">JinJinDavaid</span>
@@ -330,9 +304,7 @@ console.log("Listening on Port 3000");<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">然后还可以在CLI上运行： </font></font></p>
 
 <p><code>$ heroku scale worker=1</code></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">蛋蛋伽罗猿</span>
@@ -346,9 +318,7 @@ console.log("Listening on Port 3000");<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这样，当您在本地测试时，它仍将监听端口5000，但它也将在Heroku上运行。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">您可以在</font></font><a href="https://devcenter.heroku.com/articles/nodejs" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">此处</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">查看有关Node.js的Heroku文档</font><font style="vertical-align: inherit;">。</font></font></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

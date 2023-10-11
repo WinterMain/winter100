@@ -30,7 +30,7 @@ topic: React.js
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">有没有更简单的方法？</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第651篇《React中的内联CSS样式：如何实现a：hover？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第651篇《React中的内联CSS样式：如何实现a：hover？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -72,9 +72,7 @@ topic: React.js
   });<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">猿西门Tom</span>
@@ -158,9 +156,7 @@ background-color: white;<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">示例：</font><a href="https://codepen.io/roryfn/pen/dxyYqj?editors=0011" rel="nofollow noreferrer"><font style="vertical-align: inherit;">https</font></a><font style="vertical-align: inherit;">：</font></font><a href="https://codepen.io/roryfn/pen/dxyYqj?editors=0011" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">//codepen.io/roryfn/pen/dxyYqj？editors = 0011</font></font></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">神乐古一</span>
@@ -173,9 +169,7 @@ background-color: white;<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果您不必在元素上添加动态样式（例如用于theming），则根本不应该使用内联样式，而应使用css类。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这是传统的html / css规则，用于保持html / JSX的简洁和简洁。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Tom阳光达蒙</span>
@@ -192,18 +186,14 @@ background-color: white;<font></font>
 ...<font></font>
 <font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">达蒙A宝儿</span>
             <span class="discuss-time">2020.03.11</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">完全的CSS支持正是这大量CSSinJS库有效运行的原因，您需要生成实际的CSS，而不是内联样式。</font><font style="vertical-align: inherit;">此外，在较大的系统中，内联样式的响应速度要慢得多。</font><font style="vertical-align: inherit;">免责声明-我维护</font></font><a href="http://cssinjs.org" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">JSS</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">仲羽蛋蛋</span>
@@ -226,9 +216,7 @@ background-color: white;<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我还为此创建了一个沙箱存储库，我用它自己来测试其中的一些模式。</font><font style="vertical-align: inherit;">如果您想查看我的实施示例，请查看。</font></font></p>
 
 <p><a href="https://github.com/Sitebase/cssinjs/tree/feature-interaction-mixin" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">https://github.com/Sitebase/cssinjs/tree/feature-interaction-mixin</font></font></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">null</span>
@@ -254,18 +242,14 @@ background-color: white;<font></font>
     }<font></font>
 },<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">前端L</span>
             <span class="discuss-time">2020.03.11</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">您可以使用Radium-它是ReactJS用于内联样式的开源工具。</font><font style="vertical-align: inherit;">它恰好添加了您需要的选择器。</font><font style="vertical-align: inherit;">非常受欢迎，请查看</font></font><a href="https://www.npmjs.com/package/radium"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">-Radium on npm</font></font></a> </p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

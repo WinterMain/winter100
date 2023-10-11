@@ -25,7 +25,7 @@ topic: CSS
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我对程序包经理的经验很少，而对任务执行者的经验则更少。</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第2078篇《如何使用node-sass（没有Ruby）将sass / scss编译或转换为css？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第2078篇《如何使用node-sass（没有Ruby）将sass / scss编译或转换为css？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -40,9 +40,7 @@ topic: CSS
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在Windows下，node-sass当前默认情况下支持VS2015，如果您的包装盒中只有VS2013，并且在运行命令时遇到任何错误，则可以通过添加--msvs_version = 2013来定义VS的版本。</font><font style="vertical-align: inherit;">这在</font></font><a href="https://www.npmjs.com/package/node-sass" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">node-sass npm页面</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">上有所记录</font><font style="vertical-align: inherit;">。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">因此，在Windows上使用VS2013的安全命令行为：npm install --msvs_version = 2013 gulp node-sass gulp-sass</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Harry小哥</span>
@@ -83,9 +81,7 @@ topic: CSS
 <li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">该</font></font><code>windows-build-tools</code> <strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">可能没有必要</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">（如果没有编译做？我想阅读，如果有人提出它没有安装这些工具），但它并添加到管理员帐户</font></font><code>GYP_MSVS_VERSION</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">的环境变量，</font></font><code>2015</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">作为一种价值。</font></font></li>
 <li>I am also able to run directly other modules with <em>bin</em> files, such as <code>&gt; uglifyjs main.js main.min.js</code> and <code>&gt; mocha</code></li>
 </ul></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

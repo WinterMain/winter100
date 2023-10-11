@@ -133,7 +133,7 @@ export default isAuthenticated(about);<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">有什么帮助吗？</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第2611篇《使用Typescript使用getInitialProps将prop传递到Next.js中的每个页面》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第2611篇《使用Typescript使用getInitialProps将prop传递到Next.js中的每个页面》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}

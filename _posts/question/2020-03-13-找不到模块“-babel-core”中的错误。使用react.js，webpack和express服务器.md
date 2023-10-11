@@ -65,7 +65,7 @@ ERROR in Cannot find module 'babel-core'<font></font>
 </code></pre></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第1352篇《找不到模块“ babel-core”中的错误。使用react.js，webpack和express服务器》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第1352篇《找不到模块“ babel-core”中的错误。使用react.js，webpack和express服务器》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -79,9 +79,7 @@ ERROR in Cannot find module 'babel-core'<font></font>
 
 <pre><code>npm install babel-core babel-loader --save-dev
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Pro凯</span>
@@ -95,9 +93,7 @@ ERROR in Cannot find module 'babel-core'<font></font>
 
 <pre><code>npm install babel-core --save-dev
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小卤蛋卡卡西</span>
@@ -107,9 +103,7 @@ ERROR in Cannot find module 'babel-core'<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这样可以解决您的问题。</font><font style="vertical-align: inherit;">此外，添加babelrc .babelrc {“ presets”：[“ es2015”，“ react”]}</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">西里神无Pro</span>
@@ -122,9 +116,7 @@ ERROR in Cannot find module 'babel-core'<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">为什么peerDependecies不能自动安装，经过几次搜索工作后，我</font><font style="vertical-align: inherit;">在npm博客中</font><font style="vertical-align: inherit;">找到了</font></font><a href="http://blog.npmjs.org/post/110924823920/npm-weekly-5" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这个</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">peerDependencies将不再自动安装。</font></font></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

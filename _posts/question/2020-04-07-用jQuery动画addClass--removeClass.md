@@ -91,7 +91,7 @@ $('#someDiv')<font></font>
 <p>Where <code>getClassContent</code> would just return the contents of the provided class. The key point is that this way I don't have to keep my style definitions all over the place, but can keep them in classes in my stylesheet.</p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第4060篇《用jQuery动画addClass / removeClass》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第4060篇《用jQuery动画addClass / removeClass》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -110,9 +110,7 @@ $('#someDiv')<font></font>
 <p><a href="http://api.jquery.com/finish/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">http://api.jquery.com/finish/</font></font></a> </p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">尽管OP在使用JqueryUI时没有问题，但这是针对可能遇到类似情况但不能使用JqueryUI /也需要支持IE7和8的其他用户的。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">梅</span>
@@ -124,18 +122,14 @@ $('#someDiv')<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">或参阅此</font></font><a href="http://jsfiddle.net/y9nzz/1/" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">jsfiddle</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">凯西里</span>
             <span class="discuss-time">2020.04.07</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">您只需要</font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">jQuery UI效果核心</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">（13KB），即可启用添加的持续时间（就像它指出的Omar Tariq一样）</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">GilTony</span>
@@ -150,9 +144,7 @@ $('#someDiv')<font></font>
     transition: all 0.5s ease;<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

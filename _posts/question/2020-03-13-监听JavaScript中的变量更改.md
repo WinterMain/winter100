@@ -17,7 +17,7 @@ topic: JavaScript
     <div class="article-content"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">某个变量的值更改时，是否可能在JS中触发事件？</font><font style="vertical-align: inherit;">接受JQuery。</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第1520篇《监听JavaScript中的变量更改》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第1520篇《监听JavaScript中的变量更改》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -43,9 +43,7 @@ topic: JavaScript
                     });<font></font>
             }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">JinJin猪猪</span>
@@ -78,9 +76,7 @@ const state = {<font></font>
 state.pageNumber = 15;<font></font>
 // watch the console<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">乐猪猪</span>
@@ -100,9 +96,7 @@ function setGlobalVar(value) {<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">没有办法强制执行此操作，它只需要编程</font></font><code>grep</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">规程</font><font style="vertical-align: inherit;">...尽管您可以使用</font><font style="vertical-align: inherit;">（或类似方法）检查​​代码中没有地方直接设置的值</font></font><code>globalVar</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">或者，您也可以将其封装在一个对象以及用户getter和setter方法中……只是一个想法。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">番长猴子古一</span>
@@ -163,9 +157,7 @@ console.log("currentStatus = "+ x1.currentStatus);<font></font>
     globalvar1=1;<font></font>
     console.log(globalvar1);<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">路易猪猪</span>
@@ -182,9 +174,7 @@ console.log("currentStatus = "+ x1.currentStatus);<font></font>
 <code>watchIt("theVariableToWatch", "varChangedFunctionCallback");</code><br></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果不相关，请提前抱歉。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">西里Jim番长</span>
@@ -201,18 +191,14 @@ console.log("currentStatus = "+ x1.currentStatus);<font></font>
 <blockquote>
   <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">一个小的jQuery扩展，用于处理对存在变量，对象或键的队列回调。</font><font style="vertical-align: inherit;">您可以将任意数量的回调分配给可能受后台运行的进程影响的任意数量的数据点。</font><font style="vertical-align: inherit;">jQueue侦听并等待您指定的这些数据存在，然后使用其参数触发正确的回调。</font></font></p>
 </blockquote></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Pro西门</span>
             <span class="discuss-time">2020.03.13</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">不是直接的：您需要一对具有某种“ addListener / removeListener”接口的吸气剂/吸气剂或NPAPI插件（但这完全是另一回事了）。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">神无StafanTom</span>
@@ -225,18 +211,14 @@ console.log("currentStatus = "+ x1.currentStatus);<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">详细信息：</font></font></p>
 
 <p><a href="http://johndyer.name/native-browser-get-set-properties-in-javascript/"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">http://johndyer.name/native-browser-get-set-properties-in-javascript/</font></font></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">逆天L</span>
             <span class="discuss-time">2020.03.13</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果您使用的是jQuery {UI}（每个人都应该使用:-)），则可以将.change（）与隐藏的&lt;input /&gt;元素一起使用。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">MandyJinJin</span>
@@ -311,9 +293,7 @@ var intervalH = setInterval(watch(myobj, "a", myhandler), 100);<font></font>
 <font></font>
 myobj.set_a(2);<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Tom小小蛋蛋</span>
@@ -329,9 +309,7 @@ test.watch("elem", function(prop,oldval,newval){<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">希望这可以帮助某人</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">神奇老丝</span>
@@ -374,9 +352,7 @@ test.watch("elem", function(prop,oldval,newval){<font></font>
 <p>See an example here: <a href="https://jsfiddle.net/5o1wf1bn/1/">https://jsfiddle.net/5o1wf1bn/1/</a></p>
 
 <p>You can also user an array of listeners instead of a single listener slot, but I wanted to give you the simplest possible example.</p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

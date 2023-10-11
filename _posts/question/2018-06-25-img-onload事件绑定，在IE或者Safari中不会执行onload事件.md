@@ -51,7 +51,7 @@ tags: 前端的一些坑
 </div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第60篇《img onload事件绑定，在IE或者Safari中不会执行onload事件》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第60篇《img onload事件绑定，在IE或者Safari中不会执行onload事件》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -75,9 +75,7 @@ tags: 前端的一些坑
         img.setAttribute('src',src); <br/>
 这种方法，在各浏览器下均执行alert(1)。<br/>
 也就是在页面dom元素加载完成后，获得img的dom对象，获得其src属性，再将其src设置为‘’空，然后监听img的onload事件，最后再设置img的src属性即可。</div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

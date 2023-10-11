@@ -39,7 +39,7 @@ var _ = require('lodash');<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">非常感谢</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第3281篇《使用引导程序的Webpack-未定义jquery》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第3281篇《使用引导程序的Webpack-未定义jquery》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -60,9 +60,7 @@ var _ = require('lodash');<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">它为我工作，希望能有所帮助 </font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">老丝</span>
@@ -96,9 +94,7 @@ module.exports = {<font></font>
 <li><a href="https://stackoverflow.com/a/39283602/2692915"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">许绍的答案</font></font></a></li>
 <li><a href="https://bhavyanshu.me/using-bootstrap-4-webpack-3-and-yarn-for-wordpress-theme-assets/01/21/2018" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Bhavyanshu Parasher的博客</font></font></a></li>
 </ul></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">村村</span>
@@ -117,9 +113,7 @@ module.exports = {<font></font>
     ]<font></font>
 };<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Eva凯</span>
@@ -138,9 +132,7 @@ module.exports = {<font></font>
     ]<font></font>
 };<font></font>
 </code></pre></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

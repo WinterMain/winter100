@@ -78,7 +78,7 @@ head tag cause browser reflow/repaint ?</p></li>
 </ul></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第2663篇《样式组件vs SASS（SCSS）或LESS [关闭]》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第2663篇《样式组件vs SASS（SCSS）或LESS \[关闭\]》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -119,9 +119,7 @@ head tag cause browser reflow/repaint ?</p></li>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">浏览器很聪明。</font><font style="vertical-align: inherit;">如果样式没有更改，他们甚至不会尝试重绘。</font><font style="vertical-align: inherit;">这并不意味着他们不计算差值，这会花费CPU时间。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">关于</font></font><a href="https://developers.google.com/web/fundamentals/performance/rendering/reduce-the-scope-and-complexity-of-style-calculations" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">样式（重新）计算的范围和复杂性</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">有很好的介绍</font><font style="vertical-align: inherit;">，深入了解该主题确实值得一读。</font></font></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

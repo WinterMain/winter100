@@ -22,7 +22,7 @@ topic: JavaScript
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">知道如何将其导出到</font></font><code>CSV</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">客户端吗？</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第1284篇《如何将JavaScript数组信息导出到csv（在客户端）？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第1284篇《如何将JavaScript数组信息导出到csv（在客户端）？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -42,9 +42,7 @@ topic: JavaScript
 <li>it fails if the data contains a linebreak</li>
 <li>it (kind of) fails if the data contains a quotation mark</li>
 </ul></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小小Sam小哥</span>
@@ -58,9 +56,7 @@ topic: JavaScript
 </code></pre>
 
 <p>Then just combine this with one of the local download solutions here eg. the one by @ArneHB looks good.</p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">乐古一</span>
@@ -79,9 +75,7 @@ link.click(); <font></font>
 </code></pre>
 
 <p><a href="https://jsfiddle.net/vigneshvdm/02f6d4cL/" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">是工作jsfiddle的链接</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">阳光猿</span>
@@ -98,9 +92,7 @@ var blob = new Blob([csvContent],{<font></font>
 <font></font>
 navigator.msSaveBlob(blob, "filename.csv")<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">猴子JinJin</span>
@@ -148,9 +140,7 @@ document.body.appendChild(link); // Required for FF<font></font>
 <font></font>
 link.click(); // This will download the data file named "my_data.csv".<font></font>
 </code></pre></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

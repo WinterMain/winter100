@@ -31,7 +31,7 @@ topic: React.js
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">只要运行</font></font><code>npm install</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">和</font></font><code>npm run dev</code></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第2689篇《React / nextJS：如何调试SSR react应用程序的不同节点？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第2689篇《React / nextJS：如何调试SSR react应用程序的不同节点？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -52,9 +52,7 @@ topic: React.js
 <p><a href="https://stackoverflow.com/questions/45350360/react-16-warning-warning-js36-warning-did-not-expect-server-html-to-contain-a/45371427#45371427"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">React 16警告“ warning.js：36警告：没想到服务器HTML在&lt;div&gt;中包含&lt;div&gt;。”</font></font></a></p>
 
 <p><a href="https://github.com/zeit/next.js/issues/5367" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">https://github.com/zeit/next.js/issues/5367</font></font></a></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

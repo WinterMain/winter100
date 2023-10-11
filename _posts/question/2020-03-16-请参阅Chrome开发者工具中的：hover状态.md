@@ -17,7 +17,7 @@ topic: CSS
     <div class="article-content"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我想看看</font></font><code>:hover</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我在Chrome中徘徊的锚</font><font style="vertical-align: inherit;">的</font><font style="vertical-align: inherit;">样式。</font><font style="vertical-align: inherit;">在Firebug中，有一个样式下拉列表，允许我为元素选择不同的状态。</font><font style="vertical-align: inherit;">我似乎在Chrome中找不到任何类似的东西。</font><font style="vertical-align: inherit;">我想念什么吗？</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第1675篇《请参阅Chrome开发者工具中的：hover状态》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第1675篇《请参阅Chrome开发者工具中的：hover状态》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -32,9 +32,7 @@ topic: CSS
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">无论如何，当我将鼠标悬停在按钮上时，它将在按钮下方生成一个兄弟html元素，因此我在“开发人员工具”窗口的“元素”标签中选择了按钮的父元素，将按钮悬停在“ Ctrl + C”上，然后我可以粘贴包含生成的代码的源代码。</font><font style="vertical-align: inherit;">最后找到生成的代码，然后通过“元素”选项卡中的“编辑为HTML”将其添加到源代码中。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">希望它可以帮助别人。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">GreenSamA</span>
@@ -43,9 +41,7 @@ topic: CSS
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我可以按照Babiker建议的以下步骤查看样式：“右键单击元素，但不要将鼠标指针移离元素，将其保持悬停状态。通过键盘选择检查元素，如向上箭头和然后按Enter键。”</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">要更改样式，请按照上述步骤操作，然后-通过按键盘上的ctrl + TAB键更改浏览器标签。</font><font style="vertical-align: inherit;">然后，在要调试的选项卡上单击返回。</font><font style="vertical-align: inherit;">悬停屏幕仍然存在。</font><font style="vertical-align: inherit;">现在，小心地将鼠标移至开发人员工具区域。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小小A卡卡西</span>
@@ -69,9 +65,7 @@ topic: CSS
 </ul>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">干杯!</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">神奇JinJin</span>
@@ -84,9 +78,7 @@ topic: CSS
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在</font></font><code>Scripts</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">面板中，转到</font></font><code>Event Listeners Breakpoints</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">右底部，然后选择</font></font><code>Mouse -&gt; mouseup</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">现在检查菜单，然后选择所需的框。</font><font style="vertical-align: inherit;">当您释放鼠标按钮时，它应该停止并在</font></font><code>Elements</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">面板中</font><font style="vertical-align: inherit;">显示所选元素的悬停状态</font><font style="vertical-align: inherit;">（请</font><font style="vertical-align: inherit;">参见</font><font style="vertical-align: inherit;">本</font></font><code>Styles</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">节）。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">LEYJim</span>
@@ -109,9 +101,7 @@ topic: CSS
 <p><a href="https://i.stack.imgur.com/lLkqR.jpg" rel="nofollow noreferrer"><img src="https://i.stack.imgur.com/lLkqR.jpg" alt=""></a></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">现在，您可以</font><font style="vertical-align: inherit;">在浏览器中</font><font style="vertical-align: inherit;">看到所选</font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">DOM</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">的悬停状态</font><font style="vertical-align: inherit;">！</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">路易Gil</span>
@@ -128,9 +118,7 @@ topic: CSS
 <p><a href="https://i.stack.imgur.com/XzMCB.png" rel="noreferrer"><img src="https://i.stack.imgur.com/XzMCB.png" alt="力元素状态"></a></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在对其他提示</font></font><a href="https://developers.google.com/chrome-developer-tools/docs/shortcuts#elements-panel" rel="noreferrer" title="元素面板"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">元素面板</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在</font></font><a href="https://developers.google.com/chrome-developer-tools/docs/shortcuts" rel="noreferrer" title="Chrome开发者工具快捷键"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Chrome开发者工具的快捷方式</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">L西门</span>
@@ -155,9 +143,7 @@ topic: CSS
 <blockquote>
   <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">... Canary版本的更新频率甚至高于Dev通道，并且在发布之前未经测试。</font><font style="vertical-align: inherit;">由于Canary版本有时可能无法使用，因此无法将其设置为您的默认浏览器，并可能安装在上述Google Chrome浏览器的任何其他渠道之外。</font><font style="vertical-align: inherit;">...</font></font></p>
 </blockquote></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">逆天GO</span>
@@ -172,9 +158,7 @@ topic: CSS
 </ul>
 
 <p><em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">PS：我在您的一个问题标签上尝试过此操作。</font></font></em></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">泡芙老丝Jim</span>
@@ -187,9 +171,7 @@ topic: CSS
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">然后从此下拉菜单中选择所需的元素状态：</font></font><br>
 <a href="https://i.stack.imgur.com/kqBfs.png" rel="noreferrer"><img src="https://i.stack.imgur.com/kqBfs.png" alt="这个下拉菜单"></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">樱泡芙小哥</span>
@@ -212,9 +194,7 @@ topic: CSS
 <p><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">与萤火虫</font></font></strong></p>
 
 <p><a href="https://i.stack.imgur.com/laET3.gif" rel="noreferrer"><img src="https://i.stack.imgur.com/laET3.gif" alt="在此处输入图片说明"></a></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

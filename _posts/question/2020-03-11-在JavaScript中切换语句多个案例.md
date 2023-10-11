@@ -31,7 +31,7 @@ topic: JavaScript
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我怎样才能做到这一点？</font><font style="vertical-align: inherit;">如果没有办法在JavaScript中执行类似的操作，我想知道一个也遵循</font></font><a href="http://c2.com/cgi/wiki?DontRepeatYourself" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">DRY概念</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">的替代解决方案</font><font style="vertical-align: inherit;">。</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第637篇《在JavaScript中切换语句多个案例》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第637篇《在JavaScript中切换语句多个案例》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -56,9 +56,7 @@ default:<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在某些情况下，这使代码更紧凑。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Gil梅</span>
@@ -88,9 +86,7 @@ theTest(9);<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">干杯。</font></font></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

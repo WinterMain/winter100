@@ -36,7 +36,7 @@ topic: JavaScript
 <p><font style="vertical-align: inherit;"></font><code>==</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">和</font><font style="vertical-align: inherit;">之间的区别是什么</font></font><code>===</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">？</font><font style="vertical-align: inherit;">我也看过</font></font><code>!=</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">和</font></font><code>!==</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">运算符。</font><font style="vertical-align: inherit;">还有更多这样的运营商吗？</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第243篇《JavaScript中==和===之间的区别[重复]》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第243篇《JavaScript中==和===之间的区别\[重复\]》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -66,9 +66,7 @@ topic: JavaScript
 </blockquote>
 
 <p><a href="https://developer.mozilla.org/en/Core_JavaScript_1.5_Reference/Operators/Comparison_Operators" rel="noreferrer">Comparison Operators - MDC</a></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

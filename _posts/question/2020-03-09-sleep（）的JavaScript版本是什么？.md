@@ -28,7 +28,7 @@ topic: JavaScript
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这不是</font></font><a href="https://stackoverflow.com/questions/758688/sleep-in-javascript-delay-between-actions"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">JavaScript</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">中</font><a href="https://stackoverflow.com/questions/758688/sleep-in-javascript-delay-between-actions"><font style="vertical-align: inherit;">Sleep</font></a><font style="vertical-align: inherit;">的重复</font><a href="https://stackoverflow.com/questions/758688/sleep-in-javascript-delay-between-actions"><font style="vertical-align: inherit;">-动作之间的延迟</font></a><font style="vertical-align: inherit;"> ; </font><font style="vertical-align: inherit;">我希望</font><font style="vertical-align: inherit;">在函数中间</font></font><em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">真正入睡</font></font></em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，而不是在执行一段代码之前没有延迟。</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第200篇《sleep（）的JavaScript版本是什么？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第200篇《sleep（）的JavaScript版本是什么？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -39,18 +39,14 @@ topic: JavaScript
             <span class="discuss-time">2020.03.09</span>
           </div>
           <div class="discuss-comment"><p>I can understand the purpose of a sleep function if you have to deal with synchronous execution. The setInterval and setTimeout functions create a parallel execution thread which returns the execution sequence back to the main program, which is ineffective if you have to wait for a given result. Of course one may use events and handlers, but in some cases is not what is intended.</p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">梅猪猪</span>
             <span class="discuss-time">2020.03.09</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">您可能需要sleep（）函数而不是使用setTimeout（）的一种情况是，如果您有一个响应用户单击的函数，该函数最终将最终打开一个新的弹出窗口，并且您启动了一些需要很短时间的处理在显示弹出窗口之前完成。</font><font style="vertical-align: inherit;">将打开的窗口移到关闭窗口中通常意味着它会被浏览器阻止。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">LEvaGreen</span>
@@ -59,9 +55,7 @@ topic: JavaScript
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">您无法像在JavaScript中那样进行睡眠，或者，您不应这样做。</font><font style="vertical-align: inherit;">运行sleep或while循环将导致用户的浏览器挂起，直到循环完成。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">使用您所引用的链接中指定的计时器。 </font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">JimAJim</span>
@@ -76,9 +70,7 @@ topic: JavaScript
   }<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">樱古一</span>
@@ -103,9 +95,7 @@ Atomics.wait(new Int32Array(new SharedArrayBuffer(4)), 0, 0, ms);</code></pre>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">使用setTimeout，我得到的错误最多为7000微秒。</font><font style="vertical-align: inherit;">（7毫秒）</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">使用Atomics，我的错误似乎保持在600微秒以下。</font><font style="vertical-align: inherit;">（0.6毫秒）</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Pro逆天猿</span>
@@ -255,9 +245,7 @@ flow(); //starts flow control for first time...<font></font>
 &lt;/body&gt;<font></font>
 &lt;/html&gt;<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小小小胖</span>
@@ -281,9 +269,7 @@ flow(); //starts flow control for first time...<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果您曾经使用Promises，很容易记住语法。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">米亚乐</span>
@@ -299,9 +285,7 @@ flow(); //starts flow control for first time...<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">确保您的调用函数是异步的 </font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">经过验证且工作正常</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">JinJinLEY</span>
@@ -327,9 +311,7 @@ flow(); //starts flow control for first time...<font></font>
 <li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">第二个参数是时间（以毫秒为单位）</font></font></li>
 <li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">作为第一个参数，您只需要传递函数的名称（引用），而不带括号</font></font></li>
 </ul></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Sam神乐番长</span>
@@ -349,9 +331,7 @@ flow(); //starts flow control for first time...<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我一直在使用它来在P5js中创建脚本时创建假加载时间</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">LEY小卤蛋</span>
@@ -366,9 +346,7 @@ function sleep(ms) {<font></font>
     while(new Date().getTime() &lt; unixtime_ms + ms) {}<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">神乐阿飞</span>
@@ -381,9 +359,7 @@ function sleep(ms) {<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">...这是客户端解决方案的另一个链接：</font><a href="http://www.devcheater.com/" rel="noreferrer"><font style="vertical-align: inherit;">http</font></a><font style="vertical-align: inherit;"> : </font></font><a href="http://www.devcheater.com/" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">//www.devcheater.com/</font></font></a></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">另外，在调用时</font></font><code>alert()</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，代码也会被暂停，同时显示警报-需要找到一种不显示警报但获得相同效果的方法。</font><font style="vertical-align: inherit;">:)</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">凯斯丁</span>
@@ -404,9 +380,7 @@ catch (e)<font></font>
    */<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">凯Harry</span>
@@ -426,9 +400,7 @@ catch (e)<font></font>
 
 <pre><code>function sleepThenAct(){ sleepFor(2000); console.log("hello js sleep !"); }
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小卤蛋小卤蛋小哥</span>
@@ -461,9 +433,7 @@ function continueExecution()<font></font>
 <p><strong>Further Edit</strong></p>
 
 <p>As pointed out in the comments this will absolutely NOT WORK in a loop. You could do some fancy (ugly) hacking to make it work in a loop, but in general that will just make for disastrous spaghetti code.</p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Mandy小胖Pro</span>
@@ -478,9 +448,7 @@ function continueExecution()<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">因此，您几乎会被别人的建议所束缚-您需要将代码分解为多个功能。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">那么，您的问题是一个错误的选择。</font><font style="vertical-align: inherit;">您无法以自己想要的方式入睡，也不应追求您建议的解决方案。</font></font></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

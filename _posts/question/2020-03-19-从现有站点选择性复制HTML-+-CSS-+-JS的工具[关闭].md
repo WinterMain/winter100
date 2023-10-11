@@ -43,7 +43,7 @@ topic: CSS
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果可以在Firebug中右键单击一个节点并具有“为此节点保存HTML + CSS”选项，那就太好了。</font><font style="vertical-align: inherit;">是否存在这样的工具？</font><font style="vertical-align: inherit;">可以扩展Firebug或Chrome开发者工具来添加此功能吗？</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第2349篇《从现有站点选择性复制HTML + CSS + JS的工具[关闭]》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第2349篇《从现有站点选择性复制HTML + CSS + JS的工具\[关闭\]》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -56,9 +56,7 @@ topic: CSS
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我已将</font></font><a href="https://stackoverflow.com/a/4925265/11236"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">票数最高的答案</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">改编</font><font style="vertical-align: inherit;">为Dragabble小书签。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">只需访问</font></font><a href="http://benalman.com/code/test/jquery-run-code-bookmarklet/?name=Run%20jQuery%20Code&amp;ver=1.3.2&amp;code=var%20elementId%20=%20prompt%28%22Enter%20an%20element%27s%20ID%22%29;%0D%0Avar%20el%20=%20document.querySelector%28%22#%22%20%2b%20elementId%29;%0D%0Avar%20els%20=%20el.getElementsByTagName%28%22*%22%29;%0D%0A%0D%0Afor%28var%20i%20=%20-1,%20l%20=%20els.length;%20%2b%2bi%20%3C%20l;%29%7B%0D%0A%0D%0A%20%20%20%20els%5Bi%5D.setAttribute%28%22style%22,%20window.getComputedStyle%28els%5Bi%5D%29.cssText%29;%0D%0A%0D%0A%7D" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">此页面</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">并将“运行jQuery代码”按钮拖动到书签栏即可。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">LEYItachi</span>
@@ -67,9 +65,7 @@ topic: CSS
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">有一个</font></font><a href="https://addons.mozilla.org/en-US/firefox/addon/save-complete-4723/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">firefox插件</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">可以保存整个页面的HTML，CSS等。但是我还没有看到一个可以部分保存的</font><a href="https://addons.mozilla.org/en-US/firefox/addon/save-complete-4723/" rel="nofollow"><font style="vertical-align: inherit;">插件</font></a><font style="vertical-align: inherit;">。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我记得IE 5.5确实具有您所需要的;）</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Itachi泡芙Pro</span>
@@ -85,9 +81,7 @@ topic: CSS
 <li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">删除不必要的HTML，CSS和JS</font></font></li>
 <li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">保持小心地一对一地断开资源链接。</font></font></li>
 </ol></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">路易Itachi小小</span>
@@ -96,18 +90,14 @@ topic: CSS
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">只需从网页上复制所需的部分，然后将其粘贴到所见即所得的编辑器中即可。</font><font style="vertical-align: inherit;">通过单击编辑器工具栏上的“源”按钮来检查html源。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">当我在Drupal网站上工作时，我发现了这种最简单的方法。</font><font style="vertical-align: inherit;">我使用所见即所得的CKeditor。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">GilItachi</span>
             <span class="discuss-time">2020.03.19</span>
           </div>
           <div class="discuss-comment"><p><a href="http://clipboardjs.com" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">http://clipboardjs.com</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">做到了这一点，并且效果很好。</font><font style="vertical-align: inherit;">尽管您对复制版本的期望与原始版本完全相同，因此您可以玩耍和学习，但可能并不现实。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">逆天斯丁前端</span>
@@ -116,9 +106,7 @@ topic: CSS
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">最近，我创建了一个镀铬扩展名“ eXtract Snippet”，用于复制页面中被检查的元素，html和仅相关的CSS和媒体查询。</font><font style="vertical-align: inherit;">请注意，这将为您提供实际的相关CSS</font></font></p>
 
 <p><a href="https://chrome.google.com/webstore/detail/extract-snippet/bfcjfegkgdoomgmofhcidoiampnpbdao?hl=en" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">https://chrome.google.com/webstore/detail/extract-snippet/bfcjfegkgdoomgmofhcidoiampnpbdao?hl=zh-CN</font></font></a> </p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">泡芙神无伽罗</span>
@@ -131,18 +119,14 @@ topic: CSS
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这不</font></font><em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">正是</font></font></em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">你想要的（一切点击），但它是相当接近，并且至少直观。</font></font></p>
 
 <p><img src="https://i.stack.imgur.com/z2XHQ.png" alt="Web开发人员扩展的“查看样式信息”结果"></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Mandy神奇</span>
             <span class="discuss-time">2020.03.19</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我还在Firebug上需要此功能！</font><font style="vertical-align: inherit;">在此之前，另一种方法是使用</font></font><a href="http://premailer.dialect.ca/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">此</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在线服务删除类并将CSS转换为内联样式。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">古一</span>
@@ -161,9 +145,7 @@ topic: CSS
 <blockquote>
   <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Firequark是Firebug的扩展，可帮助HTML屏幕抓取过程。</font><font style="vertical-align: inherit;">Firequark使用Firebug（Firefox的网络开发插件）自动从网页中提取单个或多个html节点的css选择器。</font><font style="vertical-align: inherit;">可以将生成的css选择器作为html屏幕抓取工具（如Scrapi）的输入，以提取信息。</font><font style="vertical-align: inherit;">Firequark旨在释放CSS选择器的功能，以使用html屏幕抓取功能。</font></font></p>
 </blockquote></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小宇宙米亚猿</span>
@@ -180,9 +162,7 @@ topic: CSS
     list-style: none;<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">StafanLEYDavaid</span>
@@ -200,9 +180,7 @@ console.log(html);<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">请享用。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小宇宙神奇</span>
@@ -223,9 +201,7 @@ for(var i = -1, l = els.length; ++i &lt; l;){<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这是一个完全的hack，您将有很多“垃圾” css属性可供使用，但至少应该让您开始。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">神无ProHarry</span>
@@ -235,9 +211,7 @@ for(var i = -1, l = els.length; ++i &lt; l;){<font></font>
 <a href="http://www.betterprogramming.com/htmlclipper.html"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">//www.betterprogramming.com/htmlclipper.html</font></font></a></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">欢迎您使用和改进它。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">ASamJim</span>
@@ -250,9 +224,7 @@ for(var i = -1, l = els.length; ++i &lt; l;){<font></font>
 <h1><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">结果：</font></font></h1>
 
 <p><img src="https://i.stack.imgur.com/hvvtf.png" alt="具有样式结果的元素源"></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

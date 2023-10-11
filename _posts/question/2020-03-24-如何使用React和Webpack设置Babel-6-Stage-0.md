@@ -131,7 +131,7 @@ When I put <code>stage-0</code> second or third I get the message about syntax e
 <p><strong>All the bugs mentioned in this article are completely fixed as of Babel 6.3.x. Please update your dependencies if you're still having issues.</strong></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第3205篇《如何使用React和Webpack设置Babel 6 Stage 0》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第3205篇《如何使用React和Webpack设置Babel 6 Stage 0》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -202,9 +202,7 @@ babel-preset-stage-0@6.3.13<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这对我行得通。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">伽罗理查德</span>
@@ -215,9 +213,7 @@ babel-preset-stage-0@6.3.13<font></font>
 <pre><code>class SurveyForm extends Component {/*implementation*/}<font></font>
 export default SurveyForm<font></font>
 </code></pre></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

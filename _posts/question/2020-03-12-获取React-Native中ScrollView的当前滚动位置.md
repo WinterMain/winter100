@@ -31,7 +31,7 @@ topic: IOS
 </code></pre></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第999篇《获取React Native中ScrollView的当前滚动位置》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第999篇《获取React Native中ScrollView的当前滚动位置》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -44,9 +44,7 @@ topic: IOS
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">至于页面，我正在研究一个更高阶的组件，该组件基本上使用上述方法来做到这一点。</font><font style="vertical-align: inherit;">当您深入了解诸如初始布局和内容更改之类的细微之处时，实际上只需要一点时间。</font><font style="vertical-align: inherit;">我不会声称自己做得“正确”，但是从某种意义上讲，我会考虑使用正确且谨慎地执行此操作的组件的正确答案。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">请参阅：</font></font><a href="https://github.com/rreusser/react-native-paged-scroll-view" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">react-native-paged-scroll-view</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font><font style="vertical-align: inherit;">希望反馈，即使是我做错了！</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小哥梅Stafan</span>
@@ -55,9 +53,7 @@ topic: IOS
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我相信</font></font><code>contentOffset</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">会给你一个包含左上角滚动偏移量的对象：</font></font></p>
 
 <p><a href="http://facebook.github.io/react-native/docs/scrollview.html#contentoffset" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">http://facebook.github.io/react-native/docs/scrollview.html#contentoffset</font></font></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">斯丁JinJinHarry</span>
@@ -86,9 +82,7 @@ topic: IOS
     }<font></font>
     }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Itachi神乐</span>
@@ -107,9 +101,7 @@ topic: IOS
    ...content<font></font>
 &lt;/ScrollView&gt;<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">StafanJinJin</span>
@@ -132,9 +124,7 @@ topic: IOS
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">请注意，您可能会遇到性能问题。</font><font style="vertical-align: inherit;">相应地调节油门。</font><font style="vertical-align: inherit;">16为您提供最多的更新。</font><font style="vertical-align: inherit;">0只有一个。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">路易Gil</span>
@@ -144,9 +134,7 @@ topic: IOS
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在这里阅读。
 </font></font><a href="https://medium.com/@talkol/invoke-any-native-api-directly-from-pure-javascript-in-react-native-1fb6afcdf57d#.68ls1sopd" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">https://medium.com/@talkol/invoke-any-native-api-direct-from-pure-javascript-in-react-native-1fb6afcdf57d#.68ls1sopd</font></font></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">神乐小胖</span>
@@ -163,9 +151,7 @@ topic: IOS
  console.log(event.nativeEvent.contentOffset.y);<font></font>
 },<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">蛋蛋伽罗猿</span>
@@ -197,9 +183,7 @@ topic: IOS
 </font></font><a href="https://i.stack.imgur.com/Xghjp.png" rel="nofollow noreferrer"><img src="https://i.stack.imgur.com/Xghjp.png" alt="图片来自https://www.objc.io/issues/3-views/scroll-view/ "></a></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">参考：</font><a href="https://www.objc.io/issues/3-views/scroll-view/" rel="nofollow noreferrer"><font style="vertical-align: inherit;">https</font></a><font style="vertical-align: inherit;"> : </font></font><a href="https://www.objc.io/issues/3-views/scroll-view/" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">//www.objc.io/issues/3-views/scroll-view/</font></font></a></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

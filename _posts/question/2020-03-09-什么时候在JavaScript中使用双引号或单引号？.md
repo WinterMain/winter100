@@ -19,7 +19,7 @@ topic: JavaScript
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我看到越来越多的JavaScript库在处理字符串时使用单引号。</font><font style="vertical-align: inherit;">为何一个使用另一个原因？</font><font style="vertical-align: inherit;">我认为它们几乎可以互换。</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第215篇《什么时候在JavaScript中使用双引号或单引号？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第215篇《什么时候在JavaScript中使用双引号或单引号？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -32,18 +32,14 @@ topic: JavaScript
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">您可以使用单引号或双引号。</font><font style="vertical-align: inherit;">例如，这使您能够轻松地将javascript嵌套在HTML属性中，而无需转义引号。</font><font style="vertical-align: inherit;">使用PHP创建javascript时也是如此。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">一般的想法是：如果可能的话，可以使用不需要转义的引号。</font><font style="vertical-align: inherit;">更少的转义=更好的代码。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Itachi米亚斯丁</span>
             <span class="discuss-time">2020.03.09</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在阅读了所有可能更快或更有利的答案之后，我会说双引号更好或更快速，因为</font></font><a href="http://closure-compiler.appspot.com/home" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Google闭包编译器</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">将单引号转换为双引号。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">猿小小</span>
@@ -52,9 +48,7 @@ topic: JavaScript
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">完全没有区别，因此，保持转义数很少主要取决于口味和字符串中的内容（或者如果JS代码本身在字符串中）。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">速度差异图例可能来自PHP世界，其中两个引号的行为不同。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">达蒙乐</span>
@@ -79,18 +73,14 @@ topic: JavaScript
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">（多余的空格）</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">今天，在特定的浏览器和平台等中。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Mandy猴子</span>
             <span class="discuss-time">2020.03.09</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果您要在JavaScript和C＃之间来回跳动，则最好为通用约定（双引号）训练手指。 </font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">JinJinSam</span>
@@ -105,9 +95,7 @@ topic: JavaScript
 
 <pre><code>`This is my ${name}`
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">猴子神乐</span>
@@ -116,18 +104,14 @@ topic: JavaScript
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">有些人声称看到性能差异：</font></font><a href="http://lists.evolt.org/pipermail/javascript/2003-November/006168.html" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">旧邮件列表线程</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font><font style="vertical-align: inherit;">但是我找不到任何要确认的东西。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">最主要的是要查看在字符串内部使用哪种引号（双引号或单引号）。</font><font style="vertical-align: inherit;">它有助于将逃生通道的数量保持在较低水平。</font><font style="vertical-align: inherit;">例如，当您在字符串中使用html时，使用单引号会更容易，这样您就不必在属性周围转义所有双引号。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">猴子古一蛋蛋</span>
             <span class="discuss-time">2020.03.09</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">使用单引号的一个（愚蠢的）原因是它们不需要您按Shift键来键入它们，而双引号则需要。</font><font style="vertical-align: inherit;">（我假设平均字符串不需要转义，这是一个合理的假设。）现在，让我们假设我每天编写200行代码。</font><font style="vertical-align: inherit;">也许在那200行中，我有30个引号。</font><font style="vertical-align: inherit;">也许输入双引号比输入单引号要花0.1秒的时间（因为我必须按Shift键）。</font><font style="vertical-align: inherit;">然后在任何一天，我浪费3秒。</font><font style="vertical-align: inherit;">如果我以这种方式进行编码，在40年中每年花费200天，那么我就浪费了6.7个小时的时间。</font><font style="vertical-align: inherit;">值得深思。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">伽罗JinJin宝儿</span>
@@ -136,9 +120,7 @@ topic: JavaScript
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">不知道这在当今世界是否有意义，但是双引号曾经用于需要处理控制字符的内容，而单引号则用于不需要处理的字符。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">编译器将在双引号字符串上运行字符串操作，而单引号字符串实际上保持不变。</font><font style="vertical-align: inherit;">这通常导致“好的”开发人员选择对不包含控制字符（如</font></font><code>\n</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">或</font></font><code>\0</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">（不在单引号内处理）的字符串）</font><font style="vertical-align: inherit;">使用单引号，并</font><font style="vertical-align: inherit;">在需要解析字符串时使用双引号（对于处理字符串）。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">梅小宇宙</span>
@@ -149,9 +131,7 @@ topic: JavaScript
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在jquery.js中，每个字符串都用双引号引起来。 </font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">因此，从现在开始，我将使用双引号字符串。</font><font style="vertical-align: inherit;">（我正在使用单身！）</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Gil米亚卡卡西</span>
@@ -167,9 +147,7 @@ topic: JavaScript
 <li><p><em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果</font></font></em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">您没有个人喜好，</font></font><em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">那就</font></font></em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">掷硬币。</font></font></p></li>
 <li><p><em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果</font></font></em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">您没有硬币，</font></font><em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">那</font></font></em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">啤酒就在我身上；）</font></font></p></li>
 </ul></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Itachi阳光</span>
@@ -182,9 +160,7 @@ topic: JavaScript
 <p>I personally follow that.</p>
 
 <p><em>UPDATE: It appears that Mr. Crockford <a href="https://plus.google.com/+DouglasCrockfordEsq/posts/EBky2K9erKt" rel="noreferrer">changed his mind</a> and now recommends using double quotes throughout  :)</em></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小小村村</span>
@@ -201,9 +177,7 @@ topic: JavaScript
 <li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">库代码：如果使用的库使用特定样式，则可以考虑自己使用相同的样式。</font></font></li>
 <li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">个人喜好：您可能会认为一种或其他样式看起来更好。</font></font></li>
 </ul></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小卤蛋前端</span>
@@ -241,18 +215,14 @@ topic: JavaScript
 <li><a href="https://github.com/d3/d3-format/blob/master/src/locale.js" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">d3</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">（尽管未在中定义</font></font><a href="https://github.com/d3/d3-shape/blob/master/.eslintrc" rel="noreferrer"><code>.eslintrc</code></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">）</font></font></li>
 <li><a href="https://github.com/jscs-dev/node-jscs/blob/master/presets/jquery.json" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">jQuery的</font></font></a></li>
 </ul></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">神乐路易</span>
             <span class="discuss-time">2020.03.09</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果要处理JSON，则应注意严格来说，JSON字符串必须用双引号引起来。</font><font style="vertical-align: inherit;">当然，许多库也支持单引号，但是在我的一个项目中遇到了很大的问题，然后才意识到单引号实际上并不符合JSON标准。</font></font></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

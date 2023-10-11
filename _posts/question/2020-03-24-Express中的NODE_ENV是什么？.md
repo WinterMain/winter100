@@ -40,7 +40,7 @@ app.configure(function(){<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">但是，有人告诉我有关</font></font><code>NODE_ENV</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font><font style="vertical-align: inherit;">我是否必须将其添加到此代码中？</font><font style="vertical-align: inherit;">如何添加？</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第3262篇《Express中的NODE_ENV是什么？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第3262篇《Express中的NODE_ENV是什么？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -53,9 +53,7 @@ app.configure(function(){<font></font>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我认为原始问题包括Express如何使用此环境变量。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Express使用NODE_ENV更改自己的默认行为。</font><font style="vertical-align: inherit;">例如，在开发模式下，默认错误处理程序会将堆栈跟踪发送回浏览器。</font><font style="vertical-align: inherit;">在生产模式下，响应只是</font></font><code>Internal Server Error</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，以避免将实现细节泄漏给世界。</font></font></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

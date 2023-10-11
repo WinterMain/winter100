@@ -18,7 +18,7 @@ topic: React.js
  </font></font><code>localhost:3000/#/about</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font><font style="vertical-align: inherit;">取决于路线。</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第1043篇《如何使用react-router在浏览器中停止/＃/？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第1043篇《如何使用react-router在浏览器中停止/＃/？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -38,9 +38,7 @@ topic: React.js
 <li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">v2：</font><a href="https://github.com/ReactTraining/react-router/blob/v2.0.0/docs/guides/Histories.md" rel="noreferrer"><font style="vertical-align: inherit;">https</font></a><font style="vertical-align: inherit;">：</font></font><a href="https://github.com/ReactTraining/react-router/blob/v2.0.0/docs/guides/Histories.md" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">//github.com/ReactTraining/react-router/blob/v2.0.0/docs/guides/Histories.md</font></font></a></li>
 <li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">v1：</font><a href="https://github.com/ReactTraining/react-router/blob/1.0.x/docs/guides/basics/Histories.md" rel="noreferrer"><font style="vertical-align: inherit;">https</font></a><font style="vertical-align: inherit;">：</font></font><a href="https://github.com/ReactTraining/react-router/blob/1.0.x/docs/guides/basics/Histories.md" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">//github.com/ReactTraining/react-router/blob/1.0.x/docs/guides/basics/Histories.md</font></font></a></li>
 </ul></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">LJinJin</span>
@@ -69,9 +67,7 @@ topic: React.js
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">然后使用window.location.pathname获取查询参数</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">然后，您可以根据需要避免使用react路由，并且也可以仅操纵url和浏览器历史记录。</font><font style="vertical-align: inherit;">希望这可以帮助某人...</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">蛋蛋十三</span>
@@ -83,9 +79,7 @@ topic: React.js
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">对于当前版本0.11及更高版本，您需要添加</font></font><code>Router.HistoryLocation</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">到</font></font><code>Router.run()</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font><code>&lt;Routes&gt;</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">现在已弃用。</font></font><a href="https://github.com/rackt/react-router/blob/d49199e4b939a01f1e9f18188166a8f8a9f52a5b/UPGRADE_GUIDE.md#react-012"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">有关</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> 0.12.x HistoryLocation的实现，</font><a href="https://github.com/rackt/react-router/blob/d49199e4b939a01f1e9f18188166a8f8a9f52a5b/UPGRADE_GUIDE.md#react-012"><font style="vertical-align: inherit;">请参阅《升级指南》</font></a><font style="vertical-align: inherit;">。</font></font></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

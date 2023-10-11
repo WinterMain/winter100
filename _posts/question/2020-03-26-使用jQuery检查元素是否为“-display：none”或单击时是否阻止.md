@@ -17,7 +17,7 @@ topic: CSS
     <div class="article-content"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我想检查和排序隐藏的元素。</font><font style="vertical-align: inherit;">是否可以找到具有属性</font></font><code>display</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">和值的</font><font style="vertical-align: inherit;">所有元素</font></font><code>none</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">？</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第3761篇《使用jQuery检查元素是否为“ display：none”或单击时是否阻止》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第3761篇《使用jQuery检查元素是否为“ display：none”或单击时是否阻止》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}

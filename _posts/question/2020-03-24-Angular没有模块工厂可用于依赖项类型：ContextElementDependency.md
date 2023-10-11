@@ -139,7 +139,7 @@ Error: No module factory available for dependency type: ContextElementDependency
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">有人可以告诉我这种行为的原因是什么以及如何解决它？</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第3551篇《Angular没有模块工厂可用于依赖项类型：ContextElementDependency》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第3551篇《Angular没有模块工厂可用于依赖项类型：ContextElementDependency》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -162,9 +162,7 @@ Error: No module factory available for dependency type: ContextElementDependency
 </ol>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我仍然不完全了解发生这种情况的原因。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">A凯</span>
@@ -175,9 +173,7 @@ Error: No module factory available for dependency type: ContextElementDependency
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果您看到两个版本的</font></font><code>webpack</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">（在@ angular / cli和根node_modules下），那就是问题所在。</font><font style="vertical-align: inherit;">删除/重命名下的的WebPack </font></font><code>@angular/cli</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">和中</font></font><code>.bin</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">的文件夹中</font></font><code>@angular/cli</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">问题为我解决</font></font></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

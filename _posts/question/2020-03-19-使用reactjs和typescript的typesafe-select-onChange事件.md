@@ -61,7 +61,7 @@ export class Test extends React.Component&lt;{}, ITestState&gt; {<font></font>
 </code></pre></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第2389篇《使用reactjs和typescript的typesafe select onChange事件》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第2389篇《使用reactjs和typescript的typesafe select onChange事件》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -86,9 +86,7 @@ export class Test extends React.Component&lt;{}, ITestState&gt; {<font></font>
 <font></font>
  (event.target as FormControlEventTarget).value;<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Pro猿A</span>
@@ -109,9 +107,7 @@ export class Test extends React.Component&lt;{}, ITestState&gt; {<font></font>
     this.setState({ foo: element.value });<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">飞云小小猪猪</span>
@@ -124,9 +120,7 @@ export class Test extends React.Component&lt;{}, ITestState&gt; {<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">否则，总是需要对任何对象进行强制转换。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我可以将所有内容封装在MYSELECT标记中。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">老丝路易</span>
@@ -141,9 +135,7 @@ const onChange: React.EventHandler&lt;HtmlEvent&gt; = <font></font>
        console.log(event.target.value) <font></font>
    }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">神乐西门</span>
@@ -169,9 +161,7 @@ const onChange: React.EventHandler&lt;HtmlEvent&gt; = <font></font>
     value: any;<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

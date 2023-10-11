@@ -17,7 +17,7 @@ topic: JavaScript
     <div class="article-content"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">有人可以简单地向我解释什么是</font></font><code>?:</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">（有条件的“三元”）运算符，以及如何使用它？</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第1783篇《您如何使用？：（条件）运算符在JavaScript中？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第1783篇《您如何使用？：（条件）运算符在JavaScript中？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -51,9 +51,7 @@ console.log(fact(5));<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">有关更多说明，请阅读</font></font><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Conditional_Operator" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">MDN文档链接</font></font></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">AItachi</span>
@@ -74,9 +72,7 @@ console.log(fact(5));<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这将检查x的值，如果为true，则返回第一个y =（value），如果为false，则返回第二个冒号：返回y =（value）。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">LEY宝儿神奇</span>
@@ -122,9 +118,7 @@ console.log(fact(5));<font></font>
 </div>
 </div>
 <p></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Mandy凯</span>
@@ -151,9 +145,7 @@ y = 8<font></font>
 2&lt;3 ? true : false;<font></font>
 2&lt;3 ? "2 is lesser than 3" : "2 is greater than 3";<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">猴子神无</span>
@@ -173,9 +165,7 @@ alert(y);<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果匹配，则在 </font></font><code>?</code></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果匹配为false，请在 </font></font><code>:</code></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">古一飞云</span>
@@ -185,9 +175,7 @@ alert(y);<font></font>
 
 <pre><code>tmp = (foo==1 ? true : false);
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">前端村村</span>
@@ -207,9 +195,7 @@ alert(y);<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">否则（</font></font><code>:</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">），您将获得“该死”；</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">希望这对朋友有帮助:)  </font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小卤蛋卡卡西</span>
@@ -236,9 +222,7 @@ alert(y);<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">更多细节在</font></font><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Conditional_Operator" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这里</font></font></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小卤蛋小宇宙</span>
@@ -271,9 +255,7 @@ console.log(operator)<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">此三元运算符在C编程语言中类似。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">伽罗Harry</span>
@@ -298,9 +280,7 @@ if (age &gt; 21) {<font></font>
     insurancePremium = 200;<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">西门樱前端</span>
@@ -318,9 +298,7 @@ else<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">当然，它更短。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">西里MandyEva</span>
@@ -360,9 +338,7 @@ else<font></font>
 <li><a href="https://stackoverflow.com/questions/1788917/javascript-ternary-operator"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Javascript三元运算符的运算符优先级</font></font></a></li>
 <li><a href="http://en.wikipedia.org/wiki/?:" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">维基百科</font></font></a></li>
 </ul></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

@@ -25,7 +25,7 @@ topic: JavaScript
 </code></pre></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第466篇《声明JavaScript数组时，“ Array（）”和“ []”之间有什么区别？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第466篇《声明JavaScript数组时，“ Array（）”和“ \[\]”之间有什么区别？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -60,18 +60,14 @@ arr.__proto__ == Array.prototype; // true<font></font>
 </font></font><code>[] != []</code></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">:)</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">樱Harry</span>
             <span class="discuss-time">2020.03.10</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">使用Array构造函数将创建一个具有所需长度的新数组，并使用未定义的值填充每个索引，将一个数组分配给一个变量将创建您为其提供信息的索引。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">仲羽蛋蛋</span>
@@ -99,9 +95,7 @@ arr.__proto__ == Array.prototype; // true<font></font>
 <blockquote>
   <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这</font></font><em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">可能</font></font></em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">是在旧的版本的浏览器/浏览器的情况。</font></font></p>
 </blockquote></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Mandy猿</span>
@@ -130,9 +124,7 @@ arr.__proto__ == Array.prototype; // true<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">使用初始化它们不会发生</font></font><code>new Array()</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font><font style="vertical-align: inherit;">与Objects的初始化相同（</font></font><code>{}</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">与new相同</font></font><code>Object()</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">）</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">TBH我不确定我们使用的框架是否有问题（</font></font><a href="https://dojotoolkit.org/" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Dojo</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">）</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小卤蛋卡卡西</span>
@@ -147,9 +139,7 @@ arr.__proto__ == Array.prototype; // true<font></font>
 
 <pre><code>var array = [1, 2, 3]; // this array will contain numbers 1, 2, 3.
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小宇宙JinJinHarry</span>
@@ -164,9 +154,7 @@ arr.__proto__ == Array.prototype; // true<font></font>
 
 <pre><code>var array = [red, green, blue, yellow, white]; // this array will contain values.
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小卤蛋宝儿</span>
@@ -189,9 +177,7 @@ console.log(b.length); // print 2<font></font>
 a.push("hello world");<font></font>
 console.log(b.length); // print 1<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">null</span>
@@ -217,9 +203,7 @@ arr.length = size;<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">例如，我提到的第二个选项在上以200万[ops / second]的速度运行</font></font><code>chrome</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，但是如果您尝试在它上</font><font style="vertical-align: inherit;">运行</font><font style="vertical-align: inherit;">，则将</font></font><code>mozilla dev.</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">获得令人惊讶的2300万美元的更高速度。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">无论如何，我建议你在一段时间检查出来，每一次，在不同的浏览器（和机器），利用网站</font></font><a href="http://jsperf.com/create-an-array-of-initial-size/2" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这样</font></font></a> </p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">村村伽罗Mandy</span>
@@ -254,9 +238,7 @@ alert(test1.value == test2.value);<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">为确保这一点，请尝试添加了.value的第四个警报。</font><font style="vertical-align: inherit;">它将返回true。</font><font style="vertical-align: inherit;">在这种情况下，我们告诉JS“不管容器的类型是功能还是变量，请比较存储在每个容器中的值，然后告诉我们您所看到的！” </font><font style="vertical-align: inherit;">正是这样。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我希望我能清楚地说出这个主意，并为我的英语不好对不起。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">LEYJim</span>
@@ -313,9 +295,7 @@ var points = [40, 100, 1, 5, 25, 10];          // Good<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">因此，基本上不认为这是最佳做法，那里也有一个细微的区别，您可以</font></font><code>new Array(length)</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">像这样</font><font style="vertical-align: inherit;">传递长度</font><font style="vertical-align: inherit;">，这也不是推荐的方法。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">逆天Green古一</span>
@@ -333,9 +313,7 @@ var points = [40, 100, 1, 5, 25, 10];          // Good<font></font>
 </blockquote>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">还要检查注释- </font></font><code>new Array(length)</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">表单没有任何用处（至少在当今的JavaScript实现中）。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Pro番长</span>
@@ -344,9 +322,7 @@ var points = [40, 100, 1, 5, 25, 10];          // Good<font></font>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">奇怪的是，</font></font><code>new Array(size)</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">它几乎比</font></font><code>[]</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Chrome </font><font style="vertical-align: inherit;">快2倍</font><font style="vertical-align: inherit;">，而FF和IE </font><font style="vertical-align: inherit;">差不多</font><font style="vertical-align: inherit;">（通过创建和填充数组来衡量）。</font><font style="vertical-align: inherit;">仅当您知道数组的大致大小时才重要。</font><font style="vertical-align: inherit;">如果添加的项目多于给定的长度，则性能提升将丧失。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">更准确地说：</font></font><code>Array(</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">是一种不分配内存的快速恒定时间操作，而wheras </font></font><code>[]</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">是设置类型和值的线性时间操作。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Eva阿飞</span>
@@ -377,9 +353,7 @@ var points = [40, 100, 1, 5, 25, 10];          // Good<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">以上结果来自Windows 7上的Google Chrome控制台。</font></font></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

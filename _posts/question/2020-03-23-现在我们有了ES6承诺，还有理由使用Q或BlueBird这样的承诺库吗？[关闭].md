@@ -43,7 +43,7 @@ topic: Node.js
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">例如，如果您正在启动一个新项目，并假设在该项目中您没有使用这些库的任何依赖项，那么我们是否可以说没有更多理由使用这些库了？</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第2737篇《现在我们有了ES6承诺，还有理由使用Q或BlueBird这样的承诺库吗？[关闭]》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第2737篇《现在我们有了ES6承诺，还有理由使用Q或BlueBird这样的承诺库吗？\[关闭\]》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}

@@ -326,7 +326,7 @@ module.exports = function (grunt) {<font></font>
 </code></pre></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第2383篇《Yeoman中使用Sass文件的工作流程是什么？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第2383篇《Yeoman中使用Sass文件的工作流程是什么？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -342,9 +342,7 @@ module.exports = function (grunt) {<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Yeoman / grunt将在运行服务器时知道它应该从temp文件夹中获取sass文件。</font></font></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

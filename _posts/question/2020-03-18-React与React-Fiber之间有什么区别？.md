@@ -17,7 +17,7 @@ topic: React.js
     <div class="article-content"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我只是听说反应纤维已经准备好了。</font><font style="vertical-align: inherit;">react和react-fiber之间的最大区别是什么？</font><font style="vertical-align: inherit;">学习针对这些差异的全新概念是否值得？</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第2103篇《React与React Fiber之间有什么区别？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第2103篇《React与React Fiber之间有什么区别？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -46,9 +46,7 @@ topic: React.js
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">3. </font></font><a href="https://github.com/facebook/react/issues/10294" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">React 16对您意味着什么？</font></font></a></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">希望这对您有帮助！</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">→笑里藏刀↓</span>
@@ -57,9 +55,7 @@ topic: React.js
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">React 16 beta已于数小时前发布：</font></font><a href="https://github.com/facebook/react/issues/10294" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">https</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> : </font><a href="https://github.com/facebook/react/issues/10294" rel="noreferrer"><font style="vertical-align: inherit;">//github.com/facebook/react/issues/10294</font></a><font style="vertical-align: inherit;">。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">重写的</font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">React核心</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">（内部称为“光纤”）应保持与现有应用程序的兼容性，除了一些重大更改（请参阅Github上的发行说明）。</font><font style="vertical-align: inherit;">由于大多数更改都在幕后，因此您无需再次学习全新的概念。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Eva</span>
@@ -73,9 +69,7 @@ topic: React.js
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">反应纤维正在使用什么。</font><font style="vertical-align: inherit;">这就是反应纤维在引擎盖中使用的东西，这太神奇了。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">注意：我可能在几点上并不完全正确。</font><font style="vertical-align: inherit;">我愿意接受任何更正</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">GilSam</span>
@@ -90,9 +84,7 @@ topic: React.js
 </ul>
 
 <p><font style="vertical-align: inherit;"><a href="https://blog.logrocket.com/deep-dive-into-react-fiber-internals/" rel="nofollow noreferrer"><font style="vertical-align: inherit;">在这里</font></a><font style="vertical-align: inherit;">查看我的文章</font></font><a href="https://blog.logrocket.com/deep-dive-into-react-fiber-internals/" rel="nofollow noreferrer"><font style="vertical-align: inherit;"></font></a></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

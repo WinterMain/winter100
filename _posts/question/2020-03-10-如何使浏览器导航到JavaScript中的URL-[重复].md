@@ -36,7 +36,7 @@ topic: JavaScript
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">什么是使Web浏览器使用JavaScript导航到您选择的URL的最佳（正确，现代，跨浏览器，安全）方法？</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第424篇《如何使浏览器导航到JavaScript中的URL [重复]》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第424篇《如何使浏览器导航到JavaScript中的URL \[重复\]》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -53,9 +53,7 @@ topic: JavaScript
 <li><a href="https://www.w3schools.com/js/js_window_location.asp" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">https://www.w3schools.com/js/js_window_location.asp</font></font></a></li>
 <li><a href="https://jstricks.com/javascript-redirect-page-redirection/" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">https://jstricks.com/javascript-redirect-page-redirection/</font></font></a></li>
 </ul></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

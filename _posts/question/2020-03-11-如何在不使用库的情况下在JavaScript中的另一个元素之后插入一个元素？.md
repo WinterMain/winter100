@@ -17,7 +17,7 @@ topic: JavaScript
     <div class="article-content"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">还有</font></font><code>insertBefore()</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在JavaScript，但我怎么能插入一个元素</font></font><em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">后，</font></font></em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">另一种元素，而不使用jQuery或其他库？</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第638篇《如何在不使用库的情况下在JavaScript中的另一个元素之后插入一个元素？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第638篇《如何在不使用库的情况下在JavaScript中的另一个元素之后插入一个元素？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -30,9 +30,7 @@ topic: JavaScript
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">您可以使用</font></font><code>appendChild</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">函数在元素之后插入。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">参考：</font><a href="http://www.w3schools.com/jsref/met_node_appendchild.asp" rel="nofollow noreferrer"><font style="vertical-align: inherit;">http</font></a><font style="vertical-align: inherit;"> : </font></font><a href="http://www.w3schools.com/jsref/met_node_appendchild.asp" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">//www.w3schools.com/jsref/met_node_appendchild.asp</font></font></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">逆天前端宝儿</span>
@@ -47,9 +45,7 @@ topic: JavaScript
     };<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">GOMandy</span>
@@ -60,9 +56,7 @@ topic: JavaScript
 <pre><code>referenceNode.parentNode.insertBefore( newNode, referenceNode )<font></font>
 referenceNode.parentNode.insertBefore( referenceNode, newNode )<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">斯丁逆天A</span>
@@ -76,9 +70,7 @@ referenceNode.parentNode.insertBefore( referenceNode, newNode )<font></font>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">参考：</font><a href="https://developer.mozilla.org/en-US/docs/Web/API/ChildNode/after" rel="nofollow noreferrer"><font style="vertical-align: inherit;">https</font></a><font style="vertical-align: inherit;"> :
  </font></font><a href="https://developer.mozilla.org/en-US/docs/Web/API/ChildNode/after" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">//developer.mozilla.org/en-US/docs/Web/API/ChildNode/after</font></font></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">神乐飞云逆天</span>
@@ -97,9 +89,7 @@ referenceNode.parentNode.insertBefore( referenceNode, newNode )<font></font>
 </code></pre>
 
 <p><a href="http://jsfiddle.net/UqDJk/" rel="noreferrer"><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在这里尝试。</font></font></strong></a></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

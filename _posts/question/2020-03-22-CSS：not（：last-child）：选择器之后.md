@@ -48,7 +48,7 @@ li:not(:last-child):after {<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">您可以在</font><a href="http://www.w3.org/TR/css3-selectors/#negation" rel="noreferrer"><font style="vertical-align: inherit;">此处</font></a><font style="vertical-align: inherit;">查看</font></font><code>:not()</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">选择器</font><font style="vertical-align: inherit;">的定义</font></font><a href="http://www.w3.org/TR/css3-selectors/#negation" rel="noreferrer"><font style="vertical-align: inherit;"></font></a></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第2557篇《CSS：not（：last-child）：选择器之后》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第2557篇《CSS：not（：last-child）：选择器之后》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -110,9 +110,7 @@ li:not(:last-child):after {<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">第三种方法的优点是您不必指定doctype，而jQuery将负责兼容性。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">米亚阿飞</span>
@@ -134,9 +132,7 @@ li:not(:last-child):after {<font></font>
 <p><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">图片</font></font></strong></p>
 
 <p><a href="https://i.stack.imgur.com/WmWgT.png" rel="nofollow noreferrer"><img src="https://i.stack.imgur.com/WmWgT.png" alt="在此处输入图片说明"></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Mandy</span>
@@ -148,9 +144,7 @@ li:not(:last-child):after {<font></font>
             text-transform: uppercase;<font></font>
         }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">老丝</span>
@@ -162,9 +156,7 @@ li:not(:last-child):after {<font></font>
         border-right: 1px solid rgba(153, 151, 151, 0.75);<font></font>
     }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">老丝阿飞</span>
@@ -189,9 +181,7 @@ li:last-child:after<font></font>
   content: '| ';<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Stafan西门凯</span>
@@ -200,9 +190,7 @@ li:last-child:after<font></font>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">您撰写的示例对我来说在Chrome 11中非常适用。</font><font style="vertical-align: inherit;">也许您的浏览器不支持</font></font><code>:not()</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">选择器？</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">您可能需要使用JavaScript或类似工具才能完成此跨浏览器。</font><font style="vertical-align: inherit;">jQuery </font><font style="vertical-align: inherit;">在其选择器API中</font><font style="vertical-align: inherit;">实现</font></font><a href="http://api.jquery.com/not-selector/" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">：not（）</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">樱</span>
@@ -212,9 +200,7 @@ li:last-child:after<font></font>
 
 <pre><code>ul &gt; li:not(:last-child):after
 </code></pre></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

@@ -52,7 +52,7 @@ topic: JavaScript
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">有解决此问题的推荐方法吗？</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第361篇《React JSX：在选定的<select>选项上选择“ selected”》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第361篇《React JSX：在选定的<select>选项上选择“ selected”》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -72,9 +72,7 @@ topic: JavaScript
 <p><code>&lt;select value="this.props.propName" ...</code></p>
 
 <p>So now I avoid errors on compilation if my prop does not exist until mounting.</p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">ProTony</span>
@@ -98,9 +96,7 @@ topic: JavaScript
   )<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">飞云西里神乐</span>
@@ -195,9 +191,7 @@ topic: JavaScript
 <p>the main component maintains the selected value for fruit (in state), the included component displays the select element and updates are passed back to the main component to update its state (which then loops back to the included component to change the selected value).</p>
 
 <p>Note the use of a name prop which allows you to declare a single handleChange method for other fields on the same form regardless of their type.</p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">十三西里古一</span>
@@ -209,9 +203,7 @@ topic: JavaScript
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这将成为默认设置，当您选择有效选项时，您的状态将被设置</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">梅老丝</span>
@@ -224,9 +216,7 @@ topic: JavaScript
 </blockquote>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">因此，您可以</font></font><code>options.value</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在</font></font><code>defaultValue</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">选择的</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">A小宇宙</span>
@@ -249,9 +239,7 @@ topic: JavaScript
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">有关更多信息，请参见</font></font><a href="https://reactjs.org/docs/forms.html#the-select-tag" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">React select标签doc</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

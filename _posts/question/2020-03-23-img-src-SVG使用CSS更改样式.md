@@ -29,7 +29,7 @@ topic: CSS
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">上面的svg加载并且是本地的，</font></font><code>fill: #fff</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">但是当我使用</font><font style="vertical-align: inherit;">上面的SVG </font></font><code>css</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">尝试将其更改为黑色时，它并没有改变，这是我第一次使用SVG，我不确定为什么它不起作用。</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第2626篇《img src SVG使用CSS更改样式》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第2626篇《img src SVG使用CSS更改样式》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -56,9 +56,7 @@ topic: CSS
   fill: red;<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">斯丁</span>
@@ -96,18 +94,14 @@ $content    = file_get_contents($pathToSVG);<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Opera 53.0.2907.37 Linux</font></font></p>
 
 <p><a href="https://i.stack.imgur.com/JUJAe.jpg" rel="nofollow noreferrer"><img src="https://i.stack.imgur.com/JUJAe.jpg" alt="在此处输入图片说明"></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">L理查德</span>
             <span class="discuss-time">2020.03.23</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">为什么不使用一个或多个svg图像创建webfont，将webfont导入css，然后仅使用css color属性更改字形的颜色？</font><font style="vertical-align: inherit;">无需JavaScript</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">蛋蛋猿</span>
@@ -142,9 +136,7 @@ $content    = file_get_contents($pathToSVG);<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">SVGInject是纯Javascript，可与所有支持SVG的浏览器一起使用。</font></font></p>
 
 <p><em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">免责声明：我是SVGInject的合著者</font></font></em></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">斯丁前端</span>
@@ -191,9 +183,7 @@ $content    = file_get_contents($pathToSVG);<font></font>
 </div>
 </div>
 <p></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">西门</span>
@@ -207,9 +197,7 @@ $content    = file_get_contents($pathToSVG);<font></font>
 
 <pre><code>{filter:grayscale(100%);}
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">卡卡西Near</span>
@@ -222,9 +210,7 @@ $content    = file_get_contents($pathToSVG);<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果您更喜欢面向开发人员的选项，则可以使用</font></font><a href="https://www.google.com/search?q=npm+svg+webfont" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Google“ npm svg webfont”</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，并使用最适合您的环境的节点模块之一。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">一旦完成了这两个选项中的任何一个，就可以通过CSS轻松更改颜色，并且很可能在此过程中加快了网站的速度。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">猴子凯</span>
@@ -241,9 +227,7 @@ $content    = file_get_contents($pathToSVG);<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">本文中的更多信息</font></font><a href="https://blog.union.io/code/2017/08/10/img-svg-fill/" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">https://blog.union.io/code/2017/08/10/img-svg-fill/</font></font></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">十三</span>
@@ -257,9 +241,7 @@ $content    = file_get_contents($pathToSVG);<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在你的SVG，替换的任何实例</font></font><code>style="fill: #000"</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">用</font></font><code>style="fill: var(--color_fill)"</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">神无</span>
@@ -285,9 +267,7 @@ $content    = file_get_contents($pathToSVG);<font></font>
 <strong>MDN:</strong> <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/mask" rel="noreferrer">https://developer.mozilla.org/en-US/docs/Web/CSS/mask</a>  </p>
 
 <p>Please note that this method is not working for the Edge browser. You can check that by going to this website: <a href="https://caniuse.com/#search=mask" rel="noreferrer">https://caniuse.com/#search=mask</a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">樱Harry</span>
@@ -311,9 +291,7 @@ $content    = file_get_contents($pathToSVG);<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">...只需更改填充并保存。 </font></font></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

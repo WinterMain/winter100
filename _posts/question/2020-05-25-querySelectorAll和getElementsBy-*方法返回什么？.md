@@ -25,7 +25,7 @@ document</span><span class="pun">.</span><span class="pln">getElementsByClassNam
 document</span><span class="pun">.</span><span class="pln">getElementById</span><span class="pun">(</span><span class="str">'myIdElement'</span><span class="pun">).</span><span class="pln">style</span><span class="pun">.</span><span class="pln">size </span><span class="pun">=</span><span class="pln"> </span><span class="str">'100px'</span><span class="pun">;</span></code></pre></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第4161篇《querySelectorAll和getElementsBy *方法返回什么？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第4161篇《querySelectorAll和getElementsBy \*方法返回什么？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -42,9 +42,7 @@ document</span><span class="pun">.</span><span class="pln">getElementById</span>
 <pre class="lang-js prettyprint prettyprinted" style=""><code><span class="kwd">var</span><span class="pln"> el </span><span class="pun">=</span><span class="pln"> getElementsByClassName</span><span class="pun">(</span><span class="str">"elem"</span><span class="pun">);</span><span class="pln">
 el </span><span class="pun">=</span><span class="pln"> </span><span class="typ">Array</span><span class="pun">.</span><span class="pln">prototype</span><span class="pun">.</span><span class="pln">slice</span><span class="pun">.</span><span class="pln">call</span><span class="pun">(</span><span class="pln">el</span><span class="pun">);</span><span class="pln"> </span><span class="com">//this line</span><span class="pln">
 el</span><span class="pun">[</span><span class="lit">0</span><span class="pun">].</span><span class="pln">appendChild</span><span class="pun">(</span><span class="pln">otherElem</span><span class="pun">);</span><span class="pln">  </span></code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">MonsterKK若合</span>
@@ -86,9 +84,7 @@ el</span><span class="pun">[</span><span class="lit">0</span><span class="pun">]
 <p><a href="https://jsfiddle.net/Thielicious/teu8nbd4/" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">所有方法的演示</font></font></a><br>
 <a href="https://developer.mozilla.org/en-US/docs/Web/API/NodeList" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">NodeList文档</font></font></a><br>
 <a href="https://jsperf.com/different-types-of-selecting" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">性能测试</font></font></a></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

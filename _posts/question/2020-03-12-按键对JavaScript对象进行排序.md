@@ -27,7 +27,7 @@ topic: JavaScript
 </code></pre></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第1251篇《按键对JavaScript对象进行排序》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第1251篇《按键对JavaScript对象进行排序》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -43,9 +43,7 @@ topic: JavaScript
   .sort(([keyA], [keyB]) =&gt; keyA &gt; keyB)<font></font>
   .reduce((obj, [key,value]) =&gt; Object.assign(obj, {[key]: value}), {})<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Davaid阳光小卤蛋</span>
@@ -70,9 +68,7 @@ topic: JavaScript
 
 <pre><code>Maps.iterate.sorted({c:1, b:2, a:100}, function(k, v) { ... } ) 
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">蛋蛋樱</span>
@@ -93,9 +89,7 @@ topic: JavaScript
     }, {});<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Near飞云</span>
@@ -138,9 +132,7 @@ return rObj;<font></font>
 </code></pre>
 
 <p>The output will be an object sorted by those numbers with new keys starting at 0.</p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">JinJin神奇宝儿</span>
@@ -151,9 +143,7 @@ return rObj;<font></font>
     , {}<font></font>
 )<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">神无十三</span>
@@ -176,9 +166,7 @@ const sortKeys = function(obj) {<font></font>
 </code></pre>
 
 <p>It would be even cleaner if lodash had a <a href="https://github.com/lodash/lodash/issues/2718" rel="nofollow noreferrer"><code>toObject()</code> method</a>...</p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">猴子Harry</span>
@@ -216,9 +204,7 @@ const sortKeys = function(obj) {<font></font>
     return sorted_obj;<font></font>
 };<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">NearL</span>
@@ -248,9 +234,7 @@ console.log(x); // {a: 1, c: {a: [3, 2, {a: 1, s: 2}], g: 2}, d: 3}<font></font>
 console.log(y); // {a: [3, 2, {a: 100, s: 200}}, g: 20}<font></font>
 console.log(z); // {a: 100, s: 200}<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">MandyL</span>
@@ -297,9 +281,7 @@ console.log(ksort({<font></font>
   }, {});<font></font>
 };<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">猴子阳光</span>
@@ -309,9 +291,7 @@ console.log(ksort({<font></font>
 
 <pre><code>(function(s){var t={};Object.keys(s).sort().forEach(function(k){t[k]=s[k]});return t})({b:2,a:1,c:3})
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">樱Davaid</span>
@@ -329,9 +309,7 @@ return _.object(_.sortBy(_.pairs(unordered),function(o){return o[0]}));<font></f
 
 <pre><code>_.sortBy(_.pairs(c),function(o){return o[0]})
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">仲羽蛋蛋</span>
@@ -347,9 +325,7 @@ return _.object(_.sortBy(_.pairs(unordered),function(o){return o[0]}));<font></f
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">执行代码后，“无序”对象本身将按字母顺序对键进行排序。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">L西里</span>
@@ -359,9 +335,7 @@ return _.object(_.sortBy(_.pairs(unordered),function(o){return o[0]}));<font></f
 
 <pre><code>Object.fromEntries(Object.entries({b: 3, a:8, c:1}).sort())
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">GOItachi老丝</span>
@@ -391,9 +365,7 @@ return _.object(_.sortBy(_.pairs(unordered),function(o){return o[0]}));<font></f
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">以上示例的简短说明（如评论中所述）：</font></font></p>
 
 <p><code>Object.keys</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">向我们提供了提供的对象（</font></font><code>obj</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">或</font></font><code>o</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">）</font><font style="vertical-align: inherit;">中的键列表</font><font style="vertical-align: inherit;">，然后我们使用默认的排序算法</font><font style="vertical-align: inherit;">对键进行</font><font style="vertical-align: inherit;">排序，接下来</font></font><code>.reduce</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">将其用于将该数组转换回对象，但是这次所有键都已排序。</font></font></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

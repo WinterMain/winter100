@@ -33,7 +33,7 @@ topic: JavaScript
 </code></pre></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第1071篇《链接并执行托管在GitHub上的外部JavaScript文件》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第1071篇《链接并执行托管在GitHub上的外部JavaScript文件》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -56,9 +56,7 @@ topic: JavaScript
 
 <pre><code>https://cdn.jsdelivr.net/gh/antelove19/qrcodejs/qrcode.min.js
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">GOMandy</span>
@@ -70,9 +68,7 @@ topic: JavaScript
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这个对我有用。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">达蒙西门</span>
@@ -86,9 +82,7 @@ topic: JavaScript
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">他们不允许进行热链接是有原因的，因此如果您想成为好公民，则可能是不好的形式。</font><font style="vertical-align: inherit;">我建议您缓存该javascript，并仅在您认为合适时才定期重新获取。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">神无逆天GO</span>
@@ -102,9 +96,7 @@ topic: JavaScript
 <li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">将脚本放到 </font></font><code>user.github.io/repo</code></li>
 <li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">使用诸如rawgit.com之类的第三方CDN。</font></font></li>
 </ul></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">村村AL</span>
@@ -117,9 +109,7 @@ topic: JavaScript
 <a href="https://i.stack.imgur.com/tWq0I.png" rel="nofollow noreferrer"><img src="https://i.stack.imgur.com/tWq0I.png" alt="在此处输入图片说明"></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
  无</font></font><code>text/plain</code><br>
 <a href="https://i.stack.imgur.com/wXpmH.png" rel="nofollow noreferrer"><img src="https://i.stack.imgur.com/wXpmH.png" alt="在此处输入图片说明"></a><p></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">樱JimPro</span>
@@ -148,9 +138,7 @@ topic: JavaScript
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我希望这是有帮助的。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">参考网址：</font><a href="http://101helper.blogspot.com/2015/11/store-blogger-codes-on-github-boost-blogger-speed.html" rel="nofollow"><font style="vertical-align: inherit;">http</font></a><font style="vertical-align: inherit;"> ://101helper.blogspot.com/2015/11/store-blogger-codes-on-github-boost-blogger-speed.html</font></font><a href="http://101helper.blogspot.com/2015/11/store-blogger-codes-on-github-boost-blogger-speed.html" rel="nofollow"><font style="vertical-align: inherit;"></font></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">JinJinPro</span>
@@ -163,9 +151,7 @@ topic: JavaScript
 <p><a href="https://cdn.rawgit.com/dsuntos/cdn/866bb30f/pagination.js" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">没有评论</font></font></a></p>
 
 <p><a href="https://cdn.rawgit.com/st3ph/jquery.easyPaginate/083746fb/lib/jquery.easyPaginate.js" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">有评论</font></font></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">古一达蒙</span>
@@ -192,9 +178,7 @@ $ git add .                             # stage the newly built files<font></fon
 $ git merge --continue                  # commit the merge<font></font>
 $ git push origin gh-pages<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">LEY老丝樱</span>
@@ -241,9 +225,7 @@ $ git push origin gh-pages<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">2013年，GitHub开始使用</font></font><code>X-Content-Type-Options: nosniff</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，它指示更多现代浏览器强制执行严格的MIME类型检查。</font><font style="vertical-align: inherit;">然后，它以服务器返回的MIME类型返回原始文件，从而防止浏览器按预期使用文件（如果浏览器接受该设置）。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">有关此主题的背景，请参考</font></font><a href="//bugs.chromium.org/p/chromium/issues/detail?id=180007" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">此讨论线程</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">伽罗卡卡西</span>
@@ -265,9 +247,7 @@ $ git push origin gh-pages<font></font>
 <blockquote>
   <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">注意：RawGit已达到使用寿命</font></font></p>
 </blockquote></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">An</span>
@@ -276,9 +256,7 @@ $ git push origin gh-pages<font></font>
           <div class="discuss-comment"><p><code>rawgithub.com</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">重定向到</font></font><code>rawgit.com</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">所以上面的例子现在是</font></font></p>
 
 <p><code>http://rawgit.com/user/package/master/link.min.js</code></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">EvaEva斯丁</span>
@@ -289,9 +267,7 @@ $ git push origin gh-pages<font></font>
 <p><code>//raw.githubusercontent.com</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> -&gt; </font></font><code>//rawgit.com</code></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">请注意，这是由rawgit的开发托管处理的，而不是由生产托管的CDN处理的</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Mandy番长</span>
@@ -300,9 +276,7 @@ $ git push origin gh-pages<font></font>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这不再可能。</font><font style="vertical-align: inherit;">GitHub已明确禁用JavaScript热链接，并且较新版本的浏览器会遵守该设置。</font></font></p>
 
 <p><a href="//github.com/blog/1482" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">注意：Chrome和Firefox支持nosniff标头</font></font></a></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

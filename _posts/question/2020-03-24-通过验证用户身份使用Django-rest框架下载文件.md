@@ -46,7 +46,7 @@ def test(self, request, pk=None):<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">通过检查请求的用户是否是票证的所有者，还有其他方法可以使我下载文件吗？</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第3309篇《通过验证用户身份使用Django rest框架下载文件》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第3309篇《通过验证用户身份使用Django rest框架下载文件》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}

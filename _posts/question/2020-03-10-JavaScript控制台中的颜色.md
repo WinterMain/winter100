@@ -19,7 +19,7 @@ topic: JavaScript
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我想要红色错误，橙色警告和</font></font><code>console.log</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">绿色。</font><font style="vertical-align: inherit;">那可能吗？</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第430篇《JavaScript控制台中的颜色》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第430篇《JavaScript控制台中的颜色》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -81,9 +81,7 @@ topic: JavaScript
 <p><a href="https://jsfiddle.net/a8y3jhfL/" rel="noreferrer">https://jsfiddle.net/a8y3jhfL/</a></p>
 
 <p>you can paste ASCII in each frame to watch an ASCII animation</p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Gil飞云</span>
@@ -96,9 +94,7 @@ topic: JavaScript
 <pre><code>console.log(`%cToday date=&gt;%c${new Date()}`,`color:#F74C2F`, `color:green`);<font></font>
 // output :Today date (in red color) =&gt; Date (in green color)<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">猴子宝儿神奇</span>
@@ -115,9 +111,7 @@ topic: JavaScript
 
 <pre><code>console.log("%cThis will be formatted with large, blue text", "color: blue; font-size: x-large");
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">JimLEYHarry</span>
@@ -167,9 +161,7 @@ topic: JavaScript
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">默认颜色是黑色，在这种情况下，您不必传递任何关键字作为参数。</font><font style="vertical-align: inherit;">在其他情况下，您应该传递</font></font><code>success, error, warning, or info</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">关键字以获得期望的结果。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这是工作的</font></font><strong><a href="https://jsfiddle.net/suhaibjanjua/h8yc0px8/1/" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">JSFiddle</font></font></a></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font><font style="vertical-align: inherit;">在浏览器的控制台中查看输出。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Tom西里</span>
@@ -180,9 +172,7 @@ topic: JavaScript
 <p><a href="https://github.com/adamschwartz/log" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">https://github.com/adamschwartz/log</font></font></a></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">使用Markdown记录日志消息。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">null</span>
@@ -202,9 +192,7 @@ topic: JavaScript
     color:green;<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

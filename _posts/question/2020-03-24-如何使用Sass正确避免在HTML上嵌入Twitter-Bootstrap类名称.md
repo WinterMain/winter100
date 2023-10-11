@@ -63,7 +63,7 @@ topic: CSS
 <p>I really appreciate your thoughts on this. Please keep in mind that I am just learning about overall web design (css, sass, less, html, js, etc.).</p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第3354篇《如何使用Sass正确避免在HTML上嵌入Twitter Bootstrap类名称》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第3354篇《如何使用Sass正确避免在HTML上嵌入Twitter Bootstrap类名称》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -97,9 +97,7 @@ topic: CSS
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我使用您的示例对此进行了测试，并且可以正常工作。</font><font style="vertical-align: inherit;">Sass用“ .btn”复制所有选择器，在这些新创建的选择器上，用“ .button”替换“ .btn”。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">另外，如果Sass为您的喜好产生过多的重复，也不必担心（只要您遵循发布的链接所指出的最佳实践）即可。</font><font style="vertical-align: inherit;">如果服务器使用gzip或等效文件，则很容易压缩重复代码；</font><font style="vertical-align: inherit;">客户端应该不会注意到加载速度变慢，尽管“解压缩” CSS可能会花费更长的时间。</font><font style="vertical-align: inherit;">至于CSS选择器的速度，也不必担心。</font><font style="vertical-align: inherit;">速度对选择器至关重要的唯一情况是在JavaScript方面，尤其是jQuery。</font><font style="vertical-align: inherit;">对于您的Sass代码，只需遵循关于可维护性的最佳实践（尤其是在尝试模块化时，即SMACSS），那么一切都会很好。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小胖理查德</span>
@@ -120,9 +118,7 @@ topic: CSS
 </blockquote>
 
 <p><code>@extend</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">通过复制选择器起作用。</font><font style="vertical-align: inherit;">如果您不希望这样做，可以改为在HTML中“扩展”-即添加Bootstrap的类名。</font><font style="vertical-align: inherit;">:)</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">阿飞米亚</span>
@@ -163,9 +159,7 @@ section {<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">正如他们所说：“它完全依赖于Sass mixins，不会污染HTML”，这似乎是您所寻找的方式。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">GreenSam</span>
@@ -180,9 +174,7 @@ section {<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">还请记住将JS与CSS分离！</font><font style="vertical-align: inherit;">使用特殊的类来附加行为（例如js-submit，js-call-to-action等）。  </font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">最后但并非最不重要的一点：不要计划更新CSS框架。</font><font style="vertical-align: inherit;">这些框架旨在为您提供领先优势，而不是成为您的整体设计解决方案。</font><font style="vertical-align: inherit;">扩展它们，使它们适应，使它们成为自己的，投资设计并创建自己的外观，以使您的应用程序与众不同。</font><font style="vertical-align: inherit;">如果使您想到更新的原因是跟上标准更改的烦恼，请更好地使用指南针mixins。</font></font></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

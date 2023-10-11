@@ -20,7 +20,7 @@ topic: JavaScript
 </code></pre></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第3964篇《如何解析浮点数在JavaScript中的两位小数？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第3964篇《如何解析浮点数在JavaScript中的两位小数？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -36,9 +36,7 @@ topic: JavaScript
 
 <pre><code>var twoPlacedFloat = parseFloat(yourString).round(2)
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">樱小胖Mandy</span>
@@ -48,9 +46,7 @@ topic: JavaScript
 
 <pre><code>parseFloat(value)
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Itachi</span>
@@ -70,9 +66,7 @@ function chief_double(num){<font></font>
     }<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">古一</span>
@@ -81,9 +75,7 @@ function chief_double(num){<font></font>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">对于它的价值：十进制数字是十进制数字，您可以将其四舍五入为其他值。</font><font style="vertical-align: inherit;">在内部，它将根据浮点合成和处理规则近似为小数点后一位。</font><font style="vertical-align: inherit;">无论要显示多少位数，它在内部都保留一个十进制数字（浮点数，在JS中为双精度）。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">要显示它以进行显示，您可以通过字符串转换将显示的精度选择为所需的精度。</font><font style="vertical-align: inherit;">演示是一个显示问题，而不是存储问题。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">斯丁</span>
@@ -99,9 +91,7 @@ _.ceil("",2)<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">也可以与数字一起使用，这是安全的</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">老丝</span>
@@ -117,9 +107,7 @@ function parseFloat2Decimals(value,decimalPlaces) {<font></font>
     return parseFloat(parseFloat(value).toFixed(decimalPlaces));<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Stafan路易</span>
@@ -129,9 +117,7 @@ function parseFloat2Decimals(value,decimalPlaces) {<font></font>
 
 <pre><code>var twoPlacedFloat = parseFloat((10.02745).toFixed(2));
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">HarryItachi</span>
@@ -155,9 +141,7 @@ n.round(3); // 3.143<font></font>
 
 <pre><code>(22/7).round(3); // 3.143
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">番长猴子</span>
@@ -171,9 +155,7 @@ n.round(3); // 3.143<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">大约是parseFloat（number.toFixed（2））的100倍</font></font></p>
 
 <p><a href="http://jsperf.com/parsefloat-tofixed-vs-math-round" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">http://jsperf.com/parsefloat-tofixed-vs-math-round</font></font></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Itachi</span>
@@ -183,9 +165,7 @@ n.round(3); // 3.143<font></font>
 
 <pre><code>var twoPlacedFloat = parseFloat(yourString).toFixed(2)
 </code></pre></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

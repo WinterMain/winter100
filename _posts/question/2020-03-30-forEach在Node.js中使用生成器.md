@@ -42,7 +42,7 @@ topic: KoaJS
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我知道这是我对Node.js的语言素养缺乏了解。</font><font style="vertical-align: inherit;">但是你们能帮我找到一种方法吗？</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第3842篇《forEach在Node.js中使用生成器》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第3842篇《forEach在Node.js中使用生成器》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -82,9 +82,7 @@ topic: KoaJS
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">有关示例和详细信息，请访问：</font></font><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/yield" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">https</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> :
  </font><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/yield" rel="noreferrer"><font style="vertical-align: inherit;">//developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/yield</font></a><font style="vertical-align: inherit;"> *</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">猪猪</span>
@@ -96,9 +94,7 @@ topic: KoaJS
    return db.collection.findOne({id: item.id});<font></font>
 });<font></font>
 </code></pre></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

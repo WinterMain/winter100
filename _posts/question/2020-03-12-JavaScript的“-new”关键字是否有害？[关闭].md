@@ -37,7 +37,7 @@ topic: JavaScript
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">使用</font></font><code>new</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">关键字</font><font style="vertical-align: inherit;">是否“不好” </font><font style="vertical-align: inherit;">？</font><font style="vertical-align: inherit;">使用它的优缺点是什么？</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第981篇《JavaScript的“ new”关键字是否有害？[关闭]》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第981篇《JavaScript的“ new”关键字是否有害？\[关闭\]》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -64,9 +64,7 @@ topic: JavaScript
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在此函数内部，仅在此处应使用new。</font><font style="vertical-align: inherit;">之后，只需使用</font></font><em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Object.create（）</font></font></em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">方法。</font><font style="vertical-align: inherit;">该方法解决了原型问题。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">JinJin老丝</span>
@@ -77,9 +75,7 @@ topic: JavaScript
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在我看来，“新”似乎是自我描述对象的创建，而Greg Dean所描述的YUI模式被</font></font><em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">完全遮盖了</font></font></em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">有人可能写的可能性</font></font><code>var bar = foo;</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">或者</font></font><code>var bar = baz();</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">baz不是对象创建方法</font><font style="vertical-align: inherit;">的可能性</font><font style="vertical-align: inherit;">似乎</font></font><em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">要</font></font></em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">危险</font><em><font style="vertical-align: inherit;">得多</font></em><font style="vertical-align: inherit;">。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Tony达蒙Mandy</span>
@@ -107,18 +103,14 @@ var bar = new foo();<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在一天结束时：</font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这是关于防御。</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">  您可以使用新的陈述吗？</font><font style="vertical-align: inherit;">是。</font><font style="vertical-align: inherit;">它会使您的代码更危险吗？</font><font style="vertical-align: inherit;">是。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果您曾经写过C ++，则类似于删除指针后将其设置为NULL。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小胖凯樱</span>
             <span class="discuss-time">2020.03.12</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我认为“新”可增加代码的清晰度。</font><font style="vertical-align: inherit;">清晰是值得的。</font><font style="vertical-align: inherit;">很高兴知道有陷阱，但是通过避免清晰性来避免陷阱似乎对我而言并不可行。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">LItachi</span>
@@ -140,9 +132,7 @@ var o = createChair() // makes sense.<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">有趣的是，SO的语法着色如何解释了上面的代码。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小胖凯樱</span>
@@ -155,9 +145,7 @@ var o = createChair() // makes sense.<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">遵循该语言意图编写的代码将在每个发行版中提高效率。</font><font style="vertical-align: inherit;">避免使用该语言的关键构造的代码将随着时间而受苦。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">编辑：这远远超出了性能。</font><font style="vertical-align: inherit;">我无法数出我听到（或说过）“他们为什么这么做</font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">了</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">？”的次数。</font><font style="vertical-align: inherit;">当发现奇怪的代码时。</font><font style="vertical-align: inherit;">经常发现，在编写代码时，有一些“好的”理由。</font><font style="vertical-align: inherit;">遵循语言的道理是您最好的保证，因为从现在开始几年后都不会嘲笑您的代码。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">神无伽罗</span>
@@ -212,9 +200,7 @@ var pt = new Point(20,30);<font></font>
 // This is OK also<font></font>
 var pt2 = Point(20,30);<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Tony阿飞</span>
@@ -249,9 +235,7 @@ var pt2 = Point(20,30);<font></font>
 <p><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">更新资料</font></font></strong></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">编写此答案大约一年后，发布了ECMAScript的第五版，并支持</font></font><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions_and_function_scope/Strict_mode" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">严格模式</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font><font style="vertical-align: inherit;">在严格模式下，</font></font><code>this</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">不再绑定到全局对象，而是绑定到</font></font><code>undefined</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Stafan卡卡西</span>
@@ -288,9 +272,7 @@ var pt2 = Point(20,30);<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">（请注意，此代码段能够避免对构造函数名称进行硬编码，因为与前面的示例不同，它无需实际实例化对象-因此，可以将其复制到每个目标函数中，而无需进行修改。）</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">John Resig在他的</font></font><a href="http://ejohn.org/blog/simple-class-instantiation/" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">“类”实例化简单</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">文章中</font><font style="vertical-align: inherit;">详细介绍了此技术</font><font style="vertical-align: inherit;">，并包括一种默认情况下将此行为构建到“类”中的方法。</font><font style="vertical-align: inherit;">绝对值得一读...正如他即将出版的书</font></font><a href="http://www.manning.com/resig/" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">《 JavaScript忍者的秘密》一样，</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">该书</font><font style="vertical-align: inherit;">在JavaScript语言的此功能和许多其他“有害”功能中发现了隐藏的金子（该</font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">章</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">对</font></font><code>with</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">那些最初被解雇的人特别有启发性此功能非常align头）。</font></font></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

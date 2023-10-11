@@ -18,7 +18,7 @@ topic: Node.js
 </font></a><font style="vertical-align: inherit;">。</font><font style="vertical-align: inherit;">它说我们可以使用underscore.js作为模板引擎。</font><font style="vertical-align: inherit;">任何人都知道有关如何使用underscore.js进行模板制作的很好的教程，尤其是对于那些对高级javascript经验较少的biginner而言。</font><font style="vertical-align: inherit;">谢谢</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第2443篇《如何使用underscore.js作为模板引擎？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第2443篇《如何使用underscore.js作为模板引擎？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -33,9 +33,7 @@ topic: Node.js
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">使用&lt;％= variable =&gt;将导致跨站点脚本漏洞。</font><font style="vertical-align: inherit;">因此，使用&lt;％-variable-&gt;代替更为安全。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我们必须用&lt;％-替换&lt;％=，以防止跨站点脚本攻击。</font><font style="vertical-align: inherit;">不确定，这是否会对性能产生影响</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">古一西里</span>
@@ -109,9 +107,7 @@ console.log(parsedTemplate); <font></font>
 </code></pre>
 
 <p></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">猿前端前端</span>
@@ -133,9 +129,7 @@ console.log(parsedTemplate); <font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">然后</font></font><code>tpl({foo: "blahblah"})</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">将呈现为字符串</font></font><code>&lt;h1&gt;Some text: blahblah&lt;/h1&gt;</code></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

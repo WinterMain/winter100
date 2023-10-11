@@ -26,7 +26,7 @@ registerServiceWorker();<font></font>
 </code></pre></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第1794篇《registerServiceWorker在React JS中做什么？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第1794篇《registerServiceWorker在React JS中做什么？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -46,18 +46,14 @@ registerServiceWorker();<font></font>
 <li><a href="https://css-tricks.com/serviceworker-for-offline/" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">使用服务工作者的简单脱机站点，CSS技巧</font></font></a></li>
 <li><a href="https://www.smashingmagazine.com/2016/02/making-a-service-worker/" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">服务器工作者：案例研究，Smashing Magazine</font></font></a></li>
 </ul></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Stafan小小斯丁</span>
             <span class="discuss-time">2020.03.16</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">服务人员将在没有网络的情况下脱机使用网站数据，就像制作PWA。</font><font style="vertical-align: inherit;">请参考此链接</font></font><a href="https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">PWA</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">以了解有关实现以及如何使用registerServiceWorker（）的更多信息。</font></font></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

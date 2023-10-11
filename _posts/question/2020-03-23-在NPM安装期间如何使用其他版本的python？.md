@@ -43,7 +43,7 @@ gyp ERR! stack     at /usr/local/lib/node_modules/npm/node_modules/node-gyp/lib/
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我应该如何</font></font><em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">“通过--python开关以指向Python&gt; = v2.5.0”</font></font></em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">？</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第2816篇《在NPM安装期间如何使用其他版本的python？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第2816篇《在NPM安装期间如何使用其他版本的python？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -64,9 +64,7 @@ gyp ERR! stack     at /usr/local/lib/node_modules/npm/node_modules/node-gyp/lib/
 
 <pre><code>set PYTHON=python2.7
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">番长</span>
@@ -76,9 +74,7 @@ gyp ERR! stack     at /usr/local/lib/node_modules/npm/node_modules/node-gyp/lib/
 
 <pre><code>PS C:\angular&gt; npm install --python=C:\Python27\python.exe
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Mandy</span>
@@ -94,18 +90,14 @@ gyp ERR! stack     at /usr/local/lib/node_modules/npm/node_modules/node-gyp/lib/
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">执行</font></font><code>setpy2</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">之前运行</font></font><code>npm install</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font><font style="vertical-align: inherit;">该开关将一直有效，直到您退出终端为止，之后</font></font><code>python</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">将其设置回系统默认值。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">您也可以将这种技术用于任何其他命令/工具。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">乐</span>
             <span class="discuss-time">2020.03.23</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">为了快速使用它，npm install --python =“ c：\ python27”</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">梅</span>
@@ -124,9 +116,7 @@ gyp ERR! stack     at /usr/local/lib/node_modules/npm/node_modules/node-gyp/lib/
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Npm将在需要时依次将此选项传递给node-gyp。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">（注意：我是在Github上发布一个问题将此文档包含在文档中的人，因为对此有很多问题;-)）</font></font></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

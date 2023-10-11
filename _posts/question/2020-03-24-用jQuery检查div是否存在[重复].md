@@ -57,7 +57,7 @@ But, it confuses me, since the results on google for this search show different 
 It's a pitty to see that people do not want to learn what is the better approach from the three different methods. This question is not actually on "How to check if a div exists" but it's about which method is better, and, if someone could explain, why it it better?</p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第3418篇《用jQuery检查div是否存在[重复]》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第3418篇《用jQuery检查div是否存在\[重复\]》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -68,18 +68,14 @@ It's a pitty to see that people do not want to learn what is the better approach
             <span class="discuss-time">2020.03.24</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">首先是最简洁的，我同意。</font><font style="vertical-align: inherit;">前两个相同，但是第一个短一点，因此您将节省字节数。</font><font style="vertical-align: inherit;">第三个是完全错误的，因为该条件永远将为true，因为该对象</font></font><em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">永远不会</font></font></em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">为null或虚假。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Itachi</span>
             <span class="discuss-time">2020.03.24</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">正如karim79所说，第一个是最简洁的。</font><font style="vertical-align: inherit;">但是我可能会争辩说第二个更容易理解，因为对于某些Javascript / jQuery程序员来说，非零/假值</font></font><code>true</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在if语句中</font><font style="vertical-align: inherit;">被评估是不明显的/不为人所知</font><font style="vertical-align: inherit;">。</font><font style="vertical-align: inherit;">因此，第三种方法是不正确的。</font></font></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

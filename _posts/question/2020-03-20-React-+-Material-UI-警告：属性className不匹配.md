@@ -156,7 +156,7 @@ export default withStyles(styles)(SearchBar)<font></font>
 </ul></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第2534篇《React + Material-UI-警告：属性className不匹配》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第2534篇《React + Material-UI-警告：属性className不匹配》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -167,9 +167,7 @@ export default withStyles(styles)(SearchBar)<font></font>
             <span class="discuss-time">2020.03.20</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">问题是服务器端生成类名，但是样式表不会自动包含在HTML中。</font><font style="vertical-align: inherit;">您需要显式提取CSS并将其附加到服务器端渲染组件的UI中。</font><font style="vertical-align: inherit;">此处说明了整个过程：</font><a href="https://material-ui.com/guides/server-rendering/" rel="nofollow noreferrer"><font style="vertical-align: inherit;">https</font></a><font style="vertical-align: inherit;">：</font></font><a href="https://material-ui.com/guides/server-rendering/" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">//material-ui.com/guides/server-rendering/</font></font></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Tom凯</span>
@@ -190,9 +188,7 @@ export default withStyles(styles)(SearchBar)<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">}</font></font></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

@@ -49,7 +49,7 @@ gulp.task('default', function () {<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">令我困惑的是究竟是什么</font></font><code>includePaths</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">？</font><font style="vertical-align: inherit;">根据上面的示例，有人可以向我解释什么</font></font><code>includePath</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">是角色？</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第2925篇《Gulp的includePaths有什么作用？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第2925篇《Gulp的includePaths有什么作用？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -68,9 +68,7 @@ gulp.task('default', function () {<font></font>
 </blockquote>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在sass中，您可以在多个文件夹中整理sass文件，但希望main.sass能够在编译时将其导入，因此您可以指定</font></font><code>includePaths</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，以便sass知道在哪里可以找到</font></font><code>@import sass file</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，在这里使用</font></font><code>node-neat</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，如果您想从中导入一些样式，默认情况下，sass不知道在哪里寻找，因此您需要告诉sass在哪里找到要导入的文件</font></font></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

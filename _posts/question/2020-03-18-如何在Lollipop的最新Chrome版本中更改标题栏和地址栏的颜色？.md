@@ -21,7 +21,7 @@ topic: HTML
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我想你需要的是Android 5.0棒棒糖对于这项工作，而Chrome的</font></font><em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">合并标签页和应用</font></font></em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">设置为</font></font><em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">上</font></font></em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第2126篇《如何在Lollipop的最新Chrome版本中更改标题栏和地址栏的颜色？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第2126篇《如何在Lollipop的最新Chrome版本中更改标题栏和地址栏的颜色？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}

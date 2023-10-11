@@ -26,7 +26,7 @@ topic: Vue.js
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">添加类似的东西</font></font><code>v-on:hide.bs.modal="alert('hide')</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">似乎不起作用。</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第4059篇《在Vue JS中处理Bootstrap模式隐藏事件》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第4059篇《在Vue JS中处理Bootstrap模式隐藏事件》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -41,9 +41,7 @@ topic: Vue.js
 
 <pre><code>&lt;b-modal ref="someModal" @hide="doSometing"&gt;
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">神无</span>
@@ -76,9 +74,7 @@ watch: {<font></font>
      &lt;button type="button" class="btn btn-default" data-dismiss="modal" @click="showModal = false"&gt;Close&lt;/button&gt;<font></font>
 &lt;/div&gt;<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">阿飞</span>
@@ -104,9 +100,7 @@ watch: {<font></font>
 </code></pre>
 
 <p><a href="http://codepen.io/Kradek/pen/VpvzGO?editors=1010" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">工作示例</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

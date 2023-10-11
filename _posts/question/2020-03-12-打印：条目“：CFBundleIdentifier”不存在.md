@@ -48,7 +48,7 @@ Print: Entry, ":CFBundleIdentifier", Does Not Exist<font></font>
 </code></pre></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第911篇《打印：条目“：CFBundleIdentifier”不存在》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第911篇《打印：条目“：CFBundleIdentifier”不存在》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -59,18 +59,14 @@ Print: Entry, ":CFBundleIdentifier", Does Not Exist<font></font>
             <span class="discuss-time">2020.03.12</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">根本原因是部署端口不是免费的。</font><font style="vertical-align: inherit;">您可以重新启动设备并释放所有端口，否则运行</font></font><code>$ lsof -i :8081</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">并找到占用端口8081的进程。通过运行命令杀死正在使用端口8081的进程</font></font><code>$ kill -9 {process_which_is_running_under_8081}</code></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">梅斯丁</span>
             <span class="discuss-time">2020.03.12</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我找到了解决问题的方法：不要在项目路径中使用空间！</font><font style="vertical-align: inherit;">😄</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">TomL</span>
@@ -79,9 +75,7 @@ Print: Entry, ":CFBundleIdentifier", Does Not Exist<font></font>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">当您运行</font></font><code>npm install</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">命令一段时间后出现互联网问题时，文件</font></font><code>node_modules\react-native\third-party</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">未正确下载，因此请检查是否已正确下载，否则请删除node_modules并重新安装</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">然后运行</font></font><code>react-native run-ios</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">  命令</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">卡卡西Itachi</span>
@@ -92,9 +86,7 @@ Print: Entry, ":CFBundleIdentifier", Does Not Exist<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在运行    </font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">react-native run-ios</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">命令之前，请从</font></font><a href="https://sourceforge.net/projects/boost/files/boost/1.63.0/" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">https://sourceforge.net/projects/boost/files/boost/1.63.0/</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">下载boost节点模块，</font><font style="vertical-align: inherit;">并替换node_modules / react-native / third-party / boost_1_63_0</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">现在运行    </font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">react-native run-ios</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">     命令</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Eva梅村村</span>
@@ -121,9 +113,7 @@ Print: Entry, ":CFBundleIdentifier", Does Not Exist<font></font>
 <li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">节点8.11.1</font></font></li>
 <li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">RN 0.55.2</font></font></li>
 </ul></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">路易Near番长</span>
@@ -131,9 +121,7 @@ Print: Entry, ":CFBundleIdentifier", Does Not Exist<font></font>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">对我有用的方法单击导航器中的RCTWebSocket项目，然后删除构建设置&gt;自定义编译器标志下的标志。
 </font></font><a href="https://i.stack.imgur.com/5BHcT.png" rel="nofollow noreferrer"><img src="https://i.stack.imgur.com/5BHcT.png" alt="在此处输入图片说明"></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小哥番长番长</span>
@@ -176,9 +164,7 @@ Print: Entry, ":CFBundleIdentifier", Does Not Exist<font></font>
    &lt;string&gt;UIInterfaceOrientationLandscapeRight&lt;/string&gt;<font></font>
 &lt;/array&gt;<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">乐米亚</span>
@@ -200,9 +186,7 @@ $ react-native run-ios<font></font>
 <p><a href="https://shift.infinite.red/beginner-s-guide-to-using-cocoapods-with-react-native-46cb4d372995" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">https://shift.infinite.red/beginner-s-guide-to-using-cocoapods-with-react-native-46cb4d372995</font></font></a></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">PS：试图找出别人完成的工作</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">斯丁Davaid</span>
@@ -213,9 +197,7 @@ $ react-native run-ios<font></font>
 <p><code>JavaScriptCore.framework</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> 位置： </font></font><code>‎⁨Macintosh HD⁩ ▸ ⁨Applications⁩ ▸ ⁨Xcode⁩ ▸ ⁨Contents⁩ ▸ ⁨Developer⁩ ▸ ⁨Platforms⁩ ▸ ⁨iPhoneOS.platform⁩ ▸ ⁨Developer⁩ ▸ ⁨SDKs⁩ ▸ ⁨iPhoneOS.sdk⁩ ▸ ⁨System⁩ ▸ ⁨Library⁩ ▸ ⁨Frameworks⁩</code></p>
 
 <p><a href="https://i.stack.imgur.com/vyU33.png" rel="nofollow noreferrer"><img src="https://i.stack.imgur.com/vyU33.png" alt="JavaScriptCore.framework"></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">null</span>
@@ -226,27 +208,21 @@ $ react-native run-ios<font></font>
 <pre><code>"react": "16.6.0-alpha.8af6728",<font></font>
 "react-native": "0.57.4"<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">蛋蛋樱</span>
             <span class="discuss-time">2020.03.12</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">经过几个月的尝试，我终于将操作系统更新为Sierra，将XCode更新为最新版本，并且所有错误均消失了。</font><font style="vertical-align: inherit;">希望这可以帮助一些人！</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">宝儿猪猪</span>
             <span class="discuss-time">2020.03.12</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">0.44可以运行，但是0.45不能运行，也许是我通过以下命令解决了版本问题：rninit init TaxiApp --source react-native@0.44.0;</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">飞云逆天</span>
@@ -285,18 +261,14 @@ Print: Entry, ":CFBundleIdentifier", Does Not Exist<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">为了摆脱这些，打开您的Xcode并检查可用的模拟器（与列出的终端相同）并运行 </font></font><code>react-native run-ios --simulator="your device name"</code></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">就我而言，我运行</font></font><code>react-native run-ios --simulator="iPhone 7"</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，问题解决了。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Sam猪猪</span>
             <span class="discuss-time">2020.03.12</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我将Xcode更新为v8，此错误已解决。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">橙ぺo痕</span>
@@ -337,9 +309,7 @@ Copy or identify glog-{version}<font></font>
 </code></pre>
 
 <p><em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我希望这会工作！</font></font></em></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Sam小哥理查德</span>
@@ -349,9 +319,7 @@ Copy or identify glog-{version}<font></font>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">首先，我删除ios文件夹，</font></font><code>rm -rf ios</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
 然后，</font></font><code>react-native upgrade</code></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Jim老丝梅</span>
@@ -365,9 +333,7 @@ Copy or identify glog-{version}<font></font>
 <li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在xCode中运行应用程序</font></font></li>
 <li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">工作良好！</font></font></li>
 </ol></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">梅米亚</span>
@@ -378,9 +344,7 @@ Copy or identify glog-{version}<font></font>
 <pre><code>&lt;key&gt;CFBundleIdentifier&lt;/key&gt;<font></font>
 &lt;string&gt;$(PRODUCT_BUNDLE_IDENTIFIER)&lt;/string&gt;<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">卡卡西逆天十三</span>
@@ -389,27 +353,21 @@ Copy or identify glog-{version}<font></font>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">对我来说，使用Cocoapods和意外地设置模块是一个问题</font></font><code>react-native link</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">不要将这两个模块混合使用！</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">老丝阿飞</span>
             <span class="discuss-time">2020.03.12</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我通过删除</font></font><code>/build/</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">并</font></font><code>react-native run-ios</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">重新</font><font style="vertical-align: inherit;">运行来</font><font style="vertical-align: inherit;">解决此问题</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">YOC40059608</span>
             <span class="discuss-time">2020.03.12</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">安装新软件包后，我的node_modules文件夹出现问题时，我发生了这种情况。</font><font style="vertical-align: inherit;">我杀死了该文件夹</font></font><code>rm -rf node_modules</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，然后</font></font><code>npm install</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">重新安装了我的软件包，并对其进行了修复。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Stafan逆天</span>
@@ -418,9 +376,7 @@ Copy or identify glog-{version}<font></font>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">该</font></font><code>Print: Entry, ":CFBundleIdentifier", Does Not Exist</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">消息仅表示您的项目无法编译或链接。</font><font style="vertical-align: inherit;">您需要返回到输出，以找到有关实际根本原因的提示。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果遇到问题，请查看完整的构建输出，而不仅仅是最后几行。</font><font style="vertical-align: inherit;">您可能需要在Xcode中打开项目，然后按⌘B进行构建。</font><font style="vertical-align: inherit;">Xcode中的生成错误应可帮助您找到失败的根本原因。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">番长凯</span>
@@ -449,9 +405,7 @@ Copy or identify glog-{version}<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">9）现在尝试在终端</font><strong><font style="vertical-align: inherit;">react-native run-ios中</font></strong><font style="vertical-align: inherit;">运行命令</font></font><strong><font style="vertical-align: inherit;"></font></strong></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我希望这种解决方案能够帮助我们中的一些人面对这个问题。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">GOTony</span>
@@ -460,9 +414,7 @@ Copy or identify glog-{version}<font></font>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">更新React使用</font></font><code>react-native upgrade</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">对我</font><font style="vertical-align: inherit;">有用</font><font style="vertical-align: inherit;">。</font></font></p>
 
 <p><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">免责声明</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">：这将覆盖您的所有iOS配置，</font></font><strong><em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">请谨慎使用</font></font></em></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">！</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">米亚Harry</span>
@@ -485,9 +437,7 @@ Copy or identify glog-{version}<font></font>
 <p><img src="https://i.stack.imgur.com/plC9C.jpg" alt="添加包裹"></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">5.点击完成，完成</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">阿飞米亚</span>
@@ -514,9 +464,7 @@ Copy or identify glog-{version}<font></font>
 <blockquote>
   <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">{X}：版本号glog</font></font></p>
 </blockquote></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">阳光阿飞</span>
@@ -527,18 +475,14 @@ Copy or identify glog-{version}<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">打开Xcode 10，“文件”&gt;“项目设置”&gt;“构建系统”&gt;将下拉列表切换到“旧版构建系统”。</font></font></p>
 
 <p><a href="https://i.stack.imgur.com/1wHt2.png" rel="noreferrer"><img src="https://i.stack.imgur.com/1wHt2.png" alt="屏幕截图"></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Near飞云</span>
             <span class="discuss-time">2020.03.12</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我的问题实际上是我的构建处于发布模式而不是调试模式。</font><font style="vertical-align: inherit;">结果，标识符指向了不存在的东西。</font><font style="vertical-align: inherit;">我更改了构建类型，并最终正常工作。</font></font></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

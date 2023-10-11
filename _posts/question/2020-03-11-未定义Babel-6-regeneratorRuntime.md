@@ -45,7 +45,7 @@ exports.default = foo;<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">正常使用它而不需要异步/等待就可以了。</font><font style="vertical-align: inherit;">有什么想法我做错了吗？</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第858篇《未定义Babel 6 regeneratorRuntime》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第858篇《未定义Babel 6 regeneratorRuntime》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -91,9 +91,7 @@ exports.default = foo;<font></font>
   entry: ["@babel/polyfill", "./app/js"],<font></font>
 };<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小卤蛋前端</span>
@@ -104,9 +102,7 @@ exports.default = foo;<font></font>
 <p><code>npm install babel-polyfill</code> </p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">然后在所有其他脚本标签上方将脚本标签添加到index.html，并从node_modules引用babel-polyfill</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">GO前端</span>
@@ -156,9 +152,7 @@ exports.default = foo;<font></font>
 <font></font>
 ....<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小卤蛋前端</span>
@@ -182,9 +176,7 @@ npm i --save-dev @babel/plugin-transform-runtime @babel/core<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">取自</font></font><a href="https://github.com/parcel-bundler/parcel/issues/1762" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">https://github.com/parcel-bundler/parcel/issues/1762</font></font></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">JinJin村村</span>
@@ -224,9 +216,7 @@ npm i --save-dev @babel/plugin-transform-runtime @babel/core<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">现在检查一切正常。</font></font><a href="https://babeljs.io/docs/usage/polyfill/" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">参考链接</font></font></a> </p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">也感谢@BrunoLM的回答。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">十三L</span>
@@ -241,9 +231,7 @@ npm i --save-dev @babel/plugin-transform-runtime @babel/core<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如其他答案所述，您也可以使用</font></font><a href="https://stackoverflow.com/a/33527883/6157047"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">polyfills</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">（尽管请确保</font><font style="vertical-align: inherit;">在运行任何其他代码之前先</font></font><a href="https://stackoverflow.com/a/36628148/6157047"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">加载polyfill</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">）。</font><font style="vertical-align: inherit;">另外，如果您不想包括所有的polyfill依赖项，则可以使用</font></font><a href="https://stackoverflow.com/a/36590887/6157047"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">babel-regenerator-runtime</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">或</font></font><a href="https://stackoverflow.com/a/36821986/6157047"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">babel-plugin-transform-runtime</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">猪猪Jim</span>
@@ -269,9 +257,7 @@ npm i --save-dev @babel/plugin-transform-runtime @babel/core<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这将使您能够</font></font><code>async</code> <code>awaits</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在文件中</font><font style="vertical-align: inherit;">使用</font><font style="vertical-align: inherit;">并删除</font></font><code>regenerator error</code></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Eva猴子古一</span>
@@ -284,9 +270,7 @@ npm i --save-dev @babel/plugin-transform-runtime @babel/core<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">以下解决了这个问题</font></font></p>
 
 <p><code>mocha \"server/tests/**/*.test.js\" --compilers js:babel-register --require babel-polyfill</code></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">老丝村村</span>
@@ -309,9 +293,7 @@ var myFunc = async function(){}<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">以防止将其悬挂在polyfill进口上方。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Tony达蒙Mandy</span>
@@ -346,9 +328,7 @@ or if you are using babel-preset-env package<font></font>
   ]<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Tom村村</span>
@@ -413,9 +393,7 @@ npm i @babel/runtime<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果您使用core-js polyfills，请安装</font></font><code>@babel/runtime-corejs2</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">或</font></font><code>@babel/runtime-corejs3</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">代替，请参见</font></font><a href="https://babeljs.io/blog/2019/03/19/7.4.0#migration-from-core-js-2" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">此处</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">干杯</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">JinJinLEY</span>
@@ -445,9 +423,7 @@ npm install --save-dev babel-plugin-transform-async-to-generator<font></font>
   ]<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">米亚凯</span>
@@ -479,9 +455,7 @@ npm install --save-dev babel-plugin-transform-async-to-generator<font></font>
   <p><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">注意</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> 
   如果使用的是babel 7，则该软件包已重命名为</font></font><a href="https://babeljs.io/docs/en/babel-plugin-transform-runtime" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">@ babel / plugin-transform-runtime</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p>
 </blockquote></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">LEY老丝樱</span>
@@ -504,9 +478,7 @@ npm install --save-dev @babel/plugin-transform-runtime<font></font>
     ]<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

@@ -45,7 +45,7 @@ export default {<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">this。$ auth。$ state不包含“ access_token”。</font><font style="vertical-align: inherit;">如何获得“ access_token”？</font><font style="vertical-align: inherit;">我也不明白为什么URI在“获取参数”字段中包含“＃”。</font><font style="vertical-align: inherit;">因此，我无法从“ this。$ route.query”获取access_token。</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第3225篇《我如何从auth-module，Nuxt.js获取access_token》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第3225篇《我如何从auth-module，Nuxt.js获取access_token》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}

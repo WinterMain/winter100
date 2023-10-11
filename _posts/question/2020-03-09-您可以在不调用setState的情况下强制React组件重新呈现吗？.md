@@ -44,7 +44,7 @@ topic: React.js
 <p><strong>So I guess my question is:</strong> do React components <em>need</em> to have state in order to rerender? Is there a way to force the component to update on demand without changing the state?</p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第313篇《您可以在不调用setState的情况下强制React组件重新呈现吗？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第313篇《您可以在不调用setState的情况下强制React组件重新呈现吗？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -55,18 +55,14 @@ topic: React.js
             <span class="discuss-time">2020.03.09</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">您可以使用forceUpdate（）进行更多详细信息检查（</font></font><a href="https://reactjs.org/docs/react-component.html#forceupdate" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">forceUpdate（）</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">）。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Tony老丝</span>
             <span class="discuss-time">2020.03.09</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">forceUpdate（），但是每次我听到有人谈论它时，都应该跟进它，但绝对不要使用它。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">路易Itachi小小</span>
@@ -83,18 +79,14 @@ topic: React.js
 
 <pre><code>()=&gt;{}
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">神乐神无</span>
             <span class="discuss-time">2020.03.09</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">为了完成您描述的内容，请尝试this.forceUpdate（）。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">TonyMandy</span>
@@ -103,18 +95,14 @@ topic: React.js
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">另一种方法是调用</font></font><code>setState</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，</font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">并</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">保留状态：</font></font></p>
 
 <p><code>this.setState(prevState=&gt;({...prevState}));</code></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">十三JimHarry</span>
             <span class="discuss-time">2020.03.09</span>
           </div>
           <div class="discuss-comment"><p><code>forceUpdate();</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> 该方法可以使用，但建议使用 </font></font><code>setState();</code></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">猿神奇梅</span>
@@ -150,9 +138,7 @@ topic: React.js
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">需要强制重新渲染时，请调用this.forceChange（）。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">乐泡芙</span>
@@ -214,9 +200,7 @@ topic: React.js
 <font></font>
 ReactDOM.render(&lt;MyComponent /&gt; , mountNode);<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">泡芙Pro</span>
@@ -229,9 +213,7 @@ ReactDOM.render(&lt;MyComponent /&gt; , mountNode);<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果这样做了，您可能知道您必须在可观察到的“火灾”发生时重新渲染，因此，您应该使用</font></font><code>forceUpdate()</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">它，而实际上这</font></font><code>shouldComponentUpdate()</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">是这里不涉及的优点。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">MobX之类的工具需要面向对象的方法，实际上是在表面下进行此操作（实际上是MobX </font></font><code>render()</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">直接</font><font style="vertical-align: inherit;">调用</font><font style="vertical-align: inherit;">）</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小宇宙西里</span>
@@ -255,9 +237,7 @@ ReactDOM.render(&lt;MyComponent /&gt; , mountNode);<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">更改道具也可以重新渲染组件。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Tony小卤蛋</span>
@@ -283,9 +263,7 @@ forceUpdate();<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">参见：</font><a href="https://stackoverflow.com/a/53215514/2692307"><font style="vertical-align: inherit;">https</font></a><font style="vertical-align: inherit;"> : </font></font><a href="https://stackoverflow.com/a/53215514/2692307"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">//stackoverflow.com/a/53215514/2692307</font></font></a></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">请注意，使用强制更新机制仍然是不正确的做法，因为它会违反反应心态，因此，如果可能的话，仍应避免使用它。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Jim小哥GO</span>
@@ -305,9 +283,7 @@ forceUpdate();<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">实际上，所有要做的就是用触发重新渲染的当前状态覆盖当前状态。</font><font style="vertical-align: inherit;">这仍然不一定是最好的处理方法，但是它确实克服了使用forceUpdate（）方法可能遇到的一些故障。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Tom西里</span>
@@ -320,9 +296,7 @@ forceUpdate();<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">其他答案试图说明您如何做到，但重点是</font></font><em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">您不应该这样做</font></font></em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font><font style="vertical-align: inherit;">即使是更改密钥的骇人听闻的解决方案也没有抓住重点。</font><font style="vertical-align: inherit;">React的功能是放弃手动管理何时应该渲染某些东西的控制权，而只是考虑如何在输入上映射东西。</font><font style="vertical-align: inherit;">然后提供输入流。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果您需要手动强制重新渲染，则几乎可以肯定您没有做正确的事情。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Mandy猴子</span>
@@ -331,9 +305,7 @@ forceUpdate();<font></font>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在您的组件中，您可以调用</font></font><code>this.forceUpdate()</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">强制重新渲染。  </font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">文档：</font><a href="https://facebook.github.io/react/docs/react-component.html#forceupdate" rel="noreferrer"><font style="vertical-align: inherit;">https</font></a><font style="vertical-align: inherit;"> : </font></font><a href="https://facebook.github.io/react/docs/react-component.html#forceupdate" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">//facebook.github.io/react/docs/component-api.html</font></font></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Eva梅</span>
@@ -360,9 +332,7 @@ forceUpdate();<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">因此，通过进行此类代码改进，您的组件将是</font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">唯一的</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">并自然呈现</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">猴子阳光</span>
@@ -377,9 +347,7 @@ forceUpdate();<font></font>
 <blockquote>
   <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">通常，您应该避免使用forceUpdate（），而只能从render（）中的this.props和this.state中读取。</font><font style="vertical-align: inherit;">这使您的应用程序更简单，更高效</font></font></p>
 </blockquote></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">猪猪GO</span>
@@ -405,9 +373,7 @@ forceUpdate();<font></font>
 <p></p><hr><p></p>
 
 <h3><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">挂钩：</font></font><a href="https://stackoverflow.com/questions/53215285/how-can-i-force-component-to-re-render-with-hooks-in-react/58606536#58606536"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如何在React中强制使用挂钩重新渲染组件？</font></font></a></h3></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

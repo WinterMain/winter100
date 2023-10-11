@@ -21,7 +21,7 @@ topic: CSS
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我尝试了类似的方法</font></font><code>myDiv.style.height</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，但是即使我的div具有</font><font style="vertical-align: inherit;">CSS </font></font><code>width</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">并</font></font><code>height</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在CSS中</font><font style="vertical-align: inherit;">进行了</font><font style="vertical-align: inherit;">设置，</font><font style="vertical-align: inherit;">它也没有返回任何内容</font><font style="vertical-align: inherit;">。</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第2885篇《使用普通JavaScript获取div高度》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第2885篇《使用普通JavaScript获取div高度》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -41,9 +41,7 @@ if(elem) {<font></font>
    console.log(rect.height);  <font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

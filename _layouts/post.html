@@ -14,11 +14,13 @@ layout: default
         <div class="box">
           <p class="title">热门问答</p>
           <div class="body">
-            {% for post in site.related_posts | limit:6 %}
+            {% for post in site.related_posts limit:6 %}
+            {% if post.title%}
             <div class="question-relative-item">
               <div><a class="item-title link" href="{{post.url}}">{{post.title}}</a></div>
               <p class="item-answer">{{post.answer}} 回答</p>
             </div>
+            {% endif %}
             {% endfor %}
           </div>
         </div>

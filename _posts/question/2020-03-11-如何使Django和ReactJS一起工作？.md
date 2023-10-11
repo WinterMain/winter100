@@ -29,7 +29,7 @@ topic: Django
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">无论如何，文档和教程对于AngularJS和Django来说是足够的，因此很容易采取这种方法来开始使用任何前端框架……这不是最好的原因。</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第747篇《如何使Django和ReactJS一起工作？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第747篇《如何使Django和ReactJS一起工作？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -69,9 +69,7 @@ psycopg2==2.6.1<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这将为您提供Django及其Rest框架的最新稳定版本。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">希望对您有所帮助。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Stafan神无前端</span>
@@ -80,9 +78,7 @@ psycopg2==2.6.1<font></font>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">您可以尝试以下教程，它可以帮助您继续前进：</font></font></p>
 
 <p><a href="https://medium.com/hackernoon/serving-react-and-django-together-2089645046e4" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">一起服务React和Django</font></font></a>  </p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小胖A</span>
@@ -93,9 +89,7 @@ psycopg2==2.6.1<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">与DjangoRESTFramework相比，GraphQL很有帮助，而且方法也更简单。</font><font style="vertical-align: inherit;">就您得到的答复而言，它也更加灵活。</font><font style="vertical-align: inherit;">您可以得到所需的内容，而不必通过响应进行筛选就可以得到所需的内容。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">您可以在服务器端使用Graphene Django，并在React + Apollo / Relay中使用...。您可以对其进行研究，因为这不是您的问题。 </font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">NearGreen</span>
@@ -114,9 +108,7 @@ psycopg2==2.6.1<font></font>
   
   <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">-混合并匹配：Django模板中的迷你React应用程序（难度：简单）</font></font></p>
 </blockquote></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">番长阳光</span>
@@ -139,9 +131,7 @@ psycopg2==2.6.1<font></font>
 </ul>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">希望这会指引您正确的方向！</font><font style="vertical-align: inherit;">祝好运！</font><font style="vertical-align: inherit;">希望其他专门研究Django的人可以加入我的回复。</font></font></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

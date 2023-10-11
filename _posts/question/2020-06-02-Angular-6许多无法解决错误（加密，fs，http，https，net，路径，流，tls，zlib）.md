@@ -170,7 +170,7 @@ ERROR in </span><span class="pun">./</span><span class="pln">node_modules</span>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">有人知道出了什么问题吗？</font><font style="vertical-align: inherit;">我的node_modules文件中没有上述模块（我可以安装其中一些，但是现在内置了'crypto'）。</font><font style="vertical-align: inherit;">如何获得这些文件夹？</font><font style="vertical-align: inherit;">它让我发疯。  </font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第4250篇《Angular 6许多无法解决错误（加密，fs，http，https，net，路径，流，tls，zlib）》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第4250篇《Angular 6许多无法解决错误（加密，fs，http，https，net，路径，流，tls，zlib）》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -187,27 +187,21 @@ ERROR in </span><span class="pun">./</span><span class="pln">node_modules</span>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">为我解决此问题的方法是意识到Angular服务需要严格地与自己的后端（而不是外部网站）进行通信，这意味着我需要单独编写自己的API。</font><font style="vertical-align: inherit;">就我而言，我使用的是MEAN堆栈，因此这意味着创建一个Express.js API，该API将在后端与我与外部API通信。</font><font style="vertical-align: inherit;">这增加了一些优势，例如能够将会话数据和来自外部API的其他数据缓存到Mongo数据库中，而不是每次都需要一个新的客户端API会话，而这将很快超过该站点允许的每日会话数7500一天，假设我有很多用户。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">TL; DR的解决方法是删除任何进口并非用于前端工作NPM包，需要这样的包，比如</font></font><code>https</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，</font></font><code>crypto</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">和</font></font><code>fs</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font><font style="vertical-align: inherit;">本</font></font><code>fs</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">是一个特殊的红旗。</font><font style="vertical-align: inherit;">我认为这意味着“文件系统”，您的前端当然不应该直接访问它。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">古一王者一打九</span>
             <span class="discuss-time">2020.06.02</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">当前版本的Angular-cli不会安装某些软件包，例如zlib，而较早的版本会安装。</font><font style="vertical-align: inherit;">您可能必须手动安装一些软件包才能解决这些错误。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Gil</span>
             <span class="discuss-time">2020.06.02</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">您必须找到添加为依赖项的节点程序包，这会导致此问题。</font><font style="vertical-align: inherit;">打开package-lock.json，搜索crypto可以找到依赖关系链，该依赖关系导致package.json的dependencies部分中包含包名称。</font><font style="vertical-align: inherit;">就我而言，这些库中的大多数都是通过npm软件包“ request”引入的。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Tony凯</span>
@@ -222,18 +216,14 @@ ERROR in </span><span class="pun">./</span><span class="pln">node_modules</span>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">文件并进行以下更改，</font></font></p>
 
 <pre class="lang-js prettyprint prettyprinted" style=""><code><span class="pun">`</span><span class="pln">node</span><span class="pun">:</span><span class="pln"> </span><span class="pun">{</span><span class="pln">crypto</span><span class="pun">:</span><span class="pln"> </span><span class="kwd">true</span><span class="pun">,</span><span class="pln"> stream</span><span class="pun">:</span><span class="pln"> </span><span class="kwd">true</span><span class="pun">}`</span></code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">木嘢</span>
             <span class="discuss-time">2020.06.02</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">使用ngx-build-plus软件包-https: </font></font><a href="https://github.com/manfredsteyer/ngx-build-plus" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">//github.com/manfredsteyer/ngx-build-plus-</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">并提供其他配置。</font><font style="vertical-align: inherit;">这样，您不必在每次安装时都手动更新节点模块文件。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">蓝染大人</span>
@@ -249,9 +239,7 @@ ERROR in </span><span class="pun">./</span><span class="pln">node_modules</span>
     </span><span class="str">"stream"</span><span class="pun">:</span><span class="pln"> </span><span class="kwd">false</span><span class="pun">,</span><span class="pln">
     </span><span class="str">"tls"</span><span class="pun">:</span><span class="pln"> </span><span class="kwd">false</span><span class="pln">
 </span><span class="pun">}</span></code></pre></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

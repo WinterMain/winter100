@@ -31,7 +31,7 @@ topic: React.js
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我试图找到定义，但是我发现了一个带有名称的软件包，但我仍然不知道该命令的含义。</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第737篇《“ react-scripts start”命令究竟是什么？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第737篇《“ react-scripts start”命令究竟是什么？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -44,9 +44,7 @@ topic: React.js
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">“ start”是脚本的名称，在npm中，您可以运行如下所示的脚本</font></font><code>npm run scriptName</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，</font></font><code>npm start</code> <a href="https://docs.npmjs.com/cli/start" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">它也是</font></font></a> <code>npm run start</code></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">至于“反应脚本”，这是一个专门与</font><a href="https://github.com/facebook/create-react-app/blob/master/package.json#L14" rel="nofollow noreferrer"><font style="vertical-align: inherit;">create-react-app</font></a><font style="vertical-align: inherit;">相关的脚本</font></font><a href="https://github.com/facebook/create-react-app/blob/master/package.json#L14" rel="nofollow noreferrer"><font style="vertical-align: inherit;"></font></a> </p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">路易EvaSam</span>
@@ -87,9 +85,7 @@ topic: React.js
 </ul>
 
 <p><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">总之，该</font></font><code>npm start</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">命令是可配置的。</font><font style="vertical-align: inherit;">如果您想知道它的作用，则必须检查该</font></font><code>package.json</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">文件。</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">（而且，当事情变得复杂时，您可能需要制作一些图表）。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Near神无Pro</span>
@@ -125,9 +121,7 @@ topic: React.js
 <p>if there is no <code>start</code> key in the scripts object, it will default to <code>node server.js</code></p>
 
 <p>Sometimes you want to do more than the react scripts gives you, in this case you can do <code>react-scripts eject</code>. This will transform your project from a "managed" state into a not managed state, where you have full control over dependencies, build scripts and other configurations.</p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

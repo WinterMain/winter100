@@ -34,7 +34,7 @@ topic: JavaScript
 </code></pre></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第956篇《从ReadableStream对象检索数据？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第956篇《从ReadableStream对象检索数据？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -53,9 +53,7 @@ var body = await response.json(); // .json() is asynchronous and therefore must 
 <p><code>json()</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">将响应的主体从</font></font><code>ReadableStream</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">转换为json对象。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">该</font></font><code>await</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">语句必须被包裹在一个</font></font><code>async</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">功能，但是可以运行</font></font><code>await</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在Chrome的控制台直接语句（如版本62）。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Davaid阳光小卤蛋</span>
@@ -73,9 +71,7 @@ var body = await response.json(); // .json() is asynchronous and therefore must 
     })<font></font>
 })<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">伽罗小卤蛋米亚</span>
@@ -84,9 +80,7 @@ var body = await response.json(); // .json() is asynchronous and therefore must 
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">聚会晚了一点，但是在使用Sharepoint框架从Odata $ batch请求产生的ReadableStream中获取有用的东西时遇到了一些问题。 </font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">与OP有类似的问题，但是在我的案例中，解决方案是使用与.json（）不同的转换方法。</font><font style="vertical-align: inherit;">以我为例，.text（）就像一种魅力。</font><font style="vertical-align: inherit;">但是，必须进行一些修改才能从文本文件中获取一些有用的JSON。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">DavaidAPro</span>
@@ -96,9 +90,7 @@ var body = await response.json(); // .json() is asynchronous and therefore must 
 
 <pre><code>res.json().then(body =&gt; console.log(body));
 </code></pre></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

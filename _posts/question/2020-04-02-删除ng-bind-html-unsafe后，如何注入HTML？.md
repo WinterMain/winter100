@@ -28,7 +28,7 @@ topic: HTML
 <p><a href="http://errors.angularjs.org/undefined/$sce/unsafe" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">http://errors.angularjs.org/undefined/$sce/unsafe</font></font></a></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第3882篇《删除ng-bind-html-unsafe后，如何注入HTML？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第3882篇《删除ng-bind-html-unsafe后，如何注入HTML？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -45,9 +45,7 @@ topic: HTML
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">描述：如果您从其他网址加载内容，请使用白名单而不是包装为受信任的内容。</font></font></p>
 
 <p><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Docs：</font></font></strong> <a href="http://docs.angularjs.org/api/ng.%24sceDelegateProvider" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">$ sceDelegateProvider</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">和</font></font><a href="http://docs.angularjs.org/api/ng.directive%3angInclude" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">ngInclude</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">（用于获取，编译和包括外部HTML片段）</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">阳光Itachi村村</span>
@@ -61,9 +59,7 @@ topic: HTML
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这是一个示例：</font><a href="http://plnkr.co/edit/R7JmGIo4xcJoBc1v4iki?p=preview" rel="noreferrer"><font style="vertical-align: inherit;">http</font></a><font style="vertical-align: inherit;"> : </font></font><a href="http://plnkr.co/edit/R7JmGIo4xcJoBc1v4iki?p=preview" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">//plnkr.co/edit/R7JmGIo4xcJoBc1v4iki?p=preview</font></font></a></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">{{}}运算符本质上只是ng-bind的简写，因此您尝试的操作等于绑定内的绑定，这是行不通的。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小卤蛋</span>
@@ -82,9 +78,7 @@ topic: HTML
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">不要忘记添加</font></font><code>$sce</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">到控制器的初始化中。</font></font></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

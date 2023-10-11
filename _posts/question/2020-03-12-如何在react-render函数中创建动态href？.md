@@ -31,7 +31,7 @@ topic: JavaScript
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我该如何做，以便每个帖子都具有href的</font></font><code>/posts/1</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，</font></font><code>/posts/2</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">等等？</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第1125篇《如何在react render函数中创建动态href？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第1125篇《如何在react render函数中创建动态href？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -47,9 +47,7 @@ topic: JavaScript
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">也会很好。</font><font style="vertical-align: inherit;">很好，因为它全都在一个字符串中。</font></font></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

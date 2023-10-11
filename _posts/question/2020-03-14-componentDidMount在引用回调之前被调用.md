@@ -60,7 +60,7 @@ topic: JavaScript
 <p>Console logging in this case reveals the callback is indeed being called <strong>after</strong> <code>componentDidMount</code></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第1600篇《componentDidMount在引用回调之前被调用》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第1600篇《componentDidMount在引用回调之前被调用》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -71,9 +71,7 @@ topic: JavaScript
             <span class="discuss-time">2020.03.14</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在componentDidMount中，可以在浏览器DOM中找到ref元素（div.drawer）吗？</font><font style="vertical-align: inherit;">如果没有，您将无法获得其参考。</font><font style="vertical-align: inherit;">由于问题是在另一个更大的代码中找到的，原因可能是未呈现ref元素（div.drawer）。</font></font></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

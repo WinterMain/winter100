@@ -26,7 +26,7 @@ topic: PHP
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">典型的方法是提交表单，但这会导致浏览器重定向。</font><font style="vertical-align: inherit;">使用jQuery和</font></font><a href="http://en.wikipedia.org/wiki/Ajax_%28programming%29" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Ajax</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，是否可以捕获表单的所有数据并将其提交给PHP脚本（例如</font></font><em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">form.php</font></font></em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">）？</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第725篇《带有PHP的jQuery Ajax POST示例》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第725篇《带有PHP的jQuery Ajax POST示例》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -114,9 +114,7 @@ topic: PHP
 </code></pre>
 
 <p>I hope this helps.</p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">JinJin村村</span>
@@ -161,9 +159,7 @@ topic: PHP
        xmlhttp.send(formdata);<font></font>
    }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

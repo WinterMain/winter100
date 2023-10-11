@@ -19,7 +19,7 @@ topic: Node.js
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如何在Node.js中使用MySQL？</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第1996篇《MySQL与Node.js》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第1996篇《MySQL与Node.js》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -58,9 +58,7 @@ topic: Node.js
 <h2><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">要安装MySQL服务器：</font></font></h2>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">那里有很多教程可以解释这一点，这有点取决于操作系统。</font><font style="vertical-align: inherit;">只需转到Google并搜索</font></font><code>how to install mysql server [Ubuntu|MacOSX|Windows]</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font><font style="vertical-align: inherit;">但有一句话：您必须转到</font></font><a href="http://www.mysql.com/downloads/"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">http://www.mysql.com/downloads/</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">并进行安装。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小小西门</span>
@@ -69,18 +67,14 @@ topic: Node.js
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">您还可以尝试一种称为</font></font><a href="http://nodejsdb.org/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Node.js DB的新功能</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，该功能旨在为多个数据库引擎提供一个通用框架。</font><font style="vertical-align: inherit;">它是用C ++构建的，因此可以保证性能。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">具体来说，您可以使用其db-mysql驱动程序获得</font></font><a href="http://nodejsdb.org/db-mysql" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Node.js MySQL支持</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">卡卡西达蒙西里</span>
             <span class="discuss-time">2020.03.18</span>
           </div>
           <div class="discuss-comment"><p><a href="https://github.com/felixge/node-mysql" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">node-mysql</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">可能是其中最好的模块之一，用于处理MySQL数据库，该数据库已得到积极维护并有据可查。</font></font></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

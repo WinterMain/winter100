@@ -44,7 +44,7 @@ topic: HTML
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在哪里可以获得Google缓存的时间？</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第3886篇《如何获得任何URL或网页的Google缓存年龄？[关闭]》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第3886篇《如何获得任何URL或网页的Google缓存年龄？\[关闭\]》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -61,9 +61,7 @@ topic: HTML
 <p><a href="https://i.stack.imgur.com/c7ehr.png" rel="nofollow noreferrer"><img src="https://i.stack.imgur.com/c7ehr.png" alt="在此处输入图片说明"></a></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">但是请记住，仅当网页已在搜索引擎（Google）上建立索引时，才会显示网页的缓存。</font><font style="vertical-align: inherit;">为此，您需要检查该页面的meta robot标签。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">JinJin卡卡西</span>
@@ -75,18 +73,14 @@ topic: HTML
 <li><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">通过Google缓存网页视图：webcache.googleusercontent.com/search?q=cache：您的网址</font></font></p></li>
 <li><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">通过archive.org缓存页面视图：web.archive.org/web/*/您的网址</font></font></p></li>
 </ol></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">米亚</span>
             <span class="discuss-time">2020.04.03</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">您可以使用此网站：</font></font><a href="https://cachedviews.com/" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">https</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> : </font><a href="https://cachedviews.com/" rel="nofollow noreferrer"><font style="vertical-align: inherit;">//cachedviews.com/</font></a><font style="vertical-align: inherit;">。</font><font style="vertical-align: inherit;">任何网站的缓存视图或缓存页面-任何网站的Google缓存页面</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">十三</span>
@@ -109,9 +103,7 @@ topic: HTML
   <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这是Google的</font></font><a href="https://stackoverflow.com/"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">https://stackoverflow.com/</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">缓存</font><font style="vertical-align: inherit;">。</font><font style="vertical-align: inherit;">它是该页面的快照，该页面显示在格林威治标准时间2012年8月21日11:33:38。</font><font style="vertical-align: inherit;">同时，当前页面可能已更改。</font><font style="vertical-align: inherit;">了解更多信息</font></font><br><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
   提示：要在此页面上快速找到搜索词，请按</font></font><strong><kbd>Ctrl</kbd><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">+</font></font><kbd>F</kbd></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">或</font></font><strong><kbd>⌘</kbd><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">+</font></font><kbd>F</kbd></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">（Mac）并使用查找栏。</font></font></p>
 </blockquote></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">宝儿</span>
@@ -123,9 +115,7 @@ topic: HTML
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Google信息放在body标签的第一格中。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">猪猪</span>
@@ -140,9 +130,7 @@ topic: HTML
 <li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">珊瑚还保留了最近的副本，尽管它通常不如Google最新。  </font></font></li>
 <li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">通过Archive.org，您可以访问多年来保存的网页的多个副本。</font></font></li>
 </ul></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

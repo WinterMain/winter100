@@ -32,7 +32,7 @@ topic: React.js
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">除非我对上述博客文章有误解，否则这是反模式。</font><font style="vertical-align: inherit;">但是我看不到将状态注入Component的其他方法，而且我不明白为什么它是一种反模式，除非我重新标记所有道具以使其成为前提</font></font><code>initial</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font><font style="vertical-align: inherit;">如果有的话，我觉得</font></font><em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">那是</font></font></em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">一种反模式，因为现在我必须跟踪比以前更多的变量（那些有</font></font><code>initial</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">和</font><font style="vertical-align: inherit;">没有的变量</font><font style="vertical-align: inherit;">）。</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第1461篇《ReactJS：为什么将组件的初始状态传递给prop是反模式？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第1461篇《ReactJS：为什么将组件的初始状态传递给prop是反模式？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -75,9 +75,7 @@ topic: React.js
 <p><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">道具</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">用于将不可更改的数据传递到组件。</font><font style="vertical-align: inherit;">它们在组件生命周期中不应更改。</font><font style="vertical-align: inherit;">仅使用道具的组件是无状态的。</font></font></p>
 
 <p><a href="https://stackoverflow.com/questions/27928296/reactjs-how-to-pass-the-initial-state-while-rendering-a-component">This</a> is a relevant source on the "how to pass the initial state to components".</p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

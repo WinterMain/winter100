@@ -42,7 +42,7 @@ Error: ENOENT: no such file or directory, uv_cwd
 </div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第32篇《Node应用启动时报错cwd = process.cwd();》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第32篇《Node应用启动时报错cwd = process.cwd();》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -53,9 +53,7 @@ Error: ENOENT: no such file or directory, uv_cwd
             <span class="discuss-time">2017.11.25</span>
           </div>
           <div class="discuss-comment">其实这个问题，并不是代码的问题，而是执行启动的的命令所在的目录已经被删掉了，而在编译完成之后又重新生成，如上面我的终端目录dist，编译前会删掉，完成编译后会再次生成，最后造成了终端的识别错误。</div>
-        </div>
-        
-        <div class="discuss-children">
+        </div><div class="discuss-children">
           <div class="discuss-child">
             <div class="discuss-comment"><a id='118'>@江山如画</a>在编译完成后，终端重新进入该目录，然后执行命令就可以了</div>
             <div class="discuss-meta">
@@ -68,10 +66,8 @@ Error: ENOENT: no such file or directory, uv_cwd
               <span class="discuss-user">江山如画</span>
               <span class="discuss-time">2018.10.18</span>
             </div>
-          </div>
+          </div></div>
         </div>
-        
-      </div>
     {% endraw %}
   </div>
 <div>

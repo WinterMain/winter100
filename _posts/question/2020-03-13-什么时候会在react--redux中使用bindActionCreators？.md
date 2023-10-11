@@ -64,7 +64,7 @@ function mapDispatchToProps(dispatch) {<font></font>
 </code></pre></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第1341篇《什么时候会在react / redux中使用bindActionCreators？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第1341篇《什么时候会在react / redux中使用bindActionCreators？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -134,9 +134,7 @@ export default connect(mapStateToProps, mapDispatchToProps)(MyComponent);<font><
  </font></font><code>this.props.userAction.login()</code> <code>this.props.userAction.editEmail()</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">注意：您不必将bindActionCreators（）映射到单个道具。</font><font style="vertical-align: inherit;">（</font></font><code>=&gt; {return {}}</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">映射到的其他   </font></font><code>userAction</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">）。</font><font style="vertical-align: inherit;">您还可以</font></font><code>bindActionCreators()</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">将单个文件的所有操作映射为单独的道具。</font><font style="vertical-align: inherit;">但是我发现这样做可能会造成混淆。</font><font style="vertical-align: inherit;">我更喜欢为每个动作或“动作组”指定一个明确的名称。</font><font style="vertical-align: inherit;">我还想命名该名称，</font></font><code>ownProps</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">以更加描述这些“儿童道具”的含义或来源。</font><font style="vertical-align: inherit;">当使用Redux + React时，会在提供所有道具的地方有些混乱，因此描述性越强越好。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">达蒙阿飞斯丁</span>
@@ -147,9 +145,7 @@ export default connect(mapStateToProps, mapDispatchToProps)(MyComponent);<font><
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这个想法是，通过预先绑定动作创建者，您传递给的组件在</font></font><code>connect()</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">技术上“不知道”它已连接-它只知道它需要运行</font></font><code>this.props.someCallback()</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font><font style="vertical-align: inherit;">另一方面，如果您未绑定动作创建者并调用</font></font><code>this.props.dispatch(someActionCreator())</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，则该组件“知道”它已连接，因为它已经</font></font><code>props.dispatch</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">存在。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我在博客文章</font></font><a href="http://blog.isquaredsoftware.com/2016/10/idiomatic-redux-why-use-action-creators/" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Idiomatic Redux中</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">写了一些关于此主题的想法</font><a href="http://blog.isquaredsoftware.com/2016/10/idiomatic-redux-why-use-action-creators/" rel="noreferrer"><font style="vertical-align: inherit;">：为什么使用动作创建者？</font></a><font style="vertical-align: inherit;">。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Harry小宇宙</span>
@@ -190,9 +186,7 @@ export default connect(mapStateToProps, mapDispatchToProps)(MyComponent);<font><
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">第二个示例</font><font style="vertical-align: inherit;">比第一个</font><font style="vertical-align: inherit;">示例具有</font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">一个优势</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> -编写起来更快！</font><font style="vertical-align: inherit;">因此，如果您没有更好的代码计划，那可能很好。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我希望我能澄清一些事情...</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">村村AL</span>
@@ -291,9 +285,7 @@ export function* fetchPostsRequestSaga() {<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">请注意，可以使用</font></font><a href="https://reactjs.org/docs/hooks-intro.html" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">React Hooks</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">（从React 16.8开始）</font><font style="vertical-align: inherit;">实现此模式</font><font style="vertical-align: inherit;">。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">理查德Tony</span>
@@ -326,9 +318,7 @@ const mapDispatchToProps = {<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我认为混淆来自以下事实：</font><font style="vertical-align: inherit;">文档</font><font style="vertical-align: inherit;">中的所有</font></font><a href="https://react-redux.js.org/using-react-redux/connect-mapdispatch#defining-the-mapdispatchtoprops-function-with-bindactioncreators" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">示例</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">都</font></font><code>react-redux</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">使用，</font></font><code>bindActionCreators</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">而</font></font><a href="https://redux.js.org/api/bindactioncreators/" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">bindActionCreators</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">的文档   </font><font style="vertical-align: inherit;">  （如问题本身所引用）说不要将其与react-redux一起使用。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我猜答案是代码库中的一致性，但是我个人更喜欢</font><font style="vertical-align: inherit;">在需要时</font><font style="vertical-align: inherit;">在</font></font><em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">分派中</font></font></em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">显式地包装动作</font><font style="vertical-align: inherit;">。</font></font></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

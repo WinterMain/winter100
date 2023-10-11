@@ -25,7 +25,7 @@ topic: JavaScript
 </code></pre></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第3962篇《如何获取JavaScript中两个日期之间的天数？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第3962篇《如何获取JavaScript中两个日期之间的天数？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -36,9 +36,7 @@ topic: JavaScript
             <span class="discuss-time">2020.04.03</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如何使用</font><font style="vertical-align: inherit;">DatePicker小部件中的</font></font><a href="http://docs.jquery.com/UI/Datepicker/%24.datepicker.formatDate" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">formatDate</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">？</font><font style="vertical-align: inherit;">您可以使用它来转换时间戳格式的日期（自1970年1月1日以来的毫秒数），然后进行简单的减法。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">猪猪小宇宙</span>
@@ -57,9 +55,7 @@ document.getElementById("demo").innerHTML = Math.round(total_days);</code></pre>
 </div>
 </div>
 <p></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">老丝阿飞</span>
@@ -79,9 +75,7 @@ document.getElementById("demo").innerHTML = Math.round(total_days);</code></pre>
     };<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">斯丁</span>
@@ -94,9 +88,7 @@ var days = (end- start) / (1000 * 60 * 60 * 24);<font></font>
 </code></pre>
 
 <p><a href="https://jsfiddle.net/AravindhGopi/tbwa1m8c/4/" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">jsfiddle</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">示例:)</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">古一</span>
@@ -111,9 +103,7 @@ var diff = Math.abs((firstDate.valueOf() <font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">本示例给出109天的差异。</font></font><code>24*60*60*1000</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">是一天（以毫秒为单位）。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">阿飞</span>
@@ -134,9 +124,7 @@ function diffDays(startDate, endDate) {<font></font>
     return Math.floor(treatAsUTC(endDate) / millisecondsPerDay) - Math.floor(treatAsUTC(startDate) / millisecondsPerDay);<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">斯丁前端</span>
@@ -151,9 +139,7 @@ var end = moment("2013-11-04");<font></font>
 end.diff(start, "days")<font></font>
 1<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小胖</span>
@@ -205,9 +191,7 @@ end.diff(start, "days")<font></font>
     }<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Mandy村村</span>
@@ -228,9 +212,7 @@ end.diff(start, "days")<font></font>
             alert("Diff date is: " + diff_date );<font></font>
         &lt;/script&gt;<font></font>
 </code></pre></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

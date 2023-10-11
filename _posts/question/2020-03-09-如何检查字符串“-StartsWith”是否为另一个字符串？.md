@@ -25,7 +25,7 @@ haystack.startsWith(needle) == true<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">注意：这是一个古老的问题，正如评论中指出的ECMAScript 2015（ES6）引入了该</font></font><a href="https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Global_Objects/String/startsWith" rel="noreferrer"><code>.startsWith</code></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">方法。</font><font style="vertical-align: inherit;">但是，在撰写此更新（2015）时，</font></font><a href="http://kangax.github.io/compat-table/es6/#test-String.prototype_methods_String.prototype.startsWith" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">浏览器支持还远远没有完成</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第233篇《如何检查字符串“ StartsWith”是否为另一个字符串？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第233篇《如何检查字符串“ StartsWith”是否为另一个字符串？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -43,9 +43,7 @@ haystack.startsWith(needle) == true<font></font>
 
 <p>I guess it should work on js too. 
 I hope it helps!</p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小小Pro</span>
@@ -61,9 +59,7 @@ var str2 = str1.trim(); // Removes all spaces (and other white-space) from start
 if (str2.startsWith("Your")) { }  // returns TRUE<font></font>
 if (str2.endsWith("Here.!!")) { } // returns TRUE<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">凯JinJin</span>
@@ -80,9 +76,7 @@ if (str2.endsWith("Here.!!")) { } // returns TRUE<font></font>
 =&gt; true<font></font>
 </code></pre>
 </blockquote></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">西门逆天</span>
@@ -90,9 +84,7 @@ if (str2.endsWith("Here.!!")) { } // returns TRUE<font></font>
           </div>
           <div class="discuss-comment"><pre><code>data.substring(0, input.length) === input
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Davaid阳光小卤蛋</span>
@@ -148,9 +140,7 @@ true<font></font>
 "c".ensdWith("c") <font></font>
 true<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Itachi达蒙Green</span>
@@ -169,9 +159,7 @@ true<font></font>
 <li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">它不会搜索整个</font></font><code>haystack</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></li>
 <li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">它不会创建新的临时字符串，然后立即将其丢弃。</font></font></li>
 </ul></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

@@ -24,7 +24,7 @@ topic: Node.js
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在Google上找不到答案。</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第1431篇《npm install的--save选项是什么？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第1431篇《npm install的--save选项是什么？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -43,9 +43,7 @@ topic: Node.js
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">因此，其他人将如何获得该项目专用或所需的所有模块，因此答案是</font></font><code>from the package.json</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">文件，其中包含用于运行或开发该项目的所有必需软件包。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">因此，在获得code </font></font><code>we simply need to run the npm install</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">命令后，它将读取package.json文件并安装必要的必需软件包。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">番长阿飞</span>
@@ -58,9 +56,7 @@ topic: Node.js
 <p><code>npm install &lt;&lt;package_x&gt;&gt; --save-dev</code></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">然后将其保存在</font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">devDependencies中</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">HarryItachi</span>
@@ -74,18 +70,14 @@ topic: Node.js
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">上面的命令ll有助于找出更多选项并更正定义。如图所示
 </font></font><a href="https://i.stack.imgur.com/TIcX8.png" rel="nofollow noreferrer"><img src="https://i.stack.imgur.com/TIcX8.png" alt="在此处输入图片说明"></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">蛋蛋伽罗猿</span>
             <span class="discuss-time">2020.03.13</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">将依赖项添加到package.json的更简单（更棒）方法是从命令行执行此操作，并根据您的需要使用--save或--save-dev标记npm install命令。使用该依赖性。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">ItachiGreen</span>
@@ -102,18 +94,14 @@ topic: Node.js
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">资料来源：</font><a href="https://blog.pusher.com/what-you-need-know-npm-5/" rel="noreferrer"><font style="vertical-align: inherit;">https</font></a><font style="vertical-align: inherit;"> : </font></font><a href="https://blog.pusher.com/what-you-need-know-npm-5/" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">//blog.pusher.com/what-you-need-know-npm-5/</font></font></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">神无达蒙JinJin</span>
             <span class="discuss-time">2020.03.13</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">从npm 5开始，使用</font></font><code>--save-prod</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">（或</font></font><code>-P</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">）比做</font></font><code>--save</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">相同的事情</font><font style="vertical-align: inherit;">更有利</font><font style="vertical-align: inherit;">，如</font></font><a href="https://docs.npmjs.com/cli/install" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">npm install中所述</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font><font style="vertical-align: inherit;">到目前为止，</font></font><code>--save</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果提供</font><font style="vertical-align: inherit;">，</font><font style="vertical-align: inherit;">仍然可以使用。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">JinJinNear</span>
@@ -151,9 +139,7 @@ ll and la commands: ls --long<font></font>
 
 <pre><code>$ npm help 7 config
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小宇宙Itachi</span>
@@ -170,9 +156,7 @@ ll and la commands: ls --long<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">该</font></font><code>--save</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">选项指示NPM </font><font style="vertical-align: inherit;">自动</font><font style="vertical-align: inherit;">将软件包包括在</font></font><code>dependencies</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">您</font><font style="vertical-align: inherit;">的</font><font style="vertical-align: inherit;">部分中</font></font><code>package.json</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，从而</font><font style="vertical-align: inherit;">为您</font><font style="vertical-align: inherit;">节省了额外的步骤。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">此外，还有一些补充选项</font></font><code>--save-dev</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，</font></font><code>--save-optional</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">它们</font><font style="vertical-align: inherit;">分别</font><font style="vertical-align: inherit;">将包保存在</font></font><code>devDependencies</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">和</font><font style="vertical-align: inherit;">下</font></font><code>optionalDependencies</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font><font style="vertical-align: inherit;">当安装仅开发包（例如</font></font><code>grunt</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">或您的测试库）</font><font style="vertical-align: inherit;">时，这很有用</font><font style="vertical-align: inherit;">。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Pro十三</span>
@@ -183,18 +167,14 @@ ll and la commands: ls --long<font></font>
 <p><a href="https://i.stack.imgur.com/DX82E.png" rel="noreferrer"><img src="https://i.stack.imgur.com/DX82E.png" alt="在此处输入图片说明"></a></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">因此，似乎通过运行</font></font><code>npm install package_name</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，应该将程序包依赖项自动添加到package.json中，对吗？</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">LEYStafan</span>
             <span class="discuss-time">2020.03.13</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果没有</font></font><code>package.json</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">文件</font><font style="vertical-align: inherit;">，它将不会执行任何</font><font style="vertical-align: inherit;">操作。</font><font style="vertical-align: inherit;">首先运行</font></font><code>npm init</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">以创建一个。</font><font style="vertical-align: inherit;">然后调用</font></font><code>npm install --save</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">或</font></font><code>npm install --save-dev</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">或</font></font><code>npm install --save-optional</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">将更新</font></font><code>package.json</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">列出您的依赖项。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">卡卡西阿飞</span>
@@ -232,9 +212,7 @@ ll and la commands: ls --long<font></font>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">package.json
 </font></font><a href="https://i.stack.imgur.com/6prDT.png" rel="noreferrer"><img src="https://i.stack.imgur.com/6prDT.png" alt="在此处输入图片说明"></a></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

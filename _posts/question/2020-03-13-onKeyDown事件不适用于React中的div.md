@@ -58,7 +58,7 @@ topic: React.js
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我该怎么做？</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第1458篇《onKeyDown事件不适用于React中的div》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第1458篇《onKeyDown事件不适用于React中的div》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -75,18 +75,14 @@ topic: React.js
    console.log(e.key);<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">阿飞神乐</span>
             <span class="discuss-time">2020.03.13</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">您应该使用</font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">tabIndex</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">属性来侦听React中div上的onKeyDown事件。</font><font style="vertical-align: inherit;">设置tabIndex =“ 0”应该会触发您的处理程序。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">神奇西里</span>
@@ -111,9 +107,7 @@ topic: React.js
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">还有其他方法可以执行此操作，但这将是运行时最有效的方法。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">理查德路易</span>
@@ -142,9 +136,7 @@ render() {<font></font>
   )<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Davaid神无</span>
@@ -161,9 +153,7 @@ render() {<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果</font></font><code>onKeyPressed</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">未绑定</font></font><code>this</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，则尝试使用箭头功能重写它或将其绑定到组件中</font></font><code>constructor</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

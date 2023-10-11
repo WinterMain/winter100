@@ -38,7 +38,7 @@ topic: Webpack
 <p><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">补充</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">：</font></font><a href="http://pastebin.com/ty3BKhUn" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Webpack配置文件</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第2607篇《从外部调用Webpacked代码（HTML脚本标记）》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第2607篇《从外部调用Webpacked代码（HTML脚本标记）》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -61,9 +61,7 @@ window.foo = foo;<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我无法使用Babel，因此对我有用。</font></font></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

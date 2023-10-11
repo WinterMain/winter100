@@ -36,7 +36,7 @@ topic: React.js
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在这种情况下，我不能使用多个，</font></font><code>useEffect</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">因为每次更改都会导致相同的网络呼叫。</font><font style="vertical-align: inherit;">这就是为什么我也使用</font></font><code>changeCount</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">跟踪更改</font><font style="vertical-align: inherit;">的原因</font><font style="vertical-align: inherit;">。</font><font style="vertical-align: inherit;">这</font></font><code>changeCount</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">也有助于跟踪仅来自本地的更改，因此我可以防止由于服务器的更改而导致不必要的网络呼叫。</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第952篇《如何在React Hooks useEffect上比较oldValues和newValues？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第952篇《如何在React Hooks useEffect上比较oldValues和newValues？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -96,9 +96,7 @@ const [state, dispatch] = useReducer(reducer, {<font></font>
 });<font></font>
 ...<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Tony村村</span>
@@ -136,9 +134,7 @@ const [state, dispatch] = useReducer(reducer, {<font></font>
 </ul>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">以我的经验，这种方法比</font></font><code>useEffect</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">/ </font></font><code>useRef</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">解决方案</font><font style="vertical-align: inherit;">更加灵活，干净和简洁</font><font style="vertical-align: inherit;">。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">逆天西里</span>
@@ -156,9 +152,7 @@ const [state, dispatch] = useReducer(reducer, {<font></font>
 </ol>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">正如我们在这里看到的，我们没有更新内部，</font></font><code>ref</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">因为我们正在使用</font></font><code>useEffect</code> </p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">L理查德</span>
@@ -179,9 +173,7 @@ const [state, dispatch] = useReducer(reducer, {<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">useEffect检查该道具是否已更改，更新状态说它已经拥有，并允许您的条件代码运行。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">达蒙西里</span>
@@ -217,9 +209,7 @@ const [state, dispatch] = useReducer(reducer, {<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">但是，如果您</font></font><code>useEffect</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">对每个更改ID分别</font><font style="vertical-align: inherit;">使用两个，则它更清晰，并且可能更好，更清晰地阅读和理解，</font><font style="vertical-align: inherit;">您想分别处理它们</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">乐猪猪</span>
@@ -277,9 +267,7 @@ const Component = (props) =&gt; {<font></font>
 </code></pre>
 
 <p><a href="https://codesandbox.io/embed/optimistic-sky-0x0b2" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">演示版</font></font></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">猿路易</span>
@@ -297,9 +285,7 @@ const usePrevious = &lt;T extends {}&gt;(value: T): T | undefined =&gt; {<font><
   return ref.current;<font></font>
 };<font></font>
 </code></pre></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

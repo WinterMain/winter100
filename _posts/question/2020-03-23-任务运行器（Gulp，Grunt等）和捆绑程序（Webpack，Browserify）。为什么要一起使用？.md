@@ -27,7 +27,7 @@ topic: Webpack
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">提前致谢。</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第2610篇《任务运行器（Gulp，Grunt等）和捆绑程序（Webpack，Browserify）。为什么要一起使用？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第2610篇《任务运行器（Gulp，Grunt等）和捆绑程序（Webpack，Browserify）。为什么要一起使用？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}

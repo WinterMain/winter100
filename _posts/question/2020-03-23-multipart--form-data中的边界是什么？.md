@@ -19,7 +19,7 @@ topic: HTML
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">是</font></font><code>???</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">免费的由用户来定义？</font><font style="vertical-align: inherit;">还是从HTML生成？</font><font style="vertical-align: inherit;">我可以定义</font></font><code>??? = abcdefg</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">吗？</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第2731篇《multipart / form-data中的边界是什么？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第2731篇《multipart / form-data中的边界是什么？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -70,9 +70,7 @@ Content-Disposition: form-data; name="baz"<font></font>
 quux<font></font>
 --another cool boundary--<font></font>
 </code></pre></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

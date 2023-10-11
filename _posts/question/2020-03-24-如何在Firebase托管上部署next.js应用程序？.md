@@ -21,7 +21,7 @@ topic: React.js
 <p><a href="https://i.stack.imgur.com/CSUBY.png" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">生成命令的输出</font></font></a></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第3386篇《如何在Firebase托管上部署next.js应用程序？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第3386篇《如何在Firebase托管上部署next.js应用程序？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -60,9 +60,7 @@ topic: React.js
 </blockquote>
 
 <p><a href="https://nextjs.org/learn/excel/static-html-export" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">阅读更多</font></font></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">西里Near</span>
@@ -77,9 +75,7 @@ topic: React.js
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这基于</font><font style="vertical-align: inherit;">此处描述的</font></font><a href="https://github.com/geovanisouza92/serverless-firebase" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">https://github.com/geovanisouza92/serverless-firebase</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">和</font></font><a href="https://github.com/jthegedus/firebase-functions-next-example" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">https://github.com/jthegedus/firebase-functions-next-example</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">上的工作</font><font style="vertical-align: inherit;">。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">PS：我知道将链接发布为答案不是最好的方法，但是我的代表力量不足以将此作为评论。</font></font></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

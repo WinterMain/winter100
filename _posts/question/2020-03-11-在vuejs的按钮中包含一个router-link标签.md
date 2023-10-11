@@ -19,7 +19,7 @@ topic: Vue.js
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">当我按下按钮时，我希望它将我路由到所需的页面。 </font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第580篇《在vuejs的按钮中包含一个router-link标签》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第580篇《在vuejs的按钮中包含一个router-link标签》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -35,9 +35,7 @@ topic: Vue.js
 &lt;button&gt;About Creator&lt;/button&gt;<font></font>
 &lt;/router-link&gt;<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">武藏</span>
@@ -47,9 +45,7 @@ topic: Vue.js
 
 <pre><code>&lt;router-link tag="button" class="myClass" id="button" :to="place.to.go"&gt;Go!&lt;/router-link&gt;
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">飞羽宝儿</span>
@@ -59,9 +55,7 @@ topic: Vue.js
 
 <pre><code>&lt;router-link to="/foo" tag="button"&gt;foo&lt;/router-link&gt;
 </code></pre></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

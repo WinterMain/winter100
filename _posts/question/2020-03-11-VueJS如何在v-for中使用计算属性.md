@@ -44,7 +44,7 @@ var vm = new Vue({<font></font>
 </code></pre></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第532篇《VueJS如何在v-for中使用计算属性》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第532篇《VueJS如何在v-for中使用计算属性》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -62,9 +62,7 @@ var vm = new Vue({<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">另外，请注意，如果您发现自己需要将参数传递给a </font></font><code>computed</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，则可能需要使用方法。</font></font></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

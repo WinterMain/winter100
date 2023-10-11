@@ -22,7 +22,7 @@ topic: TypeScript
 alert</span><span class="pun">(</span><span class="kwd">new</span><span class="pln"> </span><span class="typ">Test</span><span class="pun">().</span><span class="pln">member</span><span class="pun">);</span></code></pre></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第4203篇《为什么我不能访问TypeScript私有成员？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第4203篇《为什么我不能访问TypeScript私有成员？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -79,9 +79,7 @@ alert</span><span class="pun">(</span><span class="kwd">new</span><span class="p
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">当</font></font><code>myClass</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在DevTools中查看</font><font style="vertical-align: inherit;">该</font><font style="vertical-align: inherit;">实例时，您没有看到它们的所有“私有”成员与真正的公共成员混合在一起（在正确重构的真实生活代码中，它们在视觉上会非常混乱），而是看到它们被整齐地分组在折叠</font></font><code>__</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">属性内：</font></font></p>
 
 <p><a href="https://i.stack.imgur.com/4LqAB.png" rel="nofollow noreferrer"><img src="https://i.stack.imgur.com/4LqAB.png" alt="在此处输入图片说明"></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">王者一打九</span>
@@ -110,9 +108,7 @@ alert</span><span class="pun">(</span><span class="kwd">new</span><span class="p
     </span><span class="pun">}</span><span class="pln">
   </span><span class="pun">}</span><span class="pln">
 </span><span class="pun">}</span></code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">阿飞</span>
@@ -148,9 +144,7 @@ alert</span><span class="pun">(</span><span class="kwd">new</span><span class="p
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">仅应</font><font style="vertical-align: inherit;">在绝对需要时</font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">谨慎</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">使用此方法</font><font style="vertical-align: inherit;">。</font><font style="vertical-align: inherit;">例如，如果您需要临时缓存密码。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">使用这种模式会降低性能（与Javascript或Typescript无关），仅在绝对必要的情况下使用。   </font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">猴子</span>
@@ -207,9 +201,7 @@ alert</span><span class="pun">(</span><span class="kwd">new</span><span class="p
 <li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">与普通JS OOP相比，没有额外的开销</font></font></li>
 </ul></li>
 </ul></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">神无</span>
@@ -226,9 +218,7 @@ alert</span><span class="pun">(</span><span class="kwd">new</span><span class="p
 <blockquote>
   <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">注意：使用javascript很好，并且两个函数都可以在外部访问。</font></font></p>
 </blockquote></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">启人</span>
@@ -239,9 +229,7 @@ alert</span><span class="pun">(</span><span class="kwd">new</span><span class="p
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">私有属性实现为常规属性，并且不允许类外部的代码对其进行访问。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">为了使某些东西真正成为类的私有对象，它不能成为该类的成员，而应是在创建对象的代码内的函数作用域内创建的局部变量。</font><font style="vertical-align: inherit;">那将意味着您不能像类的成员那样访问它，即使用</font></font><code>this</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">关键字。</font></font></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

@@ -17,7 +17,7 @@ topic: Webpack
     <div class="article-content"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我如何require（）/从控制台导入模块？</font><font style="vertical-align: inherit;">例如，假设我已经安装了ImmutableJS npm，那么我希望能够在控制台中使用模块中的功能。</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第3556篇《我如何使用webpack从控制台上require（）？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第3556篇《我如何使用webpack从控制台上require（）？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -43,9 +43,7 @@ console.log("Retrieved MyComponent: " + MyComponent);<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">但是，与上述两个解决方案相比，此方法的一个重要缺点是它似乎不适用于node_modules文件夹中的文件。</font><font style="vertical-align: inherit;">当路径调整为“ ../”时，webpack无法编译-至少在我的项目中。</font><font style="vertical-align: inherit;">（也许是因为node_modules文件夹是如此之大）</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">神乐</span>
@@ -60,9 +58,7 @@ console.log("Retrieved MyComponent: " + MyComponent);<font></font>
 
 <pre><code>require(34)
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">路易Stafan</span>
@@ -74,9 +70,7 @@ console.log("Retrieved MyComponent: " + MyComponent);<font></font>
 // Exposes the exports for file.js to the global context on property "libraryName".<font></font>
 // In web browsers, window.libraryName is then available.<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">卡卡西小哥</span>
@@ -97,9 +91,7 @@ console.log("Retrieved MyComponent: " + MyComponent);<font></font>
 </code></pre>
 
 <p><a href="https://stackoverflow.com/a/40801947/164680"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">查看更多</font></font></a></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

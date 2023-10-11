@@ -37,7 +37,7 @@ topic: JavaScript
 </code></pre></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第649篇《如何仅使用一次React useEffect调用加载函数》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第649篇《如何仅使用一次React useEffect调用加载函数》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -58,9 +58,7 @@ topic: JavaScript
   return &lt;div&gt; {/* ... */} &lt;/div&gt;;<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">乐猪猪</span>
@@ -86,9 +84,7 @@ topic: JavaScript
 <p><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">关于useMountEffect挂钩</font></font></strong> </p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">当</font></font><code>useEffect</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">与第二个数组参数一起</font><font style="vertical-align: inherit;">使用</font><font style="vertical-align: inherit;">时，React将在挂载（初始渲染）之后和数组中的值更改后运行回调。</font><font style="vertical-align: inherit;">由于我们传递了一个空数组，因此它将仅在安装后运行。</font></font></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

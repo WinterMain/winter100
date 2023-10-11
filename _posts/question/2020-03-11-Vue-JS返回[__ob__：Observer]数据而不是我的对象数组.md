@@ -87,7 +87,7 @@ export default {<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我也尝试过用axios来做，但是它给了我完全一样的东西。</font><font style="vertical-align: inherit;">当我从方法中进行控制台操作时，它提供了我的数据，但在外部它什么也没有提供。</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第757篇《Vue JS返回[__ob__：Observer]数据而不是我的对象数组》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第757篇《Vue JS返回\[__ob__：Observer\]数据而不是我的对象数组》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -100,9 +100,7 @@ export default {<font></font>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">好吧，我有完全相同的问题，但我解决了： </font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">只需将</font></font><code>app.js</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">外部链接</font><font style="vertical-align: inherit;">移动</font><font style="vertical-align: inherit;">到head标签。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">GO小胖GO</span>
@@ -128,9 +126,7 @@ export default {<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">换句话说，如果您想在中看到它</font></font><code>console</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，则应该</font></font><code>console.log</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">进入</font></font><code>mounted</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">阶段。</font><font style="vertical-align: inherit;">因为在</font></font><code>created</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">阶段，</font></font><code>this.pigeons</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">仍然是空的。</font><font style="vertical-align: inherit;">参考：</font><a href="https://vuejs.org/v2/guide/instance.html#Lifecycle-Diagram" rel="nofollow noreferrer"><font style="vertical-align: inherit;">https</font></a><font style="vertical-align: inherit;"> : </font></font><a href="https://vuejs.org/v2/guide/instance.html#Lifecycle-Diagram" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">//vuejs.org/v2/guide/instance.html#Lifecycle-Diagram</font></font></a></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">希望对您有所帮助。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">梅番长</span>
@@ -140,9 +136,7 @@ export default {<font></font>
 
 <pre><code>&lt;h3 v-if="pigeons.length &gt; 0"&gt;{{ pigeon.id }}&lt;/h3&gt;
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">ItachiHarry</span>
@@ -154,9 +148,7 @@ export default {<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">谢谢，兰吉特</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">神乐蛋蛋</span>
@@ -171,9 +163,7 @@ console.log(parsedobj)<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">它被带到埃文你自己</font></font><a href="https://github.com/vuejs/Discussion/issues/292" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在这里</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">和更多的信息</font></font><a href="https://guillim.github.io/vue/2019/03/20/damn-vuejs-observer.html" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在这里</font></font></a></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">但是等待答案是第一步。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Sam番长逆天</span>
@@ -183,9 +173,7 @@ console.log(parsedobj)<font></font>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">为了更好地了解您的数据，建议您安装Vue开发工具。 
 </font></font><a href="https://chrome.google.com/webstore/detail/vuejs-devtools/nhdogjmejiglipccpnnnanhbledajbpd?hl=en" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">https://chrome.google.com/webstore/detail/vuejs-devtools/nhdogjmejiglipccpnnnanhbledajbpd?hl=zh-CN</font></font></a></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

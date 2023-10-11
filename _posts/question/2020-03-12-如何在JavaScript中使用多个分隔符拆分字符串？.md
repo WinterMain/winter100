@@ -17,7 +17,7 @@ topic: JavaScript
     <div class="article-content"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如何在JavaScript中使用多个分隔符拆分字符串？</font><font style="vertical-align: inherit;">我正在尝试在逗号和空格上进行拆分，但是AFAIK，JS的拆分功能仅支持一个分隔符。</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第1288篇《如何在JavaScript中使用多个分隔符拆分字符串？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第1288篇《如何在JavaScript中使用多个分隔符拆分字符串？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -76,9 +76,7 @@ function isSeparator(c)<font></font>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">您可以看到在操场上运行的代码：</font><a href="https://codeguppy.com/code.html?IJI0E4OGnkyTZnoszAzf" rel="nofollow noreferrer"><font style="vertical-align: inherit;">https</font></a><font style="vertical-align: inherit;"> :
  </font></font><a href="https://codeguppy.com/code.html?IJI0E4OGnkyTZnoszAzf" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">//codeguppy.com/code.html?IJI0E4OGnkyTZnoszAzf</font></font></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">伽罗Mandy</span>
@@ -155,9 +153,7 @@ body {font: 20px Roboto;}</code></pre>
   
   <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">返回值： </font></font><code>["1", "23", "4"]</code></p>
 </blockquote></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">乐小宇宙</span>
@@ -167,9 +163,7 @@ body {font: 20px Roboto;}</code></pre>
 
 <pre><code>var splitFilePath = filePath.split(/[\/\\]/);
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">老丝猪猪小卤蛋</span>
@@ -207,18 +201,14 @@ console.log(SplitByString(source, splitBy));</code></pre>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">以上代码的结果将是：</font></font></p>
 
 <p><a href="https://i.stack.imgur.com/FadrH.png" rel="nofollow noreferrer"><img src="https://i.stack.imgur.com/FadrH.png" alt="在此处输入图片说明"></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">GO小胖</span>
             <span class="discuss-time">2020.03.12</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">也许您应该执行某种字符串替换操作，以将一个分隔符转换为另一个分隔符，以便在拆分时只处理一个分隔符。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">APro</span>
@@ -233,9 +223,7 @@ console.log(SplitByString(source, splitBy));</code></pre>
 
 <pre><code>["dasdnk", "asd", "naks", ":d", "skldma"]
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">阿飞Sam</span>
@@ -274,9 +262,7 @@ splitString(stringToSplit, splitList);<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">上面的示例返回： </font></font><code>["people", "and", "other", "things"]</code></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">注意：此</font></font><code>flatten</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">功能取自</font></font><a href="http://rosettacode.org/wiki/Flatten_a_list" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Rosetta Code</font></font></a> </p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Gil樱Green</span>
@@ -297,9 +283,7 @@ splitString(stringToSplit, splitList);<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">（您必须使用非捕获（？:)括号，因为否则它会被拼接回结果中。或者您可以像Aaron一样聪明，并使用字符类。）</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">（示例在Safari + FF中测试）</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">阿飞古一A</span>
@@ -328,9 +312,7 @@ Hello,awesome,world!<font></font>
 &gt;&gt;&gt; bits[bits.length - 1]<font></font>
 "Hello awesome, world!"<font></font>
 </code></pre></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

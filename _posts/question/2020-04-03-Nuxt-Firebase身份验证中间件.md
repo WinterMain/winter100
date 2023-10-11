@@ -58,7 +58,7 @@ export default (context) =&gt; {<font></font>
 </code></pre></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第3939篇《Nuxt Firebase身份验证中间件》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第3939篇《Nuxt Firebase身份验证中间件》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -71,9 +71,7 @@ export default (context) =&gt; {<font></font>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">您需要使用</font></font><a href="https://nuxtjs.org/guide/vuex-store/#the-nuxtserverinit-action" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">nuxtServerInit</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">方法</font><font style="vertical-align: inherit;">初始化用户</font><font style="vertical-align: inherit;">，否则您的中间件将在具有空用户的服务器上执行，因此将发生重定向。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">您需要从req对象获取用户数据。</font><font style="vertical-align: inherit;">请参阅此仓库以获取参考实现</font></font><a href="https://github.com/davidroyer/nuxt-ssr-firebase-auth.v2" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">https://github.com/davidroyer/nuxt-ssr-firebase-auth.v2</font></font></a> </p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

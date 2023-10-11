@@ -23,7 +23,7 @@ topic: JavaScript
 </code></pre></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第295篇《使用JavaScript在文本框中的Enter键上触发按钮单击》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第295篇《使用JavaScript在文本框中的Enter键上触发按钮单击》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -44,9 +44,7 @@ function unblank(a) { if(a.value == "") a.value = a.defaultValue; }<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我知道这个问题已经解决，但是我发现了一些对其他人有帮助的东西。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Tony凯</span>
@@ -65,9 +63,7 @@ function unblank(a) { if(a.value == "") a.value = a.defaultValue; }<font></font>
   <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">注意：在当前逻辑上，您需要按</font></font><kbd>Ctrl</kbd><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">+
   </font></font><kbd>Enter</kbd></p>
 </blockquote></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Harry乐Harry</span>
@@ -90,9 +86,7 @@ function unblank(a) { if(a.value == "") a.value = a.defaultValue; }<font></font>
     }<font></font>
 });<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">逆天理查德</span>
@@ -110,9 +104,7 @@ function unblank(a) { if(a.value == "") a.value = a.defaultValue; }<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这是我的两分钱。</font><font style="vertical-align: inherit;">我正在为Windows 8开发一个应用程序，并希望在按下Enter按钮时该按钮注册一个点击事件。</font><font style="vertical-align: inherit;">我在JS中执行此操作。</font><font style="vertical-align: inherit;">我尝试了一些建议，但遇到了问题。</font><font style="vertical-align: inherit;">这很好。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小哥Stafan</span>
@@ -124,9 +116,7 @@ function unblank(a) { if(a.value == "") a.value = a.defaultValue; }<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在处理事件时或在事件处理程序调用的函数中使用它。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">它至少可以在Internet Explorer和Opera中工作。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Harry乐Harry</span>
@@ -137,9 +127,7 @@ function unblank(a) { if(a.value == "") a.value = a.defaultValue; }<font></font>
 <pre><code>&lt;input type="text" id="txtSearch" onchange="doSomething();" /&gt;<font></font>
 &lt;input type="button" id="btnSearch" value="Search" onclick="doSomething();" /&gt;<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">神乐十三</span>
@@ -148,9 +136,7 @@ function unblank(a) { if(a.value == "") a.value = a.defaultValue; }<font></font>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">虽然，我很确定只要表单中只有一个字段和一个提交按钮，即使页面上还有另一种表单，按回车键也应提交表单。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">然后，您可以使用js捕获onsubmit表单，并执行所需的任何验证或回调。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">达蒙小胖</span>
@@ -164,9 +150,7 @@ function unblank(a) { if(a.value == "") a.value = a.defaultValue; }<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果您不希望按钮中有任何视觉反馈，那么最好不要引用按钮而是直接调用控制器。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">另外，不需要id-在视图和模型之间进行分离的另一种NG2方法。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">LEY猿</span>
@@ -185,9 +169,7 @@ textbox.addEventListener("keypress", function onEvent(event) {<font></font>
 <p><a href="https://developer.mozilla.org/en-US/docs/Web/API/KeyboardEvent/key" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Mozilla文件</font></font></a></p>
 
 <p><a href="http://caniuse.com/#feat=keyboardevent-key" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">支持的浏览器</font></font></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Eva西里蛋蛋</span>
@@ -202,9 +184,7 @@ textbox.addEventListener("keypress", function onEvent(event) {<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">设置action =“ javascript：void（0）;” </font><font style="vertical-align: inherit;">像这样，这是从本质上防止默认行为的捷径。</font><font style="vertical-align: inherit;">在这种情况下，无论您是按Enter还是单击按钮都将调用一个方法，并进行ajax调用以加载一些数据。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Monkey洋</span>
@@ -237,9 +217,7 @@ txt.addEventListener("keypress", function(event) {<font></font>
     <p><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">附录</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">：感谢@ruffin的评论，我添加了缺少的事件处理程序和，</font></font><code>preventDefault</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">以允许此代码（大概）也可以在表单内工作。</font><font style="vertical-align: inherit;">（我将对此进行测试，这时将删除括号中的内容。）</font></font></p>
   </blockquote>
 </blockquote></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">神无Davaid</span>
@@ -257,9 +235,7 @@ txt.addEventListener("keypress", function(event) {<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">请注意，您需要一个</font></font><code>&lt;form&gt;</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">包含输入字段</font><font style="vertical-align: inherit;">的</font><font style="vertical-align: inherit;">元素来完成这项工作（感谢Sergey Ilinsky）。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">重新定义标准行为不是一个好习惯，</font></font><kbd>Enter</kbd><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">密钥应始终调用表单上的“提交”按钮。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">TomTony</span>
@@ -287,9 +263,7 @@ document.onkeydown = function (evt) {<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我注意到答复仅在jQuery中给出，因此我想也以普通JavaScript给出一些内容。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">LEYPro前端</span>
@@ -357,9 +331,7 @@ Password:&amp;nbsp;&lt;input id="pw" type="password"&gt;&lt;br&gt;<font></font>
 </div>
 </div>
 <p></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

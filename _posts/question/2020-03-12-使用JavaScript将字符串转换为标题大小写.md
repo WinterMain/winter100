@@ -17,7 +17,7 @@ topic: JavaScript
     <div class="article-content"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">有一种简单的方法可以将字符串转换为标题大小写吗？</font><font style="vertical-align: inherit;">例如</font></font><code>john smith</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">变为</font></font><code>John Smith</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font><font style="vertical-align: inherit;">我不是在寻找像</font></font><a href="http://ejohn.org/blog/title-capitalization-in-javascript/"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">John Resig的解决方案</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">那样复杂的东西</font><font style="vertical-align: inherit;">，只是（希望）某种一线或两线。</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第1114篇《使用JavaScript将字符串转换为标题大小写》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第1114篇《使用JavaScript将字符串转换为标题大小写》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -44,9 +44,7 @@ topic: JavaScript
 </div>
 </div>
 <p></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">L西门</span>
@@ -54,9 +52,7 @@ topic: JavaScript
           </div>
           <div class="discuss-comment"><pre><code>"john f. kennedy".replace(/\b\S/g, t =&gt; t.toUpperCase())
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">路易Itachi小小</span>
@@ -72,9 +68,7 @@ topic: JavaScript
 <p></p>
 
 <p>The result is "Sofía Vergara".</p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">MonsterKK梅</span>
@@ -94,9 +88,7 @@ console.log(toTitleCase("a city named örebro")); // A City Named Örebro</code>
 <p></p>
 
 <p>However: "<strong>s</strong>unshine (<strong>y</strong>ellow)" ⇒ "<strong>S</strong>unshine (<strong>y</strong>ellow)"</p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小胖逆天</span>
@@ -106,9 +98,7 @@ console.log(toTitleCase("a city named örebro")); // A City Named Örebro</code>
 
 <pre><code>str.replace(/(^[a-z])|(\s+[a-z])/g, txt =&gt; txt.toUpperCase());
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Near卡卡西小宇宙</span>
@@ -134,9 +124,7 @@ Tested with the above, "the quick-brown, fox? /jumps/ ^over^ the ¡lazy! dog..."
   });<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">老丝阿飞</span>
@@ -155,9 +143,7 @@ Tested with the above, "the quick-brown, fox? /jumps/ ^over^ the ¡lazy! dog..."
     return s.slice(0, 1).toUpperCase() + s.slice(1).toLowerCase();<font></font>
 }).join(' ')<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">凯卡卡西</span>
@@ -171,9 +157,7 @@ Tested with the above, "the quick-brown, fox? /jumps/ ^over^ the ¡lazy! dog..."
   }).join(' ');<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">宝儿Sam</span>
@@ -196,9 +180,7 @@ str.split(' ')<font></font>
 </div>
 </div>
 <p></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">猿GO</span>
@@ -209,9 +191,7 @@ str.split(' ')<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">例如： </font></font><code>(text-transform: capitalize);</code> </p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">仅在绝对必要时才使用JS方法。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Tom老丝Pro</span>
@@ -238,9 +218,7 @@ Input:<font></font>
 </div>
 </div>
 <p></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Jim老丝达蒙</span>
@@ -257,9 +235,7 @@ Input:<font></font>
 
 <pre><code>"pascal".toProperCase();
 </code></pre></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

@@ -42,7 +42,7 @@ Error: listen EADDRINUSE<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如何解决？</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第3255篇《ExpressJS-抛出器未处理的错误事件》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第3255篇《ExpressJS-抛出器未处理的错误事件》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -83,18 +83,14 @@ Error: listen EADDRINUSE<font></font>
 
 <p><a href="https://github.com/guard/listen/wiki/Increasing-the-amount-of-inotify-watchers#the-technical-details" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">https://github.com/guard/listen/wiki/Increasing-the-amount-of-inotify-watchers#the-technical-details</font></font></a></p></li>
 </ol></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">TomTony</span>
             <span class="discuss-time">2020.03.24</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">只需更改端口，可能是iis或其他服务器正在使用当前端口。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">阿飞</span>
@@ -105,9 +101,7 @@ Error: listen EADDRINUSE<font></font>
 <pre><code>rm -rf node_modules &amp;&amp; npm cache clean &amp;&amp; npm install<font></font>
 npm start<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小小A卡卡西</span>
@@ -124,9 +118,7 @@ npm start<font></font>
 <li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">类型，</font></font><code>Stop-process &lt;Id&gt;</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
 我认为这对Windows用户有帮助</font></font></li>
 </ol></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">HarryGO理查德</span>
@@ -138,18 +130,14 @@ npm start<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果有东西在运行，您可以将其关闭或使用一些kill命令将其关闭</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小小MandyGil</span>
             <span class="discuss-time">2020.03.24</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">很简单，只需在Visual Studio Code中检查您的终端，因为我正在运行我的节点应用程序，并且我使笔记本电脑处于休眠状态，然后第二天早上，我将笔记本电脑重新打开以进行软件开发。</font><font style="vertical-align: inherit;">然后，我再次运行nodemon app.js命令。第二次运行于夜间，第二次运行了最新的命令，因此两个命令提示符正在侦听相同的端口，这就是为什么您会遇到此问题。</font><font style="vertical-align: inherit;">简单关闭一个终端或所有终端，然后运行您的节点app.js或nodemon app.js</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">番长樱梅</span>
@@ -164,27 +152,21 @@ npm start<font></font>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">的Linux</font></font><br>
     <code>sudo shutdown now -r</code></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">ItachiDavaid</span>
             <span class="discuss-time">2020.03.24</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果使用Windows，则可以从任务管理器中结束node.js的进程</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">卡卡西</span>
             <span class="discuss-time">2020.03.24</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我遇到了同样的问题，我发现之前用CTRL + C取消的nodejs进程仍在运行。</font><font style="vertical-align: inherit;">Windows 10中的问题是</font></font><a href="https://github.com/nodejs/node/issues/16103" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Ctrl + C不能正常杀死</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> nodejs。</font><font style="vertical-align: inherit;">我打开任务管理器并手动终止了该过程。</font><font style="vertical-align: inherit;">GitHub上提供的解决方案不适用于我。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小哥Tony</span>
@@ -197,18 +179,14 @@ npm start<font></font>
 </blockquote>
 
 <p><a href="http://expressjs.com/guide/using-middleware.html" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">http://expressjs.com/guide/using-middleware.html</font></font></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">卡卡西Near</span>
             <span class="discuss-time">2020.03.24</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">您也可以从Gruntfile.js更改端口，然后再次运行。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">猿GO</span>
@@ -219,9 +197,7 @@ npm start<font></font>
 <p><a href="http://www.codingdefined.com/2015/09/how-to-solve-nodejs-error-listen.html" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">http://www.codingdefined.com/2015/09/how-to-solve-nodejs-error-listen.html</font></font></a></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">只需从Project属性更改端口号。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Stafan</span>
@@ -231,9 +207,7 @@ npm start<font></font>
 
 <pre><code>sudo service NAMEOFSERVICE stop
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Gil</span>
@@ -266,18 +240,14 @@ node    16615 aegon   13u  IPv6 183768      0t0  TCP *:3000 (LISTEN)</code></pre
 <li><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">运行</font></font><code>sudo kill -9 16615</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">（您必须在-9之后放置PID）</font></font></p></li>
 <li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">再次启动服务器 </font></font></li>
 </ul></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">路易伽罗</span>
             <span class="discuss-time">2020.03.24</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">就我而言，我也必须跑步</font></font><code>vagrant reload</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font><font style="vertical-align: inherit;">即使没有节点进程在我的虚拟机中运行我的快速应用程序，我仍然会收到此错误，直到重新加载无所事事的盒子。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Tom小宇宙</span>
@@ -290,9 +260,7 @@ node    16615 aegon   13u  IPv6 183768      0t0  TCP *:3000 (LISTEN)</code></pre
 <p><img src="https://i.stack.imgur.com/K2GVO.jpg" alt="在此处输入图片说明"></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">右键单击正在运行的进程，然后单击</font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">终止</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">老丝阿飞</span>
@@ -306,18 +274,14 @@ node    16615 aegon   13u  IPv6 183768      0t0  TCP *:3000 (LISTEN)</code></pre
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">请参阅此链接以获取更多说明</font></font><a href="https://github.com/ionic-team/ionic-cli/issues/2922" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">https://github.com/ionic-team/ionic-cli/issues/2922</font></font></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">伽罗理查德</span>
             <span class="discuss-time">2020.03.24</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">关闭任何其他正在运行的节点服务器，即使它们在其他终端窗口中或在不同端口上运行也是如此。</font><font style="vertical-align: inherit;">那应该解决问题。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">宝儿</span>
@@ -327,27 +291,21 @@ node    16615 aegon   13u  IPv6 183768      0t0  TCP *:3000 (LISTEN)</code></pre
 
 <pre><code>sudo pkill node
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">前端凯神乐</span>
             <span class="discuss-time">2020.03.24</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Node正在尝试使用的端口可能已被另一个程序使用。</font><font style="vertical-align: inherit;">就我而言，它是</font><font style="vertical-align: inherit;">我最近安装的</font></font><a href="http://www.ntop.org/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">ntop</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font><font style="vertical-align: inherit;">我必须</font><font style="vertical-align: inherit;">在浏览器中</font><font style="vertical-align: inherit;">打开</font></font><a href="http://localhost:3000/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">http：// localhost：3000 /</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">才能实现它。</font><font style="vertical-align: inherit;">寻找过程中的另一种方式给出</font></font><a href="http://www.cyberciti.biz/faq/what-process-has-open-linux-port/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这里</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">乐米亚</span>
             <span class="discuss-time">2020.03.24</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果要使用相同的端口号</font></font><code>kill %</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，请输入终端，这将终止当前的后台进程并释放端口以供进一步使用。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">乐十三</span>
@@ -367,9 +325,7 @@ node    16615 aegon   13u  IPv6 183768      0t0  TCP *:3000 (LISTEN)</code></pre
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">或针对特定ID </font></font><code>sudo kill -9 id</code></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">西里Davaid</span>
@@ -390,9 +346,7 @@ node    16615 aegon   13u  IPv6 183768      0t0  TCP *:3000 (LISTEN)</code></pre
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">只是发生在我身上，这里没有其他建议可以解决它。</font><font style="vertical-align: inherit;">幸运的是，我记得那天以root身份运行时脚本正在工作。</font><font style="vertical-align: inherit;">希望这对某人有帮助！</font></font></p>
 
 <p><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">免责声明：</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这可能不是针对生产环境的最佳解决方案。</font><font style="vertical-align: inherit;">以root用户身份启动服务可能会给服务器/应用程序带来一些安全漏洞。</font><font style="vertical-align: inherit;">就我而言，这是针对本地服务的解决方案，但我鼓励其他人花更多时间尝试找出原因。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">老丝飞云</span>
@@ -406,9 +360,7 @@ node    16615 aegon   13u  IPv6 183768      0t0  TCP *:3000 (LISTEN)</code></pre
 
 <pre><code>netstat -tulnp | grep &lt;port no&gt;
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">西门</span>
@@ -420,9 +372,7 @@ node    16615 aegon   13u  IPv6 183768      0t0  TCP *:3000 (LISTEN)</code></pre
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">更新：此命令仅在Linux / Ubuntu和Mac上有效。</font></font></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

@@ -50,7 +50,7 @@ function Test2Ctrl($scope, $http) { $scope.header = "Test 2"; }<font></font>
 </code></pre></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第1856篇《如何基于AngularJS部分视图动态更改标头？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第1856篇《如何基于AngularJS部分视图动态更改标头？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -61,9 +61,7 @@ function Test2Ctrl($scope, $http) { $scope.header = "Test 2"; }<font></font>
             <span class="discuss-time">2020.03.17</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我发现更好，更动态的解决方案是使用$ watch跟踪变量更改，然后更新标题。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">斯丁村村</span>
@@ -74,9 +72,7 @@ function Test2Ctrl($scope, $http) { $scope.header = "Test 2"; }<font></font>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">控制器（在我的原始回答中似乎有点愚蠢）创建了一个ActionBar对象，并将其填充到$ scope中。</font></font><br><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
 该对象负责实际查询服务。</font><font style="vertical-align: inherit;">它还</font><font style="vertical-align: inherit;">从$ scope中</font></font><em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">隐藏</font></font></em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">了设置模板URL的调用，而其他控制器可以使用该调用来设置URL。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小宇宙神乐</span>
@@ -107,9 +103,7 @@ function Test2Ctrl($scope, $http) { $scope.header = "Test 2"; }<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">该解决方案允许通过用于控制演示文稿其余部分的相同机制来设置标题：AngularJS模板。</font><font style="vertical-align: inherit;">这避免了使用此表示逻辑使控制器混乱的需求。</font><font style="vertical-align: inherit;">控制器需要提供将用于</font></font><em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">通知</font></font></em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">标题的</font><font style="vertical-align: inherit;">任何数据</font><font style="vertical-align: inherit;">，但是模板将最终确定如何显示标题，并且可以正常使用表达式插值和过滤器绑定到范围数据。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">（免责声明：我是该模块的作者，但我在此引用它只是希望它可以帮助其他人解决此问题。）</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">理查德泡芙</span>
@@ -121,9 +115,7 @@ function Test2Ctrl($scope, $http) { $scope.header = "Test 2"; }<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">它没有数据绑定，但是在放入</font><font style="vertical-align: inherit;">标签有问题</font><font style="vertical-align: inherit;">时就足够</font></font><code>ng-app</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">了</font></font><code>&lt;html&gt;</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font><font style="vertical-align: inherit;">（例如，使用</font></font><code>&lt;head&gt;</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">仅在一个位置定义的</font><font style="vertical-align: inherit;">JSP模板</font><font style="vertical-align: inherit;">，但您拥有多个应用程序。）</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Harry古一</span>
@@ -142,9 +134,7 @@ function Test2Ctrl($rootScope, $scope, $http) { $rootScope.header = "Test 2"; }<
 
 <pre><code>&lt;title ng-bind="header"&gt;&lt;/title&gt;
 </code></pre></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

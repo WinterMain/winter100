@@ -17,7 +17,7 @@ topic: CSS
     <div class="article-content"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我正在使用Bootstrap 3构建响应式布局，在该布局中我想根据屏幕尺寸调整一些字体大小。</font><font style="vertical-align: inherit;">如何使用媒体查询进行这种逻辑处理？</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第2470篇《Twitter Bootstrap 3：如何使用媒体查询？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第2470篇《Twitter Bootstrap 3：如何使用媒体查询？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -50,9 +50,7 @@ topic: CSS
 
 <p>PostCSS
 <a href="https://www.npmjs.com/package/postcss-extract-media-query" rel="nofollow noreferrer">https://www.npmjs.com/package/postcss-extract-media-query</a> </p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">斯丁泡芙</span>
@@ -102,9 +100,7 @@ topic: CSS
 </ul>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">快乐的编码;）</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">TomLEY</span>
@@ -147,9 +143,7 @@ topic: CSS
 <p><em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">为了深入了解它，请通过下面的链接</font></font></em> </p>
 
 <p><a href="https://getbootstrap.com/docs/4.3/layout/overview/" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">https://getbootstrap.com/docs/4.3/layout/overview/</font></font></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">西里Near</span>
@@ -170,9 +164,7 @@ topic: CSS
   
   <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">@media（最小宽度：992px）和（最大宽度：1024px）{} </font></font></p>
 </blockquote></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">LLSam</span>
@@ -191,9 +183,7 @@ and (max-device-width : 640px) <font></font>
 and (orientation : portrait) and (-ms-high-contrast: none), (-ms-high-contrast: active) {<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">SamSam</span>
@@ -263,9 +253,7 @@ body {<font></font>
 </div>
 </div>
 <p></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">乐米亚</span>
@@ -284,9 +272,7 @@ body {<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">另请参阅</font></font><a href="http://getbootstrap.com/css/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Bootstrap</font></font></a> </p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Mandy村村</span>
@@ -321,9 +307,7 @@ body {<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">另外请记住，480视口已被放在引导程序3中。 </font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">西里神奇</span>
@@ -366,9 +350,7 @@ body {<font></font>
     }<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Green前端</span>
@@ -418,9 +400,7 @@ body {<font></font>
   }<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">TonySamGreen</span>
@@ -445,9 +425,7 @@ body {<font></font>
 
 <p><a href="https://github.com/twbs/bootstrap/blob/v3.3.6/less/responsive-utilities.less"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">https://github.com/twbs/bootstrap/blob/v3.3.6/less/sensitive-utilities.less </font></font></a>
 <a href="https://github.com/twbs/bootstrap/blob/v3.3.6/less/variables.less"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">https://github.com/twbs/bootstrap/blob/v3.3.6/less/variables.less</font></font></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">LL</span>
@@ -487,9 +465,7 @@ body {<font></font>
 <font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Pro猿A</span>
@@ -516,9 +492,7 @@ body {<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">希望这可以帮助：0）</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">伽罗理查德</span>
@@ -538,9 +512,7 @@ body {<font></font>
 /* Large */<font></font>
 @media(min-width:1200px){}<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">宝儿理查德</span>
@@ -573,9 +545,7 @@ body {<font></font>
 <font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">番长樱梅</span>
@@ -610,9 +580,7 @@ body {<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">更新2019年2月11日：BS3信息从3.4.0版本开始仍然是准确的，已为新网格更新了BS4，从4.3.0版开始是准确的。</font></font></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

@@ -39,7 +39,7 @@ topic: JavaScript
 </blockquote></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第1375篇《为什么jQuery或诸如getElementById之类的DOM方法找不到元素？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第1375篇《为什么jQuery或诸如getElementById之类的DOM方法找不到元素？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -58,9 +58,7 @@ topic: JavaScript
 &lt;body onload="do_this_first()"&gt;<font></font>
 &lt;/body&gt;<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">LEY小卤蛋</span>
@@ -81,9 +79,7 @@ topic: JavaScript
 <li><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">对于来自Ajax响应的元素，请使用</font></font><code>.bind()</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">jQuery方法。</font><font style="vertical-align: inherit;">较旧版本的jQuery具有</font></font><code>.live()</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">相同的功能。</font></font></p></li>
 <li><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">使用工具（例如，用于浏览器的webdeveloper插件）查找重复的ID并将其删除。</font></font></p></li>
 </ol></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">LGil</span>
@@ -96,9 +92,7 @@ topic: JavaScript
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">同样，跨现代浏览器推出的新“ Shadow DOM”功能允许元素成为文档的一部分，但不能由document.getElementById及其所有同级方法（querySelector等）进行查询。</font><font style="vertical-align: inherit;">这样做是为了封装功能并特别隐藏它。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">同样，尽管如此，很可能您正在寻找的元素还没有在文档中（尚未），您应该按照Felix的建议进行操作。</font><font style="vertical-align: inherit;">但是，您还应该意识到，这不再是元素可能无法找到（临时或永久）的唯一原因。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Green老丝Itachi</span>
@@ -107,9 +101,7 @@ topic: JavaScript
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果您尝试访问的元素位于内，</font></font><code>iframe</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">而您尝试在上下文之外进行访问，</font></font><code>iframe</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这也会导致其失败。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果要在iframe中获取元素，可以</font></font><a href="https://stackoverflow.com/a/1088569/1435985"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在这里</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">找到方法</font><font style="vertical-align: inherit;">。</font></font></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

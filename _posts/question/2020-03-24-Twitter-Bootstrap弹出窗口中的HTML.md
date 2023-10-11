@@ -37,7 +37,7 @@ topic: HTML
 </code></pre></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第3607篇《Twitter Bootstrap弹出窗口中的HTML》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第3607篇《Twitter Bootstrap弹出窗口中的HTML》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -53,18 +53,14 @@ topic: HTML
 </code></pre>
 
 <p>Source: <a href="https://github.com/twbs/bootstrap/issues/23590" rel="nofollow noreferrer">https://github.com/twbs/bootstrap/issues/23590</a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">达蒙米亚樱</span>
             <span class="discuss-time">2020.03.24</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">您只需要放入</font></font><code>data-html="true"</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">链接弹出框。</font><font style="vertical-align: inherit;">会工作。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">LEY前端阿飞</span>
@@ -109,9 +105,7 @@ topic: HTML
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">当您有很多HTML放置在弹出窗口中时，这将很有用。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这是一个小提琴示例：</font><a href="http://jsfiddle.net/z824fn6b/"><font style="vertical-align: inherit;">http</font></a><font style="vertical-align: inherit;"> : </font></font><a href="http://jsfiddle.net/z824fn6b/"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">//jsfiddle.net/z824fn6b/</font></font></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">樱小胖Mandy</span>
@@ -123,9 +117,7 @@ topic: HTML
     data-content="&lt;div&gt;This &lt;b&gt;is&lt;/b&gt; your div content&lt;/div&gt;" <font></font>
     data-html="true" data-original-title="A Title"&gt;popover&lt;/a&gt;<font></font>
 </code></pre></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

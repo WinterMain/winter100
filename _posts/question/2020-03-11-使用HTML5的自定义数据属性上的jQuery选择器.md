@@ -34,7 +34,7 @@ topic: JavaScript
 </ul></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第814篇《使用HTML5的自定义数据属性上的jQuery选择器》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第814篇《使用HTML5的自定义数据属性上的jQuery选择器》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -77,9 +77,7 @@ topic: JavaScript
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">对于您可能以</font></font><code>$(...).data("datakey", "value")</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这种方式或类似方式</font><font style="vertical-align: inherit;">使用的单页应用程序来说，这很好</font><font style="vertical-align: inherit;">。</font></font></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

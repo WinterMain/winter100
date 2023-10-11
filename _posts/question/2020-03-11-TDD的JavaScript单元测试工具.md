@@ -32,7 +32,7 @@ topic: JavaScript
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我研究并考虑了许多JavaScript单元测试和测试工具，但一直无法找到合适的选项来保持与TDD的完全兼容。</font><font style="vertical-align: inherit;">那么，是否有一个完全符合TDD的JavaScript单元测试工具？</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第642篇《TDD的JavaScript单元测试工具》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第642篇《TDD的JavaScript单元测试工具》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -43,18 +43,14 @@ topic: JavaScript
             <span class="discuss-time">2020.03.11</span>
           </div>
           <div class="discuss-comment"><p><a href="http://mochikit.com/" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">MochiKit</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">有一个名为SimpleTest的测试框架，似乎很流行。</font><font style="vertical-align: inherit;">这是</font></font><a href="http://blog.leosoto.com/2008/10/interesting-open-source-surprises.html" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">原始作者</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">的</font><a href="http://blog.leosoto.com/2008/10/interesting-open-source-surprises.html" rel="nofollow noreferrer"><font style="vertical-align: inherit;">博客文章</font></a><font style="vertical-align: inherit;">。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">GOMandy</span>
             <span class="discuss-time">2020.03.11</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">你应该看看</font></font><a href="http://groups.google.com/group/envjs" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">env.js</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font><font style="vertical-align: inherit;">有关</font><font style="vertical-align: inherit;">如何使用env.js编写单元测试的示例，</font><font style="vertical-align: inherit;">请参见</font></font><a href="http://blog.pdark.de/2008/11/18/testing-the-impossible-javascript-in-a-web-page/" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我的博客</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">卡卡西西里</span>
@@ -67,9 +63,7 @@ topic: JavaScript
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">要查找有关可用于定义单元测试的JS类的更多信息，请参见在线</font></font><a href="http://demo.qooxdoo.org/current/apiviewer/#qx.dev.unit" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">API查看器</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">对于自动UI测试（基于Selenium RC），请签出</font></font><a href="http://qooxdoo.org/contrib/project/simulator" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Simulator</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">项目。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">米亚西里</span>
@@ -78,9 +72,7 @@ topic: JavaScript
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">YUI也有一个</font></font><a href="http://yuilibrary.com/projects/yuitest/" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">测试框架</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。  </font><font style="vertical-align: inherit;">来自Yahoo!的</font></font><a href="http://www.yuiblog.com/blog/2010/11/29/video-yuiconf2010-yuitest/" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">视频</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">！</font><font style="vertical-align: inherit;">尽管有很多有关TDD的基础知识，但Theater是一个不错的介绍。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">该框架是通用的，可以针对任何JavaScript或JS库运行。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Jim老丝梅</span>
@@ -99,9 +91,7 @@ topic: JavaScript
 <p><a href="http://code.google.com/p/schnell-jruby/" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Schnell</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">：HtmlUnit的另一个JRuby包装器。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">当然，如果HtmlUnit不够好，并且您必须驱动浏览器，则可以考虑使用</font></font><a href="http://justaddwater.dk/2007/11/20/how-to-run-javascript-from-watir-scripts/" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Watir来驱动JS</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小胖Tony</span>
@@ -114,9 +104,7 @@ topic: JavaScript
 <p><a href="http://www.elijahmanor.com/bdd-style-qunit-testing-asp-net-mvcs-jquery-validation/" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">巴甫洛夫</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，</font></font><a href="https://github.com/mmonteleone/pavlov" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">源</font></font></a></p>
 
 <p><a href="http://slmoloch.blogspot.com/2009/08/how-to-run-jstestdriver-with-visual_02.html" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">jsTestDriver</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，</font></font><a href="http://code.google.com/p/js-test-driver/" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">源</font></font></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">阿飞飞云</span>
@@ -139,9 +127,7 @@ topic: JavaScript
 </blockquote>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">当前没有适用于Windows的二进制文件</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">伽罗Gil</span>
@@ -154,18 +140,14 @@ topic: JavaScript
 <blockquote>
   <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Buster.JS是一个新的JavaScript测试框架。</font><font style="vertical-align: inherit;">它通过自动化实际浏览器（例如JsTestDriver）中的测试运行以及Node.js测试来进行浏览器测试。</font></font></p>
 </blockquote></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">L西门</span>
             <span class="discuss-time">2020.03.11</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Wikipedia条目的JavaScript部分，</font></font><a href="http://en.wikipedia.org/wiki/List_of_unit_testing_frameworks#JavaScript" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">单元测试框架</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">列表，提供了可用选项的列表。</font><font style="vertical-align: inherit;">它指示它们是在客户端，服务器端还是两者都起作用。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">伽罗小哥</span>
@@ -174,9 +156,7 @@ topic: JavaScript
           <div class="discuss-comment"><h2><a href="https://github.com/mmanela/chutzpah" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Chutzpah-JavaScript测试运行程序</font></font></a></h2>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我创建了一个名为Chutzpah的开源项目，该项目是JavaScript单元测试的测试运行器。</font><font style="vertical-align: inherit;">Chutzpah使您能够从命令行和Visual Studio内部运行JavaScript单元测试。</font><font style="vertical-align: inherit;">它还支持在TeamCity连续集成服务器中运行。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">古一NearEva</span>
@@ -187,9 +167,7 @@ topic: JavaScript
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果要自动化UI测试（许多开发人员的</font></font><a href="http://dojotoolkit.org/2008/08/11/doh-robot-automating-web-ui-unit-tests-real-user-events" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">苦恼</font></font></a> <font style="vertical-align: inherit;"><font style="vertical-align: inherit;">），请查看</font><a href="http://dojotoolkit.org/2008/08/11/doh-robot-automating-web-ui-unit-tests-real-user-events" rel="noreferrer"><font style="vertical-align: inherit;">doh.robot </font></a></font><em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">（临时向下更新：其他链接</font></font><a href="http://dojotoolkit.org/reference-guide/util/dohrobot.html" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">http://dojotoolkit.org/reference-guide/util/dohrobot.html</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">）</font></font></em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">和</font></font><a href="http://blog.dojotoolkit.org/2008/10/31/doh-robot-part-2-automating-acceptance-tests-and-user-stories" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">dijit .robotx </font></font></a> <em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">（暂时关闭）</font></font></em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font><font style="vertical-align: inherit;">后者专为验收测试而设计。</font><font style="vertical-align: inherit;">更新：</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">参考文章解释了如何使用它们，如何模拟用户使用鼠标和/或键盘与UI交互以及如何记录测试会话，以便您以后可以自动“播放”它。</font></font></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

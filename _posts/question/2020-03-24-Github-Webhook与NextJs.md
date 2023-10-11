@@ -49,7 +49,7 @@ function deploy(res: any) {<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我想知道我应该在我的NextJS应用程序中的哪个位置将此webhook终结点使之正常工作</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第3655篇《Github Webhook与NextJs》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第3655篇《Github Webhook与NextJs》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -62,9 +62,7 @@ function deploy(res: any) {<font></font>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我可以使它起作用的唯一方法是在同一服务器上创建另一个应用程序（我使用express），然后在该端点上将其用作github webhook，然后从那里运行deploy脚本。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">简单的解决方案，希望对您有所帮助。</font></font></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

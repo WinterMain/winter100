@@ -86,7 +86,7 @@ topic: JavaScript
 </code></pre></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第1324篇《在Vue Router中更改身体样式》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第1324篇《在Vue Router中更改身体样式》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -137,9 +137,7 @@ topic: JavaScript
     }<font></font>
 &lt;/style&gt;<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">路易Itachi小小</span>
@@ -153,9 +151,7 @@ topic: JavaScript
 </ul>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">它允许使用vue-router控制您的页面正文类。</font><font style="vertical-align: inherit;">遇到类似问题时写了这个。</font><font style="vertical-align: inherit;">它也指</font></font><a href="https://stackoverflow.com/questions/42906996/add-a-class-to-body-when-component-is-clicked/47097681#47097681"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">单击组件时向主体添加类？</font></font></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">JinJin老丝</span>
@@ -177,9 +173,7 @@ topic: JavaScript
 <p><a href="https://router.vuejs.org/guide/advanced/navigation-guards.html#global-after-hooks" rel="nofollow noreferrer"><code>afterEach</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> 挂钩文件</font></font></a></p>
 
 <p><code>to</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">是一个路线对象，其中包含路线名称（如果已命名），路径等   </font></font><a href="https://router.vuejs.org/api/#route-object-properties" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。所有道具的文档</font></font></a></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

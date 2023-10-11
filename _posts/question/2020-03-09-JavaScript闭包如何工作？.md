@@ -34,7 +34,7 @@ topic: JavaScript
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我已经</font><font style="vertical-align: inherit;">在Wikipedia上</font><font style="vertical-align: inherit;">看到</font></font><a href="http://en.wikipedia.org/wiki/Scheme_%28programming_language%29" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">了Scheme示例</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，但是不幸的是它没有帮助。</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第132篇《JavaScript闭包如何工作？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第132篇《JavaScript闭包如何工作？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -47,9 +47,7 @@ topic: JavaScript
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我只是将它们指向</font></font><a href="https://developer.mozilla.org/en-US/docs/JavaScript/Guide/Closures"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Mozilla Closures页面</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font><font style="vertical-align: inherit;">这</font><font style="vertical-align: inherit;">是我发现的关于闭包基础知识和实际用法</font><font style="vertical-align: inherit;">的最佳，最</font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">简洁明了的解释</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font><font style="vertical-align: inherit;">强烈建议任何学习JavaScript的人使用。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">是的，我什至推荐给6岁的孩子使用-如果6岁的孩子正在学习闭包，那么可以随时理解</font><font style="vertical-align: inherit;">本文提供</font><font style="vertical-align: inherit;">的</font></font><em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">简洁明了</font></font></em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">的逻辑是合乎逻辑</font><font style="vertical-align: inherit;">的。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Stafan古一</span>
@@ -117,9 +115,7 @@ any time even if the outer function is finished.</li>
 </ol>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这称为关闭。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">--神经Xiao--</span>
@@ -142,9 +138,7 @@ myFn</span><span class="pun">();</span><span class="pln"> </span><span class="co
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">解释它的另一种非常简单的方法是在范围上：</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">每当您在较大范围内创建较小范围时，较小范围将始终能够看到较大范围中的内容。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">阿飞小卤蛋</span>
@@ -167,9 +161,7 @@ myFn</span><span class="pun">();</span><span class="pln"> </span><span class="co
   
   <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">现在，它</font></font><em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">允许</font></font></em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">您执行的操作会更加壮观，请参阅其他答案。</font></font></p>
 </blockquote></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">StafanHarry</span>
@@ -190,9 +182,7 @@ myFn</span><span class="pun">();</span><span class="pln"> </span><span class="co
 </span><span class="pun">}</span><span class="pln">
 foo</span><span class="pun">(</span><span class="lit">2</span><span class="pun">);</span><span class="pln">
 i</span><span class="pun">(</span><span class="lit">3</span><span class="pun">);</span></code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">神奇神奇Near</span>
@@ -213,18 +203,14 @@ i</span><span class="pun">(</span><span class="lit">3</span><span class="pun">);
 </span><span class="kwd">var</span><span class="pln"> v0 </span><span class="pun">=</span><span class="pln"> fnext</span><span class="pun">();</span><span class="pln">     </span><span class="com">// v0 = 0;</span><span class="pln">
 </span><span class="kwd">var</span><span class="pln"> v1 </span><span class="pun">=</span><span class="pln"> fnext</span><span class="pun">();</span><span class="pln">     </span><span class="com">// v1 = 1;</span><span class="pln">
 </span><span class="kwd">var</span><span class="pln"> vz </span><span class="pun">=</span><span class="pln"> fnext</span><span class="pun">.</span><span class="pln">_count </span><span class="com">// vz = undefined</span></code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">NearSamHarry</span>
             <span class="discuss-time">2020.03.09</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">闭包是内部函数可以访问其外部函数中的变量的地方。</font><font style="vertical-align: inherit;">这可能是闭包最简单的单行解释。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">猪猪卡卡西西里</span>
@@ -233,9 +219,7 @@ i</span><span class="pun">(</span><span class="lit">3</span><span class="pun">);
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我如何向六岁的孩子解释：</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">您知道大人如何拥有房屋，他们称之为房屋吗？</font><font style="vertical-align: inherit;">当妈妈有孩子时，孩子实际上并不拥有任何东西，对吗？</font><font style="vertical-align: inherit;">但是它的父母拥有一所房子，因此只要有人问孩子“你的房子在哪里？”，他/她就可以回答“那所房子！”，并指向其父母的房子。</font><font style="vertical-align: inherit;">“关闭”是孩子始终（即使在国外）能够说出自己有房屋的能力，即使实际上这是父母的财产。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">乐猪猪</span>
@@ -252,9 +236,7 @@ i</span><span class="pun">(</span><span class="lit">3</span><span class="pun">);
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">全文：</font></font></p>
 
 <p><a href="http://sleeplessgeek.blogspot.com/2009/12/so-what-are-these-closure-thingys.html" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">那么这些关闭的东西是什么呢？</font></font></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">LEY神乐</span>
@@ -279,9 +261,7 @@ i</span><span class="pun">(</span><span class="lit">3</span><span class="pun">);
 <pre class="lang-js prettyprint prettyprinted" style=""><code><span class="pln">console</span><span class="pun">.</span><span class="pln">log</span><span class="pun">(</span><span class="pln">x </span><span class="pun">+</span><span class="pln"> </span><span class="lit">3</span><span class="pun">);</span></code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">现在，的定义在</font></font><code>x</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">哪里？</font><font style="vertical-align: inherit;">我们没有在当前范围内对其进行定义。</font><font style="vertical-align: inherit;">唯一的解决方案是</font></font><code>plus5</code> <em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">随身携带</font></font></em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">其范围（或更确切地说，其父级的范围）。</font><font style="vertical-align: inherit;">这种方式</font></font><code>x</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">定义明确，并绑定到值5。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">ItachiHarry</span>
@@ -321,9 +301,7 @@ plane</span><span class="pun">.</span><span class="pln">leaveTheAirport</span><s
 <div class="snippet-result"><div class="snippet-ctas"><button type="button" class="s-btn s-btn__primary"><span class="icon-play-white _hover"></span><span><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> 运行代码段</font></font></span></button><input class="copySnippet s-btn s-btn__filled" type="button" value="Copy snippet to answer" style="display: none;"><button type="button" class="s-btn hideResults" style="display: none;">Hide results</button><div class="popout-code"><a class="snippet-expand-link"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">展开摘要</font></font></a></div></div><div class="snippet-result-code" style="display: none;"><iframe name="sif17" sandbox="allow-forms allow-modals allow-scripts" class="snippet-box-edit" frameborder="0"></iframe></div></div></div>
 </div>
 <p></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">神无宝儿</span>
@@ -398,9 +376,7 @@ test</span><span class="pun">();</span></code></pre>
 <p>Every function creates a closure, because every function has a link to its outer lexical environment. </p>
 
 <p>Note that variables <em>themselves</em> are visible from within a closure, <em>not</em> copies.</p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

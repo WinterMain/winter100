@@ -37,7 +37,7 @@ doSomethingHere<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">弗朗西斯</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第2547篇《Vuetify-清除v-text-field时如何触发方法》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第2547篇《Vuetify-清除v-text-field时如何触发方法》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -58,9 +58,7 @@ onClearClicked () {<font></font>
   // do something<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">宝儿理查德</span>
@@ -71,9 +69,7 @@ onClearClicked () {<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这是例子</font></font></p>
 
 <p><a href="https://codepen.io/anon/pen/ePmLOg?editors=1010" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">https://codepen.io/anon/pen/ePmLOg?editors=1010</font></font></a></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

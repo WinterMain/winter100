@@ -44,7 +44,7 @@ npm install babel-core //install to babel locally, is it necessary?<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我如何摆脱它？</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第3085篇《Nodejs5和babel中的“意外的令牌导入”？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第3085篇《Nodejs5和babel中的“意外的令牌导入”？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -80,9 +80,7 @@ npm install babel-core //install to babel locally, is it necessary?<font></font>
 </ol>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">现在，您应该能够使用</font></font><code>import/export</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">语句了，祝您黑客愉快。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">凯西里</span>
@@ -104,9 +102,7 @@ npm install babel-core //install to babel locally, is it necessary?<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">并使用npm将这些插件安装为devdependence。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">然后再次尝试babel-node ***。js。</font><font style="vertical-align: inherit;">希望这可以帮到你。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">GilItachi</span>
@@ -138,9 +134,7 @@ npm install babel-core //install to babel locally, is it necessary?<font></font>
 
 <pre><code>$ npm start
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">阳光小哥</span>
@@ -167,9 +161,7 @@ npm install babel-core //install to babel locally, is it necessary?<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">或者只是使用以下样板：</font></font></p>
 
 <p><a href="https://github.com/priyanshuchauhan/node-es6" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">样板：node-es6</font></font></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">卡卡西</span>
@@ -218,9 +210,7 @@ npm install babel-core //install to babel locally, is it necessary?<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">并在终端中运行npm start </font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">飞云Jim</span>
@@ -255,9 +245,7 @@ npm install babel-core //install to babel locally, is it necessary?<font></font>
 <p><code>node node_modules/babel-cli/bin/babel-node.js</code></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">然后 </font></font><code>npm run populate</code></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">宝儿理查德</span>
@@ -278,9 +266,7 @@ npm install babel-core //install to babel locally, is it necessary?<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">有关</font><font style="vertical-align: inherit;">更多信息，</font><font style="vertical-align: inherit;">请参见</font></font><a href="http://babeljs.io/env" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Babel文档</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">宝儿阿飞</span>
@@ -308,9 +294,7 @@ npm install babel-core //install to babel locally, is it necessary?<font></font>
   "presets": ["es2015"]<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">LGil</span>
@@ -331,9 +315,7 @@ npm install babel-core //install to babel locally, is it necessary?<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在您的项目根目录中</font></font></p>
 
 <p><a href="https://www.npmjs.com/package/babel-preset-react-native" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">https://www.npmjs.com/package/babel-preset-react-native</font></font></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小哥GOItachi</span>
@@ -359,9 +341,7 @@ npm install babel-core //install to babel locally, is it necessary?<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">参见</font></font><a href="https://www.npmjs.com/package/babel-preset-node6" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">https://www.npmjs.com/package/babel-preset-node6</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">和</font></font><a href="https://babeljs.io/docs/usage/cli/" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">https://babeljs.io/docs/usage/cli/</font></font></a></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

@@ -33,7 +33,7 @@ export function addProduct(props) {<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如何从React Router v4的功能重定向到购物车页面？</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第401篇《如何在React Router v4中推送到历史记录？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第401篇《如何在React Router v4中推送到历史记录？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -50,9 +50,7 @@ export function addProduct(props) {<font></font>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">然后，只要位置prop可用（</font></font><code>state:{value}</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">不是组件状态），</font><font style="vertical-align: inherit;">就可以访问该值 
  </font><font style="vertical-align: inherit;">。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">MandyNear乐</span>
@@ -125,9 +123,7 @@ export default Success<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">因此，通过绑定</font></font><code>this</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">到</font></font><code>postData</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">in </font></font><code>index.jsx</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，我可以访问</font></font><code>this.props.history</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">in </font></font><code>request.js</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">...然后可以在不同的组件中重用此函数，只需确保记得记得包含</font></font><code>this.postData = postData.bind(this)</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在中</font></font><code>constructor()</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Harry前端神无</span>
@@ -150,9 +146,7 @@ handleSubmit(e) {<font></font>
 <font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Gil西里斯丁</span>
@@ -198,9 +192,7 @@ handleSubmit(e) {<font></font>
   };<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">路易EvaSam</span>
@@ -226,9 +218,7 @@ function HomeButton() {<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">有关更多信息，</font><a href="https://reacttraining.com/react-router/web/api/Hooks/usehistory" rel="noreferrer"><font style="vertical-align: inherit;">请</font></a><font style="vertical-align: inherit;">访问：</font><a href="https://reacttraining.com/react-router/web/api/Hooks/usehistory" rel="noreferrer"><font style="vertical-align: inherit;">https</font></a><font style="vertical-align: inherit;"> : </font></font><a href="https://reacttraining.com/react-router/web/api/Hooks/usehistory" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">//reacttraining.com/react-router/web/api/Hooks/usehistory</font></font></a></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

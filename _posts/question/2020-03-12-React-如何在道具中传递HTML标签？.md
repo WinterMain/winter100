@@ -27,7 +27,7 @@ topic: React.js
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">有什么方法可以让React解析HTML并将其正确转储吗？</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第961篇《React-如何在道具中传递HTML标签？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第961篇《React-如何在道具中传递HTML标签？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -40,9 +40,7 @@ topic: React.js
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">没有人建议使用react-html-parser的原因吗？</font><font style="vertical-align: inherit;">这似乎是处理导入的HTML的一种好方法，而不必危险地做</font></font></p>
 
 <p><a href="https://www.npmjs.com/package/react-html-parser" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">https://www.npmjs.com/package/react-html-parser</font></font></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">番长村村</span>
@@ -64,9 +62,7 @@ topic: React.js
     }<font></font>
 });<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">猴子樱</span>
@@ -107,9 +103,7 @@ export default function Features() {<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">也许对您有帮助，就像对我一样！</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">DavaidPro</span>
@@ -126,9 +120,7 @@ export default function Features() {<font></font>
 </code></pre>
 
 <p><a href="https://material-ui.com/components/tooltips/#CustomizedTooltips.js" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">例</font></font></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">JinJinEva</span>
@@ -138,9 +130,7 @@ export default function Features() {<font></font>
 
 <pre><code>&lt;MyComponent text={["This is ", &lt;strong&gt;not&lt;/strong&gt;,  "working."]} /&gt;
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">GreenSamA</span>
@@ -182,9 +172,7 @@ var OtherComponent = React.createClass({<font></font>
 <font></font>
 });<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">番长GreenL</span>
@@ -196,9 +184,7 @@ var OtherComponent = React.createClass({<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">更多信息：</font><a href="https://reactjs.org/blog/2017/11/28/react-v16.2.0-fragment-support.html" rel="nofollow noreferrer"><font style="vertical-align: inherit;">https</font></a><font style="vertical-align: inherit;"> : </font></font><a href="https://reactjs.org/blog/2017/11/28/react-v16.2.0-fragment-support.html" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">//reactjs.org/blog/2017/11/28/react-v16.2.0-fragment-support.html</font></font></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">凯小卤蛋</span>
@@ -229,9 +215,7 @@ var OtherComponent = React.createClass({<font></font>
    }<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">伽罗西门小胖</span>
@@ -254,9 +238,7 @@ var OtherComponent = React.createClass({<font></font>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这里是文档：</font><a href="https://facebook.github.io/react/tips/dangerously-set-inner-html.html" rel="noreferrer"><font style="vertical-align: inherit;">https</font></a><font style="vertical-align: inherit;"> :
  </font></font><a href="https://facebook.github.io/react/tips/dangerously-set-inner-html.html" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">//facebook.github.io/react/tips/dangerously-set-inner-html.html</font></font></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">null</span>
@@ -319,9 +301,7 @@ var OtherComponent = React.createClass({<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">当只有一个HTML内容要传递给组件时，此解决方案是完美的（想象一个Popin组件仅将Popin的内容作为子组件）。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">但是，如果您有多个内容，则不能使用子级（或至少需要将其与此处的其他解决方案结合使用）</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">宝儿逆天西门</span>
@@ -340,9 +320,7 @@ var MyComponent = React.createClass({<font></font>
     );<font></font>
    },<font></font>
 </code></pre></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

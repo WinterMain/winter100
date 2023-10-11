@@ -27,7 +27,7 @@ topic: CSS
 </code></pre></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第3317篇《background和background-color有什么区别》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第3317篇《background和background-color有什么区别》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -69,9 +69,7 @@ background-clip: padding-box;<font></font>
 <li><p><code>background-size</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">必须始终遵循</font></font><code>background-position</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">并且属性必须用</font></font><code>/</code></p></li>
 <li><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果</font></font><code>background-position</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">由两个数字组成，则第一个为水平值，第二个为垂直值。</font></font></p></li>
 </ul></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">APro</span>
@@ -88,9 +86,7 @@ background-clip: padding-box;<font></font>
 
 <pre><code>background-color:linear-gradient(to right, rgba(255,0,0,0), rgba(255,255,255,1));
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Stafan路易</span>
@@ -103,9 +99,7 @@ background-clip: padding-box;<font></font>
 
 <pre><code>background-image: url("image.png") 
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Tony凯</span>
@@ -114,9 +108,7 @@ background-clip: padding-box;<font></font>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">关于背景和背景颜色有一个错误</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">区别在于，使用背景时，有时是在CSS背景中创建网页时：#fff //可以覆盖Mask图片（“顶部项，文本或图片”））的块，因此最好始终使用background-安全使用的颜色，在您的设计中（如果有的话）</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">凯LEY</span>
@@ -127,9 +119,7 @@ background-clip: padding-box;<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这并不意味着它将始终覆盖这些属性的任何其他设置。</font><font style="vertical-align: inherit;">这取决于根据通常被普遍误解的规则的级联。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在实践中，速记往往更安全一些。</font><font style="vertical-align: inherit;">这是一种预防措施（虽然不完整，但很有用），以防止意外地从另一个样式表中获取一些意外的背景属性，例如背景图像。</font><font style="vertical-align: inherit;">此外，它更短。</font><font style="vertical-align: inherit;">但是您需要记住，这实际上意味着“设置所有背景属性”。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">路易神奇猪猪</span>
@@ -215,9 +205,7 @@ background-clip: padding-box;<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">最后一个数字设置背景色。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">然后，在之前，我们从背景继承（然后获得渐变）或背景色，然后得到红色。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Gil伽罗小宇宙</span>
@@ -248,9 +236,7 @@ background-clip: padding-box;<font></font>
 <p><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">边缘</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> 10：58（µs / div）</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如您所见-几乎没有区别。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">斯丁</span>
@@ -290,9 +276,7 @@ background-position<font></font>
   
   <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">只要其中一个属性值缺失，就没有关系。</font></font></p>
 </blockquote></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Eva宝儿理查德</span>
@@ -306,18 +290,14 @@ background: gray;<font></font>
 /*does not work*/<font></font>
 background-color: gray;<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">蛋蛋卡卡西</span>
             <span class="discuss-time">2020.03.24</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这是最好的答案。</font><font style="vertical-align: inherit;">速记（背景）用于重置和DRY（与正手结合）。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">LGil</span>
@@ -334,9 +314,7 @@ background-color: gray;<font></font>
 background-image: url(/myImage.jpg);<font></font>
 background-repeat: no-repeat;<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">樱小胖Mandy</span>
@@ -361,9 +339,7 @@ background-repeat: no-repeat;<font></font>
 </blockquote>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Background属性包括所有这些属性，您只需将它们写成一行即可。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Mandy</span>
@@ -399,9 +375,7 @@ background-color: #fff;<font></font>
 <h2><a href="http://www.w3schools.com/css/css_background.asp"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">更多信息</font></font></a></h2>
 
 <p><strong><em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">（请参阅标题：背景-速记属性）</font></font></em></strong></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小胖</span>
@@ -418,9 +392,7 @@ background-color: #fff;<font></font>
 <p><code>background: black;</code></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">因此，所有参数（</font></font><code>background-image</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，</font></font><code>background-position</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，</font></font><code>background-repeat</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">）将重置为默认值。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Gil伽罗小宇宙</span>
@@ -442,9 +414,7 @@ background-color: #fff;<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">因此，除了之外</font></font><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/background-color" rel="noreferrer"><code>background-color</code></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，</font></font><code>background</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">您还可以</font><font style="vertical-align: inherit;">使用</font><font style="vertical-align: inherit;">快捷方式添加一个或多个值，而无需重复任何其他   </font></font><code>background-*</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">属性。</font></font></p>
 
 <p>Which one to choose is essentially up to you, but it could also depend on specific conditions of your style declarations (e.g if you need to override just the <code>background-color</code> when inheriting other related <code>background-*</code> properties from a parent element, or if you need to remove all the values except the <code>background-color</code>).</p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">蛋蛋</span>
@@ -474,9 +444,7 @@ background-color: #fff;<font></font>
 </blockquote>
 
 <p><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">参考：</font></font></strong> <font style="vertical-align: inherit;"><a href="https://github.com/mdo/css-perf#background-vs-background-color" rel="noreferrer"><font style="vertical-align: inherit;">https </font></a><strong><font style="vertical-align: inherit;">: </font></strong></font><a href="https://github.com/mdo/css-perf#background-vs-background-color" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">//github.com/mdo/css-perf#background-vs-background-color</font></font></a></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

@@ -142,7 +142,7 @@ topic: KoaJS
 </code></pre></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第4147篇《docker-compose：nodejs + mysql无法连接mysql》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第4147篇《docker-compose：nodejs + mysql无法连接mysql》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -157,9 +157,7 @@ topic: KoaJS
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">有几点：</font></font><br><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
 1. </font></font><code>apk add --no-cache bash</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">运行</font></font><code>wait-for-it.sh</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">等待MySQL服务器是确定</font></font><br><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
 2. </font></font><code>hostname</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">是</font></font><code>0.0.0.0</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">不是</font></font><code>localhost</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">/</font></font><code>127.0.0.1</code>  </p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

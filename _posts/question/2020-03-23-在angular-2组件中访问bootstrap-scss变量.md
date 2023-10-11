@@ -46,7 +46,7 @@ $enable-flex: true; // Enable Flexbox mode<font></font>
 </code></pre></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第3021篇《在angular 2组件中访问bootstrap scss变量》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第3021篇《在angular 2组件中访问bootstrap scss变量》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -57,9 +57,7 @@ $enable-flex: true; // Enable Flexbox mode<font></font>
             <span class="discuss-time">2020.03.23</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">创建一个_colors.scss文件，复制其中的所有颜色变量，然后将该文件导入您的component.scss文件中。 </font></font></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

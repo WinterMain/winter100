@@ -25,7 +25,7 @@ dyld: Library not loaded: /usr/local/opt/icu4c/lib/libicui18n.62.dylib<font></fo
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我尝试同时卸载节点和icu4c，但问题仍然存在</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第2736篇《dyld：库未加载：在Mac上使用brew安装节点后，运行php的/usr/local/opt/icu4c/lib/libicui18n.62.dylib错误》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第2736篇《dyld：库未加载：在Mac上使用brew安装节点后，运行php的/usr/local/opt/icu4c/lib/libicui18n.62.dylib错误》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -40,9 +40,7 @@ dyld: Library not loaded: /usr/local/opt/icu4c/lib/libicui18n.62.dylib<font></fo
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">维护人员已针对当前的icu4c编译了新的php版本。 </font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">就我而言，PHP 7从0.31升至0.33，问题得以解决。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Gil伽罗小宇宙</span>
@@ -56,9 +54,7 @@ dyld: Library not loaded: /usr/local/opt/icu4c/lib/libicui18n.62.dylib<font></fo
 </div>
 </div>
 <p></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Tony路易</span>
@@ -73,9 +69,7 @@ $ ./configure<font></font>
 $ make<font></font>
 $ make install<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">古一</span>
@@ -90,18 +84,14 @@ brew install --build-from-source php@7.2<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这将构建php并将其链接到更新的库。</font><font style="vertical-align: inherit;">我发现</font></font><code>reinstall</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">工作还不够。</font><font style="vertical-align: inherit;">当目标文件夹已经存在时，新安装将停止。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我也</font></font><code>brew link --force php@7.2</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">为我的环境而努力。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">蛋蛋猿</span>
             <span class="discuss-time">2020.03.23</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">对我来说，</font></font><code>brew reinstall nodejs</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">此问题已解决-我的问题是运行Elixir / Phoenix，而不是特定于PHP，我认为这是由引起的</font></font><code>brew install postgres</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，但是重新安装并没有帮助。</font><font style="vertical-align: inherit;">我从</font></font><code>npm</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">命令</font><font style="vertical-align: inherit;">中得到它</font><font style="vertical-align: inherit;">。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">老丝</span>
@@ -112,9 +102,7 @@ brew install --build-from-source php@7.2<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">4）git checkout -B icu4c-62.1 575eb4b</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">6）brew重新安装Formula / icu4c.rb</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">乐Sam</span>
@@ -123,9 +111,7 @@ brew install --build-from-source php@7.2<font></font>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我遇到了问题，因为我的PHP（7.3）版本期望的是icu4c 63，而brew仅安装64。</font></font></p>
 
 <p><a href="https://stackoverflow.com/a/55828190/2000947"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">https://stackoverflow.com/a/55828190/2000947</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">帮助我安装了63。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">凯A</span>
@@ -162,9 +148,7 @@ sudo make install<font></font>
 
 <pre><code>export DYLD_LIBRARY_PATH=/usr/local/include
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Tony米亚</span>
@@ -184,18 +168,14 @@ brew cleanup<font></font>
 
 <pre><code>PHP 7.3.2 (cli) (built: Feb 14 2019 10:08:45) ( NTS )
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">梅</span>
             <span class="discuss-time">2020.03.23</span>
           </div>
           <div class="discuss-comment"><p><code>brew update &amp;&amp; brew upgrade</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> 为我工作</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">宝儿十三</span>
@@ -205,18 +185,14 @@ brew cleanup<font></font>
 
 <pre><code>brew upgrade node
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">LGil</span>
             <span class="discuss-time">2020.03.23</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在MacOS Mojave上，唯一可以解决的方法是 </font></font><code>brew upgrade</code></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">宝儿理查德</span>
@@ -244,9 +220,7 @@ brew upgrade {package} // for upgrading a specific package<font></font>
 
 <pre><code>brew cleanup
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">伽罗路易Tom</span>
@@ -264,9 +238,7 @@ npm 8.1.2 -&gt; 10.3.0<font></font>
 </code></pre>
 
 <p><a href="https://github.com/facebook/react-native/issues/18760#issuecomment-394041484" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">学分</font></font></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Gil伽罗小宇宙</span>
@@ -287,9 +259,7 @@ npm 8.1.2 -&gt; 10.3.0<font></font>
 <li><code>brew install icu4c</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">您现在应该具有正确版本的依赖项！</font><font style="vertical-align: inherit;">现在只是...</font></font></li>
 <li><code>git reset &amp;&amp; git checkout .</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> 清理修改后的配方。</font></font></li>
 </ol></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">宝儿理查德</span>
@@ -302,9 +272,7 @@ npm 8.1.2 -&gt; 10.3.0<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"></font><code>version</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">所返回的安装版本</font><font style="vertical-align: inherit;">在哪里？</font></font><code>info</code></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Gil</span>
@@ -317,9 +285,7 @@ npm 8.1.2 -&gt; 10.3.0<font></font>
 <p><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">根据Ryan的评论于3月14日添加</font></font></strong></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">通过运行</font></font><code>php -v</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">获取</font><font style="vertical-align: inherit;">当前正在使用的版本，</font><font style="vertical-align: inherit;">并获取正确的公式（可以在此处找到：</font></font><a href="https://formulae.brew.sh/formula/php" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">https</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> : </font><a href="https://formulae.brew.sh/formula/php" rel="noreferrer"><font style="vertical-align: inherit;">//formulae.brew.sh/formula/php</font></a><font style="vertical-align: inherit;">）以替换</font></font><code>@7.1</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">上面的命令。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">村村</span>
@@ -335,9 +301,7 @@ npm 8.1.2 -&gt; 10.3.0<font></font>
 
 <pre><code>brew reinstall https://raw.githubusercontent.com/Homebrew/homebrew-core/575eb4bbef683551e19f329f60456b13a558132f/Formula/icu4c.rb
 </code></pre></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

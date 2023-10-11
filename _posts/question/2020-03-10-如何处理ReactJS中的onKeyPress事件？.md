@@ -35,7 +35,7 @@ React.render(&lt;Test /&gt;, document.body);<font></font>
 </code></pre></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第526篇《如何处理ReactJS中的onKeyPress事件？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第526篇《如何处理ReactJS中的onKeyPress事件？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -51,9 +51,7 @@ React.render(&lt;Test /&gt;, document.body);<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这将打印在屏幕上的确切键。</font><font style="vertical-align: inherit;">因此，如果要在div处于焦点时响应所有“ a”按下，则可以将e.key与“ a”进行比较-字面上是if（e.key ===“ a”）。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">樱小卤蛋</span>
@@ -72,9 +70,7 @@ React.render(&lt;Test /&gt;, document.body);<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">希望这对某人有帮助。</font><font style="vertical-align: inherit;">:)</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">L西里</span>
@@ -83,9 +79,7 @@ React.render(&lt;Test /&gt;, document.body);<font></font>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">React不会给您传递您可能会想到的那种事件。</font><font style="vertical-align: inherit;">相反，它正在传递</font></font><a href="https://facebook.github.io/react/docs/events.html"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">综合事件</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在简短的测试中，</font></font><code>event.keyCode == 0</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">永远都是正确的。</font><font style="vertical-align: inherit;">你想要的是</font></font><code>event.charCode</code></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">乐米亚</span>
@@ -101,9 +95,7 @@ React.render(&lt;Test /&gt;, document.body);<font></font>
 </code></pre>
 
 <p><code>onKeyDown</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">检测</font></font><code>keyCode</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">事件。</font></font></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

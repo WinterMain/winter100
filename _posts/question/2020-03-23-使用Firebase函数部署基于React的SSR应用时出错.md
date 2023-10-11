@@ -18,7 +18,7 @@ topic: React.js
 我也使用public目录作为我的函数目录，</font></font><a href="https://github.com/subhendukundu/template-react-ssr/blob/feature/react-router/firebase.json" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">https://github.com/subhendukundu/template-react-ssr/blob/feature/react-router/firebase.json</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font><font style="vertical-align: inherit;">但是，即使我为云函数使用了不同的函数目录，我也会看到相同的错误。</font><font style="vertical-align: inherit;">反正有我可以解决吗？</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第2614篇《使用Firebase函数部署基于React的SSR应用时出错》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第2614篇《使用Firebase函数部署基于React的SSR应用时出错》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -31,9 +31,7 @@ topic: React.js
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">问题是，firebase托管仅支持SPA，这意味着SSR不可用，您需要在其他环境中运行SSR服务器，在其中可以运行nextJS，或者如果您使用的是静态页面生成器，则可以上传这些文件直接损害了刷新内容的能力，不过，我确信采用云功能和gatsby的解决方案是可行的。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Tl; DR：您不会从Firebase托管中获得SSR</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">ItachiTom</span>
@@ -59,9 +57,7 @@ topic: React.js
 </blockquote>
 
 <p><a href="https://mikhail.io/serverless/coldstarts/gcp/" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">更多信息</font></font></a></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

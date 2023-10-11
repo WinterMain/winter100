@@ -32,7 +32,7 @@ topic: React.js
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">（更多详细信息=&gt;例如，我希望用户单击该链接，然后该用户看到其中包含某些链接的页面，如果用户单击该链接，则react-router-dom处理路由并且没有任何请求发送到服务器）</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第3667篇《使用React路由器和Next JS路由》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第3667篇《使用React路由器和Next JS路由》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}

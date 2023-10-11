@@ -30,7 +30,7 @@ topic: Vue.js
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我有很多源代码行，我无法手动设置它们的格式。</font><font style="vertical-align: inherit;">我究竟做错了什么？</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第2459篇《为什么Prettier不格式化VSCODE中的代码？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第2459篇《为什么Prettier不格式化VSCODE中的代码？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -41,9 +41,7 @@ topic: Vue.js
             <span class="discuss-time">2020.03.20</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我将更漂亮的版本回滚到1.7.3并将其修复</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">逆天前端宝儿</span>
@@ -56,9 +54,7 @@ topic: Vue.js
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">C：\ Users \您的用户名\ .vscode \ extensions \ esbenp.prettier-vscode-2.2.2 \ out</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果缺少，请重新安装并重新安装。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">村村AL</span>
@@ -73,9 +69,7 @@ topic: Vue.js
 </blockquote>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在这种情况下，要启用您应该设置</font></font><code>"prettier.disableLanguages": []</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font><font style="vertical-align: inherit;">由于这是扩展配置，因此您应该在VSCode设置文件中而不是在</font></font><code>.prettierrc</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">老丝猪猪小卤蛋</span>
@@ -88,9 +82,7 @@ topic: Vue.js
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">您必须在VSCode中检查“保存时的格式”：</font></font><em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">设置&gt;&gt;用户&gt;&gt;文本编辑器&gt;&gt;格式</font></font></em></p>
 
 <p><a href="https://i.stack.imgur.com/unii7.png" rel="noreferrer"><img src="https://i.stack.imgur.com/unii7.png" alt="在此处输入图片说明"></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">TomL</span>
@@ -106,9 +98,7 @@ topic: Vue.js
   "semi": false<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">逆天米亚</span>
@@ -121,9 +111,7 @@ topic: Vue.js
         //   "editor.formatOnSave": true,<font></font>
     },<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">番长Near</span>
@@ -139,9 +127,7 @@ topic: Vue.js
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这为我神奇地解决了问题。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">根据您的情况，这可能会帮助您...</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">樱神奇神无</span>
@@ -150,9 +136,7 @@ topic: Vue.js
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">有时，当代码中存在语法错误时，漂亮的脚本会停止工作。</font><font style="vertical-align: inherit;">您可以通过单击</font><strong><font style="vertical-align: inherit;">Prettier</font></strong><font style="vertical-align: inherit;">旁边右下角</font><font style="vertical-align: inherit;">的</font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">x</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">按钮</font><font style="vertical-align: inherit;">来查看错误。</font></font><strong><font style="vertical-align: inherit;"></font></strong></p>
 
 <p><a href="https://i.stack.imgur.com/Zd03Y.png" rel="noreferrer"><img src="https://i.stack.imgur.com/Zd03Y.png" alt="在此处输入图片说明"></a></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

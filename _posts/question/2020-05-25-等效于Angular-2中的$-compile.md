@@ -23,7 +23,7 @@ element</span><span class="pun">.</span><span class="pln">append</span><span cla
 $compile</span><span class="pun">(</span><span class="pln">e</span><span class="pun">)(</span><span class="pln">$scope</span><span class="pun">);</span></code></pre></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第4169篇《等效于Angular 2中的$ compile》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第4169篇《等效于Angular 2中的$ compile》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -40,9 +40,7 @@ $compile</span><span class="pun">(</span><span class="pln">e</span><span class="
 <p>If you want to load whole component in some place, use DynamicComponentLoader:</p>
 
 <p><a href="https://angular.io/docs/ts/latest/api/core/DynamicComponentLoader-class.html" rel="nofollow">https://angular.io/docs/ts/latest/api/core/DynamicComponentLoader-class.html</a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">卡卡西Near</span>
@@ -132,9 +130,7 @@ $compile</span><span class="pun">(</span><span class="pln">e</span><span class="
         </span><span class="pun">});</span><span class="pln">
     </span><span class="pun">}</span><span class="pln">
 </span><span class="pun">}</span></code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">三千曜米亚</span>
@@ -154,18 +150,14 @@ $compile</span><span class="pun">(</span><span class="pln">e</span><span class="
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">HTML：</font></font></p>
 
 <pre class="lang-js prettyprint prettyprinted" style=""><code><span class="pun">&lt;</span><span class="pln">div </span><span class="pun">[</span><span class="pln">p3x</span><span class="pun">-</span><span class="pln">compile</span><span class="pun">]=</span><span class="str">"data"</span><span class="pln"> </span><span class="pun">[</span><span class="pln">p3x</span><span class="pun">-</span><span class="pln">compile</span><span class="pun">-</span><span class="pln">context</span><span class="pun">]=</span><span class="str">"ctx"</span><span class="pun">&gt;</span><span class="pln">loading </span><span class="pun">...&lt;/</span><span class="pln">div</span><span class="pun">&gt;</span></code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">别坑我</span>
             <span class="discuss-time">2020.05.25</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">您可以看到该组件，该组件允许编译简单的动态Angular组件</font></font><a href="https://www.npmjs.com/package/@codehint-ng/html-compiler" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">https://www.npmjs.com/package/@codehint-ng/html-compiler</font></font></a></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

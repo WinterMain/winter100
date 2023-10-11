@@ -17,7 +17,7 @@ topic: Vue.js
     <div class="article-content"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我阅读了文档，但我听不懂。</font><font style="vertical-align: inherit;">我知道哪些数据可以计算，监视，执行方法，但是</font></font><code>nextTick()</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在vuejs中有</font><font style="vertical-align: inherit;">什么</font><font style="vertical-align: inherit;">用？</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第487篇《什么是nextTick或在VueJs中做什么》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第487篇《什么是nextTick或在VueJs中做什么》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -43,9 +43,7 @@ topic: Vue.js
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">您可以在小提琴中看到，使用setTimeOut时，一旦装入组件，然后适应更改，初始数据将非常短暂地闪烁。</font><font style="vertical-align: inherit;">而使用nextTick时，数据被劫持，更改，然后呈现给浏览器。</font><font style="vertical-align: inherit;">因此，浏览器甚至在不了解旧数据的情况下也显示了更新的数据。</font><font style="vertical-align: inherit;">希望能一举解决两个概念。</font></font></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

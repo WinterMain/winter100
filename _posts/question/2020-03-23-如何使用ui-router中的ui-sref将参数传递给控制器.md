@@ -61,7 +61,7 @@ topic: HTML
 </code></pre></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第2814篇《如何使用ui-router中的ui-sref将参数传递给控制器》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第2814篇《如何使用ui-router中的ui-sref将参数传递给控制器》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -72,9 +72,7 @@ topic: HTML
             <span class="discuss-time">2020.03.23</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">您只是拼写错误</font></font><code>$stateParam</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，应该是</font></font><code>$stateParams</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">（带有s）。</font><font style="vertical-align: inherit;">这就是为什么您不确定的原因;）</font></font></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

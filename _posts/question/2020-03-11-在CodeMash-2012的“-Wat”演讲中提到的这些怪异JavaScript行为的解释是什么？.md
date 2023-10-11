@@ -64,7 +64,7 @@ NaNNaNNaNNaNNaNNaNNaNNaNNaNNaNNaNNaNNaNNaNNaNNaN<font></font>
 <p>I suspect this is just straightforward behaviour that trying to subtract a number from a string results in NaN.</p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第597篇《在CodeMash 2012的“ Wat”演讲中提到的这些怪异JavaScript行为的解释是什么？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第597篇《在CodeMash 2012的“ Wat”演讲中提到的这些怪异JavaScript行为的解释是什么？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -109,9 +109,7 @@ TypeError: Cannot convert object to primitive value<font></font>
 <p><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">第二步（第11.6.1节）：</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果一个操作数是一个字符串，则另一个操作数也将转换为字符串，并通过串联两个字符串来产生结果。</font><font style="vertical-align: inherit;">否则，两个操作数都将转换为数字，并通过将它们相加来产生结果。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">转换过程的详细说明：“ </font></font><a href="http://www.2ality.com/2012/01/object-plus-object.html" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">JavaScript中的{} + {}是什么？</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">”</font></font></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

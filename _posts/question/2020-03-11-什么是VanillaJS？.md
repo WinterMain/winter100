@@ -38,7 +38,7 @@ topic: JavaScript
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">对于一个可能很愚蠢的问题，我感到抱歉，但是我不知道人们说“ VanillaJS”时在说什么。</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第688篇《什么是VanillaJS？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第688篇《什么是VanillaJS？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -56,18 +56,14 @@ topic: JavaScript
 
 <pre><code>VanillaJS === plain `JavaScript`
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">乐小小猪猪</span>
             <span class="discuss-time">2020.03.11</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">完全没有区别，</font></font><code>VanillaJS</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">只是引用本机（非扩展和基于标准的）JavaScript的一种方法。</font><font style="vertical-align: inherit;">一般来说，当使用诸如jQuery和React之类的库和框架时，这是一个对比术语。</font><font style="vertical-align: inherit;">网站</font></font><a href="http://www.vanilla-js.com" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">www.vanilla-js.com</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">只是在开玩笑地强调它，就像说</font><a href="http://www.vanilla-js.com" rel="nofollow noreferrer"><font style="vertical-align: inherit;">回话</font></a><font style="vertical-align: inherit;">一样，</font></font><code>VanillaJS</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">它是一个快速，轻量级且跨平台的框架。</font><font style="vertical-align: inherit;">浑水！</font><font style="vertical-align: inherit;">因此，这可能是一个哲学问题：“在</font></font><code>JavaScript</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">没有</font></font><code>VanillaJS</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">自己的</font><font style="vertical-align: inherit;">情况下，</font><font style="vertical-align: inherit;">我有多少东西可以编译为Vanilla </font><font style="vertical-align: inherit;">？” </font><font style="vertical-align: inherit;">因此，一个简单的指导方针是：如果您可以编写代码并在没有任何其他工具或所谓的编译步骤的情况下，在任何当前的Web浏览器中运行代码，则可能是</font></font><code>VanillaJS</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">神乐Near</span>
@@ -76,9 +72,7 @@ topic: JavaScript
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">“香草JS”是一个讽刺的网站在2012年出版后，得到了流行的表达（</font></font><a href="http://vanilla-js.com/" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">http://vanilla-js.com/</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">）。有覆盖它的故事节/意在</font></font><a href="https://snipcart.com/blog/learn-vanilla-javascript-before-using-js-frameworks#definition" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这篇文章</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">那么为什么开玩笑呢？</font><font style="vertical-align: inherit;">这是对依靠jQuery和其他JS库的老式弯管反应的现代回应。</font><font style="vertical-align: inherit;">借助ECMAScript规范和现代浏览器功能，不再需要使用外部库绕过普通JS来保持跨浏览器的一致性。</font><font style="vertical-align: inherit;">这是一个通过具体示例向您展示这是多么真实的网站：http: </font></font><a href="http://youmightnotneedjquery.com/" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">//youmightnotneedjdj.com/</font></font></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">樱猿</span>
@@ -89,18 +83,14 @@ topic: JavaScript
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">人们以此为笑话来提醒其他开发人员，如今无需额外的JavaScript库即可完成许多工作。  </font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这是一个有趣的网站，开玩笑地谈论了这一点：</font><a href="http://vanilla-js.com/"><font style="vertical-align: inherit;">http</font></a><font style="vertical-align: inherit;"> : </font></font><a href="http://vanilla-js.com/"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">//vanilla-js.com/</font></font></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">斯丁Sam</span>
             <span class="discuss-time">2020.03.11</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">简单而简单的答案是肯定的，按照B. Eich博士的规定，VanillaJS === JavaScript。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小胖十三</span>
@@ -111,9 +101,7 @@ topic: JavaScript
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">它有时被讽刺地称为库，这对于那些可能会盲目使用不同框架（尤其是jQuery）的人来说是一个玩笑。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">到目前为止，有些人已经发布了该库，通常使用一个空的或仅注释的js文件。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">泡芙村村Pro</span>
@@ -145,9 +133,7 @@ topic: JavaScript
 <ul>
 <li><a href="https://softwareengineering.stackexchange.com/questions/261164/is-vanilla-js-still-considered-a-library"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">https://softwareengineering.stackexchange.com/questions/261164/is-vanilla-js-still-considered-a-library</font></font></a></li>
 </ul></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">飞云逆天</span>
@@ -161,9 +147,7 @@ topic: JavaScript
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如您所见，它实际上不是框架或库。</font><font style="vertical-align: inherit;">对于喜欢框架的老板或认为您需要使用JS框架的人来说，这只是一个小插曲。</font><font style="vertical-align: inherit;">这意味着您仅使用您的浏览器（出于您自己的考虑：非传统）提供的任何功能（在使用旧版浏览器时使用Vanilla JS是个坏主意）。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Harry逆天</span>
@@ -180,9 +164,7 @@ topic: JavaScript
 </blockquote>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这是YouTube上有关VanillaJS的精彩演讲：</font></font><a href="https://www.youtube.com/watch?v=-OqZzV__hts" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">什么是Vanilla JS？</font></font></a></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

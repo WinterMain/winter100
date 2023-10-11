@@ -40,7 +40,7 @@ app.post('/category', function(req, res) {<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果我发现发送的数据</font></font><code>/category</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">无效，我想向</font></font><code>/</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">页面</font><font style="vertical-align: inherit;">传递一些其他上下文</font><font style="vertical-align: inherit;">。</font><font style="vertical-align: inherit;">我该怎么办？</font><font style="vertical-align: inherit;">重定向似乎不允许任何额外的参数。</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第2492篇《在传递一些上下文时如何在expressjs中重定向？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第2492篇《在传递一些上下文时如何在expressjs中重定向？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -65,9 +65,7 @@ app.post('/category', function(req, res) {<font></font>
         res.redirect("/");<font></font>
     }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">神无小胖</span>
@@ -100,9 +98,7 @@ app.post("/category", function(req, res) {<font></font>
     res.redirect("/");<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

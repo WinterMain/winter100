@@ -82,7 +82,7 @@ Vue.use(system)<font></font>
 <p><a href="https://www.samyoc.com//uploads/users/3595/images/thumbnails/1585046065267.png" data-src="https://www.samyoc.com//uploads/users/3595/images/1585046065267.png" rel="nofollow noreferrer"><img src="https://i.stack.imgur.com/1OnY7.png" alt="在此处输入图片说明"></a></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第3668篇《在Nuxt中使用Vue设计系统会在system.js中引发有关导出的错误》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第3668篇《在Nuxt中使用Vue设计系统会在system.js中引发有关导出的错误》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}

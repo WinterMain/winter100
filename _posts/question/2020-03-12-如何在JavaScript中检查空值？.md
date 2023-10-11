@@ -27,7 +27,7 @@ topic: JavaScript
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在JavaScript程序中如何找到错误？</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第1062篇《如何在JavaScript中检查空值？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第1062篇《如何在JavaScript中检查空值？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -45,9 +45,7 @@ topic: JavaScript
         console.log("var is NOT null or undefined");<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">DavaidAPro</span>
@@ -79,9 +77,7 @@ topic: JavaScript
 <li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">假 </font></font></li>
 <li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">0</font></font></li>
 </ul></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">逆天米亚</span>
@@ -140,9 +136,7 @@ var item = undefined; // isEmpty? true<font></font>
 <font></font>
 console.log("isEmpty? "+isEmpty(item));<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">ItachiDavaid</span>
@@ -154,9 +148,7 @@ console.log("isEmpty? "+isEmpty(item));<font></font>
     // variable is null<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">阿飞米亚</span>
@@ -185,9 +177,7 @@ city= undefined<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">参考链接：</font><a href="https://lodash.com/docs/#isNil" rel="nofollow noreferrer"><font style="vertical-align: inherit;">https</font></a><font style="vertical-align: inherit;"> : </font></font><a href="https://lodash.com/docs/#isNil" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">//lodash.com/docs/#isNil</font></font></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">神无Davaid</span>
@@ -202,9 +192,7 @@ city= undefined<font></font>
    return "not available"<font></font>
  }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">神无Tom</span>
@@ -218,9 +206,7 @@ city= undefined<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这将检查空字符串（</font></font><code>""</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">）， ，</font><font style="vertical-align: inherit;">，</font></font><code>null</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> </font><font style="vertical-align: inherit;">以及数字</font><font style="vertical-align: inherit;">和</font></font><code>undefined</code><font style="vertical-align: inherit;"></font><code>false</code><font style="vertical-align: inherit;"></font><code>0</code><font style="vertical-align: inherit;"></font><code>NaN</code></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">请注意，如果您专门检查数字，则</font></font><code>0</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">使用此方法</font><font style="vertical-align: inherit;">时常会</font><font style="vertical-align: inherit;">犯错，</font><font style="vertical-align: inherit;">对于返回的函数，它</font></font><code>num !== 0</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">是首选（</font></font><code>num !== -1</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">或</font></font><code>~num</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">（</font><font style="vertical-align: inherit;">或</font><font style="vertical-align: inherit;">（也检查了错误代码</font></font><code>-1</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">）））</font></font><code>-1</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，例如</font></font><code>indexOf</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">）</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">西门达蒙</span>
@@ -247,9 +233,7 @@ if ([pass, cpass, email, cemail, user].every(x=&gt;x!==null)) {<font></font>
 </div>
 </div>
 <p></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小小Pro</span>
@@ -286,9 +270,7 @@ if ([pass, cpass, email, cemail, user].every(x=&gt;x!==null)) {<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果您确定这</font></font><code>pass</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">是一个字符串，那么</font></font><code>pass == ''</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">也将起作用，因为只有一个空字符串大致等于该空字符串。</font><font style="vertical-align: inherit;">另一方面，一些专家说，除非您特别想执行松散相等运算符执行的类型强制，否则始终在JavaScript中始终使用严格相等是一种好习惯。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果您想知道哪些值对大致相等，请参阅</font></font><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Equality_comparisons_and_sameness" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">关于此主题</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">的</font><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Equality_comparisons_and_sameness" rel="nofollow"><font style="vertical-align: inherit;">Mozilla文章</font></a><font style="vertical-align: inherit;">中的“相似性比较”表</font><font style="vertical-align: inherit;">。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Green老丝Itachi</span>
@@ -303,9 +285,7 @@ if ([pass, cpass, email, cemail, user].every(x=&gt;x!==null)) {<font></font>
 
 <pre><code>if(isNaN(variable) &amp;&amp; typeof variable === "number")
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">阳光阿飞</span>
@@ -318,9 +298,7 @@ if ([pass, cpass, email, cemail, user].every(x=&gt;x!==null)) {<font></font>
 <p><code>===</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> 是严格的平等比较</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">有关</font><font style="vertical-align: inherit;">更多详细信息，</font><font style="vertical-align: inherit;">请参见MDN上有关“ </font></font><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Equality_comparisons_and_sameness" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">平等比较和相同性”的</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">文章</font><font style="vertical-align: inherit;">。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">老丝猿路易</span>
@@ -336,9 +314,7 @@ if ([pass, cpass, email, cemail, user].every(x=&gt;x!==null)) {<font></font>
 <font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

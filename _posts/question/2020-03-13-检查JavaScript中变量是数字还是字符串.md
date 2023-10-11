@@ -17,7 +17,7 @@ topic: JavaScript
     <div class="article-content"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">有谁知道如何检查JavaScript中的变量是数字还是字符串？</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第1441篇《检查JavaScript中变量是数字还是字符串》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第1441篇《检查JavaScript中变量是数字还是字符串》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -31,9 +31,7 @@ topic: JavaScript
 
 <pre><code>return !!Object.prototype.toString.call(input).match(/\[object (String|Number)\]/);
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">西门Jim</span>
@@ -43,9 +41,7 @@ topic: JavaScript
     return ((num &gt;=0 || num &lt; 0)&amp;&amp; (parseInt(num)==num) );<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">GreenSamA</span>
@@ -62,9 +58,7 @@ topic: JavaScript
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果要处理定义为对象或文字的字符串并进行保存，则不想使用辅助函数。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">null</span>
@@ -83,9 +77,7 @@ topic: JavaScript
 
 <pre><code>!isNaN(+variable);
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">猿神奇梅</span>
@@ -101,9 +93,7 @@ function isFloat(val) {<font></font>
   return val.match(/^[0-9]*/\.[0-9]+$/)<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">TomGO梅</span>
@@ -115,9 +105,7 @@ function isFloat(val) {<font></font>
   return !isNaN( parseFloat( obj ) ) &amp;&amp; isFinite( obj );<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">西里神奇</span>
@@ -129,9 +117,7 @@ function isFloat(val) {<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">处理这个。</font><font style="vertical-align: inherit;">有关</font><a href="http://api.jquery.com/jQuery.isNumeric/" rel="nofollow"><font style="vertical-align: inherit;">http://api.jquery.com/jQuery.isNumeric/的</font></a><font style="vertical-align: inherit;">更多详细信息</font></font><a href="http://api.jquery.com/jQuery.isNumeric/" rel="nofollow"><font style="vertical-align: inherit;"></font></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">路易理查德</span>
@@ -147,9 +133,7 @@ function isFloat(val) {<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">用于检查变量是否为字符串（即使使用</font></font><code>var str = new String("foo")</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，</font></font><code>str instanceof String</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">也将返回true）。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">至于检查，如果它是一个数字我会去的原生：</font></font><code>isNaN</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">; </font><font style="vertical-align: inherit;">功能。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">JimGO</span>
@@ -163,9 +147,7 @@ function isFloat(val) {<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">经过几个月的进一步审查，这只能保证</font></font><code>obj</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">是一个</font></font><code>toLowerCase</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">定义</font><font style="vertical-align: inherit;">了方法或属性名称的对象</font><font style="vertical-align: inherit;">。</font><font style="vertical-align: inherit;">我为自己的回答感到ham愧。</font><font style="vertical-align: inherit;">请参阅票数最高的</font></font><code>typeof</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">一个。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">泡芙Tom</span>
@@ -211,9 +193,7 @@ function is_string(x) { return x === x+""; }<font></font>
 
 <pre><code>function is_undefined(x) { return x===void(0); }
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">路易米亚</span>
@@ -228,9 +208,7 @@ else<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">是的，使用jQuery </font></font><code>$.isNumeric()</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">更有趣。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">十三西里GO</span>
@@ -254,9 +232,7 @@ alert("This is NOT a number \n")<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这是我最近做的一种方式。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Green老丝Itachi</span>
@@ -279,9 +255,7 @@ console.log(!isNaN("2005/12/12"));</code></pre>
 <p></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">请参见</font><font style="vertical-align: inherit;">MDN上的</font></font><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/isNaN" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">JavaScript isNaN（）函数</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">米亚阿飞</span>
@@ -320,9 +294,7 @@ assertFalse(isString({}), "object");<font></font>
     return typeof o == "number" || (typeof o == "object" &amp;&amp; o.constructor === Number);<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

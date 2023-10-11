@@ -57,7 +57,7 @@ topic: HTML
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我还应该提到，我的测试环境是Ubuntu 9.10上的Firefox 3.5。</font><font style="vertical-align: inherit;">我尝试过的其他浏览器-Opera，Midori，Chromium和Epiphany-产生了不同的结果。</font><font style="vertical-align: inherit;">有些不玩任何东西，有些则抛出异常。</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第3248篇《JavaScript / HTML5中的声音效果》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第3248篇《JavaScript / HTML5中的声音效果》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -68,9 +68,7 @@ topic: HTML
             <span class="discuss-time">2020.03.24</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">您可以随时尝试</font></font><a href="https://developer.mozilla.org/en-US/docs/Web/API/AudioContext" rel="nofollow"><code>AudioContext</code></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">获得有限的支持，但这是</font></font><a href="https://webaudio.github.io/web-audio-api/#the-audiocontext-interface" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Web音频api</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">工作草案的一部分。</font><font style="vertical-align: inherit;">如果您计划将来发布某些内容，那可能是值得的。</font><font style="vertical-align: inherit;">而且，如果您只为chrome和Firefox编程，那您就是无价之宝。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">古一村村</span>
@@ -89,9 +87,7 @@ topic: HTML
 <p><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这当然不是理想的选择，</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">但您可以仅基于创造力（以及它是开源的，并且可以在我尝试过的任何浏览器中使用）为此解决方案+1，希望此举至少能使其他人搜索到一些想法。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">:)</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">老丝阿飞</span>
@@ -128,9 +124,7 @@ topic: HTML
 
 <pre><code>playSomeSounds("sounds/welcome.wav");
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">蛋蛋Davaid</span>
@@ -148,18 +142,14 @@ topic: HTML
 </ul>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">希望能有所帮助。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">HarryL</span>
             <span class="discuss-time">2020.03.24</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">不可能使用单个</font></font><code>&lt;audio&gt;</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">元素</font><font style="vertical-align: inherit;">进行多次射击</font><font style="vertical-align: inherit;">。</font><font style="vertical-align: inherit;">为此，您需要使用多个元素。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">番长樱梅</span>
@@ -175,9 +165,7 @@ topic: HTML
  </font></font><a href="http://musicbox.grit.it/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">//musicbox.grit.it/</font></font></a></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我为多个浏览器播放生成了wav + ogg文件。</font><font style="vertical-align: inherit;">此音乐盒播放器可在ipad，iphone，Nexus，mac，pc等设备上响应。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小胖路易</span>
@@ -190,9 +178,7 @@ topic: HTML
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我可以在Firefox和Chrome中正常运行。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">要停止开始的声音，请执行var sound = document.getElementById（“ shot”）。cloneNode（true）;。</font><font style="vertical-align: inherit;">sound.play（）; </font><font style="vertical-align: inherit;">以及后来的sound.pause（）;</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">凯樱Gil</span>
@@ -203,9 +189,7 @@ topic: HTML
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果您需要播放其中一个以上的声音，则可以创建一个具有相同src的附加音频元素，以便对其进行缓存。</font><font style="vertical-align: inherit;">现在，您实际上有多个“轨道”。</font><font style="vertical-align: inherit;">您可以使用自己喜欢的资源分配方案（如Round Robin等）利用轨道组。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">您还可以指定其他选项，例如在该资源可用时将声音排队到要播放的曲目中或剪切当前正在播放的样本。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">西里斯丁</span>
@@ -221,9 +205,7 @@ e.play();<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">（</font></font><code>e</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">是音频元素）</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">也许我完全误解了您的问题，您是否希望声音效果同时播放多次？</font><font style="vertical-align: inherit;">那么这是完全错误的。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Jim猴子Eva</span>
@@ -234,9 +216,7 @@ e.play();<font></font>
 <blockquote>
   <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">您可以同时触发多个音频事件，这些事件可用于创建Javascript游戏或通过某些背景音乐进行语音播放</font></font></p>
 </blockquote></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Davaid小哥</span>
@@ -245,9 +225,7 @@ e.play();<font></font>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">听起来像您想要的是多声道声音。</font><font style="vertical-align: inherit;">假设您有4个频道（例如在非常古老的16位游戏中），我还没有完全使用HTML5音频功能，但是您是否只需要4个&lt;audio&gt;元素，并使用了循环播放下一个音效？</font><font style="vertical-align: inherit;">你有尝试过吗？</font><font style="vertical-align: inherit;">怎么了？</font><font style="vertical-align: inherit;">如果有效：要同时播放更多声音，只需添加更多&lt;audio&gt;元素。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我之前没有HTML5 &lt;audio&gt;元素，使用了</font></font><a href="http://flash-mp3-player.net/" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">http://flash-mp3-player.net/中的</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">一个Flash对象来完成此操作</font><font style="vertical-align: inherit;">-我写了一个音乐测验（</font></font><a href="http://webdeavour.appspot.com/" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">http://webdeavour.appspot.com/</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">），当用户单击问题按钮时，用它来播放音乐片段。</font><font style="vertical-align: inherit;">最初，每个问题只有一个播放器，可以将它们彼此叠加播放，因此我将其更改为只有一个播放器，我指的是不同的音乐片段。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">卡卡西Near</span>
@@ -267,9 +245,7 @@ e.play();<font></font>
 </ul>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我使用这篇</font></font><a href="http://www.html5rocks.com/en/tutorials/webaudio/intro/" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">WebAudio入门</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">文章来开始使用WebAudio API。</font><font style="vertical-align: inherit;">该</font></font><a href="http://www.html5rocks.com/en/tutorials/webaudio/fieldrunners/" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">炮塔防御WebAudio案例</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">也很好看。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">番长樱梅</span>
@@ -299,9 +275,7 @@ function player(x)<font></font>
 
 <pre><code>player("step");
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">宝儿DavaidL</span>
@@ -331,9 +305,7 @@ snd.play();<font></font>
 <hr>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果您正在编写游戏或音乐应用程序（不仅仅是播放器），则需要使用</font></font><a href="https://www.w3.org/TR/webaudio/" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">更高级的Web Audio API</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，</font></font><a href="http://caniuse.com/audio-api" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">大多数浏览器</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">现在都</font><a href="http://caniuse.com/audio-api" rel="noreferrer"><font style="vertical-align: inherit;">支持</font></a><font style="vertical-align: inherit;">该</font><a href="https://www.w3.org/TR/webaudio/" rel="noreferrer"><font style="vertical-align: inherit;">API</font></a><font style="vertical-align: inherit;">。</font></font></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

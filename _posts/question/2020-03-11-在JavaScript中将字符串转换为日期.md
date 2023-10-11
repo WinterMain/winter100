@@ -23,7 +23,7 @@ var dt_st= //st in date format same as dt<font></font>
 </code></pre></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第808篇《在JavaScript中将字符串转换为日期》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第808篇《在JavaScript中将字符串转换为日期》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -44,9 +44,7 @@ var dt_st= //st in date format same as dt<font></font>
 <p><code>"2014/10/13 23:57:52"</code>
 instead of
 <code>"2014-10-13 23:57:52"</code></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">十三老丝</span>
@@ -64,9 +62,7 @@ function strToDate(dateString){<font></font>
 }<font></font>
 alert(strToDate(dateString));<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">猪猪小卤蛋</span>
@@ -99,9 +95,7 @@ a = "3/2/2017";<font></font>
 console.log(a.toDate("dmy"));<font></font>
 // Date 2017-02-03T00:00:00.000Z<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">飞云逆天</span>
@@ -116,9 +110,7 @@ console.log(a.toDate("dmy"));<font></font>
 <font></font>
 dateToUTC(new Date());<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">梅卡卡西Eva</span>
@@ -129,18 +121,14 @@ dateToUTC(new Date());<font></font>
 
 <pre><code>"17/9/2014".toDate("dd/MM/yyyy", "/")
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">十三西门</span>
             <span class="discuss-time">2020.03.11</span>
           </div>
           <div class="discuss-comment"><p>check out datejs library <a href="http://www.datejs.com/" rel="noreferrer">http://www.datejs.com/</a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">null</span>
@@ -154,9 +142,7 @@ var dt = new Date(arrayDate[3], arrayDate[2] - 1, arrayDate[1]);<font></font>
 </code></pre>
 
 <p>This solution works in IE versions less than 9.</p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Near路易蛋蛋</span>
@@ -165,9 +151,7 @@ var dt = new Date(arrayDate[3], arrayDate[2] - 1, arrayDate[1]);<font></font>
           <div class="discuss-comment"><p><code>new Date(2000, 10, 1)</code> will give you "Wed Nov 01 2000 00:00:00 GMT+0100 (CET)" </p>
 
 <p>See that 0 for month gives you January</p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">十三凯</span>
@@ -182,9 +166,7 @@ var dt = new Date(arrayDate[3], arrayDate[2] - 1, arrayDate[1]);<font></font>
 
 <pre><code>momentDate ().toDate();
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">十三卡卡西</span>
@@ -208,9 +190,7 @@ stringToDate("17/9/2014","dd/MM/yyyy","/");<font></font>
 stringToDate("9/17/2014","mm/dd/yyyy","/")<font></font>
 stringToDate("9-17-2014","mm-dd-yyyy","-")<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Tom神奇</span>
@@ -223,9 +203,7 @@ var dt = new Date(st);<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">您可以使用，例如访问日期，月份，年份：</font></font><code>dt.getMonth()</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

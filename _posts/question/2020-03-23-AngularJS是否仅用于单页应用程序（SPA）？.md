@@ -32,7 +32,7 @@ topic: Node.js
 <p><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">2016年6月18日更新</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">项目跌入悬崖，所以我们从来没有回避太多的事情。</font><font style="vertical-align: inherit;">我们最近再次选择了它，但是不再使用angular而是使用React。</font><font style="vertical-align: inherit;">我们仍在使用上一个更新中概述的架构，其中我们使用Express和自包含应用程序，因此，例如，我们</font></font><code>/chat</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在Express中</font><font style="vertical-align: inherit;">有一条</font><font style="vertical-align: inherit;">路线可以服务我们的React聊天应用程序，而在另一条路线中</font></font><code>/projects</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">可以服务项目应用程序，以此类推。</font><font style="vertical-align: inherit;">我们从某种角度看待它的方式是，每个应用程序在其功能集方面都是一个聚合根，它需要能够独立运行，才能将其本身视为一个应用程序。</font><font style="vertical-align: inherit;">从技术上讲，所有信息都在那里，它只是基本表达，以及您想要使用的客户端应用程序构建优势的任何形式。</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第2911篇《AngularJS是否仅用于单页应用程序（SPA）？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第2911篇《AngularJS是否仅用于单页应用程序（SPA）？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -51,9 +51,7 @@ topic: Node.js
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">链接：</font></font><br>
 <a href="https://vuejs.org/" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">https </font></font></a><font style="vertical-align: inherit;"><a href="http://aurelia.io/" rel="nofollow noreferrer"><font style="vertical-align: inherit;">：</font></a><font style="vertical-align: inherit;"> //vuejs.org/http：</font></font><br>
 <a href="http://aurelia.io/" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">//aurelia.io/</font></font></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">阿飞</span>
@@ -78,9 +76,7 @@ topic: Node.js
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">认为所有这些“只能在单个页面应用程序中使用”是很疯狂的。</font><font style="vertical-align: inherit;">当然不是..这就像说“ Jquery仅用于带有动画的项目”。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果适合您的项目，请使用它。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">泡芙</span>
@@ -106,9 +102,7 @@ https://host/map/favorites/#/add/<font></font>
 <blockquote>
   <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">项目和应用之间有什么区别？</font><font style="vertical-align: inherit;">应用程序是执行某项操作的Web应用程序，例如Weblog系统，公共记录数据库或简单的民意调查应用程序。</font><font style="vertical-align: inherit;">项目是特定网站的配置和应用程序的集合。</font><font style="vertical-align: inherit;">一个项目可以包含多个应用程序。</font><font style="vertical-align: inherit;">一个应用程序可以在多个项目中。</font></font></p>
 </blockquote></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">西里Near</span>
@@ -137,18 +131,14 @@ myCo.page = {<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">关键是，您可以在需要时使用所需的任何工具。</font><font style="vertical-align: inherit;">需要数据绑定吗？</font><font style="vertical-align: inherit;">淘汰赛（或您喜欢的任何东西）。</font><font style="vertical-align: inherit;">需要路由吗？</font><font style="vertical-align: inherit;">sammy.js（或您喜欢的任何内容）。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">客户端代码可以根据需要简单或复杂。</font><font style="vertical-align: inherit;">我试图用现有的专有框架将Angular集成到一个非常复杂的站点中，这是一场噩梦。</font><font style="vertical-align: inherit;">如果您刚开始学习，Angular很棒，但是它具有学习曲线，使您陷入非常紧张的工作流程。</font><font style="vertical-align: inherit;">如果您不遵循它，那么您的代码可能会很快陷入混乱。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">村村</span>
             <span class="discuss-time">2020.03.23</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">一开始，我也对Angular的“方式”感到困惑。</font><font style="vertical-align: inherit;">然后有一天我突然意识到：“这仍然是javascript”。</font><font style="vertical-align: inherit;">关于Angular的来龙去脉有很多示例（我最喜欢的示例之一，还有这本书</font></font><a href="https://github.com/angular-app/angular-app" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">https://github.com/angular-app/angular-app</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">）。</font><font style="vertical-align: inherit;">要记住的最大事情是像在其他任何项目中一样加载js文件。</font><font style="vertical-align: inherit;">您要做的就是确保不同的页面引用正确的Angular对象（控制器，视图等），并且您已启动并正在运行。</font><font style="vertical-align: inherit;">我希望这是有道理的，但是答案是如此简单，以至于我忽略了它。</font></font></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

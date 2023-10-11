@@ -47,7 +47,7 @@ topic: CSS
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">更新：我写了</font></font><a href="http://www.only10types.com/2012/02/get-eclipse-to-automatically-compile.html" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">一篇</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">有关如何使用ant脚本作为构建器</font><a href="http://www.only10types.com/2012/02/get-eclipse-to-automatically-compile.html" rel="noreferrer"><font style="vertical-align: inherit;">的博客文章</font></a><font style="vertical-align: inherit;">，但我仍在寻找更好的方法。</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第3350篇《Eclipse插件可自动编译Sass文件》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第3350篇《Eclipse插件可自动编译Sass文件》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -72,9 +72,7 @@ topic: CSS
 </ul>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">sass CLI将自动检查源文件夹（在我的配置中为资源）内已修改的资源，并将其编译到目标文件夹（在我的配置中为web）。</font><font style="vertical-align: inherit;">同样，@ import修改后的资源的所有.sass文件都将被编译。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">樱</span>
@@ -111,9 +109,7 @@ topic: CSS
   
   <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">engine = Sass :: Engine.new（“＃main {background-color：＃0000ff}”，：syntax =&gt;：scss）engine.render＃=&gt;“ #main {background-color：＃0000ff;} \ n”</font></font></p>
 </blockquote></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">伽罗理查德</span>
@@ -138,9 +134,7 @@ topic: CSS
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">注意：我可能错过了一两个步骤。</font><font style="vertical-align: inherit;">这是我完成安装后记得的内容。</font><font style="vertical-align: inherit;">如果您遇到任何问题，请发表评论，我会尽力帮助您。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">塔雷克</font></font></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

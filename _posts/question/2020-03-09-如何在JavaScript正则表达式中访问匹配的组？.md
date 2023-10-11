@@ -41,7 +41,7 @@ console.log(arr[0]);  // Prints: format_undefined (!!!)<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">问题在于</font></font><code>console.log</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">它的参数就像一条</font></font><code>printf</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">语句一样，并且由于我正在记录的字符串（</font></font><code>"%A"</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">）具有特殊值，因此它试图查找下一个参数的值。</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第277篇《如何在JavaScript正则表达式中访问匹配的组？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第277篇《如何在JavaScript正则表达式中访问匹配的组？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -59,9 +59,7 @@ console.log(arr[0]);  // Prints: format_undefined (!!!)<font></font>
 </code></pre>
 
 <p><strong>In the code \1 represented matched by first group ([a-z])</strong></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">GilJinJin</span>
@@ -79,9 +77,7 @@ console.log(m);</code></pre>
 </div>
 </div>
 <p></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Davaid阳光伽罗</span>
@@ -91,9 +87,7 @@ console.log(m);</code></pre>
 
 <pre><code>while ( ( match = myRegex.exec( myStr ) ) &amp;&amp; matches.push( match[1] ) ) {};
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">伽罗Tony小卤蛋</span>
@@ -107,9 +101,7 @@ console.log( JSON.stringify(matches) ); // will print ["This is cool","This is",
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">位置0有一个包含所有结果的字符串。</font><font style="vertical-align: inherit;">位置1的第一个匹配项用括号表示，位置2的第二个匹配项用括号括起来。</font><font style="vertical-align: inherit;">嵌套括号很棘手，所以要当心！</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">满天星</span>
@@ -122,9 +114,7 @@ console.log(arr[0]);  // prints:  format_abc<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">编辑：Safari 3，如果有关系。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">TonyStafan</span>
@@ -169,9 +159,7 @@ console.log(Array.from(matches, m =&gt; m[1])); // All match (Group 1) values<fo
 <p></p>
 
 <p><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">注意</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">：请参阅</font></font><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/matchAll#Browser_compatibility" rel="noreferrer"><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">浏览器兼容性</font></font></strong></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">详细信息。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小宇宙猴子</span>
@@ -260,9 +248,7 @@ let result = searchString(string, pattern);<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我还没有将这些替代方案与其他答案中先前提到的替代方案进行比较，但是我怀疑这种方法与其他方法相比，其性能和故障安全性更低。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Eva卡卡西</span>
@@ -278,9 +264,7 @@ console.log(arr[0] + " " + arr[1]);</code></pre>
 <p></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这</font></font><code>\b</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">不是一回事。</font><font style="vertical-align: inherit;">（它适用于</font></font><code>--format_foo/</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，但不适用</font></font><code>format_a_b</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">），但我想展示一种替代您的表情的方法，这很好。</font><font style="vertical-align: inherit;">当然，</font></font><code>match</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">通话是重要的。</font></font></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

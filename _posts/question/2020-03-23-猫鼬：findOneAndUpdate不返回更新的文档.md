@@ -43,7 +43,7 @@ Cat.findOneAndUpdate({age: 17}, {$set:{name:"Naomi"}},function(err, doc){<font><
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我的问题是：如果修改了数据，那么为什么当console.log记录时我还是第一次得到原始数据。</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第2579篇《猫鼬：findOneAndUpdate不返回更新的文档》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第2579篇《猫鼬：findOneAndUpdate不返回更新的文档》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -62,9 +62,7 @@ await User.findOneAndUpdate(filter, update, { returnOriginal: false });<font></f
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">请参阅</font></font><a href="https://mongoosejs.com/docs/api/model.html#model_Model.findOneAndUpdate" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Mongoose </font></font><code>findOneAndUpdate()</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">文档</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">和</font></font><a href="https://masteringjs.io/tutorials/mongoose/update#using-modelfindoneandupdate" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">有关在Mongoose中更新文档的本教程</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Harry神奇路易</span>
@@ -89,18 +87,14 @@ await User.findOneAndUpdate(filter, update, { returnOriginal: false });<font></f
 <p><code>{returnOriginal: false}</code></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">参考：</font><a href="http://mongodb.github.io/node-mongodb-native/3.0/api/Collection.html#findOneAndUpdate" rel="noreferrer"><font style="vertical-align: inherit;">http</font></a><font style="vertical-align: inherit;"> : </font></font><a href="http://mongodb.github.io/node-mongodb-native/3.0/api/Collection.html#findOneAndUpdate" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">//mongodb.github.io/node-mongodb-native/3.0/api/Collection.html#findOneAndUpdate</font></font></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">猪猪</span>
             <span class="discuss-time">2020.03.23</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">对于使用Node.js驱动程序而不是Mongoose的任何人，您都想使用</font></font><code>{returnOriginal:false}</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">而不是</font></font><code>{new:true}</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。  </font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">达蒙前端Green</span>
@@ -124,9 +118,7 @@ try {<font></font>
     })<font></font>
 } catch( error ) { /* set the world on fire */ }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">斯丁</span>
@@ -167,9 +159,7 @@ Cat.findOneAndUpdate({age: 17}, {$set:{name:"Naomi"}}, {new: true}, (err, doc) =
     console.log(doc);<font></font>
 });<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">卡卡西</span>
@@ -181,9 +171,7 @@ Cat.findOneAndUpdate({age: 17}, {$set:{name:"Naomi"}}, {new: true}, (err, doc) =
 <font></font>
 });<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">猴子</span>
@@ -199,9 +187,7 @@ Cat.findOneAndUpdate({age: 17}, {$set:{name:"Naomi"}}, {new: true}, (err, doc) =
   }    <font></font>
 )<font></font>
 </code></pre></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

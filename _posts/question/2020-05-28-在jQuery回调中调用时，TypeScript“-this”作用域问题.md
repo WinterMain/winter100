@@ -56,7 +56,7 @@ $</span><span class="pun">(</span><span class="pln">document</span><span class="
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">那是有效的方法吗？</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第4198篇《在jQuery回调中调用时，TypeScript“ this”作用域问题》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第4198篇《在jQuery回调中调用时，TypeScript“ this”作用域问题》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -114,9 +114,7 @@ $</span><span class="pun">(</span><span class="pln">document</span><span class="
 <li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">坏：您必须输入两次参数</font></font></li>
 <li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">坏：不适用于可变参数</font></font></li>
 </ul></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">古一</span>
@@ -125,9 +123,7 @@ $</span><span class="pun">(</span><span class="pln">document</span><span class="
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在您的代码中，您是否尝试过仅按以下方式更改最后一行？ </font></font></p>
 
 <pre class="lang-js prettyprint prettyprinted" style=""><code><span class="pln">$</span><span class="pun">(</span><span class="pln">document</span><span class="pun">).</span><span class="pln">ready</span><span class="pun">(()</span><span class="pln"> </span><span class="pun">=&gt;</span><span class="pln"> thisTest</span><span class="pun">.</span><span class="pln">run</span><span class="pun">());</span></code></pre></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

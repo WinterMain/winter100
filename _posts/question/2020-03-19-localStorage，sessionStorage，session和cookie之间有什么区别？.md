@@ -17,7 +17,7 @@ topic: HTML
     <div class="article-content"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">localStorage，sessionStorage，session和cookie的技术优缺点是什么，何时可以在另一个之上使用？</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第2280篇《localStorage，sessionStorage，session和cookie之间有什么区别？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第2280篇《localStorage，sessionStorage，session和cookie之间有什么区别？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -51,9 +51,7 @@ topic: HTML
 <li><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">更改仅适用于每个窗口（或Chrome和Firefox等浏览器中的标签）。</font><font style="vertical-align: inherit;">所做的更改将被保存，并且可用于当前页面，以及以后在同一窗口上对该站点的访问。</font><font style="vertical-align: inherit;">关闭窗口后，存储将被删除。数据仅在设置它的窗口/选项卡内可用。</font></font></p></li>
 <li><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">数据不是持久性的，即，一旦关闭窗口/选项卡，它将丢失。</font><font style="vertical-align: inherit;">与localStorage一样，它适用于同源策略。</font><font style="vertical-align: inherit;">因此，存储的数据仅在相同的来源可用。</font></font></p></li>
 </ul></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">LEYJim</span>
@@ -64,9 +62,7 @@ topic: HTML
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我还创建了以下图像，以一眼看出差异：</font></font></p>
 
 <p><a href="https://i.stack.imgur.com/cI5kT.jpg" rel="noreferrer"><img src="https://i.stack.imgur.com/cI5kT.jpg" alt="LocalStorage，SessionStorage和Cookies"></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">前端前端凯</span>
@@ -129,9 +125,7 @@ topic: HTML
 </ol>
 
 <p><font style="vertical-align: inherit;"></font><a href="https://github.com/wingify/across-tabs" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">跨标签</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">签出</font><font style="vertical-align: inherit;">-如何简化跨源浏览器标签之间的交流。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">GOMandy</span>
@@ -176,9 +170,7 @@ topic: HTML
 <p>localStorage, sessionStorage, and cookies are all subject to "same-origin" rules which means browsers should prevent access to the data except the domain that set the information to start with.</p>
 
 <p>For further reading on client storage technologies see <a href="http://diveintohtml5.info/storage.html" rel="noreferrer">Dive Into Html 5</a>.</p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

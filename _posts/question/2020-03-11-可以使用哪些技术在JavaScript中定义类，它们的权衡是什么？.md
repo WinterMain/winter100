@@ -20,7 +20,7 @@ topic: JavaScript
 在寻找其他答案时，我找到了文章“ </font></font><em><a href="http://www.webreference.com/js/column79/" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">使用JavaScript进行面向对象的编程”，第I部分：继承-文档JavaScript</font></font></a></em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，该文章讨论了</font><em><a href="http://www.webreference.com/js/column79/" rel="noreferrer"><font style="vertical-align: inherit;">JavaScript</font></a></em><font style="vertical-align: inherit;">中的面向对象的编程。</font><font style="vertical-align: inherit;">有更好的继承方法吗？</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第691篇《可以使用哪些技术在JavaScript中定义类，它们的权衡是什么？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第691篇《可以使用哪些技术在JavaScript中定义类，它们的权衡是什么？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -33,9 +33,7 @@ topic: JavaScript
           <div class="discuss-comment"><p><a href="http://mootools.net" rel="nofollow noreferrer">MooTools</a> (My Object Oriented Tools) is centered on the idea of <a href="http://mootools.net/docs/core/Class/Class" rel="nofollow noreferrer">classes</a>.  You can even extend and implement with inheritance.  </p>
 
 <p>When mastered, it makes for ridiculously reusable, powerful javascript.</p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Gil飞云</span>
@@ -60,9 +58,7 @@ var user_fullname = user.sayMyName();<font></font>
 </code></pre>
 
 <p>Thats the way TypeScript compiles class with constructor to JavaScript.</p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">乐理查德</span>
@@ -112,9 +108,7 @@ class Employee extends Person {<font></font>
 <li><a href="https://kangax.github.io/compat-table/es6/#class" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">兼容性表–类</font></font></a></li>
 <li><a href="http://babeljs.io/docs/learn-es2015/#classes" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">通天塔–班级</font></font></a></li>
 </ul></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">村村A小卤蛋</span>
@@ -142,9 +136,7 @@ class Employee extends Person {<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">JavaScript实际上对该模型有一个很好的调整：构造函数。</font><font style="vertical-align: inherit;">可以说，不仅可以通过复制现有对象来创建对象，还可以“凭空”构造它们。</font><font style="vertical-align: inherit;">如果使用</font></font><code>new</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">关键字</font><font style="vertical-align: inherit;">调用一个函数，则</font><font style="vertical-align: inherit;">该函数将成为构造函数，而该</font></font><code>this</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">关键字将不会指向当前对象，而是指向一个新创建的“空”对象。</font><font style="vertical-align: inherit;">因此，您可以根据自己的喜好配置对象。</font><font style="vertical-align: inherit;">这样，JavaScript构造函数就可以在传统的基于类的OO中担当类的角色之一：充当新对象的模板或蓝图。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">现在，JavaScript是一种非常强大的语言，因此，</font><font style="vertical-align: inherit;">如果需要，</font></font><em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在JavaScript中</font></font></em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">实现基于类的OO系统非常容易</font><font style="vertical-align: inherit;">。</font><font style="vertical-align: inherit;">但是，只有在确实有需要时才应该这样做，而不仅仅是因为Java就是这样做的。</font></font></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

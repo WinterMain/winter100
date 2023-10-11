@@ -37,7 +37,7 @@ topic: CSS
 </code></pre></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第3798篇《不与sass bootstrap集成一起显示的glyphicons》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第3798篇《不与sass bootstrap集成一起显示的glyphicons》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -56,9 +56,7 @@ topic: CSS
 $fa-font-path: "../../fonts";<font></font>
 @import "node_modules/font-awesome/scss/font-awesome";<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小胖</span>
@@ -69,18 +67,14 @@ $fa-font-path: "../../fonts";<font></font>
 <li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在我的网站上，它是public / fonts / glyphicons-halflings-regular.ttf，我将这些字体手动下载到那里。</font></font></li>
 <li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">而且有效！</font></font></li>
 </ul></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">乐</span>
             <span class="discuss-time">2020.03.27</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果在刀片模板中使用elixir（）帮助器，则应将字体文件放入/ public / build。</font><font style="vertical-align: inherit;">结果是/ public / build / fonts，“ fonts”文件夹包含所有字体文件。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">前端Mandy</span>
@@ -89,9 +83,7 @@ $fa-font-path: "../../fonts";<font></font>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">使用Laravel 5.4时，我遇到了同样的问题。事实证明，我还没有跑步</font></font><code>npm install</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">和</font></font><code>npm run dev</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">一旦运行了这两个命令，就将字体（和glyphicons）正确地复制到/ public目录中。</font><font style="vertical-align: inherit;">无需编辑任何Sass或构建文件。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">蛋蛋</span>
@@ -104,9 +96,7 @@ npm run production<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Laravel将完成其余的工作。</font></font></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

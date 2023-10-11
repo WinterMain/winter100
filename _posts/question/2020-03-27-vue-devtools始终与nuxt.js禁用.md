@@ -152,7 +152,7 @@ module.exports = {<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果我以生产模式运行，那么我可以理解，但我不是。</font><font style="vertical-align: inherit;">我希望vue-devtools能够正常运行。</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第3819篇《vue-devtools始终与nuxt.js禁用》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第3819篇《vue-devtools始终与nuxt.js禁用》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -173,19 +173,15 @@ module.exports = {<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">现在显示devtools</font></font></p></div>
-        </div>
-        
-        <div class="discuss-children">
+        </div><div class="discuss-children">
           <div class="discuss-child">
             <div class="discuss-comment"><p>你写的这个配置完全看不出来添加到哪里？</p></div>
             <div class="discuss-meta">
               <span class="discuss-user">西西</span>
               <span class="discuss-time">2020.08.25</span>
             </div>
-          </div>
+          </div></div>
         </div>
-        
-      </div>
     {% endraw %}
   </div>
 <div>

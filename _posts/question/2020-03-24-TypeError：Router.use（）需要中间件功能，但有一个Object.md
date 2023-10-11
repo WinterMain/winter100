@@ -146,7 +146,7 @@ module.exports = app;<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">似乎由于版本控制原因，此问题的答案已更改。</font><font style="vertical-align: inherit;">感谢</font></font><a href="https://github.com/expressjs/express/wiki/Migrating-from-3.x-to-4.x"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Nik</font></font></a></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第3609篇《TypeError：Router.use（）需要中间件功能，但有一个Object》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第3609篇《TypeError：Router.use（）需要中间件功能，但有一个Object》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -162,9 +162,7 @@ module.exports = app;<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">检查并验证您的所有JS页面 </font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">JinJin乐</span>
@@ -181,9 +179,7 @@ module.exports = app;<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在页面末尾</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">阿飞Tom</span>
@@ -218,9 +214,7 @@ module.exports = app;<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果有人愿意，我会发布指向github模板的链接，该链接使用最佳实践实现了快速路由。</font><font style="vertical-align: inherit;">让我知道</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">谢谢阿尼鲁德！</font><font style="vertical-align: inherit;">很好的答案。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">阳光Jim</span>
@@ -244,9 +238,7 @@ routes.initialize(app);<font></font>
 <h2><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">注意：</font></font></h2>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">app.router在Express 3.0+中已贬值。</font><font style="vertical-align: inherit;">如果您使用的是Express 3.0+，请参阅下面的Anirudh答案。</font></font></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

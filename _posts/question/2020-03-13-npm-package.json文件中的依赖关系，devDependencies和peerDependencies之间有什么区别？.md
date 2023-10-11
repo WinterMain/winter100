@@ -19,7 +19,7 @@ topic: Node.js
 <p><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">EDIT</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">还添加了</font></font><code>peerDependencies</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，这是密切相关的，可能会引起混乱。</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第1429篇《npm package.json文件中的依赖关系，devDependencies和peerDependencies之间有什么区别？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第1429篇《npm package.json文件中的依赖关系，devDependencies和peerDependencies之间有什么区别？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -44,9 +44,7 @@ topic: Node.js
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这篇文章中的更多详细信息：</font><a href="https://code-trotter.com/web/dependencies-vs-devdependencies-vs-peerdependencies" rel="nofollow noreferrer"><font style="vertical-align: inherit;">https</font></a><font style="vertical-align: inherit;"> :
  </font></font><a href="https://code-trotter.com/web/dependencies-vs-devdependencies-vs-peerdependencies" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">//code-trotter.com/web/dependencies-vs-devdependencies-vs-peerdependencies</font></font></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">LEY村村</span>
@@ -105,18 +103,14 @@ installed modules:<font></font>
 ﻿# For dev-dependent modules<font></font>
 np﻿m install development-module --save-dev<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">神无</span>
             <span class="discuss-time">2020.03.13</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">尝试分发npm软件包时，应避免使用</font></font><code>dependencies</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font><font style="vertical-align: inherit;">相反，您需要考虑将其添加到中</font></font><code>peerDependencies</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">或从中删除</font></font><code>dependencies</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">米亚凯</span>
@@ -128,9 +122,7 @@ np﻿m install development-module --save-dev<font></font>
 <li><code>dependencies</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> 用于代码库中的直接使用，通常在生产代码或代码块中结束的事情</font></font></li>
 <li><code>devDependencies</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> 用于构建过程，可帮助您管理最终代码的最终生成方式的工具，第三方测试模块（例如webpack的东西）</font></font></li>
 </ul></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">宝儿Near</span>
@@ -145,9 +137,7 @@ np﻿m install development-module --save-dev<font></font>
 </ol>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">因此，如果您在本地计算机上工作，只需键入</font></font><code>npm install</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">并继续:)</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小胖蛋蛋</span>
@@ -157,18 +147,14 @@ np﻿m install development-module --save-dev<font></font>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">部署应用程序时，需要安装依赖项中的模块，否则您的应用程序将无法运行。</font><font style="vertical-align: inherit;">不需要在生产服务器上安装devDependencies中的模块，因为您不在该计算机上进行开发。
 </font></font><a href="https://www.reddit.com/r/node/comments/1nticr/whats_the_difference_between_dependencies_and/" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">链接</font></font></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">飞羽宝儿</span>
             <span class="discuss-time">2020.03.13</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">例如，mocha通常是devDependency，因为在生产中测试不是必需的，而express是依赖项。 </font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Green卡卡西</span>
@@ -183,9 +169,7 @@ np﻿m install development-module --save-dev<font></font>
 
 <pre><code>npm install --production
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Near小哥Green</span>
@@ -196,9 +180,7 @@ np﻿m install development-module --save-dev<font></font>
 <blockquote>
   <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果有人计划在其程序中下载和使用您的模块，那么他们可能不希望或不需要下载并构建您使用的外部测试或文档框架。</font><font style="vertical-align: inherit;">在这种情况下，最好在devDependencies哈希中列出这些其他项。</font></font></p>
 </blockquote></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">阳光Itachi村村</span>
@@ -222,18 +204,14 @@ np﻿m install development-module --save-dev<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">该文档非常好地解释了对等方的依赖性：</font><a href="https://nodejs.org/en/blog/npm/peer-dependencies/" rel="noreferrer"><font style="vertical-align: inherit;">https</font></a><font style="vertical-align: inherit;"> : </font></font><a href="https://nodejs.org/en/blog/npm/peer-dependencies/" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">//nodejs.org/en/blog/npm/peer-dependencies/</font></font></a>  </p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">另外，随着时间的推移，npm文档也得到了改进，现在对不同类型的依赖项有了更好的解释：</font><a href="https://github.com/npm/cli/blob/latest/doc/files/package.json.md#devdependencies" rel="noreferrer"><font style="vertical-align: inherit;">https</font></a><font style="vertical-align: inherit;"> : </font></font><a href="https://github.com/npm/cli/blob/latest/doc/files/package.json.md#devdependencies" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">//github.com/npm/cli/blob/latest/doc/files/package.json.md#devdependencies</font></font></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">JimHarry</span>
             <span class="discuss-time">2020.03.13</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果您不想安装devDependencies，则可以使用 </font></font><code>npm install --production</code> </p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

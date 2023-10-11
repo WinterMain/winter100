@@ -17,7 +17,7 @@ topic: CSS
     <div class="article-content"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在Sass中，我无法完全分辨使用</font></font><code>@include</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">mixin和使用</font></font><code>@extend</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">占位符类</font><font style="vertical-align: inherit;">之间的区别</font><font style="vertical-align: inherit;">。</font><font style="vertical-align: inherit;">他们不是同一件事吗？</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第2020篇《在Sass中使用@include vs @extend？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第2020篇《在Sass中使用\`include vs \`extend？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -65,9 +65,7 @@ topic: CSS
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Tl; dr：@extend绝对可以，只要您从未将其与任何浏览器特殊选择器一起使用即可。</font><font style="vertical-align: inherit;">如果这样做，无论您在哪里使用它，它都会突然拆下样式。</font><font style="vertical-align: inherit;">尝试依靠mixin代替！</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">西门Sam</span>
@@ -95,18 +93,14 @@ topic: CSS
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这样可以避免您一次又一次调用“我的按钮” mixin。</font><font style="vertical-align: inherit;">这也意味着您不必记住通用按钮的设置，但是您仍然可以选择一个超级独特的一次性按钮。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我以</font><font style="vertical-align: inherit;">不久前</font></font><a href="http://fredparke.com/blog/ditto-making-good-use-sass-extends-and-placeholder-selectors"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">写的博客文章</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">为例</font><font style="vertical-align: inherit;">。</font><font style="vertical-align: inherit;">希望这可以帮助。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Stafan路易</span>
             <span class="discuss-time">2020.03.18</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我完全同意d4nyll的先前回答。</font><font style="vertical-align: inherit;">有</font></font><a href="https://kolosek.com/css-extend/" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">一篇</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">关于扩展选项的文章，当我研究这个主题时，我发现了很多关于扩展的抱怨，所以请记住，如果有可能使用mixin代替扩展，就跳过扩展。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">飞云卡卡西神乐</span>
@@ -123,9 +117,7 @@ topic: CSS
 font-weight: bold;<font></font>
 font-size: 2em;<font></font>
 </code></pre></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

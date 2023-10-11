@@ -24,7 +24,7 @@ topic: JavaScript
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我知道我可以编写自己的帮助程序，但是首先我想确保自己不会重新发明轮子。</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第1333篇《handlebars.js {{#if}}中的逻辑运算符》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第1333篇《handlebars.js {{#if}}中的逻辑运算符》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -57,9 +57,7 @@ export default Ember.HTMLBars.makeBoundHelper(function (params) {<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这里的参数来表达的传递为</font></font><code>p0</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，</font></font><code>p1</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，</font></font><code>p2</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">等，并</font></font><code>p0</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">还可以作为参考</font></font><code>this</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">TomProSam</span>
@@ -71,9 +69,7 @@ export default Ember.HTMLBars.makeBoundHelper(function (params) {<font></font>
   (firstCondition || (or) secondCondition) === true<font></font>
 {{/if}}<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">十三JimHarry</span>
@@ -102,9 +98,7 @@ DEBUG: Handlebars : 1.3.0<font></font>
 DEBUG: jQuery     : 2.1.1<font></font>
 DEBUG: -------------------------------<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">神无阿飞古一</span>
@@ -148,9 +142,7 @@ Handlebars.registerHelper("or",function() {<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">不确定使用“ and”和“ or”是否“安全”……也许更改为“ op_and”和“ op_or”之类的东西？</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">猪猪GO</span>
@@ -159,9 +151,7 @@ Handlebars.registerHelper("or",function() {<font></font>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">对于那些在比较对象属性方面遇到问题的人，可以在助手内部添加此解决方案</font></font></p>
 
 <p><a href="https://stackoverflow.com/questions/9261976/ember-js-helper-not-properly-recognizing-a-parameter"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Ember.js帮助器无法正确识别参数</font></font></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">LEYTom</span>
@@ -174,9 +164,7 @@ Handlebars.registerHelper("or",function() {<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">您可以执行以下</font></font><code>wget http://registry.npmjs.org/handlebars-helpers/-/handlebars-helpers-0.2.6.tgz</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">操作下载它们并查看软件包的内容。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">您将能够执行类似</font></font><code>{{#is number 5}}</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">或</font></font><code>{{formatDate date "%m/%d/%Y"}}</code></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">LEYPro达蒙</span>
@@ -201,9 +189,7 @@ Handlebars.registerHelper("or",function() {<font></font>
 ...content  <font></font>
 {{/if}}<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">泡芙阿飞斯丁</span>
@@ -240,9 +226,7 @@ Handlebars.registerHelper("or",function() {<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我建议将对象移出该函数，以获得更好的性能，但否则，您可以添加所需的任何比较函数，包括“ and”和“ or”。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">阿飞番长</span>
@@ -267,9 +251,7 @@ Handlebars.registerHelper("or",function() {<font></font>
     {{/if}}<font></font>
 {{/if}}<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">null</span>
@@ -281,9 +263,7 @@ Handlebars.registerHelper("or",function() {<font></font>
 There are more than 5 tables<font></font>
 {{/compare}}<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小宇宙小小米亚</span>
@@ -329,9 +309,7 @@ There are more than 5 tables<font></font>
     }<font></font>
 });<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">达蒙斯丁</span>
@@ -382,9 +360,7 @@ There are more than 5 tables<font></font>
     }<font></font>
 });<font></font>
 </code></pre></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

@@ -28,7 +28,7 @@ Run `npm config delete prefix` or `nvm use --delete-prefix v4.2.4` to unset it.<
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">有什么方法可以使用</font></font><code>nvm</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">而不会丢失全局安装软件包的前缀？</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第2997篇《nvm与npm config的“ prefix”选项不兼容：》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第2997篇《nvm与npm config的“ prefix”选项不兼容：》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -56,9 +56,7 @@ rm -R /usr/local/bin/npx /usr/local/lib/node_modules/npm/bin/npx-cli.js<font></f
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">修复链接：</font><a href="https://github.com/nvm-sh/nvm/issues/1690#issuecomment-392014774" rel="nofollow noreferrer"><font style="vertical-align: inherit;">https</font></a><font style="vertical-align: inherit;"> : </font></font><a href="https://github.com/nvm-sh/nvm/issues/1690#issuecomment-392014774" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">//github.com/nvm-sh/nvm/issues/1690#issuecomment-392014774</font></font></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">阿飞</span>
@@ -68,9 +66,7 @@ rm -R /usr/local/bin/npx /usr/local/lib/node_modules/npm/bin/npx-cli.js<font></f
 要删除，删除或卸载nvm-只需删除</font></font><code>$NVM_DIR</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">文件夹（通常是</font></font><code>~/.nvm</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">），</font></font><br><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
 您可以尝试：</font></font><br>
 <code>rm -rf ~/.nvm</code></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">西门JinJin</span>
@@ -82,18 +78,14 @@ rm -R /usr/local/bin/npx /usr/local/lib/node_modules/npm/bin/npx-cli.js<font></f
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">顺便说一句，请使用</font></font><code>curl</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">或</font></font><code>wget</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">命令而不使用来</font><font style="vertical-align: inherit;">安装NVM </font></font><code>brew</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font><font style="vertical-align: inherit;">有关更多信息，请在Github上查看本期中的评论：</font></font><strong><a href="https://github.com/creationix/nvm/issues/855#issuecomment-146115434" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">855＃issuecomment-146115434</font></font></a></strong> </p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">达蒙</span>
             <span class="discuss-time">2020.03.23</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">将主文件夹移动到Linux上的新驱动器后，出现了这个问题。</font><font style="vertical-align: inherit;">通过删除.nvm文件夹并重新安装nvm可以修复此问题。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">猴子</span>
@@ -127,9 +119,7 @@ rm -R /usr/local/bin/npx /usr/local/lib/node_modules/npm/bin/npx-cli.js<font></f
     $ npm config get prefix<font></font>
     /usr/local<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">逆天路易</span>
@@ -150,9 +140,7 @@ prefix = "/mnt/c/Users/paul/C:\\Program Files\\nodejs"<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">因此，我删除了</font></font><code>C:\\Program Files\\nodejs</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">/mnt/c/Users/paul/.npmrc中的。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">GO西门</span>
@@ -186,9 +174,7 @@ $ npm config set prefix $NVM_DIR/versions/node/v6.11.1<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">其中添加了nvm我以前在.net中删除的行</font></font><code>.zshrc</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">然后我可以像以前一样使用nvm。</font><font style="vertical-align: inherit;">我想这是一个奇怪的情况，如果出现问题并迫使我重新安装所有内容，由于这个问题，大多数人似乎都无法通过。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">L村村小宇宙</span>
@@ -210,9 +196,7 @@ $ npm config set prefix $NVM_DIR/versions/node/v6.11.1<font></font>
 
 <pre><code>export NVM_DIR="$HOME.nvm"
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">LGil</span>
@@ -229,9 +213,7 @@ $ npm config set prefix $NVM_DIR/versions/node/v6.11.1<font></font>
 <blockquote>
   <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">sudo rm -rf /usr/local/{lib/node{,/.npm,_modules},bin,share/man}/{npm*,node*,man1/node*}</font></font></p>
 </blockquote></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">番长SamJim</span>
@@ -240,9 +222,7 @@ $ npm config set prefix $NVM_DIR/versions/node/v6.11.1<font></font>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我在使用通过</font><font style="vertical-align: inherit;">安装的</font><font style="vertical-align: inherit;">节点</font></font><code>nvm</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">和</font></font><code>nvm</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">通过自制程序安装的</font><font style="vertical-align: inherit;">节点时遇到了这个问题</font><font style="vertical-align: inherit;">。</font><font style="vertical-align: inherit;">我通过运行</font></font><code>brew uninstall nvm</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，</font><font style="vertical-align: inherit;">解决了问题</font></font><code>rm -rf $NVM_DIR</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，然后使用</font></font><a href="https://github.com/creationix/nvm#install-script" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">正式的安装脚本</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">重新安装了</font><font style="vertical-align: inherit;">nvm </font><font style="vertical-align: inherit;">并重新安装了所需的节点版本。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">注意：我也已经</font></font><code>$NVM_DIR</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">安装并符号链接。</font><font style="vertical-align: inherit;">我将其移回了我的homedir。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">猪猪斯丁</span>
@@ -272,9 +252,7 @@ $ npm config set prefix $NVM_DIR/versions/node/v6.11.1<font></font>
 [ -s "$NVM_DIR/nvm.sh" ] &amp;&amp; \. "$NVM_DIR/nvm.sh" # This loads nvm<font></font>
 [ -s "$NVM_DIR/bash_completion" ] &amp;&amp; \. "$NVM_DIR/bash_completion"<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">null</span>
@@ -286,9 +264,7 @@ $ npm config set prefix $NVM_DIR/versions/node/v6.11.1<font></font>
 $ export NVM_DIR="/tmp/.nvm"<font></font>
 $ nvm use --delete-prefix v6.9.1<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">猪猪</span>
@@ -313,9 +289,7 @@ $ npm config set prefix $NVM_DIR/versions/node/v6.11.1<font></font>
 <hr>
 
 <p>Credits to @gabfiocchi on Github - <a href="https://github.com/creationix/nvm/issues/855#issuecomment-314309706" rel="noreferrer">"You need to overwrite nvm prefix"</a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">LGil</span>
@@ -378,9 +352,7 @@ $ npm config set prefix $NVM_DIR/versions/node/v6.11.1<font></font>
 
 <p><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">更新：</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> 
 使用brew安装NVM会导致终端启动缓慢。</font><font style="vertical-align: inherit;">您可以</font></font><a href="https://github.com/creationix/nvm/issues/1277#issuecomment-447495610" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">按照以下说明</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">进行解决。</font></font></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

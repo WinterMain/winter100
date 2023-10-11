@@ -33,7 +33,7 @@ topic: JavaScript
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果有人能指出我正确的方向，那将不胜感激。</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第554篇《如何使用JavaScript检查URL中的＃哈希？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第554篇《如何使用JavaScript检查URL中的＃哈希？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -49,9 +49,7 @@ topic: JavaScript
       return (location.hash ? true : false);<font></font>
   }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Sam蛋蛋Itachi</span>
@@ -66,9 +64,7 @@ hashId = hashId.match(/#[^?&amp;\/]*/g);<font></font>
 <font></font>
 returns -&gt; #anchorlink<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">GO村村</span>
@@ -76,9 +72,7 @@ returns -&gt; #anchorlink<font></font>
           </div>
           <div class="discuss-comment"><pre><code>var requestedHash = ((window.location.hash.substring(1).split("#",1))+"?").split("?",1);
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">逆天蛋蛋达蒙</span>
@@ -98,9 +92,7 @@ returns -&gt; #anchorlink<font></font>
   }<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">LEY蛋蛋</span>
@@ -110,9 +102,7 @@ returns -&gt; #anchorlink<font></font>
 </code></pre>
 
 <p>will return the hash identifier</p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">达蒙阿飞斯丁</span>
@@ -127,9 +117,7 @@ returns -&gt; #anchorlink<font></font>
     }<font></font>
 &lt;/script&gt;<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">西里Mandy</span>
@@ -143,9 +131,7 @@ returns -&gt; #anchorlink<font></font>
       // No hash found<font></font>
   }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

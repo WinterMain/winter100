@@ -19,7 +19,7 @@ topic: CSS
 <p><img src="https://www.samyoc.com//uploads/users/2106/images/thumbnails/1584928567971.png" data-src="https://www.samyoc.com//uploads/users/2106/images/1584928567971.png" alt="在此处输入图片说明"></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第2627篇《将Bootstrap Glyphicon添加到输入框》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第2627篇《将Bootstrap Glyphicon添加到输入框》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}

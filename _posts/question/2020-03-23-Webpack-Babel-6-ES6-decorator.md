@@ -40,7 +40,7 @@ topic: Webpack
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我知道我总是可以降级到前一段时间使用过的babel 5.8，但是如果有任何方法可以使它在当前版本（v6.2.0）中运行，它将有所帮助。</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第2683篇《Webpack Babel 6 ES6 decorator》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第2683篇《Webpack Babel 6 ES6 decorator》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -55,18 +55,14 @@ topic: Webpack
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">看来他们也将问题追踪器从github移到了</font></font><a href="https://phabricator.babeljs.io"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">https://phabricator.babeljs.io</font></font></a></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我把所有这些都记下来了，因为经过数小时的搜索，我发现当前的文档非常贫乏和缺乏。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">凯西里</span>
             <span class="discuss-time">2020.03.23</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">您只需要一个转换 decorator插件：</font><a href="http://babeljs.io/docs/plugins/transform-decorators/" rel="nofollow"><font style="vertical-align: inherit;">http</font></a><font style="vertical-align: inherit;"> : </font></font><a href="http://babeljs.io/docs/plugins/transform-decorators/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">//babeljs.io/docs/plugins/transform-decorators/</font></font></a></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

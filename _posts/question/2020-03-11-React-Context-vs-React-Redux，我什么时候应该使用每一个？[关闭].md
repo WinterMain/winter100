@@ -43,7 +43,7 @@ topic: JavaScript
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我的问题是，根据您的看法/经验，何时应该</font><font style="vertical-align: inherit;">在</font><strong><font style="vertical-align: inherit;">React Redux上</font></strong><font style="vertical-align: inherit;">使用</font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">React Context</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，</font><font style="vertical-align: inherit;">反之亦然？</font></font><strong><font style="vertical-align: inherit;"></font></strong><font style="vertical-align: inherit;"></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第614篇《React Context vs React Redux，我什么时候应该使用每一个？[关闭]》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第614篇《React Context vs React Redux，我什么时候应该使用每一个？\[关闭\]》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -63,9 +63,7 @@ topic: JavaScript
 </blockquote>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">来自：</font></font><a href="https://ideamotive.co/blog/redux-vs-context-api/" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">何时使用Redux？</font></font></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">LA</span>
@@ -84,9 +82,7 @@ topic: JavaScript
 <li><a href="https://medium.com/@dan_abramov/you-might-not-need-redux-be46360cf367" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">您可能不需要Redux</font></font></a></li>
 <li><a href="https://medium.com/javascript-scene/do-react-hooks-replace-redux-210bab340672" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">React Hook可以代替Redux吗？</font></font></a></li>
 </ul></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Green小宇宙伽罗</span>
@@ -101,9 +97,7 @@ topic: JavaScript
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">但是，如果您只是在今天学习redux，并且没有在任何地方使用过，那么值得一试Context API，并用您的自定义Context API代码替换react-redux。</font><font style="vertical-align: inherit;">也许，这样更清洁。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">就个人而言，这是一个熟悉的问题。</font><font style="vertical-align: inherit;">没有明显的理由选择一个，因为它们是等效的。</font><font style="vertical-align: inherit;">而且在内部，react-redux仍然使用Context。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">前端逆天</span>
@@ -117,9 +111,7 @@ topic: JavaScript
 </ul>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">您可能不需要整个应用程序的间接级别，因此可以混合使用样式，并同时使用本地状态/上下文和Redux。</font></font></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

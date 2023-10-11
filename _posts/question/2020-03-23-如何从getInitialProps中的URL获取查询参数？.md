@@ -60,7 +60,7 @@ render() {<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我已经阅读了文档和github问题，但似乎无法理解为什么会这样。</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第2853篇《如何从getInitialProps中的URL获取查询参数？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第2853篇《如何从getInitialProps中的URL获取查询参数？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}

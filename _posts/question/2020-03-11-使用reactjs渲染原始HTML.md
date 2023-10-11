@@ -56,7 +56,7 @@ var Comment = React.createClass({<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">也许我在想这一切错。</font><font style="vertical-align: inherit;">请纠正我。</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第701篇《使用reactjs渲染原始HTML》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第701篇《使用reactjs渲染原始HTML》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -81,9 +81,7 @@ var Comment = React.createClass({<font></font>
     }<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">米亚神无</span>
@@ -92,9 +90,7 @@ var Comment = React.createClass({<font></font>
           <div class="discuss-comment"><p><code>dangerouslySetInnerHTML</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">除非绝对必要，否则请勿使用。</font><font style="vertical-align: inherit;">根据文档，</font></font><a href="http://facebook.github.io/react/docs/special-non-dom-attributes.html" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">“这主要是用于与DOM字符串操作库进行协作”</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font><font style="vertical-align: inherit;">使用它时，您将放弃React的DOM管理的好处。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">就您而言，转换为有效的JSX语法非常简单；</font><font style="vertical-align: inherit;">只需将</font></font><code>class</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">属性</font><font style="vertical-align: inherit;">更改</font><font style="vertical-align: inherit;">为即可</font></font><code>className</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font><font style="vertical-align: inherit;">或者，如上面的评论所述，您可以使用</font></font><a href="http://react-bootstrap.github.io/" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">ReactBootstrap</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">库，</font><font style="vertical-align: inherit;">该</font><font style="vertical-align: inherit;">库将Bootstrap元素封装到React组件中。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">古一蛋蛋凯</span>
@@ -103,9 +99,7 @@ var Comment = React.createClass({<font></font>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">您可以利用</font></font><a href="https://www.npmjs.com/package/html-to-react" rel="noreferrer"><code>html-to-react</code></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">npm模块。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">注意：我是该模块的作者，几小时前刚刚发布了该模块。</font><font style="vertical-align: inherit;">请随时报告任何错误或可用性问题。</font></font></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

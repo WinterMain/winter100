@@ -19,7 +19,7 @@ topic: Node.js
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如何获得Express以输出格式正确的HTML？</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第3520篇《如何获得Express以输出格式正确的HTML？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第3520篇《如何获得Express以输出格式正确的HTML？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -32,9 +32,7 @@ topic: Node.js
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">您真的需要格式正确的html吗？</font><font style="vertical-align: inherit;">即使您尝试在一个编辑器中输出看起来不错的东西，在另一个编辑器中也可能看起来很奇怪。</font><font style="vertical-align: inherit;">当然，我不知道您需要html做什么，但是我会尝试使用chrome开发工具或Firefox的Firebug。</font><font style="vertical-align: inherit;">这些工具使您可以很好地了解DOM，而不是html。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果您确实需要格式正确的html，请尝试使用EJS代替玉。</font><font style="vertical-align: inherit;">那意味着您必须自己格式化html格式。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">GO</span>
@@ -44,9 +42,7 @@ topic: Node.js
 
 <pre><code>$ jade views/ --out html --pretty
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">斯丁前端</span>
@@ -79,9 +75,7 @@ console.log( fn() );<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我似乎并不很精明，但是对于我所追求的是-可以实际调试视图生成的HTML的功能-很好。</font></font></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

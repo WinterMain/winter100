@@ -28,7 +28,7 @@ Path must be a string. Received null<font></font>
 </code></pre></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第3738篇《如何在使用angular-cli启用手表的情况下进行构建？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第3738篇《如何在使用angular-cli启用手表的情况下进行构建？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -48,9 +48,7 @@ Path must be a string. Received null<font></font>
 <p><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">要么</font></font></strong> </p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">您可以将默认位置更改</font></font><code>angular.json... -&gt; options -&gt; outputPath: dist/&lt;project-name&gt;</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">为</font></font><code>dist</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">并只需运行</font></font><code>ng build --watch</code></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">西里神奇</span>
@@ -65,9 +63,7 @@ Path must be a string. Received null<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">并</font></font><code>npm run build</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">照常</font><font style="vertical-align: inherit;">运行</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">确保已</font></font><code>outDir</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在</font><em><font style="vertical-align: inherit;">angular-cli.json中</font></em><font style="vertical-align: inherit;">正确设置了应用程序的参数</font></font><em><font style="vertical-align: inherit;"></font></em></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">DavaidItachi</span>
@@ -82,9 +78,7 @@ Path must be a string. Received null<font></font>
 <p><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">更新2：</font></font></strong></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">现在的命令是： </font></font><code>ng build --output-path dist --watch</code></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

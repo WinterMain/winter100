@@ -17,7 +17,7 @@ topic: JavaScript
     <div class="article-content"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在JavaScript中创建任意长度的零填充数组的最有效方法是什么？</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第946篇《创建零填充JavaScript数组的最有效方法？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第946篇《创建零填充JavaScript数组的最有效方法？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -32,9 +32,7 @@ topic: JavaScript
 <pre><code>var arr = [10];<font></font>
 for (var i=0; i&lt;=arr.length;arr[i] = i, i++);<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">番长猴子古一</span>
@@ -57,9 +55,7 @@ for(a=[],i=100;i--;)a[i]=0;<font></font>
 edit:<font></font>
 for(var i=100,a=[];i--;)a[i]=0;<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">凯樱</span>
@@ -75,9 +71,7 @@ console.log(filled);</code></pre>
 </div>
 </div>
 <p></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">达蒙樱</span>
@@ -101,9 +95,7 @@ console.log(filled);</code></pre>
     return new Array(len+1).join(value).split('');<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">谷若汐</span>
@@ -113,9 +105,7 @@ console.log(filled);</code></pre>
 
 <pre><code>[...new Array(5)].map(x =&gt; 0); // [0, 0, 0, 0, 0]
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">ProTony</span>
@@ -146,9 +136,7 @@ console.log([...existingArray, ...new Array(5).fill(0)]);</code></pre>
 </div>
 </div>
 <p></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Mandy伽罗</span>
@@ -163,9 +151,7 @@ console.log([...existingArray, ...new Array(5).fill(0)]);</code></pre>
 
 <pre><code>array.map(_.constant(0));
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">村村AL</span>
@@ -184,9 +170,7 @@ console.log([...existingArray, ...new Array(5).fill(0)]);</code></pre>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在执行代码期间，我数千次创建了零填充数组，这极大地加快了处理速度。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">猿小小</span>
@@ -216,9 +200,7 @@ console.log([...existingArray, ...new Array(5).fill(0)]);</code></pre>
     return array;<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">木千</span>
@@ -258,9 +240,7 @@ for (var i = 0; i &lt; 10; i++) x[i] = 0;<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">将进行原型修改</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">无论如何，我不会过分担心此操作的效率或速度，您可能会做很多其他事情，这些事情比实例化包含零的任意长度的数组要浪费得多，也更昂贵。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">梅老丝</span>
@@ -321,9 +301,7 @@ for (let i = 0; i &lt; numbers.length; i++) {<font></font>
 &gt; "?".repeat(10).split("").map(() =&gt; Math.floor(10 * Math.random()))<font></font>
 &lt; [5, 6, 3, 5, 0, 8, 2, 7, 4, 1]<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">斯丁JinJinHarry</span>
@@ -335,9 +313,7 @@ for (let i = 0; i &lt; numbers.length; i++) {<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">鉴于当前的浏览器支持，除非您确定您的受众使用的是现代桌面浏览器，否则应谨慎使用。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Mandy宝儿</span>
@@ -360,9 +336,7 @@ for (let i = 0; i &lt; numbers.length; i++) {<font></font>
 <pre><code>Array.from({ length: 3 })<font></font>
 //[undefined, undefined, undefined]<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Ss Yy</span>
@@ -374,9 +348,7 @@ for (let i = 0; i &lt; numbers.length; i++) {<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"></font><code>ary</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">默认情况下</font><font style="vertical-align: inherit;">，数组的所有元素</font><font style="vertical-align: inherit;">将为零。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">A小卤蛋Pro</span>
@@ -443,9 +415,7 @@ for (let i = 0; i &lt; numbers.length; i++) {<font></font>
 </ul>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">您可以在</font></font><a href="https://jsperf.com/array-init-kk/19" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">此处</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">对机器进行测试</font><font style="vertical-align: inherit;">。</font></font></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

@@ -46,7 +46,7 @@ topic: CSS
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">有没有办法告诉LESS不要以这种方式编译它并正常输出它？</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第2187篇《禁用LESS-CSS覆盖calc（）[重复]》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第2187篇《禁用LESS-CSS覆盖calc（）\[重复\]》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -76,9 +76,7 @@ topic: CSS
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在开始新项目时，严格数学是一个不错的选择，否则您可能不得不重写大部分代码。</font><font style="vertical-align: inherit;">对于最常见的用例，</font></font><a href="https://stackoverflow.com/a/17904128/1331430"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">另一个答案中</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">描述的转义字符串方法</font><font style="vertical-align: inherit;">更合适。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">猪猪Stafan小卤蛋</span>
@@ -102,9 +100,7 @@ topic: CSS
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">默认情况下，这作为“少”将值（转义的字符串和数学结果）连接在一起时起作用。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">GO猴子</span>
@@ -137,9 +133,7 @@ width: -o-calc(~"100% - "@someMarginVariable*2);<font></font>
   width: -o-calc(~"100% - "@minusValue);<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Eva十三</span>
@@ -162,9 +156,7 @@ div {<font></font>
     height: calc(100vh - 10px );<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

@@ -27,7 +27,7 @@ topic: JavaScript
 <p>They both seem to output “ab”.</p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第471篇《substr和substring有什么区别？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第471篇《substr和substring有什么区别？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -102,9 +102,7 @@ Output : ple</code></pre>
 </div>
 </div>
 <p></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">米亚凯</span>
@@ -113,18 +111,14 @@ Output : ple</code></pre>
           <div class="discuss-comment"><p><a href="http://jsperf.com/slice-vs-substr-vs-substring-methods-long-string/3" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Slice vs Substr vs Substring vs []方法</font></font></a></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这些javascript方法均具有性能优势。</font><font style="vertical-align: inherit;">请相应地使用这些功能。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">GreenGil</span>
             <span class="discuss-time">2020.03.10</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">最大的区别是，</font></font><a href="https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Global_Objects/String/substr" rel="nofollow"><code>substr()</code></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">是</font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">一个过时的方法</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">是仍然可以使用，但因为它们预计将在未来的某个时候完全除去应谨慎使用。</font><font style="vertical-align: inherit;">您应该努力从代码中删除它们的使用。</font><font style="vertical-align: inherit;">并且该</font></font><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/substring" rel="nofollow"><code>substring()</code></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">方法成功并指定了前一种方法。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">神无Tom</span>
@@ -158,9 +152,7 @@ Output : ple</code></pre>
     "string".substr(-3);      // "ing"  (read from end of string)<font></font>
     "string".slice(-3);       // "ing"        <font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">西门神奇</span>
@@ -169,9 +161,7 @@ Output : ple</code></pre>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我最近遇到的另一个问题是，在IE 8中，</font></font><code>"abcd".substr(-1)</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">错误地返回</font></font><code>"abcd"</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，而Firefox 3.6 </font></font><code>"d"</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">则应</font><font style="vertical-align: inherit;">返回</font><font style="vertical-align: inherit;">。</font></font><code>slice</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">都可以正常工作。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">有关此主题的更多信息，请参见</font></font><a href="http://rapd.wordpress.com/2007/07/12/javascript-substr-vs-substring/"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">此处</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Jim小卤蛋</span>
@@ -192,9 +182,7 @@ Output : ple</code></pre>
 <p><code>substring(begin-offset, end-offset-exclusive)</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">起始偏移</font></font><code>0</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">量大于或等于</font></font></p>
 
 <p><code>substr(begin-offset, length)</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> 开始偏移也可能为负</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">十三Mandy</span>
@@ -210,9 +198,7 @@ alert("abc".substring(1,2)); // returns "b"<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">您可能还记得</font></font><code>substring</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">采用索引，还有另一种字符串提取方法</font></font><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/slice" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">slice</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">从0开始时，可​​以使用任何一种方法。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">TomSam</span>
@@ -225,9 +211,7 @@ alert("abc".substring(1,2)); // returns "b"<font></font>
 <p><a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String/substr" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">https://developer.mozilla.org/zh-CN/JavaScript/Reference/Global_Objects/String/substr</font></font></a></p>
 
 <p><a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String/substring" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">https://developer.mozilla.org/zh-CN/JavaScript/Reference/Global_Objects/String/substring</font></font></a></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

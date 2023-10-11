@@ -60,7 +60,7 @@ body {<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">但是得到相同的结果……有人知道为什么这些助手不起作用吗？</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第2302篇《sass-rails帮助器“ image-url”，“ asset-url”在rails 3.2.1中不起作用》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第2302篇《sass-rails帮助器“ image-url”，“ asset-url”在rails 3.2.1中不起作用》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -74,9 +74,7 @@ body {<font></font>
 
 <pre><code>background-image: url("/assets/rails.png")
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">阿飞西门</span>
@@ -88,9 +86,7 @@ body {<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">通过将Sass样式表上的扩展名设置为，您做对了</font></font><code>.css.scss</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font><font style="vertical-align: inherit;">这使Rails知道先使用Sass解析文件，然后再将其作为CSS发出内容。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">卡卡西</span>
@@ -101,9 +97,7 @@ body {<font></font>
 <p><code>background: white url(rails.png) repeat-y;</code></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">据我所知，</font><font style="vertical-align: inherit;">您没有将</font></font><code>image-url</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">或</font><font style="vertical-align: inherit;">包含在</font></font><code>asset-url</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">您的scss中，只是普通的</font></font><code>url(your_image.png)</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font><font style="vertical-align: inherit;">这些文档似乎只是对它在后台执行操作的一种解释。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">神无猪猪</span>
@@ -112,9 +106,7 @@ body {<font></font>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">您可能要尝试清除/ tmp / cache。</font><font style="vertical-align: inherit;">对于Rails和Sass来说，我太陌生了，不知道它为什么起作用，但是经过数小时的搜索，它为我解决了同样的问题。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">顺便说一句，尽管我可以看到其他Sass指令（例如设置变量和使用它们进行计算）正在执行，但此方法仍然有效。</font><font style="vertical-align: inherit;">我确定一旦有时间追踪它，就会有一个非常简单的解释。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">西门ItachiL</span>
@@ -128,9 +120,7 @@ body {<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我发现</font></font><a href="http://jalada.co.uk/2012/01/23/adding-files-to-config-assets-precompile-in-rails-3-1.html" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这篇文章中</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">的修复程序，</font><font style="vertical-align: inherit;">包括在将文件添加到预编译器时命名文件的陷阱。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小宇宙Near</span>
@@ -142,9 +132,7 @@ body {<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">sass 3.2.6为我工作，而3.2.5却没有。</font></font></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

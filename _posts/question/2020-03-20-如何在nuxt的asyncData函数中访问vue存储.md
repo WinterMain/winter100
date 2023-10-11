@@ -30,7 +30,7 @@ return app.$axios.get(url).then(response =&gt; {<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这里还有另一个要接收商店状态的信息吗？</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第2462篇《如何在nuxt的asyncData函数中访问vue存储》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第2462篇《如何在nuxt的asyncData函数中访问vue存储》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -48,9 +48,7 @@ return app.$axios.get(url).then(response =&gt; {<font></font>
       return { actu: response.data };<font></font>
 });<font></font>
 </code></pre></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

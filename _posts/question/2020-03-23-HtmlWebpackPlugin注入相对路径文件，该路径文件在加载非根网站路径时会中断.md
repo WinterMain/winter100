@@ -60,7 +60,7 @@ app.get('*', function response(req, res) {<font></font>
 </code></pre></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第2680篇《HtmlWebpackPlugin注入相对路径文件，该路径文件在加载非根网站路径时会中断》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第2680篇《HtmlWebpackPlugin注入相对路径文件，该路径文件在加载非根网站路径时会中断》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -81,9 +81,7 @@ app.get('*', function response(req, res) {<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这应该做到。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">番长猴子</span>
@@ -100,9 +98,7 @@ app.get('*', function response(req, res) {<font></font>
 
 <pre><code>&lt;base href="http://localhost:3000/"&gt;
 </code></pre></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

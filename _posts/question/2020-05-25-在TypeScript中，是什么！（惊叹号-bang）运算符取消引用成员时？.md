@@ -38,7 +38,7 @@ noPublicModifierRule</span><span class="pun">.</span><span class="pln">ts</span>
 <p><strong><em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">TS的感叹号运算符是什么，它如何工作？</font></font></em></strong></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第4174篇《在TypeScript中，是什么！（惊叹号/ bang）运算符取消引用成员时？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第4174篇《在TypeScript中，是什么！（惊叹号/ bang）运算符取消引用成员时？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -51,9 +51,7 @@ noPublicModifierRule</span><span class="pun">.</span><span class="pln">ts</span>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">路易的回答很好，但我想我会简要总结一下：</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">bang运算符告诉编译器暂时放宽其可能要求的“非空”约束。</font><font style="vertical-align: inherit;">它对编译器说：“作为开发人员，我比您更清楚此变量现在不能为null”。</font></font></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

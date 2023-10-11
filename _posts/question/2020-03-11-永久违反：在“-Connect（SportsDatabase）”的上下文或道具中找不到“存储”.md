@@ -137,7 +137,7 @@ describe('"sports-top-portion" Unit Tests', function() {<font></font>
 </code></pre></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第781篇《永久违反：在“ Connect（SportsDatabase）”的上下文或道具中找不到“存储”》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第781篇《永久违反：在“ Connect（SportsDatabase）”的上下文或道具中找不到“存储”》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -158,9 +158,7 @@ describe('"sports-top-portion" Unit Tests', function() {<font></font>
 
 <pre><code>import {connect} from "react-redux";
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">神无Davaid</span>
@@ -169,9 +167,7 @@ describe('"sports-top-portion" Unit Tests', function() {<font></font>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">当我升级时，这发生在我身上。</font><font style="vertical-align: inherit;">我不得不降级了。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">react-redux ^ 5.0.6→^ 7.1.3 </font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">樱小胖</span>
@@ -200,9 +196,7 @@ describe("Testpage Component", () =&gt; {<font></font>
     });<font></font>
 });<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小小</span>
@@ -228,9 +222,7 @@ describe("==== Testing App ======", () =&gt; {<font></font>
     wrapper = setUpFn();<font></font>
   });<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">西门泡芙Jim</span>
@@ -257,9 +249,7 @@ describe("==== Testing App ======", () =&gt; {<font></font>
 <p><font style="vertical-align: inherit;"></font><code>Provider</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">该组件的上下文或属性中</font><font style="vertical-align: inherit;">没有存储或</font><font style="vertical-align: inherit;">标签，因此该组件会抛出错误，因为它希望</font></font><code>Provider</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在其父层次结构中</font><font style="vertical-align: inherit;">看到</font><font style="vertical-align: inherit;">标记或存储。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这就是该错误的含义。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">ItachiJinJin</span>
@@ -289,9 +279,7 @@ describe("==== Testing App ======", () =&gt; {<font></font>
 </ul>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">总的来说，我会指出您可能在这个组件中尝试做太多事情，并且可能希望考虑将其分解为较小的组件，而每个组件的逻辑更少。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小哥达蒙</span>
@@ -310,9 +298,7 @@ const store: any = createStore(<font></font>
 </code></pre>
 
 <p><code>shallow(&lt;Login /&gt;, { context: { store } });</code></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

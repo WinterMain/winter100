@@ -41,7 +41,7 @@ topic: JavaScript
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我想制作一个不是开源的JavaScript应用程序，因此我想学习如何混淆我的JS代码？</font><font style="vertical-align: inherit;">这可能吗？</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第648篇《如何混淆（保护）JavaScript？[关闭]》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第648篇《如何混淆（保护）JavaScript？\[关闭\]》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -52,9 +52,7 @@ topic: JavaScript
             <span class="discuss-time">2020.03.11</span>
           </div>
           <div class="discuss-comment"><p><a href="http://www.anotherchris.net/tools/online-javascript-minifier/" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这缩小</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">但不会混淆。</font><font style="vertical-align: inherit;">如果您不想使用命令行Java，则可以将javascript粘贴到网络表单中。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Eva伽罗</span>
@@ -67,9 +65,7 @@ topic: JavaScript
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">使用Closure Advanced模式编译的代码几乎不可能进行反向工程，甚至无法通过美化程序进行处理，因为</font></font><em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">整个</font></font></em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">代码库（包括库）都被混淆了。</font><font style="vertical-align: inherit;">平均而言，它也小25％。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">经过精简的JavaScript代码（YUI Compressor，Uglify等）在经过美化后很容易进行逆向工程。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">宝儿Davaid</span>
@@ -78,9 +74,7 @@ topic: JavaScript
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">试试这个工具</font></font><a href="http://javascript-source.com/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Javascript Obfuscator</font></font></a></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我在HTML5游戏中使用了它，不仅使它的大小从950KB减小到150KB，而且使源代码变得不可读，关闭编译器和压缩器是可逆的，我个人也不知道如何逆转这种混淆。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">路易Sam神无</span>
@@ -88,9 +82,7 @@ topic: JavaScript
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我过去曾经使用过，而且做得很好。</font><font style="vertical-align: inherit;">它不是免费的，但您绝对应该看看。</font></font><br>
 <a href="http://www.stunnix.com/prod/jo" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">JavaScript混淆器和编码器</font></font></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">泡芙Green</span>
@@ -101,27 +93,21 @@ topic: JavaScript
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我超越了从其他工具（例如</font></font><a href="http://developer.yahoo.com/yui/compressor/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">YUI Compressor</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">或</font></font><a href="http://closure-compiler.appspot.com/home" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Google Closure）中</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">看到的典型Javascript缩小技巧</font><font style="vertical-align: inherit;">。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">混淆的代码看起来更像是加密的。</font><font style="vertical-align: inherit;">不像我以前见过的。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">LEY宝儿神奇</span>
             <span class="discuss-time">2020.03.11</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">作为JavaScript / HTML / CSS混淆器/压缩器，您还可以尝试</font></font><a href="http://digua.sf.net" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Patu Digua</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">卡卡西神奇</span>
             <span class="discuss-time">2020.03.11</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">您尝试过</font></font><a href="http://www.bananascript.com/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Bananascript</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">吗？</font><font style="vertical-align: inherit;">它产生高度压缩且完全不可读的代码。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">阿飞Pro</span>
@@ -134,9 +120,7 @@ topic: JavaScript
 <a href="http://badassjs.com/post/971960912/uglifyjs-a-fast-new-javascript-compressor-for-node-js" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">UglifyJS：一种适用于Node.js的快速新型JavaScript压缩器，与封闭版本相当</font></font></a></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">很快我会给UglifyJS一个机会。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Green小宇宙伽罗</span>
@@ -145,18 +129,14 @@ topic: JavaScript
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">院长爱德华的Packer是出色的混淆器，尽管它主要混淆代码，而不是代码中可能包含的任何字符串元素。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">请参阅：</font></font><a href="http://jscompress.com" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Online Javascript Compression Tool，</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">   然后从下拉列表中选择Packer（Dean Edwards）</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">猿Sam</span>
             <span class="discuss-time">2020.03.11</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我的印象是，有些企业（例如：JackBe）将加密的JavaScript代码放在* .gif文件而不是JS文件中，作为对混淆的一种附加措施。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">逆天Itachi</span>
@@ -174,9 +154,7 @@ topic: JavaScript
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我不为Jasob工作，而提倡一些友善的建议也无济于事。</font></font><br><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
 缺点是它不是免费的，有点贵，但是当与其他替代品堆叠在一起时仍然值得-“免费”选项甚至还差得很远。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">西里阳光</span>
@@ -185,9 +163,7 @@ topic: JavaScript
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我建议先使用诸如YUI Compressor之类的东西进行压缩，然后再使用诸如</font><a href="http://www.javascriptobfuscator.com/" rel="noreferrer"><font style="vertical-align: inherit;">http://www.javascriptobfuscator.com/之</font></a><font style="vertical-align: inherit;">类的所有字符串和数字将其转换为十六进制值</font></font><a href="http://www.javascriptobfuscator.com/" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></a></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这样，代码将几乎变得难以理解，我认为在此阶段，黑客重新制定代码的时间要比他从头开始重写的时间更长。</font><font style="vertical-align: inherit;">重写和克隆实际上是您无法停止的。</font><font style="vertical-align: inherit;">毕竟我们是自由人！</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小卤蛋理查德Tony</span>
@@ -198,9 +174,7 @@ topic: JavaScript
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">JS模糊处理通常是为了减小脚本的大小，而不是“保护”脚本。</font><font style="vertical-align: inherit;">如果您不希望公开代码，则Java语言不是正确的语言。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">周围有很多工具，但是出于某种原因，大多数工具的名称中都带有“ compressor”（压缩器）（或“ minifier”）。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">猪猪前端</span>
@@ -211,18 +185,14 @@ topic: JavaScript
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果您正在编写服务器端javascript（即NodeJS），则担心有人入侵您的服务器，并希望使黑客工作更加困难，给您更多的时间来恢复访问权限，然后使用</font></font><em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">javacript编译器</font></font></em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">：</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">您需要在Advanced Compilation上使用Closure Compiler，因为它是重命名所有变量的唯一工具，即使这些变量在多个文件/模块中使用也是如此。</font><font style="vertical-align: inherit;">但这只是一个问题：仅当您以</font></font><a href="https://developers.google.com/closure/compiler/docs/api-tutorial3"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">编码风格进行</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">编写时，它才有效</font><font style="vertical-align: inherit;">。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">成天</span>
             <span class="discuss-time">2020.03.11</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">尝试</font></font><a href="http://www.jscrambler.com" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">JScrambler</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font><font style="vertical-align: inherit;">我最近试了一下，对此印象深刻。</font><font style="vertical-align: inherit;">它为那些不太关心细节而只想快速完成的人提供了一组带有预定义设置的混淆模板。</font><font style="vertical-align: inherit;">您还可以通过选择所需的任何转换/技术来创建自定义混淆。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">乐神奇</span>
@@ -231,9 +201,7 @@ topic: JavaScript
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">与我针对YUI Compressor建议的其他大多数答案相反；</font><font style="vertical-align: inherit;">您应该使用</font></font><a href="http://code.google.com/closure/" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Google Closure</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">并不是因为它压缩得更多，而是因为它会捕获javascript错误（例如</font></font><code>a = [1,2,3,];</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，使IE陷入困境）之类的主要原因。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小胖Green</span>
@@ -243,9 +211,7 @@ topic: JavaScript
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">因此，如果您不想牺牲性能，则只能对变量和函数名进行操作。</font><font style="vertical-align: inherit;">用a，b ... aa，ab ...或a101，a102等替换它们。当然，请尽可能多地删除空间/换行符（这就是所谓的JS压缩器所做的事情）。</font></font><br><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
 如果您必须对字符串进行加密和实时解密，则混淆字符串会影响性能。</font><font style="vertical-align: inherit;">再加上JS调试器可以显示最终值...</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小卤蛋理查德Tony</span>
@@ -254,9 +220,7 @@ topic: JavaScript
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">您可以混淆所有想要的javascript源，但是由于要求所有源代码都必须在客户端计算机上实际运行，因此它始终是可逆向工程的……我能想到的最好选择是完成所有处理使用服务器端代码，而javascript所做的所有客户端代码就是将处理请求发送到服务器本身。</font><font style="vertical-align: inherit;">否则，任何人都将始终能够跟踪代码正在执行的所有操作。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">有人提到base64是为了保护字符串安全。</font><font style="vertical-align: inherit;">这是一个可怕的主意。</font><font style="vertical-align: inherit;">想要对代码进行反向工程的人员类型可以立即识别出Base64。</font><font style="vertical-align: inherit;">他们要做的第一件事是将其取消编码并查看其内容。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">神无伽罗</span>
@@ -284,9 +248,7 @@ topic: JavaScript
 <p><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">边注：</font></font></strong></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">众所周知，JavaScript中的混淆会导致一些错误。</font><font style="vertical-align: inherit;">混淆器对此有所改善，但是许多公司认为他们可以从</font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">压缩</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">和</font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">压缩中获得</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">足够的好处</font><font style="vertical-align: inherit;">，而增加混淆所带来的节省</font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">并不总是值得的</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font><font style="vertical-align: inherit;">如果您想保护自己的源代码，也许您会认为值得这样做，只是使您的代码更难阅读。</font></font><a href="http://www.crockford.com/javascript/jsmin.html" rel="nofollow noreferrer"><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">JSMin</font></font></strong></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">是一个很好的选择。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小小Eva</span>
@@ -299,9 +261,7 @@ topic: JavaScript
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">真正保护代码的唯一方法是不发布代码。</font><font style="vertical-align: inherit;">将重要的代码移到服务器端，并让您的公共Javascript代码对它进行Ajax调用。</font></font></p>
 
 <p><a href="https://stackoverflow.com/questions/232736/code-obfuscator-for-php"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在这里查看有关混淆器的完整答案。</font></font></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">达蒙理查德</span>
@@ -310,9 +270,7 @@ topic: JavaScript
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我很惊讶没有人提到Google的</font></font><a href="http://code.google.com/closure/compiler/" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Closure Compiler</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font><font style="vertical-align: inherit;">它不仅会缩小/压缩，还会进行分析以查找和删除未使用的代码，并进行重写以实现最大程度的缩小。</font><font style="vertical-align: inherit;">它还可以进行类型检查并警告语法错误。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">JQuery最近从YUI Compresser切换到Closure Compiler，并且看到了“ </font></font><a href="http://twitter.com/jeresig/status/5462879648" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">坚实的进步</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> ”</font></font></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

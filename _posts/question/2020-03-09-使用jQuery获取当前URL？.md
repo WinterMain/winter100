@@ -22,7 +22,7 @@ topic: JavaScript
 </code></pre></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第220篇《使用jQuery获取当前URL？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第220篇《使用jQuery获取当前URL？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -38,9 +38,7 @@ topic: JavaScript
 </code></pre>
 
 <p>Ex: in the page <code>http://stackoverflow.com/questions/406192</code> this will give <code>http://stackoverflow.com/controller/path</code></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">阿飞Sam</span>
@@ -48,18 +46,14 @@ topic: JavaScript
           </div>
           <div class="discuss-comment"><pre><code>var newURL = window.location.protocol + "//" + window.location.host + "/" + window.location.pathname;
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">eva</span>
             <span class="discuss-time">2020.03.09</span>
           </div>
           <div class="discuss-comment"><p><code>var path = location.pathname</code> returns the path of the current URL (jQuery is not needed). The use of <code>window.location</code> is optional.</p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">番长猴子古一</span>
@@ -71,9 +65,7 @@ topic: JavaScript
 2. window.location.href<font></font>
 3. window.location.pathname<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">JinJinDavaid卡卡西</span>
@@ -83,27 +75,21 @@ topic: JavaScript
 
 <pre><code>$.url().param("yourparam");
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">路易Green</span>
             <span class="discuss-time">2020.03.09</span>
           </div>
           <div class="discuss-comment"><p><strong><em>window.location</em></strong> will give you the current <a href="http://en.wikipedia.org/wiki/Uniform_Resource_Locator" rel="noreferrer">URL</a>, and you can extract whatever you want from it...</p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">神奇宝儿</span>
             <span class="discuss-time">2020.03.09</span>
           </div>
           <div class="discuss-comment"><p>Use <strong>window.location.href</strong>. This will give you the complete <a href="http://en.wikipedia.org/wiki/Uniform_Resource_Locator" rel="noreferrer">URL</a>.</p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">西里小卤蛋</span>
@@ -112,9 +98,7 @@ topic: JavaScript
           <div class="discuss-comment"><p>The following are examples of useful code snippets that can be used – some of the examples use standard JavaScript functions and are not specific to jQuery:</p>
 
 <p>See <em><a href="http://www.designchemical.com/blog/index.php/jquery/8-useful-jquery-snippets-for-urls-querystrings/" rel="noreferrer">8 Useful jQuery Snippets For URL’s &amp; Querystrings</a></em>.</p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">阿飞宝儿猴子</span>
@@ -130,9 +114,7 @@ console.log("Path Beyond URL - ",location.pathname);</code></pre>
 </div>
 </div>
 <p></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">ItachiHarry</span>
@@ -142,9 +124,7 @@ console.log("Path Beyond URL - ",location.pathname);</code></pre>
 
 <pre><code>var pathname = window.location.pathname + document.location.hash;
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user"> ....</span>
@@ -157,9 +137,7 @@ console.log("Path Beyond URL - ",location.pathname);</code></pre>
 <li><p><code>$("*").context.baseURI</code></p></li>
 <li><p><code>location.href</code></p></li>
 </ul></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">猴子西门</span>
@@ -182,9 +160,7 @@ console.log("Path Beyond URL - ",location.pathname);</code></pre>
 .protocol<font></font>
 .pathname<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Davaid番长十三</span>
@@ -194,9 +170,7 @@ console.log("Path Beyond URL - ",location.pathname);</code></pre>
 
 <pre><code>var currentURL = window.location.href;
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">SamJinJin路易</span>
@@ -206,9 +180,7 @@ console.log("Path Beyond URL - ",location.pathname);</code></pre>
 
 <pre><code>window.location.hostname
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小卤蛋村村</span>
@@ -219,9 +191,7 @@ console.log("Path Beyond URL - ",location.pathname);</code></pre>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">因此，如果您有可用的jQuery并已加载，则最好使用jQuery（位置），就像其他人提到的那样，因为它可以解决这些问题。</font><font style="vertical-align: inherit;">但是，如果您正在做一个示例-通过JavaScript进行客户端地理定位重定向（即使用Google Maps API和location对象方法），那么您可能不想加载整个jQuery库并编写条件代码，检查Internet Explorer / Firefox / etc等的每个版本。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Internet Explorer使前端编码的猫感到不高兴，但是jQuery却是一堆牛奶。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">路易Eva</span>
@@ -237,18 +207,14 @@ console.log("Path Beyond URL - ",location.pathname);</code></pre>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我希望这个对你有用。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">null</span>
             <span class="discuss-time">2020.03.09</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">您将要使用JavaScript的内置</font></font><a href="http://www.devguru.com/Technologies/ecmascript/quickref/location.html" rel="noreferrer"><code>window.location</code></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">对象。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Eva猴子古一</span>
@@ -262,9 +228,7 @@ console.log("Path Beyond URL - ",location.pathname);</code></pre>
 window.location.href <font></font>
  =&gt; www.website.com/search#race_type=1<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Stafan村村达蒙</span>
@@ -276,9 +240,7 @@ window.location.href <font></font>
 var url      = window.location.href;     // Returns full URL (https://example.com/path/example.html)<font></font>
 var origin   = window.location.origin;   // Returns base URL (https://example.com)<font></font>
 </code></pre></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

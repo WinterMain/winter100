@@ -37,7 +37,7 @@ topic: Node.js
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果您需要任何澄清，请告诉我。 </font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第3791篇《如何将自定义脚本添加到运行javascript文件的package.json文件中？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第3791篇《如何将自定义脚本添加到运行javascript文件的package.json文件中？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -71,9 +71,7 @@ topic: Node.js
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这将</font></font><code>electron-rebuild</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在</font></font><code>npm install</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">命令</font><font style="vertical-align: inherit;">后</font><font style="vertical-align: inherit;">运行</font><font style="vertical-align: inherit;">。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">番长樱梅</span>
@@ -88,9 +86,7 @@ topic: Node.js
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">现在转到您的终端并在那里运行</font></font><code>npm run singleCommandToRunTwoCommand</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小卤蛋</span>
@@ -110,9 +106,7 @@ topic: Node.js
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如您所见，脚本“ build_c”正在构建角度应用程序，然后从目录中删除所有旧文件，然后最终复制结果构建文件。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">蛋蛋</span>
@@ -139,9 +133,7 @@ shell.exec("node step1script.js");<font></font>
 </ol>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">参考：</font><a href="http://blog.npmjs.org/post/118810260230/building-a-simple-command-line-tool-with-npm" rel="noreferrer"><font style="vertical-align: inherit;">http</font></a><font style="vertical-align: inherit;"> : </font></font><a href="http://blog.npmjs.org/post/118810260230/building-a-simple-command-line-tool-with-npm" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">//blog.npmjs.org/post/118810260230/building-a-simple-command-line-tool-with-npm</font></font></a></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

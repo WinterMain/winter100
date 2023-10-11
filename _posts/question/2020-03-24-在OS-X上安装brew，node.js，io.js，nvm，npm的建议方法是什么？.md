@@ -31,7 +31,7 @@ topic: Node.js
 </ul></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第3433篇《在OS X上安装brew，node.js，io.js，nvm，npm的建议方法是什么？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第3433篇《在OS X上安装brew，node.js，io.js，nvm，npm的建议方法是什么？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -57,9 +57,7 @@ topic: Node.js
 <pre><code>nvm install 7.10.1<font></font>
 nvm use 7.10.1<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Tony凯</span>
@@ -77,9 +75,7 @@ cd / &amp;&amp; . ~/.nvm/nvm.sh &amp;&amp; nvm install 0.10.35<font></font>
 <p><code>nvm</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">不久将支持io.js，但在发布时不支持：</font><a href="https://github.com/creationix/nvm/issues/590" rel="nofollow"><font style="vertical-align: inherit;">https</font></a><font style="vertical-align: inherit;"> : </font></font><a href="https://github.com/creationix/nvm/issues/590" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">//github.com/creationix/nvm/issues/590</font></font></a></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">然后，使用</font></font><code>package.json</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">和</font><font style="vertical-align: inherit;">安装每个项目的其他所有项目</font></font><code>npm install</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">西门小小</span>
@@ -92,9 +88,7 @@ cd / &amp;&amp; . ~/.nvm/nvm.sh &amp;&amp; nvm install 0.10.35<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果您只是想要</font></font><code>io.js</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">而不是切换版本，则可以</font></font><code>io.js</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">从</font></font><a href="https://iojs.org/dist/v1.0.2/iojs-v1.0.2-darwin-x64.tar.gz" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">https://iojs.org/dist/v1.0.2/iojs-v1.0.2-darwin-x64.tar.gz</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">安装二进制发行版</font><font style="vertical-align: inherit;">；</font><font style="vertical-align: inherit;">其中包括</font></font><code>npm</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，</font></font><code>nvm</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果您不切换版本，则不需要。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">记住</font></font><code>npm</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在安装后</font><font style="vertical-align: inherit;">进行更新</font><font style="vertical-align: inherit;">：</font></font><code>sudo npm install -g npm@latest</code></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">西里Near</span>
@@ -124,9 +118,7 @@ cd / &amp;&amp; . ~/.nvm/nvm.sh &amp;&amp; nvm install 0.10.35<font></font>
 <h2><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">为了其他</font></font></h2>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我会用npm；</font><font style="vertical-align: inherit;">但是您确实应该按照网站上的指示按照每个模块的安装说明进行操作，因为它们比其他任何人都更清楚自己所遇到的问题或错误</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">番长</span>
@@ -135,9 +127,7 @@ cd / &amp;&amp; . ~/.nvm/nvm.sh &amp;&amp; nvm install 0.10.35<font></font>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">您应该使用nvm安装node.js，因为那样安装全局软件包时不必提供超级用户特权（您可以简单地执行“ npm install -g packagename”，而无需添加“ sudo”）。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">布鲁尔在其他方面却很棒。</font><font style="vertical-align: inherit;">每当我可以选择在Bower中安装某些东西时，我倾向于偏向Bower。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">伽罗理查德</span>
@@ -165,9 +155,7 @@ cd / &amp;&amp; . ~/.nvm/nvm.sh &amp;&amp; nvm install 0.10.35<font></font>
   node/5.0.0<font></font>
 ο node/5.10.1 <font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">乐</span>
@@ -198,9 +186,7 @@ cd / &amp;&amp; . ~/.nvm/nvm.sh &amp;&amp; nvm install 0.10.35<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">清洁而无忧。</font><font style="vertical-align: inherit;">它将其也标记为默认节点版本，因此您应该一切就绪</font></font></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

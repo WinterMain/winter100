@@ -29,7 +29,7 @@ npm ERR!     &lt;https://github.com/npm/npm/issues&gt;<font></font>
 </code></pre></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第1088篇《npm ERR！代码UNABLE_TO_GET_ISSUER_CERT_LOCALLY》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第1088篇《npm ERR！代码UNABLE_TO_GET_ISSUER_CERT_LOCALLY》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -51,9 +51,7 @@ npm ERR!     &lt;https://github.com/npm/npm/issues&gt;<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">现在看来对我来说最有效的解决方案是使用</font></font><a href="https://nodejs.org/api/cli.html#cli_node_extra_ca_certs_file" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">NODE_EXTRA_CA_CERTS</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">环境变量，该变量扩展了现有的CA，而不是用.npmrc文件中的cafile选项替换它们。</font><font style="vertical-align: inherit;">您可以通过在终端中输入以下内容进行设置：</font></font><code>NODE_EXTRA_CA_CERTS=path/to/your/cert.pem</code></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">当然，每次设置此变量都会很烦人，因此我将其添加到bash配置文件中，以便每次打开终端时都将对其进行设置。</font><font style="vertical-align: inherit;">如果您还没有</font></font><code>~/.bash_profile</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">文件，请创建一个。</font><font style="vertical-align: inherit;">然后在该文件的末尾添加</font></font><code>export NODE_EXTRA_CA_CERTS=path/to/your/cert.pem</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font><font style="vertical-align: inherit;">然后，删除.npmrc中的cafile设置。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Gil伽罗小宇宙</span>
@@ -63,9 +61,7 @@ npm ERR!     &lt;https://github.com/npm/npm/issues&gt;<font></font>
 
 <pre><code>npm config set registry http://registry.npmjs.org/  
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">神奇Davaid</span>
@@ -75,9 +71,7 @@ npm ERR!     &lt;https://github.com/npm/npm/issues&gt;<font></font>
 
 <pre><code>    npm config set registry http://registry.npmjs.org/  
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">JinJinDavaid卡卡西</span>
@@ -89,18 +83,14 @@ npm ERR!     &lt;https://github.com/npm/npm/issues&gt;<font></font>
 
 <pre><code>npm config set strict-ssl=false
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">凯神无</span>
             <span class="discuss-time">2020.03.12</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">尝试更新npm时出现此错误，但是在AWS Linux中从yum安装了一个非常老的版本（1.3.6！）。</font><font style="vertical-align: inherit;">我能够手动安装较新的npm版本，并且一切都已得到纠正。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Harry逆天Eva</span>
@@ -121,9 +111,7 @@ npm ERR!     &lt;https://github.com/npm/npm/issues&gt;<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">此修复程序基本上告诉npm和node-gyp对常规CA使用检查，但是在遇到该证书时也允许此证书</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">理想情况下，您将能够使用系统的受信任证书，但不幸的是并非如此。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">达蒙西门</span>
@@ -144,9 +132,7 @@ git config --system http.proxy http://gateway.zscaler.net:80/<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">对于Node，它将添加</font></font><code>proxy=http://gateway.zscaler.net:80/</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">到</font></font><code>c:\Users\$USERNAME\npm\.npmrc</code></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">那为我解决了这个问题。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小宇宙Pro</span>
@@ -160,9 +146,7 @@ git config --system http.proxy http://gateway.zscaler.net:80/<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这工作得很好，并且我</font></font><code>Happy Hacking!</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">没有将strict-ssl标志设置为false，从而</font><font style="vertical-align: inherit;">获得了成功消息</font><font style="vertical-align: inherit;">。</font></font></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

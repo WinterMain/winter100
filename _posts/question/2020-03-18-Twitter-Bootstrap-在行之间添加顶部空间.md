@@ -17,7 +17,7 @@ topic: CSS
     <div class="article-content"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如何</font></font><code>class="row"</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">使用Twitter Bootstrap框架</font><font style="vertical-align: inherit;">向</font><font style="vertical-align: inherit;">元素</font><font style="vertical-align: inherit;">添加边距顶部</font><font style="vertical-align: inherit;">？</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第2110篇《Twitter Bootstrap-在行之间添加顶部空间》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第2110篇《Twitter Bootstrap-在行之间添加顶部空间》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -31,9 +31,7 @@ topic: CSS
 
 <pre><code>&lt;p&gt;&amp;nbsp;&lt;/p&gt;
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Pro神奇神奇</span>
@@ -42,9 +40,7 @@ topic: CSS
           <div class="discuss-comment"><p>Just simply use this <strong><code>bs3-upgrade</code></strong> helper for spacings and text aligment...</p>
 
 <p><a href="https://github.com/studija/bs3-upgrade" rel="nofollow noreferrer">https://github.com/studija/bs3-upgrade</a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小胖Stafan</span>
@@ -57,9 +53,7 @@ topic: CSS
     padding-bottom: 1rem;<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">西门GO村村</span>
@@ -69,9 +63,7 @@ topic: CSS
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">简单的代码</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">番长小胖</span>
@@ -112,9 +104,7 @@ topic: CSS
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">（使用SASS或LESS 15px可能是引导程序中的变量）</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">番长斯丁Itachi</span>
@@ -133,9 +123,7 @@ here is the code below<font></font>
    &lt;/div&gt;<font></font>
  &lt;/div&gt;<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小宇宙Gil</span>
@@ -147,9 +135,7 @@ here is the code below<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这些类使用以下格式命名： </font></font><code>{property}-{sides}-{size}</code></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Near村村</span>
@@ -161,9 +147,7 @@ here is the code below<font></font>
      margin-top:20px;<font></font>
  }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Gil前端</span>
@@ -184,9 +168,7 @@ here is the code below<font></font>
     margin-top: 50px;<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">梅伽罗</span>
@@ -230,9 +212,7 @@ here is the code below<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在这里阅读更多 </font></font></p>
 
 <p><a href="https://v4-alpha.getbootstrap.com/utilities/spacing/#horizontal-centering" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">https://v4-alpha.getbootstrap.com/utilities/spacing/#horizo​​ntal-centering</font></font></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">JinJin猴子</span>
@@ -248,9 +228,7 @@ here is the code below<font></font>
 ...</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">参考：</font><a href="https://v4-alpha.getbootstrap.com/utilities/spacing/" rel="noreferrer"><font style="vertical-align: inherit;">https</font></a><font style="vertical-align: inherit;"> : </font></font><a href="https://v4-alpha.getbootstrap.com/utilities/spacing/" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">//v4-alpha.getbootstrap.com/utilities/spacing/</font></font></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">番长西门</span>
@@ -272,9 +250,7 @@ here is the code below<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果您喜欢像素，请将em更改为px即可。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">神乐十三</span>
@@ -306,9 +282,7 @@ here is the code below<font></font>
   &lt;/div&gt;<font></font>
 &lt;/div&gt;<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">泡芙神奇</span>
@@ -327,9 +301,7 @@ here is the code below<font></font>
 .margin-bottom-md {margin-bottom: @line-height-computed;}<font></font>
 .margin-bottom-lg {margin-bottom: ceil(@line-height-computed * 2);}  <font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">阳光Davaid</span>
@@ -387,9 +359,7 @@ here is the code below<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">阅读</font></font><a href="https://getbootstrap.com/docs/4.0/utilities/spacing/" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">文档</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">以获取更多说明。</font><font style="vertical-align: inherit;">在</font></font><a href="https://www.w3schools.com/bootstrap4/tryit.asp?filename=trybs_util_spacing&amp;stacked=h" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这里</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">尝试现场示例</font><font style="vertical-align: inherit;">。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">JimAGil</span>
@@ -417,9 +387,7 @@ here is the code below<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">类名中的“ t”使其仅适用于“上”侧，下，左，右也有类似的类。</font><font style="vertical-align: inherit;">该数字定义空间大小。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">蛋蛋Itachi</span>
@@ -438,9 +406,7 @@ here is the code below<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">每当我想做 </font></font><code>&lt;div class="row top7"&gt;&lt;/div&gt;</code></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">为了更好地响应，您可以添加</font></font><code>margin-top:7%</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">而不是</font></font><code>5px</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">例如：D</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">LEY蛋蛋Near</span>
@@ -457,9 +423,7 @@ here is the code below<font></font>
 
 <pre><code>&lt;div class="row top-buffer"&gt; ...
 </code></pre></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

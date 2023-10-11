@@ -47,7 +47,7 @@ topic: CSS
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">有关如何解决此问题的任何提示？</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第2300篇《使用SASS将列表作为单个参数传递给mixin》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第2300篇《使用SASS将列表作为单个参数传递给mixin》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -71,9 +71,7 @@ topic: CSS
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">请注意，scss是作用域的，因此</font></font><code>$shadow</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果以后再次使用，仍将保留其mixin值。</font><font style="vertical-align: inherit;">少一点我认为，在这种情况下会遭受重新分配</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">ALEYHarry</span>
@@ -93,9 +91,7 @@ topic: CSS
 
 <pre><code>+box-shadow( (myshadow1, myshadow2, ...) )
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">逆天L</span>
@@ -105,9 +101,7 @@ topic: CSS
 
 <pre><code>@include box-shadow(#{"inset -2px -2px 2px rgba(0,0,0,0.5), inset 1px 1px 2px rgba(255,255,255,0.5), inset 0px 0px 0px 1px #ff800f"});
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">TonyEvaL</span>
@@ -129,9 +123,7 @@ topic: CSS
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">通过：</font><a href="http://sass-lang.com/docs/yardoc/file.SASS_REFERENCE.html#variable_arguments" rel="noreferrer"><font style="vertical-align: inherit;">http</font></a><font style="vertical-align: inherit;"> : </font></font><a href="http://sass-lang.com/docs/yardoc/file.SASS_REFERENCE.html#variable_arguments" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">//sass-lang.com/docs/yardoc/file.SASS_REFERENCE.html#variable_arguments</font></font></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Itachi理查德</span>
@@ -189,9 +181,7 @@ topic: CSS
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Sass非常强大:)</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">猴子卡卡西</span>
@@ -214,9 +204,7 @@ topic: CSS
 </code></pre>
 
 <p><em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">感谢小费瑞安。</font></font></em></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

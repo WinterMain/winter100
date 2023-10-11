@@ -90,7 +90,7 @@ output: {<font></font>
 </ul></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第2846篇《有人可以解释Webpack的CommonsChunkPlugin》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第2846篇《有人可以解释Webpack的CommonsChunkPlugin》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -158,9 +158,7 @@ output: {<font></font>
 </ol>
 
 <p>Hope it helps.</p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

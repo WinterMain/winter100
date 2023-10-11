@@ -41,7 +41,7 @@ sudo n stable<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如何在Windows上执行此操作？</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第1695篇《如何在Windows上更新npm？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第1695篇《如何在Windows上更新npm？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -62,18 +62,14 @@ sudo n stable<font></font>
 </ol>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">注意：我尝试直接在“ C：\ Program Files \ nodejs \ node_modules”中安装npm，但创建了错误。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">TomGO小小</span>
             <span class="discuss-time">2020.03.16</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">就我而言，我发现我安装了两个Node.js副本。</font><font style="vertical-align: inherit;">一个在“ C：\ Program Files \ nodejs”下，另一个在“ C：\ Program Files（x86）\ nodejs”下。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">飞云LEY</span>
@@ -91,9 +87,7 @@ sudo n stable<font></font>
 npm install -g npm-windows-upgrade<font></font>
 npm-windows-upgrade<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">番长Gil</span>
@@ -114,9 +108,7 @@ npm-windows-upgrade<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">请考虑将您的问题报告给</font></font><a href="http://aka.ms/npm-issues" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">http://aka.ms/npm-issues</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p>
 
 <p><a href="http://aka.ms/fix-npm-upgrade" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">http://aka.ms/fix-npm-upgrade</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> &lt;-这是一个无效的链接</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小小乐</span>
@@ -129,9 +121,7 @@ npm update -g [package....]<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果要从先前版本的节点升级，则将要更新所有现有的全局软件包。</font><font style="vertical-align: inherit;">您还可以指定要更新的软件包名称。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Davaid村村</span>
@@ -142,9 +132,7 @@ npm update -g [package....]<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">因此，这就是我所做的（为我工作）：1.从nodejs.org下载最新的安装程序。</font><font style="vertical-align: inherit;">安装节点。</font><font style="vertical-align: inherit;">它将更新您的节点；</font><font style="vertical-align: inherit;">无处不在（Powershell，cmd等）。</font><font style="vertical-align: inherit;">2.安装npm-windows-upgrade软件包（npm install -g npm-windows-upgrade）并运行npm-windows-upgrade。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我没有卸载任何东西，也没有设置任何路径。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">猿西门Tom</span>
@@ -163,18 +151,14 @@ npm update -g [package....]<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">现在，您将拥有已安装的新版本。 </font></font></p>
 
 <p><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">注意</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">：如果不删除路径。</font><font style="vertical-align: inherit;">您将看到节点的先前版本。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">伽罗Jim小哥</span>
             <span class="discuss-time">2020.03.16</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">要安装更新，只需</font><font style="vertical-align: inherit;">从Nodejs.org网站</font></font><a href="https://nodejs.org/en/download/" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">下载安装程序</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，然后再次运行即可。</font><font style="vertical-align: inherit;">Node.js和NPM的新版本将替换旧版本。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">凯小卤蛋</span>
@@ -195,9 +179,7 @@ npm update -g [package....]<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">新安装将新目录添加到旧目录之后的我的path变量中。</font><font style="vertical-align: inherit;">因此，旧的安装仍是该路径中的活动安装。</font><font style="vertical-align: inherit;">取出后</font></font><code>C:\Program Files\nodejs\</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">从</font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">系统</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">路径和</font></font><code>C:\Users\...\AppData\Roaming\npm</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">从</font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">用户</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">路径并重新启动命令行新的安装是有活性。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">也许最少的路径是与新安装无关的本地问题，但我有两个链接</font></font><code>AppData\Roaming\npm</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font><font style="vertical-align: inherit;">也许也可以通过先卸载node.js然后安装新版本来解决。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Tom卡卡西</span>
@@ -219,9 +201,7 @@ npm update -g [package....]<font></font>
 </ul>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">和npm更新成功。</font><font style="vertical-align: inherit;">早些时候，我尝试使用CMD，这会引发错误。</font><font style="vertical-align: inherit;">可能是一些通过运行NodeJs命令提示符而解决的路径问题。</font><font style="vertical-align: inherit;">希望对你有用。</font><font style="vertical-align: inherit;">尝试这个。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">逆天小卤蛋Green</span>
@@ -233,9 +213,7 @@ npm update -g [package....]<font></font>
 然后下载最新版本并将其安装在与之前版本在1分钟内安装的同一文件夹中，完成。</font><font style="vertical-align: inherit;">您不需要删除任何旧文件。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">然后更新</font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">npm</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在cmd中键入：</font></font><code>npm install --save latest-version</code></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">JimGil</span>
@@ -265,9 +243,7 @@ npm update -g [package....]<font></font>
 </ol>
 
 <p><a href="http://i.stack.imgur.com/qFBBF.png" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">命令提示符屏幕截图</font></font></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小卤蛋梅蛋蛋</span>
@@ -280,9 +256,7 @@ npm update -g [package....]<font></font>
 <p><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">适用于Windows</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> 
 但适用于Windows的</font><strong><font style="vertical-align: inherit;">节点版本管理器（nvm）</font></strong><font style="vertical-align: inherit;">，带有安装程序。</font></font><a href="https://github.com/coreybutler/nvm-windows/releases" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">立即下载</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">！</font><font style="vertical-align: inherit;">它一直是节点版本管理器，而不是io.js管理器，因此没有对io.js的支持。</font><font style="vertical-align: inherit;">但是，支持节点4+。
 </font></font><a href="https://i.stack.imgur.com/k88UI.jpg" rel="noreferrer"><img src="https://i.stack.imgur.com/k88UI.jpg" alt="在此处输入图片说明"></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">达蒙西里</span>
@@ -307,9 +281,7 @@ C:\Program Files\nodejs\node.exe<font></font>
 
 <pre><code>C:\Windows\node.exe
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">伽罗老丝</span>
@@ -322,9 +294,7 @@ C:\Program Files\nodejs\node.exe<font></font>
 <li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">删除目录（</font><font style="vertical-align: inherit;">如果存在）</font></font><code>C:\Program Files (x86)\nodejs\</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">和</font><font style="vertical-align: inherit;">两者都</font></font><code>C:\Program Files\nodejs\</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">存在。</font></font></li>
 <li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">安装最新版本</font></font><a href="http://nodejs.org/download/" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">http://nodejs.org/download/</font></font></a></li>
 </ol></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">TomSam</span>
@@ -347,9 +317,7 @@ C:\Program Files\nodejs\node.exe<font></font>
 <p>&nbsp;&nbsp;&nbsp;&nbsp;<em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这是在Windows上升级npm的官方文档。</font></font></em></p>
 
 <p><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">所有组件均已通过测试并在Windows 10（2017）上运行。</font></font></strong></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">村村Itachi</span>
@@ -362,9 +330,7 @@ C:\Program Files\nodejs\node.exe<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这是我的截图！</font></font></p>
 
 <p><a href="https://i.stack.imgur.com/snpdn.png" rel="nofollow noreferrer"><img src="https://i.stack.imgur.com/snpdn.png" alt="在此处输入图片说明"></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">村村A</span>
@@ -395,9 +361,7 @@ C:\Program Files\nodejs\node.exe<font></font>
 <strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">e。</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">     npm缓存验证
  </font></font><br>
 <strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">f。</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">     npm安装</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">LEY卡卡西梅</span>
@@ -406,9 +370,7 @@ C:\Program Files\nodejs\node.exe<font></font>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">先前的答案将适用于安装新版本的Node.js（可能是最佳选择），但是如果您依赖于特定的Node.js版本，则以下内容将起作用：“ npm install npm -g”。</font><font style="vertical-align: inherit;">在命令之前和之后运行npm -v进行验证。</font></font></p>
 
 <p><a href="https://i.stack.imgur.com/PcfrZ.png" rel="noreferrer"><img src="https://i.stack.imgur.com/PcfrZ.png" alt="在此处输入图片说明"></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">老丝前端</span>
@@ -428,9 +390,7 @@ C:\Program Files\nodejs\node.exe<font></font>
 </ul>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">希望这可以帮助。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">西里小哥</span>
@@ -452,9 +412,7 @@ C:\Program Files\nodejs\node.exe<font></font>
 
 <pre><code>&gt; choco update npm
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">凯西里</span>
@@ -480,9 +438,7 @@ npm-windows-upgrade<font></font>
 <li><a href="https://github.com/npm/npm/wiki/Troubleshooting#upgrading-on-windows" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">由NPM小组正式推荐</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></li>
 <li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">NPM和NODE之间匹配的版本列表（</font></font><a href="https://nodejs.org/en/download/releases/" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">https://nodejs.org/en/download/releases/）-</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">但是您将需要下载NODE INSTALLER并运行它以更新节点（</font></font><a href="https://nodejs.org/en/" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">https://nodejs.org/en /</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">）</font></font></li>
 </ul></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">LEYEvaL</span>
@@ -494,18 +450,14 @@ npm-windows-upgrade<font></font>
 <li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在您的shell中导航到您的节点安装目录，例如 </font></font><code>C:\Program Files (x86)\nodejs</code></li>
 <li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">运行</font></font><code>npm install npm</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">（无</font></font><code>-g</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">选项）</font></font></li>
 </ul></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小胖神奇</span>
             <span class="discuss-time">2020.03.16</span>
           </div>
           <div class="discuss-comment"><p><a href="https://nodejs.org/en/download" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">下载</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">并运行最新的MSI。</font><font style="vertical-align: inherit;">MSI将更新您已安装的节点和npm。</font></font></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

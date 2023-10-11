@@ -21,7 +21,7 @@ topic: React.js
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">谢谢！</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第2622篇《react-router和Next.js有什么区别》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第2622篇《react-router和Next.js有什么区别》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -36,9 +36,7 @@ topic: React.js
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果您使用标准的React应用程序和react-router编写自己的设置，那么当您深入研究SSR时可能会遇到很多复杂性和极端情况。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">简而言之，如果SSR是核心要求，则一定要考虑使用SSR React框架。</font></font></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

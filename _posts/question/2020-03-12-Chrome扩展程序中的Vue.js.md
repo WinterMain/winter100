@@ -29,7 +29,7 @@ topic: JavaScript
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">有办法防止这种情况吗？</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第892篇《Chrome扩展程序中的Vue.js》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第892篇《Chrome扩展程序中的Vue.js》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -59,9 +59,7 @@ topic: JavaScript
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">某些环境（例如Google Chrome Apps）强制执行内容安全政策（CSP），该政策禁止使用新的Function（）来评估表达式。</font><font style="vertical-align: inherit;">独立构建依赖于此功能来编译模板，因此在这些环境中不可用。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">但是有一个解决方案。</font><font style="vertical-align: inherit;">在具有Webpack + vue-loader或Browserify + vueify的构建系统中使用Vue时，您的模板将被预编译为渲染功能，这些功能可以在CSP环境中完美运行。</font></font></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

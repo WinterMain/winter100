@@ -34,7 +34,7 @@ topic: React.js
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我想得到</font></font><code>event</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font><font style="vertical-align: inherit;">我怎么才能得到它？</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第2097篇《React onClick-通过事件传递参数》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第2097篇《React onClick-通过事件传递参数》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -57,9 +57,7 @@ topic: React.js
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">有关</font><font style="vertical-align: inherit;">使用</font><font style="vertical-align: inherit;">属性的信息，</font><font style="vertical-align: inherit;">请参见</font></font><a href="https://developer.mozilla.org/en-US/docs/Learn/HTML/Howto/Use_data_attributes" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">https://developer.mozilla.org/en-US/docs/Learn/HTML/Howto/Use_data_attributes</font></font></a><font style="vertical-align: inherit;"></font><code>data-*</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">TonyEvaL</span>
@@ -81,9 +79,7 @@ topic: React.js
 <font></font>
 &lt;button onClick={this.clickMe.bind(this, someParameter)}&gt;&lt;/button&gt;<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">GreenSam</span>
@@ -100,9 +96,7 @@ topic: React.js
 
 <pre><code>&lt;button onClick={clickMe(someParameter)} /&gt;
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">阿飞卡卡西</span>
@@ -121,9 +115,7 @@ topic: React.js
      //do with event<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

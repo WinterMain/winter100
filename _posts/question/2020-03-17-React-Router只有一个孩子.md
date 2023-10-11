@@ -59,7 +59,7 @@ render((<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">感谢您的帮助</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第1867篇《React-Router只有一个孩子》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第1867篇《React-Router只有一个孩子》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -78,9 +78,7 @@ render((<font></font>
     &lt;/p&gt;<font></font>
 &lt;/Router&gt;<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">JimLEYSam</span>
@@ -100,9 +98,7 @@ render((<font></font>
       &lt;/div&gt;<font></font>
     &lt;/Router&gt;<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">西门村村古一</span>
@@ -117,9 +113,7 @@ render((<font></font>
    &lt;/Route&gt;    <font></font>
 &lt;/Router&gt;<font></font>
 </code></pre></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

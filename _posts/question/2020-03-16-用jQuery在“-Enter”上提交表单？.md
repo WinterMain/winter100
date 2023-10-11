@@ -28,7 +28,7 @@ topic: JavaScript
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">但这既没有停止清算行为，也没有提交表格。</font><font style="vertical-align: inherit;">没有与表单相关的操作-可能是问题吗？</font><font style="vertical-align: inherit;">我可以在动作中添加JavaScript函数吗？</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第1702篇《用jQuery在“ Enter”上提交表单？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第1702篇《用jQuery在“ Enter”上提交表单？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -53,9 +53,7 @@ if($(form).length &gt; 0)<font></font>
     })<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">西门小宇宙</span>
@@ -90,9 +88,7 @@ if($(form).length &gt; 0)<font></font>
     });<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">乐神奇</span>
@@ -106,9 +102,7 @@ if($(form).length &gt; 0)<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">首先，我在提交按钮上添加了一个事件处理程序，这对我产生了错误。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">宝儿阿飞</span>
@@ -123,9 +117,7 @@ Name : &lt;input type="text" name="test"&gt;<font></font>
 &lt;input type="submit" style="display: none;"&gt;<font></font>
 &lt;/form&gt;<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">JinJin宝儿</span>
@@ -140,9 +132,7 @@ Name : &lt;input type="text" name="test"&gt;<font></font>
     }<font></font>
     });<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Sam梅小胖</span>
@@ -154,18 +144,14 @@ Name : &lt;input type="text" name="test"&gt;<font></font>
 <font></font>
 if (c == 13) ...<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Jim理查德泡芙</span>
             <span class="discuss-time">2020.03.16</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">返回</font></font><code>false</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">以防止继续击键。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">十三西里GO</span>
@@ -181,9 +167,7 @@ if (c == 13) ...<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">到您的表单，并在按下Enter键时自然提交了吗？</font><font style="vertical-align: inherit;">如果需要，您甚至可以钩住表单的</font></font><code>onsubmit</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">动作并从那里调用验证函数...</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">您甚至可以将</font></font><code>onsubmit</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">用作测试来查看您的表单是否正在提交，但是如果您致电，它将无法正常工作</font></font><code>form.submit()</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小卤蛋Pro</span>
@@ -193,9 +177,7 @@ if (c == 13) ...<font></font>
 
 <pre><code>e.preventDefault();
 </code></pre></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

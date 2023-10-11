@@ -51,7 +51,7 @@ topic: JavaScript
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">最好的祝愿！</font><font style="vertical-align: inherit;">希望得到答复。</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第1035篇《在获取数据时如何在React Redux应用程序中显示加载指示器？[关闭]》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第1035篇《在获取数据时如何在React Redux应用程序中显示加载指示器？\[关闭\]》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -81,9 +81,7 @@ topic: JavaScript
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">为了使POST时的网址唯一，我将一些变量作为查询传递。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在要显示指标的地方，我只需使用getFetchCount变量 </font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">null</span>
@@ -96,9 +94,7 @@ topic: JavaScript
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">LoadingService的用户只需订阅他们想收听的事件。  </font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">每当需要更改时，我的Redux操作创建者都会调用LoadingService。</font><font style="vertical-align: inherit;">UX组件订阅公开的可观察对象...</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">梅西里</span>
@@ -126,9 +122,7 @@ case RECEIVE_POSTS:<font></font>
     items: action.posts,<font></font>
     lastUpdated: action.receivedAt<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Eva西里</span>
@@ -139,9 +133,7 @@ case RECEIVE_POSTS:<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">碰巧我想获取不适合分页模式的特定实体的详细信息。</font><font style="vertical-align: inherit;">我想有一个状态来表示是否正在从服务器中获取详细信息，但是我也不想为此而使用化简器。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">为了解决这个问题，我添加了另一个通用的reducer </font></font><code>fetching</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font><font style="vertical-align: inherit;">它的工作方式与分页减速器类似，它的职责只是</font></font><em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">观察</font></font></em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">一组动作并成对产生新状态</font></font><code>[entity, isFetching]</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font><font style="vertical-align: inherit;">这就使</font></font><code>connect</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">reducer可以使用任何组件，并知道应用程序当前是否不仅在为集合而且为特定实体获取数据。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Pro梅</span>
@@ -150,9 +142,7 @@ case RECEIVE_POSTS:<font></font>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">您可以使用</font></font><code>connect()</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">React Redux或低级</font></font><code>store.subscribe()</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">方法</font><font style="vertical-align: inherit;">将更改侦听器添加到您的商店</font><font style="vertical-align: inherit;">。</font><font style="vertical-align: inherit;">您应该在商店中有加载指示器，商店更改处理程序可以使用该指示器检查并更新组件状态。</font><font style="vertical-align: inherit;">然后，如果需要，组件将根据状态呈现预加载器。</font></font></p>
 
 <p><code>alert</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">并且</font></font><code>confirm</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">不应该是一个问题。</font><font style="vertical-align: inherit;">他们处于阻止状态，警报甚至不接受用户的任何输入。</font><font style="vertical-align: inherit;">使用</font></font><code>confirm</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，如果用户的选择会影响组件的呈现，则可以根据用户单击的内容来设置状态。</font><font style="vertical-align: inherit;">如果没有，您可以将选择存储为组件成员变量，以备后用。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">JimProL</span>
@@ -220,9 +210,7 @@ case RECEIVE_POSTS:<font></font>
 <p>If you wish to show an alert, either do this from a component before dispatching an action, or do this from an action creator. By the time an action is dispatched, it is too late to perform side effects in response to it.</p>
 
 <p>For every rule, there is an exception. Sometimes your side effect logic is so complicated you actually <em>want</em> to couple them either to specific action types or to specific reducers. In this case check out advanced projects like <a href="https://github.com/yelouafi/redux-saga" rel="noreferrer">Redux Saga</a> and <a href="https://github.com/raisemarketplace/redux-loop" rel="noreferrer">Redux Loop</a>. Only do this when you are comfortable with vanilla Redux and have a real problem of scattered side effects you’d like to make more manageable.</p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

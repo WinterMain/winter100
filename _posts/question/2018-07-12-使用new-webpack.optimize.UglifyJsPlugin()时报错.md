@@ -25,7 +25,7 @@ answer: 1
 </div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第70篇《使用new webpack.optimize.UglifyJsPlugin()时报错》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第70篇《使用new webpack.optimize.UglifyJsPlugin()时报错》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -42,9 +42,7 @@ answer: 1
 
 Uglify是压缩js,现在已经不需要了,只需要在script里面写成
 "build": "webpack --mode production", 就自动压缩了</div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

@@ -55,7 +55,7 @@ topic: TypeScript
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我检查了</font></font><a href="https://stackoverflow.com/questions/14220321/how-do-i-return-the-response-from-an-asynchronous-call"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如何从异步调用返回响应？</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">发布但找不到解决方案</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第4166篇《如何从Angle的Observable / http / async调用返回响应？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第4166篇《如何从Angle的Observable / http / async调用返回响应？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -68,9 +68,7 @@ topic: TypeScript
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果仅在模板中</font><font style="vertical-align: inherit;">使用</font></font><a href="https://angular.io/api/common/AsyncPipe" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">myEvents，</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">则可以使用asyncPype。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在这里使用asyncPype和Angular4 HttpClient的示例</font></font><a href="https://stackblitz.com/edit/angular-rhioqt?file=app%2Fevent.service.ts" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">https://stackblitz.com/edit/angular-rhioqt?file=app%2Fevent.service.ts</font></font></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">null</span>
@@ -87,9 +85,7 @@ topic: TypeScript
             console</span><span class="pun">.</span><span class="pln">log</span><span class="pun">(</span><span class="kwd">this</span><span class="pun">.</span><span class="pln">myEvents</span><span class="pun">);</span><span class="pln">
         </span><span class="pun">});</span><span class="pln">
   </span><span class="pun">}</span></code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">柳叶风吹</span>
@@ -102,9 +98,7 @@ topic: TypeScript
        </span><span class="kwd">this</span><span class="pun">.</span><span class="pln">myEvents </span><span class="pun">=</span><span class="pln"> response</span><span class="pun">;</span><span class="pln">  
         console</span><span class="pun">.</span><span class="pln">log</span><span class="pun">(</span><span class="kwd">this</span><span class="pun">.</span><span class="pln">myEvents</span><span class="pun">);</span><span class="pln"> </span><span class="com">//&lt;-this become synchronous now  </span><span class="pln">
     </span><span class="pun">});</span></code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">鱼二水</span>
@@ -116,9 +110,7 @@ topic: TypeScript
     </span><span class="kwd">const</span><span class="pln"> res </span><span class="pun">=</span><span class="pln"> </span><span class="kwd">await</span><span class="pln"> </span><span class="kwd">this</span><span class="pun">.</span><span class="pln">es</span><span class="pun">.</span><span class="pln">getEventList</span><span class="pun">();</span><span class="pln">
     console</span><span class="pun">.</span><span class="pln">log</span><span class="pun">(</span><span class="pln">JSON</span><span class="pun">.</span><span class="pln">stringify</span><span class="pun">(</span><span class="pln">res</span><span class="pun">));</span><span class="pln">
 </span><span class="pun">}</span></code></pre></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

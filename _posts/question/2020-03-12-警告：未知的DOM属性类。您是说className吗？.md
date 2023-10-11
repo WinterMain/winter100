@@ -31,7 +31,7 @@ topic: JavaScript
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">问题是; </font><font style="vertical-align: inherit;">React是否执行此约定？</font><font style="vertical-align: inherit;">另外，为什么我需要使用它</font></font><code>className</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">而不是传统方法</font></font><code>class</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">？</font><font style="vertical-align: inherit;">如果这是一个限制，那是由于JSX语法还是其他原因？</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第1042篇《警告：未知的DOM属性类。您是说className吗？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第1042篇《警告：未知的DOM属性类。您是说className吗？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -57,9 +57,7 @@ topic: JavaScript
 <blockquote>
   <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">npm install --save-dev babel-plugin-react-html-attrs</font></font></p>
 </blockquote></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">西门小宇宙</span>
@@ -74,9 +72,7 @@ topic: JavaScript
 
 <pre><code>className="navbar"
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">达蒙西里村村</span>
@@ -89,9 +85,7 @@ topic: JavaScript
 </blockquote>
 
 <p><a href="https://facebook.github.io/react/docs/jsx-in-depth.html#html-tags-vs.-react-components" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">深度JSX</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">EvaEva斯丁</span>
@@ -100,9 +94,7 @@ topic: JavaScript
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">您不能将class用于任何HTML标记属性，因为JS具有class的另一种含义。</font><font style="vertical-align: inherit;">这就是为什么必须使用className而不是class的原因。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">并且也使用htmlFor属性代替for。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">米亚Stafan</span>
@@ -113,9 +105,7 @@ topic: JavaScript
 <pre><code>for   --&gt; htmlFor<font></font>
 class --&gt; className<font></font>
 </code></pre></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

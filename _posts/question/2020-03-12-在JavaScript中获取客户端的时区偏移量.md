@@ -17,7 +17,7 @@ topic: JavaScript
     <div class="article-content"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如何收集访问者的时区信息？</font><font style="vertical-align: inherit;">我需要时区以及GMT偏移时间。</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第898篇《在JavaScript中获取客户端的时区偏移量》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第898篇《在JavaScript中获取客户端的时区偏移量》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -42,9 +42,7 @@ console.log(timestamp);<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">未定义</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">乐米亚</span>
@@ -57,9 +55,7 @@ console.log(timestamp);<font></font>
   t = 0,
   d = new Date(t*1000 + _d.getTime())</code></p>
 </blockquote></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">宝儿理查德村村</span>
@@ -70,9 +66,7 @@ console.log(timestamp);<font></font>
 <pre><code>// Translation to offset in Unix Timestamp<font></font>
 let timeZoneOffset = ((new Date().getTimezoneOffset())/60)*3600;<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">前端猪猪GO</span>
@@ -95,9 +89,7 @@ $(function(){<font></font>
 <font></font>
 &lt;/script&gt;<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">神乐Pro</span>
@@ -114,9 +106,7 @@ $(function(){<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">可在IE8，IE9，Safari 9，Firefox 44和Chrome 48中使用</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">卡卡西卡卡西</span>
@@ -139,9 +129,7 @@ $(function(){<font></font>
 <font></font>
 <font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">樱古一</span>
@@ -154,9 +142,7 @@ console.log(offset);<font></font>
 this.timeOffSet = offset + (-2*offset);<font></font>
 console.log(this.timeOffSet);<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">卡卡西Mandy</span>
@@ -166,9 +152,7 @@ console.log(this.timeOffSet);<font></font>
 
 <pre><code>new Date().toString().split("GMT")[1].split(" (")[0]
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">HarryTom</span>
@@ -187,9 +171,7 @@ console.log(this.timeOffSet);<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">范例：2018年6月21日星期四18:12:50 GMT + 0530（印度标准时间） </font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">O / P：+0530</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">null</span>
@@ -233,9 +215,7 @@ else<font></font>
 </div>
 </div>
 <p></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">宝儿猿</span>
@@ -269,9 +249,7 @@ else<font></font>
 <li><a href="http://momentjs.com/docs/#/manipulating/utc-offset/" rel="nofollow noreferrer">moment Doc</a></li>
 <li><a href="https://github.com/iamkun/dayjs/blob/dev/docs/en/API-reference.md#utc-offset-minutes-utcoffset" rel="nofollow noreferrer">Dayjs Doc</a></li>
 </ul></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">理查德凯</span>
@@ -288,9 +266,7 @@ console.log(timezone);</code></pre>
 </div>
 </div>
 <p></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">路易伽罗</span>
@@ -322,9 +298,7 @@ console.log(new Date().getTimezoneOffset() / -60);</code></pre>
   
   <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">该</font></font><code>toTimeString()</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">方法是特别有用的，因为实现ECMA-262标准的发动机可以从所获得的字符串中不同</font></font><code>toString()</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">为</font></font><code>Date</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">对象，该格式是与实现有关的; </font><font style="vertical-align: inherit;">简单的字符串切片方法可能无法在多个引擎上产生一致的结果。</font></font></p>
 </blockquote></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">卡卡西卡卡西</span>
@@ -337,9 +311,7 @@ var offset = curdate.getTimezoneOffset()<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">此方法返回以分钟为单位的时区偏移量，这是GMT与本地时间（以分钟为单位）之间的差。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小卤蛋小卤蛋小哥</span>
@@ -373,9 +345,7 @@ document.write(getTimeZone());</code></pre>
 <p></p>
 
 <p><strong><a href="http://jsfiddle.net/agzknz9L/"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">工作小提琴</font></font></a></strong></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">猿飞云斯丁</span>
@@ -398,9 +368,7 @@ moment.tz.guess();<font></font>
 
 <pre><code>console.log(moment.tz.guess()); // America/Chicago
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">TomProSam</span>
@@ -439,9 +407,7 @@ var timeZoneFormatted = split[split.length - 2] + " " + split[split.length - 1];
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Date.toString参考：</font><a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Date/toString"><font style="vertical-align: inherit;">https</font></a><font style="vertical-align: inherit;"> : </font></font><a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Date/toString"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">//developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Date/toString</font></font></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">西门村村古一</span>
@@ -464,9 +430,7 @@ console.log(offset);</code></pre>
 </ul>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">请注意，并非所有时区都被整个小时抵消：例如，纽芬兰是UTC减去3h 30m（将夏令时排除在外）。</font></font></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

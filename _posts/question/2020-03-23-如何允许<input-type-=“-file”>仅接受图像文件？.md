@@ -21,7 +21,7 @@ topic: HTML
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如何实现此功能？</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第2897篇《如何允许<input type =“ file”>仅接受图像文件？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第2897篇《如何允许<input type =“ file”>仅接受图像文件？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -57,9 +57,7 @@ topic: HTML
 
 <p><a href="http://www.w3schools.com/tags/att_input_accept.asp" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">http://www.w3schools.com/tags/att_input_accept.asp </font></font></a><br>
 <a href="http://www.w3schools.com/php/php_file_upload.asp" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">http://www.w3schools.com/php/php_file_upload.asp</font></font></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Jim古一</span>
@@ -98,9 +96,7 @@ topic: HTML
 <li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">javascript仅验证文件扩展名，而不能真正验证所选文件是实际的jpg还是png。 </font></font></li>
 <li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">因此，您必须在服务器端编写文件内容验证。</font></font></li>
 </ol></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">伽罗</span>
@@ -114,9 +110,7 @@ topic: HTML
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">对我有用</font></font></p>
 
 <p><a href="https://jsfiddle.net/ermagrawal/5u4ftp3k/"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">https://jsfiddle.net/ermagrawal/5u4ftp3k/</font></font></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">宝儿</span>
@@ -145,18 +139,14 @@ topic: HTML
 <p>It should work in IE 10+, Chrome, Firefox, Safari 6+, Opera 15+, but support is very sketchy on mobiles (as of 2015) and by some reports this may actually prevent some mobile browsers from uploading anything at all, so be sure to test your target platforms well.  </p>
 
 <p>For detailed browser support, see <a href="http://caniuse.com/#feat=input-file-accept" rel="noreferrer">http://caniuse.com/#feat=input-file-accept</a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">宝儿</span>
             <span class="discuss-time">2020.03.23</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">您可以使用</font></font><code>accept</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">属性</font></font><code>&lt;input type="file"&gt;</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">阅读此文档</font></font><a href="http://www.w3schools.com/tags/att_input_accept.asp" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">http://www.w3schools.com/tags/att_input_accept.asp</font></font></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">神乐</span>
@@ -168,9 +158,7 @@ topic: HTML
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在FF和Chrome中均可使用。</font></font></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

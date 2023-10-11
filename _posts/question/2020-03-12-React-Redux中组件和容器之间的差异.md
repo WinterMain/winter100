@@ -17,7 +17,7 @@ topic: JavaScript
     <div class="article-content"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">react redux中的component和container有什么区别？</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第870篇《React Redux中组件和容器之间的差异》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第870篇《React Redux中组件和容器之间的差异》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -40,18 +40,14 @@ topic: JavaScript
 <p><a href="https://i.stack.imgur.com/o0GHZ.png" rel="nofollow noreferrer"><img src="https://i.stack.imgur.com/o0GHZ.png" alt="在此处输入图片说明"></a></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">详细说明</font></font><a href="https://redux.js.org/basics/usage-with-react#presentational-and-container-components" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">https://redux.js.org/basics/usage-with-react#presentational-and-container-components</font></font></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">神乐Tony</span>
             <span class="discuss-time">2020.03.12</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">React有两个主要组件，第一个是智能组件（容器），第二个是哑巴（表示组件）。</font><font style="vertical-align: inherit;">容器与组件非常相似，唯一的区别是容器知道应用程序状态。</font><font style="vertical-align: inherit;">如果您网页的一部分仅用于显示数据（哑），则使其成为组件。</font><font style="vertical-align: inherit;">如果您需要它聪明并且知道应用程序中的状态（每当数据更改），则将其设置为容器。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Stafan村村达蒙</span>
@@ -83,9 +79,7 @@ function mapDispatchToProps(dispatch) {<font></font>
 <font></font>
 export default connect(mapStateToProps, mapDispatchToProps)(myContainer);<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Mandy古一</span>
@@ -94,9 +88,7 @@ export default connect(mapStateToProps, mapDispatchToProps)(myContainer);<font><
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">它们都是组件。</font><font style="vertical-align: inherit;">容器是有功能的，因此它们不会自行呈现任何html，因此您还具有表示性组件，可在其中编写实际的html。</font><font style="vertical-align: inherit;">容器的目的是映射状态并将其分发给表示组件的prop。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">进一步阅读：</font></font><a href="https://medium.com/@dan_abramov/smart-and-dumb-components-7ca2f9a7c7d0" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">链接</font></font></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">神离伊芙妮</span>
@@ -109,9 +101,7 @@ export default connect(mapStateToProps, mapDispatchToProps)(myContainer);<font><
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">好文章，这里有例子 </font></font></p>
 
 <p><a href="https://www.cronj.com/blog/difference-container-component-react-js/" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">https://www.cronj.com/blog/difference-container-component-react-js/</font></font></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">猴子Davaid</span>
@@ -155,9 +145,7 @@ export default connect(mapStateToProps, mapDispatchToProps)(myContainer);<font><
 <p><code>connect</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">功能传递一个道具</font></font><code>type</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这样，连接就可以充当Person组件的容器。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">SamEva</span>
@@ -168,9 +156,7 @@ export default connect(mapStateToProps, mapDispatchToProps)(myContainer);<font><
 <p><em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">容器</font></font></em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">是React组件的非正式术语，该组件被</font></font><code>connect</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">-ed到redux存储。</font><font style="vertical-align: inherit;">容器接收Redux状态更新和</font></font><code>dispatch</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">操作，并且它们通常不呈现DOM元素。</font><font style="vertical-align: inherit;">他们将渲染委托给</font></font><em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">演示</font></font></em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">性子组件。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">有关更多详细信息，请阅读</font><font style="vertical-align: inherit;">Dan Abramov的</font></font><a href="https://medium.com/@dan_abramov/smart-and-dumb-components-7ca2f9a7c7d0" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">presentational vs container组件</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

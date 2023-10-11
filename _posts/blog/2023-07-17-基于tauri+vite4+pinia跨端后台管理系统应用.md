@@ -639,7 +639,7 @@ export default router</code></pre><p>&nbsp;</p><p>&nbsp;</p><h2>tauri.conf.json�
 }</code></pre><p>&nbsp;</p><p>以上就是tauri+vue3开发跨端后台系统模板的一些分享，希望对大家有所帮助哈~~</p><p>&nbsp;</p><p><a href="https://juejin.cn/post/7249347651787243581">https://juejin.cn/post/7249347651787243581</a></p><p>&nbsp;</p><p><a href="https://juejin.cn/post/7230558835227066427">https://juejin.cn/post/7230558835227066427</a></p><p>&nbsp;</p><p>&nbsp;</p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第4294篇《基于tauri+vite4+pinia跨端后台管理系统应用》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第4294篇《基于tauri+vite4+pinia跨端后台管理系统应用》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}

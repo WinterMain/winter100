@@ -43,7 +43,7 @@ topic: CSS
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这是</font><font style="vertical-align: inherit;">显示我的意思</font><font style="vertical-align: inherit;">的</font></font><a href="http://plnkr.co/edit/iSh0t8swDEyGbh7ylZg2?p=preview" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">plnkr</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第2044篇《AngularJS ngClass条件》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第2044篇《AngularJS ngClass条件》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -79,9 +79,7 @@ topic: CSS
   }     <font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

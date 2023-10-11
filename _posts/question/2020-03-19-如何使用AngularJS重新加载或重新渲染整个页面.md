@@ -32,7 +32,7 @@ $scope.impersonate = function(username) {<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">还有另一种方法可以重新渲染页面，而无需再次手动发出所有请求吗？</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第2210篇《如何使用AngularJS重新加载或重新渲染整个页面》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第2210篇《如何使用AngularJS重新加载或重新渲染整个页面》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -47,9 +47,7 @@ $scope.impersonate = function(username) {<font></font>
 <pre><code>var landingUrl = "http://www.ytopic.es"; //URL complete<font></font>
 $window.location.href = landingUrl;<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">米亚Stafan</span>
@@ -61,9 +59,7 @@ $window.location.href = landingUrl;<font></font>
 $templateCache.remove(currentPageTemplate);<font></font>
 $window.location.reload();<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">梅古一</span>
@@ -87,9 +83,7 @@ $window.location.reload();<font></font>
             $state.transitionTo($state.current, $stateParams, { reload: true, inherit: true, notify: true });<font></font>
         };<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">前端梅</span>
@@ -107,9 +101,7 @@ $window.location.reload();<font></font>
 <h3><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">角度2</font></font></h3>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">上述适用于角1.我不使用角2，貌似服务不同有，有</font></font><code>Router</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，</font></font><code>Location</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">和</font></font><code>DOCUMENT</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font><font style="vertical-align: inherit;">我没有在那里测试不同的行为</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">番长蛋蛋Davaid</span>
@@ -127,9 +119,7 @@ $window.location.reload();<font></font>
   
   <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">结果，ngView创建了新的作用域，重新实例化了控制器。</font></font></p>
 </blockquote></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">ProA</span>
@@ -141,9 +131,7 @@ $window.location.reload();<font></font>
     $state.reload();<font></font>
 };<font></font>
 </code></pre></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

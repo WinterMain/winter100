@@ -17,7 +17,7 @@ topic: React.js
     <div class="article-content"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我目前正在使用reactjs构建一个单页面应用程序。</font><font style="vertical-align: inherit;">我读到许多不使用localStorage的原因是由于XSS漏洞。</font><font style="vertical-align: inherit;">由于React避开了所有用户输入，现在使用localStorage是否安全？</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第824篇《使用reactjs将jwt存储在localStorage中是否安全？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第824篇《使用reactjs将jwt存储在localStorage中是否安全？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -36,9 +36,7 @@ topic: React.js
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">只要受感染的第三方库在您的网站上处于活动状态，键盘记录程序就可以开始收集信息，例如用户名，密码以及您在网站中输入的任何内容。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">httpOnly cookie将阻止从另一台计算机进行访问，但不会阻止黑客操纵用户的计算机。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">AMandy</span>
@@ -57,9 +55,7 @@ topic: React.js
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果您的应用程序确实存在XSS漏洞，并且黑客能够利用它，则该黑客将能够代表您的用户执行操作。</font><font style="vertical-align: inherit;">黑客可以通过从localStorage检索令牌来执行GET / POST请求，或者如果令牌存储在仅HTTP的cookie中，则可以执行POST请求。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">将令牌存储在本地存储中的唯一缺点是，黑客将能够读取您的令牌。 </font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">米亚Stafan</span>
@@ -70,9 +66,7 @@ topic: React.js
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">但是，Cookie具有安全标志，可以防止XSS和CSRF攻击。</font><font style="vertical-align: inherit;">HttpOnly标志可防止客户端javascript访问cookie； Secure标志仅允许浏览器通过ssl传输cookie； SameSite标志可确保将cookie仅发送到源。</font><font style="vertical-align: inherit;">尽管我刚刚检查过，并且Opera和Chrome当前仅支持SameSite，但是为了避免受到CSRF的影响，最好使用其他策略。</font><font style="vertical-align: inherit;">例如，在另一个包含某些公共用户数据的cookie中发送加密令牌。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">因此，cookie是用于存储身份验证数据的更安全的选择。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Harry小小</span>
@@ -87,9 +81,7 @@ topic: React.js
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">当然，httpOnly是圣杯，但是您仍然无法通过CSRF漏洞访问reactjs或任何js框架。</font><font style="vertical-align: inherit;">我的建议是使用本地存储，或者如果您要使用cookie，请确保</font></font><a href="http://kylebebak.github.io/post/csrf-protection#double-submit-cookie" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">像django一样</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">实现对</font><a href="http://kylebebak.github.io/post/csrf-protection#double-submit-cookie" rel="noreferrer"><font style="vertical-align: inherit;">CSRF问题的</font></a><font style="vertical-align: inherit;">解决方案</font><font style="vertical-align: inherit;">。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">关于CDN，请确保您未使用某些怪异的CDN，例如，由google维护的CDN或Bootstrap提供的CDN由社区维护，并且不包含恶意代码，如果不确定，您可以自由查看。</font></font></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

@@ -25,7 +25,7 @@ topic: CSS
 </ol></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第2977篇《Internet Explorer 7上绝对定位的父级中的宽度子元素百分比》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第2977篇《Internet Explorer 7上绝对定位的父级中的宽度子元素百分比》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -36,9 +36,7 @@ topic: CSS
             <span class="discuss-time">2020.03.23</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">父级</font></font><code>div</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">需要以</font></font><code>width</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">像素或百分比为单位</font><font style="vertical-align: inherit;">定义</font><font style="vertical-align: inherit;">。</font><font style="vertical-align: inherit;">在Internet Explorer 7中，父级</font></font><code>div</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">需要</font></font><code>width</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">为子级百分比</font><font style="vertical-align: inherit;">定义一个</font><font style="vertical-align: inherit;">值</font></font><code>div</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">才能正常工作。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">乐小小猪猪</span>
@@ -51,9 +49,7 @@ topic: CSS
     &lt;div id="child2"&gt;&lt;/div&gt;<font></font>
 &lt;/div&gt;<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">LGil</span>
@@ -93,9 +89,7 @@ topic: CSS
 </div>
 </div>
 <p></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">神乐</span>
@@ -104,9 +98,7 @@ topic: CSS
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">IE 8之前的版本在其框模型方面具有时间方面的特征，最明显的问题是基于百分比的宽度产生了问题。</font><font style="vertical-align: inherit;">在您的情况下，此处的绝对位置</font></font><code>div</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">默认没有宽度。</font><font style="vertical-align: inherit;">其宽度将根据其内容的像素宽度进行计算，并将在呈现内容后进行计算。</font><font style="vertical-align: inherit;">因此，在IE遇到并渲染相对定位的点时，</font></font><code>div</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">其父级的宽度为0，因此为什么它本身会崩溃为0。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果您想对此进行更深入的讨论以及许多可行的示例，请</font></font><a href="http://www.positioniseverything.net/explorer/percentages.html" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在此处进行阅读</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">阿飞飞云</span>
@@ -135,9 +127,7 @@ topic: CSS
 </blockquote>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">没有，据我记得</font></font><code>em</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，CSS和1.0仅用于字体大小。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">飞云</span>
@@ -146,9 +136,7 @@ topic: CSS
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我认为这与</font></font><code>hasLayout</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在旧版浏览器中实现</font><font style="vertical-align: inherit;">该</font><font style="vertical-align: inherit;">属性</font><font style="vertical-align: inherit;">的方式有关</font><font style="vertical-align: inherit;">。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">您是否在IE8中尝试过代码以查看是否也可以在其中工作？</font><font style="vertical-align: inherit;">IE8有一个调试器（</font></font><kbd>F12</kbd><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">），也可以在IE7模式下运行。</font></font></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

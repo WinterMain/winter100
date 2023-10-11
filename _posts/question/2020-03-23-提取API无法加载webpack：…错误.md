@@ -77,7 +77,7 @@ topic: React.js
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">谁能为我指出正确的方向，以更好地构建此查询？</font><font style="vertical-align: inherit;">我知道我已经接近了，但是我缺少一些小东西。</font><font style="vertical-align: inherit;">谢谢！</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第2954篇《提取API无法加载webpack：//…错误》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第2954篇《提取API无法加载webpack：//…错误》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -90,9 +90,7 @@ topic: React.js
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我也有类似的情况，但有相同的错误，并且发现，基本上</font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">该错误与GraphQL或Apollo无关</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font><font style="vertical-align: inherit;">这是一个</font></font><code>react-error-overlay</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">错误，基本上表示“出现错误，显示您的错误”或“无法显示您的错误”。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">关于您的案例：可能是，</font></font><code>Review</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">您正试图访问</font></font><em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">未定义</font></font></em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">属性的</font><font style="vertical-align: inherit;">某些内容</font><font style="vertical-align: inherit;">，例如review.text.length，并且有些评论没有该属性？</font></font></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

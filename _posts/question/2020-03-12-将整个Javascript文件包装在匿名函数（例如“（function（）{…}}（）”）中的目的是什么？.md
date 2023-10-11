@@ -26,7 +26,7 @@ topic: JavaScript
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">为什么这样做而不是使用一组简单的构造函数呢？</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第935篇《将整个Javascript文件包装在匿名函数（例如“（function（）{…}}（）”）中的目的是什么？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第935篇《将整个Javascript文件包装在匿名函数（例如“（function（）{…}}（）”）中的目的是什么？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -40,9 +40,7 @@ topic: JavaScript
 
 <pre><code>(function($) { ...code...})(jQuery);
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Davaid小宇宙</span>
@@ -54,9 +52,7 @@ topic: JavaScript
 <li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">为了加快调试速度（本地范围），</font></font></li>
 <li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">JavaScript仅具有功能范围，因此也将有助于代码的编译。</font></font></li>
 </ol></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">YOC36540264</span>
@@ -76,9 +72,7 @@ topic: JavaScript
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">现在，其他库无法访问</font></font><code>x</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我创建的要在库中使用</font><font style="vertical-align: inherit;">的变量</font><font style="vertical-align: inherit;">。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">神奇启人</span>
@@ -87,9 +81,7 @@ topic: JavaScript
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">浏览器中的JavaScript实际上仅具有两个有效范围：函数范围和全局范围。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果变量不在函数范围内，则在全局范围内。</font><font style="vertical-align: inherit;">而且全局变量通常是不好的，因此这是一种将库的变量保留给自己的构造。</font></font></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

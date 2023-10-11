@@ -31,7 +31,7 @@ topic: React.js
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">尽管对BrowserRouter的第一种解释对我来说完全是模糊的，但对HashRouter的第二种解释也没有意义，例如为什么有人在URL中使用Hash（＃）来呈现组件？ </font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第1605篇《HashRouter与BrowserRouter》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第1605篇《HashRouter与BrowserRouter》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -48,18 +48,14 @@ topic: React.js
 <p><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">BrowserRouter：</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">当我们有支持后端的大型生产就绪应用程序时，建议使用</font></font><code>&lt;BrowserRouter&gt;</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p>
 
 <p><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">本书参考：</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">学习React：React和Redux的功能Web开发作者：Alex Banks，Eve Porcello</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小小LEY伽罗</span>
             <span class="discuss-time">2020.03.14</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">恕我直言，BrowserRouter是一个hack，使用它唯一获得的就是美观的URL。</font><font style="vertical-align: inherit;">为什么是骇客？</font><font style="vertical-align: inherit;">因为您通过覆盖浏览器的默认行为来诱骗浏览器加载客户端路由，以从服务器获取页面。</font><font style="vertical-align: inherit;">将BrowserRouter配置为在生产模式下与Webpack一起使用是一个主要的麻烦。</font><font style="vertical-align: inherit;">另外，即使没有检查其背后的代码，我也可以肯定它的速度较慢，因为需要额外检查请求的路由是否为服务器上的404，以加载客户端页面。</font><font style="vertical-align: inherit;">HashRouter可以直接使用，可以与旧的浏览器兼容，并且可以与Webpack一起使用而无需黑客。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Eva梅</span>
@@ -78,9 +74,7 @@ topic: React.js
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">向后兼容的单页应用程序可以将其用作</font></font><em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">example.com/#/react/route</font></font></em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font><font style="vertical-align: inherit;">该设置不能通过服务器端呈现进行备份，因为它是服务器端提供的</font></font><em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">/</font></font></em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">路径，</font></font><em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">＃/ react / route</font></font></em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> URL哈希不能从服务器端读取。</font><font style="vertical-align: inherit;">在客户端，</font></font><code>window.location.hash</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">由React路由器解析。</font><font style="vertical-align: inherit;">与</font><font style="vertical-align: inherit;">相似，</font><font style="vertical-align: inherit;">React router会渲染一个已配置为</font></font><em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">/ react / route</font></font></em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">渲染的组件</font></font><code>BrowserRouter</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">最重要的是，</font></font><code>HashRouter</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">用例不仅限于SPA。</font><font style="vertical-align: inherit;">网站可能具有旧式或搜索引擎友好的服务器端路由，而React应用程序可能是在URL中维护其状态的小部件，例如</font></font><em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">example.com/server/side/route#/react/route</font></font></em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font><font style="vertical-align: inherit;">与</font></font><em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">/ server / side / route一起</font></font></em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在服务器端提供一些包含React应用程序的页面</font><font style="vertical-align: inherit;">，然后在客户端，React路由器会渲染一个已配置为</font></font><em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">/ react / route</font></font></em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">渲染的组件</font><font style="vertical-align: inherit;">，类似于先前的场景。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小小西里</span>
@@ -93,9 +87,7 @@ topic: React.js
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在这种情况下，我们最好使用HASH路由（＃）。</font><font style="vertical-align: inherit;">＃我们在html页面上使用它来遍历HTML内容，它不会导致服务器请求。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在上述情况下，我们可以使用HashRouting，即＃后面的所有url，我们可以将路由规则用作SPA。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">十三神无</span>
@@ -104,18 +96,14 @@ topic: React.js
           <div class="discuss-comment"><p><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">服务器端：</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> HashRouter在URL中使用哈希符号，这会导致服务器请求中忽略所有后续URL路径内容（即，您将服务器获取“ www.mywebsite.com/#/person/john” .mywebsite.com”。结果，服务器将返回pre＃URL响应，然后post＃路径将由您的客户端react应用解析。</font></font></p>
 
 <p><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">客户端：</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> BrowserRouter不会将＃符号附加到您的URL，但是当您尝试链接到页面或重新加载页面时会产生问题。</font><font style="vertical-align: inherit;">如果客户端响应应用程序中存在显式路由，但服务器上不存在显式路由，则重新加载和链接（直接击中服务器的任何内容）将返回404 not found错误。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">猿飞云斯丁</span>
             <span class="discuss-time">2020.03.14</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">无论</font></font><code>BrowserRouter</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">和</font></font><code>HashRouter</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">组件是在阵营第4代路由器作为子类介绍</font></font><code>Router</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">类。</font><font style="vertical-align: inherit;">只需</font></font><code>BrowserRouter</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">将UI与浏览器中的当前URL同步，即可通过HTML-5 History API来完成。</font><font style="vertical-align: inherit;">另一方面，</font></font><code>HashRouter</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">使用URL的哈希部分进行同步。</font></font></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

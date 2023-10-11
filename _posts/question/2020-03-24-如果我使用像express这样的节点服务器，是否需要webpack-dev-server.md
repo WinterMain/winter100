@@ -27,7 +27,7 @@ topic: Webpack
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">既然我有快递服务器，我真的需要webpack-dev-server吗？</font><font style="vertical-align: inherit;">或使用它的优缺点是什么？</font><font style="vertical-align: inherit;">如果我要使用react-hot-loader，是否有必要使用webpack-dev-server？</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第3366篇《如果我使用像express这样的节点服务器，是否需要webpack-dev-server》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第3366篇《如果我使用像express这样的节点服务器，是否需要webpack-dev-server》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}

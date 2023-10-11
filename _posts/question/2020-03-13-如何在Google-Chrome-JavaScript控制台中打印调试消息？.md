@@ -19,7 +19,7 @@ topic: JavaScript
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">请注意，JavaScript控制台与JavaScript调试器不同；</font><font style="vertical-align: inherit;">它们具有不同的语法AFAIK，因此</font><font style="vertical-align: inherit;">JavaScript Debugger中</font><font style="vertical-align: inherit;">的</font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">print</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">命令将在此处不起作用。</font><font style="vertical-align: inherit;">在JavaScript控制台中，</font></font><code>print()</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">会将参数发送到打印机。</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第1435篇《如何在Google Chrome JavaScript控制台中打印调试消息？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第1435篇《如何在Google Chrome JavaScript控制台中打印调试消息？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -41,9 +41,7 @@ topic: JavaScript
     }<font></font>
 }());<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Near神奇</span>
@@ -69,9 +67,7 @@ console.warn(...);<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这些功能将记录不同类型的项目（可以根据日志，信息，错误或警告进行过滤），并且在控制台不可用时不会导致错误。</font><font style="vertical-align: inherit;">这些功能可在Firebug和Chrome控制台中使用。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">JinJinPro</span>
@@ -83,18 +79,14 @@ console.warn(...);<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">使用此方法可以在控制台中以亮蓝色打印文本。</font></font></p>
 
 <p><a href="https://i.stack.imgur.com/KCjUx.png" rel="nofollow noreferrer"><img src="https://i.stack.imgur.com/KCjUx.png" alt="在此处输入图片说明"></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">阿飞路易</span>
             <span class="discuss-time">2020.03.13</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"></font><code>console.log()</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果您在使用的哪种编程软件编辑器中调试过代码，</font><font style="vertical-align: inherit;">就可以使用</font><font style="vertical-align: inherit;">，您将看到输出很可能是最适合我的编辑器（Google Chrome）。</font><font style="vertical-align: inherit;">只需按</font></font><kbd>F12</kbd><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，然后按“控制台”选项卡。</font><font style="vertical-align: inherit;">您将看到结果。</font><font style="vertical-align: inherit;">快乐的编码。</font><font style="vertical-align: inherit;">:)</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Stafan逆天</span>
@@ -108,9 +100,7 @@ console.warn(...);<font></font>
     }<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Itachi小哥</span>
@@ -149,9 +139,7 @@ delete console.warn;<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">请参阅堆栈溢出问题</font></font><em><a href="https://stackoverflow.com/questions/7089443"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">还原console.log（）</font></font></a></em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Tony宝儿</span>
@@ -160,9 +148,7 @@ delete console.warn;<font></font>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">只是一个快速警告-如果您想在Internet Explorer中进行测试而不删除所有console.log（），则需要使用</font></font><a href="http://getfirebug.com/lite.html" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Firebug Lite，</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">否则会遇到一些不太友好的错误。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">（或者创建您自己的console.log（），它仅返回false。）</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">TomSam</span>
@@ -186,9 +172,7 @@ console.warn(...);<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这些功能将记录不同类型的项目（可以根据日志，信息，错误或警告进行过滤），并且在控制台不可用时不会导致错误。</font><font style="vertical-align: inherit;">这些功能可在Firebug和Chrome控制台中使用。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Tom老丝Pro</span>
@@ -200,9 +184,7 @@ console.warn(...);<font></font>
 </font></font></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">成功将消息打印到Google Chrome中的“ JavaScript控制台”。</font></font></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

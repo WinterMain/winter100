@@ -21,7 +21,7 @@ topic: React.js
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">沿着这些思路，为了在浏览器中测试该应用程序，是否需要该应用程序使用一个或多个库，以允许该应用程序既可以在React Native中运行，也可以在React中运行？</font><font style="vertical-align: inherit;">我想找到一种替代此特定方法的方法，因为我想专门为React Native编写代码。</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第2237篇《可以在浏览器中测试React Native应用程序吗？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第2237篇《可以在浏览器中测试React Native应用程序吗？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -32,9 +32,7 @@ topic: React.js
             <span class="discuss-time">2020.03.19</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">您可以使用Expo Snack   </font></font><a href="https://snack.expo.io/" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">https://snack.expo.io/</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在设备上（使用QR码）或在浏览器中即时测试代码。</font><font style="vertical-align: inherit;">有关更多信息，您可以阅读本文。</font></font><a href="https://blog.expo.io/sketch-a-playground-for-react-native-16b2401f44a2" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">https://blog.expo.io/sketch-a-playground-for-react-native-16b2401f44a2</font></font></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">十三Pro</span>
@@ -46,9 +44,7 @@ topic: React.js
 <li><a href="https://github.com/joefazz/react-native-web-starter" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">React Native Web Starter</font></font></a></li>
 <li><a href="https://medium.com/@yannickdot/write-once-run-anywhere-with-create-react-native-app-and-react-native-web-ad40db63eed0" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">将React和ReactNative合并到一个代码库中的指南</font></font></a></li>
 </ul></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小卤蛋Davaid</span>
@@ -61,9 +57,7 @@ topic: React.js
 <p><a href="https://facebook.github.io/react-native/blog/2017/03/13/introducing-create-react-native-app.html" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">介绍Create React Native App</font></font></a></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">使用此工具，您可以使用expo app（</font></font><a href="https://expo.io" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">https://expo.io</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">）</font><font style="vertical-align: inherit;">在手机上运行该应用程序。</font><font style="vertical-align: inherit;">它会使用QR码进行同步。</font></font></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

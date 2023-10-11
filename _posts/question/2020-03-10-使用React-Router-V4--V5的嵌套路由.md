@@ -147,7 +147,7 @@ export default App;<font></font>
 </code></pre></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第447篇《使用React Router V4 / V5的嵌套路由》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第447篇《使用React Router V4 / V5的嵌套路由》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -195,18 +195,14 @@ const ScreenRouter = () =&gt; (<font></font>
     &lt;/BrowserRouter&gt;<font></font>
 );<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">乐蛋蛋</span>
             <span class="discuss-time">2020.03.10</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果有人想摆脱子路由路径中包装路径的前缀，那么我在TSX中创建了一个示例：</font><a href="https://stackoverflow.com/a/47891060/5517306"><font style="vertical-align: inherit;">https</font></a><font style="vertical-align: inherit;"> : </font></font><a href="https://stackoverflow.com/a/47891060/5517306"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">//stackoverflow.com/a/47891060/5517306</font></font></a> </p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Itachi梅</span>
@@ -224,9 +220,7 @@ const ScreenRouter = () =&gt; (<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">参考：</font><a href="https://github.com/ReactTraining/react-router/blob/master/packages/react-router/docs/api/Switch.md" rel="nofollow noreferrer"><font style="vertical-align: inherit;">https</font></a><font style="vertical-align: inherit;"> : </font></font><a href="https://github.com/ReactTraining/react-router/blob/master/packages/react-router/docs/api/Switch.md" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">//github.com/ReactTraining/react-router/blob/master/packages/react-router/docs/api/Switch.md</font></font></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">十三A</span>
@@ -259,9 +253,7 @@ const ScreenRouter = () =&gt; (<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果您对为什么</font></font><code>render</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">应该使用道具而不是</font></font><code>component</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">道具</font><font style="vertical-align: inherit;">感兴趣</font><font style="vertical-align: inherit;">，那是因为它阻止了在每个渲染器上重新安装内联功能组件。</font></font><a href="https://reacttraining.com/react-router/web/api/Route/render-func" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">有关</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">更多详细信息，</font><a href="https://reacttraining.com/react-router/web/api/Route/render-func" rel="noreferrer"><font style="vertical-align: inherit;">请参见文档</font></a><font style="vertical-align: inherit;">。</font></font></p>
 
 <p><sub><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">请注意，该示例将嵌套的Routes包装在</font></font><a href="https://reactjs.org/docs/fragments.html#short-syntax" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Fragment中</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font><font style="vertical-align: inherit;">在React 16之前，您可以改用容器</font></font><code>&lt;div&gt;</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></sub></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

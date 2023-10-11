@@ -19,7 +19,7 @@ topic: JavaScript
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我想使用JavaScript做同样的事情。</font><font style="vertical-align: inherit;">我知道如何打开文件，但不确定如何进行编码。</font><font style="vertical-align: inherit;">我不习惯使用二进制数据。</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第549篇《如何在JavaScript中将字符串编码为Base64？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第549篇《如何在JavaScript中将字符串编码为Base64？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -84,9 +84,7 @@ topic: JavaScript
   &lt;/body&gt;<font></font>
 &lt;/html&gt;<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">null</span>
@@ -105,9 +103,7 @@ topic: JavaScript
 
 <pre><code>var bytes = dojox.encoding.base64.decode(str);
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Stafan逆天</span>
@@ -118,9 +114,7 @@ topic: JavaScript
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果您可以将数据放入中</font></font><a href="https://developer.mozilla.org/en-US/docs/Web/API/Blob" rel="noreferrer"><code>Blob</code></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，则可以使用</font></font><a href="https://developer.mozilla.org/en-US/docs/Web/API/FileReader/readAsDataURL" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">FileReader.readAsDataURL（）</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">函数获取一个</font></font><code>data://</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">URL，然后将其切掉以获取base64数据。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">但是，您可能需要做进一步的处理才能对数据</font></font><code>+</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">进行</font></font><code>data://</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">url </font><font style="vertical-align: inherit;">解码，因为我不确定</font><font style="vertical-align: inherit;">URL </font><font style="vertical-align: inherit;">是否对</font><font style="vertical-align: inherit;">字符进行了转义</font><font style="vertical-align: inherit;">，但这应该很简单。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">LEY猿</span>
@@ -164,18 +158,14 @@ topic: JavaScript
     return output.join("");<font></font>
 };<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">路易伽罗</span>
             <span class="discuss-time">2020.03.11</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我宁愿使用来自bas64编码/解码方法</font></font><a href="https://code.google.com/p/crypto-js/#Encoders" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">CryptoJS</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，利用最佳实践和模式JavaScript实现标准和安全的加密算法最流行的库。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">猿AJim</span>
@@ -190,9 +180,7 @@ topic: JavaScript
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">解码语法</font></font></p>
 
 <p><code>var decodedData = window.atob(encodedData);</code></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">杨岑宝</span>
@@ -222,9 +210,7 @@ topic: JavaScript
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><a href="http://drcreazy.com/art/61/base64-javascript.aspx" rel="noreferrer"><font style="vertical-align: inherit;">这里</font></a><font style="vertical-align: inherit;">更多</font></font><a href="http://drcreazy.com/art/61/base64-javascript.aspx" rel="noreferrer"><font style="vertical-align: inherit;"></font></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">A达蒙</span>
@@ -242,9 +228,7 @@ base64.decode(/* String */);<font></font>
 utf8.encode(/* String */);<font></font>
 utf8.decode(/* String */);<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">GilTom神乐</span>
@@ -286,9 +270,7 @@ _utf8_decode : function (utftext) {<font></font>
     return string;<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">泡芙小卤蛋Tom</span>
@@ -440,9 +422,7 @@ _utf8_decode : function (utftext) {<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">另外，在</font></font><a href="http://www.google.com/search?q=javascript+base64+encode" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">“ javascript base64编码”</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">上搜索</font><font style="vertical-align: inherit;">会变成很多其他选项，以上是第一个。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">GO老丝LEY</span>
@@ -455,9 +435,7 @@ _utf8_decode : function (utftext) {<font></font>
 <pre><code>$.base64.encode("this is a test");<font></font>
 $.base64.decode("dGhpcyBpcyBhIHRlc3Q=");<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">卡卡西逆天</span>
@@ -477,9 +455,7 @@ $.base64.decode("dGhpcyBpcyBhIHRlc3Q=");<font></font>
 <ul>
 <li><a href="https://stackoverflow.com/questions/1095102/how-do-i-load-binary-image-data-using-javascript-and-xmlhttprequest">How do I load binary image data using Javascript and XMLHttpRequest?</a></li>
 </ul></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">乐米亚</span>
@@ -620,9 +596,7 @@ _utf8_decode : function (utftext) {<font></font>
 }<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

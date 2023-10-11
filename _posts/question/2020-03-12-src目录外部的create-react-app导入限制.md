@@ -26,7 +26,7 @@ topic: JavaScript
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我读过很多东西，说您可以导入路径，但这仍然对我不起作用。</font><font style="vertical-align: inherit;">任何帮助将不胜感激。</font><font style="vertical-align: inherit;">我知道有很多这样的问题，但是它们都告诉我要导入徽标或图像，因此很明显我在全局图中缺少某些内容。</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第908篇《src目录外部的create-react-app导入限制》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第908篇《src目录外部的create-react-app导入限制》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -58,9 +58,7 @@ module.exports = {<font></font>
 </div>
 </div>
 <p></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">西门达蒙</span>
@@ -83,18 +81,14 @@ module.exports = function override(config) {<font></font>
   return config;<font></font>
 };<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">逆天西门</span>
             <span class="discuss-time">2020.03.12</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">最好的解决方案是fork </font></font><code>react-scripts</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，实际上在官方文档中提到过，请参阅：</font></font><a href="https://facebook.github.io/create-react-app/docs/alternatives-to-ejecting" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">弹出的替代方法</font></font></a> </p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">村村AL</span>
@@ -114,18 +108,14 @@ module.exports = function override(config) {<font></font>
   return config;<font></font>
 };<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">阿飞Sam</span>
             <span class="discuss-time">2020.03.12</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">您需要</font></font><code>WC-BlackonWhite.jpg</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">进入</font></font><code>src</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">目录。</font><font style="vertical-align: inherit;">该</font></font><code>public</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">目录用于将直接在HTML中链接的静态文件（例如favicon），而不是要直接导入捆绑包中的内容。</font></font></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

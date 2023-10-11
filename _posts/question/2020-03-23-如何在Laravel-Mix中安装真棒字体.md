@@ -67,7 +67,7 @@ $fa-li-width:         (30em / 14) !default;<font></font>
 </code></pre></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第3117篇《如何在Laravel Mix中安装真棒字体》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第3117篇《如何在Laravel Mix中安装真棒字体》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -84,9 +84,7 @@ $fa-li-width:         (30em / 14) !default;<font></font>
 
 <pre><code>@import "~/font-awesome/scss/font-awesome.scss";
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Gil</span>
@@ -97,9 +95,7 @@ $fa-li-width:         (30em / 14) !default;<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">步骤类似于以上描述。</font><font style="vertical-align: inherit;">但就我而言，我不得不做一些额外的步骤，例如在“ public”目录中将webfonts路径配置为font-awesome。</font><font style="vertical-align: inherit;">在Laravel mix等中设置资源根。您可以在博客中找到详细信息。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我将链接留在这里，以便为那些无法解决上述问题的人们提供帮助。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">泡芙Pro</span>
@@ -128,9 +124,7 @@ $fa-li-width:         (30em / 14) !default;<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">然后可以使用字体。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Gil</span>
@@ -143,9 +137,7 @@ $fa-li-width:         (30em / 14) !default;<font></font>
 <li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">添加</font></font><code>@import "~font-awesome/scss/font-awesome.scss";</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在</font></font><code>resources/assets/saas/app.scss</code></li>
 <li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">运行</font></font><code>npm run dev</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">（</font></font><code>npm run watch</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">或什至</font></font><code>npm run production</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">）</font></font></li>
 </ul></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

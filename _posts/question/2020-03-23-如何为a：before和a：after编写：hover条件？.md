@@ -19,7 +19,7 @@ topic: CSS
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我正在尝试，</font></font><code>a:before:hover</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">但是没有用</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第2629篇《如何为a：before和a：after编写：hover条件？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第2629篇《如何为a：before和a：after编写：hover条件？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -30,18 +30,14 @@ topic: CSS
             <span class="discuss-time">2020.03.23</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">写</font></font><code>a:hover::before</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">而不是</font></font><code>a::before:hover</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">：</font></font><a href="http://jsfiddle.net/sandeep/PJspQ/1/" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">example</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">十三西里Sam</span>
             <span class="discuss-time">2020.03.23</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">尝试使用</font></font><code>.card-listing:hover::after</code> <code>hover</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">并</font></font><code>after</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">使用</font></font><code>::</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">它会起作用</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Gil</span>
@@ -73,9 +69,7 @@ a:hover:before {<font></font>
     content:"ಕನ್ನಡ";<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">猴子</span>
@@ -118,9 +112,7 @@ a:hover:before {<font></font>
 </code></pre>
 
 <p><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">注意：</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> hover：before开关仅适用于.test1类</font></font></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

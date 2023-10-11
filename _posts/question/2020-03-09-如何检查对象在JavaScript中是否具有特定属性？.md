@@ -27,7 +27,7 @@ if ( x.hasOwnProperty('key') ) {<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">那是最好的方法吗？</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第261篇《如何检查对象在JavaScript中是否具有特定属性？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第261篇《如何检查对象在JavaScript中是否具有特定属性？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -43,9 +43,7 @@ if ( x.hasOwnProperty('key') ) {<font></font>
     alert("property");<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">西里梅</span>
@@ -57,9 +55,7 @@ if ( x.hasOwnProperty('key') ) {<font></font>
 // check object<font></font>
 JSON.stringify(obj) == JSON.stringify({}) // return true<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">村村小小十三</span>
@@ -71,18 +67,14 @@ JSON.stringify(obj) == JSON.stringify({}) // return true<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在大多数情况下简单明了...</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">飞云古一</span>
             <span class="discuss-time">2020.03.09</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">您需要使用方法</font></font><code>object.hasOwnProperty(property)</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font><font style="vertical-align: inherit;">如果对象具有属性，则返回true，否则返回false。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">番长西里神无</span>
@@ -108,9 +100,7 @@ if (!!foo.bar) {<font></font>
         // member is set, do something<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">西门Jim</span>
@@ -132,9 +122,7 @@ console.log(has.call(obj, "bar"));</code></pre>
 </div>
 </div>
 <p></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小小Itachi</span>
@@ -150,9 +138,7 @@ console.log(has.call(obj, "bar"));</code></pre>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我希望这有帮助。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">null</span>
@@ -169,9 +155,7 @@ console.log(has.call(obj, "bar"));</code></pre>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果</font></font><code>x.key</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">解析</font></font><code>false</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">为，</font><font style="vertical-align: inherit;">则失败</font><font style="vertical-align: inherit;">（例如</font></font><code>x.key = ""</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">）。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">老丝神无</span>
@@ -239,9 +223,7 @@ for ( var prop in obj2 ) {<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">上面是对的跨浏览器解决方案</font></font><code>hasOwnProperty</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，但有一个警告：无法区分原型和实例上具有相同属性的情况-只是假设它来自原型。</font><font style="vertical-align: inherit;">您可以根据自己的情况将其更改为宽容或严格，但是至少这应该会有所帮助。</font></font></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

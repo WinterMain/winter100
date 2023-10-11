@@ -36,7 +36,7 @@ topic: Vue.js
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如何检索客户端cookie并进入nuxt服务器以进行服务器端渲染？</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第2706篇《nuxtjs和后端API之间的授权》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第2706篇《nuxtjs和后端API之间的授权》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -47,9 +47,7 @@ topic: Vue.js
             <span class="discuss-time">2020.03.23</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我使用Firebase身份验证做了类似的事情。</font><font style="vertical-align: inherit;">Github上</font><font style="vertical-align: inherit;">有一个</font></font><a href="https://github.com/rossma/nuxt-firebase-auth-ex" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">示例项目</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，以及</font></font><a href="http://monstersandwich.blogspot.co.uk/2018/02/vuejs-nuxtjs-vuex-firebase-persisted.html" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">一个博客条目，</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">概述了应用程序中使用的重要文件和配置。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">GO</span>
@@ -64,9 +62,7 @@ topic: Vue.js
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">关于您的实现：使用Node从API中获取特权数据似乎是将会话处理委派给单个服务（而不是两者）并为用户提供SSR的理想方法。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果您选择在Django服务上实现会话处理，则需要通过将cookie传递到</font></font><code>axios</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">请求标头中</font><font style="vertical-align: inherit;">来“转发” cookie </font><font style="vertical-align: inherit;">。</font></font></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

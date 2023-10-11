@@ -79,7 +79,7 @@ a {<font></font>
 <p></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第4069篇《Chrome / Safari无法填充Flex父级的100％高度》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第4069篇《Chrome / Safari无法填充Flex父级的100％高度》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -104,9 +104,7 @@ a {<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">希望这可以帮助！</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Stafan路易</span>
@@ -126,9 +124,7 @@ align-items: stretch;<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果您将</font></font><code>align-items: stretch;</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">属性用于父元素，请</font></font><code>height : 100%</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">从子元素中</font><font style="vertical-align: inherit;">删除</font><font style="vertical-align: inherit;">。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">樱小胖Mandy</span>
@@ -146,9 +142,7 @@ align-items: stretch;<font></font>
     width: 100%;<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">梅</span>
@@ -162,9 +156,7 @@ align-items: stretch;<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这样可以确保高度已设置且不会增大。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Itachi</span>
@@ -173,9 +165,7 @@ align-items: stretch;<font></font>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">解决方案：删除</font></font><code>height: 100%</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在</font></font><em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">.item-内</font></font></em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，并添加</font></font><code>display: flex</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在</font></font><em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">.item</font></font></em></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">演示：</font><a href="https://codepen.io/tronghiep92/pen/NvzVoo" rel="noreferrer"><font style="vertical-align: inherit;">https</font></a><font style="vertical-align: inherit;"> : </font></font><a href="https://codepen.io/tronghiep92/pen/NvzVoo" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">//codepen.io/tronghiep92/pen/NvzVoo</font></font></a></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

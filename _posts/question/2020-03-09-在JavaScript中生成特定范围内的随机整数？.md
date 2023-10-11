@@ -17,7 +17,7 @@ topic: JavaScript
     <div class="article-content"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如何在JavaScript中的两个指定变量之间生成随机整数，例如</font></font><code>x = 4</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，</font></font><code>y = 8</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">并输出以下任何内容</font></font><code>4, 5, 6, 7, 8</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">？</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第218篇《在JavaScript中生成特定范围内的随机整数？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第218篇《在JavaScript中生成特定范围内的随机整数？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -31,9 +31,7 @@ topic: JavaScript
 
 <pre><code>Math.floor((Math.random() * 10) % n)
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">前端Tom</span>
@@ -53,9 +51,7 @@ topic: JavaScript
 
 <pre><code>generateRandomInteger (4,9)
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小欧学姐</span>
@@ -139,9 +135,7 @@ topic: JavaScript
 </code></pre>
 
 <p>Gist: <a href="https://gist.github.com/madprops/757deb000bdec25776d5036dae58ee6e" rel="nofollow noreferrer">https://gist.github.com/madprops/757deb000bdec25776d5036dae58ee6e</a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">蛋蛋神乐</span>
@@ -189,9 +183,7 @@ topic: JavaScript
     return Math.floor(Math.random() * (max - min + 1)) + min;<font></font>
 };<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Near小哥Green</span>
@@ -223,9 +215,7 @@ generateRandomNumber(1);<font></font>
 <p><a href="https://i.stack.imgur.com/Bb1bo.jpg" rel="nofollow noreferrer"><img src="https://i.stack.imgur.com/Bb1bo.jpg" alt="enter image description here"></a></p>
 
 <p><a href="http://jsfiddle.net/Nofiden/6ae8up1k/2/" rel="nofollow noreferrer">JsFiddle</a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">十三凯</span>
@@ -242,9 +232,7 @@ while(number&lt;first){<font></font>
 return number;<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">LGreen</span>
@@ -299,9 +287,7 @@ console.log(getRandNum(10,20),numSeq);<font></font>
 //console.log(getRandNum(-10,20),numSeq);<font></font>
 //console.log(numSeq);<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">GilJinJin</span>
@@ -317,9 +303,7 @@ console.log(rand(4,8))</code></pre>
 </div>
 </div>
 <p></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">斯丁Jim</span>
@@ -360,9 +344,7 @@ console.log(rand(4,8))</code></pre>
       return result;<font></font>
     }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Stafan小小</span>
@@ -392,9 +374,7 @@ console.log(rand(4,8))</code></pre>
 </code></pre>
 
 <p>Uint8Array create a array filled with a number up to 3 digits which would be a maximum of 999. This code is very short.</p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">MonsterKK梅</span>
@@ -411,9 +391,7 @@ console.log(rand(4,8))</code></pre>
 </code></pre>
 
 <p>Not the most elegant solution.. but something quick.</p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小哥前端</span>
@@ -427,9 +405,7 @@ console.log(rand(4,8))</code></pre>
 </code></pre>
 
 <p>Hope this would help someone.</p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Tony猿</span>
@@ -464,9 +440,7 @@ console.log(rand(4,8))</code></pre>
 <p>The reason for taking away 0.5 from the minimum value is because using the minimum value alone would allow you to get an integer that was one more than your maximum value. By taking away 0.5 from the minimum value you are essentially preventing the maximum value from being rounded up.</p>
 
 <p><strong>Hope that helps.</strong></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">村村达蒙LEY</span>
@@ -489,9 +463,7 @@ console.log(rand(4,8))</code></pre>
   return number;<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">米亚Stafan</span>
@@ -503,9 +475,7 @@ console.log(rand(4,8))</code></pre>
     return Math.floor(Math.random()*(max-min+1)+min );<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">A村村</span>
@@ -611,9 +581,7 @@ return Random;<font></font>
         var nextInt = r.Next(1, 100); //returns an integer between range<font></font>
         var nextDbl = r.NextDouble(); //returns a random decimal<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">逆天伽罗宝儿</span>
@@ -623,9 +591,7 @@ return Random;<font></font>
 
 <pre><code>Math.floor(Math.random() *  max);
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">樱神无</span>
@@ -640,9 +606,7 @@ return Random;<font></font>
 
 <pre><code>Math.floor((Math.random()*100) + 1)
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Stafan古一</span>
@@ -657,9 +621,7 @@ return Random;<font></font>
 
 <pre><code>_.random(min, max)
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Green达蒙</span>
@@ -688,9 +650,7 @@ Math.floor(Math.random() * 16) + 5;<font></font>
 // -10 - (-2)<font></font>
 Math.floor(Math.random() * 9) - 10;<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">神无宝儿</span>
@@ -698,9 +658,7 @@ Math.floor(Math.random() * 9) - 10;<font></font>
           </div>
           <div class="discuss-comment"><pre><code>var randomnumber = Math.floor(Math.random() * (maximum - minimum + 1)) + minimum;
 </code></pre></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

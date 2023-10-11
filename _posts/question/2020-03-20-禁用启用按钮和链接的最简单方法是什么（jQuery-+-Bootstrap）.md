@@ -24,7 +24,7 @@ topic: CSS
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我怎样才能做到这一点？</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第2478篇《禁用/启用按钮和链接的最简单方法是什么（jQuery + Bootstrap）》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第2478篇《禁用/启用按钮和链接的最简单方法是什么（jQuery + Bootstrap）》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -53,9 +53,7 @@ topic: CSS
     }<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Sam小哥逆天</span>
@@ -66,9 +64,7 @@ topic: CSS
 <p><a href="http://msurguy.github.io/ladda-bootstrap/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">http://msurguy.github.io/ladda-bootstrap/</font></font></a></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">您只需包括所需的CSS和JS，向按钮添加一些属性，然后使用javascript启用lada。</font><font style="vertical-align: inherit;">您的按钮焕然一新（请查看演示以了解它的美丽）！</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小哥TomA</span>
@@ -88,9 +84,7 @@ topic: CSS
   }<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小哥前端</span>
@@ -127,9 +121,7 @@ $("#linkButton").button("disable"); //disable the button<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">但是请记住：那些CSS类（如果已更改）也将更改其他小部件的样式。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Pro神奇</span>
@@ -184,9 +176,7 @@ input[type=button][disabled] { ... }<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这是一个基本的演示，其中包含我在这里提到的内容：</font><strong><a href="http://jsfiddle.net/bXm5B/4/" rel="noreferrer"><font style="vertical-align: inherit;">http</font></a></strong><font style="vertical-align: inherit;"> : </font></font><strong><a href="http://jsfiddle.net/bXm5B/4/" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">//jsfiddle.net/bXm5B/4/</font></font></a></strong></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">希望这可以帮助。</font></font></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

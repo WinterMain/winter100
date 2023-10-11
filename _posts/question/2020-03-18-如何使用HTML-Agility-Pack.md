@@ -19,7 +19,7 @@ topic: HTML
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我的XHTML文档不是完全有效。</font><font style="vertical-align: inherit;">这就是为什么我要使用它。</font><font style="vertical-align: inherit;">如何在项目中使用它？</font><font style="vertical-align: inherit;">我的项目在C＃中。</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第1995篇《如何使用HTML Agility Pack》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第1995篇《如何使用HTML Agility Pack》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -51,9 +51,7 @@ private string ParseHmlBody(string html)<font></font>
             return body;<font></font>
         }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">ItachiHarry</span>
@@ -127,9 +125,7 @@ namespace GetMetaData<font></font>
     }<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">TomLEY</span>
@@ -150,9 +146,7 @@ var url = "http://html-agility-pack.net/";<font></font>
 var web = new HtmlWeb();<font></font>
 var doc = web.Load(url);<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">LEYMandy</span>
@@ -167,9 +161,7 @@ var doc = web.Load(url);<font></font>
 </ul>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">下一篇文章完成了95％，我只需要写出我编写的代码的最后几部分的说明。</font><font style="vertical-align: inherit;">如果您有兴趣，那么我会尽量记得在发布时在此处发布。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">达蒙西门十三</span>
@@ -219,9 +211,7 @@ else<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">注意</font></font><code>HtmlDocument.Option??????</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">  布尔属性。</font><font style="vertical-align: inherit;">这些控制</font></font><code>Load</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">和</font></font><code>LoadXML</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">方法将</font><font style="vertical-align: inherit;">如何</font><font style="vertical-align: inherit;">处理HTML / XHTML。</font></font></p>
 
 <p>There is also a compiled help file called HtmlAgilityPack.chm that has a complete reference for each of the objects.  This is normally in the base folder of the solution.</p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

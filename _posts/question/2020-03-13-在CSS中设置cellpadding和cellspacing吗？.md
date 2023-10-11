@@ -22,7 +22,7 @@ topic: HTML
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">使用CSS如何完成相同的工作？</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第1414篇《在CSS中设置cellpadding和cellspacing吗？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第1414篇《在CSS中设置cellpadding和cellspacing吗？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -42,9 +42,7 @@ topic: HTML
 </div>
 </div>
 <p></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Tom乐小小</span>
@@ -82,9 +80,7 @@ topic: HTML
 <p><strong>OUTPUT :</strong> </p>
 
 <p><a href="https://i.stack.imgur.com/nzzTu.png" rel="nofollow noreferrer"><img src="https://i.stack.imgur.com/nzzTu.png" alt="在此处输入图片说明"></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">神无阿飞古一</span>
@@ -221,9 +217,7 @@ td {<font></font>
 </code></pre>
 
 <p>More table style by CSS source link <a href="http://quirksmode.org/css/css2/tables.html" rel="nofollow noreferrer">here you get more table style by CSS</a>.</p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">神奇逆天猪猪</span>
@@ -237,9 +231,7 @@ td {<font></font>
     &lt;/tr&gt;<font></font>
 &lt;/table&gt;<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Gil小哥伽罗</span>
@@ -274,9 +266,7 @@ td, th {<font></font>
 </div>
 </div>
 <p></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">SamItachi阿飞</span>
@@ -288,9 +278,7 @@ td, th {<font></font>
 </code></pre>
 
 <p>and it works for me in IE7. It seems to override the cellspacing attribute.</p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">A达蒙</span>
@@ -305,9 +293,7 @@ td {<font></font>
     padding-left: 4px;<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">古一蛋蛋凯</span>
@@ -333,9 +319,7 @@ table td, table th {<font></font>
     padding: 10px;<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Harry猴子A</span>
@@ -366,9 +350,7 @@ td {<font></font>
 </code></pre>
 
 <p><a href="https://jsfiddle.net/8d93cd60/" rel="noreferrer">Fiddle</a>.</p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小卤蛋Pro</span>
@@ -380,9 +362,7 @@ td {<font></font>
     padding:0 0 10px 0; // Top left bottom right <font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小宇宙LEY</span>
@@ -396,9 +376,7 @@ table {<font></font>
     border-spacing: 2px;<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小卤蛋Pro</span>
@@ -420,18 +398,14 @@ table {<font></font>
 </code></pre>
 
 <p><strong><em>However, it can create problems in older version of browsers like Internet&nbsp;Explorer because of the diff implementation of the box model.</em></strong> </p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">十三SamJim</span>
             <span class="discuss-time">2020.03.13</span>
           </div>
           <div class="discuss-comment"><p>Just use <code>border-collapse: collapse</code> for your table, and <code>padding</code> for <code>th</code> or <code>td</code>.</p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">JinJin猪猪</span>
@@ -450,9 +424,7 @@ table td{<font></font>
     padding: 0px; /* Replace cellpadding */<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Stafan神乐</span>
@@ -461,9 +433,7 @@ table td{<font></font>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">据我所知，在表格单元格上设置边距实际上并没有任何效果。</font><font style="vertical-align: inherit;">真正的CSS等效项</font></font><code>cellspacing</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">是</font></font><code>border-spacing</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">-但在Internet Explorer中不起作用。</font></font></p>
 
 <p><font style="vertical-align: inherit;"></font><code>border-collapse: collapse</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如前所述，</font><font style="vertical-align: inherit;">您可以</font><font style="vertical-align: inherit;">用来将像元间隔可靠地设置为0，但是对于任何其他值，我认为唯一的跨浏览器方法是继续使用该</font></font><code>cellspacing</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">属性。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">猿Near</span>
@@ -482,9 +452,7 @@ table td<font></font>
     padding: 8px 8px;<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">null</span>
@@ -543,9 +511,7 @@ td    {padding: 6px;}<font></font>
 <p><a href="http://jsfiddle.net/H4emK/3303/" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">自己尝试！</font></font></a></p>
 
 <p><a href="http://www.htmlcodetutorial.com/tables/index_famsupp_29.html" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在这里，</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">您可以找到实现此目标的旧HTML方法。</font></font></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

@@ -29,7 +29,7 @@ topic: Vue.js
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">但这也许不是正确的解释，确实有解决方案？</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第3049篇《Nuxt＆Vuetify：如何控制CSS文件的加载顺序？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第3049篇《Nuxt＆Vuetify：如何控制CSS文件的加载顺序？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -45,9 +45,7 @@ topic: Vue.js
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">从Nuxt开始</font></font><code>^2.7.1</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，人们遇到了CSS文件加载不一致的问题。</font><font style="vertical-align: inherit;">有对它的引用</font></font><a href="https://github.com/nuxt/nuxt.js/issues/4204" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在这个问题上</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，以及</font></font><a href="https://github.com/nuxt/nuxt.js/issues/4219" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这个问题</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">它似乎像他们正试图修复它，</font></font><a href="https://github.com/nuxt/nuxt.js/pull/5825" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">因为这里要注意</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font><font style="vertical-align: inherit;">不过，不幸的是，在发布此版本之前，我不相信除了恢复到较低版本以外，您还可以做很多事情。</font></font></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

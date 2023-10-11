@@ -131,7 +131,7 @@ importer(url)<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">更新：我创建了一个存储库，并带有使用SystemJS（和Angular 6）动态加载模块的示例；</font></font><a href="https://github.com/lmeijdam/angular-umd-dynamic-example" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">https://github.com/lmeijdam/angular-umd-dynamic-example</font></font></a></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第3461篇《使用Angular CLI和Angular 5在运行时动态加载新模块》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第3461篇《使用Angular CLI和Angular 5在运行时动态加载新模块》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -143,9 +143,7 @@ importer(url)<font></font>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我相信，如果您使用webpack构建和运行主应用程序，则可以使用SystemJS来加载UMD捆绑包。</font><font style="vertical-align: inherit;">我使用了使用ng-packagr构建动态插件/附加模块的UMD捆绑包的解决方案。</font><font style="vertical-align: inherit;">这个github演示了描述的过程：</font><a href="https://github.com/nmarra/dynamic-module-loading" rel="nofollow noreferrer"><font style="vertical-align: inherit;">https</font></a><font style="vertical-align: inherit;"> :
  </font></font><a href="https://github.com/nmarra/dynamic-module-loading" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">//github.com/nmarra/dynamic-module-loading</font></font></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">DavaidJim</span>
@@ -154,9 +152,7 @@ importer(url)<font></font>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我使用了</font><font style="vertical-align: inherit;">具有Angular 6的库支持</font><font style="vertical-align: inherit;">的</font></font><a href="https://github.com/kirjs/angular-dynamic-module-loading" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">https://github.com/kirjs/angular-dynamic-module-loading</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">解决方案来创建我在Github上共享的应用程序。</font><font style="vertical-align: inherit;">根据公司政策，它需要脱机。</font><font style="vertical-align: inherit;">关于示例项目源的讨论一结束，我将在Github上分享它！</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">更新：可以找到回购; </font></font><a href="https://github.com/lmeijdam/angular-umd-dynamic-example" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">https://github.com/lmeijdam/angular-umd-dynamic-example</font></font></a> </p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">达蒙</span>
@@ -168,9 +164,7 @@ importer(url)<font></font>
 <li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">首先将要使用的所有组件耦合到一个模块中</font></font></li>
 <li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">现在，在路由器中引用该模块，Angular会将您的模块延迟加载到视图中。</font></font></li>
 </ol></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">猴子村村</span>
@@ -187,9 +181,7 @@ importer(url)<font></font>
 </ol>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在这里</font></font><a href="https://github.com/iwnow/angular-plugin-example" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">https://github.com/iwnow/angular-plugin-example</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">您可以找到如何使用独立构建和AOT开发插件</font></font></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

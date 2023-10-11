@@ -34,7 +34,7 @@ const x = 'not-const';<font></font>
 </ul></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第2065篇《JavaScript中的常量：什么时候使用它，有必要吗？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第2065篇《JavaScript中的常量：什么时候使用它，有必要吗？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -46,9 +46,7 @@ const x = 'not-const';<font></font>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">阅读以下文章。它很好地说明了这一点。 
 </font></font><a href="https://tylermcginnis.com/var-let-const/" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">let vs var vs const</font></font></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小胖阿飞</span>
@@ -59,9 +57,7 @@ const x = 'not-const';<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">通常，在声明并更改了一堆变量之后，内存会碎片化，并且v8停止执行，暂停几秒钟，以进行gc或垃圾回收。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果使用const v8声明了变量，则可以放心将其放在其他const变量之间的固定大小固定容器中，因为它永远不会改变。</font><font style="vertical-align: inherit;">由于类型不会更改，因此它还可以保存该数据类型的正确操作。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Eva阿飞</span>
@@ -99,18 +95,14 @@ const x = 'not-const';<font></font>
 <li><code>var</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">并</font></font><code>const</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">具有不同的范围规则。</font><font style="vertical-align: inherit;">（您可能想与</font></font><code>let</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">而不是</font><font style="vertical-align: inherit;">进行比较</font></font><code>var</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。）特别是：</font></font><code>const</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">并且</font></font><code>let</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">它们是块范围的，并且在全局范围内使用时，不要在全局对象上创建属性（即使它们确实创建了全局变量）。</font></font><code>var</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">具有全局范围（在全局范围内使用时）或函数范围（即使在块中使用），并且在全局范围内使用时，会在全局对象上创建属性。</font></font></li>
 <li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">参见上面的“三件事”，它们都适用于此问题。</font></font></li>
 </ul></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">神无达蒙</span>
             <span class="discuss-time">2020.03.18</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">它提供：1）常量引用，例如const x = []-可以修改数组，但是x不能指向另一个数组；</font><font style="vertical-align: inherit;">和2）区块范围。</font><font style="vertical-align: inherit;">const和let将一起在ecma6 / 2015中替换var请参见</font><a href="https://strongloop.com/strongblog/es6-variable-declarations/" rel="nofollow"><font style="vertical-align: inherit;">https://strongloop.com/strongblog/es6-variable-declarations/中的</font></a><font style="vertical-align: inherit;">讨论</font></font><a href="https://strongloop.com/strongblog/es6-variable-declarations/" rel="nofollow"><font style="vertical-align: inherit;"></font></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">飞云老丝</span>
@@ -143,18 +135,14 @@ numbers.push(3); //is possible and allowed<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">简而言之，当某些事情不太可能</font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">通过重新分配</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">而</font><strong><font style="vertical-align: inherit;">改变时，请</font></strong><font style="vertical-align: inherit;">使用</font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">const，</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">否则</font><font style="vertical-align: inherit;">根据您希望的范围</font><font style="vertical-align: inherit;">使用</font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">let</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">或</font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">var</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">当代码死了很明显时，通过重新分配可以更改哪些内容以及不能更改哪些内容，就可以更容易地对代码进行推理。</font><font style="vertical-align: inherit;">将const更改为let非常简单。</font><font style="vertical-align: inherit;">默认情况下使用const会使您在进行此操作之前三思而后行。</font><font style="vertical-align: inherit;">在许多情况下，这是一件好事。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Itachi猿</span>
             <span class="discuss-time">2020.03.18</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">确实是个人喜好。</font><font style="vertical-align: inherit;">如您所说，可以在不重新分配常量且常量的情况下使用const。</font><font style="vertical-align: inherit;">例如，如果您想分配生日。</font><font style="vertical-align: inherit;">您的生日永远不会改变，因此您可以将其用作常量。</font><font style="vertical-align: inherit;">但是您的年龄确实发生了变化，因此可能会有所不同。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">神乐十三</span>
@@ -188,9 +176,7 @@ console.log(c);//9<font></font>
 // NOTE: Constants can be declared with uppercase or lowercase, but a common<font></font>
 // convention is to use all-uppercase letters.<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Davaid乐宝儿</span>
@@ -212,9 +198,7 @@ console.log(c);//9<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果将其定义为</font></font><code>var</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，则可能不是3.14 [...]。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">对于更多的技术答案，@ Tibos在学术上是正确的。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">TomDavaid</span>
@@ -227,9 +211,7 @@ console.log(c);//9<font></font>
 <blockquote>
   <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">const声明创建对值的只读引用。</font><font style="vertical-align: inherit;">这并不意味着它拥有的值是不可变的，只是不能重新分配变量标识符。</font></font></p>
 </blockquote></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">斯丁JinJinHarry</span>
@@ -240,9 +222,7 @@ console.log(c);//9<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">技术差异很大。</font><font style="vertical-align: inherit;">在编译语言中，常量将在编译时被替换，并且其使用将允许其他优化（如删除无效代码）以进一步提高代码的运行效率。</font><font style="vertical-align: inherit;">最近的（松散使用的术语）JavaScript引擎实际上会编译JS代码以获得更好的性能，因此使用const关键字将告知它们上述优化是可能的，应该完成。</font><font style="vertical-align: inherit;">这导致更好的性能。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">与人有关的方面与关键字的语义有关。</font><font style="vertical-align: inherit;">变量是一种数据结构，其中包含预期会更改的信息。</font><font style="vertical-align: inherit;">常数是一种数据结构，其中包含永远不变的信息。</font><font style="vertical-align: inherit;">如果有错误的余地，</font></font><code>var</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">应始终使用。</font><font style="vertical-align: inherit;">但是，并非必须使用声明所有在程序生存期内从未改变的信息</font></font><code>const</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font><font style="vertical-align: inherit;">如果在不同的情况下信息应该更改，</font></font><code>var</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">即使实际的更改未出现在您的代码中，也请</font><font style="vertical-align: inherit;">使用该信息</font><font style="vertical-align: inherit;">进行指示。</font></font></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

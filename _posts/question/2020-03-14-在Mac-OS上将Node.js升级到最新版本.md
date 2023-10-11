@@ -25,7 +25,7 @@ topic: Node.js
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我已经用谷歌搜索了这个问题，但是在我看来，对于最新的Node.js，这个问题没有很明确的答案。</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第1580篇《在Mac OS上将Node.js升级到最新版本》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第1580篇《在Mac OS上将Node.js升级到最新版本》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -42,9 +42,7 @@ topic: Node.js
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">之后</font></font><em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">节点</font></font></em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，</font></font><em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">NPM</font></font></em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">和</font></font><em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">ñ</font></font></em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">完全从我的机器上取下，我刚刚重新安装</font></font><em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Node.js的</font></font></em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">使用官方</font></font><em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">.pckg安装程序</font></font></em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">从</font></font><a href="https://nodejs.org/en/download/" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">节点的网站</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，一切只是回到正常。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">希望这可以帮助某人。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">古一蛋蛋凯</span>
@@ -56,9 +54,7 @@ topic: Node.js
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">其他命令对我不起作用，但是此命令有效。</font><font style="vertical-align: inherit;">希望它能帮助到别人。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Pro乐</span>
@@ -120,9 +116,7 @@ curl -L https://www.npmjs.com/install.sh | sh<font></font>
 </code></pre>
 
 <p><a href="https://www.chrisjmendez.com/2018/02/07/install/" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">https://www.chrisjmendez.com/2018/02/07/install/</font></font></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">村村AL</span>
@@ -138,9 +132,7 @@ curl -L https://www.npmjs.com/install.sh | sh<font></font>
 <li><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">nvm安装节点</font></font></p></li>
 <li><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">节点-v（确认更新） </font></font></p></li>
 </ol></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">十三西里GO</span>
@@ -155,9 +147,7 @@ curl -L https://www.npmjs.com/install.sh | sh<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">导出NVM_DIR =〜/ .nvm源$ {brew --prefix nvm）/nvm.sh</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">源〜/ .bash_profile echo $ NVM_DIR</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">朔风</span>
@@ -212,9 +202,7 @@ curl -L https://www.npmjs.com/install.sh | sh<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">检查npm是否获得最新版本（6.4.1）。</font></font></p>
 
 <p><a href="https://i.stack.imgur.com/DiIQ9.png" rel="nofollow noreferrer"><img src="https://i.stack.imgur.com/DiIQ9.png" alt="在此处输入图片说明"></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">猪猪Jim</span>
@@ -227,18 +215,14 @@ curl -L https://www.npmjs.com/install.sh | sh<font></font>
 </font></font><code>nvm install 6.14.4</code></p>
 
 <p><a href="https://github.com/creationix/nvm" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">https://github.com/creationix/nvm</font></font></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小小猿</span>
             <span class="discuss-time">2020.03.14</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">您可以运行，但不能隐藏...最后，</font><font style="vertical-align: inherit;">无论如何</font><font style="vertical-align: inherit;">您将使用</font></font><a href="https://github.com/creationix/nvm" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">NVM</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">神奇古一</span>
@@ -253,9 +237,7 @@ curl -L https://www.npmjs.com/install.sh | sh<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">对于Windows，请重新安装节点。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">蛋蛋伽罗猿</span>
@@ -288,9 +270,7 @@ curl -L https://www.npmjs.com/install.sh | sh<font></font>
 <pre><code>1 sudo port selfupdate<font></font>
 2 sudo port install nodejs-devel<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">乐理查德</span>
@@ -313,9 +293,7 @@ curl -L https://www.npmjs.com/install.sh | sh<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">确保它</font></font><code>/usr/local/bin</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在您的$ PATH中。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">现在升级完成</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">乐米亚</span>
@@ -323,9 +301,7 @@ curl -L https://www.npmjs.com/install.sh | sh<font></font>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我认为使用最新版本的Node.js的最简单方法是，</font><font style="vertical-align: inherit;">
 如果要使用其他版本的Node </font><font style="vertical-align: inherit;">，请从以下网址获取最新的Node.js pkg文件</font></font><a href="https://nodejs.org/en/download/current/" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">：https</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">：//nodejs.org/en/download/current/ .js，您可以使用nvm或n对其进行管理。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Green达蒙</span>
@@ -335,9 +311,7 @@ curl -L https://www.npmjs.com/install.sh | sh<font></font>
 
 <pre><code>nvm install node --reinstall-packages-from=node
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">仲羽蛋蛋</span>
@@ -350,18 +324,14 @@ npm install -g npm@latest<font></font>
 </code></pre>
 
 <p><img src="https://i.stack.imgur.com/F1I9N.png" alt="终端命令的屏幕截图"></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">逆天小哥蛋蛋</span>
             <span class="discuss-time">2020.03.14</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">您可以转到nodejs.org并下载最新的软件包。</font><font style="vertical-align: inherit;">它将为您适当更新。</font><font style="vertical-align: inherit;">NPM也将更新。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Near卡卡西</span>
@@ -374,9 +344,7 @@ npm install -g npm@latest<font></font>
 <li><code>nvm use 8.11.2</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> 用它</font></font></li>
 <li><code>node -v</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> 检查您的最新版本</font></font></li>
 </ul></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">L十三</span>
@@ -401,9 +369,7 @@ npm install -g npm@latest<font></font>
 <hr>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Mac的其他选项:: </font></font><code>brew update &amp;&amp; brew install node &amp;&amp; npm -g npm</code></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小胖Eva</span>
@@ -436,9 +402,7 @@ sudo n stable<font></font>
 
 <p><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">编辑</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> 
 除非需要，否则避免使用sudo。</font><font style="vertical-align: inherit;">请参阅Steve在评论中的评论</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">W先生</span>
@@ -466,9 +430,7 @@ source ~/.nvm/nvm.sh<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">使用NVM的好处在于，您可以同时测试不同的版本。</font><font style="vertical-align: inherit;">如果不同的应用程序需要不同版本的Node.js，则可以同时运行它们。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Sam蛋蛋Itachi</span>
@@ -488,18 +450,14 @@ source ~/.nvm/nvm.sh<font></font>
 
 <pre><code>n stable
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">神无前端Jim</span>
             <span class="discuss-time">2020.03.14</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">转到</font></font><a href="http://nodejs.org"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">http://nodejs.org</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">并下载并运行安装程序。</font><font style="vertical-align: inherit;">现在有效-至少对我而言。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">TonyEvaL</span>
@@ -533,9 +491,7 @@ npm install -g npm<font></font>
 
 <p><em>If you installed via a package, then download the latest version from <a href="https://docs.npmjs.com/getting-started/installing-node" rel="nofollow noreferrer">nodejs.org</a>.
 See <a href="https://docs.npmjs.com/getting-started/installing-node" rel="nofollow noreferrer">Installing Node.js and updating npm</a>.</em></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小小村村</span>
@@ -558,9 +514,7 @@ See <a href="https://docs.npmjs.com/getting-started/installing-node" rel="nofoll
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">也可以在以下位置找到这些说明：</font></font><a href="https://davidwalsh.name/upgrade-nodejs" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">davidwalsh.name/upgrade-nodejs</font></font></a><br><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> 
 有关</font><font style="vertical-align: inherit;">此处找到</font><font style="vertical-align: inherit;">的</font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">n</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">包的</font><font style="vertical-align: inherit;">
 更多信息</font><font style="vertical-align: inherit;">：</font></font><a href="https://www.npmjs.com/package/n" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">npmjs.com/package/n</font></font></a><br><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">有关Node.js的发布时间表的更多信息：</font></font><a href="https://github.com/nodejs/Release#release-schedule" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">github.com/nodejs/Release</font></font></a></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

@@ -131,7 +131,7 @@ $(document).on("page:change", function() {<font></font>
 </code></pre></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第1121篇《React JS-未捕获的TypeError：this.props.data.map不是函数》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第1121篇《React JS-未捕获的TypeError：this.props.data.map不是函数》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -142,9 +142,7 @@ $(document).on("page:change", function() {<font></font>
             <span class="discuss-time">2020.03.12</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"></font><code>componentDidMount()</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在获取数据时</font><font style="vertical-align: inherit;">尝试</font><font style="vertical-align: inherit;">生命周期</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Stafan村村达蒙</span>
@@ -174,9 +172,7 @@ $(document).on("page:change", function() {<font></font>
 </ul>
 
 <p><code>this.props &amp;&amp; this.props.partners.length &gt; 0 ?</code></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">卡卡西小宇宙</span>
@@ -190,9 +186,7 @@ return (<font></font>
  );<font></font>
 });<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Gil蛋蛋Tony</span>
@@ -203,9 +197,7 @@ return (<font></font>
 data = Array.from(props.data);
 </code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
 然后可以使用该</font></font><code>data.map()</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">函数</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">阿飞蛋蛋</span>
@@ -218,9 +210,7 @@ this.setState({data: newData})<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这种模式实际上在</font></font><a href="https://facebook.github.io/react/" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">https://facebook.github.io/react/的</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> Facebook ToDo演示应用程序中使用（请参阅“应用程序”一节）</font><font style="vertical-align: inherit;">。</font></font></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

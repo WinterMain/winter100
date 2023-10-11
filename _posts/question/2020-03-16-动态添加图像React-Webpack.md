@@ -53,7 +53,7 @@ etc....<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">有什么方法可以使用react和webpack以及url-loader来执行此操作，还是我走了一条错误的道路来实现这一目标？</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第1657篇《动态添加图像React Webpack》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第1657篇《动态添加图像React Webpack》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}

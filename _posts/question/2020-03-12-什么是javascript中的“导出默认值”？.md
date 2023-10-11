@@ -31,7 +31,7 @@ export default SafeString;<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我从未见过</font></font><code>export default</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font><font style="vertical-align: inherit;">是否有任何等效的东西</font></font><code>export default</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">更容易理解？</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第1074篇《什么是javascript中的“导出默认值”？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第1074篇《什么是javascript中的“导出默认值”？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -46,9 +46,7 @@ export default SafeString;<font></font>
 <p><strong><font style="vertical-align: inherit;"></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">当函数没有名称时，可以使用</font><strong><font style="vertical-align: inherit;">export default</font></strong><font style="vertical-align: inherit;"> function（）{}。</font><font style="vertical-align: inherit;">文件中只能有一个默认导出。</font></font></p>
 
 <p><a href="https://nexladder.com/blog/export-default-in-javascript/" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">阅读更多</font></font></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">LEYAItachi</span>
@@ -72,9 +70,7 @@ foo(); // hello!<font></font>
 <hr>
 
 <p><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">更新：</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">自2015年6月，该模块系统中定义</font></font><a href="https://www.ecma-international.org/ecma-262/6.0/#sec-modules" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">§15.2</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">和</font></font><code>export</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在特定语法中定义</font></font><a href="https://www.ecma-international.org/ecma-262/6.0/#sec-exports" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">§15.2.3</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> ECMAScript的2015规范的。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">路易EvaSam</span>
@@ -83,9 +79,7 @@ foo(); // hello!<font></font>
           <div class="discuss-comment"><p><code>export default function(){}</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">当函数没有名称时可以使用。</font><font style="vertical-align: inherit;">文件中只能有一个默认导出。</font><font style="vertical-align: inherit;">替代方法是命名出口。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">该</font></font><a href="http://www.2ality.com/2014/09/es6-modules-final.html" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">页面</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">详细描述</font></font><code>export default</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">了有关模块，以及我认为非常有用的模块的其他详细信息。</font></font></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

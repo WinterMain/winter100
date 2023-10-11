@@ -29,7 +29,7 @@ topic: Node.js
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这是什么意思？</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第1579篇《--save和--save-dev有什么区别？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第1579篇《--save和--save-dev有什么区别？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -48,9 +48,7 @@ topic: Node.js
 
 <pre class="lang-sh prettyprint-override"><code>npm i --only=production
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">神无LEYMandy</span>
@@ -59,9 +57,7 @@ topic: Node.js
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">人们在生产中使用npm来处理邪恶的事情，Node.js就是一个例子，因此您不希望所有开发工具都在运行。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果您正在使用gulp（或类似产品）来创建要放在服务器上的构建文件，那么这并不重要。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">米亚Near</span>
@@ -73,9 +69,7 @@ topic: Node.js
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">示例：express，body-parser，lodash，helmet，mysql所有这些都在运行应用程序时使用–保存以放置依赖项，而在开发过程中使用mocha，istanbul，chai，sonarqube-scanner，因此将它们放在dev中-依赖性。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">npm link或npm install还将在您的项目文件夹中安装dev-dependency模块以及依赖模块 </font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">神无逆天</span>
@@ -108,9 +102,7 @@ npm install --save-dev typescript   //dev only dependency<font></font>
     "typescript": "^2.8.3"<font></font>
 },<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">LEYJim</span>
@@ -123,18 +115,14 @@ npm install --save-dev typescript   //dev only dependency<font></font>
 </blockquote>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">请参阅：</font><a href="https://docs.npmjs.com/cli/install" rel="noreferrer"><font style="vertical-align: inherit;">https</font></a><font style="vertical-align: inherit;">：</font></font><a href="https://docs.npmjs.com/cli/install" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">//docs.npmjs.com/cli/install</font></font></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">村村小小十三</span>
             <span class="discuss-time">2020.03.14</span>
           </div>
           <div class="discuss-comment"><p><code>--save-dev</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">将semver规范保存到程序包描述符文件中的“ devDependencies”数组中，</font></font><code>--save</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">而是将其保存到“ dependencies”中。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小胖神奇</span>
@@ -155,9 +143,7 @@ npm install --save-dev typescript   //dev only dependency<font></font>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">假设您的软件包是一个开源软件包，并且有数百人正在向您的软件包发送请求请求。</font><font style="vertical-align: inherit;">那么他们将如何测试包装？</font><font style="vertical-align: inherit;">他们将为</font></font><code>git clone</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">您</font><font style="vertical-align: inherit;">提供</font><strong><font style="vertical-align: inherit;">仓库</font></strong><font style="vertical-align: inherit;">，以及</font><strong><font style="vertical-align: inherit;">何时</font></strong></font><strong><code>npm i</code></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">进行</font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">依赖</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">以及</font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">devDependencies</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font><br><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
 因为他们没有使用您的包裹。</font><font style="vertical-align: inherit;">他们正在进一步开发软件包，因此，为了测试您的软件包，他们需要通过现有的测试用例以及编写新的测试用例。</font><font style="vertical-align: inherit;">因此，他们需要使用您的工具</font></font><code>devDependencies</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，其中包含</font><font style="vertical-align: inherit;">您使用的</font><font style="vertical-align: inherit;">所有测试/构建/模拟库。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Davaid老丝</span>
@@ -169,9 +155,7 @@ npm install --save-dev typescript   //dev only dependency<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在这种情况下，您希望可以使用Typescript（一种JavaScript解析的编码语言）进行开发，但是一旦部署了该应用程序，就不再需要了，因为所有代码都已转换为javascript。</font><font style="vertical-align: inherit;">因此，将其包含在已发布的应用程序中是没有意义的。</font><font style="vertical-align: inherit;">确实，这只会占用空间并增加下载时间。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Tom伽罗</span>
@@ -184,9 +168,7 @@ npm install --save-dev typescript   //dev only dependency<font></font>
 </blockquote>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">但是，对于webapp开发，</font></font><a href="http://yeoman.io/" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Yeoman</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">（一种安装了经过同行评审的，预先编写的package.json文件的脚手架工具）将所有程序包都放置在devDependencies中，而没有任何依赖项，因此使用似乎</font></font><code>--save-dev</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">是一个安全的选择</font><font style="vertical-align: inherit;">至少</font><font style="vertical-align: inherit;">在</font></font><em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">webapp</font></font></em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">开发中。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">阳光Itachi村村</span>
@@ -201,9 +183,7 @@ npm install --save-dev typescript   //dev only dependency<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">开发依赖项是仅开发软件包所需的那些依赖项。</font><font style="vertical-align: inherit;">这可以包括测试运行程序，编译器，打包程序等。两种类型的依赖关系都存储在包的</font></font><code>package.json</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">文件中。</font></font><code>--save</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">添加到</font></font><code>dependencies</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，</font></font><code>--save-dev</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">添加到</font></font><code>devDependencies</code></p>
 
 <p><a href="https://docs.npmjs.com/cli/install" rel="noreferrer"><font style="vertical-align: inherit;"></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">可以在这里参考</font><a href="https://docs.npmjs.com/cli/install" rel="noreferrer"><font style="vertical-align: inherit;">npm安装</font></a><font style="vertical-align: inherit;">文档。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">神奇Mandy</span>
@@ -258,9 +238,7 @@ npm install karma --save-dev<font></font>
 <p>Even in the docs, it asks you to use --save-dev for modules such as test harnesses. </p>
 
 <p>I hope this helps and is clear.</p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">JinJin米亚</span>
@@ -270,9 +248,7 @@ npm install karma --save-dev<font></font>
 <li><code>--save-dev</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">用于保存软件包以用于开发目的。</font><font style="vertical-align: inherit;">示例：单元测试，缩小</font></font></li>
 <li><code>--save</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> 用于保存应用程序运行所需的软件包。</font></font></li>
 </ul></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

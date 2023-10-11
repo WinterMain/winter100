@@ -66,7 +66,7 @@ module.exports = config;<font></font>
 </code></pre></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第2764篇《Webpack-Webpack-dev-server：找不到命令》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第2764篇《Webpack-Webpack-dev-server：找不到命令》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -87,9 +87,7 @@ module.exports = config;<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">有时您可能需要运行以下命令。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">npm install webpack-cli --save或npm install webpack-cli -g</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">西里Near</span>
@@ -104,18 +102,14 @@ module.exports = config;<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">当您在package.json文件中引用webpack时，它将尝试在位置node_modules \ .bin \中查找它</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">本地安装后，文件wbpack将在以下位置创建：\ node_modules \ .bin \ webpack</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">凯达蒙</span>
             <span class="discuss-time">2020.03.23</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我的</font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Yarn</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">遇到了类似的问题</font><font style="vertical-align: inherit;">，以上都不对我有用，所以我简单地删除</font></font><code>./node_modules</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">并运行</font></font><code>yarn install</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，问题就消失了。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小小</span>
@@ -126,9 +120,7 @@ module.exports = config;<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">运行时出现问题： </font></font><code>yarn start</code></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">首先运行已修复： </font></font><code>yarn install</code></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">梅西里</span>
@@ -140,9 +132,7 @@ module.exports = config;<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">令我感到困惑的是，一开始我并不需要，可能是新版本改变了。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">DavaidTony宝儿</span>
@@ -159,9 +149,7 @@ module.exports = config;<font></font>
 </code></pre>
 
 <p><code>.</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> 表示在当前目录中查找。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">凯理查德番长</span>
@@ -184,9 +172,7 @@ module.exports = config;<font></font>
 <p><code>npx webpack-dev-server --mode development --config ./webpack.dev.js</code></p>
 
 <p><code>npm run start</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> 在package.json脚本中的输入应与上面类似（没有npx）的情况下也可以正常工作。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">LGil</span>
@@ -221,9 +207,7 @@ module.exports = config;<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">太短，难以记忆和发挥。</font><font style="vertical-align: inherit;">并且，</font></font><code>npm</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">知道模块的位置</font></font><code>webpack-dev-server</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">宝儿</span>
@@ -232,9 +216,7 @@ module.exports = config;<font></font>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我发现接受的答案并非在所有情况下都适用。</font><font style="vertical-align: inherit;">为了确保它100％正常工作，还必须清除npm缓存。</font><font style="vertical-align: inherit;">直接进入缓存并清除锁，缓存，anonymous-cli-metrics.json; </font><font style="vertical-align: inherit;">或可以尝试一下</font></font><code>npm cache clean</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">由于作者在尝试推荐的解决方案之前已经清除了缓存，因此可能无法使其成为先决条件的一部分。</font></font></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

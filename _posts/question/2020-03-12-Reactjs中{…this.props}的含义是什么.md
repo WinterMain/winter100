@@ -25,7 +25,7 @@ topic: React.js
 </code></pre></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第949篇《Reactjs中{…this.props}的含义是什么》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第949篇《Reactjs中{…this.props}的含义是什么》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -53,9 +53,7 @@ topic: React.js
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在子组件中，您将收到所有父项道具。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">LEYAItachi</span>
@@ -150,9 +148,7 @@ ReactDOM.render(<font></font>
 <li><p><a href="https://github.com/gildata/RAIO/issues/136#issuecomment-327361743" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">https://github.com/gildata/RAIO/issues/136#issuecomment-327361743</font></font></a></p></li>
 <li><p><a href="https://facebook.github.io/react/docs/components-and-props.html" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">https://facebook.github.io/react/docs/components-and-props.html</font></font></a></p></li>
 </ul></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">null</span>
@@ -162,9 +158,7 @@ ReactDOM.render(<font></font>
 </font></font><code>div.{... }</code></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">运算符用于提取对象的属性。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Tom米亚老丝</span>
@@ -184,9 +178,7 @@ ReactDOM.render(<font></font>
 </code></pre>
 
 <p>which will unpack it into the props on your component, i.e., you "never" use <code>{... props}</code> inside your <code>render()</code> function, only when you pass the props down to another component. Use your unpacked props as normal <code>this.props.x</code>.</p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

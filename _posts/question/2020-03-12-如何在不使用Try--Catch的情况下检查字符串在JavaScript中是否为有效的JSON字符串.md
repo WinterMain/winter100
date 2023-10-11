@@ -29,7 +29,7 @@ IsJsonString("&lt;div&gt;foo&lt;/div&gt;")<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">解决方案不应包含try / catch。</font><font style="vertical-align: inherit;">我们中的一些人打开“打破所有错误”，他们不喜欢调试器打破那些无效的JSON字符串。</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第1117篇《如何在不使用Try / Catch的情况下检查字符串在JavaScript中是否为有效的JSON字符串》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第1117篇《如何在不使用Try / Catch的情况下检查字符串在JavaScript中是否为有效的JSON字符串》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -50,9 +50,7 @@ IsJsonString("&lt;div&gt;foo&lt;/div&gt;")<font></font>
 </code></pre>
 
 <p>hope this works for you too</p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">乐逆天</span>
@@ -78,9 +76,7 @@ IsJsonString("&lt;div&gt;foo&lt;/div&gt;")<font></font>
     return false;<font></font>
 };<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">宝儿Harry</span>
@@ -97,9 +93,7 @@ IsJsonString("&lt;div&gt;foo&lt;/div&gt;")<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">由于已尽可能概括，它可能不会因错误而中断。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Jim老丝梅</span>
@@ -137,9 +131,7 @@ alert(typeof parseJsonJQ(str_b));<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">IE7：</font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">字符串</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，对象，字符串，字符串</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">CHROME：对象，对象，字符串，字符串</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">L猪猪</span>
@@ -156,9 +148,7 @@ alert(typeof parseJsonJQ(str_b));<font></font>
     return true;<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">十三西里GO</span>
@@ -174,9 +164,7 @@ alert(typeof parseJsonJQ(str_b));<font></font>
 // -&gt; false<font></font>
 "{ \"foo\": 42 }".isJSON();<font></font>
 </code></pre></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

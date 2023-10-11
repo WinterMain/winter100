@@ -29,7 +29,7 @@ topic: JavaScript
 </code></pre></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第854篇《在Javascript中按名字（按字母顺序）对数组进行排序》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第854篇《在Javascript中按名字（按字母顺序）对数组进行排序》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -53,9 +53,7 @@ users.sort(sortFunction)<font></font>
 
 <pre><code>users.sort(sortFunction(a,b))
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">古一Mandy</span>
@@ -72,9 +70,7 @@ users.sort(sortFunction)<font></font>
 <font></font>
 })<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">路易Itachi小小</span>
@@ -97,9 +93,7 @@ users.sort(sortFunction)<font></font>
     return result;<font></font>
 };<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">6的不行</span>
@@ -118,9 +112,7 @@ users.sort(sortFunction)<font></font>
     return this;<font></font>
 };<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">樱神无</span>
@@ -130,9 +122,7 @@ users.sort(sortFunction)<font></font>
 
 <pre><code>users.sort(function(a,b){return a.firstname &lt; b.firstname ? -1 : 1});
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">樱小胖</span>
@@ -143,9 +133,7 @@ users.sort(sortFunction)<font></font>
 <pre><code>transform(array: any[], field: string): any[] {<font></font>
 return array.sort((a, b) =&gt; a[field].toLowerCase() !== b[field].toLowerCase() ? a[field].toLowerCase() &lt; b[field].toLowerCase() ? -1 : 1 : 0);}<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">JinJinPro</span>
@@ -165,9 +153,7 @@ return array.sort((a, b) =&gt; a[field].toLowerCase() !== b[field].toLowerCase()
 <li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">数据中的属性应按其排序</font></font></li>
 <li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">最后一个参数是布尔类型。</font><font style="vertical-align: inherit;">它检查您是否要按升序或降序排序</font></font></li>
 </ol></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">A小卤蛋Pro</span>
@@ -190,9 +176,7 @@ console.log(users.sort((a,b)=&gt; (a.firstname&gt;b.firstname)*2-1) );</code></p
 </div>
 </div>
 <p></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">前端猴子</span>
@@ -204,9 +188,7 @@ console.log(users.sort((a,b)=&gt; (a.firstname&gt;b.firstname)*2-1) );</code></p
     return a.firstname === b.firstname ? 0 : a.firstname &lt; b.firstname ? -1 : 1;<font></font>
 })<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">StafanDavaid</span>
@@ -218,9 +200,7 @@ console.log(users.sort((a,b)=&gt; (a.firstname&gt;b.firstname)*2-1) );</code></p
             return   sortType==="asc"? a.firstName.localeCompare( b.firstName): -( a.firstName.localeCompare(  b.firstName));<font></font>
         })<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">飞羽</span>
@@ -230,9 +210,7 @@ console.log(users.sort((a,b)=&gt; (a.firstname&gt;b.firstname)*2-1) );</code></p
 
 <pre><code>users.sort((a,b) =&gt; (a.firstname  - b.firstname));
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Green前端</span>
@@ -247,9 +225,7 @@ console.log(users.sort((a,b)=&gt; (a.firstname&gt;b.firstname)*2-1) );</code></p
 
 <pre><code>_.sortBy([{a:"b"},{a:"c"},{a:"a"}], function(i) {return i.a.toLowerCase()})
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">伽罗理查德</span>
@@ -259,9 +235,7 @@ console.log(users.sort((a,b)=&gt; (a.firstname&gt;b.firstname)*2-1) );</code></p
 
 <pre><code>users.sort((a, b) =&gt; a.firstname !== b.firstname ? a.firstname &lt; b.firstname ? -1 : 1 : 0);
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">古一西里</span>
@@ -278,9 +252,7 @@ console.log(users.sort((a,b)=&gt; (a.firstname&gt;b.firstname)*2-1) );</code></p
  return 0; //default return value (no sorting)<font></font>
 });<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">宝儿小哥小卤蛋</span>
@@ -292,9 +264,7 @@ console.log(users.sort((a,b)=&gt; (a.firstname&gt;b.firstname)*2-1) );</code></p
 </code></pre>
 
 <p><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/localeCompare#Browser_compatibility" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">String.prototype.localeCompare（）</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">基本支持是通用的！</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">→笑里藏刀↓</span>
@@ -306,9 +276,7 @@ console.log(users.sort((a,b)=&gt; (a.firstname&gt;b.firstname)*2-1) );</code></p
     return a.firstname.localeCompare(b.firstname);<font></font>
 })<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">LEY村村</span>
@@ -338,9 +306,7 @@ console.log(users.sort((a,b)=&gt; (a.firstname&gt;b.firstname)*2-1) );</code></p
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">此代码将适用于任何类型。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">请注意，在“现实生活”™中，当您比较字符串时，您通常希望忽略大小写，正确地对变音符号进行排序，诸如ß之类的怪异符号，因此您可能需要使用</font></font><code>localeCompare</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font><font style="vertical-align: inherit;">为清楚起见，请参见其他答案。</font></font></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

@@ -38,7 +38,7 @@ topic: JavaScript
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我实际上想列出所有已定义的变量及其值，但是我了解到定义一个变量实际上会创建window对象的属性。</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第734篇《如何枚举JavaScript对象的属性？[重复]》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第734篇《如何枚举JavaScript对象的属性？\[重复\]》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -53,9 +53,7 @@ topic: JavaScript
 <pre><code>_.keys({one : 1, two : 2, three : 3});<font></font>
 =&gt; ["one", "two", "three"]<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小小Gil</span>
@@ -68,18 +66,14 @@ topic: JavaScript
 <p><code>Object.keys(object1)</code></p>
 
 <p>Ref. <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/keys" rel="noreferrer">Object.keys()</a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">西门十三LEY</span>
             <span class="discuss-time">2020.03.11</span>
           </div>
           <div class="discuss-comment"><p>I found it... <code>for (property in object) { // do stuff }</code> will list all the properties, and therefore all the globally declared variables on the window object..</p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">村村Tony</span>
@@ -98,9 +92,7 @@ topic: JavaScript
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">附加信息：
  </font></font><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/defineProperty#Enumerable_attribute" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">什么是可枚举属性？</font></font></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Stafan小宇宙</span>
@@ -137,9 +129,7 @@ forEach : function (obj, callback) {<font></font>
   }<font></font>
 };<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">null</span>
@@ -191,9 +181,7 @@ for (var i=0, a=shadowedKeys, l=a.length; i&lt;l; i++) {<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">好消息是EcmaScript 5定义了该</font></font><code>Object.keys(myObject)</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">函数，该函数以数组的形式返回对象的键，并且某些浏览器（例如Safari 4）已经实现了该功能。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">十三村村蛋蛋</span>
@@ -203,9 +191,7 @@ for (var i=0, a=shadowedKeys, l=a.length; i&lt;l; i++) {<font></font>
     alert(prop + ' = ' + obj[prop]);<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">伽罗GreenNear</span>
@@ -226,9 +212,7 @@ for (var i=0, a=shadowedKeys, l=a.length; i&lt;l; i++) {<font></font>
    // The value is in: value<font></font>
 });<font></font>
 </code></pre></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

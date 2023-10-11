@@ -33,7 +33,7 @@ topic: JavaScript
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我一直在搜索，但是我发现是一个插件，而在我的计划中我不想使用它。</font><font style="vertical-align: inherit;">至少目前是这样。</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第601篇《jQuery Ajax文件上传》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第601篇《jQuery Ajax文件上传》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -66,9 +66,7 @@ topic: JavaScript
     stopPropigation()// or some other code which would prevent a refresh.<font></font>
 });<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">JinJin乐逆天</span>
@@ -86,9 +84,7 @@ formData.append("userfile", fileInputElement.files[0]);<font></font>
 
 <pre><code>data.append("myfile", myBlob, "filename.txt");
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小胖逆天</span>
@@ -132,9 +128,7 @@ formData.append("userfile", fileInputElement.files[0]);<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">到此为止。</font></font><a href="http://whats-online.info/science-and-tutorials/30/select-preview-rename-and-upload-image-using-jquery-Ajax/" rel="noreferrer"><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">查看更多</font></font></strong></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">阿飞Sam猪猪</span>
@@ -146,9 +140,7 @@ formData.append("userfile", fileInputElement.files[0]);<font></font>
 </ul>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">有关我的博客文章的更多详细信息：</font></font><a href="http://blog.manki.in/2011/08/ajax-fie-upload.html"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">http</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> : </font><a href="http://blog.manki.in/2011/08/ajax-fie-upload.html"><font style="vertical-align: inherit;">//blog.manki.in/2011/08/ajax-fie-upload.html</font></a><font style="vertical-align: inherit;">。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">卡卡西Davaid</span>
@@ -235,9 +227,7 @@ if ((($_FILES["file"]["type"] == "image/gif")<font></font>
 }<font></font>
 ?&gt;<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">乐西门</span>
@@ -246,9 +236,7 @@ if ((($_FILES["file"]["type"] == "image/gif")<font></font>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">使用确实可以上传AJAX </font></font><code>XMLHttpRequest()</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font><font style="vertical-align: inherit;">无需iframe。</font><font style="vertical-align: inherit;">可以显示上传进度。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">有关详细信息，请参见：回答</font></font><a href="https://stackoverflow.com/a/4943774/873282"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">https://stackoverflow.com/a/4943774/873282</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">以质疑</font></font><a href="https://stackoverflow.com/questions/4856917/jquery-upload-progress-and-ajax-file-upload"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">jQuery Upload Progress和AJAX文件上传</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">猿Near</span>
@@ -263,9 +251,7 @@ if ((($_FILES["file"]["type"] == "image/gif")<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">FormData支持从以下桌面浏览器版本开始。</font><font style="vertical-align: inherit;">IE 10以上版本，Firefox 4.0以上版本，Chrome 7以上版本，Safari 5以上版本，Opera 12以上版本</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">有关更多详细信息，请参见</font></font><a href="https://developer.mozilla.org/en-US/docs/XMLHttpRequest/FormData" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">MDN链接。</font></font></a></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

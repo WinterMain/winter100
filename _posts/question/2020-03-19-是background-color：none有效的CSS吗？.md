@@ -22,7 +22,7 @@ topic: CSS
 </code></pre></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第2347篇《是background-color：none有效的CSS吗？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第2347篇《是background-color：none有效的CSS吗？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -33,9 +33,7 @@ topic: CSS
             <span class="discuss-time">2020.03.19</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">因此，我想解释一下我必须使用此解决方案的情况。</font><font style="vertical-align: inherit;">基本上，我想撤消另一个CSS设置的background-color属性。</font><font style="vertical-align: inherit;">预期的最终结果是使它看起来好像原始CSS从未应用background-color属性。</font><font style="vertical-align: inherit;">设置</font></font><code>background-color:transparent;</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">使之有效。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">LEYHarryHarry</span>
@@ -58,9 +56,7 @@ topic: CSS
 </code></pre>
 
 <p><code>background-color: transparent</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">完成与您想做的事情</font></font><code>background-color: none</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小小LDavaid</span>
@@ -72,9 +68,7 @@ topic: CSS
 
 <p></p><hr><font style="vertical-align: inherit;"></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">.class</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> 
 在哪里</font><font style="vertical-align: inherit;">，您将命名透明类。</font></font><p></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">逆天猪猪</span>
@@ -87,9 +81,7 @@ topic: CSS
 </blockquote>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">不幸的是，当前所有浏览器（包括IE，Safari和Opera）都不支持该值。</font><font style="vertical-align: inherit;">我建议</font></font><code>transparent</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">暂时使用。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">十三GO</span>
@@ -107,9 +99,7 @@ topic: CSS
 </blockquote>
 
 <p><code>transparent</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在开发CSS规范时，</font><font style="vertical-align: inherit;">可能选择了更好的术语代替</font></font><code>0</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">或</font></font><code>none</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">值。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">otaku若</span>
@@ -121,9 +111,7 @@ topic: CSS
 background-color:transparent;<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小宇宙GilMandy</span>
@@ -144,9 +132,7 @@ background-color:transparent;<font></font>
 </blockquote>
 
 <p><code>transparent</code> and <code>inherit</code> are valid keywords in their own right, but <code>none</code> is not.</p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

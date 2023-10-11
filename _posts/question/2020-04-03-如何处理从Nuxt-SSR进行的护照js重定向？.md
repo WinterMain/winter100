@@ -59,7 +59,7 @@ exports.postSignup = (req, res, next) =&gt; {<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果我调用重定向方法？</font><font style="vertical-align: inherit;">它将重新加载页面并清除Vuex状态，对吗？</font><font style="vertical-align: inherit;">我该如何从护照重定向，以使Vuex状态保持不变且客户端页面不刷新</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第3934篇《如何处理从Nuxt SSR进行的护照js重定向？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第3934篇《如何处理从Nuxt SSR进行的护照js重定向？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -70,9 +70,7 @@ exports.postSignup = (req, res, next) =&gt; {<font></font>
             <span class="discuss-time">2020.04.03</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">确实最好异步处理表单提交以避免@Darius提到的页面刷新。</font><font style="vertical-align: inherit;">但是，为了完善起见，我想提到确实存在一些解决方案来保持您的Vuex状态，例如</font></font><a href="https://github.com/robinvdvleuten/vuex-persistedstate/" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">vuex-persistedstate</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font><font style="vertical-align: inherit;">它可以用于将状态持久保存到localStorage，sessionStorage甚至cookie。</font><font style="vertical-align: inherit;">它也可以用作Nuxt插件。</font></font></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

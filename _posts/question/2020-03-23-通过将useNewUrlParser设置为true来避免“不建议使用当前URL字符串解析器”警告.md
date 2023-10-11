@@ -43,7 +43,7 @@ topic: Node.js
 </code></pre></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第2656篇《通过将useNewUrlParser设置为true来避免“不建议使用当前URL字符串解析器”警告》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第2656篇《通过将useNewUrlParser设置为true来避免“不建议使用当前URL字符串解析器”警告》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -107,9 +107,7 @@ MongoClient.connect(connectionString,{ useNewUrlParser: true } <font></font>
 </div>
 </div>
 <p></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小小古一</span>
@@ -138,9 +136,7 @@ MongoClient.connect(connectionString,{ useNewUrlParser: true } <font></font>
   console.log("Connection to database failed.");<font></font>
 });<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">猪猪小卤蛋</span>
@@ -160,9 +156,7 @@ MongoClient.connect(connectionString,{ useNewUrlParser: true } <font></font>
     }<font></font>
 );<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小胖</span>
@@ -174,9 +168,7 @@ MongoClient.connect(connectionString,{ useNewUrlParser: true } <font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在mongoose.connect方法中。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">梅</span>
@@ -190,9 +182,7 @@ MongoClient.connect(connectionString,{ useNewUrlParser: true } <font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">它解决了我的问题。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">西里神奇</span>
@@ -205,9 +195,7 @@ MongoClient.connect(connectionString,{ useNewUrlParser: true } <font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如“ </font></font><em><a href="https://docs.mongodb.com/master/reference/connection-string/" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">连接字符串URI格式”中</font></font></a></em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">指定的那样</font><font style="vertical-align: inherit;">，您无需设置端口号。</font></font></p>
 
 <p><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">只需添加</font></font><code>{ useNewUrlParser: true }</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">就足够了。</font></font></strong></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">达蒙</span>
@@ -229,9 +217,7 @@ MongoClient.connect(connectionString,{ useNewUrlParser: true } <font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">理想情况下，它是版本4的功能，但v3.1.0及更高版本也支持该功能。</font><font style="vertical-align: inherit;">查看</font></font><a href="https://github.com/mongodb/node-mongodb-native/blob/v3.1.0/lib/mongo_client.js#L112" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">MongoDB GitHub</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">   以获取详细信息。</font></font></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

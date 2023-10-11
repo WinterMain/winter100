@@ -42,7 +42,7 @@ angular-messages@^1.5.0 but none was installed.<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如何解决此问题以安装AngularJS材质和MDI？</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第2825篇《如何解决npm UNMET PEER DEPENDENCY警告？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第2825篇《如何解决npm UNMET PEER DEPENDENCY警告？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -57,9 +57,7 @@ angular-messages@^1.5.0 but none was installed.<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">示例：npm install -g @ angular / common @ 4.4.6</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">逐一安装。</font><font style="vertical-align: inherit;">它为我工作。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小哥凯小小</span>
@@ -70,9 +68,7 @@ angular-messages@^1.5.0 but none was installed.<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果您像我一样简单地替换</font></font><code>@angular/...rc.6</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">为</font></font><code>@angular/...rc.7</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">-这还不够。</font><font style="vertical-align: inherit;">因为，例如，</font></font><code>@angular/router</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">没有</font></font><code>rc.6</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">版本。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在这种情况下，最好</font><font style="vertical-align: inherit;">在</font><strong><font style="vertical-align: inherit;">快速入门中</font></strong><font style="vertical-align: inherit;">查看</font></font><a href="https://github.com/angular/quickstart/blob/master/package.json" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">package.json</font></font></a><font style="vertical-align: inherit;"></font><strong><font style="vertical-align: inherit;"></font></strong></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">卡卡西</span>
@@ -95,9 +91,7 @@ warning " &gt; tsickle@0.25.6" has incorrect peer dependency "typescript@&gt;=2.
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果你想学什么</font></font><code>^</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">和</font></font><code>~</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">它平均看：</font></font><a href="https://stackoverflow.com/questions/22343224/whats-the-difference-between-tilde-and-caret-in-package-json"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">什么是符号（〜）和尖之间的（^）中的package.json有什么区别？</font></font></a> </p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">另外，您还必须确保该软件包存在。</font><font style="vertical-align: inherit;">也许没有</font></font><code>"typescript": "2.5.9"</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">查找包裹号。</font><font style="vertical-align: inherit;">为了真正安全起见，请删除</font></font><code>~</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">或，</font></font><code>^</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果您不想阅读它们的含义。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Stafan</span>
@@ -116,9 +110,7 @@ warning " &gt; tsickle@0.25.6" has incorrect peer dependency "typescript@&gt;=2.
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">完成后，它仍然有效，请将您的实际代码导入到这个新项目中。</font><font style="vertical-align: inherit;">修正新的角度原因导致的编译错误。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">多数民众赞成为我做的.. 1个小时的返工vs 6个小时的尝试找出wtf是错误的..希望我以此方式开始。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Stafan路易</span>
@@ -127,9 +119,7 @@ warning " &gt; tsickle@0.25.6" has incorrect peer dependency "typescript@&gt;=2.
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">导致此错误的最可能原因之一是您在package.json中定义了较旧的版本。</font><font style="vertical-align: inherit;">要解决此问题，请更改package.json中的版本以匹配npm抱怨的版本。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">完成后，运行npm install并瞧瞧！！ </font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">宝儿</span>
@@ -179,9 +169,7 @@ package: requires packageA &gt;= v4.0.0<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在这两种情况下，最好彻底测试它是否不会破坏任何东西。 </font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">最后，如果您想知道为什么必须手动执行</font><a href="https://nodejs.org/en/blog/npm/peer-dependencies/" rel="nofollow noreferrer"><font style="vertical-align: inherit;">此</font></a><font style="vertical-align: inherit;">操作，则</font></font><a href="https://nodejs.org/en/blog/npm/peer-dependencies/" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">此链接可以很好地说明。</font></font></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">LEYA理查德</span>
@@ -197,9 +185,7 @@ npm install<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这将正确安装所有必需的依赖项。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">ItachiJinJin</span>
@@ -209,9 +195,7 @@ npm install<font></font>
 
 <pre><code>npm install -g npm
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小小</span>
@@ -221,9 +205,7 @@ npm install<font></font>
 
 <pre><code>npm install -g npm-install-peers
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">理查德GO</span>
@@ -243,9 +225,7 @@ UNMET PEER DEPENDENCY angular-messages@^1.5.0 `-- mdi@1.4.57` <font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">所以你需要 </font></font><code>npm install angular angular-animate angular-aria angular-material angular-messages mdi</code></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

@@ -90,7 +90,7 @@ Add @babel/plugin-proposal-class-properties (https://git.io/vb4SL) to the <font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">但是错误仍然存​​在，这是什么问题？？</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第1301篇《目前未启用对实验语法“ classProperties”的支持》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第1301篇《目前未启用对实验语法“ classProperties”的支持》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -110,9 +110,7 @@ Add @babel/plugin-proposal-class-properties (https://git.io/vb4SL) to the <font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">到</font></font><code>.babelrc</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">了我的作品。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小哥Eva</span>
@@ -122,9 +120,7 @@ Add @babel/plugin-proposal-class-properties (https://git.io/vb4SL) to the <font>
 
 <pre><code>yarn add @babel/plugin-proposal-class-properties --dev
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">西门樱Eva</span>
@@ -143,9 +139,7 @@ class MyComponent extends Component {<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">祝好运...</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小卤蛋十三</span>
@@ -174,9 +168,7 @@ class MyComponent extends Component {<font></font>
 <p><em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">.babelrc</font></font></em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">文件位于根目录中，即</font></font><em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">package.json</font></font></em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">所在的</font><font style="vertical-align: inherit;">位置。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">请注意，您应该重新启动webpack开发服务器，以使更改生效。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Sam神奇</span>
@@ -196,9 +188,7 @@ class MyComponent extends Component {<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">用上面的代码替换您的.babelrc文件。</font><font style="vertical-align: inherit;">它为我解决了这个问题。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">前端猴子</span>
@@ -216,9 +206,7 @@ class MyComponent extends Component {<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">运行</font></font><code>npm install --save-dev @babel/plugin-proposal-class-properties</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">运行</font></font><code>npm run watch</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">理查德村村小宇宙</span>
@@ -244,9 +232,7 @@ class MyComponent extends Component {<font></font>
 </code></pre>
 
 <p><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这对我有用</font></font></strong></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

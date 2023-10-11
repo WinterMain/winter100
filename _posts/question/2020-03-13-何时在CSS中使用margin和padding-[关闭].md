@@ -41,7 +41,7 @@ topic: CSS
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在编写CSS时，在决定何时使用</font></font><code>margin</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">和何时使用</font><font style="vertical-align: inherit;">时应使用特定的规则或准则</font></font><code>padding</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">吗？</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第1418篇《何时在CSS中使用margin和padding [关闭]》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第1418篇《何时在CSS中使用margin和padding \[关闭\]》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -52,9 +52,7 @@ topic: CSS
             <span class="discuss-time">2020.03.13</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">保证金在盒子外面，填充物在盒子里面</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">梅Tony</span>
@@ -71,9 +69,7 @@ topic: CSS
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我通常在边框中有一个元素</font></font><code>&lt;div&gt;</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">或类似</font><font style="vertical-align: inherit;">元素时使用</font><font style="vertical-align: inherit;">它，并且我想减小其大小，但是当时我想保持周围其他元素之间的距离或边距。  </font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">简而言之，这是情况。</font><font style="vertical-align: inherit;">这取决于您要做什么。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Sam蛋蛋Itachi</span>
@@ -98,9 +94,7 @@ inside.</li>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">较大的填充将增加您的内容与其所在的框之间的空间。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果将其设置为特定值，则它们都不会增大或减小框的大小。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">飞云Tom小宇宙</span>
@@ -140,9 +134,7 @@ $(".inner").click(function(e) {<font></font>
 </div>
 </div>
 <p></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Green达蒙</span>
@@ -155,9 +147,7 @@ $(".inner").click(function(e) {<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这意味着您的元素不知道其外部页边距，因此，如果要开发动态Web控件，建议您尽可能使用padding vs margin。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">请注意，有些时候您必须使用保证金。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">逆天Itachi</span>
@@ -172,18 +162,14 @@ $(".inner").click(function(e) {<font></font>
 <li><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">边距可以设置为任何数字，但填充必须为非负数。</font></font></p></li>
 <li><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在设置元素样式时，填充也会受到影响（例如背景色），但空白不会受到影响。</font></font></p></li>
 </ul></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">村村小小十三</span>
             <span class="discuss-time">2020.03.13</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">要注意的一件事是，当自动折叠边距使您烦恼（并且您没有在元素上使用背景色）时，使用填充就更容易了。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">老丝番长</span>
@@ -203,9 +189,7 @@ $(".inner").click(function(e) {<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">当您拥有100％宽度的元素时，</font></font><code>padding: 50px;</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">您可以有效获得</font></font><code>width: calc(100% + 100px);</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font><font style="vertical-align: inherit;">由于</font></font><code>margin</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">是</font></font><em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">不</font></font></em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">加入</font></font><code>width</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">也不会造成意想不到的布局问题，当您使用</font></font><code>margin</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">上</font></font><code>child elements</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，而不是</font></font><code>padding</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">直接的元素。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">因此，如果您</font></font><em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">不</font></font></em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">执行上述两项操作之一，请</font></font><em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">不要</font></font></em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在元素中添加填充，而是直接在子元素/子元素中添加填充，以确保</font><font style="vertical-align: inherit;">在</font><em><font style="vertical-align: inherit;">所有</font></em><font style="vertical-align: inherit;">浏览器</font><font style="vertical-align: inherit;">中</font><em><font style="vertical-align: inherit;">都能</font></em><font style="vertical-align: inherit;">获得</font></font><em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">预期的</font></font></em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">行为</font><font style="vertical-align: inherit;">。</font></font><em><font style="vertical-align: inherit;"></font></em><font style="vertical-align: inherit;"></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小宇宙卡卡西</span>
@@ -221,9 +205,7 @@ $(".inner").click(function(e) {<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">请参考下面摘自</font></font><a href="http://www.digizol.com/2006/12/margin-vs-padding-css-properties.html" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Margin Vs Padding-CSS Properties的图像</font></font></a></p>
 
 <p><img src="https://i.stack.imgur.com/PaLp6.jpg" alt="保证金与填充"></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">逆天十三</span>
@@ -236,9 +218,7 @@ $(".inner").click(function(e) {<font></font>
 <p><img src="https://i.stack.imgur.com/PeSIJ.gif" alt="在此处输入图片说明"></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">要记住的一件事是，符合标准的浏览器（</font></font><a href="http://en.wikipedia.org/wiki/Internet_Explorer_box_model_bug" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">IE怪癖是一个例外</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">）仅将内容部分呈现为给定的宽度，因此在布局计算中应注意这一点。</font><font style="vertical-align: inherit;">另请注意，</font></font><a href="https://stackoverflow.com/a/15406347/311525"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Bootstrap 3</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">支持</font><font style="vertical-align: inherit;">边框，边框在某种程度上</font><a href="https://stackoverflow.com/a/15406347/311525"><font style="vertical-align: inherit;">卷土重来</font></a><font style="vertical-align: inherit;">。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">伽罗Pro卡卡西</span>
@@ -252,9 +232,7 @@ $(".inner").click(function(e) {<font></font>
 </ul>
 
 <p><img src="https://i.stack.imgur.com/UHD7W.gif" alt="在此处输入图片说明"></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">伽罗Mandy</span>
@@ -275,9 +253,7 @@ $(".inner").click(function(e) {<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">当保证金和填充之间的决定，这是经验的一个很好的规则来使用</font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">保证金</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，当你在关系到其他事情上墙，间距元素</font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">填充</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">时，要调整的元素本身的外观。</font><font style="vertical-align: inherit;">边距不会更改元素的大小，但填充通常会使元素变大</font></font><sup><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">1</font></font></sup><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p>
 
 <p><sup><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">1 </font></font></sup> <em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">可以使用</font></font><a href="http://www.paulirish.com/2012/box-sizing-border-box-ftw/"><code>box-sizing</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">属性</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">更改此默认框模型</font><font style="vertical-align: inherit;">。</font></font></em></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">猴子古一蛋蛋</span>
@@ -300,9 +276,7 @@ $(".inner").click(function(e) {<font></font>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">实时示例（通过更改值进行操作）：</font><a href="https://www.w3schools.com/css/tryit.asp?filename=trycss_boxmodel" rel="noreferrer"><font style="vertical-align: inherit;">https</font></a><font style="vertical-align: inherit;"> :
  </font></font><a href="https://www.w3schools.com/css/tryit.asp?filename=trycss_boxmodel" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">//www.w3schools.com/css/tryit.asp?filename=trycss_boxmodel</font></font></a></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

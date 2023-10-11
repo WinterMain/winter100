@@ -36,7 +36,7 @@ scss<font></font>
 </font></font><img src="https://www.samyoc.com//uploads/users/25284/images/thumbnails/1584965136198.png" data-src="https://www.samyoc.com//uploads/users/25284/images/1584965136198.png" alt="在此处输入图片说明"></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第3023篇《使用PHPstorm 7文件监视程序在特殊文件夹中将SCSS / SASS转换为CSS》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第3023篇《使用PHPstorm 7文件监视程序在特殊文件夹中将SCSS / SASS转换为CSS》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}

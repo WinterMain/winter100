@@ -64,7 +64,7 @@ topic: JavaScript
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">有些人列出了</font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">名称空间</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，这是一个好主意。</font><font style="vertical-align: inherit;">还有哪些其他方式，更具体地说是处理页面上的元素并使代码井井有条和整洁？</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第1019篇《关于JavaScript中代码组织的公认最佳实践》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第1019篇《关于JavaScript中代码组织的公认最佳实践》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -75,9 +75,7 @@ topic: JavaScript
             <span class="discuss-time">2020.03.12</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">延迟加载您需要的代码。</font><font style="vertical-align: inherit;">Google使用其</font><a href="http://code.google.com/apis/ajax/documentation/" rel="nofollow noreferrer"><font style="vertical-align: inherit;">google.loader</font></a><font style="vertical-align: inherit;">执行类似的操作</font></font><a href="http://code.google.com/apis/ajax/documentation/" rel="nofollow noreferrer"><font style="vertical-align: inherit;"></font></a> </p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Near路易小胖</span>
@@ -90,9 +88,7 @@ topic: JavaScript
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">对于必须发出自己的JS的结束页，我通常会发现所生成的标记中包含逻辑结构。</font><font style="vertical-align: inherit;">这样的本地化JS通常可以在这种结构的开始和/或结束处进行组装。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">请注意，这些都不会让您免于编写有效的JavaScript！</font><font style="vertical-align: inherit;">:-)</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">猪猪前端</span>
@@ -111,9 +107,7 @@ topic: JavaScript
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">干杯!</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">亚当</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">JimProL</span>
@@ -129,9 +123,7 @@ topic: JavaScript
 <li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Ajax是我移出javascript文件夹并获得其自己的文件夹的唯一javascript。</font><font style="vertical-align: inherit;">然后我添加两个子文件夹客户端和服务器</font></font></li>
 <li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">客户端文件夹获取所有.js文件，而服务器文件夹获取所有服务器端文件。</font></font></li>
 </ol></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">十三老丝</span>
@@ -155,9 +147,7 @@ topic: JavaScript
     }<font></font>
 });<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">StafanItachi</span>
@@ -168,27 +158,21 @@ topic: JavaScript
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">自从分离我的JS文件以来，我一直在使用它，然后最后将它们合并为一个。</font><font style="vertical-align: inherit;">这样，我就可以分离出问题，最后只有一个文件通过管道（压缩后，不少）。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在模板中，检查您是否处于开发模式，并包括单独的文件，如果在生产中，则包括最后一个文件（您必须自己“构建”）。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">LEY乐</span>
             <span class="discuss-time">2020.03.12</span>
           </div>
           <div class="discuss-comment"><p><a href="http://alexsexton.com/?p=51" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">使用继承模式来组织大型jQuery应用程序。</font></font></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">宝儿小哥小卤蛋</span>
             <span class="discuss-time">2020.03.12</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我使用</font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Dojo的包管理</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">（</font></font><code>dojo.require</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">和</font></font><code>dojo.provide</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">）和类系统（</font></font><code>dojo.declare</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">它还允许简单的多重继承）将我的所有类/小组件模块化到单独的文件中。</font><font style="vertical-align: inherit;">这不仅可以使您的代码井井有条，而且还可以让您轻松/及时地加载类/小部件。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">神奇小小</span>
@@ -237,9 +221,7 @@ $(document).ready(vjr.comments.init);<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">鉴于我对Javascript的了解有限，我知道必须有更好的方法来管理它，但是到目前为止，它对我们来说非常有用。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">LEY乐</span>
@@ -248,18 +230,14 @@ $(document).ready(vjr.comments.init);<font></font>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我很惊讶没有人提到MVC框架。</font><font style="vertical-align: inherit;">我一直在使用</font></font><a href="http://documentcloud.github.com/backbone/"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Backbone.js</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">对我的代码进行模块化和解耦，这是非常宝贵的。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这些框架很多，其中大多数也很小。</font><font style="vertical-align: inherit;">我个人的观点是，如果您不只是为华丽的UI内容编写几行jQuery，或者想要一个丰富的Ajax应用程序，那么MVC框架将使您的生活变得更加轻松。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">米亚ItachiL</span>
             <span class="discuss-time">2020.03.12</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我为我真正不需要在屏幕上实例化多次的每件事创建单例，为其他所有事项创建类。</font><font style="vertical-align: inherit;">所有这些都放在同一文件的同一名称空间中。</font><font style="vertical-align: inherit;">一切都已注释，并使用UML状态图进行设计。</font><font style="vertical-align: inherit;">JavaScript代码不含html，因此没有内联JavaScript，我倾向于使用jquery来最大程度地减少跨浏览器问题。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">卡卡西Near</span>
@@ -270,9 +248,7 @@ $(document).ready(vjr.comments.init);<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">就我而言，我使用适当的init_screen（）在UI主题或应用程序屏幕的基础上编写js文件。</font><font style="vertical-align: inherit;">使用正确的ID命名约定，我确保在根元素级别上没有名称空间冲突。</font><font style="vertical-align: inherit;">在不显眼的window.load（）中，我根据顶层ID捆绑事物。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我严格使用Java脚本闭包和模式来隐藏所有私有方法。</font><font style="vertical-align: inherit;">完成此操作后，再也不会遇到属性/函数定义/变量定义冲突的问题。</font><font style="vertical-align: inherit;">但是，与团队合作时，通常很难执行相同的严格要求。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">村村A小卤蛋</span>
@@ -291,9 +267,7 @@ $(document).ready(vjr.comments.init);<font></font>
 </ul>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">最棒的是，它使用jQuery，因此您也可以利用其他jQuery插件。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Itachi猪猪猪猪</span>
@@ -315,18 +289,14 @@ $(document).ready(vjr.comments.init);<font></font>
 <li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">通过分析模块依赖关系来创建单个文件或一组相互依赖的文件（所谓的图层）以仅包含您的Web应用程序需要的内容，从而进行自定义构建。</font><font style="vertical-align: inherit;">定制构建还可以包括Dojo模块和客户提供的模块。</font></font></li>
 <li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">基于CDN的透明访问Dojo和用户代码。</font><font style="vertical-align: inherit;">AOL和Google都以这种方式携带Dojo，但是一些客户也为他们的自定义Web应用程序这样做。</font></font></li>
 </ul></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Green猿古一</span>
             <span class="discuss-time">2020.03.12</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在上一份工作中，我</font><font style="vertical-align: inherit;">能够成功地将</font></font><a href="http://yuiblog.com/blog/2007/06/12/module-pattern/" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Javascript模块模式</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">应用于Ext JS应用程序。</font><font style="vertical-align: inherit;">它提供了一种创建精美封装代码的简单方法。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">十三斯丁Jim</span>
@@ -340,9 +310,7 @@ $(document).ready(vjr.comments.init);<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我认为Dojo（和Prototype？）具有此技术的内置版本。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">另请参阅</font></font><a href="https://stackoverflow.com/questions/312895/signals-and-slots"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">什么是信号和插槽？</font></font></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">ProTom</span>
@@ -422,18 +390,14 @@ Exc.ui.maskedInput = function (mask) {<font></font>
 
 <p><br><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
 这些只是一些技巧，但这对组织代码有很大帮助。</font><font style="vertical-align: inherit;">记住，您必须有纪律才能成功！</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">宝儿理查德</span>
             <span class="discuss-time">2020.03.12</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">您可以将脚本分解为单独的文件进行开发，然后创建一个“发行”版本，在其中将它们全部塞入并运行</font></font><a href="http://developer.yahoo.com/yui/compressor/" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">YUI Compressor</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">或类似的东西。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">路易老丝</span>
@@ -464,9 +428,7 @@ Exc.ui.maskedInput = function (mask) {<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我将不同的“命名空间”（有时将各个类）放在单独的文件中。</font><font style="vertical-align: inherit;">通常，我从一个文件开始，随着类或命名空间变得足够大以保证它，我将其分离到自己的文件中。</font><font style="vertical-align: inherit;">使用工具组合所有文件进行生产也是一个好主意。</font></font></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

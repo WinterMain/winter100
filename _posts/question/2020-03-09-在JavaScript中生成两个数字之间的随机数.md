@@ -17,7 +17,7 @@ topic: JavaScript
     <div class="article-content"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">有没有一种方法可以在JavaScript中生成指定范围内的随机数（例如1到6：1、2、3、4、5或6）？</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第227篇《在JavaScript中生成两个数字之间的随机数》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第227篇《在JavaScript中生成两个数字之间的随机数》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -38,9 +38,7 @@ console.log(random(1, 6));</code></pre>
 </div>
 </div>
 <p></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Davaid飞云</span>
@@ -55,9 +53,7 @@ console.log(random(1, 6));</code></pre>
 
 <pre><code>&lt;script src="https://randojs.com/1.0.0.js"&gt;&lt;/script&gt;
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">神乐阿飞</span>
@@ -65,9 +61,7 @@ console.log(random(1, 6));</code></pre>
           </div>
           <div class="discuss-comment"><p>to return 1-6 like a dice basically,
 return Math.round(Math.random() * 5 + 1);</p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">神无Davaid</span>
@@ -79,9 +73,7 @@ return Math.round(Math.random() * 5 + 1);</p></div>
     return Math.random() * (b-n) + n;<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">猿十三</span>
@@ -91,9 +83,7 @@ return Math.round(Math.random() * 5 + 1);</p></div>
 
 <pre><code>const getRandomNum = (min, max) =&gt; Math.floor(Math.random() * (max - min + 1)) + min
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">阿良</span>
@@ -105,9 +95,7 @@ return Math.round(Math.random() * 5 + 1);</p></div>
         return (Math.random() * (max - min + 1) | 0) + min;<font></font>
     }   <font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">猪猪Sam</span>
@@ -134,9 +122,7 @@ return Math.round(Math.random() * 5 + 1);</p></div>
 <p>Docs:
 - <a href="https://lodash.com/docs#random" rel="noreferrer">lodash</a>
 - <a href="http://underscorejs.org/#random" rel="noreferrer">undescore</a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">GilJinJin</span>
@@ -152,9 +138,7 @@ console.log( rand(1,6) );</code></pre>
 </div>
 </div>
 <p></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">蛋蛋LEY</span>
@@ -179,9 +163,7 @@ console.log( rand(1,6) );</code></pre>
 </code></pre>
 
 <p>Reference: <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/random" rel="noreferrer">https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/random</a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">猿GO</span>
@@ -195,9 +177,7 @@ console.log( rand(1,6) );</code></pre>
 </ul>
 
 <p><a href="https://code.labstack.com/xObK_c4M" rel="nofollow noreferrer"><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在线尝试</font></font></strong></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">LEY神乐</span>
@@ -206,9 +186,7 @@ console.log( rand(1,6) );</code></pre>
           <div class="discuss-comment"><pre><code>var x = 6; // can be any number<font></font>
 var rand = Math.floor(Math.random()*x) + 1;<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">SamJim</span>
@@ -218,9 +196,7 @@ var rand = Math.floor(Math.random()*x) + 1;<font></font>
 
 <pre><code>_.random(min, max)
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Davaid阳光</span>
@@ -232,9 +208,7 @@ var rand = Math.floor(Math.random()*x) + 1;<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">它“额外”的作用是允许以1开头的随机间隔。因此，例如，您可以获得10到15之间的随机数。</font><font style="vertical-align: inherit;">灵活性。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">SamTony</span>
@@ -276,9 +250,7 @@ Math.floor(Math.random() * 9) - 10;<font></font>
 <blockquote>
   <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Math.random（）不提供加密安全的随机数。</font><font style="vertical-align: inherit;">不要将它们用于与安全相关的任何事情。</font><font style="vertical-align: inherit;">改用Web Crypto API，更确切地说，使用window.crypto.getRandomValues（）方法。</font></font></p>
 </blockquote></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">逆天乐樱</span>
@@ -299,9 +271,7 @@ Math.floor(Math.random() * 9) - 10;<font></font>
 <li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">1是起始号码    </font></font></li>
 <li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">6是可能的结果数（1 +开始</font></font><em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">（6）</font></font></em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> -结束</font></font><em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">（1）</font></font></em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">）</font></font></li>
 </ul></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

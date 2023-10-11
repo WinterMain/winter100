@@ -21,7 +21,7 @@ topic: HTML
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我一直在尝试使用侦听器捕获事件并重定向事件，但是我无法像某些人单击它那样使它真正执行事件。</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第3997篇《我可以在JavaScript中以编程方式为文件输入元素触发“点击”事件吗？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第3997篇《我可以在JavaScript中以编程方式为文件输入元素触发“点击”事件吗？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -38,27 +38,21 @@ topic: HTML
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">通过常规的提交按钮提交表单可能有效，但可以调用form.submit（）;。</font><font style="vertical-align: inherit;">将无声地失败。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我不得不求助于我的选择文件按钮覆盖一个有效的透明文件输入。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">神乐</span>
             <span class="discuss-time">2020.04.03</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我发现如果input（file）在表单之外，则触发click事件将调用文件对话框。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Stafan</span>
             <span class="discuss-time">2020.04.03</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">现在，这在Firefox 4中将成为可能，但需要注意的是，它被视为弹出窗口，因此只要有弹出窗口便会被阻止。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">樱小胖Mandy</span>
@@ -74,9 +68,7 @@ topic: HTML
 </ol>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这只是理论上的，因为我已经使用了另一种方法来解决该问题，但它可能会起作用。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">斯丁</span>
@@ -89,9 +81,7 @@ topic: HTML
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我已经能够通过创造性地将焦点移入和移出按键，按键和按键事件之间的控件来实现键盘触发。</font><font style="vertical-align: inherit;">YMMV。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我的真诚建议是，不要管它，因为这是浏览器不兼容之痛的世界。</font><font style="vertical-align: inherit;">较小的浏览器更新也可能会在没有任何警告的情况下阻止欺骗，并且您可能必须不断重新发明hack才能使其正常运行。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">卡卡西Near</span>
@@ -108,9 +98,7 @@ topic: HTML
    });<font></font>
 &lt;/script&gt;<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">神无</span>
@@ -127,9 +115,7 @@ topic: HTML
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">请注意，链接确实需要编写脚本才能调用标签的click方法，它不会自动执行此操作，就像单击标签元素内的文本时一样。</font><font style="vertical-align: inherit;">显然，link元素捕获了单击，并且没有将其传递到标签。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">还要注意，由于该字段不在屏幕上，因此这不提供显示当前所选文件的方法。</font><font style="vertical-align: inherit;">我想在选择文件后立即提交，所以这对我来说不是问题，但是如果您的情况有所不同，则需要采取一些不同的方法。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">LGil</span>
@@ -146,9 +132,7 @@ topic: HTML
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">就这么简单，我测试了它的工作原理！</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">JinJinDavaid卡卡西</span>
@@ -156,18 +140,14 @@ topic: HTML
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">只需使用标签标签，这样您就可以隐藏输入，并使其通过相关标签
  </font></font><a href="https://developer.mozilla.org/fr/docs/Web/HTML/Element/Label" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">https://developer.mozilla.org/fr/docs/Web/HTML/Element/Label</font></font></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">古一</span>
             <span class="discuss-time">2020.04.03</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">尝试以下解决方案：</font><a href="http://code.google.com/p/upload-at-click/" rel="noreferrer"><font style="vertical-align: inherit;">http</font></a><font style="vertical-align: inherit;"> : </font></font><a href="http://code.google.com/p/upload-at-click/" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">//code.google.com/p/upload-at-click/</font></font></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">樱小胖Mandy</span>
@@ -187,9 +167,7 @@ topic: HTML
 &lt;input type="file" id="upload_input" name="upload" style="font-size: 50px; width: 120px; opacity: 0; filter:alpha(opacity=0);  position: relative; top: -40px;; left: -20px" /&gt;<font></font>
 &lt;/div&gt;<font></font>
 </code></pre></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

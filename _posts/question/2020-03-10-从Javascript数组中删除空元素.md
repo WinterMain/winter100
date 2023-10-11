@@ -19,7 +19,7 @@ topic: JavaScript
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">有没有简单的方法，还是我需要遍历它并手动将其删除？</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第384篇《从Javascript数组中删除空元素》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第384篇《从Javascript数组中删除空元素》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -34,9 +34,7 @@ topic: JavaScript
 <pre><code>array = array.filter(/\w/);<font></font>
 filter + regexp<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">EvaPro</span>
@@ -60,9 +58,7 @@ console.log(string);<font></font>
 </blockquote>
 
 <p>It will remove empty element from array and display other element.</p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Itachi神乐</span>
@@ -80,9 +76,7 @@ stringObject = stringObject.filter(function(n){ return n.length &gt; 0});<font><
 
 <pre><code>["some string yay", "Other string yay"]
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">泡芙神无伽罗</span>
@@ -100,9 +94,7 @@ var r = data.filter(function(i){ return i != null; })<font></font>
 <blockquote>
   <p>[1,2,3]</p>
 </blockquote></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">梅Harry米亚</span>
@@ -113,9 +105,7 @@ var r = data.filter(function(i){ return i != null; })<font></font>
 <pre><code>const array = [1, 32, 2, undefined, 3];<font></font>
 const newArray = array.filter(arr =&gt; arr);<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Near泡芙</span>
@@ -131,9 +121,7 @@ arr.filter((v) =&gt; (!!(v)==true));<font></font>
 <font></font>
 //[1, 2, "test", "false", true, 3, 4, 5, "end"]<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">乐小小猪猪</span>
@@ -180,9 +168,7 @@ var results = removeElementsFromArray(myArray, isNullOrUndefined);<font></font>
 </code></pre>
 
 <p>You get the idea - you could then have other types of filter functions. Probably more than you need, but I was feeling generous... ;)</p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">宝儿小胖</span>
@@ -201,9 +187,7 @@ var results = removeElementsFromArray(myArray, isNullOrUndefined);<font></font>
   
   <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">=&gt; [1、2、3]</font></font></p>
 </blockquote></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">飞云斯丁GO</span>
@@ -211,9 +195,7 @@ var results = removeElementsFromArray(myArray, isNullOrUndefined);<font></font>
           </div>
           <div class="discuss-comment"><pre><code>ES6: let newArr = arr.filter(e =&gt; e);
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">伽罗理查德</span>
@@ -264,9 +246,7 @@ if (!Array.prototype.filter)<font></font>
   };<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">神奇Tony古一</span>
@@ -277,9 +257,7 @@ if (!Array.prototype.filter)<font></font>
 <pre><code>_.without(["text", "string", null, null, null, "text"], null)<font></font>
 // =&gt; ["text", "string", "text"]<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">阿良</span>
@@ -294,9 +272,7 @@ if (!Array.prototype.filter)<font></font>
 
 <pre><code> const clearArray = arr.filter( i =&gt; i );
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Near小哥西门</span>
@@ -308,9 +284,7 @@ if (!Array.prototype.filter)<font></font>
 arr = arr.filter(Boolean);<font></font>
 // [1, 2, "Thomas", "false", true, 3, 4, 5, "end"]<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Stafan卡卡西</span>
@@ -326,9 +300,7 @@ arr = arr.filter(Boolean);<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">上面链接的MDN页面还包含一个不错的错误检查版本，</font></font><code>filter</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">该</font><font style="vertical-align: inherit;">版本</font><font style="vertical-align: inherit;">可以在不支持正式版本的JavaScript解释器中使用。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">请注意，这不会删除</font></font><code>null</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">条目，也</font><font style="vertical-align: inherit;">不会删除</font><font style="vertical-align: inherit;">具有显式</font></font><code>undefined</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">值的</font><font style="vertical-align: inherit;">条目</font><font style="vertical-align: inherit;">，但是OP特别要求“丢失”的条目。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">达蒙逆天Pro</span>
@@ -359,9 +331,7 @@ console.log(arr.filter(x =&gt; x != null)); // [0, -0, NaN, false, "", 42]</code
 </div>
 </div>
 <p></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Stafan村村达蒙</span>
@@ -399,9 +369,7 @@ arr.filter(function(e){return e});<font></font>
 
 <pre><code>["hello", 0, 1, 100, " "]
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小小乐</span>
@@ -418,9 +386,7 @@ arr.filter(function(e){return e});<font></font>
 // or even:<font></font>
 _.compact([1, false, "", undefined, 2]); // [1, 2]<font></font>
 </code></pre></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

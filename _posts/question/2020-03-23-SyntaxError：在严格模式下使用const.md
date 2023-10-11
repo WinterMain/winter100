@@ -28,7 +28,7 @@ const MAX_IMAGE_SIZE = 1024*1024; // 1 MB<font></font>
 </code></pre></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第2582篇《SyntaxError：在严格模式下使用const》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第2582篇《SyntaxError：在严格模式下使用const》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -51,18 +51,14 @@ const MAX_IMAGE_SIZE = 1024*1024; // 1 MB<font></font>
   
   <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">const将由ECMAScript 6定义，但是具有不同的语义。</font><font style="vertical-align: inherit;">与用let语句声明的变量相似，用const声明的常量将是块作用域的。</font></font></p>
 </blockquote></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">宝儿</span>
             <span class="discuss-time">2020.03.23</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">使用的</font></font><code>const</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">严格模式下使用Chrome浏览器41.目前，发布</font></font><a href="http://blog.chromium.org/2015/01/chrome-41-beta-new-es6-features-and.html" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Chrome浏览器测试版41已经释放</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，并支持它。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Mandy</span>
@@ -86,9 +82,7 @@ const MAX_IMAGE_SIZE = 1024*1024; // 1 MB<font></font>
 </blockquote>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">知道了！</font><font style="vertical-align: inherit;">运行之后</font></font><code>pm2 update</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，我终于能够按预期运行该应用程序。</font><font style="vertical-align: inherit;">不再有“在严格模式下常量”错误。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">JinJin</span>
@@ -99,9 +93,7 @@ const MAX_IMAGE_SIZE = 1024*1024; // 1 MB<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果您使用的是nvm，请确保您使用的节点版本正确。</font><font style="vertical-align: inherit;">您可以</font><a href="http://node.green/#ES2015-bindings-const-redefining-a-const--strict-mode-" rel="noreferrer"><font style="vertical-align: inherit;">在严格模式下在node.green上</font></a><font style="vertical-align: inherit;">检查</font><a href="http://node.green/#ES2015-bindings-const-redefining-a-const--strict-mode-" rel="noreferrer"><font style="vertical-align: inherit;">const</font></a><font style="vertical-align: inherit;">的</font></font><a href="http://node.green/#ES2015-bindings-const-redefining-a-const--strict-mode-" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">兼容性</font></font></a> </p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我在另一篇文章中发现了类似的问题，并将答案</font><a href="https://stackoverflow.com/questions/43932038/husky-giving-error-syntaxerror-use-of-const-in-strict-mode/44168690#44168690"><font style="vertical-align: inherit;">详细</font></a><font style="vertical-align: inherit;">发布在该文章</font></font><a href="https://stackoverflow.com/questions/43932038/husky-giving-error-syntaxerror-use-of-const-in-strict-mode/44168690#44168690"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">中</font></font></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">TonyJinJin泡芙</span>
@@ -112,9 +104,7 @@ const MAX_IMAGE_SIZE = 1024*1024; // 1 MB<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果使用的是NVM，则可能没有为运行的代码启用正确版本的节点。</font><font style="vertical-align: inherit;">重新引导后，默认的节点版本将更改回系统默认值。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在使用本来很好的react-native时遇到了这个问题。</font><font style="vertical-align: inherit;">只需使用nvm来使用正确版本的节点即可解决此问题。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">梅Jim</span>
@@ -124,9 +114,7 @@ const MAX_IMAGE_SIZE = 1024*1024; // 1 MB<font></font>
 
 <pre><code>sudo ln -sf /usr/local/n/versions/node/6.0.0/bin/node /usr/bin/node  
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">十三StafanEva</span>
@@ -140,9 +128,7 @@ const MAX_IMAGE_SIZE = 1024*1024; // 1 MB<font></font>
 </code></pre>
 
 <p>It all depends on which side your strict js is located. I would recommend using strict mode with <code>const</code> declarations on your server side and start the server with the harmony flag. For the client side, you should use <a href="http://babeljs.io/">Babel</a> or similar tool to convert ES2015 to ES5, since not all client browsers support the <code>const</code> declarations.</p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小卤蛋小胖</span>
@@ -166,9 +152,7 @@ const MAX_IMAGE_SIZE = 1024*1024; // 1 MB<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">更新来自</font><a href="https://stackoverflow.com/a/19584407/698072"><font style="vertical-align: inherit;">https://stackoverflow.com/a/19584407/698072的</font></a><font style="vertical-align: inherit;"> nodejs指令</font></font><a href="https://stackoverflow.com/a/19584407/698072"><font style="vertical-align: inherit;"></font></a></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

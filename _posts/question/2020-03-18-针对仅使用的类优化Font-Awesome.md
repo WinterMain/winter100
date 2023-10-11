@@ -26,7 +26,7 @@ topic: CSS
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">谢谢。</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第2023篇《针对仅使用的类优化Font Awesome》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第2023篇《针对仅使用的类优化Font Awesome》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -61,9 +61,7 @@ topic: CSS
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">等等。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">前端Stafan阿飞</span>
@@ -76,27 +74,21 @@ topic: CSS
 <hr>
 
 <p><a href="http://fontello.com/"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Fontello</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">是一个在线Web服务，可以为您完成所有这些操作。</font><font style="vertical-align: inherit;">它使您可以在多个图标字体集合之间进行混合和匹配，从而为您的项目创建完美的字体文件。</font><font style="vertical-align: inherit;">除了自定义字体文件之外，它还提供了多个.css文件，其中包含已为您生成的样式（将扩展名更改为.scss可以将其导入到现有的Sass项目中）。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">A蛋蛋</span>
             <span class="discuss-time">2020.03.18</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">fontello非常好，但</font></font><a href="http://icomoon.io/app" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">IcoMoon</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">更加</font><font style="vertical-align: inherit;">出色</font><font style="vertical-align: inherit;">。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">梅小小</span>
             <span class="discuss-time">2020.03.18</span>
           </div>
           <div class="discuss-comment"><p><a href="http://app.fontastic.me/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Fontastic</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">为我工作（它在</font></font><a href="https://github.com/FortAwesome/Font-Awesome/wiki/Customize-Font-Awesome" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Font Awesome github页面</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">上列出</font><font style="vertical-align: inherit;">）。</font><font style="vertical-align: inherit;">选择所需的字形，然后将其下载为新的自定义字体。</font><font style="vertical-align: inherit;">优秀的工具。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Near飞云</span>
@@ -105,9 +97,7 @@ topic: CSS
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">现在，您可以将Font-awesome中的图标子集用于生产。</font><font style="vertical-align: inherit;">现在有一个名为</font></font><strong><a href="https://github.com/johnsmclay/icnfnt" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">icnfnt</font></font></a></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">的官方子设置工具</font><font style="vertical-align: inherit;">，该</font><font style="vertical-align: inherit;">工具</font><font style="vertical-align: inherit;">可让您从最新版本的Font-awesome（v3.0.2）中挑选和打包所需的图标。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">定制下载还包括所有CSS，LESS，SCSS和SASS代码！</font></font></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

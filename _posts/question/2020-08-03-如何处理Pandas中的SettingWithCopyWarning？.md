@@ -53,7 +53,7 @@ E</span><span class="pun">:</span><span class="pln">\FinReporter\FM_EXT</span><s
   quote_df</span><span class="pun">[</span><span class="str">'TDate'</span><span class="pun">]</span><span class="pln">  </span><span class="pun">=</span><span class="pln"> quote_df</span><span class="pun">.</span><span class="typ">TDate</span><span class="pun">.</span><span class="pln">map</span><span class="pun">(</span><span class="kwd">lambda</span><span class="pln"> x</span><span class="pun">:</span><span class="pln"> x</span><span class="pun">[</span><span class="lit">0</span><span class="pun">:</span><span class="lit">4</span><span class="pun">]+</span><span class="pln">x</span><span class="pun">[</span><span class="lit">5</span><span class="pun">:</span><span class="lit">7</span><span class="pun">]+</span><span class="pln">x</span><span class="pun">[</span><span class="lit">8</span><span class="pun">:</span><span class="lit">10</span><span class="pun">])</span></code></pre></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第4266篇《如何处理Pandas中的SettingWithCopyWarning？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第4266篇《如何处理Pandas中的SettingWithCopyWarning？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -86,9 +86,7 @@ E</span><span class="pun">:</span><span class="pln">\FinReporter\FM_EXT</span><s
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">即</font><font style="vertical-align: inherit;">用于访问/查找的</font></font><a href="https://pandas.pydata.org/pandas-docs/stable/generated/pandas.Series.at.html" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">方法</font></font></a><font style="vertical-align: inherit;"></font><code>Series</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font><font style="vertical-align: inherit;">即使两种方法都可以正常工作并且结果是相同的，但是通过这种方式，我不必禁用警告（=将其保留在其他地方的其他链索引问题中）。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我希望这可以帮助某人。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">DavaidTony宝儿</span>
@@ -107,9 +105,7 @@ df </span><span class="pun">=</span><span class="pln"> df</span><span class="pun
 df </span><span class="pun">=</span><span class="pln"> df</span><span class="pun">.</span><span class="pln">copy</span><span class="pun">()</span><span class="pln">  </span><span class="com"># Ensuring a copy is made</span><span class="pln">
 df</span><span class="pun">[</span><span class="pln">df</span><span class="pun">[</span><span class="str">"Name"</span><span class="pun">]</span><span class="pln"> </span><span class="pun">==</span><span class="pln"> </span><span class="str">"John"</span><span class="pun">]</span><span class="pln"> </span><span class="pun">=</span><span class="pln"> </span><span class="str">"Johny"</span><span class="pln">  </span><span class="com"># Assignment can be done now (no warning)</span><span class="pln">
 </span></code></pre></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

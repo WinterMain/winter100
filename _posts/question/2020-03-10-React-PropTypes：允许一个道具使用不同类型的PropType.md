@@ -26,7 +26,7 @@ topic: React.js
 </code></pre></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第486篇《React PropTypes：允许一个道具使用不同类型的PropType》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第486篇《React PropTypes：允许一个道具使用不同类型的PropType》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -40,9 +40,7 @@ topic: React.js
 
 <pre><code>height: PropTypes.oneOfType([PropTypes.string, PropTypes.number]),
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">猴子古一蛋蛋</span>
@@ -55,9 +53,7 @@ topic: React.js
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">了解更多：</font></font><a href="https://facebook.github.io/react/docs/typechecking-with-proptypes.html" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">使用PropTypes进行类型检查</font></font></a></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

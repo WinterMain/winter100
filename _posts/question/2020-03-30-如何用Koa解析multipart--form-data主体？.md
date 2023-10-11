@@ -30,7 +30,7 @@ topic: KoaJS
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">就是这样 </font><font style="vertical-align: inherit;">下面。</font><font style="vertical-align: inherit;">在接受的答案。</font><font style="vertical-align: inherit;">希望这可以帮助。</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第3838篇《如何用Koa解析multipart / form-data主体？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第3838篇《如何用Koa解析multipart / form-data主体？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}

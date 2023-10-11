@@ -90,7 +90,7 @@ angular.module("Universe", [<font></font>
 </code></pre></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第3639篇《Webpack：如何使角度自动检测jQuery并将其用作angular.element而不是jqLit​​e？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第3639篇《Webpack：如何使角度自动检测jQuery并将其用作angular.element而不是jqLit​​e？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -128,9 +128,7 @@ angular.module("Universe", [<font></font>
   <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">那就对了; </font><font style="vertical-align: inherit;">的WebPack被提供角度与jQuery同时仍然
    </font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">不</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">放置一个</font></font><code>jQuery</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">可变到</font></font><code>window</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font><font style="vertical-align: inherit;">整洁吧？</font></font></p>
 </blockquote></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">古一</span>
@@ -175,9 +173,7 @@ import angular from "angular";<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我希望这有帮助 ：）</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Stafan路易</span>
@@ -190,9 +186,7 @@ import angular from "angular";<font></font>
          "jQuery": "jquery"<font></font>
     })<font></font>
 </code></pre></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

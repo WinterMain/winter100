@@ -45,7 +45,7 @@ topic: React.js
 </span><span class="pun">});</span></code></pre></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第4163篇《手动刷新或写入时，React-router网址不起作用》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第4163篇《手动刷新或写入时，React-router网址不起作用》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -86,9 +86,7 @@ registerServiceWorker</span><span class="pun">();</span></code></pre>
     </span><span class="pun">&lt;/</span><span class="typ">Provider</span><span class="pun">&gt;</span><span class="pln">
 </span><span class="pun">&lt;/</span><span class="typ">LocaleProvider</span><span class="pun">&gt;,</span><span class="pln"> document</span><span class="pun">.</span><span class="pln">getElementById</span><span class="pun">(</span><span class="str">"app"</span><span class="pun">));</span><span class="pln">
 registerServiceWorker</span><span class="pun">();</span></code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">飞羽</span>
@@ -134,9 +132,7 @@ render </span><span class="pun">(&lt;</span><span class="typ">App</span><span cl
 <a href="https://i.stack.imgur.com/12o6e.png" rel="nofollow noreferrer"><img src="https://i.stack.imgur.com/12o6e.png" alt="在此处输入图片说明"></a></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">希望对您有所帮助。</font><font style="vertical-align: inherit;">:-)</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">西门</span>
@@ -175,9 +171,7 @@ render </span><span class="pun">(&lt;</span><span class="typ">App</span><span cl
                 name</span><span class="pun">:</span><span class="pln"> </span><span class="str">"spa-fallback"</span><span class="pun">,</span><span class="pln">
                 defaults</span><span class="pun">:</span><span class="pln"> </span><span class="kwd">new</span><span class="pln"> </span><span class="pun">{</span><span class="pln"> controller </span><span class="pun">=</span><span class="pln"> </span><span class="str">"Home"</span><span class="pun">,</span><span class="pln"> action </span><span class="pun">=</span><span class="pln"> </span><span class="str">"Index"</span><span class="pln"> </span><span class="pun">});</span><span class="pln">
         </span><span class="pun">});</span></code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">凯西里</span>
@@ -195,9 +189,7 @@ render </span><span class="pun">(&lt;</span><span class="typ">App</span><span cl
 </span><span class="pun">&lt;/</span><span class="pln">httpErrors</span><span class="pun">&gt;</span></code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">您可以对其他任何服务器进行类似的配置</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">别太浪</span>
@@ -239,9 +231,7 @@ render </span><span class="pun">(&lt;</span><span class="typ">App</span><span cl
 </ul>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">就是这样，不再需要魔术：)</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">老丝阿飞</span>
@@ -258,9 +248,7 @@ render </span><span class="pun">(&lt;</span><span class="typ">App</span><span cl
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">麻烦的是我曾用来</font></font><code>props.params.id</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">设置模型</font></font><code>componentDidMount</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font><font style="vertical-align: inherit;">该组件仅安装一次，因此这意味着第一个模型是粘贴在页面上的模型，随后的Links更改了道具，但页面看起来没有变化。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">将模型同时设置为组件状态</font></font><code>componentDidMount</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">和</font></font><code>componentWillReceiveProps</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">基于</font><font style="vertical-align: inherit;">组件的状态</font><font style="vertical-align: inherit;">（此处基于下一个道具）将解决该问题，并且页面内容会更改以反映所需的模型。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">伊芙妮</span>
@@ -281,9 +269,7 @@ render </span><span class="pun">(&lt;</span><span class="typ">App</span><span cl
 </span><span class="pun">&lt;/</span><span class="typ">IfModule</span><span class="pun">&gt;</span></code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">来源：</font><a href="https://gist.github.com/alexsasharegan/173878f9d67055bfef63449fa7136042" rel="nofollow noreferrer"><font style="vertical-align: inherit;">https</font></a><font style="vertical-align: inherit;"> : </font></font><a href="https://gist.github.com/alexsasharegan/173878f9d67055bfef63449fa7136042" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">//gist.github.com/alexsasharegan/173878f9d67055bfef63449fa7136042</font></font></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">别太浪</span>
@@ -311,9 +297,7 @@ render </span><span class="pun">(&lt;</span><span class="typ">App</span><span cl
 <p><a href="https://firebase.google.com/docs/hosting/full-config#rewrites" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">https://firebase.google.com/docs/hosting/full-config#rewrites</font></font></a></p>
 
 <p><a href="https://stackoverflow.com/questions/37667626/firebase-cli-configure-as-a-single-page-app-rewrite-all-urls-to-index-html"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Firebase CLI：“配置为单页应用程序（将所有URL重写为/index.html）”</font></font></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Mandy村村</span>
@@ -326,9 +310,7 @@ render </span><span class="pun">(&lt;</span><span class="typ">App</span><span cl
 <pre class="lang-js prettyprint prettyprinted" style=""><code><span class="com">/*  /index.html  200</span></code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">现在，当输入浏览器或有人刷新时，我的网站可以正确呈现诸如mysite.com/pricing之类的路径。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">宝儿</span>
@@ -342,9 +324,7 @@ render </span><span class="pun">(&lt;</span><span class="typ">App</span><span cl
 </span><span class="typ">RewriteRule</span><span class="pln"> </span><span class="pun">^</span><span class="pln"> </span><span class="pun">-</span><span class="pln"> </span><span class="pun">[</span><span class="pln">L</span><span class="pun">]</span><span class="pln">
 
 </span><span class="typ">RewriteRule</span><span class="pln"> </span><span class="pun">^</span><span class="pln"> </span><span class="pun">/</span><span class="pln">index</span><span class="pun">.</span><span class="pln">html </span><span class="pun">[</span><span class="pln">L</span><span class="pun">]</span><span class="pln">  </span></code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">千羽</span>
@@ -357,9 +337,7 @@ render </span><span class="pun">(&lt;</span><span class="typ">App</span><span cl
 </span><span class="pun">&lt;/</span><span class="pln">script</span><span class="pun">&gt;</span></code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这可能因项目而异。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">镜风</span>
@@ -378,9 +356,7 @@ render </span><span class="pun">(&lt;</span><span class="typ">App</span><span cl
 </span><span class="pun">&lt;/</span><span class="pln">configuration</span><span class="pun">&gt;</span></code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这将告诉IIS服务器将主页返回到客户端而不是404错误，并且不需要使用哈希历史记录。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">凯西里</span>
@@ -389,9 +365,7 @@ render </span><span class="pun">(&lt;</span><span class="typ">App</span><span cl
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Webpack Dev Server具有启用此功能的选项。</font><font style="vertical-align: inherit;">打开</font></font><code>package.json</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">并添加</font></font><code>--history-api-fallback</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font><font style="vertical-align: inherit;">该解决方案为我工作。</font></font></p>
 
 <p><a href="https://github.com/reactjs/react-router-tutorial/tree/master/lessons/10-clean-urls#configuring-your-server" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">反应路由器教程</font></font></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">伊芙妮</span>
@@ -402,9 +376,7 @@ render </span><span class="pun">(&lt;</span><span class="typ">App</span><span cl
 <pre class="lang-js prettyprint prettyprinted" style=""><code><span class="pln">devServer</span><span class="pun">:</span><span class="pln"> </span><span class="pun">{</span><span class="pln">
     historyApiFallback</span><span class="pun">:</span><span class="pln"> </span><span class="kwd">true</span><span class="pln">
 </span><span class="pun">}</span></code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">MonsterKK</span>
@@ -477,9 +449,7 @@ sudo a2ensite sample</span><span class="pun">.</span><span class="pln">conf</spa
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果对此有任何疑问，请随时提出评论。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">希望对其他人有帮助。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">千羽</span>
@@ -492,9 +462,7 @@ sudo a2ensite sample</span><span class="pun">.</span><span class="pln">conf</spa
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">解决方案是设置分发错误页面规则。</font><font style="vertical-align: inherit;">转到CloudFront设置，然后选择您的分配。</font><font style="vertical-align: inherit;">接下来转到“错误页面”标签。</font><font style="vertical-align: inherit;">单击“创建自定义错误响应”并添加403的条目，因为这是我们得到的错误状态代码。</font><font style="vertical-align: inherit;">将“响应页面路径”设置为/index.html并将状态码设置为200。最终结果以其简单性令我惊讶。</font><font style="vertical-align: inherit;">提供了索引页面，但URL保留在浏览器中，因此，一旦React应用加载，它将检测URL路径并导航到所需的路由。</font></font></p>
 
 <p><a href="https://i.stack.imgur.com/Pafj4.png" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">错误页面403规则</font></font></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">镜风</span>
@@ -516,9 +484,7 @@ sudo a2ensite sample</span><span class="pun">.</span><span class="pln">conf</spa
 </span><span class="typ">RewriteRule</span><span class="pln"> </span><span class="pun">^</span><span class="pln"> index</span><span class="pun">.</span><span class="pln">html </span><span class="pun">[</span><span class="pln">QSA</span><span class="pun">,</span><span class="pln">L</span><span class="pun">]</span></code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这似乎也是Facebook自己建议的解决方案，可以在</font><a href="https://facebook.github.io/create-react-app/docs/deployment#serving-apps-with-client-side-routing" rel="noreferrer"><font style="vertical-align: inherit;">这里</font></a><font style="vertical-align: inherit;">找到</font></font><a href="https://facebook.github.io/create-react-app/docs/deployment#serving-apps-with-client-side-routing" rel="noreferrer"><font style="vertical-align: inherit;"></font></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">王者一打九达蒙</span>
@@ -534,9 +500,7 @@ sudo a2ensite sample</span><span class="pun">.</span><span class="pln">conf</spa
 <pre class="lang-js prettyprint prettyprinted" style=""><code><span class="pln">webpack</span><span class="pun">-</span><span class="pln">dev</span><span class="pun">-</span><span class="pln">server </span><span class="pun">--</span><span class="pln">mode development </span><span class="pun">--</span><span class="pln">hot </span><span class="pun">--</span><span class="kwd">inline</span><span class="pln"> </span><span class="pun">--</span><span class="pln">content</span><span class="pun">-</span><span class="pln">base</span><span class="pun">=</span><span class="pln">dist </span><span class="pun">--</span><span class="pln">history</span><span class="pun">-</span><span class="pln">api</span><span class="pun">-</span><span class="pln">fallback</span></code></pre>
 
 <p><code>--history-api-fallback</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> 是重要的部分</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">阿飞</span>
@@ -556,9 +520,7 @@ sudo a2ensite sample</span><span class="pun">.</span><span class="pln">conf</spa
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我正在使用</font></font><code>react: "^16.12.0"</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">并且</font></font><code>react-router: "^5.1.2"</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
 这种方法是万能的，可能是入门的最简单方法。</font></font></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

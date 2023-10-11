@@ -21,7 +21,7 @@ topic: CSS
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">该页面包含几个表，其中一个表包含我要打印的div-该表已通过网络的视觉样式进行了样式设置，因此不应以打印形式显示。</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第2198篇《仅打印<div id =“ printarea”> </ div>？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第2198篇《仅打印<div id =“ printarea”> </ div>？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -43,9 +43,7 @@ function printDiv(id){<font></font>
         document.body.innerHTML = originalContents;<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">米亚Stafan</span>
@@ -78,9 +76,7 @@ function printDiv(id){<font></font>
     }<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">西里JinJin</span>
@@ -89,9 +85,7 @@ function printDiv(id){<font></font>
           <div class="discuss-comment"><p>You could use a separate CSS style which disables every other content except the one with the id "printarea".</p>
 
 <p>See <a href="http://alistapart.com/article/goingtoprint/" rel="nofollow noreferrer">CSS Design: Going to Print</a> for further explanation and examples.</p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小卤蛋梅蛋蛋</span>
@@ -118,9 +112,7 @@ function printDiv(id){<font></font>
 <font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">理查德十三Davaid</span>
@@ -133,9 +125,7 @@ function printDiv(id){<font></font>
     #mydiv{display:block;}<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">伽罗猪猪理查德</span>
@@ -159,9 +149,7 @@ function printDiv(id){<font></font>
   }<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">NearHarry</span>
@@ -211,18 +199,14 @@ function printDiv(id){<font></font>
   &lt;%= image_tag @qrcode.image_url,  size: "300x300" , alt: "#{@qrcode.name}" %&gt;<font></font>
 &lt;/div&gt;<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">猪猪小小小哥</span>
             <span class="discuss-time">2020.03.18</span>
           </div>
           <div class="discuss-comment"><p>I picked up the content using JavaScript and created a window that I could print in stead...</p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">JinJin理查德</span>
@@ -240,9 +224,7 @@ function printDiv(id){<font></font>
 </code></pre>
 
 <p></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">A达蒙</span>
@@ -254,9 +236,7 @@ function printDiv(id){<font></font>
     display: none;<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Harry小胖古一</span>
@@ -272,9 +252,7 @@ function printDiv(id){<font></font>
 <pre><code>div { display: none; }<font></font>
 #yourdiv { display: block; }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">神奇Eva</span>
@@ -293,18 +271,14 @@ body * { visibility: hidden; }<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">请注意，这仅适用于“可见性”。</font><font style="vertical-align: inherit;">“显示”不会这样做。</font><font style="vertical-align: inherit;">在FF3中测试。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Green神乐</span>
             <span class="discuss-time">2020.03.18</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">您能否使用</font></font><a href="http://css-discuss.incutio.com/?page=PrintStylesheets" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">打印样式表</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，并使用CSS来安排要打印的内容？</font></font><a href="http://www.alistapart.com/stories/goingtoprint/" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">阅读本文</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">以获取更多指导。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">null</span>
@@ -338,9 +312,7 @@ body * { visibility: hidden; }<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">当然这不是完美的，因为它涉及到在HTML中移动一些内容...</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">猴子神无</span>
@@ -366,9 +338,7 @@ body * { visibility: hidden; }<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">替代方法不是很好。</font><font style="vertical-align: inherit;">使用</font></font><code>display</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">是棘手的，因为如果有任何元素，</font></font><code>display:none</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">则任何后代都不会显示。</font><font style="vertical-align: inherit;">要使用它，您必须更改页面的结构。</font></font></p>
 
 <p>Using <code>visibility</code> works better since you can turn on visibility for descendants. The invisible elements still affect the layout though, so I move <code>section-to-print</code> to the top left so it prints properly.</p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

@@ -21,7 +21,7 @@ topic: CSS
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在哪里支持？</font><font style="vertical-align: inherit;">所有现代浏览器？</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第2352篇《！important在CSS中是什么意思？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第2352篇《！important在CSS中是什么意思？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -40,9 +40,7 @@ topic: CSS
 <p><em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果周围没有其他重要的事情，请使用我！</font></font></em></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">不能说更好。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">飞云路易</span>
@@ -68,18 +66,14 @@ topic: CSS
 <li><a href="http://www.w3.org/TR/CSS2/cascade.html#cascade" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">http://www.w3.org/TR/CSS2/cascade.html#cascade</font></font></a></li>
 <li><a href="https://russmaxdesign.github.io/maxdesign-slides/02-css/207-css-cascade.html" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">https://russmaxdesign.github.io/maxdesign-slides/02-css/207-css-cascade.html</font></font></a></li>
 </ul></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Stafan达蒙L</span>
             <span class="discuss-time">2020.03.19</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">它更改了CSS级联的优先级替换规则。</font><font style="vertical-align: inherit;">请参阅</font></font><a href="http://www.w3.org/TR/CSS2/cascade.html#important-rules" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">CSS2规范</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Itachi老丝</span>
@@ -104,9 +98,7 @@ topic: CSS
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我相信</font></font><code>!important</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">CSS1中已经出现了它，因此每个浏览器都支持它（部分实现的IE4至IE6，完整的IE7 +）</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">另外，您也不想经常使用它，因为如果您与其他人一起工作，则可以覆盖其他属性。</font></font></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

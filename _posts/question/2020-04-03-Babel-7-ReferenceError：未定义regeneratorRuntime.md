@@ -143,7 +143,7 @@ topic: Webpack
 </code></pre></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第3919篇《Babel 7-ReferenceError：未定义regeneratorRuntime》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第3919篇《Babel 7-ReferenceError：未定义regeneratorRuntime》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -168,9 +168,7 @@ yarn add -D @babel/plugin-transform-runtime<font></font>
     ]<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">阿飞泡芙</span>
@@ -197,9 +195,7 @@ yarn add -D @babel/plugin-transform-runtime<font></font>
   ]  <font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小胖Gil</span>
@@ -215,9 +211,7 @@ yarn add -D @babel/plugin-transform-runtime<font></font>
   "plugins": ["transform-regenerator"]<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Mandy村村</span>
@@ -226,9 +220,7 @@ yarn add -D @babel/plugin-transform-runtime<font></font>
           <div class="discuss-comment"><p><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">React.js用户</font></font></strong></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果在使用react时（特别是在尝试使用</font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Async / Wait时</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">）</font><font style="vertical-align: inherit;">遇到此问题</font><font style="vertical-align: inherit;">，那么</font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Valentino Gagliardi</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在</font></font><a href="https://www.valentinog.com/blog/await-react/" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">他的博客</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">上提供了</font><font style="vertical-align: inherit;">有关如何解决此问题</font><font style="vertical-align: inherit;">的详细方法</font></font></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

@@ -67,7 +67,7 @@ tags: 前端的一些坑
 
 <p>但是在编译的时候却会遇到一个非常棘手的问题，编译器报出了如下的错误：</p>
 
-<p><img src="/uploads/users/1/images/1511275674194.png" style="width:100%" /></p>
+<p><img src="https://www.samyoc.com/uploads/users/1/images/1511275674194.png" style="width:100%" /></p>
 
 <pre>
 /Users/yanglidong/Documents/Work/Company/Git/YLD/samyoc/dist/server/server.js:257847
@@ -105,7 +105,7 @@ var serverConfig = {
 </div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第30篇《Node Express图片上使用formidable库报出TypeError: require is not a function》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第30篇《Node Express图片上使用formidable库报出TypeError  require is not a function》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -116,9 +116,7 @@ var serverConfig = {
             <span class="discuss-time">2017.11.28</span>
           </div>
           <div class="discuss-comment">要解决这个问题只需要在webconfig文件中，添加定义"global.GENTLY": false，因为formidable库是有使用到GENTLY库的。</div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

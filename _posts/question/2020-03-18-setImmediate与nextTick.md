@@ -21,7 +21,7 @@ topic: Node.js
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">什么</font></font><code>nextTick</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">时候应该使用</font></font><code>setImmediate</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">？什么</font><font style="vertical-align: inherit;">时候应该使用</font><font style="vertical-align: inherit;">？</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第2071篇《setImmediate与nextTick》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第2071篇《setImmediate与nextTick》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -42,9 +42,7 @@ topic: Node.js
 </ul>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">本质上，名称应互换。</font><font style="vertical-align: inherit;">process.nextTick（）比setImmediate（）触发得更快，但这是过去的产物，不太可能改变。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">达蒙前端</span>
@@ -56,9 +54,7 @@ topic: Node.js
  </font></font><a href="https://medium.com/the-node-js-collection/what-you-should-know-to-really-understand-the-node-js-event-loop-and-its-metrics-c4907b19da4c" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">//medium.com/the-node-js-collection/what-you-should-know-to-really-understand-the-node-js-event-loop-and -its-metrics-c4907b19da4c</font></font></a></p>
 
 <p><a href="https://i.stack.imgur.com/or0UH.png" rel="noreferrer"><img src="https://i.stack.imgur.com/or0UH.png" alt="简化的事件循环事件"></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Tom梅Green</span>
@@ -71,9 +67,7 @@ topic: Node.js
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">从0.9节点开始，nextTick在现有调用栈的末尾运行，而setImmediate在下一个调用栈的末尾运行</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">查看</font></font><a href="https://github.com/YuzuJS/setImmediate"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">https://github.com/YuzuJS/setImmediate</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">以获取工具和详细信息</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">null</span>
@@ -82,9 +76,7 @@ topic: Node.js
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"></font><code>setImmediate</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果要将函数放在事件队列中已经存在的任何I / O事件回调后面，</font><font style="vertical-align: inherit;">请使用</font><font style="vertical-align: inherit;">此函数。</font><font style="vertical-align: inherit;">用于</font></font><code>process.nextTick</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">将函数有效地放在事件队列的开头，以便在当前函数完成后立即执行。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">因此，在您尝试使用递归分解长时间运行且受CPU限制的作业的情况下，您现在想使用</font></font><code>setImmediate</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">而不是</font></font><code>process.nextTick</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">将下一个迭代</font><font style="vertical-align: inherit;">放入</font><font style="vertical-align: inherit;">队列中，因为否则任何I / O事件回调都不会获得机会在迭代之间运行。</font></font></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

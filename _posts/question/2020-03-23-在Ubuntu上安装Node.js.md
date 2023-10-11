@@ -45,7 +45,7 @@ sudo apt-get install nodejs npm<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">终端机说，同样的错误，</font></font><code>npm is the latest version</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">但也向我显示了我在顶部显示的文本。</font><font style="vertical-align: inherit;">我认为是问题所在，</font></font><code>ppa:chris-lea/node.js</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">但我不知道如何解决。</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第2915篇《在Ubuntu上安装Node.js》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第2915篇《在Ubuntu上安装Node.js》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -80,9 +80,7 @@ $ npm -v<font></font>
 </code></pre>
 
 <p>Hope this help you!</p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">西门乐</span>
@@ -100,9 +98,7 @@ sudo apt-get install -y nodejs<font></font>
 curl -sL https://deb.nodesource.com/setup_4.x | bash -<font></font>
 apt-get install -y nodejs<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">飞云</span>
@@ -140,9 +136,7 @@ v13.0.1<font></font>
 <font></font>
 6.12.0<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">老丝阿飞</span>
@@ -158,9 +152,7 @@ sudo apt-get install npm<font></font>
 
 <pre><code>sudo apt-get install python g++ make
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">梅</span>
@@ -179,9 +171,7 @@ sudo make install<font></font>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果要安装特定版本，而不要从nodejs站点下载所需版本，然后执行最后的树步骤。</font></font><br><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
 我强烈建议不要使用发行版市场上的默认nodejs软件包，因为它可能已过时。</font><font style="vertical-align: inherit;">（即，在撰写本文时，Ubuntu市场上的当前版本是v0.10.25，与最新版本（v0.12.0）相比已经过时了）。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">樱</span>
@@ -198,9 +188,7 @@ sudo make install<font></font>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在此处找到详细说明，
  </font></font><a href="http://howtonode.org/how-to-install-nodejs" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">http：//howtonode.org/how-to-install-nodejs</font></font></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">阿飞</span>
@@ -212,9 +200,7 @@ nvm install v0.10.33<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">只需使用nvm进行节点版本控制</font></font><a href="https://github.com/creationix/nvm" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">nvm</font></font></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">番长GO</span>
@@ -226,18 +212,14 @@ nvm install v0.10.33<font></font>
 
 <pre><code>[sudo] npm install -g npm
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">逆天神无</span>
             <span class="discuss-time">2020.03.23</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">您可以使用</font></font><a href="https://github.com/creationix/nvm" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">nvm</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">安装nodejs。</font><font style="vertical-align: inherit;">它使您可以使用不同版本而不会发生冲突。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">西里神奇</span>
@@ -254,9 +236,7 @@ cd node-v0.6.18<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这些步骤主要来自</font></font><a href="https://github.com/joyent/node/wiki/Installation"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Joyent的安装Wiki</font></font></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">蛋蛋猿</span>
@@ -266,9 +246,7 @@ cd node-v0.6.18<font></font>
 
 <pre><code>sudo apt-get install nodejs
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">老丝</span>
@@ -322,9 +300,7 @@ cd node-v0.6.18<font></font>
 
 <pre><code>[sudo] npm install -g npm
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">路易Davaid梅</span>
@@ -348,9 +324,7 @@ sudo apt-get install nodejs<font></font>
 </blockquote>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">不要</font></font><code>sudo apt-get install nodejs npm</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">只</font><font style="vertical-align: inherit;">给</font></font><code>sudo apt-get install nodejs</code></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

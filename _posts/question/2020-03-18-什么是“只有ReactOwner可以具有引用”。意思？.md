@@ -63,7 +63,7 @@ module.exports = AddAppts;<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我已经用谷歌搜索了，但是无法弄清楚该问题的解决方法。 </font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第2039篇《什么是“只有ReactOwner可以具有引用”。意思？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第2039篇《什么是“只有ReactOwner可以具有引用”。意思？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -82,9 +82,7 @@ module.exports = AddAppts;<font></font>
 
 <pre><code>&lt;input ref={(title) =&gt; this.title = title}&gt;&lt;/input&gt;
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">斯丁老丝GO</span>
@@ -97,9 +95,7 @@ module.exports = AddAppts;<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">无论如何，我知道哪些模块是造成问题，它碰巧只存在</font></font><em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">一个</font></font></em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">对的</font></font><code>node_modules</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">文件夹。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我将问题模块移至另一个</font></font><code>node_modules</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">文件夹。</font><font style="vertical-align: inherit;">问题解决了。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">TomGreen</span>
@@ -108,18 +104,14 @@ module.exports = AddAppts;<font></font>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">与</font></font><a href="https://stackoverflow.com/a/39405375/1817064"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">此答案</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">相似</font><font style="vertical-align: inherit;">，我在使用单独的模块并使用</font></font><code>yarn link</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">解决方案是</font></font><code>yarn unlink module-name</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在项目的工作目录中运行。</font><font style="vertical-align: inherit;">然后</font></font><code>node_modules</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，</font><font style="vertical-align: inherit;">我撤离</font><font style="vertical-align: inherit;">并跑步，</font></font><code>yarn upgrade module-name</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">并</font></font><code>yarn</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">采取适当措施。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">飞云神无</span>
             <span class="discuss-time">2020.03.18</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在将</font></font><code>package.json</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">文件上</font><font style="vertical-align: inherit;">移</font><font style="vertical-align: inherit;">一个级别后，</font><font style="vertical-align: inherit;">我看到了此错误</font><font style="vertical-align: inherit;">，因此</font></font><code>node_modules</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我的项目中</font><font style="vertical-align: inherit;">有2个</font><font style="vertical-align: inherit;">目录（一个在</font></font><code>./node_modules</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">另一个目录中</font></font><code>./web/node_modules</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">）。</font><font style="vertical-align: inherit;">删除旧目录可解决此问题。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">神无Tom</span>
@@ -128,9 +120,7 @@ module.exports = AddAppts;<font></font>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在开发使用链接到测试项目的react模块时，我看到了此错误</font></font><a href="https://docs.npmjs.com/cli/link" rel="nofollow"><code>npm link</code></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font><font style="vertical-align: inherit;">切换到常规依赖项可以解决此问题。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">看来React不喜欢</font></font><code>npm link</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">村村伽罗十三</span>
@@ -153,9 +143,7 @@ module.exports = AddAppts;<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">参考</font></font><a href="https://github.com/gcanti/tcomb-form/issues/107#issuecomment-150891680" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">https://github.com/gcanti/tcomb-form/issues/107#issuecomment-150891680</font></font></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">猿Stafan</span>
@@ -165,9 +153,7 @@ module.exports = AddAppts;<font></font>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">确保不目录下的反应</font></font><code>dependencies</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在你的</font></font><code>package.json</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font><br><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
 这就是为什么我们有</font></font><code>peerDependencies</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">;-)</font></font></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

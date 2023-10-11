@@ -19,7 +19,7 @@ topic: JavaScript
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">简而言之，在执行下一个请求之前，我需要等待所有Ajax请求完成。</font><font style="vertical-align: inherit;">但是如何？</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第730篇《等到所有jQuery Ajax请求都完成了吗？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第730篇《等到所有jQuery Ajax请求都完成了吗？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -30,9 +30,7 @@ topic: JavaScript
             <span class="discuss-time">2020.03.11</span>
           </div>
           <div class="discuss-comment"><p><code>$.when</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">不适用于我，</font></font><code>callback(x)</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">而不是</font></font><code>return x</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">按此处所述工作：</font><a href="https://stackoverflow.com/a/13455253/10357604"><font style="vertical-align: inherit;">https</font></a><font style="vertical-align: inherit;"> : </font></font><a href="https://stackoverflow.com/a/13455253/10357604"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">//stackoverflow.com/a/13455253/10357604</font></font></a> </p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">猪猪卡卡西</span>
@@ -80,9 +78,7 @@ $.when(...files).then(function() {<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">更新为可用于单个或多个URL：</font><a href="https://jsfiddle.net/euypj5w9/" rel="nofollow noreferrer"><font style="vertical-align: inherit;">https</font></a><font style="vertical-align: inherit;"> : </font></font><a href="https://jsfiddle.net/euypj5w9/" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">//jsfiddle.net/euypj5w9/</font></font></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">JimAGil</span>
@@ -91,9 +87,7 @@ $.when(...files).then(function() {<font></font>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">您也可以使用</font></font><a href="https://github.com/caolan/async#map" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">async.js</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我认为它比$ .when更好，因为您可以合并各种不支持承诺的异步调用，例如超时，SqlLite调用等，而不仅仅是ajax请求。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">奔跑的小象</span>
@@ -108,9 +102,7 @@ $.when(...files).then(function() {<font></font>
     //code<font></font>
 });<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">蛋蛋GO</span>
@@ -128,9 +120,7 @@ $.when(...files).then(function() {<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">请注意，它将等待该页面上完成的所有ajax请求。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">JinJin宝儿</span>
@@ -161,9 +151,7 @@ $.when(...files).then(function() {<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这里有趣的一点是，它可以同时处理</font></font><code>Promises</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">和</font></font><code>$.ajax</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">请求。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这是</font><font style="vertical-align: inherit;">展示最后一个</font><font style="vertical-align: inherit;">的</font></font><a href="http://jsfiddle.net/o3vmudhx/4/" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">jsFiddle</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">LEY古一逆天</span>
@@ -198,9 +186,7 @@ function ajax1() {<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果您事先不知道需要等待多少个ajax参数（即，您想使用可变数量的参数），它仍然可以完成，但是有点棘手。</font><font style="vertical-align: inherit;">请参阅</font></font><a href="https://stackoverflow.com/q/5627284/1048572"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">将Deferreds数组传递给$ .when（）</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">（以及在</font></font><a href="https://stackoverflow.com/questions/9865586/jquery-when-troubleshooting-with-variable-number-of-arguments"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">使用可变数量的参数进行故障排除时，</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">可能还有</font><a href="https://stackoverflow.com/questions/9865586/jquery-when-troubleshooting-with-variable-number-of-arguments"><font style="vertical-align: inherit;">jQuery。</font></a><font style="vertical-align: inherit;">）。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果您需要对ajax脚本等的失败模式进行更深入的控制，则可以保存由返回的对象</font></font><code>.when()</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">-这是一个jQuery </font></font><a href="http://api.jquery.com/Types/#Promise" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Promise</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">对象，其中包含所有原始ajax查询。</font><font style="vertical-align: inherit;">您可以调用</font></font><code>.then()</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">或</font></font><code>.fail()</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在其上添加详细的成功/失败处理程序。</font></font></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

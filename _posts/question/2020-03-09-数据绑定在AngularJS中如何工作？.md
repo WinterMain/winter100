@@ -24,7 +24,7 @@ topic: JavaScript
 </code></pre></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第214篇《数据绑定在AngularJS中如何工作？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第214篇《数据绑定在AngularJS中如何工作？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -35,9 +35,7 @@ topic: JavaScript
             <span class="discuss-time">2020.03.09</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Angular.js为我们在视图中创建的每个模型创建一个观察者。</font><font style="vertical-align: inherit;">每当更改模型时，都会向该模型添加“ ng-dirty”类，因此观察者将观察所有具有“ ng-dirty”类的模型，并在控制器中更新其值，反之亦然。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Itachi米亚斯丁</span>
@@ -93,9 +91,7 @@ $scope.registration = function() {<font></font>
 <p><code>ng-model</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">绑定我们的视图并将其呈现为expression </font></font><code>{{ }}</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font><br>
 <code>ng-model</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">是在视图中向用户显示并与用户进行交互的数据。</font></font><br><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
 因此在AngularJs中绑定数据很容易。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">蛋蛋伽罗猿</span>
@@ -125,9 +121,7 @@ myApp.controller("myCtrl", ["$scope", function($scope){<font></font>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在</font><a href="http://codepen.io/chrisN/pen/YqEmOO" rel="noreferrer"><font style="vertical-align: inherit;">Codepen</font></a><font style="vertical-align: inherit;">上查看工作示例
 </font></font><a href="http://codepen.io/chrisN/pen/YqEmOO" rel="noreferrer"><font style="vertical-align: inherit;"></font></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">null</span>
@@ -139,9 +133,7 @@ myApp.controller("myCtrl", ["$scope", function($scope){<font></font>
 </ol>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">数据绑定使您可以将模型视为应用程序中的单一事实来源。</font><font style="vertical-align: inherit;">该视图始终是模型的投影。</font><font style="vertical-align: inherit;">如果模型发生更改，则视图将反映更改，反之亦然。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">神无Green前端</span>
@@ -167,9 +159,7 @@ myApp.controller("myCtrl", ["$scope", function($scope){<font></font>
 <blockquote>
   <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Angular只会自动魔术地更新AngularJS上下文中的那些模型更改。</font><font style="vertical-align: inherit;">当您确实在Angular上下文之外的任何模型中进行更改（例如浏览器DOM事件，setTimeout，XHR或第三方库）时，则需要通过手动调用$ apply（）来通知Angular更改。</font><font style="vertical-align: inherit;">当$ apply（）函数调用完成时，AngularJS在内部调用$ digest（），因此所有数据绑定都将更新。</font></font></p>
 </blockquote></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">路易米亚</span>
@@ -190,9 +180,7 @@ myApp.controller("myCtrl", ["$scope", function($scope){<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这样，如果您修改对象控制器的值，这将自动反映在视图中。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我通过的模型从服务器数据中更新的示例是，当您要求邮政编码和基于书面负载的邮政编码时，列出了与该视图相关联的殖民地和城市列表，并且默认情况下为用户设置了第一个值。</font><font style="vertical-align: inherit;">我做得很好，发生的事情是，</font></font><code>angularJS</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">有时需要几秒钟来刷新模型，为此，您可以在显示数据时放置微调器。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">宝儿小哥小卤蛋</span>
@@ -268,9 +256,7 @@ Scope.prototype.$$digestOnce = function() {<font></font>
        }<font></font>
 };<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小卤蛋卡卡西</span>
@@ -299,9 +285,7 @@ Scope.prototype.$$digestOnce = function() {<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">有点像鸡蛋和鸡肉。</font><font style="vertical-align: inherit;">您永远不会知道谁开始，但是希望它在大多数情况下都能按预期运行。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">另一点是，您可以轻松理解简单绑定对内存和CPU的深层影响。</font><font style="vertical-align: inherit;">希望台式机足够胖以应付这一问题。</font><font style="vertical-align: inherit;">手机不是那么强大。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">飞云Tom小宇宙</span>
@@ -312,9 +296,7 @@ Scope.prototype.$$digestOnce = function() {<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">它的实际作用是：修改过模型的任何“正常”位置都已经从的胆量中</font></font><code>AngularJS</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">调用</font></font><code>$apply</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">过</font><font style="vertical-align: inherit;">，因此它</font><font style="vertical-align: inherit;">在代码运行后</font><font style="vertical-align: inherit;">会自动</font><font style="vertical-align: inherit;">为您</font><font style="vertical-align: inherit;">调用</font><font style="vertical-align: inherit;">。</font><font style="vertical-align: inherit;">假设您的控制器具有某种连接到</font></font><code>ng-click</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">某个元素的方法。</font><font style="vertical-align: inherit;">由于</font></font><code>AngularJS</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">为您将该方法的调用连接在一起，因此有机会</font></font><code>$apply</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在适当的位置进行操作。</font><font style="vertical-align: inherit;">同样，出现在正确的意见表达，这些被执行</font></font><code>AngularJS</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">它确实是这样的</font></font><code>$apply</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">当文档讨论必须</font></font><code>$apply</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">手动</font><font style="vertical-align: inherit;">调用</font></font><em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">之外的</font></font><code>AngularJS</code></em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">代码</font><em><font style="vertical-align: inherit;">时</font></em><font style="vertical-align: inherit;">，它是在讨论运行时并非源于</font></font><code>AngularJS</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">调用栈本身的</font><font style="vertical-align: inherit;">代码</font><font style="vertical-align: inherit;">。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Stafan理查德</span>
@@ -330,9 +312,7 @@ Scope.prototype.$$digestOnce = function() {<font></font>
 </ol>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在常规开发中，HTML中的数据绑定语法会告诉AngularJS编译器为您创建监视，并且控制器方法已在内部运行</font></font><code>$apply</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font><font style="vertical-align: inherit;">因此，对于应用程序开发人员而言，这一切都是透明的。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">飞云</span>
@@ -352,9 +332,7 @@ Scope.prototype.$$digestOnce = function() {<font></font>
 
 <p><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">TL; DR</font></font></strong> <br><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> 
 数据绑定可能会导致复杂页面上的性能问题。</font></font></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

@@ -17,7 +17,7 @@ topic: CSS
     <div class="article-content"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我想在我的Flask应用程序中包含一个sass编译器。</font><font style="vertical-align: inherit;">有一种普遍接受的方法吗？</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第2374篇《在Flask和jinja2中使用sass》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第2374篇《在Flask和jinja2中使用sass》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -41,9 +41,7 @@ Scss(app)<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">默认情况下，扩展名将在</font></font><code>{app.root_dir}/assets/scss</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">或中</font><font style="vertical-align: inherit;">查找.scss文件，</font></font><code>{app.root_dir}/assets</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">并将生成的.css文件放入</font></font><code>{default_static_dir}/css</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">或中</font></font><code>{default_static_dir}</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

@@ -43,7 +43,7 @@ $theme := {<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">任何想法如何解决这个问题？</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第2870篇《Nuxt + Vuetify。如何应用主题颜色》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第2870篇《Nuxt + Vuetify。如何应用主题颜色》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -60,9 +60,7 @@ $theme := {<font></font>
 <p>You need to open <strong>nuxt.config.js</strong>, and head over to the <code>vuetify</code> property. The <code>themes</code> property under the <code>vuetify: {...}</code> section lets you map the class names to configured color variables.</p>
 
 <p>Further, to change the values of the colour variables, modify the file <strong>node_modules/vuetify/es5/colors.js</strong>. Here, you define any colors you need to whatever hex color code you want.</p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

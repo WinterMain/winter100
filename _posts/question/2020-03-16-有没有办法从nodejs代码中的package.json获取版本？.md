@@ -22,7 +22,7 @@ console.log "Express server listening on port %d in %s mode %s", app.address().p
 </code></pre></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第1764篇《有没有办法从nodejs代码中的package.json获取版本？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第1764篇《有没有办法从nodejs代码中的package.json获取版本？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -50,9 +50,7 @@ console.log "Express server listening on port %d in %s mode %s", app.address().p
 <p><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">选项2</font></font></strong></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">使用</font></font><a href="https://www.npmjs.com/package/dotenv" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">https://www.npmjs.com/package/dotenv</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">作为</font></font><code>.env</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">文件</font><font style="vertical-align: inherit;">在环境变量中设置版本，</font><font style="vertical-align: inherit;">并在</font></font><code>process.env.version</code></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小哥小卤蛋</span>
@@ -64,9 +62,7 @@ console.log "Express server listening on port %d in %s mode %s", app.address().p
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我承认客户端安全不是OP的主要意图，但是正如</font></font><a href="https://stackoverflow.com/a/10855054/638546"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Mark Wallace</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">和</font></font><a href="https://stackoverflow.com/a/46287598/638546"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">aug的</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">回答所讨论的那样</font><font style="vertical-align: inherit;">，它与客户的需求高度相关，也是我找到此问答的原因。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">神乐米亚</span>
@@ -78,9 +74,7 @@ console.log "Express server listening on port %d in %s mode %s", app.address().p
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">有关</font><font style="vertical-align: inherit;">更多详细信息，</font><font style="vertical-align: inherit;">请参见</font></font><a href="https://docs.npmjs.com/misc/scripts#packagejson-vars" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">package.json vars</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

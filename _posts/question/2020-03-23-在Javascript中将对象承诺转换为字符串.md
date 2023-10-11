@@ -73,7 +73,7 @@ function getDeployedProjects() public view returns (address[]) {<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">基本框架来自Stephen Grider的Udemy课程“以太坊和团结：完整的开发人员指南”。</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第2948篇《在Javascript中将对象承诺转换为字符串》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第2948篇《在Javascript中将对象承诺转换为字符串》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -84,9 +84,7 @@ function getDeployedProjects() public view returns (address[]) {<font></font>
             <span class="discuss-time">2020.03.23</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">没有直接的方法将对象承诺转换为字符串。</font><font style="vertical-align: inherit;">继续处理的唯一方法是调用一个</font></font><code>await</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">函数或使用</font></font><code>.then()</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">一个回调函数。</font></font></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

@@ -17,7 +17,7 @@ topic: JavaScript
     <div class="article-content"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我想强制Chrome调试器</font></font><em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">通过代码</font></font></em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">或使用某种注释标签（例如）</font><font style="vertical-align: inherit;">来中断一行</font><em><font style="vertical-align: inherit;">代码</font></em></font><code>console.break()</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第726篇《如何通过Chrome中的代码设置JavaScript断点？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第726篇《如何通过Chrome中的代码设置JavaScript断点？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -35,9 +35,7 @@ topic: JavaScript
 </ol>
 
 <p><font style="vertical-align: inherit;"></font><a href="https://www.w3schools.com/js/js_debugging.asp" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">W3School</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在</font><a href="https://www.w3schools.com/js/js_debugging.asp" rel="nofollow noreferrer"><font style="vertical-align: inherit;">此链接</font></a><font style="vertical-align: inherit;">中提供了更多调试JavaScript代码的工具和方式</font><font style="vertical-align: inherit;">。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">JimLEYHarry</span>
@@ -46,9 +44,7 @@ topic: JavaScript
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">您还可以设置</font></font><code>debug(functionName)</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">调试功能。</font></font></p>
 
 <p><a href="https://developers.google.com/web/tools/chrome-devtools/javascript/breakpoints#function" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">https://developers.google.com/web/tools/chrome-devtools/javascript/breakpoints#function</font></font></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">GO阿飞</span>
@@ -73,9 +69,7 @@ function checkBuggyStuff() {<font></font>
   debugger; // do buggy stuff to examine.<font></font>
 };<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">乐米亚</span>
@@ -88,9 +82,7 @@ function checkBuggyStuff() {<font></font>
 <p><a href="http://www.laurencegellert.com/2012/05/the-three-ways-of-setting-breakpoints-in-javascript/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">http://www.laurencegellert.com/2012/05/the-three-ways-of-setting-breakpoints-in-javascript/</font></font></a></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">或仅在所需的测试点在代码中添加包含调试器一词的行。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">前端飞云</span>
@@ -99,18 +91,14 @@ function checkBuggyStuff() {<font></font>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">您也可以使用</font></font><code>debug(function)</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，以中断</font></font><code>function</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">被调用的时间。</font></font></p>
 
 <p><a href="https://developers.google.com/web/tools/chrome-devtools/debug/command-line/command-line-reference?hl=en#debugfunction" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">命令行API参考：调试</font></font></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Sam阳光</span>
             <span class="discuss-time">2020.03.11</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">您可以</font></font><code>debugger;</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在代码中</font><font style="vertical-align: inherit;">使用</font><font style="vertical-align: inherit;">。</font><font style="vertical-align: inherit;">如果开发者控制台已打开，则执行将中断。</font><font style="vertical-align: inherit;">它也可以在萤火虫中使用。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">凯泡芙Davaid</span>
@@ -152,9 +140,7 @@ function checkBuggyStuff() {<font></font>
 </blockquote>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">ES6中没有更改。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Sam小哥逆天</span>
@@ -162,9 +148,7 @@ function checkBuggyStuff() {<font></font>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">正如其他人已经说过的那样，</font></font><code>debugger;</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">是要走的路。</font><font style="vertical-align: inherit;">我编写了一个小脚本，可以在浏览器中的命令行中使用该小脚本，以在函数调用之前立即设置和删除断点：</font><a href="http://andrijac.github.io/blog/2014/01/31/javascript-breakpoint/" rel="noreferrer"><font style="vertical-align: inherit;">http</font></a><font style="vertical-align: inherit;"> : 
  </font></font><a href="http://andrijac.github.io/blog/2014/01/31/javascript-breakpoint/" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">//andrijac.github.io/blog/2014/01/31/javascript-breakpoint/</font></font></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">逆天斯丁前端</span>
@@ -177,9 +161,7 @@ function checkBuggyStuff() {<font></font>
 <p><img src="https://i.imgur.com/duwP8.png" alt="chrome中的断点屏幕截图"></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">然后，您将能够在右侧选项卡中跟踪断点（如屏幕截图所示）。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">米亚小哥斯丁</span>
@@ -204,9 +186,7 @@ function checkBuggyStuff() {<font></font>
 <li><a href="http://www.laurencegellert.com/2012/05/the-three-ways-of-setting-breakpoints-in-javascript/" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">http://www.laurencegellert.com/2012/05/the-three-ways-of-setting-breakpoints-in-javascript/</font></font></a></li>
 <li><a href="http://berzniz.com/post/78260747646/5-javascript-debugging-tips-youll-start-using-today" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">http://berzniz.com/post/78260747646/5-javascript-debugging-tips-youll-start-using-today</font></font></a></li>
 </ul></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

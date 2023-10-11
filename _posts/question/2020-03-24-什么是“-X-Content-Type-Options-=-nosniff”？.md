@@ -32,7 +32,7 @@ topic: HTML
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">设置参数的正确方法是什么？</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第3606篇《什么是“ X-Content-Type-Options = nosniff”？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第3606篇《什么是“ X-Content-Type-Options = nosniff”？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -55,9 +55,7 @@ topic: HTML
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">您完成了。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">猴子</span>
@@ -87,9 +85,7 @@ topic: HTML
   <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">一些讨厌的非人类用户（即计算机）已通过原视图功能采取“盗链”资产-使用原始URL作为</font></font><code>src</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">一个</font></font><code>&lt;script&gt;</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">或</font></font><code>&lt;img&gt;</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">标签。</font><font style="vertical-align: inherit;">问题在于这些不是静态资产。</font><font style="vertical-align: inherit;">与Rails应用程序中的任何其他视图一样，原始文件视图必须先呈现，然后再返回给用户。</font><font style="vertical-align: inherit;">这很快会给性能造成巨大损失。</font><font style="vertical-align: inherit;">过去，我们一直被迫以这种方式阻止流行的内容，因为它给我们的服务器带来了极大的压力。</font></font></p>
 </blockquote></li>
 </ol></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">DavaidTony宝儿</span>
@@ -102,9 +98,7 @@ Header set X-Content-Type-Options "nosniff"<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">此标头可防止基于“ mime”的攻击。</font><font style="vertical-align: inherit;">此标头可防止Internet Explorer MIME嗅探已声明内容类型的响应，因为标头指示浏览器不要覆盖响应内容类型。</font><font style="vertical-align: inherit;">使用nosniff选项，如果服务器说内容为text / html，则浏览器会将其呈现为text / html。</font></font></p>
 
 <p><a href="http://stopmalvertising.com/security/securing-your-website-with-.htaccess/.htaccess-http-headers.html"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">http://stopmalvertising.com/security/securing-your-website-with-.htaccess/.htaccess-http-headers.html</font></font></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">ProL</span>
@@ -126,9 +120,7 @@ Header set X-Content-Type-Options "nosniff"<font></font>
 <p><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">规格：</font></font></strong> </p>
 
 <p><a href="https://fetch.spec.whatwg.org/#x-content-type-options-header" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">https://fetch.spec.whatwg.org/#x-content-type-options-header</font></font></a></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

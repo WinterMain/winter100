@@ -81,7 +81,7 @@ bootstrap-theme.min.css         font-awesome.css            posts.css.scss<font>
 </code></pre></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第3539篇《找不到或不可读的导入文件：引导程序（引导程序，Rails，Sass错误）》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第3539篇《找不到或不可读的导入文件：引导程序（引导程序，Rails，Sass错误）》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -97,9 +97,7 @@ bootstrap-theme.min.css         font-awesome.css            posts.css.scss<font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我尝试重新启动开发服务器并再次运行“ rails s”，它工作正常！</font></font></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

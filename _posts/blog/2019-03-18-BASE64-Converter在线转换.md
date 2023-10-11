@@ -131,7 +131,7 @@ function Base64() {
 }</code></pre><section class="KolEditor" data-tools-id="56630"><section style="margin:10px auto;text-align:center;"><section style="background-image:url(http://editor-material.oss-cn-beijing.aliyuncs.com/style/20190305/1551754504/%E6%96%B0%E5%A2%9E%E7%B4%A0%E6%9D%90_0.png);background-position: center;background-repeat: no-repeat;background-size: 100% auto;width:284px;height:176px;overflow-y:auto;margin: 0 auto;padding: 25px 39px 44px 45px;box-sizing:border-box;"><p style="font-size: 15px;line-height: 1.5;color: #333333;text-align: justify;margin: 0;"><span style="caret-color: rgb(47, 47, 47); color: rgb(47, 47, 47); font-family: ubuntu, PingFangSC-regular, &quot;Helvetica Neue&quot;, Helvetica, Arial, &quot;Microsoft YaHei&quot;, Tahoma, sans-serif; font-size: 15px; letter-spacing: 2px; text-align: justify; text-size-adjust: auto;">成功的关键在于相信自己有成功的能力。A SamYoc APP designed by YLD(Winter)</span></p></section></section></section><p><br></p></section></section></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第116篇《BASE64 Converter在线转换》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第116篇《BASE64 Converter在线转换》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}

@@ -17,7 +17,7 @@ topic: JavaScript
     <div class="article-content"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如何在JavaScript中将十进制值转换为等效的十六进制值？</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第264篇《如何在JavaScript中将十进制转换为十六进制》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第264篇《如何在JavaScript中将十进制转换为十六进制》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -37,9 +37,7 @@ console.log(hexOfHugeNumber)</code></pre>
 </div>
 </div>
 <p></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">GO小胖</span>
@@ -49,9 +47,7 @@ console.log(hexOfHugeNumber)</code></pre>
 
 <pre><code>const toHex = num =&gt; (num).toString(16).toUpperCase();
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">猴子小小Tony</span>
@@ -69,9 +65,7 @@ console.log(hexOfHugeNumber)</code></pre>
 </code></pre>
 
 <p>It seems to be slower in Google Chrome and Firefox, but is significantly faster in Opera. See <a href="http://jsperf.com/hex-to-dec" rel="nofollow noreferrer">http://jsperf.com/hex-to-dec</a>.</p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">达蒙小哥</span>
@@ -93,9 +87,7 @@ instead of
     return hex;<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">十三村村蛋蛋</span>
@@ -111,9 +103,7 @@ instead of
   return result<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">YLD</span>
@@ -125,9 +115,7 @@ instead of
     return (decimal + Math.pow(16, chars)).toString(16).slice(-chars).toUpperCase();<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">梅古一小卤蛋</span>
@@ -138,9 +126,7 @@ var hexString = number.toString(16);<font></font>
 </code></pre>
 
 <p>The 16 is the radix and there are 16 values in a hexadecimal number :-)</p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">JinJin</span>
@@ -155,9 +141,7 @@ var hexString = number.toString(16);<font></font>
         return Number(0x1000000 + r[0]*0x10000 + r[1]*0x100 + r[2]).toString(16).substring(1);<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Harry前端Itachi</span>
@@ -167,9 +151,7 @@ var hexString = number.toString(16);<font></font>
     return  ("0"+(Number(d).toString(16))).slice(-2).toUpperCase()<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">null</span>
@@ -181,9 +163,7 @@ var hexString = number.toString(16);<font></font>
    return (i+0x10000).toString(16).substr(-4).toUpperCase();<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">阳光Davaid</span>
@@ -201,9 +181,7 @@ var hexString = number.toString(16);<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">但是，存在一个局限性：</font></font><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Bitwise_Operators#Summary" rel="noreferrer" title="按位运算符[MDN]"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">JavaScript按位运算符将其操作数视为32位序列</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，也就是说，您获得了32位二进制补码。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">阿飞JinJin</span>
@@ -228,9 +206,7 @@ console.log(decimalToHexString(48.6));</code></pre>
 </div>
 </div>
 <p></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">鸣人</span>
@@ -249,9 +225,7 @@ console.log(decimalToHexString(48.6));</code></pre>
     return hex;<font></font>
 }<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Stafan神乐</span>
@@ -266,9 +240,7 @@ console.log(decimalToHexString(48.6));</code></pre>
 
 <pre><code>yourNumber = parseInt(hexString, 16);
 </code></pre></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

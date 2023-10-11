@@ -58,7 +58,7 @@ class HelloMessage extends React.Component {<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">希望这可以为他人节省三天的宝贵生命。</font></font></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第476篇《reactjs提供错误Uncaught TypeError：超级表达式必须为null或函数，且未定义》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第476篇《reactjs提供错误Uncaught TypeError：超级表达式必须为null或函数，且未定义》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -69,9 +69,7 @@ class HelloMessage extends React.Component {<font></font>
             <span class="discuss-time">2020.03.10</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">就我而言，正是React.Element更改为React.Component才解决了该错误。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">猴子村村</span>
@@ -92,9 +90,7 @@ class HelloMessage extends React.Component {<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">注意：-（）在第一个中是导致此问题的主要原因</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小卤蛋十三</span>
@@ -103,36 +99,28 @@ class HelloMessage extends React.Component {<font></font>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果您收到此错误，并且正在使用</font></font><a href="http://browserify.org/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Browserify</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">和</font><a href="http://browserify.org/" rel="nofollow"><font style="vertical-align: inherit;">browserify </font></a></font><a href="https://github.com/thlorenz/browserify-shim" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">-shim</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">（例如在Grunt任务中），您可能会遇到一个愚蠢的时刻，就像我那样，您无意间告诉我</font></font><code>browserify-shim</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">将React视为全局名称空间的一部分（例如，从CDN加载）。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果希望Browserify将React作为转换的一部分而不是单独的文件，请确保该行</font></font><code>"react": "global:React"</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">未出现在</font><font style="vertical-align: inherit;">文件</font><font style="vertical-align: inherit;">的</font></font><code>"browserify-shim"</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">部分中</font></font><code>packages.json</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Mandy小小西门</span>
             <span class="discuss-time">2020.03.10</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果您使用</font></font><code>require</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">而不是</font></font><code>import</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在代码中，</font><font style="vertical-align: inherit;">也会发生这种情况</font><font style="vertical-align: inherit;">。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">十三路易</span>
             <span class="discuss-time">2020.03.10</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">就我而言，我通过将更</font></font><code>export default class yourComponent extends React.Component() {}</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">改为</font><font style="vertical-align: inherit;">解决了该错误</font></font><code>export default class yourComponent extends React.Component {}</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font><font style="vertical-align: inherit;">是的，删除括号可以</font></font><code>()</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">解决该错误。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">LEYPro前端</span>
             <span class="discuss-time">2020.03.10</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">看看您在输入或生成类时是否有错字错误，可能就是这样。 </font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">村村AL</span>
@@ -141,9 +129,7 @@ class HelloMessage extends React.Component {<font></font>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">可能有第三方软件包导致此情况。</font><font style="vertical-align: inherit;">在我们的例子中，这是</font></font><a href="https://github.com/Raathigesh/dazzle" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">令人反感的</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font><font style="vertical-align: inherit;">我们具有与@steine相似的设置（</font></font><a href="https://stackoverflow.com/a/54899812/145599"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">请参见上面的答案</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">）。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">为了找到有问题的软件包，我以生产模式在本地运行了webpack构建，因此能够在堆栈跟踪中找到有问题的软件包。</font><font style="vertical-align: inherit;">因此，</font></font><a href="https://github.com/Raathigesh/dazzle/issues/53" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">为我们</font><font style="vertical-align: inherit;">提供了解决方案，而我得以保持丑陋的状态。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小碗儿</span>
@@ -155,9 +141,7 @@ class HelloMessage extends React.Component {<font></font>
 export const bar = "bar"<font></font>
 export default function baz() {}<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">LEY蛋蛋Near</span>
@@ -170,9 +154,7 @@ export default function baz() {}<font></font>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">而不是</font></font><code>React.Component</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
 那是我的问题）），并且一直在寻找超过半小时的时间。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小胖Stafan</span>
@@ -199,9 +181,7 @@ export default function baz() {}<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我们发现React Scripts 3.2和Froala 3.1之间存在问题。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">通过更新到React Scripts v3.3，我们可以升级到Froala 3.1。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">西里米亚</span>
@@ -222,9 +202,7 @@ export default function baz() {}<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">一切都很好</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">逆天西门</span>
@@ -238,9 +216,7 @@ export default function baz() {}<font></font>
 }<font></font>
 export default MyComponent // &lt;- add me<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">猿小胖</span>
@@ -252,9 +228,7 @@ export default MyComponent // &lt;- add me<font></font>
 class B extends C {}<font></font>
 class C extends A {}<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Sam小哥逆天</span>
@@ -267,9 +241,7 @@ class C extends A {}<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">从无状态功能组件转换为类时，有时可以做到这一点。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">逆天古一</span>
@@ -284,9 +256,7 @@ class C extends A {}<font></font>
 <li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">引用模块</font></font><code>export ...</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">语句中的</font><font style="vertical-align: inherit;">错字</font><font style="vertical-align: inherit;">，因此它会导出未定义的变量</font></font></li>
 <li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">引用的模块完全缺少</font></font><code>export</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">语句，因此仅导出</font></font><code>undefined</code></li>
 </ul></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">LEY宝儿神奇</span>
@@ -300,9 +270,7 @@ React.Component //correct.<font></font>
 
 <p><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">注意：</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> 
 此错误的根源可能是因为存在</font></font><code>React</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，我们认为接下来自动出现的应该是一个以小写字母开头的react方法或属性，但实际上是另一个</font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Class</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">（</font></font><code>Component</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">）应该以一个大写字母开头。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">达蒙Jim斯丁</span>
@@ -328,9 +296,7 @@ React.Component //correct.<font></font>
 <p><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">循环依赖</font></font></strong></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果您具有循环导入结构，也会发生这种情况。</font><font style="vertical-align: inherit;">一个模块导入另一个模块，反之亦然。</font><font style="vertical-align: inherit;">在这种情况下，您只需要重构代码即可避免它。</font></font><a href="https://medium.com/content-uneditable/circular-dependencies-in-javascript-a-k-a-coding-is-not-a-rock-paper-scissors-game-9c2a9eccd4bc#.9nppw7oqv" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">更多信息</font></font></a></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

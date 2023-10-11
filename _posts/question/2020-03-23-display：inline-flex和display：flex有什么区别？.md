@@ -38,7 +38,7 @@ topic: CSS
 <p></p></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第2802篇《display：inline-flex和display：flex有什么区别？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第2802篇《display：inline-flex和display：flex有什么区别？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -49,9 +49,7 @@ topic: CSS
             <span class="discuss-time">2020.03.23</span>
           </div>
           <div class="discuss-comment"><p><code>flex</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">和</font></font><code>inline-flex</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这两个应用柔性布局容器的孩子。</font><font style="vertical-align: inherit;">容器的</font></font><code>display:flex</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">行为类似于块级元素本身，</font></font><code>display:inline-flex</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">而使容器的行为类似于内联元素。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">蛋蛋蛋蛋</span>
@@ -66,9 +64,7 @@ topic: CSS
 <hr>
 
 <p><sup><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">1 </font></font></sup> <sub><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">块布局和内联布局之间的差异不在此问题的范围内，但最突出的是自动宽度：块级框水平拉伸以填充其包含的块，而内联级框缩小以适合其容纳的块内容。</font><font style="vertical-align: inherit;">实际上，仅出于这个原因，</font></font><code>display: inline-flex</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">除非您有很好的理由内联显示flex容器，否则您</font><font style="vertical-align: inherit;">几乎永远不会使用</font><font style="vertical-align: inherit;">。</font></font></sub></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">Harry小宇宙</span>
@@ -81,9 +77,7 @@ topic: CSS
 <p><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Display：inline-flex</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">将flex布局应用于flex项或子项以及容器本身。</font><font style="vertical-align: inherit;">结果，容器就像子项一样充当内联flex元素，因此仅占用其项目/子项所需的宽度，而不是占据屏幕的整个宽度。</font></font></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这将导致两个或多个flex容器一个接一个地显示为inline-flex，并在屏幕上并排对齐，直到占据整个屏幕宽度为止。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">番长</span>
@@ -141,9 +135,7 @@ topic: CSS
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">另外，一个很棒的参考文档：
  </font></font><a href="https://css-tricks.com/snippets/css/a-guide-to-flexbox/" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Flexbox完整指南-CSS技巧</font></font></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">十三米亚阳光</span>
@@ -208,9 +200,7 @@ p {<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">还可以快速创建以下图像，以一眼看出差异：</font></font></p>
 
 <p><a href="https://i.stack.imgur.com/mns2H.jpg" rel="noreferrer"><img src="https://i.stack.imgur.com/mns2H.jpg" alt="display flex vs display inline-flex"></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">小卤蛋</span>
@@ -221,9 +211,7 @@ p {<font></font>
 <p><a href="http://jsfiddle.net/fishgraphics/vUSmV/93/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">更新的小提琴</font></font></a></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我已经添加</font></font><code>#wrapper &gt; * { flex: 1; margin: auto; }</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">到CSS并更改</font></font><code>inline-flex</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">为</font></font><code>flex</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，您可以看到元素现在如何在页面上均匀地分布。</font></font></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>

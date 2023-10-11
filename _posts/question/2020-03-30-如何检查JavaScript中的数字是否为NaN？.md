@@ -22,7 +22,7 @@ parseFloat('geoff') == Number.NaN;<font></font>
 </code></pre></div>
     {% endraw %}
   </div>
-  <p style="height: 0;width:0;overflow: hidden;"> 第3828篇《如何检查JavaScript中的数字是否为NaN？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第3828篇《如何检查JavaScript中的数字是否为NaN？》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
@@ -33,9 +33,7 @@ parseFloat('geoff') == Number.NaN;<font></font>
             <span class="discuss-time">2020.03.30</span>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">根据IEEE 754，除！=之外，所有涉及NaN的关系都评估为false。</font><font style="vertical-align: inherit;">因此，例如，如果A或B或两者均为NaN，则（A&gt; = B）=假，（A &lt;= B）=假。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">猪猪</span>
@@ -47,9 +45,7 @@ parseFloat('geoff') == Number.NaN;<font></font>
 <pre><code>var value = 1;<font></font>
 if (parseFloat(stringValue)+"" !== "NaN") value = parseFloat(stringValue);<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">米亚</span>
@@ -68,9 +64,7 @@ isNaN(Number.NaN);  // true<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">查看</font></font><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/NaN" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Mozilla文档</font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。全局NaN属性是一个表示Not-A-Numbe的值</font></font></strong></a></p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">最好的方法是使用内置函数“ isNaN（）”来检查NaN。</font><font style="vertical-align: inherit;">所有浏览器都支持该方式。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">达蒙</span>
@@ -83,9 +77,7 @@ isNaN(Number.NaN);  // true<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">至少要注意该陷阱。</font></font></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">古一</span>
@@ -134,9 +126,7 @@ var myVar = "A";<font></font>
 isNaN(myVar); // true<font></font>
 isOfValueNaN(myVar); // false<font></font>
 </code></pre></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">梅小卤蛋</span>
@@ -163,9 +153,7 @@ e !== e; // false<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">直到@allsyed发表评论才意识到这一点，但这在ECMA规范中：</font><a href="https://tc39.github.io/ecma262/#sec-isnan-number" rel="noreferrer"><font style="vertical-align: inherit;">https</font></a><font style="vertical-align: inherit;"> ://tc39.github.io/ecma262/#sec-isnan-number</font></font><a href="https://tc39.github.io/ecma262/#sec-isnan-number" rel="noreferrer"><font style="vertical-align: inherit;"></font></a></p></div>
-        </div>
-        
-      </div><div class="discuss-item">
+        </div></div><div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
             <span class="discuss-user">十三</span>
@@ -177,9 +165,7 @@ e !== e; // false<font></font>
 </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">要检查是否</font></font><em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">有</font></font></em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">数值而不是数字而不是数字NaN，请参见此处：</font></font><a href="https://stackoverflow.com/questions/30314447/how-do-you-test-for-nan-in-javascript"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如何在Javascript中测试NaN？</font></font></a></p></div>
-        </div>
-        
-      </div>
+        </div></div>
     {% endraw %}
   </div>
 <div>
