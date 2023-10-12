@@ -1,9 +1,19 @@
+.root-reward {
+  .page-header {
+    padding: 5px 0;
+  }
+  .main {
+    padding-top: 70px;
+    min-height: calc(100vh - 200px);
+  }
+}
+
 .p-reward {
   background-image: url(/assets/img/star.png);
   background-repeat: repeat;
   background-color: black;
   .reward-main {
-    min-height: calc(100vh - 190px - 300px);
+    min-height: calc(100vh - 200px - 300px);
     color: var(--themeColor);
   }
   .divider-custom-line {

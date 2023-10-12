@@ -1,5 +1,9 @@
 .root-about {
   background-color: black;
+  .main {
+    padding-top: 70px;
+    min-height: calc(100vh - 200px);
+  }
   .page-header {
     background-color: black;
     background-image: url(/assets/img/star.png);
