@@ -6,7 +6,7 @@ sitemap:
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 {% for post in site.posts %}{% unless post.published == false %}<url>
-      <loc>{{ siteUrl }}{{ post.url }}</loc>{% if post.sitemap.lastmod %}
+      <loc>{{ site.url }}{{ post.url }}</loc>{% if post.sitemap.lastmod %}
         <lastmod>{{ post.sitemap.lastmod | date: "%Y-%m-%d" }}</lastmod>
       {% elsif post.date %}<lastmod>{{ post.date | date_to_xmlschema }}</lastmod>
       {% else %} <lastmod>{{ site.time | date_to_xmlschema }}</lastmod>
@@ -16,7 +16,7 @@ sitemap:
       {% else %}<priority>0.5</priority>
       {%- endif -%}</url>
     {% endunless %}{% endfor %}{% for page in site.pages %}{% unless page.sitemap.exclude == "yes" or page.url contains "assets" %}<url>
-      <loc>{{ siteUrl }}{{ page.url | remove: "index.html" }}</loc>
+      <loc>{{ site.url }}{{ page.url | remove: "index.html" }}</loc>
       {% if page.sitemap.lastmod %}
         <lastmod>{{ page.sitemap.lastmod | date: "%Y-%m-%d" }}</lastmod>
       {% elsif page.date %}
