@@ -1,6 +1,6 @@
 ---
 layout: question
-title:  HTML5 Drag & Drop 拖动时更改图标/光标
+title:  HTML5 Drag与Drop 拖动时更改图标/光标
 date:   2022-11-30T09:54:54.000Z
 description: 我想知道如何在拖动 (dragover/dragenter) 图标/光标期间更改，例如当我 dragenter 拒绝或允许部分时。当然，我可以用光标移动绝...
 img: 
@@ -19,7 +19,7 @@ topic: JavaScript
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">谢谢！</font></font></p></div>
     {% endraw %}
   </div>
-  <p class="winter_mark">第4293篇《HTML5 Drag & Drop 拖动时更改图标/光标》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
+  <p class="winter_mark">第4293篇《HTML5 Drag与Drop 拖动时更改图标/光标》来自Winter(https://github.com/aiyld/aiyld.github.io)的站点</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
