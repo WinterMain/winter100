@@ -54,7 +54,8 @@
               img {
                 width: 30px;
                 height: 30px;
-                margin-right: 5px;
+                margin-right: 10px;
+                border-radius: 100%;
               }
             }
             .coffee-qr {
@@ -78,6 +79,9 @@
         .item-title {
           font-size: 14px;
           color: var(--text-title);
+          &:hover {
+            color: var(--themeColor);
+          }
         }
         .item-answer {
           margin-top: 5px;
