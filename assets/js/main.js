@@ -1,7 +1,42 @@
 (function ($) {
   "use strict";
 
+  function loadImg(img, callback, errorCallBack) {
+    if(img.src && img.src.startsWith('/uploads/')) {
+      img.src = 'https://www.samyoc.com' + img.src;
+    }
+
+    if(img.complete && img.src && img.src.includes('/thumbnails/') ) {
+      var imgFull = new Image();
+      imgFull.src = img.src.replace('/thumbnails/', '/');
+      imgFull.onload = function() {
+        img.src = imgFull.src;
+      }
+    }
+
+    img.onload = function() {
+      callback && callback();
+    }
+    img.onerror = function() {
+      $(img).hide();
+      errorCallBack && errorCallBack();
+    }
+  }
+
+  function getImgs(classNames, callback, errorCallBack) {
+    var items = $(classNames);
+    items.each(function(i) {
+      loadImg(items[i], callback, errorCallBack);
+    });
+  }
+
+  getImgs(`.p-post .article-content img`);
+
   function masonryList(wrapper, item) {
+    if($(wrapper).length === 0) {
+      return;
+    }
+
     $(wrapper).masonry({
       itemSelector: item,
       // percentPosition: true,
@@ -17,15 +52,7 @@
         $(wrapper).masonry('layout');
       }, 500)
     }
-    $(`${wrapper} ${item} img`).on({
-      load: function () {
-        updateLayout();
-      },
-      error: function () {
-        $(this).hide();
-        updateLayout();
-      }
-    })  
+    getImgs(`${wrapper} ${item} img`);
   }
   masonryList('.blog-list', '.article-item');
   masonryList('.list-wrapper', '.list-item');
@@ -44,6 +71,10 @@
 
     if (fixedArea) {
       fixedArea = fixedArea[0] || fixedArea;
+    }
+
+    if(window.innerWidth <= 767) {
+      return;
     }
 
     if (fixedArea && fixedArea.clientHeight) {
