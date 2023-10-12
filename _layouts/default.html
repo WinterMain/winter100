@@ -12,6 +12,15 @@
 	<link rel="stylesheet" href="{{ site.baseurl }}/assets/iconfont/iconfont.css?t=1">
 	<link rel="icon" type="image/x-icon" href="{{ site.baseurl }}/favicon.ico?t=1">
 	<link rel="shortcut icon" href="{{ site.baseurl }}/favicon.ico" type="image/x-icon">
+	<!-- Google tag (gtag.js) -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=G-KZ1S1HBYLX"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag(){dataLayer.push(arguments);}
+		gtag('js', new Date());
+
+		gtag('config', 'G-KZ1S1HBYLX');
+	</script>
 </head>
 {% assign pagecategory = page.url | replace: '/', '' %}
 <body class="dark root-{{pagecategory}}">
