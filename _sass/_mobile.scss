@@ -94,5 +94,22 @@
       font-size: 14px;
       margin-top: 50px;
     }
+
+    .coffee-outter {
+      padding: 10px 20px;
+    }
+  }
+
+  .p-question .question-list-wrapper .question-list .question-item .question-item-container {
+    .li-bottom {
+      flex-wrap: wrap;
+      margin-top: 0px;
+      .tags, .li-meta {
+        margin-top: 10px;
+        .tag {
+          white-space: nowrap;
+        }
+      }
+    }
   }
 }
