@@ -3,10 +3,9 @@
 </div>
 {% else %}
   {% assign pagecategory = page.url | replace: '/', '' %}
-  {{pagecategory}}
   {% if pagecategory == '' or pagecategory == 'about' or pagecategory == 'reward'  or pagecategory == '404.html' %}
-  <script src="{{ site.baseurl }}/assets/js/blackhole.js"></script>
-  <script>
+  <script src="{{ site.baseurl }}/assets/js/blackhole.js" defer></script>
+  <script defer>
     (function () {
       var count = 0;
       function resizeSmall() {
