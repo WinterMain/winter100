@@ -5,8 +5,10 @@
   --bg-element: #fff;
   --text-title: #333;
   --text-level1: #636363;
+  --text-level2: #a09f9f;
   --themeColor: #ed3da1;
   --themeColorLevel1: #ffe9f6;
+  --themeColorLevel2: #f065b4;
   --radius: 8px;
 }
 
@@ -136,4 +138,103 @@ html {
   display: inline-block;
   padding: 3px 10px;
   border-radius: 5px;
+}
+
+.discuss-submit {
+  padding: 20px 20px 0;
+  .input-title {
+    color: var(--text-title)!important;
+    font-size: 16px!important;
+    font-weight: 500!important;
+    padding-bottom: 10px;
+  }
+  .input-subtitle {
+    font-size: 14px!important;
+    font-weight: 400!important;
+    padding-bottom: 20px;
+    color: var(--themeColorLevel2)!important;
+  }
+  .input-name {
+    border: var(--line);
+    border-radius: 5px;
+    overflow: hidden;
+    background-color: var(--bg-color);
+    input {
+      width: 100%;
+      line-height: 30px;
+      text-indent: 10px;
+      outline: none;
+      padding: 0;
+      border: 0;
+      background-color: transparent;
+      color: var(--text-title);
+    }
+  }
+  .input-comment {
+    margin-top: 20px;
+    border: var(--line);
+    border-radius: 5px;
+    overflow: hidden;
+    padding: 10px;
+    background-color: var(--bg-color);
+    height: 120px;
+    textarea {
+      width: 100%;
+      line-height: 22px;
+      outline: none;
+      padding: 0;
+      border: 0;
+      background-color: transparent;
+      color: var(--text-title);
+      height: 100%;
+    }
+  }
+
+  .input-submit {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    button {
+      width: 120px;
+      text-align: center;
+      font-size: 16px;
+      font-weight: 500;
+    }
+  }
+
+  .input-msg {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    color: orange;
+    font-size: 12px;
+    margin-top: 10px;
+    .icon-loading {
+      width: 6px;
+      height: 6px;
+      margin-right: 5px;
+    }
+  }
+}
+
+.icon-loading {
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  border: 3px solid transparent;
+  border-top-color: #ffffff;
+  border-radius: 50%;
+  margin-right: 10px;
+  animation: button-loading-spinner 1s ease infinite;
+}
+
+@keyframes button-loading-spinner {
+  from {
+    transform: rotate(0turn);
+  }
+
+  to {
+    transform: rotate(1turn);
+  }
 }

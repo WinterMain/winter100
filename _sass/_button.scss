@@ -1,0 +1,38 @@
+.w-button {
+  position: relative;
+  padding: 8px 16px;
+  background: var(--themeColor);
+  border: none;
+  outline: none;
+  border-radius: 2px;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+  color: white;
+  
+  &:active, &:hover {
+    background: var(--themeColorLevel2);
+  }
+
+  &[loading], &[loading="true"] {
+    &::before {
+      content: "";
+      display: inline-block;
+      width: 12px;
+      height: 12px;
+      border: 3px solid transparent;
+      border-top-color: #ffffff;
+      border-radius: 50%;
+      margin-right: 10px;
+      animation: button-loading-spinner 1s ease infinite;
+    }
+  }
+
+  &[loading="false"] {
+    &::before {
+      display: none!important;
+    }
+  }
+}
