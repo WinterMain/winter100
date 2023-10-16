@@ -33,6 +33,7 @@ topic: Node.js
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -249,6 +250,7 @@ npm install karma --save-dev<font></font>
 <li><code>--save</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> 用于保存应用程序运行所需的软件包。</font></font></li>
 </ul></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

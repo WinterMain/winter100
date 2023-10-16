@@ -48,6 +48,7 @@ ReactDOM.render(&lt;Clock /&gt;, document.querySelector('#app'));</code></pre>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -190,6 +191,7 @@ ReactDOM.render(&lt;App /&gt;, rootElement);<font></font>
 <pre><code>let dateFrom = await getCurrentHackValue(setSelectedDateFrom);
 </code></pre></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

@@ -30,6 +30,7 @@ topic: Node.js
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -54,6 +55,7 @@ topic: Node.js
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">今天，我开始使用package编码出现奇怪的问题（不确定为什么现在开始发生）</font></font><code>abab</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font><font style="vertical-align: inherit;">大部分时间似乎正确编码，但有时在前端它编码不正确。</font><font style="vertical-align: inherit;">花了很长时间尝试调试，但是</font></font><code>base-64</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">根据建议</font><font style="vertical-align: inherit;">切换到软件包</font><font style="vertical-align: inherit;">，它立即起作用。</font><font style="vertical-align: inherit;">绝对似乎取决于的base64算法</font></font><code>abab</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

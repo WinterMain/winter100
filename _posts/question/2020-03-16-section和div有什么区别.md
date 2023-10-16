@@ -21,6 +21,7 @@ topic: HTML
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -253,6 +254,7 @@ topic: HTML
           </div>
           <div class="discuss-comment"><p><code>&lt;section&gt;</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">标记一个</font></font><a href="http://html5doctor.com/the-section-element/" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">节</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，</font></font><code>&lt;div&gt;</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">标记一个没有关联语义的通用块。</font></font></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

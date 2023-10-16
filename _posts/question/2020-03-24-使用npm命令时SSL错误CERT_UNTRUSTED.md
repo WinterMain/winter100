@@ -56,6 +56,7 @@ npm ERR! not ok code 0<font></font>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -169,6 +170,7 @@ sudo apt-get install nodejs -y<font></font>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">但是，我个人认为绕过https不是真正的解决方案，但是我们可以将其用作解决方法。 </font></font></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

@@ -21,6 +21,7 @@ topic: Node.js
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -145,6 +146,7 @@ Now you are in. </p></div>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我的印象是，如今，大多数“真正的” Node.js应用都是使用Express开发的。</font><font style="vertical-align: inherit;">它添加的功能非常有用，并且如果需要，所有较低级别的功能仍然存在。</font></font></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

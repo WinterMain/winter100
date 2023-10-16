@@ -34,6 +34,7 @@ URI：http：//test.localhost/test.js</font></font></pre></div>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -222,6 +223,7 @@ String.prototype.rtrim = function() {<font></font>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">看来该功能未在IE中实现。</font><font style="vertical-align: inherit;">如果您使用的是jQuery，则可以</font></font><code>$.trim()</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">改用（</font></font><a href="http://api.jquery.com/jQuery.trim/" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">http://api.jquery.com/jQuery.trim/</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">）。</font></font></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

@@ -29,6 +29,7 @@ topic: CSS
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -82,6 +83,7 @@ topic: CSS
 <li>I am also able to run directly other modules with <em>bin</em> files, such as <code>&gt; uglifyjs main.js main.min.js</code> and <code>&gt; mocha</code></li>
 </ul></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

@@ -32,6 +32,7 @@ body { $navBg; } // it gave me an error<font></font>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -71,6 +72,7 @@ body { @include navBg; }<font></font>
 
 <p><a href="http://sass-lang.com/docs/yardoc/file.SASS_REFERENCE.html#variables_" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">是SASS变量支持的数据类型的列表。</font><font style="vertical-align: inherit;">既不包括mixin调用，也不包括它们的结果（整个CSS规则）。</font><font style="vertical-align: inherit;">我还尝试将include作为字符串处理并内插，但这仅适用于最终结果CSS，不适用于其他指令。</font></font></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

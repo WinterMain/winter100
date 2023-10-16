@@ -76,6 +76,7 @@ export default Line.extend({<font></font>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -170,6 +171,7 @@ var vm = new Vue({<font></font>
 
 <p>Here is a working codepen <a href="https://codepen.io/azs06/pen/KmqyaN?editors=1010" rel="noreferrer">https://codepen.io/azs06/pen/KmqyaN?editors=1010</a></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

@@ -21,6 +21,7 @@ topic: JavaScript
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -79,6 +80,7 @@ let strLength: number = (someValue as string).length;<font></font>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">现在，我强烈建议您将JavaScript的JSX用于React语法，将TSX的TypeScript与React一起使用，因为大多数编辑器/ IDE都会使用扩展名来启用或不启用React语法。</font><font style="vertical-align: inherit;">它也被认为更具表现力。</font></font></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

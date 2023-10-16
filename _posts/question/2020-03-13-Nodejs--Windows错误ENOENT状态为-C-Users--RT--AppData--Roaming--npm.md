@@ -27,6 +27,7 @@ topic: Node.js
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -90,6 +91,7 @@ npm config set cache C:\Dev\npm-repository\npm-cache --global  <font></font>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">可以在“ </font><a href="https://github.com/npm/npm/wiki/Troubleshooting#error-enoent-stat-cusersuserappdataroamingnpm-on-windows-7" rel="noreferrer"><font style="vertical-align: inherit;">故障排除”页面</font></a><font style="vertical-align: inherit;">上找到更多信息。</font></font><a href="https://github.com/npm/npm/wiki/Troubleshooting#error-enoent-stat-cusersuserappdataroamingnpm-on-windows-7" rel="noreferrer"><font style="vertical-align: inherit;"></font></a></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

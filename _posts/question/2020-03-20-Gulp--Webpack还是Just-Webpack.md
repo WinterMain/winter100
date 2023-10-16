@@ -40,6 +40,7 @@ topic: Webpack
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -100,6 +101,7 @@ topic: Webpack
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果您使用</font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">ReactJS</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，请使用</font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">create-react-app</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font><font style="vertical-align: inherit;">我一直在尝试使用webpack和gulp的组合在Electron中配置React App，但是以某种方式失败了。</font><font style="vertical-align: inherit;">然后，感谢</font></font><a href="https://www.freecodecamp.org/news/building-an-electron-application-with-create-react-app-97945861647c/" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">本文</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">解决了我的问题。</font><font style="vertical-align: inherit;">如果您尝试使用gulp进行sass编译，则也可以使用create-react-app进行此操作，如</font></font><a href="https://create-react-app.dev/docs/adding-a-sass-stylesheet" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">官方文档中所述</font></font></a></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

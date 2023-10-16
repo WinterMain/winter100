@@ -21,6 +21,7 @@ topic: CSS
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -581,6 +582,7 @@ body {<font></font>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">更新2019年2月11日：BS3信息从3.4.0版本开始仍然是准确的，已为新网格更新了BS4，从4.3.0版开始是准确的。</font></font></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

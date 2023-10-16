@@ -40,6 +40,7 @@ answer: 1
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -123,6 +124,7 @@ render</span><span class="pun">()</span><span class="pln"> </span><span class="p
     </div>
 </div></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

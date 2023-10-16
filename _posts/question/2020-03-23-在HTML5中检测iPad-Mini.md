@@ -48,6 +48,7 @@ topic: HTML
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -385,6 +386,7 @@ screen.availHeight = 1024<font></font>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">来源：</font><a href="http://konstruktors.com/blog/web-design/4396-detect-ipad-mini-javascript/" rel="noreferrer"><font style="vertical-align: inherit;">http</font></a><font style="vertical-align: inherit;">：</font></font><a href="http://konstruktors.com/blog/web-design/4396-detect-ipad-mini-javascript/" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">//konstruktors.com/blog/web-design/4396-detect-ipad-mini-javascript/</font></font></a></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

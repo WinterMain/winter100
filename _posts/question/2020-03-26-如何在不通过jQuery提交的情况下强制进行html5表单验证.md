@@ -23,6 +23,7 @@ topic: HTML
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -113,6 +114,7 @@ topic: HTML
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">然后您就进行了html5验证...非常简单:-)</font></font></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

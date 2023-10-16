@@ -32,6 +32,7 @@ true<font></font>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -44,6 +45,7 @@ true<font></font>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我知道这是一个老问题，但是阅读</font></font><a href="https://nodejs.org/docs/v0.4.0/api/http.html#http.request" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">链接到的文档后</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，即使您发布了它，情况也是如此。</font></font></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

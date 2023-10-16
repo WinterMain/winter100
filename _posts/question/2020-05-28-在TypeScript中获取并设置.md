@@ -36,6 +36,7 @@ topic: TypeScript
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -174,6 +175,7 @@ console</span><span class="pun">.</span><span class="pln">log</span><span class=
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">JavaScript中的getter和setter只是正常功能。</font><font style="vertical-align: inherit;">设置器是一个函数，它接受一个参数，其值就是要设置的值。</font></font></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

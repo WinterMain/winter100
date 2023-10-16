@@ -25,6 +25,7 @@ topic: JavaScript
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -134,6 +135,7 @@ topic: JavaScript
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">实际上，ECMAScript在第15页上说：标识符可以以$，下划线或UnicodeLetter开头，然后继续（恰好在其下）指定UnicodeLetter可以是Unicode分类中的任何字符，Lo，Ll。 ，Lu，Lt，Lm和Nl。</font><font style="vertical-align: inherit;">当您查找这些类别时，您会发现这不仅提供了拉丁字母，而且还提供了更多的可能性。</font><font style="vertical-align: inherit;">只需在Google中搜索“ unicode类别”，即可找到它们。</font></font></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

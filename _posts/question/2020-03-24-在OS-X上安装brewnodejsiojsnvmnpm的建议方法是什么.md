@@ -35,6 +35,7 @@ topic: Node.js
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -187,6 +188,7 @@ cd / &amp;&amp; . ~/.nvm/nvm.sh &amp;&amp; nvm install 0.10.35<font></font>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">清洁而无忧。</font><font style="vertical-align: inherit;">它将其也标记为默认节点版本，因此您应该一切就绪</font></font></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

@@ -47,6 +47,7 @@ topic: Node.js
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -218,6 +219,7 @@ MongoClient.connect(connectionString,{ useNewUrlParser: true } <font></font>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">理想情况下，它是版本4的功能，但v3.1.0及更高版本也支持该功能。</font><font style="vertical-align: inherit;">查看</font></font><a href="https://github.com/mongodb/node-mongodb-native/blob/v3.1.0/lib/mongo_client.js#L112" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">MongoDB GitHub</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">   以获取详细信息。</font></font></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

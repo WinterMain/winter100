@@ -29,6 +29,7 @@ topic: JavaScript
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -315,6 +316,7 @@ HTMLAnchorElement.prototype.addEventListener = function(a,b,c){<font></font>
 
 <p><strong>Update</strong>: <a href="http://www.sprymedia.co.uk/article/Visual+Event+2" rel="nofollow noreferrer">Visual Event 2</a> available.</p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

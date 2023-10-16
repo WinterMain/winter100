@@ -46,6 +46,7 @@ Error: ENOENT: no such file or directory, uv_cwd
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -55,19 +56,20 @@ Error: ENOENT: no such file or directory, uv_cwd
           <div class="discuss-comment">其实这个问题，并不是代码的问题，而是执行启动的的命令所在的目录已经被删掉了，而在编译完成之后又重新生成，如上面我的终端目录dist，编译前会删掉，完成编译后会再次生成，最后造成了终端的识别错误。</div>
         </div><div class="discuss-children">
           <div class="discuss-child">
-            <div class="discuss-comment"><a id='118'>@江山如画</a>在编译完成后，终端重新进入该目录，然后执行命令就可以了</div>
-            <div class="discuss-meta">
-              <span class="discuss-user">Winter</span>
-              <span class="discuss-time">2018.10.29</span>
-            </div>
-          </div><div class="discuss-child">
             <div class="discuss-comment">那你知道怎么处理吗？我也遇到了这个问题</div>
             <div class="discuss-meta">
               <span class="discuss-user">江山如画</span>
               <span class="discuss-time">2018.10.18</span>
             </div>
+          </div><div class="discuss-child">
+            <div class="discuss-comment"><a id='118'>@江山如画</a>在编译完成后，终端重新进入该目录，然后执行命令就可以了</div>
+            <div class="discuss-meta">
+              <span class="discuss-user">Winter</span>
+              <span class="discuss-time">2018.10.29</span>
+            </div>
           </div></div>
         </div>
+    </div>
     {% endraw %}
   </div>
 <div>

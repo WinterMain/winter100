@@ -35,6 +35,7 @@ topic: CSS
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -113,6 +114,7 @@ box-sizing: border-box;         /* Opera/IE 8+ */<font></font>
 <pre><code>box-sizing: border-box;
 </code></pre></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

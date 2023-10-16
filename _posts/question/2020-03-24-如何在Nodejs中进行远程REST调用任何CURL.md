@@ -27,6 +27,7 @@ topic: Node.js
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -35,6 +36,7 @@ topic: Node.js
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我一直在使用</font></font><a href="https://npmjs.org/package/restler"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">restler</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">进行网络服务调用，它的工作原理很</font><a href="https://npmjs.org/package/restler"><font style="vertical-align: inherit;">吸引人</font></a><font style="vertical-align: inherit;">，而且非常简洁。</font></font></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

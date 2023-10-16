@@ -36,6 +36,7 @@ topic: Node.js
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -139,6 +140,7 @@ myCo.page = {<font></font>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">一开始，我也对Angular的“方式”感到困惑。</font><font style="vertical-align: inherit;">然后有一天我突然意识到：“这仍然是javascript”。</font><font style="vertical-align: inherit;">关于Angular的来龙去脉有很多示例（我最喜欢的示例之一，还有这本书</font></font><a href="https://github.com/angular-app/angular-app" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">https://github.com/angular-app/angular-app</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">）。</font><font style="vertical-align: inherit;">要记住的最大事情是像在其他任何项目中一样加载js文件。</font><font style="vertical-align: inherit;">您要做的就是确保不同的页面引用正确的Angular对象（控制器，视图等），并且您已启动并正在运行。</font><font style="vertical-align: inherit;">我希望这是有道理的，但是答案是如此简单，以至于我忽略了它。</font></font></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

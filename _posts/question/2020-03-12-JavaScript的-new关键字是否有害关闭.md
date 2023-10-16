@@ -41,6 +41,7 @@ topic: JavaScript
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -273,6 +274,7 @@ var pt2 = Point(20,30);<font></font>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">John Resig在他的</font></font><a href="http://ejohn.org/blog/simple-class-instantiation/" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">“类”实例化简单</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">文章中</font><font style="vertical-align: inherit;">详细介绍了此技术</font><font style="vertical-align: inherit;">，并包括一种默认情况下将此行为构建到“类”中的方法。</font><font style="vertical-align: inherit;">绝对值得一读...正如他即将出版的书</font></font><a href="http://www.manning.com/resig/" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">《 JavaScript忍者的秘密》一样，</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">该书</font><font style="vertical-align: inherit;">在JavaScript语言的此功能和许多其他“有害”功能中发现了隐藏的金子（该</font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">章</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">对</font></font><code>with</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">那些最初被解雇的人特别有启发性此功能非常align头）。</font></font></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

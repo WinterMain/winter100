@@ -31,6 +31,7 @@ topic: Vue.js
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -43,6 +44,7 @@ topic: Vue.js
 我用“ npm run dev”重建Nuxt并重新打开VS Code。</font></font><br><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
 现在正在工作。</font></font></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

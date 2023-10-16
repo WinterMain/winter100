@@ -85,6 +85,7 @@ ProxyPass / http://myreactsite.com:3007/<font></font>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -151,6 +152,7 @@ return 301 https://www.example.com$request_uri;<font></font>
 }<font></font>
 </code></pre></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

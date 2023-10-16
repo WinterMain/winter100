@@ -43,6 +43,7 @@ topic: JavaScript
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -359,6 +360,7 @@ var uniqueItems = Array.from(new Set(items))<font></font>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">注意：此代码是从</font></font><a href="http://paulirish.com/2010/duck-punching-with-jquery/" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Paul Irish的鸭打孔帖子中</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">提取</font><a href="http://paulirish.com/2010/duck-punching-with-jquery/" rel="noreferrer"><font style="vertical-align: inherit;">的</font></a><font style="vertical-align: inherit;"> -我忘了给您以谢意了：P</font></font></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

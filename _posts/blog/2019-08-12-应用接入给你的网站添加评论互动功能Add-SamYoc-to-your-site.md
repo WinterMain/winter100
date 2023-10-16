@@ -60,6 +60,7 @@ answer: 1
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -68,6 +69,7 @@ answer: 1
           </div>
           <div class="discuss-comment"><p>使用案例：http://www.yanglidong.com</p><figure class="image"><img src="https://www.samyoc.com/uploads/users/98/images/1565861406531.png"></figure></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

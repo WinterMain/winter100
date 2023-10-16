@@ -69,6 +69,7 @@ topic: Node.js
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -101,6 +102,7 @@ topic: Node.js
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">然后，使用Google的V8项目资源，您可以找到每个版本中实现了哪些功能。</font><font style="vertical-align: inherit;">V8项目保留了一个</font></font><a href="https://bugs.chromium.org/p/v8/issues/list?can=1&amp;q=label%3Aharmony" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">问题跟踪器</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，您可以在其中找到用</font></font><em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">和声</font></font></em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">标签</font><font style="vertical-align: inherit;">标记的ES6 +功能</font><font style="vertical-align: inherit;">。</font></font></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

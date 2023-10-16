@@ -34,6 +34,7 @@ topic: TypeScript
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -158,6 +159,7 @@ console</span><span class="pun">.</span><span class="pln">log</span><span class=
 <pre class="lang-js prettyprint prettyprinted" style=""><code><span class="kwd">var</span><span class="pln"> foo </span><span class="pun">=</span><span class="pln"> myResponse</span><span class="pun">.</span><span class="pln">bar</span><span class="pun">.</span><span class="typ">Baz</span><span class="pun">;</span><span class="pln"> </span><span class="com">// incorrect syntax</span><span class="pln">
 </span><span class="kwd">var</span><span class="pln"> foo </span><span class="pun">=</span><span class="pln"> myResponse</span><span class="pun">[</span><span class="str">"bar.Baz"</span><span class="pun">];</span><span class="pln"> </span><span class="com">// correct syntax</span></code></pre></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

@@ -57,6 +57,7 @@ E</span><span class="pun">:</span><span class="pln">\FinReporter\FM_EXT</span><s
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -106,6 +107,7 @@ df </span><span class="pun">=</span><span class="pln"> df</span><span class="pun
 df</span><span class="pun">[</span><span class="pln">df</span><span class="pun">[</span><span class="str">"Name"</span><span class="pun">]</span><span class="pln"> </span><span class="pun">==</span><span class="pln"> </span><span class="str">"John"</span><span class="pun">]</span><span class="pln"> </span><span class="pun">=</span><span class="pln"> </span><span class="str">"Johny"</span><span class="pln">  </span><span class="com"># Assignment can be done now (no warning)</span><span class="pln">
 </span></code></pre></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

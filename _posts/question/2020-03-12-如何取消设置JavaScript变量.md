@@ -25,6 +25,7 @@ topic: JavaScript
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -176,6 +177,7 @@ delete foo.bar;<font></font>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">编辑：我的回答</font></font><a href="http://perfectionkills.com/understanding-delete/" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">有点不准确</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">（请参阅“误解”在最后）。</font><font style="vertical-align: inherit;">该链接说明了所有细节，但摘要是，浏览器之间以及要删除的对象之间可能会有很大差异。</font></font><code>delete object.someProp</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">一般只要保持安全</font></font><code>object !== window</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font><code>var</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">尽管您可以在适当的情况下</font><font style="vertical-align: inherit;">使用，但我仍然不会使用它来删除声明的变量</font><font style="vertical-align: inherit;">。</font></font></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

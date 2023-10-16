@@ -40,6 +40,7 @@ topic: JavaScript
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -142,6 +143,7 @@ topic: JavaScript
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果只想使用对象的字符串表示形式，则可以使用</font><a href="http://json.org/js.html" rel="noreferrer"><font style="vertical-align: inherit;">JSON库</font></a><font style="vertical-align: inherit;">来使用该</font></font><code>JSON.stringify</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">函数</font><font style="vertical-align: inherit;">。</font></font><a href="http://json.org/js.html" rel="noreferrer"><font style="vertical-align: inherit;"></font></a><font style="vertical-align: inherit;"></font></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

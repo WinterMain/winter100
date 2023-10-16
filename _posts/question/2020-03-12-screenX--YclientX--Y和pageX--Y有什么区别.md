@@ -25,6 +25,7 @@ topic: JavaScript
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -126,6 +127,7 @@ of the mouse pointer.&lt;/p&gt;<font></font>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">您可能永远都不需要 </font></font><code>screenX/Y</code></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

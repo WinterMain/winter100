@@ -76,6 +76,7 @@ next();<font></font>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -138,6 +139,7 @@ next();<font></font>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">全文在这里：</font></font><a href="https://stackoverflow.com/questions/21357182/csrf-token-necessary-when-using-stateless-sessionless-authentication"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">使用Stateless（= Sessionless）身份验证时需要CSRF令牌吗？</font></font></a></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

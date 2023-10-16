@@ -27,6 +27,7 @@ topic: Node.js
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -75,6 +76,7 @@ topic: Node.js
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">随着时间的流逝，WebSockets将得到越来越多的支持，但是与此同时，您应该始终具有基于HTTP的后备方法，用于将数据发送到浏览器。</font></font></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

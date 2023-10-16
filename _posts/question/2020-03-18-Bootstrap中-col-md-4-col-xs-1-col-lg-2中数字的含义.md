@@ -36,6 +36,7 @@ col-xs-*<font></font>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -112,6 +113,7 @@ col-xs-*<font></font>
 
 <p><a href="https://i.stack.imgur.com/S1RYa.png" rel="noreferrer"><img src="https://i.stack.imgur.com/S1RYa.png" alt="引导网格系统，col-*-6"></a></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

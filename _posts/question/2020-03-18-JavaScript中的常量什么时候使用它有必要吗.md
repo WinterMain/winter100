@@ -38,6 +38,7 @@ const x = 'not-const';<font></font>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -223,6 +224,7 @@ console.log(c);//9<font></font>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">与人有关的方面与关键字的语义有关。</font><font style="vertical-align: inherit;">变量是一种数据结构，其中包含预期会更改的信息。</font><font style="vertical-align: inherit;">常数是一种数据结构，其中包含永远不变的信息。</font><font style="vertical-align: inherit;">如果有错误的余地，</font></font><code>var</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">应始终使用。</font><font style="vertical-align: inherit;">但是，并非必须使用声明所有在程序生存期内从未改变的信息</font></font><code>const</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font><font style="vertical-align: inherit;">如果在不同的情况下信息应该更改，</font></font><code>var</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">即使实际的更改未出现在您的代码中，也请</font><font style="vertical-align: inherit;">使用该信息</font><font style="vertical-align: inherit;">进行指示。</font></font></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

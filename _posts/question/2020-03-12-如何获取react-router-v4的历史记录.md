@@ -31,6 +31,7 @@ browserHistory.push('/some/path');<font></font>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -54,6 +55,7 @@ browserHistory.push('/some/path');<font></font>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">您可以通过路由器上下文访问历史记录的实例，例如</font></font><code>this.context.router.history</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

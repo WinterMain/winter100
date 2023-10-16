@@ -90,6 +90,7 @@ topic: JavaScript
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -174,6 +175,7 @@ topic: JavaScript
 
 <p><code>to</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">是一个路线对象，其中包含路线名称（如果已命名），路径等   </font></font><a href="https://router.vuejs.org/api/#route-object-properties" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。所有道具的文档</font></font></a></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

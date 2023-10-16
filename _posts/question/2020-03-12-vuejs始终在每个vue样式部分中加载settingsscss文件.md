@@ -38,6 +38,7 @@ topic: Vue.js
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -86,6 +87,7 @@ topic: Vue.js
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">对于其他在2017年及以后观看此内容的人，请查看“加载全局设置文件”下的说明。</font></font></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

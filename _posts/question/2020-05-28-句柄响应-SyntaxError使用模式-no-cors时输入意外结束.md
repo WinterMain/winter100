@@ -96,7 +96,9 @@ fetch</span><span class="pun">(</span><span class="str">'http://localhost:8080/c
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     
+    </div>
     {% endraw %}
   </div>
 <div>

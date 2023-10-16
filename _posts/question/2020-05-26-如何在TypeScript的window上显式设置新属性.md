@@ -39,6 +39,7 @@ topic: TypeScript
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -322,6 +323,7 @@ window</span><span class="pun">.</span><span class="typ">MyNamespace</span><span
 
 <pre class="lang-js prettyprint prettyprinted" style=""><code><span class="pun">(</span><span class="pln">window as any</span><span class="pun">).</span><span class="typ">MyNamespace</span></code></pre></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

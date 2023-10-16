@@ -74,6 +74,7 @@ var Lander = React.createClass({<font></font>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -145,6 +146,7 @@ var Lander = React.createClass({<font></font>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">添加</font></font><code>type="text/babel"</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">到包含.jsx文件的脚本并添加以下内容：   </font></font><code>&lt;script src="https://npmcdn.com/babel-core@5.8.38/browser.min.js"&gt;&lt;/script&gt;</code></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

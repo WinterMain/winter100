@@ -47,6 +47,7 @@ topic: CSS
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -141,6 +142,7 @@ topic: CSS
   <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">从npm@2.0.0开始，您可以在执行脚本时使用自定义参数。</font><font style="vertical-align: inherit;">特殊选项-由getopt用来分隔选项的结尾。</font><font style="vertical-align: inherit;">npm会将-之后的所有参数直接传递给脚本。</font></font></p>
 </blockquote></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

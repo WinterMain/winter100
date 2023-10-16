@@ -83,6 +83,7 @@ export default app<font></font>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -91,6 +92,7 @@ export default app<font></font>
           </div>
           <div class="discuss-comment"><h2>getInitialProps仅支持在page页面中使用，不可以在组件中使用</h2></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

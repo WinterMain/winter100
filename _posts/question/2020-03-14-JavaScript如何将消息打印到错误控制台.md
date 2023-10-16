@@ -26,6 +26,7 @@ topic: JavaScript
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -160,6 +161,7 @@ console.log(`var=${var}`);<font></font>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">安装</font></font><a href="http://en.wikipedia.org/wiki/Firebug_(software)" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Firebug</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，然后可以使用</font></font><code>console.log(...)</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">和</font></font><code>console.debug(...)</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">等（</font><font style="vertical-align: inherit;">有关更多信息</font><font style="vertical-align: inherit;">，请参见</font></font><a href="http://getfirebug.com/wiki/index.php/Console_Panel#Message_types" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">文档</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">）。</font></font></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

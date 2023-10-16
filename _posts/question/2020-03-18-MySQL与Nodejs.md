@@ -23,6 +23,7 @@ topic: Node.js
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -75,6 +76,7 @@ topic: Node.js
           </div>
           <div class="discuss-comment"><p><a href="https://github.com/felixge/node-mysql" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">node-mysql</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">可能是其中最好的模块之一，用于处理MySQL数据库，该数据库已得到积极维护并有据可查。</font></font></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

@@ -52,6 +52,7 @@ topic: Node.js
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -74,6 +75,7 @@ topic: Node.js
 <pre><code>        const res_data = JSON.parse(body);
 </code></pre></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

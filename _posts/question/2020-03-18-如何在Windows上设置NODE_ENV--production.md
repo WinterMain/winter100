@@ -26,6 +26,7 @@ topic: Node.js
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -225,6 +226,7 @@ topic: Node.js
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">要全局设置环境变量，以使它们仅在单个命令提示符后仍然存在，您可以在“控制面板”的“系统”中找到该工具（或通过在“开始”菜单的搜索框中键入“ environment”）。</font></font></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

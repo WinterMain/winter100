@@ -28,6 +28,7 @@ topic: React.js
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -76,6 +77,7 @@ topic: React.js
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">阅读更多有关React </font></font><a href="https://javamastermind.com/2020/01/16/react-navigation-manage-session-history/" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Session History Management的信息</font></font></a></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

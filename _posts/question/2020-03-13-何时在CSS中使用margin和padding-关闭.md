@@ -45,6 +45,7 @@ topic: CSS
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -277,6 +278,7 @@ $(".inner").click(function(e) {<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">实时示例（通过更改值进行操作）：</font><a href="https://www.w3schools.com/css/tryit.asp?filename=trycss_boxmodel" rel="noreferrer"><font style="vertical-align: inherit;">https</font></a><font style="vertical-align: inherit;"> :
  </font></font><a href="https://www.w3schools.com/css/tryit.asp?filename=trycss_boxmodel" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">//www.w3schools.com/css/tryit.asp?filename=trycss_boxmodel</font></font></a></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

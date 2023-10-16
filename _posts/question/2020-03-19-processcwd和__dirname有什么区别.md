@@ -31,6 +31,7 @@ topic: Node.js
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -80,6 +81,7 @@ __dirname = /tmp/proj/src<font></font>
 
 <p><a href="https://nodejs.org/docs/latest/api/globals.html#globals_dirname" rel="noreferrer"><code>__dirname</code></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> 返回包含JavaScript源代码文件的目录的目录名称</font></font></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

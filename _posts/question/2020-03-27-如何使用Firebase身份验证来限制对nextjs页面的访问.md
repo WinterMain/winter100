@@ -50,6 +50,7 @@ export default withAuthorization;<font></font>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -58,6 +59,7 @@ export default withAuthorization;<font></font>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">嗨经过一番研究</font></font><a href="https://github.com/iaincollins/nextjs-starter/issues/12" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在这里</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">似乎有这样做的方法有两种。</font><font style="vertical-align: inherit;">您可以使用“ </font></font><a href="https://github.com/zeit/next.js#custom-app" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">自定义”</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">来</font><font style="vertical-align: inherit;">替换页面的初始化过程，</font><font style="vertical-align: inherit;">以在其中包括身份验证-在这种情况下，您可以将身份验证状态作为prop传输到下一页-或针对每次加载的页面要求一个新的身份验证状态。</font></font></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

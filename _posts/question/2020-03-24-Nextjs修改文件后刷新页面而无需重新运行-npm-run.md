@@ -25,6 +25,7 @@ topic: React.js
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -57,6 +58,7 @@ topic: React.js
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果这不适合您的使用，并且即使在开发模式下也必须重新启动服务器，则可能是您的设置有问题。</font></font></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

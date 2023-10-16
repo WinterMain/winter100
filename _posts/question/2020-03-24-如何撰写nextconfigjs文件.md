@@ -74,6 +74,7 @@ withSass({<font></font>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -82,6 +83,7 @@ withSass({<font></font>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这是一个古老的问题，但是看到人们正在搜索这个问题时，我认为我应该发布答案。</font><font style="vertical-align: inherit;">我建议使用</font></font><a href="https://github.com/cyrilwanner/next-compose-plugins" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">https://github.com/cyrilwanner/next-compose-plugins</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这是一个非常简单的API，而且更加干净。</font><font style="vertical-align: inherit;">希望这可以帮助。</font></font></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

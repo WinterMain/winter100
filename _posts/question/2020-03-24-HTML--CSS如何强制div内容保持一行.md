@@ -38,6 +38,7 @@ topic: CSS
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -185,6 +186,7 @@ CSS：</font></font></p>
 
 <pre><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">堆栈溢出</font></font></pre></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

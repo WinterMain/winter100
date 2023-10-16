@@ -23,6 +23,7 @@ topic: HTML
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -272,6 +273,7 @@ jQuery.validator.setDefaults({<font></font>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">现在，所有现代浏览器的最新版本均启用了这两种功能。</font><font style="vertical-align: inherit;">有关详细信息，请参见</font></font><a href="https://caniuse.com/#search=minlength" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">https://caniuse.com/#search=minlength</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

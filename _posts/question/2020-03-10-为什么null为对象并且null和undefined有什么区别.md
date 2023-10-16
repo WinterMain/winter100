@@ -39,6 +39,7 @@ topic: JavaScript
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -401,6 +402,7 @@ alert(Boolean(""))   //false<font></font>
 <p><sup><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">*：</font></font><code>name</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在此上下文中是指从未定义的变量。</font><font style="vertical-align: inherit;">它可以是任何未定义的变量，但是name是几乎任何HTML表单元素的属性。</font><font style="vertical-align: inherit;">它沿路前进，早在id之前就已建立。</font><font style="vertical-align: inherit;">这很有用，因为id必须是唯一的，但名称不必是唯一的。 
 </font></font></sup></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

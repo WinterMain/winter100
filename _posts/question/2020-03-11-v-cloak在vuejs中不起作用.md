@@ -31,6 +31,7 @@ topic: Vue.js
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -160,6 +161,7 @@ topic: Vue.js
 &lt;/div&gt;<font></font>
 </code></pre></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

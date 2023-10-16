@@ -58,6 +58,7 @@ var foo = function foo() { return 5; }<font></font>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -173,6 +174,7 @@ console.log(d(3)); // outputs 6<font></font>
 console.log(d(8)); // outputs 8<font></font>
 </code></pre></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

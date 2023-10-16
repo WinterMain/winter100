@@ -37,6 +37,7 @@ You may need an appropriate loader to handle this file type.<font></font>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -56,6 +57,7 @@ You may need an appropriate loader to handle this file type.<font></font>
 }<font></font>
 </code></pre></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

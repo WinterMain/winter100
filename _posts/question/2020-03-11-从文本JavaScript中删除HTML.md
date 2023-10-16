@@ -21,6 +21,7 @@ topic: JavaScript
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -219,6 +220,7 @@ text.replace(/&lt;style[^&gt;]*&gt;.*&lt;\/style&gt;/gm, '')<font></font>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">注意：正如人们在评论中所指出的那样，如果您不控制HTML的源代码（例如，请勿在可能来自用户输入的任何内容上运行此代码），则最好避免这种情况。</font><font style="vertical-align: inherit;">对于这些情况，您</font></font><em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">仍然</font></font></em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">可以</font><font style="vertical-align: inherit;">让浏览器为您完成工作- </font></font><a href="https://stackoverflow.com/questions/822452/strip-html-from-text-javascript/47140708#47140708"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">请参阅Saba关于使用现在广泛使用的DOMParser的答案</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

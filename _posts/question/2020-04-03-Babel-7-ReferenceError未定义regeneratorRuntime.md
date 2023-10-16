@@ -147,6 +147,7 @@ topic: Webpack
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -221,6 +222,7 @@ yarn add -D @babel/plugin-transform-runtime<font></font>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果在使用react时（特别是在尝试使用</font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Async / Wait时</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">）</font><font style="vertical-align: inherit;">遇到此问题</font><font style="vertical-align: inherit;">，那么</font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Valentino Gagliardi</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在</font></font><a href="https://www.valentinog.com/blog/await-react/" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">他的博客</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">上提供了</font><font style="vertical-align: inherit;">有关如何解决此问题</font><font style="vertical-align: inherit;">的详细方法</font></font></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

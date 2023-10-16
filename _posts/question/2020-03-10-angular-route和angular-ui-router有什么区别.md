@@ -27,6 +27,7 @@ topic: JavaScript
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -209,6 +210,7 @@ topic: JavaScript
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">但是，如果您打算在应用程序中使用复杂的视图，并且希望处理“ $ state”概念。</font><font style="vertical-align: inherit;">我建议您选择ui-router。</font></font></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

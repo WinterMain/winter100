@@ -39,6 +39,7 @@ MyDateString = MyDate.getDate() + '/' + (MyDate.getMonth()+1) + '/' + MyDate.get
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -269,6 +270,7 @@ let byte = "00000100"<font></font>
 byte = byte.padStart(8, 0) // "00000100"<font></font>
 </code></pre></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

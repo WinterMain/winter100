@@ -51,6 +51,7 @@ topic: Node.js
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -97,6 +98,7 @@ topic: Node.js
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">请注意，</font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">即使不使用browserify或webmake</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，</font><strong><font style="vertical-align: inherit;">也可以使用NPM来管理客户端依赖性</font></strong><font style="vertical-align: inherit;">。</font><font style="vertical-align: inherit;">在我正在从事的大多数项目中，安装npm模块后，我会运行脚本将其部署到客户端应用程序使用它们的位置。</font><font style="vertical-align: inherit;">有时我会用grunt将该文件与其他js文件连接起来，有时我会直接从Web应用程序的模板文件中引用它。</font><font style="vertical-align: inherit;">无论如何，这是个人喜好。</font><font style="vertical-align: inherit;">其他人可能会发现Bower或Volo更易于使用，因为它们更自然地适合其工作流程。</font></font></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

@@ -47,6 +47,7 @@ topic: React.js
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -57,6 +58,7 @@ topic: React.js
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">查阅文档：</font></font><a href="https://reactjs.org/docs/integrating-with-other-libraries.html" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">与其他库集成</font></font></a> </p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

@@ -28,6 +28,7 @@ let data = yield select(stateSelectorFunction);<font></font>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -38,6 +39,7 @@ let data = yield select(stateSelectorFunction);<font></font>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在一个传奇中，</font></font><a href="https://github.com/redux-saga/redux-saga/tree/master/docs/api#selectselector-args" rel="noreferrer"><code>select()</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">API</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">可用于执行选择器。</font></font></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

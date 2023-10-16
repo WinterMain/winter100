@@ -21,6 +21,7 @@ topic: JavaScript
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -220,6 +221,7 @@ dotpos </span><span class="pun">=</span><span class="pln"> emailID</span><span c
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">简而言之，唯一可以绝对肯定地确定用户输入的实际上是电子邮件的唯一方法是实际发送电子邮件并查看会发生什么。</font><font style="vertical-align: inherit;">除此之外，所有这些只是猜测。</font></font></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

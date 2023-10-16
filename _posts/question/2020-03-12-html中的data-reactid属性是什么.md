@@ -26,6 +26,7 @@ topic: JavaScript
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -75,6 +76,7 @@ topic: JavaScript
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果您想找到区别，请在此</font></font><a href="https://stackoverflow.com/a/17573494/1671639"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">SO答案和评论中</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">检查小提琴</font><font style="vertical-align: inherit;">。</font></font></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

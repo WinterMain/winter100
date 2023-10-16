@@ -21,6 +21,7 @@ tags: 前端的一些坑
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -36,6 +37,7 @@ tags: 前端的一些坑
 <p>Google广告代码只能一个</p>
 </div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

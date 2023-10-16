@@ -36,6 +36,7 @@ topic: CSS
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -268,6 +269,7 @@ topic: CSS
 打开CMD（在里面</font></font><code>C:\Users\USERNAME\AppData\Local\Temp\WebCompilerX.X.X</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">）并运行：</font></font><code>npm i caniuse-lite browserslist</code></li>
 </ol></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

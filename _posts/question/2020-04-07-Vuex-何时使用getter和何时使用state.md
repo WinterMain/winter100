@@ -48,6 +48,7 @@ topic: Vue.js
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -90,6 +91,7 @@ topic: Vue.js
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果您有一个返回一个函数并处理大量数据的getter，则Vuex无法帮助您缓存该函数调用的结果。</font><font style="vertical-align: inherit;">您必须找出一种方法来最小化它的调用次数，或者合并</font></font><a href="https://en.wikipedia.org/wiki/Memoization" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">备忘录</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">等。</font></font></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

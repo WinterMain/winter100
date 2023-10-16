@@ -37,6 +37,7 @@ topic: Vue.js
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -49,6 +50,7 @@ topic: Vue.js
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">您可以查看每个属性，并查看可以如何使用</font></font><code>v-app-bar</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">一打或更多其他属性来自定义其功能和设计，而</font></font><code>toolbar</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">对它们的用途有所看法并限制了这些功能。</font></font></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

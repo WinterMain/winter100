@@ -43,6 +43,7 @@ this.body.write("}");<font></font>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -58,6 +59,7 @@ this.body.write("}");<font></font>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在您的情况下，您可以创建转换流，因为猫鼬流并不是您想要输出的。</font></font></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

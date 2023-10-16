@@ -33,6 +33,7 @@ obj.prop2 = "Bar";<font></font>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -214,6 +215,7 @@ const obj = { "foo": "foo", "1": "1", "bar": "bar" }<font></font>
   <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">对象是对象类型的成员。</font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">它是属性的无序集合，</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">每个</font><strong><font style="vertical-align: inherit;">属性</font></strong><font style="vertical-align: inherit;">都包含原始值，对象或函数。</font><font style="vertical-align: inherit;">存储在对象属性中的函数称为方法。</font></font></p>
 </blockquote></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

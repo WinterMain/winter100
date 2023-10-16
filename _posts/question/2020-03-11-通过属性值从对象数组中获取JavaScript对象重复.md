@@ -50,6 +50,7 @@ topic: JavaScript
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -488,6 +489,7 @@ console.log(result)</code></pre>
 
 <p>Side note: methods like <code>find()</code> and arrow functions are not supported by older browsers (like IE), so if you want to support these browsers, you should transpile your code using <a href="https://babeljs.io/" rel="noreferrer">Babel</a>.</p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

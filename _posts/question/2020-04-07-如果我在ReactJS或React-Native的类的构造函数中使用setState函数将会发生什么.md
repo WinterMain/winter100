@@ -35,6 +35,7 @@ topic: React.js
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -86,6 +87,7 @@ topic: React.js
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如此得出的结论是：如果您尝试这样做，可能不会导致错误，但是您将不得不承担不良行为，因为即使触发这些更新也不会反映任何错误。</font></font></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

@@ -36,6 +36,7 @@ topic: Node.js
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -81,6 +82,7 @@ console.dir(object, {depth: null, colors: true})<font></font>
 
 <p><a href="https://i.stack.imgur.com/8PJK6.png" rel="noreferrer"><img src="https://i.stack.imgur.com/8PJK6.png" alt="样品"></a></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

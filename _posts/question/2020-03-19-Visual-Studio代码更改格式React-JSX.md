@@ -47,6 +47,7 @@ topic: React.js
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -166,6 +167,7 @@ topic: React.js
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我注意到每次打开扩展名为</font><strong><font style="vertical-align: inherit;">.js</font></strong><font style="vertical-align: inherit;">的react文件时，都必须完成建议的解决方法</font></font><strong><font style="vertical-align: inherit;"></font></strong></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

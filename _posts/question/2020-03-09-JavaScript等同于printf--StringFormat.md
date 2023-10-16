@@ -25,6 +25,7 @@ topic: JavaScript
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -342,6 +343,7 @@ console.log(`This is ${soMany} times easier!`);<font></font>
 
 <p>Normally you would expect the output to be <code>{1}{0}</code> but the actual output is <code>{1}{1}</code>. So do a simultaneously replacement instead like in <a href="https://stackoverflow.com/questions/610406/javascript-printf-string-format/4673436#4673436">fearphage’s suggestion</a>.</p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

@@ -54,6 +54,7 @@ topic: Node.js
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -62,6 +63,7 @@ topic: Node.js
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Joyent的人们</font><font style="vertical-align: inherit;">对此</font><font style="vertical-align: inherit;">发表</font></font><a href="https://www.joyent.com/node-js/production/design/errors" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">了非常有见地的最佳实践文档</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font><font style="vertical-align: inherit;">任何Node.js开发人员都必须阅读的文章。</font></font></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

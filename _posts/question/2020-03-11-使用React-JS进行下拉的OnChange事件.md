@@ -43,6 +43,7 @@ React.render(&lt;MySelect /&gt;, document.body);<font></font>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -67,6 +68,7 @@ React.render(&lt;MySelect /&gt;, document.body);<font></font>
 };<font></font>
 </code></pre></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

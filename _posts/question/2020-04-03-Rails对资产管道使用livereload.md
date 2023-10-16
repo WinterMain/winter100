@@ -27,6 +27,7 @@ topic: CSS
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -61,6 +62,7 @@ end<font></font>
 
 <p><a href="https://github.com/guard/guard-livereload/issues/126#issuecomment-72420391" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">资料来源：Github Issue</font></font></a></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

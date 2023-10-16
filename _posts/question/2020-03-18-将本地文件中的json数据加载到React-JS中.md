@@ -76,6 +76,7 @@ module.exports = redBubble;<font></font>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -157,6 +158,7 @@ then after return:<font></font>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我没有</font></font><code>data</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在React组件中</font><font style="vertical-align: inherit;">看到使用</font><font style="vertical-align: inherit;">，因此我只能从理论上提出建议：为什么不在</font><font style="vertical-align: inherit;">回调中</font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">更新</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">您的组件？</font></font></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

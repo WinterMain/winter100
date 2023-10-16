@@ -21,6 +21,7 @@ topic: JavaScript
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -276,6 +277,7 @@ includeJs</span><span class="pun">(</span><span class="str">"/path/to/some/file.
 
 <pre class="lang-js prettyprint prettyprinted" style=""><code><span class="pln">subscript</span><span class="pun">.</span><span class="pln">doSomethingCool</span><span class="pun">();</span><span class="pln"> </span></code></pre></div>
         </div></div>
+    </div>
     
   </div>
 <div>

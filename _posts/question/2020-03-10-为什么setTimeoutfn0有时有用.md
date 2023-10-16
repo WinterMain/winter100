@@ -41,6 +41,7 @@ setTimeout(wrapFn, 0);<font></font>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -211,6 +212,7 @@ var f2 = function () {<font></font>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">参见Philip Roberts的演讲</font></font><a href="https://www.youtube.com/watch?v=8aGhZQkoFbQ" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">“事件循环到底是什么？” </font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">以获得更详尽的解释。</font></font></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

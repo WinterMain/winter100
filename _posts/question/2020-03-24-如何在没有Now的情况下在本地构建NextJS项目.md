@@ -34,6 +34,7 @@ topic: React.js
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -72,6 +73,7 @@ topic: React.js
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果愿意，</font><font style="vertical-align: inherit;">可以</font><font style="vertical-align: inherit;">直接</font><font style="vertical-align: inherit;">替换</font></font><code>npm run build</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">为</font></font><code>next build</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

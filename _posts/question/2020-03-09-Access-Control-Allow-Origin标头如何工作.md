@@ -37,6 +37,7 @@ topic: JavaScript
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -240,6 +241,7 @@ Content-Type: application/json<font></font>
 
 <p>See <a href="https://stackoverflow.com/a/13400954/710446">Understanding XMLHttpRequest over CORS</a> for a little more information about non-simple requests.</p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

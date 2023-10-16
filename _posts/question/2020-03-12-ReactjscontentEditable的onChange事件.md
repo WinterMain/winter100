@@ -45,6 +45,7 @@ React.renderComponent(&lt;Number /&gt;, document.body);<font></font>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -221,6 +222,7 @@ return (&lt;ContentEditable html={this.state.html} onChange={handleChange} /&gt;
 <li>as both the newly produced and old vdom are "", React does not touch the dom.</li>
 </ul></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

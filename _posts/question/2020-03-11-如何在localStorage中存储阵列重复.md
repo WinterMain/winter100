@@ -52,6 +52,7 @@ localStorage.names[0] = prompt("New member name?");<font></font>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -105,6 +106,7 @@ Storage.prototype.getObj = function(key) {<font></font>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">使用</font></font><code>JSON.stringify()</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">和</font></font><code>JSON.parse()</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">否建议！</font><font style="vertical-align: inherit;">这样可以防止包含分隔符的成员名称（例如，成员名称</font></font><code>three|||bars</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">）</font><font style="vertical-align: inherit;">出现罕见但可能的问题</font><font style="vertical-align: inherit;">。</font></font></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

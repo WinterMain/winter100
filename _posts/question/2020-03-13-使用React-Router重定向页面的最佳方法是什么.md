@@ -49,6 +49,7 @@ Foo.contextTypes = {<font></font>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -73,6 +74,7 @@ function BackButton({ children }) {<font></font>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在此处了解更多信息</font></font><a href="https://reacttraining.com/blog/react-router-v5-1/#usehistory" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">https://reacttraining.com/blog/react-router-v5-1/#usehistory</font></font></a></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

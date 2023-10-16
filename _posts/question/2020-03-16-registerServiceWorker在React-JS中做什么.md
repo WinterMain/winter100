@@ -30,6 +30,7 @@ registerServiceWorker();<font></font>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -54,6 +55,7 @@ registerServiceWorker();<font></font>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">服务人员将在没有网络的情况下脱机使用网站数据，就像制作PWA。</font><font style="vertical-align: inherit;">请参考此链接</font></font><a href="https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">PWA</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">以了解有关实现以及如何使用registerServiceWorker（）的更多信息。</font></font></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

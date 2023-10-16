@@ -48,6 +48,7 @@ var vm = new Vue({<font></font>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -63,6 +64,7 @@ var vm = new Vue({<font></font>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">另外，请注意，如果您发现自己需要将参数传递给a </font></font><code>computed</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，则可能需要使用方法。</font></font></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

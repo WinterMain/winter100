@@ -32,6 +32,7 @@ Run `npm config delete prefix` or `nvm use --delete-prefix v4.2.4` to unset it.<
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -353,6 +354,7 @@ $ npm config set prefix $NVM_DIR/versions/node/v6.11.1<font></font>
 <p><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">更新：</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> 
 使用brew安装NVM会导致终端启动缓慢。</font><font style="vertical-align: inherit;">您可以</font></font><a href="https://github.com/creationix/nvm/issues/1277#issuecomment-447495610" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">按照以下说明</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">进行解决。</font></font></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

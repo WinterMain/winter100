@@ -43,6 +43,7 @@ test.length = 4;<font></font>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -377,6 +378,7 @@ var arr = NArray( 3,2,4 );<font></font>
 //   [ A1,B1,C1,D1,E1,F1,G1,H1 ] ]<font></font>
 </code></pre></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

@@ -29,6 +29,7 @@ var a2 = ['a', 'b', 'c', 'd'];<font></font>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -546,6 +547,7 @@ console.log(dif2); // =&gt; ["test5", "test6"]</code></pre>
 [1, 2, 3].diff([2, 3])<font></font>
 </code></pre></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

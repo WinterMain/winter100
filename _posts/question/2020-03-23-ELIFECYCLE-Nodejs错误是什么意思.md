@@ -50,6 +50,7 @@ npm ERR!     /apps/emailer/npm-debug.log<font></font>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -224,6 +225,7 @@ npm ERR！</font><font style="vertical-align: inherit;">Bower安装&amp;&amp; gu
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">您执行时没有任何问题</font></font><code>NODE_ENV=production node app.js</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">吗？</font></font></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

@@ -67,6 +67,7 @@ module.exports = AddAppts;<font></font>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -154,6 +155,7 @@ module.exports = AddAppts;<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">确保不目录下的反应</font></font><code>dependencies</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在你的</font></font><code>package.json</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font><br><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
 这就是为什么我们有</font></font><code>peerDependencies</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">;-)</font></font></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

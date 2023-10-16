@@ -23,6 +23,7 @@ topic: JavaScript
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -201,6 +202,7 @@ You can also use <code>location.reload(true)</code> if you want to grab somethin
 
 <p>Hopefully this can help others looking for the same information.</p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

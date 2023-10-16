@@ -35,6 +35,7 @@ topic: JavaScript
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -375,6 +376,7 @@ alert( str.endsWith("to be", 19) );  // true<font></font>
 <pre><code>return this.length &gt;= str.length &amp;&amp; this.lastIndexOf(str) + str.length == this.length
 </code></pre></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

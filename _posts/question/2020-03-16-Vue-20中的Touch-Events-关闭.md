@@ -47,6 +47,7 @@ topic: Vue.js
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -70,6 +71,7 @@ topic: Vue.js
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Vue2-hammer（每周1600次npm下载）也可以打包锤子，但目前我选择直接这样做。</font><font style="vertical-align: inherit;">Vue2-touch-events（每周npm下载5000次）没有利用Hammer，这似乎很勇敢。</font></font></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

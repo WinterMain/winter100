@@ -23,6 +23,7 @@ topic: React.js
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -43,6 +44,7 @@ topic: React.js
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">然后，您可以调试</font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Node.js</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">和</font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Javascript Debug</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">运行配置，以</font><strong><font style="vertical-align: inherit;">调试</font></strong><font style="vertical-align: inherit;">服务器端和客户端代码。</font></font></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

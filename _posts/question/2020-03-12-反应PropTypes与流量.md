@@ -40,6 +40,7 @@ export type Playlist = {<font></font>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -75,6 +76,7 @@ export type Playlist = {<font></font>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">一个方向或另一个方向的自动转换器并没有真正起飞。</font><font style="vertical-align: inherit;">因此，对于新项目，我现在真的建议使用Flow over PropTypes（以防您不想重复输入两次）。</font></font></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

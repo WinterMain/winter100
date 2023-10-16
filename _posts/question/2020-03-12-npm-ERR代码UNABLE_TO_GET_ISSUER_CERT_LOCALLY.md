@@ -33,6 +33,7 @@ npm ERR!     &lt;https://github.com/npm/npm/issues&gt;<font></font>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -147,6 +148,7 @@ git config --system http.proxy http://gateway.zscaler.net:80/<font></font>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这工作得很好，并且我</font></font><code>Happy Hacking!</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">没有将strict-ssl标志设置为false，从而</font><font style="vertical-align: inherit;">获得了成功消息</font><font style="vertical-align: inherit;">。</font></font></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

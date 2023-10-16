@@ -45,6 +45,7 @@ topic: Webpack
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -154,6 +155,7 @@ topic: Webpack
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">此方法在所有最新版本的angular-cli中都应适用（我亲自尝试了一些，最旧的是</font></font><em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">1.0.0-beta.21</font></font></em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，最新的是</font></font><em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">1.0.0-beta.32.3</font></font></em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">）</font></font></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

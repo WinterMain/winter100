@@ -29,6 +29,7 @@ topic: Node.js
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -141,6 +142,7 @@ topic: Node.js
 <li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我在我的环境中安装了XAMPP，并希望通过8080端口（即</font><a href="http://localhost/[name_of_the_node_application]" rel="nofollow noreferrer"><font style="vertical-align: inherit;">http：// localhost / [name_of_the_node_application]）</font></a><font style="vertical-align: inherit;">上运行的NodeJS applicatin击打80端口上的Apache上的所有流量。</font></font><a href="http://localhost/[name_of_the_node_application]" rel="nofollow noreferrer"><font style="vertical-align: inherit;"></font></a></li>
 </ul></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

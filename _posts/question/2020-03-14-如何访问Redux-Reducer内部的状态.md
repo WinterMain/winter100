@@ -75,6 +75,7 @@ export default rootReducer;<font></font>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -164,6 +165,7 @@ const localState2 = getState(reducerB.state2)<font></font>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这听起来有些令人费解，但实际上是有关关注点分离的问题。 </font></font></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

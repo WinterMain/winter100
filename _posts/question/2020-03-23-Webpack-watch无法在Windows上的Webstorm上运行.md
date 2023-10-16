@@ -25,6 +25,7 @@ topic: Webpack
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -35,6 +36,7 @@ topic: Webpack
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">检查此页面</font></font><a href="https://confluence.jetbrains.com/display/IDEADEV/Inotify+Watches+Limit" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">https://confluence.jetbrains.com/display/IDEADEV/Inotify+Watches+Limit</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">并尝试增加您的</font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Inotify手表数量限制</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font><font style="vertical-align: inherit;">帮助过我。</font></font></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

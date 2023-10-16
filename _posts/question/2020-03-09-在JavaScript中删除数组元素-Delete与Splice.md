@@ -32,6 +32,7 @@ myArray.splice (1, 1);<font></font>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -354,6 +355,7 @@ array.remove(-2,-1);<font></font>
   <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">删除数组元素时，数组长度不受影响。</font><font style="vertical-align: inherit;">例如，如果删除a [3]，则a [4]仍为a [4]，而a [3]未定义。</font><font style="vertical-align: inherit;">即使删除数组的最后一个元素（删除a [a.length-1]），该设置仍然成立。</font></font></p>
 </blockquote></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

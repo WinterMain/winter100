@@ -38,6 +38,7 @@ router.get('/', async (ctx) =&gt; {<font></font>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -55,6 +56,7 @@ router.get('/', async (ctx) =&gt; {<font></font>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">根据文档，应该有一个</font></font><code>ctx.request.query</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">表示为对象的查询字符串项。</font></font></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

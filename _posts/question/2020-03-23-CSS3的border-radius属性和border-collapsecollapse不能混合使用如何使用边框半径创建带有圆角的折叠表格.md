@@ -63,6 +63,7 @@ topic: CSS
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -721,6 +722,7 @@ table tr:last-child td:last-child {<font></font>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">一种解决方法是</font><font style="vertical-align: inherit;">在表上</font></font><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/border-spacing" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">添加</font></font><code>border-spacing: 0</code></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">默认值并保留默认值</font></font><code>border-collapse: separate</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

@@ -38,6 +38,7 @@ topic: Vue.js
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -137,6 +138,7 @@ router.beforeEach(function (to, from, next) { <font></font>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在路由的核心组件（在本例中为</font></font><code>Home</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">）</font></font><code>mounted()</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">函数中实现了我想要的。</font></font></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

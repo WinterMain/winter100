@@ -21,6 +21,7 @@ topic: CSS
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -161,6 +162,7 @@ span {<font></font>
 <li><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">内联块</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">：</font></font><code>margin</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，</font></font><code>padding</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，</font></font><code>height</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，</font></font><code>width</code></li>
 </ul></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

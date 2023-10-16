@@ -50,6 +50,7 @@ topic: JavaScript
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -60,6 +61,7 @@ topic: JavaScript
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这是一款完全可以满足您需求的道具。</font><font style="vertical-align: inherit;">但是，它们的名称表示要谨慎使用</font></font></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

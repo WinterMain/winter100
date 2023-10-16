@@ -25,6 +25,7 @@ topic: Vue.js
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -82,6 +83,7 @@ export default class RoutingExample extends Vue {<font></font>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">但需要注意的是，参数只能在该获取挂钩中使用，而不能在其他已创建或已安装的挂钩中使用。</font><font style="vertical-align: inherit;">所以杰森的答案也是有效的</font></font></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

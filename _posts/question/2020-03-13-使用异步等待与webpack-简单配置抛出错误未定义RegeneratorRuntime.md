@@ -92,6 +92,7 @@ topic: Webpack
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -130,6 +131,7 @@ module.exports = {<font></font>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">要使用异步并等待，您应该在babel配置中添加2个插件：</font></font><a href="https://babeljs.io/docs/plugins/transform-async-to-generator/" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">https</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> :
  </font><a href="https://babeljs.io/docs/plugins/transform-async-to-generator/" rel="nofollow noreferrer"><font style="vertical-align: inherit;">//babeljs.io/docs/plugins/transform-async-to-generator/</font></a><font style="vertical-align: inherit;">和</font></font><a href="https://babeljs.io/docs/plugins/syntax-async-functions/" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">https://babeljs.io/docs/plugins/syntax -异步功能/</font></font></a></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

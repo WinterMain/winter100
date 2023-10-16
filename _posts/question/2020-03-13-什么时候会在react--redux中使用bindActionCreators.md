@@ -68,6 +68,7 @@ function mapDispatchToProps(dispatch) {<font></font>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -319,6 +320,7 @@ const mapDispatchToProps = {<font></font>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我猜答案是代码库中的一致性，但是我个人更喜欢</font><font style="vertical-align: inherit;">在需要时</font><font style="vertical-align: inherit;">在</font></font><em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">分派中</font></font></em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">显式地包装动作</font><font style="vertical-align: inherit;">。</font></font></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

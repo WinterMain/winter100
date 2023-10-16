@@ -21,6 +21,7 @@ topic: JavaScript
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -66,6 +67,7 @@ topic: JavaScript
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">创建一个画布，将图像加载到其中，然后用于</font></font><a href="https://developer.mozilla.org/en/DOM/HTMLCanvasElement"><code>toDataURL()</code></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">获取base64表示形式（实际上，它是一个</font></font><code>data:</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">URL，但其中包含base64编码的图像）。</font></font></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

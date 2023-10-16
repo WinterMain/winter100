@@ -21,6 +21,7 @@ tags: 前端
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -31,6 +32,7 @@ tags: 前端
 
 在终端输入：ssh-add ~/.ssh/id_rsa</div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

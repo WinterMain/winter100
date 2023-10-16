@@ -35,6 +35,7 @@ topic: Node.js
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -219,6 +220,7 @@ VAR_B=format the .env file like this with new vars separated by a line break<fon
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">注意：</font></font><code>env</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">确保它可以跨平台使用。</font><font style="vertical-align: inherit;">如果只关心Mac / Linux，则可以忽略它。</font></font></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

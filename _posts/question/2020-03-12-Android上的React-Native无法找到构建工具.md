@@ -31,6 +31,7 @@ A problem occurred configuring project ':app'.                                  
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -177,6 +178,7 @@ Packages available for installation or update: 156<font></font>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我天真地认为，安装最新版本的Build-tools（在撰写本文时为23.0.2）可以，但显然不行。</font><font style="vertical-align: inherit;">另外安装23.0.1可解决此问题。</font></font></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

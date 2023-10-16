@@ -38,6 +38,7 @@ topic: JavaScript
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -166,6 +167,7 @@ topic: JavaScript
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果您不需要服务器上的parms信息，或者在渲染之前不需要任何数据（例如在渲染之前基于路由参数发出http请求），那么我认为已安装的钩子就足够了。</font></font></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

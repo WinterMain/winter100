@@ -20,6 +20,7 @@ Error Code: 1175. You are using safe update mode and you tried to update a table
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -28,6 +29,7 @@ Error Code: 1175. You are using safe update mode and you tried to update a table
           </div>
           <div class="discuss-comment"><p>这个问题有两个处理方式：</p><ol><li>先执行下面语句后再去执行你的sql</li></ol><pre><code class="language-plaintext">SET SQL_SAFE_UPDATES = 0;</code></pre><p>2. 打开Workbench的菜单[Edit]-&gt;[Preferences...]切换到[SQL Editor]页面把[Forbid UPDATE and DELETE statements without a WHERE clause (safe updates)]之前的对勾去掉点击[OK]按钮最后一步记得要重启一下Workbench，否则你仍然会得到这个错误提示</p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

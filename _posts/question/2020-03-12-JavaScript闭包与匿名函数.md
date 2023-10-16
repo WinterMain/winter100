@@ -67,6 +67,7 @@ topic: JavaScript
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -177,6 +178,7 @@ for(var i = 0; i &lt; 10; i++) {<font></font>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">您自己的尝试</font></font><code>i</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">（在调用站点的范围内）作为参数传递给匿名函数。</font><font style="vertical-align: inherit;">到目前为止，这不是一个闭包，但是该函数返回另一个引用了same的函数</font></font><code>i2</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font><font style="vertical-align: inherit;">由于内部匿名函数内部</font></font><code>i2</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">不是本地</font><font style="vertical-align: inherit;">函数</font><font style="vertical-align: inherit;">，因此将创建一个闭包。</font></font></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

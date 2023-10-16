@@ -21,6 +21,7 @@ topic: Webpack
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -52,6 +53,7 @@ topic: Webpack
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">当我们开始基于反应的项目时，设置构建环境是一项艰巨且耗时的工作。</font><font style="vertical-align: inherit;">为了解决这个问题，React的开发人员创建了一个名为npm的软件包</font></font><code>react-scripts</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，其中包含了大多数人对于普通React应用程序所需的许多基本设置。</font><font style="vertical-align: inherit;">Babel和webpack </font></font><a href="https://www.npmjs.com/package/react-scripts?activeTab=dependencies" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">作为依赖项包含在</font></font><code>react-scripts</code></a></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

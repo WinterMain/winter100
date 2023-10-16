@@ -38,6 +38,7 @@ topic: Vue.js
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -50,6 +51,7 @@ topic: Vue.js
 
 <p><font style="vertical-align: inherit;"></font><a href="https://vuejs.org/v2/api/#Options-Lifecycle-Hooks" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">生命周期挂钩</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">之外的jQuery选择器</font><font style="vertical-align: inherit;">是一种不好的代码味道。</font><font style="vertical-align: inherit;">您</font></font><code>validatePhoneNumber</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">使用选择器和DOM操作调用，但是您使用Vue处理</font></font><code>keydown</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">事件。</font><font style="vertical-align: inherit;">您需要使用jQuery处理此小部件上的所有内容。</font><font style="vertical-align: inherit;">不要使用Vue设置其类或phone_number或处理其事件。</font><font style="vertical-align: inherit;">这些都是DOM操作。</font><font style="vertical-align: inherit;">如前所述，如果将其包装在组件中，则可以将props传递给该组件，并且可以使用jQuery从这些props中设置class和phone_number。</font></font></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

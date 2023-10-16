@@ -35,6 +35,7 @@ topic: CSS
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -319,6 +320,7 @@ Pro和Con：</font></font><br><font style="vertical-align: inherit;"><font style
 <li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Internet Explorer 11.0.9600.17905（URL永远不会加载）</font></font></li>
 </ul></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

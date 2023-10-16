@@ -126,7 +126,9 @@ const ApiService = {<font></font>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     
+    </div>
     {% endraw %}
   </div>
 <div>

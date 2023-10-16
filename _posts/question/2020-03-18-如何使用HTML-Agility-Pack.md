@@ -23,6 +23,7 @@ topic: HTML
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -212,6 +213,7 @@ else<font></font>
 
 <p>There is also a compiled help file called HtmlAgilityPack.chm that has a complete reference for each of the objects.  This is normally in the base folder of the solution.</p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

@@ -53,6 +53,7 @@ TypeError: Object 3 has no method 'max'<font></font>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -61,6 +62,7 @@ TypeError: Object 3 has no method 'max'<font></font>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">该名称</font></font><code>_</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">由使用</font></font><code>node.js</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">REPL保留以前的输入。</font><font style="vertical-align: inherit;">选择另一个名称。</font></font></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

@@ -101,6 +101,7 @@ $searchForm.submit(function(e) {<font></font>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -116,6 +117,7 @@ let formData = new FormData(event.target);<font></font>
 formData.forEach((key, value) =&gt; console.log(value, key));<font></font>
 </code></pre></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

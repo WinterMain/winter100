@@ -27,6 +27,7 @@ topic: CSS
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -82,6 +83,7 @@ topic: CSS
 <li><a href="http://sass-lang.com/documentation/file.SASS_REFERENCE.html#output_style" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">http://sass-lang.com/documentation/file.SASS_REFERENCE.html#output_style</font></font></a></li>
 </ul></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

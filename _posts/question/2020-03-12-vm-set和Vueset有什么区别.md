@@ -51,6 +51,7 @@ this.someObject = Object.assign({}, this.someObject, { a: 1, b: 2 })<font></font
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -65,6 +66,7 @@ this.someObject = Object.assign({}, this.someObject, { a: 1, b: 2 })<font></font
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">因此，</font></font><code>.$set</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">以前在</font></font><em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">所有</font></font></em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">对象</font><font style="vertical-align: inherit;">上</font><em><font style="vertical-align: inherit;">都</font></em><font style="vertical-align: inherit;">可用</font><font style="vertical-align: inherit;">-现在仅在视图模型本身上可用。</font></font><code>Vue.set</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">因此，当您具有对反应性对象的引用但没有对它所属的视图模型的引用时，则在当前情况下使用。</font></font></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

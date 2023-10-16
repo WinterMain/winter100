@@ -19,6 +19,7 @@ answer: 1
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -27,6 +28,7 @@ answer: 1
           </div>
           <div class="discuss-comment"><p>在你的shell的配置加入或直接执行：export PATH=/usr/local/opt/ruby/bin:$PATH</p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

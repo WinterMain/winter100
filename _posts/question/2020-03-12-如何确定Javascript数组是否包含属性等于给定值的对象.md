@@ -49,6 +49,7 @@ topic: JavaScript
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -230,6 +231,7 @@ vendors.forEach(function(item){<font></font>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">希望它有助于更​​好，更干净地执行代码</font></font></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

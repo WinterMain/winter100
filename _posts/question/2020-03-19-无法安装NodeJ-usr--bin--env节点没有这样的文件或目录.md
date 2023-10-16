@@ -64,6 +64,7 @@ sudo apt-get install -y nodejs<font></font>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -282,6 +283,7 @@ sudo n stable<font></font>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">注意：我认为这篇文章并非完全相同，因为该文章有点像是浏览器问题。</font></font></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

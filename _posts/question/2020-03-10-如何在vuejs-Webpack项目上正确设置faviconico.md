@@ -37,6 +37,7 @@ topic: HTML
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -84,6 +85,7 @@ topic: HTML
 
 <p><a href="https://stackoverflow.com/questions/1344122/favicon-png-vs-favicon-ico-why-should-i-use-png-instead-of-ico"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">favicon.png vs favicon.ico-为什么我应该使用PNG而不是ICO？</font></font></a></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

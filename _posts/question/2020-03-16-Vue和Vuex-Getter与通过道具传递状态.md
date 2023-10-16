@@ -33,6 +33,7 @@ topic: Vue.js
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -84,6 +85,7 @@ topic: Vue.js
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">结合使用这两个选项，您可以使用更少的样板代码将道具向下传递到多个组件级别。</font></font></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

@@ -46,6 +46,7 @@ topic: JavaScript
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -71,6 +72,7 @@ topic: JavaScript
 <pre><code>&lt;img v-bind:src="`${imgPreUrl()}img/logo.png`"&gt;
 </code></pre></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

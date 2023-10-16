@@ -28,6 +28,7 @@ topic: React.js
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -38,6 +39,7 @@ topic: React.js
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">因此，您可以创建2个Heroku应用程序，一个用于Next，另一个用于Express。</font><font style="vertical-align: inherit;">您将必须通过设置正确的URL链接彼此的应用程序，并且可能还需要在API上配置CORS。</font></font></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

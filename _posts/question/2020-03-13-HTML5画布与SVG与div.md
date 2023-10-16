@@ -25,6 +25,7 @@ topic: JavaScript
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -123,6 +124,7 @@ topic: JavaScript
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在</font></font><a href="https://stackoverflow.com/a/49709860/351836"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">回答类似问题时，</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我提供了更多详细信息，为什么我认为</font><font style="vertical-align: inherit;">有时</font><a href="https://stackoverflow.com/a/49709860/351836"><font style="vertical-align: inherit;">将这</font></a><font style="vertical-align: inherit;">三种技术</font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">结合起来</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">是您最好的选择。</font></font></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

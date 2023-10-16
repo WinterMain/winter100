@@ -56,6 +56,7 @@ function rewriteUrl(replacePath) {<font></font>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -120,6 +121,7 @@ function rewriteUrl(replacePath) {<font></font>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在同一网络上的移动设备中，访问</font></font><code>http://192.168.1.111:8080</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">并享受热重装开发的幸福。</font></font></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

@@ -25,6 +25,7 @@ topic: JavaScript
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -224,6 +225,7 @@ myDate.setDate(myDate.getDate() + 1);<font></font>
 <pre><code>var tomorrow = new Date(today.getTime()+1000*60*60*24);
 </code></pre></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

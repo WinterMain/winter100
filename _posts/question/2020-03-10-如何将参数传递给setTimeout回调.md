@@ -41,6 +41,7 @@ function postinsql(topicId)<font></font>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -402,6 +403,7 @@ setTimeout(alert, 1000, hello);</code></pre>
 <pre><code>setTimeout(postinsql.bind(null, topicId), 4000);
 </code></pre></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

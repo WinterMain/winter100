@@ -33,6 +33,7 @@ topic: Django
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -132,6 +133,7 @@ psycopg2==2.6.1<font></font>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">希望这会指引您正确的方向！</font><font style="vertical-align: inherit;">祝好运！</font><font style="vertical-align: inherit;">希望其他专门研究Django的人可以加入我的回复。</font></font></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

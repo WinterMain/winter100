@@ -23,6 +23,7 @@ topic: JavaScript
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -187,6 +188,7 @@ function ajax1() {<font></font>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果您需要对ajax脚本等的失败模式进行更深入的控制，则可以保存由返回的对象</font></font><code>.when()</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">-这是一个jQuery </font></font><a href="http://api.jquery.com/Types/#Promise" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Promise</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">对象，其中包含所有原始ajax查询。</font><font style="vertical-align: inherit;">您可以调用</font></font><code>.then()</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">或</font></font><code>.fail()</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在其上添加详细的成功/失败处理程序。</font></font></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

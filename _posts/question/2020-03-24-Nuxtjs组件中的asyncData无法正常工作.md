@@ -80,6 +80,7 @@ topic: Vue.js
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -89,10 +90,10 @@ topic: Vue.js
           <div class="discuss-comment"><p>请问楼主解决了吗？我也遇到了这个问题</p></div>
         </div><div class="discuss-children">
           <div class="discuss-child">
-            <div class="discuss-comment"><p><a href='/home/27029'>@静</a>是的</p></div>
+            <div class="discuss-comment"><p>asyncData只能在页面级使用，不能在组件内使用</p></div>
             <div class="discuss-meta">
               <span class="discuss-user">Winter</span>
-              <span class="discuss-time">2021.07.13</span>
+              <span class="discuss-time">2021.02.26</span>
             </div>
           </div><div class="discuss-child">
             <div class="discuss-comment"><p><a href='/home/1'>@Winter</a>搞了半天用的位置不对..... &nbsp;</p><p>只能在page下面的第一层页面组件上用</p></div>
@@ -101,13 +102,14 @@ topic: Vue.js
               <span class="discuss-time">2021.07.13</span>
             </div>
           </div><div class="discuss-child">
-            <div class="discuss-comment"><p>asyncData只能在页面级使用，不能在组件内使用</p></div>
+            <div class="discuss-comment"><p><a href='/home/27029'>@静</a>是的</p></div>
             <div class="discuss-meta">
               <span class="discuss-user">Winter</span>
-              <span class="discuss-time">2021.02.26</span>
+              <span class="discuss-time">2021.07.13</span>
             </div>
           </div></div>
         </div>
+    </div>
     {% endraw %}
   </div>
 <div>

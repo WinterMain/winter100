@@ -25,6 +25,7 @@ topic: JavaScript
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -302,6 +303,7 @@ isEmpty  </span><span class="pun">=</span><span class="pln"> isObjectEmpty</span
     </span><span class="kwd">return</span><span class="pln"> </span><span class="typ">Object</span><span class="pun">.</span><span class="pln">keys</span><span class="pun">(</span><span class="pln">obj</span><span class="pun">).</span><span class="pln">length </span><span class="pun">===</span><span class="pln"> </span><span class="lit">0</span><span class="pun">;</span><span class="pln">
 </span><span class="pun">}</span></code></pre></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

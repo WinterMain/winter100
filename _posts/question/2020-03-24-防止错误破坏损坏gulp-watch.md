@@ -84,6 +84,7 @@ Error: W:\bariokart\app\script\trishell.coffee:5:1: error: unexpected *<font></f
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -98,6 +99,7 @@ Error: W:\bariokart\app\script\trishell.coffee:5:1: error: unexpected *<font></f
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这将在Linux或Mac终端中工作。</font><font style="vertical-align: inherit;">如果您使用的是Windows，请使用Cygwin或Ubuntu Bash（Windows 10）。</font></font></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

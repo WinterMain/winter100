@@ -25,6 +25,7 @@ topic: JavaScript
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -249,6 +250,7 @@ console</span><span class="pun">.</span><span class="pln">log</span><span class=
              </span><span class="pun">!!{}</span><span class="pln"> </span><span class="pun">===</span><span class="pln"> </span><span class="kwd">true</span><span class="pln">  </span><span class="com">// an (empty) object is truthy</span><span class="pln">
              </span><span class="pun">!![]</span><span class="pln"> </span><span class="pun">===</span><span class="pln"> </span><span class="kwd">true</span><span class="pln">  </span><span class="com">// an (empty) array is truthy; PHP programmers beware!</span></code></pre></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

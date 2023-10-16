@@ -29,6 +29,7 @@ topic: Webpack
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -97,6 +98,7 @@ _.size(...)<font></font>
 <li><code>ProvidePlugin</code>: Make modules available as free variables inside modules</li>
 </ul></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

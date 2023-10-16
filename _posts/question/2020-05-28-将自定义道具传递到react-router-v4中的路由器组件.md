@@ -101,6 +101,7 @@ require</span><span class="pun">(</span><span class="str">'codemirror/mode/markd
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -127,6 +128,7 @@ require</span><span class="pun">(</span><span class="str">'codemirror/mode/markd
   <p><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">PS</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">还请确保您正在传递，</font></font><code>{...props}</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这样默认路由器道具</font></font><code>location, history, match etc</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">也将传递给</font></font><code>Home</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">组件，否则唯一</font><font style="vertical-align: inherit;">传递给</font><font style="vertical-align: inherit;">组件的道具就是</font></font><code>test</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p>
 </blockquote></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

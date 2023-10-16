@@ -69,6 +69,7 @@ topic: CSS
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -110,6 +111,7 @@ topic: CSS
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">由于我无法评论已接受的答案，因此，我将作为一个单独的注释对其进行重要说明。</font><font style="vertical-align: inherit;">请移至此处，并在需要时从此处删除。</font><font style="vertical-align: inherit;">因此，可接受的答案基于单独的CSS文件。</font><font style="vertical-align: inherit;">由于角6，你</font></font><a href="https://github.com/angular/angular-cli/issues/10532#issuecomment-385712721" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">不能</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">使用既不</font></font><code>--extract-css</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">或</font></font><code>-ec</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在标志</font></font><code>package.json</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">的</font></font><code>ng serve</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，也不是</font></font><code>extractCss: true</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在</font></font><code>angular.json</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">为</font></font><code>serve</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">配置部分。</font><font style="vertical-align: inherit;">不过，您可以使用</font></font><a href="https://github.com/angular/angular-cli/issues/10666#issuecomment-386843570" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这种</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">方法来使其工作。</font><font style="vertical-align: inherit;">然后，您可以使用</font><font style="vertical-align: inherit;">带有promise的</font></font><a href="https://theinfogrid.com/tech/developers/angular/lazy-loading-scripts-and-styles-angular/" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">此</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">方法</font><font style="vertical-align: inherit;">来加载懒惰的样式</font></font><code>APP_INITIALIZER</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

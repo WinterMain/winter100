@@ -28,6 +28,7 @@ topic: JavaScript
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -130,6 +131,7 @@ $( "#reference" ).hover(<font></font>
 <li><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">通过更改文档样式表来操纵应用于所述伪元素的样式，这更像是骇客</font></font></p></li>
 </ul></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

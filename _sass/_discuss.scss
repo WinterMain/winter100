@@ -1,0 +1,218 @@
+.discuss-wrapper {
+  margin-top: 20px;
+  border: var(--line);
+  background-color: var(--bg-element);
+  padding: 20px 0;
+  border-radius: var(--radius);
+
+  .discuss-title-area {
+    .dt-title {
+      font-size: 16px;
+      font-weight: 500;
+      color: var(--text-title);
+      padding-left: 20px;
+      border-top: var(--line);
+      border-bottom: var(--line);
+      padding: 10px 0px 10px 20px;
+    }
+  }
+
+  .discuss-submit {
+    padding: 0px 0px 20px;
+    position: relative;
+
+    .discuss-toast {
+      position: absolute;
+      top: 30px;
+      margin: auto;
+      left: 0px;
+      right: 0px;
+      justify-content: center;
+      align-items: center;
+      display: flex;
+      flex-direction: column;
+  
+      .discuss-toast-item {
+        background-color: #067b06;
+        padding: 5px 10px;
+        border-radius: 10px;
+        margin-top: 20px;
+        &:first-child {
+          margin-top: 0;
+        }
+        &.error {
+          background-color: #ba0000
+        }
+      }
+    }
+
+    .input-title {
+      color: var(--text-title) !important;
+      font-size: 16px !important;
+      font-weight: 500 !important;
+      padding-bottom: 10px;
+      border-bottom: var(--line);
+      padding-left: 20px;
+      margin-top: -10px;
+    }
+
+    .input-subtitle {
+      font-size: 14px !important;
+      font-weight: 400 !important;
+      padding-bottom: 20px;
+      color: var(--themeColorLevel2) !important;
+      padding: 20px;
+    }
+
+    .input-name {
+      border: var(--line);
+      border-radius: 5px;
+      overflow: hidden;
+      background-color: var(--bg-color);
+      margin: 0 20px;
+
+      input {
+        width: 100%;
+        line-height: 30px;
+        text-indent: 10px;
+        outline: none;
+        padding: 0;
+        border: 0;
+        background-color: transparent;
+        color: var(--text-title);
+      }
+    }
+
+    .input-comment {
+      margin-top: 20px;
+      border: var(--line);
+      border-radius: 5px;
+      overflow: hidden;
+      padding: 10px;
+      background-color: var(--bg-color);
+      height: 120px;
+      margin-left: 20px;
+      margin-right: 20px;
+
+      textarea {
+        width: 100%;
+        line-height: 22px;
+        outline: none;
+        padding: 0;
+        border: 0;
+        background-color: transparent;
+        color: var(--text-title);
+        height: 100%;
+      }
+    }
+
+    .input-submit {
+      margin-top: 20px;
+      display: flex;
+      align-items: center;
+      justify-content: right;
+      padding: 0 20px;
+      position: relative;
+
+      button {
+        min-width: 120px;
+        text-align: center;
+        font-size: 16px;
+        font-weight: 400;
+        &:last-child {
+          margin-left: 20px;
+        }
+      }
+
+      .metamask {
+        background-color: #be7b00;
+        svg { height: 24px; margin: -3px 10px -3px 0;}
+      }
+    }
+
+    .input-msg {
+      display: flex;
+      justify-content: right;
+      align-items: center;
+      color: orange;
+      font-size: 12px;
+      margin-top: 10px;
+      padding: 0 20px;
+
+      .icon-loading {
+        width: 6px;
+        height: 6px;
+        margin-right: 5px;
+      }
+    }
+  }
+
+  .discuss-list {
+    .discuss-item {
+      border-bottom: var(--line);
+      margin-top: 20px;
+      padding: 0 20px;
+      padding-bottom: 20px;
+
+      .discuss-meta {
+        padding-bottom: 10px;
+
+        .discuss-user {
+          font-size: 14px;
+          font-weight: 500;
+          color: var(--themeColor);
+        }
+
+        .discuss-time {
+          font-size: 12px;
+          color: #b4b4b4;
+          margin-left: 10px;
+        }
+      }
+
+      .discuss-txhash {
+        margin-top: 10px;
+        color: var(--themeColor);
+        font-size: 12px;
+        background-color: var(--themeColorLevel1);
+        display: inline-block;
+        padding: 3px 10px;
+        border-radius: 5px;
+      }
+
+      .discuss-children {
+        border-top: var(--line);
+        padding-left: 20px;
+        font-size: 13px;
+        margin-top: 10px;
+        padding-top: 10px;
+
+        .discuss-user {
+          font-size: 13px;
+        }
+      }
+
+      &:last-child {
+        padding-bottom: 0;
+        border-bottom: 0;
+      }
+    }
+    .discuss-empty {
+      text-align: center;
+      padding: 40px 20px 20px;
+      svg {
+        margin: auto;
+        width: 80px;
+        height: 80px;
+        path {
+          fill: var(--text-title);
+        }
+      }
+      .empty-tip {
+        margin-top: 20px;
+        font-size: 12px;
+        color: var(--text-level1);
+      }
+    }
+  }
+}

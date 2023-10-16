@@ -31,6 +31,7 @@ if ( x.hasOwnProperty('key') ) {<font></font>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -224,6 +225,7 @@ for ( var prop in obj2 ) {<font></font>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">上面是对的跨浏览器解决方案</font></font><code>hasOwnProperty</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，但有一个警告：无法区分原型和实例上具有相同属性的情况-只是假设它来自原型。</font><font style="vertical-align: inherit;">您可以根据自己的情况将其更改为宽容或严格，但是至少这应该会有所帮助。</font></font></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

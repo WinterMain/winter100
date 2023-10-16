@@ -21,6 +21,7 @@ topic: CSS
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -424,6 +425,7 @@ here is the code below<font></font>
 <pre><code>&lt;div class="row top-buffer"&gt; ...
 </code></pre></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

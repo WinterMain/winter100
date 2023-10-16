@@ -37,6 +37,7 @@ topic: HTML
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -51,6 +52,7 @@ topic: HTML
   <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">对于选择框，复选框和单选按钮，当用户使用鼠标进行选择时会立即触发该事件，但是对于其他元素类型，该事件将推迟到该元素失去焦点之前。</font></font></p>
 </blockquote></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

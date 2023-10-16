@@ -21,6 +21,7 @@ topic: CSS
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -42,6 +43,7 @@ Scss(app)<font></font>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">默认情况下，扩展名将在</font></font><code>{app.root_dir}/assets/scss</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">或中</font><font style="vertical-align: inherit;">查找.scss文件，</font></font><code>{app.root_dir}/assets</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">并将生成的.css文件放入</font></font><code>{default_static_dir}/css</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">或中</font></font><code>{default_static_dir}</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

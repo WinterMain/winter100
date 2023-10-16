@@ -40,6 +40,7 @@ topic: JavaScript
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -61,6 +62,7 @@ topic: JavaScript
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">补充Marco Bonelli的回答：当前，在框架/ iframe之间进行交互的最佳方式是使用</font></font><a href="https://developer.mozilla.org/en-US/docs/Web/API/Window.postMessage" rel="noreferrer"><code>window.postMessage</code></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，</font></font><a href="http://caniuse.com/#feat=x-doc-messaging" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">所有浏览器均支持</font></font></a></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

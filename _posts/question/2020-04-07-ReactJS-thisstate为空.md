@@ -109,6 +109,7 @@ React.renderComponent(<font></font>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -186,6 +187,7 @@ React.renderComponent(<font></font>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">请参阅</font></font><a href="https://facebook.github.io/react/blog/2015/01/27/react-v0.13.0-beta-1.html" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">本文档</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

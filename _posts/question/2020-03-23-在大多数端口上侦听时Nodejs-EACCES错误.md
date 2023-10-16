@@ -47,6 +47,7 @@ Error: EACCES, Permission denied<font></font>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -181,6 +182,7 @@ sudo setcap cap_net_bind_service=+ep `readlink -f \`which node\``<font></font>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">非特权用户（非root用户）无法在1024以下的端口上打开侦听套接字。</font></font></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

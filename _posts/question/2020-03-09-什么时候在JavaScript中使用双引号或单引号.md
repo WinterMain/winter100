@@ -23,6 +23,7 @@ topic: JavaScript
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -223,6 +224,7 @@ topic: JavaScript
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果要处理JSON，则应注意严格来说，JSON字符串必须用双引号引起来。</font><font style="vertical-align: inherit;">当然，许多库也支持单引号，但是在我的一个项目中遇到了很大的问题，然后才意识到单引号实际上并不符合JSON标准。</font></font></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

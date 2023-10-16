@@ -55,6 +55,7 @@ topic: JavaScript
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -211,6 +212,7 @@ case RECEIVE_POSTS:<font></font>
 
 <p>For every rule, there is an exception. Sometimes your side effect logic is so complicated you actually <em>want</em> to couple them either to specific action types or to specific reducers. In this case check out advanced projects like <a href="https://github.com/yelouafi/redux-saga" rel="noreferrer">Redux Saga</a> and <a href="https://github.com/raisemarketplace/redux-loop" rel="noreferrer">Redux Loop</a>. Only do this when you are comfortable with vanilla Redux and have a real problem of scattered side effects you’d like to make more manageable.</p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

@@ -48,6 +48,7 @@ TheArray.push(TheNewObject);<font></font>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -83,6 +84,7 @@ TheArray.push(TheNewObject);<font></font>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">仅供参考，就像有</font></font><code>.push()</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">和</font></font><code>.pop()</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">为数组的结尾，有</font></font><code>.shift()</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">和</font></font><code>.unshift()</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">为数组的开始。</font></font></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

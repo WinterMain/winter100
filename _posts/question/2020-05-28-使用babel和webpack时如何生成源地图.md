@@ -84,6 +84,7 @@ module</span><span class="pun">.</span><span class="pln">exports </span><span cl
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -119,6 +120,7 @@ cheap</span><span class="pun">-</span><span class="pln">module</span><span class
 
 <pre class="lang-js prettyprint prettyprinted" style=""><code><span class="kwd">new</span><span class="pln"> webpack</span><span class="pun">.</span><span class="pln">optimize</span><span class="pun">.</span><span class="typ">UglifyJsPlugin</span><span class="pun">({</span><span class="pln"> sourceMap</span><span class="pun">:</span><span class="pln"> </span><span class="kwd">true</span><span class="pln"> </span><span class="pun">})</span></code></pre></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

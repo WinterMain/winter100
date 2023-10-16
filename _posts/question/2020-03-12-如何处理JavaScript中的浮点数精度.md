@@ -38,6 +38,7 @@ test();</code></pre>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -377,6 +378,7 @@ fpArithmetic('/', 0.2, 0.1);<font></font>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">您只执行乘法吗？</font><font style="vertical-align: inherit;">如果是这样，那么您可以利用有关十进制算术的巧妙秘密。</font><font style="vertical-align: inherit;">就是那个</font></font><code>NumberOfDecimals(X) + NumberOfDecimals(Y) = ExpectedNumberOfDecimals</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font><font style="vertical-align: inherit;">就是说，如果有的</font></font><code>0.123 * 0.12</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">话，我们知道会有5个小数位，因为</font></font><code>0.123</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">有3个小数位和</font></font><code>0.12</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">2 </font><font style="vertical-align: inherit;">个小数位</font><font style="vertical-align: inherit;">。</font><font style="vertical-align: inherit;">因此，如果JavaScript为我们提供了一个数字，例如</font></font><code>0.014760000002</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我们可以安全地舍入到小数点后第五位，而不必担心失去精度。</font></font></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

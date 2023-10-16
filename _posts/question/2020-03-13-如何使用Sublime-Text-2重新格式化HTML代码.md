@@ -21,6 +21,7 @@ topic: HTML
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -203,6 +204,7 @@ wrap: 0<font></font>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果未保存文件（例如，您只是将其粘贴到新窗口中），则可以</font></font><code>language of choice</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在选择重新缩进选项之前，</font><font style="vertical-align: inherit;">通过选择菜单视图→语法→来手动设置缩进语言</font><font style="vertical-align: inherit;">。</font></font></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

@@ -28,6 +28,7 @@ topic: JavaScript
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -501,6 +502,7 @@ var second = values.second;<font></font>
 
 <p><sup>* See <a href="https://kangax.github.io/compat-table/es6/" rel="noreferrer">this table</a> for browser compatibility. Basically, all modern browsers aside from IE support this syntax, but you can compile ES6 code down to IE-compatible JavaScript at build time with tools like <a href="https://babeljs.io/" rel="noreferrer">Babel</a>.</sup></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

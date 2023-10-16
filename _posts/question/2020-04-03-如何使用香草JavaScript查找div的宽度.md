@@ -21,6 +21,7 @@ topic: HTML
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -109,6 +110,7 @@ if(elem) {<font></font>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">getComputedStyle允许您访问该元素的所有样式。</font><font style="vertical-align: inherit;">例如：padding，paddingLeft，margin，border-top-left-radius等。</font></font></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

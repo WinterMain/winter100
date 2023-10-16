@@ -35,6 +35,7 @@ topic: Webpack
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -90,6 +91,7 @@ topic: Webpack
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在</font><a href="http://eslint.org/docs/user-guide/command-line-interface" rel="noreferrer"><font style="vertical-align: inherit;">eslint / command-line-interface上</font></a><font style="vertical-align: inherit;">了解更多</font></font><a href="http://eslint.org/docs/user-guide/command-line-interface" rel="noreferrer"><font style="vertical-align: inherit;"></font></a></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

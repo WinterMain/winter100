@@ -31,6 +31,7 @@ topic: JavaScript
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -464,6 +465,7 @@ arguments</span><span class="pun">++;</span><span class="pln">
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在</font></font><a href="https://caniuse.com/#feat=es6-module" rel="noreferrer" data-bitapp="processed"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">本机ECMAScript模块</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">（带有</font></font><code>import</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">和</font></font><code>export</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">语句）和</font></font><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes" rel="noreferrer" data-bitapp="processed"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">ES6类中</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，严格模式始终处于启用状态，不能被禁用。</font></font></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

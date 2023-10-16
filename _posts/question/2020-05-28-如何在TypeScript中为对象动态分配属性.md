@@ -32,6 +32,7 @@ obj</span><span class="pun">.</span><span class="pln">prop </span><span class="p
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -193,6 +194,7 @@ obj</span><span class="pun">.</span><span class="pln">prop2 </span><span class="
 <pre class="lang-js prettyprint prettyprinted" style=""><code><span class="pln">  </span><span class="kwd">var</span><span class="pln"> obj</span><span class="pun">:</span><span class="pln">any </span><span class="pun">=</span><span class="pln"> </span><span class="pun">{}</span><span class="pln">
   obj</span><span class="pun">.</span><span class="pln">prop </span><span class="pun">=</span><span class="pln"> </span><span class="lit">5</span><span class="pun">;</span></code></pre></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

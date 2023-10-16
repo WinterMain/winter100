@@ -25,6 +25,7 @@ topic: JavaScript
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -334,6 +335,7 @@ You can place the scripts inside head or body without worrying about blocking (u
 
 <p>It is possible to circumvent the execution order issues by using external scripts that support callbacks. Many third party JavaScript APIs now support non-blocking execution. Here is an example of <a href="http://salman-w.blogspot.com/2014/05/google-maps-asynchronous-loading.html">loading the Google Maps API asynchronously</a>.</p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

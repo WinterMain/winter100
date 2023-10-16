@@ -38,6 +38,7 @@ topic: JavaScript
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -91,6 +92,7 @@ var body = await response.json(); // .json() is asynchronous and therefore must 
 <pre><code>res.json().then(body =&gt; console.log(body));
 </code></pre></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

@@ -135,6 +135,7 @@ importer(url)<font></font>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -182,6 +183,7 @@ importer(url)<font></font>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在这里</font></font><a href="https://github.com/iwnow/angular-plugin-example" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">https://github.com/iwnow/angular-plugin-example</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">您可以找到如何使用独立构建和AOT开发插件</font></font></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

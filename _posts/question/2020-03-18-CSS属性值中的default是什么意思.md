@@ -34,6 +34,7 @@ topic: CSS
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -56,6 +57,7 @@ To make this possible, Sass provides the !default flag. This assigns a value to 
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">就其价值而言，</font></font><code>!</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">CSS中</font><font style="vertical-align: inherit;">唯一以开头的有效令牌</font><font style="vertical-align: inherit;">是</font></font><code>!important</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，</font></font><a href="http://www.w3.org/TR/CSS21/cascade.html#important-rules" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">您可能已经知道了</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

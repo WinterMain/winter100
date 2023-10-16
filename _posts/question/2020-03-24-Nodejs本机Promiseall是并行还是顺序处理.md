@@ -32,6 +32,7 @@ topic: Node.js
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -351,6 +352,7 @@ sequential(a).then(() =&gt; console.log("done"))</code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">编辑：自从我写了这篇文章以来，我现在了解了为什么第一个版本不起作用。</font><font style="vertical-align: inherit;">then（）期望一个</font></font><em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">函数</font></font></em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">返回一个promise。</font><font style="vertical-align: inherit;">因此，您应该传递不带括号的函数名称！</font><font style="vertical-align: inherit;">现在，我的函数需要一个参数，因此我需要将一个不带参数的匿名函数包装起来！</font></font></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

@@ -82,6 +82,7 @@ https://www.google-analytics.com/gtm/js?id=GTM-xxxxxx&amp;t=gtag_UA_xxxx&amp;cid
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -94,6 +95,7 @@ https://www.google-analytics.com/gtm/js?id=GTM-xxxxxx&amp;t=gtag_UA_xxxx&amp;cid
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">对于本地测试，可以通过创建主机名别名（例如</font></font><code>localhost.domain</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">for </font></font><code>127.0.0.1</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">）并使用该别名访问网页来解决此问题。</font></font></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

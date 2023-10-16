@@ -46,6 +46,7 @@ $ cnpm list express
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -55,19 +56,20 @@ $ cnpm list express
           <div class="discuss-comment">JS IS STRONG</div>
         </div><div class="discuss-children">
           <div class="discuss-child">
-            <div class="discuss-comment"><a id='2'>@小欧学姐</a>还可以啦</div>
-            <div class="discuss-meta">
-              <span class="discuss-user">Winter</span>
-              <span class="discuss-time">2017.06.16</span>
-            </div>
-          </div><div class="discuss-child">
             <div class="discuss-comment">哈哈哈</div>
             <div class="discuss-meta">
               <span class="discuss-user">OU</span>
               <span class="discuss-time">2017.06.16</span>
             </div>
+          </div><div class="discuss-child">
+            <div class="discuss-comment"><a id='2'>@小欧学姐</a>还可以啦</div>
+            <div class="discuss-meta">
+              <span class="discuss-user">Winter</span>
+              <span class="discuss-time">2017.06.16</span>
+            </div>
           </div></div>
         </div>
+    </div>
     {% endraw %}
   </div>
 <div>

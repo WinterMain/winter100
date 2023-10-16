@@ -33,6 +33,7 @@ topic: CSS
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -41,6 +42,7 @@ topic: CSS
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">由于SASS是</font></font><em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">预处理器</font></font></em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，因此CSS定制属性可以在</font></font><em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">运行时</font></font></em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">动态更改，</font><font style="vertical-align: inherit;">因此这实际上是行不通的</font><font style="vertical-align: inherit;">。</font><font style="vertical-align: inherit;">为了使SASS能够通过变暗对其进行预处理，就必须用一个静态值替换该自定义属性，在这种情况下，该自定义属性的用处就丧失了。</font></font></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

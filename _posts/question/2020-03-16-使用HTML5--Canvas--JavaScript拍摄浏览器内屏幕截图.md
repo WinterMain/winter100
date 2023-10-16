@@ -26,6 +26,7 @@ topic: HTML
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -64,6 +65,7 @@ html2canvas脚本现在可以</font></font><a href="https://github.com/niklasvh/
 另一个证实Google使用了非常相似的方法（实际上，根据文档，唯一的主要区别是它们的遍历/绘制异步方法）可以在Google反馈小组的Elliott Sprehn的演示文稿中找到：
  </font></font><a href="http://www.elliottsprehn.com/preso/fluentconf/" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">http： //www.elliottsprehn.com/preso/fluentconf/</font></font></a></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

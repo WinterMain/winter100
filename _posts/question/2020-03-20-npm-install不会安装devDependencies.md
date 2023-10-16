@@ -40,6 +40,7 @@ topic: Node.js
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -176,6 +177,7 @@ npm install jquery@^2.1.4 --save<font></font>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果这样做，没有</font></font><code>--dev</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">标记</font><font style="vertical-align: inherit;">将不会安装dev依赖项</font></font></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

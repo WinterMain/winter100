@@ -42,6 +42,7 @@ topic: CSS
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -358,6 +359,7 @@ h1:active { color: blue; }<font></font>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">但是，这仅在按住鼠标按钮时才适用。</font><font style="vertical-align: inherit;">应用样式</font></font><em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">并使之保持</font></font></em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> onclick </font><font style="vertical-align: inherit;">的唯一方法</font><font style="vertical-align: inherit;">是使用一些JavaScript。</font></font></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

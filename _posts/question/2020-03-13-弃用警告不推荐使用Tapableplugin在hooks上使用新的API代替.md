@@ -31,6 +31,7 @@ topic: Vue.js
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -103,6 +104,7 @@ Webpack 4.22.0 <font></font>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">当我尝试两次运行webpack-dev-server时遇到了这个问题，一个在一个终端上运行，另一个在另一个终端上运行。</font><font style="vertical-align: inherit;">只运行一个解决了该问题。</font></font></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

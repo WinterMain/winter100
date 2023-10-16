@@ -21,6 +21,7 @@ topic: JavaScript
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -94,6 +95,7 @@ console.log(jsonObj);<font></font>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果您提供一些额外的信息，例如您在上下文中确实需要做的事情，那么您可能会得到一个更量身定制的答案。</font></font></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

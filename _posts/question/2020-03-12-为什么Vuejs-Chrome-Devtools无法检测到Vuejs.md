@@ -55,6 +55,7 @@ topic: Vue.js
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -134,6 +135,7 @@ Now Chrome Devtools正在完美检测Vue.js。</font></font></p>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我找到了答案，我在计算机上查看了一个纯HTML文件，这使vue.js工具无法加载。</font><font style="vertical-align: inherit;">我加载了本地xampp服务器，并再次从本地计算机服务器url运行了该应用程序，现在vue.js devtools可以运行了！</font><font style="vertical-align: inherit;">:)</font></font></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

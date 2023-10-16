@@ -47,6 +47,7 @@ exports</span><span class="pun">.</span><span class="pln">plugins </span><span c
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -121,6 +122,7 @@ hash</span><span class="pun">:</span><span class="kwd">string</span><span class=
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">另外，您也可以</font></font><a href="https://hackernoon.com/wrap-any-jquery-plugin-with-angular-2-component-case-study-8b00eacec998" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">自己将其包装在指令中</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，但是如果您可以让ng-bootstrap做您想做的事，我会避免这样做，因为这样做会做更多的工作。</font></font></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

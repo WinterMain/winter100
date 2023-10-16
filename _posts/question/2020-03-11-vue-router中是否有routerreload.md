@@ -50,6 +50,7 @@ topic: Vue.js
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -201,6 +202,7 @@ export default {<font></font>
 
 <p><sub><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">注意：由于这会在常规桌面（非便携式）Firefox上执行“软”重新加载，因此，如果使用它，可能会出现许多奇怪的怪癖，但实际上您需要真正的重新加载；</font><font style="vertical-align: inherit;">使用</font><font style="vertical-align: inherit;">OP提到</font><font style="vertical-align: inherit;">的</font></font><code>window.location.reload(true);</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">（</font></font><a href="https://developer.mozilla.org/en-US/docs/Web/API/Location/reload" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">https://developer.mozilla.org/en-US/docs/Web/API/Location/reload</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">）可能会有所帮助-它确实解决了我在FF上的问题。</font></font></sub></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

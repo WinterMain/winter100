@@ -46,6 +46,7 @@ clonedNodesArray[0].value = "green"<font></font>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -359,6 +360,7 @@ console.log( "cloned array" , clonedArray ); // [ {a:1} , {b:2} ]</code></pre>
 <li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在第二轮中，将对象链接在一起。  </font></font></li>
 </ol></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

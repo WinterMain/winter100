@@ -30,6 +30,7 @@ topic: CSS
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -40,6 +41,7 @@ topic: CSS
 
 <p>More about import feature in Sass you can find <a href="https://kolosek.com/sass-import/" rel="noreferrer">here</a> </p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

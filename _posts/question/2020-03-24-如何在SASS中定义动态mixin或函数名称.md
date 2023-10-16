@@ -36,6 +36,7 @@ topic: CSS
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -67,6 +68,7 @@ topic: CSS
 <p><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">更新</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">：由于对它的请求数量众多，Eppstein在2016年最终实现了该功能。</font><font style="vertical-align: inherit;">但是，今天（2018年中），这些更改仍未合并到主分支中，因此在sass版本中仍然不可用。</font><font style="vertical-align: inherit;">参见
  </font></font><a href="https://github.com/sass/sass/pull/2057" rel="nofollow noreferrer"><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">问题2057</font></font></strong></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

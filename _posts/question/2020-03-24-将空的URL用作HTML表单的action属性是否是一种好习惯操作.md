@@ -23,6 +23,7 @@ topic: HTML
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -141,6 +142,7 @@ topic: HTML
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我通常使用action =“”，它是XHTML有效的，并将GET数据保留在URL中。</font></font></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

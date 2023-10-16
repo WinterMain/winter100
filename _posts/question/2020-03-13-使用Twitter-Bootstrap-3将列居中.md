@@ -39,6 +39,7 @@ topic: CSS
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -675,6 +676,7 @@ topic: CSS
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">由于v3.0.1 Bootstrap具有一个名为的内置类，该类</font></font><code>center-block</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">使用</font></font><code>margin: 0 auto</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，但缺少</font></font><code>float:none</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，因此可以将其添加到CSS中以使其与网格系统一起使用。</font></font></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

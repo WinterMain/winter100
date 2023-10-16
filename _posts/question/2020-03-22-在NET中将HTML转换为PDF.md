@@ -23,6 +23,7 @@ topic: HTML
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -609,6 +610,7 @@ var pdfBytes = (new NReco.PdfGenerator.HtmlToPdfConverter()).GeneratePdf(htmlCon
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">对于.NET，您可以使用此</font></font><a href="https://github.com/codaxy/wkhtmltopdf" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">小型库</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">轻松调用wkhtmtopdf命令行实用程序。</font></font></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

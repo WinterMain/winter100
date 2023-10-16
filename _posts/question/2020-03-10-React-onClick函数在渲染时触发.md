@@ -49,6 +49,7 @@ topic: JavaScript
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -189,6 +190,7 @@ class ScheduleType extends React.Component<font></font>
 
 <p><code>=&gt;</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> 在ES6中引入了一个称为Arrow Function的功能，并将在React 0.13.3或更高版本中得到支持。 </font></font></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

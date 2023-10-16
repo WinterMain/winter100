@@ -35,6 +35,7 @@ server.listen(3000);<font></font>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -424,6 +425,7 @@ SUCCESS: The process "node.exe" with PID 11008 has been terminated.<font></font>
 <pre><code>kill -9 {PID}
 </code></pre></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

@@ -29,6 +29,7 @@ topic: React.js
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -179,6 +180,7 @@ ReactDOM.render(<font></font>
 
 <p>which will unpack it into the props on your component, i.e., you "never" use <code>{... props}</code> inside your <code>render()</code> function, only when you pass the props down to another component. Use your unpacked props as normal <code>this.props.x</code>.</p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

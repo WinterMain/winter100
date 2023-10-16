@@ -44,6 +44,7 @@ topic: JavaScript
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -326,6 +327,7 @@ topic: JavaScript
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这类似于</font></font><a href="https://stackoverflow.com/questions/12139152/how-do-i-set-the-value-property-in-angularjs-ng-options/17070766#17070766"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">@neemzy的答案</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，但是为该</font></font><code>value</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">属性</font><font style="vertical-align: inherit;">指定了单独的数据</font><font style="vertical-align: inherit;">。</font></font></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

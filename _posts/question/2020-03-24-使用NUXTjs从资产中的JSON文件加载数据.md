@@ -25,6 +25,7 @@ topic: Vue.js
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -51,6 +52,7 @@ jsons_readed.push(file)<font></font>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果</font></font><code>regions.json</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">文件不会更改，则可以轻松地将其放在</font></font><code>static</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">文件夹中。</font><font style="vertical-align: inherit;">然后该网址将是</font><a href="https://github.com/nuxt/nuxt.js/issues/123" rel="noreferrer"><font style="vertical-align: inherit;">在nuxt问题页面上</font></a></font><code>/data/geo/regions.json</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> 
 查看此问题</font></font><a href="https://github.com/nuxt/nuxt.js/issues/123" rel="noreferrer"><font style="vertical-align: inherit;"></font></a></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

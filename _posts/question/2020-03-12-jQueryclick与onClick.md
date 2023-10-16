@@ -51,6 +51,7 @@ topic: JavaScript
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -137,6 +138,7 @@ topic: JavaScript
           </div>
           <div class="discuss-comment"><p><code>$('#myDiv').click</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">更好，因为它将JavaScript代码与</font></font><a href="http://en.wikipedia.org/wiki/HTML" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">HTML</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">分开</font><font style="vertical-align: inherit;">。</font><font style="vertical-align: inherit;">必须设法使页面</font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">行为和结构</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">保持</font><strong><font style="vertical-align: inherit;">不同</font></strong><font style="vertical-align: inherit;">。</font><font style="vertical-align: inherit;">这很有帮助。</font></font></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

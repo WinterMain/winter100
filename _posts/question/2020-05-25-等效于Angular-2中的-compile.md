@@ -27,6 +27,7 @@ $compile</span><span class="pun">(</span><span class="pln">e</span><span class="
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -158,6 +159,7 @@ $compile</span><span class="pun">(</span><span class="pln">e</span><span class="
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">您可以看到该组件，该组件允许编译简单的动态Angular组件</font></font><a href="https://www.npmjs.com/package/@codehint-ng/html-compiler" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">https://www.npmjs.com/package/@codehint-ng/html-compiler</font></font></a></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

@@ -30,6 +30,7 @@ topic: JavaScript
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -82,6 +83,7 @@ topic: JavaScript
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果变量不在函数范围内，则在全局范围内。</font><font style="vertical-align: inherit;">而且全局变量通常是不好的，因此这是一种将库的变量保留给自己的构造。</font></font></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

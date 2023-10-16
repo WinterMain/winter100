@@ -171,6 +171,7 @@ backend domain: api.mysite.com</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -202,6 +203,7 @@ backend domain: api.mysite.com</p>
 <font></font>
 </pre></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

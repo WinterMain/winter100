@@ -23,6 +23,7 @@ topic: Vue.js
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -33,6 +34,7 @@ topic: Vue.js
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">当前版本的</font></font><code>create-nuxt-app</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">添加</font></font><code>nuxt: ^2.4.0</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">或类似</font><font style="vertical-align: inherit;">版本</font><font style="vertical-align: inherit;">，与所有以2开头的次要版本和修补程序版本匹配，因此将安装最新的2.xy。</font></font></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

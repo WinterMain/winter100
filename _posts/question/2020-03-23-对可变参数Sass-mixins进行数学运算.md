@@ -60,6 +60,7 @@ topic: CSS
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -114,6 +115,7 @@ topic: CSS
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">对{{here}中包含的表达式和变量进行了评估，就好像它们与该行的其余部分是分开的一样，因此，请不要键入其余部分。</font><font style="vertical-align: inherit;">如果在您不期望的时候输出被引用，这也会派上用场（unquote（）函数也是如此）</font></font></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

@@ -42,6 +42,7 @@ function doSomething() {<font></font>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -59,6 +60,7 @@ function doSomething() {<font></font>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">但是，这是一个全有或全无的解决方案。</font><font style="vertical-align: inherit;">在我当前正在开发的小型应用程序上，它似乎运行良好。</font><font style="vertical-align: inherit;">但这可能会影响其他应用程序的性能。</font><font style="vertical-align: inherit;">如果您确实只想仅对某些路由禁用视图的重用，则可以查看</font><a href="https://github.com/vuejs/vue-router/issues/474#issuecomment-258139659" rel="noreferrer"><font style="vertical-align: inherit;">根据route</font></a><font style="vertical-align: inherit;">设置</font></font><code>key</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">的值</font><font style="vertical-align: inherit;">。</font><font style="vertical-align: inherit;">但是我真的不喜欢这种方法。</font></font><a href="https://github.com/vuejs/vue-router/issues/474#issuecomment-258139659" rel="noreferrer"><font style="vertical-align: inherit;"></font></a><font style="vertical-align: inherit;"></font></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

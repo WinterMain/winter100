@@ -19,6 +19,7 @@ answer: 1
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -27,6 +28,7 @@ answer: 1
           </div>
           <div class="discuss-comment"><p>首先在你的项目中找到Gemfile文件，然后在代码中添加</p><p>gem&nbsp;"kramdown-math-katex"</p><figure class="image"><img src="https://www.samyoc.com/uploads/users/1/images/1573181182945.png"></figure></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

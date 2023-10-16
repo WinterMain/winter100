@@ -21,6 +21,7 @@ topic: Vue.js
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -41,6 +42,7 @@ topic: Vue.js
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我从未使用过Pusher，但是看起来，是的，它是SaaS产品。</font><font style="vertical-align: inherit;">但是</font></font><a href="https://github.com/socketio/socket.io" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Socket.io是开源的</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

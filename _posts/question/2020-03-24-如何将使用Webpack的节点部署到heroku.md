@@ -27,6 +27,7 @@ topic: Webpack
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -79,6 +80,7 @@ topic: Webpack
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这样比较好，因为如果使用postinstall，则每次执行</font></font><code>npm i</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">构建脚本时都会被解雇</font></font></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

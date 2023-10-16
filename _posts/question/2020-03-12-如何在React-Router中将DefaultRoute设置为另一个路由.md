@@ -37,6 +37,7 @@ topic: JavaScript
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -195,6 +196,7 @@ class App extends Component {<font></font>
 <pre><code>&lt;Redirect exact from="/" to="searchDashboard" /&gt;
 </code></pre></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

@@ -29,6 +29,7 @@ topic: JavaScript
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -166,6 +167,7 @@ $</span><span class="pun">(</span><span class="str">":checkbox"</span><span clas
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">或者，如果您使用其他使用这些名称的库，则可能要给它们提供诸如mycheck（）和myuncheck（）之类的唯一名称。</font></font></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

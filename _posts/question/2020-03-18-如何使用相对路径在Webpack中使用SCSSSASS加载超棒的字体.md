@@ -33,6 +33,7 @@ topic: CSS
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -61,6 +62,7 @@ topic: CSS
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如此处所述：</font><a href="http://fontawesome.io/get-started/" rel="noreferrer"><font style="vertical-align: inherit;">http</font></a><font style="vertical-align: inherit;"> :
  </font></font><a href="http://fontawesome.io/get-started/" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">//fontawesome.io/get-started/</font></font></a></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

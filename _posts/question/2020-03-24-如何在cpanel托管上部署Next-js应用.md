@@ -25,6 +25,7 @@ topic: React.js
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -68,6 +69,7 @@ npm run start<font></font>
  </font></font><a href="https://i.stack.imgur.com/sADgj.png" rel="nofollow noreferrer"><img src="https://i.stack.imgur.com/sADgj.png" alt="CPanel中NodeJS应用的入口点"></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在该字段上指定服务器文件。</font></font></li>
 </ol></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

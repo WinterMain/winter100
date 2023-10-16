@@ -91,6 +91,7 @@ var Route = (<font></font>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -121,6 +122,7 @@ var Route = (<font></font>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">使用</font></font><code>dispatch</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">目录排序将</font></font><em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">哑巴</font></font></em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，无状态组件与redux </font><font style="vertical-align: inherit;">耦合</font><font style="vertical-align: inherit;">。</font><font style="vertical-align: inherit;">这会使它的便携性降低。</font></font></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

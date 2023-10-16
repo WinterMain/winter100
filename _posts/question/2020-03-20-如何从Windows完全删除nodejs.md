@@ -21,6 +21,7 @@ topic: Node.js
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -116,6 +117,7 @@ topic: Node.js
 <li><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">重新启动，这是很好的措施。</font></font></p></li>
 </ol></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

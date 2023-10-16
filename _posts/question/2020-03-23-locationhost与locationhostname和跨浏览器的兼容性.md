@@ -49,6 +49,7 @@ console.log(location.hostname);<font></font>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -104,6 +105,7 @@ console.log(location.hostname);<font></font>
           <div class="discuss-comment"><p>Just to add a note that Google Chrome browser has origin attribute for the location. which gives you the entire domain from protocol to the port number as shown in the below screenshot. 
 <a href="https://i.stack.imgur.com/jmGCE.png" rel="nofollow noreferrer"><img src="https://i.stack.imgur.com/jmGCE.png" alt="chrome开发人员工具"></a></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

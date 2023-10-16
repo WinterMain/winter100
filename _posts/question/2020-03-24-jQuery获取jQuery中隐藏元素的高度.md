@@ -28,6 +28,7 @@ $select.hide();<font></font>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -94,6 +95,7 @@ top: 0;<font></font>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果通过将display css样式更改为“ none”来隐藏该元素，则该元素不会在页面上占用空间，并且您将不得不赋予它一种显示样式，这将导致该元素在某个空间处呈现。哪一点就可以得到高度。</font></font></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

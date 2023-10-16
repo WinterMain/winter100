@@ -32,6 +32,7 @@ topic: HTML
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -110,6 +111,7 @@ topic: HTML
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在HTML5中，它们是等效的。</font><font style="vertical-align: inherit;">使用较短的一个，更容易记住和键入。</font></font><a href="http://code.google.com/p/doctype-mirror/wiki/MetaCharsetAttribute"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">浏览器支持很好，</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">因为它是为向后兼容而设计的。</font></font></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

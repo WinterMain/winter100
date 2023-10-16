@@ -64,6 +64,7 @@ app.get('*', function response(req, res) {<font></font>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -99,6 +100,7 @@ app.get('*', function response(req, res) {<font></font>
 <pre><code>&lt;base href="http://localhost:3000/"&gt;
 </code></pre></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

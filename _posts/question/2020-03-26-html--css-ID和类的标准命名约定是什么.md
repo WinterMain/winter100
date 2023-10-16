@@ -33,6 +33,7 @@ topic: CSS
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -159,6 +160,7 @@ topic: CSS
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">谷歌有css＆html样式指南，建议始终使用连字符：</font></font><a href="https://google.github.io/styleguide/htmlcssguide.html#ID_and_Class_Name_Delimiters" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">https</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> : </font><a href="https://google.github.io/styleguide/htmlcssguide.html#ID_and_Class_Name_Delimiters" rel="noreferrer"><font style="vertical-align: inherit;">//google.github.io/styleguide/htmlcssguide.html#ID_and_Class_Name_Delimiters</font></a><font style="vertical-align: inherit;">。</font></font></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

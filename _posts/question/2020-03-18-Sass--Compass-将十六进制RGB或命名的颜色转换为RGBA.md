@@ -26,6 +26,7 @@ topic: CSS
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -86,6 +87,7 @@ topic: CSS
   <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">从有效的CSS十六进制字符串创建新的颜色。</font><font style="vertical-align: inherit;">前导哈希是可选的。</font></font></p>
 </blockquote></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

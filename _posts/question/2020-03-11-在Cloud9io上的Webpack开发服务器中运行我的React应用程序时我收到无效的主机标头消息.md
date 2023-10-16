@@ -147,6 +147,7 @@ module.exports = {<font></font>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -192,6 +193,7 @@ module.exports = {<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">请参阅以下答案以获取安全的解决方案：</font><a href="https://stackoverflow.com/a/43621275/5425585"><font style="vertical-align: inherit;">https</font></a><font style="vertical-align: inherit;"> :
  </font></font><a href="https://stackoverflow.com/a/43621275/5425585"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">//stackoverflow.com/a/43621275/5425585</font></font></a></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

@@ -37,6 +37,7 @@ arr.reduce(function(a,b){return a + b})<font></font>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -238,6 +239,7 @@ console.log(arr);</code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">第一次调用匿名函数时，将使用调用</font></font><code>(0, {x: 1})</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">并返回</font></font><code>0 + 1 = 1</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font><font style="vertical-align: inherit;">下次，它被调用</font></font><code>(1, {x: 2})</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">并返回</font></font><code>1 + 2 = 3</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font><font style="vertical-align: inherit;">然后调用</font></font><code>(3, {x: 4})</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，最后返回</font></font><code>7</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

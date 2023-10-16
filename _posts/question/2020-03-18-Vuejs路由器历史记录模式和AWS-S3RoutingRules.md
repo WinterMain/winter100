@@ -65,6 +65,7 @@ HostId: +BVrPLJSGdzSYogzWZ4GMBXkgkdSJWRVJVhcSs4EI/lmMUR422aCtCxpBGU6AMe5VkS1UbEn
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -132,6 +133,7 @@ HostId: +BVrPLJSGdzSYogzWZ4GMBXkgkdSJWRVJVhcSs4EI/lmMUR422aCtCxpBGU6AMe5VkS1UbEn
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我看到的缺点是：-存储文件副本的开销-必须确保是否添加页面，不要忘记更新构建和部署脚本。</font></font></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

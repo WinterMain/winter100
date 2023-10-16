@@ -33,6 +33,7 @@ topic: Node.js
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -110,6 +111,7 @@ go_do_something_with_result( result );<font></font>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">注意：当我说环境可以在何时运行时变得很聪明时，我的意思是说它用来启动一些I / O的线程现在可以用来处理其他请求或可以完成的某些计算并行，或启动其他并行I / O。</font><font style="vertical-align: inherit;">（我不确定节点是否足够成熟，可以为同一请求启动更多工作，但是您明白了。）</font></font></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

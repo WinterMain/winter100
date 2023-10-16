@@ -72,6 +72,7 @@ package.json<font></font>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -155,6 +156,7 @@ package.json<font></font>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Webpack热重装对我也停止了工作。</font><font style="vertical-align: inherit;">对我来说，解决方案是删除</font></font><code>node_modules</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">文件夹并重新安装所有依赖项。</font><font style="vertical-align: inherit;">只需</font></font><code>node_modules</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在终端中</font><font style="vertical-align: inherit;">打开的父文件夹</font><font style="vertical-align: inherit;">并运行</font></font><code>npm install</code></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

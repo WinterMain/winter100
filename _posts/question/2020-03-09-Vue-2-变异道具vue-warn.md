@@ -41,6 +41,7 @@ new Vue({<font></font>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -89,6 +90,7 @@ new Vue({<font></font>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">支撑下来，事件向上。</font><font style="vertical-align: inherit;">这就是Vue的模式。</font><font style="vertical-align: inherit;">关键是，如果您尝试变异从父代传来的道具。</font><font style="vertical-align: inherit;">它将无法工作，只会被父组件重复覆盖。</font><font style="vertical-align: inherit;">子组件只能发出一个事件以通知父组件执行某项操作。</font><font style="vertical-align: inherit;">如果您不喜欢这些限制，则可以使用VUEX（实际上，这种模式会吸收复杂的组件结构，您应该使用VUEX！）</font></font></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

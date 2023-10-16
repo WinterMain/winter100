@@ -26,6 +26,7 @@ console.log "Express server listening on port %d in %s mode %s", app.address().p
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -75,6 +76,7 @@ console.log "Express server listening on port %d in %s mode %s", app.address().p
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">有关</font><font style="vertical-align: inherit;">更多详细信息，</font><font style="vertical-align: inherit;">请参见</font></font><a href="https://docs.npmjs.com/misc/scripts#packagejson-vars" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">package.json vars</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

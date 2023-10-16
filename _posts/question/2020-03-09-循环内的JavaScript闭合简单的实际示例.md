@@ -95,6 +95,7 @@ for (var i = 0; i &lt; 3; i++) {<font></font>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -538,6 +539,7 @@ for (var j = 0; j &lt; 3; j++) {<font></font>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我个人认为，@ Aust </font></font><a href="https://stackoverflow.com/a/19323214/918959"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">最近关于使用的答案</font></font><code>.bind</code></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">是现在执行此类操作的最佳方法。</font><font style="vertical-align: inherit;">还有LO-破折号/下划线是</font></font><code>_.partial</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">当你不需要或不想要惹做</font></font><code>bind</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">的</font></font><code>thisArg</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

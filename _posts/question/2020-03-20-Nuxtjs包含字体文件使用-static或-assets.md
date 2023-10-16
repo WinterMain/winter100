@@ -39,6 +39,7 @@ topic: Vue.js
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -51,6 +52,7 @@ topic: Vue.js
 
 <p><code>static\</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">无需任何处理即可</font><font style="vertical-align: inherit;">从根URL（static \ img \ test.jpg =&gt; </font></font><a href="http://example.fr/img/test.jpg" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">http://example.fr/img/test.jpg</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">）</font><font style="vertical-align: inherit;">公开所有静态文件。</font></font></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

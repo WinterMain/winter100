@@ -35,6 +35,7 @@ topic: Node.js
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -53,6 +54,7 @@ topic: Node.js
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">根据</font></font><a href="https://expressjs.com/en/guide/behind-proxies.html" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Express在代理之后</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，</font></font><code>req.ip</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果配置</font></font><code>trust proxy</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">正确</font><font style="vertical-align: inherit;">，</font><font style="vertical-align: inherit;">则考虑了反向代理</font><font style="vertical-align: inherit;">。</font><font style="vertical-align: inherit;">因此，它比</font></font><code>req.connection.remoteAddress</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">从网络层获得并且不了解代理</font><font style="vertical-align: inherit;">更好</font><font style="vertical-align: inherit;">。</font></font></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

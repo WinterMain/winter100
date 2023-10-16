@@ -29,6 +29,7 @@ for line in html:<font></font>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -224,6 +225,7 @@ def stripHtmlTags(htmlTxt):<font></font>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我尝试了接受的答案的代码，但得到的是“ RuntimeError：超出最大递归深度”，上述代码块未发生这种情况。</font></font></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

@@ -25,6 +25,7 @@ topic: Node.js
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -81,6 +82,7 @@ topic: Node.js
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果在服务器和客户端之间放置以反向代理模式运行的Apache或NGINX实例，则可以处理Node.js上的JavaScript中的某些请求以及Apache托管的PHP中的某些请求，直到可以完全替换所有PHP。使用JavaScript代码。</font><font style="vertical-align: inherit;">这可能是一个快乐的媒介：您的WebSockets是否可以在Node.js中工作，而平常的工作是否可以在Apache + PHP中工作。</font></font></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

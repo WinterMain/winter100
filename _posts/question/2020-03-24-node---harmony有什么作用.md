@@ -28,6 +28,7 @@ topic: Node.js
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -78,6 +79,7 @@ topic: Node.js
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">因此</font></font><code>--harmony</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，启用所有和谐功能（例如</font></font><code>--harmony_scoping</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，</font></font><code>--harmony_proxies</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">等）</font><font style="vertical-align: inherit;">的捷径是</font></font><a href="http://www.goatslacker.com/post/16000243520/how-to-obtain-harmony-in-your-node-js" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">此博客文章中的一种</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，看来和谐启用了该语言的ECMAScript 6新功能。</font><font style="vertical-align: inherit;">文件无法和谐运行的原因</font></font><code>app.js</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">是可能使用了新ECMAScript 6标准的非向后兼容功能（例如块范围，代理，集合，地图等）。</font></font></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

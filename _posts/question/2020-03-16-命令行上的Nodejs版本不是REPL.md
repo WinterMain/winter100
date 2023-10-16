@@ -26,6 +26,7 @@ topic: Node.js
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -201,6 +202,7 @@ node --version<font></font>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果</font></font><code>node -v</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">不行，但行得通，</font></font><code>nodejs -v</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">则说明您的系统上的某些设置不正确。</font><font style="vertical-align: inherit;">有关</font><font style="vertical-align: inherit;">解决方法，</font><font style="vertical-align: inherit;">请参阅</font></font><a href="https://stackoverflow.com/questions/18130164/nodejs-vs-node-on-ubuntu-12-04"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">此其他问题</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

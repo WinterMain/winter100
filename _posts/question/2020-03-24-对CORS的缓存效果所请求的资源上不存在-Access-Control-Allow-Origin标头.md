@@ -247,6 +247,7 @@ X-Amz-Cf-Id: 3wQ7Z6EaAcMscGirwsYVi1M_rvoc1fbI034QY4QZd6IqmlRzLRllEg==<font></fon
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -361,6 +362,7 @@ X-Amz-Cf-Id: 3wQ7Z6EaAcMscGirwsYVi1M_rvoc1fbI034QY4QZd6IqmlRzLRllEg==<font></fon
 <pre><code>Vary: Origin, Access-Control-Request-Headers, Access-Control-Request-Method
 </code></pre></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

@@ -23,6 +23,7 @@ topic: JavaScript
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -621,6 +622,7 @@ unchanged<font></font>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">实际上，这意味着如果您更改参数本身（如</font></font><code>num</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">和一样</font></font><code>obj2</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">），则不会影响输入该参数的项目。</font><font style="vertical-align: inherit;">但是，如果您更改</font><font style="vertical-align: inherit;">参数</font><font style="vertical-align: inherit;">的</font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">INTERNALS</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，则会传播回来（与一样</font></font><code>obj1</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">）。</font></font></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

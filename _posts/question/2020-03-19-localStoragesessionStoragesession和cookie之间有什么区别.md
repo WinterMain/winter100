@@ -21,6 +21,7 @@ topic: HTML
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -171,6 +172,7 @@ topic: HTML
 
 <p>For further reading on client storage technologies see <a href="http://diveintohtml5.info/storage.html" rel="noreferrer">Dive Into Html 5</a>.</p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

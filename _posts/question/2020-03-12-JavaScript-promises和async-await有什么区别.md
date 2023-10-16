@@ -60,6 +60,7 @@ var returnVal = await myAsyncFunction(obj);<font></font>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -234,6 +235,7 @@ var returnVal = await myAsyncFunction(obj);<font></font>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">仅使用Promises，此示例将更加复杂。</font></font></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

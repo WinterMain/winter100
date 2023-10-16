@@ -81,6 +81,7 @@ export default new VueRouter({routes});<font></font>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -123,6 +124,7 @@ export default new VueRouter({routes});<font></font>
 
 <p><img src="https://img2018.cnblogs.com/blog/740516/201905/740516-20190530164442778-433081486.png" alt=""></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

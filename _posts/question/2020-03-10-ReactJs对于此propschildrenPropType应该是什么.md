@@ -66,6 +66,7 @@ export default ContainerComponent;<font></font>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -143,6 +144,7 @@ optionalNode: PropTypes.node,<font></font>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">描述可以渲染的任何东西-字符串，数字，元素或这些东西的数组。</font><font style="vertical-align: inherit;">如果这适合您，那么这就是方法。</font></font></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

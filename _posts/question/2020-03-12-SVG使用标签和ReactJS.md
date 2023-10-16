@@ -30,6 +30,7 @@ topic: React.js
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -40,6 +41,7 @@ topic: React.js
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">您最终可能会在SVG中使用其他名称空间标签，例如</font></font><code>xml:space</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，等等。相同的规则适用于它们（即</font></font><code>xml:space</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">变为</font></font><code>xmlSpace</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">）。</font></font></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

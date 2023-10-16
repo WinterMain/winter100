@@ -45,6 +45,7 @@ console.log(arr[0]);  // Prints: format_undefined (!!!)<font></font>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -265,6 +266,7 @@ console.log(arr[0] + " " + arr[1]);</code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这</font></font><code>\b</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">不是一回事。</font><font style="vertical-align: inherit;">（它适用于</font></font><code>--format_foo/</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，但不适用</font></font><code>format_a_b</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">），但我想展示一种替代您的表情的方法，这很好。</font><font style="vertical-align: inherit;">当然，</font></font><code>match</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">通话是重要的。</font></font></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

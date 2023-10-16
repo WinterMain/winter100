@@ -31,6 +31,7 @@ topic: React.js
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -40,6 +41,7 @@ topic: React.js
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我建议您使用</font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">connected-react-router </font></font></strong> <a href="https://github.com/supasate/connected-react-router" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">https://github.com/supasate/connected-react-router</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">  
 ，即使您需要，它也可以帮助执行减速器/动作的导航。</font><font style="vertical-align: inherit;">它有据可查且易于配置</font></font></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

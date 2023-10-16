@@ -49,6 +49,7 @@ topic: CSS
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -57,6 +58,7 @@ topic: CSS
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">您要使用</font></font><code>@extend .btn;</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">-@extend允许您继承选择器的所有属性，而不必将其定义为mixin。</font></font></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

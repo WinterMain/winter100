@@ -37,6 +37,7 @@ topic: CSS
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -47,6 +48,7 @@ topic: CSS
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我通过Compass应用程序安装了FOundation。</font><font style="vertical-align: inherit;">作为Compass的新手，我也一直在寻找包含所有各种Foundation SCSS文件的“基础”文件夹。</font><font style="vertical-align: inherit;">当我查看存在的_settings.scss文件时，似乎所有内容都被注释掉了。</font><font style="vertical-align: inherit;">我所了解的（仍然是Compass的新手）是，“基础”文件位于Compass的资源库中。</font><font style="vertical-align: inherit;">需要时，这些文件在生成CSS文件时导入。</font><font style="vertical-align: inherit;">带有所有注释掉字段的_settings.scss文件是替代文件。</font><font style="vertical-align: inherit;">因此，如果删除特定变量或混合的注释，它将覆盖Compass库中隐藏的原始注释。</font><font style="vertical-align: inherit;">编译后的CSS似乎包含了所有需要的东西。</font></font></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

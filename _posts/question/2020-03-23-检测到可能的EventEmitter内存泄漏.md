@@ -41,6 +41,7 @@ Trace: <font></font>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -157,6 +158,7 @@ Trace: <font></font>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我找到此页面是因为收到此警告，并且在我的情况下，我正在使用的某些代码中存在一个错误，该错误将全局对象转换为EventEmitter！</font><font style="vertical-align: inherit;">我当然建议不要在全球范围内增加限制，因为您不希望这些事情被忽视。</font></font></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

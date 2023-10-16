@@ -27,6 +27,7 @@ var dt_st= //st in date format same as dt<font></font>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -204,6 +205,7 @@ var dt = new Date(st);<font></font>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">您可以使用，例如访问日期，月份，年份：</font></font><code>dt.getMonth()</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

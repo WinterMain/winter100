@@ -121,6 +121,7 @@ webpack.config.js<font></font>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -172,6 +173,7 @@ webpack.config.js<font></font>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">当然，您合法地可以有成千上万个可能需要监视的文件，在这种情况下，可以提高该限制，但是最好忽略不大可能更改的供应商库。</font></font></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

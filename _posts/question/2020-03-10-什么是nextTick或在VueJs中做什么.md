@@ -21,6 +21,7 @@ topic: Vue.js
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -44,6 +45,7 @@ topic: Vue.js
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">您可以在小提琴中看到，使用setTimeOut时，一旦装入组件，然后适应更改，初始数据将非常短暂地闪烁。</font><font style="vertical-align: inherit;">而使用nextTick时，数据被劫持，更改，然后呈现给浏览器。</font><font style="vertical-align: inherit;">因此，浏览器甚至在不了解旧数据的情况下也显示了更新的数据。</font><font style="vertical-align: inherit;">希望能一举解决两个概念。</font></font></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

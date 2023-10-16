@@ -21,6 +21,7 @@ topic: JavaScript
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -175,6 +176,7 @@ for (var i = 0; i &lt; 10000; i++) {<font></font>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">实际上，父窗口可以与运行自己的执行线程的子窗口或同级窗口或框架进行通信。</font></font></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

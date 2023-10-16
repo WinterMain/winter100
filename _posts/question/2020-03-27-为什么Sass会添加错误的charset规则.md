@@ -49,6 +49,7 @@ topic: CSS
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -67,6 +68,7 @@ topic: CSS
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">尝试添加</font></font><code>@charset "UTF-8";</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">到原始SCSS文件中，SASS不应覆盖它/然后添加它自己的文件。</font></font></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

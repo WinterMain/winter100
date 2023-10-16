@@ -35,6 +35,7 @@ topic: JavaScript
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -129,6 +130,7 @@ topic: JavaScript
 
 <p>And of course if this actually comes up often you could always create a wrapping component that takes in an array <code>paths</code> parameter, which does the regex or <code>.map</code> logic reusably.</p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

@@ -19,6 +19,7 @@ answer: 1
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -57,6 +58,7 @@ answer: 1
 }</code></pre><p>比如你要触发以下这个按钮</p><pre><code class="language-xml">&lt;button id="btn"&gt;Hello&lt;/button&gt;</code></pre><pre><code class="language-javascript">const btn = document.getElementById("btn");
 invokeEle(btn);</code></pre></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

@@ -65,6 +65,7 @@ topic: JavaScript
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -157,6 +158,7 @@ export default React.forwardRef((props, ref) =&gt; &lt;ElemComponent <font></fon
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">因此，基本上，是的，我们被迫具有其他支持转发引用的道具，但可以在中心下完成。</font><font style="vertical-align: inherit;">公众将其用作常规参考非常重要。</font></font></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

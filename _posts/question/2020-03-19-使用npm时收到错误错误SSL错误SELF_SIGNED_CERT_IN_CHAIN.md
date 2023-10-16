@@ -51,6 +51,7 @@ npm ERR! npm -v 1.0.104<font></font>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -198,6 +199,7 @@ npm config delete ca<font></font>
 <pre><code>npm config set registry="http://registry.npmjs.org/"
 </code></pre></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

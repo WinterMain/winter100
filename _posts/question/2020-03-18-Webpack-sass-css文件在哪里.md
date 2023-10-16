@@ -35,6 +35,7 @@ topic: CSS
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -70,6 +71,7 @@ topic: CSS
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果在使用Webpack时需要单独的CSS文件，则需要使用</font></font><a href="https://github.com/webpack/extract-text-webpack-plugin" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">extract-text-webpack-plugin</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

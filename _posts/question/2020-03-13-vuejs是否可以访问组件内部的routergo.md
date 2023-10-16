@@ -58,7 +58,9 @@ window.router = router // I don't want to set this global variable<font></font>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     
+    </div>
     {% endraw %}
   </div>
 <div>

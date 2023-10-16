@@ -125,6 +125,7 @@ $container-max-widths: (xxxs: 0, xxs: 320px, xs: 568px, sm: 667px, md: 768px, lg
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -185,6 +186,7 @@ $container-max-widths: (<font></font>
 <pre><code>$grid-breakpoints: (xxxs: 0, xxs: 320px, xs: 568px, sm: 667px, md: 768px, lg: 992px, xl: 1200px, xxl: 1440px, xxxl: 1600px) !default
 </code></pre></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

@@ -21,6 +21,7 @@ topic: Webpack
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -41,6 +42,7 @@ require("jquery-ui/ui/widgets/draggable");<font></font>
 
 <p>See <a href="https://jqueryui.com/upgrade-guide/1.12/#official-package-on-npm" rel="noreferrer">documentation</a> on using the 1.12 official npm package.</p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

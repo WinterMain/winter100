@@ -48,6 +48,7 @@ topic: React.js
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -374,6 +375,7 @@ forceUpdate();<font></font>
 
 <h3><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">挂钩：</font></font><a href="https://stackoverflow.com/questions/53215285/how-can-i-force-component-to-re-render-with-hooks-in-react/58606536#58606536"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如何在React中强制使用挂钩重新渲染组件？</font></font></a></h3></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

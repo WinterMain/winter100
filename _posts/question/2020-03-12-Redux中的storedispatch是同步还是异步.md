@@ -25,6 +25,7 @@ topic: JavaScript
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -40,6 +41,7 @@ topic: JavaScript
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">AFAIK，调度动作是同步的。</font><font style="vertical-align: inherit;">如果您愿意解决异步调用，则可以</font><font style="vertical-align: inherit;">在redux中</font><font style="vertical-align: inherit;">使用</font></font><a href="https://github.com/gaearon/redux-thunk" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">thunk-middleware</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，其中将dispatch作为回调函数提供，您可以根据需要调用它。</font><font style="vertical-align: inherit;">有关更多信息，请按作者本身在SO上检查以下答案：</font></font><a href="https://stackoverflow.com/questions/35411423/how-to-dispatch-a-redux-action-with-a-timeout/35415559#35415559"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如何在超时的情况下调度Redux操作？</font></font></a></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

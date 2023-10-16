@@ -39,6 +39,7 @@ topic: CSS
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -128,6 +129,7 @@ topic: CSS
  .启用Developer Tools实验</font></font><br><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
  。4.在检查器（F12）中，打开“设置”，然后转到“ Experiments”标签，然后选中“ Support for SASS”。  </font></font></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

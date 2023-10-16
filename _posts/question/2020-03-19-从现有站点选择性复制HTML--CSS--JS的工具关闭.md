@@ -47,6 +47,7 @@ topic: CSS
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -225,6 +226,7 @@ for(var i = -1, l = els.length; ++i &lt; l;){<font></font>
 
 <p><img src="https://i.stack.imgur.com/hvvtf.png" alt="具有样式结果的元素源"></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

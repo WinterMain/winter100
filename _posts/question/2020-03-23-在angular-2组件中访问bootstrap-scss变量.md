@@ -50,6 +50,7 @@ $enable-flex: true; // Enable Flexbox mode<font></font>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -58,6 +59,7 @@ $enable-flex: true; // Enable Flexbox mode<font></font>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">创建一个_colors.scss文件，复制其中的所有颜色变量，然后将该文件导入您的component.scss文件中。 </font></font></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

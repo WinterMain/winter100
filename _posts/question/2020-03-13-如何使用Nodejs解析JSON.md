@@ -21,6 +21,7 @@ topic: JavaScript
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -195,6 +196,7 @@ var file = JSON.parse(fs.readFileSync("./PATH/data.json", "utf8"));<font></font>
 <pre><code>JSON.parse(str);
 </code></pre></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

@@ -40,6 +40,7 @@ for (var x = 0; x &lt; Args.length; x++)<font></font>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -464,6 +465,7 @@ loop3:<font></font>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">与C不同，这些标签只能用于</font></font><a href="https://developer.mozilla.org/en/JavaScript/Reference/Statements/continue" rel="noreferrer"><code>continue</code></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">和</font></font><a href="https://developer.mozilla.org/en/JavaScript/Reference/Statements/break" rel="noreferrer"><code>break</code></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，而Javascript没有</font></font><code>goto</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

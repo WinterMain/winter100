@@ -29,6 +29,7 @@ topic: Node.js
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -515,6 +516,7 @@ See <a href="https://docs.npmjs.com/getting-started/installing-node" rel="nofoll
 有关</font><font style="vertical-align: inherit;">此处找到</font><font style="vertical-align: inherit;">的</font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">n</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">包的</font><font style="vertical-align: inherit;">
 更多信息</font><font style="vertical-align: inherit;">：</font></font><a href="https://www.npmjs.com/package/n" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">npmjs.com/package/n</font></font></a><br><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">有关Node.js的发布时间表的更多信息：</font></font><a href="https://github.com/nodejs/Release#release-schedule" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">github.com/nodejs/Release</font></font></a></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

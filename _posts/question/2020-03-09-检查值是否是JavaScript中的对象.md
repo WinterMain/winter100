@@ -21,6 +21,7 @@ topic: JavaScript
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -240,6 +241,7 @@ console.log((null).constructor.name) //throws an error because null does not act
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">编辑：这个答案给出了一个如何检查变量属性的想法，但是它</font></font><em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">不是</font></font></em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">防弹配方（毕竟根本没有配方！）来检查它是否是一个对象，而不是对象。</font><font style="vertical-align: inherit;">由于人们倾向于在不做任何研究的情况下从这里寻找要复制的东西，因此我强烈建议他们转向另一个最受好评（也是正确的答案）的答案。</font></font></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

@@ -29,6 +29,7 @@ topic: CSS
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -137,6 +138,7 @@ topic: CSS
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">您是否在IE8中尝试过代码以查看是否也可以在其中工作？</font><font style="vertical-align: inherit;">IE8有一个调试器（</font></font><kbd>F12</kbd><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">），也可以在IE7模式下运行。</font></font></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

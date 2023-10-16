@@ -22,6 +22,7 @@ topic: React.js
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -80,6 +81,7 @@ topic: React.js
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">对于当前版本0.11及更高版本，您需要添加</font></font><code>Router.HistoryLocation</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">到</font></font><code>Router.run()</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font><code>&lt;Routes&gt;</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">现在已弃用。</font></font><a href="https://github.com/rackt/react-router/blob/d49199e4b939a01f1e9f18188166a8f8a9f52a5b/UPGRADE_GUIDE.md#react-012"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">有关</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> 0.12.x HistoryLocation的实现，</font><a href="https://github.com/rackt/react-router/blob/d49199e4b939a01f1e9f18188166a8f8a9f52a5b/UPGRADE_GUIDE.md#react-012"><font style="vertical-align: inherit;">请参阅《升级指南》</font></a><font style="vertical-align: inherit;">。</font></font></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

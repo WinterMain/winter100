@@ -31,6 +31,7 @@ topic: React.js
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -651,6 +652,7 @@ android:usesCleartextTraffic="true"<font></font>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">您尚未启动捆绑器。</font><font style="vertical-align: inherit;">在之前</font><font style="vertical-align: inherit;">运行</font></font><code>npm start</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">或</font></font><code>react-native start</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在项目的根目录中</font></font><code>react-native run-android</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

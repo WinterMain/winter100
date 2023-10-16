@@ -30,6 +30,7 @@ this.$router.push(link);<font></font>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -68,6 +69,7 @@ beforeRouteEnter(to, from, next) {<font></font>
 
 <p>Then you can use <code>this.prevRoute.path</code> to get the previous URL.</p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

@@ -41,6 +41,7 @@ topic: JavaScript
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -261,6 +262,7 @@ for that we need to  use  in the top of the function(). </p>
 
 <p><a href="http://www.mail-archive.com/jquery-en@googlegroups.com/msg71371.html" rel="noreferrer" data-bitapp="processed"><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">使用event.preventDefault（）代替“ return false”来取消href点击有什么好处？</font></font></strong></a></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

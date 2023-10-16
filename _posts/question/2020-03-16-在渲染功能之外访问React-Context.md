@@ -121,6 +121,7 @@ export default class Users extends React.Component {<font></font>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -171,6 +172,7 @@ class MyComp extends Component {<font></font>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">编辑：实际上，您不需要使用提供的多上下文api，</font></font><code>with-context</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">实际上，您可以使用简单的api并为每个上下文创建一个 decorator，如果您想在组件中使用多个消费者，则只需在类上声明所需的装饰数！</font></font></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

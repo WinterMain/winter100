@@ -51,6 +51,7 @@ ReactDOM.render(<font></font>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -193,6 +194,7 @@ setTimeout(function() {<font></font>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">否则，您会将的结果传递</font></font><code>setState</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">给</font></font><code>setTimeout</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

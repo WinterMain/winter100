@@ -24,6 +24,7 @@ answer: 1
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -57,6 +58,7 @@ answer: 1
 
 <p>To update Node.js itself, I recommend you use&nbsp;<a href="https://github.com/creationix/nvm" rel="noreferrer">nvm, the Node Version Manager</a>.</p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

@@ -29,6 +29,7 @@ topic: React.js
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -61,6 +62,7 @@ topic: React.js
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">您可能需要花些时间去寻找Goldilocks时期-并不是经常浪费您的精力，也不太可能是因为它死了-但这就是其他人所做的。</font></font></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

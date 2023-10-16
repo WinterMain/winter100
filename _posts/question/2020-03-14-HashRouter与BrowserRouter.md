@@ -35,6 +35,7 @@ topic: React.js
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -104,6 +105,7 @@ topic: React.js
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">无论</font></font><code>BrowserRouter</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">和</font></font><code>HashRouter</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">组件是在阵营第4代路由器作为子类介绍</font></font><code>Router</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">类。</font><font style="vertical-align: inherit;">只需</font></font><code>BrowserRouter</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">将UI与浏览器中的当前URL同步，即可通过HTML-5 History API来完成。</font><font style="vertical-align: inherit;">另一方面，</font></font><code>HashRouter</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">使用URL的哈希部分进行同步。</font></font></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

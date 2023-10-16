@@ -23,6 +23,7 @@ topic: JavaScript
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -73,6 +74,7 @@ topic: JavaScript
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">对于非平凡的模型（例如具有大量字段或大量列表的模型），第二点更为重要。</font><font style="vertical-align: inherit;">复杂模型的一个字段更改将仅导致涉及该字段的DOM元素所需的操作，而不是整个视图/模板。</font></font></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

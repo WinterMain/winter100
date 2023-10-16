@@ -21,6 +21,7 @@ topic: CSS
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -268,6 +269,7 @@ Content not display on screen but it will take space on screen.<font></font>
 
 <p><code>visibility: hidden</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> 从视图中隐藏元素，但不隐藏页面流，从而在页面上留出空间。</font></font></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

@@ -52,6 +52,7 @@ li:not(:last-child):after {<font></font>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -201,6 +202,7 @@ li:last-child:after<font></font>
 <pre><code>ul &gt; li:not(:last-child):after
 </code></pre></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

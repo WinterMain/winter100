@@ -49,6 +49,7 @@ topic: React.js
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -521,6 +522,7 @@ sudo a2ensite sample</span><span class="pun">.</span><span class="pln">conf</spa
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我正在使用</font></font><code>react: "^16.12.0"</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">并且</font></font><code>react-router: "^5.1.2"</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
 这种方法是万能的，可能是入门的最简单方法。</font></font></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

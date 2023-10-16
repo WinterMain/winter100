@@ -34,6 +34,7 @@ topic: Node.js
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -64,6 +65,7 @@ app.get意味着“针对给定的URL对GET请求运行此操作”</font></font
 <li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">使用</font></font><code>app.use</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，如果你想添加一些中间件（的处理程序HTTP请求它到达您在快速设置路线之前），或者如果你想使你的路由模块（例如，公开了一组路线来自其他Web应用程序可以使用的npm模块）。</font></font></li>
 </ul></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

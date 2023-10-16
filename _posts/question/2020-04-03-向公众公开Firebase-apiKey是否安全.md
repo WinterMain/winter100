@@ -37,6 +37,7 @@ topic: JavaScript
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -62,6 +63,7 @@ topic: JavaScript
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果您想了解如何保护对Firebase后端服务的所有数据访问均得到授权，请阅读有关</font></font><a href="https://firebase.google.com/docs/rules" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Firebase安全规则</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">的文档</font><font style="vertical-align: inherit;">。</font></font></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

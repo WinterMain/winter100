@@ -21,6 +21,7 @@ topic: React.js
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -84,6 +85,7 @@ performSearch = () =&gt; {<font></font>
 
 <p><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">非常糟糕的做法</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，因为</font></font><code>render</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">-method应该是纯净的，这意味着不应执行任何操作，状态更改，api调用，只需合并视图并返回即可。</font><font style="vertical-align: inherit;">仅应在某些事件上执行操作。</font><font style="vertical-align: inherit;">渲染不是事件，而是</font></font><code>componentDidMount</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">例如。</font></font></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

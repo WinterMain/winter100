@@ -83,6 +83,7 @@ module.exports = Search;<font></font>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -248,6 +249,7 @@ this.handleButtonChangeSingle = this.handleButtonChange.bind(this, false);<font>
 &lt;Button href="#" active={this.state.singleJourney} onClick={this.handleButtonChangeRetour}&gt;Single Journey&lt;/Button&gt;<font></font>
 </code></pre></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

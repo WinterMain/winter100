@@ -123,6 +123,7 @@ console.log(mym.demoTool(3,4));</code></pre>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -133,6 +134,7 @@ console.log(mym.demoTool(3,4));</code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">对我来说，问题是我在</font></font><code>tsc</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">从外部引用</font><font style="vertical-align: inherit;">子模块之前忘记编译子模块（即运行</font><font style="vertical-align: inherit;">生成index.js）。</font></font></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

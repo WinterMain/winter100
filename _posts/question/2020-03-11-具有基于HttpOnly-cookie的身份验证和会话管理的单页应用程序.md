@@ -101,6 +101,7 @@ Accept-Language: en-US,en;q=0.8,tr;q=0.6<font></font>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -109,6 +110,7 @@ Accept-Language: en-US,en;q=0.8,tr;q=0.6<font></font>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">使用凭据控件设置和发送cookie，因此请确保在发布登录时将其打开，以便将返回的cookie保存在浏览器中。</font></font></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

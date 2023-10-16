@@ -40,6 +40,7 @@ topic: Vue.js
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -63,6 +64,7 @@ topic: Vue.js
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果您选择在Django服务上实现会话处理，则需要通过将cookie传递到</font></font><code>axios</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">请求标头中</font><font style="vertical-align: inherit;">来“转发” cookie </font><font style="vertical-align: inherit;">。</font></font></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

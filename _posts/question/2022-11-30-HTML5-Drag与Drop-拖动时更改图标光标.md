@@ -23,6 +23,7 @@ topic: JavaScript
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -92,6 +93,7 @@ topic: JavaScript
 <pre class="default s-code-block"><code class="hljs language-ini"><span class="hljs-attr">event.dataTransfer.dropEffect</span> = <span class="hljs-string">"copy"</span><span class="hljs-comment">;</span>
 </code></pre></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

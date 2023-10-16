@@ -21,6 +21,7 @@ topic: JavaScript
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -191,6 +192,7 @@ sendXHR();<font></font>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">您也可以</font><font style="vertical-align: inherit;">在请求对象上</font><font style="vertical-align: inherit;">使用</font></font><a href="https://developer.mozilla.org/en/DOM/XMLHttpRequest#abort%28%29" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">abort（）</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">方法，但是，尽管这将导致客户端停止侦听该事件，但它</font></font><strike><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">可能</font></font></strike><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">不会阻止服务器对其进行处理。</font></font></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

@@ -36,6 +36,7 @@ Module build failed: Error: Plugin/Preset files are not allowed to export object
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -58,6 +59,7 @@ Module build failed: Error: Plugin/Preset files are not allowed to export object
 <p>&nbsp;</p>
 </div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

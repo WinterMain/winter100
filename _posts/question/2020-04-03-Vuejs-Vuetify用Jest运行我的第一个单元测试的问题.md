@@ -98,6 +98,7 @@ topic: Vue.js
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -106,6 +107,7 @@ topic: Vue.js
           </div>
           <div class="discuss-comment"><p>修改 webpack.render.config.js:</p><blockquote><pre><code class="language-plaintext">let whiteListedModules = ['vue'];</code></pre></blockquote><p>&nbsp;</p><p>为：</p><blockquote><p><i>let</i> whiteListedModules = ['vue', 'vuetify'];</p></blockquote><p>然后从新npm run dev即可</p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

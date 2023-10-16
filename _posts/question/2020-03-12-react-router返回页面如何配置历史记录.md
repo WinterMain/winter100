@@ -73,6 +73,7 @@ var routes = (<font></font>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -381,6 +382,7 @@ var SomePage = React.createClass({<font></font>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">此解决方案将同时考虑这两种情况。</font><font style="vertical-align: inherit;">但是，它将无法使用后退按钮处理可在页面内导航（并添加到浏览器历史记录）的iframe。</font><font style="vertical-align: inherit;">坦白说，我认为这是react-router中的错误。</font><font style="vertical-align: inherit;">在此处创建的问题：</font><a href="https://github.com/rackt/react-router/issues/1874" rel="noreferrer"><font style="vertical-align: inherit;">https</font></a><font style="vertical-align: inherit;">：</font></font><a href="https://github.com/rackt/react-router/issues/1874" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">//github.com/rackt/react-router/issues/1874</font></font></a></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

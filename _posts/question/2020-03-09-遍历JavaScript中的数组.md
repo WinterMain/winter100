@@ -29,6 +29,7 @@ topic: JavaScript
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -402,6 +403,7 @@ new_list </span><span class="pun">=</span><span class="pln"> my_list</span><span
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">除非你不明白</font></font><code>new_list</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

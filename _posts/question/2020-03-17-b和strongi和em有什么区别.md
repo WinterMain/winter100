@@ -21,6 +21,7 @@ topic: HTML
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -293,6 +294,7 @@ topic: HTML
 
 <p><code>&lt;strong&gt;</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">并且</font></font><code>&lt;em&gt;</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">是语义的-它们指定所包含的文本应以某种方式“强”或“强调”，通常是粗体和斜体，但允许通过CSS控制实际样式。</font><font style="vertical-align: inherit;">因此，这些在现代网页中是首选。</font></font></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

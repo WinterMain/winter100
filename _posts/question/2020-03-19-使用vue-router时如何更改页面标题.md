@@ -71,6 +71,7 @@ export default new Router({<font></font>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -79,6 +80,7 @@ export default new Router({<font></font>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我想补充一点，以上内容并未真正保留历史记录。</font><font style="vertical-align: inherit;">请参阅</font></font><a href="https://github.com/vuejs/vue-router/issues/914#issuecomment-384477609" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">https://github.com/vuejs/vue-router/issues/914#issuecomment-384477609，</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">以获得更好的答案，该答案实际上可以处理历史记录（尽管有些古怪）。</font></font></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

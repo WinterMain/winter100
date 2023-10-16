@@ -63,7 +63,9 @@ ln -s /root/node-v10.8.0-linux-x64/bin/npm /usr/bin/npm</code></pre>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     
+    </div>
     {% endraw %}
   </div>
 <div>

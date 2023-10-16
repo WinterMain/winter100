@@ -45,6 +45,7 @@ public render(){<font></font>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -73,6 +74,7 @@ public render(){<font></font>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我只是通过更改使用的 TypeScript的版本来解决VSCode中的相同问题=&gt;打开命令面板&gt;“选择 TypeScript版本”&gt;“使用工作区版本”</font></font></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

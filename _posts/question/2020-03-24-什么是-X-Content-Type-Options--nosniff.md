@@ -36,6 +36,7 @@ topic: HTML
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -121,6 +122,7 @@ Header set X-Content-Type-Options "nosniff"<font></font>
 
 <p><a href="https://fetch.spec.whatwg.org/#x-content-type-options-header" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">https://fetch.spec.whatwg.org/#x-content-type-options-header</font></font></a></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

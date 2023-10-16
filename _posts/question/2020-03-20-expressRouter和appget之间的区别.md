@@ -43,6 +43,7 @@ router.get("/show", someFunction)<font></font>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -104,6 +105,7 @@ router.get("/show", someFunction)<font></font>
 
 <p><font style="vertical-align: inherit;"></font><code>app.router</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在Express 4中删除</font><font style="vertical-align: inherit;">的</font><font style="vertical-align: inherit;">对象在Express 5中又卷土重来。在新版本中，它只是对基本Express路由器的引用，与Express 3不同，在Express 3中，应用程序必须显式加载它。</font></font></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

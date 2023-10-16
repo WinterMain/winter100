@@ -46,6 +46,7 @@ topic: JavaScript
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -222,6 +223,7 @@ result = Math.round(x * 1000) / 1000      // result .123<font></font>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">小提琴：</font><a href="https://jsfiddle.net/3Lbhfy5s/79/" rel="noreferrer"><font style="vertical-align: inherit;">https</font></a><font style="vertical-align: inherit;"> : </font></font><a href="https://jsfiddle.net/3Lbhfy5s/79/" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">//jsfiddle.net/3Lbhfy5s/79/</font></font></a></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

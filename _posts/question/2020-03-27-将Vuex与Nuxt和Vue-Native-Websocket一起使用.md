@@ -51,7 +51,9 @@ webpack，正如我所见</font></font></p></div>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     
+    </div>
     {% endraw %}
   </div>
 <div>

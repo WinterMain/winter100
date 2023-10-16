@@ -44,6 +44,7 @@ topic: TypeScript
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -62,6 +63,7 @@ getSomeEndPoint</span><span class="pun">(</span><span class="pln">params</span><
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">前提是您已经</font></font><a href="https://github.com/angular/angular-cli#3rd-party-library-installation" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">安装了jQuery</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，我这样做</font></font><code>npm i jquery --save</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">并包含</font></font><code>apps.scripts</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在</font></font><code>angular-cli.json</code></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

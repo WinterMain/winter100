@@ -70,6 +70,7 @@ topic: React.js
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -136,6 +137,7 @@ export default Welcome;<font></font>
 
 <p><a href="https://codesandbox.io/s/eager-swartz-558tk?fontsize=14&amp;hidenavigation=1&amp;theme=dark" rel="nofollow noreferrer"><img src="https://codesandbox.io/static/img/play-codesandbox.svg" alt="编辑React钩子"></a></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

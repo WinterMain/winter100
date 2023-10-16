@@ -94,6 +94,7 @@ export default StartContainer<font></font>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -228,6 +229,7 @@ const VisibleTodoList = connect(<font></font>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">现在听起来很明显，但可能会帮助某人。</font></font></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

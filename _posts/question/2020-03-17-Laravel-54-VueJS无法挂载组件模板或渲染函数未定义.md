@@ -111,6 +111,7 @@ mix.js('resources/assets/js/app.js', 'public/js')<font></font>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -129,6 +130,7 @@ mix.js('resources/assets/js/app.js', 'public/js')<font></font>
 <li><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">不要改变其他任何东西 </font></font></p></li>
 </ul></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

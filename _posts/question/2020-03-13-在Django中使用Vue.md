@@ -35,6 +35,7 @@ topic: JavaScript
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -59,6 +60,7 @@ topic: JavaScript
 
 <p>For complex SPA apps, you need to build your Vue code separately from server side, test it thoroughly with dummy AJAX calls, build it for production and then drop the final production build into your server for end-to-end testing. This is something you can do in future.</p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

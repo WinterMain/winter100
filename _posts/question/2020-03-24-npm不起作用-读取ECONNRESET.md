@@ -53,6 +53,7 @@ npm ERR! not ok code 0<font></font>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -389,6 +390,7 @@ npm config set https-proxy http://xxx.xxx.xxx.4:8080<font></font>
 npm config rm https-proxy<font></font>
 </code></pre></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

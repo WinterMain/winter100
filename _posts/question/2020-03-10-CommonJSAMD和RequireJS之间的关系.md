@@ -25,6 +25,7 @@ topic: JavaScript
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -63,6 +64,7 @@ topic: JavaScript
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">因此，AMD通常更多地用于客户端（浏览器）JavaScript开发中，而CommonJS模块通常用于服务器端。</font><font style="vertical-align: inherit;">但是，您可以在任何一种环境中使用任何一种模块规范-例如，RequireJS提供</font></font><a href="http://requirejs.org/docs/node.html" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">了在Node.js中运行的说明，</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">而</font></font><a href="http://browserify.org/" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">browserify</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">是可以在浏览器中运行的CommonJS Module实现。</font></font></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

@@ -27,6 +27,7 @@ topic: Asp.net
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -81,6 +82,7 @@ topic: Asp.net
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">总体而言，到目前为止，此设置对我们来说非常有用！</font><font style="vertical-align: inherit;">我想如果您更喜欢React，它将是Angular的类似替代品。</font><font style="vertical-align: inherit;">我必须学习Angular，这是一个非常简单的过渡，现在我喜欢它！</font></font></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

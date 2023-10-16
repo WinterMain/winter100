@@ -64,6 +64,7 @@ export default withRouter(Child)<font></font>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -82,6 +83,7 @@ export default withRouter(Child)<font></font>
 &lt;Child wrappedComponentRef={c =&gt; (this.childComponent  = c)} /&gt;<font></font>
 </code></pre></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

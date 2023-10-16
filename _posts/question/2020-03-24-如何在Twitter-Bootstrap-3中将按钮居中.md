@@ -34,6 +34,7 @@ topic: CSS
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -93,6 +94,7 @@ topic: CSS
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">作为</font></font><em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">BootstrapV4</font></font></em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，</font></font><code>center-block</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">滴入</font></font><a href="https://github.com/twbs/bootstrap/pull/19102" rel="noreferrer" title="＃19102"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">＃19102</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">赞成</font></font><code>m-*-auto</code></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

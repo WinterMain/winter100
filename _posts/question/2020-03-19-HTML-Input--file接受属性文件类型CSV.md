@@ -48,6 +48,7 @@ topic: HTML
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -181,6 +182,7 @@ topic: HTML
 <pre><code>&lt;input type="file" ID="fileSelect" accept=".xlsx, .xls, .csv"/&gt;
 </code></pre></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

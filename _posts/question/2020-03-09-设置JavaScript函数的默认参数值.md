@@ -33,6 +33,7 @@ end<font></font>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -347,6 +348,7 @@ read_file({ file: "my file" }); <font></font>
 read_file({ file: "my file", delete_after: "my value" }); <font></font>
 </code></pre></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

@@ -32,6 +32,7 @@ topic: JavaScript
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -449,6 +450,7 @@ function continueExecution()<font></font>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">那么，您的问题是一个错误的选择。</font><font style="vertical-align: inherit;">您无法以自己想要的方式入睡，也不应追求您建议的解决方案。</font></font></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

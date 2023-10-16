@@ -63,6 +63,7 @@ topic: JavaScript
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -212,6 +213,7 @@ topic: JavaScript
 
 </strike><p><strike><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">一些JSLint警告比其他警告更有价值：了解要注意的警告和不那么重要的警告。</font><font style="vertical-align: inherit;">应该考虑每一个警告，但不必为了解决任何给定的警告而修正代码。</font><font style="vertical-align: inherit;">查看代码并决定对它满意是完全可以的。</font><font style="vertical-align: inherit;">有时候，JSlint不喜欢的事情实际上是正确的事情。</font></font></strike></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

@@ -23,6 +23,7 @@ topic: Node.js
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -166,6 +167,7 @@ topic: Node.js
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">每次</font><font style="vertical-align: inherit;">将请求发送到服务器时，都会调用</font><font style="vertical-align: inherit;">每个</font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">app.use（middleware）</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

@@ -27,6 +27,7 @@ topic: HTML
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -53,6 +54,7 @@ topic: HTML
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我只是遇到了这个问题，但需要处理多个选项卡级别。</font><font style="vertical-align: inherit;">该代码相当丑陋（请参见评论），但是可以完成它的工作：</font></font><a href="https://gist.github.com/JensRantil/4721860" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">https</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> : </font><a href="https://gist.github.com/JensRantil/4721860" rel="nofollow"><font style="vertical-align: inherit;">//gist.github.com/JensRantil/4721860</font></a><font style="vertical-align: inherit;">希望其他人会发现它有用（并随时提出更好的解决方案！）。</font></font></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

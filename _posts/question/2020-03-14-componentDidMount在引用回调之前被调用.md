@@ -64,6 +64,7 @@ topic: JavaScript
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -72,6 +73,7 @@ topic: JavaScript
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在componentDidMount中，可以在浏览器DOM中找到ref元素（div.drawer）吗？</font><font style="vertical-align: inherit;">如果没有，您将无法获得其参考。</font><font style="vertical-align: inherit;">由于问题是在另一个更大的代码中找到的，原因可能是未呈现ref元素（div.drawer）。</font></font></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

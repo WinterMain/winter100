@@ -62,6 +62,7 @@ topic: JavaScript
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -241,6 +242,7 @@ $(document).ready(function(){<font></font>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">您可以在此处查看更多信息：</font><a href="http://getbootstrap.com/2.3.2/javascript.html#modals" rel="noreferrer"><font style="vertical-align: inherit;">http</font></a><font style="vertical-align: inherit;"> : </font></font><a href="http://getbootstrap.com/2.3.2/javascript.html#modals" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">//getbootstrap.com/2.3.2/javascript.html#modals</font></font></a></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

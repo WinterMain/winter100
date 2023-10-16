@@ -45,6 +45,7 @@ module.exports  = Header;<font></font>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -306,6 +307,7 @@ module.exports  = Header;<font></font>
   例如：</font></font><code>{"vue-html": "html", "javascript": "javascriptreact"}</code>  </p>
 </blockquote></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

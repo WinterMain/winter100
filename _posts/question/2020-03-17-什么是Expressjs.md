@@ -28,6 +28,7 @@ topic: Node.js
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -231,6 +232,7 @@ topic: Node.js
 <li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">是否需要不会导致整个服务器崩溃的优美的错误处理？</font></font></li>
 </ul></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

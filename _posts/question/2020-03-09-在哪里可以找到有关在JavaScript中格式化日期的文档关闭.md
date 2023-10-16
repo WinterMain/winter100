@@ -69,6 +69,7 @@ d1.toString('dddd, MMMM ,yyyy')  //Returns "Monday, June 29,2009" in Internet Ex
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -351,6 +352,7 @@ console.log(curr_date + "-" + curr_month + "-" + curr_year);</code></pre>
 </div>
 <p></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

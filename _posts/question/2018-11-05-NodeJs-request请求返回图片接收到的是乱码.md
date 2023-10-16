@@ -35,6 +35,7 @@ tags: 前端的一些坑
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -62,6 +63,7 @@ tags: 前端的一些坑
 <p><code>调用方法res.set(&#39;Content-Type&#39;, &#39;image/png;&#39;); &nbsp;说明返回内容的类型是图片</code></p>
 </div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

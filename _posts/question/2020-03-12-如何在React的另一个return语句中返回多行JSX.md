@@ -46,6 +46,7 @@ topic: React.js
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -197,6 +198,7 @@ topic: React.js
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">您不需要展平结果数组，React会为您完成。</font><font style="vertical-align: inherit;">参见以下提琴</font></font><a href="http://jsfiddle.net/mEB2V/1/"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">http://jsfiddle.net/mEB2V/1/</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font><font style="vertical-align: inherit;">再说一遍：从长远来看，将这两个元素包装到div / section中将很可能会更好。</font></font></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

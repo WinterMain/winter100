@@ -63,6 +63,7 @@ $(function() {<font></font>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -188,6 +189,7 @@ $.when.apply($, arr);<font></font>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在这两种情况下，由于您不太可能事先知道</font></font><code>.then</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">处理程序需要</font><font style="vertical-align: inherit;">多少个形式参数</font><font style="vertical-align: inherit;">，因此该处理程序将需要处理</font></font><code>arguments</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">数组以检索每个Promise的结果。</font></font></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

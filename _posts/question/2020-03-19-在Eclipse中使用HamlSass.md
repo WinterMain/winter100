@@ -33,6 +33,7 @@ topic: CSS
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -70,6 +71,7 @@ topic: CSS
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我知道这是一个老问题，但是对于像我这样对SASS和Compass陌生的任何人，我刚刚安装了Aptana Studio 3，现在它支持.scss，.sass和.haml。</font><font style="vertical-align: inherit;">请享用。</font></font></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

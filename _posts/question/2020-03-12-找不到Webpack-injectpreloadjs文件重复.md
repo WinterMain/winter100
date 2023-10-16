@@ -198,6 +198,7 @@ if (process.env.NODE_ENV === 'production') {<font></font>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -206,6 +207,7 @@ if (process.env.NODE_ENV === 'production') {<font></font>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">由于AdBlock扩展名而发生错误。</font><font style="vertical-align: inherit;">要验证，您可以</font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">完全</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">禁用chrome：// extensions / url中的扩展名。</font></font></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

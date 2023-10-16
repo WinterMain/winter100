@@ -25,6 +25,7 @@ topic: JavaScript
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -329,6 +330,7 @@ NETWORK:<font></font>
 
 <p>Of course, there are always better solutions like <a href="http://blog.greenfelt.net/2009/09/01/caching-javascript-safely/" rel="noreferrer">this one</a>.</p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

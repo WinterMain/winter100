@@ -23,6 +23,7 @@ topic: Vue.js
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -31,6 +32,7 @@ topic: Vue.js
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">@ g-wilson回答后，我去了</font></font><code>{ path: '*', component: NotFound }</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font><font style="vertical-align: inherit;">如果您不想进行重定向，则可能会很有用。</font></font></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

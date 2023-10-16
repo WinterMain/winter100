@@ -31,6 +31,7 @@ topic: HTML
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -158,6 +159,7 @@ window.location.href = mailToLink;<font></font>
   是邮件的正文。</font><font style="vertical-align: inherit;">“正文”字段值旨在包含消息的第一个文本/纯文本正文部分的内容。</font><font style="vertical-align: inherit;">“正文”伪头字段主要用于生成用于自动处理的短消息（例如，用于邮件列表的“订阅”消息），而不是用于一般的MIME正文。</font></font></p>
 </blockquote></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

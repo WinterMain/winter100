@@ -97,6 +97,7 @@ index.ios.js:57 Object {name: 'FeedView', component: function}<font></font>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -123,6 +124,7 @@ index.ios.js:57 Object {name: 'FeedView', component: function}<font></font>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">导航器仍在开发中，但是如果发现任何问题，请在github上归档并标记我！</font><font style="vertical-align: inherit;">（@ericvicenti）</font></font></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

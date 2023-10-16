@@ -47,6 +47,7 @@ $theme := {<font></font>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -61,6 +62,7 @@ $theme := {<font></font>
 
 <p>Further, to change the values of the colour variables, modify the file <strong>node_modules/vuetify/es5/colors.js</strong>. Here, you define any colors you need to whatever hex color code you want.</p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

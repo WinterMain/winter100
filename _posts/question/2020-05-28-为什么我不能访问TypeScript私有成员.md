@@ -26,6 +26,7 @@ alert</span><span class="pun">(</span><span class="kwd">new</span><span class="p
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -230,6 +231,7 @@ alert</span><span class="pun">(</span><span class="kwd">new</span><span class="p
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">为了使某些东西真正成为类的私有对象，它不能成为该类的成员，而应是在创建对象的代码内的函数作用域内创建的局部变量。</font><font style="vertical-align: inherit;">那将意味着您不能像类的成员那样访问它，即使用</font></font><code>this</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">关键字。</font></font></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

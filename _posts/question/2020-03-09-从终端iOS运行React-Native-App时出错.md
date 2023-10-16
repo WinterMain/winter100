@@ -39,6 +39,7 @@ tool or in PATH<font></font>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -220,6 +221,7 @@ tool or in PATH<font></font>
 
 <p><a href="https://i.stack.imgur.com/3G0KO.png" rel="noreferrer"><img src="https://i.stack.imgur.com/3G0KO.png" alt="响应本机打印，我是前端开发人员Alireza Dezfoolian！"></a></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

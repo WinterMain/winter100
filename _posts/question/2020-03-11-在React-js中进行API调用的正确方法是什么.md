@@ -64,6 +64,7 @@ export default class UserList extends React.Component {    <font></font>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -307,6 +308,7 @@ export default class UserList extends Component {<font></font>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">操作是一种帮助程序方法，您可以调用这些方法来更改应用程序状态或进行api调用。</font></font></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

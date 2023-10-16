@@ -23,6 +23,7 @@ topic: Node.js
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -51,6 +52,7 @@ topic: Node.js
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">只是为了给pauljz的答案增加一个原因，我使用了前端服务器，这样当我重新启动后端服务器或由于某种原因崩溃时，它可以提供502个错误页面。</font><font style="vertical-align: inherit;">这使您的用户永远不会收到有关无法建立连接的错误。</font></font></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

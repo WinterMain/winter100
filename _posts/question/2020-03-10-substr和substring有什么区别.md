@@ -31,6 +31,7 @@ topic: JavaScript
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -212,6 +213,7 @@ alert("abc".substring(1,2)); // returns "b"<font></font>
 
 <p><a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String/substring" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">https://developer.mozilla.org/zh-CN/JavaScript/Reference/Global_Objects/String/substring</font></font></a></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

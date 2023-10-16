@@ -19,6 +19,7 @@ answer: 1
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -27,6 +28,7 @@ answer: 1
           </div>
           <div class="discuss-comment"><p>所以要解决这个问题就是在 <code>&lt;el-form&gt;</code> 标签上添加 <code>@submit.native.prevent</code>。</p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

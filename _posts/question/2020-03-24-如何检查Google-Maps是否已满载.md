@@ -25,6 +25,7 @@ topic: HTML
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -67,6 +68,7 @@ topic: HTML
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">有关</font><font style="vertical-align: inherit;">参考，</font><font style="vertical-align: inherit;">请参见</font></font><a href="http://code.google.com/apis/maps/documentation/reference.html#GMap2.tilesloaded" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">GMap2.tilesloaded</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

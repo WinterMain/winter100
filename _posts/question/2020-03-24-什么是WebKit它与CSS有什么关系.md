@@ -35,6 +35,7 @@ topic: CSS
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -271,6 +272,7 @@ topic: CSS
 
 <p><sup>3)</sup> On December 6 2018 Microsoft (Microsoft Edge 79+ stable) <a href="https://github.com/MicrosoftEdge/MSEdge/blob/7d69268e85e198cee1c2b452d888ac5b9e5995ca/README.md" rel="nofollow noreferrer">announces</a> they are going to use the WebKit-based <a href="https://en.wikipedia.org/wiki/Blink_%28web_engine%29" rel="nofollow noreferrer">Blink</a> engine.</p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

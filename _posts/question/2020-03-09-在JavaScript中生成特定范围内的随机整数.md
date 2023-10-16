@@ -21,6 +21,7 @@ topic: JavaScript
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -659,6 +660,7 @@ Math.floor(Math.random() * 9) - 10;<font></font>
           <div class="discuss-comment"><pre><code>var randomnumber = Math.floor(Math.random() * (maximum - minimum + 1)) + minimum;
 </code></pre></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

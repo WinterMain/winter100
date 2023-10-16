@@ -27,6 +27,7 @@ Class.prototype.method = function () { /* code using this.values */ }<font></fon
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -112,6 +113,7 @@ Person.prototype.sayHi = function() {<font></font>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">另外，如果您更改父对象的属性，并且未更改子对象的相应属性，则会对其进行更新。</font></font></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

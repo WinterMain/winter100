@@ -28,6 +28,7 @@ console.log("I'm " + age + " years old!");<font></font>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -89,6 +90,7 @@ document.getElementById("resultB").innerText = "Eruption 2: {eruption2}".interpo
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在这里，</font></font><code>%s</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">就是所谓的“格式说明符”。</font></font><code>console.log</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">具有内置的这种插值支持。</font></font></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

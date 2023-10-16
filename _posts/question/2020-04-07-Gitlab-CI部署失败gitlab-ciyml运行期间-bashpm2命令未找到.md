@@ -104,6 +104,7 @@ Use --update-env to update environment variables<font></font>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -125,6 +126,7 @@ Use --update-env to update environment variables<font></font>
     - ssh -p22 dev@example.com "/usr/bin/pm2 restart landing-page"<font></font>
 </code></pre></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

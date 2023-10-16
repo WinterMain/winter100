@@ -95,6 +95,7 @@ export default AddTodo<font></font>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -111,6 +112,7 @@ export default AddTodo<font></font>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">是的，这不仅是可以接受的做法，还是触发操作的推荐方法。</font><font style="vertical-align: inherit;">使用</font></font><code>mapDispatchToProps</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">允许隐藏在React组件中使用Redux的事实</font></font></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

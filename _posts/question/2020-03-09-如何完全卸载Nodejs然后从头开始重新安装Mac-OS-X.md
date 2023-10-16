@@ -50,6 +50,7 @@ default -&gt; 0.6.19 (-&gt; v0.6.19)<font></font>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -553,6 +554,7 @@ sudo rm -rf /usr/local/bin/npm /usr/local/share/man/man1/node.1 /usr/local/lib/d
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">然后下载</font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">nvm</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">并按照说明安装节点。</font><font style="vertical-align: inherit;">我相信</font><font style="vertical-align: inherit;">node的最新版本是</font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">npm</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">附带的</font><font style="vertical-align: inherit;">，但是您也可以重新安装它。</font></font></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

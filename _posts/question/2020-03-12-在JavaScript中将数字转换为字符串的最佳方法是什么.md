@@ -30,6 +30,7 @@ topic: JavaScript
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -383,6 +384,7 @@ var bar = '' + foo;<font></font>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">并不是（通常）有多大关系，但</font><font style="vertical-align: inherit;">与</font><a href="https://jsperf.com/number-to-string/53" rel="noreferrer"><font style="vertical-align: inherit;">其他方法</font></a><font style="vertical-align: inherit;">相比</font><font style="vertical-align: inherit;">，它似乎是</font></font><a href="https://jsperf.com/number-to-string/76" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">最快的</font></font></a><font style="vertical-align: inherit;"></font><a href="https://jsperf.com/number-to-string/53" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">方法</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

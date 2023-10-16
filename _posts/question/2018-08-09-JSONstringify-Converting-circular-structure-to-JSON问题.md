@@ -50,6 +50,7 @@ cache = null; // Enable garbage collection
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -58,6 +59,7 @@ cache = null; // Enable garbage collection
           </div>
           <div class="discuss-comment">对象中有循环引用</div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

@@ -37,6 +37,7 @@ topic: Webpack
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -193,6 +194,7 @@ $ webpack</span><span class="pun">-</span><span class="pln">dev</span><span clas
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">例如：如果将http服务器配置为托管生成的包，</font></font><code>/assets/</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">则应输入：</font></font><code>publicPath: "/assets/"</code>   </p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

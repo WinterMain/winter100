@@ -23,6 +23,7 @@ topic: HTML
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -257,6 +258,7 @@ Example : </p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">当然，这还不止于此，但是它一定会让您思考正确的方向。</font></font></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

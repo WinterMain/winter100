@@ -27,6 +27,7 @@ topic: React.js
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -37,6 +38,7 @@ topic: React.js
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我建议在这种情况下不使用valueLink，而只是侦听插件触发的更改事件并作为响应更新输入的状态。</font><font style="vertical-align: inherit;">双向绑定实用程序更像是一个演示程序；</font><font style="vertical-align: inherit;">它们包含在附加组件中只是为了强调以下事实：纯双向绑定不适用于大多数应用程序，并且您通常需要更多的应用程序逻辑来描述应用程序中的交互。</font></font></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

@@ -25,6 +25,7 @@ topic: JavaScript
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -303,6 +304,7 @@ select[readonly] option{<font></font>
 
 <p><a href="http://jsfiddle.net/ret7mhfa/" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">演示版</font></font></a></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

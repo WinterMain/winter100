@@ -54,6 +54,7 @@ Error: spawn ENOENT<font></font>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -162,6 +163,7 @@ Error: spawn ENOENT<font></font>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">正如</font></font><a href="https://stackoverflow.com/questions/27688804/how-do-i-debug-error-spawn-enoent-on-node-js#comment55397048_27688805"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">@DanielImfeld指出的那样</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，如果在选项中指定“ cwd”，则将抛出ENOENT，但是给定目录不存在。</font></font></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

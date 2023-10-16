@@ -27,6 +27,7 @@ Error: Expected an opening square bracket.
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -44,6 +45,7 @@ Error: Expected an opening square bracket.
     }
   }</code></pre><p>&nbsp;</p><p>相关问题还可访问<a href="https://github.com/nuxt-community/tailwindcss-module/issues/79#issuecomment-609693459">https://github.com/nuxt-community/tailwindcss-module/issues/79#issuecomment-609693459</a></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

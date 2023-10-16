@@ -65,6 +65,7 @@ Segmentation fault<font></font>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -267,6 +268,7 @@ node --max-old-space-size = 4096 / Users / {您的用户} / AppData / Roaming / 
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我唯一能给您的提示是尝试另一个JSON解析器和/或尝试将输入格式更改为JSON行而不是仅JSON。</font></font></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

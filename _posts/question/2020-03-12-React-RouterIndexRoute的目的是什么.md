@@ -37,6 +37,7 @@ topic: JavaScript
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -47,6 +48,7 @@ topic: JavaScript
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">对于旧版本的React Router，可在相关版本的“ </font></font><a href="https://github.com/ReactTraining/react-router/blob/5e69b23a369b7dbcb9afc6cdca9bf2dcf07ad432/docs/guides/IndexRoutes.md" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">索引路由和索引链接”页面</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">上获得更多信息</font><font style="vertical-align: inherit;">。</font><font style="vertical-align: inherit;">从4.0版本开始，React Router不再使用</font></font><code>IndexRoute</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">抽象来实现相同的目标。</font></font></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

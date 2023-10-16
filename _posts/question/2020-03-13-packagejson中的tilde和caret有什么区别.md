@@ -27,6 +27,7 @@ topic: Node.js
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -365,6 +366,7 @@ PATCH version when you make backwards-compatible bug fixes.<font></font>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">上面的列表并不详尽。</font><font style="vertical-align: inherit;">其他版本说明符包括GitHub网址和GitHub用户仓库，本地路径以及带有特定npm标签的软件包</font></font></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

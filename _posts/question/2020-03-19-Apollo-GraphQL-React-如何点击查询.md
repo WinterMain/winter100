@@ -21,6 +21,7 @@ topic: React.js
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -102,6 +103,7 @@ withApollo(MyComponent);<font></font>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">出于好奇，对单击事件运行查询的目的是什么？</font><font style="vertical-align: inherit;">也许有更好的方法可以实现基本目标。</font></font></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

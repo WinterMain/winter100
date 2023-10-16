@@ -45,6 +45,7 @@ topic: JavaScript
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -271,6 +272,7 @@ topic: JavaScript
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">JQuery最近从YUI Compresser切换到Closure Compiler，并且看到了“ </font></font><a href="http://twitter.com/jeresig/status/5462879648" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">坚实的进步</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> ”</font></font></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

@@ -39,6 +39,7 @@ topic: React.js
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -62,6 +63,7 @@ topic: React.js
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这样做的另一种方法是，因为我知道内联样式有点被忽略了，是</font></font><code>active</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">使用所需的nav-element样式</font><font style="vertical-align: inherit;">创建一个CSS </font><font style="vertical-align: inherit;">类，并保留一个状态变量来跟踪当前页面的高度。范围（最好是根组件），并在用户导航到另一个页面时进行更新。</font><font style="vertical-align: inherit;">这可以通过包装</font></font><code>&lt;Redirect/&gt;</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">或</font></font><code>&lt;Link to={}/&gt;</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">使用处理更新状态和导航的功能组件</font><font style="vertical-align: inherit;">来完成</font><font style="vertical-align: inherit;">，然后在导航组件中检查渲染的导航元素是否与当前页面匹配，如果是，则将</font></font><code>active</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">CSS类</font><font style="vertical-align: inherit;">附加到当前页面</font><font style="vertical-align: inherit;">。</font></font></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

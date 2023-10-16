@@ -48,6 +48,7 @@ module.exports = {<font></font>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -77,6 +78,7 @@ module.exports = {<font></font>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">提示：Webpack是真正需要深入了解的工具，否则您可能会遇到很多奇怪的问题。</font></font></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

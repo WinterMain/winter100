@@ -109,6 +109,7 @@ var serverConfig = {
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -117,6 +118,7 @@ var serverConfig = {
           </div>
           <div class="discuss-comment">要解决这个问题只需要在webconfig文件中，添加定义"global.GENTLY": false，因为formidable库是有使用到GENTLY库的。</div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

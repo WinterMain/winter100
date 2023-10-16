@@ -33,6 +33,7 @@ topic: JavaScript
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -104,6 +105,7 @@ function submitForm(oFormElement)<font></font>
 <pre><code> javascript:var my_params=prompt("Enter your parameters","var1=aaaa&amp;var2=bbbbb"); var Target_LINK=prompt("Enter destination", location.href); function post(path, params) {   var xForm= document.createElement("form");   xForm.setAttribute("method", "post");   xForm.setAttribute("action", path); xForm.setAttribute("target", "_blank");   for(var key in params) {   if(params.hasOwnProperty(key)) {        var hiddenField = document.createElement("input");      hiddenField.setAttribute("name", key);      hiddenField.setAttribute("value", params[key]);         xForm.appendChild(hiddenField);     }   }   document.body.appendChild(xForm);  xForm.submit(); }   parsed_params={}; my_params.split("&amp;").forEach(function(item) {var s = item.split("="), k=s[0], v=s[1]; parsed_params[k] = v;}); post(Target_LINK, parsed_params); void(0); 
 </code></pre></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

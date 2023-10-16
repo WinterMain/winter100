@@ -105,6 +105,7 @@ topic: CSS
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -140,6 +141,7 @@ topic: CSS
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我这样做的方法是，我将所有SASS编译到一个main.css文件中，然后通过常规CSS导入将其导入到style.css中。</font></font></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

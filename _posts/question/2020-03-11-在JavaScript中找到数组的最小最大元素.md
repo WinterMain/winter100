@@ -29,6 +29,7 @@ array.max() //=&gt; 100<font></font>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -653,6 +654,7 @@ Array.prototype.min = function() {<font></font>
     max = Math.max( ...arr );<font></font>
 </code></pre></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

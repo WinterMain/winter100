@@ -21,6 +21,7 @@ topic: HTML
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -207,6 +208,7 @@ And is displaying the placeholder</code></pre>
 
 <p><em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">*除非再次更改图片的网址，否则您可能会看到替代文字。</font></font></em></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

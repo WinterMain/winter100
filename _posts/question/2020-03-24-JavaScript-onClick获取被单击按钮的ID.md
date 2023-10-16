@@ -30,6 +30,7 @@ function reply_click()<font></font>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -98,6 +99,7 @@ function addFields(){ <font></font>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这将发送ID </font></font><code>this.id</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">作为</font></font><code>clicked_id</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">您可以在您的函数中使用。</font></font><a href="http://jsfiddle.net/R77EB/" rel="noreferrer"><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在这里查看实际操作。</font></font></strong></a></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

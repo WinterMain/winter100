@@ -21,6 +21,7 @@ topic: React.js
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -33,6 +34,7 @@ topic: React.js
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">实际上，通常最简单的方法是使用局部状态实现此类UI元素，然后根据需要将其重构为全局状态。</font></font></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

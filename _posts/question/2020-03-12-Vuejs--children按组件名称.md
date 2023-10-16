@@ -33,6 +33,7 @@ topic: JavaScript
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -127,6 +128,7 @@ this.$refs.detailsChild</code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">相关API文档：</font><a href="http://vuejs.org/api/#v-ref" rel="noreferrer"><font style="vertical-align: inherit;">http</font></a><font style="vertical-align: inherit;"> : </font></font><a href="http://vuejs.org/api/#v-ref" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">//vuejs.org/api/#v-ref</font></font></a></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

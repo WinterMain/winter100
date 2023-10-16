@@ -37,6 +37,7 @@ CMD [ "npm", "start" ]<font></font>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -58,6 +59,7 @@ ENV HOST 0.0.0.0<font></font>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">或任何其他使nuxt应用程序仅在容器内部的localhost上进行侦听的方法。 </font></font></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

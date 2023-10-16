@@ -23,6 +23,7 @@ topic: JavaScript
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -96,6 +97,7 @@ lodash.merge({}, mergeInto, toMerge)  // =&gt; {a: 1, b:undefined}<font></font>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我相信，从语义的角度学习这些方法将使您更好地“猜测”现有值和不存在值的所有不同方案的行为。</font></font></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

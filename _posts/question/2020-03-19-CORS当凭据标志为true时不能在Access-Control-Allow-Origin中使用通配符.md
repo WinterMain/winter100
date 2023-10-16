@@ -99,6 +99,7 @@ CORS_ORIGIN_WHITELIST = (<font></font>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -130,6 +131,7 @@ CORS_ORIGIN_WHITELIST = (<font></font>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">除此以外</font></font><code>*</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，它们太宽松了，会打败使用凭据。</font><font style="vertical-align: inherit;">因此，将其设置为</font></font><code>http://localhost:3000</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">或</font></font><code>http://localhost:8000</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">作为allow origin标头。</font></font></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

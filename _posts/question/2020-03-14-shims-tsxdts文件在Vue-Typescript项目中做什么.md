@@ -57,6 +57,7 @@ declare global {<font></font>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -67,6 +68,7 @@ declare global {<font></font>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">第二个文件允许您使用</font></font><code>.tsx</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">文件，同时</font></font><code>jsx</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在IDE中</font><font style="vertical-align: inherit;">启用</font><font style="vertical-align: inherit;">语法</font><font style="vertical-align: inherit;">支持</font><font style="vertical-align: inherit;">以编写JSX样式的 TypeScript代码。</font></font></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

@@ -34,6 +34,7 @@ topic: HTML
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -94,6 +95,7 @@ var parseFile = new Parse.File(name, {base64: dataURL.substring(23)});<font></fo
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">谢谢check_ca。</font><font style="vertical-align: inherit;">做得好。</font></font></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

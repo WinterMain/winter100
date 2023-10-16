@@ -64,6 +64,7 @@ topic: JavaScript
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -153,6 +154,7 @@ function main(){<font></font>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">该IIFE不会等待您的DOM加载。</font><font style="vertical-align: inherit;">（我什至在谈论最新版本的Chrome浏览器！）</font></font></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

@@ -24,6 +24,7 @@ topic: JavaScript
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -152,6 +153,7 @@ topic: JavaScript
 
 <p>The reason you’d want to do this with the <code>href</code> of a link is that normally, a <code>javascript:</code> URL will redirect the browser to a plain text version of the result of evaluating that JavaScript. But if the result is <code>undefined</code>, then the browser stays on the same page. <code>void(0)</code> is just a short and simple script that evaluates to <code>undefined</code>.</p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

@@ -45,6 +45,7 @@ topic: JavaScript
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -97,6 +98,7 @@ const ScrollingElement = () =&gt; {<font></font>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">另一个类似的答案：</font><a href="https://stackoverflow.com/a/36207913/1255973"><font style="vertical-align: inherit;">https</font></a><font style="vertical-align: inherit;"> : </font></font><a href="https://stackoverflow.com/a/36207913/1255973"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">//stackoverflow.com/a/36207913/1255973</font></font></a></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

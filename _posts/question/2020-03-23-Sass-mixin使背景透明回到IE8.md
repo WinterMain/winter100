@@ -52,6 +52,7 @@ background-color: rgba(100,100,100,.40);<font></font>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -102,6 +103,7 @@ background-color: rgba(100,100,100,.40);<font></font>
 
 <p><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">注意</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">：ie-hex-str仅在最新版本中可用，但不确定何时引入</font></font></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

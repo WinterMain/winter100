@@ -23,6 +23,7 @@ topic: JavaScript
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -402,6 +403,7 @@ foo</span><span class="pun">.</span><span class="pln">a</span><span class="pun">
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">为什么我认为此解决方案更好？</font><font style="vertical-align: inherit;">它是本机的，因此没有循环，没有递归。</font><font style="vertical-align: inherit;">但是，较旧的浏览器将需要使用polyfill。</font></font></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

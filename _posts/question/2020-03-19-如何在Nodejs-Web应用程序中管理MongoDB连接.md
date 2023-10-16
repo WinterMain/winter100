@@ -31,6 +31,7 @@ topic: Node.js
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -122,6 +123,7 @@ const db = dbService.db<font></font>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">因此，要直接回答您的问题，请</font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">重复使用产生的db对象</font></font><a href="http://mongodb.github.io/node-mongodb-native/driver-articles/mongoclient.html#mongoclient-connect" rel="nofollow noreferrer"><code>MongoClient.connect()</code></a></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font><font style="vertical-align: inherit;">与每个数据库操作上的打开/关闭连接相比，这可以为您提供缓冲，并可以显着提高速度。</font></font></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

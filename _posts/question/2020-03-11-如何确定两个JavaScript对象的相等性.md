@@ -23,6 +23,7 @@ topic: JavaScript
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -401,6 +402,7 @@ queenOfClubs.equals(kingOfSpades); // =&gt; false<font></font>
 kingOfSpades.equals(new Card(13, "S")); // =&gt; true<font></font>
 </code></pre></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

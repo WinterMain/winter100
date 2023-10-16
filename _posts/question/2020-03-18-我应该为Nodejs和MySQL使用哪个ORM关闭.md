@@ -37,6 +37,7 @@ topic: Node.js
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -67,6 +68,7 @@ topic: Node.js
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我会选择</font></font><a href="http://sequelizejs.com/"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Sequelize，</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">因为它的文档很好。</font><font style="vertical-align: inherit;">这只是一个诚实的看法（我从没真正将MySQL与Node一起使用那么多）。</font></font></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

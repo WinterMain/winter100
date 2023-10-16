@@ -96,6 +96,7 @@ Connection: keep-alive<font></font>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -116,6 +117,7 @@ Connection: keep-alive<font></font>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果有人对</font><font style="vertical-align: inherit;">在</font><strong><font style="vertical-align: inherit;">浏览器</font></strong><font style="vertical-align: inherit;">的</font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">CLIENT</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">端</font><font style="vertical-align: inherit;">上运行有其他建议或答案</font><font style="vertical-align: inherit;">，请与我们分享。</font></font><strong><font style="vertical-align: inherit;"></font></strong><font style="vertical-align: inherit;"></font></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

@@ -47,6 +47,7 @@ gyp ERR! stack     at /usr/local/lib/node_modules/npm/node_modules/node-gyp/lib/
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -117,6 +118,7 @@ gyp ERR! stack     at /usr/local/lib/node_modules/npm/node_modules/node-gyp/lib/
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">（注意：我是在Github上发布一个问题将此文档包含在文档中的人，因为对此有很多问题;-)）</font></font></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

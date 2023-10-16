@@ -26,6 +26,7 @@ topic: React.js
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -42,6 +43,7 @@ ngrok http --host-header=rewrite 8080<font></font>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">当我在嵌入式页面中使用此解决方案时，此解决方案仍会引发错误，该错误会从react应用程序中获取bundle.js。</font><font style="vertical-align: inherit;">我认为，因为它将标头重写为localhost，所以在嵌入时，它正在寻找的localhost是该应用程序不再在其上运行</font></font></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

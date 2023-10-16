@@ -45,6 +45,7 @@ topic: JavaScript
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -70,6 +71,7 @@ topic: JavaScript
 <li><p><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">普通组件或复杂组件-</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我使用术语“复杂组件”是因为它们通常是页面级组件，并且包含许多子组件，并且由于每个子组件都可以以自己独特的方式运行，因此您不能百分百确定它会在给定状态下呈现相同的结果。</font><font style="vertical-align: inherit;">正如我通常所说的，这些应该用作容器组件</font></font></p></li>
 </ol></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

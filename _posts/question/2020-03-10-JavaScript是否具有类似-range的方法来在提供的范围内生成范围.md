@@ -29,6 +29,7 @@ range("A", "C"); // Array("A", "B", "C")<font></font>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -416,6 +417,7 @@ console.log(range(20, 5, 5));</code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">一篇文章对此进行了更详细的描述：</font><a href="http://www.2ality.com/2014/05/es6-array-methods.html" rel="noreferrer"><font style="vertical-align: inherit;">http</font></a><font style="vertical-align: inherit;"> : </font></font><a href="http://www.2ality.com/2014/05/es6-array-methods.html" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">//www.2ality.com/2014/05/es6-array-methods.html</font></font></a></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

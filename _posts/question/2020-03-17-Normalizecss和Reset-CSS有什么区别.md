@@ -27,6 +27,7 @@ topic: CSS
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -91,6 +92,7 @@ topic: CSS
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">重新设置似乎有必要满足定制设计规范，尤其是在复杂的非样板类型的设计项目中。</font><font style="vertical-align: inherit;">听起来标准化似乎是进行纯Web编程的好方法，但是网站通常是Web编程和UI / UX设计规则之间的结合。</font></font></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

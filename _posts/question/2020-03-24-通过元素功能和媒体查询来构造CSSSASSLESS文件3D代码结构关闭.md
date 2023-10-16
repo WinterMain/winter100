@@ -131,6 +131,7 @@ topic: CSS
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -233,6 +234,7 @@ modules/<font></font>
     includes.css /*use @import to include each modules stylesheet in a file here and let each module control its own media issues*/<font></font>
 </code></pre></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

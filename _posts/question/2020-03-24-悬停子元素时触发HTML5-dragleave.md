@@ -62,6 +62,7 @@ $('#drag').bind({<font></font>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -188,6 +189,7 @@ container.addEventListener("dragleave", function(e) {<font></font>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">看到Facebook源代码，我可以</font></font><code>pointer-events: none;</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">多次</font><font style="vertical-align: inherit;">找到</font><font style="vertical-align: inherit;">它，但是它可能与优美的降级后备功能结合使用。</font><font style="vertical-align: inherit;">至少它是如此简单，并且可以解决很多环境下的问题。</font></font></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

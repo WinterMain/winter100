@@ -45,6 +45,7 @@ topic: React.js
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -53,6 +54,7 @@ topic: React.js
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我使用的是相同的设置（Next.js和Firebase），通过React上下文API设置全局会话并不容易。</font><font style="vertical-align: inherit;">我遵循了本指南，并成功完成了</font></font><a href="https://reacttricks.com/sharing-global-data-in-next-with-custom-app-and-usecontext-hook/" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">https://reacttricks.com/sharing-global-data-in-next-with-custom-app-and-usecontext-hook/</font></font></a></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

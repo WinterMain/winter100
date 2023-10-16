@@ -46,6 +46,7 @@ Error: listen EADDRINUSE<font></font>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -373,6 +374,7 @@ node    16615 aegon   13u  IPv6 183768      0t0  TCP *:3000 (LISTEN)</code></pre
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">更新：此命令仅在Linux / Ubuntu和Mac上有效。</font></font></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

@@ -23,6 +23,7 @@ topic: JavaScript
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -229,6 +230,7 @@ console.error(myvar, "Logged!");<font></font>
           </div>
           <div class="discuss-comment"><p><code>console.log</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">与jQuery无关。</font><font style="vertical-align: inherit;">它是调试器（包括Chrome调试器和Firebug）提供的常见对象/方法，允许脚本将数据（或大多数情况下的对象）记录到JavaScript控制台。</font></font></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

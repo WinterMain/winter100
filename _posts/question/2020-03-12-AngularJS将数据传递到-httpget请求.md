@@ -41,6 +41,7 @@ topic: JavaScript
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -72,6 +73,7 @@ topic: JavaScript
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">请参阅：</font></font><a href="http://docs.angularjs.org/api/ng.$http#get" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">http</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> : </font><a href="http://docs.angularjs.org/api/ng.$http#get" rel="noreferrer"><font style="vertical-align: inherit;">//docs.angularjs.org/api/ng.$http#get</font></a><font style="vertical-align: inherit;">和</font></font><a href="https://docs.angularjs.org/api/ng/service/$http#usage" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">https://docs.angularjs.org/api/ng/service/$http#usage</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">（显示</font></font><code>params</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">参数）</font></font></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

@@ -44,6 +44,7 @@ already in state, and add new ones.<font></font>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -131,6 +132,7 @@ this.setState(state);<font></font>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">旁注：状态不是立即设置的，因此</font></font><code>this.setState({b: 1}); console.log(this.state)</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在测试时</font><font style="vertical-align: inherit;">不要这样做</font><font style="vertical-align: inherit;">。</font></font></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

@@ -22,6 +22,7 @@ answer: 1
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -38,6 +39,7 @@ var pool  = mysql.createPool({port:"..", host, "...", ... , multipleStatements: 
 <p>在配置中添加multipleStatements: true</p>
 </div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

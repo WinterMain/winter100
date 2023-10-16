@@ -45,6 +45,7 @@ topic: Vue.js
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -95,6 +96,7 @@ topic: Vue.js
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">因此，如果您有时间等待，可以暂时观察一下。</font><font style="vertical-align: inherit;">或者，您可以参考以下项目：</font></font><a href="https://github.com/Microsoft/TypeScript-Vue-Starter" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">TypeScript-Vue-Starter</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">和</font></font><a href="https://github.com/Toilal/vue-webpack-template" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">具有Typescript支持的Webpack模板叉</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

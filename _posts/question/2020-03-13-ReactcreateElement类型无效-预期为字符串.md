@@ -71,6 +71,7 @@ export default routes;<font></font>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -253,6 +254,7 @@ function Foo() {<font></font>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">当我在渲染/返回语句中引用错误时，就发生了这个问题。</font><font style="vertical-align: inherit;">（指向不存在的类）。</font><font style="vertical-align: inherit;">还要检查您的退货声明代码是否有错误的引用。</font></font></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

@@ -30,6 +30,7 @@ topic: JavaScript
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -176,6 +177,7 @@ alert(Object.keys(o));<font></font>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">或者替换为</font></font><code>var getKeys</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，</font></font><code>Object.prototype.keys</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">以允许您调用</font></font><code>.keys()</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">任何对象。</font><font style="vertical-align: inherit;">扩展原型会产生一些副作用，我不建议您这样做。</font></font></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

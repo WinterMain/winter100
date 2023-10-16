@@ -46,6 +46,7 @@ topic: Vue.js
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -64,6 +65,7 @@ topic: Vue.js
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">您可以</font></font><a href="https://nuxtjs.org/guide/async-data" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在文档中</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">找到有关asyncData的更多信息</font><font style="vertical-align: inherit;">，并对其进行了很好的描述。</font></font></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

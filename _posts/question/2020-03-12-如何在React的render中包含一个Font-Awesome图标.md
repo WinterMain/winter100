@@ -30,6 +30,7 @@ topic: React.js
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -116,6 +117,7 @@ public/fonts/font-awesome.eot <font></font>
   <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">警告：未知的DOM属性类。</font><font style="vertical-align: inherit;">您是说className吗？</font></font></p>
 </blockquote></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

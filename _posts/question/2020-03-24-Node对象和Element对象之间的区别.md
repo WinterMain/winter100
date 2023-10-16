@@ -53,6 +53,7 @@ p2.toString();                          //[object HTMLCollection]<font></font>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -205,6 +206,7 @@ Exp: <code>&lt;p&gt;&lt;b&gt;&lt;/b&gt;&lt;/p&gt;</code></p>
 <li><a href="https://stackoverflow.com/questions/2190863/what-is-the-difference-between-a-node-and-an-element-in-xml"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">为什么节点和元素在XML中不同？</font><font style="vertical-align: inherit;">有什么根据？</font></font></a></li>
 </ul></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

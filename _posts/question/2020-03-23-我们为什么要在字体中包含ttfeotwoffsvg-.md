@@ -25,6 +25,7 @@ topic: CSS
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -51,6 +52,7 @@ topic: CSS
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">只有woff可以做到这一点，因为没有人拥有此字体，但是在任何地方（Mac，Win，Linux甚至是除IE之外，所有浏览器都可以在智能手机上看到它），但IE除外。IE不完全支持开放类型。</font></font></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

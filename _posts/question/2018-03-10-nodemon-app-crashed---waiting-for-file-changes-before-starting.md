@@ -20,6 +20,7 @@ answer: 1
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -28,6 +29,7 @@ answer: 1
           </div>
           <div class="discuss-comment">重启还真能解决这个问题</div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

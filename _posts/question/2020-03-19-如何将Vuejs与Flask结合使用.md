@@ -21,6 +21,7 @@ topic: Vue.js
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -57,6 +58,7 @@ def index():<font></font>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">注意，在烧瓶</font></font><code>static_folder</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">并</font></font><code>template_folder</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">不能相同。</font></font></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

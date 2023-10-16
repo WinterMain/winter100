@@ -35,6 +35,7 @@ topic: React.js
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -122,6 +123,7 @@ topic: React.js
 
 <p>Sometimes you want to do more than the react scripts gives you, in this case you can do <code>react-scripts eject</code>. This will transform your project from a "managed" state into a not managed state, where you have full control over dependencies, build scripts and other configurations.</p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

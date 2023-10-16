@@ -36,6 +36,7 @@ topic: Node.js
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -186,6 +187,7 @@ topic: Node.js
 
 <p><a href="https://stackoverflow.com/a/27442276/1476885"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">James的回答</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">建议您可以</font></font><code>/*jshint esversion: 6 */</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">为</font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">每个</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">文件</font><font style="vertical-align: inherit;">添加一个注释</font><font style="vertical-align: inherit;">，但是如果需要控制多个文件，这比必要的工作更多。</font></font></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

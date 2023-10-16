@@ -46,6 +46,7 @@ topic: TypeScript
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -90,6 +91,7 @@ console</span><span class="pun">.</span><span class="pln">log</span><span class=
   console</span><span class="pun">.</span><span class="pln">log</span><span class="pun">(</span><span class="pln">params</span><span class="pun">);</span><span class="pln">
 </span><span class="pun">});</span></code></pre></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

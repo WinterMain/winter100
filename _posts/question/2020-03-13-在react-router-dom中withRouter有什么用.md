@@ -33,6 +33,7 @@ export default withRouter(Foo);<font></font>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -142,6 +143,7 @@ const ShowTheLocationWithRouter = withRouter(ShowTheLocation);<font></font>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这使</font></font><code>Header</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">组件可以访问</font></font><code>this.props.history</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，这意味着标题现在可以重定向用户。</font></font></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

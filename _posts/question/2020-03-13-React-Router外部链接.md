@@ -36,6 +36,7 @@ topic: JavaScript
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -115,6 +116,7 @@ export default Redirect;<font></font>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">编辑-注意：这与一起使用</font></font><code>react-router: 3.0.5</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，在4.x中不是那么简单</font></font></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

@@ -61,6 +61,7 @@ topic: JavaScript
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -139,6 +140,7 @@ topic: JavaScript
 <li><a href="http://www.youtube.com/watch?v=W13qDdJDHp8&amp;feature=share&amp;t=59m8s"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">http://www.youtube.com/watch?v=W13qDdJDHp8&amp;feature=share&amp;t=59m8s</font></font></a></li>
 </ul></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

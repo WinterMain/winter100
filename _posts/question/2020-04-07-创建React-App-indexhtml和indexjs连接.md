@@ -56,6 +56,7 @@ topic: React.js
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -72,6 +73,7 @@ topic: React.js
 
 <p>Hope this helps! The beauty of Create React App is you don’t actually need to think about it.</p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

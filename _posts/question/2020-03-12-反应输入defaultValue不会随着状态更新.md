@@ -91,7 +91,9 @@ AWAY_MESSAGE Object {id: 1, company_id: 1, text: "Sample Text", master_toggle: f
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     
+    </div>
     {% endraw %}
   </div>
 <div>

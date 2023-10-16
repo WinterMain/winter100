@@ -21,6 +21,7 @@ topic: HTML
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -212,6 +213,7 @@ Here are <a href="https://stackoverflow.com/questions/3597082/how-is-a-website-h
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">从技术上讲，您可以</font><font style="vertical-align: inherit;">在</font><font style="vertical-align: inherit;">元素</font><font style="vertical-align: inherit;">上</font><font style="vertical-align: inherit;">指定</font></font><a href="http://www.w3.org/TR/html401/interact/forms.html#adef-accept"><code>accept</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">属性</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">（在</font></font><a href="http://dev.w3.org/html5/spec/states-of-the-type-attribute.html#attr-input-accept"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">html5中为</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">替代</font><a href="http://www.w3.org/TR/html401/interact/forms.html#adef-accept"><font style="vertical-align: inherit;">属性</font></a><font style="vertical-align: inherit;">）</font></font><code>input</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，但未正确支持</font><font style="vertical-align: inherit;">该</font><a href="http://www.w3.org/TR/html401/interact/forms.html#adef-accept"><font style="vertical-align: inherit;">属性</font></a><font style="vertical-align: inherit;">。</font></font></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

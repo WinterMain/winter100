@@ -21,6 +21,7 @@ topic: CSS
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -113,6 +114,7 @@ width:500px;<font></font>
 
 <p>For example, if a background color was applied to all <code>div</code>s, but a different background color was applied to <code>div</code>s with a certain id, the first color will show up but will be crossed out, as the second color has replaced it (in the property list for the <code>div</code> with that id).</p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

@@ -39,6 +39,7 @@ topic: JavaScript
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -178,6 +179,7 @@ useEffect(()=&gt;{<font></font>
 
 <p><strong><a href="https://codesandbox.io/s/jpknv0kyn9" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">工作代码和邮箱</font></font></a></strong></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

@@ -23,6 +23,7 @@ topic: JavaScript
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -205,6 +206,7 @@ So I tried this piece of code, which revealed the problem!</p>
           <div class="discuss-comment"><pre><code>var lowerCaseName = "Your Name".toLowerCase();
 </code></pre></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

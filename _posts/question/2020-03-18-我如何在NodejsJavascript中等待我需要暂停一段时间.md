@@ -45,6 +45,7 @@ console.log('Blah blah blah blah extra-blah');<font></font>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -254,6 +255,7 @@ function sleep(ms) {<font></font>
 <li>All NodeJS Version for download: <a href="https://nodejs.org/en/download/releases/" rel="noreferrer">https://nodejs.org/en/download/releases/</a></li>
 </ul></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

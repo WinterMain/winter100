@@ -32,6 +32,7 @@ topic: React.js
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -150,6 +151,7 @@ async makeRequest(){<font></font>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果使用</font></font><code>async componentDidMount</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，则将失去此功能：浏览器更新屏幕后，将进行另一个渲染。</font><font style="vertical-align: inherit;">但是imo，如果您正在考虑使用异步操作（例如获取数据），则无法避免浏览器将屏幕更新两次。</font><font style="vertical-align: inherit;">在另一个世界中，无法在浏览器更新屏幕之前暂停componentDidMount</font></font></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

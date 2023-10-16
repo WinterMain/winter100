@@ -97,6 +97,7 @@ topic: Vue.js
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -124,6 +125,7 @@ topic: Vue.js
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">@Mani建议使用</font></font><code>mounted(){}</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">未隐藏的组件。</font><font style="vertical-align: inherit;">如果您希望在组件可见时运行该功能，而使用诸如</font></font><code>v-if=""</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">或的</font><font style="vertical-align: inherit;">条件将其隐藏</font><font style="vertical-align: inherit;">，</font></font><code>v-show=""</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">则使用</font></font><code>updated(){}</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

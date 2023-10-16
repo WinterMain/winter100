@@ -25,6 +25,7 @@ String.prototype.substring<font></font>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -277,6 +278,7 @@ Syntax: string.substring(start, stop);<font></font>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">来源：</font></font><a href="http://rapd.wordpress.com/2007/07/12/javascript-substr-vs-substring/" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">编程和开发的基本艺术：Javascript：substr（）vs substring（）</font></font></a></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

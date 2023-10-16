@@ -31,6 +31,7 @@ topic: HTML
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -168,6 +169,7 @@ menu -&gt; Plugins -&gt; XML Tools -&gt; Pretty Print)</li>
 <p>In older versions:
 menu -&gt; TextFX -&gt; HTML Tidy -&gt; Tidy: Reindent XML.</p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

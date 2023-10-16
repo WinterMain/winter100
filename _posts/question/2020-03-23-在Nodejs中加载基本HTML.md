@@ -24,6 +24,7 @@ topic: Node.js
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -34,6 +35,7 @@ topic: Node.js
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果您确实想提供静态内容（例如“关于”页面，图像，css等），则可以使用静态内容提供模块之一，例如node-static。</font><font style="vertical-align: inherit;">（还有其他可能更好/更糟的方法-尝试search.npmjs.org。）通过一点点预处理，您就可以从静态过滤动态页面并将其发送到正确的请求处理程序。</font></font></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

@@ -27,6 +27,7 @@ topic: CSS
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -191,6 +192,7 @@ Go to http://username.github.io/repo<font></font>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在GitHub上预览HTML文件最舒适的方法是转到</font></font><a href="https://htmlpreview.github.io/" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">https://htmlpreview.github.io/</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">或仅将其添加到原始URL，即：</font><a href="https://htmlpreview.github.io/?https://github.com/bartaz/impress.js/blob/master/index.html" rel="noreferrer"><font style="vertical-align: inherit;">https</font></a><font style="vertical-align: inherit;"> : </font><a href="https://htmlpreview.github.io/?https://github.com/bartaz/impress.js/blob/master/index.html" rel="noreferrer"><font style="vertical-align: inherit;">//htmlpreview.github.io/?https</font></a><font style="vertical-align: inherit;"> : </font></font><a href="https://htmlpreview.github.io/?https://github.com/bartaz/impress.js/blob/master/index.html" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">// github.com/bartaz/impress.js/blob/master/index.html</font></font></a></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

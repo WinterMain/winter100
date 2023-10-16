@@ -67,6 +67,7 @@ query.on('end', function() { <font></font>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -86,6 +87,7 @@ query.on('end', function() { <font></font>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">还有其他在大型项目中使用更广泛的方法，例如</font></font><a href="http://requirejs.org/" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">require.js之</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">类的模块加载器</font><font style="vertical-align: inherit;">。</font><font style="vertical-align: inherit;">在这两个中，我没有使用Require my，但是我认为许多人认为它是可行的方式。</font></font></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

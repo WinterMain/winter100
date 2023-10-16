@@ -34,6 +34,7 @@ topic: HTML
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -129,6 +130,7 @@ Here you can write some text to display in the textarea as the default text<font
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">你不能 </font><font style="vertical-align: inherit;">在撰写本文时，唯一设计为多行的HTML表单元素是</font></font><a href="https://developer.mozilla.org/en/HTML/Element/textarea" rel="nofollow noreferrer"><code>&lt;textarea&gt;</code></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

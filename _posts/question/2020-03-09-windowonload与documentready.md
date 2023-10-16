@@ -21,6 +21,7 @@ topic: JavaScript
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -208,6 +209,7 @@ $(window).on("load", function() {<font></font>
 <li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">和</font></font><code>window.onload</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">（即使在旧的浏览器中也实现了），并在加载整个页面（图像，样式等）时触发</font></font></li>
 </ul></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

@@ -29,6 +29,7 @@ topic: JavaScript
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -146,6 +147,7 @@ const createInitVal = () =&gt; { /* ... complex computation or other logic */ re
 
 <p><a href="https://codesandbox.io/embed/didmount-willmount-hooks-r9ios" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">完整演示</font></font></a></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

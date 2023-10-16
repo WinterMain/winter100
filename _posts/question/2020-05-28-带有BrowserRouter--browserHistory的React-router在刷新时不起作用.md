@@ -91,6 +91,7 @@ module</span><span class="pun">.</span><span class="pln">exports </span><span cl
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -109,6 +110,7 @@ module</span><span class="pun">.</span><span class="pln">exports </span><span cl
 
 <p>Because you want React-Route to handle the route instead of your server. So no matter what the url is it should goes to index.html.</p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

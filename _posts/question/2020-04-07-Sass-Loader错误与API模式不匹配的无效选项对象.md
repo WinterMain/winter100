@@ -127,6 +127,7 @@ ValidationError: Invalid options object. Sass Loader has been initialised using 
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -152,6 +153,7 @@ npm install --save-dev sass-loader@7.1.0<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">同时，这可能会有所帮助：在package.json中，编辑sass-loader以读取 </font></font><code>"sass-loader": "7.0.1",
 </code></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

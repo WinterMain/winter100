@@ -30,6 +30,7 @@ topic: JavaScript
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -116,6 +117,7 @@ module.exports = function override(config) {<font></font>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">您需要</font></font><code>WC-BlackonWhite.jpg</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">进入</font></font><code>src</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">目录。</font><font style="vertical-align: inherit;">该</font></font><code>public</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">目录用于将直接在HTML中链接的静态文件（例如favicon），而不是要直接导入捆绑包中的内容。</font></font></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

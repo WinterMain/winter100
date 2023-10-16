@@ -20,6 +20,7 @@ answer: 1
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -34,6 +35,7 @@ fetch 方法用于在渲染页面前填充应用的状态树（store）数据，
 
 </div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

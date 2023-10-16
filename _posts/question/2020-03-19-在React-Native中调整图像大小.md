@@ -128,6 +128,7 @@ class SearchPage extends Component {<font></font>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -144,6 +145,7 @@ class SearchPage extends Component {<font></font>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">为避免在调整图像时质量下降，请考虑使用矢量图形，以便您可以轻松地尝试不同的尺寸。</font><font style="vertical-align: inherit;">Inkscape是免费工具，可以很好地实现此目的。</font></font></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

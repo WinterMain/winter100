@@ -27,6 +27,7 @@ myObject["age"] = 21;<font></font>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -457,6 +458,7 @@ Object.keys(obj).length;<font></font>
 <pre><code>Object.keys(myArray).length
 </code></pre></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

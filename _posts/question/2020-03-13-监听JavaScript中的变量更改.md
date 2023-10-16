@@ -21,6 +21,7 @@ topic: JavaScript
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -353,6 +354,7 @@ test.watch("elem", function(prop,oldval,newval){<font></font>
 
 <p>You can also user an array of listeners instead of a single listener slot, but I wanted to give you the simplest possible example.</p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

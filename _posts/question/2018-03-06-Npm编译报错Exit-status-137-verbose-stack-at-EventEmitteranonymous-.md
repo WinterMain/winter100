@@ -156,6 +156,7 @@ answer: 2
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -165,15 +166,15 @@ answer: 2
           <div class="discuss-comment">其实也是因为内存不够了</div>
         </div><div class="discuss-children">
           <div class="discuss-child">
-            <div class="discuss-comment"><p><a href='/home/26969'>@刹那花开</a>可以的，你可以试试</p></div>
-            <div class="discuss-meta">
-              <span class="discuss-user">Winter</span>
-              <span class="discuss-time">2020.09.28</span>
-            </div>
-          </div><div class="discuss-child">
             <div class="discuss-comment"><p>那一楼的方法能解决问题吗</p></div>
             <div class="discuss-meta">
               <span class="discuss-user">刹那花开</span>
+              <span class="discuss-time">2020.09.28</span>
+            </div>
+          </div><div class="discuss-child">
+            <div class="discuss-comment"><p><a href='/home/26969'>@刹那花开</a>可以的，你可以试试</p></div>
+            <div class="discuss-meta">
+              <span class="discuss-user">Winter</span>
               <span class="discuss-time">2020.09.28</span>
             </div>
           </div></div>
@@ -190,6 +191,7 @@ answer: 2
 2.  n stable   安装稳定版本
 然后搞定！</div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

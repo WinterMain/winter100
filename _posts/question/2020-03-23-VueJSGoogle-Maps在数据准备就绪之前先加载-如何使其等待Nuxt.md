@@ -120,6 +120,7 @@ topic: Vue.js
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -204,6 +205,7 @@ topic: Vue.js
 
 <p><a href="https://codesandbox.io/s/w66rlyj345" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这是一个演示</font></font></a></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

@@ -21,6 +21,7 @@ topic: Node.js
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -233,6 +234,7 @@ sexyModel.find()<font></font>
 <pre><code>MyModel.find(query, fields, { skip: 10, limit: 5 }, function(err, results) { ... });
 </code></pre></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

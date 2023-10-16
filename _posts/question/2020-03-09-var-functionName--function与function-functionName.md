@@ -37,6 +37,7 @@ topic: JavaScript
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -537,6 +538,7 @@ functionTwo</span><span class="pun">();</span><span class="pln">
 <li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">定义函数的第三种方法是</font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">“ Function（）”构造函数</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，该函数未在原始文章中显示。</font><font style="vertical-align: inherit;">不建议使用此功能，因为它的工作方式与相同</font></font><code>eval()</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，但存在问题。</font></font></li>
 </ol></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

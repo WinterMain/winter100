@@ -38,6 +38,7 @@ export class MyComponent extends React.Component&lt;Props, any&gt; { ... }<font>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -67,6 +68,7 @@ export class MyComponent extends React.Component&lt;Props, any&gt; { ... }<font>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">现在，较新版本的TypeScript可以根据您的</font></font><code>React.PropTypes</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">（</font></font><code>PropTypes.InferProps</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">）</font><font style="vertical-align: inherit;">推断类型</font><font style="vertical-align: inherit;">，但是生成的类型可能难以使用或在代码的其他地方引用。</font></font></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

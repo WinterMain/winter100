@@ -27,6 +27,7 @@ topic: React.js
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -186,6 +187,7 @@ topic: React.js
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我的问题是忘记更新</font></font><code>react-dom</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">模块。</font></font><a href="https://github.com/facebook/react/issues/13972#issuecomment-433178133" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">见问题</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

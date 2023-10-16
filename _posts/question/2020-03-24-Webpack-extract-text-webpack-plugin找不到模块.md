@@ -45,6 +45,7 @@ Error: Cannot find module 'webpack/lib/ConcatSource'<font></font>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -108,6 +109,7 @@ Error: Cannot find module 'webpack/lib/ConcatSource'<font></font>
 
 <p><code>extract-text-webpack-plugin</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">需要</font></font><code>webpack</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">作为对等方依赖项，但是npm 3不会自动安装对等方依赖项。</font></font></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

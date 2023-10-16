@@ -29,6 +29,7 @@ topic: HTML
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -892,6 +893,7 @@ public ActionResult Cancel(MessageModel mm) { ... }<font></font>
 
 <p><em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">更新：</font></font></em> <a href="https://docs.microsoft.com/en-us/aspnet/core/mvc/razor-pages/#using-multiple-handlers" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">剃刀页面</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">看起来可以提供相同的功能。</font><font style="vertical-align: inherit;">对于新开发，它可能是更可取的。</font></font></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

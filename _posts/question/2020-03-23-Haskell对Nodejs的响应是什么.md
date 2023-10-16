@@ -36,6 +36,7 @@ topic: Node.js
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -182,6 +183,7 @@ topic: Node.js
 
 <p><a href="http://research.google.com/pubs/archive/36841.pdf" rel="noreferrer">Read the paper</a> describing the implementation.</p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

@@ -39,6 +39,7 @@ topic: CSS
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -114,6 +115,7 @@ topic: CSS
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">指南针可以在这里找到：</font><a href="http://github.com/chriseppstein/compass" rel="noreferrer"><font style="vertical-align: inherit;">http</font></a><font style="vertical-align: inherit;"> : </font></font><a href="http://github.com/chriseppstein/compass" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">//github.com/chriseppsein/compass</font></font></a></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

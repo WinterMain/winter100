@@ -72,6 +72,7 @@ ReactDOM.render(&lt;Main/&gt;, document.body);</code></pre>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -158,6 +159,7 @@ ReactDOM.render(&lt;Main/&gt;, document.body);</code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">因此更改发生在setState调用的位置。</font></font><code>renders</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">然后从那里叫</font><font style="vertical-align: inherit;">树</font><font style="vertical-align: inherit;">。</font><font style="vertical-align: inherit;">如果您使用的是纯组分，</font></font><code>render</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">则将被跳过。</font></font></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

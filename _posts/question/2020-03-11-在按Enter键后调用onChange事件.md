@@ -33,6 +33,7 @@ topic: JavaScript
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -43,6 +44,7 @@ topic: JavaScript
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">或者，您可以将其绑定到</font></font><code>blur</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">（onBlur）事件，该事件在</font></font><code>input</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">焦点移开时发生（例如，跳至下一个可以获得焦点的元素）</font></font></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

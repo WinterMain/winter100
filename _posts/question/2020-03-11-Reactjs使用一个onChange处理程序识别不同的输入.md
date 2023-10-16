@@ -45,6 +45,7 @@ React.renderComponent(&lt;Hello /&gt;, document.getElementById('content'));<font
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -117,6 +118,7 @@ render () {<font></font>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我在几个应用程序中都使用了类似的东西，这非常方便。</font></font></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

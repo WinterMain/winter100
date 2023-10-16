@@ -59,6 +59,7 @@ app.prepare().then(() =&gt; {<font></font>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -69,6 +70,7 @@ app.prepare().then(() =&gt; {<font></font>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">有关更多信息，请随时关注Next.JS Github问题：</font></font><a href="https://github.com/zeit/next.js/issues/4029" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Github NextJs受限链接中的讨论</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font><font style="vertical-align: inherit;">它清楚地说明了如何处理这种情况。</font></font></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

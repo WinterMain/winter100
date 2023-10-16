@@ -27,6 +27,7 @@ var myOtherUrl = "http://example.com/index.html?url=" + myUrl;<font></font>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -155,6 +156,7 @@ encodeURI(decodeURI("abc%20xyz 123")) // correct: "abc%20xyz%20123"<font></font>
        "http://example.com/index.html?url=" + encodeURIComponent(myUrl);<font></font>
 </code></pre></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

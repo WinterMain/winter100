@@ -27,6 +27,7 @@ topic: Node.js
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -98,6 +99,7 @@ topic: Node.js
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">对所有咖啡因上瘾者来说是个好消息：rewire也可以在Coffee-Script中使用。</font><font style="vertical-align: inherit;">请注意，在这种情况下，需要在devDependencies中列出CoffeeScript。</font></font></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

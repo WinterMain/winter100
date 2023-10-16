@@ -43,6 +43,7 @@ app.use(express.methodOverride());<font></font>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -147,6 +148,7 @@ app.use(express.json());<font></font>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">否。您需要使用</font></font><code>app.use(express.bodyParser())</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">之前</font></font><code>app.use(app.router)</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font><font style="vertical-align: inherit;">实际上，</font></font><code>app.use(app.router)</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">应该是您最后要打的电话。</font></font></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

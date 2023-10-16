@@ -25,6 +25,7 @@ topic: Vue.js
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -59,6 +60,7 @@ topic: Vue.js
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">注意：还有更多</font><font style="vertical-align: inherit;">可用的</font></font><a href="https://developer.mozilla.org/en-US/docs/Web/Events" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">事件</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，我个人认为，我只手工挑选了最常见的</font><a href="https://developer.mozilla.org/en-US/docs/Web/Events" rel="noreferrer"><font style="vertical-align: inherit;">事件</font></a><font style="vertical-align: inherit;">。</font></font></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

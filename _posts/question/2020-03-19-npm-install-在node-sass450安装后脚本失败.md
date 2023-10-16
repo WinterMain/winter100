@@ -30,6 +30,7 @@ ionic 3.19.0</font></font></p></div>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -179,6 +180,7 @@ sudo npm i --unsafe-perm node-sass<font></font>
 <li><font style="vertical-align: inherit;"></font><code>npm install</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">再次</font><font style="vertical-align: inherit;">运行</font><font style="vertical-align: inherit;">。</font></font></li>
 </ul></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

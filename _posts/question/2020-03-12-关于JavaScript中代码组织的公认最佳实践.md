@@ -68,6 +68,7 @@ topic: JavaScript
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -429,6 +430,7 @@ Exc.ui.maskedInput = function (mask) {<font></font>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我将不同的“命名空间”（有时将各个类）放在单独的文件中。</font><font style="vertical-align: inherit;">通常，我从一个文件开始，随着类或命名空间变得足够大以保证它，我将其分离到自己的文件中。</font><font style="vertical-align: inherit;">使用工具组合所有文件进行生产也是一个好主意。</font></font></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

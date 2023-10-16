@@ -31,6 +31,7 @@ topic: JavaScript
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -479,6 +480,7 @@ TEST.multiFn = function(){<font></font>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">建议的所有实现都是不错的选择，但实际上，JavaScript没有本地实现。</font></font></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

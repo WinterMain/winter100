@@ -24,6 +24,7 @@ topic: JavaScript
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -137,6 +138,7 @@ class Employee extends Person {<font></font>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">现在，JavaScript是一种非常强大的语言，因此，</font><font style="vertical-align: inherit;">如果需要，</font></font><em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在JavaScript中</font></font></em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">实现基于类的OO系统非常容易</font><font style="vertical-align: inherit;">。</font><font style="vertical-align: inherit;">但是，只有在确实有需要时才应该这样做，而不仅仅是因为Java就是这样做的。</font></font></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

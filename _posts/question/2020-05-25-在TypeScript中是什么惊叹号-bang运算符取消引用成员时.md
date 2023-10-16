@@ -42,6 +42,7 @@ noPublicModifierRule</span><span class="pun">.</span><span class="pln">ts</span>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -52,6 +53,7 @@ noPublicModifierRule</span><span class="pun">.</span><span class="pln">ts</span>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">bang运算符告诉编译器暂时放宽其可能要求的“非空”约束。</font><font style="vertical-align: inherit;">它对编译器说：“作为开发人员，我比您更清楚此变量现在不能为null”。</font></font></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

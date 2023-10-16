@@ -58,6 +58,7 @@ topic: Vue.js
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -178,6 +179,7 @@ changeZIndexToOriginal(e){<font></font>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">注意：您可以在</font></font><code>:root</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">选择器中</font><font style="vertical-align: inherit;">描述默认变量值</font><font style="vertical-align: inherit;">。</font></font></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

@@ -54,6 +54,7 @@ React.renderComponent(&lt;App /&gt;, document.body);<font></font>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -157,6 +158,7 @@ React.renderComponent(&lt;App /&gt;, document.body);<font></font>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">JavaScript正在与</font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">DOM</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">元素</font><font style="vertical-align: inherit;">一起使用</font><font style="vertical-align: inherit;">，如果它们不可用，则将返回</font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">null</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，可能会破坏整个应用程序...因此，请始终确保在运行JavaScript之前已准备就绪...</font></font></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

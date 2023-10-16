@@ -62,6 +62,7 @@ class HelloMessage extends React.Component {<font></font>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -297,6 +298,7 @@ React.Component //correct.<font></font>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果您具有循环导入结构，也会发生这种情况。</font><font style="vertical-align: inherit;">一个模块导入另一个模块，反之亦然。</font><font style="vertical-align: inherit;">在这种情况下，您只需要重构代码即可避免它。</font></font><a href="https://medium.com/content-uneditable/circular-dependencies-in-javascript-a-k-a-coding-is-not-a-rock-paper-scissors-game-9c2a9eccd4bc#.9nppw7oqv" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">更多信息</font></font></a></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

@@ -58,6 +58,7 @@ Error: Chunk.entrypoints: Use Chunks.groupsIterable and filter by instanceof Ent
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -94,6 +95,7 @@ Error: Chunk.entrypoints: Use Chunks.groupsIterable and filter by instanceof Ent
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这对我有用！</font></font></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

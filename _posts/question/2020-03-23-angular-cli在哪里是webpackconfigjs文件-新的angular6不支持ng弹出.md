@@ -45,6 +45,7 @@ topic: Webpack
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -154,6 +155,7 @@ topic: Webpack
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">但是，与</font><font style="vertical-align: inherit;">提供的</font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">ng弹出</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">配置</font><font style="vertical-align: inherit;">不同</font><font style="vertical-align: inherit;">，此处将与默认配置合并，因此只需添加要编辑/添加的内容即可。</font></font></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

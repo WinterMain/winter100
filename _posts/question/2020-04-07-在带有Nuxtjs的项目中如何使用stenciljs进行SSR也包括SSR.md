@@ -29,6 +29,7 @@ topic: Vue.js
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -53,6 +54,7 @@ topic: Vue.js
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">哦，是的，正如Aldarund所说，您不能，我更好地查看了</font></font><a href="https://stenciljs.com/docs/prerendering" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">prerendering页面</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，据说那里的prerender发生在构建时间上，所以这是不可能的：/太糟糕了</font></font></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

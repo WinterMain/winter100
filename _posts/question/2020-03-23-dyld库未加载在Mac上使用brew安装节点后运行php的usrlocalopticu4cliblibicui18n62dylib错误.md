@@ -29,6 +29,7 @@ dyld: Library not loaded: /usr/local/opt/icu4c/lib/libicui18n.62.dylib<font></fo
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -302,6 +303,7 @@ npm 8.1.2 -&gt; 10.3.0<font></font>
 <pre><code>brew reinstall https://raw.githubusercontent.com/Homebrew/homebrew-core/575eb4bbef683551e19f329f60456b13a558132f/Formula/icu4c.rb
 </code></pre></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

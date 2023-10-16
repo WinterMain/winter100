@@ -25,6 +25,7 @@ topic: CSS
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -339,6 +340,7 @@ body * { visibility: hidden; }<font></font>
 
 <p>Using <code>visibility</code> works better since you can turn on visibility for descendants. The invisible elements still affect the layout though, so I move <code>section-to-print</code> to the top left so it prints properly.</p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

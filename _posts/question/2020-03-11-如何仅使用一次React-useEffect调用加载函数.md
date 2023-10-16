@@ -41,6 +41,7 @@ topic: JavaScript
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -85,6 +86,7 @@ topic: JavaScript
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">当</font></font><code>useEffect</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">与第二个数组参数一起</font><font style="vertical-align: inherit;">使用</font><font style="vertical-align: inherit;">时，React将在挂载（初始渲染）之后和数组中的值更改后运行回调。</font><font style="vertical-align: inherit;">由于我们传递了一个空数组，因此它将仅在安装后运行。</font></font></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

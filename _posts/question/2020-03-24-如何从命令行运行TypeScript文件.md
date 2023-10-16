@@ -23,6 +23,7 @@ topic: Node.js
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -200,6 +201,7 @@ npm install -g typescript<font></font>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">有ts-node：</font></font><a href="https://github.com/TypeStrong/ts-node"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">https</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> : </font><a href="https://github.com/TypeStrong/ts-node"><font style="vertical-align: inherit;">//github.com/TypeStrong/ts-node</font></a><font style="vertical-align: inherit;">会为您做所有这一切🌹</font></font></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

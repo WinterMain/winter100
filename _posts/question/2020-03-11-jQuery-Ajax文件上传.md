@@ -37,6 +37,7 @@ topic: JavaScript
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -252,6 +253,7 @@ if ((($_FILES["file"]["type"] == "image/gif")<font></font>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">有关更多详细信息，请参见</font></font><a href="https://developer.mozilla.org/en-US/docs/XMLHttpRequest/FormData" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">MDN链接。</font></font></a></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

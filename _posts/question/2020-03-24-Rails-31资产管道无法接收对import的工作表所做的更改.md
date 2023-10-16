@@ -42,6 +42,7 @@ app.css.sass:<font></font>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -71,6 +72,7 @@ app.css.sass:<font></font>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">请参阅此</font></font><a href="http://rule52.com/2011/06/sass-and-sprockets-for-rails-31/"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">sass and sprockets博客文章</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">以及</font></font><a href="https://github.com/sstephenson/sprockets"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">sprockets文档</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">（尤其是“指令”部分）。</font></font></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

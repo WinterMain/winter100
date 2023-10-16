@@ -21,6 +21,7 @@ topic: React.js
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -37,6 +38,7 @@ topic: React.js
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在这种情况下，next / link组件的子代是锚标记。</font><font style="vertical-align: inherit;">它也可以与任何其他组件或标签一起使用，放置在其中的组件的唯一要求是它们应接受onClick道具。</font></font></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

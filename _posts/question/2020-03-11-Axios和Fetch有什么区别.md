@@ -21,6 +21,7 @@ topic: JavaScript
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -128,6 +129,7 @@ The same table is here: <a href="https://www.javascriptstuff.com/ajax-libraries/
 <p>Or here:
 <a href="https://i.stack.imgur.com/qr24s.png" rel="noreferrer"><img src="https://i.stack.imgur.com/qr24s.png" alt="在此处输入图片说明"></a></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

@@ -51,6 +51,7 @@ server.listen(3000);<font></font>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -146,6 +147,7 @@ app.use(bodyParser.json());<font></font>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果您使用的快递&gt; = 4.16.0，身体解析器已根据这些方法重新加入</font></font><code>express.json()</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">和</font></font><code>express.urlencoded()</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

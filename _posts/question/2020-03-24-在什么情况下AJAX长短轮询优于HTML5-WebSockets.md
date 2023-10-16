@@ -27,6 +27,7 @@ topic: HTML
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -42,6 +43,7 @@ topic: HTML
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">您已省略的一项有争议的技术是服务器发送的事件/事件源。  </font></font><a href="https://stackoverflow.com/questions/11077857/what-are-long-polling-websockets-server-sent-events-sse-and-comet"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">什么是长轮询，Websocket，服务器发送事件（SSE）和Comet？</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">对所有这些都有很好的讨论。</font><font style="vertical-align: inherit;">请记住，其中一些服务器比其他服务器更易于集成。</font></font></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

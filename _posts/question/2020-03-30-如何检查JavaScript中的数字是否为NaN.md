@@ -26,6 +26,7 @@ parseFloat('geoff') == Number.NaN;<font></font>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -166,6 +167,7 @@ e !== e; // false<font></font>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">要检查是否</font></font><em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">有</font></font></em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">数值而不是数字而不是数字NaN，请参见此处：</font></font><a href="https://stackoverflow.com/questions/30314447/how-do-you-test-for-nan-in-javascript"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如何在Javascript中测试NaN？</font></font></a></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

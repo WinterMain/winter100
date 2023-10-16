@@ -41,6 +41,7 @@ alert(obj.getX.apply(obj));<font></font>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -488,6 +489,7 @@ personContainer("world", "mars"); // output: "James Smith says hello mars", note
 
 <p><code>.bind</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">允许您设置的</font></font><code>this</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">值</font></font><em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">现在</font></font></em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">同时允许执行的功能</font></font><em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在未来</font></font></em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，因为它返回一个新的函数对象。</font></font></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

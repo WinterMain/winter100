@@ -50,6 +50,7 @@ topic: CSS
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -71,6 +72,7 @@ topic: CSS
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Haml 3.1.x中的默认值为</font></font><code>xhtml</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，但Rails除外（</font></font><code>html5</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">因为这是Rails的默认值）。</font><font style="vertical-align: inherit;">在Haml 4+中，默认设置将</font></font><code>html5</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">始终存在。</font><font style="vertical-align: inherit;">（当格式为</font></font><code>html4</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">或</font><font style="vertical-align: inherit;">时，默认情况下也会在4+中保留CDATA标记</font></font><code>html5</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。）</font></font></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

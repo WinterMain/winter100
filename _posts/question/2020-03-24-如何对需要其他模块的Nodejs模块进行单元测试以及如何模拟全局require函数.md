@@ -54,6 +54,7 @@ require = function(name) {<font></font>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -142,6 +143,7 @@ jestMocker.mock("firebase-admin", () =&gt; {<font></font>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我使用</font></font><a href="https://github.com/boblauer/mock-require" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">模拟需求</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font><font style="vertical-align: inherit;">确保</font></font><code>require</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在测试模块</font><font style="vertical-align: inherit;">之前定义</font><font style="vertical-align: inherit;">了模拟。</font></font></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

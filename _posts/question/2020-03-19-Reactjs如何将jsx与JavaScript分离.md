@@ -21,6 +21,7 @@ topic: React.js
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -93,6 +94,7 @@ React.renderComponent(Component({}), domNode);<font></font>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">现在，您可以将该模板定义放在任何地方，放在单独的文件中，或者但是您想要构建和引用自己的代码。</font><font style="vertical-align: inherit;">（强大的力量！不要听这些疯狂的说明性框架！:)）</font></font></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

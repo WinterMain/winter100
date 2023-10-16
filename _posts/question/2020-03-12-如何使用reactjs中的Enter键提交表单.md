@@ -36,6 +36,7 @@ topic: React.js
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -83,6 +84,7 @@ topic: React.js
 
 <p><font style="vertical-align: inherit;"></font><code>keydown</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">首次加载组件时，</font><font style="vertical-align: inherit;">它将在</font><font style="vertical-align: inherit;">事件</font><font style="vertical-align: inherit;">上注册一个侦听器</font><font style="vertical-align: inherit;">。</font><font style="vertical-align: inherit;">销毁组件后，它将删除事件侦听器。</font></font></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

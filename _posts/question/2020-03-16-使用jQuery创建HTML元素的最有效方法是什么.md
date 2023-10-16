@@ -28,6 +28,7 @@ topic: JavaScript
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -81,6 +82,7 @@ topic: JavaScript
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果您有很多HTML内容（不只是一个div），则可以考虑将HTML构建到隐藏容器内的页面中，然后对其进行更新并在需要时使其可见。</font><font style="vertical-align: inherit;">这样，您的标记的很大一部分就可以由浏览器预先解析，并且避免在调用时陷入JavaScript的泥潭。</font><font style="vertical-align: inherit;">希望这可以帮助！</font></font></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

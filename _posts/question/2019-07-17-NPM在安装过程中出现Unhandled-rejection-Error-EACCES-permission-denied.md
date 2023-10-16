@@ -20,6 +20,7 @@ tags: 前端
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -28,6 +29,7 @@ tags: 前端
           </div>
           <div class="discuss-comment"><p>重置npm相关文件夹的权限，并分配给当前用户</p><p>sudo chown -R $USER:$GROUP ~/.npm<br>sudo chown -R $USER:$GROUP ~/.config</p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

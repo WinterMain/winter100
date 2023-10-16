@@ -30,6 +30,7 @@ topic: JavaScript
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -394,6 +395,7 @@ someArray.remove(function(el) { return el.Name === "Kristian"; });<font></font>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这样做的问题是它</font></font><a href="http://kangax.github.com/es5-compat-table/" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">不能</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在IE &lt;9上运行。但是，您可以包括来自Java库的代码（例如</font></font><a href="http://documentcloud.github.com/underscore/#filter" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">underscore.js</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">），该代码可为任何浏览器实现此功能。</font></font></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

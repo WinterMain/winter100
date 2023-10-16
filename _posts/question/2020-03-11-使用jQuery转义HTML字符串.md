@@ -21,6 +21,7 @@ topic: JavaScript
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -144,6 +145,7 @@ for(var item in findReplace)<font></font>
 
 <p><a href="http://underscorejs.org"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Underscore</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">是一个实用程序库，提供了许多本机js不提供的功能。</font><font style="vertical-align: inherit;">还有</font></font><a href="https://lodash.com/"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">lodash</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，它是与下划线相同的API，但被重写以提高性能。</font></font></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

@@ -27,6 +27,7 @@ topic: HTML
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -343,6 +344,7 @@ topic: HTML
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">但是，实际上很少有人使用XHTML。</font><font style="vertical-align: inherit;">您需要将其内容提供服务</font></font><code>application/xhtml+xml</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，以使其解释为XHTML，这在旧版本的IE中将不起作用-这也意味着您犯的任何小错误都将阻止您的页面在支持XHTML的浏览器中显示。</font><font style="vertical-align: inherit;">因此，Web上大多数看起来像XHTML的东西实际上都是作为HTML提供和解释的。</font><font style="vertical-align: inherit;">有关</font><font style="vertical-align: inherit;">更多信息，</font><font style="vertical-align: inherit;">请参见将</font></font><a href="http://hixie.ch/advocacy/xhtml" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">XHTML作为text / html认为有害</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

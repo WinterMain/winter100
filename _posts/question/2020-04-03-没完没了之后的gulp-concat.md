@@ -43,6 +43,7 @@ return gulp.src('app.scss')<font></font>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -58,6 +59,7 @@ return gulp.src('app.scss')<font></font>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">您还可以更好地控制CSS的编译方式/位置。</font></font></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

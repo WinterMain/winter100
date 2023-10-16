@@ -70,6 +70,7 @@ topic: JavaScript
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -141,6 +142,7 @@ topic: JavaScript
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我在Flux工作了很长时间，现在在Redux中工作了很长时间。</font><font style="vertical-align: inherit;">正如Dan所指出的，两种架构都没有太大不同。</font><font style="vertical-align: inherit;">事实是Redux使事情变得更简单，更清洁。</font><font style="vertical-align: inherit;">它教会了您有关Flux的一些知识。</font><font style="vertical-align: inherit;">例如，Flux是单向数据流的完美示例。</font><font style="vertical-align: inherit;">关注点分离在我们拥有数据的地方，其操作和视图层是分离的。</font><font style="vertical-align: inherit;">在Redux中，我们有相同的东西，但我们还学习了不变性和纯函数。</font></font></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

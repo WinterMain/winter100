@@ -75,6 +75,7 @@ server.listen(8000);<font></font>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -95,6 +96,7 @@ server.listen(8000);<font></font>
 
 <p><strong><em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">首先，将private.key和public.cert文件放在/ bin文件夹下，它与WWW文件位于同一文件夹</font></font></em></strong><em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></em></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

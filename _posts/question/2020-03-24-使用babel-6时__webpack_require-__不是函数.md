@@ -180,6 +180,7 @@ module.exports = {<font></font>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -211,6 +212,7 @@ loaders : [<font></font>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我认为</font></font><a href="https://github.com/59naga/babel-plugin-add-module-exports" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">babel-plugin-add-module-exports</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">解决了这个问题。</font><font style="vertical-align: inherit;">看看这个</font></font><a href="https://github.com/davezuko/react-redux-starter-kit" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">react-redux-starter-kit</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">看看它在项目中的用法。</font></font></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

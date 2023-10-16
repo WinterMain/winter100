@@ -40,6 +40,7 @@ topic: HTML
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -121,6 +122,7 @@ Click <a href="http://jsfiddle.net/4EUS6/185/" rel="nofollow">here</a></p></div>
 <pre><code>&lt;div id="idModal" class="modal hide" data-backdrop="static" data-keyboard="false"&gt;
 </code></pre></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

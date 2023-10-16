@@ -47,6 +47,7 @@ React.renderComponent(&lt;TestApp /&gt;, document.body);<font></font>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -113,6 +114,7 @@ ReactDOM.render(element, document.getElementById("root"));</code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">@ user544079希望这个演示可以帮助您：)我建议通过切换类名来更改背景颜色。</font></font></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

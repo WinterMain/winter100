@@ -33,6 +33,7 @@ Sass::Plugin.options[:style] = :compressed<font></font>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -97,6 +98,7 @@ Could not find "stylesheet.css.sass" in any of your source paths. Your current s
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在</font></font><code>application.rb</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">文件中</font></font></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

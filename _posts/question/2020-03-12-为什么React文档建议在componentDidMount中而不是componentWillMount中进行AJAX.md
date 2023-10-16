@@ -23,6 +23,7 @@ topic: React.js
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -53,6 +54,7 @@ topic: React.js
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果您使用任何助焊剂库，并且所请求的数据最终存储在该组件已连接到（或从已连接的组件继承）的商店中，那么这将不是问题，因为该数据的接收很可能会更改道具最终。</font></font></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

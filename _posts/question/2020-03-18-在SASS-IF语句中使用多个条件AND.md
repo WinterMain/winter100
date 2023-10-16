@@ -41,6 +41,7 @@ topic: CSS
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -88,6 +89,7 @@ topic: CSS
 <li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">它返回数字或</font></font><code>null</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，而不是布尔值。</font></font></li>
 </ol></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

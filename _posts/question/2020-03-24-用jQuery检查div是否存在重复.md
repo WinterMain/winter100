@@ -61,6 +61,7 @@ It's a pitty to see that people do not want to learn what is the better approach
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -76,6 +77,7 @@ It's a pitty to see that people do not want to learn what is the better approach
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">正如karim79所说，第一个是最简洁的。</font><font style="vertical-align: inherit;">但是我可能会争辩说第二个更容易理解，因为对于某些Javascript / jQuery程序员来说，非零/假值</font></font><code>true</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在if语句中</font><font style="vertical-align: inherit;">被评估是不明显的/不为人所知</font><font style="vertical-align: inherit;">。</font><font style="vertical-align: inherit;">因此，第三种方法是不正确的。</font></font></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

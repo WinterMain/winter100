@@ -23,6 +23,7 @@ topic: JavaScript
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -241,6 +242,7 @@ console</span><span class="pun">.</span><span class="pln">log</span><span class=
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">其中</font></font><em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">M</font></font></em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">和</font></font><em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">N</font></font></em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">位置可能只有某些值。</font><font style="vertical-align: inherit;">此时，M的唯一有效值为1、2、3、4和5，因此随机生成该位置将使大多数结果不可接受。</font></font></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

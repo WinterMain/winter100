@@ -27,6 +27,7 @@ topic: JavaScript
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -35,6 +36,7 @@ topic: JavaScript
           </div>
           <div class="discuss-comment"><p>So many answers, and no one ever made a benchmark to compare sync vs async vs require. I described the difference in use cases of reading json in memory via require, readFileSync and readFile <a href="https://stackoverflow.com/questions/35389060/read-json-file-content-with-require-vs-fs-readfile">here</a>.</p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

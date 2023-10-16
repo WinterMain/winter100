@@ -52,6 +52,7 @@ topic: JavaScript
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -90,6 +91,7 @@ delete thisIsObject.Cow;<font></font>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果您有兴趣，请阅读《</font></font><a href="http://perfectionkills.com/understanding-delete/" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">了解删除》</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">以获取详细说明。</font></font></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

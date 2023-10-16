@@ -25,6 +25,7 @@ topic: CSS
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -74,6 +75,7 @@ topic: CSS
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Rails 3.1处理.scss文件的方式一次只能一次-例如，如果您在一个文件中定义变量，则它们不会被传递到其他.scss文件中。</font><font style="vertical-align: inherit;">恕我直言，这并不是真正的最佳解决方案。</font></font></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

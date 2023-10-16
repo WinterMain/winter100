@@ -32,6 +32,7 @@ topic: CSS
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -145,6 +146,7 @@ topic: CSS
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">搜索此问题将返回各种解决方案，其中包括多种选择，包括绝对定位，调整大小以及类似的针对浏览器和具体情况的警告。</font><font style="vertical-align: inherit;">阅读并根据发现的内容做出最明智的决定。</font></font></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

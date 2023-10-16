@@ -52,6 +52,7 @@ update() {<font></font>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -135,6 +136,7 @@ export default class AnnotatorComponent extends Vue {<font></font>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">从此问题开始：</font><a href="https://github.com/vuejs/vue-class-component/issues/94" rel="noreferrer"><font style="vertical-align: inherit;">https</font></a><font style="vertical-align: inherit;"> : </font></font><a href="https://github.com/vuejs/vue-class-component/issues/94" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">//github.com/vuejs/vue-class-component/issues/94</font></font></a></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

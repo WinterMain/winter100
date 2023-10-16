@@ -92,6 +92,7 @@ does not match the API schema.<font></font>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -100,6 +101,7 @@ does not match the API schema.<font></font>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Nuxt代码分为客户端部分和服务器部分。</font><font style="vertical-align: inherit;">您尝试</font></font><code>emailjs</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在组件中</font><font style="vertical-align: inherit;">使用该库</font><font style="vertical-align: inherit;">，这是客户端部分。</font><font style="vertical-align: inherit;">它无法访问</font></font><code>fs</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">库（在Web中）。</font><font style="vertical-align: inherit;">您需要在服务器部分（例如在</font></font><code>express</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">为您的页面提供服务</font><font style="vertical-align: inherit;">的服务器中）上编写它</font><font style="vertical-align: inherit;">。</font></font></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

@@ -33,6 +33,7 @@ topic: CSS
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -204,6 +205,7 @@ gem sources --add https://rubygems.org<font></font>
 <p><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">更新</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">：现在似乎有一个永久性的解决方案，用适当的受保护证书代替证书。</font><font style="vertical-align: inherit;">可以在以下URL上找到，该页面中包含一个教程。
 </font></font><a href="https://gist.github.com/luislavena/f064211759ee0f806c88#installing-using-update-packages-new"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">https://gist.github.com/luislavena/f064211759ee0f806c88#installing-using-update-packages-new</font></font></a></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

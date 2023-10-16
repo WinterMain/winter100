@@ -27,6 +27,7 @@ topic: JavaScript
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -1631,6 +1632,7 @@ $</span><span class="pun">.</span><span class="pln">each</span><span class="pun"
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">重要的是要注意，</font></font><code>Array.prototype.forEach</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">回调返回时不会中断</font></font><code>false</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font><a href="http://en.wikipedia.org/wiki/JQuery" rel="noreferrer" data-bitapp="processed"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">jQuery</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">和</font></font><a href="http://en.wikipedia.org/wiki/Underscore.js" rel="noreferrer" data-bitapp="processed"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Underscore.js</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">提供了它们自己的变体，</font></font><code>each</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">以提供可以短路的循环。</font></font></p></div>
         </div></div>
+    </div>
     
   </div>
 <div>

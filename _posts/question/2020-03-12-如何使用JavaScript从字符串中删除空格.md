@@ -31,6 +31,7 @@ topic: JavaScript
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -117,6 +118,7 @@ console.log( b.replace( /\s/g, '') ); </code></pre>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">您可以在计算机上运行它：</font><a href="https://jsperf.com/remove-string-spaces/1" rel="noreferrer"><font style="vertical-align: inherit;">https</font></a><font style="vertical-align: inherit;"> : </font></font><a href="https://jsperf.com/remove-string-spaces/1" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">//jsperf.com/remove-string-spaces/1</font></font></a></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

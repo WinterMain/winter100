@@ -46,6 +46,7 @@ You may need an appropriate loader to handle this file type.<font></font>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -58,6 +59,7 @@ You may need an appropriate loader to handle this file type.<font></font>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">有建设这个伟大的指南</font></font><a href="https://medium.com/tech-grandata-com/how-i-set-up-a-react-component-library-with-rollup-be6ccb700333" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在这里</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font><font style="vertical-align: inherit;">希望这能为您指明正确的方向。</font><font style="vertical-align: inherit;">作为替代方案，我相信您可以摆弄</font></font><code>next.config.js</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">重写Webpack的配置，并确保通过同一Webpack吸收外部导入，但是，您还必须</font></font><code>.babelrc</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在Storybook一侧</font><font style="vertical-align: inherit;">添加一些规则</font><font style="vertical-align: inherit;">以确保它被忽略在那里。</font><font style="vertical-align: inherit;">我们发现发布一个软件包并捆绑所有内容会更容易。</font></font></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

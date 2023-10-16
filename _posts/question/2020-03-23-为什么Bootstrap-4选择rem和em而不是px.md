@@ -41,6 +41,7 @@ topic: CSS
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -114,6 +115,7 @@ topic: CSS
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">资料来源：</font></font><a href="https://scotch.io/bar-talk/whats-new-in-bootstrap-4#toc-new-unit-rems-for-typography" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Scotch.io</font></font></a></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

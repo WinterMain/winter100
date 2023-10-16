@@ -38,6 +38,7 @@ topic: JavaScript
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -355,6 +356,7 @@ for (var i = 0; i &lt; array.length; ++i) {<font></font>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">但是，除非您的数组很大，否则您必须不断地循环它们，否则它们的速度都足够快。</font><font style="vertical-align: inherit;">我严重怀疑数组循环是否会成为您项目中的瓶颈（或任何其他与此项目有关的项目）</font></font></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

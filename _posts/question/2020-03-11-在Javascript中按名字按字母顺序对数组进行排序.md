@@ -33,6 +33,7 @@ topic: JavaScript
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -307,6 +308,7 @@ console.log(users.sort((a,b)=&gt; (a.firstname&gt;b.firstname)*2-1) );</code></p
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">请注意，在“现实生活”™中，当您比较字符串时，您通常希望忽略大小写，正确地对变音符号进行排序，诸如ß之类的怪异符号，因此您可能需要使用</font></font><code>localeCompare</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font><font style="vertical-align: inherit;">为清楚起见，请参见其他答案。</font></font></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

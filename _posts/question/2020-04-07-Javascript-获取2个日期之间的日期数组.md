@@ -26,6 +26,7 @@ topic: Node.js
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -94,6 +95,7 @@ function getDates(startDate, stopDate) {<font></font>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这是一个功能</font></font><a href="http://jsfiddle.net/jfhartsock/cM3ZU/" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">演示</font></font></a> <a href="http://jsfiddle.net/jfhartsock/cM3ZU/" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">http://jsfiddle.net/jfhartsock/cM3ZU/</font></font></a></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

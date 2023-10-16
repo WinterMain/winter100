@@ -107,6 +107,7 @@ export default Loan;<font></font>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -129,6 +130,7 @@ export default Loan;<font></font>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">您可能需要更改</font></font><code>"entities"</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">的条目</font></font><code>ormconfig.json</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">来</font></font><code>["dist/entity/**/*.js"]</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">或</font></font><code>"entitiesDir"</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">来</font></font><code>"dist/entity"</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

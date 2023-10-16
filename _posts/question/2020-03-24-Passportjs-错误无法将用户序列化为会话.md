@@ -99,6 +99,7 @@ console.log('Blog is running on port 8080');<font></font>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -141,6 +142,7 @@ passport.deserializeUser(function(user, done) {<font></font>
 });<font></font>
 </code></pre></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

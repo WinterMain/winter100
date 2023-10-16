@@ -32,6 +32,7 @@ topic: JavaScript
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -98,6 +99,7 @@ topic: JavaScript
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这可以防止对所有</font></font><code>&lt;a&gt;</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">标签</font><font style="vertical-align: inherit;">加下划线，</font><font style="vertical-align: inherit;">这是此问题的根本原因</font></font></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

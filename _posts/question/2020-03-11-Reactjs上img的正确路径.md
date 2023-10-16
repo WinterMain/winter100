@@ -44,6 +44,7 @@ localhost/details/2/id<font></font>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -113,6 +114,7 @@ For this keep your images in public folder. Like so...</p>
 <p><code>&lt;img src="/details/img/myImage.png" /&gt;
 </code></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

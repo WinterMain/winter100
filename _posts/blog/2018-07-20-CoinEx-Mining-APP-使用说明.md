@@ -103,7 +103,9 @@ An Web APP for CoinEx mining. Beaty UI, easy to operate. What you need is only a
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     
+    </div>
     {% endraw %}
   </div>
 <div>

@@ -23,6 +23,7 @@ topic: CSS
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -164,6 +165,7 @@ input[type="submit"] {<font></font>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">尝试</font></font><code>-webkit-border-radius:0px;</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">另外添加。</font></font></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

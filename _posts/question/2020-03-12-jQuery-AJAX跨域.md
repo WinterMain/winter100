@@ -51,6 +51,7 @@ echo json_encode($arr);<font></font>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -234,6 +235,7 @@ $.ajax({<font></font>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">“跨源资源共享（CORS）是一种允许跨域边界真正开放访问的规范。如果您提供公共内容，请考虑使用CORS对其进行开放以实现通用JavaScript /浏览器访问。”</font></font></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

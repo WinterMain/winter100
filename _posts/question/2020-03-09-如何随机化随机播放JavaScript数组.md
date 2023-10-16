@@ -26,6 +26,7 @@ topic: JavaScript
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -485,6 +486,7 @@ console.log(arr);</code></pre>
 
 <p><font style="vertical-align: inherit;"></font><a href="http://en.wikipedia.org/wiki/Fisher-Yates_shuffle" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">有关使用的算法的</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">更多信息</font><font style="vertical-align: inherit;">。</font></font></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

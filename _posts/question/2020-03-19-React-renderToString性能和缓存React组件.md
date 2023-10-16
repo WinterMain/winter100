@@ -65,6 +65,7 @@ Thanks.</p></div>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -126,6 +127,7 @@ console.log(Date.now() - start);<font></font>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">5）保留</font></font><code>&lt;Head &gt;</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">and </font></font><code>&lt;Footer&gt;</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">作为静态字符串，或使用模板引擎（</font></font><a href="https://github.com/stevenvachon/handlebars-react" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Reactjs-handellbars</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">），仅渲染页面内容（它应保存一些渲染组件）。</font><font style="vertical-align: inherit;">如果是单页应用，则可以在中的每个导航中更新标题说明</font></font><code>Router.Run</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

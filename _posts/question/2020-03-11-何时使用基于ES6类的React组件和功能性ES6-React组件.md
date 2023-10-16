@@ -53,6 +53,7 @@ export class MyComponent extends Component {<font></font>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -104,6 +105,7 @@ export class MyComponent extends Component {<font></font>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">现在有一个称为React的类</font></font><code>PureComponent</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，您可以扩展（而不是</font></font><code>Component</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">）来实现它自己的方法</font></font><code>shouldComponentUpdate</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，该方法可以为您比较浅道具。</font></font><a href="https://facebook.github.io/react/docs/react-component.html#shouldcomponentupdate" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">阅读更多</font></font></a></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

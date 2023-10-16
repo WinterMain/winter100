@@ -30,6 +30,7 @@ topic: Node.js
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -75,6 +76,7 @@ io.clients[sessionID].send()<font></font>
 
 <p>I would use the latter one, since depending on your application you might want to have more state on the clients anyway, so something like <code>clients[id] = {conn: clientConnect, data: {...}}</code> might do the job.</p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

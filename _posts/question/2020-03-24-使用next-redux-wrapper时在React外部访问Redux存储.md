@@ -55,6 +55,7 @@ export default (<font></font>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -98,6 +99,7 @@ export default (<font></font>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">您也可以查看一下</font></font><code>useDispatch</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">并</font></font><code>useSelector</code> <a href="https://react-redux.js.org/next/api/hooks" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">从react-redux上钩</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font><font style="vertical-align: inherit;">它们还应具有任何功能。</font></font></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

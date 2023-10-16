@@ -162,6 +162,7 @@ topic: Vue.js
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -170,6 +171,7 @@ topic: Vue.js
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这是玩笑v25中的回归。</font><font style="vertical-align: inherit;">目前无法执行任何操作。</font><font style="vertical-align: inherit;">该问题在jest repo </font><a href="https://github.com/facebook/jest/issues/9490" rel="nofollow noreferrer"><font style="vertical-align: inherit;">https://github.com/facebook/jest/issues/9490中</font></a><font style="vertical-align: inherit;">打开</font></font><a href="https://github.com/facebook/jest/issues/9490" rel="nofollow noreferrer"><font style="vertical-align: inherit;"></font></a> </p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

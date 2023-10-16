@@ -81,6 +81,7 @@ topic: React.js
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -91,6 +92,7 @@ topic: React.js
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">关于您的案例：可能是，</font></font><code>Review</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">您正试图访问</font></font><em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">未定义</font></font></em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">属性的</font><font style="vertical-align: inherit;">某些内容</font><font style="vertical-align: inherit;">，例如review.text.length，并且有些评论没有该属性？</font></font></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

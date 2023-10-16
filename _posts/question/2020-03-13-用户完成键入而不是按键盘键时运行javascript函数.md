@@ -25,6 +25,7 @@ topic: JavaScript
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -127,6 +128,7 @@ function _onKeyUp(e) {<font></font>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">（除非您当然不能从数据中分辨出何时完成） </font></font></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

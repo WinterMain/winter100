@@ -23,6 +23,7 @@ topic: JavaScript
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -185,6 +186,7 @@ document.getElementById("welcome").pause();<font></font>
   <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">尽管网络音频不再需要插件，但音频标签为实现复杂的游戏和交互式应用程序带来了明显的限制。</font><font style="vertical-align: inherit;">Web Audio API是用于处理和合成Web应用程序中音频的高级JavaScript API。</font><font style="vertical-align: inherit;">该API的目标是包括现代游戏音频引擎中的功能以及现代桌面音频制作应用程序中的某些混合，处理和过滤任务。</font></font></p>
 </blockquote></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

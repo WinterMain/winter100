@@ -21,6 +21,7 @@ topic: CSS
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -124,6 +125,7 @@ if you use align-content or justify-content, you are setting the position a grid
 
 <p><a href="http://codepen.io/enxaneta/full/adLPwv/" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这是</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">一支超酷的笔，可以显示并让您使用flexbox中的几乎所有内容。</font></font></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

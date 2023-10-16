@@ -64,6 +64,7 @@ topic: JavaScript
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -143,6 +144,7 @@ topic: JavaScript
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我遇到了同样的问题，我发现除了所有这些要点之外，我们还必须将index.html和输出bundle.js放在同一文件夹中，并将contentBase设置为该文件夹（根目录或子文件夹） 。</font></font></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

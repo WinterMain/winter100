@@ -21,6 +21,7 @@ topic: Node.js
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -37,6 +38,7 @@ topic: Node.js
   <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这是防止意外发布私有存储库的方法。</font></font></p>
 </blockquote></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

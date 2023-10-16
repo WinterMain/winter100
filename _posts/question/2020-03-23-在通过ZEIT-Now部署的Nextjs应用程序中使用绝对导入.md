@@ -41,6 +41,7 @@ topic: React.js
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -80,6 +81,7 @@ topic: React.js
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">（它还告诉Now，我们使用的是</font></font><a href="https://zeit.co/docs/v2/advanced/platform/overview/#versioning" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Now平台版本</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> 2，它是当前的最新版本（请参见</font></font><a href="https://zeit.co/docs/v2/advanced/configuration#version" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">version</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。当您使用部署时，忽略该版本会向您发出警告</font></font><code>$&nbsp;now</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。）</font></font></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

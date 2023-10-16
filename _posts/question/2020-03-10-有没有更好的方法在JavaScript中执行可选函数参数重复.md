@@ -51,6 +51,7 @@ topic: JavaScript
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -168,6 +169,7 @@ doSomething("myvalue"); //"myvalue"<font></font>
 
 <p><font style="vertical-align: inherit;"></font><code>a</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">例如，</font><font style="vertical-align: inherit;">与变量一起使用的默认值</font><font style="vertical-align: inherit;">在</font></font><a href="https://en.wikipedia.org/wiki/Backbone.js" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Backbone.js中得到了</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">广泛使用</font><font style="vertical-align: inherit;">。</font></font></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

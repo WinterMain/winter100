@@ -65,6 +65,7 @@ Undefined mixin 'rounded_corners'.<font></font>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -152,6 +153,7 @@ Undefined mixin 'rounded_corners'.<font></font>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这可能是一个奇怪的错误...</font></font></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

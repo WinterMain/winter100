@@ -20,6 +20,7 @@ answer: 1
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -43,6 +44,7 @@ function remove(array, item) {
 <p>splice函数的第二个参数指删除的数目。splice直接修改原数组，并把删除的所有元素以另一个新数组的方式返回。</p>
 </div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

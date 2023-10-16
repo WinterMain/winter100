@@ -23,6 +23,7 @@ topic: HTML
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -587,6 +588,7 @@ Credits goes to Author : <code>@Laurent Duveau</code></em></p></div>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果您已经打开chrome，它将在新标签页中启动html文件。</font></font></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

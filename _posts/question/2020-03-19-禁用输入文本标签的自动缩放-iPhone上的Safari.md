@@ -21,6 +21,7 @@ topic: HTML
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -217,6 +218,7 @@ textarea:focus, select:focus {<font></font>
 
 <p><code>&lt;meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"&gt;</code></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

@@ -68,7 +68,9 @@ workbox-sw.js:1 Uncaught Error: Config must be set before accessing workbox.* mo
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     
+    </div>
     {% endraw %}
   </div>
 <div>

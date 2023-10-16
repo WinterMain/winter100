@@ -23,6 +23,7 @@ topic: JavaScript
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -59,6 +60,7 @@ topic: JavaScript
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">jQuery </font></font><em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">可以</font></font></em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">做一些工作来确保在所有浏览器中一致地触发resize事件，但是我不确定任何浏览器是否有所不同，但是我建议您在Firefox，Safari和IE中进行测试。</font></font></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

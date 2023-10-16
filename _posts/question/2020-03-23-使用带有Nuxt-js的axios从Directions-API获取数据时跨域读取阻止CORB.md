@@ -52,7 +52,9 @@ When I use it with Insomnia, I retrieved data normally, like below picture:</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     
+    </div>
     {% endraw %}
   </div>
 <div>

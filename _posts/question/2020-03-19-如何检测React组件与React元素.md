@@ -21,6 +21,7 @@ topic: React.js
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -109,6 +110,7 @@ console.log(<font></font>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">使用npm安装。</font><font style="vertical-align: inherit;">在这一点上，没有直接的方法可用来检查其有效性。</font><font style="vertical-align: inherit;">你在做什么是正确的。</font></font></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

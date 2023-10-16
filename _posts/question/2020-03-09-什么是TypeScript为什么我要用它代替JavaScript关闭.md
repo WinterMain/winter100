@@ -47,6 +47,7 @@ topic: JavaScript
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -79,6 +80,7 @@ topic: JavaScript
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">当前TypeScript是ES2015的超集，因此可能是开始学习js新功能并转换为项目所需标准的一个不错的选择。 </font></font></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

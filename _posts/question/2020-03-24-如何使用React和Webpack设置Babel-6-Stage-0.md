@@ -135,6 +135,7 @@ When I put <code>stage-0</code> second or third I get the message about syntax e
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -214,6 +215,7 @@ babel-preset-stage-0@6.3.13<font></font>
 export default SurveyForm<font></font>
 </code></pre></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

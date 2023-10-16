@@ -25,6 +25,7 @@ topic: JavaScript
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -44,6 +45,7 @@ topic: JavaScript
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">将mixin视为可以扩展的抽象组件。</font><font style="vertical-align: inherit;">因此，您可以创建一个同时具有您想要的任何功能的mixin，然后将其应用于每个组件。</font></font></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

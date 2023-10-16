@@ -54,6 +54,7 @@ topic: React.js
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -95,6 +96,7 @@ topic: React.js
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">当我需要“取消所有订阅并异步”时，我通常向componentWillUnmount中的redux分发一些内容，以通知所有其他订阅者，并在必要时向服务器发送一个有关取消的其他请求 </font></font></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

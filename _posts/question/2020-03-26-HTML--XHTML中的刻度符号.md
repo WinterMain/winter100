@@ -53,6 +53,7 @@ topic: HTML
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -241,6 +242,7 @@ font-family: FontAwesome;<font></font>
 
 <p><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">编辑：</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这里的第一个符号似乎有些混乱，☐/ 0x2610。</font><font style="vertical-align: inherit;">这是一个空（未选中）复选框，因此，如果您看到一个框，则应该是它的外观。</font><font style="vertical-align: inherit;">它与☑/ 0x2611（已检查的版本）相对应。</font></font></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

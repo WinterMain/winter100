@@ -31,6 +31,7 @@ obj1.merge(obj2);<font></font>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -583,6 +584,7 @@ o3 = MergeRecursive(o1, o2);<font></font>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">当前的浏览器支持</font></font><a href="http://kangax.github.io/compat-table/es6/#test-Object_static_methods_Object.assign" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">越来越好</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，但是如果您正在开发不支持的浏览器，则可以使用</font></font><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/assign#Polyfill" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">polyfill</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

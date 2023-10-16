@@ -38,6 +38,7 @@ overflow        1.0M  1.0M     0 100% /tmp<font></font>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -181,6 +182,7 @@ sudo sysctl -p<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这也将在重新启动后持续存在。
 </font></font><a href="https://github.com/guard/listen/wiki/Increasing-the-amount-of-inotify-watchers#the-technical-details" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">技术细节来源</font></font></a></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

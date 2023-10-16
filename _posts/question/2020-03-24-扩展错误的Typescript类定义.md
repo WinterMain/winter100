@@ -71,6 +71,7 @@ declare module 'next-routes' {<font></font>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -94,6 +95,7 @@ declare module "next-routes" {<font></font>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我仅在最新的Typescript版本（当前为3.5.2）上尝试过此操作，因此，如果您使用的是旧版本，请使用YMMV。</font></font></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

@@ -31,6 +31,7 @@ topic: Webpack
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -50,6 +51,7 @@ topic: Webpack
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">现在正在添加我的所有文件。</font><font style="vertical-align: inherit;">我有一个用于html和css的加载器，它似乎工作得很好。</font></font></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

@@ -102,6 +102,7 @@ module.exports = config;<font></font>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -147,6 +148,7 @@ module.exports = config;<font></font>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">有关此方法的</font><a href="https://github.com/arcseldon/react-babel-webpack-starter-app" rel="noreferrer"><font style="vertical-align: inherit;">可行</font></a><font style="vertical-align: inherit;">示例，请随时将我的应用程序分叉到</font></font><a href="https://github.com/arcseldon/react-babel-webpack-starter-app" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">github上</font></font></a></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

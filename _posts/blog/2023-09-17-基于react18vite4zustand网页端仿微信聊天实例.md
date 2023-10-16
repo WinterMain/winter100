@@ -130,7 +130,9 @@ export default Router</code></pre><p>&nbsp;</p><figure class="image"><img src="h
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     
+    </div>
     {% endraw %}
   </div>
 <div>

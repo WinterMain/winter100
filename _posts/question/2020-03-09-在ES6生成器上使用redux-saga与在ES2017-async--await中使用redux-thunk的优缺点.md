@@ -95,6 +95,7 @@ export const loadUserData = (uid) =&gt; async (dispatch) =&gt; {<font></font>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -186,6 +187,7 @@ export const loadUserData = (uid) =&gt; async (dispatch) =&gt; {<font></font>
 <li><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">API稳定性。</font><font style="vertical-align: inherit;">似乎redux-saga仍在添加功能（例如Channels？），并且社区还不那么庞大。</font><font style="vertical-align: inherit;">如果库有朝一日进行非向后兼容更新，则存在问题。</font></font></p></li>
 </ul></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

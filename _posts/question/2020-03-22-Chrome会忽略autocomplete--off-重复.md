@@ -42,6 +42,7 @@ topic: HTML
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -398,6 +399,7 @@ $(sI).attr("name", "password");<font></font>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">至此，</font></font><code>&lt;form&gt;</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">此案已解决。</font></font></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

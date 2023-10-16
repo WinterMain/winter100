@@ -41,6 +41,7 @@ tags: 区块链
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -49,6 +50,7 @@ tags: 区块链
           </div>
           <div class="discuss-comment"><p>伟大的***</p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

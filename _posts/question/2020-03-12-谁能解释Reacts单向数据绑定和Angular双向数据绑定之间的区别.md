@@ -27,6 +27,7 @@ topic: JavaScript
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -46,6 +47,7 @@ topic: JavaScript
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">关于React.js，它并不是真正为双向数据绑定而设计的，但是，您仍然可以通过添加一些其他逻辑来手动实现双向绑定，例如参见this </font></font><a href="http://voidcanvas.com/react-tutorial-two-way-data-binding/" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">link</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font><font style="vertical-align: inherit;">在Angular.JS中，双向绑定是头等公民，因此无需添加此附加逻辑。</font></font></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

@@ -23,6 +23,7 @@ topic: React.js
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -108,6 +109,7 @@ topic: React.js
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果您需要异步或有条件地分派动作，则这两个库都非常有用。</font></font><code>redux-thunk</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">还可以让您在一个动作创建者内分派几次。</font><font style="vertical-align: inherit;">您选择一个，另一个还是全部取决于您的需求/风格。</font></font></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

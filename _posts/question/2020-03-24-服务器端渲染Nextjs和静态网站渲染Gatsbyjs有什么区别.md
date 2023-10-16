@@ -21,6 +21,7 @@ topic: React.js
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -47,6 +48,7 @@ topic: React.js
 
 <p>However, a blog site, or promo site, which hardly has any content changes, would benefit much more from a static site setup. The response time would be much greater and the server costs would be much lower.</p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

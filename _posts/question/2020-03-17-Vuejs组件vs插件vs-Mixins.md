@@ -27,6 +27,7 @@ topic: Vue.js
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -49,6 +50,7 @@ topic: Vue.js
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果您是Vue的新手，我建议您不要使用mixins，请不要使用Plugins，直到使用组件来实现功能时再花时间，如果您要使用作用域插槽来创建可重用的组件，则建议您。  </font></font><a href="https://vuejs.org/v2/guide/components-slots.html" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">https://vuejs.org/v2/guide/components-slots.html</font></font></a></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

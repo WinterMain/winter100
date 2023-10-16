@@ -24,6 +24,7 @@ topic: JavaScript
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -166,6 +167,7 @@ n.round(3); // 3.143<font></font>
 <pre><code>var twoPlacedFloat = parseFloat(yourString).toFixed(2)
 </code></pre></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

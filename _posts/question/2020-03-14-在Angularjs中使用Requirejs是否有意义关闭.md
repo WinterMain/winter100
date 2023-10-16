@@ -45,6 +45,7 @@ topic: JavaScript
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -188,6 +189,7 @@ app.service(...);<font></font>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">对于延迟加载脚本文件而言，坦率地说，除非您要编写的东西很大，否则这将是一个过大的杀伤力，因为从本质上讲，角度化会减少您编写的代码量。</font><font style="vertical-align: inherit;">如果以角度编写，使用大多数其他框架编写的典型应用程序的LOC可能会降低30-50％。</font></font></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

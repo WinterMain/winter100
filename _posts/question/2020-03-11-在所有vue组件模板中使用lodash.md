@@ -33,6 +33,7 @@ topic: JavaScript
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -58,6 +59,7 @@ topic: JavaScript
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我会注意到，在教程中，他留</font></font><code>import "jquery"</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在了app.js文件中，这不是必需的。</font><font style="vertical-align: inherit;">具有自动导入功能的插件。</font></font></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

@@ -23,6 +23,7 @@ topic: JavaScript
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -78,6 +79,7 @@ topic: JavaScript
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">对于微型模板，脚本标签的类型为</font></font><code>text/template</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font><font style="vertical-align: inherit;">jQuery创建者John Resig对此进行了很好的解释，网址为</font></font><a href="http://ejohn.org/blog/javascript-micro-templating/"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">http://ejohn.org/blog/javascript-micro-templating/</font></font></a></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

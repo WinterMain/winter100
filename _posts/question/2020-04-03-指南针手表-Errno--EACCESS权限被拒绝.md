@@ -64,6 +64,7 @@ C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/compass-0.12.4/lib/compass/actions.rb:58
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -163,6 +164,7 @@ gem uninstall sass<font></font>
 gem install compass --version "0.12.2" <font></font>
 </code></pre></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

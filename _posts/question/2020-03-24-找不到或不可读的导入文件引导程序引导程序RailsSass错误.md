@@ -85,6 +85,7 @@ bootstrap-theme.min.css         font-awesome.css            posts.css.scss<font>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -98,6 +99,7 @@ bootstrap-theme.min.css         font-awesome.css            posts.css.scss<font>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我尝试重新启动开发服务器并再次运行“ rails s”，它工作正常！</font></font></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

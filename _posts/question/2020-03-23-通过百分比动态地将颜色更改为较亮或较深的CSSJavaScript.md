@@ -43,6 +43,7 @@ a.lighter {<font></font>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -554,6 +555,7 @@ a.lighter {<font></font>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">但我不确定这是您的意思。</font><font style="vertical-align: inherit;">定义“减少颜色”：使透明？</font><font style="vertical-align: inherit;">还是加白？</font></font></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

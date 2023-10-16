@@ -26,6 +26,7 @@ topic: Node.js
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -153,6 +154,7 @@ loop(0, [{"title": "hello"}, {"title": "world"}], function(data) {<font></font>
 
 <p>Another option might be <a href="https://developer.mozilla.org/en-US/docs/Web/API/Web_Workers_API/Using_web_workers" rel="noreferrer"><em>web workers</em></a>.</p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

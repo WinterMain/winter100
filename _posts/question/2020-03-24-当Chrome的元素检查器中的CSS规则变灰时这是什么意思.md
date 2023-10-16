@@ -21,6 +21,7 @@ topic: CSS
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -125,6 +126,7 @@ div#foo { <font></font>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果通过检查器添加样式，但是这种新样式不适用于所选元素，也会发生这种情况。</font><font style="vertical-align: inherit;">通常显示的样式仅是所选元素的样式，因此灰色表示您刚刚添加的样式不会选择在DOM导航器中具有焦点的元素。</font></font></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

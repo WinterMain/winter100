@@ -61,6 +61,7 @@ Which throws a nice error in the console :</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -78,6 +79,7 @@ Which throws a nice error in the console :</p>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">只要</font></font><code>renderMyComponent = true</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，组件将呈现。</font><font style="vertical-align: inherit;">如果设置</font></font><code>renderMyComponent = false</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，它将从DOM卸载。</font></font></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

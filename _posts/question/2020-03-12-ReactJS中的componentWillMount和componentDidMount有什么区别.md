@@ -21,6 +21,7 @@ topic: React.js
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -79,6 +80,7 @@ topic: React.js
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我们的组件将无权访问本机UI（DOM等）。</font><font style="vertical-align: inherit;">我们也将无法访问子引用，因为它们尚未创建。</font><font style="vertical-align: inherit;">componentWillMount（）是我们处理配置，更新状态以及通常为第一个渲染准备的机会。</font><font style="vertical-align: inherit;">这意味着我们可以根据道具值开始执行计算或处理。</font></font></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

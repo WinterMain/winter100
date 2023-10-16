@@ -33,6 +33,7 @@ topic: JavaScript
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -151,6 +152,7 @@ topic: JavaScript
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这意味着，如果您的站点或页面存在缓存问题（例如，如果它缓存的缓存超过了应有的数量，例如我的情况），则在F12模式下您将不会看到该问题。</font><font style="vertical-align: inherit;">因此，如果javascript执行某些缓存的AJAX请求，则它们可能无法在正常模式下按预期工作，并且在F12模式下可以正常工作。</font></font></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

@@ -52,6 +52,7 @@ Print: Entry, ":CFBundleIdentifier", Does Not Exist<font></font>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -483,6 +484,7 @@ Copy or identify glog-{version}<font></font>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我的问题实际上是我的构建处于发布模式而不是调试模式。</font><font style="vertical-align: inherit;">结果，标识符指向了不存在的东西。</font><font style="vertical-align: inherit;">我更改了构建类型，并最终正常工作。</font></font></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

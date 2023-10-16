@@ -53,6 +53,7 @@ computed: {<font></font>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -73,6 +74,7 @@ computed: {<font></font>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这是一个相关但不相同的</font></font><a href="https://jsfiddle.net/61eyztca/" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">JsFiddle示例</font></font></a></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

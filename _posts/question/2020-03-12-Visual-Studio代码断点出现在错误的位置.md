@@ -29,6 +29,7 @@ topic: Vue.js
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -37,6 +38,7 @@ topic: Vue.js
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">也许编辑器和调试器对“ newline”的解释不同。</font><font style="vertical-align: inherit;">检查代码是否使用\ r或\ r \ n并将其更改为另一个。</font></font></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

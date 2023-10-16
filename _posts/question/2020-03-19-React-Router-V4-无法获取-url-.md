@@ -48,6 +48,7 @@ appContainer)<font></font>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -108,6 +109,7 @@ appContainer)<font></font>
   <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">404将回退到/index.html</font></font></p>
 </blockquote></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

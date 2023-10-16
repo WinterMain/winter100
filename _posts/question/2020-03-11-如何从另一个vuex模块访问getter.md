@@ -35,6 +35,7 @@ topic: JavaScript
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -92,6 +93,7 @@ topic: JavaScript
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">希望这将对将来遇到这种情况的人有所帮助。</font></font></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

@@ -23,6 +23,7 @@ topic: JavaScript
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -870,6 +871,7 @@ alert(i);              // displays 2<font></font>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">摘自“ </font></font><a href="http://codetunnel.com/9-javascript-tips-you-may-not-know" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">您可能不知道的9条JavaScript技巧</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> ”</font></font></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

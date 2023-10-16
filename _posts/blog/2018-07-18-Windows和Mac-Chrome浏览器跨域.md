@@ -74,7 +74,9 @@ open -n /Applications/Google\ Chrome.app/ --args --disable-web-security  --user-
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     
+    </div>
     {% endraw %}
   </div>
 <div>

@@ -79,6 +79,7 @@ export default class MyApp extends App {<font></font>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -89,6 +90,7 @@ export default class MyApp extends App {<font></font>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这</font></font><code>_app.js</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">是应用程序的包装，我认为它不适合用于最顶层的组件来保持状态。</font><font style="vertical-align: inherit;">最好使一个简单的反应根组件做到这一点！</font></font></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

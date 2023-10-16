@@ -27,6 +27,7 @@ topic: Vue.js
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -83,6 +84,7 @@ methods: {<font></font>
   <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这说明了一种有点怪异但100％有效的方法，用于使不可观察的数据具有响应性。</font><font style="vertical-align: inherit;">尽管如此，在现实世界中，我最终还是获得了Sets / Maps的序列化版本（例如，您可能希望将Set / Maps的修改后的版本存储在本地存储中，从而无论如何都要对其进行序列化），因此不涉及任何人工计数器/黑客。</font></font></p>
 </blockquote></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

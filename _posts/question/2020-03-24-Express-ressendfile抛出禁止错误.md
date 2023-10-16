@@ -41,7 +41,9 @@ at next (/Users/Oliver/Development/Personal/Reader/node_modules/express/node_mod
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     
+    </div>
     {% endraw %}
   </div>
 <div>

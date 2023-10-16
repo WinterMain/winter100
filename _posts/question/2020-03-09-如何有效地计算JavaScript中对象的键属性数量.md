@@ -27,6 +27,7 @@ for (k in myobj) if (myobj.hasOwnProperty(k)) count++;<font></font>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -478,6 +479,7 @@ for (var k in myobj) if (hasOwn.call(myobj, k)) ++count;<font></font>
 <li><a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object/keys" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Object.keys文档</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">（包括可以添加到非ES5浏览器的方法）</font></font></li>
 </ul></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

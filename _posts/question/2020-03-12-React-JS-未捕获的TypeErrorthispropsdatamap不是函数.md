@@ -135,6 +135,7 @@ $(document).on("page:change", function() {<font></font>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -211,6 +212,7 @@ this.setState({data: newData})<font></font>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这种模式实际上在</font></font><a href="https://facebook.github.io/react/" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">https://facebook.github.io/react/的</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> Facebook ToDo演示应用程序中使用（请参阅“应用程序”一节）</font><font style="vertical-align: inherit;">。</font></font></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

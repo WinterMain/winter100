@@ -28,6 +28,7 @@ topic: Node.js
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -381,6 +382,7 @@ npm uninstall -S<font></font>
 
 <p><code>npm -g uninstall &lt;name&gt; --save</code> also removes it globally</p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

@@ -212,6 +212,7 @@ module.exports = {<font></font>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -259,6 +260,7 @@ export var __useDefault = true;<font></font>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果在构造函数调用之后声明了类，则将出现</font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">xxx不是构造函数</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">错误</font></font></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

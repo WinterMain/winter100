@@ -21,6 +21,7 @@ topic: JavaScript
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -59,6 +60,7 @@ document.documentElement.parentElement; // null<font></font>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">由于</font></font><code>&lt;html&gt;</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">element（</font></font><code>document.documentElement</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">）没有作为元素的父元素，因此</font></font><code>parentElement</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">is </font></font><code>null</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font><font style="vertical-align: inherit;">（还有其他可能性较小的情况</font></font><code>parentElement</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">可能是</font></font><code>null</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，但您可能永远都不会遇到它们。）</font></font></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

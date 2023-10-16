@@ -85,6 +85,7 @@ export class AppShell {<font></font>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -214,6 +215,7 @@ header("Content-Type: application/json; charset=UTF-8");<font></font>
 <pre><code>Header set Access-Control-Allow-Origin "*"
 </code></pre></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

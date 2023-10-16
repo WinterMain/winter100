@@ -29,6 +29,7 @@ topic: Webpack
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -88,6 +89,7 @@ if (now.getDay() === MONDAY) {<font></font>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我也有这个问题。</font><font style="vertical-align: inherit;">我不确定是什么原因引起的，但是删除我的node_modules文件夹并重新运行“ npm install”对我来说已经解决了。</font></font></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

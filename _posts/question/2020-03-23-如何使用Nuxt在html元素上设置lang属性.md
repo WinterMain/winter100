@@ -42,6 +42,7 @@ topic: Vue.js
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -50,6 +51,7 @@ topic: Vue.js
           </div>
           <div class="discuss-comment"><p>根目录下加个app.html</p><p>&lt;!DOCTYPE&nbsp;html&gt;</p><p>&lt;html&nbsp;lang="zh-Hans"&gt;</p><p>&nbsp; &lt;head&gt;</p><p>&nbsp;&nbsp;&nbsp;&nbsp;{{HEAD}}</p><p>&nbsp; &lt;/head&gt;</p><p>&nbsp; &lt;body&gt;</p><p>&nbsp;&nbsp;&nbsp;&nbsp;{{APP}}</p><p>&nbsp; &lt;/body&gt;</p><p>&lt;/html&gt;</p><p>试试这个能不能解决你的问题，改配置文件会多一个data-n-head属性，不建议</p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

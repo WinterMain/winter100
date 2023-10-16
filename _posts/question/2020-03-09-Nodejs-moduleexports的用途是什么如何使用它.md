@@ -38,6 +38,7 @@ topic: JavaScript
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -163,6 +164,7 @@ exports = function AnotherConstructor() {}; <font></font>
 
 <p>I have a video on module_export available <a href="https://www.youtube.com/watch?v=qLc29euevzc&amp;index=14&amp;list=PLrUFyg1unBb88J0r7gvJ1T01WN_pp83Lz" rel="noreferrer">here</a></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

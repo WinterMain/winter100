@@ -25,6 +25,7 @@ topic: Vue.js
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -48,6 +49,7 @@ topic: Vue.js
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我认为这更多是一种惯例。</font><font style="vertical-align: inherit;">可重复使用的内容可以保存在src / components文件夹中，而与路由器绑定的内容可以保存在src / views中</font></font></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

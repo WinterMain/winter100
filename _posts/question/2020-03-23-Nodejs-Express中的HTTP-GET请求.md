@@ -21,6 +21,7 @@ topic: Node.js
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -36,6 +37,7 @@ topic: Node.js
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">退房</font></font><a href="https://github.com/spire-io/shred/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">切丝</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font><font style="vertical-align: inherit;">这是由</font></font><a href="http://www.spire.io/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">spire.io</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">创建和维护的节点HTTP客户端，</font><font style="vertical-align: inherit;">用于处理重定向，会话和JSON响应。</font><font style="vertical-align: inherit;">与其他API交互非常好。</font><font style="vertical-align: inherit;">有关</font><font style="vertical-align: inherit;">更多详细信息，</font><font style="vertical-align: inherit;">请参</font></font><a href="http://blog.amt.in/shred-an-http-client-library-for-nodejs" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">见此博客文章</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

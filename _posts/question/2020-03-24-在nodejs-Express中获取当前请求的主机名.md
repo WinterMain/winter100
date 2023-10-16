@@ -23,6 +23,7 @@ topic: Node.js
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -97,6 +98,7 @@ child_process.exec("hostname -f", function(err, stdout, stderr) {<font></font>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果要查找机器/本机信息，请尝试使用过程对象。</font></font></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

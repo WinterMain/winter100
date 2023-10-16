@@ -33,6 +33,7 @@ topic: HTML
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -77,6 +78,7 @@ topic: HTML
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">HTML规范没有强制性要求将标签与控件关联，但是Web内容可访问性指南（WCAG）2.0确实如此。</font><font style="vertical-align: inherit;">在技​​术文档</font></font><a href="http://www.w3.org/TR/2012/NOTE-WCAG20-TECHS-20120103/H44" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">H44：使用标签元素将文本标签与表单控件相关联中</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">对此进行了描述，该文档</font><font style="vertical-align: inherit;">还解释了隐式关联（通过嵌套，例如</font></font><code>input</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">inside </font></font><code>label</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">）不如通过</font></font><code>for</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">和</font></font><code>id</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">属性</font><font style="vertical-align: inherit;">的显式关联得到广泛支持</font><font style="vertical-align: inherit;">，</font></font></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

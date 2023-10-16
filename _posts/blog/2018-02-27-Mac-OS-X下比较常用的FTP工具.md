@@ -22,7 +22,9 @@ Fugu提供了一个界面，如果不是一个简单的话，它与大多数FTP�
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     
+    </div>
     {% endraw %}
   </div>
 <div>

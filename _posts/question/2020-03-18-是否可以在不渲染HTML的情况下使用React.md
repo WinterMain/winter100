@@ -21,6 +21,7 @@ topic: React.js
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -33,6 +34,7 @@ topic: React.js
   <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">您还可以返回</font></font><code>null</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">或</font></font><code>false</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">表示您不希望呈现任何内容。</font><font style="vertical-align: inherit;">在幕后，React渲染了一个</font></font><code>&lt;noscript&gt;</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">标签以与我们当前的差异算法一起工作。</font><font style="vertical-align: inherit;">返回</font></font><code>null</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">或时</font></font><code>false</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，</font></font><code>this.getDOMNode()</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">将返回</font></font><code>null</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p>
 </blockquote></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

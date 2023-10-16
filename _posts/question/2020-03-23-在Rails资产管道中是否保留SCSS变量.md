@@ -33,6 +33,7 @@ topic: CSS
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -92,6 +93,7 @@ topic: CSS
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">将require替换为@import，并删除所有内容，</font></font><code>= require</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">即使您认为已将其注释掉也是如此。</font></font></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

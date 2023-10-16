@@ -91,6 +91,7 @@ export default {<font></font>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -174,6 +175,7 @@ console.log(parsedobj)<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">为了更好地了解您的数据，建议您安装Vue开发工具。 
 </font></font><a href="https://chrome.google.com/webstore/detail/vuejs-devtools/nhdogjmejiglipccpnnnanhbledajbpd?hl=en" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">https://chrome.google.com/webstore/detail/vuejs-devtools/nhdogjmejiglipccpnnnanhbledajbpd?hl=zh-CN</font></font></a></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

@@ -53,6 +53,7 @@ topic: JavaScript
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -243,6 +244,7 @@ export class AppModule { }<font></font>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">为了能够对表单输入使用双向数据绑定，您需要将</font></font><code>FormsModule</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">包</font><font style="vertical-align: inherit;">导入</font></font><code>Angular</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">模块中。</font><font style="vertical-align: inherit;">有关更多信息，请参见</font><a href="https://angular.io/docs/ts/latest/tutorial/toh-pt1.html#!#two-way-binding"><font style="vertical-align: inherit;">此处</font></a><font style="vertical-align: inherit;">的</font></font><code>Angular 2</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">官方教程</font><font style="vertical-align: inherit;">和</font><a href="https://angular.io/docs/ts/latest/guide/forms.html"><font style="vertical-align: inherit;">表单</font></a><font style="vertical-align: inherit;">的官方文档。</font></font><a href="https://angular.io/docs/ts/latest/tutorial/toh-pt1.html#!#two-way-binding"><font style="vertical-align: inherit;"></font></a><font style="vertical-align: inherit;"></font><a href="https://angular.io/docs/ts/latest/guide/forms.html"><font style="vertical-align: inherit;"></font></a></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

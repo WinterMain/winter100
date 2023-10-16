@@ -29,6 +29,7 @@ topic: Vue.js
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -84,6 +85,7 @@ new Vue({<font></font>
 
 <p>Note that when <code>addValue</code> is clicked, the list on top represents the new numbers in the array where the <em>truly</em> are in the array; in the middle. In the second list below the button, the values do <em>not</em> represent the actual location in the array and the internal and property values do <em>not</em> agree.</p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

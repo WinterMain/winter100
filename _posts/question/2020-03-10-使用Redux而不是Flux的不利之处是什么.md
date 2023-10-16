@@ -45,6 +45,7 @@ topic: React.js
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -78,6 +79,7 @@ topic: React.js
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">据我所知，redux是受通量启发的。</font><font style="vertical-align: inherit;">Flux是类似于MVC（模型视图控制器）的体系结构。</font><font style="vertical-align: inherit;">由于使用MVC时，由于可伸缩性问题，facebook引入了变化。</font><font style="vertical-align: inherit;">因此，flux不是实现，而只是一个概念。</font><font style="vertical-align: inherit;">实际上，redux是通量的实现。</font></font></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

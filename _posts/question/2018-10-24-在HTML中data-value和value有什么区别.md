@@ -28,6 +28,7 @@ tags: HTML
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -38,6 +39,7 @@ tags: HTML
 
 Data attribute can also have different suffix, you could name it; data-name, data-email, data-content, and etc. You could say it's "customizable".</div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

@@ -151,6 +151,7 @@ export default App;<font></font>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -254,6 +255,7 @@ const ScreenRouter = () =&gt; (<font></font>
 
 <p><sub><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">请注意，该示例将嵌套的Routes包装在</font></font><a href="https://reactjs.org/docs/fragments.html#short-syntax" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Fragment中</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font><font style="vertical-align: inherit;">在React 16之前，您可以改用容器</font></font><code>&lt;div&gt;</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></sub></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

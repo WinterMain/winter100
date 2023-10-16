@@ -74,6 +74,7 @@ TypeError: path must be absolute or specify root to res.sendFile<font></font>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -91,6 +92,7 @@ TypeError: path must be absolute or specify root to res.sendFile<font></font>
 
 <p><code>process.env.PWD</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> 进程启动时，它将在工作目录之前。</font></font></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

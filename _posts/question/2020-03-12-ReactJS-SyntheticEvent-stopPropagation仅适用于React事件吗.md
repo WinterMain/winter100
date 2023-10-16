@@ -64,6 +64,7 @@ $(function(){    <font></font>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -118,6 +119,7 @@ ev.nativeEvent.stopImmediatePropagation();<font></font>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果您的函数由标签包裹，请使用此构造  </font></font></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

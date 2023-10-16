@@ -68,6 +68,7 @@ The field getInitialProps does not belong to type ReasonReact.componentSpec<font
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -120,6 +121,7 @@ inject(default, getInitialProps);<font></font>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">一方面：理想情况下，Next.js API将要求一个组件类，而</font></font><code>getInitialProps</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在侧面，则是一个完全不可知的功能，该功能未附加到组件类上。</font><font style="vertical-align: inherit;">这样可以大大简化“原因”方面的绑定过程。</font></font></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

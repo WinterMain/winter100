@@ -32,6 +32,7 @@ myArray["age"] = 25;<font></font>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -367,6 +368,7 @@ delete myObj.SomeProperty;<font></font>
 <p><a href="http://www.html5rocks.com/en/tutorials/speed/v8/" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">http://www.html5rocks.com/zh-CN/tutorials/speed/v8/ </font></font></a>
 <a href="http://www.smashingmagazine.com/2012/11/writing-fast-memory-efficient-javascript/" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">http://www.smashingmagazine.com/2012/11/writing-fast-memory-ficient-javascript/</font></font></a></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

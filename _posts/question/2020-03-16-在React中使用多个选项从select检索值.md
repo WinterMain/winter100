@@ -55,6 +55,7 @@ topic: React.js
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -182,6 +183,7 @@ var values = $(selectBoxObj).val()<font></font>
 
 <p><code>selectedOptions</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">是与DOM相关的元素的数组形式的集合/列表。</font><font style="vertical-align: inherit;">选择选项值时，可以在事件目标对象中访问它。</font></font><code>Array.prototype.slice</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">并</font></font><code>call</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">允许我们为新状态创建它的副本。</font><font style="vertical-align: inherit;">您也可以使用ref（如果您不捕获事件）以这种方式访问​​值，这是该问题的另一个答案。</font></font></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

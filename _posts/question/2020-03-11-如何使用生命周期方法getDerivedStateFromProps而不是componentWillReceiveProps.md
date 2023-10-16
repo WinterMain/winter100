@@ -65,6 +65,7 @@ topic: JavaScript
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -123,6 +124,7 @@ class ExampleComponent extends React.Component {<font></font>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">查看</font></font><strong><a href="https://reactjs.org/blog/2018/06/07/you-probably-dont-need-derived-state.html#what-about-memoization" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">博客文章的此部分</font></font></a></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">以了解更多信息。</font></font></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

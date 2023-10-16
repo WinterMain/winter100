@@ -25,6 +25,7 @@ topic: React.js
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -58,6 +59,7 @@ topic: React.js
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">使用此工具，您可以使用expo app（</font></font><a href="https://expo.io" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">https://expo.io</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">）</font><font style="vertical-align: inherit;">在手机上运行该应用程序。</font><font style="vertical-align: inherit;">它会使用QR码进行同步。</font></font></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

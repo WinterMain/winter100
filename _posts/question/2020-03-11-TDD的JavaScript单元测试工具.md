@@ -36,6 +36,7 @@ topic: JavaScript
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -168,6 +169,7 @@ topic: JavaScript
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">参考文章解释了如何使用它们，如何模拟用户使用鼠标和/或键盘与UI交互以及如何记录测试会话，以便您以后可以自动“播放”它。</font></font></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

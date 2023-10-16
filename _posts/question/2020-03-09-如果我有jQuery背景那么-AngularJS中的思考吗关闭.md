@@ -57,6 +57,7 @@ topic: JavaScript
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -234,6 +235,7 @@ topic: JavaScript
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">您可以在不了解JavaScript原型继承如何工作的情况下使用jQuery做很多事情。</font><font style="vertical-align: inherit;">在开发AngularJS应用程序时，如果您对JavaScript继承有很好的了解，将避免一些常见的陷阱。</font><font style="vertical-align: inherit;">推荐阅读：</font></font><a href="https://stackoverflow.com/questions/14049480/what-are-the-nuances-of-scope-prototypal-prototypical-inheritance-in-angularjs" data-bitapp="processed"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">AngularJS中范围原型/原型继承的细微差别是什么？</font></font></a></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

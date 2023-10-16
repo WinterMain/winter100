@@ -50,6 +50,7 @@ variable = req.somevariable;<font></font>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -131,6 +132,7 @@ variable = req.somevariable;<font></font>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">正如其他人指出的那样，</font></font><code>res.locals</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">推荐的方法是通过中间件传递数据。</font></font></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

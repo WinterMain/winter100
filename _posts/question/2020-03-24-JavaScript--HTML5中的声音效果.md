@@ -61,6 +61,7 @@ topic: HTML
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -306,6 +307,7 @@ snd.play();<font></font>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果您正在编写游戏或音乐应用程序（不仅仅是播放器），则需要使用</font></font><a href="https://www.w3.org/TR/webaudio/" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">更高级的Web Audio API</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，</font></font><a href="http://caniuse.com/audio-api" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">大多数浏览器</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">现在都</font><a href="http://caniuse.com/audio-api" rel="noreferrer"><font style="vertical-align: inherit;">支持</font></a><font style="vertical-align: inherit;">该</font><a href="https://www.w3.org/TR/webaudio/" rel="noreferrer"><font style="vertical-align: inherit;">API</font></a><font style="vertical-align: inherit;">。</font></font></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

@@ -48,6 +48,7 @@ alert(diffDays)<font></font>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -61,6 +62,7 @@ var diffDays = parseInt((date2 - date1) / (1000 * 60 * 60 * 24), 10); <font></fo
 alert(diffDays )<font></font>
 </code></pre></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

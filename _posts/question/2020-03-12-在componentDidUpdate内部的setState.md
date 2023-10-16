@@ -83,6 +83,7 @@ topic: JavaScript
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -149,6 +150,7 @@ if(top !== this.state.top){<font></font>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">基于您需要呈现组件后浏览器提供的值的事实，我认为您的使用方法</font></font><code>componentDidUpdate</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">是正确的，它只需要更好地处理触发的条件即可</font></font><code>setState</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

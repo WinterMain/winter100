@@ -49,6 +49,7 @@ topic: CSS
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -119,6 +120,7 @@ background: linear-gradient(to bottom, #607a8b !important 0%, #4b6272 !important
 <pre><code>border-radius(5px !important);
 </code></pre></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

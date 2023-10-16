@@ -29,6 +29,7 @@ haystack.startsWith(needle) == true<font></font>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -160,6 +161,7 @@ true<font></font>
 <li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">它不会创建新的临时字符串，然后立即将其丢弃。</font></font></li>
 </ul></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

@@ -37,6 +37,7 @@ exports = function () {<font></font>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -86,6 +87,7 @@ return module.exports;<font></font>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这将确保即使我们更改了module.exports，我们仍然可以通过使这两个变量指向同一对象来使用export。</font></font></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

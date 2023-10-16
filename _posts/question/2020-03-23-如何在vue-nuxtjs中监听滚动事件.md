@@ -38,6 +38,7 @@ destroyed () {<font></font>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -46,6 +47,7 @@ destroyed () {<font></font>
           </div>
           <div class="discuss-comment"><p>if (process.browser) {</p><p>&nbsp; &nbsp; &nbsp; &nbsp;console.log(window)</p><p>&nbsp; &nbsp; &nbsp; &nbsp;console.log(window.scrollY)</p><p>&nbsp; &nbsp; &nbsp;}</p><p>我加了这个就能获取到window了</p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

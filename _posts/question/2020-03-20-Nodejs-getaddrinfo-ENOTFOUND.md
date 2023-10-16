@@ -67,6 +67,7 @@ http.get(options, function (http_res) {<font></font>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -148,6 +149,7 @@ $ npm info express --verbose<font></font>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我的问题是我的OS X（Mavericks）DNS服务需要</font></font><a href="http://www.hongkiat.com/blog/how-to-clear-flush-dns-cache-in-os-x-yosemite/" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">重新启动</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

@@ -33,6 +33,7 @@ topic: Node.js
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -169,6 +170,7 @@ npm publish # will run babel first<font></font>
 
 <p><code>npm config set prefix ~/npm</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，通过将$ HOME / npm / bin附加</font></font><code>export PATH=$HOME/npm/bin:$PATH</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">到</font><font style="vertical-align: inherit;">$ PATH来将其添加</font><font style="vertical-align: inherit;">到</font><font style="vertical-align: inherit;">$ PATH中</font></font><code>~/.bashrc</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

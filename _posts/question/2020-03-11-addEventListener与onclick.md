@@ -28,6 +28,7 @@ h.addEventListener("click", dothing2);<font></font>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -162,6 +163,7 @@ function showAlert(event) {<font></font>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">但是，您不能将分配</font></font><code>load event</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">给</font></font><code>&lt;div&gt;</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">或</font></font><code>&lt;span&gt;</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">元素或其他。</font></font></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

@@ -29,6 +29,7 @@ Aborted due to warnings.<font></font>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -48,6 +49,7 @@ Aborted due to warnings.<font></font>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我注意到</font></font><code>compass</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">直接</font><font style="vertical-align: inherit;">运行会</font><font style="vertical-align: inherit;">引发异常，因此我卸载了指南针并重新安装了它（确保删除了上的所有指南针二进制文件</font></font><code>PATH</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">），并进行了修复。</font></font></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

@@ -31,6 +31,7 @@ topic: JavaScript
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -366,6 +367,7 @@ return _.object(_.sortBy(_.pairs(unordered),function(o){return o[0]}));<font></f
 
 <p><code>Object.keys</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">向我们提供了提供的对象（</font></font><code>obj</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">或</font></font><code>o</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">）</font><font style="vertical-align: inherit;">中的键列表</font><font style="vertical-align: inherit;">，然后我们使用默认的排序算法</font><font style="vertical-align: inherit;">对键进行</font><font style="vertical-align: inherit;">排序，接下来</font></font><code>.reduce</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">将其用于将该数组转换回对象，但是这次所有键都已排序。</font></font></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

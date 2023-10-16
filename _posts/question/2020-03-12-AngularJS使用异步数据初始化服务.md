@@ -116,6 +116,7 @@ I could send my JSON directly to a global Javascript variable:</p>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -124,6 +125,7 @@ I could send my JSON directly to a global Javascript variable:</p>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">另外，在执行实际的控制器之前，您可以使用以下技术在全球范围内配置服务：</font></font><a href="https://stackoverflow.com/a/27050497/1056679"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">https</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> : </font><a href="https://stackoverflow.com/a/27050497/1056679"><font style="vertical-align: inherit;">//stackoverflow.com/a/27050497/1056679</font></a><font style="vertical-align: inherit;">。</font><font style="vertical-align: inherit;">只需全局解析您的数据，然后将其</font></font><code>run</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">例如</font><font style="vertical-align: inherit;">以</font><font style="vertical-align: inherit;">块形式</font><font style="vertical-align: inherit;">传递给您的服务</font><font style="vertical-align: inherit;">。</font></font></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

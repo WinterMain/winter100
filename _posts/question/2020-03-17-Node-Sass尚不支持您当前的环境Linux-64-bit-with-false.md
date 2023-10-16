@@ -42,6 +42,7 @@ v6.2.0<font></font>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -267,6 +268,7 @@ sudo n 6.0.0<font></font>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">跑 </font></font><code>sudo npm rebuild node-sass</code></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

@@ -34,6 +34,7 @@ topic: JavaScript
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -191,6 +192,7 @@ new f(); // TypeError: f is not a constructor<font></font>
   <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">箭头函数表达式的语法比函数表达式短，并且在词法上绑定了此值。</font><font style="vertical-align: inherit;">箭头功能始终是匿名的。</font></font></p>
 </blockquote></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

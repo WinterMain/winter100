@@ -51,6 +51,7 @@ topic: React.js
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -172,6 +173,7 @@ function App() {<font></font>
 
 <p><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">注：</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">该</font></font><code>React.Children.map</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">功能将只能看到</font></font><code>top level</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">的元素，它没有看到任何的东西，这些元素渲染; </font><font style="vertical-align: inherit;">表示您正在向儿童提供直接道具（此处是</font></font><code>&lt;Sentence /&gt;</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">元素）。</font><font style="vertical-align: inherit;">如果您需要进一步传递道具，假设您</font><font style="vertical-align: inherit;">要使用</font><font style="vertical-align: inherit;">道具</font></font><code>&lt;div&gt;&lt;/div&gt;</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">的</font></font><code>&lt;Sentence /&gt;</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">元素</font><font style="vertical-align: inherit;">内部有一个，</font></font><code>onClick</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">那么在这种情况下，您可以使用道具</font></font><code>Context API</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font><font style="vertical-align: inherit;">使</font></font><code>Paragraph</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">提供者和</font></font><code>Sentence</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">元素成为消费者。</font></font></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

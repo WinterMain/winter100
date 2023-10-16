@@ -23,6 +23,7 @@ topic: Node.js
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -162,6 +163,7 @@ sudo apt-get install nodejs<font></font>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">例如，如果您已经从源代码安装了nodejs，而execjs无法识别它，那么您可能需要尝试以下技巧：</font><a href="https://coderwall.com/p/hyjdlw" rel="nofollow"><font style="vertical-align: inherit;">https</font></a><font style="vertical-align: inherit;"> ://coderwall.com/p/hyjdlw</font></font><a href="https://coderwall.com/p/hyjdlw" rel="nofollow"><font style="vertical-align: inherit;"></font></a></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

@@ -34,6 +34,7 @@ topic: HTML
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -328,6 +329,7 @@ table { table-layout: fixed; width: 100%; }</code></pre>
 
 <p>I originally encountered this when someone pointed out you could do <code>color="crap"</code> and, well, it comes out brown.</p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

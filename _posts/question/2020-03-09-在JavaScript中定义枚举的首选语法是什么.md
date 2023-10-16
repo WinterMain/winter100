@@ -36,6 +36,7 @@ if(currentColor == my.namespace.ColorEnum.RED) {<font></font>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -374,6 +375,7 @@ day = 298832342 // goes through without any errors<font></font>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">不需要引号，但为了保持一致性，我保留了它们。</font></font></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

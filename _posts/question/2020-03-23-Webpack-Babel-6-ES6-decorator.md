@@ -44,6 +44,7 @@ topic: Webpack
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -63,6 +64,7 @@ topic: Webpack
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">您只需要一个转换 decorator插件：</font><a href="http://babeljs.io/docs/plugins/transform-decorators/" rel="nofollow"><font style="vertical-align: inherit;">http</font></a><font style="vertical-align: inherit;"> : </font></font><a href="http://babeljs.io/docs/plugins/transform-decorators/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">//babeljs.io/docs/plugins/transform-decorators/</font></font></a></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

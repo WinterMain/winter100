@@ -42,6 +42,7 @@ if (!fs.existsSync(newDest)) fs.mkdirSync(newDest,'0777', true);<font></font>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -96,6 +97,7 @@ fs.ensureDirSync(newDest);<font></font>
 
 <p><a href="https://github.com/jprichardson/node-fs-extra/blob/master/docs/ensureDir.md" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">https://github.com/jprichardson/node-fs-extra/blob/master/docs/ensureDir.md</font></font></a></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

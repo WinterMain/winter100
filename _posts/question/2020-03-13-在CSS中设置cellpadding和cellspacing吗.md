@@ -26,6 +26,7 @@ topic: HTML
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -512,6 +513,7 @@ td    {padding: 6px;}<font></font>
 
 <p><a href="http://www.htmlcodetutorial.com/tables/index_famsupp_29.html" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在这里，</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">您可以找到实现此目标的旧HTML方法。</font></font></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

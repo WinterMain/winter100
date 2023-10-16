@@ -148,6 +148,7 @@ module.exports = {<font></font>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -272,6 +273,7 @@ npm install webpack --save-dev<font></font>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">然后，您应该可以再次吞食。</font><font style="vertical-align: inherit;">为我解决了此问题。</font></font></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

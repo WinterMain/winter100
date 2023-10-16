@@ -33,6 +33,7 @@ console.log('Server running at http://127.0.0.1:8124/');<font></font>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -52,6 +53,7 @@ console.log('Server running at http://127.0.0.1:8124/');<font></font>
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">文档和示例位于：</font><a href="https://github.com/jed/cookies"><font style="vertical-align: inherit;">https</font></a><font style="vertical-align: inherit;"> : </font></font><br>
 <a href="https://github.com/jed/cookies"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">//github.com/jed/cookies</font></font></a></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

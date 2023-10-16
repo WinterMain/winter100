@@ -21,6 +21,7 @@ topic: Node.js
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -98,6 +99,7 @@ karl_morrison_is_a_pedant()<font></font>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">ps不是一个人为的例子，因为节点的http模块不会加载我需要发出的一些请求</font></font></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

@@ -53,6 +53,7 @@ function deploy(res: any) {<font></font>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -63,6 +64,7 @@ function deploy(res: any) {<font></font>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">简单的解决方案，希望对您有所帮助。</font></font></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

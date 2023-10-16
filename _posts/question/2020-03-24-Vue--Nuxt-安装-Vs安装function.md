@@ -51,6 +51,7 @@ topic: Vue.js
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -59,6 +60,7 @@ topic: Vue.js
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">您不应使用箭头功能来定义生命周期挂钩，方法，...（例如</font></font><code>mounted: () =&gt; this.socket++</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">）。</font><font style="vertical-align: inherit;">原因是箭头函数绑定了父上下文，因此这将不是您期望的Vue实例，并且</font></font><code>this.socket</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">将是未定义的。</font></font></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

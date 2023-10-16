@@ -40,6 +40,7 @@ topic: React.js
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -133,6 +134,7 @@ const TodoList = connect(<font></font>
           <div class="discuss-comment"><p><code>mapStateToProps()</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">是一个实用程序，可以帮助您的组件获取更新的状态（由其他一些组件更新），</font></font><br>
 <code>mapDispatchToProps()</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">是一个实用程序，可以帮助您的组件触发操作事件（调度操作，这可能会导致应用程序状态发生变化）</font></font></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

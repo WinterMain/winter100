@@ -37,6 +37,7 @@ box-shadow: 2px 2px 5px #555555 "";<font></font>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -344,6 +345,7 @@ position:absolute;<font></font>
 
 <p><em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在这里进行选择：</font></font><a href="https://stackoverflow.com/questions/7517941/pass-a-list-to-a-mixin-as-a-single-argument-with-sass/9960372#9960372"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">使用SASS作为单个参数将列表传递给mixin</font></font></a></em></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

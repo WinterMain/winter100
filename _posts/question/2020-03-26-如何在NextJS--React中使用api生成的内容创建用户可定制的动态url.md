@@ -39,6 +39,7 @@ topic: React.js
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -97,6 +98,7 @@ export default Test;<font></font>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">索引现在可以根据查询应用要呈现的任何逻辑。</font><font style="vertical-align: inherit;">如果您需要基于查询发出请求，则可以使用</font></font><a href="https://nextjs.org/docs/api-reference/data-fetching/getInitialProps" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">getInitialProps</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">来获取该请求。</font></font></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

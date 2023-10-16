@@ -56,6 +56,7 @@ alert(eq); // gives true<font></font>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -228,6 +229,7 @@ function areEquivalent(a, b) {<font></font>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">比较仅一个级别的对象的简单方法。</font></font></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

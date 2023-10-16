@@ -21,6 +21,7 @@ topic: JavaScript
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -455,6 +456,7 @@ console.log(d1.getTime() === d2.getTime()); // prints true (correct)<font></font
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我建议您使用下拉列表或日期输入的某些类似约束形式，而不要使用文本框，以免您陷入输入验证的困境。</font></font></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

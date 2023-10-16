@@ -28,6 +28,7 @@ topic: KoaJS
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -53,6 +54,7 @@ topic: KoaJS
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在快速中间件中将收到</font><font style="vertical-align: inherit;">的</font></font><code>req</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">和</font></font><code>res</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，在koa中间件中不直接可用。</font><font style="vertical-align: inherit;">但是您可以</font><font style="vertical-align: inherit;">通过</font><font style="vertical-align: inherit;">和</font><font style="vertical-align: inherit;">访问koa </font></font><a href="http://koajs.com/#request" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">请求</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">和koa </font></font><a href="http://koajs.com/#response" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">响应</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">对象</font><font style="vertical-align: inherit;">。</font></font><code>this.request</code><font style="vertical-align: inherit;"></font><code>this.response</code><font style="vertical-align: inherit;"></font></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

@@ -28,6 +28,7 @@ var strUser = e.options[e.selectedIndex].value;<font></font>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -236,6 +237,7 @@ var strUser = e.options[e.selectedIndex].text;<font></font>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这将</font></font><code>strUser</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">成为</font></font><code>test2</code></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

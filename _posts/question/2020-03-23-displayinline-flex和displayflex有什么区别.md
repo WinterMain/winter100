@@ -42,6 +42,7 @@ topic: CSS
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -212,6 +213,7 @@ p {<font></font>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我已经添加</font></font><code>#wrapper &gt; * { flex: 1; margin: auto; }</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">到CSS并更改</font></font><code>inline-flex</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">为</font></font><code>flex</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，您可以看到元素现在如何在页面上均匀地分布。</font></font></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

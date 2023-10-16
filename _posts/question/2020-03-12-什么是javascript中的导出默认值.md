@@ -35,6 +35,7 @@ export default SafeString;<font></font>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -80,6 +81,7 @@ foo(); // hello!<font></font>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">该</font></font><a href="http://www.2ality.com/2014/09/es6-modules-final.html" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">页面</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">详细描述</font></font><code>export default</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">了有关模块，以及我认为非常有用的模块的其他详细信息。</font></font></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

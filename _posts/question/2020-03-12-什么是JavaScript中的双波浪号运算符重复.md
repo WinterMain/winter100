@@ -51,6 +51,7 @@ topic: JavaScript
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -112,6 +113,7 @@ topic: JavaScript
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">用作的</font></font><a href="http://rocha.la/JavaScript-bitwise-operators-in-practice" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">更快替代品</font></font><code>Math.floor()</code></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

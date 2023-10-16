@@ -21,6 +21,7 @@ topic: HTML
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -158,6 +159,7 @@ topic: HTML
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果这是您将经常使用的功能，则创建自己的语法可能很有意义，但是通常它并不是至关重要的功能。</font><font style="vertical-align: inherit;">如果要在新窗口中启动该链接，请自己按住ctrl键单击它，谢谢。</font></font></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

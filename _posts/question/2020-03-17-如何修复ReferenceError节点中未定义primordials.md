@@ -34,6 +34,7 @@ ReferenceError: primordials is not defined<font></font>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -330,6 +331,7 @@ $ nvm use lts/dubnium<font></font>
 $ yarn upgrade # or `npm install`<font></font>
 </code></pre></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

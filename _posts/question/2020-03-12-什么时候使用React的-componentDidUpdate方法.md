@@ -27,6 +27,7 @@ topic: React.js
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -35,6 +36,7 @@ topic: React.js
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">有时，您可能会在构造函数或componentDidMount中的props中添加状态值，当props更改但组件已经挂载时，可能需要调用setState，因此componentDidMount将不会执行，构造函数也不会执行；</font><font style="vertical-align: inherit;">在这种情况下，由于道具已更改，因此可以使用componentDidUpdate，可以在具有新道具的componentDidUpdate中调用setState。</font></font></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

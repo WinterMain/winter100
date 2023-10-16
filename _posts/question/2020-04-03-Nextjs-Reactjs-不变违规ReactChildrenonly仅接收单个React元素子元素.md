@@ -83,6 +83,7 @@ topic: React.js
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -91,6 +92,7 @@ topic: React.js
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">问题是我的数据结构对应于另一个框架。</font><font style="vertical-align: inherit;">因此，存在一些使NextJS崩溃的微小细节-例如我的React Links中的“ props”调用等。</font><font style="vertical-align: inherit;">因此，如果有人遇到相同的问题，请仔细检查框架数据结构的配置</font></font></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

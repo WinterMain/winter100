@@ -52,6 +52,7 @@ function Example() {<font></font>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -147,6 +148,7 @@ const setCount = () =&gt; {<font></font>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">挂钩是</font></font><code>React v16.7.0-alpha</code> <code>useState</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">“挂钩” </font><font style="vertical-align: inherit;">中的一个新功能</font><font style="vertical-align: inherit;">。</font></font><code>useState()</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">设置any变量的默认值并在函数组件（PureComponent函数）中进行管理。  </font></font><code>ex : const [count, setCount] = useState(0);</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">设置计数0的默认值。并且u可以使用</font></font><code>setCount</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">to </font></font><code>increment</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">或</font></font><code>decrement</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">该值。</font></font><code>onClick={() =&gt; setCount(count + 1)}</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">增加计数值。</font></font><a href="https://reactjs.org/docs/hooks-overview.html" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">DOC</font></font></a></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

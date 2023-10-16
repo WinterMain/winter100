@@ -21,6 +21,7 @@ topic: CSS
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -162,6 +163,7 @@ div:focus:active {<font></font>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">：active是用户激活元素的时间-用户按下鼠标按钮然后释放它之间的时间。</font></font></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

@@ -42,6 +42,7 @@ app.post('/', function(request, response) {<font></font>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -128,6 +129,7 @@ app.post('/', function(request, response) {<font></font>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这将采用</font></font><code>bodyParser</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">为您创建</font><font style="vertical-align: inherit;">的对象，</font><font style="vertical-align: inherit;">然后将其转换为字符串并将其写入响应。</font><font style="vertical-align: inherit;">如果您想要确切的请求正文（具有相同的空格等），则需要</font><font style="vertical-align: inherit;">在请求之前附加</font></font><code>data</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">和</font></font><code>end</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">侦听器，并逐块构建字符串，如在</font></font><a href="https://github.com/senchalabs/connect/blob/master/lib/middleware/json.js#L50" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">connect中从json解析源代码中</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">看到的那样</font><font style="vertical-align: inherit;">。</font></font></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

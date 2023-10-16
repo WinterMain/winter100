@@ -21,6 +21,7 @@ topic: JavaScript
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -157,6 +158,7 @@ export default connect(mapStateToProps, mapDispatchToProps)(myContainer);<font><
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">有关更多详细信息，请阅读</font><font style="vertical-align: inherit;">Dan Abramov的</font></font><a href="https://medium.com/@dan_abramov/smart-and-dumb-components-7ca2f9a7c7d0" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">presentational vs container组件</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

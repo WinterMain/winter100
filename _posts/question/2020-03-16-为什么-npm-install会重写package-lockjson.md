@@ -25,6 +25,7 @@ topic: Node.js
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -185,6 +186,7 @@ npm install # installs "1.1.0" (as required by the updated package.json)<font></
             # (i.e. when package.json is modified, it overrules the package-lock.json)<font></font>
 </code></pre></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

@@ -35,6 +35,7 @@ function bar(n) {<font></font>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -197,6 +198,7 @@ console.log(e.stack);<font></font>
 
 <p><img src="https://i.stack.imgur.com/XA8Bf.png" alt="屏幕截图"></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

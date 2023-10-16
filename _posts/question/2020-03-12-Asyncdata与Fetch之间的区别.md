@@ -49,6 +49,7 @@ topic: Vue.js
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -57,6 +58,7 @@ topic: Vue.js
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我要指出的一点是，我没有看到上述内容（至少，不清楚）。</font><font style="vertical-align: inherit;">asyncData自动将数据合并到页面的data（）对象中。</font><font style="vertical-align: inherit;">提取没有。</font><font style="vertical-align: inherit;">借助fetch，您可以根据需要自行处理数据。</font></font></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

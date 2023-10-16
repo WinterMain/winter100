@@ -31,6 +31,7 @@ function getFileExtension(filename) {<font></font>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -276,6 +277,7 @@ console.log( getExtension("/path/to/file.ext") );<font></font>
 
 <p>All three variants should work in any web browser on the client side and can be used in the server side NodeJS code as well.</p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

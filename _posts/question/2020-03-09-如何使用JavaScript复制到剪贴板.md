@@ -38,6 +38,7 @@ topic: JavaScript
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -204,6 +205,7 @@ topic: JavaScript
 
 <p><a href="https://jsfiddle.net/fx6a6n6x/" rel="noreferrer">https://jsfiddle.net/fx6a6n6x/</a></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

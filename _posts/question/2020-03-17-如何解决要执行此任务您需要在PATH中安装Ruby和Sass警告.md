@@ -33,6 +33,7 @@ to continue.<font></font>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -127,6 +128,7 @@ gem install sass<font></font>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">好，我知道了。</font><font style="vertical-align: inherit;">我只需要使用安装Sass </font></font><code>gem install sass</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，现在一切都很好...再简单不过了。</font></font></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

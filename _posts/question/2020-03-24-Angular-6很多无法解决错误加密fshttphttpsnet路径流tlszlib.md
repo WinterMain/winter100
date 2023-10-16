@@ -175,6 +175,7 @@ Module not found: Error: Can't resolve 'zlib' in 'C:\Users\sorou\projects\tunrWe
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -243,6 +244,7 @@ Module not found: Error: Can't resolve 'zlib' in 'C:\Users\sorou\projects\tunrWe
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">您必须找到作为依赖项添加的节点程序包，这会导致此问题。</font><font style="vertical-align: inherit;">打开package-lock.json，搜索crypto可以找到依赖关系链，该依赖关系导致package.json的dependencies部分中包含包名称。</font><font style="vertical-align: inherit;">就我而言，这些库中的大多数都是通过npm软件包“ request”引入的。</font></font></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

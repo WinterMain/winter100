@@ -27,6 +27,7 @@ topic: React.js
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -99,6 +100,7 @@ function MyComponent() {<font></font>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这里有一个</font></font><a href="https://github.com/airbnb/javascript/pull/985" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">很好的讨论可供阅读</font></font></a></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

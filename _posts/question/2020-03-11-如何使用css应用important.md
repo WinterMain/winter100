@@ -30,6 +30,7 @@ topic: JavaScript
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -142,6 +143,7 @@ $("#elem").attr("style", "width: 100px !important");<font></font>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">使用“ cssText”作为属性名称，并使用任何要添加到CSS的值作为其名称。</font></font></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

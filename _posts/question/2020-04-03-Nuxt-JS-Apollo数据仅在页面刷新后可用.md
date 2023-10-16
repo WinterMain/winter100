@@ -95,6 +95,7 @@ export default {<font></font>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -107,6 +108,7 @@ export default {<font></font>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这样，仅在真正获取HTML对象时才使用它，并避免读取未定义的属性。</font></font></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

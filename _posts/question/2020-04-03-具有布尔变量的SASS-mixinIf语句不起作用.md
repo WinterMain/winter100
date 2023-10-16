@@ -50,6 +50,7 @@ topic: CSS
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -89,6 +90,7 @@ topic: CSS
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">消息错误可能令人困惑，但是您有语法错误。</font><font style="vertical-align: inherit;">应该</font></font><code>@else</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">不会</font></font><code>else</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

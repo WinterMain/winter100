@@ -26,6 +26,7 @@ topic: Webpack
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -73,6 +74,7 @@ But the explicit Object.assign method is left unchanged ¯\_(ツ)_/¯</p></div>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">甚至某些语法转换都依赖于特定的polyfill功能进行加载，因为某些语法依赖于库代码中实现的算法和行为。</font></font><a href="http://babeljs.io/docs/learn-es2015/" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">http://babeljs.io/docs/learn-es2015/</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">上的ES6功能</font><font style="vertical-align: inherit;">列出了假定已加载的标准库功能。</font></font></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

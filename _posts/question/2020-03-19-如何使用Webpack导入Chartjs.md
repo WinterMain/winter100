@@ -26,6 +26,7 @@ topic: Vue.js
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -39,6 +40,7 @@ topic: Vue.js
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">重新启动您的应用程序，实时重新加载不会成功。</font></font></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

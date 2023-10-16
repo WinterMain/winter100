@@ -45,6 +45,7 @@ setInterval(myTimeoutFunction, 1000);<font></font>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -311,6 +312,7 @@ myTimeoutFunction();<font></font>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">同样，如果函数中出现问题，它将在第一次出现错误时停止重复，而不是每秒重复一次错误。</font></font></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

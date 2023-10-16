@@ -28,6 +28,7 @@ topic: JavaScript
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -333,6 +334,7 @@ Scope.prototype.$$digestOnce = function() {<font></font>
 <p><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">TL; DR</font></font></strong> <br><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> 
 数据绑定可能会导致复杂页面上的性能问题。</font></font></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

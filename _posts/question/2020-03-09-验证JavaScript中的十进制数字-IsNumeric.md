@@ -43,6 +43,7 @@ topic: JavaScript
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -265,6 +266,7 @@ return (input - 0) == input &amp;&amp; temp.length &gt; 0;<font></font>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这也适用于0x23类型编号。</font></font></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

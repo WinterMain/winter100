@@ -23,6 +23,7 @@ topic: JavaScript
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -86,6 +87,7 @@ topic: JavaScript
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">检查</font><a href="http://taiyolab.com/mbtweet/scripts/twitterapi_call.js" rel="noreferrer"><font style="vertical-align: inherit;">http://taiyolab.com/mbtweet/scripts/twitterapi_call.js中</font></a><font style="vertical-align: inherit;">的</font></font><code>post_method</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">功能</font><font style="vertical-align: inherit;">-上述iframe方法的一个很好的例子。</font></font><a href="http://taiyolab.com/mbtweet/scripts/twitterapi_call.js" rel="noreferrer"><font style="vertical-align: inherit;"></font></a><font style="vertical-align: inherit;"></font></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

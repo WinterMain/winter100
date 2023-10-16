@@ -45,6 +45,7 @@ topic: Webpack
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -83,6 +84,7 @@ topic: Webpack
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">肯定有一个html文件可用于附加了js捆绑包的用户。</font><font style="vertical-align: inherit;">可能您可以将script标签附加到该html文件中</font></font></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

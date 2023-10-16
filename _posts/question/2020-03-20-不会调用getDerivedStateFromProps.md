@@ -130,6 +130,7 @@ export default withReduxSaga(Index)<font></font>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -149,6 +150,7 @@ export default withReduxSaga(Index)<font></font>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我看到</font></font><a href="https://github.com/zeit/next.js/releases/tag/6.0.0-canary.2" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在next.JS的6.0.0-canary.2版本中修补</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">了对该钩子的支持</font><font style="vertical-align: inherit;">。</font><font style="vertical-align: inherit;">因此，我猜测您使用的是旧版本。</font></font></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

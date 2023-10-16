@@ -41,6 +41,7 @@ topic: React.js
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -88,6 +89,7 @@ topic: React.js
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">通过</font></font><code>React.Fragment</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我们可以简单地将分隔符放置在</font></font><code>,</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">返回的HTML之外，React不会抱怨。</font></font></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

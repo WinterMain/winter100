@@ -26,6 +26,7 @@ topic: JavaScript
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -87,6 +88,7 @@ $("#mySelect").append(o);<font></font>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果添加多个选项元素，我建议执行一次附加操作，而不是在每个元素上执行附加操作。</font></font></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

@@ -21,6 +21,7 @@ topic: CSS
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -207,6 +208,7 @@ img#desktop {<font></font>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">浏览器变得越来越聪明。</font><font style="vertical-align: inherit;">今天，如果浏览器可以确定图像没有用，则它可能会跳过图像加载（取决于版本）。</font></font></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

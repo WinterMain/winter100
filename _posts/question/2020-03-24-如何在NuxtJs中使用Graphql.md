@@ -108,6 +108,7 @@ import apolloProvider from '../plugins/graphql'<font></font>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -118,6 +119,7 @@ import apolloProvider from '../plugins/graphql'<font></font>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我在使用Nuxt 1.0的博客中使用了此工具，但仍在Nuxt2上进行一些测试，但这给我带来了问题。.猜想我暂时仍将使用V1。</font></font></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

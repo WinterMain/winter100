@@ -21,6 +21,7 @@ topic: JavaScript
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -69,6 +70,7 @@ jQuery("div.fusion-logo a").attr("href","tel:303-985-9850");<font></font>
 <pre><code>$("a.mylink").attr("href", "http://cupcream.com");
 </code></pre></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

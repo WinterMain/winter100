@@ -26,6 +26,7 @@ topic: JavaScript
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -519,6 +520,7 @@ try {<font></font>
 
 <p><code>some</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，它的反函数</font></font><a href="https://developer.mozilla.org/en/Core_JavaScript_1.5_Reference/Global_Objects/Array/every" rel="noreferrer"><code>every</code></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">（将在上停止</font></font><code>return false</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">），以及</font></font><code>forEach</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">所有ECMAScript Fifth Edition方法，都需要将它们添加到</font></font><code>Array.prototype</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">缺少它们的浏览器中。</font></font></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

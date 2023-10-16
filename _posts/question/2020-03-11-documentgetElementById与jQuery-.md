@@ -31,6 +31,7 @@ topic: JavaScript
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -65,6 +66,7 @@ topic: JavaScript
   <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">以id选择器作为参数调用jQuery（）或$（）将返回一个jQuery对象，该对象包含一个零或一个DOM元素的集合。每个id值在文档中只能使用一次。</font><font style="vertical-align: inherit;">如果为多个元素分配了相同的ID，则使用该ID的查询将仅选择DOM中的第一个匹配元素。</font></font></p>
 </blockquote></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

@@ -67,6 +67,7 @@ topic: CSS
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -175,6 +176,7 @@ section {<font></font>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">最后但并非最不重要的一点：不要计划更新CSS框架。</font><font style="vertical-align: inherit;">这些框架旨在为您提供领先优势，而不是成为您的整体设计解决方案。</font><font style="vertical-align: inherit;">扩展它们，使它们适应，使它们成为自己的，投资设计并创建自己的外观，以使您的应用程序与众不同。</font><font style="vertical-align: inherit;">如果使您想到更新的原因是跟上标准更改的烦恼，请更好地使用指南针mixins。</font></font></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

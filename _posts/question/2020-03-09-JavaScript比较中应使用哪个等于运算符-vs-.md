@@ -42,6 +42,7 @@ topic: JavaScript
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -401,6 +402,7 @@ alert</span><span class="pun">(</span><span class="pln">a </span><span class="pu
   <p><strong><em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">使用</font></font><code>===</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">除非你完全明白发生与转换</font></font><code>==</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></em></strong></p>
 </blockquote></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

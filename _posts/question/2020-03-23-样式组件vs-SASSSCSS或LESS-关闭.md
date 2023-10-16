@@ -82,6 +82,7 @@ head tag cause browser reflow/repaint ?</p></li>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -120,6 +121,7 @@ head tag cause browser reflow/repaint ?</p></li>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">关于</font></font><a href="https://developers.google.com/web/fundamentals/performance/rendering/reduce-the-scope-and-complexity-of-style-calculations" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">样式（重新）计算的范围和复杂性</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">有很好的介绍</font><font style="vertical-align: inherit;">，深入了解该主题确实值得一读。</font></font></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

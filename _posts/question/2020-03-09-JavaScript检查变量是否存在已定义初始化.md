@@ -34,6 +34,7 @@ topic: JavaScript
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -267,6 +268,7 @@ alert(_undefined === _null);<font></font>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我发现它对于检测在浏览器外部运行的脚本（没有声明</font></font><code>window</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">变量）</font><font style="vertical-align: inherit;">很有用</font><font style="vertical-align: inherit;">。</font></font></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

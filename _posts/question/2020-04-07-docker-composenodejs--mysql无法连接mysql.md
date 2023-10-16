@@ -146,6 +146,7 @@ topic: KoaJS
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -158,6 +159,7 @@ topic: KoaJS
 1. </font></font><code>apk add --no-cache bash</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">运行</font></font><code>wait-for-it.sh</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">等待MySQL服务器是确定</font></font><br><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
 2. </font></font><code>hostname</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">是</font></font><code>0.0.0.0</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">不是</font></font><code>localhost</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">/</font></font><code>127.0.0.1</code>  </p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

@@ -34,6 +34,7 @@ topic: Node.js
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -61,6 +62,7 @@ topic: Node.js
   <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">设置DEBUG = myapp：*＆npm start然后</font><font style="vertical-align: inherit;">在浏览器中</font><font style="vertical-align: inherit;">加载</font></font><a href="http://localhost:3000/" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">http：// localhost：3000 /</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">以访问该应用。</font></font></p>
 </blockquote></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

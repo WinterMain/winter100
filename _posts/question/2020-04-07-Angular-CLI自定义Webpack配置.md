@@ -26,6 +26,7 @@ topic: Webpack
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -77,6 +78,7 @@ topic: Webpack
 <p><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">进一步阅读：</font></font></strong><br>
 <a href="https://medium.com/@_Just_JeB_/customizing-angular-cli-6-build-an-alternative-to-ng-eject-a48304cd3b21" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">自定义Angular CLI构建-ng弹出的替代方法</font></font></a></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

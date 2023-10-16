@@ -23,6 +23,7 @@ topic: JavaScript
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -190,6 +191,7 @@ _</span><span class="pun">.</span><span class="pln">has</span><span class="pun">
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">要测试数组中的现有元素：</font></font><a href="https://stackoverflow.com/questions/143847/best-way-to-find-an-item-in-a-javascript-array" data-bitapp="processed"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">查找项目是否在JavaScript数组中的最佳方法？</font></font></a></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

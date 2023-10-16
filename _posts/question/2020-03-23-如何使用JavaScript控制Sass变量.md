@@ -29,6 +29,7 @@ $font-size: 12px;<font></font>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -91,6 +92,7 @@ $font-size: 12px;<font></font>
 <pre><code>document.documentElement.style.setProperty("--subTitleLeftMargin", "6vw");
 </code></pre></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

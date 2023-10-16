@@ -33,6 +33,7 @@ topic: JavaScript
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -60,6 +61,7 @@ topic: JavaScript
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">但是有一个解决方案。</font><font style="vertical-align: inherit;">在具有Webpack + vue-loader或Browserify + vueify的构建系统中使用Vue时，您的模板将被预编译为渲染功能，这些功能可以在CSP环境中完美运行。</font></font></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

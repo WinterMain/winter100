@@ -23,6 +23,7 @@ topic: CSS
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -118,6 +119,7 @@ topic: CSS
   <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我们感到特别令人兴奋的是，jQuery UI CSS主题现在托管在Google的Ajax Libraries CDN中。</font></font></p>
 </blockquote></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

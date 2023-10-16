@@ -168,7 +168,9 @@ Waiting for deployment "review-branchname-abcxyz" rollout to finish: 0 of 1 upda
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     
+    </div>
     {% endraw %}
   </div>
 <div>

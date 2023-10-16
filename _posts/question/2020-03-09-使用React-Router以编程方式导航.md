@@ -27,6 +27,7 @@ topic: React.js
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -301,6 +302,7 @@ export class Navigator2 extends Component&lt;INavigatorProps, {}&gt; {<font></fo
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">至于什么是上下文，它是一个像道具一样的对象，它从父级传递到子级，但是隐式地传递下来，而不必每次都重新声明道具。</font><font style="vertical-align: inherit;">参见</font></font><a href="https://www.tildedave.com/2014/11/15/introduction-to-contexts-in-react-js.html" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">https://www.tildedave.com/2014/11/15/introduction-to-contexts-in-react-js.html</font></font></a></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

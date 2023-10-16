@@ -25,6 +25,7 @@ topic: Webpack
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -118,6 +119,7 @@ function OnFirstBuildDonePlugin() {<font></font>
 <li><code>nodemon</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> -在node.js应用程序开发期间使用的简单监控脚本。</font></font></li>
 </ol></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

@@ -30,6 +30,7 @@ localhost:3000 - Node.js server<font></font>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -229,6 +230,7 @@ res.header("Access-Control-Allow-Headers", "X-Requested-With");<font></font>
 
 <p><a href="https://chrome.google.com/webstore/detail/allow-cors-access-control/lhobafahddgcelffkeicbaginigeejlf?hl=en" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Chrome扩展程序允许控制允许来源：*</font></font></a></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

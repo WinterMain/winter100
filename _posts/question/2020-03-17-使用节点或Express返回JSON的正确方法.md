@@ -57,6 +57,7 @@ $<font></font>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -94,6 +95,7 @@ $<font></font>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">该</font></font><code>res.json()</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">函数使用转换您传递给JSON的参数</font></font><a href="http://thecodebarbarian.com/the-80-20-guide-to-json-stringify-in-javascript" rel="noreferrer"><code>JSON.stringify()</code></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，</font></font><a href="https://masteringjs.io/tutorials/express/json" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">并将</font></font><code>Content-Type</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">标头</font><font style="vertical-align: inherit;">设置为</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，</font></font><code>application/json; charset=utf-8</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">以便HTTP客户端知道自动解析响应。</font></font></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

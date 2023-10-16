@@ -21,6 +21,7 @@ topic: Webpack
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -92,6 +93,7 @@ console.log("Retrieved MyComponent: " + MyComponent);<font></font>
 
 <p><a href="https://stackoverflow.com/a/40801947/164680"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">查看更多</font></font></a></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

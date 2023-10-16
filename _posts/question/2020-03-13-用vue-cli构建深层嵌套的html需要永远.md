@@ -190,6 +190,7 @@ is the original issue that addressed this problem and the dev team thought that 
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -269,6 +270,7 @@ is the original issue that addressed this problem and the dev team thought that 
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">所以，如果你患有不佳</font></font><code>npm run serve</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">表现，尝试子组件首先，在调用我没有注意到，在编译时太大的区别</font></font><code>npm run build</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，所以我认为（也许不正确地），这个问题也引起这是启用的码prettifier </font></font><code>serve</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">但禁用</font></font><code>build</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">（ TSLint不会在保存操作中调用，因此</font></font><code>npm run serve</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在我的情况下</font><font style="vertical-align: inherit;">不受影响</font><font style="vertical-align: inherit;">）。</font></font></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

@@ -23,6 +23,7 @@ topic: JavaScript
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -280,6 +281,7 @@ Dog.prototype.constructor = Dog;<font></font>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">请注意，这</font></font><code>obj.constructor.name</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">可能效果很好，但不是标准的。</font><font style="vertical-align: inherit;">它可以在Chrome和Firefox上使用，但不能在IE（包括IE 9或IE 10 RTM）上使用。</font></font></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

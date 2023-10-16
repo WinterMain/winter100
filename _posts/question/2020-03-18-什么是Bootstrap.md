@@ -29,6 +29,7 @@ topic: CSS
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -182,6 +183,7 @@ topic: CSS
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">“由</font></font><a href="https://twitter.com/mdo" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">@mdo</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">和</font></font><a href="https://twitter.com/fat" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">@fat结合</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">世界上所有的爱进行设计和建造</font><font style="vertical-align: inherit;">。”</font></font></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

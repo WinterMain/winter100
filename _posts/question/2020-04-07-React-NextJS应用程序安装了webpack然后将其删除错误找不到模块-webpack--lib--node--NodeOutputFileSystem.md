@@ -170,6 +170,7 @@ module.exports = (phase, { defaultConfig }) =&gt; {<font></font>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -186,6 +187,7 @@ npm install<font></font>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">现在我的</font></font><code>npm run dev</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">作品又来了！</font></font></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

@@ -21,6 +21,7 @@ topic: CSS
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -100,6 +101,7 @@ topic: CSS
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Web编译器本不应该将字符串转换为Unicode字符时遇到问题。</font><font style="vertical-align: inherit;">我</font><font style="vertical-align: inherit;">在VS2015中</font><font style="vertical-align: inherit;">切换到了该实现   </font></font><a href="http://blog.oxfordcc.co.uk/compiling-sass-gulp-visual-studio/"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">http://blog.oxfordcc.co.uk/compiling-sass-gulp-visual-studio/</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，它可以正确编译CSS。</font><font style="vertical-align: inherit;">以防万一其他人遇到相同的问题。</font></font></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

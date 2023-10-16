@@ -41,6 +41,7 @@ new Vue({<font></font>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -55,6 +56,7 @@ new Vue({<font></font>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">请查看</font></font><a href="https://vuejs.org/v2/guide/components.html#data-Must-Be-a-Function" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Vue.js文档</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">的</font><a href="https://vuejs.org/v2/guide/components.html#data-Must-Be-a-Function" rel="noreferrer"><font style="vertical-align: inherit;">相应部分，以</font></a><font style="vertical-align: inherit;">获取有关此问题的更多信息。</font></font></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

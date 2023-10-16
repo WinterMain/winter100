@@ -63,6 +63,7 @@ export default function ({ app, store }) {<font></font>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -75,6 +76,7 @@ export default function ({ app, store }) {<font></font>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">客户端可以使用客户端插件来完成，如此处所述：</font><a href="https://github.com/nuxt/nuxt.js/pull/4573#issuecomment-557857101" rel="nofollow noreferrer"><font style="vertical-align: inherit;">https</font></a><font style="vertical-align: inherit;"> : </font></font><a href="https://github.com/nuxt/nuxt.js/pull/4573#issuecomment-557857101" rel="nofollow noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">//github.com/nuxt/nuxt.js/pull/4573#issuecomment-557857101</font></font></a></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

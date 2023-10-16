@@ -27,6 +27,7 @@ topic: CSS
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -74,6 +75,7 @@ topic: CSS
 
 <p><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在您的项目中，</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">将</font></font><code>.css</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">文件</font><font style="vertical-align: inherit;">重命名</font><font style="vertical-align: inherit;">为</font></font><code>.scss</code> </p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

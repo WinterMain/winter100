@@ -33,6 +33,7 @@ const _ = require('underscore');<font></font>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -114,6 +115,7 @@ const _ = require('underscore');<font></font>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">就我而言，它找不到</font></font><code>.eslintrc</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">文件，因此我从node_modules / .bin复制到了根目录。</font></font></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

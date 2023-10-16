@@ -23,6 +23,7 @@ topic: Node.js
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -366,6 +367,7 @@ Previously I had 100,000 total requests with 10,000 concurrent requests. I incre
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在所有情况下，Node.js的速度往往都比IIS快2倍以上。 </font></font></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

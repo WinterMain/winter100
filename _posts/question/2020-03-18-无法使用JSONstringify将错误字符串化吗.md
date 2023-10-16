@@ -111,6 +111,7 @@ message { value: 'simple error message',<font></font>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -153,6 +154,7 @@ return JSON.stringify(obj, (name, value) =&gt; {<font></font>
 
 <p><a href="https://www.npmjs.com/package/serialize-error" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">https://www.npmjs.com/package/serialize-error</font></font></a></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

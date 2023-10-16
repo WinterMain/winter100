@@ -75,6 +75,7 @@ React.render(&lt;Todos /&gt;, document.body)<font></font>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -163,6 +164,7 @@ var TodoForm = React.createClass({<font></font>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">参见</font></font><a href="https://reactjs.org/docs/lifting-state-up.html" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">https://reactjs.org/docs/lifting-state-up.html</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font><font style="vertical-align: inherit;">该页面还通过一个示例工作。  </font></font></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

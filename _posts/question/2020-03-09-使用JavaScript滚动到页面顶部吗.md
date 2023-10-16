@@ -21,6 +21,7 @@ topic: JavaScript
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -291,6 +292,7 @@ w.scrollTop = 0;<font></font>
 <li>y-coord is the pixel along the vertical axis. </li>
 </ul></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

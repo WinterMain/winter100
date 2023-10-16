@@ -37,6 +37,7 @@ topic: JavaScript
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -277,6 +278,7 @@ $ git push origin gh-pages<font></font>
 
 <p><a href="//github.com/blog/1482" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">注意：Chrome和Firefox支持nosniff标头</font></font></a></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

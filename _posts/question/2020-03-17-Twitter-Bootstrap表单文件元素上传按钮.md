@@ -21,6 +21,7 @@ topic: CSS
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -136,6 +137,7 @@ topic: CSS
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">使用fileupload插件，您可以创建更多高级小部件。</font><font style="vertical-align: inherit;">看看
  </font></font><a href="http://jasny.github.io/bootstrap/javascript/#fileinput"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">http://jasny.github.io/bootstrap/javascript/#fileinput</font></font></a></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

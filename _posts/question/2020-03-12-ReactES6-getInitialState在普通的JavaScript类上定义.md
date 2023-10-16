@@ -135,6 +135,7 @@ topic: React.js
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -224,6 +225,7 @@ topic: React.js
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在React的文档中了解有关ES6类的更多信息：</font></font><a href="https://reactjs.org/docs/state-and-lifecycle.html#converting-a-function-to-a-class" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">将函数转换为类</font></font></a></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

@@ -55,6 +55,7 @@ topic: Webpack
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -94,6 +95,7 @@ topic: Webpack
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">但是通常，除了第一个文件（如index.html）和较大的资产（如大图像或视频）外，通过css，html，images等直接包含在您的应用中，</font></font><code>require</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">并且webpack会为您提供该文件（好吧，在使用加载程序和可能的插件正确设置好它之后）。</font></font></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

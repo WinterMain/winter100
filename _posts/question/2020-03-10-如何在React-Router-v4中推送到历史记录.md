@@ -37,6 +37,7 @@ export function addProduct(props) {<font></font>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -219,6 +220,7 @@ function HomeButton() {<font></font>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">有关更多信息，</font><a href="https://reacttraining.com/react-router/web/api/Hooks/usehistory" rel="noreferrer"><font style="vertical-align: inherit;">请</font></a><font style="vertical-align: inherit;">访问：</font><a href="https://reacttraining.com/react-router/web/api/Hooks/usehistory" rel="noreferrer"><font style="vertical-align: inherit;">https</font></a><font style="vertical-align: inherit;"> : </font></font><a href="https://reacttraining.com/react-router/web/api/Hooks/usehistory" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">//reacttraining.com/react-router/web/api/Hooks/usehistory</font></font></a></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

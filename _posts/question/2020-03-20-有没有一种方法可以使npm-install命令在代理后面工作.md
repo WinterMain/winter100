@@ -21,6 +21,7 @@ topic: Node.js
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -433,6 +434,7 @@ echo "proxy=http://$username:$password@$proxy" &gt; ~/.curlrc<font></font>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">EDIT2：正如@BStruthers所评论的那样，请记住，如果包含@，则不能正确地解析包含“ @”的密码，如果将@整个密码放在引号中</font></font></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

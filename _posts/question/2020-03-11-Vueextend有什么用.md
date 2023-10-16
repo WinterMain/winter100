@@ -21,6 +21,7 @@ topic: Vue.js
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -58,6 +59,7 @@ topic: Vue.js
   <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Vue.js支持两种不同的API范例：基于类的命令式Backbone样式API，以及基于标记的声明式Web组件样式API。</font><font style="vertical-align: inherit;">如果您感到困惑，请考虑如何使用</font></font><code>new Image()</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">或</font></font><code>&lt;img&gt;</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">标签</font><font style="vertical-align: inherit;">创建图像元素</font><font style="vertical-align: inherit;">。</font><font style="vertical-align: inherit;">每种方法都有其自身的用处，Vue.js尝试同时提供这两种方法以最大程度地提高灵活性。</font></font></p>
 </blockquote></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

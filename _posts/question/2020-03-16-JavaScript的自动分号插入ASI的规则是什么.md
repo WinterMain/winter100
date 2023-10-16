@@ -39,6 +39,7 @@ topic: JavaScript
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -197,6 +198,7 @@ YieldExpression :<font></font>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">它运行了，但结果是srcIds声明/赋值是全局的，因为由于自动分号插入导致该语句被视为完成，因此不再应用前一行上带有var的本地声明。</font></font></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

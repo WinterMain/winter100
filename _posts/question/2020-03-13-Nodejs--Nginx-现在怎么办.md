@@ -32,6 +32,7 @@ topic: Node.js
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -275,6 +276,7 @@ server {<font></font>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">但是要注意，如果您有多个内核，则应调整node.js以使用所有内核。</font></font></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

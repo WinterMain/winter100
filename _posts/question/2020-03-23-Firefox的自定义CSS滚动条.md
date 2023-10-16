@@ -44,6 +44,7 @@ topic: CSS
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -310,6 +311,7 @@ scrollbar[orient="vertical"] {<font></font>
 <li><a href="https://github.com/vitch/jScrollPane" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">https://github.com/vitch/jScrollPane</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">（但是它已经过时了，显然是PITA ...）</font></font></li>
 </ul></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

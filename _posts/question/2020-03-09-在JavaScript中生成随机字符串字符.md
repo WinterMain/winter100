@@ -23,6 +23,7 @@ topic: JavaScript
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -280,6 +281,7 @@ console.log("random", r);</code></pre>
 <li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">即使它产生了6个均匀随机且不可预测的字符，由于</font></font><a href="https://en.wikipedia.org/wiki/Birthday_problem" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">生日悖论</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，您也可以期望仅生成大约50,000个字符串后看到重复项</font><font style="vertical-align: inherit;">。</font><font style="vertical-align: inherit;">（sqrt（36 ^ 6）= 46656）</font></font></li>
 </ul></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

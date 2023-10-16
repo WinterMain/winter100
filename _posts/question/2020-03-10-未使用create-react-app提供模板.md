@@ -52,6 +52,7 @@ Please note that global installs of create-react-app are no longer supported.<fo
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -542,6 +543,7 @@ yarn create react-app my-app<font></font>
 <li><code>yarn create react-app my-app</code></li>
 </ul></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

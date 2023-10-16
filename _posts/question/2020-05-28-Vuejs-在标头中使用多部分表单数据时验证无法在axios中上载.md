@@ -239,6 +239,7 @@ topic: Vue.js
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -263,6 +264,7 @@ topic: Vue.js
 <p><a href="https://stackoverflow.com/questions/43013858/how-to-post-a-file-from-a-form-with-axios#43014086"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如何使用Axios从表单发布文件</font></font></a>
 <a href="https://stackoverflow.com/questions/47630163/axios-post-request-to-send-form-data"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">axios发布请求以发送表单数据</font></font></a></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

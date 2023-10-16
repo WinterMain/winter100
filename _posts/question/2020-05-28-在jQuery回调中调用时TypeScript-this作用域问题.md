@@ -60,6 +60,7 @@ $</span><span class="pun">(</span><span class="pln">document</span><span class="
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -124,6 +125,7 @@ $</span><span class="pun">(</span><span class="pln">document</span><span class="
 
 <pre class="lang-js prettyprint prettyprinted" style=""><code><span class="pln">$</span><span class="pun">(</span><span class="pln">document</span><span class="pun">).</span><span class="pln">ready</span><span class="pun">(()</span><span class="pln"> </span><span class="pun">=&gt;</span><span class="pln"> thisTest</span><span class="pun">.</span><span class="pln">run</span><span class="pun">());</span></code></pre></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

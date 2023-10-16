@@ -46,6 +46,7 @@ angular-messages@^1.5.0 but none was installed.<font></font>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -226,6 +227,7 @@ UNMET PEER DEPENDENCY angular-messages@^1.5.0 `-- mdi@1.4.57` <font></font>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">所以你需要 </font></font><code>npm install angular angular-animate angular-aria angular-material angular-messages mdi</code></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

@@ -65,6 +65,7 @@ topic: HTML
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -73,6 +74,7 @@ topic: HTML
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">您只是拼写错误</font></font><code>$stateParam</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，应该是</font></font><code>$stateParams</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">（带有s）。</font><font style="vertical-align: inherit;">这就是为什么您不确定的原因;）</font></font></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

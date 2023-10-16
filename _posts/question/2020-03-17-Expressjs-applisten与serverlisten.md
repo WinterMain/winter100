@@ -45,6 +45,7 @@ server.listen(1234);<font></font>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -88,6 +89,7 @@ https.createServer(options, app).listen(443);<font></font>
 <li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">他们还可以使用express轻松定义路由。</font></font></li>
 </ol></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

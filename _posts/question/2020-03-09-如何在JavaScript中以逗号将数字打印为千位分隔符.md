@@ -34,6 +34,7 @@ topic: JavaScript
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -450,6 +451,7 @@ if (failures) {<font></font>
 
 <p><code>(?&lt;!\.\d*)</code><font style="vertical-align: inherit;"></font><code>.</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">后面</font><font style="vertical-align: inherit;">有一个否定性的含义，表示匹配之前不能</font><font style="vertical-align: inherit;">有零个或多个数字。</font><font style="vertical-align: inherit;">至少在V8中，</font><font style="vertical-align: inherit;">负向后看比</font></font><code>split</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">和</font></font><code>join</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">解决方案（</font></font><a href="http://jsben.ch/umq99" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">比较</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">）</font><font style="vertical-align: inherit;">快</font><font style="vertical-align: inherit;">。</font></font></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

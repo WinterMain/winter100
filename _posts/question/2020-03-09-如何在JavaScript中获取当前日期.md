@@ -21,6 +21,7 @@ topic: JavaScript
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -373,6 +374,7 @@ document.write(utc);</code></pre>
 
 <p><font style="vertical-align: inherit;"></font><code>replace</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果您要重用</font></font><code>utc</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">变量，</font><font style="vertical-align: inherit;">请使用</font><font style="vertical-align: inherit;">选项</font><font style="vertical-align: inherit;">，例如</font></font><code>new Date(utc)</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，因为Firefox和Safari无法识别带短划线的日期。</font></font></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

@@ -56,6 +56,7 @@ console.log(include([1, 2, 3, 4], 6)); // undefined</code></pre>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -214,6 +215,7 @@ else result = customSlowerSearch(yourArray, target);<font></font>
 </code></pre></li>
 </ol></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

@@ -42,6 +42,7 @@ web_server.use("/", express.static(__dirname));<font></font>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -56,6 +57,7 @@ web_server.use("/", express.static(__dirname));<font></font>
   <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">默认情况下，此模块将发送“ index.html”文件以响应目录请求。</font><font style="vertical-align: inherit;">要禁用此设置false或提供新的索引，请按首选顺序传递字符串或数组。</font></font></p>
 </blockquote></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

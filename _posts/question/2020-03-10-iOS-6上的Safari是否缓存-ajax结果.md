@@ -39,6 +39,7 @@ topic: JavaScript
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -370,6 +371,7 @@ $.post(postUrl, callbackFunction);<font></font>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我浪费了几个小时弄清楚这个问题。</font><font style="vertical-align: inherit;">Apple最好将这个缓存问题通知开发人员。</font></font></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

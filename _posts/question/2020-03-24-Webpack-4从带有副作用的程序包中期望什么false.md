@@ -46,6 +46,7 @@ topic: Webpack
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -108,6 +109,7 @@ topic: Webpack
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果该属性不在中</font><font style="vertical-align: inherit;">，或者</font><font style="vertical-align: inherit;">未在中</font></font><code>package.json</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">定义</font></font><code>module.rules</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，或者</font></font><code>mode: production</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">未设置（利用优化）。</font></font></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

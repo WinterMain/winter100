@@ -60,6 +60,7 @@ var Comment = React.createClass({<font></font>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -100,6 +101,7 @@ var Comment = React.createClass({<font></font>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">注意：我是该模块的作者，几小时前刚刚发布了该模块。</font><font style="vertical-align: inherit;">请随时报告任何错误或可用性问题。</font></font></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

@@ -54,6 +54,7 @@ Failed to decode downloaded font: [My local URL]<font></font>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -138,6 +139,7 @@ Failed to decode downloaded font: [My local URL]<font></font>
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">就像@mcortesi </font></font><a href="https://stackoverflow.com/questions/30762323/webpack-must-i-specify-the-domain-in-publicpath-for-url-directive-to-work-in"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在这里要求</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">的那样，如果您从css加载程序查询中删除sourceMaps，则将在不使用blob的情况下构建css，并且将对数据URL进行很好的解析。</font></font></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

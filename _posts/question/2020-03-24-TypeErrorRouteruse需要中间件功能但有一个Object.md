@@ -150,6 +150,7 @@ module.exports = app;<font></font>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -239,6 +240,7 @@ routes.initialize(app);<font></font>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">app.router在Express 3.0+中已贬值。</font><font style="vertical-align: inherit;">如果您使用的是Express 3.0+，请参阅下面的Anirudh答案。</font></font></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

@@ -25,6 +25,7 @@ topic: CSS
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -41,6 +42,7 @@ topic: CSS
 
 <p><a href="https://i.stack.imgur.com/JY33m.png" rel="noreferrer"><img src="https://i.stack.imgur.com/JY33m.png" alt="在此处输入图片说明"></a></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

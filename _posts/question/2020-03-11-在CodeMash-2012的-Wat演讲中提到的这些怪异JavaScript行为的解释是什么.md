@@ -68,6 +68,7 @@ NaNNaNNaNNaNNaNNaNNaNNaNNaNNaNNaNNaNNaNNaNNaNNaN<font></font>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -110,6 +111,7 @@ TypeError: Cannot convert object to primitive value<font></font>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">转换过程的详细说明：“ </font></font><a href="http://www.2ality.com/2012/01/object-plus-object.html" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">JavaScript中的{} + {}是什么？</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">”</font></font></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

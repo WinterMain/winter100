@@ -118,6 +118,7 @@ export default class App extends React.Component {<font></font>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -171,6 +172,7 @@ module.exports = {<font></font>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">最后，以上方法再次发出CSS。</font><font style="vertical-align: inherit;">为什么要像这样往返进行代码？</font><font style="vertical-align: inherit;">使用</font></font><a href="https://github.com/webpack-contrib/raw-loader" rel="nofollow noreferrer"><code>raw-loader</code></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">主CSS文件并将其添加到入口点。</font><font style="vertical-align: inherit;">您会丢失</font></font><code>css-loader</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">执行的</font><font style="vertical-align: inherit;">所有错误检查</font><font style="vertical-align: inherit;">，但是编译会快得多。</font><font style="vertical-align: inherit;">但是，如果您使用</font></font><code>sass-loader</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，则仍然会得到所有错误检查。</font></font></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

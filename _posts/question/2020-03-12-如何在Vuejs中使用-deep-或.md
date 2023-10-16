@@ -70,6 +70,7 @@ topic: CSS
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -115,6 +116,7 @@ topic: CSS
 <li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Vuetify 2不支持</font></font><code>/deep/</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">（因为它不支持</font></font><code>node-sass</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">）</font></font></li>
 </ul></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

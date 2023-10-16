@@ -46,6 +46,7 @@ topic: Asp.net
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -72,6 +73,7 @@ topic: Asp.net
 <li><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">纯度。</font><font style="vertical-align: inherit;">Razor和Vue在一天结束时会做类似的事情。</font><font style="vertical-align: inherit;">如果混合使用它们，可能会很难保持直立。</font></font></p></li>
 </ul></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

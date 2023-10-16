@@ -39,6 +39,7 @@ topic: CSS
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -82,6 +83,7 @@ topic: CSS
 
 <p><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">警告</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> -这可能取决于您使用的处理器。</font><font style="vertical-align: inherit;">在撰写本文时，使用</font></font><a href="http://gruntjs.com/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">grunt</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">和</font><a href="https://github.com/gruntjs/grunt-contrib-compass" rel="nofollow"><font style="vertical-align: inherit;">grunt-contrib-compass</font></a><font style="vertical-align: inherit;">效果很好</font></font><a href="https://github.com/gruntjs/grunt-contrib-compass" rel="nofollow"><font style="vertical-align: inherit;"></font></a></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

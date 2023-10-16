@@ -97,6 +97,7 @@ topic: React.js
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -188,6 +189,7 @@ topic: React.js
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">前者总是会触发点击。</font><font style="vertical-align: inherit;">如果</font><font style="vertical-align: inherit;">元素</font></font><code>checked</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">上存在属性，则</font><font style="vertical-align: inherit;">后者不会触发点击</font></font><code>input</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

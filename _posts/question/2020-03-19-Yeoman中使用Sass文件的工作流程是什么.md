@@ -330,6 +330,7 @@ module.exports = function (grunt) {<font></font>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -343,6 +344,7 @@ module.exports = function (grunt) {<font></font>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Yeoman / grunt将在运行服务器时知道它应该从temp文件夹中获取sass文件。</font></font></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

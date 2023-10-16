@@ -39,6 +39,7 @@ topic: JavaScript
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -252,6 +253,7 @@ Ramda </font><font style="vertical-align: inherit;">，您可以简单地使</fo
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在这里，“空”或“空字符串”或“未定义”将得到有效处理。</font></font></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

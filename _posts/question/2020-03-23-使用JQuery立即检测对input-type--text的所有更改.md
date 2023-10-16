@@ -34,6 +34,7 @@ topic: HTML
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -169,6 +170,7 @@ function testingevent(ev){<font></font>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果您使用的是jQuery &lt;= 1.4，请使用</font></font><code>live</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">代替</font></font><code>on</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

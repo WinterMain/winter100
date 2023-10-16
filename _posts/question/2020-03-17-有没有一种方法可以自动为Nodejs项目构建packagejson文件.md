@@ -21,6 +21,7 @@ topic: Node.js
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -210,6 +211,7 @@ FOR /F %k in (abc.txt) DO npm install --save<font></font>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">（注意：您可能需要手动调整依赖项的版本范围。）</font></font></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

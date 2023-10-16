@@ -26,6 +26,7 @@ topic: CSS
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -266,6 +267,7 @@ body &gt; input:nth-child(30n) + label { display: none !important; }</code></pre
 
 <p>Critical part that CSS lack is ability to change of it own state in arbitrary way, if CSS could generate clicks then it would be UTM. Argument that your clicks are "crank" for CSS is not accurate because real "crank" for CSS is Layout Engine that run it and it should be enough to prove that CSS is UTM.</p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

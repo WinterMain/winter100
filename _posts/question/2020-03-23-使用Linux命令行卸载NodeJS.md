@@ -21,6 +21,7 @@ topic: Node.js
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -243,6 +244,7 @@ curl --silent --location https://rpm.nodesource.com/setup_10.x | sudo bash -<fon
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">它将</font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">轻松卸载nodejs和npm</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

@@ -29,6 +29,7 @@ topic: Ckeditor
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -105,6 +106,7 @@ topic: Ckeditor
 
 <pre class="default prettyprint prettyprinted" style=""><code><span class="pln">config</span><span class="pun">.</span><span class="pln">ignoreEmptyParagraph </span><span class="pun">=</span><span class="pln"> </span><span class="kwd">false</span><span class="pun">;</span></code></pre></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

@@ -21,6 +21,7 @@ topic: JavaScript
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -336,6 +337,7 @@ value - value % 1 // -900719925474099     -900719925474099     -900719925474099<
 
 <p><a href="http://james.padolsey.com/javascript/double-bitwise-not/"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">更多细节由James Padolsey提供。</font></font></a></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

@@ -29,6 +29,7 @@ topic: Django
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -64,6 +65,7 @@ topic: Django
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我也很想知道部署过程将如何寻找该体系结构（使用什么工具？），因此，如果您有建议，请添加注释，我将相应地更新响应以为将来的读者提供有用的信息。</font></font></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

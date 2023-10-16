@@ -49,6 +49,7 @@ xhr.send();<font></font>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -494,6 +495,7 @@ node     57385   You   11u  IPv6 0xac745b2749fd2be3      0t0  TCP *:ddi-tcp-1 (L
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">您可以检查它是否有效。</font></font></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

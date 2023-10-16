@@ -23,6 +23,7 @@ topic: JavaScript
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -57,6 +58,7 @@ topic: JavaScript
           </div>
           <div class="discuss-comment"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我刚刚了解了解决此问题的另一种选择。</font><font style="vertical-align: inherit;">如果加载</font></font><a href="https://github.com/kossnocorp/jquery.turbolinks"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">的</font></font><code>jquery-turbolinks</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">宝石</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">它将绑定Rails的Turbolinks事件的</font></font><code>document.ready</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">事件，这样你就可以用通常的方式写你的jQuery。</font><font style="vertical-align: inherit;">您只需</font><font style="vertical-align: inherit;">在js清单文件（默认为：）</font></font><code>jquery.turbolinks</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">之后</font><font style="vertical-align: inherit;">添加即可</font><font style="vertical-align: inherit;">。</font></font><code>jquery</code><font style="vertical-align: inherit;"></font><code>application.js</code><font style="vertical-align: inherit;"></font></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

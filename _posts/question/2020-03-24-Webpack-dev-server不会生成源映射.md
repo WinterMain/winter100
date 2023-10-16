@@ -130,6 +130,7 @@ module.exports = {<font></font>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -214,6 +215,7 @@ webpack 3.10.0<font></font>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">该</font></font><code>d</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">标志代表开发快捷方式，它启用了所有开发人员工具，例如源映射。</font></font></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>

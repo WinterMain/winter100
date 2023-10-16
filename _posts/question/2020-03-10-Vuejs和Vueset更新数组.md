@@ -77,6 +77,7 @@ this.items.push();<font></font>
   <div class="discuss-wrapper">
     {% include discussTitle.html info=page %}
     {% raw %}
+    <div class="discuss-list">
     <div class="discuss-item">
         <div class="discuss-parent">
           <div class="discuss-meta">
@@ -104,6 +105,7 @@ this.items.push();<font></font>
 
 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">拼接仍然可用，这是vue </font></font><a href="https://vuejs.org/v2/guide/list.html#Array-Change-Detection" rel="noreferrer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">链接中</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">可用的阵列突变方法的</font><a href="https://vuejs.org/v2/guide/list.html#Array-Change-Detection" rel="noreferrer"><font style="vertical-align: inherit;">链接</font></a><font style="vertical-align: inherit;">。</font></font></p></div>
         </div></div>
+    </div>
     {% endraw %}
   </div>
 <div>
