@@ -154,13 +154,52 @@
       padding: 0 20px;
       padding-bottom: 20px;
 
+      .chain-logo {
+        height: 14px;
+        padding: 3px;
+        margin-left: 5px;
+        line-height: 14px;
+        svg {
+          height: 14px!important;
+          width: 14px!important;
+        }
+      }
+
+      .discuss-chain {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        margin-top: 10px;
+        font-size: 12px;
+        .discuss-from {
+          display: flex;
+          flex-wrap: wrap;
+          align-items: center;
+          color: var(--text-level1);
+          margin-right: 20px;
+          svg {
+            height: 14px!important;
+            width: 14px!important;
+            margin-right: 5px;
+          }
+        }
+      }
+
       .discuss-meta {
         padding-bottom: 10px;
+        display: flex;
+        align-items: center;
 
         .discuss-user {
           font-size: 14px;
           font-weight: 500;
           color: var(--themeColor);
+        }
+
+        a.discuss-user {
+          text-decoration: none;
+          border-bottom: 1px solid var(--themeColor);
+          display: inline-block;
         }
 
         .discuss-time {
@@ -171,7 +210,6 @@
       }
 
       .discuss-txhash {
-        margin-top: 10px;
         color: var(--themeColor);
         font-size: 12px;
         background-color: var(--themeColorLevel1);

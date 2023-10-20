@@ -7,6 +7,10 @@
       margin-left: 0;
       width: auto;
       margin-top: 20px;
+      .fixed-this {
+        position: relative;
+        width: 100%!important;
+      }
     }
   }
 
@@ -113,8 +117,13 @@
     }
   }
 
-  .discuss-wrapper .discuss-submit .input-submit button {
-    font-size: 14px!important;
-    min-width: 100px!important;
+  .discuss-wrapper {
+    .discuss-submit .input-submit button {
+      font-size: 14px!important;
+      min-width: 100px!important;
+    }
+    .discuss-txhash {
+      // margin-top: 10px;
+    }
   }
 }

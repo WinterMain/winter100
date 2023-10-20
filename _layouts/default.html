@@ -3,31 +3,41 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+	{% if page.isIndex %}
+	<title>{{site.title}} - {{page.title}}</title>
+	{% else %}
 	<title>{% if page.title %}{{page.title}} - {{site.title}}{% else %}{{site.title}}{% endif %}</title>
+	{% endif %}
 	<meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
 	{% include SEO.html %}
 	<link rel="stylesheet" href="{{ site.baseurl }}/assets/css/normalize.css?t=1">
 	<link rel="stylesheet" href="{{ site.baseurl }}/assets/css/tailwind.css?t=1">
-	<link rel="stylesheet" href="{{ site.baseurl }}/assets/css/index.css?t=5">
+	<link rel="stylesheet" href="{{ site.baseurl }}/assets/css/index.css?t=6">
 	<link rel="stylesheet" href="{{ site.baseurl }}/assets/iconfont/iconfont.css?t=1">
 	<link rel="icon" type="image/x-icon" href="{{ site.baseurl }}/favicon.ico?t=1">
 	<link rel="shortcut icon" href="{{ site.baseurl }}/favicon.ico" type="image/x-icon">
-	<!-- Google tag (gtag.js) -->
-	<script async src="https://www.googletagmanager.com/gtag/js?id=G-KZ1S1HBYLX"></script>
-	<script>
-		window.dataLayer = window.dataLayer || [];
-		function gtag(){dataLayer.push(arguments);}
-		gtag('js', new Date());
 
-		gtag('config', 'G-KZ1S1HBYLX');
-	</script>
-	<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9684175232031230"
-	crossorigin="anonymous"></script>
+	{% if site.data.env == nil or site.data.env[0] != 'development' %}
+		<!-- Google tag (gtag.js) -->
+		<script async src="https://www.googletagmanager.com/gtag/js?id=G-KZ1S1HBYLX"></script>
+		<script>
+			window.dataLayer = window.dataLayer || [];
+			function gtag(){dataLayer.push(arguments);}
+			gtag('js', new Date());
+
+			gtag('config', 'G-KZ1S1HBYLX');
+		</script>
+		<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9684175232031230"
+		crossorigin="anonymous"></script>
+	{% endif %}
 </head>
-{% assign pagecategory = page.url | replace: '/', '' %}
+{% assign pagecategoryArr = page.url | url_decode | split: '/' %}
+{% assign pagecategory = pagecategoryArr[1] %}
+{% if pagecategory == nil %}
+	{% assign pagecategory = "index" %}
+{% endif %}
 <body class="dark root-{{pagecategory}}">
 	{% include header.html %}
-
 	<div class="main">
 		<div class="main-wrapper">
 			<div class="dark-box"></div>
