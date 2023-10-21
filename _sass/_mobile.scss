@@ -43,8 +43,12 @@
   }
 
   .index-wrapper {
+    .web-title {
+      font-size: 20px;
+      padding-top: 60px;
+    }
     .index-tip {
-      padding: 30px 0;
+      padding: 10px 0 30px;
       .tip {
         font-size: 14px;
         line-height: 22px;
@@ -101,6 +105,8 @@
 
     .coffee-outter {
       padding: 10px 20px;
+      margin-right: 0!important;
+      margin-bottom: 0;
     }
   }
 

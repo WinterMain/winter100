@@ -1,6 +1,6 @@
 ---
 layout: default
-title: 咖啡
+title: 留言
 sitemap: true
 permalink: /reward
 ---
@@ -29,7 +29,25 @@ permalink: /reward
       </div>
       {% endfor %}
     </div>
+    <div class="discuss-outter">
+      <div class="discuss-wrapper"></div>
+    </div>
   </div>
 </div>
-
 {% include blackhole.html %}
+<script>
+  window.blockCommentOptions = {
+    root: 'discuss-wrapper',
+    href: '{{site.url}}/留言板',
+    locale: {
+      discussTip: '您的留言将提交至区块链中，开启Web3的大门。',
+      discussInputTitle: "留言板",
+      discussInputCommentPlaceholder: "请输入留言...",
+      discussInputCommentTip: "请输入留言",
+      discussInputComment: "提交",
+      discussSubmitting: '您的留言正提交至区块链中...',
+      totalTitle: '共[num]条留言',
+    }
+  };
+</script>
+{% include blockComment.html %}

@@ -42,7 +42,16 @@ layout: default
 
 <script>
   window.blockCommentOptions = {
-    root: 'discuss-wrapper'
+    root: 'discuss-wrapper',
+    locale: {
+      discussTip: '您的回答将提交至区块链中，开启Web3的大门。',
+      discussInputTitle: "回答",
+      discussInputCommentPlaceholder: "请输入回答...",
+      discussInputCommentTip: "请输入回答",
+      discussInputComment: "提交",
+      discussSubmitting: '您的回答正提交至区块链中...',
+      totalTitle: '共[num]条回答',
+    }
   };
 </script>
-<script src="{{ site.baseurl }}/assets/js/block-comment.js?t=4" defer></script>
+{% include blockComment.html %}

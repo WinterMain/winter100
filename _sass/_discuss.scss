@@ -17,6 +17,11 @@
     }
   }
 
+  .discuss-comment {
+    color: var(--text-title);
+    font-size: 15px;
+  }
+
   .discuss-submit {
     padding: 0px 0px 20px;
     position: relative;
@@ -31,6 +36,7 @@
       align-items: center;
       display: flex;
       flex-direction: column;
+      color: var(--text-title);
   
       .discuss-toast-item {
         background-color: #067b06;
