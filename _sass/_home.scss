@@ -87,14 +87,17 @@
 
             .discuss-submit {
               padding-bottom: 0;
+              .input-subtitle {
+                font-size: 12px !important;
+              }
               .input-submit {
-                flex-direction: column-reverse;
+                flex-direction: column;
+                margin-top: 10px;
+                .metamask-info { margin-left: 0; margin-right: 0;}
                 button {
                   margin-left: 0;
                   width: 100%;
-                  &:first-child {
-                    margin-top: 10px;
-                  }
+                  margin-top: 10px;
                 }
               }
             }

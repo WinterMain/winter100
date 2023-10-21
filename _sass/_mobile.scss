@@ -104,9 +104,13 @@
     }
 
     .coffee-outter {
-      padding: 10px 20px;
+      width: 100%;
       margin-right: 0!important;
       margin-bottom: 0;
+      margin-bottom: 20px;
+    }
+    .discuss-outter {
+      margin-top: 40px;
     }
   }
 
@@ -124,9 +128,17 @@
   }
 
   .discuss-wrapper {
-    .discuss-submit .input-submit button {
-      font-size: 14px!important;
-      min-width: 100px!important;
+    .discuss-submit {
+      .input-submit {
+        flex-direction: column;
+        button {
+          font-size: 14px!important;
+          min-width: 100px!important;
+          width: 100%;
+          margin-left: 0px!important;
+          margin-top: 10px;
+        }
+      }
     }
     .discuss-txhash {
       // margin-top: 10px;

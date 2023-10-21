@@ -26,6 +26,67 @@
     padding: 0px 0px 20px;
     position: relative;
 
+    .discuss-dialog {
+      position: absolute;
+      top: 0;
+      left: 0;
+      bottom: 0;
+      right: 0;
+      .discuss-dialog-item {
+        height: 100%;
+        width: 100%;
+        background-color: rgba(27, 27, 27, 0.87);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        .discuss-dialog-item-inner {
+          border: var(--line);
+          padding: 20px;
+          border-radius: 10px;
+          background-color: var(--bg-element);
+          .discuss-dialog-title {
+            font-size: 16px;
+            text-align: center;
+            padding-bottom: 20px;
+          }
+          .discuss-dialog-message {
+            font-size: 14px;
+          }
+
+          .discuss-dialog-btns {
+            text-align: center;
+            padding-bottom: 10px;
+            margin-top: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-wrap: wrap;
+            button {
+              margin-top: 10px;
+              line-height: 30px;
+              border-radius: 5px;
+              outline: none;
+              border: var(--line);
+              padding: 0 10px;
+              cursor: pointer;
+              margin-left: 10px;
+              display: inline-flex;
+              align-items: center;
+              justify-content: center;
+              &:first-child {
+                margin-left: 0;
+              }
+              svg, img {
+                width: 20px;
+                height: 20px;
+                margin-right: 5px;
+              }
+            }
+          }
+        }
+      }
+    }
+
     .discuss-toast {
       position: absolute;
       top: 30px;
@@ -116,9 +177,12 @@
       margin-top: 20px;
       display: flex;
       align-items: center;
-      justify-content: right;
       padding: 0 20px;
       position: relative;
+
+      .flex-empty {
+        flex: 1;
+      }
 
       button {
         min-width: 120px;
@@ -203,9 +267,9 @@
         }
 
         a.discuss-user {
-          text-decoration: none;
-          border-bottom: 1px solid var(--themeColor);
-          display: inline-block;
+          // text-decoration: none;
+          // border-bottom: 1px solid var(--themeColor);
+          // display: inline-block;
         }
 
         .discuss-time {

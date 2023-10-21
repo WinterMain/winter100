@@ -30,11 +30,13 @@
     max-width: 1200px;
     margin-left: auto;
     margin-right: auto;
+    padding: 0 20px;
   }
   .coffee-outter {
-    width: 590px;
+    width: calc((100vw - 40px - 20px)/2);
     color: var(--text-title);
     margin-bottom: 20px;
+    max-width: 590px;
     &:nth-child(2n+1) {
       margin-right: 20px;
     }

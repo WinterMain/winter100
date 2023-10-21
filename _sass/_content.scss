@@ -1,7 +1,9 @@
 .code-content {
   margin-left: auto; margin-right: auto;
+}
+.code-content, .discuss-wrapper {
   overflow-x: auto;
-  color: #2f2f2f;
+  color: var(--text-title);
   word-break: break-word;
   font-size: 15px;
   font-weight: 400;
@@ -31,7 +33,7 @@
   }
 
   p {
-    color: #2f2f2f;
+    color: var(--text-title);
     word-break: break-word;
     font-size: 15px;
     font-weight: 400;
@@ -93,7 +95,7 @@
   hr {
     margin: 0 0 20px;
     border: 0;
-    border-top: 1px solid #ddd;
+    border-top: var(--line);
   }
 
   a {
