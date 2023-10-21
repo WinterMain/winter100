@@ -84,3 +84,8 @@ rewards:
     addr: "qpa3lmppzg2zz3n53s9x7yeanparkeplwudhqa89g8"
     logo: 'assets/img/bch.jpg'
     qr: 'assets/img/bch-qr.png'
+  CET:
+    name: CET
+    addr: "0xff6FC30033269845d196cB48F6a0660598D218D8"
+    logo: 'assets/img/cet.png'
+    qr: 'assets/img/eth-qr.png'
