@@ -103,14 +103,24 @@
       margin-top: 50px;
     }
 
-    .coffee-outter {
-      width: 100%;
-      margin-right: 0!important;
-      margin-bottom: 0;
-      margin-bottom: 20px;
+    .stage {
+      display: flex;
+      flex-direction: column-reverse;
+    }
+
+    .buycoffee {
+      margin-top: 40px;
+      .coffee-outter {
+        width: 100%;
+        margin-right: 0!important;
+        margin-bottom: 0;
+        margin-bottom: 20px;
+        padding: 0 20px;
+      }
     }
     .discuss-outter {
       margin-top: 40px;
+      padding: 0 20px;
     }
   }
 
